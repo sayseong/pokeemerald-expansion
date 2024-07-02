@@ -8,7 +8,6 @@
 #include "text.h"
 #include "window.h"
 
-extern const struct PokedexEntry gPokedexEntries[];
 
 int GetStringCenterAlignXOffset(int fontId, const u8 *str, int totalWidth)
 {
@@ -86,9 +85,9 @@ int Intl_GetListMenuWidth(const struct ListMenuTemplate *listMenu)
     return finalWidth;
 }
 
-void CopyMonCategoryText(int dexNum, u8 *dest)
+void CopyMonCategoryText(u16 species, u8 *dest)
 {
-    u8 *str = StringCopy(dest, gPokedexEntries[dexNum].categoryName);
+    u8 *str = StringCopy(dest, GetSpeciesCategory(species));
     *str = CHAR_SPACE;
     StringCopy(str + 1, gText_Pokemon);
 }
@@ -133,7 +132,7 @@ void PadNameString(u8 *dest, u8 padChar)
         while (length < PLAYER_NAME_LENGTH - 1)
         {
             dest[length] = EXT_CTRL_CODE_BEGIN;
-            dest[length + 1] = EXT_CTRL_CODE_RESET_SIZE;
+            dest[length + 1] = EXT_CTRL_CODE_RESET_FONT;
             length += 2;
         }
     }

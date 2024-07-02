@@ -15,11 +15,11 @@ FallarborTown_BattleTentLobby_EventScript_TurnPlayerNorth::
 	end
 
 FallarborTown_BattleTentLobby_OnFrame:
-	map_script_2 VAR_TEMP_0, 0, FallarborTown_BattleTentLobby_EventScript_GetChallengeStatus
-	map_script_2 VAR_TEMP_0, CHALLENGE_STATUS_SAVING, FallarborTown_BattleTentLobby_EventScript_QuitWithoutSaving
-	map_script_2 VAR_TEMP_0, CHALLENGE_STATUS_PAUSED, FallarborTown_BattleTentLobby_EventScript_ResumeChallenge
-	map_script_2 VAR_TEMP_0, CHALLENGE_STATUS_WON, FallarborTown_BattleTentLobby_EventScript_WonChallenge
-	map_script_2 VAR_TEMP_0, CHALLENGE_STATUS_LOST, FallarborTown_BattleTentLobby_EventScript_LostChallenge
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, 0, FallarborTown_BattleTentLobby_EventScript_GetChallengeStatus
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, CHALLENGE_STATUS_SAVING, FallarborTown_BattleTentLobby_EventScript_QuitWithoutSaving
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, CHALLENGE_STATUS_PAUSED, FallarborTown_BattleTentLobby_EventScript_ResumeChallenge
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, CHALLENGE_STATUS_WON, FallarborTown_BattleTentLobby_EventScript_WonChallenge
+	map_script_2 VAR_TEMP_CHALLENGE_STATUS, CHALLENGE_STATUS_LOST, FallarborTown_BattleTentLobby_EventScript_LostChallenge
 	.2byte 0
 
 FallarborTown_BattleTentLobby_EventScript_GetChallengeStatus::
@@ -31,7 +31,7 @@ FallarborTown_BattleTentLobby_EventScript_QuitWithoutSaving::
 	msgbox FallarborTown_BattleTentLobby_Text_DidntSaveBeforeQuitting, MSGBOX_DEFAULT
 	closemessage
 	frontier_set FRONTIER_DATA_CHALLENGE_STATUS, 0
-	setvar VAR_TEMP_0, 255
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
 	frontier_set FRONTIER_DATA_LVL_MODE, FRONTIER_LVL_50
 	releaseall
 	end
@@ -59,7 +59,7 @@ FallarborTown_BattleTentLobby_EventScript_GivePrize::
 	waitfanfare
 	msgbox FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge2, MSGBOX_DEFAULT
 	closemessage
-	setvar VAR_TEMP_0, 255
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
 	releaseall
 	end
 
@@ -67,7 +67,7 @@ FallarborTown_BattleTentLobby_EventScript_NoRoomForPrize::
 	msgbox FallarborTown_BattleTentLobby_Text_BagFullReturnForPrize, MSGBOX_DEFAULT
 	waitmessage
 	closemessage
-	setvar VAR_TEMP_0, 255
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
 	releaseall
 	end
 
@@ -87,7 +87,7 @@ FallarborTown_BattleTentLobby_EventScript_LostChallenge::
 	waitse
 	msgbox FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge2, MSGBOX_DEFAULT
 	closemessage
-	setvar VAR_TEMP_0, 255
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
 	releaseall
 	end
 
@@ -99,7 +99,7 @@ FallarborTown_BattleTentLobby_EventScript_ResumeChallenge::
 	playse SE_SAVE
 	waitse
 	frontier_set FRONTIER_DATA_PAUSED, FALSE
-	setvar VAR_TEMP_0, 255
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
 	goto FallarborTown_BattleTentLobby_EventScript_EnterChallenge
 
 FallarborTown_BattleTentLobby_EventScript_Attendant::
@@ -140,7 +140,7 @@ FallarborTown_BattleTentLobby_EventScript_TryEnterChallenge::
 	case MULTI_B_PRESSED, FallarborTown_BattleTentLobby_EventScript_LoadPartyCancelChallenge
 
 FallarborTown_BattleTentLobby_EventScript_SaveBeforeChallenge::
-	setvar VAR_TEMP_0, 0
+	setvar VAR_TEMP_CHALLENGE_STATUS, 0
 	frontier_set FRONTIER_DATA_SELECTED_MON_ORDER
 	fallarbortent_init
 	frontier_set FRONTIER_DATA_CHALLENGE_STATUS, CHALLENGE_STATUS_SAVING
@@ -149,7 +149,7 @@ FallarborTown_BattleTentLobby_EventScript_SaveBeforeChallenge::
 	closemessage
 	delay 2
 	call Common_EventScript_SaveGame
-	setvar VAR_TEMP_0, 255
+	setvar VAR_TEMP_CHALLENGE_STATUS, 255
 	goto_if_eq VAR_RESULT, 0, FallarborTown_BattleTentLobby_EventScript_CancelChallengeSaveFailed
 FallarborTown_BattleTentLobby_EventScript_EnterChallenge::
 	special SavePlayerParty
@@ -158,7 +158,7 @@ FallarborTown_BattleTentLobby_EventScript_EnterChallenge::
 	closemessage
 	call FallarborTown_BattleTentLobby_EventScript_WalkToDoor
 	warp MAP_FALLARBOR_TOWN_BATTLE_TENT_CORRIDOR, 2, 7
-	setvar VAR_TEMP_0, 0
+	setvar VAR_TEMP_CHALLENGE_STATUS, 0
 	waitstate
 	end
 
@@ -303,46 +303,17 @@ FallarborTown_BattleTentLobby_EventScript_ExitRules::
 	end
 
 FallarborTown_BattleTentLobby_Text_MakeThinkImJustKid:
-	.string "Fufufufufu.\p"
-	.string "I'm going to make everyone think\n"
-	.string "I'm just a kid and let them play down.\p"
-	.string "Then, I'll shock them and grab\n"
-	.string "the title!$"
+    .string "哼哼哼哼哼。\p我要让大家以为我\n只是个孩子而轻视我，\p然后让他们大吃一惊，\n拔得头筹！$"
 
 FallarborTown_BattleTentLobby_Text_FallarborTentMyFavorite:
-	.string "You know how BATTLE TENTS offer\n"
-	.string "different events in different towns?\p"
-	.string "My favorite is definitely the BATTLE\n"
-	.string "TENT in FALLARBOR TOWN.\p"
-	.string "I think it's fantastic how TRAINERS\n"
-	.string "try to win with all their faith in\l"
-	.string "their POKéMON.$"
+    .string "你知道吗，不同城镇的对战帐篷\n所举行的比赛也不同。\p我最喜欢的就是秋叶镇的\n对战帐篷。\p训练师凭借着自己对\n宝可梦的信任，努力\l赢得比赛，太令人激动了！$"
 
 FallarborTown_BattleTentLobby_Text_CameToCampOut:
-	.string "I heard something about some tent,\n"
-	.string "so I came to camp out.\p"
-	.string "I didn't know that tents these days\n"
-	.string "are so luxurious!\p"
-	.string "Since I'm here, I may as well try\n"
-	.string "my hand at battling!$"
+    .string "我听说过一些关于帐篷的事，\n所以才出来宿营，\p但我没想到现在的帐篷\n会这么豪华！\p既然都来了，就进去试试\n放手一搏吧！$"
 
 FallarborTown_BattleTentLobby_Text_ScottLookingForSomeone:
-	.string "SCOTT: Hi, {PLAYER}{KUN}!\n"
-	.string "So you came out to this BATTLE TENT!\p"
-	.string "The people in these parts tend to be\n"
-	.string "easygoing and laid-back.\p"
-	.string "But, you see, what I'm looking for are\n"
-	.string "people with…\p"
-	.string "How should I say this?\p"
-	.string "Someone bursting with the desire\n"
-	.string "and the drive to win.\p"
-	.string "If there were a TRAINER like that,\n"
-	.string "I'd immediately…\p"
-	.string "Whoops! Never mind!\n"
-	.string "Keep working at it!$"
+    .string "亚希达：嗨，{PLAYER}{KUN}！\n你也来这里的对战帐篷了！\p这里的人看上去都\n不是特别强大，\p但你知道，\n我在找的是有…\p怎么说呢，\p有强烈的渴望\n和必胜信心的人。\p如果有那样的训练师，\n我马上就…\p唔哇！别介意！\n继续加油吧！$"
 
 FallarborTown_BattleTentLobby_Text_ScottMakeChallenge:
-	.string "SCOTT: Instead of wasting your\n"
-	.string "time with the likes of me, why not\l"
-	.string "make a challenge?$"
+    .string "亚希达：比起为了我的爱好\n而浪费时间，何不\l试着去挑战一下？$"
 

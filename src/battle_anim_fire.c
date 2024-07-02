@@ -2,6 +2,7 @@
 #include "battle_anim.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
+#include "palette.h"
 #include "sound.h"
 #include "util.h"
 #include "task.h"
@@ -524,6 +525,18 @@ const struct SpriteTemplate gSpacialRendBladesTemplate2 =
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = AnimFireSpread
+};
+
+// Sea of Fire
+const struct SpriteTemplate gTwisterEmberSpriteTemplate =
+{
+	.tileTag = ANIM_TAG_SMALL_EMBER,
+	.paletteTag = ANIM_TAG_SMALL_EMBER,
+	.oam = &gOamData_AffineOff_ObjNormal_32x32,
+	.anims = gAnims_BasicFire,
+	.images = NULL,
+	.affineAnims = gDummySpriteAffineAnimTable,
+	.callback = AnimMoveTwisterParticle,
 };
 
 static void AnimLavaPlumeOrbitScatter(struct Sprite *sprite)
@@ -1411,7 +1424,7 @@ void AnimTask_BlendBackground(u8 taskId)
 {
     struct BattleAnimBgData animBg;
     GetBattleAnimBg1Data(&animBg);
-    BlendPalette(animBg.paletteId * 16, 16, gBattleAnimArgs[0], gBattleAnimArgs[1]);
+    BlendPalette(BG_PLTT_ID(animBg.paletteId), 16, gBattleAnimArgs[0], gBattleAnimArgs[1]);
     DestroyAnimVisualTask(taskId);
 }
 

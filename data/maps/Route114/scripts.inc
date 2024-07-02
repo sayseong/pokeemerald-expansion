@@ -43,11 +43,11 @@ Route114_EventScript_ReceivedBerry::
 Route114_EventScript_RoarGentleman::
 	lock
 	faceplayer
-	goto_if_set FLAG_RECEIVED_TM05, Route114_EventScript_ReceivedRoar
+	goto_if_set FLAG_RECEIVED_TM_ROAR, Route114_EventScript_ReceivedRoar
 	msgbox Route114_Text_AllMyMonDoesIsRoarTakeThis, MSGBOX_DEFAULT
-	giveitem ITEM_TM05
+	giveitem ITEM_TM_ROAR
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_TM05
+	setflag FLAG_RECEIVED_TM_ROAR
 	msgbox Route114_Text_ExplainRoar, MSGBOX_DEFAULT
 	release
 	end
@@ -177,26 +177,20 @@ Route114_EventScript_Kai::
 	end
 
 Route114_Text_AllMyMonDoesIsRoarTakeThis:
-	.string "All my POKéMON does is ROAR…\n"
-	.string "No one dares to come near me…\p"
-	.string "Sigh… If you would, please take\n"
-	.string "this TM away…$"
+    .string "我的宝可梦总是吼叫…\n没什么敢接近我…\p唉…喜欢的话，\n就把这技能机器拿走吧…$"
 
 Route114_Text_ExplainRoar:
-	.string "TM05 contains ROAR.\n"
-	.string "A ROAR sends POKéMON scurrying.$"
+    .string "技能机器05里面是吼叫。\n用吼叫可以吓跑宝可梦。$"
 
 Route114_Text_Poochyena:
-	.string "Bow! Bowwow!$"
+    .string "吼！哦吼吼！$"
 
 Route114_Text_MeteorFallsSign:
-	.string "METEOR FALLS\n"
-	.string "RUSTBORO CITY THROUGH HERE$"
+    .string "流星瀑布\n通往卡那兹市$"
 
 Route114_Text_FossilManiacsHouseSign:
-	.string "FOSSIL MANIAC'S HOUSE\n"
-	.string "“Fossils gratefully accepted!”$"
+    .string "化石迷之家\n“欢迎带化石来！”$"
 
 Route114_Text_LanettesHouse:
-	.string "LANETTE'S HOUSE$"
+    .string "真弓的家$"
 
