@@ -1266,6 +1266,18 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             case FONT_SMALL_NARROW:
                 DecompressGlyph_SmallNarrow(currChar, textPrinter->japanese);
                 break;
+            case FONT_NARROWER:
+                DecompressGlyph_Narrower(currChar, textPrinter->japanese);
+                break;
+            case FONT_SMALL_NARROWER:
+                DecompressGlyph_SmallNarrower(currChar, textPrinter->japanese);
+                break;
+            case FONT_SHORT_NARROW:
+                DecompressGlyph_ShortNarrow(currChar, textPrinter->japanese);
+                break;
+            case FONT_SHORT_NARROWER:
+                DecompressGlyph_ShortNarrower(currChar, textPrinter->japanese);
+                break;
             case FONT_BRAILLE:
                 break;
             }

@@ -54,13 +54,9 @@ u8 GetChineseFontWidthFunc(u8 fontId)
     {
         case FONT_SMALL:
         case FONT_SMALL_NARROW:
+        case FONT_SMALL_NARROWER:
             return 10;
-        case FONT_NORMAL:
-        case FONT_SHORT:
-        case FONT_SHORT_COPY_1:
-        case FONT_SHORT_COPY_2:
-        case FONT_SHORT_COPY_3:
-        case FONT_NARROW:
+        default:
             return 12;
     }
     return 0;
