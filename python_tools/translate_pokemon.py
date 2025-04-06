@@ -1,6 +1,9 @@
 import os
 import re
 import pandas as pd
+import os
+
+current_folder = os.path.dirname(os.path.abspath(__file__))
 
 def convert_description_to_multiline(description):
     split_text = description.split('\\n')
@@ -12,7 +15,6 @@ def convert_description_to_multiline(description):
     # 拼接成最终的描述
     description = '\n\\t\\t\\t'.join(formatted_text)
     final=r'.description = COMPOUND_STRING(\n\t\t\t' + description+ '),'
-    # print(final)
     return final 
 
 def query_pokemon_info(name, df):
@@ -35,7 +37,7 @@ def replace_species_info(content, df):
         original_block = match.group(0)
         info = query_pokemon_info("SPECIES_"+species, df)
         if not info:
-            print(f"❌ 未找到 {'SPECIES_'+species}，跳过")
+            log(f"❌ 未找到 {'SPECIES_'+species}，跳过")
             continue
 
         block = original_block
@@ -53,16 +55,21 @@ def replace_species_info(content, df):
 
     return content
 
+def log(message):
+    with open(current_folder+"\log.txt", "a", encoding="utf-8") as log_file:
+        log_file.write(message + "\n")
+    print(message)
+
 if __name__ == "__main__":
 
-    work_folder = r"D:\code\pokeemerald-expansion\src\data\pokemon\species_info"
-    df = pd.read_excel(r'D:\code\pokeemerald-expansion\python_tools\src\图鉴对应翻译表手动调整.xlsx')
+    work_folder = current_folder +"\..\src\data\pokemon\species_info"
+    df = pd.read_excel(current_folder +r'\src\图鉴对应翻译表手动调整.xlsx')
     df.set_index('name', inplace=True)
 
     for filename in os.listdir(work_folder):
         if re.match(r'^gen_\d+_families\.h$', filename):
             file_path = os.path.join(work_folder, filename)
-            print(f"✅ 处理文件：{file_path}")
+            log(f"✅ 处理文件：{file_path}")
             with open(file_path, "r", encoding="utf-8") as f:
                 content = f.read()
 
