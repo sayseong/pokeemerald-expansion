@@ -3,10 +3,17 @@ import re
 import pandas as pd
 
 def convert_description_to_multiline(description):
-    lines = description.strip().split('\n')
-    return '        .description = COMPOUND_STRING(\n' + ''.join(
-        f'            "{line}\\n"\n' for line in lines
-    )[:-1] + '        ),'  # 去掉最后一行的 \n 再添加 ), 
+    split_text = description.split('\\n')
+
+    # 格式化输出为需要的三段，并处理最后一段不加\\n
+    formatted_text = [f'"{part}\\\\n"' for part in split_text[:-1]]  # 所有除最后一段外加\\n
+    formatted_text.append(f'"{split_text[-1]}"')  # 最后一段不加\\n
+
+    # 拼接成最终的描述
+    description = '\n\\t\\t\\t'.join(formatted_text)
+    final=r'.description = COMPOUND_STRING(\n\t\t\t' + description+ '),'
+    # print(final)
+    return final 
 
 def query_pokemon_info(name, df):
     try:
@@ -26,9 +33,9 @@ def replace_species_info(content, df):
     for match in matches:
         species = match.group(1)
         original_block = match.group(0)
-        info = query_pokemon_info(species, df)
+        info = query_pokemon_info("SPECIES_"+species, df)
         if not info:
-            print(f"❌ 未找到 {species}，跳过")
+            print(f"❌ 未找到 {'SPECIES_'+species}，跳过")
             continue
 
         block = original_block
