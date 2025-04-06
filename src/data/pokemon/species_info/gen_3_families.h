@@ -239,7 +239,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .weight = 552,
         .description = COMPOUND_STRING(
 			"由于其敏捷的腿部力量，\n"
-			"它可以在一瞬间攻击对手。  \n"
+			"它可以在一瞬间攻击对手。  \n"
 			"它可以切断尾巴的一部分，\n"
 			"然后像导弹一样向对手发射。"),
         .pokemonScale = 256,
@@ -1212,17 +1212,16 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .abilities = { ABILITY_PICKUP, ABILITY_GLUTTONY, ABILITY_QUICK_FEET },
         .bodyColor = BODY_COLOR_WHITE,
-        .speciesName = _("Zigzagoon"),
+        .speciesName = _("蛇纹熊"),
         .cryId = CRY_ZIGZAGOON,
         .natDexNum = NATIONAL_DEX_ZIGZAGOON,
-        .categoryName = _("Tiny Raccoon"),
+        .categoryName = _("豆狸"),
         .height = 4,
         .weight = 175,
         .description = COMPOUND_STRING(
-            "Its restlessness has it constantly moving\n"
-            "in zigzags. It will purposely run into other\n"
-            "Pokémon to start fights. It's thought to\n"
-            "be the oldest form of Zigzagoon."),
+			"这似乎是蛇纹熊最古老的样子。\n"
+			"会之字形乱走，\n"
+			"把周围弄得一团糟。"),
         .pokemonScale = 560,
         .pokemonOffset = 22,
         .trainerScale = 256,
@@ -1278,17 +1277,16 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .abilities = { ABILITY_PICKUP, ABILITY_GLUTTONY, ABILITY_QUICK_FEET },
         .bodyColor = BODY_COLOR_WHITE,
-        .speciesName = _("Linoone"),
+        .speciesName = _("直冲熊"),
         .cryId = CRY_LINOONE,
         .natDexNum = NATIONAL_DEX_LINOONE,
-        .categoryName = _("Rushing"),
+        .categoryName = _("猛冲"),
         .height = 5,
         .weight = 325,
         .description = COMPOUND_STRING(
-            "This very aggressive Pokémon will\n"
-            "recklessly challenge opponents stronger\n"
-            "than itself. It uses its long tongue to\n"
-            "taunt them to then tackle forcefully."),
+			"有着十分好战的性情。\n"
+			"即使是比自己强的对手\n"
+			"也会鲁莽地发起挑战。"),
         .pokemonScale = 321,
         .pokemonOffset = 7,
         .trainerScale = 256,
