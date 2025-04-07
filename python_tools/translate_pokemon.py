@@ -63,7 +63,7 @@ def log(message):
 if __name__ == "__main__":
 
     work_folder = current_folder +"\..\src\data\pokemon\species_info"
-    df = pd.read_excel(current_folder +r'\src\图鉴对应翻译表手动调整.xlsx')
+    df = pd.read_excel(current_folder +r'\src\图鉴.xlsx')
     df.set_index('name', inplace=True)
 
     for filename in os.listdir(work_folder):

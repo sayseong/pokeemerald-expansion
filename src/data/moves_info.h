@@ -20,90 +20,89 @@
 // Shared Move Description entries
 
 const u8 gNotDoneYetDescription[] = _(
-    "This move can't be used. Its\n"
-    "effect is in development.");
+    "该技能效果尚未完成，\n"
+    "目前还不能使用。");
 
 static const u8 sNullDescription[] = _("");
 
 static const u8 sMegaDrainDescription[] = _(
-    "An attack that absorbs\n"
-    "half the damage inflicted.");
+    "可以回复给予对手\n"
+    "伤害的一半HP");
 
 static const u8 sHyperBeamDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+    "使出强力的攻击，但是\n"
+    "下一回合自己将无法动弹。");
 
 static const u8 sRevengeDescription[] = _(
-    "An attack that gains power\n"
-    "if injured by the foe.");
+    "如果受到对手的招式攻击，\n"
+    "就能给予对手2倍的伤害。");
 
 static const u8 sPluckDescription[] = _(
-    "Eats the foe's held Berry\n"
-    "gaining its effect.");
+    "当对手携带树果时，\n"
+    "可以食用并获得其效果。");
 
 static const u8 sHealingWishDescription[] = _(
-    "The user faints to heal up\n"
-    "the recipient.");
+    "虽然自己陷入昏厥，但后备\n"
+    "上场宝可梦会治愈并回复HP。");
 
 static const u8 sWringOutDescription[] = _(
-    "The higher the foe's HP\n"
-    "the more damage caused.");
+    "对手的HP越多，\n"
+    "威力越大。");
 
 static const u8 sUTurnDescription[] = _(
-    "Does damage then switches\n"
-    "out the user.");
+    "在攻击之后急速返回，\n"
+    "和后备宝可梦进行替换。");
 
 static const u8 sStormThrowDescription[] = _(
-    "This attack always results\n"
-    "in a critical hit.");
+    "攻击必定会击中要害。");
 
 static const u8 sCircleThrowDescription[] = _(
-    "Knocks the foe away to end\n"
-    "the battle.");
+    "强制拉后备宝可梦上场。\n"
+    "结束与野生宝可梦的战斗。");
 
 static const u8 sChipAwayDescription[] = _(
-    "Strikes through the foe's\n"
-    "stat changes.");
+    "无视对手的能力变化，\n"
+    "直接给予伤害。");
 
 static const u8 sHeavySlamDescription[] = _(
-    "Does more damage if the\n"
-    "user outweighs the foe.");
+    "自己比对手越重，\n"
+    "威力越大。");
 
 static const u8 sPsyshockDescription[] = _(
-    "Attacks with a psychic wave\n"
-    "that does physical damage.");
+    "将念波实体化攻击对手。\n"
+    "给予物理伤害。");
 
 static const u8 sLavaPlumeDescription[] = _(
-    "Scarlet flames torch\n"
-    "everything around the user.");
+    "用熊熊烈火攻击自己\n"
+    "所有宝可梦。有时造成灼伤。");
 
 static const u8 sShadowForceDescription[] = _(
-    "Vanishes on the first turn\n"
-    "then strikes the next turn.");
+    "第1回合消失踪影，\n"
+    "第2回合攻击对手。");
 
 static const u8 sFalseSwipeDescription[] = _(
-    "An attack that leaves the\n"
-    "foe with at least 1 HP.");
+    "对手至少会留下1HP，\n"
+    "如此般手下留情地攻击。");
 
 static const u8 sDrainingKissDescription[] = _(
-    "An attack that absorbs over\n"
-    "half the damage inflicted.");
+    "回复给予对手伤害的\n"
+    "一半以上的HP。");
 
 static const u8 sCloseCombatDescription[] = _(
-    "A strong attack but lowers\n"
-    "the defensive stats.");
+    "强力攻击，但是自己的\n"
+    "防御和特防会降低。");
 
 static const u8 sHyperspaceHoleDescription[] = _(
-    "Uses a warp hole to attack.\n"
-    "Can't be evaded.");
+    "使用虫洞进行攻击。\n"
+    "无法躲避。");
 
 static const u8 sSuckerPunchDescription[] = _(
-    "Strikes first if the foe\n"
-    "is preparing an attack.");
+    "能比对手先攻击。对手招式\n"
+    "如果不是攻击招式则会失败。");
 
 static const u8 sFeintDescription[] = _(
-    "An attack that hits foes\n"
-    "using moves like Protect.");
+    "能够攻击使用守住类招式的\n"
+    "对手。解除其守护效果。");
 
 const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 {
