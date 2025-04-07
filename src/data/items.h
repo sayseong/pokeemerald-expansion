@@ -16,127 +16,125 @@
 
 // Shared Item Description entries
 
-static const u8 sFullHealDesc[]       = _("Heals all the\n"
-                                          "status problems of\n"
-                                          "one Pokémon.");
+static const u8 sFullHealDesc[]       = _("能回复宝可梦的\n"
+    "所有HP并治愈\n"
+    "所有异常状态。");
 
-static const u8 sPokeDollDesc[]       = _("Use to flee from\n"
-                                          "any battle with\n"
-                                          "a wild Pokémon.");
+static const u8 sPokeDollDesc[]       = _("能吸引宝可梦注\n"
+    "意。在野生宝可梦\n"
+    "的战斗中能逃走。");
 
-static const u8 sMaxReviveDesc[]      = _("Revives a fainted\n"
-                                          "Pokémon with all\n"
-                                          "its HP.");
+static const u8 sMaxReviveDesc[]      = _("能让1只陷入昏厥\n"
+    "的宝可梦重获生\n"
+    "机并回复所有HP。");
 
-static const u8 sHealthFeatherDesc[]  = _("An item that raises\n"
-                                          "the base HP of\n"
-                                          "a Pokémon.");
+static const u8 sHealthFeatherDesc[]  = _("能稍微提高1只\n"
+    "宝可梦的HP的\n"
+    "基础点数。");
 
-static const u8 sMuscleFeatherDesc[]  = _("An item that raises\n"
-                                          "the base Attack of\n"
-                                          "a Pokémon.");
+static const u8 sMuscleFeatherDesc[]  = _("能稍微提高1只\n"
+    "宝可梦的攻击\n"
+    "的基础点数。");
 
-static const u8 sResistFeatherDesc[]  = _("An item that raises\n"
-                                          "the base Defense\n"
-                                          "of a Pokémon.");
+static const u8 sResistFeatherDesc[]  = _("能稍微提高1只\n"
+    "宝可梦的防御\n"
+    "的基础点数。");
 
-static const u8 sGeniusFeatherDesc[]  = _("An item that raises\n"
-                                          "the base Sp. Atk.\n"
-                                          "of a Pokémon.");
+static const u8 sGeniusFeatherDesc[]  = _("能稍微提高1只\n"
+    "宝可梦的特攻\n"
+    "的基础点数。");
 
-static const u8 sCleverFeatherDesc[]  = _("An item that raises\n"
-                                          "the base Sp. Def.\n"
-                                          "of a Pokémon.");
+static const u8 sCleverFeatherDesc[]  = _("能稍微提高1只\n"
+    "宝可梦的特防\n"
+    "的基础点数。");
 
-static const u8 sSwiftFeatherDesc[]   = _("An item that raises\n"
-                                          "the base Speed of\n"
-                                          "a Pokémon.");
+static const u8 sSwiftFeatherDesc[]   = _("能稍微提高1只\n"
+    "宝可梦的速度\n"
+    "的基础点数。");
 
-static const u8 sBigMushroomDesc[]    = _("A rare mushroom\n"
-                                          "that would sell at a\n"
-                                          "high price.");
+static const u8 sBigMushroomDesc[]    = _("珍稀的大蘑菇。\n"
+    "在一些爱好者\n"
+    "中非常有人气。");
 
-static const u8 sShardsDesc[]         = _("A shard from an\n"
-                                          "ancient item. Can\n"
-                                          "be sold cheaply.");
+static const u8 sShardsDesc[]         = _("好像是以前制作\n"
+    "的某道具的碎片。");
 
-static const u8 sRootFossilDesc[]     = _("A fossil of an\n"
-                                          "ancient, seafloor-\n"
-                                          "dwelling Pokémon.");
+static const u8 sRootFossilDesc[]     = _("很久以前栖息在\n"
+    "海里的古代宝\n"
+    "可梦的化石。");
 
-static const u8 sFossilizedFishDesc[] = _("A fossil of an\n"
-                                          "ancient, sea-\n"
-                                          "dwelling Pokémon.");
+static const u8 sFossilizedFishDesc[] = _("很久以前栖息在\n"
+    "海里的古代宝\n"
+    "可梦的化石。");
 
-static const u8 sBeadMailDesc[]       = _("Mail featuring a\n"
-                                          "sketch of the\n"
-                                          "holding Pokémon.");
+static const u8 sBeadMailDesc[]       = _("能显示持有者的\n"
+    "信纸，可以让宝可\n"
+    "梦携带。");
 
-static const u8 sEvolutionStoneDesc[] = _("Makes certain\n"
-                                          "species of Pokémon\n"
-                                          "evolve.");
+static const u8 sEvolutionStoneDesc[] = _("能让某些特定宝\n"
+    "可梦进化的\n"
+    "神奇石头。");
 
-static const u8 sNectarDesc[]         = _("Flower nectar that\n"
-                                          "changes the form\n"
-                                          "of certain Pokémon.");
+static const u8 sNectarDesc[]         = _("颜色鲜艳的花蜜。\n"
+    "可以改变特定\n"
+    "宝可梦的样子。");
 
-static const u8 sCharizarditeDesc[]   = _("This stone enables\n"
-                                          "Charizard to Mega\n"
-                                          "Evolve in battle.");
+static const u8 sCharizarditeDesc[]   = _("让喷火龙携带后，\n"
+    "在战斗时能超级进\n"
+    "化的超级石。");
 
-static const u8 sMewtwoniteDesc[]     = _("This stone enables\n"
-                                          "Mewtwo to Mega\n"
-                                          "Evolve in battle.");
+static const u8 sMewtwoniteDesc[]     = _("让超梦携带后，\n"
+    "在战斗时能超级进\n"
+    "化的超级石。");
 
-static const u8 sSeaIncenseDesc[]     = _("A hold item that\n"
-                                          "slightly boosts\n"
-                                          "Water-type moves.");
+static const u8 sSeaIncenseDesc[]     = _("香气神奇的薰香。\n"
+    "携带后，水属性的\n"
+    "招式会增强。");
 
-static const u8 sOddIncenseDesc[]     = _("A hold item that\n"
-                                          "boosts Psychic-\n"
-                                          "type moves.");
+static const u8 sOddIncenseDesc[]     = _("香气神奇的薰香。\n"
+    "携带后，超能力属\n"
+    "性的招式会增强。");
 
-static const u8 sRockIncenseDesc[]    = _("A hold item that\n"
-                                          "raises the power of\n"
-                                          "Rock-type moves.");
+static const u8 sRockIncenseDesc[]    = _("香气神奇的薰香。\n"
+    "携带后，岩石属性\n"
+    "的招式会增强。");
 
-static const u8 sFullIncenseDesc[]    = _("A held item that\n"
-                                          "makes the holder\n"
-                                          "move slower.");
+static const u8 sFullIncenseDesc[]    = _("香气神奇的薰香。\n"
+    "携带后，行动会比\n"
+    "平时更加迟缓。");
 
-static const u8 sRoseIncenseDesc[]    = _("A hold item that\n"
-                                          "raises the power of\n"
-                                          "Grass-type moves.");
+static const u8 sRoseIncenseDesc[]    = _("香气神奇的薰香。\n"
+    "携带后，草属性的\n"
+    "招式会增强。");
 
-static const u8 sLuckIncenseDesc[]    = _("Doubles money in\n"
-                                          "battle if the\n"
-                                          "holder takes part.");
+static const u8 sLuckIncenseDesc[]    = _("携带它的宝可梦\n"
+    "战斗时出场，就\n"
+    "能获得2倍金钱。");
 
-static const u8 sPureIncenseDesc[]    = _("A hold item that\n"
-                                          "helps repel wild\n"
-                                          "Pokémon.");
+static const u8 sPureIncenseDesc[]    = _("让最前排的宝可\n"
+    "梦携带，野生宝可\n"
+    "梦就会不易出现。");
 
-static const u8 sKingsRockDesc[]      = _("A hold item that\n"
-                                          "may cause flinching\n"
-                                          "when the foe is hit.");
+static const u8 sKingsRockDesc[]      = _("携带后进行攻击，\n"
+    "在造成伤害时，有\n"
+    "时会让对手畏缩。");
 
-static const u8 sFigyBerryDesc[]      = _("A hold item that\n"
-                                          "restores HP but\n"
-                                          "may confuse.");
+static const u8 sFigyBerryDesc[]      = _("携带后危机时可以\n"
+    "回复HP。如果\n"
+    "讨厌味道会混乱。");
 
 static const u8 sQuestionMarksDesc[]  = _("?????");
 
-static const u8 sKeyToRoomDesc[]      = _("A key that opens a\n"
-                                          "door inside the\n"
-                                          "Abandoned Ship.");
+static const u8 sKeyToRoomDesc[]      = _("进入弃船的房间时\n"
+    "所需的钥匙。");
 
-static const u8 sTeraShardDesc[]      = _("These shards may\n"
-                                          "form when a Tera\n"
-                                          "Pokémon faints.");
+static const u8 sTeraShardDesc[]      = _("破碎掉的太晶宝石\n"
+    "有极低概率会\n"
+    "结晶成此物。");
 
-static const u8 sGenericMulchDesc[]   = _("A fertilizer that\n"
-                                          "is unsuitable for\n"
-                                          "local soil.");
+static const u8 sGenericMulchDesc[]   = _("培育树果时的肥料。\n"
+    "但完全不适合\n"
+    "丰缘地区的土壤。");
 
 const struct Item gItemsInfo[] =
 {
