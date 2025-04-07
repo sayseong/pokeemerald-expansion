@@ -771,7 +771,6 @@ const struct Item gItemsInfo[] =
         .name = _("果汁牛奶"),
         .price = (I_PRICE >= GEN_7) ? 400 : 350,
         .holdEffectParam = 70,
-#if I_HEALTH_RECOVERY >= GEN_7
         .description = COMPOUND_STRING(
 			"非常香甜的牛奶。\n"
 			"能让宝可梦回复7\n"
@@ -8121,7 +8120,6 @@ const struct Item gItemsInfo[] =
     {
         .name = _("学习装置"),
         .holdEffect = HOLD_EFFECT_EXP_SHARE,
-        #if I_EXP_SHARE_ITEM >= GEN_6
             .price = 0,
             .description = COMPOUND_STRING(
 			"打开后，能让同行\n"
@@ -9221,7 +9219,6 @@ const struct Item gItemsInfo[] =
         .name = _("文柚果"),
         .pluralName = _("Sitrus Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
-        #if I_SITRUS_BERRY_HEAL >= GEN_4
             .holdEffect = HOLD_EFFECT_RESTORE_PCT_HP,
             .holdEffectParam = 25,
             .description = COMPOUND_STRING(
@@ -10380,8 +10377,8 @@ const struct Item gItemsInfo[] =
         .name = _("TM07"),
         .price = 3000,
         .description = COMPOUND_STRING(
-			"在5回合内降下冰\n"
-			"雹，冰属性以外的宝\n"
+			"在5回合内降下冰雹\n"
+			"，冰属性以外的宝\n"
 			"可梦会受到伤害。"),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10515,9 +10512,9 @@ const struct Item gItemsInfo[] =
         .name = _("TM16"),
         .price = 3000,
         .description = COMPOUND_STRING(
-			"利用神奇的墙壁，在5\n"
-			"回合内减弱特殊\n"
-			"攻击的伤害。"),
+			"利用神奇的墙壁，\n"
+			"在5回合内减弱\n"
+			"特殊攻击的伤害。"),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10725,8 +10722,8 @@ const struct Item gItemsInfo[] =
         .name = _("TM30"),
         .price = 3000,
         .description = COMPOUND_STRING(
-			"投掷一团黑影攻击\n"
-			"。有时会降低\n"
+			"投掷一团黑影攻\n"
+			"击。有时会降低\n"
 			"对手的特防。"),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
