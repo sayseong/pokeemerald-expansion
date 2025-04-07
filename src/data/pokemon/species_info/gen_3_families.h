@@ -239,7 +239,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .weight = 552,
         .description = COMPOUND_STRING(
 			"由于其敏捷的腿部力量，\n"
-			"它可以在一瞬间攻击对手。  \n"
+			"它可以在一瞬间攻击对手。\n"
 			"它可以切断尾巴的一部分，\n"
 			"然后像导弹一样向对手发射。"),
         .pokemonScale = 256,

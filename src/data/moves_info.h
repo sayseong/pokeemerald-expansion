@@ -4602,7 +4602,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_CONVERSION_2] =
     {
-        .name = COMPOUND_STRING("纹理２"),
+        .name = COMPOUND_STRING("纹理2"),
         .description = COMPOUND_STRING(
 			"为抵抗对手最后使用的招式，\n"
 			"从而使自己的属性发生变化。"),
