@@ -150,3 +150,4 @@ Text_SprayWoreOffAskUseX::
 Text_SprayWoreOffUseX::
 	.string "{PLAYER} used the\n"
 	.string "{STR_VAR_2}.$"
+//TODO 汉化
