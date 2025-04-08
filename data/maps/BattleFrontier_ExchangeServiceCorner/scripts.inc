@@ -502,7 +502,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarbos::
     .string "你选择了补碳药剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmHPUp::
-    .string "你选择了ＨＰ增强剂。\n可以吗？$"
+    .string "你选择了HP增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrightpowder::
     .string "你选择了亮光之粉。\n可以吗？$"
