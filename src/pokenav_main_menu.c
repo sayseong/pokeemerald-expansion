@@ -79,7 +79,11 @@ static const struct WindowTemplate sHelpBarWindowTemplate[] =
         .width = 16,
         .height = 2,
         .paletteNum = 0,
-        .baseBlock = 0x36,
+        //.baseBlock = 0x36,
+        //修改，修改地图左下角「放大/缩小」窗口基块
+        //为了给主页面顶部和底部的「精灵导航」一栏的图片汉化留出空间
+        //如果不想修改该基块的话，打开graphic/pokenav/header.png，删除最后面的「欢迎您」三个字的tiles即可
+        .baseBlock = 0x3F,
     },
     DUMMY_WIN_TEMPLATE
 };
