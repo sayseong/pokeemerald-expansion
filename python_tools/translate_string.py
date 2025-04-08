@@ -38,17 +38,7 @@ def replace_move_info(content, df):
             print(f"Error: {e}")
             log(f"❌ {'MOVE_'+move} 没有单独技能效果说明，跳过")
             continue
-    #     # 替换 .moveName
 
-    #     block = re.sub(r'\.name\s*=\s*COMPOUND_STRING\(.*?\),', f'.name = COMPOUND_STRING("{info["中文名"]}"),', block)
-
-    #     # block = re.sub(r'\.categoryName\s*=\s*_\(.*?\),', f'.categoryName = _("{info["categoryName"]}"),', block)
-    #     try:
-    #         block = re.sub(r'\.description\s*=\s*COMPOUND_STRING\((?:.|\n)*?\),\s+#endif', convert_description_to_multiline(info["单独技能效果说明"]), block)
-    #         block = re.sub(r'\.description\s*=\s*COMPOUND_STRING\((?:.|\n)*?\),', convert_description_to_multiline(info["单独技能效果说明"]), block)
-    #     except Exception as e:
-    #         print(f"Error: {e}")
-    #         log(f"❌ {'MOVE_'+move} 没有单独技能效果说明，跳过")
         content = content.replace(original_block, block)
 
     return content
