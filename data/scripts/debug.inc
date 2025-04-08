@@ -547,7 +547,7 @@ Debug_EventScript_FontTest_Text_9::                 @ Special thanks to Nintendo
 	.string "山猫说：小丽，\l"
 	.string "他们“出名”了。\l"
 	.string "♂1/♀1 = ¥1。也就是\l"
-	.string "10 + 9 - 8 = 11。\l
+	.string "10 + 9 - 8 = 11。\l"
 	.string "任天堂GBA可以连接到\l"
 	.string "NGC主机！虽然我不信\l"
 	.string "他闭着眼睛完成的。\l"
