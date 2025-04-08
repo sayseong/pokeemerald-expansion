@@ -206,7 +206,7 @@ RustboroCity_PokemonSchool_Text_ReadWhichTopic:
     .string "想读哪一条？$"
 
 RustboroCity_PokemonSchool_Text_ExplainPoison:
-    .string "宝可梦中毒后，\n会慢慢损失HP，\p此效果在战斗后\n依然残留。\p在探险中，中毒的宝可梦的HP\n也会不断减少。\p使用解毒药可解毒。$"
+    .string "宝可梦中毒后，\n会慢慢损失体力，\p此效果在战斗后\n依然残留。\p在探险中，中毒的宝可梦的体力P\n也会不断减少。\p使用解毒药可解毒。$"
 
 RustboroCity_PokemonSchool_Text_ExplainParalysis:
     .string "宝可梦麻痹后，\n速度会降低，\p战斗中有可能\n无法使用招式。\p此效果战斗后依然残留。\n使用解麻药可治愈。$"
@@ -215,7 +215,7 @@ RustboroCity_PokemonSchool_Text_ExplainSleep:
     .string "宝可梦睡着后，\n就无法攻击了。\p宝可梦有可能自己醒来，\n但如果战斗结束后\l它还在睡觉，那么它会一直睡着。\p用解眠药叫醒它。$"
 
 RustboroCity_PokemonSchool_Text_ExplainBurn:
-    .string "烧伤会降低攻击，\n同时会降低伤者的HP。\p战斗后烧伤还会留下。\n用灼伤药可以治愈。$"
+    .string "烧伤会降低攻击，\n同时会降低伤者的体力。\p战斗后烧伤还会留下。\n用灼伤药可以治愈。$"
 
 RustboroCity_PokemonSchool_Text_ExplainFreeze:
     .string "宝可梦被冰冻后，\n它完全无法反击，\p战斗后依然会保持冻结。\n用解冻药为它解冻。$"

@@ -480,7 +480,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesNature:
     .string "由于性格的差别，有的宝可梦\n喜欢不计后果的攻击，\p有的喜欢尽量保护自己\n不受任何伤害，\p还有一些喜欢慢慢地\n挫败它的敌人。\p不同性格的宝可梦\n都会有各自喜欢的\l并且擅长的招式，\p当然也会有\n不喜欢的招式。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves:
-    .string "有直接给予对手伤害的\n攻击性招式，\p有抵抗敌人攻击或\n回复HP等等的\l防御性招式，\p还有能让对手陷入\n中毒或麻痹等\l种种异常状态的\l奇怪的招式。\p宝可梦会自己决定\n使用三种招式中的哪一种。$"
+    .string "有直接给予对手伤害的\n攻击性招式，\p有抵抗敌人攻击或\n回复体力等等的\l防御性招式，\p还有能让对手陷入\n中毒或麻痹等\l种种异常状态的\l奇怪的招式。\p宝可梦会自己决定\n使用三种招式中的哪一种。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered:
     .string "没有训练师的命令，\n宝可梦有可能并不会\l经常使用某些招式。\p宝可梦不擅长使用\n自己不喜欢的招式。\p如果宝可梦只会\n不太符合它的性格的招式，\l那么就很难凭自己的潜能获得胜利。$"

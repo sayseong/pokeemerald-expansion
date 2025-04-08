@@ -58,7 +58,7 @@ PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem:
     .string "电脑上的\n宝可梦存储系统…\p无论是谁发明的，\n那人一定是个科学狂人！$"
 
 PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP:
-    .string "我的宝可梦吃了蓝橘果后，\n它的HP就恢复了！$"
+    .string "我的宝可梦吃了蓝橘果后，\n它的体力就恢复了！$"
 
 PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon:
     .string "宝可梦分为很多属性，\p每种属性对其他属性\n都有不同的优势和弱点。\p由于宝可梦属性的不同，\n战斗可能会变得很容易或变得更加棘手。$"

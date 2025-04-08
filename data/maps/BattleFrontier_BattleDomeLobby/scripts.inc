@@ -562,4 +562,4 @@ BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
     .string "比赛进程表——也可以说\n树状图——可以在等候室中\l任一位向导处查看。\p树状图上会显示\n不同类型的数据，\p包括之前的比赛战绩，\n培养的宝可梦，\l还有训练师\l的战斗方式。$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules:
-    .string "如果战斗双方的宝可梦\n在比赛中同时濒死，\l则会请裁判分析比赛过程\l并从中选出胜利者。$"
+    .string "如果战斗双方的宝可梦\n在比赛中同时昏厥，\l则会请裁判分析比赛过程\l并从中选出胜利者。$"

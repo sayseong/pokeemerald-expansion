@@ -69,5 +69,5 @@ PetalburgCity_Mart_Text_RepelIsUseful:
     .string "你用过除虫喷雾器吗？\n它能赶走野生宝可梦，\l当你急着赶路的时候会很有用。$"
 
 PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou:
-    .string "你带着\n解毒药吗？\p如果带着中毒的宝可梦行动，\n它会不断失去HP，直至濒死。\l带上些解毒药吧。$"
+    .string "你带着\n解毒药吗？\p如果带着中毒的宝可梦行动，\n它会不断失去体力，直至昏厥。\l带上些解毒药吧。$"
 

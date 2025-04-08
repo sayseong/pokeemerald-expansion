@@ -425,7 +425,7 @@ BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked:
     .string "我的判断正确！\p降落到对手的宝可梦身上的连续打击\n这招果然行得通！$"
 
 BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
-    .string "我们的比赛被判为平局。\p当时间到时，我和\n我对手的宝可梦\l都剩下等量的HP。$"
+    .string "我们的比赛被判为平局。\p当时间到时，我和\n我对手的宝可梦\l都剩下等量的体力。$"
 
 BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
     .string "在对战竞技场中，宝可梦的顺序\n十分重要。\p比如说，如果你的第一只宝可梦\n有某种弱点，\l那你就该安排让你的第二只宝可梦能\l非常有效地\l对付第一只。\p我认为这会是组成一支有效队伍的\n好方法。$"
@@ -446,7 +446,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
     .string "第二个裁决因素是“技术”。\n这个因素评价宝可梦的\l行动效率。\p如果一次行动成功了，\n技术的值就上升。\p如果一次行动失败了，\n技术的值就下降。\p对于进攻行动，如果行动是“非常有效”\n技术的值就上升\l如果是“没什么效果”\l技术的值就下降。\p对于像保护和见切的行动\n技术的值是不会上升的。\p如果对手采取了保护或是见切\n的行动，并且你的宝可梦没能\l打击成功，技术的值也\l不会下降。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
-    .string "第三个裁决因素是“血量”。\n这个因素评价在战斗结束后\lHP还剩下多少。\p这个值把宝可梦\n战斗开始时的HP\l和战斗结束后还剩下的HP都加以考虑。$"
+    .string "第三个裁决因素是“血量”。\n这个因素评价在战斗结束后\l体力还剩下多少。\p这个值把宝可梦\n战斗开始时的体力\l和战斗结束后还剩下的\n体力都加以考虑。$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
     .string "从斗王手里得到了胜利，\n并且干掉了七个训练师！\p恭喜你的挑战\n干得漂亮！$"

@@ -304,7 +304,7 @@ SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove:
     .string "宝可梦对训练师的\n感情非常敏感，\p如果你用爱与细心照料你的宝可梦，\n它们也会回报你的爱。$"
 
 SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting:
-    .string "如果宝可梦在战斗中濒死，\n它会感到不满，\p慢慢开始不信任\n它的训练师。\p换句话说，它不会\n非常喜欢你。$"
+    .string "如果宝可梦在战斗中昏厥，\n它会感到不满，\p慢慢开始不信任\n它的训练师。\p换句话说，它不会\n非常喜欢你。$"
 
 SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
     .string "宝可梦喜欢训练师对它们\n使用物品吗？\p我把蛋白药剂给我的宝可梦时\n它显得很高兴。$"

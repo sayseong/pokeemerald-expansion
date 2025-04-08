@@ -1250,10 +1250,10 @@ PetalburgCity_Gym_Text_ParkerPostBadge:
     .string "你打败了我们的馆主，\n我们必须更加努力训练了。$"
 
 PetalburgCity_Gym_Text_GeorgeIntro:
-    .string "当你以为自己就要赢了时，\n对手的HP恢复了…\p你了解那种\n沮丧的感觉吗？\p就让你体会一下\n这种沮丧吧！$"
+    .string "当你以为自己就要赢了时，\n对手的体力恢复了…\p你了解那种\n沮丧的感觉吗？\p就让你体会一下\n这种沮丧吧！$"
 
 PetalburgCity_Gym_Text_GeorgeDefeat:
-    .string "我来不及恢复HP…\n这么强大的攻击…$"
+    .string "我来不及恢复体力…\n这么强大的攻击…$"
 
 PetalburgCity_Gym_Text_GeorgePostBattle:
     .string "我不该小看\n我们馆主的孩子。\p不，等等！训练师的力量\n全是靠自己的努力得来的，\p我的努力还不够，\n所以才会输。\p加油吧！下面是一击必杀房间。$"

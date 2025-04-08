@@ -340,7 +340,7 @@ BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful::
     .string "我还仅仅是个少年的时候，\n那两位可是非常强大又美丽。\p她们是我们这些训练师的偶像。\p就算现在，时间也不曾掩盖\n她们的能力。\p实际上，她们的宝可梦招式\n在时间的淘洗中愈趋完美。\p但是…在某些方面，我却\n不可抑止地感受到…\p时间太残酷了…$"
 
 BattleFrontier_Lounge7_Text_SoftboiledDesc::
-    .string "最多可以恢复\n使用者最大HP的\n一半。$"
+    .string "最多可以恢复\n使用者最大体力P的\n一半。$"
 
 BattleFrontier_Lounge7_Text_SeismicTossDesc::
     .string "给予对手\n与自己等级相同的\n伤害。$"
@@ -385,7 +385,7 @@ BattleFrontier_Lounge7_Text_IcyWindDesc::
     .string "能降低对手\n速度的\n冷气攻击。$"
 
 BattleFrontier_Lounge7_Text_EndureDesc::
-    .string "在一回合中\n抵挡住任何攻击，\n总是剩下1HP。$"
+    .string "在一回合中\n抵挡住任何攻击，\n总是剩下1点体力。$"
 
 BattleFrontier_Lounge7_Text_PsychUpDesc::
     .string "使自己\n获得对手的\n辅助效果。$"

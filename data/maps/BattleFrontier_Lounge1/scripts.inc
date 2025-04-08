@@ -166,7 +166,7 @@ BattleFrontier_Lounge1_Text_OutstandingAbility:
     .string "…嗯…\p这一只，总而言之，我要说\n能力非凡的杰出！$"
 
 BattleFrontier_Lounge1_Text_BestAspectHP:
-    .string "顺便提一句，它最出色的方面，\n我认为，是它的HP…$"
+    .string "顺便提一句，它最出色的方面，\n我认为，是它的体力…$"
 
 BattleFrontier_Lounge1_Text_BestAspectAtk:
     .string "顺便提一句，它最出色的方面，\n我认为，是它的攻击…$"

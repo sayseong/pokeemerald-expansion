@@ -403,5 +403,5 @@ PetalburgWoods_Text_TrainerTipsExperience:
     .string "训练师小技巧\p所有在战斗中出过场的宝可梦\n都会得到经验值。\p想培养弱小的宝可梦，\n就把它放到队伍列表的左侧。\p战斗开始时，先把它换下场。\n这样它不会受伤\l也能获得经验值了。$"
 
 PetalburgWoods_Text_TrainerTipsPP:
-    .string "训练师小技巧\p除了被打击点数(HP)，宝可梦\n还拥有用来在战斗中\l发动招式的招式点数(PP)。\p如果宝可梦的PP值耗尽，必须把它\n带到宝可梦中心去。$"
+    .string "训练师小技巧\p除了被打击点数HP(体力)，\n宝可梦还拥有用来在战斗\l中发动招式的招式点数\n(PP)。\p如果宝可梦的PP值耗尽，必须把它\n带到宝可梦中心去。$"
 
