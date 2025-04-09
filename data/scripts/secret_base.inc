@@ -21,6 +21,7 @@ SecretBase_Text_ClumpUseSecretPower:
 
 SecretBase_Text_DiscoveredSmallEntrance:
 	.string "Discovered a small entrance!$"
+	//TODO 汉化
 
 	.include "data/text/secret_base_trainers.inc"
 
@@ -646,6 +647,7 @@ SecretBase_EventScript_BattleTrainer::
 	call_if_eq VAR_RESULT, B_OUTCOME_WON, SecretBase_EventScript_WonSecretBaseBattle
 	call_if_eq VAR_RESULT, B_OUTCOME_LOST, SecretBase_EventScript_LostSecretBaseBattle
 	special HealPlayerParty
+	callnative UpdateFollowingPokemon
 	release
 	end
 
@@ -735,3 +737,4 @@ SecretBase_Text_WouldYouLikeToMoveBases:
 SecretBase_Text_MovingCompletedUseSecretPower:
 	.string "Moving completed.\p"
 	.string "Would you like to use the SECRET POWER?$"
+	//TODO 汉化

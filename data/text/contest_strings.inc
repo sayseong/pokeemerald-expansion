@@ -1,772 +1,241 @@
-@ Contest move effect descriptions
-
-gText_HighlyAppealingMove::
-	.string "A highly appealing move.$"
-
-gText_UserMoreEasilyStartled::
-	.string "After this move, the user is\n"
-	.string "more easily startled.$"
-
-gText_GreatAppealButNoMoreToEnd::
-	.string "Makes a great appeal, but\n"
-	.string "allows no more to the end.$"
-
-gText_UsedRepeatedlyWithoutBoringJudge::
-	.string "Can be repeatedly used\n"
-	.string "without boring the JUDGE.$"
-
-gText_AvoidStartledByOthersOnce::
-	.string "Can avoid being startled\n"
-	.string "by others once.$"
-
-gText_AvoidStartledByOthers::
-	.string "Can avoid being startled\n"
-	.string "by others.$"
-
-gText_AvoidStartledByOthersLittle::
-	.string "Can avoid being startled\n"
-	.string "by others a little.$"
-
-gText_UserLessLikelyStartled::
-	.string "After this move, the user is\n"
-	.string "less likely to be startled.$"
-
-gText_SlightlyStartleFrontMon::
-	.string "Slightly startles the\n"
-	.string "POKéMON in front.$"
-
-gText_SlightlyStartleAppealed::
-	.string "Slightly startles those\n"
-	.string "that have made appeals.$"
-
-gText_StartleAppealedBeforeUser::
-	.string "Startles the POKéMON that\n"
-	.string "appealed before the user.$"
-
-gText_StartleAllAppealed::
-	.string "Startles all POKéMON that\n"
-	.string "have done their appeals.$"
-
-gText_BadlyStartleFrontMon::
-	.string "Badly startles the\n"
-	.string "POKéMON in front.$"
-
-gText_BadlyStartleAppealed::
-	.string "Badly startles those that\n"
-	.string "have made appeals.$"
-
-gText_StartleAppealedBeforeUser2::
-	.string "Startles the POKéMON that\n"
-	.string "appealed before the user.$"
-
-gText_StartleAllAppealed2::
-	.string "Startles all POKéMON that\n"
-	.string "have done their appeals.$"
-
-gText_ShiftJudgesAttentionFromOthers::
-	.string "Shifts the JUDGE's\n"
-	.string "attention from others.$"
-
-gText_StartleMonHasJudgesAttention::
-	.string "Startles the POKéMON that\n"
-	.string "has the JUDGE's attention.$"
-
-gText_JamOthersMissesTurn::
-	.string "Jams the others, and misses\n"
-	.string "one turn of appeals.$"
-
-gText_StartleMonsMadeSameTypeAppeal::
-	.string "Startles POKéMON that\n"
-	.string "made a same-type appeal.$"
-
-gText_BadlyStartleCoolAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made COOL appeals.$"
-
-gText_BadlyStartleBeautyAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made BEAUTY appeals.$"
-
-gText_BadlyStartleCuteAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made CUTE appeals.$"
-
-gText_BadlyStartleSmartAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made SMART appeals.$"
-
-gText_BadlyStartleToughAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made TOUGH appeals.$"
-
-gText_MakeMonAfterUserNervous::
-	.string "Makes one POKéMON after\n"
-	.string "the user nervous.$"
-
-gText_MakeAllMonsAfterUserNervous::
-	.string "Makes all POKéMON after\n"
-	.string "the user nervous.$"
-
-gText_WorsenConditionOfThoseMadeAppeals::
-	.string "Worsens the condition of\n"
-	.string "those that made appeals.$"
-
-gText_BadlyStartleMonsGoodCondition::
-	.string "Badly startles POKéMON in\n"
-	.string "good condition.$"
-
-gText_AppealGreatIfPerformedFirst::
-	.string "The appeal works great if\n"
-	.string "performed first.$"
-
-gText_AppealGreatIfPerformedLast::
-	.string "The appeal works great if\n"
-	.string "performed last.$"
-
-gText_AppealAsGoodAsThoseBeforeIt::
-	.string "Makes the appeal as good\n"
-	.string "as those before it.$"
-
-gText_AppealAsGoodAsOneBeforeIt::
-	.string "Makes the appeal as good\n"
-	.string "as the one before it.$"
-
-gText_AppealBetterLaterItsPerformed::
-	.string "The appeal works better\n"
-	.string "the later it is performed.$"
-
-gText_AppealVariesDependingOnTiming::
-	.string "The appeal's quality varies\n"
-	.string "depending on its timing.$"
-
-gText_WorksWellIfSameTypeAsBefore::
-	.string "Works well if it's the same\n"
-	.string "type as the one before.$"
-
-gText_WorksWellIfDifferentTypeAsBefore::
-	.string "Works well if different in\n"
-	.string "type than the one before.$"
-
-gText_AffectedByAppealInFront::
-	.string "Affected by how well the\n"
-	.string "appeal in front goes.$"
-
-gText_UpsConditionHelpsPreventNervousness::
-	.string "Ups the user's condition.\n"
-	.string "Helps prevent nervousness.$"
-
-gText_AppealWorksWellIfConditionGood::
-	.string "The appeal works well if the\n"
-	.string "user's condition is good.$"
-
-gText_NextAppealMadeEarlier::
-	.string "The next appeal can be\n"
-	.string "made earlier next turn.$"
-
-gText_NextAppealMadeLater::
-	.string "The next appeal can be\n"
-	.string "made later next turn.$"
-
-gText_TurnOrderMoreEasilyScrambled::
-	.string "Makes the next turn's order\n"
-	.string "more easily scrambled.$"
-
-gText_ScrambleOrderOfNextAppeals::
-	.string "Scrambles the order of\n"
-	.string "appeals on the next turn.$"
-
-gText_AppealExcitesAudienceInAnyContest::
-	.string "An appeal that excites the\n"
-	.string "audience in any CONTEST.$"
-
-gText_BadlyStartlesMonsGoodAppeals::
-	.string "Badly startles all POKéMON\n"
-	.string "that made good appeals.$"
-
-gText_AppealBestMoreCrowdExcited::
-	.string "The appeal works best the\n"
-	.string "more the crowd is excited.$"
-
-gText_TemporarilyStopCrowdExcited::
-	.string "Temporarily stops the\n"
-	.string "crowd from growing excited.$"
-
-@ Unused move names
-
-gText_RainDance::
-	.string "RAIN DANCE$"
-
-gText_Rage::
-	.string "RAGE$"
-
-gText_FocusEnergy::
-	.string "FOCUS ENERGY$"
-
-gText_Hypnosis::
-	.string "HYPNOSIS$"
-
-gText_Softboiled::
-	.string "SOFTBOILED$"
-
-gText_HornAttack::
-	.string "HORN ATTACK$"
-
-gText_SwordsDance::
-	.string "SWORDS DANCE$"
-
-gText_Conversion::
-	.string "CONVERSION$"
-
-gText_SunnyDay::
-	.string "SUNNY DAY$"
-
-gText_Rest2::
-	.string "REST$"
-
-gText_Vicegrip::
-	.string "VICEGRIP$"
-
-gText_DefenseCurl::
-	.string "DEFENSE CURL$"
-
-gText_LockOn::
-	.string "LOCK-ON$"
-
-@ Contest type names
-
-gContestMoveTypeCoolText::
-	.string "COOL$"
-
-gContestMoveTypeBeautyText::
-	.string "BEAUTY$"
-
-gContestMoveTypeCuteText::
-	.string "CUTE$"
-
-gContestMoveTypeSmartText::
-	.string "SMART$"
-
-gContestMoveTypeToughText::
-	.string "TOUGH$"
-
 gText_AppealNumWhichMoveWillBePlayed::
-	.string "Appeal no. {STR_VAR_1}!\n"
-	.string "Which move will be played?$"
+    .string "{STR_VAR_1}号表演！\n你会选择什么动作？$"
 
 gText_AppealNumButItCantParticipate::
-	.string "Appeal no. {STR_VAR_1}!\n"
-	.string "But it can't participate!$"
+    .string "{STR_VAR_1}号表演！\n但是他无法参与！$"
 
 gText_MonAppealedWithMove::
-	.string "{STR_VAR_1} appealed with\n"
-	.string "{STR_VAR_2}!$"
+    .string "{STR_VAR_1}使用\n{STR_VAR_2}表演！$"
 
 gText_MonWasWatchingOthers::
-	.string "{STR_VAR_1} was watching\n"
-	.string "the others.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}正在看\n着别人。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_AllOutOfAppealTime::
-	.string "We're all out of\n"
-	.string "Appeal Time!{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
-
-@ Unused appeal result texts
-
-gText_ButAppealWasJammed::
-	.string "But the appeal was\n"
-	.string "jammed.$"
-
-gText_FollowedAnotherMonsLead::
-	.string "It followed another\n"
-	.string "POKéMON's lead.$"
-
-gText_ButItMessedUp::
-	.string "But it messed up.$"
-
-gText_WentBetterThanUsual::
-	.string "It went better than\n"
-	.string "usual.$"
-
-gText_JudgeLookedAwayForSomeReason::
-	.string "The JUDGE looked away\n"
-	.string "for some reason.$"
-
-gText_WorkedHardToBuildOnPastMistakes::
-	.string "It worked hard to build on\n"
-	.string "past mistakes.$"
-
-gText_CantMakeAnyMoreMoves::
-	.string "It can't make any more\n"
-	.string "moves.$"
-
-gText_WorkedFrighteninglyWell::
-	.string "It worked frighteningly\n"
-	.string "well.$"
-
-gText_WorkedHardAsStandoutMon::
-	.string "It worked as hard as the\n"
-	.string "standout POKéMON.$"
-
-gText_JudgedLookedOnExpectantly::
-	.string "The JUDGE looked on\n"
-	.string "expectantly.$"
-
-gText_WorkedRatherWell::
-	.string "It worked rather well.$"
-
-gText_WorkedLittleBetterThanUsual::
-	.string "It worked a little better\n"
-	.string "than usual.$"
-
-@ Round result texts
-
-gText_MonFailedToStandOutAtAll::
-	.string "{STR_VAR_1} failed to\n"
-	.string "stand out at all…{PAUSE_UNTIL_PRESS}$"
-
-gText_MonDidntStandOutVeryMuch::
-	.string "{STR_VAR_1} didn't stand\n"
-	.string "out very much…{PAUSE_UNTIL_PRESS}$"
-
-gText_MonCaughtALittleAttention::
-	.string "{STR_VAR_1} caught a\n"
-	.string "little attention.{PAUSE_UNTIL_PRESS}$"
-
-gText_MonAttractedALotOfAttention::
-	.string "{STR_VAR_1} attracted a\n"
-	.string "lot of attention.{PAUSE_UNTIL_PRESS}$"
-
-gText_MonCommandedTotalAttention::
-	.string "{STR_VAR_1} commanded\n"
-	.string "total attention.{PAUSE_UNTIL_PRESS}$"
-
-gText_MonHasntMadeItsAppeal::
-	.string "{STR_VAR_1} hasn't made\n"
-	.string "its appeal.{PAUSE_UNTIL_PRESS}$"
-
-@ Unused
-gText_AnticipationSwelledForMonsAppealNext2::
-	.string "Anticipation swelled for\n"
-	.string "{STR_VAR_1}'s appeal next.$"
-
-gText_EmptyContestString::
-	.string "$"
-
-gText_JudgesViewsOnMonHeldFirm::
-	.string "The JUDGE 's views on\n"
-	.string "{STR_VAR_1} held firm.$"
-
-gText_MonsXChangedPerceptions::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "changed perceptions.$"
-
-gText_MonsAppealEffectWoreOff::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "effect wore off.$"
-
-gText_SpecialAppealsEffectWoreOff::
-	.string "The special appeal's\n"
-	.string "effect wore off.$"
-
-gText_EveryonesAppealsMadeToLookSame::
-	.string "Everyone's appeals were\n"
-	.string "made to look the same.$"
-
-gText_CheapenedMonsAppeal::
-	.string "It cheapened\n"
-	.string "{STR_VAR_2}'s appeal.$"
-
-gText_CheapenedAppealOfThoseAhead::
-	.string "It cheapened the appeal\n"
-	.string "of those ahead.$"
-
-gText_StoleAttentionAwayFromMon::
-	.string "It stole attention away\n"
-	.string "from {STR_VAR_2}.$"
-
-gText_CheapenedMonsAppeal2::
-	.string "It cheapened\n"
-	.string "{STR_VAR_2}'s appeal.$"
-
-gText_SeverelyCheapenedOtherAppeals::
-	.string "It severely cheapened\n"
-	.string "other appeals.$"
-
-gText_AnticipationSwelledForMonsAppealNext::
-	.string "Anticipation swelled for\n"
-	.string "{STR_VAR_1}'s appeal next.$"
-
-gText_CheapenedAppealOfThoseAhead2::
-	.string "It cheapened the appeal\n"
-	.string "of those ahead.$"
-
-gText_CheapenedJudgesFavoriteAppeal::
-	.string "It cheapened the JUDGE's\n"
-	.string "favorite appeal.$"
-
-gText_AppealsOfOthersCheapenedByHalf::
-	.string "The appeals of others\n"
-	.string "were cheapened by half.$"
-
-gText_StoodOutToMakeUpForBeingJammed::
-	.string "It stood out to make up\n"
-	.string "for being jammed.$"
-
-gText_CantParticipateInAppealsAnyMore::
-	.string "It can't participate in\n"
-	.string "appeals any more.$"
-
-gText_TouchedJudgeForFantasticAppeal::
-	.string "It touched the JUDGE for\n"
-	.string "a fantastic appeal.$"
-
-gText_AnticipationRoseForUpcomingAppeals::
-	.string "Anticipation rose for\n"
-	.string "upcoming appeals.$"
-
-gText_StoodOutAsMuchAsSpecialAppeals::
-	.string "It stood out as much as\n"
-	.string "special appeals.$"
-
-gText_StoodOutAsMuchAsMon::
-	.string "It stood out as much as\n"
-	.string "{STR_VAR_1}.$"
-
-gText_JammedAppealsMadeEvenLessNoticeable::
-	.string "Jammed appeals were made\n"
-	.string "even less noticeable.$"
-
-gText_EveryonesAppealsMadeSame::
-	.string "Everyone's appeals were\n"
-	.string "made the same.$"
+    .string "表演时间\n已经结束了！{0xFC 8}盔{0xFC 8}盔$"
 
 @ Appeal result texts
 
 gText_BecameMoreConsciousOfOtherMons::
-	.string "It became more conscious\n"
-	.string "of the other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "其它宝可梦变得\n更警惕了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonCantMakeAnAppealAfterThis::
-	.string "{STR_VAR_1} can't make an\n"
-	.string "appeal after this.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}在这之后\n不能再做动作了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_SettledDownJustLittleBit::
-	.string "It settled down just a\n"
-	.string "little bit.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它只镇静了\n一小会儿。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_BecameObliviousToOtherMons::
-	.string "It became oblivious to\n"
-	.string "the other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它开始忽视\n其它宝可梦了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_BecameLessAwareOfOtherMons::
-	.string "It became less aware of\n"
-	.string "the other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "其它宝可梦的\n关注度降低了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_StoppedCaringAboutOtherMons::
-	.string "It stopped caring about\n"
-	.string "other POKéMON much.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它不再关注\n其他的宝可梦了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_TriedToStartleOtherMons::
-	.string "It tried to startle the\n"
-	.string "other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它试着去惊吓\n其它宝可梦。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_TriedToDazzleOthers::
-	.string "It tried to dazzle the\n"
-	.string "others.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它尝试让其它\n宝可梦眼花。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_JudgeLookedAwayFromMon::
-	.string "The JUDGE looked away\n"
-	.string "from {STR_VAR_1}.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "裁判不再看\n {STR_VAR_1}了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_TriedToUnnerveNextMon::
-	.string "It tried to unnerve the\n"
-	.string "next POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它想让下一位\n宝可梦泄气。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonBecameNervous::
-	.string "{STR_VAR_1} became\n"
-	.string "nervous.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}变得\n紧张了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_AppealTriedToUnnerveWaitingMons::
-	.string "The appeal tried to\n"
-	.string "unnerve waiting POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它让在等待的\n宝可梦胆怯了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_TauntedMonsDoingWell::
-	.string "It taunted POKéMON\n"
-	.string "doing well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它让其它宝可梦\n受到了惊吓。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonRegainedItsForm::
-	.string "{STR_VAR_1} regained its\n"
-	.string "form.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}恢复了。\n{0xFC 8}盔{0xFC 8}盔$"
 
 gText_TriedToJamMonDoingWell::
-	.string "It tried to jam POKéMON\n"
-	.string "doing well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它试图干扰宝可梦\n把动作做好。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_StandoutMonHustledEvenMore::
-	.string "The standout {STR_VAR_1}\n"
-	.string "hustled even more.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "表现出色的{STR_VAR_1}\n加快步伐甩开对手。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_LargelyUnnoticedMonWorkedHard::
-	.string "The largely unnoticed\n"
-	.string "{STR_VAR_1} worked hard.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "不太受人注意的\n{STR_VAR_1}做得更加的努力。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_WorkedAsMuchAsMonBefore::
-	.string "It worked as much as\n"
-	.string "POKéMON before it.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它和之前的那些宝可梦\n一样的的努力。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsAppealDidNotGoWell::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的动作完成\n的不是很理想。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_WorkedAsMuchAsPrecedingMon::
-	.string "It worked as much as the\n"
-	.string "preceding POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "和前面宝可梦的动作\n重复了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsAppealDidNotGoWell2::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的动作完成\n的不是很理想。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsAppealDidNotGoWell3::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的动作完展\n的不是很理想。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsAppealWentSlightlyWell::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went slightly well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的动作\n完成的还可以。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsAppealWentPrettyWell::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went pretty well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的动作\n完成的非常好。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsAppealWentExcellently::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went excellently.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的动作\n完成的太棒了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsAppealWasDud::
-	.string "{STR_VAR_1}'s appeal was\n"
-	.string "a dud.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的动作\n没有作用。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsAppealDidNotWorkVeryWell::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not work very well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的动作\n不是很有用。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsAppealWentSlightlyWell2::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went slightly well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的动作\n完成的还可以。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsAppealWentPrettyWell2::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went pretty well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的动作\n完成的非常好。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsAppealWentVeryWell::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went very well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的动作\n完成的非常棒。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsAppealWentExcellently2::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went excellently.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的动作\n完成的太出色了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_SameTypeAsOneBeforeGood::
-	.string "It's the same type as the\n"
-	.string "POKéMON before--good!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "和前面宝可梦的动作\n完成的一样出色！{0xFC 8}盔{0xFC 8}盔$"
 
 gText_NotSameTypeAsOneBeforeGood::
-	.string "It's not the same type as\n"
-	.string "the one before--good!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它和之前做相同\n动作的一样棒！{0xFC 8}盔{0xFC 8}盔$"
 
 gText_StoodOutMuchMoreThanMonBefore::
-	.string "It stood out much more\n"
-	.string "than the POKéMON before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它比前面的宝可梦\n要出色多了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_DidntDoAsWellAsMonBefore::
-	.string "It didn't do as well as the\n"
-	.string "POKéMON before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它还没有之前的\n宝可梦表演的精彩。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsConditionRoseAboveUsual::
-	.string "{STR_VAR_1}'s condition\n"
-	.string "rose above usual.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的状态\n渐入佳境。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsHotStatusMadeGreatAppeal::
-	.string "{STR_VAR_1}'s hot status\n"
-	.string "made it a great appeal!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的火热状态\n使得表演更加出色！{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MovedUpInLineForNextAppeal::
-	.string "It moved up in line for\n"
-	.string "the next appeal.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "为了接下来的表演，\n它走到了前方。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MovedBackInLineForNextAppeal::
-	.string "It moved back in line once\n"
-	.string "for the next appeal.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它向后退了步\n等待下一轮表演。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_ScrambledUpOrderForNextTurn::
-	.string "It scrambled up the\n"
-	.string "order for the next turn.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "下一轮的\n次序被打乱了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_JudgeLookedAtMonExpectantly::
-	.string "The JUDGE looked at\n"
-	.string "{STR_VAR_1} expectantly.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "裁判非常专注地\n看着{STR_VAR_1}的表演。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_AppealComboWentOverWell::
-	.string "The appeal combo went\n"
-	.string "over well.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "这一套动作\n受到欢迎了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_AppealComboWentOverVeryWell::
-	.string "The appeal combo went\n"
-	.string "over very well.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "这一套动作\n很受欢迎。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_AppealComboWentOverExcellently::
-	.string "The appeal combo went\n"
-	.string "over excellently.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "这一套动作\n非常受欢迎了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonManagedToAvertGaze::
-	.string "{STR_VAR_1} managed to\n"
-	.string "avert its gaze.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}设法\n躲开了它的注视。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonManagedToAvoidSeeingIt::
-	.string "{STR_VAR_1} managed to\n"
-	.string "avoid seeing it.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}设法\n避免看到它。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonIsntFazedByThatSortOfThing::
-	.string "{STR_VAR_1} isn't fazed\n"
-	.string "by that sort of thing.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}并没有因为\n那些小插曲受影响。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonBecameALittleDistracted::
-	.string "{STR_VAR_1} became a\n"
-	.string "little distracted.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}变得有些\n分心了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_TriedToStartleOtherPokemon::
-	.string "It tried to startle the\n"
-	.string "other POKéMON.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "它尝试惊吓\n其它宝可梦。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonLookedDownOutOfDistraction::
-	.string "{STR_VAR_1} looked down\n"
-	.string "out of distraction.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}低着头\n不知道在想什么。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonTurnedBackOutOfDistraction::
-	.string "{STR_VAR_1} turned back\n"
-	.string "out of distraction.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}转过身子\n不知道在想什么。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonCouldntHelpUtteringCry::
-	.string "{STR_VAR_1} couldn't help\n"
-	.string "uttering a cry.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}忍不住\n哭了出来。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonCouldntHelpLeapingUp::
-	.string "{STR_VAR_1} couldn't help\n"
-	.string "leaping up.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}不禁地\n跳了起来。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonTrippedOutOfDistraction::
-	.string "{STR_VAR_1} tripped over\n"
-	.string "out of distraction.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}因为漫不经心\n而被绊倒了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonWasTooNervousToMove::
-	.string "{STR_VAR_1} was too\n"
-	.string "nervous to move.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}紧张得\n不得动弹了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_ButItMessedUp2::
-	.string "But it messed up.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "但是它陷入了困境。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_ButItFailedToMakeTargetNervous::
-	.string "But it failed to make\n"
-	.string "the target nervous.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "它想让对手紧张\n但失败了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_ButItFailedToMakeAnyoneNervous::
-	.string "But it failed to make\n"
-	.string "anyone nervous.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "没有让任何\n一个宝可梦紧张。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_ButItWasIgnored::
-	.string "But it was ignored…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "它被无视了…{0xFC 8}盔{0xFC 8}盔$"
 
 gText_CouldntImproveItsCondition::
-	.string "But it couldn't improve\n"
-	.string "its condition…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "它还不能改善\n自己的状态…{0xFC 8}盔{0xFC 8}盔$"
 
 gText_BadConditionResultedInWeakAppeal::
-	.string "Its bad condition\n"
-	.string "resulted in a weak appeal.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "它糟糕的状态\n使得动作都是有气无力的了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonWasUnaffected::
-	.string "{STR_VAR_1} was\n"
-	.string "unaffected.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}没有\n受到影响。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_RepeatedAppeal::
-	.string "{STR_VAR_1} disappointed\n"
-	.string "by repeating an appeal.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}做了重复的动作，\n真让人失望。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsXWentOverGreat::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "went over great.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}的{STR_VAR_3}表演\n做得相当出色。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsXDidntGoOverWell::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "didn't go over well here…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}的{STR_VAR_3}表演\n没有受到青睐…{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsXGotTheCrowdGoing::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "got the crowd going.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}的{STR_VAR_3}表演\n让围观人群散去了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonCantAppealNextTurn::
-	.string "{STR_VAR_1} can't appeal\n"
-	.string "next turn…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}下一轮\n不能行动了…{0xFC 8}盔{0xFC 8}盔$"
 
 gText_AttractedCrowdsAttention::
-	.string "It attracted the crowd's\n"
-	.string "attention.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "它吸引了\n观众的注意。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_CrowdContinuesToWatchMon::
-	.string "The crowd continues to\n"
-	.string "watch {STR_VAR_3}.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "人们还在关注\n着{STR_VAR_3}。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_MonsMoveIsIgnored::
-	.string "{STR_VAR_1}'s\n"
-	.string "{STR_VAR_2} is ignored.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+    .string "{STR_VAR_1}的\n{STR_VAR_2}被忽视了。{0xFC 8}盔{0xFC 8}盔$"
 
 gText_Contest_Shyness::
-	.string "shyness$"
+    .string "害羞$"
 
 gText_Contest_Anxiety::
-	.string "anxiety$"
+    .string "焦虑$"
 
 gText_Contest_Laziness::
-	.string "laziness$"
+    .string "懒惰$"
 
 gText_Contest_Hesitancy::
-	.string "hesitancy$"
+    .string "踌躇$"
 
 gText_Contest_Fear::
-	.string "fear$"
-
-gText_Contest_Coolness::
-	.string "coolness$"
-
-gText_Contest_Beauty::
-	.string "beauty$"
-
-gText_Contest_Cuteness::
-	.string "cuteness$"
-
-gText_Contest_Smartness::
-	.string "smartness$"
-
-gText_Contest_Toughness::
-	.string "toughness$"
-
-@ Unused
-gText_Tension::
-	.string "TENSION$"
-
-gText_CoolMove::
-	.string "COOL Move$"
-
-gText_BeautyMove::
-	.string "BEAUTY Move$"
-
-gText_CuteMove::
-	.string "CUTE Move$"
-
-gText_SmartMove::
-	.string "SMART Move$"
-
-gText_ToughMove::
-	.string "TOUGH Move$"
-
-gText_3QuestionMarks::
-	.string "???$"
+	.string "恐惧$"

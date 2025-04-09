@@ -103,6 +103,7 @@ Route117_PokemonDayCare_EventScript_GiveMonToRaise::
 	msgbox Route117_PokemonDayCare_Text_WellRaiseYourMon, MSGBOX_DEFAULT
 	waitmoncry
 	special StoreSelectedPokemonInDaycare
+	callnative UpdateFollowingPokemon
 	incrementgamestat GAME_STAT_USED_DAYCARE
 	specialvar VAR_RESULT, GetDaycareState
 	goto_if_eq VAR_RESULT, DAYCARE_ONE_MON, Route117_PokemonDayCare_EventScript_CanRaiseOneMore
@@ -414,3 +415,4 @@ Route117_PokemonDayCare_Text_YoullBeLeftWithJustOne:
 	.string "me, you'll be left with just one.\p"
 	.string "You will be better off if you catch\n"
 	.string "some more, I dare say.$"
+//TODO 汉化
