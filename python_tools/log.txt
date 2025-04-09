@@ -898,3 +898,11 @@
 ❌ 未找到 MOVE_SendWhichMonToPC，跳过
 ❌ 未找到 MOVE_MenuDexNav，跳过
 ❌ 未找到 MOVE_CannotSendMonToBoxHM，跳过
+❌ 未找到 MOVE_ReturnToVar1，跳过
+❌ 未找到 MOVE_SendWhichMonToPC，跳过
+❌ 未找到 MOVE_MenuDexNav，跳过
+❌ 未找到 MOVE_CannotSendMonToBoxHM，跳过
+❌ 未找到 MOVE_ReturnToVar1，跳过
+❌ 未找到 MOVE_SendWhichMonToPC，跳过
+❌ 未找到 MOVE_MenuDexNav，跳过
+❌ 未找到 MOVE_CannotSendMonToBoxHM，跳过
