@@ -225,7 +225,7 @@ SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExitNorth:
 	step_end
 
 SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter:
-    .string "欢迎来到海之博物馆，\p参观费50¥。\n您想参观吗？$"
+    .string "欢迎来到海之博物馆，\p参观费50$。\n您想参观吗？$"
 
 SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself:
     .string "祝您愉快。$"
@@ -252,7 +252,7 @@ SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
     .string "如果不是那些蠢货在\n卡那兹市搞砸了，我们怎么会到这儿来！$"
 
 SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
-    .string "我没带够50¥，从接待员那儿\n混进来花了不少时间。$"
+    .string "我没带够50$，从接待员那儿\n混进来花了不少时间。$"
 
 SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling:
     .string "我想了解大海，\n把那些知识融入我的战斗中。$"

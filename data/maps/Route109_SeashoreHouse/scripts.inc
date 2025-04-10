@@ -114,7 +114,7 @@ Route109_SeashoreHouse_Text_BagFull:
     .string "哎，但是你的包包已经满了，\n我会暂时替你保管的。$"
 
 Route109_SeashoreHouse_Text_WantToBuySodaPop:
-    .string "想买综合调味乳吗？\n宝可梦都很喜欢它！\p只卖300¥一瓶！\n来买吧！$"
+    .string "想买综合调味乳吗？\n宝可梦都很喜欢它！\p只卖300$一瓶！\n来买吧！$"
 
 Route109_SeashoreHouse_Text_HereYouGo:
     .string "给！$"
