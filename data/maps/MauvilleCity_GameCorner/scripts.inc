@@ -633,7 +633,7 @@ MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins:
     .string "你想要些代币\n玩游戏吗？\p但你还没有\n装代币的代币盒。$"
 
 MauvilleCity_GameCorner_Text_WereYouLookingForCoins:
-    .string "您要买代币吗？\p1000$可以买50枚。\n要一些吗？$"
+    .string "您要买代币吗？\p1000¥可以买50枚。\n要一些吗？$"
 
 MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins:
     .string "谢谢惠顾！\n这是您的代币！$"

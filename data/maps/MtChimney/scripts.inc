@@ -630,7 +630,7 @@ MtChimney_Text_Bushaa:
     .string "扑沙！$"
 
 MtChimney_Text_LavaCookiesJust200:
-    .string "釜炎仙贝是\n烟囱山的特产。\p吃吃看吧，一个只卖200$。$"
+    .string "釜炎仙贝是\n烟囱山的特产。\p吃吃看吧，一个只卖200¥。$"
 
 MtChimney_Text_ThankYouDear:
     .string "谢谢惠顾，孩子！$"
