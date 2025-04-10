@@ -482,7 +482,7 @@ BattleFrontier_BattleDomeLobby_Text_ReceivedPrize:
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:
-    .string "啊，你的背包已经满了。\p请将背包整理好之后\n再来找我。$"
+    .string "啊，你的包包已经满了。\p请将包包整理好之后\n再来找我。$"
 
 BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying:
     .string "谢谢你的参与。$"

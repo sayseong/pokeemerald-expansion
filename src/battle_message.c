@@ -1404,16 +1404,16 @@ const u16 gDamageNonTypesDmgStringIds[] =
     [B_MSG_HURT_BY_ROCKS_THROWN] = STRINGID_PKMNHURTBYROCKSTHROWN,
 };
 
-const u8 gText_PkmnIsEvolving[] = _("主人……？\n{STR_VAR_1}的样子……");
-const u8 gText_CongratsPkmnEvolved[] = _("恭喜！{STR_VAR_1}\n进化成了{STR_VAR_2}！{WAIT_SE}\p");
-const u8 gText_PkmnStoppedEvolving[] = _("嗯？\n{STR_VAR_1}的进化好像停止了……\p");
+const u8 gText_PkmnIsEvolving[] = _("哦……！？\n{STR_VAR_1}的样子……！");
+const u8 gText_CongratsPkmnEvolved[] = _("恭喜！{STR_VAR_1}\n进化为{STR_VAR_2}了！{WAIT_SE}\p");
+const u8 gText_PkmnStoppedEvolving[] = _("什么……？\n{STR_VAR_1}的变化停止了！\p");
 const u8 gText_EllipsisQuestionMark[] = _("……?\p");
-const u8 gText_WhatWillPkmnDo[] = _("你想让\n{B_BUFF1}做什么？");
+const u8 gText_WhatWillPkmnDo[] = _("{B_BUFF1}该怎么办？");
 const u8 gText_WhatWillPkmnDo2[] = _("{B_PLAYER_NAME}接下来\n要做什么？");
 const u8 gText_WhatWillWallyDo[] = _("满充接下来\n要做什么？");
 const u8 gText_LinkStandby[] = _("{PAUSE 16}通信待机中……");
-const u8 gText_BattleMenu[] = _("战斗{CLEAR_TO 56}背包\n宝可梦{CLEAR_TO 56}逃跑");
-const u8 gText_SafariZoneMenu[] = _("扔球{CLEAR_TO 56}宝可方块\n接近{CLEAR_TO 56}逃跑");
+const u8 gText_BattleMenu[] = _("战斗{CLEAR_TO 56}包包\n宝可梦{CLEAR_TO 56}逃走");
+const u8 gText_SafariZoneMenu[] = _("扔球{CLEAR_TO 56}宝可方块\n接近{CLEAR_TO 56}逃走");
 const u8 gText_MoveInterfacePP[] = _("PP ");
 const u8 gText_MoveInterfaceType[] = _("属性/");
 const u8 gText_MoveInterfacePpType[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PP\nTYPE/");

@@ -17,7 +17,7 @@ ShoalCave_LowTideEntranceRoom_Text_WantedToMakeShellBell::
     .string "哎…是吗…\n真想做一个贝壳之铃啊…$"
 
 ShoalCave_LowTideEntranceRoom_Text_NoSpaceInYourBag::
-    .string "如果我做好了的话\n你的背包里就没有空间了，\p腾出些地方再回来吧。$"
+    .string "如果我做好了的话\n你的包包里就没有空间了，\p腾出些地方再回来吧。$"
 
 ShoalCave_Text_WasShoalSaltNowNothing::
     .string "这儿原来有浅水盐，\n但现在什么也没有了。$"

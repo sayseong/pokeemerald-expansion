@@ -111,7 +111,7 @@ Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
     .string "火热的战斗把人\n都要烧焦了！\l我已经无法描述我的兴奋了！\p这些送给你，当作是我\n对你的热情的谢礼，\p总共六瓶综合调味乳！$"
 
 Route109_SeashoreHouse_Text_BagFull:
-    .string "哎，但是你的背包已经满了，\n我会暂时替你保管的。$"
+    .string "哎，但是你的包包已经满了，\n我会暂时替你保管的。$"
 
 Route109_SeashoreHouse_Text_WantToBuySodaPop:
     .string "想买综合调味乳吗？\n宝可梦都很喜欢它！\p只卖300$一瓶！\n来买吧！$"

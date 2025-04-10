@@ -422,7 +422,7 @@ BattleFrontier_BattlePalaceLobby_Text_BattlePointsFor7WinStreak:
 	.string "we present you with Battle Point(s).$"
 
 BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
-    .string "看起来你没有地方\n装我们的礼品了，\p整理好背包再\n回来这里吧。$"
+    .string "看起来你没有地方\n装我们的礼品了，\p整理好包包再\n回来这里吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_WeHaveBeenWaiting:
     .string "我们一直在等你…$"

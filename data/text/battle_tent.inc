@@ -45,7 +45,7 @@ FallarborTown_BattleTentLobby_Text_ReceivedPrize::
     .string "{PLAYER}得到了\n{STR_VAR_1}。$"
 
 FallarborTown_BattleTentLobby_Text_BagFullReturnForPrize::
-    .string "哎？\n你的背包已经满了。\p你还是把背包整理\n好后再来领奖吧。$"
+    .string "哎？\n你的包包已经满了。\p你还是把包包整理\n好后再来领奖吧。$"
 
 FallarborTown_BattleTentLobby_Text_ThankYouWaitWhileSaving::
     .string "非常感谢你的参与！\p正在保存，请稍候。$"
@@ -139,7 +139,7 @@ SlateportCity_BattleTentLobby_Text_AwardYouThisPrize::
     .string "为了祝贺你取得了3连胜，\n我们送给你精美的礼品。$"
 
 SlateportCity_BattleTentLobby_Text_NoRoomInBagMakeRoom::
-    .string "哎？\n你的背包没有空间放奖品。\p请整理好背包之后\n再来找我。$"
+    .string "哎？\n你的包包没有空间放奖品。\p请整理好包包之后\n再来找我。$"
 
 SlateportCity_BattleTentLobby_Text_BeenWaitingForYou::
     .string "我们会等着你！\p在你继续战斗之前，\n你必须保存游戏进度。$"

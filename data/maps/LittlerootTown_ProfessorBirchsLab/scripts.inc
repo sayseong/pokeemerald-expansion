@@ -709,7 +709,7 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
     .string "小遥：抓很多宝可梦的话\n会感觉到很快乐！\p我要去各种地方\n寻找不同的宝可梦，\p见到可爱的宝可梦我就要\n用精灵球抓住它们！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
-    .string "呀，你的背包满了。$"
+    .string "呀，你的包包满了。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
     .string "小遥：不知道下面该\n去哪儿找宝可梦呢？$"
@@ -721,7 +721,7 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
     .string "佑树：你知道，抓一大堆\n宝可梦的感觉很快乐。\p我要去各种地方\n寻找不同的宝可梦，\p如果见到很出色的宝可梦，\n我就用精灵球抓回来。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
-    .string "喂，你的背包满了。$"
+    .string "喂，你的包包满了。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
     .string "佑树：下面我该去哪儿\n找宝可梦…$"

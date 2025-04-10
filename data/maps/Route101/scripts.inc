@@ -264,7 +264,7 @@ Route101_Text_HelpMe:
     .string "救…救命！$"
 
 Route101_Text_PleaseHelp:
-    .string "喂！那边那位！\n拜托！救救我！\p在我的背包里！\n里面有精灵球！$"
+    .string "喂！那边那位！\n拜托！救救我！\p在我的包包里！\n里面有精灵球！$"
 
 Route101_Text_DontLeaveMe:
     .string "你…你要去哪儿？！\n别这么丢下我！$"

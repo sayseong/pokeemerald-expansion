@@ -115,7 +115,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion1:
     .string "{PLAYER}收到了药水。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull1:
-    .string "嗯？\n你的背包已经塞满了。$"
+    .string "嗯？\n你的包包已经塞满了。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot:
     .string "{STR_VAR_2}厘米是吗？\p唔…我见过\n比这更大的橡实果。$"
@@ -140,7 +140,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion2:
     .string "{PLAYER}收到了药水。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2:
-    .string "嗯？\n你的背包已经塞满了。$"
+    .string "嗯？\n你的包包已经塞满了。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad:
     .string "{STR_VAR_2}厘米？\p唔…我还见过\n比它更大的莲叶童子。$"
