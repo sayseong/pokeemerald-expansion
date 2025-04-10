@@ -370,7 +370,7 @@ Route116_Text_NewBallAvailableAtMart:
     .string "我们的新精灵球很快\n会在卡那兹市的宝可梦商店出售。\p到时一定要试试！\n谢谢，再见！$"
 
 Route116_Text_BagIsJamPacked:
-    .string "你的背包满了，\n装不下这重复球。$"
+    .string "你的包包满了，\n装不下这重复球。$"
 
 Route116_Text_TokenOfAppreciation:
     .string "我把这种新的精灵球\n送给你，我们最优秀的训练师，\l就当作是我们对你\l为我们递送包裹的谢礼！$"
@@ -403,5 +403,5 @@ Route116_Text_TrainerTipsBToStopEvolution:
     .string "训练师小技巧\p如果你不希望宝可梦进化，\n则应在它试图进化时\l按下B键，\l受惊的宝可梦会停止进化。\p这叫做进化取消。$"
 
 Route116_Text_TrainerTipsBagHasPockets:
-    .string "训练师小技巧\p背包由数个口袋组成，\p得到的物品会\n自动放入合适的口袋中。\p每个训练师都应\n有一个自己的背包。$"
+    .string "训练师小技巧\p包包由数个口袋组成，\p得到的物品会\n自动放入合适的口袋中。\p每个训练师都应\n有一个自己的包包。$"
 

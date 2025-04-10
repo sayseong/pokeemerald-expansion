@@ -870,7 +870,7 @@ TVSecretBaseSecrets_Text_UsedMudBall::
     .string "游客在泥球上跳舞！\p他看起来挺开心的！$"
 
 TVSecretBaseSecrets_Text_UsedBag::
-    .string "…哦？\p游客将手伸进背包\n找呀找呀！\p拿出了\n{STR_VAR_2}！\p看他举着{STR_VAR_2}\n笑的样子！\p活像在做电视广告！$"
+    .string "…哦？\p游客将手伸进包包\n找呀找呀！\p拿出了\n{STR_VAR_2}！\p看他举着{STR_VAR_2}\n笑的样子！\p活像在做电视广告！$"
 
 TVSecretBaseSecrets_Text_UsedCushion::
     .string "游客抓起一个垫子并且…$"

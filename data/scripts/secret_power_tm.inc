@@ -27,8 +27,8 @@ Route111_Text_DontWantThis:
 	.string "什么时候想要了，再来找我吧！$"
 
 Route111_Text_DontHaveAnyRoom:
-	.string "啊，你的背包好像满了！\p"
-	.string "我先帮你拿着，等下次背包\n"
+	.string "啊，你的包包好像满了！\p"
+	.string "我先帮你拿着，等下次包包\n"
 	.string "空出来了，再过来拿吧！$"
 
 Route111_EventScript_SecretPowerMan::

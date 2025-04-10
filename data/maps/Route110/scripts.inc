@@ -849,7 +849,7 @@ Route110_Text_TrainerTipsPrlzSleep:
     .string "训练师小技巧\p敌人被麻痹或催眠后\n会无法自卫。\p这类招式在战斗中\n很重要。$"
 
 Route110_Text_TrainerTipsRegisterItems:
-    .string "训练师小技巧\p背包里的物品可以\n按SELECT键来整理。$"
+    .string "训练师小技巧\p包包里的物品可以\n按SELECT键来整理。$"
 
 Route110_Text_TrickHouseSign:
     .string "“{RIGHT_ARROW}三步，{UP_ARROW}两步，\n进入奇妙的戏法屋。”$"

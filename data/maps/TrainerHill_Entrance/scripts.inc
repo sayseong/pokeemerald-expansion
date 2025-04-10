@@ -341,7 +341,7 @@ TrainerHill_Roof_Text_HaveTheMostMarvelousGift:
     .string "像你这样杰出的人，当然\n只有最杰出的礼物才配得上你！$"
 
 TrainerHill_Roof_Text_FullUpBeBackLaterForThis:
-    .string "哦，不，背包已经塞满了！\n以后再来拿走这个吧！$"
+    .string "哦，不，包包已经塞满了！\n以后再来拿走这个吧！$"
 
 TrainerHill_Roof_Text_GotHereMarvelouslyQuickly:
     .string "啊，等等！\n你来得可真快啊。\p真让我吃惊！你不必\n这么急着来见我的！\p真棒，接待处的\n时间板需要更新了！$"

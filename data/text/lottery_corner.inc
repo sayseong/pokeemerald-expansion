@@ -35,7 +35,7 @@ LilycoveCity_DepartmentStore_1F_Text_AllFiveDigitsMatched::
     .string "啊，天哪，五个数字\n完全相同！\p恭喜你获得特等奖！\n奖品是{STR_VAR_1}！$"
 
 LilycoveCity_DepartmentStore_1F_Text_NoRoomForThis::
-    .string "哎？\n好像你没有放奖品的地方了，\p等你的背包里腾出空间之后，\n请再来找我。$"
+    .string "哎？\n好像你没有放奖品的地方了，\p等你的包包里腾出空间之后，\n请再来找我。$"
 
 LilycoveCity_DepartmentStore_1F_Text_PrizeWeveBeenHolding::
     .string "{PLAYER}？\n啊，我一直在等你，\l这就是替你保管的奖品。$"

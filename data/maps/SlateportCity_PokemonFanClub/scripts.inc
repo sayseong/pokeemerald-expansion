@@ -271,7 +271,7 @@ SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks:
     .string "唔…说不上\n是好是坏…\p你作为训练师，应该\n更努力地照顾好这只宝可梦！\p比如，你可以再给它\n一些树果。$"
 
 SlateportCity_PokemonFanClub_Text_NoSpaceForReward:
-    .string "啊，天哪…\p你的宝可梦真不错。\n给你些奖励吧。\p很遗憾，你的背包\n已经满了。$"
+    .string "啊，天哪…\p你的宝可梦真不错。\n给你些奖励吧。\p很遗憾，你的包包\n已经满了。$"
 
 SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis:
     .string "你的{STR_VAR_1}\n长得真不错！\l这是我们的模范！\p但你如果把这给它的话，\n它会长得更好的！真的！$"

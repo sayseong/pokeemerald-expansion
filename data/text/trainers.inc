@@ -1111,7 +1111,7 @@ Route112_Text_TrentPostBattle::
     .string "试着去徒步旅行吧，我的意思是\n背着一大包的东西在\l山上进行徒步\l旅行。\p我的朋友那样会让你身体\n强壮些的。$"
 
 Route112_Text_TrentRegister::
-    .string "啊，我的腿抽筋了。\n能从我的背包里拿些\l绷带给我吗？\p哦，我的领航员出毛病了！\n现在好了，我会登录上你的。$"
+    .string "啊，我的腿抽筋了。\n能从我的包包里拿些\l绷带给我吗？\p哦，我的领航员出毛病了！\n现在好了，我会登录上你的。$"
 
 Route112_Text_TrentRematchIntro::
     .string "我会通过爬山来保持健康。\n坦率的的说！$"
@@ -2368,7 +2368,7 @@ Route121_Text_CaleDefeat::
     .string "当然是我输了！\n我两只手都在拿东西！$"
 
 Route121_Text_CalePostBattle::
-    .string "我在水静市商业大厦\n买了太多东西了。\p那家店就是这条路上面。\n真想有一个像你的那样的背包。$"
+    .string "我在水静市商业大厦\n买了太多东西了。\p那家店就是这条路上面。\n真想有一个像你的那样的包包。$"
 
 Route121_Text_MylesIntro::
     .string "我最喜欢的事情莫过于\n看看别人的宝可梦了！$"
