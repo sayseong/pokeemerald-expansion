@@ -498,7 +498,7 @@ Route109_Text_BrineyTellMeWhenYouNeedToSail:
     .string "哈奇：想出海的话，\n随时来找我！$"
 
 Route109_Text_ChillAtMyPapasSpot:
-    .string "哟，训练师！\n不论你是火气冲天，\l还是冷酷无边，\l都能在爸爸的店里找到个人空间！$"
+    .string "哟，训练家！\n不论你是火气冲天，\l还是冷酷无边，\l都能在爸爸的店里找到个人空间！$"
 
 Route109_Text_LittleKidsDartAround:
     .string "小孩子跑得很快…\p你得时时刻刻盯着她们，\n这真的很累人。\p我的孩子跟宝可梦在一起，\n大概没什么问题，可是…$"
@@ -519,7 +519,7 @@ Route109_Text_ZigzagoonCry:
     .string "蛇纹熊：咕呜？$"
 
 Route109_Text_SeashoreHouseSign:
-    .string "海滨之屋\p“火热的沙滩上火热的战斗！\n欢迎火热的训练师！”$"
+    .string "海滨之屋\p“火热的沙滩上火热的战斗！\n欢迎火热的训练家！”$"
 
 Route109_Text_TrainerTipsSign:
-    .string "训练师小技巧\p同样等级的宝可梦实力\n并不完全相同。\p据说训练师训练出的宝可梦\n比野生宝可梦更强。$"
+    .string "训练家小技巧\p同样等级的宝可梦实力\n并不完全相同。\p据说训练家训练出的宝可梦\n比野生宝可梦更强。$"

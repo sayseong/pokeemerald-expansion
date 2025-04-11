@@ -5,7 +5,7 @@ Route104_Text_PlantBerriesInSoilTakeThis::
     .string "你可以随意取走生长在\n松软的土壤里的树果，\p但记住离开之前一定要在同一个地方\n种下一枚树果，这是约定俗成的习惯。\p这个给你吧。$"
 
 Route104_Text_TrainersOftenMakeMonHoldBerries::
-    .string "看上去…你一定\n是训练师吧？\p训练师经常会给他们的宝可梦\n带上树果。\p当然，得到树果后是种植\n还是使用都取决于你自己。$"
+    .string "看上去…你一定\n是训练家吧？\p训练家经常会给他们的宝可梦\n带上树果。\p当然，得到树果后是种植\n还是使用都取决于你自己。$"
 
 Route111_Text_WateredPlantsEveryDayTakeBerry::
     .string "我每天都来给它们浇水，\n所以这里开了这么多的花，\l当然，我也收获了非常多的树果。\p给！这个送给你了！$"
@@ -44,7 +44,7 @@ LilycoveCity_Text_BerrySuitsYou::
     .string "要怎么说呢…\p就像我适合穿套装，\n海风适合在海边吹一样，\p你适合拥有树果…\p为什么呢？$"
 
 LilycoveCity_Text_BecauseYoureTrainer::
-    .string "要怎么说呢…\p就因为你是训练师！$"
+    .string "要怎么说呢…\p就因为你是训练家！$"
 
 LilycoveCity_Text_PokeblocksSuitPokemon::
     .string "要怎么说呢…\p就像简单对我的胃口一样，\n能量方块也要对宝可梦胃口。$"

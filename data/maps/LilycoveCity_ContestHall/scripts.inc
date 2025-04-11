@@ -348,7 +348,7 @@ LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous:
     .string "哇，这儿好大！\p空气中充满了紧张感…\n一点也不像是华丽大赛大厅。$"
 
 LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
-    .string "主持：好了，聪明宝可梦和\n训练师们，准备好了吗？！\p努力吧！\n开始！$"
+    .string "主持：好了，聪明宝可梦和\n训练家们，准备好了吗？！\p努力吧！\n开始！$"
 
 LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
     .string "评委：你喜欢这华丽大赛吗？\p和三个朋友一起来，\n大家可以一起参加大赛！$"
@@ -369,10 +369,10 @@ LilycoveCity_ContestHall_Text_YoureBeautifulGrandpa:
     .string "呀啊啊啊！爷爷，你真棒！$"
 
 LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves:
-    .string "即使训练师使用相同的宝可梦，\n他们用来吸引人的招式\l也会不一样，\p这和大家的战斗方式不同\n是同样的道理。$"
+    .string "即使训练家使用相同的宝可梦，\n他们用来吸引人的招式\l也会不一样，\p这和大家的战斗方式不同\n是同样的道理。$"
 
 LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers:
-    .string "我想宝可梦看上去\n比它们的训练师还要聪明。$"
+    .string "我想宝可梦看上去\n比它们的训练家还要聪明。$"
 
 LilycoveCity_ContestHall_Text_StillLoveSmartnessContests:
     .string "无论人们说什么，\n我都喜欢聪明大赛。\p那智慧的绿色…\n它非常…非常…美妙。$"

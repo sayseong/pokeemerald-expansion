@@ -962,7 +962,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
     .string "机械娃娃4问答。\p釜炎镇里，\n老爷爷多还是老奶奶多？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
-    .string "机械娃娃4问答。\p训练师学校里，\n女生有多少个？$"
+    .string "机械娃娃4问答。\p训练家学校里，\n女生有多少个？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
     .string "咔嗒、噼啪…\n我是机械娃娃5！\p主人最得意的作品\n就是我。$"

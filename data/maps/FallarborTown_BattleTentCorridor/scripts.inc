@@ -48,7 +48,7 @@ FallarborTown_ContestHall_Text_DoAllRightInPreliminary:
 
 @ Unused
 FallarborTown_ContestHall_Text_MonAllTheseRibbons:
-    .string "看吧！\n我的宝可梦赢得了所有的缎带！\p你的宝可梦赢到过缎带吗？\n你可以在你的口袋领航员中查看。$"
+    .string "看吧！\n我的宝可梦赢得了所有的缎带！\p你的宝可梦赢到过缎带吗？\n你可以在你的宝可梦导航仪中查看。$"
 
 @ Unused
 FallarborTown_ContestHall_Text_CantWinEverywhere:

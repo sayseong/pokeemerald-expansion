@@ -36,7 +36,7 @@ def replace_move_info(content, df):
             block = re.sub(r'const u8 gText_(\w+)\[\]\s*=\s*_\(".*?"\)\s*;', lambda m: f'const u8 gText_{move}[] = _("{escaped_text}");',block)
         except Exception as e:
             print(f"Error: {e}")
-            log(f"❌ {'MOVE_'+move} 没有单独技能效果说明，跳过")
+            log(f"❌ {'MOVE_'+move} 没有单独招式效果说明，跳过")
             continue
 
         content = content.replace(original_block, block)

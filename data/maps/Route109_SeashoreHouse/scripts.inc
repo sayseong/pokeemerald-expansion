@@ -102,7 +102,7 @@ Route109_SeashoreHouse_EventScript_TrainersNotCompleted::
 	end
 
 Route109_SeashoreHouse_Text_SeashoreHouseIntro:
-    .string "我是海滨之家的老板，\n你可以叫我海先生！\p我最为喜欢的事情\n是观看激烈的宝可梦战斗。\p给我看看你的激情吧！\p如果你能打败这里的所有训练师，\n我这里有奖励送给你。$"
+    .string "我是海滨之家的老板，\n你可以叫我海先生！\p我最为喜欢的事情\n是观看激烈的宝可梦战斗。\p给我看看你的激情吧！\p如果你能打败这里的所有训练家，\n我这里有奖励送给你。$"
 
 Route109_SeashoreHouse_Text_ShowMeSomeHotMatches:
     .string "让我看看激烈的战斗吧！\p我开这海滨之家的\n目的就在于此！$"
@@ -126,7 +126,7 @@ Route109_SeashoreHouse_Text_ThatsTooBad:
     .string "不买吗？\n真遗憾。$"
 
 Route109_SeashoreHouse_Text_DwayneIntro:
-    .string "伙计，知道吗，在海滨之家的\n训练师之中，没有人比我\l更充满激情了！$"
+    .string "伙计，知道吗，在海滨之家的\n训练家之中，没有人比我\l更充满激情了！$"
 
 Route109_SeashoreHouse_Text_DwayneDefeated:
     .string "火热的战斗！\n我心服口服了，伙计！$"
@@ -135,7 +135,7 @@ Route109_SeashoreHouse_Text_DwaynePostBattle:
     .string "在凯那就是要享受\n火热的战斗和冰爽的综合调味乳！$"
 
 Route109_SeashoreHouse_Text_JohannaIntro:
-    .string "无聊的战斗不值得为之付出努力。\p只有火一般的战斗才能使\n训练师和宝可梦成长起来！$"
+    .string "无聊的战斗不值得为之付出努力。\p只有火一般的战斗才能使\n训练家和宝可梦成长起来！$"
 
 Route109_SeashoreHouse_Text_JohannaDefeated:
     .string "好热！$"

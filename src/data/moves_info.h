@@ -20,7 +20,7 @@
 // Shared Move Description entries
 
 const u8 gNotDoneYetDescription[] = _(
-    "该技能效果尚未完成，\n"
+    "该招式效果尚未完成，\n"
     "目前还不能使用。");
 
 static const u8 sNullDescription[] = _("");

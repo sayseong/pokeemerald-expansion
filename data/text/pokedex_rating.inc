@@ -47,7 +47,7 @@ gBirchDexRatingText_LessThan130::
     .string "你可以和其他人交换\n来得到更多的宝可梦。$"
 
 gBirchDexRatingText_LessThan140::
-    .string "听说有些宝可梦如果非常\n喜欢自己的训练师，\l它们就会进化。$"
+    .string "听说有些宝可梦如果非常\n喜欢自己的训练家，\l它们就会进化。$"
 
 gBirchDexRatingText_LessThan150::
     .string "没想到丰缘地区\n会有这么宝可梦种类。$"

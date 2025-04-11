@@ -88,7 +88,7 @@ MtPyre_2F_Text_LeahDefeat:
     .string "哼…\n你还挺难对付嘛。$"
 
 MtPyre_2F_Text_LeahPostBattle:
-    .string "从我曾祖母时代起，我们家族的人\n便是一直这里的训练师…\p守护这座山是\n我的责任…$"
+    .string "从我曾祖母时代起，我们家族的人\n便是一直这里的训练家…\p守护这座山是\n我的责任…$"
 
 MtPyre_2F_Text_ZanderIntro:
     .string "呀啊啊啊！！\n我好害怕啊！$"

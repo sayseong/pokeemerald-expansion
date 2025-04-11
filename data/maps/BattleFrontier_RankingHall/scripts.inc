@@ -101,7 +101,7 @@ BattleFrontier_RankingHall_EventScript_Boy::
 	end
 
 BattleFrontier_RankingHall_Text_ExplainRankingHall:
-    .string "这里是排行榜。\p这里是我们表彰那些在\n对战开拓区中创造伟大记录\l的流芳百世的训练师的地方。$"
+    .string "这里是排行榜。\p这里是我们表彰那些在\n对战开拓区中创造伟大记录\l的流芳百世的训练家的地方。$"
 
 BattleFrontier_RankingHall_Text_DomePikeFactoryRecords:
     .string "对战巨蛋对战水管，\n和对战工厂的记录$"

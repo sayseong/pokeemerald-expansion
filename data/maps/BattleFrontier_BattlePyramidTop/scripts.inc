@@ -225,7 +225,7 @@ BattleFrontier_BattlePyramidTop_Text_PlayerConqueredPyramid:
     .string "金字塔的新征服者。\n让众人记住{PLAYER}这个名字吧！$"
 
 BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere:
-    .string "很高兴能在这里见到你！\p很可惜，\n你来晚了一点，是第二位。\p我们的法老已经被先到金字塔的\n训练师打败。\p不过呢，年轻的探险家，\n你是一位训练师！\p我们的法老说\n你的实力和荣誉都是最高的！\p这边请！\n请带上多一分的能力！$"
+    .string "很高兴能在这里见到你！\p很可惜，\n你来晚了一点，是第二位。\p我们的法老已经被先到金字塔的\n训练家打败。\p不过呢，年轻的探险家，\n你是一位训练家！\p我们的法老说\n你的实力和荣誉都是最高的！\p这边请！\n请带上多一分的能力！$"
 
 BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure:
     .string "年轻的冒险家……\p你是否认为探索\n是冒险的原动力呢？\p你的才智！\p你的实力！\p你的宝可梦！\p最重要的是，还是你的勇气，\n指引你走向未知的世界……$"

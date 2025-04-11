@@ -846,10 +846,10 @@ Route110_Text_MauvilleCitySign:
     .string "110号公路\n{UP_ARROW}紫堇市$"
 
 Route110_Text_TrainerTipsPrlzSleep:
-    .string "训练师小技巧\p敌人被麻痹或催眠后\n会无法自卫。\p这类招式在战斗中\n很重要。$"
+    .string "训练家小技巧\p敌人被麻痹或催眠后\n会无法自卫。\p这类招式在战斗中\n很重要。$"
 
 Route110_Text_TrainerTipsRegisterItems:
-    .string "训练师小技巧\p包包里的物品可以\n按SELECT键来整理。$"
+    .string "训练家小技巧\p包包里的物品可以\n按SELECT键来整理。$"
 
 Route110_Text_TrickHouseSign:
     .string "“{RIGHT_ARROW}三步，{UP_ARROW}两步，\n进入奇妙的戏法屋。”$"
@@ -864,10 +864,10 @@ Route110_Text_ImagineSeeingYouHere:
     .string "小田卷博士：嗨，{PLAYER}{KUN}！\n想不到在这儿见到你！\p我家{RIVAL}呢？$"
 
 Route110_Text_HeardYouInstallMatchCall:
-    .string "哦，明白了！\n你们两个不是一起行动的，\l嗯，也罢。\p啊，对了，听说你的口袋领航员里\n装了对战寻呼系统，\p那么，我们也互相\n登记信息吧。\p那样的话，就算我们不在一起，\n我也能对你的宝可梦图鉴作出评价了。\p… … … … … …$"
+    .string "哦，明白了！\n你们两个不是一起行动的，\l嗯，也罢。\p啊，对了，听说你的宝可梦导航仪里\n装了对战寻呼系统，\p那么，我们也互相\n登记信息吧。\p那样的话，就算我们不在一起，\n我也能对你的宝可梦图鉴作出评价了。\p… … … … … …$"
 
 Route110_Text_RegisteredBirchInPokenav:
-    .string "把小田卷博士的信息\n登记进口袋领航员里。$"
+    .string "把小田卷博士的信息\n登记进宝可梦导航仪里。$"
 
 Route110_Text_KeepAnEyeOutForRival:
     .string "小田卷博士：{PLAYER}{KUN}…\p帮我看着我家{RIVAL}。\n… … … … … …\p好了，我该走了，\n再见，{PLAYER}{KUN}！$"

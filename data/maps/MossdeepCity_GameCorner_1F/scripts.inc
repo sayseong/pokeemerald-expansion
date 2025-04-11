@@ -39,13 +39,13 @@ RS_MysteryEventsHouse_EventScript_Door::
 	end
 
 RS_MysteryEventsHouse_Text_OldManGreeting:
-    .string "我年轻的时候，作为训练师\n在全世界旅游。\p现在我已经变成一个老头了，\n我现在唯一的乐趣就是观看\l年轻训练师的战斗。$"
+    .string "我年轻的时候，作为训练家\n在全世界旅游。\p现在我已经变成一个老头了，\n我现在唯一的乐趣就是观看\l年轻训练家的战斗。$"
 
 RS_MysteryEventsHouse_Text_DoorIsLocked:
     .string "门锁上了。$"
 
 RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer:
-    .string "名叫{STR_VAR_1}的训练师\n来我家拜访了。\p你想挑战\n{STR_VAR_1}吗？$"
+    .string "名叫{STR_VAR_1}的训练家\n来我家拜访了。\p你想挑战\n{STR_VAR_1}吗？$"
 
 RS_MysteryEventsHouse_Text_YouWontBattle:
     .string "你不想战斗？看不到你的战斗\n我好失望啊…$"

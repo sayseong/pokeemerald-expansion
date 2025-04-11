@@ -99,7 +99,7 @@ SSTidalRooms_Text_JedDefeat:
     .string "仁：唉…$"
 
 SSTidalRooms_Text_JedPostBattle:
-    .string "仁：我们爱情的力量\n头一回没能取胜！\l你肯定是一名很强的训练师！$"
+    .string "仁：我们爱情的力量\n头一回没能取胜！\l你肯定是一名很强的训练家！$"
 
 SSTidalRooms_Text_JedNotEnoughMons:
     .string "JED: You only have one POKeMON?\nIsn't that just too lonesome?$"
@@ -111,7 +111,7 @@ SSTidalRooms_Text_LeaDefeat:
     .string "夏帆：哦，完了！$"
 
 SSTidalRooms_Text_LeaPostBattle:
-    .string "夏帆：真是难以置信！\n我们爱情的力量输了…\l你肯定是一名很强的训练师！$"
+    .string "夏帆：真是难以置信！\n我们爱情的力量输了…\l你肯定是一名很强的训练家！$"
 
 SSTidalRooms_Text_LeaNotEnoughMons:
     .string "夏帆：我也想对战…\n但你连两只宝可梦都没有…$"
@@ -126,7 +126,7 @@ SSTidalRooms_Text_GarretPostBattle:
     .string "或许我应该叫爸爸\n给我弄艘快艇。\l属于我和宝可梦的快艇！$"
 
 SSTidalRooms_Text_NaomiIntro:
-    .string "哦，你真是个可爱的训练师。\n想来杯茶吗？\l还是想来一场对战？$"
+    .string "哦，你真是个可爱的训练家。\n想来杯茶吗？\l还是想来一场对战？$"
 
 SSTidalRooms_Text_NaomiDefeat:
     .string "我明白了，\n你是活跃型的。$"

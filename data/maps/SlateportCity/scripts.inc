@@ -1045,7 +1045,7 @@ SlateportCity_Text_GetNameRaterToHelpYou:
     .string "想为你的宝可梦\n改名的话，就\l去找姓名占卜师帮忙吧。$"
 
 SlateportCity_Text_CantChangeTradeMonName:
-    .string "你不能更改\n交换得来的宝可梦的名字，\p因为那名字中\n包含着原先的训练师对它的情感。$"
+    .string "你不能更改\n交换得来的宝可梦的名字，\p因为那名字中\n包含着原先的训练家对它的情感。$"
 
 SlateportCity_Text_BattleTentBuiltRecently:
     .string "最近凯那市\n出现了一个对战帐篷。\p虽然道馆也很有趣，\n但对战帐篷更棒。\p在对战帐篷里\n能见到很厉害的宝可梦！$"
@@ -1162,16 +1162,16 @@ SlateportCity_Text_YouDroveTeamAquaAway:
     .string "亚希达：嗯？\n我以前见过你。\p我没向你介绍过自己吗？\n我叫亚希达，\p刚才看到水舰队\n好像很慌张地逃跑了，\p我想——是你赶走他们的吧？$"
 
 SlateportCity_Text_MaybeThisTrainer:
-    .string "亚希达：嗯…\n也许，只是也许，这个训练师…$"
+    .string "亚希达：嗯…\n也许，只是也许，这个训练家…$"
 
 SlateportCity_Text_LetsRegisterEachOther:
-    .string "亚希达：好吧！我想我们\n会成为好朋友的。\p我们在各自的口袋领航员里\n登记信息吧。\p… … … … … …$"
+    .string "亚希达：好吧！我想我们\n会成为好朋友的。\p我们在各自的宝可梦导航仪里\n登记信息吧。\p… … … … … …$"
 
 SlateportCity_Text_RegisteredScott:
-    .string "把亚希达的个人信息\n登记到口袋领航员里。$"
+    .string "把亚希达的个人信息\n登记到宝可梦导航仪里。$"
 
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
-    .string "亚希达：虽然我想跟你同行，\n但我还得去找其他\l有天赋的训练师。\p我会去其他城市\n逛逛的。\p那么，回头见，{PLAYER}{KUN}！$"
+    .string "亚希达：虽然我想跟你同行，\n但我还得去找其他\l有天赋的训练家。\p我会去其他城市\n逛逛的。\p那么，回头见，{PLAYER}{KUN}！$"
 
 SlateportCity_Text_TakingBattleTentChallenge:
-    .string "亚希达：喂，好啊！\n这不是{PLAYER}{KUN}吗！\p{PLAYER}{KUN}，我猜——你\n要去挑战对战帐篷吧？\p好主意！\n真是个好主意！\p毕竟，只有强大的训练师\n才敢挑战对战帐篷！\p尽自己最大的努力取胜吧！$"
+    .string "亚希达：喂，好啊！\n这不是{PLAYER}{KUN}吗！\p{PLAYER}{KUN}，我猜——你\n要去挑战对战帐篷吧？\p好主意！\n真是个好主意！\p毕竟，只有强大的训练家\n才敢挑战对战帐篷！\p尽自己最大的努力取胜吧！$"

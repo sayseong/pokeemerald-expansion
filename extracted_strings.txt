@@ -1170,7 +1170,7 @@ POKéMON2	gEasyChatGroupName_Pokemon2
 2F	gText_TrainerHill2F
 3F	gText_TrainerHill3F
 4F	gText_TrainerHill4F
-要让{STR_VAR_1}学习哪个技能呢?	gText_TeachWhichMoveToPkmn
+要让{STR_VAR_1}学习哪个招式呢?	gText_TeachWhichMoveToPkmn
 要学习{STR_VAR_2}吗?	gText_MoveRelearnerTeachMoveConfirm
 {STR_VAR_1}学会了\n{STR_VAR_2}!	gText_MoveRelearnerPkmnLearnedMove
 {STR_VAR_1}想要学习\n{STR_VAR_2}……\p为了学习{STR_VAR_2},\p要忘记其他的招式吗?	gText_MoveRelearnerPkmnTryingToLearnMove
@@ -1232,4 +1232,4 @@ AM	gText_AM
 PM	gText_PM
 {START_BUTTON} 回忆	gText_Relearn
 更改昵称	gText_Rename
-不能把那只精灵送回电脑，\n因为它学会了秘传技能。{PAUSE_UNTIL_PRESS}	gText_CannotSendMonToBoxHM
+不能把那只精灵送回电脑，\n因为它学会了秘传招式。{PAUSE_UNTIL_PRESS}	gText_CannotSendMonToBoxHM

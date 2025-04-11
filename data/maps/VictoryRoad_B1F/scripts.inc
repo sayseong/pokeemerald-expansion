@@ -42,7 +42,7 @@ VictoryRoad_B1F_Text_ShannonDefeat:
     .string "是你们之间的信赖\n将你们紧紧联系在一起。$"
 
 VictoryRoad_B1F_Text_ShannonPostBattle:
-    .string "形影不离，患难与共，\n宝可梦和训练师的信任会逐渐增强。$"
+    .string "形影不离，患难与共，\n宝可梦和训练家的信任会逐渐增强。$"
 
 VictoryRoad_B1F_Text_MichelleIntro:
     .string "这里不是终点，这只是通向\n宝可梦联盟的道路上的一个小站。$"

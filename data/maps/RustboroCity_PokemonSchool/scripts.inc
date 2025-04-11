@@ -215,7 +215,7 @@ RustboroCity_PokemonSchool_Text_ExplainSleep:
     .string "宝可梦睡着后，\n就无法攻击了。\p宝可梦有可能自己醒来，\n但如果战斗结束后\l它还在睡觉，那么它会一直睡着。\p用解眠药叫醒它。$"
 
 RustboroCity_PokemonSchool_Text_ExplainBurn:
-    .string "烧伤会降低攻击，\n同时会降低伤者的体力。\p战斗后烧伤还会留下。\n用灼伤药可以治愈。$"
+    .string "灼伤会降低攻击，\n同时会降低伤者的体力。\p战斗后灼伤还会留下。\n用灼伤药可以治愈。$"
 
 RustboroCity_PokemonSchool_Text_ExplainFreeze:
     .string "宝可梦被冰冻后，\n它完全无法反击，\p战斗后依然会保持冻结。\n用解冻药为它解冻。$"
@@ -242,17 +242,17 @@ RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
     .string "带着树果的宝可梦\n能够自我治疗…\p许多物品都可以\n让宝可梦带上…\p唉，及时记下笔记\n太难了…$"
 
 RustboroCity_PokemonSchool_Text_StudentsNotes:
-    .string "这是这个学生的笔记本…\p用精灵球\n可以抓住宝可梦。\p一个训练师最多可以\n同时携带六只宝可梦。\p训练师就是捕捉宝可梦，\n并养育它们，与它们\l共同战斗的人。\p训练师的任务是\n打败在宝可梦道馆中\l等待着的强大训练师。$"
+    .string "这是这个学生的笔记本…\p用精灵球\n可以抓住宝可梦。\p一个训练家最多可以\n同时携带六只宝可梦。\p训练家就是捕捉宝可梦，\n并养育它们，与它们\l共同战斗的人。\p训练家的任务是\n打败在宝可梦道馆中\l等待着的强大训练家。$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
-    .string "你好，我们以前见过面吧？\n我想是在橙华市见过。\p我来介绍一下自己。\n我叫亚希达，\p我是为了寻找\n出色的训练师而旅行，\p具体点说，就是\n寻找战斗的专家。\p可以问问你为什么会来学校吗？\n你也是训练师吗？\p你首先要做的是\n拥有一只会居合斩的宝可梦。\p如果我记得不错，\n这镇上就有人拥有居合斩。$"
+    .string "你好，我们以前见过面吧？\n我想是在橙华市见过。\p我来介绍一下自己。\n我叫亚希达，\p我是为了寻找\n出色的训练家而旅行，\p具体点说，就是\n寻找战斗的专家。\p可以问问你为什么会来学校吗？\n你也是训练家吗？\p你首先要做的是\n拥有一只会居合斩的宝可梦。\p如果我记得不错，\n这镇上就有人拥有居合斩。$"
 
 RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown:
     .string "亚希达：嗯…\p不知道这里的学生天赋如何。\n也许有潜力的人并不在此。$"
 
 RustboroCity_PokemonSchool_Text_ScottStoneBadge:
-    .string "亚希达：哦，那是什么？\p岩石徽章是吗？\n真令人吃惊。\p但是，我更想看看\n你的战斗。\p仅凭一枚联盟徽章\n很难看出训练师的水平高低。$"
+    .string "亚希达：哦，那是什么？\p岩石徽章是吗？\n真令人吃惊。\p但是，我更想看看\n你的战斗。\p仅凭一枚联盟徽章\n很难看出训练家的水平高低。$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
-    .string "你好，我们以前见过面吧？\n我想是在橙华市见过。\p我来介绍一下自己。\n我叫亚希达，\p我是为了寻找\n出色的训练师而旅行，\p具体点说，就是\n寻找战斗的专家。\p哦，那是什么？\p岩石徽章是吗？\p这对你这样的\n新人训练师来说很不错了。\p但是，我更想看看\n你的战斗。\p仅凭一枚联盟徽章\n很难看出训练师的水平高低。$"
+    .string "你好，我们以前见过面吧？\n我想是在橙华市见过。\p我来介绍一下自己。\n我叫亚希达，\p我是为了寻找\n出色的训练家而旅行，\p具体点说，就是\n寻找战斗的专家。\p哦，那是什么？\p岩石徽章是吗？\p这对你这样的\n新人训练家来说很不错了。\p但是，我更想看看\n你的战斗。\p仅凭一枚联盟徽章\n很难看出训练家的水平高低。$"
 

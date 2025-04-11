@@ -356,7 +356,7 @@ BattleFrontier_BattleArenaLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
-    .string "在这里，训练师的战斗意志将\n受到考验！\p欢迎来到对战竞技场！\p我是你的三回合定胜负锦标赛的指导！$"
+    .string "在这里，训练家的战斗意志将\n受到考验！\p欢迎来到对战竞技场！\p我是你的三回合定胜负锦标赛的指导！$"
 
 BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
     .string "那么，你想要进行\n对战竞技场挑战吗？$"
@@ -365,7 +365,7 @@ BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
     .string "我们将在另外的场合下\n等待你的挑战！$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
-    .string "在对战竞技场中，我们开展\n三回定胜负锦标赛\p所有的参赛者以三只宝可梦\n组成的一个队参加。\p这三只宝可梦必须要以他们\n出现的顺序安排好先后次序。\p在战斗中，宝可梦会以事先\n安排好的顺序每次出现一只。\p一旦一只宝可梦加入了战斗，\n他就必须一直持续到比赛结束。\p如果一场比赛经过三个回合还无结果，\n那就要进行裁决。\p如果你要中断挑战，\n请先保存游戏。\p如果你不保存，你下次就不能继续\n你的挑战。\p如果你能成功击败七个\n训练师的话，\l我们会给你对战点数。$"
+    .string "在对战竞技场中，我们开展\n三回定胜负锦标赛\p所有的参赛者以三只宝可梦\n组成的一个队参加。\p这三只宝可梦必须要以他们\n出现的顺序安排好先后次序。\p在战斗中，宝可梦会以事先\n安排好的顺序每次出现一只。\p一旦一只宝可梦加入了战斗，\n他就必须一直持续到比赛结束。\p如果一场比赛经过三个回合还无结果，\n那就要进行裁决。\p如果你要中断挑战，\n请先保存游戏。\p如果你不保存，你下次就不能继续\n你的挑战。\p如果你能成功击败七个\n训练家的话，\l我们会给你对战点数。$"
 
 BattleFrontier_BattleArenaLobby_Text_OkayToSave:
     .string "在带你进入对战竞技场之前你必须存档。\n可以了吗？$"
@@ -389,7 +389,7 @@ BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
     .string "亲爱的挑战者！\p你在关机之前没有\n存档，是不是？\p很不幸，但这是由于你在挑战中\n失去比赛资格\l所造成的。\p当然，你可以开始一次新的\n挑战。$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
-    .string "我们恭喜你一连串漂亮地战胜了\n七个训练师！$"
+    .string "我们恭喜你一连串漂亮地战胜了\n七个训练家！$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
     .string "你的成绩将被记录。\n在我记录游戏时请稍等。$"
@@ -440,7 +440,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
     .string "三回合定胜负锦标赛有特殊规则，\n而不像常规战斗。\p第一，每场战斗只进行\n三个回合。\p如果在三个回合之后还未\n分胜负，就要进行裁决。\p裁判会根据宝可梦的战斗情况\n判出胜者。\p同样，宝可梦在出比赛结果之前\n不能调换出的。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
-    .string "第一个裁决因素是“战术”。\n这个因素评价战斗者的进攻\l意识。\p裁决依据的是训练师\n下达进攻行动的命令的\l频繁程度。$"
+    .string "第一个裁决因素是“战术”。\n这个因素评价战斗者的进攻\l意识。\p裁决依据的是训练家\n下达进攻行动的命令的\l频繁程度。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
     .string "第二个裁决因素是“技术”。\n这个因素评价宝可梦的\l行动效率。\p如果一次行动成功了，\n技术的值就上升。\p如果一次行动失败了，\n技术的值就下降。\p对于进攻行动，如果行动是“非常有效”\n技术的值就上升\l如果是“没什么效果”\l技术的值就下降。\p对于像保护和见切的行动\n技术的值是不会上升的。\p如果对手采取了保护或是见切\n的行动，并且你的宝可梦没能\l打击成功，技术的值也\l不会下降。$"
@@ -449,7 +449,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
     .string "第三个裁决因素是“血量”。\n这个因素评价在战斗结束后\l体力还剩下多少。\p这个值把宝可梦\n战斗开始时的体力\l和战斗结束后还剩下的\n体力都加以考虑。$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
-    .string "从斗王手里得到了胜利，\n并且干掉了七个训练师！\p恭喜你的挑战\n干得漂亮！$"
+    .string "从斗王手里得到了胜利，\n并且干掉了七个训练家！\p恭喜你的挑战\n干得漂亮！$"
 
 BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:
     .string "亲爱的挑战者，为了对你那不屈的\n意志表示认可，请接受这些\l对战点数吧。$"

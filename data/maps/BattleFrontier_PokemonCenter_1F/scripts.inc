@@ -40,7 +40,7 @@ BattleFrontier_PokemonCenter_1F_EventScript_Skitty::
 	end
 
 BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon:
-    .string "有人使用过我从来没有\n见过的宝可梦。\p至少我在训练师学校\n还从没听说过。\p不知道那种宝可梦\n在哪儿能抓到呢？$"
+    .string "有人使用过我从来没有\n见过的宝可梦。\p至少我在训练家学校\n还从没听说过。\p不知道那种宝可梦\n在哪儿能抓到呢？$"
 
 BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena:
     .string "好了！下一站是对战竞技场！\n最好先去电脑存储系统\l换出合适的宝可梦来。$"

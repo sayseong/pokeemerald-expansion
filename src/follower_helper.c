@@ -65,7 +65,7 @@ static const u8 sCondMsg39[] = _("{STR_VAR_1}听着落叶\n沙沙作响的声音
 static const u8 sCondMsg40[] = _("{STR_VAR_1}正啃咬冰块。");
 static const u8 sCondMsg41[] = _("{STR_VAR_1}正摸着冰块。");
 static const u8* const sIceTexts[] = {sCondMsg26, sCondMsg40, sCondMsg41, NULL};
-static const u8 sCondMsg42[] = _("{STR_VAR_1}被烧伤了，\n好像很疼!");
+static const u8 sCondMsg42[] = _("{STR_VAR_1}被灼伤了，\n好像很疼!");
 
 // See the struct definition in follower_helper.h for more info
 const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT] =

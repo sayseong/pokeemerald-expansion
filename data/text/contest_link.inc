@@ -22,7 +22,7 @@ gText_SetEventNumX::
     .string "自定赛：No.{STR_VAR_1}{0xFC 9}$"
 
 gText_MoveUsedMostOften::
-    .string "经常使用的技能：\n{STR_VAR_1}{0xFC 9}$"
+    .string "经常使用的招式：\n{STR_VAR_1}{0xFC 9}$"
 
 gText_MostImpressiveMon::
     .string "给人印象最深的宝可梦：\n{STR_VAR_1}的{STR_VAR_2}{0xFC 9}$"
@@ -31,4 +31,4 @@ gText_SetEventNumX2::
     .string "自定赛：No.{STR_VAR_1}{0xFC 9}$"
 
 gText_LinkTVProgramWillNotBeMadeTrainerLost::
-    .string "不会制作联线电视节目了\n因为训练师走了。{0xFC 9}$"
+    .string "不会制作联线电视节目了\n因为训练家走了。{0xFC 9}$"

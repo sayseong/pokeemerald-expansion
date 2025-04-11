@@ -314,7 +314,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals:
     .string "恭喜进入\n决赛。\p你是冠军候选之一。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer:
-    .string "{PLAYER}的下一位对手是\n这位训练师。$"
+    .string "{PLAYER}的下一位对手是\n这位训练家。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound1:
     .string "锦标赛进入第一回合！$"

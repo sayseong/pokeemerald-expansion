@@ -88,10 +88,10 @@ GraniteCave_StevensRoom_Text_ThankYouTakeThis:
     .string "大吾：嗯，谢谢你。\p送这个过来辛苦你了。\n我得谢谢你。\p我想想…\n这个招式学习器给你吧。\p里面有我最爱的招式\n钢翼。$"
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
-    .string "大吾：你的宝可梦看起来\n很能干嘛。\p如果坚持训练，也许有天\n你能成为宝可梦联盟\l的冠军呢。我是这么想啦。\p这样吧，既然我们已经互相认识了\n就在口袋领航员上\l登录一下吧。\p… … … … … …$"
+    .string "大吾：你的宝可梦看起来\n很能干嘛。\p如果坚持训练，也许有天\n你能成为宝可梦联盟\l的冠军呢。我是这么想啦。\p这样吧，既然我们已经互相认识了\n就在宝可梦导航仪上\l登录一下吧。\p… … … … … …$"
 
 GraniteCave_StevensRoom_Text_RegisteredSteven:
-    .string "把大吾的信息\n登记到口袋领航员里。$"
+    .string "把大吾的信息\n登记到宝可梦导航仪里。$"
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
     .string "好了，我得快点走了。$"

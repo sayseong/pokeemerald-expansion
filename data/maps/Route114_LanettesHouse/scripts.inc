@@ -52,7 +52,7 @@ Route114_LanettesHouse_Text_OrganizeYourBoxes:
     .string "关于宝可梦存储系统\n给你一些建议吧\p你只需要整理下盒子\n就可以分辨出宝可梦存在哪。$"
 
 Route114_LanettesHouse_Text_ResearchNotesPage1:
-    .string "真弓的研究注释。\n关于盒子的信息。\p每个盒子可以保管30只宝可梦。\p每个训练师可以在电脑\n系统里保管420只宝可梦。\p继续阅读吗？$"
+    .string "真弓的研究注释。\n关于盒子的信息。\p每个盒子可以保管30只宝可梦。\p每个训练家可以在电脑\n系统里保管420只宝可梦。\p继续阅读吗？$"
 
 Route114_LanettesHouse_Text_ResearchNotesPage2:
     .string "标记系统是为了用来\n使宝可梦更容易被管理。\p每个盒子的壁纸和名字\n都是用来使被保管的\l宝可梦更开心。\p继续阅读吗？$"

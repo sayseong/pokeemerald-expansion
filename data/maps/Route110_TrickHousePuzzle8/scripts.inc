@@ -31,7 +31,7 @@ Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened:
     .string "{PLAYER}在门上写下\n密码。\p“我爱戏法大师”\n… … … … … … … …\p锁“咔嗒”一声开了！$"
 
 Route110_TrickHousePuzzle8_Text_VincentIntro:
-    .string "没有多少训练师 \n能到达这里。$"
+    .string "没有多少训练家 \n能到达这里。$"
 
 Route110_TrickHousePuzzle8_Text_VincentDefeat:
     .string "这就意味着你也非常强大…$"

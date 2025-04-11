@@ -292,7 +292,7 @@ Route103_Text_MayRoute103Pokemon:
     .string "小遥：我看看…在103号公路\n发现的宝可梦有…$"
 
 Route103_Text_MayLetsBattle:
-    .string "呀，你好，{PLAYER}{KUN}！\p…啊，看来爸爸送给你\n一只宝可梦。\p既然我们都有宝可梦了，\n来一场小小的战斗吧！\p让我教你\n训练师是什么样的！。$"
+    .string "呀，你好，{PLAYER}{KUN}！\p…啊，看来爸爸送给你\n一只宝可梦。\p既然我们都有宝可梦了，\n来一场小小的战斗吧！\p让我教你\n训练家是什么样的！。$"
 
 Route103_Text_MayDefeated:
     .string "哇！太厉害了！\n{PLAYER}{KUN}，你真棒！$"
@@ -304,7 +304,7 @@ Route103_Text_BrendanRoute103Pokemon:
     .string "佑树：好，那么103号公路上\n有这个和这个…$"
 
 Route103_Text_BrendanLetsBattle:
-    .string "嗨，{PLAYER}！\p…啊，看来老爸给你了一只宝可梦。\p既然这样，我们来\n切磋一下吧？\p我会教你如何才能\n成为一个训练师的！$"
+    .string "嗨，{PLAYER}！\p…啊，看来老爸给你了一只宝可梦。\p既然这样，我们来\n切磋一下吧？\p我会教你如何才能\n成为一个训练家的！$"
 
 Route103_Text_BrendanDefeated:
     .string "呵，{PLAYER}，看来你并没那么笨。$"

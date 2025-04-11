@@ -59,7 +59,7 @@ gText_ApprenticeLevelModeThanks0::
     .string "{STR_VAR_1}？\n哇哇--！\p噢！实在抱歉！\n你替我选择了级别\l我太高兴了，高兴得都哭出来了…\p嗅…\n太感谢你了！\l以后还请多多指教！$"
 
 gText_ApprenticePleaseTeach1::
-    .string "哇！你就是{PLAYER}吧？\n你是不是很强很强？\p我是{STR_VAR_1}！\n我刚刚成为训练师！\p求求你，{PLAYER}！\n你能不能当我的老师\l教我怎样做一个训练师？$"
+    .string "哇！你就是{PLAYER}吧？\n你是不是很强很强？\p我是{STR_VAR_1}！\n我刚刚成为训练家！\p求求你，{PLAYER}！\n你能不能当我的老师\l教我怎样做一个训练家？$"
 
 gText_ApprenticeRejectTeaching1::
     .string "啊，为什么？\n噢，求求你？真的求求你？\l请当我的老师吧，求求你！$"
@@ -71,10 +71,10 @@ gText_ApprenticeLevelModeThanks1::
     .string "{STR_VAR_1}，对吗？没错！\n我会尽力的！\p如果我们还能见面的话，\n请教我更多的知识吧，老师！$"
 
 gText_ApprenticePleaseTeach2::
-    .string "嗯…你是{PLAYER}？\n我是{STR_VAR_1}。\p我想成为一名宝可梦训练师，\n但我不知道从哪里做起…\p您这么有名\n或许我能向您讨教一下。\p{PLAYER}，您能给我一些建议吗？$"
+    .string "嗯…你是{PLAYER}？\n我是{STR_VAR_1}。\p我想成为一名宝可梦训练家，\n但我不知道从哪里做起…\p您这么有名\n或许我能向您讨教一下。\p{PLAYER}，您能给我一些建议吗？$"
 
 gText_ApprenticeRejectTeaching2::
-    .string "噢，可是…\p我真的想成为一名宝可梦\n训练师！\p求求你，能回答我的问题吗？$"
+    .string "噢，可是…\p我真的想成为一名宝可梦\n训练家！\p求求你，能回答我的问题吗？$"
 
 gText_ApprenticeWhichLevelMode2::
     .string "谢谢你！\n我现在就提第一个问题！\p对战塔有两个级别，\n50级和自由级，对吧？\p您认为哪一个\n更适合我？$"
@@ -83,7 +83,7 @@ gText_ApprenticeLevelModeThanks2::
     .string "噢，您是说{STR_VAR_1}？\n明白了！\p我如果还有问题的话，\n会回来请教您的！$"
 
 gText_ApprenticePleaseTeach3::
-    .string "噢？咦？你是…\n不，不可能。\p我这样的小人物\n怎么会碰到{PLAYER}。\p…你真的是{PLAYER}？\n真不敢相信我正在和你说话！\p可是福无双至，\n我以后肯定要倒霉的\l我就知道…\p…对不起…\n我…{STR_VAR_1}…\p我没有什么\n拿得出手的本事…\p我真不应该自我介绍\n你很快就会忘了我这种小人物…\p我一直梦想着如果有一天我能\n遇见你，{PLAYER}，我或许可以\l向你请教有关训练师的问题。\p我知道我只是\n在做白日梦。\p…不过或许您真的会\n给我一些建议？$"
+    .string "噢？咦？你是…\n不，不可能。\p我这样的小人物\n怎么会碰到{PLAYER}。\p…你真的是{PLAYER}？\n真不敢相信我正在和你说话！\p可是福无双至，\n我以后肯定要倒霉的\l我就知道…\p…对不起…\n我…{STR_VAR_1}…\p我没有什么\n拿得出手的本事…\p我真不应该自我介绍\n你很快就会忘了我这种小人物…\p我一直梦想着如果有一天我能\n遇见你，{PLAYER}，我或许可以\l向你请教有关训练家的问题。\p我知道我只是\n在做白日梦。\p…不过或许您真的会\n给我一些建议？$"
 
 gText_ApprenticeRejectTeaching3::
     .string "我就知道…\p我这种无趣的小人物\n只配这种结局…\p不过也许…\n您能再考虑考虑？\p我不能就这样放弃了。\n趁我现在还有福气，我不能放弃！\p求求你，您就网开一面\n给我点建议吧？$"
@@ -95,7 +95,7 @@ gText_ApprenticeLevelModeThanks3::
     .string "{STR_VAR_1}？好的！\n不过您真的认为\l像我这样的人有机会取胜？\p虽说没什么希望\n我还是会尽力的。\p感谢您在百忙之中\n抽出时间回答我的问题。$"
 
 gText_ApprenticePleaseTeach4::
-    .string "噢！你就是{PLAYER}{KUN}吧？\p我听说你是\n宝可梦的专家！\p我是{STR_VAR_1}！\n我会做你的朋友的！\p你知道吗？\p光凭训练师学校\n所教授的知识\l是无法在对战开拓区取胜的。\p我愿意听一听你的建议。\n你肯定会同意的吧？$"
+    .string "噢！你就是{PLAYER}{KUN}吧？\p我听说你是\n宝可梦的专家！\p我是{STR_VAR_1}！\n我会做你的朋友的！\p你知道吗？\p光凭训练家学校\n所教授的知识\l是无法在对战开拓区取胜的。\p我愿意听一听你的建议。\n你肯定会同意的吧？$"
 
 gText_ApprenticeRejectTeaching4::
     .string "啊？为什么拒绝我？\n问你的人可是我啊！\l你必须再考虑考虑！$"
@@ -107,7 +107,7 @@ gText_ApprenticeLevelModeThanks4::
     .string "你是说，{STR_VAR_1}适合我？\n谢谢你！\p反正是你做的决定，\n{PLAYER}{KUN}，我即使输了\l也不丢人。\p就这样，以后我还会向你讨教的。\n再见！$"
 
 gText_ApprenticePleaseTeach5::
-    .string "噢，你好！{PLAYER}{KUN}！\n你可是个名人啊！\l叫我{STR_VAR_1}吧！很高兴见到你！\p我是一名三项全能运动员，所以在\n养宝可梦的同时还要注意保健。\p平时我还做一些其它的事情\n比如工作，睡觉，跳交际舞…\p因此我这种大忙人\n很难成为一名合格的训练师。\p我有个提议！\p你我相见肯定是有缘。\n所以，{PLAYER}{KUN}，你平时可不可以\l和我交流一些心得？$"
+    .string "噢，你好！{PLAYER}{KUN}！\n你可是个名人啊！\l叫我{STR_VAR_1}吧！很高兴见到你！\p我是一名三项全能运动员，所以在\n养宝可梦的同时还要注意保健。\p平时我还做一些其它的事情\n比如工作，睡觉，跳交际舞…\p因此我这种大忙人\n很难成为一名合格的训练家。\p我有个提议！\p你我相见肯定是有缘。\n所以，{PLAYER}{KUN}，你平时可不可以\l和我交流一些心得？$"
 
 gText_ApprenticeRejectTeaching5::
     .string "噢，真的不行？\n可我这种人真的\l需要你，{PLAYER}{KUN}！\p我真的需要你的建议！$"
@@ -143,7 +143,7 @@ gText_ApprenticeLevelModeThanks7::
     .string "应该选{STR_VAR_1}！\n我明白了。我会尽力的！\p谢谢你，{PLAYER}。\n希望我以后还能向你讨教。\l请多保重！$"
 
 gText_ApprenticePleaseTeach8::
-    .string "哇！哇！{PLAYER}！\n你和我说话了！\l我…我太高兴了！\p是我！我叫{STR_VAR_1}！\n我刚成为一名训练师！\p真高兴能见到你，{PLAYER}，\n宝可梦界的大名人！\p噢-噢-噢，对了！\n我能不能请你帮个大忙，{PLAYER}？\p请收我做徒弟吧！\n我想聆听你的教诲！$"
+    .string "哇！哇！{PLAYER}！\n你和我说话了！\l我…我太高兴了！\p是我！我叫{STR_VAR_1}！\n我刚成为一名训练家！\p真高兴能见到你，{PLAYER}，\n宝可梦界的大名人！\p噢-噢-噢，对了！\n我能不能请你帮个大忙，{PLAYER}？\p请收我做徒弟吧！\n我想聆听你的教诲！$"
 
 gText_ApprenticeRejectTeaching8::
     .string "哇啊！\n{PLAYER}拒绝了我…\l这…这真是难得的经历啊！\p求求你，{PLAYER}！这次我想\n得到肯定的答复！\p求求你指导一下我！$"
@@ -155,7 +155,7 @@ gText_ApprenticeLevelModeThanks8::
     .string "{STR_VAR_1}！明白了！\n我完全明白！\l我真是有些欣喜若狂了！\p希望您以后还能\n教导教导我。$"
 
 gText_ApprenticePleaseTeach9::
-    .string "哇！你该不会是…\n你真的是…{PLAYER}{KUN}？！\l那个天下无敌的训练师？\l啊，你好，我真是个幸运儿！\p我叫{STR_VAR_1}！\p我一直在寻找一个\n宝可梦老师。\p就在我毫无头绪的时候，\n你出现了，{PLAYER}{KUN}！\p你知道的，{PLAYER}{KUN}！\n收我做徒弟吧！$"
+    .string "哇！你该不会是…\n你真的是…{PLAYER}{KUN}？！\l那个天下无敌的训练家？\l啊，你好，我真是个幸运儿！\p我叫{STR_VAR_1}！\p我一直在寻找一个\n宝可梦老师。\p就在我毫无头绪的时候，\n你出现了，{PLAYER}{KUN}！\p你知道的，{PLAYER}{KUN}！\n收我做徒弟吧！$"
 
 gText_ApprenticeRejectTeaching9::
     .string "啊！\n你真的是很酷很强…\p请不要这样。\n我求你了！$"
@@ -179,7 +179,7 @@ gText_ApprenticeLevelModeThanks10::
     .string "明白，{STR_VAR_1}更适合！\n那我就不选它了！\p开个玩笑！\n我会遵从你的教导的，师傅！\p谢谢你！\n希望你以后还能教我！$"
 
 gText_ApprenticePleaseTeach11::
-    .string "啊-呵！\n我是说啊呵，你好的意思！\p我是{STR_VAR_1}，无敌的\n快嘴皮水手！\p现在轮到你进行\n自我介绍了，试一试！\p啊-嗯，啊-嗯！\n你叫{PLAYER}{KUN}，\l玩的是宝可梦！\p年纪轻轻就已经\n登上了世界舞台！\p总之我的意思是，\n你是我今天碰到的\l第十名训练师。\p我们为什么不庆祝一下！\n庆祝内容是你当我的导师！$"
+    .string "啊-呵！\n我是说啊呵，你好的意思！\p我是{STR_VAR_1}，无敌的\n快嘴皮水手！\p现在轮到你进行\n自我介绍了，试一试！\p啊-嗯，啊-嗯！\n你叫{PLAYER}{KUN}，\l玩的是宝可梦！\p年纪轻轻就已经\n登上了世界舞台！\p总之我的意思是，\n你是我今天碰到的\l第十名训练家。\p我们为什么不庆祝一下！\n庆祝内容是你当我的导师！$"
 
 gText_ApprenticeRejectTeaching11::
     .string "别这样！\n你必须和我合作！\p不要这么刻薄嘛！\n你就当一回我的导师吧！$"
@@ -215,7 +215,7 @@ gText_ApprenticeLevelModeThanks13::
     .string "嗯，好的。那就{STR_VAR_1}吧。\n我马上就去。\p真希望能一直向你\n咨询--你已经是我的导师了！$"
 
 gText_ApprenticePleaseTeach14::
-    .string "呃…嗯…\n{PLAYER}{KUN}…？\p请不要这样看着我。\n我都觉得不自然了。\p我…我是{STR_VAR_1}。\p虽然难以启齿，\n但我一直在研究古代遗迹。\p更让我难以启齿的是\n我对对战开拓区感兴趣。\p{PLAYER}{KUN}，你是出了名的\n高级训练师…\p请原谅我的无礼，\n我想求你件事。\p你能当我的老师\n给我些建议吗？$"
+    .string "呃…嗯…\n{PLAYER}{KUN}…？\p请不要这样看着我。\n我都觉得不自然了。\p我…我是{STR_VAR_1}。\p虽然难以启齿，\n但我一直在研究古代遗迹。\p更让我难以启齿的是\n我对对战开拓区感兴趣。\p{PLAYER}{KUN}，你是出了名的\n高级训练家…\p请原谅我的无礼，\n我想求你件事。\p你能当我的老师\n给我些建议吗？$"
 
 gText_ApprenticeRejectTeaching14::
     .string "请不要这样拒绝我！\n我无法忍受这种耻辱。\p请当我的老师吧！\n我需要你的建议！$"
@@ -227,7 +227,7 @@ gText_ApprenticeLevelModeThanks14::
     .string "哦…好的！\n我会试一试的。\p希望我能勇于面对\n挑战，奋力拼搏…\p谢谢你，{PLAYER}{KUN}。\n如果我们还能见面的话\l请再给我些建议。$"
 
 gText_ApprenticePleaseTeach15::
-    .string "嗯？你好像是{PLAYER}{KUN}…\n真的吗？\p你可以叫我{STR_VAR_1}。\p我一直在琢磨着\n找一个训练师高手做我的老师。\p看来我今天真是走运！\n…你真的是{PLAYER}{KUN}？\p我是说，是真的就好。\n我只是想请你\l收我做徒弟。$"
+    .string "嗯？你好像是{PLAYER}{KUN}…\n真的吗？\p你可以叫我{STR_VAR_1}。\p我一直在琢磨着\n找一个训练家高手做我的老师。\p看来我今天真是走运！\n…你真的是{PLAYER}{KUN}？\p我是说，是真的就好。\n我只是想请你\l收我做徒弟。$"
 
 gText_ApprenticeRejectTeaching15::
     .string "哦？\n但你出于什么原因拒绝了我？\p很抱歉我刚才在\n怀疑你的身份。\p请接受我的道歉\n收我做徒弟吧。$"
@@ -806,10 +806,10 @@ gText_ApprenticePickWinSpeech6::
     .string "我真走运！\n{PLAYER}！很高兴见到你！\l和平常一样，我需要你的帮助！\p请听我说，是这样！\n我最后的问题就是…\p如果我想在胜利后\n显得又炫又酷，我应该\l说点儿什么呢？$"
 
 gText_ApprenticeWinSpeechThanks6::
-    .string "{STR_VAR_1}\p真…真是太棒了！\n真是又炫又酷！就是它了！\p…你听，我认为这样\n就很不错，是吧？\p啊，想到以后就要\n向其他训练师挑战。\p{PLAYER}，你真的帮了个大忙。\p说不定哪一天，就是我们\n对战的日子了！\p谢谢你的帮助！$"
+    .string "{STR_VAR_1}\p真…真是太棒了！\n真是又炫又酷！就是它了！\p…你听，我认为这样\n就很不错，是吧？\p啊，想到以后就要\n向其他训练家挑战。\p{PLAYER}，你真的帮了个大忙。\p说不定哪一天，就是我们\n对战的日子了！\p谢谢你的帮助！$"
 
 gText_ApprenticePickWinSpeech7::
-    .string "嗨，{PLAYER}。\n见到你非常高兴！\p我不再为我的宝可梦\n的事情操心了。\p我是担心我自己…\p你知道作为一名训练师在获胜\n之后以应该说点什么吗？\p当然，我希望\n我也能做到！\p那么，我获胜时\n应该说什么呢？$"
+    .string "嗨，{PLAYER}。\n见到你非常高兴！\p我不再为我的宝可梦\n的事情操心了。\p我是担心我自己…\p你知道作为一名训练家在获胜\n之后以应该说点什么吗？\p当然，我希望\n我也能做到！\p那么，我获胜时\n应该说什么呢？$"
 
 gText_ApprenticeWinSpeechThanks7::
     .string "{STR_VAR_1}\p啊！太棒了！这话让我清醒\n并且感到如获新生！\p我一定将它用好！\p现在，我必须提升实力，\n{PLAYER}…\p我要和其他人战斗，\n但决不会忘记你的教导。\p没准儿哪天…\n回见！$"
@@ -821,7 +821,7 @@ gText_ApprenticeWinSpeechThanks8::
     .string "{STR_VAR_1}\p哇啊啊啊啊！\n我以后就要这么说了吗？！\l我…高兴得不知说什么好了！\p谢-谢-谢谢你了！\n我现在可以没有遗憾的离开了！\p我要游遍大江南北\n和各种人战斗。\p什么也不说了，{PLAYER}。\n真的，真的，太感谢你了！\p我现在就要走了，但是有一天\n我们会见面并且打一场的！$"
 
 gText_ApprenticePickWinSpeech9::
-    .string "喂，你好！\n{PLAYER}{KUN}！\p你知道，我渴望到处流浪并且\n到处战斗。\p但是在这之前，我想请你再次\n帮助我！\p如果我赢了，我应该如何\n向被我打败的训练师\l吹嘘自己的本领呢？$"
+    .string "喂，你好！\n{PLAYER}{KUN}！\p你知道，我渴望到处流浪并且\n到处战斗。\p但是在这之前，我想请你再次\n帮助我！\p如果我赢了，我应该如何\n向被我打败的训练家\l吹嘘自己的本领呢？$"
 
 gText_ApprenticeWinSpeechThanks9::
     .string "{STR_VAR_1}\p嗯-啊，真有趣！\n嘶，不错！\l我会试着这么说的， 就像是，演员！\p现在，是该说再见的时候了！\n谢谢你的指导！\p那天和我打一场吧，怎么样？\n再见！$"
@@ -830,7 +830,7 @@ gText_ApprenticePickWinSpeech10::
     .string "{PLAYER}{KUN}，有大麻烦了！\p当我赢了的时候，我至少\n吹了一个小时的牛！\p当然，我是说着玩儿的！\n哇哈哈哈哈！\p尽管是这样，可是。\n我并不怎么擅长聊天。\p所以，你认为我获胜后\n应该怎么说呢，\l老师？$"
 
 gText_ApprenticeWinSpeechThanks10::
-    .string "{STR_VAR_1}\p我应该这么说，是吗？\n那时，我就离开了那里！\p还是小孩子的时候！\n我会谨遵教诲的，老师！\p谢谢你的教导，\n老师！\p我终于知道了如何成为\n一名训练师。\p我要外出并且打败\n更多的训练师。\p可能你后还会遇到你，老师！\p就这样！\n再见了，老师！$"
+    .string "{STR_VAR_1}\p我应该这么说，是吗？\n那时，我就离开了那里！\p还是小孩子的时候！\n我会谨遵教诲的，老师！\p谢谢你的教导，\n老师！\p我终于知道了如何成为\n一名训练家。\p我要外出并且打败\n更多的训练家。\p可能你后还会遇到你，老师！\p就这样！\n再见了，老师！$"
 
 gText_ApprenticePickWinSpeech11::
     .string "NiHao！\n拼出来是你好！\p我就是唱Rap的水手！\n好了好了，\l这是我最后的问题了！\p我要向你讨教\n关于言词的问题！\p如果我赢了比赛，我该怎么说\n才能显得很酷呢？$"

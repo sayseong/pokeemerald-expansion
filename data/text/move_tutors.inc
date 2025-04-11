@@ -1,5 +1,5 @@
 MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce::
-    .string "这个技能只能教你一次\n准备好了吗？$"
+    .string "这个招式只能教你一次\n准备好了吗？$"
 
 MoveTutor_Text_SwaggerTeach::
     .string "嗨！看我的宝可梦多完美！\n它比其它的宝可梦更酷！\p当会长严厉训斥我的时候\n我总是像这样吹牛\l来蒙混过关。\p这会使我们的行动不协调。\p如果你愿意，我会教你的1只宝可梦\n学习虚张声势。$"
@@ -26,7 +26,7 @@ MoveTutor_Text_RolloutTaught::
     .string "在草里打滚使我\n非常快乐。来吧，让我们滚起来！$"
 
 MoveTutor_Text_FuryCutterTeach::
-    .string "这是一个你连续使用\n就会变得更强壮的技能。\p这是一个虫系的技能，并且\n是很酷的技能。\p这个技能叫做连续切。\n想让我教你的宝可梦吗？$"
+    .string "这是一个你连续使用\n就会变得更强壮的招式。\p这是一个虫系的招式，并且\n是很酷的招式。\p这个招式叫做连续切。\n想让我教你的宝可梦吗？$"
 
 MoveTutor_Text_FuryCutterDeclined::
     .string "我们是不可能融洽相处的。$"
@@ -44,10 +44,10 @@ MoveTutor_MimicDeclined::
     .string "嘘！我要让你的宝可梦\n学会模仿！$"
 
 MoveTutor_Text_MimicWhichMon::
-    .string "噗噗！我当然能！\n让我看看你想要\l学会技能的宝可梦。$"
+    .string "噗噗！我当然能！\n让我看看你想要\l学会招式的宝可梦。$"
 
 MoveTutor_Text_MimicTaught::
-    .string "模仿是个伟大而深奥的技能。\p你能像我一样\n运用自如吗…？$"
+    .string "模仿是个伟大而深奥的招式。\p你能像我一样\n运用自如吗…？$"
 
 MoveTutor_Text_MetronomeTeach::
     .string "我想要各种各样的事情！\n但是我把钱都花光了…\p你难道不想在你摇动手指时\n给你带来好运\l使你得到很多钱？\p如果你想，我能让你的宝可梦\n学会摇手指。\p前没有出现，但你的宝可梦\n将摇动手指。不是吗？$"
@@ -86,7 +86,7 @@ MoveTutor_Text_SubstituteTaught::
     .string "我们人类更应该极度\n珍惜我们的生命！\p我希望你也走上这条路！$"
 
 MoveTutor_Text_DynamicPunchTeach::
-    .string "我做不到！\p我完全绝望了！\p我是一名格斗系训练师，\n所以无论我怎么努力尝试\l也不能在绿岭市道馆获胜！\p啊啊啊啊！打！打！打！\n打！打！打！\p什么，在那边看不到我！\n我只能在地面攻击！\p你想让我教你的\n宝可梦学习爆裂拳？$"
+    .string "我做不到！\p我完全绝望了！\p我是一名格斗系训练家，\n所以无论我怎么努力尝试\l也不能在绿岭市道馆获胜！\p啊啊啊啊！打！打！打！\n打！打！打！\p什么，在那边看不到我！\n我只能在地面攻击！\p你想让我教你的\n宝可梦学习爆裂拳？$"
 
 MoveTutor_Text_DynamicPunchDeclined::
     .string "该死！连你也来嘲笑我？\n打！打！打！$"

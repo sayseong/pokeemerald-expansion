@@ -416,7 +416,7 @@ LilycoveCity_Text_MayShoppingLetsBattle:
     .string "小遥：嗨，你好啊？\n{PLAYER}{KUN}，你也来买东西吗？\p我买了一大堆\n玩偶和海报。\p当然，我抓了不少\n宝可梦，也训练得\l不错。\p不过，我更在意的是\n你的宝可梦训练得如何了，{PLAYER}{KUN}。\p我要和你战斗，\n看看你的宝可梦，{PLAYER}{KUN}。$"
 
 LilycoveCity_Text_MayNotRaisingPokemon:
-    .string "小遥：啊，怎么了？{PLAYER}{KUN}，\n你没好好训练你的宝可梦吗？\p作为一个训练师\n可不该这样呢…$"
+    .string "小遥：啊，怎么了？{PLAYER}{KUN}，\n你没好好训练你的宝可梦吗？\p作为一个训练家\n可不该这样呢…$"
 
 LilycoveCity_Text_MayBattleMe:
     .string "小遥：来吧，和我战斗，\n让我看看你的宝可梦！$"
@@ -452,7 +452,7 @@ LilycoveCity_Text_BrendanWontBeBeaten:
     .string "佑树：好，我是\n不会输给{PLAYER}的。$"
 
 LilycoveCity_Text_BrendanDefeat:
-    .string "唔…\n你的宝可梦训练得不错。\p我开始对你改变看法了——\n你会成为一个出色的训练师的…$"
+    .string "唔…\n你的宝可梦训练得不错。\p我开始对你改变看法了——\n你会成为一个出色的训练家的…$"
 
 LilycoveCity_Text_BrendanGoingBackToLittleroot:
     .string "佑树：我…\n我打算回未白镇去。\p你知道我在帮老爸收集\n宝可梦图鉴，现在进展得不错，\l我要回去给他看看。$"
@@ -527,7 +527,7 @@ LilycoveCity_Text_CitySign:
     .string "水静市\p“连接大海与陆地的\n城市。”$"
 
 LilycoveCity_Text_ContestHallSign:
-    .string "宝可梦华丽大赛大厅\n“训练师聚集的地方！”$"
+    .string "宝可梦华丽大赛大厅\n“训练家聚集的地方！”$"
 
 LilycoveCity_Text_MotelSign:
     .string "静水旅馆\p“请记住我们——\n水静市的静水。”$"
@@ -545,7 +545,7 @@ LilycoveCity_Text_HarborSign:
     .string "水静市海港\p“愿破浪号游船\n能为您带来最快乐的旅行体验。”$"
 
 LilycoveCity_Text_TrainerFanClubSign:
-    .string "宝可梦训练师俱乐部\p牌子上潦草地写着一些\n训练师的名字…$"
+    .string "宝可梦训练家俱乐部\p牌子上潦草地写着一些\n训练家的名字…$"
 
 LilycoveCity_Text_DepartmentStoreSign:
     .string "水静市商业大厦\p“满载着商品\n和快乐回家！\p“寻找你所需要的物品的\n最佳地点！”$"

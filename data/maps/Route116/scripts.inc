@@ -364,7 +364,7 @@ Route116_Text_GoonHightailedItOutOfTunnel:
     .string "呜…吼！\p那个蠢货夹着尾巴逃跑了！\n我可以回去挖隧道了！$"
 
 Route116_Text_ThankYouTokenOfAppreciation:
-    .string "啊，是你！\p你就是那个在\n橙华森林里帮过我，\l又替我追回了被偷的包裹，\l然后好心地把它送到凯那市去的人！\p库斯诺吉馆长告诉我们\n包裹已经平安到达了！\p非常非常感谢！在下\p对您的感谢如同滔滔江水连绵不绝\n又如黄河泛滥一发不可收拾\l大英雄啊！\p我给你这最优秀的训练师\n带来了个好消息！\p最近我们公司开发出\n一种新的精灵球，\p我们把它送给你，就当作\n我们对一个杰出的训练师的感谢！$"
+    .string "啊，是你！\p你就是那个在\n橙华森林里帮过我，\l又替我追回了被偷的包裹，\l然后好心地把它送到凯那市去的人！\p库斯诺吉馆长告诉我们\n包裹已经平安到达了！\p非常非常感谢！在下\p对您的感谢如同滔滔江水连绵不绝\n又如黄河泛滥一发不可收拾\l大英雄啊！\p我给你这最优秀的训练家\n带来了个好消息！\p最近我们公司开发出\n一种新的精灵球，\p我们把它送给你，就当作\n我们对一个杰出的训练家的感谢！$"
 
 Route116_Text_NewBallAvailableAtMart:
     .string "我们的新精灵球很快\n会在卡那兹市的宝可梦商店出售。\p到时一定要试试！\n谢谢，再见！$"
@@ -373,7 +373,7 @@ Route116_Text_BagIsJamPacked:
     .string "你的包包满了，\n装不下这重复球。$"
 
 Route116_Text_TokenOfAppreciation:
-    .string "我把这种新的精灵球\n送给你，我们最优秀的训练师，\l就当作是我们对你\l为我们递送包裹的谢礼！$"
+    .string "我把这种新的精灵球\n送给你，我们最优秀的训练家，\l就当作是我们对你\l为我们递送包裹的谢礼！$"
 
 Route116_Text_CanYouHelpMeFindGlasses:
     .string "我的眼镜丢了…\n能帮我找找吗？$"
@@ -400,8 +400,8 @@ Route116_Text_TunnelersRestHouse:
     .string "地道迷的休息室$"
 
 Route116_Text_TrainerTipsBToStopEvolution:
-    .string "训练师小技巧\p如果你不希望宝可梦进化，\n则应在它试图进化时\l按下B键，\l受惊的宝可梦会停止进化。\p这叫做进化取消。$"
+    .string "训练家小技巧\p如果你不希望宝可梦进化，\n则应在它试图进化时\l按下B键，\l受惊的宝可梦会停止进化。\p这叫做进化取消。$"
 
 Route116_Text_TrainerTipsBagHasPockets:
-    .string "训练师小技巧\p包包由数个口袋组成，\p得到的物品会\n自动放入合适的口袋中。\p每个训练师都应\n有一个自己的包包。$"
+    .string "训练家小技巧\p包包由数个口袋组成，\p得到的物品会\n自动放入合适的口袋中。\p每个训练家都应\n有一个自己的包包。$"
 

@@ -171,7 +171,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_NotDisturbYouTakeYourTime:
     .string "啊，我不打扰你了，\n尽情地观赏吧。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HaveYouAnInterestInPaintings:
-    .string "嗯？我想你\n是宝可梦训练师吧。\p你也喜欢\n绘画吗？$"
+    .string "嗯？我想你\n是宝可梦训练家吧。\p你也喜欢\n绘画吗？$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HonoredYoudVisitInSpiteOfThat:
     .string "哦…\p尽管那样，还是\n很感谢你能来参观。$"
@@ -231,5 +231,5 @@ LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings:
     .string "我立志要来这里\n观赏大量作品学习绘画，\p我一直梦想某一天\n我的画作也能挂在这里。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
-    .string "美术博物馆已经成为\n一个旅游景点，\p这对水静市来说也是好消息…\n不，是对整个丰缘地区都是好消息！\p我听说——楼上的画全部\n属于同一个训练师。$"
+    .string "美术博物馆已经成为\n一个旅游景点，\p这对水静市来说也是好消息…\n不，是对整个丰缘地区都是好消息！\p我听说——楼上的画全部\n属于同一个训练家。$"
 

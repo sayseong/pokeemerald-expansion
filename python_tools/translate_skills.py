@@ -25,7 +25,7 @@ def query_pokemon_info(name, df):
         result = df.loc[name]
         return {
             '中文名': result['中文名'],
-            '单独技能效果说明': result['单独技能效果说明'],
+            '单独招式效果说明': result['单独招式效果说明'],
             # 'description': result['description']
         }
     except KeyError:
@@ -50,11 +50,11 @@ def replace_move_info(content, df):
 
         # block = re.sub(r'\.categoryName\s*=\s*_\(.*?\),', f'.categoryName = _("{info["categoryName"]}"),', block)
         try:
-            block = re.sub(r'\.description\s*=\s*COMPOUND_STRING\((?:.|\n)*?\),\s+#endif', convert_description_to_multiline(info["单独技能效果说明"]), block)
-            block = re.sub(r'\.description\s*=\s*COMPOUND_STRING\((?:.|\n)*?\),', convert_description_to_multiline(info["单独技能效果说明"]), block)
+            block = re.sub(r'\.description\s*=\s*COMPOUND_STRING\((?:.|\n)*?\),\s+#endif', convert_description_to_multiline(info["单独招式效果说明"]), block)
+            block = re.sub(r'\.description\s*=\s*COMPOUND_STRING\((?:.|\n)*?\),', convert_description_to_multiline(info["单独招式效果说明"]), block)
         except Exception as e:
             print(f"Error: {e}")
-            log(f"❌ {'MOVE_'+move} 没有单独技能效果说明，跳过")
+            log(f"❌ {'MOVE_'+move} 没有单独招式效果说明，跳过")
         content = content.replace(original_block, block)
 
     return content
@@ -67,8 +67,8 @@ def log(message):
 if __name__ == "__main__":
 
     work_file = current_folder +"\..\src\data\moves_info.h"
-    df = pd.read_excel(current_folder +r'\src\技能.xlsx')
-    df.set_index('技能', inplace=True)
+    df = pd.read_excel(current_folder +r'\src\招式.xlsx')
+    df.set_index('招式', inplace=True)
 
 
     with open(work_file, "r", encoding="utf-8") as f:

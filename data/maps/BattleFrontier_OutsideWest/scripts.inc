@@ -317,7 +317,7 @@ BattleFrontier_OutsideWest_Text_BattlePikeSign:
     .string "这里是对战水管！\n在三条路中选一条吧！$"
 
 BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
-    .string "这里是对战塔，\p训练师将他们最优秀的\n宝可梦带来进行淘汰赛。$"
+    .string "这里是对战塔，\p训练家将他们最优秀的\n宝可梦带来进行淘汰赛。$"
 
 BattleFrontier_OutsideWest_Text_MayISeeYourTicket:
     .string "你好，你想登船？\n可以让我看一下你的船票吗？$"
@@ -353,7 +353,7 @@ BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere:
     .string "我本来准备一到这儿\n就开始挑战的，\p不过，在路上，我晕船了…\n呜…$"
 
 BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
-    .string "知道吗，并不是\n所有人都能到这里的，\p只有被认定是强大的训练师\n才能来到这里。\p所以很多训练师甚至对\n对战开拓区一无所知。$"
+    .string "知道吗，并不是\n所有人都能到这里的，\p只有被认定是强大的训练家\n才能来到这里。\p所以很多训练家甚至对\n对战开拓区一无所知。$"
 
 BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons:
     .string "嗨，伙计…\p你敢肯定我们没有宝可梦\n也能进行挑战？$"
@@ -413,7 +413,7 @@ BattleFrontier_OutsideWest_Text_DomeAceIsMine:
     .string "啊，嘘～嘘～\n吵死了，安静一下啦！\p你该让你那些不坚定的追星族们\n给别的道馆馆主加油！\p巨蛋天王是我的！\n是只属于我的偶像！$"
 
 BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
-    .string "那边吵架的那些人…\p真不敢相信那些人以前也都是\n训练师，而且还挺厉害的。\p他们以前非常强，\n同时也相当有名气。\p但在一场联赛中，他们都被\n某个训练师击倒了。\p他们完全地失败了，\n同时开始对那个训练师神魂颠倒。\p而现在，他们仅仅是那个训练师的\n狂热者而已，每天每天地在\l对战巨蛋为他们的偶像加油助威。$"
+    .string "那边吵架的那些人…\p真不敢相信那些人以前也都是\n训练家，而且还挺厉害的。\p他们以前非常强，\n同时也相当有名气。\p但在一场联赛中，他们都被\n某个训练家击倒了。\p他们完全地失败了，\n同时开始对那个训练家神魂颠倒。\p而现在，他们仅仅是那个训练家的\n狂热者而已，每天每天地在\l对战巨蛋为他们的偶像加油助威。$"
 
 BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
     .string "有传言说有人在\n对战开拓区的某处看到\l一种尾巴异常长的宝可梦。\p我敢肯定，它一定很可爱…\p啊，挑战什么的都一边去吧，\n我要去找那个小东西了！$"

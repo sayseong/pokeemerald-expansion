@@ -368,7 +368,7 @@ MossdeepCity_Gym_Text_GymGuideAdvice:
     .string "嗨，怎么样，向冠军目标\n冲刺的{PLAYER}？\p这里的道馆馆主使用的是\n超能系宝可梦，\p如果用格斗系或\n毒系对付它们，\l会受到很大伤害！\p另外，她们会使用\n强大的组合攻击，\p想要赢的话，就给她们看看\n你与你的宝可梦之间紧密的联系吧。\l加油！$"
 
 MossdeepCity_Gym_Text_GymGuidePostVictory:
-    .string "哇，你让我大吃一惊！\n你是个优秀的训练师！$"
+    .string "哇，你让我大吃一惊！\n你是个优秀的训练家！$"
 
 MossdeepCity_Gym_Text_PrestonIntro:
     .string "战斗取决于你的精神力量！\n心灵弱小的人永远不会赢！$"
@@ -494,7 +494,7 @@ MossdeepCity_Gym_Text_ExplainCalmMind:
     .string "枫：那个招式学习器04里面是…\n南：冥想！\p枫：它能提升特攻…\n南：还能提高特防！\p枫：这是超能宝可梦…\n南：最佳的招式！\p… … … … … …$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:
-    .string "把道馆馆主枫和南的信息\n登记进口袋领航员里。$"
+    .string "把道馆馆主枫和南的信息\n登记进宝可梦导航仪里。$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle:
     .string "枫：看来你和你的宝可梦间的\n牵绊比我们之间的\l还要强得多。\p南：你会变得更强的！\n这在我们的战斗中就能看出来。$"
@@ -506,7 +506,7 @@ MossdeepCity_Gym_Text_GymStatue:
     .string "绿岭市宝可梦道馆$"
 
 MossdeepCity_Gym_Text_GymStatueCertified:
-    .string "绿岭市宝可梦道馆\p南与枫认可的训练师：\n{PLAYER}$"
+    .string "绿岭市宝可梦道馆\p南与枫认可的训练家：\n{PLAYER}$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch:
     .string "枫：宝可梦…\n南：宝可梦…\p枫：队伍改变后…\n南：战术也随之改变。\p枫：但我…\n南：但我…\p枫：我会一直跟南在一起！\n南：我会一直跟枫在一起！\p枫：我们会让你一次次…\n南：看到我们完美的组合！$"

@@ -324,7 +324,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
     .string "好像有宝可梦特殊的气味\n在这里飘荡…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
-    .string "是…一个训练师吗？\n我感觉到有人的存在…$"
+    .string "是…一个训练家吗？\n我感觉到有人的存在…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering:
     .string "我好像听说过一些事…\n它可能一直在低语…$"

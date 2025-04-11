@@ -1,14 +1,14 @@
 Route111_Text_MakingRoomUseTMToMakeYourOwn:
 	.string "哎？你问我在干什么？\p"
-	.string "我正想用宝可梦的技能\n"
+	.string "我正想用宝可梦的招式\n"
 	.string "在这里建一个只有\l"
 	.string "我自己才能住进去的房间呐！\p"
-	.string "对了！要不我给你这个技能机器\n"
+	.string "对了！要不我给你这个招式学习器\n"
 	.string "你也试试看吧！怎么样？$"
 
 Route111_Text_ExplainSecretPower:
 	.string "对着面前这种藤蔓快要落下来的树\n"
-	.string "使用秘密力量这个技能试试看吧！\l"
+	.string "使用秘密力量这个招式试试看吧！\l"
 	.string "藤蔓落下来，就可以爬上去了！\p"
 	.string "那样的话，树顶有十分宽敞的空间\n"
 	.string "我还在那里放了许多我喜欢的东西！\l"

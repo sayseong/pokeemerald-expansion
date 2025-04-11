@@ -343,7 +343,7 @@ VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves:
     .string "你给你的宝可梦\n教了些什么招式？\p我想如果它们自己\n会疗伤的话，\l你会很轻松的。$"
 
 VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
-    .string "亚希达：嗨，{PLAYER}{KUN}！\n我就知道能在这儿碰上你，\p因为，无论规则如何，\n无论战斗怎样，\p对战帐篷里总能\n碰见强大的训练师。\p{PLAYER}{KUN}，希望你\n能尽最大的努力！$"
+    .string "亚希达：嗨，{PLAYER}{KUN}！\n我就知道能在这儿碰上你，\p因为，无论规则如何，\n无论战斗怎样，\p对战帐篷里总能\n碰见强大的训练家。\p{PLAYER}{KUN}，希望你\n能尽最大的努力！$"
 
 VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
-    .string "亚希达：我经常来这儿，\n希望能看到强大的训练师\l战斗。$"
+    .string "亚希达：我经常来这儿，\n希望能看到强大的训练家\l战斗。$"

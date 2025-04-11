@@ -92,7 +92,7 @@ Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs:
     .string "我睡觉的时候\n大家都上楼去了！$"
 
 Route119_WeatherInstitute_1F_Text_WowYoureStrong:
-    .string "哇，你真强！\p真想成为和你一样的\n宝可梦训练师！$"
+    .string "哇，你真强！\p真想成为和你一样的\n宝可梦训练家！$"
 
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain:
     .string "教授很喜欢下雨，\n这是事实。\p但如果雨一直不停，就会给人们\n带来麻烦，这也是事实。\p因此，教授在研究\n如何让雨造福于人。$"
