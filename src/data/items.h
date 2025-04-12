@@ -13343,6 +13343,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("大金刚宝玉"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_ADAMANT_ORB,
+        .holdEffectParam = 20,
         .description = COMPOUND_STRING(
 			"对帝牙卢卡使用后\n"
 			"，能使之力量高涨\n"
@@ -13359,6 +13361,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("大白金宝玉"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_GRISEOUS_ORB,
+        .holdEffectParam = 20,
         .description = COMPOUND_STRING(
 			"对骑拉帝纳使用后\n"
 			"，能使之力量高涨\n"
@@ -13375,6 +13379,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("大白宝玉"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_LUSTROUS_ORB,
+        .holdEffectParam = 20,
         .description = COMPOUND_STRING(
 			"对帕路奇亚使用后\n"
 			"，能使之力量高涨\n"
