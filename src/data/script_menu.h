@@ -506,7 +506,7 @@ static const struct MenuAction MultichoiceList_LinkServicesNoRecordBerry[] =
 
 static const struct MenuAction MultichoiceList_WirelessMinigame[] =
 {
-    {COMPOUND_STRING("精灵跳绳")},
+    {COMPOUND_STRING("宝可梦跳绳")},
     {COMPOUND_STRING("嘟嘟利摘树果")},
     {gText_Exit},
 };
@@ -641,7 +641,7 @@ static const struct MenuAction MultichoiceList_BattleArenaRules[] =
 static const struct MenuAction MultichoiceList_BattleTowerRules[] =
 {
     {COMPOUND_STRING("对战塔信息")},
-    {COMPOUND_STRING("对战精灵")},
+    {COMPOUND_STRING("对战宝可梦")},
     {COMPOUND_STRING("对战沙龙")},
     {COMPOUND_STRING("多人联机")},
     {gText_Exit},
