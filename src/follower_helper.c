@@ -16,12 +16,12 @@
 static const u8 sCondMsg00[] = _("{STR_VAR_1}开心地\n摇摆着身体。");
 static const u8 sCondMsg01[] = _("{STR_VAR_1}优雅地\n摇摆着身体。");
 static const u8* const sCelebiTexts[] = {sCondMsg00, sCondMsg01, NULL};
-static const u8 sCondMsg02[] = _("{STR_VAR_1}发出火焰并\n大声地吼叫了起来");
+static const u8 sCondMsg02[] = _("{STR_VAR_1}发出火焰并\n大声地吼叫了起来！");
 static const u8 sCondMsg03[] = _("{STR_VAR_1}猛地发出了\n火焰！");
 static const u8 sCondMsg04[] = _("{STR_VAR_1}突然发出了\n火焰!");
 static const u8 sCondMsg05[] = _("{STR_VAR_1}猛地放出了\n火焰！");
 static const u8* const sFireTexts[] = {sCondMsg02, sCondMsg03, sCondMsg04, sCondMsg05, NULL};
-static const u8 sCondMsg06[] = _("{STR_VAR_1}一直在盯着\n宝可梦联盟");
+static const u8 sCondMsg06[] = _("{STR_VAR_1}一直在盯着\n宝可梦联盟。");
 static const u8 sCondMsg07[] = _("它一直在\n凝望着山峰。");
 static const u8 sCondMsg08[] = _("传来了一股很香的气味。");
 static const u8 sCondMsg09[] = _("它正在观察货架。");
