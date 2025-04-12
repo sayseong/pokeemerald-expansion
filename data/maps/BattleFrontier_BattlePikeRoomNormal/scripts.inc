@@ -726,7 +726,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_Silence:
     .string "… … … … … …\n… … … … … …$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer:
-    .string "欢迎…\p这里，我们会让你和\n一位有点强的训练师较量…$"
+    .string "欢迎…\p这里，我们会让你和\n一位有点强的训练家较量…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth:
     .string "多精彩啊…\p为表彰你的胜利，你的宝可梦\n将被回复到满血…$"

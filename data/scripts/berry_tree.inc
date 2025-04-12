@@ -460,5 +460,5 @@ BerryTree_EventScript_EncounterPests::
 	return
 
 BerryTree_Text_APokemonAppeared:
-	.string "一只精灵跳出来了!$"
+	.string "一只宝可梦跳出来了!$"
 .endif

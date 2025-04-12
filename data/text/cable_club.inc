@@ -8,7 +8,7 @@ CableClub_Text_TradeUsingLinkCable::
     .string "通过GBA通信线\n与其他玩家交换宝可梦。$"
 
 CableClub_Text_BattleUsingLinkCable::
-    .string "通过GBA通信线\n与其他训练师战斗。$"
+    .string "通过GBA通信线\n与其他训练家战斗。$"
 
 CableClub_Text_RecordCornerUsingLinkCable::
     .string "通过GBA通信线\n与其他人一起使用联机中心。$"
@@ -82,13 +82,13 @@ Text_TerminateLinkPleaseWait::
     .string "终止连接…\n您会由服务员带出\l房间，请稍候。$"
 
 CableClub_Text_TooBusyToNotice::
-    .string "这个训练师太忙，\n没空注意…$"
+    .string "这个训练家太忙，\n没空注意…$"
 
 CableClub_Text_GotToLookAtTrainerCard::
-    .string "成功！看一下{STR_VAR_1}的\n训练师卡片！$"
+    .string "成功！看一下{STR_VAR_1}的\n训练家卡片！$"
 
 CableClub_Text_GotToLookAtColoredTrainerCard::
-    .string "成功！看一下{STR_VAR_1}的\n训练师卡片！\p是一张{STR_VAR_2}卡！$"
+    .string "成功！看一下{STR_VAR_1}的\n训练家卡片！\p是一张{STR_VAR_2}卡！$"
 
 BattleColosseum_2P_Text_TakePlaceStartBattle::
     .string "请就位，\n准备开始战斗。$"
@@ -100,16 +100,16 @@ RecordCorner_Text_ThanksForComing::
     .string "谢谢惠顾。$"
 
 CableClub_Text_TrainerCardDataOverwritten::
-    .string "训练师卡片数据\n将被覆盖。$"
+    .string "训练家卡片数据\n将被覆盖。$"
 
 CableClub_Text_HopeToSeeYouAgain::
     .string "下回再见！$"
 
 CableClub_Text_NotSetUpForFarAwayRegion::
-    .string "非常抱歉，\p我们现在无法与\n远在其它地区的训练师\l进行连接…$"
+    .string "非常抱歉，\p我们现在无法与\n远在其它地区的训练家\l进行连接…$"
 
 CableClub_Text_OtherTrainerNotReady::
-    .string "其他训练师还未准备好。$"
+    .string "其他训练家还未准备好。$"
 
 CableClub_Text_YouHaveAMonThatCantBeTaken::
     .string "你带有不能携带的\n宝可梦。$"
@@ -138,13 +138,13 @@ CableClub_Text_PleaseWait::
     .string "请稍候。$"
 
 CableClub_Text_YouMayTradeHere::
-    .string "在这里你可以与其他\n训练师交换宝可梦。$"
+    .string "在这里你可以与其他\n训练家交换宝可梦。$"
 
 CableClub_Text_YouMayBattleHere::
     .string "在这里你可以\n与朋友对战。$"
 
 CableClub_Text_CanMakeBerryPowder::
-    .string "可以与2到5个训练师\n一起制作树果粉末。$"
+    .string "可以与2到5个训练家\n一起制作树果粉末。$"
 
 CableClub_Text_CanMixRecords::
     .string "这里可以将2到4个\n玩家的存档混合在一起。$"

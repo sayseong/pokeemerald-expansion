@@ -1005,13 +1005,13 @@ Route104_Text_WhatsItLikeAtBottomOfSea:
     .string "大海，嗯？\p不知道海底\n是什么样子的？$"
 
 Route104_Text_ThrowBallAtWeakenedPokemon:
-    .string "投出精灵球之前，\n要先让野生宝可梦变弱。\p如果它中毒或被烧伤、催眠的话，\n会更容易抓住它。$"
+    .string "投出精灵球之前，\n要先让野生宝可梦变弱。\p如果它中毒或被灼伤、催眠的话，\n会更容易抓住它。$"
 
 Route104_Text_OnlyThrowBallAtWildPokemon:
     .string "你不能偷\n别人的宝可梦，\p你只能向野生的宝可梦\n投掷精灵球。$"
 
 Route104_Text_ImNotATrainer:
-    .string "哦，不，我不是训练师，\p但要是被训练师看见的话，\n他们就会向你挑战。\p如果你不想战斗，\n最好躲着他们的视线。$"
+    .string "哦，不，我不是训练家，\p但要是被训练家看见的话，\n他们就会向你挑战。\p如果你不想战斗，\n最好躲着他们的视线。$"
 
 Route104_Text_LikeFillingMouthWithSeedsTakeThis:
     .string "我喜欢在嘴里塞满种子，\n然后飞速射出去！\p这个给你，你也可以试试！\p把它给宝可梦使用，宝可梦就能\n学会快速射出种子的招式。$"
@@ -1038,10 +1038,10 @@ Route104_Text_PrettyPetalFlowShop:
     .string "漂亮的花瓣花店$"
 
 Route104_Text_TrainerTipsDoubleBattles:
-    .string "训练师小技巧\p在丰缘地区中，一些\n结伴的训练师会向别人发起\l2对2的挑战，\l称作双打对战。\p在双打对战中，训练师要派出\n两只宝可梦，即列表\l左边的和最上边的。\l一定要注意宝可梦的队列顺序。$"
+    .string "训练家小技巧\p在丰缘地区中，一些\n结伴的训练家会向别人发起\l2对2的挑战，\l称作双打对战。\p在双打对战中，训练家要派出\n两只宝可梦，即列表\l左边的和最上边的。\l一定要注意宝可梦的队列顺序。$"
 
 Route104_Text_MayWeShouldRegister:
-    .string "小遥：呀，你好，{PLAYER}{KUN}！\p得文为你的口袋领航员加入了\n对战寻呼系统，是吧？\p我们登记一下各自的信息吧，\n这样就能随时联系了。$"
+    .string "小遥：呀，你好，{PLAYER}{KUN}！\p得文为你的宝可梦导航仪加入了\n对战寻呼系统，是吧？\p我们登记一下各自的信息吧，\n这样就能随时联系了。$"
 
 Route104_Text_RegisteredMay:
     .string "{PLAYER} registered MAY\nin the POKeNAV.$"
@@ -1053,13 +1053,13 @@ Route104_Text_MayMinesDecentLetsBattle:
     .string "我这边还算满意。\n那么…\l来场战斗吧？$"
 
 Route104_Text_MayHaventRaisedPokemon:
-    .string "小遥：哦，怎么了？\p你没怎么训练\n你的宝可梦吗？\p作为一个训练师可不该这样！$"
+    .string "小遥：哦，怎么了？\p你没怎么训练\n你的宝可梦吗？\p作为一个训练家可不该这样！$"
 
 Route104_Text_MayLetsBattle:
     .string "小遥：那么，你怎么想？\n来场战斗吧？$"
 
 Route104_Text_MayIntro:
-    .string "小遥：你刚刚成为训练师，\n{PLAYER}{KUN}。我是不会输的！$"
+    .string "小遥：你刚刚成为训练家，\n{PLAYER}{KUN}。我是不会输的！$"
 
 Route104_Text_MayDefeat:
     .string "呀！\n你比我想像中要强多了！$"
@@ -1068,10 +1068,10 @@ Route104_Text_MayPostBattle:
     .string "小遥：我觉得你的宝可梦\n训练得真不错，\p但你该向哈奇学学，\n不要只是让它们去战斗。\p和宝可梦做朋友\n也同样重要。$"
 
 Route104_Text_BrendanWeShouldRegister:
-    .string "佑树：哦，嗨，{PLAYER}！\p哈，你把得文给你的口袋领航员装了\n对战寻呼系统？\p我们互相登记各自的信息吧，\n这样我们就能保持联系了。$"
+    .string "佑树：哦，嗨，{PLAYER}！\p哈，你把得文给你的宝可梦导航仪装了\n对战寻呼系统？\p我们互相登记各自的信息吧，\n这样我们就能保持联系了。$"
 
 Route104_Text_RegisteredBrendan:
-    .string "{PLAYER}把佑树的信息\n登记进口袋领航员里。$"
+    .string "{PLAYER}把佑树的信息\n登记进宝可梦导航仪里。$"
 
 Route104_Text_BrendanHowsYourPokedex:
     .string "佑树：{PLAYER}，你的宝可梦图鉴进展如何？\n有几页了吗？$"
@@ -1086,7 +1086,7 @@ Route104_Text_BrendanLetsBattle:
     .string "佑树：怎么？\n想和我战斗吗？$"
 
 Route104_Text_BrendanIntro:
-    .string "佑树：我知道你已经是训练师了，\n但我也不是那么好对付的！$"
+    .string "佑树：我知道你已经是训练家了，\n但我也不是那么好对付的！$"
 
 Route104_Text_BrendanDefeat:
     .string "唔…\n你真得很强。$"

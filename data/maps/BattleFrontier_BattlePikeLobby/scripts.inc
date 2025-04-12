@@ -272,7 +272,7 @@ BattleFrontier_BattlePike_EventScript_CloseCurtain::
 	return
 
 BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
-    .string "在这里，训练师的运气将\n受到考验…\p欢迎来到对战水管…\p我是你对战水管的指导…$"
+    .string "在这里，训练家的运气将\n受到考验…\p欢迎来到对战水管…\p我是你对战水管的指导…$"
 
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
     .string "你要进行对战水管\n的挑战吗？$"
@@ -331,14 +331,14 @@ BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal:
     .string "啊！我失去了机会！\n我走错了房间！\p在这里，你要当心\n毒，冰冻，等其它的。$"
 
 BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer:
-    .string "我已经完成了10次挑战，\n但我从来没有要同一个\l训练师战斗。$"
+    .string "我已经完成了10次挑战，\n但我从来没有要同一个\l训练家战斗。$"
 
 BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere:
     .string "听着！听着！\p你难道不认为宝可梦的\n特殊能力在这里会很有\l用吗？$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose:
-    .string "这个怪异的地方是什么？\n我根本弄不明白！\p我已经进行挑战好多次了\n但无论我选哪个路线\l还是要遇到训练师。$"
+    .string "这个怪异的地方是什么？\n我根本弄不明白！\p我已经进行挑战好多次了\n但无论我选哪个路线\l还是要遇到训练家。$"
 
 BattleFrontier_BattlePikeLobby_Text_RulesAreListed:
     .string "选择式对战的规则如下。$"
@@ -347,7 +347,7 @@ BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading:
     .string "你要读哪个标题？$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
-    .string "在选择式对战的挑战中\n包包和口袋领航员不能使用。$"
+    .string "在选择式对战的挑战中\n包包和宝可梦导航仪不能使用。$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
     .string "在一次选择式对战的挑战中，\n宝可梦持有的任何树果或者药草\l只能一次有效。$"

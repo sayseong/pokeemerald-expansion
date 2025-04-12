@@ -275,7 +275,7 @@ SSTidalCorridor_Text_WeveArrived:
     .string "我们到了！$"
 
 SSTidalCorridor_Text_VisitOtherCabins:
-    .string "去其它船舱转转吧，\n厌烦了漫长旅程的训练师\l一个个都跃跃欲试。$"
+    .string "去其它船舱转转吧，\n厌烦了漫长旅程的训练家\l一个个都跃跃欲试。$"
 
 SSTidalCorridor_Text_EnjoyYourCruise:
     .string "旅途愉快！$"

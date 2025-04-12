@@ -326,7 +326,7 @@ BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
-    .string "在这里，训练师的智力将\n受到考验！\p欢迎来到对战工厂！\p我是你的单人交换式对战锦标赛\n的指导。$"
+    .string "在这里，训练家的智力将\n受到考验！\p欢迎来到对战工厂！\p我是你的单人交换式对战锦标赛\n的指导。$"
 
 BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge:
     .string "你要进行单人交换式对战\n挑战吗？$"
@@ -383,7 +383,7 @@ BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem:
     .string "{PLAYER}得到了奖品\n{STR_VAR_1}。$"
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
-    .string "在这里，训练师的智力将\n受到考验！\p欢迎来到对战工厂！\p我是你的双人交换式对战锦标赛\n的指导。$"
+    .string "在这里，训练家的智力将\n受到考验！\p欢迎来到对战工厂！\p我是你的双人交换式对战锦标赛\n的指导。$"
 
 BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge:
     .string "你要进行双人交换式对战锦标赛\n挑战吗？$"
@@ -429,13 +429,13 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules:
     .string "在交换式对战中，你只能用\n三只宝可梦。\p不管是租借的还是交换得到的，\n你的队里不能出现两只或更多\l相同的宝可梦。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules:
-    .string "你只能同之前你所击败\n过的训练师进行宝可梦交换。\p你只能交换到被你击败过的训练师\n使用的宝可梦。$"
+    .string "你只能同之前你所击败\n过的训练家进行宝可梦交换。\p你只能交换到被你击败过的训练家\n使用的宝可梦。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
-    .string "每赢一场战斗，你只能\n和被你击败的对手交换\l一只宝可梦。\p你不能和第七个训练师\n进行宝可梦交换。$"
+    .string "每赢一场战斗，你只能\n和被你击败的对手交换\l一只宝可梦。\p你不能和第七个训练家\n进行宝可梦交换。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
     .string "在交换宝可梦时有两个关键\n要注意。\p第一，交换时，你无法知道\n你要接受的宝可梦的\l资料。\p第二，在你队里的宝可梦\n是按顺序排列的，这个顺序取决\l于你租借他们的先后。\p即使进行了交换这个顺序\n也保持不变。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
-    .string "在自由级中，租借的宝可梦\n和对方训练师的宝可梦\l都是100级的。$"
+    .string "在自由级中，租借的宝可梦\n和对方训练家的宝可梦\l都是100级的。$"

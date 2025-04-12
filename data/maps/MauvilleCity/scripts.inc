@@ -497,23 +497,23 @@ MauvilleCity_Text_WallyIllGoBackToVerdanturf:
     .string "小光：叔叔…\n我会回绿荫镇的…$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
-    .string "{PLAYER}，谢谢。\n做一个训练师也没那么容易，是吗？\p仅仅是让自己的宝可梦去战斗\n还不够，这样并不会成为\l真正的训练师。$"
+    .string "{PLAYER}，谢谢。\n做一个训练家也没那么容易，是吗？\p仅仅是让自己的宝可梦去战斗\n还不够，这样并不会成为\l真正的训练家。$"
 
 MauvilleCity_Text_UncleNoNeedToBeDown:
     .string "叔叔：小光，\n不要这么沮丧。\p想想是什么激励着你\n要变得越来越强的？\p好了，我们回家吧，\n大家都在等你呢。$"
 
 MauvilleCity_Text_UncleVisitUsSometime:
-    .string "叔叔：{PLAYER}{KUN}，我刚刚才想起来，\n你就是那位看着小光\l抓到他的第一只宝可梦的\l训练师吧？\p有空的话，\n可以来绿荫镇转转吗？\l我想小光也会很高兴的。$"
+    .string "叔叔：{PLAYER}{KUN}，我刚刚才想起来，\n你就是那位看着小光\l抓到他的第一只宝可梦的\l训练家吧？\p有空的话，\n可以来绿荫镇转转吗？\l我想小光也会很高兴的。$"
 
 
 MauvilleCity_Text_WallyPokenavCall:
-    .string "… … … … … …\n… … … … …哔！\p小光：啊，{PLAYER}！\p我只是想告诉你\n我叔叔刚给我买了个口袋领航员！\p现在我随时都\n可以和你联系了，{PLAYER}！\p… … … … … …\n… … … … …咔哒！$"
+    .string "… … … … … …\n… … … … …哔！\p小光：啊，{PLAYER}！\p我只是想告诉你\n我叔叔刚给我买了个宝可梦导航仪！\p现在我随时都\n可以和你联系了，{PLAYER}！\p… … … … … …\n… … … … …咔哒！$"
 
 MauvilleCity_Text_RegisteredWally:
-    .string "把小光的信息\n登记到口袋领航员里。$"
+    .string "把小光的信息\n登记到宝可梦导航仪里。$"
 
 MauvilleCity_Text_ScottYouDidntHoldBack:
-    .string "亚希达：嘿嘿…\n我刚才一直在看你们的战斗！\p那个叫小光的男孩是你的朋友，\n对吗？\p但你击败他的时候\n没有任何犹豫。\p没错！这才是\n真正的宝可梦战斗！\p我所仰慕的就是这样的训练师！\p… … … … … …\n我会为你加油的！$"
+    .string "亚希达：嘿嘿…\n我刚才一直在看你们的战斗！\p那个叫小光的男孩是你的朋友，\n对吗？\p但你击败他的时候\n没有任何犹豫。\p没错！这才是\n真正的宝可梦战斗！\p我所仰慕的就是这样的训练家！\p… … … … … …\n我会为你加油的！$"
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
     .string "铁旋：嗨，{PLAYER}{KUN}！\n你看起来挺精神嘛！\l不错，不错，啊哈哈哈哈！\p好！我决定了！\n{PLAYER}{KUN}，我需要帮助！\p紫堇市这里有一个\n叫做新紫堇的地下区域。\p{PLAYER}{KUN}，希望你能\n去那里关掉发电器。\p最近发电器的运转有些失控，\n现在那里不是很安全。\p给，这是\n进入新紫堇的钥匙。$"

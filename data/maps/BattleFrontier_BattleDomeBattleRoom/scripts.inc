@@ -960,7 +960,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RisingStar:
     .string "后起之秀啊！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
-    .string "哪一位训练师进入\n冠军赛了呢？\p$"
+    .string "哪一位训练家进入\n冠军赛了呢？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAchieveChampionFirstTry:
     .string "第一次的冠军赛才艺试练\n能完成吗？\p$"
@@ -969,10 +969,10 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
     .string "要重复上次失败的\n挑战吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
-    .string "训练师为了第一场冠军赛的\n试练发火了。\p$"
+    .string "训练家为了第一场冠军赛的\n试练发火了。\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
-    .string "胜利代表着训练师\n靠近了决赛。\p$"
+    .string "胜利代表着训练家\n靠近了决赛。\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillLongHeldDreamComeTrue:
     .string "渴望以久的冠军赛\n真的来临了吗？\p$"
@@ -981,10 +981,10 @@ BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
     .string "无敌的冠军！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
-    .string "哪位想打败\n这位训练师？\p$"
+    .string "哪位想打败\n这位训练家？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer:
-    .string "现在还有独自打败\n这位训练师的训练师吗？\p$"
+    .string "现在还有独自打败\n这位训练家的训练家吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CurrentChampAimingToRetainTitle:
     .string "上届冠军\n卫冕成功！\p$"
@@ -996,7 +996,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
     .string "上一位勇士已经被送回。\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
-    .string "这位训练师会像预期\n那样进入总决赛吗？\p$"
+    .string "这位训练家会像预期\n那样进入总决赛吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory:
     .string "上届冠军会赢回\n失去的荣誉吗？\p$"
@@ -1005,7 +1005,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
     .string "感受正在大师的光芒！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
-    .string "下面…{PLAYER}将要\n面对的训练师是…\p当然！就是他！\n对战巨蛋理事！\l我们的巨蛋天王！\l用你们的热情来欢迎希尔斯吧！$"
+    .string "下面…{PLAYER}将要\n面对的训练家是…\p当然！就是他！\n对战巨蛋理事！\l我们的巨蛋天王！\l用你们的热情来欢迎希尔斯吧！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
     .string "观众：希尔斯！希尔斯！\n希尔斯！希尔斯！希尔斯！$"

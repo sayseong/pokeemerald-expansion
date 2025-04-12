@@ -49,7 +49,7 @@ Route110_TrickHousePuzzle6_Text_SophiaIntro:
     .string "我听说这儿有间奇怪的房子，\n所以我就来了。$"
 
 Route110_TrickHousePuzzle6_Text_SophiaDefeat:
-    .string "我发现了一个强大的训练师！$"
+    .string "我发现了一个强大的训练家！$"
 
 Route110_TrickHousePuzzle6_Text_SophiaPostBattle:
     .string "调查这个地方\n令我非常快乐。\p这是值得一遍遍地\n挑战的地方！$"

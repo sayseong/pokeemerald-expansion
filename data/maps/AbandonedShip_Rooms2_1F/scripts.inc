@@ -50,7 +50,7 @@ AbandonedShip_Rooms2_1F_EventScript_Garrison::
 	end
 
 AbandonedShip_Rooms2_1F_Text_DanIntro:
-    .string "丹：在寻宝的途中，\n我们发现了一名训练师！$"
+    .string "丹：在寻宝的途中，\n我们发现了一名训练家！$"
 
 AbandonedShip_Rooms2_1F_Text_DanDefeat:
     .string "丹：即使我们联手\n也没能打过他…$"
@@ -62,7 +62,7 @@ AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons:
     .string "丹：你连两只宝可梦都没有，\n这样肯定赢不了我们。$"
 
 AbandonedShip_Rooms2_1F_Text_KiraIntro:
-    .string "奇拉：哦？\n我们一直在寻宝，\l结果却找到一名训练师！$"
+    .string "奇拉：哦？\n我们一直在寻宝，\l结果却找到一名训练家！$"
 
 AbandonedShip_Rooms2_1F_Text_KiraDefeat:
     .string "奇拉：哦，太强了！$"
@@ -110,7 +110,7 @@ AbandonedShip_Rooms2_1F_Text_JaniPostBattle:
     .string "赤脚在这艘船上走\n还真有些难受。$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonIntro:
-    .string "力量与体贴…\n这就是训练师的宝藏！$"
+    .string "力量与体贴…\n这就是训练家的宝藏！$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonDefeat:
     .string "啊，没想到你还\n真有两下子。$"

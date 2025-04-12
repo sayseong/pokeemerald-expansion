@@ -378,13 +378,13 @@ BattleFrontier_BattlePalaceLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
-    .string "欢迎来到对战宫殿，\n这里是对训练师的\p心的测试，这里接受\p单人对战大厅\n的挑战。$"
+    .string "欢迎来到对战宫殿，\n这里是对训练家的\p心的测试，这里接受\p单人对战大厅\n的挑战。$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
     .string "你想要挑战\n单人对战大厅吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
-    .string "对战宫殿里有几个\n专门为单人对战准备的礼堂，\l被称作单人对战大厅。\p单人对战与普通比赛的规则\n相同，但增加了一条\l非常重要的规则，\p训练师只能选择\n进行战斗的宝可梦，\p不可以对宝可梦\n下达任何战斗指令。\p宝可梦要\n依靠自己的本能战斗，\p你必须信赖你的宝可梦，\n仔细观看它们的比赛。\p如果你能成功地连续打败\n七个训练师，\l就可以得到对战点数。\p需要中断挑战的话\n必须进行存档，\p假如没有存档\n则视为放弃参赛权。$"
+    .string "对战宫殿里有几个\n专门为单人对战准备的礼堂，\l被称作单人对战大厅。\p单人对战与普通比赛的规则\n相同，但增加了一条\l非常重要的规则，\p训练家只能选择\n进行战斗的宝可梦，\p不可以对宝可梦\n下达任何战斗指令。\p宝可梦要\n依靠自己的本能战斗，\p你必须信赖你的宝可梦，\n仔细观看它们的比赛。\p如果你能成功地连续打败\n七个训练家，\l就可以得到对战点数。\p需要中断挑战的话\n必须进行存档，\p假如没有存档\n则视为放弃参赛权。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
     .string "当你的心与你的宝可梦都变得\n更强的时候，再回到这里来吧。$"
@@ -450,16 +450,16 @@ BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway:
     .string "不知道一只喜欢吓唬对手，\n然后一点点打倒对方的宝可梦\l应该算作什么性格，\p它要是乐天的性格的话，\n我会大吃一惊的。\p但是，唉，不可能的。$"
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
-    .string "欢迎来到对战宫殿，\n这里是对训练师的心的测试，\p这里接受\p双打对战大厅\n的挑战。$"
+    .string "欢迎来到对战宫殿，\n这里是对训练家的心的测试，\p这里接受\p双打对战大厅\n的挑战。$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
     .string "你想要挑战\n双打对战大厅吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
-    .string "对战宫殿里有几个\n专门为双打对战准备的礼堂，\l被称作双打对战大厅。\p双打对战与普通比赛的规则\n相同，但增加了一条\l非常重要的规则，\p训练师只能选择\n进行战斗的宝可梦，\p不可以对宝可梦\n下达任何战斗指令。\p宝可梦要\n依靠自己的本能战斗，\p你必须信赖你的宝可梦，\n仔细观看它们的比赛。\p如果你能成功地连续打败\n七个训练师，\l就可以得到对战点数。\p需要中断挑战的话\n必须进行存档，\p假如没有存档\n则视为放弃参赛权。$"
+    .string "对战宫殿里有几个\n专门为双打对战准备的礼堂，\l被称作双打对战大厅。\p双打对战与普通比赛的规则\n相同，但增加了一条\l非常重要的规则，\p训练家只能选择\n进行战斗的宝可梦，\p不可以对宝可梦\n下达任何战斗指令。\p宝可梦要\n依靠自己的本能战斗，\p你必须信赖你的宝可梦，\n仔细观看它们的比赛。\p如果你能成功地连续打败\n七个训练家，\l就可以得到对战点数。\p需要中断挑战的话\n必须进行存档，\p假如没有存档\n则视为放弃参赛权。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers:
-    .string "要连续打败殿主\n和七个训练师啊…$"
+    .string "要连续打败殿主\n和七个训练家啊…$"
 
 BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
     .string "为了表彰你和你的宝可梦\n之间密切的关系，我们把\l这些对战点数奖给你。$"
@@ -483,7 +483,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves:
     .string "有直接给予对手伤害的\n攻击性招式，\p有抵抗敌人攻击或\n回复体力等等的\l防御性招式，\p还有能让对手陷入\n中毒或麻痹等\l种种异常状态的\l奇怪的招式。\p宝可梦会自己决定\n使用三种招式中的哪一种。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered:
-    .string "没有训练师的命令，\n宝可梦有可能并不会\l经常使用某些招式。\p宝可梦不擅长使用\n自己不喜欢的招式。\p如果宝可梦只会\n不太符合它的性格的招式，\l那么就很难凭自己的潜能获得胜利。$"
+    .string "没有训练家的命令，\n宝可梦有可能并不会\l经常使用某些招式。\p宝可梦不擅长使用\n自己不喜欢的招式。\p如果宝可梦只会\n不太符合它的性格的招式，\l那么就很难凭自己的潜能获得胜利。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger:
     .string "根据性格的不同，如果一只宝可梦\n遇上了麻烦，它也有可能\l会使用并不符合它性格的招式。\p如果紧要关头宝可梦的表现\n开始变得奇怪，就要多注意它一下了。$"

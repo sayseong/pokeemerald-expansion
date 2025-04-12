@@ -630,7 +630,7 @@ MtChimney_Text_Bushaa:
     .string "扑沙！$"
 
 MtChimney_Text_LavaCookiesJust200:
-    .string "釜炎仙贝是\n烟囱山的特产。\p吃吃看吧，一个只卖200$。$"
+    .string "釜炎仙贝是\n烟囱山的特产。\p吃吃看吧，一个只卖200¥。$"
 
 MtChimney_Text_ThankYouDear:
     .string "谢谢惠顾，孩子！$"
@@ -717,7 +717,7 @@ MtChimney_Text_SawyerPostBattle:
     .string "我想我应该和这里的人一起\n到釜炎镇温泉深处去！$"
 
 MtChimney_Text_SawyerRegister:
-    .string "我喜欢你这样热情的训练师，\n让我把你登记进口袋领航员吧。$"
+    .string "我喜欢你这样热情的训练家，\n让我把你登记进宝可梦导航仪吧。$"
 
 MtChimney_Text_SawyerRematchIntro:
     .string "我喜欢跟这里热情的人们\n呆在一起。我不会输的！$"

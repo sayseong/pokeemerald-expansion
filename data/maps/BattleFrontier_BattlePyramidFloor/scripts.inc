@@ -369,145 +369,145 @@ BattlePyramid_Text_ZeroItemsRemaining6::
     .string "你有没有搜集道具呢？\p我认为这一层应该\n没有道具了。$"
 
 BattlePyramid_Text_SevenTrainersRemaining1::
-    .string "你是很强！\p可还有7个比我\n更强的训练师等着你！$"
+    .string "你是很强！\p可还有7个比我\n更强的训练家等着你！$"
 
 BattlePyramid_Text_SixTrainersRemaining1::
-    .string "你是很强！\p可还有6个比我\n更强的训练师等着你！$"
+    .string "你是很强！\p可还有6个比我\n更强的训练家等着你！$"
 
 BattlePyramid_Text_FiveTrainersRemaining1::
-    .string "你是很强！\p可还有5个比我\n更强的训练师等着你！$"
+    .string "你是很强！\p可还有5个比我\n更强的训练家等着你！$"
 
 BattlePyramid_Text_FourTrainersRemaining1::
-    .string "你是很强！\p可还有4个比我\n更强的训练师等着你！$"
+    .string "你是很强！\p可还有4个比我\n更强的训练家等着你！$"
 
 BattlePyramid_Text_ThreeTrainersRemaining1::
-    .string "你是很强！\p可还有3个比我\n更强的训练师等着你！$"
+    .string "你是很强！\p可还有3个比我\n更强的训练家等着你！$"
 
 BattlePyramid_Text_TwoTrainersRemaining1::
-    .string "你是很强！\p可还有2个比我\n更强的训练师等着你！$"
+    .string "你是很强！\p可还有2个比我\n更强的训练家等着你！$"
 
 BattlePyramid_Text_OneTrainersRemaining1::
-    .string "你是很强！\p可还有1个比我\n更强的训练师等着你！$"
+    .string "你是很强！\p可还有1个比我\n更强的训练家等着你！$"
 
 BattlePyramid_Text_ZeroTrainersRemaining1::
     .string "你真强！\p现在已经没有人\n能够打败你了！$"
 
 BattlePyramid_Text_SevenTrainersRemaining2::
-    .string "真不幸！\p后面还有7位训练师！\n他们中或许有人比你弱！$"
+    .string "真不幸！\p后面还有7位训练家！\n他们中或许有人比你弱！$"
 
 BattlePyramid_Text_SixTrainersRemaining2::
-    .string "真不幸！\p后面还有6位训练师！\n他们中或许有人比你弱！$"
+    .string "真不幸！\p后面还有6位训练家！\n他们中或许有人比你弱！$"
 
 BattlePyramid_Text_FiveTrainersRemaining2::
-    .string "真不幸！\p后面还有5位训练师！\n他们中或许有人比你弱！$"
+    .string "真不幸！\p后面还有5位训练家！\n他们中或许有人比你弱！$"
 
 BattlePyramid_Text_FourTrainersRemaining2::
-    .string "真不幸！\p后面还有4位训练师！\n他们中或许有人比你弱！$"
+    .string "真不幸！\p后面还有4位训练家！\n他们中或许有人比你弱！$"
 
 BattlePyramid_Text_ThreeTrainersRemaining2::
-    .string "真不幸！\p后面还有3位训练师！\n他们中或许有人比你弱！$"
+    .string "真不幸！\p后面还有3位训练家！\n他们中或许有人比你弱！$"
 
 BattlePyramid_Text_TwoTrainersRemaining2::
-    .string "真不幸！\p后面还有2位训练师！\n他们中或许有人比你弱！$"
+    .string "真不幸！\p后面还有2位训练家！\n他们中或许有人比你弱！$"
 
 BattlePyramid_Text_OneTrainersRemaining2::
-    .string "真不幸！\p后面还有1位训练师！\n他或许比你弱！$"
+    .string "真不幸！\p后面还有1位训练家！\n他或许比你弱！$"
 
 BattlePyramid_Text_ZeroTrainersRemaining2::
-    .string "真不幸！\p后面已经没有训练师\n可以和你一起对战了。$"
+    .string "真不幸！\p后面已经没有训练家\n可以和你一起对战了。$"
 
 BattlePyramid_Text_SevenTrainersRemaining3::
-    .string "真是一场漂亮的对战！\p本层还有7位训练师\n你能打败他们吧？$"
+    .string "真是一场漂亮的对战！\p本层还有7位训练家\n你能打败他们吧？$"
 
 BattlePyramid_Text_SixTrainersRemaining3::
-    .string "真是一场漂亮的对战！\p本层还有6位训练师\n你能打败他们吧？$"
+    .string "真是一场漂亮的对战！\p本层还有6位训练家\n你能打败他们吧？$"
 
 BattlePyramid_Text_FiveTrainersRemaining3::
-    .string "真是一场漂亮的对战！\p本层还有5位训练师\n你能打败他们吧？$"
+    .string "真是一场漂亮的对战！\p本层还有5位训练家\n你能打败他们吧？$"
 
 BattlePyramid_Text_FourTrainersRemaining3::
-    .string "真是一场漂亮的对战！\p本层还有4位训练师\n你能打败他们吧？$"
+    .string "真是一场漂亮的对战！\p本层还有4位训练家\n你能打败他们吧？$"
 
 BattlePyramid_Text_ThreeTrainersRemaining3::
-    .string "真是一场漂亮的对战！\p本层还有3位训练师\n你能打败他们吧？$"
+    .string "真是一场漂亮的对战！\p本层还有3位训练家\n你能打败他们吧？$"
 
 BattlePyramid_Text_TwoTrainersRemaining3::
-    .string "真是一场漂亮的对战！\p本层还有2位训练师\n你能打败他们吧？$"
+    .string "真是一场漂亮的对战！\p本层还有2位训练家\n你能打败他们吧？$"
 
 BattlePyramid_Text_OneTrainersRemaining3::
-    .string "真是一场漂亮的对战！\p本层还有1位训练师\n你能打败他吧？$"
+    .string "真是一场漂亮的对战！\p本层还有1位训练家\n你能打败他吧？$"
 
 BattlePyramid_Text_ZeroTrainersRemaining3::
-    .string "真是一场漂亮的对战！\p你已经打败了本层\n所有的训练师。$"
+    .string "真是一场漂亮的对战！\p你已经打败了本层\n所有的训练家。$"
 
 BattlePyramid_Text_SevenTrainersRemaining4::
-    .string "或许你能轻松通过\n本层其他7位训练师吧！$"
+    .string "或许你能轻松通过\n本层其他7位训练家吧！$"
 
 BattlePyramid_Text_SixTrainersRemaining4::
-    .string "或许你能轻松通过\n本层其他6位训练师吧！$"
+    .string "或许你能轻松通过\n本层其他6位训练家吧！$"
 
 BattlePyramid_Text_FiveTrainersRemaining4::
-    .string "或许你能轻松通过\n本层其他5位训练师吧！$"
+    .string "或许你能轻松通过\n本层其他5位训练家吧！$"
 
 BattlePyramid_Text_FourTrainersRemaining4::
-    .string "或许你能轻松通过\n本层其他4位训练师吧！$"
+    .string "或许你能轻松通过\n本层其他4位训练家吧！$"
 
 BattlePyramid_Text_ThreeTrainersRemaining4::
-    .string "或许你能轻松通过\n本层其他3位训练师吧！$"
+    .string "或许你能轻松通过\n本层其他3位训练家吧！$"
 
 BattlePyramid_Text_TwoTrainersRemaining4::
-    .string "或许你能轻松通过\n本层其他2位训练师吧！$"
+    .string "或许你能轻松通过\n本层其他2位训练家吧！$"
 
 BattlePyramid_Text_OneTrainersRemaining4::
-    .string "或许你能轻松通过\n本层剩下那1位训练师吧！$"
+    .string "或许你能轻松通过\n本层剩下那1位训练家吧！$"
 
 BattlePyramid_Text_ZeroTrainersRemaining4::
     .string "已经没有人\n能打败你了……$"
 
 BattlePyramid_Text_SevenTrainersRemaining5::
-    .string "你还需要打败\n7位专业训练师。$"
+    .string "你还需要打败\n7位专业训练家。$"
 
 BattlePyramid_Text_SixTrainersRemaining5::
-    .string "你还需要打败\n6位专业训练师。$"
+    .string "你还需要打败\n6位专业训练家。$"
 
 BattlePyramid_Text_FiveTrainersRemaining5::
-    .string "你还需要打败\n5位专业训练师。$"
+    .string "你还需要打败\n5位专业训练家。$"
 
 BattlePyramid_Text_FourTrainersRemaining5::
-    .string "你还需要打败\n4位专业训练师。$"
+    .string "你还需要打败\n4位专业训练家。$"
 
 BattlePyramid_Text_ThreeTrainersRemaining5::
-    .string "你还需要打败\n3位专业训练师。$"
+    .string "你还需要打败\n3位专业训练家。$"
 
 BattlePyramid_Text_TwoTrainersRemaining5::
-    .string "你还需要打败\n2位专业训练师。$"
+    .string "你还需要打败\n2位专业训练家。$"
 
 BattlePyramid_Text_OneTrainersRemaining5::
-    .string "你还需要打败\n1位专业训练师。$"
+    .string "你还需要打败\n1位专业训练家。$"
 
 BattlePyramid_Text_ZeroTrainersRemaining5::
-    .string "你的技术真娴熟！\p这儿已经没有训练师\n能打败你了。$"
+    .string "你的技术真娴熟！\p这儿已经没有训练家\n能打败你了。$"
 
 BattlePyramid_Text_SevenTrainersRemaining6::
-    .string "你能继续保持打败\n剩下7位训练师的信心吗？$"
+    .string "你能继续保持打败\n剩下7位训练家的信心吗？$"
 
 BattlePyramid_Text_SixTrainersRemaining6::
-    .string "你能继续保持打败\n剩下6位训练师的信心吗？$"
+    .string "你能继续保持打败\n剩下6位训练家的信心吗？$"
 
 BattlePyramid_Text_FiveTrainersRemaining6::
-    .string "你能继续保持打败\n剩下5位训练师的信心吗？$"
+    .string "你能继续保持打败\n剩下5位训练家的信心吗？$"
 
 BattlePyramid_Text_FourTrainersRemaining6::
-    .string "你能继续保持打败\n剩下4位训练师的信心吗？$"
+    .string "你能继续保持打败\n剩下4位训练家的信心吗？$"
 
 BattlePyramid_Text_ThreeTrainersRemaining6::
-    .string "你能继续保持打败\n剩下3位训练师的信心吗？$"
+    .string "你能继续保持打败\n剩下3位训练家的信心吗？$"
 
 BattlePyramid_Text_TwoTrainersRemaining6::
-    .string "你能继续保持打败\n剩下2位训练师的信心吗？$"
+    .string "你能继续保持打败\n剩下2位训练家的信心吗？$"
 
 BattlePyramid_Text_OneTrainersRemaining6::
-    .string "你能继续保持打败\n剩下1位训练师的信心吗？$"
+    .string "你能继续保持打败\n剩下1位训练家的信心吗？$"
 
 BattlePyramid_Text_ZeroTrainersRemaining6::
-    .string "已经没有训练师\n可以和你对战了……$"
+    .string "已经没有训练家\n可以和你对战了……$"

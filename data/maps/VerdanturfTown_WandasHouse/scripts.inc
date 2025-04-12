@@ -83,7 +83,7 @@ VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande::
 	end
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeech:
-    .string "小光：我输给了你，{PLAYER}，\n但我不会再消沉，\p因为我有了新目标。\n我要和拉鲁拉丝一起\l挑战宝可梦道馆，做一个\l杰出的训练师。\p看着吧，{PLAYER}。\n我会比你更强。\p到那个时候，\n我会再次挑战你。$"
+    .string "小光：我输给了你，{PLAYER}，\n但我不会再消沉，\p因为我有了新目标。\n我要和拉鲁拉丝一起\l挑战宝可梦道馆，做一个\l杰出的训练家。\p看着吧，{PLAYER}。\n我会比你更强。\p到那个时候，\n我会再次挑战你。$"
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeechShort:
     .string "小光：看着吧，{PLAYER}。\n我会比你更强。\p到那个时候，\n我会再次挑战你。$"

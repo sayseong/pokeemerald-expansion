@@ -1028,13 +1028,13 @@ RustboroCity_Text_SneakyLookingManWentAroundCorner:
     .string "嗯？一个贼头贼脑的人？\p说起来，好像的确有个\n见不得人的家伙走过那边拐角去了。$"
 
 RustboroCity_Text_HaveYouChallengedGym:
-    .string "你去挑战过\n宝可梦道馆了吗？\p手中拿着那闪闪发光的\n道馆徽章时，我想训练师们\l都会意识到他们肩上负担的是什么。$"
+    .string "你去挑战过\n宝可梦道馆了吗？\p手中拿着那闪闪发光的\n道馆徽章时，我想训练家们\l都会意识到他们肩上负担的是什么。$"
 
 RustboroCity_Text_HeyThatsRustborosGymBadge:
     .string "呀，那是卡那兹市的道馆徽章！\p我觉得，所有宝可梦道馆徽章之中，\n卡那兹市的是最漂亮的。$"
 
 RustboroCity_Text_YoureNewAroundHere:
-    .string "哦？你是谁？\n好像在附近没看到过你。\p你是新转来\n宝可梦训练师学校的吗？$"
+    .string "哦？你是谁？\n好像在附近没看到过你。\p你是新转来\n宝可梦训练家学校的吗？$"
 
 RustboroCity_Text_GymLeaderIsntEasyWithFire:
     .string "我挑战过道馆馆主，但是…\p我的炎系宝可梦\n很难打赢他们…\p炎系宝可梦\n被岩石系宝可梦克制…$"
@@ -1049,7 +1049,7 @@ RustboroCity_Text_WowYouHavePokemon:
     .string "哇，你也带着宝可梦！\p我长大以后\n也要带宝可梦一起去旅行。$"
 
 RustboroCity_Text_CatchRarePokemonIfIGoToSchool:
-    .string "宝可梦训练师学校！\p如果我进这所学校的话，\n抓稀有宝可梦会更容易吗？$"
+    .string "宝可梦训练家学校！\p如果我进这所学校的话，\n抓稀有宝可梦会更容易吗？$"
 
 RustboroCity_Text_PokemonCanChangeLookFromExp:
     .string "宝可梦在战斗中获得经验后，\n到某时有可能会改变形态。$"
@@ -1067,13 +1067,13 @@ RustboroCity_Text_WaitDontTakeMyGoods:
     .string "等等！等——等！\p别抢我的包裹！$"
 
 RustboroCity_Text_HelpMeIWasRobbed:
-    .string "啊，是你！\p你是橙华森林里\n帮过我的那个训练师！\p请再帮我一次吧！水舰队抢了我的东西！\n我得把得文的包裹拿回来！\p否则…\n我会有大麻烦的。$"
+    .string "啊，是你！\p你是橙华森林里\n帮过我的那个训练家！\p请再帮我一次吧！水舰队抢了我的东西！\n我得把得文的包裹拿回来！\p否则…\n我会有大麻烦的。$"
 
 RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
     .string "那个小偷大概\n向着那边的隧道逃跑了。$"
 
 RustboroCity_Text_YouGotItThankYou:
-    .string "嗨！怎么样了？\n得文的包裹？\p太好了！\n你拿回来了！\p你真是厉害的训练师！\p这些高级球就\n做为我的谢礼吧！$"
+    .string "嗨！怎么样了？\n得文的包裹？\p太好了！\n你拿回来了！\p你真是厉害的训练家！\p这些高级球就\n做为我的谢礼吧！$"
 
 RustboroCity_Text_YoureLoadedWithItems:
     .string "你背了太多东西，\n装不下这些高级球了。$"
@@ -1082,22 +1082,22 @@ RustboroCity_Text_PleaseComeWithMe:
     .string "我可以占用你些时间吗？\n请跟我来！$"
 
 RustboroCity_Text_MayHiLetsRegister:
-    .string "小遥：啊，你好，{PLAYER}{KUN}！\p你的口袋领航员\n有对战寻呼功能！\p我们登记一下各自的信息吧，\n这样就能随时联络了！\p… … … … … …$"
+    .string "小遥：啊，你好，{PLAYER}{KUN}！\p你的宝可梦导航仪\n有对战寻呼功能！\p我们登记一下各自的信息吧，\n这样就能随时联络了！\p… … … … … …$"
 
 RustboroCity_Text_RegisteredMay:
-    .string "小瑶已被登记在\n口袋领航员。$"
+    .string "小瑶已被登记在\n宝可梦导航仪。$"
 
 RustboroCity_Text_MayPassedBrineyWantToBattle:
     .string "小遥：顺便说一句，我\n在橙华森林碰上哈奇了，\p他大概正要回\n他的海边小屋去。\p对了，你的宝可梦图鉴怎么样了，\n{PLAYER}{KUN}？我这里进展不错！\p好了…\n来跟我战斗怎么样？$"
 
 RustboroCity_Text_MayOhHaventRaisedPokemonEnough:
-    .string "小遥：怎么了？\p你没有好好照顾\n你的宝可梦吗？\p作为训练师可不能这样！$"
+    .string "小遥：怎么了？\p你没有好好照顾\n你的宝可梦吗？\p作为训练家可不能这样！$"
 
 RustboroCity_Text_MayWantToBattle:
     .string "小遥：那，怎么样？\n来跟我战斗吧？$"
 
 RustboroCity_Text_MayImNotGoingToLose:
-    .string "小遥：你刚刚成为训练师，\n{PLAYER}{KUN}。我不会输的！$"
+    .string "小遥：你刚刚成为训练家，\n{PLAYER}{KUN}。我不会输的！$"
 
 RustboroCity_Text_MayDefeat:
     .string "呀！\n你比我想象中更强！$"
@@ -1106,10 +1106,10 @@ RustboroCity_Text_MayMrBrineyHint:
     .string "小遥：噢，还有，说起\n我刚才碰上的哈奇…\p{PLAYER}{KUN}，你刚刚搬来，\n也许不知道，哈奇曾经\l是大家都很敬佩的水手。$"
 
 RustboroCity_Text_BrendanHiLetsRegister:
-    .string "佑树：嗨，你好，{PLAYER}！\p你的口袋领航员\n有对战寻呼功能！太棒了！\p我们登记一下各自的信息吧，\n这样就能随时联络了！\p… … … … … …$"
+    .string "佑树：嗨，你好，{PLAYER}！\p你的宝可梦导航仪\n有对战寻呼功能！太棒了！\p我们登记一下各自的信息吧，\n这样就能随时联络了！\p… … … … … …$"
 
 RustboroCity_Text_RegisteredBrendan:
-    .string "把佑树的信息\n登记在口袋领航员里。$"
+    .string "把佑树的信息\n登记在宝可梦导航仪里。$"
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
     .string "佑树：顺便说一句，我\n在橙华森林碰上哈奇了，\p他大概正要回\n他的海边小屋去。\p{PLAYER}，你的宝可梦图鉴怎么样了？\n有几页了吗？\p我的也是。\p跟我来场战斗吧？\n我看看你成长得如何了。$"
@@ -1121,7 +1121,7 @@ RustboroCity_Text_BrendanWantToBattle:
     .string "佑树：什么事？\n想跟我战斗吗？$"
 
 RustboroCity_Text_BrendanIWontGoEasy:
-    .string "佑树：虽然你刚刚成为\n训练师，但我不会手下留情的！$"
+    .string "佑树：虽然你刚刚成为\n训练家，但我不会手下留情的！$"
 
 RustboroCity_Text_BrendanDefeat:
     .string "唔…\n你很不错。$"
@@ -1145,22 +1145,22 @@ RustboroCity_Text_CitySign:
     .string "卡那兹市\p“致力于\n自然与科学研究的城市。”$"
 
 RustboroCity_Text_TrainersSchoolSign:
-    .string "宝可梦训练师学校\p“教给你关于\n宝可梦的一切！”$"
+    .string "宝可梦训练家学校\p“教给你关于\n宝可梦的一切！”$"
 
 RustboroCity_Text_CuttersHouse:
     .string "居合斩之家$"
 
 RustboroCity_Text_DevelopedNewPokenavFeature:
-    .string "我正在开发口袋领航员的\n其他功能…\p这是个非常棒的功能！\p{PLAYER}，能让我看看董事长\n给你的口袋领航员吗？$"
+    .string "我正在开发宝可梦导航仪的\n其他功能…\p这是个非常棒的功能！\p{PLAYER}，能让我看看董事长\n给你的宝可梦导航仪吗？$"
 
 RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
-    .string "好了，{PLAYER}！\p我给你的口袋领航员\n加了个对战寻呼。\p你现在可以用对战寻呼\n与登记在你口袋领航员里的人\l聊天了。\p{PLAYER}，我们的董事长兹伏奇\n已经登记在你的口袋领航员里了，\p试试吧，\n给我们董事长打个电话。$"
+    .string "好了，{PLAYER}！\p我给你的宝可梦导航仪\n加了个对战寻呼。\p你现在可以用对战寻呼\n与登记在你宝可梦导航仪里的人\l聊天了。\p{PLAYER}，我们的董事长兹伏奇\n已经登记在你的宝可梦导航仪里了，\p试试吧，\n给我们董事长打个电话。$"
 
 RustboroCity_Text_PleaseSelectPokenav:
-    .string "请选择口袋领航员。$"
+    .string "请选择宝可梦导航仪。$"
 
 RustboroCity_Text_IdBetterGetBackToWork:
     .string "好了，我该回去工作了。\n祝一路顺风，{PLAYER}！$"
 
 RustboroCity_Text_YouCanHave2On2Battle:
-    .string "知道吗？\p即使你并未和其他训练师同行，\n也可以进行2对2战斗。\p如果你拥有两只以上宝可梦时\n被两个训练师看到，\l他们会同时向你挑战。\p你不觉得能独自打败\n两个训练师很好很强大吗？$"
+    .string "知道吗？\p即使你并未和其他训练家同行，\n也可以进行2对2战斗。\p如果你拥有两只以上宝可梦时\n被两个训练家看到，\l他们会同时向你挑战。\p你不觉得能独自打败\n两个训练家很好很强大吗？$"

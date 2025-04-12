@@ -70,7 +70,7 @@ MeteorFalls_1F_2R_Text_NicolasPostBattle:
     .string "前方的路还很曲折。\p何时我和我的宝可梦\n会成为最强？$"
 
 MeteorFalls_1F_2R_Text_NicolasRegister:
-    .string "我想更多了解你的力量。\n把你登记在领航员里吧。$"
+    .string "我想更多了解你的力量。\n把你登记在宝可梦导航仪里吧。$"
 
 MeteorFalls_1F_2R_Text_NicolasRematchIntro:
     .string "自从我们相遇，我们\n为了第一的目标而努力训练。\p让我们看下对方\n有多强大吧！$"
@@ -91,10 +91,10 @@ MeteorFalls_1F_2R_Text_JohnPostBattle:
     .string "阿元：我们结婚\n50年了。\p想想看，我都没有击败过\n我亲爱的老婆。$"
 
 MeteorFalls_1F_2R_Text_JohnNotEnoughMons:
-    .string "阿元：多么年轻的训练师！\p想和我们战斗吗？想的话就\n带来更多的宝可梦。$"
+    .string "阿元：多么年轻的训练家！\p想和我们战斗吗？想的话就\n带来更多的宝可梦。$"
 
 MeteorFalls_1F_2R_Text_JohnRegister:
-    .string "阿元：年轻的训练师，如果有机会\n的话，你还会和我们对战吗？$"
+    .string "阿元：年轻的训练家，如果有机会\n的话，你还会和我们对战吗？$"
 
 MeteorFalls_1F_2R_Text_JayIntro:
     .string "阿初：我们结婚\n50年了。\p我们做为夫妻的羁绊\n永远不会解除。$"
@@ -106,7 +106,7 @@ MeteorFalls_1F_2R_Text_JayPostBattle:
     .string "阿初：结婚50年了…\p每当我们吵架，我们都是通过\n宝可梦对战来解决…$"
 
 MeteorFalls_1F_2R_Text_JayNotEnoughMons:
-    .string "阿初：好啦，好啦，你难道不是\n年轻的训练师？\p如果你想和我们战斗，就得\n拿来更多的宝可梦。$"
+    .string "阿初：好啦，好啦，你难道不是\n年轻的训练家？\p如果你想和我们战斗，就得\n拿来更多的宝可梦。$"
 
 MeteorFalls_1F_2R_Text_JohnRematchIntro:
     .string "阿元：我们一直是\n两人一起战斗的。\l我们对自己充满信心。$"
@@ -118,7 +118,7 @@ MeteorFalls_1F_2R_Text_JohnPostRematch:
     .string "阿元：结婚50年了…\p仔细想想，我和亲爱的老婆\n每天都是在战斗的…$"
 
 MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons:
-    .string "阿元：多么年轻的训练师！\p想和我们战斗吗？想的话就\n带来更多的宝可梦。$"
+    .string "阿元：多么年轻的训练家！\p想和我们战斗吗？想的话就\n带来更多的宝可梦。$"
 
 MeteorFalls_1F_2R_Text_JayRematchIntro:
     .string "阿初：我们结婚\n50年了。\p我们一直互相支持\n我们会让自己变得更强。$"
@@ -130,5 +130,5 @@ MeteorFalls_1F_2R_Text_JayPostRematch:
     .string "阿初：结婚50年了…\n发生过太多事。\p我希望我们可以继续\n一起创造快乐的记忆。$"
 
 MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons:
-    .string "阿初：好啦，好啦，你难道不是\n年轻的训练师？\p如果你想和我们战斗，\n就得拿来更多的宝可梦。$"
+    .string "阿初：好啦，好啦，你难道不是\n年轻的训练家？\p如果你想和我们战斗，\n就得拿来更多的宝可梦。$"
 

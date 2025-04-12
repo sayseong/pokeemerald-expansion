@@ -42,5 +42,5 @@ Route106_EventScript_Ned::
 	end
 
 Route106_Text_TrainerTips:
-    .string "训练师小技巧\p关于钓鱼的建议：\n当鱼咬钩时，按下A键。$"
+    .string "训练家小技巧\p关于钓鱼的建议：\n当鱼咬钩时，按下A键。$"
 

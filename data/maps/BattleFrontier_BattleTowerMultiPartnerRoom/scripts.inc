@@ -279,13 +279,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner8::
 	end
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner::
-    .string "请在这里的训练师中\n选择一个搭档。$"
+    .string "请在这里的训练家中\n选择一个搭档。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_QuitLookingForPartner::
     .string "{PLAYER}，你还没找到\n组队的搭档，\p现在你想回\n入口接待处吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner2::
-    .string "那么，请在这里的训练师中\n选择一个搭档。$"
+    .string "那么，请在这里的训练家中\n选择一个搭档。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ThankYouForChoosingPartner::
     .string "选择好搭档以后就跟我来吧，\p我带你们去\n多人对战房间。$"
@@ -1086,7 +1086,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject::
     .string "嗯…\n我认为我的宝可梦很强的…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro::
-    .string "我是帅气的训练师{STR_VAR_1}！$"
+    .string "我是帅气的训练家{STR_VAR_1}！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon1::
     .string "我现在有的宝可梦是\n一只带着{STR_VAR_1}的{STR_VAR_2}和$"
@@ -1101,7 +1101,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMReject::
     .string "我觉得我们能组成一支\n最强的队伍的。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFIntro::
-    .string "我是帅气的训练师{STR_VAR_1}！$"
+    .string "我是帅气的训练家{STR_VAR_1}！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon1::
     .string "我的队伍里有\n一只带着{STR_VAR_1}的{STR_VAR_2}和$"

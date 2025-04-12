@@ -100,7 +100,7 @@ PacifidlogTown_House2_Text_AdoringPokemonTakeThis:
     .string "看起来它很喜欢你。\p一个敬仰你也被敬仰的宝可梦\n只得奖给它这样一个\n招式学习器，对吗？$"
 
 PacifidlogTown_House2_Text_PutInSomeMoreEffort:
-    .string "唔…\n不怎么样，但也差不到哪儿去。\p作为一个训练师，\n你要更努力啊。$"
+    .string "唔…\n不怎么样，但也差不到哪儿去。\p作为一个训练家，\n你要更努力啊。$"
 
 PacifidlogTown_House2_Text_ViciousPokemonTakeThis:
     .string "它似乎充满了恶意。\p这样可怕的宝可梦，\n给它这个招式学习器吧。$"
@@ -115,11 +115,11 @@ PacifidlogTown_House2_Text_Rurii:
     .string "露力丽：露莉莉。$"
 
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
-    .string "看上去它对训练师\n非常友好。$"
+    .string "看上去它对训练家\n非常友好。$"
 
 PacifidlogTown_House2_Text_Rururi:
     .string "露力丽：露露莉！$"
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
-    .string "它好像不是很喜欢\n它的训练师。$"
+    .string "它好像不是很喜欢\n它的训练家。$"
 

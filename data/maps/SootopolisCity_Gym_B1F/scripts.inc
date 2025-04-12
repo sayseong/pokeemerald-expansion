@@ -70,7 +70,7 @@ SootopolisCity_Gym_B1F_Text_CrissyPostBattle:
     .string "你也许能够躲过\n被亚当一击打倒的命运。$"
 
 SootopolisCity_Gym_B1F_Text_DaphneIntro:
-    .string "亚当战斗时的\n样子…\p我被那令人心醉的美丽吸引，\n才决定成为训练师。$"
+    .string "亚当战斗时的\n样子…\p我被那令人心醉的美丽吸引，\n才决定成为训练家。$"
 
 SootopolisCity_Gym_B1F_Text_DaphneDefeat:
     .string "你的战斗比我\n更加美丽…$"
@@ -106,13 +106,13 @@ SootopolisCity_Gym_B1F_Text_OliviaPostBattle:
     .string "看来你有潜力，\n为何不和我们一起训练呢？$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyIntro:
-    .string "优雅地滑过冰面，\n道路却没有交叉…\p能做到这一点的训练师\n才拥有最高雅的美丽！$"
+    .string "优雅地滑过冰面，\n道路却没有交叉…\p能做到这一点的训练家\n才拥有最高雅的美丽！$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyDefeat:
     .string "啊，打扰了。$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
-    .string "很明显，\n一个训练师有多强\l与年龄并无关系。$"
+    .string "很明显，\n一个训练家有多强\l与年龄并无关系。$"
 
 SootopolisCity_Gym_B1F_Text_BethanyIntro:
     .string "我和宝可梦在一起的时候，\n时光在“呀”地意识到之前已经飞逝！$"

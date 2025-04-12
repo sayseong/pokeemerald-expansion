@@ -62,10 +62,10 @@ BattleDome_Text_StyleToughWinningPattern::
     .string "老谋深算。$"
 
 BattleDome_Text_StyleUsesVeryRareMove::
-    .string "偶尔使用稀有技能。$"
+    .string "偶尔使用稀有招式。$"
 
 BattleDome_Text_StyleUsesStartlingMoves::
-    .string "使用技能制造混乱。$"
+    .string "使用招式制造混乱。$"
 
 BattleDome_Text_StyleConstantlyWatchesHP::
     .string "对战中经常注意HP。$"
@@ -83,7 +83,7 @@ BattleDome_Text_StyleRegalAtmosphere::
     .string "出招华丽。$"
 
 BattleDome_Text_StylePowerfulLowPPMoves::
-    .string "使用强力而且PP值较低的技能。$"
+    .string "使用强力而且PP值较低的招式。$"
 
 BattleDome_Text_StyleEnfeebleThenAttack::
     .string "擅长削弱对手后再攻击。$"
@@ -95,10 +95,10 @@ BattleDome_Text_StyleUpsetsFoesEmotionally::
     .string "擅长扰乱对手情绪。$"
 
 BattleDome_Text_StyleStrongAndStraightforward::
-    .string "使用简单而又强力的技能。$"
+    .string "使用简单而又强力的招式。$"
 
 BattleDome_Text_StyleAggressivelyStrongMoves::
-    .string "主动使用强力技能。$"
+    .string "主动使用强力招式。$"
 
 BattleDome_Text_StyleCleverlyDodgesAttacks::
     .string "擅长躲避对方攻击。$"
@@ -107,16 +107,16 @@ BattleDome_Text_StyleUsesUpsettingMoves::
     .string "擅长扰乱对方。$"
 
 BattleDome_Text_StyleUsesPopularMoves::
-    .string "使用流行技能。$"
+    .string "使用流行招式。$"
 
 BattleDome_Text_StyleHasPowerfulComboMoves::
     .string "拥有强力连击技。$"
 
 BattleDome_Text_StyleUsesHighProbabilityMoves::
-    .string "使用高精度技能。$"
+    .string "使用高精度招式。$"
 
 BattleDome_Text_StyleAggressivelySpectacularMoves::
-    .string "主动使用华丽技能。$"
+    .string "主动使用华丽招式。$"
 
 BattleDome_Text_StyleEmphasizesOffenseOverDefense::
     .string "注重进攻。$"
@@ -125,13 +125,13 @@ BattleDome_Text_StyleEmphasizesDefenseOverOffense::
     .string "注重防守。$"
 
 BattleDome_Text_StyleAttacksQuicklyStrongMoves::
-    .string "使用高速强力技能。$"
+    .string "使用高速强力招式。$"
 
 BattleDome_Text_StyleUsesAddedEffectMoves::
-    .string "经常使用带有附加效果的技能。$"
+    .string "经常使用带有附加效果的招式。$"
 
 BattleDome_Text_StyleUsesBalancedMixOfMoves::
-    .string "使用组合恰当的技能。$"
+    .string "使用组合恰当的招式。$"
 
 BattleDome_Text_StyleSampleMessage1::
     .string "这是测试信息1。$"
@@ -290,10 +290,10 @@ BattleDome_Text_TrainerWonOutrightByDefault::
     .string "{STR_VAR_1}全部自动获胜！$"
 
 BattleDome_Text_TrainerWonNoMoves::
-    .string "{STR_VAR_1}未使用技能获胜！$"
+    .string "{STR_VAR_1}未使用招式获胜！$"
 
 BattleDome_Text_TrainerWonOutrightNoMoves::
-    .string "{STR_VAR_1}全部未使用技能获胜！$"
+    .string "{STR_VAR_1}全部未使用招式获胜！$"
 
 BattleDome_Text_Round1Match1::
     .string "第1轮，第1局$"

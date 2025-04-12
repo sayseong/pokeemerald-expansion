@@ -179,7 +179,7 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
     .string "嗨，怎么样，向冠军目标\n冲刺的{PLAYER}？\p琉璃市的道馆馆主亚当\n是使用水系宝可梦的大师，\p但要走到他面前，还要\n先通过冰结成的地面…\p很抱歉，我只能\n给你这一点建议。\p这条路，你要凭\n自己的智慧通过！$"
 
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
-    .string "哟，被誉为丰缘第一的亚当\n都输给你了！\p好了！看看你的训练师卡片，\p如果你得到了所有徽章，\n就向宝可梦联盟出发吧！$"
+    .string "哟，被誉为丰缘第一的亚当\n都输给你了！\p好了！看看你的训练家卡片，\p如果你得到了所有徽章，\n就向宝可梦联盟出发吧！$"
 
 SootopolisCity_Gym_1F_Text_JuanIntro:
     .string "我问你，\n你知道吗？\l啊，我没必要这样。\p是我教给了米可利\n关于宝可梦的一切。\p我曾经放弃了\n道馆馆主的职位，\p而把道馆交托给\n米可利。\p但是，由于某种原因，\n我不得不回来。\p好了，话说得够多了，\n开始战斗吧，\p你将会看到\n我们的艺术，\p由我和宝可梦\n共同塑造的水之幻影！$"
@@ -201,7 +201,7 @@ SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
     .string "我给你的这个招式学习器\n里面是水之波动。\p使用时偶尔会因它的超音波\n使目标陷入混乱。\p… … … … … …$"
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan:
-    .string "把道馆馆主亚当的信息\n登记进口袋领航员里。$"
+    .string "把道馆馆主亚当的信息\n登记进宝可梦导航仪里。$"
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
     .string "收集了丰缘地区所有\n道馆徽章之后，就该\l向最后的目的地出发了，\p那就是宝可梦联盟。\p向丰缘地区最东方的\n彩幽市前进吧，\p宝可梦联盟\n就在彼方。$"
@@ -213,7 +213,7 @@ SootopolisCity_Gym_1F_Text_GymStatue:
     .string "琉璃市宝可梦道馆$"
 
 SootopolisCity_Gym_1F_Text_GymStatueCertified:
-    .string "琉璃市宝可梦道馆\p亚当认可的训练师：\n{PLAYER}$"
+    .string "琉璃市宝可梦道馆\p亚当认可的训练家：\n{PLAYER}$"
 
 SootopolisCity_Gym_1F_Text_JuanPreRematch:
     .string "亚当：啊，这道馆\n本已回归了平静…\p但我们年轻的台风又卷回来，\n给予我们再一次试炼！\p来吧，朋友！\p只要你喜欢，\n我随时可以与你一同起舞！$"

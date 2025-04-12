@@ -37,7 +37,7 @@ MtPyre_6F_Text_ValeriePostBattle:
     .string "或许这股力量来自在此沉睡着\n的宝可梦的灵魂…$"
 
 MtPyre_6F_Text_ValerieRegister:
-    .string "呼呼呼…我输掉了比赛，但是…\n我可以这样…\p不必用手碰到你的\n口袋领航员…嘿呀！$"
+    .string "呼呼呼…我输掉了比赛，但是…\n我可以这样…\p不必用手碰到你的\n宝可梦导航仪…嘿呀！$"
 
 MtPyre_6F_Text_ValerieRematchIntro:
     .string "你后面…\n那是什么…$"
@@ -55,5 +55,5 @@ MtPyre_6F_Text_CedricDefeat:
     .string "你并没有迷路么？$"
 
 MtPyre_6F_Text_CedricPostBattle:
-    .string "我觉得一个迷路的训练师\n会很惊慌，很容易就能打败。\p但那样太卑鄙了，我不会再那么做了…$"
+    .string "我觉得一个迷路的训练家\n会很惊慌，很容易就能打败。\p但那样太卑鄙了，我不会再那么做了…$"
 

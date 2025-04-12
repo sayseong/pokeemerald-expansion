@@ -586,16 +586,16 @@ Route111_Text_VictorDefeat:
     .string "哎呀！\n你比我想象中强多了！$"
 
 Route111_Text_VictorPostBattle:
-    .string "喂，大家出来！\n我碰到了个很强的训练师！$"
+    .string "喂，大家出来！\n我碰到了个很强的训练家！$"
 
 Route111_Text_VictoriaIntro:
-    .string "哦，天啊，这么年轻！\p你就是那个打败了我丈夫的\n训练师吧，\p轮到我跟你战斗了！$"
+    .string "哦，天啊，这么年轻！\p你就是那个打败了我丈夫的\n训练家吧，\p轮到我跟你战斗了！$"
 
 Route111_Text_VictoriaDefeat:
     .string "啊呀！\n你太厉害了！$"
 
 Route111_Text_VictoriaPostBattle:
-    .string "这儿有个很强的训练师！\n真的很强！$"
+    .string "这儿有个很强的训练家！\n真的很强！$"
 
 Route111_Text_ViviIntro:
     .string "你比我妈妈都厉害吗？哇！\p但我也不差！\n真的！$"
@@ -637,7 +637,7 @@ Route111_Text_OldLadysRestStopSign:
     .string "老奶奶的歇息小屋\n“欢迎进来歇脚。”$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
-    .string "训练师小技巧\p表示宝可梦的数值之一\n是特攻，全称\l“特殊招式攻击力。”\p相似地，还有特防，全称“特殊招式\n防御力”。$"
+    .string "训练家小技巧\p表示宝可梦的数值之一\n是特攻，全称\l“特殊招式攻击力。”\p相似地，还有特防，全称“特殊招式\n防御力”。$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
     .string "这附近什么地方\n有座沙形成的塔，\p但由于某种原因，\n它却时隐时现。\p因此我叫它幻影之塔。$"
@@ -661,5 +661,5 @@ Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
     .string "呀，糟糕！\p叔叔在紫堇市嘱咐过我\n去111号公路\l要带上碎岩！\p我叔叔在哪？\n他就住在紫堇市的车店对面。$"
 
 Route111_Text_TrainerHillSign:
-    .string "{RIGHT_ARROW}训练师之山入口\p“努力向上攀登吧，\n充满热血的训练师！”$"
+    .string "{RIGHT_ARROW}训练家之山入口\p“努力向上攀登吧，\n充满热血的训练家！”$"
 

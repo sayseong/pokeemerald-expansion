@@ -490,7 +490,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser:
     .string "殿主，宇康，\n现在登场了！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro:
-    .string "宇康：我始终都和\n我的宝可梦一同锻炼！\p我的心始终都和\n我的宝可梦一同跳动！\p年轻的训练师啊！\n你信任你的宝可梦吗？\p你能始终不渝地\n信任它们吗？\p如果你的信任是脆弱的，\n你们不可能打败我的伙伴！$"
+    .string "宇康：我始终都和\n我的宝可梦一同锻炼！\p我的心始终都和\n我的宝可梦一同跳动！\p年轻的训练家啊！\n你信任你的宝可梦吗？\p你能始终不渝地\n信任它们吗？\p如果你的信任是脆弱的，\n你们不可能打败我的伙伴！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ProveYourBondWithMons:
     .string "就在此处，向我证明你和\n你的宝可梦之间的羁绊吧！$"

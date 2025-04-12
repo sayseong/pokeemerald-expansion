@@ -271,5 +271,5 @@ LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsRatherAmusing:
     .string "唔…时兴的宝可梦绘画\n就在这儿展出啊。\p看来这些绘画\n确实很有趣。$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ThesePaintingsOfYourPokemon:
-    .string "哇，是吗？\n这些画的都是你的宝可梦？\p对于一个训练师来说，\n最大的荣耀莫过于此了吧？$"
+    .string "哇，是吗？\n这些画的都是你的宝可梦？\p对于一个训练家来说，\n最大的荣耀莫过于此了吧？$"
 

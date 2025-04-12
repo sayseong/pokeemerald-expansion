@@ -65,7 +65,7 @@ VictoryRoad_B2F_Text_JulieDefeat:
     .string "看来你比我还强！$"
 
 VictoryRoad_B2F_Text_JuliePostBattle:
-    .string "看着自己收集的徽章，回忆一下\n那些曾与自己相逢的训练师们吧。$"
+    .string "看着自己收集的徽章，回忆一下\n那些曾与自己相逢的训练家们吧。$"
 
 VictoryRoad_B2F_Text_FelixIntro:
     .string "我做了这么多努力，\n但是紧张让我的肚子疼得厉害…$"

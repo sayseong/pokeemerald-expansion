@@ -121,5 +121,5 @@ FortreeCity_Text_CitySign:
     .string "茵郁市\n“融入自然的\l树上之城。”$"
 
 FortreeCity_Text_GymSign:
-    .string "茵郁市宝可梦道馆\n馆主：娜琪\p“环翔世界的\n飞行系训练师。”$"
+    .string "茵郁市宝可梦道馆\n馆主：娜琪\p“环翔世界的\n飞行系训练家。”$"
 

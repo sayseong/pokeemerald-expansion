@@ -104,13 +104,13 @@ RustboroCity_Gym_EventScript_RegisterRoxanne::
 	end
 
 RustboroCity_Gym_Text_GymGuideAdvice:
-    .string "哟，怎么样？\p听好，朋友！\n你想成为冠军吗？\p我不是训练师，但我可以\n给你一些取胜的建议。\p那么说定了！我们一起朝着\n宝可梦冠军的目标前进！\p作为训练师，任务之一\n就是收集道馆徽章，对吗？\p但击败道馆馆主并没那么容易！\p因此我才会在这里！\n我会给你专业的建议！\p道馆馆主杜娟\n使用岩石系宝可梦。\p岩石系非常坚固，\n但它抵挡不了水系和\l草系招式。\p你打败道馆馆主之后\n再来找我吧。\p好了，加油！$"
+    .string "哟，怎么样？\p听好，朋友！\n你想成为冠军吗？\p我不是训练家，但我可以\n给你一些取胜的建议。\p那么说定了！我们一起朝着\n宝可梦冠军的目标前进！\p作为训练家，任务之一\n就是收集道馆徽章，对吗？\p但击败道馆馆主并没那么容易！\p因此我才会在这里！\n我会给你专业的建议！\p道馆馆主杜娟\n使用岩石系宝可梦。\p岩石系非常坚固，\n但它抵挡不了水系和\l草系招式。\p你打败道馆馆主之后\n再来找我吧。\p好了，加油！$"
 
 RustboroCity_Gym_Text_GymGuidePostVictory:
-    .string "哇！令人心驰的胜利！\n看来我的鼓励派上了用场！\p太好了！\n看看你的训练师卡片，\p你得到的岩石徽章\n就记录在上面。\p换句话说…\p你踏上了通向冠军之路的\n第一级阶梯！\p感觉不错！$"
+    .string "哇！令人心驰的胜利！\n看来我的鼓励派上了用场！\p太好了！\n看看你的训练家卡片，\p你得到的岩石徽章\n就记录在上面。\p换句话说…\p你踏上了通向冠军之路的\n第一级阶梯！\p感觉不错！$"
 
 RustboroCity_Gym_Text_JoshIntro:
-    .string "别小看我们道馆训练师！\n我会告诉你为什么我是最好的！$"
+    .string "别小看我们道馆训练家！\n我会告诉你为什么我是最好的！$"
 
 RustboroCity_Gym_Text_JoshDefeat:
     .string "你比我厉害多了…$"
@@ -137,10 +137,10 @@ RustboroCity_Gym_Text_MarcPostBattle:
     .string "只有交给我们的馆主了。\p这么年轻就培养岩石系，\n真是辛苦她了。$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
-    .string "你好，我是卡那兹市\n宝可梦道馆的馆主杜娟。\p因为想要在实战中验证\n在宝可梦训练师学校中所学，\l我才成为了道馆馆主。\p让我看看你用什么宝可梦，\n怎样战斗，好吗？$"
+    .string "你好，我是卡那兹市\n宝可梦道馆的馆主杜娟。\p因为想要在实战中验证\n在宝可梦训练家学校中所学，\l我才成为了道馆馆主。\p让我看看你用什么宝可梦，\n怎样战斗，好吗？$"
 
 RustboroCity_Gym_Text_RoxanneDefeat:
-    .string "这样…\n我输了…\p看来我还有\n很多东西要学…\p我明白了。\p宝可梦联盟规定\n如果训练师打败了道馆馆主，\l就可以得到这个。\p接受这宝可梦\n联盟岩石徽章。$"
+    .string "这样…\n我输了…\p看来我还有\n很多东西要学…\p我明白了。\p宝可梦联盟规定\n如果训练家打败了道馆馆主，\l就可以得到这个。\p接受这宝可梦\n联盟岩石徽章。$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge:
     .string "{PLAYER}从杜娟处\n得到了岩石徽章。$"
@@ -152,19 +152,19 @@ RustboroCity_Gym_Text_ExplainRockTomb:
     .string "招式学习器39里面是\n岩石封锁，\p它不只能靠投掷岩石打击敌人，\n也能降低对手的速度。\p使用招式学习器的话，\n宝可梦马上会学会里面的招式，\p但记住，一个招式学习器\n只能使用一次，\n用之前要三思。$"
 
 RustboroCity_Gym_Text_RoxannePostBattle:
-    .string "既然你这么强，\n也挑战一下其他道馆馆主吧。\p你会在跟各种训练师的战斗中\n学到很多。$"
+    .string "既然你这么强，\n也挑战一下其他道馆馆主吧。\p你会在跟各种训练家的战斗中\n学到很多。$"
 
 RustboroCity_Gym_Text_GymStatue:
     .string "卡那兹市宝可梦道馆$"
 
 RustboroCity_Gym_Text_GymStatueCertified:
-    .string "卡那兹市宝可梦道馆\p杜娟认可的训练师：\n{PLAYER}$"
+    .string "卡那兹市宝可梦道馆\p杜娟认可的训练家：\n{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
-    .string "… … … … … …\n… … … … …哔！\p杜娟：喂，你好，{PLAYER}吗？\n我是卡那兹市的杜娟。\p我从藤树那儿听说\n你已经打败了\l很多训练师，\p但是，我认为\n我也不会输给你的。\p我发誓，我会提升我的道馆的实力，\n你可以再来挑战我们。\p我很期待\n那时的到来！\p… … … … … …\n… … … … …咔哒！$"
+    .string "… … … … … …\n… … … … …哔！\p杜娟：喂，你好，{PLAYER}吗？\n我是卡那兹市的杜娟。\p我从藤树那儿听说\n你已经打败了\l很多训练家，\p但是，我认为\n我也不会输给你的。\p我发誓，我会提升我的道馆的实力，\n你可以再来挑战我们。\p我很期待\n那时的到来！\p… … … … … …\n… … … … …咔哒！$"
 
 RustboroCity_Gym_Text_RegisteredRoxanne:
-    .string "把道馆馆主杜娟的信息\n登记进口袋领航员里。$"
+    .string "把道馆馆主杜娟的信息\n登记进宝可梦导航仪里。$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:
     .string "杜娟：很高兴再见到你。\n我是杜娟，这里的道馆馆主。\p我肯定，自上次战斗以来，\n我们都经历了不少战斗。\p我想试试我们成长得\n如何了。战斗吧！$"

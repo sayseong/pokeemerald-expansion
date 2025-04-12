@@ -494,10 +494,10 @@ BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter:
 	step_end
 
 BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward:
-    .string "裁判：训练师{PLAYER}！\n请向前走！$"
+    .string "裁判：训练家{PLAYER}！\n请向前走！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward:
-    .string "裁判：训练师{STR_VAR_1}！\n请向前走！$"
+    .string "裁判：训练家{STR_VAR_1}！\n请向前走！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin:
     .string "裁判：三回合定胜负锦标赛！\n开始！$"

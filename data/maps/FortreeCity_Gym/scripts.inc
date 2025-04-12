@@ -147,7 +147,7 @@ FortreeCity_Gym_Text_JaredDefeat:
     .string "你…\n你真强…$"
 
 FortreeCity_Gym_Text_JaredPostBattle:
-    .string "训练师必须有面对\n意料之外的转变的智慧，\p你有足够的智慧\n到达我们的馆主那儿吗？$"
+    .string "训练家必须有面对\n意料之外的转变的智慧，\p你有足够的智慧\n到达我们的馆主那儿吗？$"
 
 FortreeCity_Gym_Text_EdwardoIntro:
     .string "所有飞行系宝可梦爱好者\n都渴望进入这道馆，\p作为茵郁市道馆的一员，\n我不能输！$"
@@ -156,7 +156,7 @@ FortreeCity_Gym_Text_EdwardoDefeat:
     .string "这对我来说\n压力太大了…$"
 
 FortreeCity_Gym_Text_EdwardoPostBattle:
-    .string "世界如此广大，\n在其中有数不清的优秀训练师。\p我得继续训练，\n让自己变得更强。$"
+    .string "世界如此广大，\n在其中有数不清的优秀训练家。\p我得继续训练，\n让自己变得更强。$"
 
 FortreeCity_Gym_Text_FlintIntro:
     .string "这里不需要我们的馆主娜琪出马！\n我就足以对付你！$"
@@ -198,7 +198,7 @@ FortreeCity_Gym_Text_WinonaIntro:
     .string "我是娜琪，茵郁市\n宝可梦道馆的馆主。\p我是飞行系宝可梦的朋友，\n同它们一起在天空中翱翔…\p无论战斗多么困难，\n我们都会优雅地凯旋…\p见识一下我和飞行系宝可梦\n那华丽的舞步吧！$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
-    .string "我以前从未见过\n指挥宝可梦比我更优雅的\l训练师…\p作为承认你的才能的标志，\n我把这道馆徽章送给你。$"
+    .string "我以前从未见过\n指挥宝可梦比我更优雅的\l训练家…\p作为承认你的才能的标志，\n我把这道馆徽章送给你。$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
     .string "{PLAYER}从娜琪处\n得到白羽徽章。$"
@@ -210,7 +210,7 @@ FortreeCity_Gym_Text_ExplainAerialAce:
     .string "招式学习器40的\n里面是燕返，\p它的速度…\n没有任何宝可梦能躲过。\p… … … … … …$"
 
 FortreeCity_Gym_Text_RegisteredWinona:
-    .string "把道馆馆主娜琪的信息\n登记进口袋领航员里。$"
+    .string "把道馆馆主娜琪的信息\n登记进宝可梦导航仪里。$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
     .string "尽管我输给了你，\n我还会尽心抚养我的飞行系宝可梦。$"
@@ -219,7 +219,7 @@ FortreeCity_Gym_Text_GymStatue:
     .string "茵郁市宝可梦道馆$"
 
 FortreeCity_Gym_Text_GymStatueCertified:
-    .string "茵郁市宝可梦道馆\p娜琪认可的训练师：\n{PLAYER}$"
+    .string "茵郁市宝可梦道馆\p娜琪认可的训练家：\n{PLAYER}$"
 
 FortreeCity_Gym_Text_WinonaPreRematch:
     .string "娜琪：我们人类永远\n无法逃离大地重力的牵引，\p但若向着更高的目标努力，\n我们依然能够耸立于天地！\p你作为称雄一方的冠军，\n已经攀上了巅峰。\p让我看看你是如何\n全力飞翔的吧！$"

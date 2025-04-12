@@ -488,62 +488,62 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
     .string "我对你即将来临的对手\n进行了一些调查。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType:
-    .string "这个训练师显然很善于\n操纵一般系。$"
+    .string "这个训练家显然很善于\n操纵一般系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType:
-    .string "这个训练师显然很善于\n操纵炎系。$"
+    .string "这个训练家显然很善于\n操纵炎系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType:
-    .string "这个训练师显然很善于\n操纵水系。$"
+    .string "这个训练家显然很善于\n操纵水系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType:
-    .string "这个训练师显然很善于\n操纵电系。$"
+    .string "这个训练家显然很善于\n操纵电系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType:
-    .string "这个训练师显然很善于\n操纵草系。$"
+    .string "这个训练家显然很善于\n操纵草系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType:
-    .string "这个训练师显然很善于\n操纵冰系。$"
+    .string "这个训练家显然很善于\n操纵冰系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType:
-    .string "这个训练师显然很善于\n操纵格斗系。$"
+    .string "这个训练家显然很善于\n操纵格斗系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType:
-    .string "这个训练师显然很善于\n操纵毒系。$"
+    .string "这个训练家显然很善于\n操纵毒系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType:
-    .string "这个训练师显然很善于\n操纵地上系。$"
+    .string "这个训练家显然很善于\n操纵地上系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType:
-    .string "这个训练师显然很善于\n操纵飞行系。$"
+    .string "这个训练家显然很善于\n操纵飞行系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType:
-    .string "这个训练师显然很善于\n操纵超能系。$"
+    .string "这个训练家显然很善于\n操纵超能系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType:
-    .string "这个训练师显然很善于\n操纵虫系。$"
+    .string "这个训练家显然很善于\n操纵虫系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType:
-    .string "这个训练师显然很善于\n操纵岩石系。$"
+    .string "这个训练家显然很善于\n操纵岩石系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType:
-    .string "这个训练师显然很善于\n操纵幽灵系。$"
+    .string "这个训练家显然很善于\n操纵幽灵系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType:
-    .string "这个训练师显然很善于\n操纵龙系。$"
+    .string "这个训练家显然很善于\n操纵龙系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
-    .string "这个训练师显然很善于\n操纵恶系。$"
+    .string "这个训练家显然很善于\n操纵恶系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType:
 	.string "The TRAINER is apparently skilled\n"
 	.string "in the handling of the FAIRY type.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
-    .string "这个训练师显然很善于\n操纵钢系。$"
+    .string "这个训练家显然很善于\n操纵钢系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite:
-    .string "这个训练师显然没有特别\n善长的系。$"
+    .string "这个训练家显然没有特别\n善长的系。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleSlowAndSteady:
     .string "最喜欢的战斗风格好像是\n慢而稳的那种。$"

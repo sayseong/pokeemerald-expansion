@@ -700,7 +700,7 @@ const struct Item gItemsInfo[] =
         .name = _("活力碎片"),
         .price = (I_PRICE >= GEN_7) ? 2000 : 1500,
         .description = COMPOUND_STRING(
-			"能让1只陷入濒死\n"
+			"能让1只陷入昏厥\n"
 			"的宝可梦复活，并\n"
 			"回复一半HP。"),
         .pocket = POCKET_ITEMS,
@@ -867,7 +867,7 @@ const struct Item gItemsInfo[] =
         .price = 2800,
         .description = COMPOUND_STRING(
 			"非常苦的药草。能\n"
-			"让1只濒死的宝可\n"
+			"让1只昏厥的宝可\n"
 			"梦回复所有HP。"),
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -1087,7 +1087,7 @@ const struct Item gItemsInfo[] =
         .pluralName = _("Sacred Ashes"),
         .price = (I_PRICE >= GEN_7) ? 50000 : 200,
         .description = COMPOUND_STRING(
-			"能让陷入濒死的全\n"
+			"能让陷入昏厥的全\n"
 			"部宝可梦回复所有\n"
 			"HP。"),
         .pocket = POCKET_ITEMS,
@@ -13343,6 +13343,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("大金刚宝玉"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_ADAMANT_ORB,
+        .holdEffectParam = 20,
         .description = COMPOUND_STRING(
 			"对帝牙卢卡使用后\n"
 			"，能使之力量高涨\n"
@@ -13359,6 +13361,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("大白金宝玉"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_GRISEOUS_ORB,
+        .holdEffectParam = 20,
         .description = COMPOUND_STRING(
 			"对骑拉帝纳使用后\n"
 			"，能使之力量高涨\n"
@@ -13375,6 +13379,8 @@ const struct Item gItemsInfo[] =
     {
         .name = _("大白宝玉"),
         .price = 0,
+        .holdEffect = HOLD_EFFECT_LUSTROUS_ORB,
+        .holdEffectParam = 20,
         .description = COMPOUND_STRING(
 			"对帕路奇亚使用后\n"
 			"，能使之力量高涨\n"

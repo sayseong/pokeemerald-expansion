@@ -571,7 +571,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_OhWowItsPlayer:
     .string "哇！\n是{PLAYER}！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan:
-    .string "我听说了！\n你真强！\p我们一直在这儿争论\n谁是最强的训练师，\p当我听说你的时候，\n我就准备做你的粉丝！\p我想看你继续跟其他\n强大的训练师战斗，\p这样我们就能看到\n你战斗的英姿，\p然后大家都能\n了解你有多么强大。\p我会一直支持你的，\n{PLAYER}！$"
+    .string "我听说了！\n你真强！\p我们一直在这儿争论\n谁是最强的训练家，\p当我听说你的时候，\n我就准备做你的粉丝！\p我想看你继续跟其他\n强大的训练家战斗，\p这样我们就能看到\n你战斗的英姿，\p然后大家都能\n了解你有多么强大。\p我会一直支持你的，\n{PLAYER}！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureOneWeWantToWin:
     .string "嗨，{PLAYER}！\n我们一直想要胜过你！$"
@@ -580,13 +580,13 @@ LilycoveCity_PokemonTrainerFanClub_Text_OthersDontKnowYoureTheBest:
     .string "别人还不知道\n你是最优秀的！\p我说的不对吗，{PLAYER}？\n给大家看看你的决心吧！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainersPowerIsOutOfTheOrdinary:
-    .string "虽然很遗憾，但毫无疑问，\n大家都在谈论的训练师\l是{STR_VAR_1}！\p他的力量…\n并非常人可比。$"
+    .string "虽然很遗憾，但毫无疑问，\n大家都在谈论的训练家\l是{STR_VAR_1}！\p他的力量…\n并非常人可比。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsBestNoOneWantsToListen:
     .string "可恶…我一直在提醒大家\n{STR_VAR_1}才是最棒的…\p但没人肯听我的…$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HearingAboutToughNewTrainer:
-    .string "我听说出现了一个\n很强的新人训练师，\p据说这个训练师的实力\n足以打败道馆馆主们。\p你知道这个\n新人训练师吗？$"
+    .string "我听说出现了一个\n很强的新人训练家，\p据说这个训练家的实力\n足以打败道馆馆主们。\p你知道这个\n新人训练家吗？$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ImPullingForYou:
     .string "呀！\n{PLAYER}！\p加油！\n我支持你！$"
@@ -601,7 +601,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly:
     .string "没人了解藤树的\n迷人之处…\p我不在乎！\p就算只有我一个，\n我也要为藤树加油鼓劲！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly:
-    .string "无论别人怎么说，\n我最喜欢的训练师只有武斗镇的\l道馆馆主藤树！$"
+    .string "无论别人怎么说，\n我最喜欢的训练家只有武斗镇的\l道馆馆主藤树！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather:
     .string "你在方方面面都\n超过了你父亲！\p是我说的，所以\n这毫无疑问！$"
@@ -616,7 +616,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent:
     .string "你所散发出来的气息\n和千里越发相似了，\p但你和千里之间\n还有决定性的不同。\p我还不能告诉你这不同是什么，\n你得自己去发掘。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WeDiscussStrongestTrainers:
-    .string "这里的所有人都非常喜欢\n宝可梦战斗，\p我们互相讨论\n所有训练师之中谁比较强。\p如果你出名了，我们也可能\n成为你的粉丝！$"
+    .string "这里的所有人都非常喜欢\n宝可梦战斗，\p我们互相讨论\n所有训练家之中谁比较强。\p如果你出名了，我们也可能\n成为你的粉丝！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OhWoweeItsPlayer:
     .string "呀，哇啊！是{PLAYER}！\n是本人！\p跟我握握手吧，握握手吧！$"
@@ -628,10 +628,10 @@ LilycoveCity_PokemonTrainerFanClub_Text_EveryoneThinksTrainerIsCool:
     .string "{STR_VAR_1}真棒…\p大家都那么想的，是吗？$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsReallyCoolItsJustMe:
-    .string "{STR_VAR_1}真的很棒，\n你说呢？\p就算只有我一个，我也要\n为我最喜欢的训练师加油助威。$"
+    .string "{STR_VAR_1}真的很棒，\n你说呢？\p就算只有我一个，我也要\n为我最喜欢的训练家加油助威。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WishThereWasTrainerLikeThat:
-    .string "我心目中的训练师是…\p沉着…\p强大…\p而且很友善…\p不知道是不是真的有这样的训练师…$"
+    .string "我心目中的训练家是…\p沉着…\p强大…\p而且很友善…\p不知道是不是真的有这样的训练家…$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WantToBeStrongLikeYou:
     .string "哇！是{PLAYER}！\n太棒了！\p我长大后也想变得\n像你那么强，{PLAYER}！$"
@@ -652,7 +652,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_ImInYourCorner:
     .string "我站在你这一边，\n谁去管别人呢！\p不用担心，\n你放心出去努力战斗吧。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThinkTrainerIsNumberOne:
-    .string "我想，你是个\n非常优秀的训练师，\p但我觉得{STR_VAR_1}\n现在是第一人。\p这只是我的想法，\n别太在意。$"
+    .string "我想，你是个\n非常优秀的训练家，\p但我觉得{STR_VAR_1}\n现在是第一人。\p这只是我的想法，\n别太在意。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureMaybeStrongerThanTrainer:
     .string "哇，你真的很强，\n也许比{STR_VAR_1}都强。\p但{STR_VAR_1}需要我。\p如果我都不支持{STR_VAR_1}，\n还有谁支持？$"
@@ -664,7 +664,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_YouBattleAttractivelyInToughSituation:
     .string "情况越严重，\n你的战斗就越吸引人。\p我等不及想看你下一场战斗了！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsStandout:
-    .string "最近当红的训练师之中，\n{STR_VAR_1}最最突出，\p那种强大不是别人能做到的。\p你做得也不错，但你\n和{STR_VAR_1}不可同日而语。$"
+    .string "最近当红的训练家之中，\n{STR_VAR_1}最最突出，\p那种强大不是别人能做到的。\p你做得也不错，但你\n和{STR_VAR_1}不可同日而语。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NoOneCanKnockYouButTrainerStronger:
     .string "你现在真的很红…\p你很强大，对宝可梦\n无微不至，没人能打败你。\p但是，我还是相信{STR_VAR_1}。\p{STR_VAR_1}显然极强！\n我敢肯定！$"

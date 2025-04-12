@@ -166,13 +166,13 @@ SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideRight:
 	step_end
 
 SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles:
-    .string "我年轻的时候也是一个\n环游世界的宝可梦训练师，\p但现在我已经日薄西山，\n唯一的乐趣只有\l看年轻训练师战斗了。$"
+    .string "我年轻的时候也是一个\n环游世界的宝可梦训练家，\p但现在我已经日薄西山，\n唯一的乐趣只有\l看年轻训练家战斗了。$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked:
     .string "这扇门上了锁。$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer:
-    .string "一个叫{STR_VAR_1}的训练师\n到我家来了，\p你想挑战\n{STR_VAR_1}吗？$"
+    .string "一个叫{STR_VAR_1}的训练家\n到我家来了，\p你想挑战\n{STR_VAR_1}吗？$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle:
     .string "你不想战斗？好失望，\n我真的很想看你们的战斗…$"
