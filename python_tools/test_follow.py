@@ -9,7 +9,7 @@ c_file_path = r"c:\Users\Nox\Documents\GitHub\pokeemerald-expansion-Chinese\src\
 wb = openpyxl.load_workbook(excel_path)
 sheet = wb.active
 
-# 提取 Excel 数据（第一列和第三列）
+# 提取 Excel 数据(第一列和第三列)
 replacement_map = {}
 for row in sheet.iter_rows(min_row=2, max_row=sheet.max_row, min_col=1, max_col=3):
     variable_name = row[0].value  # 第一列
