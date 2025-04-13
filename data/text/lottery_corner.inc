@@ -8,7 +8,7 @@ LilycoveCity_DepartmentStore_1F_Text_PleaseVisitAgain::
     .string "欢迎下次再来。$"
 
 LilycoveCity_DepartmentStore_1F_Text_PleasePickTicket::
-    .string "请在此抽一张彩票。\n…{0xFC 8}盔{0xFC 8}盔…{0xFC 8}盔{0xFC 8}盔…{0xFC 8}盔{0xFC 8}盔$"
+    .string "请在此抽一张彩票。\n…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 LilycoveCity_DepartmentStore_1F_Text_TicketNumberIsXPleaseWait::
     .string "彩票的号码是{STR_VAR_1}，\p我需要对照一下你的\n宝可梦的ID，请稍候。$"
