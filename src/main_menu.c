@@ -488,16 +488,16 @@ static const u8 *const sMalePresetNames[] = {
     COMPOUND_STRING("大策"),//ダイサク　大策　大作
     COMPOUND_STRING("隆仁"),//タカヒト　隆仁　貴仁
     COMPOUND_STRING("达也"),//タツヤ　達也　龍也　辰也
-    COMPOUND_STRING("丹尼尔"),//ダニエル Danniel（英）
+    COMPOUND_STRING("丹尼尔"),//ダニエル Danniel(英)
     COMPOUND_STRING("辉树"),//テルキ　輝樹　照紀
-    COMPOUND_STRING("汤姆"),//トム　Tom（英）
+    COMPOUND_STRING("汤姆"),//トム　Tom(英)
     COMPOUND_STRING("智也"),//トモヤ　智也　智哉　
     COMPOUND_STRING("仁志"),//ヒトシ　仁　仁志
-    COMPOUND_STRING("弘明"),//ヒロアキ　弘明（海賊版）　宏明
+    COMPOUND_STRING("弘明"),//ヒロアキ　弘明(海賊版)　宏明
     COMPOUND_STRING("幸彦"),//ユキヒコ　幸彦　征彦
-    COMPOUND_STRING("拉尔德"),//ラルド Rald（英）元：エメラルド（Emerald）
+    COMPOUND_STRING("拉尔德"),//ラルド Rald(英)元：エメラルド(Emerald)
     COMPOUND_STRING("陆也"),//リクヤ　陸也
-    COMPOUND_STRING("理查德"),//リチャード Richard（英）
+    COMPOUND_STRING("理查德"),//リチャード Richard(英)
     COMPOUND_STRING("隆"),//リュウ　龍　隆
     COMPOUND_STRING("龙太")//リュウタ　龍太　隆太
 };
@@ -505,14 +505,14 @@ static const u8 *const sMalePresetNames[] = {
 static const u8 *const sFemalePresetNames[] = {
     COMPOUND_STRING("爱子"),//アイコ　愛子
     COMPOUND_STRING("绫奈"),//アヤナ　綾波　綾奈
-    COMPOUND_STRING("小安"),//アン Ann（英）
-    COMPOUND_STRING("艾米"),//エミィ Emmy　（英）
+    COMPOUND_STRING("小安"),//アン Ann(英)
+    COMPOUND_STRING("艾米"),//エミィ Emmy　(英)
     COMPOUND_STRING("香织"),//カオリ　香里　香織　
-    COMPOUND_STRING("卡琳"),//カレン　（英）
+    COMPOUND_STRING("卡琳"),//カレン　(英)
     COMPOUND_STRING("京子"),//キョウコ　京子
     COMPOUND_STRING("沙枝"),//サエ　紗枝　三枝
     COMPOUND_STRING("翠翠"),//スイ　翠　水
-    COMPOUND_STRING("珠莉"),//ジュリ　寿莉　樹莉　珠莉　ジュエリー Jewelry（英）
+    COMPOUND_STRING("珠莉"),//ジュリ　寿莉　樹莉　珠莉　ジュエリー Jewelry(英)
     COMPOUND_STRING("千惠美"),//チエミ　千恵美　智恵美
     COMPOUND_STRING("千代子"),//チヨコ　千代子
     COMPOUND_STRING("辉子"),//テルコ　照子　輝子
@@ -520,8 +520,8 @@ static const u8 *const sFemalePresetNames[] = {
     COMPOUND_STRING("日向"),//ヒナ　日向　陽菜
     COMPOUND_STRING("真纪子"),//マキコ　真紀子　牧子
     COMPOUND_STRING("美佐子"),//ミサコ　美佐子　美沙子
-    COMPOUND_STRING("睦美"),//ムツミ　睦美（陸美？）　六実
-    COMPOUND_STRING("莫尼卡"),//モニカ　Monica（英）
+    COMPOUND_STRING("睦美"),//ムツミ　睦美(陸美？)　六実
+    COMPOUND_STRING("莫尼卡"),//モニカ　Monica(英)
     COMPOUND_STRING("悠芽")//ユウメ　優芽　悠芽　
 };
 

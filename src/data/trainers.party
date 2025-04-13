@@ -82,7 +82,7 @@ Music: Male
 Double Battle: No
 
 === TRAINER_SAWYER_1 ===
-Name: SAWYER
+Name: 雅彦
 Class: Hiker
 Pic: Hiker
 Gender: Male
@@ -95,7 +95,7 @@ Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -108,7 +108,7 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_2 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -125,7 +125,7 @@ Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_3 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -138,7 +138,7 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_4 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -151,7 +151,7 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_1 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -164,7 +164,7 @@ Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_2 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -177,7 +177,7 @@ Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_3 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -190,7 +190,7 @@ Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GABRIELLE_1 ===
-Name: GABRIELLE
+Name: 福美
 Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
@@ -223,7 +223,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_PETALBURG_WOODS ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -236,7 +236,7 @@ Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MARCEL ===
-Name: MARCEL
+Name: 节夫
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
@@ -254,7 +254,7 @@ Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ALBERTO ===
-Name: ALBERTO
+Name: 洋介
 Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
@@ -271,7 +271,7 @@ Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ED ===
-Name: ED
+Name: 杰
 Class: Collector
 Pic: Collector
 Gender: Male
@@ -288,7 +288,7 @@ Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
@@ -301,7 +301,7 @@ Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DECLAN ===
-Name: DECLAN
+Name: 一平
 Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
@@ -314,7 +314,7 @@ Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_RUSTURF_TUNNEL ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -327,7 +327,7 @@ Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -344,7 +344,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_2 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -361,7 +361,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_3 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -382,7 +382,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MUSEUM_1 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -395,7 +395,7 @@ Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MUSEUM_2 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -412,7 +412,7 @@ Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -425,7 +425,7 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_1 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -438,7 +438,7 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_2 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -451,7 +451,7 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_3 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -468,7 +468,7 @@ Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_4 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
@@ -481,7 +481,7 @@ Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_5 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
@@ -494,7 +494,7 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_6 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
@@ -507,7 +507,7 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FREDRICK ===
-Name: FREDRICK
+Name: 寿茂
 Class: Expert
 Pic: Expert M
 Gender: Male
@@ -524,7 +524,7 @@ Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MATT ===
-Name: MATT
+Name: 阿潮
 Class: Aqua Admin
 Pic: Aqua Admin M
 Gender: Male
@@ -542,7 +542,7 @@ Level: 34
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_ZANDER ===
-Name: ZANDER
+Name: 良治
 Class: Black Belt
 Pic: Black Belt
 Gender: Male
@@ -555,7 +555,7 @@ Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SHELLY_WEATHER_INSTITUTE ===
-Name: SHELLY
+Name: 阿泉
 Class: Aqua Admin
 Pic: Aqua Admin F
 Gender: Female
@@ -572,7 +572,7 @@ Level: 28
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_SHELLY_SEAFLOOR_CAVERN ===
-Name: SHELLY
+Name: 阿泉
 Class: Aqua Admin
 Pic: Aqua Admin F
 Gender: Female
@@ -589,7 +589,7 @@ Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ARCHIE ===
-Name: ARCHIE
+Name: 水梧桐
 Class: Aqua Leader
 Pic: Aqua Leader Archie
 Gender: Male
@@ -611,7 +611,7 @@ Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_LEAH ===
-Name: LEAH
+Name: 绘美
 Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
@@ -624,7 +624,7 @@ Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DAISY ===
-Name: DAISY
+Name: 美鸟
 Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
@@ -641,7 +641,7 @@ Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ROSE_1 ===
-Name: ROSE
+Name: 弥生
 Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
@@ -662,7 +662,7 @@ Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FELIX ===
-Name: FELIX
+Name: 幸次郎
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
@@ -683,7 +683,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Earthquake
 
 === TRAINER_VIOLET ===
-Name: VIOLET
+Name: 千鹤
 Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
@@ -700,7 +700,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ROSE_2 ===
-Name: ROSE
+Name: 弥生
 Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
@@ -717,7 +717,7 @@ Level: 26
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_ROSE_3 ===
-Name: ROSE
+Name: 弥生
 Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
@@ -738,7 +738,7 @@ Level: 28
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 === TRAINER_ROSE_4 ===
-Name: ROSE
+Name: 弥生
 Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
@@ -759,7 +759,7 @@ Level: 31
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_ROSE_5 ===
-Name: ROSE
+Name: 弥生
 Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
@@ -780,7 +780,7 @@ Level: 34
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_DUSTY_1 ===
-Name: DUSTY
+Name: 伸夫
 Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
@@ -797,7 +797,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Poison Sting
 
 === TRAINER_CHIP ===
-Name: CHIP
+Name: 圭一
 Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
@@ -830,7 +830,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Poison Sting
 
 === TRAINER_FOSTER ===
-Name: FOSTER
+Name: 秋人
 Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
@@ -855,7 +855,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Sting
 
 === TRAINER_DUSTY_2 ===
-Name: DUSTY
+Name: 伸夫
 Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
@@ -872,7 +872,7 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Poison Sting
 
 === TRAINER_DUSTY_3 ===
-Name: DUSTY
+Name: 伸夫
 Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
@@ -889,7 +889,7 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Poison Sting
 
 === TRAINER_DUSTY_4 ===
-Name: DUSTY
+Name: 伸夫
 Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
@@ -906,7 +906,7 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 - Poison Sting
 
 === TRAINER_DUSTY_5 ===
-Name: DUSTY
+Name: 伸夫
 Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
@@ -923,7 +923,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Poison Sting
 
 === TRAINER_GABBY_AND_TY_1 ===
-Name: GABBY & TY
+Name: 玛莉和达伊
 Class: Interviewer
 Pic: Interviewer
 Gender: Male
@@ -940,7 +940,7 @@ Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_GABBY_AND_TY_2 ===
-Name: GABBY & TY
+Name: 玛莉和达伊
 Class: Interviewer
 Pic: Interviewer
 Gender: Male
@@ -957,7 +957,7 @@ Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_GABBY_AND_TY_3 ===
-Name: GABBY & TY
+Name: 玛莉和达伊
 Class: Interviewer
 Pic: Interviewer
 Gender: Male
@@ -974,7 +974,7 @@ Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_GABBY_AND_TY_4 ===
-Name: GABBY & TY
+Name: 玛莉和达伊
 Class: Interviewer
 Pic: Interviewer
 Gender: Male
@@ -991,7 +991,7 @@ Level: 33
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_GABBY_AND_TY_5 ===
-Name: GABBY & TY
+Name: 玛莉和达伊
 Class: Interviewer
 Pic: Interviewer
 Gender: Male
@@ -1008,7 +1008,7 @@ Level: 36
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_GABBY_AND_TY_6 ===
-Name: GABBY & TY
+Name: 玛莉和达伊
 Class: Interviewer
 Pic: Interviewer
 Gender: Male
@@ -1033,7 +1033,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hyper Voice
 
 === TRAINER_LOLA_1 ===
-Name: LOLA
+Name: 亚由美
 Class: Tuber F
 Pic: Tuber F
 Gender: Female
@@ -1050,7 +1050,7 @@ Level: 12
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_AUSTINA ===
-Name: AUSTINA
+Name: 博美
 Class: Tuber F
 Pic: Tuber F
 Gender: Female
@@ -1063,7 +1063,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GWEN ===
-Name: GWEN
+Name: 小望
 Class: Tuber F
 Pic: Tuber F
 Gender: Female
@@ -1076,7 +1076,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LOLA_2 ===
-Name: LOLA
+Name: 亚由美
 Class: Tuber F
 Pic: Tuber F
 Gender: Female
@@ -1093,7 +1093,7 @@ Level: 26
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_LOLA_3 ===
-Name: LOLA
+Name: 亚由美
 Class: Tuber F
 Pic: Tuber F
 Gender: Female
@@ -1110,7 +1110,7 @@ Level: 29
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 === TRAINER_LOLA_4 ===
-Name: LOLA
+Name: 亚由美
 Class: Tuber F
 Pic: Tuber F
 Gender: Female
@@ -1127,7 +1127,7 @@ Level: 32
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_LOLA_5 ===
-Name: LOLA
+Name: 亚由美
 Class: Tuber F
 Pic: Tuber F
 Gender: Female
@@ -1144,7 +1144,7 @@ Level: 35
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_RICKY_1 ===
-Name: RICKY
+Name: 裕太
 Class: Tuber M
 Pic: Tuber M
 Gender: Male
@@ -1161,7 +1161,7 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Surf
 
 === TRAINER_SIMON ===
-Name: SIMON
+Name: 安信
 Class: Tuber M
 Pic: Tuber M
 Gender: Male
@@ -1178,7 +1178,7 @@ Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHARLIE ===
-Name: CHARLIE
+Name: 学武
 Class: Tuber M
 Pic: Tuber M
 Gender: Male
@@ -1191,7 +1191,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_RICKY_2 ===
-Name: RICKY
+Name: 裕太
 Class: Tuber M
 Pic: Tuber M
 Gender: Male
@@ -1208,7 +1208,7 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Surf
 
 === TRAINER_RICKY_3 ===
-Name: RICKY
+Name: 裕太
 Class: Tuber M
 Pic: Tuber M
 Gender: Male
@@ -1225,7 +1225,7 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Surf
 
 === TRAINER_RICKY_4 ===
-Name: RICKY
+Name: 裕太
 Class: Tuber M
 Pic: Tuber M
 Gender: Male
@@ -1242,7 +1242,7 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Surf
 
 === TRAINER_RICKY_5 ===
-Name: RICKY
+Name: 裕太
 Class: Tuber M
 Pic: Tuber M
 Gender: Male
@@ -2154,7 +2154,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Water Pulse
 
 === TRAINER_GRUNT_SPACE_CENTER_2 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -2666,7 +2666,7 @@ Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_CHIMNEY_1 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt F
 Gender: Female
@@ -2833,7 +2833,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MATTHEW ===
-Name: MATTHEW
+Name: 阿潮HEW
 Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
@@ -3379,7 +3379,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Screech
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
@@ -3396,7 +3396,7 @@ Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_8 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -10484,7 +10484,7 @@ Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_5 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -10501,7 +10501,7 @@ Level: 35
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_GRUNT_UNUSED ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Aqua Grunt F
 Gender: Female
@@ -10518,7 +10518,7 @@ Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_4 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
@@ -10535,7 +10535,7 @@ Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_JAGGED_PASS ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -10670,7 +10670,7 @@ Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_CHIMNEY_2 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -10761,7 +10761,7 @@ Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_3 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt F
 Gender: Female
@@ -10778,7 +10778,7 @@ Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_4 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -10791,7 +10791,7 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_5 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -10804,7 +10804,7 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_6 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -10817,7 +10817,7 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_7 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -10907,7 +10907,7 @@ Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_5 ===
-Name: GRUNT
+Name: 手下
 Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
@@ -13268,7 +13268,7 @@ Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_1 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13281,7 +13281,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_2 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13294,7 +13294,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_3 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13307,7 +13307,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_4 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13324,7 +13324,7 @@ Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_5 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13341,7 +13341,7 @@ Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_6 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13354,7 +13354,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_7 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13367,7 +13367,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_8 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13380,7 +13380,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_9 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13393,7 +13393,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_10 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13406,7 +13406,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_11 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13419,7 +13419,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_12 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13432,7 +13432,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_13 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
@@ -13445,7 +13445,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_14 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt F
 Gender: Female
@@ -13458,7 +13458,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_15 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt F
 Gender: Female
@@ -13471,7 +13471,7 @@ Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_16 ===
-Name: GRUNT
+Name: 手下
 Class: Team Magma
 Pic: Magma Grunt F
 Gender: Female
@@ -16495,7 +16495,7 @@ Level: 41
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_SAWYER_2 ===
-Name: SAWYER
+Name: 雅彦
 Class: Hiker
 Pic: Hiker
 Gender: Male
@@ -16512,7 +16512,7 @@ Level: 26
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_SAWYER_3 ===
-Name: SAWYER
+Name: 雅彦
 Class: Hiker
 Pic: Hiker
 Gender: Male
@@ -16533,7 +16533,7 @@ Level: 28
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 === TRAINER_SAWYER_4 ===
-Name: SAWYER
+Name: 雅彦
 Class: Hiker
 Pic: Hiker
 Gender: Male
@@ -16554,7 +16554,7 @@ Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_SAWYER_5 ===
-Name: SAWYER
+Name: 雅彦
 Class: Hiker
 Pic: Hiker
 Gender: Male
@@ -16575,7 +16575,7 @@ Level: 33
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_GABRIELLE_2 ===
-Name: GABRIELLE
+Name: 福美
 Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
@@ -16608,7 +16608,7 @@ Level: 31
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_GABRIELLE_3 ===
-Name: GABRIELLE
+Name: 福美
 Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
@@ -16641,7 +16641,7 @@ Level: 33
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 === TRAINER_GABRIELLE_4 ===
-Name: GABRIELLE
+Name: 福美
 Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
@@ -16674,7 +16674,7 @@ Level: 35
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_GABRIELLE_5 ===
-Name: GABRIELLE
+Name: 福美
 Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
