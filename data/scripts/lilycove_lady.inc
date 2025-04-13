@@ -534,7 +534,7 @@ LilycoveCity_PokemonCenter_1F_Text_ImTheFavorLady:
 
 LilycoveCity_PokemonCenter_1F_Text_ObsessedWithThing:
 	.string "最近我一直\n"
-	.string "希望能{STR_VAR_1}…$"
+	.string "想要{STR_VAR_1}的东西…$"
 
 LilycoveCity_PokemonCenter_1F_Text_ThankYouForLastTime:
 	.string "啊…\n"
