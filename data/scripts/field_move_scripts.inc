@@ -50,7 +50,7 @@ Text_WantToCut:
 	.string "想把它砍了吗？$"
 
 Text_MonUsedFieldMove:
-	.string "{STR_VAR_1}用了{STR_VAR_2}！$"
+	.string "{STR_VAR_1}使用了{STR_VAR_2}!$"
 
 Text_CantCut:
 	.string "这棵树看起来\n"
@@ -217,7 +217,7 @@ EventScript_CancelSmash::
 
 Text_WantToSmash:
 	.string "这块石头看起来不是很结实。\n"
-	.string "想使用岩石粉碎吗？$"
+	.string "想使用碎岩吗？$"
 
 Text_CantSmash:
 	.string "这是一块奇形怪状的石头，\n"
@@ -269,11 +269,11 @@ EventScript_CancelStrength::
 Text_WantToStrength:
 	.string "这是一块大石头，但是宝可梦\n"
 	.string "应该还是能把它推到一边的。\p"
-	.string "想使用劲力吗？$"
+	.string "想使用怪力吗？$"
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1}使用了劲力！\p"
-	.string "{STR_VAR_1}的劲力让他\n"
+	.string "{STR_VAR_1}使用了怪力！\p"
+	.string "{STR_VAR_1}的怪力让他\n"
 	.string "有力量把大石头推开了！$"
 
 Text_CantStrength:
@@ -281,7 +281,7 @@ Text_CantStrength:
 	.string "应该还是能把它推到一边的。$"
 
 Text_StrengthActivated:
-	.string "劲力让它有力量\n"
+	.string "怪力让它有力量\n"
 	.string "推开大石头了。$"
 
 EventScript_UseWaterfall::
@@ -307,15 +307,15 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "伴随着震耳欲聋的巨响，\n"
+	.string "随着震耳欲聋的巨响，\n"
 	.string "一道水墙气势非凡的横在眼前。$"
 
 Text_WantToWaterfall:
 	.string "很大的一面水墙。\n"
-	.string "想使用鱼跃龙门吗？$"
+	.string "想使用攀瀑吗？$"
 
 Text_MonUsedWaterfall:
-	.string "{STR_VAR_1}使用了鱼跃龙门。$"
+	.string "{STR_VAR_1}使用了攀瀑。$"
 
 EventScript_UseDive::
 	lockall
@@ -395,7 +395,7 @@ EventScript_UseCutGrass::
 
 Text_CantDive:
 	.string "这里的水很深。宝可梦\n"
-	.string "似乎可以潜下去。$"
+	.string "可以潜下去。$"
 
 Text_WantToDive:
 	.string "这里的水很深。\n"
@@ -405,11 +405,11 @@ Text_MonUsedDive:
 	.string "{STR_VAR_1}使用了潜水。$"
 
 Text_CantSurface:
-	.string "上方的有明亮的光芒。\n"
+	.string "上方有明亮的光芒。\n"
 	.string "宝可梦应该可以从这里浮出水面。$"
 
 Text_WantToSurface:
-	.string "上方的有明亮的光芒。\n"
+	.string "上方有明亮的光芒。\n"
 	.string "要使用潜水吗？$"
 
 EventScript_FailSweetScent::
