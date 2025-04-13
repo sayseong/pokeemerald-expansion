@@ -204,7 +204,7 @@ SootopolisCity_Gym_1F_Text_RegisteredJuan:
     .string "把道馆馆主亚当的信息\n登记进宝可梦导航仪里。$"
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
-    .string "收集了丰缘地区所有\n道馆徽章之后，就该\l向最后的目的地出发了，\p那就是宝可梦联盟。\p向丰缘地区最东方的\n彩幽市前进吧，\p宝可梦联盟\n就在彼方。$"
+    .string "收集了丰缘地区所有\n道馆徽章之后，就该\l向最后的目的地出发了，\p那就是宝可梦联盟。\p向丰缘地区最东方的\n彩悠市前进吧，\p宝可梦联盟\n就在彼方。$"
 
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
     .string "丰缘地区中还剩下\n一枚徽章，\p如果你想挑战宝可梦\n联盟，你必须先获得\l茵郁市的道馆的徽章。$"

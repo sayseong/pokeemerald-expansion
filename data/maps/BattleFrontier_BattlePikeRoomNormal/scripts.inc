@@ -699,10 +699,10 @@ BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave:
     .string "奇鲁莉安使用了电击波！$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp:
-    .string "奇鲁莉安使用了鬼火！$"
+    .string "奇鲁莉安使用了磷火！$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp:
-    .string "夜巨人使用了鬼火！$"
+    .string "夜巨人使用了磷火！$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam:
     .string "夜巨人使用了冷冻光线！$"
@@ -741,10 +741,10 @@ BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck:
     .string "你的运气…\n我希望你没有在这里把它用光…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass:
-    .string "小蓟：… … … … … …\n让我看看你的开拓区通行证…$"
+    .string "小蓟：… … … … … …\n让我看看你的开拓通行证…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol:
-    .string "幸运印记被刻在了\n开拓区通行证上！$"
+    .string "运气象征被刻在了\n开拓通行证上！$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear:
     .string "…所有的…\n都消失了…$"
@@ -756,10 +756,10 @@ BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn:
     .string "那么！\n来吧！$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass:
-    .string "小蓟：… … … … … …\p…开拓区通行证…$"
+    .string "小蓟：… … … … … …\p…开拓通行证…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine:
-    .string "幸运印记闪耀着\n金色的光芒！$"
+    .string "运气象征闪耀着\n金色的光芒！$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_IWontForget:
     .string "…你，我不会忘记的…\n…永远…$"

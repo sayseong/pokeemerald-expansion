@@ -599,7 +599,7 @@ LilycoveCity_PokemonCenter_1F_Text_IllGiveYouThisInReturn:
 	.string "希望你也能好好保存…$"
 
 LilycoveCity_PokemonCenter_1F_Text_YouDontHaveSpaceForIt:
-	.string "哎，你的背包没空间\n"
+	.string "哎，你的包包没空间\n"
 	.string "装下这个了啊。\p"
 	.string "整理好之后\n"
 	.string "再来找我吧…$"
@@ -652,7 +652,7 @@ LilycoveCity_PokemonCenter_1F_Text_XReceivedOneY:
 	.string "{STR_VAR_2}！$"
 
 LilycoveCity_PokemonCenter_1F_Text_YourBagIsFilledUp:
-	.string "哎？你的背包满了！\n"
+	.string "哎？你的包包满了！\n"
 	.string "有空间的时候再来吧。$"
 
 LilycoveCity_PokemonCenter_1F_Text_WrongTheCorrectAnswerIs:
@@ -708,7 +708,7 @@ LilycoveCity_PokemonCenter_1F_Text_ImTheContestLady:
 	.string "我非常喜欢华丽大赛！$"
 
 LilycoveCity_PokemonCenter_1F_Text_ThankForPokeblock:
-	.string "谢谢你的能量方块！$"
+	.string "谢谢你的宝可方块！$"
 
 LilycoveCity_PokemonCenter_1F_Text_MyFriendDisplaysQuality:
 	.string "这是我的伙伴{STR_VAR_1}！\n"
@@ -718,20 +718,20 @@ LilycoveCity_PokemonCenter_1F_Text_MyFriendDisplaysQuality:
 
 LilycoveCity_PokemonCenter_1F_Text_DontHaveAPokeblockCase:
 	.string "能帮我个忙吗？\p"
-	.string "给我个能量方块可以吗？\n"
+	.string "给我个宝可方块可以吗？\n"
 	.string "我只想要一个而已！\p"
 	.string "…哎，等等…\n"
-	.string "你没有能量方块盒？\l"
+	.string "你没有宝可方块盒？\l"
 	.string "真可惜，那么下次再说吧！$"
 
 LilycoveCity_PokemonCenter_1F_Text_AskingForOnePokeblock:
 	.string "能帮我个忙吗？\p"
-	.string "给我个能量方块可以吗？\n"
+	.string "给我个宝可方块可以吗？\n"
 	.string "我只想要一个而已！$"
 
 LilycoveCity_PokemonCenter_1F_Text_ICantHaveOnePokeblock:
 	.string "啊啊啊！\n"
-	.string "一个能量方块都不给吗？$"
+	.string "一个宝可方块都不给吗？$"
 
 LilycoveCity_PokemonCenter_1F_Text_WhatACheapskate:
 	.string "嘁！小气鬼！$"

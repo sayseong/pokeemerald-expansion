@@ -71,5 +71,5 @@ RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead:
     .string "我的宝可梦进化了，\n它现在拥有更多体力。\p我得买些超级药水\n来代替普通药水。$"
 
 RustboroCity_Mart_Text_GettingEscapeRopeJustInCase:
-    .string "我要买些脱洞之绳，\n避免在山洞里迷路。\p这样只要用它\n就能回到入口了。$"
+    .string "我要买些离洞绳，\n避免在山洞里迷路。\p这样只要用它\n就能回到入口了。$"
 

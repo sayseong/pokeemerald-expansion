@@ -368,8 +368,8 @@ OldaleTown_Text_MayLetsGoBack:
     .string "小遥：{PLAYER}{KUN}！\n来！\l我们快回家吧！$"
 
 OldaleTown_Text_BrendanLetsGoBack:
-    .string "佑树：我要回老爸的\n研究所去。\l{PLAYER}，你也该快点回去。$"
+    .string "小悠：我要回老爸的\n研究所去。\l{PLAYER}，你也该快点回去。$"
 
 OldaleTown_Text_TownSign:
-    .string "古辰镇\n“简单而朴实的小镇。”$"
+    .string "古玫镇\n“简单而朴实的小镇。”$"
 

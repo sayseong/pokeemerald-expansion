@@ -983,10 +983,10 @@ LilycoveCity_ContestLobby_EventScript_LittleGirlHaveCase::
 	end
 
 LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase:
-    .string "呀嘿！\p接待处的女士给了我一个\n装能量方块的盒子！$"
+    .string "呀嘿！\p接待处的女士给了我一个\n装宝可方块的盒子！$"
 
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries:
-    .string "做好的能量方块可以装在里面。\p做能量方块的时候，\n大家都要放进不同的树果。$"
+    .string "做好的宝可方块可以装在里面。\p做宝可方块的时候，\n大家都要放进不同的树果。$"
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
     .string "祝贺你！\p我为你的宝可梦\n画了一幅画纪念它的成功…\p你的宝可梦的吸引力\n惊人，这激励着我\l尽我所能画出最好的画。\l看，怎么样？$"
@@ -1031,5 +1031,5 @@ LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
     .string "我花费了大量精力\n日日夜夜照顾这只宝可梦，\p现在它的状态已经达到了巅峰。\n今天，胜利是属于我的！$"
 
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily:
-    .string "我和爸爸，妈妈，姐姐一起\n制作能量方块！\p我想如果人多的话，就能\n做出更光滑更好的能量方块。$"
+    .string "我和爸爸，妈妈，姐姐一起\n制作宝可方块！\p我想如果人多的话，就能\n做出更光滑更好的宝可方块。$"
 

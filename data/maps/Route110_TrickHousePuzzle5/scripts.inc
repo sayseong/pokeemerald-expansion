@@ -908,7 +908,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
     .string "咔嗒、噼啪…\n我是机械娃娃1！\p正确回答问题，\n通过机械娃娃5，\l就能得到密码。$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
-    .string "机械娃娃1问答。\p下列宝可梦中哪一个不能\n在110号公路找到？$"
+    .string "机械娃娃1问答。\p下列宝可梦中哪一个不能\n在110号道路找到？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
     .string "机械娃娃1问答。\p下列宝可梦中哪一个不是\n水系？$"
@@ -932,13 +932,13 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
     .string "咔嗒、噼啪…\n我是机械娃娃2！\p机械娃娃1的问答\n难度等级太低了。$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
-    .string "机械娃娃2问答。\p小光从你的父亲那里\n借来的是哪只宝可梦？$"
+    .string "机械娃娃2问答。\p满充从你的父亲那里\n借来的是哪只宝可梦？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
     .string "机械娃娃2问答。\p追逐小田卷博士的\n是哪只宝可梦？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
-    .string "机械娃娃2问答。\p水舰队在橙华市森林\n里用的是哪只宝可梦？$"
+    .string "机械娃娃2问答。\p海洋队在橙华市森林\n里用的是哪只宝可梦？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
     .string "咔嗒、噼啪…\n我是机械娃娃3！\p我关心的只有价格。$"

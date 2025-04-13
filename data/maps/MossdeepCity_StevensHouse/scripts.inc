@@ -157,7 +157,7 @@ MossdeepCity_StevensHouse_Text_ExplainDive:
     .string "大吾：使用冲浪的时候，\n你大概也注意到水中的深色区域了，\p在那样的深水区域上使用潜水\n就能到达海底。\p想要回到海面上的话，\n就再次使用潜水。\p但在某些地方\n却不能回到水面上。$"
 
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
-    .string "大吾：显然，\n绿岭市和琉璃市之间\l有个海底洞窟，\p当然，就是库斯诺吉馆长\n乘潜艇找到的那个。$"
+    .string "大吾：显然，\n绿岭市和琉璃市之间\l有个海底洞窟，\p当然，就是楠木馆长\n乘潜艇找到的那个。$"
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
     .string "{PLAYER}调查精灵球。\p里面是宝可梦\n铁哑铃。\p拿走精灵球吗？$"

@@ -30,5 +30,5 @@ EverGrandeCity_Text_EnteringPokemonLeague:
     .string "进入宝可梦联盟\n中心大门$"
 
 EverGrandeCity_Text_CitySign:
-    .string "彩幽市\p“花朵、海洋，\n宝可梦的天堂。”$"
+    .string "彩悠市\p“花朵、海洋，\n宝可梦的天堂。”$"
 

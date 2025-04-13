@@ -705,7 +705,7 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_Text_WhereIsWally:
-    .string "我家小光去哪儿了？\p我们得马上出发\n去绿荫镇了…$"
+    .string "我家满充去哪儿了？\p我们得马上出发\n去绿茵镇了…$"
 
 PetalburgCity_Text_AreYouRookieTrainer:
     .string "嗨！莫非你是…\n新人训练家？\p你知道一名训练家来到\n新城镇时首先要做什么吗？\p他们会去看看那里\n有什么样的道馆。$"
@@ -729,7 +729,7 @@ PetalburgCity_Text_CitySign:
     .string "橙华市\n“人们和谐相处的地方。”$"
 
 PetalburgCity_Text_WallyHouseSign:
-    .string "小光的家$"
+    .string "满充的家$"
 
 PetalburgCity_Text_AreYouATrainer:
     .string "打扰了！\p看你的打扮，\n是个宝可梦训练家吧？$"

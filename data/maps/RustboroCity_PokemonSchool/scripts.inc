@@ -221,10 +221,10 @@ RustboroCity_PokemonSchool_Text_ExplainFreeze:
     .string "宝可梦被冰冻后，\n它完全无法反击，\p战斗后依然会保持冻结。\n用解冻药为它解冻。$"
 
 RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw:
-    .string "对于偷懒的学生，\n我就让他们尝尝我的先攻之爪。\p你是不是个好学生，\n只要看看你怎么用这件物品\l就能知道。$"
+    .string "对于偷懒的学生，\n我就让他们尝尝我的先制之爪。\p你是不是个好学生，\n只要看看你怎么用这件物品\l就能知道。$"
 
 RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
-    .string "带着先攻之爪的宝可梦\n偶尔会提高速度\l比对手先发动攻击。\p还有很多可以给宝可梦\n携带的东西，\p只是这一点就\n足够你学很久了！$"
+    .string "带着先制之爪的宝可梦\n偶尔会提高速度\l比对手先发动攻击。\p还有很多可以给宝可梦\n携带的东西，\p只是这一点就\n足够你学很久了！$"
 
 RustboroCity_PokemonSchool_Text_TradingRightNow:
     .string "我刚才在和朋友\n交换宝可梦。$"
@@ -245,7 +245,7 @@ RustboroCity_PokemonSchool_Text_StudentsNotes:
     .string "这是这个学生的笔记本…\p用精灵球\n可以抓住宝可梦。\p一个训练家最多可以\n同时携带六只宝可梦。\p训练家就是捕捉宝可梦，\n并养育它们，与它们\l共同战斗的人。\p训练家的任务是\n打败在宝可梦道馆中\l等待着的强大训练家。$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
-    .string "你好，我们以前见过面吧？\n我想是在橙华市见过。\p我来介绍一下自己。\n我叫亚希达，\p我是为了寻找\n出色的训练家而旅行，\p具体点说，就是\n寻找战斗的专家。\p可以问问你为什么会来学校吗？\n你也是训练家吗？\p你首先要做的是\n拥有一只会居合斩的宝可梦。\p如果我记得不错，\n这镇上就有人拥有居合斩。$"
+    .string "你好，我们以前见过面吧？\n我想是在橙华市见过。\p我来介绍一下自己。\n我叫亚希达，\p我是为了寻找\n出色的训练家而旅行，\p具体点说，就是\n寻找战斗的专家。\p可以问问你为什么会来学校吗？\n你也是训练家吗？\p你首先要做的是\n拥有一只会居合劈的宝可梦。\p如果我记得不错，\n这镇上就有人拥有居合劈。$"
 
 RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown:
     .string "亚希达：嗯…\p不知道这里的学生天赋如何。\n也许有潜力的人并不在此。$"

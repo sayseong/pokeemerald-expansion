@@ -585,7 +585,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait:
     .string "我在为你保存数据。\n请稍等。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle:
-    .string "你要把你上次的战斗记录\n到你的开拓区通行证吗？$"
+    .string "你要把你上次的战斗记录\n到你的开拓通行证吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments:
     .string "抱歉！请原谅！\n你能等一下吗？$"
@@ -594,10 +594,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo:
     .string "…嗯？什么？！…谁啊！\n有没有搞错！是吗！$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
-    .string "哦，我的…\n很抱歉让你久等了！\p我有一个老板厂主那里\n的消息。\p他说，“我们就去干！\n马上过来！”$"
+    .string "哦，我的…\n很抱歉让你久等了！\p我有一个老板工厂头目那里\n的消息。\p他说，“我们就去干！\n马上过来！”$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
-    .string "厂主要求见你。\n你准备好面见他了吗？$"
+    .string "工厂头目要求见你。\n你准备好面见他了吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead:
-    .string "十分抱歉，我不能告诉你\n任何有关于厂主的事。$"
+    .string "十分抱歉，我不能告诉你\n任何有关于工厂头目的事。$"

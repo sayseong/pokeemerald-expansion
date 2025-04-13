@@ -92,9 +92,9 @@ ProfileMan_EventScript_Ret::
 	return
 
 ProfileMan_Text_CollectTrainerProfiles:
-	.string "嘿，训练师！\n"
+	.string "嘿，训练家！\n"
 	.string "你有一个很灿烂的微笑。\p"
-	.string "我有一个爱好--收集宝可梦训练师\n"
+	.string "我有一个爱好--收集宝可梦训练家\n"
 	.string "的各种信息档案。$"
 
 ProfileMan_Text_MayISeeYourProfile:
@@ -134,7 +134,7 @@ ProfileMan_Text_NotIntoItRightNow:
 	.string "那随时都可以来找我！$"
 
 ProfileMan_Text_YouHaveWonderfulSmile:
-	.string "你好呀，训练师！\n"
+	.string "你好呀，训练家！\n"
 	.string "你有一个很灿烂的微笑啊。$"
 
 ProfileMan_Text_MayISeeYourNewProfile:

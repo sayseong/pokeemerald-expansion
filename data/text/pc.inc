@@ -14,4 +14,4 @@ gText_AccessedPlayersPC::
     .string "连接到{PLAYER}的电脑。$"
 
 gText_AccessedLanettesPC::
-    .string "连接到真弓的电脑。$"
+    .string "连接到真由美的电脑。$"

@@ -1377,7 +1377,7 @@ LilycoveCity_ContestLobby_Text_ReceptionDontHavePokeblockCase:
 	.string "这里是宝可梦华丽大赛的\n"
 	.string "服务前台。\p"
 	.string "哎呀？好像你还没拿到\n"
-	.string "能量方块盒吧。\p"
+	.string "宝可方块盒吧。\p"
 	.string "这样的话，我们就提供\n"
 	.string "一个给你吧！$"
 
@@ -1444,7 +1444,7 @@ LilycoveCity_ContestLobby_Text_ExplainContestRanks:
 	.string "就能参加专家组的比赛，\l"
 	.string "专家组比赛胜利的能进入下一个等级\l"
 	.string "大师组的比赛。\p"
-	.string "所有的宝可梦训练师都希望自己的\n"
+	.string "所有的宝可梦训练家都希望自己的\n"
 	.string "宝可梦获得大师组比赛\l"
 	.string "的胜利。$"
 
@@ -1735,7 +1735,7 @@ LilycoveCity_ContestLobby_Text_ExplainEMode:
 	.string "或者是GBA联机\l"
 	.string "线进行联机。\p"
 	.string "如果人数少于四人，\n"
-	.string "那么在大厅里的训练师就会\l"
+	.string "那么在大厅里的训练家就会\l"
 	.string "加入到比赛中。\p"
 	.string "要注意的是使用红宝石\n"
 	.string "和蓝宝石的人不能使用E模式。$"

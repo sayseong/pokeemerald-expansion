@@ -176,7 +176,7 @@ SlateportCity_ContestHall_Text_MCStepUpTakePartInContest:
 
 @ Unused
 SlateportCity_ContestHall_Text_JudgeWouldntDoToMissContest:
-    .string "裁判：你好啊！\n看来你是个训练家！\p那么，对你来说\n千万不要错过华丽大赛！\p获得绿荫镇的华丽大赛通行证\n并且随时可以再来！$"
+    .string "裁判：你好啊！\n看来你是个训练家！\p那么，对你来说\n千万不要错过华丽大赛！\p获得绿茵镇的华丽大赛通行证\n并且随时可以再来！$"
 
 @ Unused
 SlateportCity_ContestHall_Text_ItsAppealTime:

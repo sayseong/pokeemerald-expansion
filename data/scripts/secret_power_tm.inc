@@ -8,7 +8,7 @@ Route111_Text_MakingRoomUseTMToMakeYourOwn:
 
 Route111_Text_ExplainSecretPower:
 	.string "对着面前这种藤蔓快要落下来的树\n"
-	.string "使用秘密力量这个招式试试看吧！\l"
+	.string "使用秘密之力这个招式试试看吧！\l"
 	.string "藤蔓落下来，就可以爬上去了！\p"
 	.string "那样的话，树顶有十分宽敞的空间\n"
 	.string "我还在那里放了许多我喜欢的东西！\l"
@@ -18,7 +18,7 @@ Route111_Text_ExplainSecretPower:
 	.string "还有还有，制造秘密基地的场所\n"
 	.string "可不仅仅只有树上的！\p"
 	.string "在有小坑的墙壁前\n"
-	.string "也使用秘密力量试试看吧！\p"
+	.string "也使用秘密之力试试看吧！\p"
 	.string "我去找找有没有别的地方去！\n"
 	.string "就这样吧！拜拜！$"
 

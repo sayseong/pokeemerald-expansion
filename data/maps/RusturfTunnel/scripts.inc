@@ -446,10 +446,10 @@ RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
     .string "小皮欠你一条命！\p他们叫我哈奇。\n那么，你是？\p… … … … … … … …\n… … … … … … … …\p啊，你是{PLAYER}{KUN}！\n我真心感谢你！\p现在，如果你有什么事\n请一定要告诉我！\p你可以在我的小木屋找到我\n在橙华森林的海边。\p来吧，小皮，我们\n回家了。\p小皮：皮可！$"
 
 RusturfTunnel_Text_WhyCantTheyKeepDigging:
-    .string "… …\p为什么他们不继续挖了？\n是因为岩床太硬吗？\p我心爱的人就在那一边的绿荫镇\n等着我…\p如果能挖通这条隧道\n连接起卡那兹市和绿荫镇，\l我就能每天见到她了…\p可是现在…\n我该怎么办？$"
+    .string "… …\p为什么他们不继续挖了？\n是因为岩床太硬吗？\p我心爱的人就在那一边的绿茵镇\n等着我…\p如果能挖通这条隧道\n连接起卡那兹市和绿茵镇，\l我就能每天见到她了…\p可是现在…\n我该怎么办？$"
 
 RusturfTunnel_Text_ToGetToVerdanturf:
-    .string "想要从卡那兹市到绿荫镇，\n你得先到武斗镇，然后穿过\l凯那和紫堇市…$"
+    .string "想要从卡那兹市到绿茵镇，\n你得先到武斗镇，然后穿过\l凯那和紫堇市…$"
 
 RusturfTunnel_Text_YouShatteredBoulderTakeHM:
     .string "哇喔！你打碎了挡路的\n大石头。\p这个秘传学习器送给你，\n就当作是我的谢礼吧。$"
@@ -458,7 +458,7 @@ RusturfTunnel_Text_ExplainStrength:
     .string "那个秘传学习器里面\n是怪力。\p让力量大的宝可梦学会的话，\n就能够移动更大的\l石头了。$"
 
 RusturfTunnel_Text_WandaReunion:
-    .string "小亮！\n现在我可以随时看到你了！\p小亮：这真是…太好了。\p来，到我家好好休息吧。$"
+    .string "满盈！\n现在我可以随时看到你了！\p满盈：这真是…太好了。\p来，到我家好好休息吧。$"
 
 RusturfTunnel_Text_BoyfriendOnOtherSideOfRock:
     .string "在岩石的另一边…\n有我的男友。\p他…他并不单单是为了见我而\n挖这条隧道，\p他用自己的双手辛苦地挖掘着，\n也是为了大家。$"

@@ -239,10 +239,10 @@ EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver:
     .string "小遥：呃？\n什么，那个，难道？\p{PLAYER}{KUN}…\n不会吧…\l已经结束了？$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanAdvice:
-    .string "佑树：{PLAYER}！\p需要挑战冠军前\n的建议吗？…$"
+    .string "小悠：{PLAYER}！\p需要挑战冠军前\n的建议吗？…$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
-    .string "佑树：{PLAYER}…\p你不会是想告诉我…\n你已经打败了冠军？$"
+    .string "小悠：{PLAYER}…\p你不会是想告诉我…\n你已经打败了冠军？$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
     .string "小田卷博士：是吧？\n就像我之前说过的，{RIVAL}？\p我说过你不必担忧\n{PLAYER}{KUN}？\p… … … … … … … …\n{PLAYER}{KUN}，你最终成功了。\p当我听说你\n在橙华道馆打败了你的父亲，\l我当时认为你可能有机会…\p但是我没想到你现在确实\n成了冠军！\p啊，是的！\p你的图鉴完成得如何了？\n这里，来让我看下。$"
@@ -260,5 +260,5 @@ EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
     .string "小遥：呃…\p… … … … … … … …\n… … … … … … … …\p开玩笑的吧？！没关系！\n这是规定嘛！\p{PLAYER}{KUN}！\n真诚的恭喜你！$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations:
-    .string "佑树：什什什么？！… … … … …\n… … … … … … … …\p如果规定了这样也没有办法。\p{PLAYER}，去吧！\n恭喜你！$"
+    .string "小悠：什什什么？！… … … … …\n… … … … … … … …\p如果规定了这样也没有办法。\p{PLAYER}，去吧！\n恭喜你！$"
 

@@ -91,7 +91,7 @@ FortreeCity_Text_SawGiganticPokemonInSky:
     .string "没人肯相信我，但我\n确实在天空中看到了巨大的宝可梦。\p它在飞过131号航道时\n好像有些不安。\p另外…\n唔唔…你身上，呃…好像有焦味。\p你刚从火山或什么地方来吗？$"
 
 FortreeCity_Text_SomethingBlockingGym:
-    .string "我想去宝可梦道馆，\n但有东西堵了路。\p在120号公路训练了\n那么久，现在却…$"
+    .string "我想去宝可梦道馆，\n但有东西堵了路。\p在120号道路训练了\n那么久，现在却…$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
     .string "我带着我漂亮又可爱的\n宝可梦一起来了。\n这一次，我一定要打败娜琪。$"

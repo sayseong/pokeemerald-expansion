@@ -1067,13 +1067,13 @@ RustboroCity_Text_WaitDontTakeMyGoods:
     .string "等等！等——等！\p别抢我的包裹！$"
 
 RustboroCity_Text_HelpMeIWasRobbed:
-    .string "啊，是你！\p你是橙华森林里\n帮过我的那个训练家！\p请再帮我一次吧！水舰队抢了我的东西！\n我得把得文的包裹拿回来！\p否则…\n我会有大麻烦的。$"
+    .string "啊，是你！\p你是橙华森林里\n帮过我的那个训练家！\p请再帮我一次吧！海洋队抢了我的东西！\n我得把得文的物品拿回来！\p否则…\n我会有大麻烦的。$"
 
 RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
     .string "那个小偷大概\n向着那边的隧道逃跑了。$"
 
 RustboroCity_Text_YouGotItThankYou:
-    .string "嗨！怎么样了？\n得文的包裹？\p太好了！\n你拿回来了！\p你真是厉害的训练家！\p这些高级球就\n做为我的谢礼吧！$"
+    .string "嗨！怎么样了？\n得文的物品？\p太好了！\n你拿回来了！\p你真是厉害的训练家！\p这些高级球就\n做为我的谢礼吧！$"
 
 RustboroCity_Text_YoureLoadedWithItems:
     .string "你背了太多东西，\n装不下这些高级球了。$"
@@ -1106,28 +1106,28 @@ RustboroCity_Text_MayMrBrineyHint:
     .string "小遥：噢，还有，说起\n我刚才碰上的哈奇…\p{PLAYER}{KUN}，你刚刚搬来，\n也许不知道，哈奇曾经\l是大家都很敬佩的水手。$"
 
 RustboroCity_Text_BrendanHiLetsRegister:
-    .string "佑树：嗨，你好，{PLAYER}！\p你的宝可梦导航仪\n有对战寻呼功能！太棒了！\p我们登记一下各自的信息吧，\n这样就能随时联络了！\p… … … … … …$"
+    .string "小悠：嗨，你好，{PLAYER}！\p你的宝可梦导航仪\n有对战寻呼功能！太棒了！\p我们登记一下各自的信息吧，\n这样就能随时联络了！\p… … … … … …$"
 
 RustboroCity_Text_RegisteredBrendan:
-    .string "把佑树的信息\n登记在宝可梦导航仪里。$"
+    .string "把小悠的信息\n登记在宝可梦导航仪里。$"
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
-    .string "佑树：顺便说一句，我\n在橙华森林碰上哈奇了，\p他大概正要回\n他的海边小屋去。\p{PLAYER}，你的宝可梦图鉴怎么样了？\n有几页了吗？\p我的也是。\p跟我来场战斗吧？\n我看看你成长得如何了。$"
+    .string "小悠：顺便说一句，我\n在橙华森林碰上哈奇了，\p他大概正要回\n他的海边小屋去。\p{PLAYER}，你的宝可梦图鉴怎么样了？\n有几页了吗？\p我的也是。\p跟我来场战斗吧？\n我看看你成长得如何了。$"
 
 RustboroCity_Text_BrendanNoConfidenceInPokemon:
-    .string "佑树：怎么了？\n对你的宝可梦没信心吗？$"
+    .string "小悠：怎么了？\n对你的宝可梦没信心吗？$"
 
 RustboroCity_Text_BrendanWantToBattle:
-    .string "佑树：什么事？\n想跟我战斗吗？$"
+    .string "小悠：什么事？\n想跟我战斗吗？$"
 
 RustboroCity_Text_BrendanIWontGoEasy:
-    .string "佑树：虽然你刚刚成为\n训练家，但我不会手下留情的！$"
+    .string "小悠：虽然你刚刚成为\n训练家，但我不会手下留情的！$"
 
 RustboroCity_Text_BrendanDefeat:
     .string "唔…\n你很不错。$"
 
 RustboroCity_Text_BrendanMrBrineyHint:
-    .string "佑树：顺便，你知道\n我刚刚碰上的那个哈奇吗？\p我想你刚搬来\n还不知道，{PLAYER}，\l哈奇曾是个杰出的海员。$"
+    .string "小悠：顺便，你知道\n我刚刚碰上的那个哈奇吗？\p我想你刚搬来\n还不知道，{PLAYER}，\l哈奇曾是个杰出的海员。$"
 
 RustboroCity_Text_TunnelNearingCompletion:
     .string "“便利隧道\n即将完工！”\p…牌子上这么写着，\n但上面还有个用红漆\l画了的大大的“X”…$"
@@ -1148,13 +1148,13 @@ RustboroCity_Text_TrainersSchoolSign:
     .string "宝可梦训练家学校\p“教给你关于\n宝可梦的一切！”$"
 
 RustboroCity_Text_CuttersHouse:
-    .string "居合斩之家$"
+    .string "居合劈之家$"
 
 RustboroCity_Text_DevelopedNewPokenavFeature:
-    .string "我正在开发宝可梦导航仪的\n其他功能…\p这是个非常棒的功能！\p{PLAYER}，能让我看看董事长\n给你的宝可梦导航仪吗？$"
+    .string "我正在开发宝可梦导航仪的\n其他功能…\p这是个非常棒的功能！\p{PLAYER}，能让我看看社长\n给你的宝可梦导航仪吗？$"
 
 RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
-    .string "好了，{PLAYER}！\p我给你的宝可梦导航仪\n加了个对战寻呼。\p你现在可以用对战寻呼\n与登记在你宝可梦导航仪里的人\l聊天了。\p{PLAYER}，我们的董事长兹伏奇\n已经登记在你的宝可梦导航仪里了，\p试试吧，\n给我们董事长打个电话。$"
+    .string "好了，{PLAYER}！\p我给你的宝可梦导航仪\n加了个对战寻呼。\p你现在可以用对战寻呼\n与登记在你宝可梦导航仪里的人\l聊天了。\p{PLAYER}，我们的社长兹伏奇\n已经登记在你的宝可梦导航仪里了，\p试试吧，\n给我们社长打个电话。$"
 
 RustboroCity_Text_PleaseSelectPokenav:
     .string "请选择宝可梦导航仪。$"

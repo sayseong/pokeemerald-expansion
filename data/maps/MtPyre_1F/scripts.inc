@@ -26,7 +26,7 @@ MtPyre_1F_EventScript_Man::
 	end
 
 MtPyre_1F_Text_TakeThisForYourOwnGood:
-    .string "送神火山码头的山坡上\n有许多生灵在徘徊…\p无人得知将会发生何事。\n带上这个，对你有好处。$"
+    .string "送神山码头的山坡上\n有许多生灵在徘徊…\p无人得知将会发生何事。\n带上这个，对你有好处。$"
 
 MtPyre_1F_Text_ExplainCleanseTag:
     .string "让一只宝可梦携带\n这个净化之符，\p就能够避开一些野生宝可梦。$"

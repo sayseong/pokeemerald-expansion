@@ -133,7 +133,7 @@ Route115_Text_NeverKnowWhenCavePokemonWillAppear:
     .string "探索山洞不同于\n在大路上走，\p根本不知道什么时候会有\n野生宝可梦跳出来，所以总是提心吊胆。$"
 
 Route115_Text_RouteSignRustboro:
-    .string "115号公路\n{DOWN_ARROW}卡那兹市$"
+    .string "115号道路\n{DOWN_ARROW}卡那兹市$"
 
 Route115_Text_MeteorFallsSign:
     .string "流星瀑布\n穿过这里到达秋叶镇$"

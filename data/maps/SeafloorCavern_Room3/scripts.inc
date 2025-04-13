@@ -18,7 +18,7 @@ SeafloorCavern_Room3_Text_ShellyDefeat:
     .string "哈哈哈哈！\p哎呦！$"
 
 SeafloorCavern_Room3_Text_ShellyPostBattle:
-    .string "哈哈哈哈！\n你真是无懈可击。\p你不是水舰队的一员\n实在是一件非常可惜的事情。\p否则你一定会喜欢\n老大向我们描绘的\l童话般的世界的…$"
+    .string "哈哈哈哈！\n你真是无懈可击。\p你不是海洋队的一员\n实在是一件非常可惜的事情。\p否则你一定会喜欢\n老大向我们描绘的\l童话般的世界的…$"
 
 SeafloorCavern_Room3_Text_Grunt5Intro:
     .string "为了实现我们的梦想，我们\n需要宝可梦的力量。\p但是那些像你一样爱管闲事的人\n却总是用宝可梦的力量来碍事，\l甚至都追到了这里来！\p人生总是不能\n如我们所愿一般进行！$"

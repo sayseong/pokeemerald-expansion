@@ -459,13 +459,13 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
     .string "对战宫殿里有几个\n专门为双打对战准备的礼堂，\l被称作双打对战大厅。\p双打对战与普通比赛的规则\n相同，但增加了一条\l非常重要的规则，\p训练家只能选择\n进行战斗的宝可梦，\p不可以对宝可梦\n下达任何战斗指令。\p宝可梦要\n依靠自己的本能战斗，\p你必须信赖你的宝可梦，\n仔细观看它们的比赛。\p如果你能成功地连续打败\n七个训练家，\l就可以得到对战点数。\p需要中断挑战的话\n必须进行存档，\p假如没有存档\n则视为放弃参赛权。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers:
-    .string "要连续打败殿主\n和七个训练家啊…$"
+    .string "要连续打败宫殿守护者\n和七个训练家啊…$"
 
 BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
     .string "为了表彰你和你的宝可梦\n之间密切的关系，我们把\l这些对战点数奖给你。$"
 
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
-    .string "你要在你的开拓区通行证上\n记录下你在对战宫殿\l最近的比赛吗？$"
+    .string "你要在你的开拓通行证上\n记录下你在对战宫殿\l最近的比赛吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_RulesAreListed:
     .string "上面写着对战大厅的规则。$"

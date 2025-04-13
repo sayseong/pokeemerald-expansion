@@ -65,7 +65,7 @@ MoveTutor_Text_SleepTalkTeach::
     .string "嗯！我的妻子依靠觉醒\n力量激发潜能。\p她正好要像我一样打个盹，\n并且梦话。\p我能让你的宝可梦\n学会梦话。有兴趣吗？$"
 
 MoveTutor_Text_SleepTalkDeclined::
-    .string "噢，好，好。你也想用\n催醒来激发潜能…$"
+    .string "噢，好，好。你也想用\n觉醒力量来激发潜能…$"
 
 MoveTutor_Text_SleepTalkWhichMon::
     .string "啊，多有眼光的孩子呀！\n你想让我教哪只宝可梦？$"

@@ -226,10 +226,10 @@ Route117_Text_AirIsTastyHere:
     .string "这的空气中有一股清香！$"
 
 Route117_Text_RouteSignVerdanturf:
-    .string "117号公路\n{LEFT_ARROW}绿荫镇$"
+    .string "117号道路\n{LEFT_ARROW}绿茵镇$"
 
 Route117_Text_RouteSignMauville:
-    .string "117号公路\n{RIGHT_ARROW}紫堇市$"
+    .string "117号道路\n{RIGHT_ARROW}紫堇市$"
 
 Route117_Text_DayCareSign:
     .string "抚养家\n“替你抚养宝可梦。”$"

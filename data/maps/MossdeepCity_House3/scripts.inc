@@ -26,10 +26,10 @@ MossdeepCity_House3_EventScript_DeclineSuperRod::
 	end
 
 MossdeepCity_House3_Text_YouWantSuperRod:
-    .string "喂，那边那位训练家！\n超级钓竿真的非常妙！\p即使你想要海底的宝可梦，\n它也能把它们钓出来！\p你觉得呢？\n你想要是吧？$"
+    .string "喂，那边那位训练家！\n厉害钓竿真的非常妙！\p即使你想要海底的宝可梦，\n它也能把它们钓出来！\p你觉得呢？\n你想要是吧？$"
 
 MossdeepCity_House3_Text_SuperRodIsSuper:
-    .string "当然，当然！\n毕竟，超级钓竿真的非常妙！$"
+    .string "当然，当然！\n毕竟，厉害钓竿真的非常妙！$"
 
 MossdeepCity_House3_Text_TryDroppingRodInWater:
     .string "只要有水，\n就甩出你的钓竿来钓鱼吧！$"
@@ -38,5 +38,5 @@ MossdeepCity_House3_Text_DontYouLikeToFish:
     .string "哎？\n你不喜欢钓鱼吗？$"
 
 MossdeepCity_House3_Text_GoAfterSeafloorPokemon:
-    .string "用你的超级钓竿\n寻找海底的宝可梦吧。$"
+    .string "用你的厉害钓竿\n寻找海底的宝可梦吧。$"
 

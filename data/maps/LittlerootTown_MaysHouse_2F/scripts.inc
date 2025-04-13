@@ -317,7 +317,7 @@ RivalsHouse_2F_Text_MayGettingReady:
     .string "宝可梦完全恢复了！\n东西都准备好了，还有…$"
 
 RivalsHouse_2F_Text_BrendanWhoAreYou:
-    .string "嗨！\n你…\p你是谁？\p啊，是{PLAYER}吧？\n刚搬到隔壁的？\p没想到会是个女孩。\p老爸小田卷博士说\n新邻居是个道馆馆主的孩子，\l我还以为是男孩呢。\p我叫佑树，\n今天起我们就是邻居了！\p嗯？喂，{PLAYER}你还没有\n宝可梦吗？\p要我替你捉一只吗？\p啊，可恶，忘记了…\p我得去帮老爸\n捉野生宝可梦了。\p以后再聊，好吗？$"
+    .string "嗨！\n你…\p你是谁？\p啊，是{PLAYER}吧？\n刚搬到隔壁的？\p没想到会是个女孩。\p老爸小田卷博士说\n新邻居是个道馆馆主的孩子，\l我还以为是男孩呢。\p我叫小悠，\n今天起我们就是邻居了！\p嗯？喂，{PLAYER}你还没有\n宝可梦吗？\p要我替你捉一只吗？\p啊，可恶，忘记了…\p我得去帮老爸\n捉野生宝可梦了。\p以后再聊，好吗？$"
 
 RivalsHouse_2F_Text_BrendanGettingReady:
     .string "宝可梦完全恢复了…\n东西都打包好了，还有…$"
@@ -332,7 +332,7 @@ RivalsHouse_2F_Text_MayWhereShouldIGoNext:
     .string "小遥：不知道下面该\n去哪儿抓宝可梦呢？\p如果我们能偶然遇上，那会\n很有趣吧，{PLAYER}{KUN}？$"
 
 RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
-    .string "佑树：嗨，{PLAYER}，\p我在检查我的宝可梦图鉴。\p我还有不少宝可梦要抓，\n但现在这样\l进展也不错。\p看着这宝可梦图鉴就觉得它好像\n在催我回草丛里去。$"
+    .string "小悠：嗨，{PLAYER}，\p我在检查我的宝可梦图鉴。\p我还有不少宝可梦要抓，\n但现在这样\l进展也不错。\p看着这宝可梦图鉴就觉得它好像\n在催我回草丛里去。$"
 
 RivalsHouse_2F_Text_BrendanWhereShouldIGoNext:
-    .string "佑树：我正在头疼下面\n要去哪儿捉宝可梦。\p喂，{PLAYER}，我如果能在找\n宝可梦时碰见你，\l可以和你来场小小的战斗。$"
+    .string "小悠：我正在头疼下面\n要去哪儿捉宝可梦。\p喂，{PLAYER}，我如果能在找\n宝可梦时碰见你，\l可以和你来场小小的战斗。$"

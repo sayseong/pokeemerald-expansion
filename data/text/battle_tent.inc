@@ -57,13 +57,13 @@ FallarborTown_BattleTentLobby_Text_LookingForwardToArrival::
     .string "我们一直期待\n你的到来。\p在带你进入对战帐篷之前，\n必须保存游戏进度。请稍候。$"
 
 VerdanturfTown_BattleTentLobby_Text_WelcomeToBattleTent::
-    .string "欢迎来到对战帐篷\n绿荫镇分址！\p在这里，将考验训练家\n与宝可梦之间的默契。$"
+    .string "欢迎来到对战帐篷\n绿茵镇分址！\p在这里，将考验训练家\n与宝可梦之间的默契。$"
 
 VerdanturfTown_BattleTentLobby_Text_TakeChallenge::
-    .string "你要向绿荫镇\n对战帐篷挑战吗？$"
+    .string "你要向绿茵镇\n对战帐篷挑战吗？$"
 
 VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent::
-    .string "在绿荫镇对战帐篷里，\n有一条至关重要的规则\l是必须服从的。\p训练家只允许放出和收回\n他们的宝可梦。\p训练家不能对他们的宝可梦\n下任何指令。\p而宝可梦会根据自己的本性行动\n并且凭自己的力量战斗。\p你必须十分信任你的宝可梦\n并在一旁守护着它们。\p如果你能获得连续打败3位\n训练家的荣誉的话，\l我们会送给你礼物作为奖励。\p如果你想停止挑战，\n请保存游戏进度。\p如果你在保存之前中断的话，\n你将失去这场比赛的资格。$"
+    .string "在绿茵镇对战帐篷里，\n有一条至关重要的规则\l是必须服从的。\p训练家只允许放出和收回\n他们的宝可梦。\p训练家不能对他们的宝可梦\n下任何指令。\p而宝可梦会根据自己的本性行动\n并且凭自己的力量战斗。\p你必须十分信任你的宝可梦\n并在一旁守护着它们。\p如果你能获得连续打败3位\n训练家的荣誉的话，\l我们会送给你礼物作为奖励。\p如果你想停止挑战，\n请保存游戏进度。\p如果你在保存之前中断的话，\n你将失去这场比赛的资格。$"
 
 VerdanturfTown_BattleTentLobby_Text_ReturnFortified::
     .string "当你有勇气想让自己的\n宝可梦变强时再来吧。$"
@@ -180,7 +180,7 @@ SlateportCity_BattleTentLobby_Text_ExplainMonRules::
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed2::
-    .string "绿荫镇对战帐篷的\n规则已经列出$"
+    .string "绿茵镇对战帐篷的\n规则已经列出$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ReadWhichHeading::
@@ -188,7 +188,7 @@ VerdanturfTown_BattleTentLobby_Text_ReadWhichHeading::
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules::
-    .string "在绿荫镇对战帐篷，\n宝可梦需要独立\l思考并战斗。\p不像在野外，宝可梦和人类一起生存\n由于自然环境不同\l行为也不同。$"
+    .string "在绿茵镇对战帐篷，\n宝可梦需要独立\l思考并战斗。\p不像在野外，宝可梦和人类一起生存\n由于自然环境不同\l行为也不同。$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainNatureRules::
@@ -210,4 +210,4 @@ BattleTentLobby_Text_ExplainLevelRules::
     .string "在对战帐篷里，你对手的\n的等级会与你参赛的\l宝可梦的等级相适应。\p不管怎样，你不会碰到带着\n低于30级宝可梦的训练家。$"
 
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed::
-    .string "绿荫镇对战帐篷\n的规则已列出。$"
+    .string "绿茵镇对战帐篷\n的规则已列出。$"

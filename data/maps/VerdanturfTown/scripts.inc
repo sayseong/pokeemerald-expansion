@@ -82,14 +82,14 @@ VerdanturfTown_Text_EasyToGetToRustboroNow:
     .string "宝可梦商店旁的洞穴\n现在成了通向山的另一侧的隧道。\p这太棒了——现在去卡那兹市\n买得文的新产品更方便了。$"
 
 VerdanturfTown_Text_TownSign:
-    .string "绿荫镇\p“从高原上吹下来的风中\n夹带有青草的芳香。”$"
+    .string "绿茵镇\p“从高原上吹下来的风中\n夹带有青草的芳香。”$"
 
 VerdanturfTown_Text_WandasHouse:
-    .string "小亮的家$"
+    .string "满盈的家$"
 
 VerdanturfTown_Text_BattleTentSign:
-    .string "对战帐篷绿荫镇分址\n“来看看这里的战斗，一饱眼福吧！”$"
+    .string "对战帐篷绿茵镇分址\n“来看看这里的战斗，一饱眼福吧！”$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
-    .string "卡绿隧道\n“连接卡那兹市和绿荫镇\p隧道工程\n已被取消。”$"
+    .string "卡绿隧道\n“连接卡那兹市和绿茵镇\p隧道工程\n已被取消。”$"
 

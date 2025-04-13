@@ -296,7 +296,7 @@ Route113_GlassWorkshop_Text_GoCollectAshWithThis:
     .string "这里到处是火山灰，\n呼呼！\p我有种特别的天赋，呼呼，\p我可以利用火山灰\n制作玻璃，呼呼。\p用这个去收集火山灰吧，呼呼。$"
 
 Route113_GlassWorkshop_Text_ExplainSootSack:
-    .string "只要带上这个火山灰收集袋在\n满是火山灰的地方走，呼呼，\p它就会将火山灰收集起来，\n呼呼。\p当你觉得收集了不少火山灰之后，\n就回来找我吧，呼呼。$"
+    .string "只要带上这个集灰袋在\n满是火山灰的地方走，呼呼，\p它就会将火山灰收集起来，\n呼呼。\p当你觉得收集了不少火山灰之后，\n就回来找我吧，呼呼。$"
 
 Route113_GlassWorkshop_Text_LetsSeeCollectedAshes:
     .string "火山灰收集得怎么样了，呼呼？\n我看看，呼呼。$"
@@ -332,7 +332,7 @@ Route113_GlassWorkshop_Text_NoRoomInPC:
     .string "哦？\n你的电脑里面没有地方了，呼呼。\p我先替你保管者，以后再来吧，\n呼呼。$"
 
 Route113_GlassWorkshop_Text_HaventGotYourSootSack:
-    .string "哎？你没带你的火山灰收集袋啊，\n呼呼。\p要收集火山灰就一定\n要带上它，呼呼。$"
+    .string "哎？你没带你的集灰袋啊，\n呼呼。\p要收集火山灰就一定\n要带上它，呼呼。$"
 
 Route113_GlassWorkshop_Text_FunToBlowGlassFlute:
     .string "在老板说话的时候\n吹玻璃真好玩，\p呼呼！呼呼！$"

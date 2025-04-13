@@ -283,7 +283,7 @@ RustboroCity_DevonCorp_2F_Text_IMadePokenav:
     .string "我开发了宝可梦导航仪！\p作为一个工程师，能开发出\n这么伟大的工具是我的幸运！$"
 
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
-    .string "哇！\n那是宝可梦导航仪！\p因为我们董事长想要\n了解宝可梦的感受，\l才会有这东西的构想。\p你要我想你详细\n讲解一下它的功能吗？\p啊，不，不，我想你会在试用\n我们的宝可梦导航仪时慢慢摸索出来的。$"
+    .string "哇！\n那是宝可梦导航仪！\p因为我们社长想要\n了解宝可梦的感受，\l才会有这东西的构想。\p你要我想你详细\n讲解一下它的功能吗？\p啊，不，不，我想你会在试用\n我们的宝可梦导航仪时慢慢摸索出来的。$"
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
     .string "我在开发一种能\n将宝可梦的梦境\l投影出来的装置…\p但进展不理想。$"

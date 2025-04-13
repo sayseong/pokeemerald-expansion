@@ -274,16 +274,16 @@ SlateportCity_OceanicMuseum_2F_EventScript_MuseumPatron3::
 	end
 
 SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
-    .string "你好，你在找库斯诺吉？\n我就是。\p啊！那是我向得文的\n兹伏奇订购的部件吧？\p非常感谢！\n我们可以开始准备出航了。$"
+    .string "你好，你在找楠木？\n我就是。\p啊！那是我向得文的\n兹伏奇订购的部件吧？\p非常感谢！\n我们可以开始准备出航了。$"
 
 SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts:
     .string "嘿嘿嘿，别急！\n那些部件是我们的！$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou:
-    .string "库斯诺吉馆长：什—什么？\n你们是什么人？$"
+    .string "楠木馆长：什—什么？\n你们是什么人？$"
 
 SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua:
-    .string "我们是水舰队！\p我们老大想要那些部件！\n闭上嘴，乖乖把东西交出来！$"
+    .string "我们是海洋队！\p我们老大想要那些部件！\n闭上嘴，乖乖把东西交出来！$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat:
     .string "啊啊！\n竟然被小孩打败了！$"
@@ -304,13 +304,13 @@ SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
     .string "我还在奇怪你们抢个部件怎么\n用了那么久，一上来就看到你们\l几个蠢货被个孩子收拾了。$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
-    .string "我们是热爱大海的\n水舰队！\p我就是水舰队的首领\n水梧桐！\p你为什么妨碍我们？\p…不，不可能！\n你不是火岩队的人吧？\p等等，这也不对，\n你的衣着和他们不一样。\p… … … … … …\n… … … … … …\p人类，宝可梦…所有的生命\n都因大海而存在，\p因此我们水舰队\n致力于扩展海洋。\p你也这么想吧？\n我们双肩上挑着沉重的担子。\p啊，好吧…\n对你这么大的孩子来说，要理解\l我们崇高的理想还太勉强了些。\p但我警告你，\n别再妨碍我们的计划，\p否则我会让你知道\n我们的厉害！\p好好记住！$"
+    .string "我们是热爱大海的\n海洋队！\p我就是海洋队的首领\n水梧桐！\p你为什么妨碍我们？\p…不，不可能！\n你不是熔岩队的人吧？\p等等，这也不对，\n你的衣着和他们不一样。\p… … … … … …\n… … … … … …\p人类，宝可梦…所有的生命\n都因大海而存在，\p因此我们海洋队\n致力于扩展海洋。\p你也这么想吧？\n我们双肩上挑着沉重的担子。\p啊，好吧…\n对你这么大的孩子来说，要理解\l我们崇高的理想还太勉强了些。\p但我警告你，\n别再妨碍我们的计划，\p否则我会让你知道\n我们的厉害！\p好好记住！$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
-    .string "库斯诺吉馆长：你是…\n啊，是吗，你是{PLAYER}{KUN}…\p刚才的形势太紧张了！\n谢谢你救了我！\p噢，对了，我差点忘了\n你还带着得文送来的部件！$"
+    .string "楠木馆长：你是…\n啊，是吗，你是{PLAYER}{KUN}…\p刚才的形势太紧张了！\n谢谢你救了我！\p噢，对了，我差点忘了\n你还带着得文送来的部件！$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
-    .string "库斯诺吉馆长：呼！\n没时间了！\p我们得赶快开始\n我们的海底探索了。\p再次谢谢你，不过\n我现在得走了！\p随便观赏一下\n我们的展品吧。$"
+    .string "楠木馆长：呼！\n没时间了！\p我们得赶快开始\n我们的海底探索了。\p再次谢谢你，不过\n我现在得走了！\p随便观赏一下\n我们的展品吧。$"
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
     .string "我在这儿看到了一艘模型船，\p这让我想起了武斗镇附近的\n那艘被遗弃的海船……$"
@@ -340,14 +340,14 @@ SlateportCity_OceanicMuseum_2F_Text_SurfaceSeawaterDisplay:
     .string "海水循环的演示。\p“在洋面上，海水\n被风吹动，形成洋流。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica:
-    .string "“正在库斯诺吉的船厂建造的\p破浪号游船的\n等比例模型。”$"
+    .string "“正在楠木的船厂建造的\p破浪号游船的\n等比例模型。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica:
-    .string "“潜艇探险者1号\p洋底探险用\n高级潜水艇的模型。”$"
+    .string "“潜艇海渊1号\p洋底探险用\n高级潜水艇的模型。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SumbersibleReplica:
     .string "“潜水者\p海底探险用的坚固的\n无人探测器的模型。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica:
-    .string "“环游世界的\p豪华定期船\nS.S.安尼的模型。”$"
+    .string "“环游世界的\p豪华定期船\n圣特安努号的模型。”$"
 

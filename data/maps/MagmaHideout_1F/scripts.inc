@@ -17,7 +17,7 @@ MagmaHideout_1F_EventScript_Grunt2::
 	end
 
 MagmaHideout_1F_Text_Grunt1Intro:
-    .string "当火岩队点名布置任务的时候，\n我们按照排队的顺序各自领到\l重要性不同的守卫任务。\p所以我才被安排到这个角落里，\n因为我点名的时候总是晚一步！$"
+    .string "当熔岩队点名布置任务的时候，\n我们按照排队的顺序各自领到\l重要性不同的守卫任务。\p所以我才被安排到这个角落里，\n因为我点名的时候总是晚一步！$"
 
 MagmaHideout_1F_Text_Grunt1Defeat:
     .string "我的训练也\n总是晚一步！\p不得不承认，我很弱…$"

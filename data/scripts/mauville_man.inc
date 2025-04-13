@@ -235,7 +235,7 @@ MauvilleCity_PokemonCenter_1F_EventScript_NoRoomForDecor::
 MauvilleCity_PokemonCenter_1F_Text_WillYouHearMyTale:
 	.string "我是吟游诗人。\n"
 	.string "我可以告诉你传说中的\l"
-	.string "训练师的故事。\p"
+	.string "训练家的故事。\p"
 	.string "想听我的故事吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_StorytellerFeelingTheBlues:
@@ -247,10 +247,10 @@ MauvilleCity_PokemonCenter_1F_Text_WhichTaleToTell:
 	.string "你想听哪个？$"
 
 MauvilleCity_PokemonCenter_1F_Text_IKnowNoTales:
-	.string "不过，我不知道什么传说中的训练师。\n"
+	.string "不过，我不知道什么传说中的训练家。\n"
 	.string "所以，也就不知道有什么故事。\p"
 	.string "这世上存在能称为\n"
-	.string "传说中的训练师的人吗？$"
+	.string "传说中的训练家的人吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDidStatXTimes:
 	.string "啊？！\n"
@@ -262,11 +262,11 @@ MauvilleCity_PokemonCenter_1F_Text_YouDidStatXTimes:
 
 MauvilleCity_PokemonCenter_1F_Text_CouldThereBeOtherLegends:
 	.string "我开始想，是否还有其他\n"
-	.string "训练师有着更感人的故事\l"
+	.string "训练家有着更感人的故事\l"
 	.string "等待着人们的发现呢？$"
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouAnyLegendaryTales:
-	.string "你是训练师吗？\p"
+	.string "你是训练家吗？\p"
 	.string "那么告诉我吧，你听说\n"
 	.string "过更遥远的传说吗？$"
 
@@ -283,11 +283,11 @@ MauvilleCity_PokemonCenter_1F_Text_NotWorthyOfLegend:
 
 MauvilleCity_PokemonCenter_1F_Text_IWishMorePeopleWereInterested:
 	.string "真希望能有更多的人来听\n"
-	.string "我这些关于传说中的训练师们\l"
+	.string "我这些关于传说中的训练家们\l"
 	.string "的史诗般的故事。$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameTitle::
-	.string "谨慎的训练师$"
+	.string "谨慎的训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameAction::
 	.string "保存游戏进度$"
@@ -354,7 +354,7 @@ MauvilleCity_PokemonCenter_1F_Text_InterviewsStory::
 	.string "他曾经受到了{STR_VAR_1}次\n"
 	.string "采访！\p"
 	.string "我相信{STR_VAR_3}一定能成为\n"
-	.string "备受瞩目的训练师！$"
+	.string "备受瞩目的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesTitle::
 	.string "战斗狂$"
@@ -471,28 +471,28 @@ MauvilleCity_PokemonCenter_1F_Text_UsedCutTitle::
 	.string "斩剑狂$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutAction::
-	.string "用一字斩$"
+	.string "用居合劈$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "此人使用一字斩高达\n"
+	.string "此人使用居合劈高达\n"
 	.string "{STR_VAR_1}次！\p"
 	.string "{STR_VAR_3}十分喜欢\n"
-	.string "一字斩！$"
+	.string "居合劈！$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashTitle::
-	.string "岩石粉碎大师$"
+	.string "碎岩大师$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashAction::
-	.string "打岩石粉碎石$"
+	.string "打碎岩石$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "此人使用岩石粉碎有\n"
+	.string "此人使用碎岩有\n"
 	.string "{STR_VAR_1}次！\p"
-	.string "岩石粉碎早已是{STR_VAR_3}生活\n"
+	.string "碎岩早已是{STR_VAR_3}生活\n"
 	.string "的一部分！$"
 
 MauvilleCity_PokemonCenter_1F_Text_MovedBasesTitle::
@@ -524,7 +524,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedSplashStory::
 	.string "乱跳吧！$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleTitle::
-	.string "顽强的训练师$"
+	.string "顽强的训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleAction::
 	.string "采取绝境反击战术$"
@@ -577,13 +577,13 @@ MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesStory::
 	.string "他向对战塔\n"
 	.string "挑战了{STR_VAR_1}次！\p"
 	.string "{STR_VAR_3}立志成为\n"
-	.string "对战塔中优秀的训练师！$"
+	.string "对战塔中优秀的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksTitle::
 	.string "树果有爱混合师$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksAction::
-	.string "做能量方块$"
+	.string "做宝可方块$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
@@ -650,7 +650,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderStory::
 	.string "所有隐藏道具！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedTitle::
-	.string "被雨淋湿的训练师$"
+	.string "被雨淋湿的训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedAction::
 	.string "淋雨$"
@@ -730,7 +730,7 @@ MauvilleCity_PokemonCenter_1F_Text_CheckedClockStory::
 	.string "他总共调过\n"
 	.string "{STR_VAR_1}次表！\p"
 	.string "{STR_VAR_3}一定是个自觉\n"
-	.string "遵守时间的训练师。$"
+	.string "遵守时间的训练家。$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryTitle::
 	.string "中奖奇才$"
@@ -747,7 +747,7 @@ MauvilleCity_PokemonCenter_1F_Text_WonLotteryStory::
 	.string "宝可梦的朋友！$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareTitle::
-	.string "在抚养家工作的训练师$"
+	.string "在抚养家工作的训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareAction::
 	.string "在抚养家照顾宝可梦$"

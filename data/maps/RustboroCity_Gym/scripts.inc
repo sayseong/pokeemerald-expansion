@@ -146,7 +146,7 @@ RustboroCity_Gym_Text_ReceivedStoneBadge:
     .string "{PLAYER}从杜娟处\n得到了岩石徽章。$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
-    .string "岩石徽章可以提升\n你的宝可梦的攻击，\p也可以让它们在战斗外\n使用秘传学习器居合斩。\p这个也拿上吧。$"
+    .string "岩石徽章可以提升\n你的宝可梦的攻击，\p也可以让它们在战斗外\n使用秘传学习器居合劈。\p这个也拿上吧。$"
 
 RustboroCity_Gym_Text_ExplainRockTomb:
     .string "招式学习器39里面是\n岩石封锁，\p它不只能靠投掷岩石打击敌人，\n也能降低对手的速度。\p使用招式学习器的话，\n宝可梦马上会学会里面的招式，\p但记住，一个招式学习器\n只能使用一次，\n用之前要三思。$"

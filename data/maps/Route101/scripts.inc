@@ -273,11 +273,11 @@ Route101_Text_YouSavedMe:
     .string "小田卷博士：呼…\p刚才我在草丛做调查的时候\n被野生宝可梦袭击了，\p是你救了我，\n非常感谢！\p哦？\p嗨，你是{PLAYER}{KUN}！\p这儿不是聊天的地方，\n来我的宝可梦研究所吧？$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
-    .string "宝可梦累了的话，\n就要带它们去宝可梦中心。\p附近的古辰镇里\n就有个宝可梦中心。$"
+    .string "宝可梦累了的话，\n就要带它们去宝可梦中心。\p附近的古玫镇里\n就有个宝可梦中心。$"
 
 Route101_Text_WildPokemonInTallGrass:
     .string "在草丛中行走时野生宝可梦\n有可能跳出来袭击。\p如果想抓宝可梦的话，\n就得去草丛里寻找。$"
 
 Route101_Text_RouteSign:
-    .string "101号公路\n{UP_ARROW}古辰镇$"
+    .string "101号道路\n{UP_ARROW}古玫镇$"
 

@@ -79,7 +79,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
     .string "唔，原来他们\n用宝可梦吸引顾客。\p嗯，也许我也该为我们的旅馆\n找一只可爱的宝可梦做吉祥物。\p这样就能吸引更多人\n来我们这里住宿了吧？$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua:
-    .string "啊，抱歉，抱歉！\n我看电视看入迷了！\p自从水舰队来城里以后，\n都没什么游客来了。$"
+    .string "啊，抱歉，抱歉！\n我看电视看入迷了！\p自从海洋队来城里以后，\n都没什么游客来了。$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV:
     .string "喂，别挡！\n我看不清电视了！$"
@@ -88,7 +88,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem:
     .string "真吃惊！你说宝可梦\n可以找到别人掉下的东西？\p如果我们也有\n那么聪明的宝可梦…\p我们就能找出\n客人们遗落的东西了…$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted:
-    .string "啊，抱歉，抱歉！\n我看电视看入迷了！\p我听说有人袭水舰队基地，\p多亏如此，我们刚刚\n接到了一个大团体订房的通知，\p是一个公司，叫做…呃…\n游戏什么的…$"
+    .string "啊，抱歉，抱歉！\n我看电视看入迷了！\p我听说有人袭海洋队基地，\p多亏如此，我们刚刚\n接到了一个大团体订房的通知，\p是一个公司，叫做…呃…\n游戏什么的…$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar:
     .string "好惊讶！看门的宝可梦\n捉到了窃贼？\p如果我们也有\n强大的宝可梦看门…\p我们的客人\n会更有安全感。$"

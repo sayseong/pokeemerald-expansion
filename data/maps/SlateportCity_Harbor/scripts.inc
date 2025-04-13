@@ -420,46 +420,46 @@ SlateportCity_Harbor_Text_AbnormalWeather:
     .string "要让船安全航行，\n我们就得事先了解天气变化！\p说到天气，我从天气研究所的\n一个人哪儿听说，\p他们接到了来自很多地方的\n关于天气反常的报告！\p你该去天气研究所\n了解一下情况！$"
 
 SlateportCity_Harbor_Text_SubTooSmallForMe:
-    .string "我也想跟着库斯诺吉馆长\n去海底探险，\p但潜水艇对我来说太小了。\p如果我挤进去，\n船长就没地方了…$"
+    .string "我也想跟着楠木馆长\n去海底探险，\p但潜水艇对我来说太小了。\p如果我挤进去，\n船长就没地方了…$"
 
 SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
-    .string "库斯诺吉馆长：那些混账…\p他们和上次在博物馆\n抢得文的包裹的人是一伙儿的。$"
+    .string "楠木馆长：那些混账…\p他们和上次在博物馆\n抢得文的物品的人是一伙儿的。$"
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
     .string "水梧桐：嗯？\n怎么又是你…\p坚持不懈地一路追我们到这儿来，\n真是辛苦你了。\p但现在…\n没人能阻止我们！没有人！\p还是说，你想追着我们\n回水静市的基地吗？\p哇哈哈哈哈…$"
 
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
-    .string "库斯诺吉馆长：为什么…\p为什么水舰队要抢我的\n探险者1号？\p他们不会是要去寻找\n那只沉睡在海底的宝可梦吧…\p但就算我追上去，\n也对付不了他们…$"
+    .string "楠木馆长：为什么…\p为什么海洋队要抢我的\n海渊1号？\p他们不会是要去寻找\n那只沉睡在海底的宝可梦吧…\p但就算我追上去，\n也对付不了他们…$"
 
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
-    .string "库斯诺吉馆长：啊，{PLAYER}{KUN}…\p那么…你没能阻止\n水舰队…\p噢，不，别怪自己，\n这不是你的责任。\p要追上一艘潜艇…\n大多数人都是不可能做到的。\p你需要一只\n会潜水的宝可梦…\p也许你去\n绿岭市的话…\p那儿住着很多潜水员，\n也许有人能教会你…$"
+    .string "楠木馆长：啊，{PLAYER}{KUN}…\p那么…你没能阻止\n海洋队…\p噢，不，别怪自己，\n这不是你的责任。\p要追上一艘潜艇…\n大多数人都是不可能做到的。\p你需要一只\n会潜水的宝可梦…\p也许你去\n绿岭市的话…\p那儿住着很多潜水员，\n也许有人能教会你…$"
 
 SlateportCity_Harbor_Text_NeedDiveToCatchSub:
-    .string "库斯诺吉馆长：追上一艘\n潜艇…那是不可能的。\p你需要一只\n会潜水的宝可梦…\p也许你去\n绿岭市的话…\p那儿住着很多潜水员，\n也许有人能教会你…$"
+    .string "楠木馆长：追上一艘\n潜艇…那是不可能的。\p你需要一只\n会潜水的宝可梦…\p也许你去\n绿岭市的话…\p那儿住着很多潜水员，\n也许有人能教会你…$"
 
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
-    .string "库斯诺吉馆长：啊，没错，\n哈奇到我们船坞来了。\p这样游船\n很快就会完工了！$"
+    .string "楠木馆长：啊，没错，\n哈奇到我们船坞来了。\p这样游船\n很快就会完工了！$"
 
 SlateportCity_Harbor_Text_FinishedMakingFerry:
-    .string "库斯诺吉馆长：{PLAYER}{KUN}！\p我们终于造好\n破浪号游船了！\p多亏了你朋友哈奇的\n帮忙，我们才能这么快完工。\p上船游览一番吧！$"
+    .string "楠木馆长：{PLAYER}{KUN}！\p我们终于造好\n破浪号游船了！\p多亏了你朋友哈奇的\n帮忙，我们才能这么快完工。\p上船游览一番吧！$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
-    .string "库斯诺吉馆长：嗯？\n{PLAYER}{KUN}，你拿的是…\p那是探知机！这会在我们的探险中\n派上大用场的。\p{PLAYER}{KUN}，你愿意用你的\n探知机换点东西吗？\p比如，嗯，深海之牙\n或者深海之鳞？$"
+    .string "楠木馆长：嗯？\n{PLAYER}{KUN}，你拿的是…\p那是探测器！这会在我们的探险中\n派上大用场的。\p{PLAYER}{KUN}，你愿意用你的\n探测器换点东西吗？\p比如，嗯，深海之牙\n或者深海之鳞？$"
 
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
-    .string "库斯诺吉馆长：真的吗？\n那对你没什么用，{PLAYER}{KUN}…\p唉，那好吧，如果你改变主意了，\n再来告诉我。$"
+    .string "楠木馆长：真的吗？\n那对你没什么用，{PLAYER}{KUN}…\p唉，那好吧，如果你改变主意了，\n再来告诉我。$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaTooth:
-    .string "库斯诺吉馆长：那么，\n你要用它跟我换深海之牙？$"
+    .string "楠木馆长：那么，\n你要用它跟我换深海之牙？$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaScale:
-    .string "库斯诺吉馆长：那么，\n你要用它跟我换深海之鳞？$"
+    .string "楠木馆长：那么，\n你要用它跟我换深海之鳞？$"
 
 SlateportCity_Harbor_Text_WhichOneDoYouWant:
-    .string "库斯诺吉馆长：你想要哪个？$"
+    .string "楠木馆长：你想要哪个？$"
 
 SlateportCity_Harbor_Text_HandedScannerToStern:
-    .string "{PLAYER}把探知机交给\n库斯诺吉馆长。$"
+    .string "{PLAYER}把探测器交给\n楠木馆长。$"
 
 SlateportCity_Harbor_Text_ThisWillHelpResearch:
-    .string "库斯诺吉馆长：谢谢，{PLAYER}{KUN}！\n谢谢你的帮忙！$"
+    .string "楠木馆长：谢谢，{PLAYER}{KUN}！\n谢谢你的帮忙！$"

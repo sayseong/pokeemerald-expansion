@@ -298,7 +298,7 @@ MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
     .string "火箭的发射必须十全十美，\n即使是1%的差错也不容许存在。\p就算99%的程序都没错，\n一切也会毁在那1%上。\p但即使这样，我们也不会停止尝试。\n为什么？因为这是个无尽的梦。$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter:
-    .string "那些火岩队的恶棍\n盯上了宇宙中心，\p但我们不能让任何事\n阻止火箭的发射！$"
+    .string "那些熔岩队的恶棍\n盯上了宇宙中心，\p但我们不能让任何事\n阻止火箭的发射！$"
 
 MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt:
     .string "我在海滩上散步的时候\n发现了这个，\p但对我没什么用，\n给你吧。$"
@@ -307,25 +307,25 @@ MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers:
     .string "丰缘地区一直\n以流星雨闻名于世。$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis:
-    .string "不能让火岩队偷走\n火箭燃料。\p啊，对了，我在沙滩上\n捡的这石头给你吧。$"
+    .string "不能让熔岩队偷走\n火箭燃料。\p啊，对了，我在沙滩上\n捡的这石头给你吧。$"
 
 MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma:
-    .string "周围到处是火岩队的人，\n大概在海滩上散步也不太安全了。$"
+    .string "周围到处是熔岩队的人，\n大概在海滩上散步也不太安全了。$"
 
 MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:
     .string "有人宣称宝可梦是从宇宙来的。\n这是真的吗？$"
 
 MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
-    .string "水舰队得当心一下\n火岩队！\p但如果他们真的敢那样，\n水舰队不就太过胆大妄为了吗？$"
+    .string "海洋队得当心一下\n熔岩队！\p但如果他们真的敢那样，\n海洋队不就太过胆大妄为了吗？$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
     .string "一块巨大的金属块在天空中\n爆炸，然后飞向宇宙…\p我实在无法理解！$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
-    .string "一块巨大的金属块在天空中\n爆炸，然后飞向宇宙…\p但火岩队想打破\n我的那场梦！\p我不能让他们任意妄为！$"
+    .string "一块巨大的金属块在天空中\n爆炸，然后飞向宇宙…\p但熔岩队想打破\n我的那场梦！\p我不能让他们任意妄为！$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
-    .string "大吾：{PLAYER}{KUN}，\n你读过他们的声明了吗？\p火岩队想要的是\n这岛上的火箭燃料。\p虽然不知他们的目的何在，\n但我们不会让他们得逞的。\p我得在这儿\n盯着事情的发展，\p你趁此去镇上看看\n怎么样？$"
+    .string "大吾：{PLAYER}{KUN}，\n你读过他们的声明了吗？\p熔岩队想要的是\n这岛上的火箭燃料。\p虽然不知他们的目的何在，\n但我们不会让他们得逞的。\p我得在这儿\n盯着事情的发展，\p你趁此去镇上看看\n怎么样？$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
     .string "就像说好的，\n我们来拿火箭燃料了！$"
@@ -364,4 +364,4 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
     .string "拜托告诉老大\n我没忘记我的职责，\l但我还是尝到了苦果…$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
-    .string "这是…\n盗窃通告？\p“致宇宙中心的成员们：\n大家好吗？我们很好。\p我们很快会来你们这里\n带走火箭燃料。\p请不要妄图阻止我们，\n我们必定会带走燃料。\p愿大地更加广阔！\n                火岩队”$"
+    .string "这是…\n盗窃通告？\p“致宇宙中心的成员们：\n大家好吗？我们很好。\p我们很快会来你们这里\n带走火箭燃料。\p请不要妄图阻止我们，\n我们必定会带走燃料。\p愿大地更加广阔！\n                熔岩队”$"

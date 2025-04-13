@@ -101,7 +101,7 @@ Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
     .string "我们在研究所二楼\n研究丰缘地区的\l天气变化情况，\p我们一直关注着一些\n最近出现的短暂的特例，\l比如干旱或大雨…$"
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
-    .string "嗨！\n是你救了我们！\p我真的不明白水舰队\n究竟在找什么东西。$"
+    .string "嗨！\n是你救了我们！\p我真的不明白海洋队\n究竟在找什么东西。$"
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed:
     .string "有张床…\n休息一下吧。$"

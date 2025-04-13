@@ -37,11 +37,11 @@ MossdeepCity_Mart_EventScript_Sailor::
 	end
 
 MossdeepCity_Mart_Text_ReviveIsFantastic:
-    .string "元气药片太神奇了！\p把它给昏厥的宝可梦的话，\n宝可梦就会醒来。\p但要小心，元气药片并不能恢复\n招式被用掉的PP。$"
+    .string "活力碎片太神奇了！\p把它给昏厥的宝可梦的话，\n宝可梦就会醒来。\p但要小心，活力碎片并不能恢复\n招式被用掉的PP。$"
 
 MossdeepCity_Mart_Text_MaxRepelLastsLongest:
     .string "黄金喷雾器能赶走所有弱小的宝可梦。\p所有的喷雾器之中，\n它的持续时间最久。$"
 
 MossdeepCity_Mart_Text_NetAndDiveBallsRare:
-    .string "撒网球和潜水球是\n只有绿岭市才卖的稀有精灵球。\p撒网球捉虫系和\n水系宝可梦很有效，\p潜水球则容易捉\n海底的宝可梦。$"
+    .string "捕网球和潜水球是\n只有绿岭市才卖的稀有精灵球。\p捕网球捉虫系和\n水系宝可梦很有效，\p潜水球则容易捉\n海底的宝可梦。$"
 

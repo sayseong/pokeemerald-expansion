@@ -1020,7 +1020,7 @@ Route104_Text_TMsAreOneTimeUse:
     .string "要提醒你！\pTM，就是招式学习器，\n只能使用一次。\p一旦你用了，它就会消失。\n所以使用之前要三思！$"
 
 Route104_Text_DontNeedThisTakeIt:
-    .string "这间花店最近\n开始卖小树，\p我太兴奋了，\n买了太多的东西。\p这个白色药草我不需要了，\n你想要吗？$"
+    .string "这间花店最近\n开始卖小树，\p我太兴奋了，\n买了太多的东西。\p这个白色香草我不需要了，\n你想要吗？$"
 
 Route104_Text_FlowerShopSellingSaplings:
     .string "这间花店最近\n开始卖小树，\p我太兴奋了，买了太多的东西。\n我该把它们放在哪儿呢？$"
@@ -1029,10 +1029,10 @@ Route104_Text_MrBrineysCottage:
     .string "哈奇的小屋$"
 
 Route104_Text_RouteSignPetalburg:
-    .string "1O4号公路\n{RIGHT_ARROW}橙华市$"
+    .string "1O4号道路\n{RIGHT_ARROW}橙华市$"
 
 Route104_Text_RouteSignRustboro:
-    .string "104号公路\n{UP_ARROW}卡那兹市$"
+    .string "104号道路\n{UP_ARROW}卡那兹市$"
 
 Route104_Text_PrettyPetalFlowShop:
     .string "漂亮的花瓣花店$"
@@ -1068,28 +1068,28 @@ Route104_Text_MayPostBattle:
     .string "小遥：我觉得你的宝可梦\n训练得真不错，\p但你该向哈奇学学，\n不要只是让它们去战斗。\p和宝可梦做朋友\n也同样重要。$"
 
 Route104_Text_BrendanWeShouldRegister:
-    .string "佑树：哦，嗨，{PLAYER}！\p哈，你把得文给你的宝可梦导航仪装了\n对战寻呼系统？\p我们互相登记各自的信息吧，\n这样我们就能保持联系了。$"
+    .string "小悠：哦，嗨，{PLAYER}！\p哈，你把得文给你的宝可梦导航仪装了\n对战寻呼系统？\p我们互相登记各自的信息吧，\n这样我们就能保持联系了。$"
 
 Route104_Text_RegisteredBrendan:
-    .string "{PLAYER}把佑树的信息\n登记进宝可梦导航仪里。$"
+    .string "{PLAYER}把小悠的信息\n登记进宝可梦导航仪里。$"
 
 Route104_Text_BrendanHowsYourPokedex:
-    .string "佑树：{PLAYER}，你的宝可梦图鉴进展如何？\n有几页了吗？$"
+    .string "小悠：{PLAYER}，你的宝可梦图鉴进展如何？\n有几页了吗？$"
 
 Route104_Text_BrendanDoingGreatLetsBattle:
     .string "我？我这边很顺利！\p来场战斗互相\n切磋一下怎么样？$"
 
 Route104_Text_BrendanNoConfidence:
-    .string "佑树：怎么了？\n对你的宝可梦没信心吗？$"
+    .string "小悠：怎么了？\n对你的宝可梦没信心吗？$"
 
 Route104_Text_BrendanLetsBattle:
-    .string "佑树：怎么？\n想和我战斗吗？$"
+    .string "小悠：怎么？\n想和我战斗吗？$"
 
 Route104_Text_BrendanIntro:
-    .string "佑树：我知道你已经是训练家了，\n但我也不是那么好对付的！$"
+    .string "小悠：我知道你已经是训练家了，\n但我也不是那么好对付的！$"
 
 Route104_Text_BrendanDefeat:
     .string "唔…\n你真得很强。$"
 
 Route104_Text_BrendanPostBattle:
-    .string "佑树：你在训练宝可梦方面\n独具天赋，\p但要知道，你不能\n只是让宝可梦去战斗。\p像哈奇那样，\n和宝可梦交朋友也很重要。$"
+    .string "小悠：你在训练宝可梦方面\n独具天赋，\p但要知道，你不能\n只是让宝可梦去战斗。\p像哈奇那样，\n和宝可梦交朋友也很重要。$"

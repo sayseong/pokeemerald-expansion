@@ -1022,7 +1022,7 @@ BattleFrontier_BattleTowerLobby_Text_ShowYouToBattleRoom:
     .string "现在请进入\n{STR_VAR_1}对战房间。$"
 
 BattleFrontier_BattleTowerLobby_Text_RecordLastMatch:
-    .string "要把对战塔的对战成绩\n记录在开拓区通行证上吗？$"
+    .string "要把对战塔的对战成绩\n记录在开拓通行证上吗？$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50:
@@ -1129,7 +1129,7 @@ BattleFrontier_BattleTowerLobby_Text_SaveGameBeforeShowingIn:
     .string "开始挑战之前需要保存，\n请稍等。$"
 
 BattleFrontier_BattleTowerLobby_Text_CongratsDefeatedMaiden:
-    .string "恭喜！\n你打败了沙龙使女，并且\l与七位训练家的战斗中取得了全胜！$"
+    .string "恭喜！\n你打败了对战塔大君，并且\l与七位训练家的战斗中取得了全胜！$"
 
 BattleFrontier_BattleTowerLobby_Text_AwardYouTheseBattlePoints:
     .string "为了表彰你无穷的天赋，\n这些对战点数奖给你。$"

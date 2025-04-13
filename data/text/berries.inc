@@ -47,7 +47,7 @@ LilycoveCity_Text_BecauseYoureTrainer::
     .string "要怎么说呢…\p就因为你是训练家！$"
 
 LilycoveCity_Text_PokeblocksSuitPokemon::
-    .string "要怎么说呢…\p就像简单对我的胃口一样，\n能量方块也要对宝可梦胃口。$"
+    .string "要怎么说呢…\p就像简单对我的胃口一样，\n宝可方块也要对宝可梦胃口。$"
 
 Route123_BerryMastersHouse_Text_YoureDeservingOfBerry::
     .string "你可以叫我树果大师，\p我始终梦想着让鲜花开满\n世界各地，所以我种植树果\l并把它们交托给遇见的每一个人。\p收下这个吧！$"

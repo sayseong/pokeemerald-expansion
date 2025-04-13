@@ -416,7 +416,7 @@ BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
     .string "我们早已期待你的\n到来。$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
-    .string "要我把你上次的对战竞技场比赛记录\n在你的开拓区通行证上吗？$"
+    .string "要我把你上次的对战竞技场比赛记录\n在你的开拓通行证上吗？$"
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
     .string "我对裁判的决定感到困惑…\p我认为只防守而不进攻是\n行不通的…$"
@@ -449,7 +449,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
     .string "第三个裁决因素是“血量”。\n这个因素评价在战斗结束后\l体力还剩下多少。\p这个值把宝可梦\n战斗开始时的体力\l和战斗结束后还剩下的\n体力都加以考虑。$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
-    .string "从斗王手里得到了胜利，\n并且干掉了七个训练家！\p恭喜你的挑战\n干得漂亮！$"
+    .string "从竞技场主将手里得到了胜利，\n并且干掉了七个训练家！\p恭喜你的挑战\n干得漂亮！$"
 
 BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:
     .string "亲爱的挑战者，为了对你那不屈的\n意志表示认可，请接受这些\l对战点数吧。$"

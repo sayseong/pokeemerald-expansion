@@ -192,5 +192,5 @@ Route114_Text_FossilManiacsHouseSign:
     .string "化石迷之家\n“欢迎带化石来！”$"
 
 Route114_Text_LanettesHouse:
-    .string "真弓的家$"
+    .string "真由美的家$"
 

@@ -57,7 +57,7 @@ FortreeCity_House2_Text_YourHiddenPowerHasAwoken:
     .string "啊！完全正确！\n你的潜能觉醒了！\p来，这个给你，也唤醒\n你的宝可梦的潜能吧。$"
 
 FortreeCity_House2_Text_ExplainHiddenPower:
-    .string "催醒是会随着使用\n它的宝可梦不同而改变的招式。$"
+    .string "觉醒力量是会随着使用\n它的宝可梦不同而改变的招式。$"
 
 FortreeCity_House2_Text_YouGuessedWrong:
     .string "哎，真遗憾，\n你猜错了。$"

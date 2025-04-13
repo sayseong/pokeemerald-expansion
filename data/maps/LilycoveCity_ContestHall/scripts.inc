@@ -342,7 +342,7 @@ LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
     .string "我多次参加过华丽大赛，\n所以比较了解这里的规则。\p如果你参加帅气大赛，\n帅气的招式才会吸引人，\p相对地，聪明的招式或可爱的招式等等\n就吸引不了别人。$"
 
 LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks:
-    .string "刚刚赢了的那个年轻人\n拥有一大堆不同的能量方块。\p无论谁有那么多，\n都肯定会赢吧？$"
+    .string "刚刚赢了的那个年轻人\n拥有一大堆不同的宝可方块。\p无论谁有那么多，\n都肯定会赢吧？$"
 
 LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous:
     .string "哇，这儿好大！\p空气中充满了紧张感…\n一点也不像是华丽大赛大厅。$"

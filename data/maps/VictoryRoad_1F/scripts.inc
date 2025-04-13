@@ -121,22 +121,22 @@ VictoryRoad_1F_EventScript_Katelynn::
 	end
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
-    .string "小光：嗨！{PLAYER}！\p你肯定想不到我会在这儿吧！\p我能来到这儿\n还是托你的福呢！\p{PLAYER}，要不是上次败给了你，\n我是不会变强的！\p但我不会再输了！\p我会赢的！为了给了我\n勇气和力量的宝可梦们！\p好了…上吧！$"
+    .string "满充：嗨！{PLAYER}！\p你肯定想不到我会在这儿吧！\p我能来到这儿\n还是托你的福呢！\p{PLAYER}，要不是上次败给了你，\n我是不会变强的！\p但我不会再输了！\p我会赢的！为了给了我\n勇气和力量的宝可梦们！\p好了…上吧！$"
 
 VictoryRoad_1F_Text_WallyEntranceDefeat:
     .string "哇！\n{PLAYER}，看来你也变强了！$"
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle:
-    .string "小光：这次我还是没能打败你，\n{PLAYER}，但是，总有一天\l我会超过你！$"
+    .string "满充：这次我还是没能打败你，\n{PLAYER}，但是，总有一天\l我会超过你！$"
 
 VictoryRoad_1F_Text_WallyIntro:
-    .string "小光：嗨！{PLAYER}！\p这一回我又变得更强了！\n给你看看我的实力吧，{PLAYER}！\p好了…上吧！$"
+    .string "满充：嗨！{PLAYER}！\p这一回我又变得更强了！\n给你看看我的实力吧，{PLAYER}！\p好了…上吧！$"
 
 VictoryRoad_1F_Text_WallyDefeat:
     .string "哇！\n{PLAYER}，看来你也变强了！$"
 
 VictoryRoad_1F_Text_WallyPostBattle:
-    .string "小光：这次我还是赢不了你…\n但是，{PLAYER}，总有一天\l我会超过你…\p去挑战宝可梦联盟！$"
+    .string "满充：这次我还是赢不了你…\n但是，{PLAYER}，总有一天\l我会超过你…\p去挑战宝可梦联盟！$"
 
 VictoryRoad_1F_Text_EdgarIntro:
     .string "我花了这么长时间到达这里，\n但这最后一段路实在是太长了…$"

@@ -715,16 +715,16 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
     .string "小遥：不知道下面该\n去哪儿找宝可梦呢？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
-    .string "佑树：哈…\n你也有宝可梦图鉴了。\p那好，喏，\n我把这些给你。$"
+    .string "小悠：哈…\n你也有宝可梦图鉴了。\p那好，喏，\n我把这些给你。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
-    .string "佑树：你知道，抓一大堆\n宝可梦的感觉很快乐。\p我要去各种地方\n寻找不同的宝可梦，\p如果见到很出色的宝可梦，\n我就用精灵球抓回来。$"
+    .string "小悠：你知道，抓一大堆\n宝可梦的感觉很快乐。\p我要去各种地方\n寻找不同的宝可梦，\p如果见到很出色的宝可梦，\n我就用精灵球抓回来。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
     .string "喂，你的包包满了。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
-    .string "佑树：下面我该去哪儿\n找宝可梦…$"
+    .string "小悠：下面我该去哪儿\n找宝可梦…$"
 
 LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine:
     .string "看上去是个很先进的机器，\n一定是博士做研究时用的。$"
@@ -745,7 +745,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
     .string "小遥：呵呵呵！\p太好了，我的宝可梦图鉴\n也能升级了！\p都亏了你出去抓了\n那么多宝可梦，{PLAYER}{KUN}！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
-    .string "佑树：我一直在全丰缘地区\n寻找宝可梦，\p你该为能因此得到\n全国模式宝可梦图鉴而感谢我。\p呵，你真走运，{PLAYER}！$"
+    .string "小悠：我一直在全丰缘地区\n寻找宝可梦，\p你该为能因此得到\n全国模式宝可梦图鉴而感谢我。\p呵，你真走运，{PLAYER}！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone:
     .string "小田卷博士：好，完成了！$"
@@ -760,7 +760,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
     .string "小遥：我准备暂停\n野外调查，\p留在这里帮一下\n博士。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
-    .string "佑树：从现在起，\n我暂停野外调查，\p留在这里\n帮博士的忙。$"
+    .string "小悠：从现在起，\n我暂停野外调查，\p留在这里\n帮博士的忙。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
     .string "小田卷博士：噢，{PLAYER}{KUN}！\n我看看你的宝可梦图鉴。\p… … … … … …\n… … … … … …\p好了，毫无疑问，\p你真的完成了丰缘地区的\n宝可梦图鉴，\p真令人不敢相信。\p这是我给你的礼物，\p就当作是我对你做得\n如此出色的谢礼。\p这是只有在其它地区\n才能找到的稀有宝可梦！\p从这三只中\n挑一只吧！$"
@@ -805,13 +805,13 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
     .string "小遥：{PLAYER}{KUN}，这以后…\n你打算怎么做？\p继续战斗提升\n自己的实力吗？\p还是试着完成\n全国宝可梦图鉴？\p我要留在这儿给博士帮忙。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
-    .string "佑树：比起收集\n宝可梦，我更喜欢一步步慢慢培养\l我自己选择的那一只。$"
+    .string "小悠：比起收集\n宝可梦，我更喜欢一步步慢慢培养\l我自己选择的那一只。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
     .string "小遥：嗨，你好，{PLAYER}{KUN}！\n你去过\l对战开拓区了吗？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
-    .string "佑树：喂，{PLAYER}！\n你去过\l对战开拓区了吗？$"
+    .string "小悠：喂，{PLAYER}！\n你去过\l对战开拓区了吗？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
     .string "… … … … … …\n… … … … …哔！\p亚希达：喂，你好，{PLAYER}！\n是我，亚希达，\p我现在在破浪号上呢。\n在海上的感觉不错！\p顺便…\p有个地方希望\n你能去看看。\p感兴趣的话，就去\n凯那市或水静市乘游船吧。\p见面之后再跟你说详情，\n我等你！\p… … … … … …\n… … … … …咔哒！$"

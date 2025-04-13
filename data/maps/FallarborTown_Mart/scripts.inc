@@ -52,5 +52,5 @@ FallarborTown_Mart_Text_Skitty:
     .string "向尾喵：喵-夭？$"
 
 FallarborTown_Mart_Text_SellNuggetIFound:
-    .string "我在这儿找到的金色珠…\n好像没什么用，\l我想该卖掉它。$"
+    .string "我在这儿找到的金珠…\n好像没什么用，\l我想该卖掉它。$"
 

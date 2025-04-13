@@ -272,13 +272,13 @@ BattleFrontier_BattlePike_EventScript_CloseCurtain::
 	return
 
 BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
-    .string "在这里，训练家的运气将\n受到考验…\p欢迎来到对战水管…\p我是你对战水管的指导…$"
+    .string "在这里，训练家的运气将\n受到考验…\p欢迎来到对战管道…\p我是你对战管道的指导…$"
 
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
-    .string "你要进行对战水管\n的挑战吗？$"
+    .string "你要进行对战管道\n的挑战吗？$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
-    .string "我们在这里进行名叫\n选择式对战的比赛。\p选择式对战的规则\n很简单…\p在三条道路中选择一条\n在对战水管的最后\l要到达目的地房间。这很简单。\p然而，在选择的道路上会\n发生什么事完全取决于\l挑战者的运气…\p如果你达到了目标，你会被\n授予对战点数。\p如果你要中断挑战，\n请和路上大房间里的\l人员谈话。\p如果在中断之前不保存，\n就无法继续挑战。$"
+    .string "我们在这里进行名叫\n选择式对战的比赛。\p选择式对战的规则\n很简单…\p在三条道路中选择一条\n在对战管道的最后\l要到达目的地房间。这很简单。\p然而，在选择的道路上会\n发生什么事完全取决于\l挑战者的运气…\p如果你达到了目标，你会被\n授予对战点数。\p如果你要中断挑战，\n请和路上大房间里的\l人员谈话。\p如果在中断之前不保存，\n就无法继续挑战。$"
 
 BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou:
     .string "我们期待着在别的场合\n见到你…$"
@@ -312,7 +312,7 @@ BattleFrontier_BattlePikeLobby_Text_ShallRecordResults:
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
-    .string "为庆祝你完成\n对战水管的挑战，我们\l授予你这些对战点数…$"
+    .string "为庆祝你完成\n对战管道的挑战，我们\l授予你这些对战点数…$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:

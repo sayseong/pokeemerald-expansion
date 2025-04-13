@@ -916,13 +916,13 @@ LittlerootTown_Text_WaitPlayer:
     .string "妈妈：等等，{PLAYER}！$"
 
 LittlerootTown_Text_WearTheseRunningShoes:
-    .string "妈妈：{PLAYER}！{PLAYER}！你\n跟小田卷博士打过招呼了吗？\p哇，好可爱的宝可梦！\n是小田卷博士给你的吧？真不错！\p果然是爸爸的孩子，\n和宝可梦很合得来嘛！\p来，宝贝！你要出去旅行的话，\n换上这双风速鞋吧，\p可以让你跑得很快的！$"
+    .string "妈妈：{PLAYER}！{PLAYER}！你\n跟小田卷博士打过招呼了吗？\p哇，好可爱的宝可梦！\n是小田卷博士给你的吧？真不错！\p果然是爸爸的孩子，\n和宝可梦很合得来嘛！\p来，宝贝！你要出去旅行的话，\n换上这双跑步鞋吧，\p可以让你跑得很快的！$"
 
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
-    .string "{PLAYER}换上了\n风速鞋。$"
+    .string "{PLAYER}换上了\n跑步鞋。$"
 
 LittlerootTown_Text_ExplainRunningShoes:
-    .string "妈妈：{PLAYER}，这是\n这双鞋的说明：\p“穿着风速鞋时，\n按B键可以跑得更快！\p穿上风速鞋，\n在野外尽情奔跑吧！”$"
+    .string "妈妈：{PLAYER}，这是\n这双鞋的说明：\p“穿着跑步鞋时，\n按B键可以跑得更快！\p穿上跑步鞋，\n在野外尽情奔跑吧！”$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
     .string "… … … … … … … …\n… … … … … … … …\p要是知道你有了\n自己的宝可梦…\l爸爸也一定会很高兴的。\p…但是，路上小心，无论发生了\n什么，家门永远为你敞开着。\p去吧，向着自己的目标努力吧，宝贝！$"

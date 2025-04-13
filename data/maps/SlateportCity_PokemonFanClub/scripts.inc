@@ -307,7 +307,7 @@ SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting:
     .string "如果宝可梦在战斗中昏厥，\n它会感到不满，\p慢慢开始不信任\n它的训练家。\p换句话说，它不会\n非常喜欢你。$"
 
 SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
-    .string "宝可梦喜欢训练家对它们\n使用物品吗？\p我把蛋白药剂给我的宝可梦时\n它显得很高兴。$"
+    .string "宝可梦喜欢训练家对它们\n使用物品吗？\p我把攻击增强剂给我的宝可梦时\n它显得很高兴。$"
 
 SlateportCity_PokemonFanClub_Text_Skitty:
     .string "向尾喵：喵呀呀呀…$"

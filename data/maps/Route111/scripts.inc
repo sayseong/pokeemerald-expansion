@@ -622,16 +622,16 @@ Route111_Text_WinstrateFamilyDestroyedMe:
     .string "我挑战过连胜一家，\n但一连四场的战斗太困难了…\l他们打败了我。$"
 
 Route111_Text_RouteSignMauville:
-    .string "111号公路\n{DOWN_ARROW}紫堇市$"
+    .string "111号道路\n{DOWN_ARROW}紫堇市$"
 
 Route111_Text_WinstrateHouseSign:
     .string "“我们是齐心的一家！”\n连胜之家$"
 
 Route111_Text_RouteSign112:
-    .string "111号公路\n{LEFT_ARROW}112号公路$"
+    .string "111号道路\n{LEFT_ARROW}112号道路$"
 
 Route111_Text_RouteSign113:
-    .string "111号公路\n{LEFT_ARROW}113号公路$"
+    .string "111号道路\n{LEFT_ARROW}113号道路$"
 
 Route111_Text_OldLadysRestStopSign:
     .string "老奶奶的歇息小屋\n“欢迎进来歇脚。”$"
@@ -658,7 +658,7 @@ Route111_Text_RootFossilDisappeared:
     .string "根状化石沉进了\n沙里…$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
-    .string "呀，糟糕！\p叔叔在紫堇市嘱咐过我\n去111号公路\l要带上碎岩！\p我叔叔在哪？\n他就住在紫堇市的车店对面。$"
+    .string "呀，糟糕！\p叔叔在紫堇市嘱咐过我\n去111号道路\l要带上碎岩！\p我叔叔在哪？\n他就住在紫堇市的车店对面。$"
 
 Route111_Text_TrainerHillSign:
     .string "{RIGHT_ARROW}训练家之山入口\p“努力向上攀登吧，\n充满热血的训练家！”$"

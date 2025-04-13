@@ -574,7 +574,7 @@ Route108_Text_CarolinaPostBattle::
     .string "既然我在海中就是这样，我不会\n介意穿上一件粉红色带镶褶边的游泳衣…$"
 
 Route109_Text_DavidIntro::
-    .string "你好！看看我的手！\n这是你所谓的“一字斩”！$"
+    .string "你好！看看我的手！\n这是你所谓的“居合劈”！$"
 
 Route109_Text_DavidDefeated::
     .string "啊呀！\n弄糟了！$"
@@ -904,13 +904,13 @@ Route110_Text_KalebPostBattle::
     .string "够了够了，\n你已经尽力了，宝贝$"
 
 Route111_Text_DrewIntro::
-    .string "哦！GO-GO护眼罩真适合你。\n不过肯定更适合我。\p让我们用战斗来决定\n它们更适合谁吧！$"
+    .string "哦！GOGO护目镜真适合你。\n不过肯定更适合我。\p让我们用战斗来决定\n它们更适合谁吧！$"
 
 Route111_Text_DrewDefeat::
-    .string "拜GO-GO护眼罩所赐，\n我没办法看清情况了。$"
+    .string "拜GOGO护目镜所赐，\n我没办法看清情况了。$"
 
 Route111_Text_DrewPostBattle::
-    .string "有了GO-GO护眼罩就可以\n穿越沙漠的风暴了。\l真高兴啊！$"
+    .string "有了GOGO护目镜就可以\n穿越沙漠的风暴了。\l真高兴啊！$"
 
 Route111_Text_HeidiIntro::
     .string "我正在沙漠野餐呢。\p这里到处都有训练家，\n所以我也很喜欢在这里战斗！$"
@@ -922,7 +922,7 @@ Route111_Text_HeidiPostBattle::
     .string "你在沙暴中战斗时，\n一定要注意宝可梦的HP。\p不注意的话它\n可能会昏倒的！$"
 
 Route111_Text_BeauIntro::
-    .string "装备上这些GO-GO护眼罩，\n感觉就跟超级英雄一样。\l现在，谁也赢不了我了！$"
+    .string "装备上这些GOGO护目镜，\n感觉就跟超级英雄一样。\l现在，谁也赢不了我了！$"
 
 Route111_Text_BeauDefeat::
     .string "只有热情的话，我是赢不了的…$"
@@ -1036,7 +1036,7 @@ Route111_Text_CeliaDefeat::
     .string "啊啊！\n我真不该来的！$"
 
 Route111_Text_CeliaPostBattle::
-    .string "在这样的沙暴里，\n即便装备着我的GO-GO护眼罩\l也没办法野餐啊…$"
+    .string "在这样的沙暴里，\n即便装备着我的GOGO护目镜\l也没办法野餐啊…$"
 
 Route111_Text_BryanIntro::
     .string "你到底有多强？\n让我们来揭开谜底吧！$"
@@ -1720,7 +1720,7 @@ Route117_Text_LydiaRematchDefeat::
     .string "是啊他们看起来都非常棒。$"
 
 Route117_Text_LydiaPostRematch::
-    .string "宝可梦对能量方块的喜好各有不同，\n这和他们的天性有关。$"
+    .string "宝可梦对宝可方块的喜好各有不同，\n这和他们的天性有关。$"
 
 Route117_Text_DylanIntro::
     .string "虽然我还在训练中，但是\n我们还是来一场比赛吧！$"
@@ -2293,7 +2293,7 @@ Route121_Text_TammyDefeat::
     .string "我输了…$"
 
 Route121_Text_TammyPostBattle::
-    .string "送神火山码头……\n那里有一股神秘的力量\l在进行着……$"
+    .string "送神山码头……\n那里有一股神秘的力量\l在进行着……$"
 
 Route121_Text_KateIntro::
     .string "凯特：只要我们在一起，就没有什么\n可怕的！我们会证明我们有多强！$"
@@ -2326,7 +2326,7 @@ Route121_Text_JessicaDefeat::
     .string "噢，你怎么敢……\n不要这么紧张！$"
 
 Route121_Text_JessicaPostBattle::
-    .string "也许我应该在原野区\n多抓几只宝可梦。$"
+    .string "也许我应该在狩猎地带\n多抓几只宝可梦。$"
 
 Route121_Text_JessicaRegister::
     .string "这次是我小看你了！\n但下次绝不会是这样了！$"
@@ -2338,7 +2338,7 @@ Route121_Text_JessicaRematchDefeat::
     .string "噢，你怎么……\n你还是不会放松点！$"
 
 Route121_Text_JessicaPostRematch::
-    .string "也许我应该在原野区\n多抓几只宝可梦。$"
+    .string "也许我应该在狩猎地带\n多抓几只宝可梦。$"
 
 Route121_Text_CristinIntro::
     .string "我有个习惯，就是\n每天打败5个训练家。\l猜到了吗？你就是第五个！$"
@@ -2443,7 +2443,7 @@ Route123_Text_CameronRematchDefeat::
     .string "我好难过……$"
 
 Route123_Text_CameronPostRematch::
-    .string "我应该到送神火山训练……\n这样下去我永远赢不了你。$"
+    .string "我应该到送神山训练……\n这样下去我永远赢不了你。$"
 
 Route123_Text_JackiIntro::
     .string "如果你的宝可梦获得了精神力量，\n不要太高兴。\p要让它们派上用场，\n你还得精心培养。$"
@@ -2491,13 +2491,13 @@ Route123_Text_YukiNotEnoughMons::
     .string "小雪：如果你没有两只以上的\n宝可梦，那就没什么战斗的意思了。$"
 
 Route123_Text_KindraIntro::
-    .string "送神火山……\n宝可梦的灵魂休眠的地方……\l你的宝可梦也会睡着吗？$"
+    .string "送神山……\n宝可梦的灵魂休眠的地方……\l你的宝可梦也会睡着吗？$"
 
 Route123_Text_KindraDefeat::
     .string "充满着活力……$"
 
 Route123_Text_KindraPostBattle::
-    .string "送神火山……\n宝可梦的灵魂休眠的地方……\l它一定充满着\n安抚灵魂的力量……$"
+    .string "送神山……\n宝可梦的灵魂休眠的地方……\l它一定充满着\n安抚灵魂的力量……$"
 
 Route123_Text_FernandoIntro::
     .string "当我奏起这首曲子的时候，\n你的希望就全部落空了！$"
@@ -2965,7 +2965,7 @@ Route127_Text_KojiRematchDefeat::
     .string "啊！\n石子硌到我的脚了！$"
 
 Route127_Text_KojiPostRematch::
-    .string "想不想赤着脚走走？\n把脱下来的风速鞋给我试试？$"
+    .string "想不想赤着脚走走？\n把脱下来的跑步鞋给我试试？$"
 
 Route127_Text_AthenaIntro::
     .string "我们应该打一场\n具有策略性的战斗。$"
@@ -2977,7 +2977,7 @@ Route127_Text_AthenaPostBattle::
     .string "当我被大海和蓝天包围的时候，\n我感觉时间的流逝变得缓慢了。$"
 
 Route128_Text_IsaiahIntro::
-    .string "到彩幽市还有很长\n一段距离…$"
+    .string "到彩悠市还有很长\n一段距离…$"
 
 Route128_Text_IsaiahDefeat::
     .string "我的首场胜利离我似乎也有\n很长一段距离…$"
@@ -2989,13 +2989,13 @@ Route128_Text_IsaiahRegister::
     .string "我知道我现在还不行，但我\n最终肯定能够取得胜利。\p请在宝可梦导航仪记下我。$"
 
 Route128_Text_IsaiahRematchIntro::
-    .string "我现在仍然感觉良好。我会\n一直游到彩幽市。$"
+    .string "我现在仍然感觉良好。我会\n一直游到彩悠市。$"
 
 Route128_Text_IsaiahRematchDefeat::
     .string "我终于尝到了首场胜利的滋味……$"
 
 Route128_Text_IsaiahPostRematch::
-    .string "我最终一定会到达彩幽市\n并且取得胜利…$"
+    .string "我最终一定会到达彩悠市\n并且取得胜利…$"
 
 Route128_Text_KatelynIntro::
     .string "铁人三项包括\n游泳，骑车和马拉松。\p这种包含三项的比赛\n十分累人。$"
@@ -3037,13 +3037,13 @@ Route128_Text_RubenPostBattle::
     .string "或许没有比你\n更强的训练家！$"
 
 Route128_Text_WayneIntro::
-    .string "我想去彩幽，于是就\n捉了一只会鱼跃龙门的宝可梦\l以便我登上瀑布。$"
+    .string "我想去彩悠，于是就\n捉了一只会攀瀑的宝可梦\l以便我登上瀑布。$"
 
 Route128_Text_WayneDefeat::
     .string "结果栽了个大跟头$"
 
 Route128_Text_WaynePostBattle::
-    .string "啊啊啊啊！\p我的宝可梦会鱼跃龙门，可是\n我却没有琉璃市道馆徽章！$"
+    .string "啊啊啊啊！\p我的宝可梦会攀瀑，可是\n我却没有琉璃市道馆徽章！$"
 
 Route128_Text_HarrisonIntro::
     .string "你看上去真强。\n不知道我能不能赢。$"
@@ -3052,7 +3052,7 @@ Route128_Text_HarrisonDefeat::
     .string "哎哟！\n看来是不可能赢了。$"
 
 Route128_Text_HarrisonPostBattle::
-    .string "在彩幽市附近\n有许多很强的训练家。\p我和他们是不是不在\n一个等级上？$"
+    .string "在彩悠市附近\n有许多很强的训练家。\p我和他们是不是不在\n一个等级上？$"
 
 Route128_Text_CarleeIntro::
     .string "这里的阳光似乎\n更强烈一些。$"

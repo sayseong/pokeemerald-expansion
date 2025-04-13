@@ -703,7 +703,7 @@ SecretBase_Text_WhatWouldYouLikeToDo:
 	.string "想要做什么？$"
 
 SecretBase_Text_RegistryInfo:
-	.string "一旦登录成功，除非训练师\n"
+	.string "一旦登录成功，除非训练家\n"
 	.string "将其移动到其它地方，\l"
 	.string "否则物品不会消失。\p"
 	.string "如果将一件物品从登录列表中\n"

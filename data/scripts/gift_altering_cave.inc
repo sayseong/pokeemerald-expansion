@@ -18,5 +18,5 @@ sText_MysteryGiftAlteringCave:
 	.string "有传言说\n"
 	.string "稀有宝可梦被发现了。\p"
 	.string "发现者称其在\n"
-	.string "103号公路的变化洞窟中。\p"
+	.string "103号道路的变化洞窟中。\p"
 	.string "可能值得你去证实下这个传言。$"
