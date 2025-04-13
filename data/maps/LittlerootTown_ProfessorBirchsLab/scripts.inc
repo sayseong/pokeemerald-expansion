@@ -769,13 +769,13 @@ LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon:
     .string "小田卷博士：这是只有在其它地区\n才能找到的稀有宝可梦！\p从这三只中\n挑一只吧！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil:
-    .string "小田卷博士：你看中了\n炎系宝可梦火球鼠！\p眼睛还是那么尖啊！\p那么，你想选的是火球鼠？$"
+    .string "小田卷博士：你看中了\n火属性宝可梦火球鼠！\p眼睛还是那么尖啊！\p那么，你想选的是火球鼠？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile:
-    .string "小田卷博士：你选的是\n水系宝可梦小锯鳄！\p你总能选出最好的一个。\p那么，你想要小锯鳄？$"
+    .string "小田卷博士：你选的是\n水属性宝可梦小锯鳄！\p你总能选出最好的一个。\p那么，你想要小锯鳄？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita:
-    .string "小田卷博士：你选的是\n草系宝可梦菊草叶！\p你很清楚自己想要什么。\p那么，你想要菊草叶？$"
+    .string "小田卷博士：你选的是\n草属性宝可梦菊草叶！\p你很清楚自己想要什么。\p那么，你想要菊草叶？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable:
     .string "小田卷博士：决定前\n好好考虑一下吧，\p它们都是很珍贵的宝可梦。$"

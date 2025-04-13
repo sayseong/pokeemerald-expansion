@@ -257,7 +257,7 @@ MauvilleCity_Gym_EventScript_GymStatue::
 	end
 
 MauvilleCity_Gym_Text_GymGuideAdvice:
-    .string "嗨，怎么样，向冠军的目标\n冲刺的{PLAYER}？\p紫堇市道馆的馆主铁旋\n使用电系宝可梦。\p如果用水系宝可梦\n挑战他，会被他电麻的！吱—\p还有，他在自己的道馆里设置了一大堆\n由开关控制的电子屏障！怪人！\p好了，加油吧！$"
+    .string "嗨，怎么样，向冠军的目标\n冲刺的{PLAYER}？\p紫堇市道馆的馆主铁旋\n使用电属性宝可梦。\p如果用水属性宝可梦\n挑战他，会被他电麻的！吱—\p还有，他在自己的道馆里设置了一大堆\n由开关控制的电子屏障！怪人！\p好了，加油吧！$"
 
 MauvilleCity_Gym_Text_GymGuidePostVictory:
     .string "哇，真让人吃惊！\n你打开了屏障！$"

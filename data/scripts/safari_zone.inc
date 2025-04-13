@@ -206,7 +206,7 @@ SafariZone_Northwest_Text_Man:
 
 SafariZone_North_Text_Fisherman:
 	.string "我需要找到一些丰缘地区\n"
-	.string "所没有的水系宝可梦，\p"
+	.string "所没有的水属性宝可梦，\p"
 	.string "你知道湖在哪儿吗？$"
 
 SafariZone_North_Text_Man:

@@ -397,7 +397,7 @@ PetalburgWoods_Text_TryUsingThisItem:
     .string "哦，真漂亮！\n那是卡那兹市道馆的徽章！\p你一定是个训练家，\n试试这个东西吧。$"
 
 PetalburgWoods_Text_MiracleSeedExplanation:
-    .string "这是奇迹种子，\n让宝可梦携带上的话，它的\l草系招式就会变强。\p我想除了奇迹种子，还有\n其它的可以让宝可梦携带的\l方便的物品。$"
+    .string "这是奇迹种子，\n让宝可梦携带上的话，它的\l草属性招式就会变强。\p我想除了奇迹种子，还有\n其它的可以让宝可梦携带的\l方便的物品。$"
 
 PetalburgWoods_Text_TrainerTipsExperience:
     .string "训练家小技巧\p所有在战斗中出过场的宝可梦\n都会得到经验值。\p想培养弱小的宝可梦，\n就把它放到队伍列表的左侧。\p战斗开始时，先把它换下场。\n这样它不会受伤\l也能获得经验值了。$"

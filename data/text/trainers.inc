@@ -205,7 +205,7 @@ Route104_Text_MiaNotEnoughMons::
     .string "未央：你想与我们战斗？\p如果没有两只宝可梦的话，就一定不可以的。\l对你来说我们太强了！$"
 
 Route104_Text_IvanIntro::
-    .string "干什么保密啊？\n我就是水系宝可梦专家！\p啥？\n你不认识我？$"
+    .string "干什么保密啊？\n我就是水属性宝可梦专家！\p啥？\n你不认识我？$"
 
 Route104_Text_IvanDefeat::
     .string "我看还不那么糟，如果我也\n这样说，但是我猜不会…郁闷…$"
@@ -544,7 +544,7 @@ Route108_Text_MissyPostBattle::
     .string "用游泳来排除压力！\n很健康啊！$"
 
 Route108_Text_CoryIntro::
-    .string "我爱水系宝可梦。\n我也爱别系的宝可梦！$"
+    .string "我爱水属性宝可梦。\n我也其他属性的宝可梦！$"
 
 Route108_Text_CoryDefeated::
     .string "哇！我输了！\n哇！哇！$"
@@ -1771,7 +1771,7 @@ Route117_Text_DerekDefeat::
     .string "我似乎还是\n很愚笨啊…$"
 
 Route117_Text_DerekPostBattle::
-    .string "我所做的都是自己喜欢的事，\n现在他们叫我昆虫迷…\p我还是虫系宝可梦专家，\n所以他们叫我昆虫迷\l是理所当然的。$"
+    .string "我所做的都是自己喜欢的事，\n现在他们叫我昆虫迷…\p我还是虫属性宝可梦专家，\n所以他们叫我昆虫迷\l是理所当然的。$"
 
 Route117_Text_AnnaIntro::
     .string "美穗：我和我的漂亮的初中生\n同伴。我一定会做好的！$"
@@ -1834,13 +1834,13 @@ Route117_Text_MelinaPostBattle::
     .string "看花的时候进行慢跑\n不是很有趣吗？$"
 
 Route117_Text_BrandiIntro::
-    .string "让我给你看看隐藏在深处的\n幽灵系宝可梦的力量吧！$"
+    .string "让我给你看看隐藏在深处的\n幽灵属性宝可梦的力量吧！$"
 
 Route117_Text_BrandiDefeat::
     .string "太令人吃惊了$"
 
 Route117_Text_BrandiPostBattle::
-    .string "幽灵系的宝可梦是很复杂的\n你要试着去捕捉他们。$"
+    .string "幽灵属性的宝可梦是很复杂的\n你要试着去捕捉他们。$"
 
 Route117_Text_AishaIntro::
     .string "只想着成功。\n这就是我的战斗理念！$"
@@ -1858,7 +1858,7 @@ Route118_Text_RoseDefeat::
     .string "哦天那。\n我好象又输了。$"
 
 Route118_Text_RosePostBattle::
-    .string "草系宝可梦…\n我喜欢任何气味。\p臭的话…\n就算了。$"
+    .string "草属性宝可梦…\n我喜欢任何气味。\p臭的话…\n就算了。$"
 
 Route118_Text_RoseRegister::
     .string "闻…这个气味不就是宝可梦吗！\n我得要提醒大家了！$"
@@ -1873,7 +1873,7 @@ Route118_Text_RosePostRematch::
     .string "如果你使用甜香，\n就会马上遇敌的。$"
 
 Route118_Text_PerryIntro::
-    .string "飞行系的宝可梦能够优雅\n的在天空中飞翔…他们是最棒的$"
+    .string "飞行属性的宝可梦能够优雅\n的在天空中飞翔…他们是最棒的$"
 
 Route118_Text_PerryDefeat::
     .string "呃…\n我崩溃了…$"
@@ -2041,16 +2041,16 @@ Route119_Text_HughDefeat::
     .string "击倒了！$"
 
 Route119_Text_HughPostBattle::
-    .string "我的飞行系宝可梦\n让我的飞行梦想成为了现实！$"
+    .string "我的飞行属性宝可梦\n让我的飞行梦想成为了现实！$"
 
 Route119_Text_PhilIntro::
-    .string "我会让你看看我真正的潜力，\n还有我的飞行系宝可梦！$"
+    .string "我会让你看看我真正的潜力，\n还有我的飞行属性宝可梦！$"
 
 Route119_Text_PhilDefeat::
     .string "我们缺乏潜力……$"
 
 Route119_Text_PhilPostBattle::
-    .string "从我小时候开始，我就一直\n很羡慕飞行系宝可梦……$"
+    .string "从我小时候开始，我就一直\n很羡慕飞行属性宝可梦……$"
 
 Route119_Text_YasuIntro::
     .string "躲藏在阴影里，生活在黑暗中……\n这就是我的命运。\p我出现就是要挑战你！$"
@@ -2116,7 +2116,7 @@ Route119_Text_RachelPostBattle::
     .string "你问我的阳伞会不会很重？\n你包里的垃圾比我带过的\l所有东西都要重。$"
 
 Route120_Text_ColinIntro::
-    .string "你有什么招式可以打到\n飞行系宝可梦？$"
+    .string "你有什么招式可以打到\n飞行属性宝可梦？$"
 
 Route120_Text_ColinDefeat::
     .string "你的实力远在我之上！$"
@@ -2548,13 +2548,13 @@ Route123_Text_FrederickPostBattle::
     .string "奖励？\n奖励还不够吗？$"
 
 Route123_Text_AlbertoIntro::
-    .string "我要告诉你，我已经被\n飞行系宝可梦深深迷住了！\p飞行系太酷了！\n它们是最棒的！$"
+    .string "我要告诉你，我已经被\n飞行属性宝可梦深深迷住了！\p飞行属性太酷了！\n它们是最棒的！$"
 
 Route123_Text_AlbertoDefeat::
-    .string "即便被打败了，\n飞行系宝可梦还是很酷！$"
+    .string "即便被打败了，\n飞行属性宝可梦还是很酷！$"
 
 Route123_Text_AlbertoPostBattle::
-    .string "我一直在收集飞行系宝可梦\n在战斗中散落的羽毛。\p我想用飞行系宝可梦\n的羽毛来用一顶帽子。$"
+    .string "我一直在收集飞行属性宝可梦\n在战斗中散落的羽毛。\p我想用飞行属性宝可梦\n的羽毛来用一顶帽子。$"
 
 Route123_Text_EdIntro::
     .string "附近没有训练家的时候，\n我就让我的宝可梦各自对打。\l然后我就在一边看着。$"
@@ -2737,7 +2737,7 @@ Route125_Text_TanyaPostBattle::
     .string "呼…\n去绿岭市是哪条路？$"
 
 Route125_Text_SharonIntro::
-    .string "想不想和我养的\n水系宝可梦对战？$"
+    .string "想不想和我养的\n水属性宝可梦对战？$"
 
 Route125_Text_SharonDefeat::
     .string "输了…$"
@@ -2791,7 +2791,7 @@ Route125_Text_IrisNotEnoughMons::
     .string "彩虹：哦，我们绝对不会\n2挑1的。$"
 
 Route125_Text_PresleyIntro::
-    .string "为什么我这种飞行系操控者\n会来海边？$"
+    .string "为什么我这种飞行属性操控者\n会来海边？$"
 
 Route125_Text_PresleyDefeat::
     .string "好吧。\n我就告诉你我为什么来这里。$"
@@ -2938,7 +2938,7 @@ Route127_Text_RogerPostBattle::
     .string "我的钓鱼线在跳舞！\n多美的探戈！啊哈哈！$"
 
 Route127_Text_AidanIntro::
-    .string "飞行系宝可梦视野比较开阔。\n它们从高处能够迅速发现猎物。$"
+    .string "飞行属性宝可梦视野比较开阔。\n它们从高处能够迅速发现猎物。$"
 
 Route127_Text_AidanDefeat::
     .string "啊…我放弃。$"
@@ -3322,7 +3322,7 @@ Route133_Text_WarrenPostBattle::
     .string "按自己的想法做事比随大流\n要快乐得多，\l这是很明显的事情！$"
 
 Route133_Text_BeckIntro::
-    .string "我一直和我的飞行系宝可梦\n一同旅行。$"
+    .string "我一直和我的飞行属性宝可梦\n一同旅行。$"
 
 Route133_Text_BeckDefeat::
     .string "你…\n你真棒！$"
@@ -3373,7 +3373,7 @@ Route134_Text_AlexDefeat::
     .string "又累了…$"
 
 Route134_Text_AlexPostBattle::
-    .string "飞行太远的话我的飞行系宝可梦\n很快就会累…$"
+    .string "飞行太远的话我的飞行属性宝可梦\n很快就会累…$"
 
 Route134_Text_HitoshiIntro::
     .string "你是宝可梦训练家，\n不用多说，战斗吧。$"

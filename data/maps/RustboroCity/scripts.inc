@@ -1037,7 +1037,7 @@ RustboroCity_Text_YoureNewAroundHere:
     .string "哦？你是谁？\n好像在附近没看到过你。\p你是新转来\n宝可梦训练家学校的吗？$"
 
 RustboroCity_Text_GymLeaderIsntEasyWithFire:
-    .string "我挑战过道馆馆主，但是…\p我的炎系宝可梦\n很难打赢他们…\p炎系宝可梦\n被岩石系宝可梦克制…$"
+    .string "我挑战过道馆馆主，但是…\p我的火属性宝可梦\n很难打赢他们…\p火属性宝可梦\n被岩石属性宝可梦克制…$"
 
 RustboroCity_Text_MrBrineyWalksInTheTunnel:
     .string "老海员哈奇住在\n海边的小屋里，\p他经常去\n隧道里散步。$"
@@ -1136,7 +1136,7 @@ RustboroCity_Text_DevonCorpSign:
     .string "得文公司\p“我们会为您提供\n一切日常必需品。”$"
 
 RustboroCity_Text_GymSign:
-    .string "卡那兹市宝可梦道馆\n馆主：杜娟\p“热爱岩石系的学生！”$"
+    .string "卡那兹市宝可梦道馆\n馆主：杜娟\p“热爱岩石属性的学生！”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:
     .string "得文公司分部办公室\p“闲杂人等\n请勿入内。”$"

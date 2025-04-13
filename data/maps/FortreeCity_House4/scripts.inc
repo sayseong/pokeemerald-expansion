@@ -68,7 +68,7 @@ FortreeCity_House4_Text_BringsWorldCloserTogether:
     .string "和宝可梦在一起，\n人们可以交上更多朋友，\p这让我们的世界\n变得更小。这多美妙！$"
 
 FortreeCity_House4_Text_GoBirdPokemon:
-    .string "好了！\n去吧，飞行系宝可梦！$"
+    .string "好了！\n去吧，飞行属性宝可梦！$"
 
 FortreeCity_House4_Text_AskedWingullToRunErrand:
     .string "我让我的长翅鸥\n帮我送信。$"

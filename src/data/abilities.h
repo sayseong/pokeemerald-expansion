@@ -141,7 +141,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_FLASH_FIRE] =
     {
         .name = _("引火"),
-        .description = COMPOUND_STRING("受火系攻击会强化火系招式"),
+        .description = COMPOUND_STRING("受火属性攻击会强化火招式"),
         .aiRating = 6,
         .breakable = TRUE,
     },
@@ -1428,7 +1428,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_DELTA_STREAM] =
     {
         .name = _("德尔塔气流"),
-        .description = COMPOUND_STRING("变为飞行系弱点消失的天气"),
+        .description = COMPOUND_STRING("变为飞行弱点消失的天气"),
         .aiRating = 10,
     },
 
@@ -2072,7 +2072,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_PURIFYING_SALT] =
     {
         .name = _("洁净之盐"),
-        .description = COMPOUND_STRING("不会陷入异常，减轻鬼系伤害"),
+        .description = COMPOUND_STRING("免疫异常，减轻幽灵伤害"),
         .aiRating = 6,
         .breakable = TRUE,
     },

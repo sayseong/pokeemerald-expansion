@@ -283,7 +283,7 @@ DewfordTown_Gym_EventScript_GymStatue::
 	end
 
 DewfordTown_Gym_Text_GymGuideAdvice:
-    .string "嗨，怎么样，向冠军的目标\n冲刺的{PLAYER}？\p武斗镇的道馆馆主藤树\n使用的是格斗系宝可梦。\p想用一般系\n宝可梦对付他是自找麻烦。\p格斗宝可梦会对\n一般宝可梦造成极大伤害，\l要小心！\p更麻烦的是，道馆里就像\n海底一样黑暗，\p但随着打败一路上的训练家，\n室内会越来越明亮。\p好了，加油吧！$"
+    .string "嗨，怎么样，向冠军的目标\n冲刺的{PLAYER}？\p武斗镇的道馆馆主藤树\n使用的是格斗属性宝可梦。\p想用一般属性\n宝可梦对付他是自找麻烦。\p格斗宝可梦会对\n一般宝可梦造成极大伤害，\l要小心！\p更麻烦的是，道馆里就像\n海底一样黑暗，\p但随着打败一路上的训练家，\n室内会越来越明亮。\p好了，加油吧！$"
 
 DewfordTown_Gym_Text_GymGuidePostVictory:
     .string "哇！这里变亮了！\p你的未来也是一片光明！$"

@@ -43,5 +43,5 @@ MossdeepCity_Mart_Text_MaxRepelLastsLongest:
     .string "黄金喷雾器能赶走所有弱小的宝可梦。\p所有的喷雾器之中，\n它的持续时间最久。$"
 
 MossdeepCity_Mart_Text_NetAndDiveBallsRare:
-    .string "捕网球和潜水球是\n只有绿岭市才卖的稀有精灵球。\p捕网球捉虫系和\n水系宝可梦很有效，\p潜水球则容易捉\n海底的宝可梦。$"
+    .string "捕网球和潜水球是\n只有绿岭市才卖的稀有精灵球。\p捕网球捉虫属性和\n水属性宝可梦很有效，\p潜水球则容易捉\n海底的宝可梦。$"
 

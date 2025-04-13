@@ -365,7 +365,7 @@ MossdeepCity_Gym_EventScript_RedFloorSwitch::
 	end
 
 MossdeepCity_Gym_Text_GymGuideAdvice:
-    .string "嗨，怎么样，向冠军目标\n冲刺的{PLAYER}？\p这里的道馆馆主使用的是\n超能系宝可梦，\p如果用格斗系或\n毒系对付它们，\l会受到很大伤害！\p另外，她们会使用\n强大的组合攻击，\p想要赢的话，就给她们看看\n你与你的宝可梦之间紧密的联系吧。\l加油！$"
+    .string "嗨，怎么样，向冠军目标\n冲刺的{PLAYER}？\p这里的道馆馆主使用的是\n超能力属性宝可梦，\p如果用格斗属性或\n毒属性对付它们，\l会受到很大伤害！\p另外，她们会使用\n强大的组合攻击，\p想要赢的话，就给她们看看\n你与你的宝可梦之间紧密的联系吧。\l加油！$"
 
 MossdeepCity_Gym_Text_GymGuidePostVictory:
     .string "哇，你让我大吃一惊！\n你是个优秀的训练家！$"
@@ -434,7 +434,7 @@ MossdeepCity_Gym_Text_SylviaPostBattle:
     .string "你竟敢打败我…\p若有厄运降临于你，\n不要怪我…$"
 
 MossdeepCity_Gym_Text_NateIntro:
-    .string "呵呵呵。\p让我给你看看\n超能系的执着。$"
+    .string "呵呵呵。\p让我给你看看\n超能力属性的执着。$"
 
 MossdeepCity_Gym_Text_NateDefeat:
     .string "啊，天哪，天哪！\n你的战斗无与伦比！$"
@@ -467,7 +467,7 @@ MossdeepCity_Gym_Text_MaceyDefeat:
     .string "你怎么会变得\n这么强的？$"
 
 MossdeepCity_Gym_Text_MaceyPostBattle:
-    .string "哼！你也许很强，但你\n却与超能系不合！\p某种程度来说，你的战斗方式极为冷漠！$"
+    .string "哼！你也许很强，但你\n却与超能力属性不合！\p某种程度来说，你的战斗方式极为冷漠！$"
 
 MossdeepCity_Gym_Text_NicholasIntro:
     .string "呜啊啊啊！尝尝我的宝可梦\n那超凡脱俗的力量吧！$"

@@ -911,7 +911,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
     .string "机械娃娃1问答。\p下列宝可梦中哪一个不能\n在110号道路找到？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
-    .string "机械娃娃1问答。\p下列宝可梦中哪一个不是\n水系？$"
+    .string "机械娃娃1问答。\p下列宝可梦中哪一个不是\n水属性？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
     .string "机械娃娃1问答。\p下列宝可梦中哪一个不能\n使用吸血？$"

@@ -186,7 +186,7 @@ LavaridgeTown_Gym_1F_EventScript_GymStatue::
 	end
 
 LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
-    .string "嗨，怎么样，向冠军目标\n冲刺的{PLAYER}？\p釜炎镇的道馆馆主亚莎\n使用炎系宝可梦，\p她对宝可梦的激情\n比火山还要炙热。\p别太接近她——你会被烧焦的！\n用水浇灭她的火焰，\l加油吧！$"
+    .string "嗨，怎么样，向冠军目标\n冲刺的{PLAYER}？\p釜炎镇的道馆馆主亚莎\n使用火属性宝可梦，\p她对宝可梦的激情\n比火山还要炙热。\p别太接近她——你会被烧焦的！\n用水浇灭她的火焰，\l加油吧！$"
 
 LavaridgeTown_Gym_1F_Text_GymGuidePostVictory:
     .string "异常火热的战斗啊！$"

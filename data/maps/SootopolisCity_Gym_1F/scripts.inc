@@ -176,7 +176,7 @@ SootopolisCity_Gym_1F_EventScript_GymStatue::
 	end
 
 SootopolisCity_Gym_1F_Text_GymGuideAdvice:
-    .string "嗨，怎么样，向冠军目标\n冲刺的{PLAYER}？\p琉璃市的道馆馆主亚当\n是使用水系宝可梦的大师，\p但要走到他面前，还要\n先通过冰结成的地面…\p很抱歉，我只能\n给你这一点建议。\p这条路，你要凭\n自己的智慧通过！$"
+    .string "嗨，怎么样，向冠军目标\n冲刺的{PLAYER}？\p琉璃市的道馆馆主亚当\n是使用水属性宝可梦的大师，\p但要走到他面前，还要\n先通过冰结成的地面…\p很抱歉，我只能\n给你这一点建议。\p这条路，你要凭\n自己的智慧通过！$"
 
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
     .string "哟，被誉为丰缘第一的亚当\n都输给你了！\p好了！看看你的训练家卡片，\p如果你得到了所有徽章，\n就向宝可梦联盟出发吧！$"

@@ -749,7 +749,7 @@ MatchCall_Text_May7::
     .string "小遥：{PLAYER}{KUN}，呀呼！\n我正在119号道路上呢。\p这里有条大河，而且\n经常下雨。\p我湿透了！$"
 
 MatchCall_Text_May8::
-    .string "小遥：{PLAYER}{KUN}，嗨。\p送神山码头是被当作\n纪念死去的宝可梦而存在的。\p结果时，里面有\n很多幽灵系宝可梦！$"
+    .string "小遥：{PLAYER}{KUN}，嗨。\p送神山码头是被当作\n纪念死去的宝可梦而存在的。\p结果时，里面有\n很多幽灵属性宝可梦！$"
 
 MatchCall_Text_May9::
     .string "小遥：嗨，{PLAYER}{KUN}！\p我想去釜炎镇\n泡温泉。\p但是，在崎岖山路上，\n我撞上了一群丑八怪。\l真扫兴！$"
@@ -794,7 +794,7 @@ MatchCall_Text_Brendan7::
     .string "小悠：谁啊？哦，{PLAYER}？\n怎么？我正在119号道路呢。\p这里有条大河，而且\n老是下雨。\p我湿透了！$"
 
 MatchCall_Text_Brendan8::
-    .string "小悠：{PLAYER}！\p送神山码头是作为死去的宝可梦\n的纪念场而存在的。\p说不定\n你面有很多幽灵系宝可梦！$"
+    .string "小悠：{PLAYER}！\p送神山码头是作为死去的宝可梦\n的纪念场而存在的。\p说不定\n你面有很多幽灵属性宝可梦！$"
 
 MatchCall_Text_Brendan9::
     .string "小悠：你好，{PLAYER}。\p我本来想去釜炎镇\n泡温泉的。\p但是在崎岖山路，我撞上了\n一帮丑陋的家伙。\p真可怕…\n我想他们是熔岩队。$"

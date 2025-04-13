@@ -569,7 +569,7 @@ LilycoveCity_Text_SawTallTowerOnRoute131:
     .string "我在130号航道的附近\n看到过一座高高的塔，\p那会不会是…？$"
 
 LilycoveCity_Text_JustArrivedAndSawRarePokemon:
-    .string "我们刚刚来这里\n度蜜月，\p却偶然看到一只龙系\n宝可梦从天空飞过。\p丰缘有生活着\n那么棒的宝可梦吗？$"
+    .string "我们刚刚来这里\n度蜜月，\p却偶然看到一只龙属性\n宝可梦从天空飞过。\p丰缘有生活着\n那么棒的宝可梦吗？$"
 
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
     .string "我们曾许愿要在蜜月中\n看到很多很多稀有宝可梦，\p并且我们一到这儿\n就看到了稀有宝可梦。\p我是说，我真的很高兴！$"

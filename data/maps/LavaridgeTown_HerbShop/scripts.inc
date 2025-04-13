@@ -46,7 +46,7 @@ LavaridgeTown_HerbShop_Text_YouveComeToLookAtHerbalMedicine:
     .string "你是来釜炎镇\n买草药的吗？\p不错，我喜欢你！\p这个给你吧！$"
 
 LavaridgeTown_HerbShop_Text_ExplainCharcoal:
-    .string "我给你的木炭是用来\n煮草药的，\p如果给宝可梦的话\n也会出现些奇妙的事情，\p它能增强炎系招式的\n威力。$"
+    .string "我给你的木炭是用来\n煮草药的，\p如果给宝可梦的话\n也会出现些奇妙的事情，\p它能增强火属性招式的\n威力。$"
 
 LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike:
     .string "草药的效果极佳，\n但那会让宝可梦讨厌你。\l它实在太苦了！$"

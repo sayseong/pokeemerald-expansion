@@ -192,13 +192,13 @@ LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfLegendaryPokemon:
     .string "传说生活在很久以前的\n宝可梦的画，\p是画家凭借想象\n画出来的。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfGrassPokemon:
-    .string "画着草系宝可梦\n在微风中轻轻摇摆。\p看上去它们非常喜欢\n轻风的抚摸。$"
+    .string "画着草属性宝可梦\n在微风中轻轻摇摆。\p看上去它们非常喜欢\n轻风的抚摸。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries:
     .string "画着诱人的树果。\p看着这幅画，口水都流下来了！$"
 
 LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica:
-    .string "是一件著名雕塑的仿制品，\p描绘了一只古代飞行系宝可梦。$"
+    .string "是一件著名雕塑的仿制品，\p描绘了一只古代飞行属性宝可梦。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone:
     .string "用一块黑色石头雕刻成的\n巨大精灵球，\p显然是过去\n节庆时使用的。$"
