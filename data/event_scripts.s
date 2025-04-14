@@ -887,7 +887,7 @@ gText_PokemonCenterSign::
 	.string "宝可梦中心$"
 
 gText_MomOrDadMightLikeThisProgram::
-	.string "也许是[buffer1]喜欢的游戏\n"
+	.string "也许是{STR_VAR_1}喜欢的游戏\n"
 	.string "… … … … … … … … … … … … … … … …\p"
 	.string "该走了！$"
 
@@ -944,7 +944,7 @@ gText_MonsHealed::
 	.string "大家都变得精力充沛了哦！\n"
 	.string "那么，请加油吧！$"
 
-gText_HadQuiteAnExperienceTakeRest::// 自己发挥
+gText_HadQuiteAnExperienceTakeRest::
 	.string "妈妈：{PLAYER}！\n"
 	.string "欢迎回家。\p"
 	.string "看来你经历了不少事情呢。\p"
@@ -961,7 +961,7 @@ gText_MomExplainHPGetPotions::
 	.string "可以在宝可梦中心恢复。\p"
 	.string "如果你要出远门，可别忘了\n"
 	.string "在友好商店购买些伤药备用。\p"
-	.string "要加油哦，妈妈永远\n"// 自己发挥
+	.string "要加油哦，妈妈永远\n"
 	.string "以你为豪！\p"
 	.string "路上小心！$"
 
