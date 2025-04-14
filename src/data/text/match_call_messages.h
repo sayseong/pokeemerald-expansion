@@ -110,7 +110,7 @@ const u8 gText_MatchCallCamper_Ethan_Intro2[] = _("宝可梦更强大！");
 
 const u8 gText_MatchCallOldCouple_JohnAndJay_Strategy[] = _("爱让我们无坚不摧。");
 const u8 gText_MatchCallOldCouple_JohnAndJay_Pokemon[] = _("我们培养了好多年了。");
-const u8 gText_MatchCallOldCouple_JohnAndJay_Intro1[] = _("结婚５０年以来，我们");
+const u8 gText_MatchCallOldCouple_JohnAndJay_Intro1[] = _("结婚50年以来，我们");
 const u8 gText_MatchCallOldCouple_JohnAndJay_Intro2[] = _("一直用心培养宝可梦。");
 
 const u8 gText_MatchCallBugManiac_Jeffrey_Strategy[] = _("轮番攻击！");
@@ -201,7 +201,7 @@ const u8 gText_MatchCallTriathlete_Dylan_Intro2[] = _("也能成为追风少年�
 const u8 gText_MatchCallTriathlete_Katelyn_Strategy[] = _("全力以赴！");
 const u8 gText_MatchCallTriathlete_Katelyn_Pokemon[] = _("用水属性宝可梦！");
 const u8 gText_MatchCallTriathlete_Katelyn_Intro1[] = _("我每天都要游");
-const u8 gText_MatchCallTriathlete_Katelyn_Intro2[] = _("１０千米以上！");
+const u8 gText_MatchCallTriathlete_Katelyn_Intro2[] = _("10千米以上！");
 
 const u8 gText_MatchCallTriathlete_Benjamin_Strategy[] = _("压迫对手！");
 const u8 gText_MatchCallTriathlete_Benjamin_Pokemon[] = _("强韧的钢属性。");
@@ -345,7 +345,7 @@ const u8 gText_MatchCallPassionBurn_Flannery_Intro2[] = _("一天的疲惫！");
 
 const u8 gText_MatchCallReliableOne_Dad_Strategy[] = _("随机应变地对战。");
 const u8 gText_MatchCallReliableOne_Dad_Pokemon[] = _("均衡培养。");
-const u8 gText_MatchCallReliableOne_Dad_Intro1[] = _("我每天花３０分钟");
+const u8 gText_MatchCallReliableOne_Dad_Intro1[] = _("我每天花30分钟");
 const u8 gText_MatchCallReliableOne_Dad_Intro2[] = _("从家走到这里。");
 
 const u8 gText_MatchCallSkyTamer_Winona_Strategy[] = _("利用速度作战。");
