@@ -892,7 +892,7 @@ gText_MomOrDadMightLikeThisProgram::
 	.string "该走了！$"
 
 gText_WhichFloorWouldYouLike::
-	.string "欢迎来到水静市商业大厦，\p"
+	.string "欢迎来到水静百货，\p"
 	.string "要去几层？$"
 
 gText_SandstormIsVicious::
@@ -900,16 +900,16 @@ gText_SandstormIsVicious::
 	.string "走不过去。$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "背包里的物品可以\n"
+	.string "包包里的物品可以\n"
 	.string "登录到SELECT上，方便使用。$"
 
 gText_PokemonTrainerSchoolEmail::
-	.string "有一封精灵训练师\n"
+	.string "有一封宝可梦训练家\n"
 	.string "学校来的电子邮件。\p"
 	.string "… … … … … …\p"
-	.string "一只精灵最多可以学4个技能，\p"
-	.string "训练师的专业程度就可以从其\n"
-	.string "为精灵所选择的技能中看出来。\p"
+	.string "一只宝可梦最多可以学4个招式，\p"
+	.string "训练家的专业程度就可以从其\n"
+	.string "为宝可梦所选择的招式中看出来。\p"
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC::
@@ -920,30 +920,29 @@ gText_PokeblockLinkCanceled::
 
 gText_UnusedNicknameReceivedPokemon::
 	.string "要给刚收服的\n"
-	.string "{STR_VAR_2}取个名字吗？$"
+	.string "{STR_VAR_2}取个昵称吗？$"
 
 gText_PlayerWhitedOut::
 	.string "{PLAYER}没有可以\n"
-	.string "使用的精灵了\p！"
+	.string "战斗的宝可梦\p！"
 	.string "{PLAYER}昏迷了！$"
 
-gText_FirstShouldRestoreMonsHealth:: // 自己发挥
-	.string "您应该让你的宝可梦\n"
-	.string "完全回复体力。$"
+gText_FirstShouldRestoreMonsHealth:: 
+	.string "先让宝可梦\n"
+	.string "回复一下吧！$"
 
-gText_MonsHealedShouldBuyPotions::// 自己发挥
+gText_MonsHealedShouldBuyPotions::
 	.string "宝可梦的体力已经\n"
 	.string "回复满了。\p"
-	.string "如果宝可梦的体力减少了，\n"
-	.string "欢迎随时来宝可梦中心哦。\p"
-	.string "如果您要出远门，可别忘了\n"
-	.string "在友好商店准备些好伤药。\p"
-	.string "祝您一路顺风。\p"
+	.string "宝可梦的体力……也就是HP变少了的话，\n"
+	.string "请随时来这里回复吧。\p"
+	.string "如果要去稍微有点远的地方，\n"
+	.string "建议你先去友好商店购买伤药备用。\p"
+	.string "那么，请加油吧！\p"
 
-gText_MonsHealed::// 自己发挥
-	.string "您的宝可梦已经\n"
-	.string "完全回复了。\p"
-	.string "祝您一切顺利！$"
+gText_MonsHealed::
+	.string "大家都变得精力充沛了哦！\n"
+	.string "那么，请加油吧！$"
 
 gText_HadQuiteAnExperienceTakeRest::// 自己发挥
 	.string "妈妈：{PLAYER}！\n"
@@ -951,41 +950,41 @@ gText_HadQuiteAnExperienceTakeRest::// 自己发挥
 	.string "看来你经历了不少事情呢。\p"
 	.string "来，好好休息一下吧。$"
 
-gText_MomExplainHPGetPotions::// 自己发挥
+gText_MomExplainHPGetPotions::
 	.string "妈妈：太好了！你和你的\n"
 	.string "宝可梦状态看起来很好。\p"
 	.string "我刚刚收到小田卷博士\n"
-	.string "的消息。\p"
-	.string "他说宝可梦的能量\n"
+	.string "发来的消息。\p"
+	.string "他说宝可梦的精力\n"
 	.string "是用体力来衡量的。\p"
 	.string "如果宝可梦没有体力了，\n"
 	.string "可以在宝可梦中心恢复。\p"
 	.string "如果你要出远门，可别忘了\n"
-	.string "在友好商店准备些好伤药。\p"
-	.string "要加油哦，妈妈会为你\n"
-	.string "加油的！\p"
+	.string "在友好商店购买些伤药备用。\p"
+	.string "要加油哦，妈妈永远\n"// 自己发挥
+	.string "以你为豪！\p"
 	.string "路上小心！$"
 
 gText_RegisteredTrainerinPokeNav::
 	.string "把{STR_VAR_1} {STR_VAR_2}\n"
-	.string "登录进口袋领航员。$"
+	.string "登录进宝可梦导航器。$"
 
 gText_ComeBackWithSecretPower::
-	.string "你知道招式学习器神秘力量吗？\p"
+	.string "你知道招式学习器秘密之力吗？\p"
 	.string "我们这些人都喜欢\n"
-	.string "招式学习器神秘力量。\p"
+	.string "招式学习器秘密之力。\p"
 	.string "我们的成员之一会把它送给你，\n"
 	.string "拿到之后就回来给我看看吧，\p"
 	.string "我们会让你成为我们之中的一员，\n"
 	.string "还可以秘密卖给你些物品。$"
 
 gText_PokerusExplanation::
-	.string "你的精灵可能受到了\n"
-	.string "宝可病毒的影响。\p"
-	.string "人们并不了解宝可病毒，\n"
-	.string "只知道它们是一种寄生在\l"
-	.string "精灵身上的微观生物，\p"
-	.string "据说被它们影响的精灵的\n"
+	.string "交给我的宝可梦\n"
+	.string "似乎附上了宝可病毒。\p"
+	.string "详细情况不太清楚，\n"
+	.string "不过据说，所谓宝可病毒是一种\l"
+	.string "附着在宝可梦身上的微小生命体。\p"
+	.string "据说被它们影响的宝可梦的\n"
 	.string "成长会非常好。$"
 
 	.include "data/text/surf.inc"
@@ -1035,10 +1034,10 @@ gText_PlayerFoundTMHMs::
 gText_Sudowoodo_Attacked::
 	.string "奇怪的树不喜欢\n"
 	.string "吼吼鲸洒水壶！\p"
-	.string "奇怪的树攻了上来！$"
+	.string "奇怪的树攻击了过来！$"
 
 gText_LegendaryFlewAway::
-	.string "{STR_VAR_1}飘走了！$"
+	.string "{STR_VAR_1}不知道飞到哪里去了！$"
 
 	.include "data/text/pc_transfer.inc"
 	.include "data/text/questionnaire.inc"
