@@ -512,22 +512,22 @@ BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored:
     .string "你的宝可梦将回复\n到满血。$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent:
-    .string "接下来，你的第二个对手！\n你准备好行动了吗？$"
+    .string "接下来，你的第二个对手！\n你准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent:
-    .string "接下来，你的第三个对手！\n你准备好行动了吗？$"
+    .string "接下来，你的第三个对手！\n你准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor4thOpponent:
-    .string "接下来，你的第四个对手！\n你准备好行动了吗？$"
+    .string "接下来，你的第四个对手！\n你准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor5thOpponent:
-    .string "接下来，你的第五个对手！\n你准备好行动了吗？$"
+    .string "接下来，你的第五个对手！\n你准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor6thOpponent:
-    .string "接下来，你的第六个对手！\n你准备好行动了吗？$"
+    .string "接下来，你的第六个对手！\n你准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent:
-    .string "接下来，你的第七个对手！\n你准备好行动了吗？$"
+    .string "接下来，你的第七个对手！\n你准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown:
     .string "你要记录游戏并\n关机吗？$"

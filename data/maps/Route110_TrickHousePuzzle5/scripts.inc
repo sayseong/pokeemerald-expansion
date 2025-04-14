@@ -947,16 +947,16 @@ Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
     .string "机械娃娃3问答。\p买3个港湾邮件或买1个灼伤药\n哪样花钱更多？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
-    .string "机械娃娃3问答。\p卖出1个超级球并买入\n1个药水，还剩多少钱？$"
+    .string "机械娃娃3问答。\p卖出1个超级球并买入\n1个伤药，还剩多少钱？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
-    .string "机械娃娃3问答。\p买1个除虫喷雾器和1个综合调味乳\n花的钱比1个超级药水多吗？$"
+    .string "机械娃娃3问答。\p买1个除虫喷雾和1个劲爽汽水\n花的钱比1个厉害伤药多吗？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
     .string "咔嗒、噼啪…\n机械娃娃4就是我！\p我的问答是关于人的。$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
-    .string "机械娃娃4问答。\p海滨之家里，\n男人多还是女人多？$"
+    .string "机械娃娃4问答。\p大海之家里，\n男人多还是女人多？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
     .string "机械娃娃4问答。\p釜炎镇里，\n老爷爷多还是老奶奶多？$"
@@ -974,4 +974,4 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
     .string "机械娃娃5问答。\p茵郁市里\n一共有多少树屋？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
-    .string "机械娃娃5问答。\p在自行车道路上上\n一共有多少三项全能运动员？$"
+    .string "机械娃娃5问答。\p在自行车道路上上\n一共有多少铁人三项选手？$"

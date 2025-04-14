@@ -1205,7 +1205,7 @@ PetalburgCity_Gym_Text_ExplainFacade:
     .string "爸爸：招式学习器42里面是硬撑，\p如果宝可梦中毒，\n麻痹，或者灼伤，\l招式的威力会提升。\p用这可以在处于不利时\n逆转形势。$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
-    .string "爸爸：作为道馆馆主，\n我觉得很沮丧…\p但作为父亲，我在失望的同时，\n又很高兴。这真的很奇怪…$"
+    .string "爸爸：作为道馆馆主，\n我觉得很沮丧…\p但作为父亲，我在失望的同时，\n又很高兴。这可真怪…$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
     .string "啊，你来了，{PLAYER}{KUN}！\p跟我来，\n我有些东西要给你。$"
@@ -1262,7 +1262,7 @@ PetalburgCity_Gym_Text_GeorgePostBadge:
     .string "我还要在道馆继续训练。\n总有一天，我要成为馆主。$"
 
 PetalburgCity_Gym_Text_BerkeIntro:
-    .string "就算你是我们馆主的孩子，\n我也不会放水的。\p体会一下宝可梦被\n命中要害的恐惧吧！$"
+    .string "就算你是我们馆主的孩子，\n我也不会放水的。\p体会一下宝可梦被\n击中要害的恐惧吧！$"
 
 PetalburgCity_Gym_Text_BerkeDefeat:
     .string "你的力量…\n这是真正的力量。$"

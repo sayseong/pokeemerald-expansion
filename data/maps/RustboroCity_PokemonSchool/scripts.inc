@@ -233,7 +233,7 @@ RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot:
     .string "我一直想要一只橡实果，\n现在终于有了！$"
 
 RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems:
-    .string "宝可梦可以带一些物品，\n但它们不会使用药水或\l解毒药这样的人造物品。$"
+    .string "宝可梦可以带一些物品，\n但它们不会使用伤药或\l解毒药这样的人造物品。$"
 
 RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself:
     .string "你知道某些宝可梦的招式\n可以使对手宝可梦混乱吗？\p混乱的宝可梦有时\n会不知为何攻击自己。\p但一旦它退出战斗，\n它就会恢复正常。$"

@@ -323,7 +323,7 @@ MossdeepCity_Text_WhatToDoWithWeirdRock:
     .string "是么，你也这么想啊！\n拿着这种奇怪的石头有什么用吗？$"
 
 MossdeepCity_Text_WailmerWatching:
-    .string "在绿岭市周围可以看到\n野生吼吼鲸。\p这叫啥来着，呃…\n是那啥…\p皮，皮，皮…\p观赏吼吼鲸！$"
+    .string "在绿岭市周围可以看到\n野生吼吼鲸。\p这叫啥来着，呃…\n是那啥…\p吼，吼，吼…\p吼吼鲸观赏！$"
 
 MossdeepCity_Text_SpaceCenterReceivedLetter:
     .string "岛上的宇宙中心曾经\n发射过巨大的火箭。\p最近他们收到了一封信，\n引起了大骚动。$"

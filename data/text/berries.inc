@@ -104,10 +104,10 @@ Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries::
     .string "你可以把树果种到土里让它长大，\n也可以让宝可梦带上它，\p现在还有另一种选择，用一种\n特别的机器混合树果\l为宝可梦制作糖果。\p我也想要些糖果啊。$"
 
 SootopolisCity_Text_NameIsKiriHaveOneOfThese::
-    .string "你叫什么名字啊？\p… … … … … … … … …\n嗯，真是个好名字\p我叫奇莉，\p爸爸妈妈希望我健康长大，而且热心助人，\n所以给我起了这个名字。\p这个给你一个吧。$"
+    .string "你叫什么名字啊？\p… … … … … … … … …\n嗯，真是个好名字\p我叫小桐，\p爸爸妈妈希望我健康长大，而且热心助人，\n所以给我起了这个名字。\p这个给你一个吧。$"
 
 SootopolisCity_Text_GiveYouThisBerryToo::
-    .string "奇莉也会给你这种树果的！\n我真的很喜欢它！$"
+    .string "小桐也会给你这种树果的！\n我真的很喜欢它！$"
 
 SootopolisCity_Text_WhatKindOfWishInYourName::
     .string "你的名字里\n会包含了什么样的期望呢？$"
@@ -116,7 +116,7 @@ SootopolisCity_Text_LikeSeasonBornIn::
     .string "春，夏，秋，冬…\p春天出生的人喜欢春天\n冬天出生的人喜欢冬天吗？$"
 
 SootopolisCity_Text_ThenILoveAutumn::
-    .string "那么，奇莉是秋天出生的，\n所以一定喜欢秋天！\p你喜欢什么季节？$"
+    .string "那么，小桐是秋天出生的，\n所以一定喜欢秋天！\p你喜欢什么季节？$"
 
 SootopolisCity_Text_OhDoesntMatter::
     .string "啊…没关系…\n我想知道的事情太多了…$"

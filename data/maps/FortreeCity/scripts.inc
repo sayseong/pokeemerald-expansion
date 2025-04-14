@@ -88,7 +88,7 @@ FortreeCity_Movement_KecleonFlee:
 	step_end
 
 FortreeCity_Text_SawGiganticPokemonInSky:
-    .string "没人肯相信我，但我\n确实在天空中看到了巨大的宝可梦。\p它在飞过131号航道时\n好像有些不安。\p另外…\n唔唔…你身上，呃…好像有焦味。\p你刚从火山或什么地方来吗？$"
+    .string "没人肯相信我，但我\n确实在天空中看到了巨大的宝可梦。\p它在飞过131号水路时\n好像有些不安。\p另外…\n唔唔…你身上，呃…好像有焦味。\p你刚从火山或什么地方来吗？$"
 
 FortreeCity_Text_SomethingBlockingGym:
     .string "我想去宝可梦道馆，\n但有东西堵了路。\p在120号道路训练了\n那么久，现在却…$"
@@ -112,10 +112,10 @@ FortreeCity_Text_SomethingUnseeable:
     .string "有什么看不见的东西挡在路上。$"
 
 FortreeCity_Text_UnseeableUseDevonScope:
-    .string "有什么看不见的东西挡在路上。\p要使用得文喷雾器吗？$"
+    .string "有什么看不见的东西挡在路上。\p要使用得文侦测镜吗？$"
 
 FortreeCity_Text_UsedDevonScopePokemonFled:
-    .string "{PLAYER}使用得文喷雾器。\p看不见的宝可梦\n现出了原形！\p受惊的宝可梦溜掉了！$"
+    .string "{PLAYER}使用得文侦测镜。\p看不见的宝可梦\n现出了原形！\p受惊的宝可梦溜掉了！$"
 
 FortreeCity_Text_CitySign:
     .string "茵郁市\n“融入自然的\l树上之城。”$"

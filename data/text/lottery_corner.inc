@@ -1,5 +1,5 @@
 LilycoveCity_DepartmentStore_1F_Text_LotteryCornerDrawTicket::
-    .string "这里是宝可梦彩票中心。\p来我们商业大厦的所有顾客\n都可以抽一张宝可梦彩票，\p如果彩票的号码\n与你任何一只宝可梦的ID相同，\l我们将会赠送一样精美礼品。\l你想抽宝可梦彩票吗？$"
+    .string "这里是宝可梦彩票中心。\p来我们百货的所有顾客\n都可以抽一张宝可梦彩票，\p如果彩票的号码\n与你任何一只宝可梦的ID相同，\l我们将会赠送一样精美礼品。\l你想抽宝可梦彩票吗？$"
 
 LilycoveCity_DepartmentStore_1F_Text_ComeBackTomorrow::
     .string "请明天再来。$"

@@ -224,13 +224,13 @@ EverGrandeCity_ChampionsRoom_Movement_BirchArrives:
 	step_end
 
 EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
-    .string "米可利：欢迎你，{PLAYER}{KUN}。\p在琉璃市发生的事…\n你做得很好，通过自己的努力\l战胜了罪恶。\p呵呵！\p让你独自去阻止罪恶\n可能有点不太公平。\p通过你和你的宝可梦之间的努力，\n你克服了重重困难。\p我们训练家通过给予宝可梦道具\n来培养它们。\l和教给它们战斗所需招式。\p其实我们自己本身\n也从宝可梦那里得到学习。\p这里就是与其他像你一样的对手战斗\n来检验自己努力成果的最好的地方。\p现在！\p谁能与自己的宝可梦\n在丰缘笑到最后？\p现在，就在这里展示给我看吧！$"
+    .string "米可利：欢迎你，{PLAYER}{KUN}。\p在琉璃市发生的事…\n你做得很好，通过自己的努力\l战胜了罪恶。\p呵呵！\p让你独自去阻止罪恶\n可能有点不太妥当。\p通过你和你的宝可梦之间的努力，\n你克服了重重困难。\p我们训练家通过给予宝可梦道具\n来培养它们。\l和教给它们战斗所需招式。\p其实我们自己本身\n也从宝可梦那里得到学习。\p这里就是与其他像你一样的对手战斗\n来检验自己努力成果的最好的地方。\p现在！\p谁能与自己的宝可梦\n在丰缘笑到最后？\p现在，就在这里展示给我看吧！$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat:
-    .string "我，冠军，被打败了…\p真是精彩的比赛。\n你是那么的优秀，我也感到愤怒了。\l但是我输得心服口服！\p光荣属于你，{PLAYER}{KUN}！\p你是一名真正伟大的\n宝可梦训练家！$"
+    .string "我，冠军，被打败了…\p真是精彩的比赛。\n你是那么的优秀，优雅得令人嫉妒，\l仿佛闪闪发光！\p光荣属于你，{PLAYER}{KUN}！\p你是一名真正伟大的\n宝可梦训练家！$"
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
-    .string "米可利：你所选择参加战斗的\n宝可梦…\p有时它们轻柔如风\n有时它们又\l迅猛如闪电。\p你指挥你的宝可梦\n是那么轻松，稳健，优雅。\p甚至我都被你\n出色的表演所迷惑！\p你现在已经到达了\n宝可梦联盟的顶峰。\p我现在宣布\n你是丰缘地区新的…$"
+    .string "米可利：你所选择参加战斗的\n宝可梦…\p有时它们轻柔如风\n有时它们又\l迅猛如闪电。\p你指挥你的宝可梦\n是那么轻松，稳健，优雅。\p甚至我都为你\n出色的表现而着迷！\p你现在已经到达了\n宝可梦联盟的顶峰。\p我现在宣布\n你是丰缘地区新的…$"
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
     .string "小遥：{PLAYER}{KUN}！\p给你几条挑战冠军前\n的建议…$"
@@ -251,7 +251,7 @@ EverGrandeCity_ChampionsRoom_Text_BirchCongratulations:
     .string "小田卷博士：不管怎么说，\n恭喜你！\p现在，昂首挺进最终的房间吧！$"
 
 EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe:
-    .string "米可利：{PLAYER}{KUN}…\p不，我要改口了。\p新的冠军！\p跟我来。$"
+    .string "米可利：{PLAYER}{KUN}…\p不，我要改口了。\p新任冠军！\p跟我来。$"
 
 EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside:
     .string "米可利：对不起，但是…\p从这里开始，只有那些成为冠军的训练家\n才可以进去。\p你只能在外面等候了\n小田卷博士。$"

@@ -87,8 +87,8 @@ MauvilleCity_PokemonCenter_1F_EventScript_TeachWord::
 
 @ Trader
 MauvilleCity_PokemonCenter_1F_Text_WantToTradeDecor:
-	.string "我是装饰品交换大叔。\n"
-	.string "要跟我交换装饰品吗？$"
+	.string "我是装饰物品交换大叔。\n"
+	.string "要跟我交换装饰物品吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_TraderFeelingTheBlues:
 	.string "是吗……\n"
@@ -96,11 +96,11 @@ MauvilleCity_PokemonCenter_1F_Text_TraderFeelingTheBlues:
 
 MauvilleCity_PokemonCenter_1F_Text_WeveAlreadyTraded:
 	.string "不过，我们之前\n"
-	.string "有交换过装饰品哦。$"
+	.string "有交换过装饰物品哦。$"
 
 MauvilleCity_PokemonCenter_1F_Text_PickADecorItem:
 	.string "如果你看到我这里有什么\n"
-	.string "你想要的装饰品，就直说吧。$"
+	.string "你想要的装饰物品，就直说吧。$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontWantAnything:
 	.string "没有想要的吗？\n"
@@ -108,16 +108,16 @@ MauvilleCity_PokemonCenter_1F_Text_YouDontWantAnything:
 
 MauvilleCity_PokemonCenter_1F_Text_OnceBelongedToPlayerDoYouWantIt:
 	.string "这个可是{STR_VAR_1}\n"
-	.string "用过的装饰品。\p"
+	.string "用过的装饰物品。\p"
 	.string "要交换吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontHaveAnyDecor:
 	.string "嗯……等一下，你这家伙，\n"
-	.string "一件装饰品也没有嘛！$"
+	.string "一件装饰物品也没有嘛！$"
 
 MauvilleCity_PokemonCenter_1F_Text_PickTheDecorToTrade:
 	.string "那么，选择你要用来\n"
-	.string "跟我交换的装饰品吧。$"
+	.string "跟我交换的装饰物品吧。$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontWantToTrade:
 	.string "你不想跟我换？\n"
@@ -132,16 +132,16 @@ MauvilleCity_PokemonCenter_1F_Text_SoWellTradeTheseDecor:
 	.string "和你的{STR_VAR_2}交换吧？$"
 
 MauvilleCity_PokemonCenter_1F_Text_ThatDecorIsInUse:
-	.string "这件装饰品在使用中。\n"
+	.string "这件装饰物品在使用中。\n"
 	.string "不能交换。$"
 
 MauvilleCity_PokemonCenter_1F_Text_SendDecorToYourPC:
 	.string "那么开始交换！\n"
-	.string "我把我的装饰品发送到你的电脑。$"
+	.string "我把我的装饰物品发送到你的电脑。$"
 
 MauvilleCity_PokemonCenter_1F_Text_CantTradeThatOne:
 	.string "啊！抱歉！\n"
-	.string "这件装饰品太珍贵了。\l"
+	.string "这件装饰物品太珍贵了。\l"
 	.string "不能交换这个！\n"
 	.string "有其他想要的吗？$"
 
@@ -591,7 +591,7 @@ MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksStory::
 	.string "他做出了树果\n"
 	.string "有{STR_VAR_1}次！\p"
 	.string "没有人比{STR_VAR_3}更精通\n"
-	.string "树果混合机了！$"
+	.string "树果混合器了！$"
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsTitle::
 	.string "华丽大赛大师$"
@@ -747,15 +747,15 @@ MauvilleCity_PokemonCenter_1F_Text_WonLotteryStory::
 	.string "宝可梦的朋友！$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareTitle::
-	.string "在抚养家工作的训练家$"
+	.string "在培育屋工作的训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareAction::
-	.string "在抚养家照顾宝可梦$"
+	.string "在培育屋照顾宝可梦$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "他在抚养家照顾的宝可梦\n"
+	.string "他在培育屋照顾的宝可梦\n"
 	.string "有{STR_VAR_1}只！\p"
 	.string "{STR_VAR_3}一定是一个饲养\n"
 	.string "宝可梦的老手了！$"

@@ -253,7 +253,7 @@ SlateportCity_PokemonFanClub_EventScript_Azumarill::
 	end
 
 SlateportCity_PokemonFanClub_Text_MeetChairman:
-    .string "咳咳！我是宝可梦同好会的\n会长！\p当然，作为会长，\n我是这里最重要的人！\p说到抚养宝可梦，没人能\n做得比我更好，一个也没有！\p我告诉你些关于\n宝可梦华丽大赛的事情吧。\p这是把自己的宝可梦\n展示给全世界的比赛，\p但这些比赛都在很远的\n城镇举行，我没法经常参加。\p正因如此，我们才会\n聚集到这个地方\l互相展示我们的宝可梦。$"
+    .string "咳咳！我是宝可梦发烧友俱乐部的\n会长！\p当然，作为会长，\n我是这里最重要的人！\p说到抚养宝可梦，没人能\n做得比我更好，一个也没有！\p我告诉你些关于\n宝可梦华丽大赛的事情吧。\p这是把自己的宝可梦\n展示给全世界的比赛，\p但这些比赛都在很远的\n城镇举行，我没法经常参加。\p正因如此，我们才会\n聚集到这个地方\l互相展示我们的宝可梦。$"
 
 SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon:
     .string "参加了宝可梦华丽大赛的\n训练家的宝可梦…\l我真想去看看。$"
@@ -298,7 +298,7 @@ SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou:
     .string "我喜欢看到爱它们的\n训练家的宝可梦。\p宝可梦对训练家的\n感情非常敏感，\p如果你用爱与细心照料你的宝可梦，\n它们也会回报你的爱。\p当你的宝可梦开始喜欢你了，\n就来给我看看吧。$"
 
 SlateportCity_PokemonFanClub_Text_PokemonAdoresYou:
-    .string "你的宝可梦非常敬仰你，\p这是粉丝俱乐部送给你这样\n最富爱心的训练家的礼物！$"
+    .string "你的宝可梦非常敬仰你，\p这是发烧友俱乐部送给你这样\n最富爱心的训练家的礼物！$"
 
 SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove:
     .string "宝可梦对训练家的\n感情非常敏感，\p如果你用爱与细心照料你的宝可梦，\n它们也会回报你的爱。$"

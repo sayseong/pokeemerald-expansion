@@ -141,10 +141,10 @@ LilycoveCity_DepartmentStore_1F_EventScript_FloorNamesSign::
 	end
 
 LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore:
-    .string "欢迎来到水静市商业大厦。$"
+    .string "欢迎来到水静百货。$"
 
 LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings:
-    .string "每次来商业大厦，\n我都会买大包小包一大堆东西回家，\l这是我的快乐。$"
+    .string "每次来百货，\n我都会买大包小包一大堆东西回家，\l这是我的快乐。$"
 
 LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture:
     .string "今天妈妈要给我\n买些漂亮的家具。$"
@@ -156,7 +156,7 @@ LilycoveCity_DepartmentStore_1F_Text_Azumarill:
     .string "露力丽：玛丽露丽露丽！$"
 
 LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
-    .string "1F： 服务前台\n     彩票中心\p2F： 训练家地带\p3F： 战斗收藏\p4F： 招式学习器中心\p5F： 口袋玩偶世界\p天台： 屋顶广场$"
+    .string "1F： 服务前台\n     彩票中心\p2F： 训练家地带\p3F： 战斗收藏\p4F： 招式学习器中心\p5F： 宝可梦玩偶世界\p天台： 屋顶广场$"
 
 @ Unused
 LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun:

@@ -62,7 +62,7 @@ SlateportCity_NameRatersHouse_EventScript_NewNameDifferent::
 	end
 
 SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname:
-    .string "你好，你好！\n我是姓名占卜师！！\p我可以为你占卜\n宝可梦的名字的好坏。$"
+    .string "你好，你好！\n我是姓名鉴定师！！\p我可以为你鉴定\n宝可梦的名字的好坏。$"
 
 SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname:
     .string "要我看看哪只\n宝可梦的名字？$"

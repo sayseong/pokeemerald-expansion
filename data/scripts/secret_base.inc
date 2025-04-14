@@ -674,7 +674,7 @@ SecretBase_EventScript_CushionInteract::
 
 SecretBase_Text_AllDecorationsWillBeReturned:
 	.string "秘密基地里的所有家具\n"
-	.string "及装饰品都会回到电脑中，\p"
+	.string "及装饰物品都会回到电脑中，\p"
 	.string "确定吗？$"
 
 SecretBase_Text_WantToRegisterSecretBase:

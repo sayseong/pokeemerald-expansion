@@ -992,7 +992,7 @@ LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
     .string "祝贺你！\p我为你的宝可梦\n画了一幅画纪念它的成功…\p你的宝可梦的吸引力\n惊人，这激励着我\l尽我所能画出最好的画。\l看，怎么样？$"
 
 LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum:
-    .string "你看怎么样？我对自己的作品\n很有自信，你喜欢吗？\p这种画作绝对能够\n挂到艺术馆中的。\p嗯？真的有美术馆\n想寻找画作？\p你说我要把这拿过去吗？$"
+    .string "你看怎么样？我对自己的作品\n很有自信，你喜欢吗？\p这种画作绝对能够\n挂到美术馆中的。\p嗯？真的有美术馆\n想寻找画作？\p你说我要把这拿过去吗？$"
 
 LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum:
     .string "什么？真的？那么，\n我现在就把这送过去。\p我还要给它取个好名字，\p希望他们能考虑一下\n展出这幅画。\p如果他们同意了，一定要去参观啊！\n谢谢！$"
@@ -1010,7 +1010,7 @@ LilycoveCity_ContestLobby_Text_OkaySeeYou:
     .string "好了，再会！$"
 
 LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum:
-    .string "噢…那么我想\n我只有把这带回家了…\p但你知道，我真的想\n把这送到艺术馆去…好吗？$"
+    .string "噢…那么我想\n我只有把这带回家了…\p但你知道，我真的想\n把这送到美术馆去…好吗？$"
 
 LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs:
     .string "哎，好吧，算了，\n我还是挂到自己家里去吧。\p下次我得再努力一些。\n再见。$"

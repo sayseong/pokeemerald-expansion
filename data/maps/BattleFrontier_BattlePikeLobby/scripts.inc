@@ -334,7 +334,7 @@ BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer:
     .string "我已经完成了10次挑战，\n但我从来没有要同一个\l训练家战斗。$"
 
 BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere:
-    .string "听着！听着！\p你难道不认为宝可梦的\n特殊能力在这里会很有\l用吗？$"
+    .string "听着！听着！\p你难道不认为宝可梦的\n特性在这里会很有\l用吗？$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose:

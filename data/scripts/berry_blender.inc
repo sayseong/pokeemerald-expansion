@@ -45,7 +45,7 @@ BerryBlender_Text_CanHaveOneOfMyBerries:
 	.string "你可以用我的树果，\n"
 	.string "如果不介意我剩下的话。\p"
 	.string "这样的话，我们就可以一起用\n"
-	.string "树果混合机做一些宝可方块。$"
+	.string "树果混合器做一些宝可方块。$"
 
 BerryBlender_Text_DontHaveAnyBerriesToSpare:
 	.string "如果我还有一些树果留下的话，\n"
@@ -88,7 +88,7 @@ BerryBlender_Text_KnowHowToMakePokeblocks2:
 
 BerryBlender_Text_LetsBerryBlender2:
 	.string "那么让我们开始吧！\p"
-	.string "让我们树果混合机！$"
+	.string "让我们树果混合器！$"
 
 BerryBlender_Text_ExplainBerryBlending2:
 	.string "好的！\n"
@@ -138,7 +138,7 @@ BerryBlender_Text_KnowHowToMakePokeblocks3:
 BerryBlender_Text_LetsBerryBlender3:
 	.string "哦，天哪！\n"
 	.string "那么让我们开始吧！\p"
-	.string "让我们树果混合机！$"
+	.string "让我们树果混合器！$"
 
 BerryBlender_Text_ExplainBerryBlending3:
 	.string "哦，天哪！\p"
@@ -184,7 +184,7 @@ BerryBlender_Text_MakeDeliciousPokeblocks:
 
 BerryBlender_Text_SaveGameBeforeBerryBlenderLink:
 	.string "将会和你的朋友一起把树果\n"
-	.string "放入树果混合机中做出宝可方块。\p"
+	.string "放入树果混合器中做出宝可方块。\p"
 	.string "要不要先记录然后\n"
 	.string "再和你的朋友连线？$"
 
@@ -204,15 +204,15 @@ BerryBlender_Text_AllPlayersArrived:
 
 BerryBlender_Text_NoBerriesLink:
 	.string "你没有树果。\n"
-	.string "不能用树果混合机。$"
+	.string "不能用树果混合器。$"
 
 BerryBlender_Text_PokeblockCaseIsFullLink:
 	.string "你的宝可方块盒满了。\n"
-	.string "不能用树果混合机。$"
+	.string "不能用树果混合器。$"
 
 BerryBlender_Text_DontHavePokeblockCaseLink:
 	.string "你没有宝可方块盒。\n"
-	.string "不能用树果混合机。$"
+	.string "不能用树果混合器。$"
 
 BerryBlender_Text_LoveMakingPokeblocks:
 	.string "我爱上做宝可方块了。\p"
@@ -220,7 +220,7 @@ BerryBlender_Text_LoveMakingPokeblocks:
 
 BerryBlender_Text_MakePokeblocksUsingBerryBlender:
 	.string "如果你喜欢的话，\n"
-	.string "我们可以一起用树果混合机\l"
+	.string "我们可以一起用树果混合器\l"
 	.string "做一些宝可方块。$"
 
 BerryBlender_Text_DontHaveAnyBerriesHaveOne:
@@ -231,7 +231,7 @@ BerryBlender_Text_DontHaveAnyBerriesHaveOne:
 	.string "从我这里选一个树果。$"
 
 BerryBlender_Text_UseItToMakePokeblocksTogether:
-	.string "我们一起用树果混合机\n"
+	.string "我们一起用树果混合器\n"
 	.string "加上它做宝可方块。$"
 
 BerryBlender_Text_DontHaveAnyBerriesNoneToSpare:

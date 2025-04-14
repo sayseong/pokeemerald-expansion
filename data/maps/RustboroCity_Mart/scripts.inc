@@ -68,7 +68,7 @@ RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish:
     .string "我得买些解麻药和\n解毒药，\p以防撞上橙华森林里的\n蘑蘑菇。$"
 
 RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead:
-    .string "我的宝可梦进化了，\n它现在拥有更多体力。\p我得买些超级药水\n来代替普通药水。$"
+    .string "我的宝可梦进化了，\n它现在拥有更多体力。\p我得买些厉害伤药\n来代替普通伤药。$"
 
 RustboroCity_Mart_Text_GettingEscapeRopeJustInCase:
     .string "我要买些离洞绳，\n避免在山洞里迷路。\p这样只要用它\n就能回到入口了。$"

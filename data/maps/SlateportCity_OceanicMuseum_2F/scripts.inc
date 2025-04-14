@@ -307,7 +307,7 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
     .string "我们是热爱大海的\n海洋队！\p我就是海洋队的首领\n水梧桐！\p你为什么妨碍我们？\p…不，不可能！\n你不是熔岩队的人吧？\p等等，这也不对，\n你的衣着和他们不一样。\p… … … … … …\n… … … … … …\p人类，宝可梦…所有的生命\n都因大海而存在，\p因此我们海洋队\n致力于扩展海洋。\p你也这么想吧？\n我们双肩上挑着沉重的担子。\p啊，好吧…\n对你这么大的孩子来说，要理解\l我们崇高的理想还太勉强了些。\p但我警告你，\n别再妨碍我们的计划，\p否则我会让你知道\n我们的厉害！\p好好记住！$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
-    .string "楠木馆长：你是…\n啊，是吗，你是{PLAYER}{KUN}…\p刚才的形势太紧张了！\n谢谢你救了我！\p噢，对了，我差点忘了\n你还带着得文送来的部件！$"
+    .string "楠木馆长：你是…\n啊，是吗，你是{PLAYER}{KUN}…\p刚才的形势太紧张了！\n谢谢你救了我！\p噢，对了，我差点忘了\n你还带着得文送来的零件！$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
     .string "楠木馆长：呼！\n没时间了！\p我们得赶快开始\n我们的海底探索了。\p再次谢谢你，不过\n我现在得走了！\p随便观赏一下\n我们的展品吧。$"
@@ -340,7 +340,7 @@ SlateportCity_OceanicMuseum_2F_Text_SurfaceSeawaterDisplay:
     .string "海水循环的演示。\p“在洋面上，海水\n被风吹动，形成洋流。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica:
-    .string "“正在楠木的船厂建造的\p破浪号游船的\n等比例模型。”$"
+    .string "“正在楠木造船厂建造的\p破浪号游船的\n等比例模型。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica:
     .string "“潜艇海渊1号\p洋底探险用\n高级潜水艇的模型。”$"

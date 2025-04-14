@@ -14,7 +14,7 @@ BattleFrontier_Lounge8_EventScript_NinjaBoy::
 	end
 
 BattleFrontier_Lounge8_Text_WhatATrainerNeeds:
-    .string "训练家所需要的一切…\p知识…\n战术…\l幸运…\l斗志…\l精神…\l勇气…\l还有才能…\p我可是拥有这一切！\n在这里我必定是战无不胜的！\p嗯？宝可梦？\n那是什么？$"
+    .string "训练家所需要的一切…\p知识…\n战术…\l运气…\l毅力…\l精神…\l英勇…\l还有能力…\p我可是拥有这一切！\n在这里我必定是战无不胜的！\p嗯？宝可梦？\n那是什么？$"
 
 BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains:
     .string "你知道\n开拓之脑吗？\p亚希达是这么称呼\n管理对战开拓区七大设施的\l那七位特别的训练家的。$"

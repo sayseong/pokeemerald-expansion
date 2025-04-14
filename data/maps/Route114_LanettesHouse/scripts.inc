@@ -49,7 +49,7 @@ Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
     .string "真由美：哦！{PLAYER}{KUN}！\p对不起这里太乱了…\n当我全神贯注于研究时\l东西就会这样了…\p这很难为情…请帮我保守秘密\n作为交换给你这个。$"
 
 Route114_LanettesHouse_Text_OrganizeYourBoxes:
-    .string "关于宝可梦存储系统\n给你一些建议吧\p你只需要整理下盒子\n就可以分辨出宝可梦存在哪。$"
+    .string "关于宝可梦寄放系统\n给你一些建议吧\p你只需要整理下盒子\n就可以分辨出宝可梦存在哪。$"
 
 Route114_LanettesHouse_Text_ResearchNotesPage1:
     .string "真由美的研究注释。\n关于盒子的信息。\p每个盒子可以保管30只宝可梦。\p每个训练家可以在电脑\n系统里保管420只宝可梦。\p继续阅读吗？$"
@@ -64,5 +64,5 @@ Route114_LanettesHouse_Text_ClosedTheNotebook:
     .string "{PLAYER}合上了笔记本。$"
 
 Route114_LanettesHouse_Text_EmailFromBill:
-    .string "通过电脑收到了\n某人发来的信件。\p“… … … … … … …\p“你的存储系统比我的\n更加方便。\p“而且它也有许多容易掌握的因素\n使得更有用有趣。\p“在它的发展中我起到了作用\n我感到很骄傲。\p“希望你会继续做出\n存储系统方面的研究。\p“来自正辉\n… … … … … … … …”$"
+    .string "通过电脑收到了\n某人发来的信件。\p“… … … … … … …\p“你的寄放系统比我的\n更加方便。\p“而且它也有许多容易掌握的因素\n使得更有用有趣。\p“在它的发展中我起到了作用\n我感到很骄傲。\p“希望你会继续做出\n寄放系统方面的研究。\p“来自正辉\n… … … … … … … …”$"
 

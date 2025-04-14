@@ -1035,7 +1035,7 @@ Route104_Text_RouteSignRustboro:
     .string "104号道路\n{UP_ARROW}卡那兹市$"
 
 Route104_Text_PrettyPetalFlowShop:
-    .string "漂亮的花瓣花店$"
+    .string "圣橙华花店$"
 
 Route104_Text_TrainerTipsDoubleBattles:
     .string "训练家小技巧\p在丰缘地区中，一些\n结伴的训练家会向别人发起\l2对2的挑战，\l称作双打对战。\p在双打对战中，训练家要派出\n两只宝可梦，即列表\l左边的和最上边的。\l一定要注意宝可梦的队列顺序。$"

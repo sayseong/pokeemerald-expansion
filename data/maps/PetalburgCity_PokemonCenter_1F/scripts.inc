@@ -55,7 +55,7 @@ PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType::
 	return
 
 PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem:
-    .string "电脑上的\n宝可梦存储系统…\p无论是谁发明的，\n那人一定是个科学狂人！$"
+    .string "电脑上的\n宝可梦寄放系统…\p无论是谁发明的，\n那人一定是个科学狂人！$"
 
 PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP:
     .string "我的宝可梦吃了蓝橘果后，\n它的体力就恢复了！$"

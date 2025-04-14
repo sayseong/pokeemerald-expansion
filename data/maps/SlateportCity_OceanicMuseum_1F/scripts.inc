@@ -225,7 +225,7 @@ SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExitNorth:
 	step_end
 
 SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter:
-    .string "欢迎来到海之博物馆，\p参观费¥50。\n您想参观吗？$"
+    .string "欢迎来到海洋科学博物馆，\p参观费¥50。\n您想参观吗？$"
 
 SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself:
     .string "祝您愉快。$"

@@ -162,7 +162,7 @@ LilycoveCity_LilycoveMuseum_1F_EventScript_FatMan::
 	end
 
 LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
-    .string "欢迎来到水静市博物馆，\p请随意观赏\n我们这里优秀的\l宝可梦艺术品。$"
+    .string "欢迎来到水静市美术馆，\p请随意观赏\n我们这里优秀的\l宝可梦艺术品。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings:
     .string "我是这个美术馆的\n馆长，\p很高兴能在这里\n看到你这样的年轻人。\p你看过我们的\n展品了吗？$"
@@ -213,7 +213,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
     .string "和宝可梦一同战斗很有趣，\n我承认，\p但人们不能忘记\n对艺术的热爱。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration:
-    .string "这家美术博物馆…这里有\n很多优秀的画作，\p馆长也是个杰出的人。\p对我们这样的艺术家来说，\n这间博物馆总能给我们带来灵感。$"
+    .string "这家美术馆…这里有\n很多优秀的画作，\p馆长也是个杰出的人。\p对我们这样的艺术家来说，\n这间美术馆总能给我们带来灵感。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisLadyIsPretty:
     .string "这位女士真漂亮！\n就像我妈妈一样！$"
@@ -222,7 +222,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_ThisPokemonIsAdorable:
     .string "这只宝可梦真可爱！\n就像我们的小宝宝一样！$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HeardMuseumGotNewPaintings:
-    .string "听说这间美术博物馆\n弄了些新画作，\p所以我赶来了。\p那些新画\n放在二楼吗？$"
+    .string "听说这间美术馆\n弄了些新画作，\p所以我赶来了。\p那些新画\n放在二楼吗？$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_CuratorHasBeenCheerful:
     .string "最近馆长总是\n兴高采烈，\p我敢说他身上\n肯定发生了什么好事。$"
@@ -231,5 +231,5 @@ LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings:
     .string "我立志要来这里\n观赏大量作品学习绘画，\p我一直梦想某一天\n我的画作也能挂在这里。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
-    .string "美术博物馆已经成为\n一个旅游景点，\p这对水静市来说也是好消息…\n不，是对整个丰缘地区都是好消息！\p我听说——楼上的画全部\n属于同一个训练家。$"
+    .string "美术馆已经成为\n一个旅游景点，\p这对水静市来说也是好消息…\n不，是对整个丰缘地区都是好消息！\p我听说——楼上的画全部\n属于同一个训练家。$"
 

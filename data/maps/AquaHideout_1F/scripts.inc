@@ -60,7 +60,7 @@ AquaHideout_1F_Text_BossWentToJackASubmarine:
     .string "什么？什么？你来找\n海洋队干什么？\p我们的老大不在这里！\n他去抢潜水艇了！\p… …\n他去哪了？\p哇哈哈！你以为我会告诉你\n这么重要的事吗？$"
 
 AquaHideout_1F_Text_BossIsOnRoute122:
-    .string "什么？什么？你来找\n海洋队干什么？\p我们的老大不在这里！他到\n122号航道上的送神山码头去了！\p… …\n他去哪了？\p哇哈哈！你以为我会告诉你\n这么重要的事吗？$"
+    .string "什么？什么？你来找\n海洋队干什么？\p我们的老大不在这里！他到\n122号水路上的送神山码头去了！\p… …\n他去哪了？\p哇哈哈！你以为我会告诉你\n这么重要的事吗？$"
 
 AquaHideout_1F_Text_TeamMagmaAtMtChimney:
     .string "什么？什么？\n你是熔岩队的人么？\p我听说熔岩队正在烟囱山\n寻找一只极可怕的宝可梦。\p那宝可梦到底是什么样子啊？$"

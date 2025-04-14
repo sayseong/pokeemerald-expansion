@@ -1073,10 +1073,10 @@ RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
     .string "那个小偷大概\n向着那边的隧道逃跑了。$"
 
 RustboroCity_Text_YouGotItThankYou:
-    .string "嗨！怎么样了？\n得文的物品？\p太好了！\n你拿回来了！\p你真是厉害的训练家！\p这些高级球就\n做为我的谢礼吧！$"
+    .string "嗨！怎么样了？\n得文的物品？\p太好了！\n你拿回来了！\p你真是厉害的训练家！\p这些超级球就\n做为我的谢礼吧！$"
 
 RustboroCity_Text_YoureLoadedWithItems:
-    .string "你背了太多东西，\n装不下这些高级球了。$"
+    .string "你背了太多东西，\n装不下这些超级球了。$"
 
 RustboroCity_Text_PleaseComeWithMe:
     .string "我可以占用你些时间吗？\n请跟我来！$"

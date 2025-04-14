@@ -152,7 +152,7 @@ SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2::
     .string "哦…\n这看起来很有趣。\p你的确非常的离不开{STR_VAR_1}，\n是吗？\p现在对于你的想法\n有些了解了应该可以做节目了。\p我保证这将会是我们的下\n一期的节目。\l期待你的关注。\p就这样了l。\n再见！$"
 
 gTVFanClubOpinionsText00::
-    .string "我们是宝可梦同好会！\p现在正在直播！\p这期的节目，我们将会听你们的想法，\n我将会从你们的那选一些出来播！\l听起来是不是很奇妙啊？\p今天我们来带的报道是\n在宝可梦同好会遇到\l的。\p所以让我们来看看\n今天宝可梦粉丝？\p… … … … … … … …\p{STR_VAR_1}！\p让我们看看{STR_VAR_1}都是\n怎么谈论{STR_VAR_3} {STR_VAR_2}。\p同时，我将会把这些爱的呼唤\n大声的在电视中播放给大家！\p啊！\p让我们喊出来吧！$"
+    .string "我们是宝可梦发烧友俱乐部！\p现在正在直播！\p这期的节目，我们将会听你们的想法，\n我将会从你们的那选一些出来播！\l听起来是不是很奇妙啊？\p今天我们来带的报道是\n在宝可梦发烧友俱乐部遇到\l的。\p所以让我们来看看\n今天宝可梦粉丝？\p… … … … … … … …\p{STR_VAR_1}！\p让我们看看{STR_VAR_1}都是\n怎么谈论{STR_VAR_3} {STR_VAR_2}。\p同时，我将会把这些爱的呼唤\n大声的在电视中播放给大家！\p啊！\p让我们喊出来吧！$"
 
 gTVFanClubOpinionsText01::
     .string "我们问{STR_VAR_1}，“当你第\n一次看到{STR_VAR_2}，你的\l第一感觉是什么？”\p“{STR_VAR_3}！”\p耶！这一声多么强有力的呼喊啊！\p这是不是让你想起了你的\n从前呢？$"
@@ -167,7 +167,7 @@ gTVFanClubOpinionsText04::
     .string "应该还有呢。\n我查一下吧！\p让我看看…\p我们这样问{STR_VAR_1}，\n“宝可梦对于你来说有什么意义呢？”\p… … … … … …\p“{STR_VAR_3}！”\p好极了！\p这是我今天听到最棒的呐喊！\p“{STR_VAR_3}！”\p他让你一遍一遍的\n重复着！\p既然我们得到了这么棒的呐喊，\n又到了我们说再见的时候了！\p所以我们再最后一次把它大声喊出来吧！\n现在就一起…\p“{STR_VAR_3}！”$"
 
 gTVFanClubText00::
-    .string "我们是宝可梦同好会！\p现在正在直播！\p今天我们将连线到\n宝可梦服务中心。\p除了那些关于训练家和宝可梦的\n花边新闻，今天什么东西会吸引\l我们的眼球呢？\p让我看看…\p这个！\p我们将从这封信来开始！\p这是一封来自{STR_VAR_1}关于\n受人喜爱的{STR_VAR_2}的。\p让我们看看作者是怎样激情的\n表达了对于{STR_VAR_2}的喜爱！\l恩…$"
+    .string "我们是宝可梦发烧友俱乐部！\p现在正在直播！\p今天我们将连线到\n宝可梦服务中心。\p除了那些关于训练家和宝可梦的\n花边新闻，今天什么东西会吸引\l我们的眼球呢？\p让我看看…\p这个！\p我们将从这封信来开始！\p这是一封来自{STR_VAR_1}关于\n受人喜爱的{STR_VAR_2}的。\p让我们看看作者是怎样激情的\n表达了对于{STR_VAR_2}的喜爱！\l恩…$"
 
 gTVFanClubText01::
     .string "哇！\n多么令人惊奇的信啊！$"
@@ -293,7 +293,7 @@ gTVTrainerFanClubSpecialText05::
     .string "你们得到了，朋友们！\p我想我们会学到一些\n关于{STR_VAR_1}的新知识。\p在结束时，我会给你\n{STR_VAR_2}的剑。\p{STR_VAR_3} {STR_VAR_1}！$"
 
 gTVNameRaterText00::
-    .string "那么现在，到时间…\n姓名占卜师。\p通过你给它的昵称，\n我会告诉你关于你宝可梦的未来。\p我给你的建议会对你\n非常有帮助。\p今天，我就读一读\n{STR_VAR_1}的{STR_VAR_3}昵称\l宝可梦{STR_VAR_2}。\p嗯…\p嗯…\n昵称就是…$"
+    .string "那么现在，到时间…\n姓名鉴定师。\p通过你给它的昵称，\n我会告诉你关于你宝可梦的未来。\p我给你的建议会对你\n非常有帮助。\p今天，我就读一读\n{STR_VAR_1}的{STR_VAR_3}昵称\l宝可梦{STR_VAR_2}。\p嗯…\p嗯…\n昵称就是…$"
 
 gTVNameRaterText01::
     .string "一个昵称用许多不同的方式\n来提示天赋。\p我力劝这个训练家打起勇气\n多多接受挑战。$"
@@ -621,7 +621,7 @@ gTVSecretBaseVisitText13::
     .string "我必须说，超级的秘密基地\n就是这样的！\p参观者们，如果你有机会，\n一定要参观一下{STR_VAR_1}的秘密基地。\p希望还能再见！$"
 
 gTVPokemonLotteryWinnerFlashReportText00::
-    .string "多么令人激动！\n多么具有戏剧性！\p这是宝可梦彩票\n赢家快速报导！\p大家好！这是在水静市\l商业大厦一楼的\n宝可梦彩票中心的\l现场直播！\p就像以前一样，今天出现了幸运的训练家！\p这个训练家是…\n{STR_VAR_1}！\p{STR_VAR_1}得了{STR_VAR_2}等奖\n他获得了{STR_VAR_3}！\p{STR_VAR_1}！\n恭喜！\p观众们，不要只是在电视机前观看，\n加入我们吧！\p水静市商业大厦的我们\n期待着你的下次来访！\p这是来自水静市商业大厦\n的现场直播，\l给你提供，在丰缘能买到的\l最好的商品！$"
+    .string "多么令人激动！\n多么具有戏剧性！\p这是宝可梦彩票\n赢家快速报导！\p大家好！这是在水静\l百货一楼的\n宝可梦彩票中心的\l现场直播！\p就像以前一样，今天出现了幸运的训练家！\p这个训练家是…\n{STR_VAR_1}！\p{STR_VAR_1}得了{STR_VAR_2}等奖\n他获得了{STR_VAR_3}！\p{STR_VAR_1}！\n恭喜！\p观众们，不要只是在电视机前观看，\n加入我们吧！\p水静百货的我们\n期待着你的下次来访！\p这是来自水静百货\n的现场直播，\l给你提供，在丰缘能买到的\l最好的商品！$"
 
 gTVThePokemonBattleSeminarText00::
     .string "这里是宝可梦对战研讨会！\p我们研究战斗，来发现\n我们能从别人那里学到什么。\p今天我们来研究一下{STR_VAR_1}的\n战斗。\p{STR_VAR_1}的{STR_VAR_2}正在\n与{STR_VAR_3}战斗…$"
@@ -759,7 +759,7 @@ gTVPokemonNewsBattleFrontierText09::
     .string "训练家{STR_VAR_1}在\n对战管道战斗选择挑战赛中\l创造了{STR_VAR_2}间连续清关\l的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
 
 gTVPokemonNewsBattleFrontierText10::
-    .string "训练家{STR_VAR_1}在\n对战竞技场回合制KO比赛中\l创造了{STR_VAR_2}战全胜\l的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n对战竞技场三回合定胜负比赛中\l创造了{STR_VAR_2}战全胜\l的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
 
 gTVPokemonNewsBattleFrontierText11::
     .string "训练家{STR_VAR_1}在\n在对战宫殿单人战斗大厅的挑战中\l创造了{STR_VAR_2}战全胜\l的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
@@ -861,7 +861,7 @@ TVSecretBaseSecrets_Text_UsedSilverShield::
     .string "游客在银色的盾前\n观赏起来！\p他把眼睛睁得大大的！$"
 
 TVSecretBaseSecrets_Text_UsedGlassOrnament::
-    .string "游客在玻璃装饰品前\n观赏起来！\p噢，不！\p他上去摸了！\p那样会在上面\n粘满指纹的…$"
+    .string "游客在玻璃装饰物品前\n观赏起来！\p噢，不！\p他上去摸了！\p那样会在上面\n粘满指纹的…$"
 
 TVSecretBaseSecrets_Text_UsedTV::
     .string "游客在看电视！\p看来我们有个狂热的电视迷！$"
@@ -903,7 +903,7 @@ TVSecretBaseSecrets_Text_UsedSpinMat::
     .string "游客登上了\n旋转铺垫！\p看起来晕晕乎乎的！\p他在那摇摇晃晃的！\n当心！$"
 
 TVSecretBaseSecrets_Text_UsedSandOrnament::
-    .string "游客拿出来\n一个沙制装饰品！\p噢！\p它碎掉了！\n已经散架了！\p游客觉得\n很羞愧！$"
+    .string "游客拿出来\n一个沙制装饰物品！\p噢！\p它碎掉了！\n已经散架了！\p游客觉得\n很羞愧！$"
 
 TVSecretBaseSecrets_Text_UsedDesk::
     .string "游客用手来\n擦桌子！\p显然，他不允许\n有灰尘存在！\p他还真是出人意料的\n爱干净呢！$"

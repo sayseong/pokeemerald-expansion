@@ -91,7 +91,7 @@ PacifidlogTown_House2_EventScript_UnhappyAzurill::
 	end
 
 PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation:
-    .string "咳咳！\p我是宝可梦迷俱乐部的\n核心成员之一，\l会长的弟弟。\p我来这里和宝可梦\n一起度假，就是这样。$"
+    .string "咳咳！\p我是宝可梦发烧友俱乐部的\n核心成员之一，\l会长的弟弟。\p我来这里和宝可梦\n一起度假，就是这样。$"
 
 PacifidlogTown_House2_Text_AhYourPokemon:
     .string "啊！\n你的宝可梦…$"
@@ -106,7 +106,7 @@ PacifidlogTown_House2_Text_ViciousPokemonTakeThis:
     .string "它似乎充满了恶意。\p这样可怕的宝可梦，\n给它这个招式学习器吧。$"
 
 PacifidlogTown_House2_Text_ExplainReturnFrustration:
-    .string "如果宝可梦非常喜欢你，\n报恩的威力就会增强。\p如果它不喜欢你，\n牵连的威力则会提升。$"
+    .string "如果宝可梦非常喜欢你，\n报恩的威力就会增强。\p如果它不喜欢你，\n迁怒的威力则会提升。$"
 
 PacifidlogTown_House2_Text_GetGoodTMInXDays:
     .string "啊，是的，大概{STR_VAR_1}天后\n我能得到一两个不错的\n招式学习器，\p那时再来找我吧，\n我会给你适合\l你的宝可梦\n的招式学习器。$"

@@ -29,5 +29,5 @@ MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable:
     .string "镇上的道馆馆主是\n一对很强大的双胞姐弟。\p他们的组合，嗯，\n让人拍手叫绝！$"
 
 MossdeepCity_PokemonCenter_1F_Text_AbilitiesMightChangeMoves:
-    .string "由于宝可梦特殊能力的不同，\n有些招式会改变，\l甚至有些会根本无用。$"
+    .string "由于宝可梦特性的不同，\n有些招式会改变，\l甚至有些会根本无用。$"
 

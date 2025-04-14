@@ -546,31 +546,31 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite:
     .string "这个训练家显然没有特别\n擅长的属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleSlowAndSteady:
-    .string "最喜欢的战斗风格好像是\n慢而稳的那种。$"
+    .string "最喜欢的战斗风格好像是\n稳扎稳打的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleEndurance:
-    .string "最喜欢的战斗风格好像是\n持久战的那种。$"
+    .string "最喜欢的战斗风格好像是\n着重耐力的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleHighRisk:
-    .string "最喜欢的战斗风格好像是\n高风险，高回报的那种。$"
+    .string "最喜欢的战斗风格好像是\n孤注一掷的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleDependsOnFlow:
-    .string "最喜欢的战斗风格好像是\n根据战斗情况变化而变化的那种。$"
+    .string "最喜欢的战斗风格好像是\n善观战斗走向的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleTotalPreparation:
-    .string "最喜欢的战斗风格好像是\n以事先做好充分准备为基础的那种。$"
+    .string "最喜欢的战斗风格好像是\n万事俱备的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleWeakenFoe:
-    .string "最喜欢的战斗风格好像是\n以削弱敌人实力为开始的那种。$"
+    .string "最喜欢的战斗风格好像是\n弱敌为先的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleFlexible:
-    .string "最喜欢的战斗风格好像是\n对形势能极好适应的那种。$"
+    .string "最喜欢的战斗风格好像是\n因地制宜的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleImpossibleToPredict:
-    .string "最喜欢的战斗风格好像是\n不可能预言的那种。$"
+    .string "最喜欢的战斗风格好像是\n高深莫测的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained:
-    .string "最喜欢的战斗风格好像是\n思想自由不受约束的那种。$"
+    .string "最喜欢的战斗风格好像是\n自由奔放、无拘无束的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon:
     .string "再开始战斗之前，你要\n交换一只宝可梦吗？$"
@@ -582,7 +582,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay:
     .string "请走这边！$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait:
-    .string "我在为你保存数据。\n请稍等。$"
+    .string "我在为你保存记录。\n请稍等。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle:
     .string "你要把你上次的战斗记录\n到你的开拓通行证吗？$"

@@ -156,7 +156,7 @@ SlateportCity_BattleTentCorridor_Movement_AttendantExit:
 @ Leftover text from when this was a Contest Hall in R/S
 @ Unused
 SlateportCity_ContestHall_Text_AdviceForContests:
-    .string "需要一点点关于华丽大赛\n的建议吗？\p在某些特定种类的行动后\n使用特定招式\l可以给你带来额外的注视度。\p如果你知道该怎么做，\n你可以获得更高的吸引力。\p当然，你的对手会试着\n干扰你宝可梦的表演。$"
+    .string "需要一点点关于华丽大赛\n的建议吗？\p在某些特定种类的招式后\n使用特定招式\l可以给你带来额外的注视度。\p如果你知道该怎么做，\n你可以获得更高的吸引力。\p当然，你的对手会试着\n干扰你宝可梦的表演。$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MyPapaIsContestJudge:
@@ -168,7 +168,7 @@ SlateportCity_ContestHall_Text_ImLikeMajorlyCheesed:
 
 @ Unused
 SlateportCity_ContestHall_Text_ExplainTorment:
-    .string "拿着，TM41，\n嘿，就是无理取闹，你在听我说吗？\p就像是，它不允许同一场中\n使用两次同样的的行动，了解？\p嘿，现在，听好，就像是\n希望我并没有给你带来麻烦！$"
+    .string "拿着，TM41，\n嘿，就是无理取闹，你在听我说吗？\p就像是，它不允许同一场中\n使用两次同样的的招式，了解？\p嘿，现在，听好，就像是\n希望我并没有给你带来麻烦！$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MCStepUpTakePartInContest:
@@ -188,7 +188,7 @@ SlateportCity_ContestHall_Text_DidntPayAttentionToAppeal:
 
 @ Unused
 SlateportCity_ContestHall_Text_RewardWithSageAdvice:
-    .string "你好！你一定是追求此项活动的\n狂热爱好者。\p为了奖励你的热情\n给你一条忠告吧。\p如果一个行动表现的非常好，\n观众会变得很激动。\p当观众变得激动时\n做出这个行动的宝可梦吸引力就会…\p好了，会发生什么好事你应该\n可以想象得到吧！$"
+    .string "你好！你一定是追求此项活动的\n狂热爱好者。\p为了奖励你的热情\n给你一条忠告吧。\p如果一个招式表现的非常好，\n观众会变得很激动。\p当观众变得激动时\n做出这个招式的宝可梦吸引力就会…\p好了，会发生什么好事你应该\n可以想象得到吧！$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MoreFreakedOutThanMon:

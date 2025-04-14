@@ -519,7 +519,7 @@ Route109_Text_ZigzagoonCry:
     .string "蛇纹熊：咕呜？$"
 
 Route109_Text_SeashoreHouseSign:
-    .string "海滨之屋\p“火热的沙滩上火热的战斗！\n欢迎火热的训练家！”$"
+    .string "大海之家\p“火热的沙滩上火热的战斗！\n欢迎火热的训练家！”$"
 
 Route109_Text_TrainerTipsSign:
     .string "训练家小技巧\p同样等级的宝可梦实力\n并不完全相同。\p据说训练家训练出的宝可梦\n比野生宝可梦更强。$"

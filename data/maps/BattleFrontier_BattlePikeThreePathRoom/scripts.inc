@@ -300,7 +300,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge:
     .string "请好好享受你的选择式对战\n挑战吧…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData:
-    .string "正在为你保存数据…\n请稍等…$"
+    .string "正在为你保存记录…\n请稍等…$"
 
 BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack:
     .string "道路被阻断了！\n并且没有退路了…$"
@@ -321,19 +321,19 @@ BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath:
     .string "哦，让我看看…有一些关于\n左边道路的事…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
-    .string "好像有宝可梦特殊的气味\n在这里飘荡…$"
+    .string "似乎有宝可梦在里面的感觉……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
-    .string "是…一个训练家吗？\n我感觉到有人的存在…$"
+    .string "是……训练家吗？\n感觉到好像有人在里面……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering:
-    .string "我好像听说过一些事…\n它可能一直在低语…$"
+    .string "好像听得到轻声细语般的声音……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_WaveOfNostaliga:
-    .string "还有一点就是，我从它\n那里感受到一股陈旧的气息…$"
+    .string "不知道为什么，\n有股熟悉的氛围……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent:
     .string "我很抱歉地说…\p一件可怕的事，没错，一件恐怖的事，\n将要降临到你头上…\p我劝你要万分小心\n做好最坏的打算。$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence:
-    .string "从每条道路上我都感到有可怕的\n东西存在…$"
+    .string "无论哪道门后都有一股很可怕的感觉……$"

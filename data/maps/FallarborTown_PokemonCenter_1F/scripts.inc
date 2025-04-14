@@ -85,7 +85,7 @@ FallarborTown_PokemonCenter_1F_Movement_LanetteExitWest:
 	step_end
 
 FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
-    .string "啊，你好，\n请问你是？\p好的，{PLAYER}{KUN}，\n看来你是个训练家，\p那么你一定在使用我开发的\n宝可梦存储系统。\p只要简单推理一下\n就能猜出来了，\p你想使用这台电脑，\n所以才会跟我谈话。\p呀，抱歉，我叫真由美，\p很高兴见到你——也很高兴\n看到你在使用存储系统。\p如果可以的话，欢迎你来我家做客。\n我家就在114号道路上。$"
+    .string "啊，你好，\n请问你是？\p好的，{PLAYER}{KUN}，\n看来你是个训练家，\p那么你一定在使用我开发的\n宝可梦寄放系统。\p只要简单推理一下\n就能猜出来了，\p你想使用这台电脑，\n所以才会跟我谈话。\p呀，抱歉，我叫真由美，\p很高兴见到你——也很高兴\n看到你在使用寄放系统。\p如果可以的话，欢迎你来我家做客。\n我家就在114号道路上。$"
 
 FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown:
     .string "我想知道很久很久以前\n宝可梦是什么样子的？\p也许住在镇子边上的\n化石迷知道答案。$"

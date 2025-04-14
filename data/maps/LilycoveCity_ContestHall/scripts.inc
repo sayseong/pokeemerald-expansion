@@ -345,7 +345,7 @@ LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks:
     .string "刚刚赢了的那个年轻人\n拥有一大堆不同的宝可方块。\p无论谁有那么多，\n都肯定会赢吧？$"
 
 LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous:
-    .string "哇，这儿好大！\p空气中充满了紧张感…\n一点也不像是华丽大赛大厅。$"
+    .string "哇，这儿好大！\p空气中充满了紧张感…\n一点也不像是华丽大赛会场。$"
 
 LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
     .string "主持：好了，聪明宝可梦和\n训练家们，准备好了吗？！\p努力吧！\n开始！$"
@@ -390,7 +390,7 @@ LilycoveCity_ContestHall_Text_OverdidGrooming:
     .string "哇啊啊啊！\p参加大赛前我非常细心地\n为我的宝可梦梳洗…\p但我做得好像过头了…\n我的宝可梦的服装看上去很乱…\p我该怎么办？$"
 
 LilycoveCity_ContestHall_Text_JudgeWontSeeAuroraBeam:
-    .string "极光光线太耀眼了，\n评委会看不清的。\p呃，等等…\n这根本没有意义！$"
+    .string "极光束太耀眼了，\n评委会看不清的。\p呃，等等…\n这根本没有意义！$"
 
 LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe:
     .string "这只漂亮的宝可梦\n和我小时候很像。\p我这么说的时候，\n老公把咖啡都喷了。\p这句话很奇怪吗？$"

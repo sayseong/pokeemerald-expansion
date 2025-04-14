@@ -438,13 +438,13 @@ SlateportCity_Harbor_Text_NeedDiveToCatchSub:
     .string "楠木馆长：追上一艘\n潜艇…那是不可能的。\p你需要一只\n会潜水的宝可梦…\p也许你去\n绿岭市的话…\p那儿住着很多潜水员，\n也许有人能教会你…$"
 
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
-    .string "楠木馆长：啊，没错，\n哈奇到我们船坞来了。\p这样游船\n很快就会完工了！$"
+    .string "楠木馆长：啊，没错，\n哈奇到我们船厂来了。\p这样游船\n很快就会完工了！$"
 
 SlateportCity_Harbor_Text_FinishedMakingFerry:
     .string "楠木馆长：{PLAYER}{KUN}！\p我们终于造好\n破浪号游船了！\p多亏了你朋友哈奇的\n帮忙，我们才能这么快完工。\p上船游览一番吧！$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
-    .string "楠木馆长：嗯？\n{PLAYER}{KUN}，你拿的是…\p那是探测器！这会在我们的探险中\n派上大用场的。\p{PLAYER}{KUN}，你愿意用你的\n探测器换点东西吗？\p比如，嗯，深海之牙\n或者深海之鳞？$"
+    .string "楠木馆长：嗯？\n{PLAYER}{KUN}，你拿的是…\p那是探测器！这会在我们的探险中\n派上大用场的。\p{PLAYER}{KUN}，你愿意用你的\n探测器换点东西吗？\p比如，嗯，深海之牙\n或者深海鳞片？$"
 
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
     .string "楠木馆长：真的吗？\n那对你没什么用，{PLAYER}{KUN}…\p唉，那好吧，如果你改变主意了，\n再来告诉我。$"
@@ -453,7 +453,7 @@ SlateportCity_Harbor_Text_TradeForDeepSeaTooth:
     .string "楠木馆长：那么，\n你要用它跟我换深海之牙？$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaScale:
-    .string "楠木馆长：那么，\n你要用它跟我换深海之鳞？$"
+    .string "楠木馆长：那么，\n你要用它跟我换深海鳞片？$"
 
 SlateportCity_Harbor_Text_WhichOneDoYouWant:
     .string "楠木馆长：你想要哪个？$"

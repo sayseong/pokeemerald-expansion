@@ -464,7 +464,7 @@ LilycoveCity_Text_BrendanYouGoingToPokemonLeague:
     .string "{PLAYER}，你准备怎么办？\p你变得这么强了，\n试试挑战宝可梦联盟去吗？\p呵呵，就算我——如果能\n努力训练一下，\l我也会比你更强的，{PLAYER}。\p好了，无论如何，加油吧！$"
 
 LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
-    .string "{PLAYER}，你准备怎么办？\p想去对战开拓区\n挑战吗？\p或者你想完成\n宝可梦图鉴？\p既然你已经这么强了，\n考虑一下去国度吧。\p呵呵，如果我更努力训练的话，\n我就会比你更强了，{PLAYER}。\p也许我也该去对战开拓区。\p好了，无论如何，加油吧！$"
+    .string "{PLAYER}，你准备怎么办？\p想去对战开拓区\n挑战吗？\p或者你想完成\n宝可梦图鉴？\p既然你已经这么强了，\n考虑一下去对战开拓区吧。\p呵呵，如果我更努力训练的话，\n我就会比你更强了，{PLAYER}。\p也许我也该去对战开拓区。\p好了，无论如何，加油吧！$"
 
 LilycoveCity_Text_MovedLootIntoHideoutToday:
     .string "哼哼哼…\p我们今天往基地里\n搬了不少战利品…\p你…你是谁？！\n我只是在自言自语而已！$"
@@ -509,7 +509,7 @@ LilycoveCity_Text_MissingPokemonCameBack:
     .string "我那失踪的宝可梦…\n在我没注意时自己回来了！$"
 
 LilycoveCity_Text_ImArtDealer:
-    .string "我是一名艺术品商人，\p我的工作是买卖艺术品，\n尤其是绘画。\p我听说这里的博物馆\n正在展出极棒的艺术品…$"
+    .string "我是一名艺术品商人，\p我的工作是买卖艺术品，\n尤其是绘画。\p我听说这里的美术馆\n正在展出极棒的艺术品…$"
 
 LilycoveCity_Text_SeaRemainsForeverYoung:
     .string "时间在我们的脸上刻下了皱纹，\n而大海却还是一如既往地年轻，\l充满了生命的活力…\p呼呵呵呵呵…$"
@@ -527,34 +527,34 @@ LilycoveCity_Text_CitySign:
     .string "水静市\p“连接大海与陆地的\n城市。”$"
 
 LilycoveCity_Text_ContestHallSign:
-    .string "宝可梦华丽大赛大厅\n“训练家聚集的地方！”$"
+    .string "宝可梦华丽大赛会场\n“训练家聚集的地方！”$"
 
 LilycoveCity_Text_MotelSign:
     .string "静水旅馆\p“请记住我们——\n水静市的静水。”$"
 
 LilycoveCity_Text_MuseumSign:
-    .string "水静市博物馆\p“大量宝可梦名作\n正在展出！”$"
+    .string "水静市美术馆\p“大量宝可梦名作\n正在展出！”$"
 
 LilycoveCity_Text_MuseumSignPlayersExhibit:
-    .string "水静市博物馆\p“{PLAYER}的宝可梦收藏品\n正在展出！”$"
+    .string "水静市美术馆\p“{PLAYER}的宝可梦收藏品\n正在展出！”$"
 
 LilycoveCity_Text_HarborSignUnderConstruction:
-    .string "水静市海港\p“破浪号游船正在\n凯那市建造中，\p预计近期\n即可通航。”$"
+    .string "水静市港口\p“破浪号游船正在\n凯那市建造中，\p预计近期\n即可通航。”$"
 
 LilycoveCity_Text_HarborSign:
-    .string "水静市海港\p“愿破浪号游船\n能为您带来最快乐的旅行体验。”$"
+    .string "水静市港口\p“愿破浪号游船\n能为您带来最快乐的旅行体验。”$"
 
 LilycoveCity_Text_TrainerFanClubSign:
     .string "宝可梦训练家俱乐部\p牌子上潦草地写着一些\n训练家的名字…$"
 
 LilycoveCity_Text_DepartmentStoreSign:
-    .string "水静市商业大厦\p“满载着商品\n和快乐回家！\p“寻找你所需要的物品的\n最佳地点！”$"
+    .string "水静百货\p“满载着商品\n和快乐回家！”\p“寻找你所需要的物品的\n最佳地点！”$"
 
 LilycoveCity_Text_MoveDeletersHouseSign:
     .string "遗忘爷爷的家\p“让宝可梦忘记不需要的招式。”$"
 
 LilycoveCity_Text_DoYouKnowAboutBerryBlender:
-    .string "你知道那个叫\n树果混合机的机器吗？$"
+    .string "你知道那个叫\n树果混合器的机器吗？$"
 
 LilycoveCity_Text_FasterSpinBetterPokeblocks:
     .string "大家要齐心合力\n让它转得更快。\p据说它转得越快，\n得到的宝可方块就越好。$"
@@ -563,13 +563,13 @@ LilycoveCity_Text_ExplainBerryBlender:
     .string "它是用来制作一种\n叫做宝可方块的树果的。\p如果给宝可梦吃优质宝可方块，\n它的外貌会有很大成长。$"
 
 LilycoveCity_Text_HeardTowerCalledSkyPillar:
-    .string "据说海道某处\n有座塔，\p叫做天空之柱。$"
+    .string "据说水路某处\n有座塔，\p叫做天空之柱。$"
 
 LilycoveCity_Text_SawTallTowerOnRoute131:
-    .string "我在130号航道的附近\n看到过一座高高的塔，\p那会不会是…？$"
+    .string "我在130号水路的附近\n看到过一座高高的塔，\p那会不会是…？$"
 
 LilycoveCity_Text_JustArrivedAndSawRarePokemon:
-    .string "我们刚刚来这里\n度蜜月，\p却偶然看到一只龙属性\n宝可梦从天空飞过。\p丰缘有生活着\n那么棒的宝可梦吗？$"
+    .string "我们刚刚来这里\n度蜜月，\p却偶然看到一只龙属性\n宝可梦从天空飞过。\p丰缘有生活着\n那么厉害的宝可梦吗？$"
 
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
     .string "我们曾许愿要在蜜月中\n看到很多很多稀有宝可梦，\p并且我们一到这儿\n就看到了稀有宝可梦。\p我是说，我真的很高兴！$"

@@ -194,16 +194,16 @@ LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty:
     .string "啊…我快渴死了！$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike:
-    .string "一台贩卖机。\n想买些什么饮料？$"
+    .string "一台自动售货机。\n想买些什么饮料？$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_CanOfDrinkDroppedDown:
     .string "当啷！\p一罐{STR_VAR_1}掉出来了。$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_ExtraCanOfDrinkDroppedDown:
-    .string "当啷！\p万岁！一罐大{STR_VAR_1}\n掉出来了！$"
+    .string "当啷！\p万岁！又一罐{STR_VAR_1}\n掉出来了！$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_NotEnoughMoney:
     .string "钱不够…$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_DecidedAgainstBuyingDrink:
-    .string "不买饮料了。$"
+    .string "还是决定不买饮料了。$"

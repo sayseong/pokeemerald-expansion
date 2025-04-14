@@ -50,55 +50,55 @@ AbandonedShip_Rooms2_1F_EventScript_Garrison::
 	end
 
 AbandonedShip_Rooms2_1F_Text_DanIntro:
-    .string "丹：在寻宝的途中，\n我们发现了一名训练家！$"
+    .string "文：在寻宝的途中，\n我们发现了一名训练家！$"
 
 AbandonedShip_Rooms2_1F_Text_DanDefeat:
-    .string "丹：即使我们联手\n也没能打过他…$"
+    .string "文：即使我们联手\n也没能打过他…$"
 
 AbandonedShip_Rooms2_1F_Text_DanPostBattle:
-    .string "丹：我们什么宝藏也没找到…\n是不是已经被挖走了？$"
+    .string "文：我们什么宝藏也没找到…\n是不是已经被挖走了？$"
 
 AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons:
-    .string "丹：你连两只宝可梦都没有，\n这样肯定赢不了我们。$"
+    .string "文：你连两只宝可梦都没有，\n这样肯定赢不了我们。$"
 
 AbandonedShip_Rooms2_1F_Text_KiraIntro:
-    .string "奇拉：哦？\n我们一直在寻宝，\l结果却找到一名训练家！$"
+    .string "夏：哦？\n我们一直在寻宝，\l结果却找到一名训练家！$"
 
 AbandonedShip_Rooms2_1F_Text_KiraDefeat:
-    .string "奇拉：哦，太强了！$"
+    .string "夏：哦，太强了！$"
 
 AbandonedShip_Rooms2_1F_Text_KiraPostBattle:
-    .string "奇拉：宝藏究竟在哪里？\p我都已经想好\n挖到宝以后买什么了！$"
+    .string "夏：宝藏究竟在哪里？\p我都已经想好\n挖到宝以后买什么了！$"
 
 AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons:
-    .string "奇拉：哦，你没有两只宝可梦？\n那以后再战吧！$"
+    .string "夏：哦，你没有两只宝可梦？\n那以后再战吧！$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRegister:
-    .string "奇拉：哦，你把我惹火了！\n我要登记你！$"
+    .string "夏：哦，你把我惹火了！\n我要登记你！$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchIntro:
-    .string "丹：我们一直\n在寻找宝藏。\p我们的宝可梦也变强了，\n给你展示一下吧？$"
+    .string "文：我们一直\n在寻找宝藏。\p我们的宝可梦也变强了，\n给你展示一下吧？$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchDefeat:
-    .string "丹：你还是那么强！$"
+    .string "文：你还是那么强！$"
 
 AbandonedShip_Rooms2_1F_Text_DanPostRematch:
-    .string "丹：我们没找到宝藏，\n还输了宝可梦对战…\p我要回家…不过要是我真的说出来，\n她肯定会生气的…$"
+    .string "文：我们没找到宝藏，\n还输了宝可梦对战…\p我要回家…不过要是我真的说出来，\n她肯定会生气的…$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons:
-    .string "丹：你连两只宝可梦都没有，\n这样你是赢不了我们的。$"
+    .string "文：你连两只宝可梦都没有，\n这样你是赢不了我们的。$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchIntro:
-    .string "奇拉：哦？我们又见面了！\p你和我们一样，还在寻找\n宝藏，对不对？\p不如来场战斗吧，\n输的人放弃寻宝。$"
+    .string "夏：哦？我们又见面了！\p你和我们一样，还在寻找\n宝藏，对不对？\p不如来场战斗吧，\n输的人放弃寻宝。$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat:
-    .string "奇拉：哦，我们又输了…$"
+    .string "夏：哦，我们又输了…$"
 
 AbandonedShip_Rooms2_1F_Text_KiraPostRematch:
-    .string "奇拉：不把宝可梦练得强一些，\n不找到宝藏，\l我们绝不回去！$"
+    .string "夏：不把宝可梦练得强一些，\n不找到宝藏，\l我们绝不回去！$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons:
-    .string "奇拉：哦，你没有两只宝可梦？\n那只好以后再战了！$"
+    .string "夏：哦，你没有两只宝可梦？\n那只好以后再战了！$"
 
 AbandonedShip_Rooms2_1F_Text_JaniIntro:
     .string "我不擅长游泳，\n但我擅长对战！$"

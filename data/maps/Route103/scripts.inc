@@ -313,7 +313,7 @@ Route103_Text_BrendanTimeToHeadBack:
     .string "小悠：我想我明白了，\n我明白老爸为什么会对你\l青睐有加了。\p看，即使你才刚刚得到宝可梦，\n它已经开始喜欢你了。\p{PLAYER}，我感觉你很容易\n就能和任何宝可梦交朋友。\p我们该回研究所去了。$"
 
 Route103_Text_ShouldHaveBroughtPotion:
-    .string "我的宝可梦已经很累了…\n我本该买点药水的…$"
+    .string "我的宝可梦已经很累了…\n我本该买点伤药的…$"
 
 Route103_Text_ShortcutToOldale:
     .string "如果从这儿渡海，\n就能到达古玫镇。\p呵呵呵，这条捷径会派上不少用场的。$"

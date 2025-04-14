@@ -532,4 +532,4 @@ Route119_Text_WeatherInstitute:
     .string "天气研究所$"
 
 Route119_Text_TrainerTipsDecoration:
-    .string "训练家小技巧\p秘密基地里面\n最多只能放16个\l装饰品和家具。\p用你最喜欢的\n物品装扮出你自己的\l秘密基地吧。$"
+    .string "训练家小技巧\p秘密基地里面\n最多只能放16个\l装饰物品和家具。\p用你最喜欢的\n物品装扮出你自己的\l秘密基地吧。$"

@@ -94,5 +94,5 @@ LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar:
     .string "好惊讶！看门的宝可梦\n捉到了窃贼？\p如果我们也有\n强大的宝可梦看门…\p我们的客人\n会更有安全感。$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner:
-    .string "啊，抱歉，抱歉！\n我看电视看入迷了。\p嗯，没错，刚刚来了\n一个团队的客人，\p他们以游戏怪人之名订的房间，\n我想他们一定是制作游戏的人。\p啊—噢，我得赶紧\n去准备晚饭了！$"
+    .string "啊，抱歉，抱歉！\n我看电视看入迷了。\p嗯，没错，刚刚来了\n一个团队的客人，\p他们以游戏狂想家之名订的房间，\n我想他们一定是制作游戏的人。\p啊—噢，我得赶紧\n去准备晚饭了！$"
 

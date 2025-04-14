@@ -93,28 +93,28 @@ SSTidalRooms_Text_ThomasPostBattle:
     .string "在任何情况下都能泰然自若\n是绅士的行为准则。$"
 
 SSTidalRooms_Text_JedIntro:
-    .string "仁：说起来真有些不好意思…\n我们会展示给你爱情的力量！$"
+    .string "阿新：说起来真有些不好意思…\n我们会展示给你爱情的力量！$"
 
 SSTidalRooms_Text_JedDefeat:
-    .string "仁：唉…$"
+    .string "阿新：唉…$"
 
 SSTidalRooms_Text_JedPostBattle:
-    .string "仁：我们爱情的力量\n头一回没能取胜！\l你肯定是一名很强的训练家！$"
+    .string "阿新：我们爱情的力量\n头一回没能取胜！\l你肯定是一名很强的训练家！$"
 
 SSTidalRooms_Text_JedNotEnoughMons:
-    .string "JED: You only have one POKeMON?\nIsn't that just too lonesome?$"
+    .string "阿新: 你只有一只宝可梦？\n这是不是也太孤单了？$"
 
 SSTidalRooms_Text_LeaIntro:
-    .string "夏帆：说起来真有些傻…\n我们会展示给你爱情的力量！$"
+    .string "佳穗：说起来真有些傻…\n我们会展示给你爱情的力量！$"
 
 SSTidalRooms_Text_LeaDefeat:
-    .string "夏帆：哦，完了！$"
+    .string "佳穗：哦，完了！$"
 
 SSTidalRooms_Text_LeaPostBattle:
-    .string "夏帆：真是难以置信！\n我们爱情的力量输了…\l你肯定是一名很强的训练家！$"
+    .string "佳穗：真是难以置信！\n我们爱情的力量输了…\l你肯定是一名很强的训练家！$"
 
 SSTidalRooms_Text_LeaNotEnoughMons:
-    .string "夏帆：我也想对战…\n但你连两只宝可梦都没有…$"
+    .string "佳穗：我也想对战…\n但你连两只宝可梦都没有…$"
 
 SSTidalRooms_Text_GarretIntro:
     .string "啊，你来的正好。\p我无聊死了，\n一块玩玩吧。$"

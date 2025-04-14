@@ -616,16 +616,16 @@ Route111_Text_VickyPostBattle:
     .string "如果你不是很忙，\n就进来坐会儿吧。$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks:
-    .string "如果你不继续训练宝可梦，\n在水平越来越高的战斗中\l将会难以持续获胜下去。\p我听说宝可梦联盟的\n四大天王的实力\l比道馆馆主强多了。$"
+    .string "如果你不继续训练宝可梦，\n在水平越来越高的战斗中\l将会难以持续获胜下去。\p我听说宝可梦联盟的\n四天王的实力\l比道馆馆主强多了。$"
 
 Route111_Text_WinstrateFamilyDestroyedMe:
-    .string "我挑战过连胜一家，\n但一连四场的战斗太困难了…\l他们打败了我。$"
+    .string "我挑战过连胜家族，\n但一连四场的战斗太困难了…\l他们打败了我。$"
 
 Route111_Text_RouteSignMauville:
     .string "111号道路\n{DOWN_ARROW}紫堇市$"
 
 Route111_Text_WinstrateHouseSign:
-    .string "“我们是齐心的一家！”\n连胜之家$"
+    .string "“我们是齐心的一家！”\n连胜家族$"
 
 Route111_Text_RouteSign112:
     .string "111号道路\n{LEFT_ARROW}112号道路$"

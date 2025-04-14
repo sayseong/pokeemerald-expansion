@@ -58,16 +58,16 @@ MtPyre_2F_Text_MarkPostBattle:
     .string "这儿少有人来，所以\n我想应该有珍稀宝可梦。$"
 
 MtPyre_2F_Text_LukeIntro:
-    .string "阿照：我们来这儿试胆子。\p呵呵，如果她看到我有多棒，\n一定会迷恋上我的！\p没错！我会让她知道\n我有多厉害！$"
+    .string "辉：我们来这儿试胆子。\p呵呵，如果她看到我有多棒，\n一定会迷恋上我的！\p没错！我会让她知道\n我有多厉害！$"
 
 MtPyre_2F_Text_LukeDefeat:
-    .string "阿照：哎哟！$"
+    .string "辉：哎哟！$"
 
 MtPyre_2F_Text_LukePostBattle:
-    .string "阿照：好吧，我们输了，但是没关系！\n我就在这里，就算是试胆子，\l也没什么可害怕的！$"
+    .string "辉：好吧，我们输了，但是没关系！\n我就在这里，就算是试胆子，\l也没什么可害怕的！$"
 
 MtPyre_2F_Text_LukeNotEnoughMons:
-    .string "阿照：想跟我战斗的话\n就多带些宝可梦来，\p否则我就不能让我的她知道\n我有多帅了！$"
+    .string "辉：想跟我战斗的话\n就多带些宝可梦来，\p否则我就不能让我的她知道\n我有多帅了！$"
 
 MtPyre_2F_Text_DezIntro:
     .string "真子：我与男友一起\n来这儿试胆子。\p虽然确实很害怕，但只要有他\n在我身边就都没什么。\p没错！我要打败你，\n让他看起来更帅！$"

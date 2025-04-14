@@ -151,7 +151,7 @@ BattleFrontier_Lounge1_EventScript_Boy2::
 	end
 
 BattleFrontier_Lounge1_Text_PokemonBreederIntro:
-    .string "我培养宝可梦有70年了！\n我被人们尊为传奇性的\l顶级宝可梦饲养员！\p当你变得和我一样成熟时，\n你就能一眼看出宝可梦\l的能力。\p你是一个训练家。难道你\n没兴趣知道你的宝可梦的\l能力吗？\p来吧！\n让我们看看你的宝可梦！$"
+    .string "我培养宝可梦有70年了！\n我被人们尊为传奇性的\l顶级宝可梦培育家！\p当你变得和我一样成熟时，\n你就能一眼看出宝可梦\l的能力。\p你是一个训练家。难道你\n没兴趣知道你的宝可梦的\l能力吗？\p来吧！\n让我们看看你的宝可梦！$"
 
 BattleFrontier_Lounge1_Text_AverageAbility:
     .string "…嗯…\p这一只，总而言之，我的评价\n是能力一般。$"

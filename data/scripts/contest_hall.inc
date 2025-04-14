@@ -1795,5 +1795,5 @@ ContestHall_Text_SecondStageOfJudging:
 	.string "动作总是震惊着我们！$"
 
 ContestHall_Text_LetsAppeal:
-	.string "看看他们的热情多高啊！\n"
-	.string "开始行动了！$"
+	.string "让我看到你们的热情！\n"
+	.string "让我们一起欢呼吧！$"

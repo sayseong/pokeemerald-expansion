@@ -274,7 +274,7 @@ EventScript_EggHatch::
 	end
 
 Route117_Text_SeeWifeIfYoudLikeMeToRaiseMon:
-	.string "我是抚养家的饲养爷爷。\p"
+	.string "我是培育屋的饲养爷爷。\p"
 	.string "我会帮忙照顾训练家的那些\n"
 	.string "珍贵的宝可梦。\p"
 	.string "如果你想我照顾你的宝可梦，\n"

@@ -319,10 +319,10 @@ MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
     .string "海洋队得当心一下\n熔岩队！\p但如果他们真的敢那样，\n海洋队不就太过胆大妄为了吗？$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
-    .string "一块巨大的金属块在天空中\n爆炸，然后飞向宇宙…\p我实在无法理解！$"
+    .string "一块巨大的金属冲破云霄，\n然后飞向宇宙…\p简直匪夷所思！$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
-    .string "一块巨大的金属块在天空中\n爆炸，然后飞向宇宙…\p但熔岩队想打破\n我的那场梦！\p我不能让他们任意妄为！$"
+    .string "一块巨大的金属冲破云霄，\n然后飞向宇宙…\p但熔岩队想打破\n我的那场梦！\p我不能让他们肆意妄为！$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
     .string "大吾：{PLAYER}{KUN}，\n你读过他们的声明了吗？\p熔岩队想要的是\n这岛上的火箭燃料。\p虽然不知他们的目的何在，\n但我们不会让他们得逞的。\p我得在这儿\n盯着事情的发展，\p你趁此去镇上看看\n怎么样？$"
@@ -364,4 +364,4 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
     .string "拜托告诉老大\n我没忘记我的职责，\l但我还是尝到了苦果…$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
-    .string "这是…\n盗窃通告？\p“致宇宙中心的成员们：\n大家好吗？我们很好。\p我们很快会来你们这里\n带走火箭燃料。\p请不要妄图阻止我们，\n我们必定会带走燃料。\p愿大地更加广阔！\n                熔岩队”$"
+    .string "这是…\n盗窃预告？\p“致宇宙中心的成员们：\n大家好吗？我们很好。\p我们很快会来你们这里\n带走火箭燃料。\p请不要妄图阻止我们，\n我们必定会带走燃料。\p愿大地更加广阔！\n                熔岩队”$"

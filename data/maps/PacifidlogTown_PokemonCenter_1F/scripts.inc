@@ -30,7 +30,7 @@ PacifidlogTown_PokemonCenter_1F_EventScript_OldMan::
 	end
 
 PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
-    .string "你的训练家卡片是什么颜色？\n我的是褐色的！$"
+    .string "你的训练家卡是什么颜色？\n我的是紫铜的！$"
 
 PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
     .string "暮水镇浮在\n大群太阳珊瑚上。\p我这么说的话，\n你会相信吗？$"

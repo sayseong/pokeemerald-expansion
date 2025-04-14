@@ -76,10 +76,10 @@ VerdanturfTown_Text_MakeBattleTentDebut:
     .string "我和我的宝可梦\n战无不胜，\p所以我打算在这个镇上\n设立一个自己的对战帐篷。$"
 
 VerdanturfTown_Text_GuyTryingToBustThroughCave:
-    .string "你看到宝可梦商店旁边的\n洞窟了吗？\p那里面有个人试图\n打碎里面的巨岩\l到洞的另一侧去。\p如果能穿过隧道就太好了…\n这样我们去卡那兹市就更容易了。$"
+    .string "你看到友好商店旁边的\n洞窟了吗？\p那里面有个人试图\n打碎里面的巨岩\l到洞的另一侧去。\p如果能穿过隧道就太好了…\n这样我们去卡那兹市就更容易了。$"
 
 VerdanturfTown_Text_EasyToGetToRustboroNow:
-    .string "宝可梦商店旁的洞穴\n现在成了通向山的另一侧的隧道。\p这太棒了——现在去卡那兹市\n买得文的新产品更方便了。$"
+    .string "友好商店旁的洞穴\n现在成了通向山的另一侧的隧道。\p这太棒了——现在去卡那兹市\n买得文的新产品更方便了。$"
 
 VerdanturfTown_Text_TownSign:
     .string "绿茵镇\p“从高原上吹下来的风中\n夹带有青草的芳香。”$"

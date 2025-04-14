@@ -347,13 +347,13 @@ OldaleTown_Text_SavingMyProgress:
     .string "我想休息一下，\n所以得赶一赶进度。$"
 
 OldaleTown_Text_IWorkAtPokemonMart:
-    .string "嗨！\n我在宝可梦商店工作，\p可以跟我来吗？$"
+    .string "嗨！\n我在友好商店工作，\p可以跟我来吗？$"
 
 OldaleTown_Text_ThisIsAPokemonMart:
-    .string "这里就是宝可梦商店，\n蓝色的屋顶是我们的标志。\p我们这里出售很多东西，\n比如抓宝可梦的精灵球等等。\p这个给你，\n这是我们的宣传品。$"
+    .string "这里就是友好商店，\n蓝色的屋顶是我们的标志。\p我们这里出售很多东西，\n比如抓宝可梦的精灵球等等。\p这个给你，\n这是我们的宣传品。$"
 
 OldaleTown_Text_PotionExplanation:
-    .string "你可以随时使用药水，\n在某些情况下它比宝可梦中心\l更能派得上用场。$"
+    .string "你可以随时使用伤药，\n在某些情况下它比宝可梦中心\l更能派得上用场。$"
 
 OldaleTown_Text_WaitDontComeInHere:
     .string "啊啊啊啊！等等！\n别从这里走过去，\p这里有我刚刚发现的\n稀有宝可梦的足迹！\p等我描下它们来再说，\n好吗？$"

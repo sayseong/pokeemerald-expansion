@@ -475,7 +475,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge:
     .string "要放弃挑战吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
-    .string "保存数据中，\n请耐心等候…$"
+    .string "保存记录中，\n请耐心等候…$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
     .string "要把最近的比赛记录在\n开拓通行证上吗？$"

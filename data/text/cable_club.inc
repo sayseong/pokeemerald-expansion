@@ -85,10 +85,10 @@ CableClub_Text_TooBusyToNotice::
     .string "这个训练家太忙，\n没空注意…$"
 
 CableClub_Text_GotToLookAtTrainerCard::
-    .string "成功！看一下{STR_VAR_1}的\n训练家卡片！$"
+    .string "成功！看一下{STR_VAR_1}的\n训练家卡！$"
 
 CableClub_Text_GotToLookAtColoredTrainerCard::
-    .string "成功！看一下{STR_VAR_1}的\n训练家卡片！\p是一张{STR_VAR_2}卡！$"
+    .string "成功！看一下{STR_VAR_1}的\n训练家卡！\p是一张{STR_VAR_2}卡！$"
 
 BattleColosseum_2P_Text_TakePlaceStartBattle::
     .string "请就位，\n准备开始战斗。$"
@@ -100,7 +100,7 @@ RecordCorner_Text_ThanksForComing::
     .string "谢谢惠顾。$"
 
 CableClub_Text_TrainerCardDataOverwritten::
-    .string "训练家卡片数据\n将被覆盖。$"
+    .string "训练家卡数据\n将被覆盖。$"
 
 CableClub_Text_HopeToSeeYouAgain::
     .string "下回再见！$"
@@ -165,7 +165,7 @@ CableClub_Text_ReturnsToPreviousStep::
     .string "回到上一步。$"
 
 CableClub_Text_NeedBerryForBerryCrush::
-    .string "要使用树果混合机，\n你至少要有1个树果。$"
+    .string "要使用树果混合器，\n你至少要有1个树果。$"
 
 CableClub_Text_NeedTwoMonsForUnionRoom::
     .string "要进入联合房间，\n你至少要带有2只宝可梦。$"
