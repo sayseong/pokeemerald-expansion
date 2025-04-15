@@ -448,7 +448,7 @@ ALIGNED(4) static const u8 sText_TradingBoardInfo[] = _("交换平台是用来\n
                                                         "你现在需要登记\n你的宝可梦吗？");
 ALIGNED(4) static const u8 sText_ThankYouForRegistering[] = _("我们已经登记了你的宝可梦\n放在交换平台用来交换。\p感谢使用这项服务！\p"); // unused
 ALIGNED(4) static const u8 sText_NobodyHasRegistered[] = _("没人登记宝可梦\n在交换平台用来交换。\p\n"); // unused
-ALIGNED(4) static const u8 sText_ChooseRequestedMonType[] = _("请选择宝可梦类型\n用于交换。\n");
+ALIGNED(4) static const u8 sText_ChooseRequestedMonType[] = _("请选择宝可梦属性\n用于交换。\n");
 ALIGNED(4) static const u8 sText_WhichMonWillYouOffer[] = _("你将会拿什么宝可梦\n用来交换呢？\p");
 ALIGNED(4) static const u8 sText_RegistrationCanceled[] = _("登记取消。\p");
 ALIGNED(4) static const u8 sText_RegistrationCompleted[] = _("登记完成。\p");
