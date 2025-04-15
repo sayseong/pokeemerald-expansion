@@ -74,10 +74,10 @@ Route102_EventScript_Allen::
 	end
 
 Route102_Text_WatchMeCatchPokemon:
-    .string "小光：{PLAYER}…\n宝可梦会像这样\l藏在草丛里，对吗？\p请你看看我抓宝可梦的\n方法是不是正确。\p…哇！$"
+    .string "满充：{PLAYER}…\n宝可梦会像这样\l藏在草丛里，对吗？\p请你看看我抓宝可梦的\n方法是不是正确。\p…哇！$"
 
 Route102_Text_WallyIDidIt:
-    .string "小光：我做到了…是我的…\n我的宝可梦！$"
+    .string "满充：我做到了…是我的…\n我的宝可梦！$"
 
 Route102_Text_LetsGoBack:
     .string "{PLAYER}，谢谢！\n我们回道馆去吧！$"
@@ -89,7 +89,7 @@ Route102_Text_CatchWholeBunchOfPokemon:
     .string "我要捉一大堆\n宝可梦！$"
 
 Route102_Text_RouteSignOldale:
-    .string "102号公路\n{RIGHT_ARROW}古辰镇$"
+    .string "102号道路\n{RIGHT_ARROW}古玫镇$"
 
 Route102_Text_RouteSignPetalburg:
-    .string "102号公路\n{LEFT_ARROW}橙华市$"
+    .string "102号道路\n{LEFT_ARROW}橙华市$"

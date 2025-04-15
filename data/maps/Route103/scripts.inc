@@ -289,7 +289,7 @@ Route103_EventScript_Isabelle::
 	end
 
 Route103_Text_MayRoute103Pokemon:
-    .string "小遥：我看看…在103号公路\n发现的宝可梦有…$"
+    .string "小遥：我看看…在103号道路\n发现的宝可梦有…$"
 
 Route103_Text_MayLetsBattle:
     .string "呀，你好，{PLAYER}{KUN}！\p…啊，看来爸爸送给你\n一只宝可梦。\p既然我们都有宝可梦了，\n来一场小小的战斗吧！\p让我教你\n训练家是什么样的！。$"
@@ -301,7 +301,7 @@ Route103_Text_MayTimeToHeadBack:
     .string "小遥：我想我明白爸爸\n为什么会对你青睐有加了。\p我是说，虽然你才刚得到\n那只宝可梦，但它已经很喜欢你了。\p也许你能轻易\n与任何宝可梦相处。\p好了，\n我们该回研究所去了。$"
 
 Route103_Text_BrendanRoute103Pokemon:
-    .string "佑树：好，那么103号公路上\n有这个和这个…$"
+    .string "小悠：好，那么103号道路上\n有这个和这个…$"
 
 Route103_Text_BrendanLetsBattle:
     .string "嗨，{PLAYER}！\p…啊，看来老爸给你了一只宝可梦。\p既然这样，我们来\n切磋一下吧？\p我会教你如何才能\n成为一个训练家的！$"
@@ -310,14 +310,14 @@ Route103_Text_BrendanDefeated:
     .string "呵，{PLAYER}，看来你并没那么笨。$"
 
 Route103_Text_BrendanTimeToHeadBack:
-    .string "佑树：我想我明白了，\n我明白老爸为什么会对你\l青睐有加了。\p看，即使你才刚刚得到宝可梦，\n它已经开始喜欢你了。\p{PLAYER}，我感觉你很容易\n就能和任何宝可梦交朋友。\p我们该回研究所去了。$"
+    .string "小悠：我想我明白了，\n我明白老爸为什么会对你\l青睐有加了。\p看，即使你才刚刚得到宝可梦，\n它已经开始喜欢你了。\p{PLAYER}，我感觉你很容易\n就能和任何宝可梦交朋友。\p我们该回研究所去了。$"
 
 Route103_Text_ShouldHaveBroughtPotion:
-    .string "我的宝可梦已经很累了…\n我本该买点药水的…$"
+    .string "我的宝可梦已经很累了…\n我本该买点伤药的…$"
 
 Route103_Text_ShortcutToOldale:
-    .string "如果从这儿渡海，\n就能到达古辰镇。\p呵呵呵，这条捷径会派上不少用场的。$"
+    .string "如果从这儿渡海，\n就能到达古玫镇。\p呵呵呵，这条捷径会派上不少用场的。$"
 
 Route103_Text_RouteSign:
-    .string "103号公路\n{DOWN_ARROW}古辰镇$"
+    .string "103号道路\n{DOWN_ARROW}古玫镇$"
 

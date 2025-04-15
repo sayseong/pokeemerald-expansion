@@ -107,7 +107,7 @@ gText_ApprenticeLevelModeThanks4::
     .string "你是说，{STR_VAR_1}适合我？\n谢谢你！\p反正是你做的决定，\n{PLAYER}{KUN}，我即使输了\l也不丢人。\p就这样，以后我还会向你讨教的。\n再见！$"
 
 gText_ApprenticePleaseTeach5::
-    .string "噢，你好！{PLAYER}{KUN}！\n你可是个名人啊！\l叫我{STR_VAR_1}吧！很高兴见到你！\p我是一名三项全能运动员，所以在\n养宝可梦的同时还要注意保健。\p平时我还做一些其它的事情\n比如工作，睡觉，跳交际舞…\p因此我这种大忙人\n很难成为一名合格的训练家。\p我有个提议！\p你我相见肯定是有缘。\n所以，{PLAYER}{KUN}，你平时可不可以\l和我交流一些心得？$"
+    .string "噢，你好！{PLAYER}{KUN}！\n你可是个名人啊！\l叫我{STR_VAR_1}吧！很高兴见到你！\p我是一名铁人三项选手，所以在\n养宝可梦的同时还要注意保健。\p平时我还做一些其它的事情\n比如工作，睡觉，跳交际舞…\p因此我这种大忙人\n很难成为一名合格的训练家。\p我有个提议！\p你我相见肯定是有缘。\n所以，{PLAYER}{KUN}，你平时可不可以\l和我交流一些心得？$"
 
 gText_ApprenticeRejectTeaching5::
     .string "噢，真的不行？\n可我这种人真的\l需要你，{PLAYER}{KUN}！\p我真的需要你的建议！$"
@@ -671,13 +671,13 @@ gText_ApprenticeMonThanks15::
     .string "{STR_VAR_1}？\n你确定吗？\p知道了，那样就太好了，\n谢谢你的帮忙。\p希望就算是我也能\n沉着地解决这件事。\p下次再见吧！$"
 
 gText_ApprenticeWhichMove0::
-    .string "哇！噢，{PLAYER}！\n流鼻涕…打嗝…\p我只有一个选择！\n我无法决定我的\l行动{STR_VAR_1}…\p请，请，{PLAYER}。\n你能为我做决定吗？\p因为我{STR_VAR_1}，哪个决定\n才是更好的选择：{STR_VAR_2}\l或者{STR_VAR_3}？$"
+    .string "哇！噢，{PLAYER}！\n流鼻涕…打嗝…\p我只有一个选择！\n我无法决定我的\l招式{STR_VAR_1}…\p请，请，{PLAYER}。\n你能为我做决定吗？\p因为我{STR_VAR_1}，哪个决定\n才是更好的选择：{STR_VAR_2}\l或者{STR_VAR_3}？$"
 
 gText_ApprenticeMoveThanks0::
     .string "{STR_VAR_1}？\n哇！\p哦！对不起，{PLAYER}！\n你为我做的这个决定使我非常满意\l满意，我在哭…\p流鼻涕…\n非常感谢你！$"
 
 gText_ApprenticeWhichMove1::
-    .string "唉！嗨，{PLAYER}！\n我又需要你的建议！\p我想要教我很酷的{STR_VAR_1}\n行动。\p我喜欢决定中的任何一个\n{STR_VAR_2}或者{STR_VAR_3}。\l你的建议是什么？$"
+    .string "唉！嗨，{PLAYER}！\n我又需要你的建议！\p我想要教我很酷的{STR_VAR_1}\n招式。\p我喜欢决定中的任何一个\n{STR_VAR_2}或者{STR_VAR_3}。\l你的建议是什么？$"
 
 gText_ApprenticeMoveThanks1::
     .string "{STR_VAR_1}更好吗？我想是的！\n好，我将和那一起去！\p老师，如果我们再次在这里见面，\n请教我其它东西！$"
@@ -695,7 +695,7 @@ gText_ApprenticeMoveThanks3::
     .string "我明白了！\p但对于我来说还要进行\n{STR_VAR_1}学习…\l不！我会做得更好！\p谢谢你！$"
 
 gText_ApprenticeWhichMove4::
-    .string "噢，{PLAYER}{KUN}！\n我也正希望遇见你！\p我正想知道什么活动\n适合我{STR_VAR_1}。\p我不能决定，你能代替我做\n决定吗？\p例如…怎样进行行动\n{STR_VAR_2} {STR_VAR_3}？\l哪一个更好？$"
+    .string "噢，{PLAYER}{KUN}！\n我也正希望遇见你！\p我正想知道什么活动\n适合我{STR_VAR_1}。\p我不能决定，你能代替我做\n决定吗？\p例如…怎样选择招式\n{STR_VAR_2} {STR_VAR_3}？\l哪一个更好？$"
 
 gText_ApprenticeMoveThanks4::
     .string "{STR_VAR_1}？太谢谢你了！\p知道你做的决定，\n{PLAYER}{KUN}，如果我失败了我，会十\l分不安的。\p好，我将再次接受你的建议。\n再见！$"
@@ -707,7 +707,7 @@ gText_ApprenticeMoveThanks5::
     .string "好，明白了。\n我将在我的安排中在家里\l学习这些。\p我高兴见到一位好顾问。\n谢谢！再见！$"
 
 gText_ApprenticeWhichMove6::
-    .string "噢！好幸运！\n我又遇见你了，{PLAYER}！\l我今天再次需要你的建议。\p请敲打！\n我的问题是…\p对于我来说{STR_VAR_1}，哪个行动\n最适合，{STR_VAR_2}或者\l{STR_VAR_3}？$"
+    .string "噢！好幸运！\n我又遇见你了，{PLAYER}！\l我今天再次需要你的建议。\p请敲打！\n我的问题是…\p对于我来说{STR_VAR_1}，哪个招式\n最适合，{STR_VAR_2}或者\l{STR_VAR_3}？$"
 
 gText_ApprenticeMoveThanks6::
     .string "啊！\n{STR_VAR_1}，你说的！\l感谢你精彩的回答！\p我猜这些就是我今天所有\n想问你的东西了。\p让我们再次在这里相见，好吗？\n谢谢！$"
@@ -725,7 +725,7 @@ gText_ApprenticeMoveThanks8::
     .string "哦-哦-哦！谢谢！\n{STR_VAR_1}这！\l完全了解了！\p我希望你下次教会我更多\n东西。$"
 
 gText_ApprenticeWhichMove9::
-    .string "你好，{PLAYER}{KUN}，很好！\n我今天需要你的\l更高明的建议！\p我的最好的行动将是\n什么{STR_VAR_1}？\p可以让我赢得那样的\n东西！\p会是什么{STR_VAR_2}？\n或者{STR_VAR_3}？$"
+    .string "你好，{PLAYER}{KUN}，很好！\n我今天需要你的\l更高明的建议！\p我的最好的招式将是\n什么{STR_VAR_1}？\p可以让我赢得那样的\n东西！\p会是什么{STR_VAR_2}？\n或者{STR_VAR_3}？$"
 
 gText_ApprenticeMoveThanks9::
     .string "啊哈，{STR_VAR_1}这是！\n是，很好！\l我将教导它，就像，人参一样！\p很好，永远感谢你！\n再见！$"
@@ -734,10 +734,10 @@ gText_ApprenticeWhichMove10::
     .string "{PLAYER}{KUN}，好狂热啊！\p我的宠物！\n它学到了6个技术！\p当然我是开玩笑的！\n哇哈哈哈！\p虽然这不是谎言。\n我的宠物学到这些活动使我感觉\l不是很好。\p所以，到底我怎么选择哪个活动\n来学呢？\p{STR_VAR_2}或者{STR_VAR_3}--哪个\n我学最好{STR_VAR_1}呢？$"
 
 gText_ApprenticeMoveThanks10::
-    .string "好，所以这是{STR_VAR_1}你的选择？\n那么我将选择其他的行动！\p仅仅玩笑而已！\n主人我将服从你的教导！\p谢谢主人！\n我希望你继续教导我！$"
+    .string "好，所以这是{STR_VAR_1}你的选择？\n那么我将选择其他的招式！\p仅仅玩笑而已！\n主人我将服从你的教导！\p谢谢主人！\n我希望你继续教导我！$"
 
 gText_ApprenticeWhichMove11::
-    .string "A-H-O-Y！\n拼写是ahoy！\p我是一个唱Rap的海员！\n我总用它，不要问我为什么。\p今天，我有一个恳求你的建议\n的问题！\p{STR_VAR_2}并且{STR_VAR_3}是\n行动。什么对于我来说是\l能给{STR_VAR_1}带来最佳状态？$"
+    .string "A-H-O-Y！\n拼写是ahoy！\p我是一个唱Rap的海员！\n我总用它，不要问我为什么。\p今天，我有一个恳求你的建议\n的问题！\p{STR_VAR_2}并且{STR_VAR_3}是\n招式。什么对于我来说是\l能给{STR_VAR_1}带来最佳状态？$"
 
 gText_ApprenticeMoveThanks11::
     .string "{STR_VAR_1}，你说，嗨，嗨！\n我将立刻去教！\p如果我需要建议，\n{PLAYER}，你的话就是最好的！$"

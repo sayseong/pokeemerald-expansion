@@ -59,5 +59,5 @@ OldaleTown_Mart_Text_ImGoingToBuyPokeBalls:
     .string "我要买一大堆精灵球，\n然后抓一大堆宝可梦！$"
 
 OldaleTown_Mart_Text_RestoreHPWithPotion:
-    .string "如果宝可梦受伤过重昏厥，\n就不能再战斗了。\p要想避免宝可梦昏厥，\n就要用药水恢复它的体力。$"
+    .string "如果宝可梦受伤过重昏厥，\n就不能再战斗了。\p要想避免宝可梦昏厥，\n就要用伤药恢复它的体力。$"
 

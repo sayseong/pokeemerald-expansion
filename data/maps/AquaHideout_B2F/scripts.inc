@@ -117,10 +117,10 @@ AquaHideout_B2F_Text_Grunt6Defeat:
     .string "你怎么会这样？\n你一点也不显得累！$"
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
-    .string "说起来…我忘了\n把掌门球放在哪里了。\p如果我没有保护好它，\n会被老大骂死的…$"
+    .string "说起来…我忘了\n把大师球放在哪里了。\p如果我没有保护好它，\n会被老大骂死的…$"
 
 AquaHideout_B2F_Text_Grunt8Intro:
-    .string "我加入水舰队的时候，第一件事\n就是记住这些传送地板\l都通向什么地方。$"
+    .string "我加入海洋队的时候，第一件事\n就是记住这些传送地板\l都通向什么地方。$"
 
 AquaHideout_B2F_Text_Grunt8Defeat:
     .string "脑子里全都是\n传送地板的事情了…$"

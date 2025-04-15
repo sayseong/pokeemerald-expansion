@@ -744,16 +744,16 @@ Route110_Movement_BirchExit4:
 	step_end
 
 Route110_Text_WeCantTalkAboutAquaActivities:
-    .string "水舰队的活动…\n我们还不能多说。$"
+    .string "海洋队的活动…\n我们还不能多说。$"
 
 Route110_Text_KickUpARuckus:
     .string "我想去凯那市\n搞出大飞机来！$"
 
 Route110_Text_MyFirstJobInAqua:
-    .string "这是我加入水舰队后的\n第一件工作。我有点害怕。$"
+    .string "这是我加入海洋队后的\n第一件工作。我有点害怕。$"
 
 Route110_Text_AquaActionsBringSmiles:
-    .string "水舰队的活动应该让\n所有人都欣慰地笑起来！$"
+    .string "海洋队的活动应该让\n所有人都欣慰地笑起来！$"
 
 Route110_Text_MayLetsBattle:
     .string "小遥：嗨，{PLAYER}{KUN}，好久不见了！\p我寻找宝可梦的时候，\n自己的宝可梦也变强了。\p那么…\n来战斗一场吧？$"
@@ -765,19 +765,19 @@ Route110_Text_MayTakeThis:
     .string "小遥：{PLAYER}{KUN}，你\n也在努力训练是吧？\p我想你应该得到些奖励！\n这是给你的！$"
 
 Route110_Text_MayExplainItemfinder:
-    .string "小遥：这是探测仪。\p试试，如果附近有看不见的\n物品，它就会响起来。\p好了，{PLAYER}{KUN}，下次再见！\p虽然我这么说你可能会不以为然\n但我想下次见面前你得\l更努力训练才是。$"
+    .string "小遥：这是探宝器。\p试试，如果附近有看不见的\n物品，它就会响起来。\p好了，{PLAYER}{KUN}，下次再见！\p虽然我这么说你可能会不以为然\n但我想下次见面前你得\l更努力训练才是。$"
 
 Route110_Text_BrendanLetsBattle:
-    .string "佑树：嗨，{PLAYER}，\n你到这儿来了。\l还顺利吗？\p你的宝可梦训练得如何？\n向我展示一下吧。$"
+    .string "小悠：嗨，{PLAYER}，\n你到这儿来了。\l还顺利吗？\p你的宝可梦训练得如何？\n向我展示一下吧。$"
 
 Route110_Text_BrendanDefeated:
     .string "唔…\n你很厉害。$"
 
 Route110_Text_BrendanTakeThis:
-    .string "佑树：{PLAYER}，在我不注意时\n你已经变得这么强了…\p干得不错！\n来，这个给你。$"
+    .string "小悠：{PLAYER}，在我不注意时\n你已经变得这么强了…\p干得不错！\n来，这个给你。$"
 
 Route110_Text_BrendanExplainItemfinder:
-    .string "佑树：这是探测仪。\p用它可以寻找附近\n看不见的物品。\p如果它探测到什么，\n就会发出声响。\p好了，我去找\n新的宝可梦了。$"
+    .string "小悠：这是探宝器。\p用它可以寻找附近\n看不见的物品。\p如果它探测到什么，\n就会发出声响。\p好了，我去找\n新的宝可梦了。$"
 
 Route110_Text_RideBikeAtFullSpeed:
     .string "在自行车道上\n风驰电掣的感觉很好吧？$"
@@ -825,25 +825,25 @@ Route110_Text_AlwaysAimHigher:
     .string "不管结果如何，\n我想看看你挑战纪录的样子。\l向更高目标冲刺吧！$"
 
 Route110_Text_AcroBikesDoNotQualify:
-    .string "这条自行车道上，骑风速自行车的人\n通过整条路所用的时间\l和碰撞次数都会被记录下来。\p飞跃自行车的成绩不值得记录，\n因为它们控制起来很容易。$"
+    .string "这条自行车道上，骑风速自行车的人\n通过整条路所用的时间\l和碰撞次数都会被记录下来。\p越野自行车的成绩不值得记录，\n因为它们控制起来很容易。$"
 
 Route110_Text_SlateportCitySign:
-    .string "110号公路\n{DOWN_ARROW}凯那市$"
+    .string "110号道路\n{DOWN_ARROW}凯那市$"
 
 Route110_Text_CyclingRoadSign:
     .string "海边自行车道$"
 
 Route110_Text_AquaWasHere:
-    .string "“水舰队到此一游！”\p牌子上有人涂了这样的文字，\n但后来有什么人涂掉了那些字。\p“火岩队最高！”\n现在上面是这么写的。$"
+    .string "“海洋队到此一游！”\p牌子上有人涂了这样的文字，\n但后来有什么人涂掉了那些字。\p“熔岩队最高！”\n现在上面是这么写的。$"
 
 Route110_Text_Route103Sign:
-    .string "110号公路\n{LEFT_ARROW}103号公路$"
+    .string "110号道路\n{LEFT_ARROW}103号道路$"
 
 Route110_Text_SeasideParkingSign:
     .string "海边停车场$"
 
 Route110_Text_MauvilleCitySign:
-    .string "110号公路\n{UP_ARROW}紫堇市$"
+    .string "110号道路\n{UP_ARROW}紫堇市$"
 
 Route110_Text_TrainerTipsPrlzSleep:
     .string "训练家小技巧\p敌人被麻痹或催眠后\n会无法自卫。\p这类招式在战斗中\n很重要。$"

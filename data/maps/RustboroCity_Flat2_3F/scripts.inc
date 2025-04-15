@@ -10,8 +10,8 @@ RustboroCity_Flat2_3F_EventScript_Woman::
 	end
 
 RustboroCity_Flat2_3F_Text_PresidentCollectsRareStones:
-    .string "得文的董事长喜欢收集\n稀有的石头。$"
+    .string "得文的社长喜欢收集\n稀有的石头。$"
 
 RustboroCity_Flat2_3F_Text_PresidentsSonAlsoCollectsRareStones:
-    .string "我想董事长的儿子\n也喜欢收集稀有石头。$"
+    .string "我想社长的儿子\n也喜欢收集稀有石头。$"
 

@@ -131,5 +131,5 @@ Route112_Text_MtChimneySign:
     .string "烟囱山\p“去釜炎镇或山顶，\n请乘坐缆车。”$"
 
 Route112_Text_RouteSignLavaridge:
-    .string "112号公路\n{LEFT_ARROW}釜炎镇$"
+    .string "112号道路\n{LEFT_ARROW}釜炎镇$"
 

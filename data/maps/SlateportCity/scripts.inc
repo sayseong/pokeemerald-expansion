@@ -985,7 +985,7 @@ SlateportCity_Text_BushedHikingFromMauville:
     .string "呼…累死了…\p我是从紫堇市徒步走来的。\n但是，看呐，这城市简直太大了。\p早知道我就\n骑车过来了。$"
 
 SlateportCity_Text_EveryoneCallsHimCaptStern:
-    .string "是库斯诺吉设立了博物馆，\n他同时也是\l海底勘探队的队长，\p大家都叫他库斯诺吉馆长。$"
+    .string "是楠木设立了博物馆，\n他同时也是\l海底勘探队的队长，\p大家都叫他楠木馆长。$"
 
 SlateportCity_Text_WhatsLongLineOverThere:
     .string "那边怎么了？\n排了那么长的队…$"
@@ -997,7 +997,7 @@ SlateportCity_Text_QuitPushing:
     .string "喂，你！别挤！\n你得排队，知道吗？$"
 
 SlateportCity_Text_AquaHasPolicy:
-    .string "水舰队在办事的时候\n有专业的集合和撤退手段。$"
+    .string "海洋队在办事的时候\n有专业的集合和撤退手段。$"
 
 SlateportCity_Text_BossIsBrilliant:
     .string "我们老大很聪明，\p但我还没明白\n他为什么要占领博物馆。$"
@@ -1042,7 +1042,7 @@ SlateportCity_Text_BuyTooMuch:
     .string "每次我来这里都控制不住自己，\n买一大堆东西回去。$"
 
 SlateportCity_Text_GetNameRaterToHelpYou:
-    .string "想为你的宝可梦\n改名的话，就\l去找姓名占卜师帮忙吧。$"
+    .string "想为你的宝可梦\n改名的话，就\l去找姓名鉴定师帮忙吧。$"
 
 SlateportCity_Text_CantChangeTradeMonName:
     .string "你不能更改\n交换得来的宝可梦的名字，\p因为那名字中\n包含着原先的训练家对它的情感。$"
@@ -1051,13 +1051,13 @@ SlateportCity_Text_BattleTentBuiltRecently:
     .string "最近凯那市\n出现了一个对战帐篷。\p虽然道馆也很有趣，\n但对战帐篷更棒。\p在对战帐篷里\n能见到很厉害的宝可梦！$"
 
 SlateportCity_Text_CaptSternBeingInterviewed:
-    .string "我本来希望记者们会去采访个明星，\n这样我就能去要签名了。\p但他们采访的是谁？\n那不是库斯诺吉馆长吗？$"
+    .string "我本来希望记者们会去采访个明星，\n这样我就能去要签名了。\p但他们采访的是谁？\n那不是楠木馆长吗？$"
 
 SlateportCity_Text_InterviewerSoCool:
     .string "那个女记者真棒，\n我长大后也要做个国际记者！$"
 
 SlateportCity_Text_SternSaysDiscoveredSomething:
-    .string "库斯诺吉馆长说\n他们在海底找到了什么东西。\p那到底是什么？\n会是什么东西呢？$"
+    .string "楠木馆长说\n他们在海底找到了什么东西。\p那到底是什么？\n会是什么东西呢？$"
 
 SlateportCity_Text_CaptainComeBackWithBigFish:
     .string "发生什么了？\p馆长带着\n从海底找到的大鱼回来了？$"
@@ -1069,28 +1069,28 @@ SlateportCity_Text_CaptainsACelebrity:
     .string "电视采访！哇！\n馆长是名人了！$"
 
 SlateportCity_Text_BigSmileForCamera:
-    .string "达伊：好，库斯诺吉馆长，\n对镜头笑一下！$"
+    .string "达伊：好，楠木馆长，\n对镜头笑一下！$"
 
 SlateportCity_Text_MostInvaluableExperience:
-    .string "玛丽：我们知道您在此次探险中\n获得了非常宝贵的经验…$"
+    .string "玛莉：我们知道您在此次探险中\n获得了非常宝贵的经验…$"
 
 SlateportCity_Text_SternMoveAheadWithExploration:
-    .string "库斯诺吉馆长：是的，\n我们打算把探险继续进行下去。$"
+    .string "楠木馆长：是的，\n我们打算把探险继续进行下去。$"
 
 SlateportCity_Text_GabbyWonderfulThanksForInterview:
-    .string "玛丽：加油吧，库斯诺吉馆长！\n感谢您在百忙中抽出时间来\l接受我们的采访，\p下次有什么新发现的话，\n希望还能允许我们采访您！$"
+    .string "玛莉：加油吧，楠木馆长！\n感谢您在百忙中抽出时间来\l接受我们的采访，\p下次有什么新发现的话，\n希望还能允许我们采访您！$"
 
 SlateportCity_Text_SternWhewFirstInterview:
-    .string "库斯诺吉馆长：呼…\p这是我第一次上电视。\n真紧张。$"
+    .string "楠木馆长：呼…\p这是我第一次上电视。\n真紧张。$"
 
 SlateportCity_Text_OhPlayerWeMadeDiscovery:
-    .string "噢！{PLAYER}{KUN}！\n你精神真不错！\p在我们上次探险中\n有个大发现，\p在128号航道上\n有个海底洞窟。\p我们认为这可能是一种\n被认为灭绝了很久的宝可梦的栖息地。$"
+    .string "噢！{PLAYER}{KUN}！\n你精神真不错！\p在我们上次探险中\n有个大发现，\p在128号水路上\n有个海底洞窟。\p我们认为这可能是一种\n被认为灭绝了很久的宝可梦的栖息地。$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
-    .string "哼哼哼…\n库斯诺吉馆长，打扰了，\p你的潜水艇\n我们水舰队征用了！\p反抗是没用的！\n希望你好好配合！\p哼哼哼…\n你就好好看看我们水舰队的\l宏伟计划吧！$"
+    .string "哼哼哼…\n楠木馆长，打扰了，\p你的潜水艇\n我们海洋队征用了！\p反抗是没用的！\n希望你好好配合！\p哼哼哼…\n你就好好看看我们海洋队的\l宏伟计划吧！$"
 
 SlateportCity_Text_SternWhatWasAllThat:
-    .string "库斯诺吉馆长：怎么回事？\p听起来好像是\n有人在用扩音器说话…\p声音是从哪儿来的？$"
+    .string "楠木馆长：怎么回事？\p听起来好像是\n有人在用扩音器说话…\p声音是从哪儿来的？$"
 
 SlateportCity_Text_FromHarborTryingToTakeSub:
     .string "是船舶那儿！\p潜水艇！\n他们想抢潜艇！$"
@@ -1102,19 +1102,19 @@ SlateportCity_Text_BattleTentSign:
     .string "对战帐篷凯那市分址\n“得到了！究极宝可梦！”$"
 
 SlateportCity_Text_SternsShipyardWantedSign:
-    .string "库斯诺吉的船厂\p“招募：在任何水流中\n都能驾船的水手。”$"
+    .string "楠木造船厂\p“招募：在任何水流中\n都能驾船的水手。”$"
 
 SlateportCity_Text_SternsShipyardNearsCompletion:
-    .string "库斯诺吉的船厂\p“由凯那市到水静市的\n破浪号游船\l将在近期完工。”$"
+    .string "楠木造船厂\p“由凯那市到水静市的\n破浪号游船\l将在近期完工。”$"
 
 SlateportCity_Text_SternsShipyardFerryComplete:
-    .string "库斯诺吉的船厂\p“凯那市-水静市的\n破浪号游船的下水仪式\l将在海港举行。”$"
+    .string "楠木造船厂\p“凯那市-水静市的\n破浪号游船的下水仪式\l将在港口举行。”$"
 
 SlateportCity_Text_PokemonFanClubSign:
-    .string "宝可梦同好会\n“聚集着所有喜爱宝可梦的人！”$"
+    .string "宝可梦发烧友俱乐部\n“聚集着所有喜爱宝可梦的人！”$"
 
 SlateportCity_Text_OceanicMuseumSign:
-    .string "“无垠的大海哺育了\n世间一切的生命。”\p海之博物馆$"
+    .string "“无垠的大海哺育了\n世间一切的生命。”\p海洋科学博物馆$"
 
 SlateportCity_Text_CitySign:
     .string "凯那市\p“人与宝可梦\n和谐共处的海港。”$"
@@ -1123,19 +1123,19 @@ SlateportCity_Text_MarketSign:
     .string "凯那市市场\n“我们有其他地方买不到的商品！”$"
 
 SlateportCity_Text_HarborFerryUnderConstruction:
-    .string "凯那市港口\p“破浪号游船\n正在船坞加工建造，\p预计近期\n即可通航。”$"
+    .string "凯那市港口\p“破浪号游船\n正在船厂加工建造，\p预计近期\n即可通航。”$"
 
 SlateportCity_Text_HarborSign:
     .string "凯那市港口\p“愿破浪号游船\n为您带来最快乐的旅行体验。”$"
 
 SlateportCity_Text_NameRatersHouseSign:
-    .string "姓名占卜师\n“占卜宝可梦名字的好坏。”$"
+    .string "姓名鉴定师\n“鉴定宝可梦名字的好坏。”$"
 
 SlateportCity_Text_ExplainBerries:
     .string "你知道吗？\n当野生宝可梦受伤时，\p它会寻找树果吃，为自己疗伤。\p有人受到启发，\n从而想到用树果制药。\p知道吗？\p要用树果制药，\n就得先把树果磨成粉末。\p你知道吗？\p你好像对树果\n很感兴趣！\p我有好东西\n要送给你。$"
 
 SlateportCity_Text_ExplainBerryPowder:
-    .string "最近我在宝可梦中心里\n安装了研磨树果的设备，\p树果混合机就放在\n楼上的角落里。\p你知道吗？\p你能帮我用那机器\n制做些树果粉末吗？\p如果你能给我带来很多的树果粉末，\n我就能做出各种各样的药来。$"
+    .string "最近我在宝可梦中心里\n安装了研磨树果的设备，\p树果混合器就放在\n楼上的角落里。\p你知道吗？\p你能帮我用那机器\n制做些树果粉末吗？\p如果你能给我带来很多的树果粉末，\n我就能做出各种各样的药来。$"
 
 SlateportCity_Text_BroughtMeSomeBerryPowder:
     .string "你给我带来\n树果粉末了吗？$"
@@ -1159,7 +1159,7 @@ SlateportCity_Text_ComeBackToTradeBerryPowder:
     .string "想用树果粉末交换\n药的话随时可以再来，\p我会一直在这里收购。\p知道吗？$"
 
 SlateportCity_Text_YouDroveTeamAquaAway:
-    .string "亚希达：嗯？\n我以前见过你。\p我没向你介绍过自己吗？\n我叫亚希达，\p刚才看到水舰队\n好像很慌张地逃跑了，\p我想——是你赶走他们的吧？$"
+    .string "亚希达：嗯？\n我以前见过你。\p我没向你介绍过自己吗？\n我叫亚希达，\p刚才看到海洋队\n好像很慌张地逃跑了，\p我想——是你赶走他们的吧？$"
 
 SlateportCity_Text_MaybeThisTrainer:
     .string "亚希达：嗯…\n也许，只是也许，这个训练家…$"

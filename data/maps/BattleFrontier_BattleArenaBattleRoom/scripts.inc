@@ -512,22 +512,22 @@ BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored:
     .string "你的宝可梦将回复\n到满血。$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent:
-    .string "接下来，你的第二个对手！\n你准备好行动了吗？$"
+    .string "接下来，你的第二个对手！\n你准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent:
-    .string "接下来，你的第三个对手！\n你准备好行动了吗？$"
+    .string "接下来，你的第三个对手！\n你准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor4thOpponent:
-    .string "接下来，你的第四个对手！\n你准备好行动了吗？$"
+    .string "接下来，你的第四个对手！\n你准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor5thOpponent:
-    .string "接下来，你的第五个对手！\n你准备好行动了吗？$"
+    .string "接下来，你的第五个对手！\n你准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor6thOpponent:
-    .string "接下来，你的第六个对手！\n你准备好行动了吗？$"
+    .string "接下来，你的第六个对手！\n你准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent:
-    .string "接下来，你的第七个对手！\n你准备好行动了吗？$"
+    .string "接下来，你的第七个对手！\n你准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown:
     .string "你要记录游戏并\n关机吗？$"
@@ -539,16 +539,16 @@ BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
     .string "我正在为你记录游戏。\n请稍等。$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
-    .string "你要把你上次的战斗记录在你的\n开拓区通行证吗？$"
+    .string "你要把你上次的战斗记录在你的\n开拓通行证吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:
-    .string "亲爱的挑战者！\p你的实力十分惊人！\p我们想要你见识一下\n我们的头，斗王！$"
+    .string "亲爱的挑战者！\p你的实力十分惊人！\p我们想要你见识一下\n我们的头，竞技场主将！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_PreparedForTycoon:
-    .string "同斗王的战斗！\n准备好了吗？$"
+    .string "同竞技场主将的战斗！\n准备好了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta:
-    .string "裁判：斗王！\n给黄瓜香让路！$"
+    .string "裁判：竞技场主将！\n给黄瓜香让路！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger:
     .string "黄瓜香：嘿！\n你好！\p…等等，你就是挑战者？$"
@@ -563,10 +563,10 @@ BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle:
     .string "好的！看你激起我的战斗\n欲望！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll:
-    .string "哦，等一下！\n你还是挺强的！\p我喜欢你！\n让我们看看你的开拓区通行证。$"
+    .string "哦，等一下！\n你还是挺强的！\p我喜欢你！\n让我们看看你的开拓通行证。$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol:
-    .string "胆识印记被刻在了\n开拓区通行证上！$"
+    .string "毅力象征被刻在了\n开拓通行证上！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime:
     .string "哈…\p下次会更有趣！\n我期待着！$"
@@ -584,10 +584,10 @@ BattleFrontier_BattleArenaBattleRoom_Text_LetsGetThisStarted:
     .string "加油，裁判！\n让我们从这开始！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway:
-    .string "黄瓜香：咯咯！击倒！\n让我们看看你的开拓区通行证。$"
+    .string "黄瓜香：咯咯！击倒！\n让我们看看你的开拓通行证。$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GutsSymbolTookGoldenShine:
-    .string "胆识印记闪耀着\n金色的光芒！$"
+    .string "毅力象征闪耀着\n金色的光芒！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_IfWeBattleAgainWontLose:
     .string "啊啊！\n气死我了！\p如果下次再交手，我一定不会输！\n你给我记好了！再见！$"

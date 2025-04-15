@@ -1005,13 +1005,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
     .string "感受正在大师的光芒！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
-    .string "下面…{PLAYER}将要\n面对的训练家是…\p当然！就是他！\n对战巨蛋理事！\l我们的巨蛋天王！\l用你们的热情来欢迎希尔斯吧！$"
+    .string "下面…{PLAYER}将要\n面对的训练家是…\p当然！就是他！\n对战巨蛋理事！\l我们的巨蛋超级巨星！\l用你们的热情来欢迎石南吧！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
-    .string "观众：希尔斯！希尔斯！\n希尔斯！希尔斯！希尔斯！$"
+    .string "观众：石南！石南！\n石南！石南！石南！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
-    .string "希尔斯：哈哈哈！\p听到没？观众的呼唤\n他们都想看到我们的比赛呢\p哈哈哈！\p你现在应该害怕得\n全身发抖了吧！\p别紧张，别紧张。\p我是对战巨蛋的明星，第一明星！\n我，希尔斯，巨蛋天王，\l要在我的光芒下与你战斗！$"
+    .string "石南：哈哈哈！\p听到没？观众的呼唤\n他们都想看到我们的比赛呢\p哈哈哈！\p你现在应该害怕得\n全身发抖了吧！\p别紧张，别紧张。\p我是对战巨蛋的明星，第一明星！\n我，石南，巨蛋超级巨星，\l要在我的光芒下与你战斗！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LetsSeeYourStrategy:
     .string "让我来看看\n你的战术吧！$"
@@ -1020,13 +1020,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_IncredibleVictorIsPlayer:
     .string "不可思议！这真的太不可思议了！\n冠军竟然是{PLAYER}！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
-    .string "冠军是——希尔斯！\n巨蛋天王还是胜利了！\p祝贺他！祝贺希尔斯！$"
+    .string "冠军是——石南！\n巨蛋超级巨星还是胜利了！\p祝贺他！祝贺石南！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass:
-    .string "希尔斯：规矩就是规矩！\n拿出你的开拓区通行证让我看看吧。$"
+    .string "石南：规矩就是规矩！\n拿出你的开拓通行证让我看看吧。$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol:
-    .string "开拓区通行证上竟然\n浮现出战术印记！$"
+    .string "开拓通行证上竟然\n浮现出战术象征！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
     .string "… … … … … …\p我太过低估你了，\n下一次我不会犯同样的错误…$"
@@ -1035,19 +1035,19 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
     .string "我们的冠军还会继续制霸吗？\n让我们期待比赛的结果吧！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
-    .string "女士们，先生们，\n男孩们，女孩们，还有宝可梦们！\p最后，\n最后的最后，我们的传说回归了！\p是的，就是那个传说中的名字！\n我们的巨蛋天王！\l他就是——希尔斯！$"
+    .string "女士们，先生们，\n男孩们，女孩们，还有宝可梦们！\p最后，\n最后的最后，我们的传说回归了！\p是的，就是那个传说中的名字！\n我们的巨蛋超级巨星！\l他就是——石南！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
-    .string "希尔斯：啊…\n观众们那一浪高过一浪的欢呼声…\l还有他们那如熔炉一般火热的激情…\l这里真是个美妙的地方…\p对观众们来说，我就是巨蛋天王…\n我代表了他们的希望与梦想…\l我不能在他们的眼前枯萎…\p我必须重生！\n我必须达到更高、更强！\l我必须点燃这里的一切！$"
+    .string "石南：啊…\n观众们那一浪高过一浪的欢呼声…\l还有他们那如熔炉一般火热的激情…\l这里真是个美妙的地方…\p对观众们来说，我就是巨蛋超级巨星…\n我代表了他们的希望与梦想…\l我不能在他们的眼前枯萎…\p我必须重生！\n我必须达到更高、更强！\l我必须点燃这里的一切！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
     .string "就在此时，就在此地，\n我要释放我所有的力量！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
-    .string "希尔斯：你是一个非凡的人！\p我从未碰见过在我释放出所有的力量之后\n还能打败我的人，从来没有过！\p是的，你拥有非凡的力量！\n好了，把你的开拓区通行证给我吧。$"
+    .string "石南：你是一个非凡的人！\p我从未碰见过在我释放出所有的力量之后\n还能打败我的人，从来没有过！\p是的，你拥有非凡的力量！\n好了，把你的开拓通行证给我吧。$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
-    .string "战术印记\n亮起了金光！$"
+    .string "战术象征\n亮起了金光！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
     .string "你真的很强。但最重要的是，\n你拥有独一无二的魅力！\p我可以看到你的身体中\n隐藏着成为我这样的明星的潜力。\p我很期待我们\n下一次的相遇！$"
@@ -1061,7 +1061,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2:
     .string "{PLAYER}是自由级\n对战锦标赛的冠军！\p恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
-    .string "现在进行决赛！\p{PLAYER}对巨蛋天王，希尔斯！\p比赛开始！$"
+    .string "现在进行决赛！\p{PLAYER}对巨蛋超级巨星，石南！\p比赛开始！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
-    .string "裁判做出了\n最后的决定！\p胜利者是……\n天啊！\l胜利者是我们的巨蛋天王——\l希尔斯！\p恭喜你！还有，谢谢！\n我们的巨蛋天王，希尔斯！$"
+    .string "裁判做出了\n最后的决定！\p胜利者是……\n天啊！\l胜利者是我们的巨蛋超级巨星——\l石南！\p恭喜你！还有，谢谢！\n我们的巨蛋超级巨星，石南！$"

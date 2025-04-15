@@ -224,7 +224,7 @@ BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
     .string "{PLAYER}得到了\n{STR_VAR_1}对战点数。$"
 
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
-    .string "亚希达：你可以在开拓区通行证上\n查看你对战点数的数量。\p你在对战开拓区\n获得的胜利越多，收集的\l对战点数就越多。\p这些对战点数你可以随便用，\n比如用来交换物品。$"
+    .string "亚希达：你可以在开拓通行证上\n查看你对战点数的数量。\p你在对战开拓区\n获得的胜利越多，收集的\l对战点数就越多。\p这些对战点数你可以随便用，\n比如用来交换物品。$"
 
 BattleFrontier_ScottsHouse_Text_ExpectingGreatThings:
     .string "期待你的精彩表现！$"
@@ -233,16 +233,16 @@ BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
     .string "亚希达：每个训练家都是一个独特的人，\n他们都过着自己的生活。\p但当他们进行战斗的时候，\n他们是谁并不重要。\p他们都是一样的！\p我喜欢这样纯粹的战斗，\n大家都是平等的。\p因此我环游各地，寻找\n重视战斗的训练家，\l邀请他们来到这个地方。$"
 
 BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain:
-    .string "亚希达：你与开拓之脑\n交过手了吗？\p你得到了他们的\n印记了吗？\p开拓之脑是我从世界各地\n挑选出来的最强训练家，\p但我能肯定，看到你的能力，\n他们也会被吓一跳！$"
+    .string "亚希达：你与开拓之脑\n交过手了吗？\p你得到了他们的\n象征了吗？\p开拓之脑是我从世界各地\n挑选出来的最强训练家，\p但我能肯定，看到你的能力，\n他们也会被吓一跳！$"
 
 BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
     .string "亚希达：你的目标不只是战斗吧？\n对吗？\p我好像还记得你也在\n收集宝可梦图鉴。\p想知道一个好消息吗？\p在对战开拓区某处\n你也能碰到野生宝可梦…\l哈哈哈！$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
-    .string "亚希达：在对战开拓区\n玩得还高兴吗？\p…等等…\n啊！\p你的开拓区通行证！\n你已经收集到了\l所有的银色印记！\p简直太不可置信了！\n和我预想中一样，你真的非常非常强！\p虽说通常我不会做这些，\n不过这次就让我破例一回！\p这个送给你，\n你肯定能善加利用的。$"
+    .string "亚希达：在对战开拓区\n玩得还高兴吗？\p…等等…\n啊！\p你的开拓通行证！\n你已经收集到了\l所有的银色象征！\p简直太不可置信了！\n和我预想中一样，你真的非常非常强！\p虽说通常我不会做这些，\n不过这次就让我破例一回！\p这个送给你，\n你肯定能善加利用的。$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
-    .string "亚希达：希望你喜欢\n我的对战开拓区。\p…等等…\n啊，我不是眼花了吧！\p你的开拓区通行证！\n你已经收集到了\l所有的金色印记！\p太了不起了！\n和我预想中一样，你真是个不可思议的人！\p… … … … … …\p{PLAYER}，你一定得收下这个！\p是你的话，一定能识得\n我的礼物的价值的！$"
+    .string "亚希达：希望你喜欢\n我的对战开拓区。\p…等等…\n啊，我不是眼花了吧！\p你的开拓通行证！\n你已经收集到了\l所有的金色象征！\p太了不起了！\n和我预想中一样，你真是个不可思议的人！\p… … … … … …\p{PLAYER}，你一定得收下这个！\p是你的话，一定能识得\n我的礼物的价值的！$"
 
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
     .string "我可是有天赋的，可以第一眼就\n看出训练家的实力。\p真高兴我的先见让我\n把你带到了这里！$"

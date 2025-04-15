@@ -55,7 +55,7 @@ Route110_TrickHousePuzzle6_Text_SophiaPostBattle:
     .string "调查这个地方\n令我非常快乐。\p这是值得一遍遍地\n挑战的地方！$"
 
 Route110_TrickHousePuzzle6_Text_BennyIntro:
-    .string "也许我能让我的飞行系宝可梦\n飞过这些墙去…$"
+    .string "也许我能让我的飞行属性宝可梦\n飞过这些墙去…$"
 
 Route110_TrickHousePuzzle6_Text_BennyDefeat:
     .string "唔哇啊啊！计划告吹！$"

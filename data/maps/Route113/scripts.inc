@@ -140,10 +140,10 @@ Route113_Text_FunWalkingThroughAsh:
     .string "在布满火山灰的\n草丛里走真好玩，\p回头看看走过的地方——\n哇，都干干净净了！$"
 
 Route113_Text_RouteSign111:
-    .string "113号公路\n{RIGHT_ARROW}111号公路$"
+    .string "113号道路\n{RIGHT_ARROW}111号道路$"
 
 Route113_Text_RouteSignFallarbor:
-    .string "113号公路\n{LEFT_ARROW}秋叶镇$"
+    .string "113号道路\n{LEFT_ARROW}秋叶镇$"
 
 Route113_Text_TrainerTipsRegisterKeyItems:
     .string "训练家小技巧\p可以将包包中的某个重要物品\n登录到SELECT键上，\p按下SELECT键就可以\n方便地使用登录的物品了。$"

@@ -281,7 +281,7 @@ SlateportCity_BattleTentLobby_Text_ExplainTorment:
     .string "那个是，呃，招式学习器41，知道吗？\n啊，里面是无理取闹\n，知道吗？\p呃，这样其他人就不能\n连续使用相同的招式，明白？\p啊，那个，你听好，\n呃，我不是想挑衅你！$"
 
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
-    .string "我并不很喜欢虫系宝可梦，\n但也许我可以\l用用试试，做些改变。\p谁知道我最终会不会\n喜欢上它们呢！$"
+    .string "我并不很喜欢虫属性宝可梦，\n但也许我可以\l用用试试，做些改变。\p谁知道我最终会不会\n喜欢上它们呢！$"
 
 SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons:
     .string "就算你没有强大的宝可梦，\n也可以在这里尽情战斗。$"

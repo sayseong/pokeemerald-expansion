@@ -645,43 +645,43 @@ BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
     .string "我感受到了无尽的怒火\n产生出的庞大的压力…\p是诅咒…\p…你的宝可梦没有了\n招式点数，\l只有无助地挣扎…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
-    .string "我看到了天空中翱翔的宝可梦…\p…你擅长地上系招式的\n宝可梦被完全挫败…$"
+    .string "我看到了天空中翱翔的宝可梦…\p…你擅长地面属性招式的\n宝可梦被完全挫败…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility:
     .string "我感觉到地面下升起\n恐怖的力量…\p…你的宝可梦根本\n无法摆脱这力量的威胁…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintIce:
-    .string "我看到了冰系的宝可梦…\p…你的宝可梦正在\n坚冰中与寒冷对抗着…$"
+    .string "我看到了冰属性的宝可梦…\p…你的宝可梦正在\n坚冰中与寒冷对抗着…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintExplosion:
     .string "我看到了很多会使自己\n受伤的招式…\p…你的宝可梦\n正败在此处…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintPsychic:
-    .string "我看到了超能系的宝可梦…\p…你的宝可梦正在被\n超能力招式折磨着…$"
+    .string "我看到了超能力属性的宝可梦…\p…你的宝可梦正在被\n超能力招式折磨着…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintRock:
-    .string "我看到了岩石系的宝可梦…\p…你的宝可梦正在\n遭受岩石招式的打击…$"
+    .string "我看到了岩石属性的宝可梦…\p…你的宝可梦正在\n遭受岩石招式的打击…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintFighting:
-    .string "我看到了格斗系的宝可梦…\p…你的宝可梦正在\n被格斗招式不断攻击…$"
+    .string "我看到了格斗属性的宝可梦…\p…你的宝可梦正在\n被格斗招式不断攻击…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintWeather:
     .string "乞雨…大晴天…\n沙暴…冰雹…\p我看到了在这些天气下\n变得更强的宝可梦…\p…你的宝可梦正在各种各样的\n招式影响下不知所措…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintBug:
-    .string "我看到了虫系的宝可梦…\p…你的宝可梦正在\n忍受各种各样的攻击…$"
+    .string "我看到了虫属性的宝可梦…\p…你的宝可梦正在\n忍受各种各样的攻击…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintDark:
-    .string "我看到了恶系的宝可梦…\p…你的宝可梦正在被\n恶系招式攻击着…$"
+    .string "我看到了恶属性的宝可梦…\p…你的宝可梦正在被\n恶属性招式攻击着…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintWater:
-    .string "我看到了水系的宝可梦…\p…你的宝可梦正在被\n水系招式攻击着…$"
+    .string "我看到了水属性的宝可梦…\p…你的宝可梦正在被\n水属性招式攻击着…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintGhost:
-    .string "我看到了幽灵系的宝可梦…\p…你的宝可梦正在被\n幽灵系招式攻击着…$"
+    .string "我看到了幽灵属性的宝可梦…\p…你的宝可梦正在被\n幽灵属性招式攻击着…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintSteel:
-    .string "我看到了钢系的宝可梦…\p…你的宝可梦正在苦苦\n抵挡着强力的攻击…$"
+    .string "我看到了钢属性的宝可梦…\p…你的宝可梦正在苦苦\n抵挡着强力的攻击…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon:
     .string "我看到了飞在天上的宝可梦…\p…你的宝可梦正在被\n强力的招式攻击着…$"
@@ -690,7 +690,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve:
     .string "我看到了得到石头的力量\n而得以进化的宝可梦们…\p我感受到了火、水\n还有雷电…\p…你的宝可梦正在忍受\n这三种力量的攻击…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintNormal:
-    .string "我看到了一般系的宝可梦…\p…你的宝可梦正在苦苦\n抵挡着强力的攻击…$"
+    .string "我看到了一般属性的宝可梦…\p…你的宝可梦正在苦苦\n抵挡着强力的攻击…$"
 
 BattleFrontier_BattlePyramidLobby_Text_BelieveMyFortunesOrNot:
     .string "无论是否相信我的预言，\n选择权依然在你的手中…\p未来随时都可能被改变…\n愿你能平安通过这里…$"

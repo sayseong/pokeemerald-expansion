@@ -330,7 +330,7 @@ RivalsHouse_1F_Text_TooBusyToNoticeVisit:
     .string "这个{RIVAL}！\p我想我家孩子现在\n满脑子都是宝可梦，\l没注意到你来了，{PLAYER}{KUN}。$"
 
 RivalsHouse_1F_Text_WentOutToRoute103:
-    .string "啊，{RIVAL}刚刚\n去了103号公路。\p孩子和老公一个样，\n{RIVAL}也在家里呆不住。$"
+    .string "啊，{RIVAL}刚刚\n去了103号道路。\p孩子和老公一个样，\n{RIVAL}也在家里呆不住。$"
 
 RivalsHouse_1F_Text_ShouldGoHomeEverySoOften:
     .string "我想，和宝可梦\n一起旅行感觉一定不错，\p但你也得经常回家一趟\n让你妈妈看看你怎么样了。\p她虽然不说，但肯定\n很担心你，{PLAYER}{KUN}。$"
@@ -339,7 +339,7 @@ RivalsHouse_1F_Text_MayWhoAreYou:
     .string "嗯？\n你…你是谁？\p… … … … … … … …\n… … … … … … … …\p噢，是{PLAYER}{KUN}啊。\n这么说你搬家就是今天。\p呃…我叫小遥，\n很高兴见到你！\p我…\n我梦想要和世界上\l每只宝可梦做朋友。\p我从爸爸…小田卷博士\n那儿听说过你，{PLAYER}{KUN}，\p我一直希望我们能\n成为好朋友，{PLAYER}{KUN}。\p呵呵，有点傻，是吗？\n我…我还刚刚认识你呢{PLAYER}{KUN}。\p啊哈哈…\p呀，坏了！我忘了！\p我还得去帮爸爸抓\n野生宝可梦！\p{PLAYER}{KUN}，回头见！$"
 
 RivalsHouse_1F_Text_BrendanWhoAreYou:
-    .string "嗨！\n你…\p你是谁？\p啊，是{PLAYER}吧？\n刚搬到隔壁的？\p没想到会是个女孩。\p老爸小田卷博士说\n新邻居是个道馆馆主的孩子，\l我还以为是男孩呢。\p我叫佑树，\n今天起我们就是邻居了！\p嗯？喂，{PLAYER}你还没有\n宝可梦吗？\p要我替你捉一只吗？\p啊，可恶，忘记了…\p我得去帮老爸\n捉野生宝可梦了。\p以后再聊，好吗？$"
+    .string "嗨！\n你…\p你是谁？\p啊，是{PLAYER}吧？\n刚搬到隔壁的？\p没想到会是个女孩。\p老爸小田卷博士说\n新邻居是个道馆馆主的孩子，\l我还以为是男孩呢。\p我叫小悠，\n今天起我们就是邻居了！\p嗯？喂，{PLAYER}你还没有\n宝可梦吗？\p要我替你捉一只吗？\p啊，可恶，忘记了…\p我得去帮老爸\n捉野生宝可梦了。\p以后再聊，好吗？$"
 
 RivalsHouse_1F_Text_DoYouHavePokemon:
     .string "嗨，邻居！\p你已经有自己的\n宝可梦了吗？$"

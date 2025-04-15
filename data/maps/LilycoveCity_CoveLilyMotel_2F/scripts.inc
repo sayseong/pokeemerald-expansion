@@ -67,7 +67,7 @@ LilycoveCity_CoveLilyMotel_2F_EventScript_MetScott::
 	end
 
 LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex:
-    .string "我是游戏设计员。\p哦，是吗？\n你在收集宝可梦图鉴？\p完成它并不容易，\n但也别放弃。\p如果你完成了，\n就来给我看看吧。$"
+    .string "我是游戏设计师。\p哦，是吗？\n你在收集宝可梦图鉴？\p完成它并不容易，\n但也别放弃。\p如果你完成了，\n就来给我看看吧。$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis:
     .string "哇！太棒了！\n真的太棒了！\p这个宝可梦图鉴完成了！\n你一定很喜欢宝可梦！\p我好感动！\p我给你一件展示出\n你的成绩的物品吧！$"
@@ -76,10 +76,10 @@ LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
     .string "我？你在跟我说话？\n我是程序员，\p我想知道这儿的老虎机\n是怎么样的。$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
-    .string "我是图表美术师！\n丰缘地区的宝可梦很有趣吧？$"
+    .string "我是美术设计师！\n丰缘地区的宝可梦很有趣吧？$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
-    .string "管儿很可爱，不是吗？\n跟这么可爱的管儿战斗…\p哇，太棒了！\p还有双子星！也很可爱不是吗？\n跟双子星二对二战斗…\p哇，那是难以形容的快乐！$"
+    .string "泳圈女孩很可爱，不是吗？\n跟这么可爱的泳圈女孩战斗…\p哇，太棒了！\p还有双胞胎！也很可爱不是吗？\n跟双胞胎二对二战斗…\p哇，那是难以形容的快乐！$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_SeaBreezeTicklesHeart:
     .string "海风轻轻地挑逗着我的心。\n在这里的感觉真好！$"

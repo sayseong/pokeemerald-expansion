@@ -284,7 +284,7 @@ Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard::
 	end
 
 Route124_DivingTreasureHuntersHouse_Text_Greeting:
-    .string "我是水下宝藏猎人！\p我就是那潜游在海底\n寻找埋藏的宝藏的贵公子！$"
+    .string "我是水下宝藏寻宝者！\p我就是那潜游在海底\n寻找埋藏的宝藏的贵公子！$"
 
 Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
     .string "告诉我，你见过\n古代工具的碎片吗？$"

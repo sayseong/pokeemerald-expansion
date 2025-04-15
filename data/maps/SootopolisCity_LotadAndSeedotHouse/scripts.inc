@@ -112,7 +112,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad:
 
 @ Unused
 SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion1:
-    .string "{PLAYER}收到了药水。$"
+    .string "{PLAYER}收到了伤药。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull1:
     .string "嗯？\n你的包包已经塞满了。$"
@@ -137,7 +137,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot:
 
 @ Unused
 SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion2:
-    .string "{PLAYER}收到了药水。$"
+    .string "{PLAYER}收到了伤药。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2:
     .string "嗯？\n你的包包已经塞满了。$"

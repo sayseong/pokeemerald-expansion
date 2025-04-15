@@ -1475,16 +1475,16 @@ SootopolisCity_Text_CityRegainedCalm:
     .string "城市又恢复了平静…$"
 
 SootopolisCity_Text_CaveOfOriginPleaseLeave:
-    .string "你是什么人？\p这里是醒悟祠堂，\p据说在送神火山沉睡的\n宝可梦会在此重生。\p请你离开吧。$"
+    .string "你是什么人？\p这里是觉醒神殿，\p据说在送神山沉睡的\n宝可梦会在此重生。\p请你离开吧。$"
 
 SootopolisCity_Text_LeadSuperiorTrainerToCave:
-    .string "米可利告诉我，\n当一个拥有着坚定的意志\p与非凡的天赋的人，\n一个了解多种\p宝可梦的训练家出现时…\n我将带他进祠堂里。$"
+    .string "米可利告诉我，\n当一个拥有着坚定的意志\p与非凡的天赋的人，\n一个了解多种\p宝可梦的训练家出现时…\n我将带他进神殿里。$"
 
 SootopolisCity_Text_AwakenedPokemonClash:
     .string "哦，偶滴天…\p两只觉醒的宝可梦的争斗\n被第三只觉醒的宝可梦\l平息了…$"
 
 SootopolisCity_Text_CaveOfOriginSleepsToo:
-    .string "这里是醒悟祠堂…\p现在危机过去了，\n这里也该沉睡了…$"
+    .string "这里是觉醒神殿…\p现在危机过去了，\n这里也该沉睡了…$"
 
 SootopolisCity_Text_SootopolisSkyBeautiful:
     .string "琉璃市是在火山口中\n建起的城市。\p只要你抬头望天，\n你就能看到火山的顶端。\l瞧，你看到头顶上的圆形天空了么？\p不过正因如此，琉璃市的天空\n才如此美丽。$"
@@ -1511,7 +1511,7 @@ SootopolisCity_Text_AfterAllOurScheming:
     .string "赤焰松：原来超古代宝可梦\n不仅只有固拉多和盖欧卡…\p我们计划了那么多无用的阴谋和\n疯狂的行动，可那只宝可梦\l轻而易举就让一切回归平静，\l好像什么也没发生一样…\p呼…\n呼～哈哈哈哈…$"
 
 SootopolisCity_Text_KyogreCalmDown:
-    .string "水梧桐：盖欧卡！怎么了？！\n看这里！红色宝珠！\l冷静一下！盖欧卡！\p… … … … … …\n… … … … … …\p没用…\n它根本什么反应也没有！$"
+    .string "水梧桐：盖欧卡！怎么了？！\n看这里！朱红色宝珠！\l冷静一下！盖欧卡！\p… … … … … …\n… … … … … …\p没用…\n它根本什么反应也没有！$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
     .string "水梧桐：没人知道盖欧卡和固拉多\n去了什么地方，\p不过丰缘地区的天气\n已经恢复正常了…\p哈哈…\n哈哈哈…\p也许我们的行为对宝可梦来说\n并不算什么，\l甚至只是微不足道的小动作罢了…$"
@@ -1535,13 +1535,13 @@ SootopolisCity_Text_SoThatsRayquaza:
     .string "大吾：那就是烈空坐…\p不敢相信，那两只宝可梦\n居然害怕地逃跑了…$"
 
 SootopolisCity_Text_MaxieArchieLeft:
-    .string "大吾：看来赤焰松和\n水梧桐都离开了。\p也许他们是去送神火山\n归还那些玉石了…$"
+    .string "大吾：看来赤焰松和\n水梧桐都离开了。\p也许他们是去送神山\n归还那些宝珠了…$"
 
 SootopolisCity_Text_HaventYouScaledSkyPillar:
     .string "米可利：哦？\n{PLAYER}{KUN}？\p你还没\n登上过天空之柱吗？\p我相信以你的能力\n一定能够登上天空之柱塔顶的…$"
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
-    .string "米可利：{PLAYER}{KUN}…\p我想火岩队和水舰队的首领\n并不想造成什么灾害，\p听听他们为自己的辩护\n也并没什么。$"
+    .string "米可利：{PLAYER}{KUN}…\p我想熔岩队和海洋队的首领\n并不想造成什么灾害，\p听听他们为自己的辩护\n也并没什么。$"
 
 SootopolisCity_Text_ThankYouForHelpAcceptThis:
     .string "米可利：{PLAYER}{KUN}…\n我的眼光果然没错。\p多亏了你的帮助，琉璃市…\n不，整个丰缘地区都脱离了危机。\p我代表所有人感谢你。\p这是我的谢礼，\n请你收下它。$"

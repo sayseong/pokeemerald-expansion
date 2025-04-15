@@ -356,19 +356,19 @@ MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets:
     .string "绿岭市的天气\n通常很晴朗，也没什么风，\p简直就是完美的\n火箭发射地。$"
 
 MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel:
-    .string "究竟火岩队为什么\n想要我们的火箭燃料？$"
+    .string "究竟熔岩队为什么\n想要我们的火箭燃料？$"
 
 MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
     .string "如果我再年轻一点，\n我希望能成为一个宇航员…\p不…现在还不算太晚！\n我依然可以试试！$"
 
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis:
-    .string "让火岩队抢走火箭燃料的话\n我就去不了宇宙了！\p不能让他们\n就这样跑掉！$"
+    .string "让熔岩队抢走火箭燃料的话\n我就去不了宇宙了！\p不能让他们\n就这样跑掉！$"
 
 MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace:
     .string "希望某一天\n普通人也能去宇宙旅行…$"
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace:
-    .string "火岩队…\n他们也想去宇宙吗？$"
+    .string "熔岩队…\n他们也想去宇宙吗？$"
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn:
     .string "你怎么了？\p即使是三对一，\n你也想跟我们较量一番吗？$"
@@ -410,7 +410,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
     .string "赤焰松：别挡路！\n你敢挡我吗？$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel:
-    .string "大吾：火岩队…\p你们要火箭燃料\n做什么？$"
+    .string "大吾：熔岩队…\p你们要火箭燃料\n做什么？$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
     .string "赤焰松：哼哼哼…\n你这么好奇的话，告诉你也无妨，\p我们要把那些燃料\n全部扔到烟囱山里去！\p既然固拉多已经离开了，\n那山上的渣滓都没什么用了！\p我们要用燃料的力量\n让火山喷发！\p那会很壮观的！$"
@@ -428,7 +428,7 @@ MossdeepCity_SpaceCenter_Text_TabithaDefeat:
     .string "我和老大在一起…$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
-    .string "赤焰松：我们没能\n让火山爆发…\p也没能在固拉多觉醒后\n控制它…\p我们扩展大陆的目标\n错了吗？\p… … … … … …\n… … … … … …\p如果…\n如果我们火岩队错了…\l… … … … … …\p那么，水舰队扩展海洋的目标\n也许也是错的？$"
+    .string "赤焰松：我们没能\n让火山爆发…\p也没能在固拉多觉醒后\n控制它…\p我们扩展大陆的目标\n错了吗？\p… … … … … …\n… … … … … …\p如果…\n如果我们熔岩队错了…\l… … … … … …\p那么，海洋队扩展海洋的目标\n也许也是错的？$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
     .string "赤焰松：好吧…\n我们放弃…\p还有些更重要的事情\n我得去调查…$"

@@ -492,16 +492,16 @@ Route119_Text_MayExplainFly:
     .string "小遥：使用飞翔的话，你的\n宝可梦会马上把你送到\l曾经去过的城镇，\p但你必须先拿到\n茵郁市的道馆徽章，\l这很重要，不要忘了。\p你最好先回\n未白镇的家里一趟，\p你妈妈一直在担心你，\n{PLAYER}{KUN}。\p好了，下次再见！$"
 
 Route119_Text_BrendanIntro:
-    .string "佑树：{PLAYER}！\n你在这儿找宝可梦吗？\p你成长得如何了，\n就让我来看看吧！\p来吧！\n来战斗吧！$"
+    .string "小悠：{PLAYER}！\n你在这儿找宝可梦吗？\p你成长得如何了，\n就让我来看看吧！\p来吧！\n来战斗吧！$"
 
 Route119_Text_BrendanDefeat:
     .string "嗯…\n干得不错。$"
 
 Route119_Text_BrendanIllGiveYouThis:
-    .string "佑树：我想你无论去哪儿找宝可梦\n都不会有问题。\p这个给你，\n试试吧。$"
+    .string "小悠：我想你无论去哪儿找宝可梦\n都不会有问题。\p这个给你，\n试试吧。$"
 
 Route119_Text_BrendanExplainFly:
-    .string "佑树：使用飞翔的话，你的\n宝可梦会马上把你送到\l曾经去过的城镇，\p但你得先拿到\n茵郁市道馆徽章才行。\p好了，我该走了。$"
+    .string "小悠：使用飞翔的话，你的\n宝可梦会马上把你送到\l曾经去过的城镇，\p但你得先拿到\n茵郁市道馆徽章才行。\p好了，我该走了。$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
     .string "亚希达：哈哈哈哈！\n又见面了，{PLAYER}{KUN}！\p我刚刚碰到了个\n骑着自行车的训练家。\p你刚刚打败了那个训练家是吗？\n很明显是你干的。\p那孩子气得脸红红的，\n好像很失望。\p那时我就肯定很快能碰上你。\n你现在要去茵郁市道馆是吗？\p我想你会顺利胜出的。\n好了，回头见！$"
@@ -526,10 +526,10 @@ Route119_Text_CanYourMonMakeSecretBase:
     .string "你的宝可梦能用神秘力量\n在一大团草中打出一个\l秘密基地吗？$"
 
 Route119_Text_RouteSignFortree:
-    .string "119号公路\n{RIGHT_ARROW} 茵郁市$"
+    .string "119号道路\n{RIGHT_ARROW} 茵郁市$"
 
 Route119_Text_WeatherInstitute:
     .string "天气研究所$"
 
 Route119_Text_TrainerTipsDecoration:
-    .string "训练家小技巧\p秘密基地里面\n最多只能放16个\l装饰品和家具。\p用你最喜欢的\n物品装扮出你自己的\l秘密基地吧。$"
+    .string "训练家小技巧\p秘密基地里面\n最多只能放16个\l装饰物品和家具。\p用你最喜欢的\n物品装扮出你自己的\l秘密基地吧。$"

@@ -26,7 +26,7 @@ MoveTutor_Text_RolloutTaught::
     .string "在草里打滚使我\n非常快乐。来吧，让我们滚起来！$"
 
 MoveTutor_Text_FuryCutterTeach::
-    .string "这是一个你连续使用\n就会变得更强壮的招式。\p这是一个虫系的招式，并且\n是很酷的招式。\p这个招式叫做连续切。\n想让我教你的宝可梦吗？$"
+    .string "这是一个你连续使用\n就会变得更强壮的招式。\p这是一个虫属性的招式，并且\n是很酷的招式。\p这个招式叫做连续切。\n想让我教你的宝可梦吗？$"
 
 MoveTutor_Text_FuryCutterDeclined::
     .string "我们是不可能融洽相处的。$"
@@ -65,7 +65,7 @@ MoveTutor_Text_SleepTalkTeach::
     .string "嗯！我的妻子依靠觉醒\n力量激发潜能。\p她正好要像我一样打个盹，\n并且梦话。\p我能让你的宝可梦\n学会梦话。有兴趣吗？$"
 
 MoveTutor_Text_SleepTalkDeclined::
-    .string "噢，好，好。你也想用\n催醒来激发潜能…$"
+    .string "噢，好，好。你也想用\n觉醒力量来激发潜能…$"
 
 MoveTutor_Text_SleepTalkWhichMon::
     .string "啊，多有眼光的孩子呀！\n你想让我教哪只宝可梦？$"
@@ -86,7 +86,7 @@ MoveTutor_Text_SubstituteTaught::
     .string "我们人类更应该极度\n珍惜我们的生命！\p我希望你也走上这条路！$"
 
 MoveTutor_Text_DynamicPunchTeach::
-    .string "我做不到！\p我完全绝望了！\p我是一名格斗系训练家，\n所以无论我怎么努力尝试\l也不能在绿岭市道馆获胜！\p啊啊啊啊！打！打！打！\n打！打！打！\p什么，在那边看不到我！\n我只能在地面攻击！\p你想让我教你的\n宝可梦学习爆裂拳？$"
+    .string "我做不到！\p我完全绝望了！\p我是一名格斗属性训练家，\n所以无论我怎么努力尝试\l也不能在绿岭市道馆获胜！\p啊啊啊啊！打！打！打！\n打！打！打！\p什么，在那边看不到我！\n我只能在地面攻击！\p你想让我教你的\n宝可梦学习爆裂拳？$"
 
 MoveTutor_Text_DynamicPunchDeclined::
     .string "该死！连你也来嘲笑我？\n打！打！打！$"

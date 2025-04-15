@@ -104,7 +104,7 @@ BattleFrontier_RankingHall_Text_ExplainRankingHall:
     .string "这里是排行榜。\p这里是我们表彰那些在\n对战开拓区中创造伟大记录\l的流芳百世的训练家的地方。$"
 
 BattleFrontier_RankingHall_Text_DomePikeFactoryRecords:
-    .string "对战巨蛋对战水管，\n和对战工厂的记录$"
+    .string "对战巨蛋对战管道，\n和对战工厂的记录$"
 
 BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords:
     .string "对战宫殿，对战竞技场，\n和对战金字塔的记录$"

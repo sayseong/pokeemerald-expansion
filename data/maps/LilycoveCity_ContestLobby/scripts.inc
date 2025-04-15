@@ -983,16 +983,16 @@ LilycoveCity_ContestLobby_EventScript_LittleGirlHaveCase::
 	end
 
 LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase:
-    .string "呀嘿！\p接待处的女士给了我一个\n装能量方块的盒子！$"
+    .string "呀嘿！\p接待处的女士给了我一个\n装宝可方块的盒子！$"
 
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries:
-    .string "做好的能量方块可以装在里面。\p做能量方块的时候，\n大家都要放进不同的树果。$"
+    .string "做好的宝可方块可以装在里面。\p做宝可方块的时候，\n大家都要放进不同的树果。$"
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
     .string "祝贺你！\p我为你的宝可梦\n画了一幅画纪念它的成功…\p你的宝可梦的吸引力\n惊人，这激励着我\l尽我所能画出最好的画。\l看，怎么样？$"
 
 LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum:
-    .string "你看怎么样？我对自己的作品\n很有自信，你喜欢吗？\p这种画作绝对能够\n挂到艺术馆中的。\p嗯？真的有美术馆\n想寻找画作？\p你说我要把这拿过去吗？$"
+    .string "你看怎么样？我对自己的作品\n很有自信，你喜欢吗？\p这种画作绝对能够\n挂到美术馆中的。\p嗯？真的有美术馆\n想寻找画作？\p你说我要把这拿过去吗？$"
 
 LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum:
     .string "什么？真的？那么，\n我现在就把这送过去。\p我还要给它取个好名字，\p希望他们能考虑一下\n展出这幅画。\p如果他们同意了，一定要去参观啊！\n谢谢！$"
@@ -1010,7 +1010,7 @@ LilycoveCity_ContestLobby_Text_OkaySeeYou:
     .string "好了，再会！$"
 
 LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum:
-    .string "噢…那么我想\n我只有把这带回家了…\p但你知道，我真的想\n把这送到艺术馆去…好吗？$"
+    .string "噢…那么我想\n我只有把这带回家了…\p但你知道，我真的想\n把这送到美术馆去…好吗？$"
 
 LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs:
     .string "哎，好吧，算了，\n我还是挂到自己家里去吧。\p下次我得再努力一些。\n再见。$"
@@ -1031,5 +1031,5 @@ LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
     .string "我花费了大量精力\n日日夜夜照顾这只宝可梦，\p现在它的状态已经达到了巅峰。\n今天，胜利是属于我的！$"
 
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily:
-    .string "我和爸爸，妈妈，姐姐一起\n制作能量方块！\p我想如果人多的话，就能\n做出更光滑更好的能量方块。$"
+    .string "我和爸爸，妈妈，姐姐一起\n制作宝可方块！\p我想如果人多的话，就能\n做出更光滑更好的宝可方块。$"
 

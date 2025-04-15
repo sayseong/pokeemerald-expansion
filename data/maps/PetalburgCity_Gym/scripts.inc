@@ -1148,25 +1148,25 @@ PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
     .string "呃…我…\n我想要一只宝可梦，拜托了…$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
-    .string "爸爸：嗯？你是…呃…啊，对了，\n你是小光吧？$"
+    .string "爸爸：嗯？你是…呃…啊，对了，\n你是满充吧？$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
-    .string "小光：我很快就要搬到\n绿荫镇去跟亲戚一起住了，\p我觉得一个人会很孤单，\n所以我想带只宝可梦一起去，\p但我以前从未抓过宝可梦，\n我不知道该怎么…$"
+    .string "满充：我很快就要搬到\n绿茵镇去跟亲戚一起住了，\p我觉得一个人会很孤单，\n所以我想带只宝可梦一起去，\p但我以前从未抓过宝可梦，\n我不知道该怎么…$"
 
 PetalburgCity_Gym_Text_DadHmISee:
     .string "爸爸：嗯，明白了。$"
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
-    .string "爸爸：{PLAYER}，\n你听到了吧？\p和小光一起去\n教教他怎么抓宝可梦吧。$"
+    .string "爸爸：{PLAYER}，\n你听到了吧？\p和满充一起去\n教教他怎么抓宝可梦吧。$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
-    .string "小光，过来，我先把自己的宝可梦借给你。\p小光得到蛇纹熊！$"
+    .string "满充，过来，我先把自己的宝可梦借给你。\p满充得到蛇纹熊！$"
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
-    .string "小光：哇！\n一只宝可梦！\p爸爸：唔，再给你只精灵球吧。\n加油！\p小光得到精灵球！$"
+    .string "满充：哇！\n一只宝可梦！\p爸爸：唔，再给你只精灵球吧。\n加油！\p满充得到精灵球！$"
 
 PetalburgCity_Gym_Text_WallyOhWowThankYou:
-    .string "小光：哇！\n谢谢！$"
+    .string "满充：哇！\n谢谢！$"
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
     .string "{PLAYER}…你真的能\n和我一起来吗？$"
@@ -1175,7 +1175,7 @@ PetalburgCity_Gym_Text_DadSoDidItWorkOut:
     .string "爸爸：那么，成功了吗？$"
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
-    .string "小光：谢谢，我抓到了\n这只宝可梦还给您。\p{PLAYER}，谢谢你\n和我一起去。\p多亏了你们，我才\n抓了到我的宝可梦。\p我保证我会\n好好照顾它的。\p啊！妈妈该等急了，\n我走了！\p再见，{PLAYER}！$"
+    .string "满充：谢谢，我抓到了\n这只宝可梦还给您。\p{PLAYER}，谢谢你\n和我一起去。\p多亏了你们，我才\n抓了到我的宝可梦。\p我保证我会\n好好照顾它的。\p啊！妈妈该等急了，\n我走了！\p再见，{PLAYER}！$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
     .string "爸爸：好了…\p{PLAYER}，如果你想成为一个\n强大的训练家，我有几条建议。\p首先去距此不远的\n卡那兹市，\p挑战那儿的\n道馆馆主，杜娟，\p然后再去其他宝可梦道馆，\n打败那里的馆主，\p收集他们的徽章，\n明白了吗？\p当然，我也是道馆馆主，\n所以我们总有一天会战斗的，{PLAYER}，\p但那之前，你得先\n变得更强些才行。$"
@@ -1205,7 +1205,7 @@ PetalburgCity_Gym_Text_ExplainFacade:
     .string "爸爸：招式学习器42里面是硬撑，\p如果宝可梦中毒，\n麻痹，或者灼伤，\l招式的威力会提升。\p用这可以在处于不利时\n逆转形势。$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
-    .string "爸爸：作为道馆馆主，\n我觉得很沮丧…\p但作为父亲，我在失望的同时，\n又很高兴。这真的很奇怪…$"
+    .string "爸爸：作为道馆馆主，\n我觉得很沮丧…\p但作为父亲，我在失望的同时，\n又很高兴。这可真怪…$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
     .string "啊，你来了，{PLAYER}{KUN}！\p跟我来，\n我有些东西要给你。$"
@@ -1262,7 +1262,7 @@ PetalburgCity_Gym_Text_GeorgePostBadge:
     .string "我还要在道馆继续训练。\n总有一天，我要成为馆主。$"
 
 PetalburgCity_Gym_Text_BerkeIntro:
-    .string "就算你是我们馆主的孩子，\n我也不会放水的。\p体会一下宝可梦被\n命中要害的恐惧吧！$"
+    .string "就算你是我们馆主的孩子，\n我也不会放水的。\p体会一下宝可梦被\n击中要害的恐惧吧！$"
 
 PetalburgCity_Gym_Text_BerkeDefeat:
     .string "你的力量…\n这是真正的力量。$"

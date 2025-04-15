@@ -82,53 +82,53 @@ MeteorFalls_1F_2R_Text_NicolasPostRematch:
     .string "很显然你和\n宝可梦一直都在锻炼。\p只要你变强，我\n也会变得更强！$"
 
 MeteorFalls_1F_2R_Text_JohnIntro:
-    .string "阿元：我们一直是\n两人一起战斗的。\l我们对自己充满信心。$"
+    .string "源：我们一直是\n两人一起战斗的。\l我们对自己充满信心。$"
 
 MeteorFalls_1F_2R_Text_JohnDefeat:
-    .string "阿元：哦，天。\n我们输了，亲爱的老婆。$"
+    .string "源：哦，天。\n我们输了，亲爱的老婆。$"
 
 MeteorFalls_1F_2R_Text_JohnPostBattle:
-    .string "阿元：我们结婚\n50年了。\p想想看，我都没有击败过\n我亲爱的老婆。$"
+    .string "源：我们结婚\n50年了。\p想想看，我都没有击败过\n我亲爱的老婆。$"
 
 MeteorFalls_1F_2R_Text_JohnNotEnoughMons:
-    .string "阿元：多么年轻的训练家！\p想和我们战斗吗？想的话就\n带来更多的宝可梦。$"
+    .string "源：多么年轻的训练家！\p想和我们战斗吗？想的话就\n带来更多的宝可梦。$"
 
 MeteorFalls_1F_2R_Text_JohnRegister:
-    .string "阿元：年轻的训练家，如果有机会\n的话，你还会和我们对战吗？$"
+    .string "源：年轻的训练家，如果有机会\n的话，你还会和我们对战吗？$"
 
 MeteorFalls_1F_2R_Text_JayIntro:
-    .string "阿初：我们结婚\n50年了。\p我们做为夫妻的羁绊\n永远不会解除。$"
+    .string "初：我们结婚\n50年了。\p我们做为夫妻的羁绊\n永远不会解除。$"
 
 MeteorFalls_1F_2R_Text_JayDefeat:
-    .string "阿初：哦，亲爱的。\n我们输了，我亲爱的老公。$"
+    .string "初：哦，亲爱的。\n我们输了，我亲爱的老公。$"
 
 MeteorFalls_1F_2R_Text_JayPostBattle:
-    .string "阿初：结婚50年了…\p每当我们吵架，我们都是通过\n宝可梦对战来解决…$"
+    .string "初：结婚50年了…\p每当我们吵架，我们都是通过\n宝可梦对战来解决…$"
 
 MeteorFalls_1F_2R_Text_JayNotEnoughMons:
-    .string "阿初：好啦，好啦，你难道不是\n年轻的训练家？\p如果你想和我们战斗，就得\n拿来更多的宝可梦。$"
+    .string "初：好啦，好啦，你难道不是\n年轻的训练家？\p如果你想和我们战斗，就得\n拿来更多的宝可梦。$"
 
 MeteorFalls_1F_2R_Text_JohnRematchIntro:
-    .string "阿元：我们一直是\n两人一起战斗的。\l我们对自己充满信心。$"
+    .string "源：我们一直是\n两人一起战斗的。\l我们对自己充满信心。$"
 
 MeteorFalls_1F_2R_Text_JohnRematchDefeat:
-    .string "阿元：天啊。\n我们输了，亲爱的老婆。$"
+    .string "源：天啊。\n我们输了，亲爱的老婆。$"
 
 MeteorFalls_1F_2R_Text_JohnPostRematch:
-    .string "阿元：结婚50年了…\p仔细想想，我和亲爱的老婆\n每天都是在战斗的…$"
+    .string "源：结婚50年了…\p仔细想想，我和亲爱的老婆\n每天都是在战斗的…$"
 
 MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons:
-    .string "阿元：多么年轻的训练家！\p想和我们战斗吗？想的话就\n带来更多的宝可梦。$"
+    .string "源：多么年轻的训练家！\p想和我们战斗吗？想的话就\n带来更多的宝可梦。$"
 
 MeteorFalls_1F_2R_Text_JayRematchIntro:
-    .string "阿初：我们结婚\n50年了。\p我们一直互相支持\n我们会让自己变得更强。$"
+    .string "初：我们结婚\n50年了。\p我们一直互相支持\n我们会让自己变得更强。$"
 
 MeteorFalls_1F_2R_Text_JayRematchDefeat:
-    .string "阿初：哦，亲爱的。\n我们输了，我亲爱的老公。$"
+    .string "初：哦，亲爱的。\n我们输了，我亲爱的老公。$"
 
 MeteorFalls_1F_2R_Text_JayPostRematch:
-    .string "阿初：结婚50年了…\n发生过太多事。\p我希望我们可以继续\n一起创造快乐的记忆。$"
+    .string "初：结婚50年了…\n发生过太多事。\p我希望我们可以继续\n一起创造快乐的记忆。$"
 
 MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons:
-    .string "阿初：好啦，好啦，你难道不是\n年轻的训练家？\p如果你想和我们战斗，\n就得拿来更多的宝可梦。$"
+    .string "初：好啦，好啦，你难道不是\n年轻的训练家？\p如果你想和我们战斗，\n就得拿来更多的宝可梦。$"
 

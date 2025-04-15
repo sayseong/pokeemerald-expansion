@@ -477,16 +477,16 @@ Route109_EventScript_Elijah::
 	end
 
 DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
-    .string "哈奇：好了！\n我们到凯那市了！\p我想你是要去找\n库斯诺吉馆长送得文的包裹吧？$"
+    .string "哈奇：好了！\n我们到凯那市了！\p我想你是要去找\n楠木馆长送得文的物品吧？$"
 
 Route109_Text_BrineySailToDewfordQuestion:
-    .string "哈奇：我以为你要\n去送得文的包裹。\p那么，你想\n回武斗镇去吗？$"
+    .string "哈奇：我以为你要\n去送得文的物品。\p那么，你想\n回武斗镇去吗？$"
 
 Route109_Text_BrineyDewfordItIs:
     .string "哈奇：那么，向武斗镇出发！\p起锚！\n小皮，宝贝儿，出海了！$"
 
 Route109_Text_BrineyDeliverDevonGoods:
-    .string "哈奇：那么你去送得文的包裹吧，\n我就在这儿等着。$"
+    .string "哈奇：那么你去送得文的物品吧，\n我就在这儿等着。$"
 
 DewfordTown_Text_BrineyLandedInSlateport:
     .string "哈奇：好了！\n我们到凯那市了！\p你还想出海的话\n就来找我吧！$"
@@ -519,7 +519,7 @@ Route109_Text_ZigzagoonCry:
     .string "蛇纹熊：咕呜？$"
 
 Route109_Text_SeashoreHouseSign:
-    .string "海滨之屋\p“火热的沙滩上火热的战斗！\n欢迎火热的训练家！”$"
+    .string "大海之家\p“火热的沙滩上火热的战斗！\n欢迎火热的训练家！”$"
 
 Route109_Text_TrainerTipsSign:
     .string "训练家小技巧\p同样等级的宝可梦实力\n并不完全相同。\p据说训练家训练出的宝可梦\n比野生宝可梦更强。$"

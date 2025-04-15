@@ -234,7 +234,7 @@ BattleFrontier_Lounge3_Text_ChallengeBattleArena::
     .string "我正在找想要参加\n对战竞技场里三回合定胜负\l锦标赛的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePike::
-    .string "我正在找想要参加\n对战水管里选择式对战\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要参加\n对战管道里选择式对战\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePyramid::
     .string "我正在找想要参加\n对战金字塔里追寻式战斗\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
@@ -285,7 +285,7 @@ BattleFrontier_Lounge3_Text_GetToBattleArena::
     .string "马上就去对战竞技场的\n三回合定胜负锦标赛吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePike::
-    .string "马上就去对战水管的\n选择式对战吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战管道的\n选择式对战吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePyramid::
     .string "马上就去对战金字塔的\n追寻式战斗吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"

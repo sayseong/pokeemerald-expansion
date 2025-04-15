@@ -334,19 +334,19 @@ PetalburgWoods_Text_YouHaveToHelpMe:
     .string "啊耶！\p你是个宝可梦训练家，对吗？\n拜托你帮帮我吧！$"
 
 PetalburgWoods_Text_NoOneCrossesTeamAqua:
-    .string "嗯？你知道自己在做什么吗？\n什么，你要保护他？\p就算你只是个孩子，\n和水舰队作对也没好下场！\p来战斗吧！$"
+    .string "嗯？你知道自己在做什么吗？\n什么，你要保护他？\p就算你只是个孩子，\n和海洋队作对也没好下场！\p来战斗吧！$"
 
 PetalburgWoods_Text_YoureKiddingMe:
     .string "你打败了我！你太强了！$"
 
 PetalburgWoods_Text_YouveGotSomeNerve:
-    .string "呼呼…敢和\n水舰队作对，你胆子不小！\l再来战斗一次吧！\p虽然想这么说，可我已经\n没有宝可梦了…\p而且，哼，我们水舰队\n还得在卡那兹市找某些东西，\p今天先放过你！$"
+    .string "呼呼…敢和\n海洋队作对，你胆子不小！\l再来战斗一次吧！\p虽然想这么说，可我已经\n没有宝可梦了…\p而且，哼，我们海洋队\n还得在卡那兹市找某些东西，\p今天先放过你！$"
 
 PetalburgWoods_Text_ThatWasAwfullyClose:
     .string "呼…\n好险哪！\p多亏了你，重要的文件\n才没被抢走\p好吧，作为答谢，送你\n一个超级球！$"
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
-    .string "这么说来刚才那个水舰队\n的混混说，他们也在寻找\l卡那兹市的什么东西，是吗？$"
+    .string "这么说来刚才那个海洋队\n的混混说，他们也在寻找\l卡那兹市的什么东西，是吗？$"
 
 PetalburgWoods_Text_ICantBeWastingTime:
     .string "唔喔！糟糕了！\n我可不能再浪费时间了！$"
@@ -397,7 +397,7 @@ PetalburgWoods_Text_TryUsingThisItem:
     .string "哦，真漂亮！\n那是卡那兹市道馆的徽章！\p你一定是个训练家，\n试试这个东西吧。$"
 
 PetalburgWoods_Text_MiracleSeedExplanation:
-    .string "这是奇迹种子，\n让宝可梦携带上的话，它的\l草系招式就会变强。\p我想除了奇迹种子，还有\n其它的可以让宝可梦携带的\l方便的物品。$"
+    .string "这是奇迹种子，\n让宝可梦携带上的话，它的\l草属性招式就会变强。\p我想除了奇迹种子，还有\n其它的可以让宝可梦携带的\l方便的物品。$"
 
 PetalburgWoods_Text_TrainerTipsExperience:
     .string "训练家小技巧\p所有在战斗中出过场的宝可梦\n都会得到经验值。\p想培养弱小的宝可梦，\n就把它放到队伍列表的左侧。\p战斗开始时，先把它换下场。\n这样它不会受伤\l也能获得经验值了。$"

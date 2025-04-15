@@ -33,7 +33,7 @@ DewfordTown_House2_Text_NoRoom:
     .string "呀，你没地方装了？\p那，听好，这个围巾是\n你的必备品！哎，我要是你，\l我会卖掉我的一切来得到它！$"
 
 DewfordTown_House2_Text_ExplainSilkScarf:
-    .string "丝绸围巾能提升\n一般系招式的威力，\p是对几乎所有宝可梦都有\n极大用处的头巾！$"
+    .string "丝绸围巾能提升\n一般属性招式的威力，\p是对几乎所有宝可梦都有\n极大用处的头巾！$"
 
 DewfordTown_House2_Text_BrawlySoCool:
     .string "哇，你是渡海来到\n武斗镇的吗？\p是因为听说藤树\n而来的吗？\p他真的很棒…\n大家都很崇敬他。$"

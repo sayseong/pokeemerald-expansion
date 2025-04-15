@@ -267,8 +267,8 @@ Route118_Text_CanCrossRiversWithSurf:
     .string "就算没有船，\n也可以用学会了\l冲浪的宝可梦渡海。\p你可以依靠宝可梦\n做很多事情！$"
 
 Route118_Text_RouteSignMauville:
-    .string "118号公路\n{LEFT_ARROW}紫堇市$"
+    .string "118号道路\n{LEFT_ARROW}紫堇市$"
 
 Route118_Text_RouteSign119:
-    .string "118号公路\n{UP_ARROW}119号公路$"
+    .string "118号道路\n{UP_ARROW}119号道路$"
 

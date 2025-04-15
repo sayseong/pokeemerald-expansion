@@ -225,7 +225,7 @@ SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExitNorth:
 	step_end
 
 SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter:
-    .string "欢迎来到海之博物馆，\p参观费50¥。\n您想参观吗？$"
+    .string "欢迎来到海洋科学博物馆，\p参观费¥50。\n您想参观吗？$"
 
 SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself:
     .string "祝您愉快。$"
@@ -237,7 +237,7 @@ SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup:
     .string "哦？您和刚刚离开的那些人\n是一起的吗？\p只剩下您一个了，\n您最好快些赶上他们！$"
 
 SlateportCity_OceanicMuseum_1F_Text_AquaExistForGoodOfAll:
-    .string "我们水舰队永远\n站在正义的一方！$"
+    .string "我们海洋队永远\n站在正义的一方！$"
 
 SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere:
     .string "上面要我们在这儿集合，\n所以我们都来了，但是…\p老大还没来。$"
@@ -252,13 +252,13 @@ SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
     .string "如果不是那些蠢货在\n卡那兹市搞砸了，我们怎么会到这儿来！$"
 
 SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
-    .string "我没带够50¥，从接待员那儿\n混进来花了不少时间。$"
+    .string "我没带够¥50，从接待员那儿\n混进来花了不少时间。$"
 
 SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling:
     .string "我想了解大海，\n把那些知识融入我的战斗中。$"
 
 SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel:
-    .string "一看到大海\n我就会感到头晕！\p对我来说，库斯诺吉馆长\n是最大的榜样！$"
+    .string "一看到大海\n我就会感到头晕！\p对我来说，楠木馆长\n是最大的榜样！$"
 
 SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow:
     .string "大海一望无际，\n无限深沉…\p里面一定还有很多\n我们所不知道的宝可梦。$"
@@ -267,7 +267,7 @@ SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon:
     .string "我想要只海中的宝可梦，\p抱着它们的感觉\n一定很奇妙。$"
 
 SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis:
-    .string "哎呀！\n你在这儿干什么？\p我？我是之前被你狠狠教训过的\n水舰队队员，记得吗？\l就在卡绿隧道那里？\p这个给你！\n原谅我吧！$"
+    .string "哎呀！\n你在这儿干什么？\p我？我是之前被你狠狠教训过的\n海洋队队员，记得吗？\l就在卡绿隧道那里？\p这个给你！\n原谅我吧！$"
 
 SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain:
     .string "比起我来，\n这个招式学习器更适合你。\p希望下次不要再见面了！\n啊哈哈哈！$"

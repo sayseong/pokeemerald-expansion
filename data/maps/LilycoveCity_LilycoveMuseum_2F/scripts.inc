@@ -235,7 +235,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_ItsYouPlayer:
     .string "啊！是你！\n{PLAYER}！$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_PaintingsAttractedMoreGuests:
-    .string "这些画作\n真的很棒！\p每一幅都完美无瑕！\n这是最优秀的画！\p这些绘画为美术博物馆\n吸引了很多客人，\p我真心感谢你，{PLAYER}，\n我的梦想成真了！$"
+    .string "这些画作\n真的很棒！\p每一幅都完美无瑕！\n这是最优秀的画！\p这些绘画为美术馆\n吸引了很多客人，\p我真心感谢你，{PLAYER}，\n我的梦想成真了！$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_TokenOfGratitude:
     .string "这是我的谢礼。$"

@@ -186,7 +186,7 @@ JaggedPass_Text_EthanDefeat:
     .string "在我们还在寻找一个合适立足点\n的时候，一切就结束了…$"
 
 JaggedPass_Text_EthanPostBattle:
-    .string "如果有飞跃自行车的话，\n我就能跳过断坡了。$"
+    .string "如果有越野自行车的话，\n我就能跳过断坡了。$"
 
 JaggedPass_Text_EthanRegister:
     .string "等我习惯了这崎岖的路面，\n就一定能赢！\p能把我登记进你的宝可梦导航仪吗？$"
@@ -198,7 +198,7 @@ JaggedPass_Text_EthanRematchDefeat:
     .string "在这么高低不平的地面上战斗\n还是不容易啊…$"
 
 JaggedPass_Text_EthanPostRematch:
-    .string "我真该先去紫堇市的风野那儿\n弄台飞跃自行车…$"
+    .string "我真该先去紫堇市的风野那儿\n弄台越野自行车…$"
 
 JaggedPass_Text_GruntIntro:
     .string "哇啊！\n你在这做什么？\p我在这儿干什么事？\p跟你有什么关系？$"
@@ -210,7 +210,7 @@ JaggedPass_Text_GoWhereverYouWant:
     .string "好吧好吧！\n我承认--你很强！\p别管我在干什么，\n赶紧去你想去的地方吧！$"
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
-    .string "喔！这块大石头对火岩徽章\n有反应！石头晃动起来了！$"
+    .string "喔！这块大石头对熔岩标志\n有反应！石头晃动起来了！$"
 
 JaggedPass_Text_JulioIntro:
     .string "哎呀！一下子从山顶冲下来\n真的好可怕！$"

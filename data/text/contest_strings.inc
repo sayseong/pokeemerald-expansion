@@ -1,14 +1,14 @@
 gText_AppealNumWhichMoveWillBePlayed::
-    .string "{STR_VAR_1}号表演！\n你会选择什么动作？$"
+    .string "{STR_VAR_1}号表演！\n要选择什么招式呢？$"
 
 gText_AppealNumButItCantParticipate::
-    .string "{STR_VAR_1}号表演！\n但是他无法参与！$"
+    .string "{STR_VAR_1}号表演！\n但是它无法参与！$"
 
 gText_MonAppealedWithMove::
-    .string "{STR_VAR_1}使用\n{STR_VAR_2}表演！$"
+    .string "{STR_VAR_1}使用\n{STR_VAR_2}进行表演！$"
 
 gText_MonWasWatchingOthers::
-    .string "{STR_VAR_1}正在看\n着别人。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}正在\n看着别人。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AllOutOfAppealTime::
     .string "表演时间\n已经结束了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
@@ -19,10 +19,10 @@ gText_BecameMoreConsciousOfOtherMons::
     .string "其它宝可梦变得\n更警惕了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonCantMakeAnAppealAfterThis::
-    .string "{STR_VAR_1}在这之后\n不能再做动作了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}在这之后\n不能再使用招式了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_SettledDownJustLittleBit::
-    .string "它只镇静了\n一小会儿。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它稍微\n冷静下来了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_BecameObliviousToOtherMons::
     .string "它开始忽视\n其它宝可梦了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
@@ -31,7 +31,7 @@ gText_BecameLessAwareOfOtherMons::
     .string "其它宝可梦的\n关注度降低了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StoppedCaringAboutOtherMons::
-    .string "它不再关注\n其他的宝可梦了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它无视了\n其它宝可梦。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToStartleOtherMons::
     .string "它试着去惊吓\n其它宝可梦。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
@@ -58,7 +58,7 @@ gText_MonRegainedItsForm::
     .string "{STR_VAR_1}恢复了。\n{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToJamMonDoingWell::
-    .string "它试图干扰宝可梦\n把动作做好。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它试图干扰宝可梦\n把招式做好。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StandoutMonHustledEvenMore::
     .string "表现出色的{STR_VAR_1}\n加快步伐甩开对手。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
@@ -70,49 +70,49 @@ gText_WorkedAsMuchAsMonBefore::
     .string "它和之前的那些宝可梦\n一样的的努力。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell::
-    .string "{STR_VAR_1}的动作完成\n的不是很理想。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的招式完成\n的不是很理想。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_WorkedAsMuchAsPrecedingMon::
-    .string "和前面宝可梦的动作\n重复了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "和前面宝可梦的招式\n重复了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell2::
-    .string "{STR_VAR_1}的动作完成\n的不是很理想。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的招式完成\n的不是很理想。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell3::
-    .string "{STR_VAR_1}的动作完展\n的不是很理想。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的招式完成\n的不是很理想。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentSlightlyWell::
-    .string "{STR_VAR_1}的动作\n完成的还可以。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的招式\n完成的还可以。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentPrettyWell::
-    .string "{STR_VAR_1}的动作\n完成的非常好。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的招式\n完成的非常好。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentExcellently::
-    .string "{STR_VAR_1}的动作\n完成的太棒了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的招式\n完成的太棒了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWasDud::
-    .string "{STR_VAR_1}的动作\n没有作用。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的招式\n没有作用。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotWorkVeryWell::
-    .string "{STR_VAR_1}的动作\n不是很有用。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的招式\n不是很有用。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentSlightlyWell2::
-    .string "{STR_VAR_1}的动作\n完成的还可以。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的招式\n完成的还可以。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentPrettyWell2::
-    .string "{STR_VAR_1}的动作\n完成的非常好。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的招式\n完成的非常好。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentVeryWell::
-    .string "{STR_VAR_1}的动作\n完成的非常棒。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的招式\n完成的非常棒。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentExcellently2::
-    .string "{STR_VAR_1}的动作\n完成的太出色了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的招式\n完成的太出色了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_SameTypeAsOneBeforeGood::
-    .string "和前面宝可梦的动作\n完成的一样出色！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "和前面宝可梦的招式\n完成的一样出色！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_NotSameTypeAsOneBeforeGood::
-    .string "它和之前做相同\n动作的一样棒！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它和之前做相同\n招式的一样棒！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StoodOutMuchMoreThanMonBefore::
     .string "它比前面的宝可梦\n要出色多了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
@@ -139,13 +139,13 @@ gText_JudgeLookedAtMonExpectantly::
     .string "裁判非常专注地\n看着{STR_VAR_1}的表演。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AppealComboWentOverWell::
-    .string "这一套动作\n受到欢迎了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "连锁招式\n受到欢迎了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AppealComboWentOverVeryWell::
-    .string "这一套动作\n很受欢迎。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "连锁招式\n很受欢迎。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AppealComboWentOverExcellently::
-    .string "这一套动作\n非常受欢迎了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "连锁招式\n非常受欢迎了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonManagedToAvertGaze::
     .string "{STR_VAR_1}设法\n躲开了它的注视。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
@@ -196,13 +196,13 @@ gText_CouldntImproveItsCondition::
     .string "它还不能改善\n自己的状态…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_BadConditionResultedInWeakAppeal::
-    .string "它糟糕的状态\n使得动作都是有气无力的了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它糟糕的状态\n使得招式都是有气无力的了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonWasUnaffected::
     .string "{STR_VAR_1}没有\n受到影响。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_RepeatedAppeal::
-    .string "{STR_VAR_1}做了重复的动作，\n真让人失望。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}用了重复的招式，\n真让人失望。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsXWentOverGreat::
     .string "{STR_VAR_1}的{STR_VAR_3}表演\n做得相当出色。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"

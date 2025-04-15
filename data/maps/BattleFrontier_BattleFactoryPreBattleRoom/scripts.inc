@@ -488,89 +488,89 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
     .string "我对你即将来临的对手\n进行了一些调查。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType:
-    .string "这个训练家显然很善于\n操纵一般系。$"
+    .string "这个训练家显然很善于\n操纵一般属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType:
-    .string "这个训练家显然很善于\n操纵炎系。$"
+    .string "这个训练家显然很善于\n操纵火属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType:
-    .string "这个训练家显然很善于\n操纵水系。$"
+    .string "这个训练家显然很善于\n操纵水属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType:
-    .string "这个训练家显然很善于\n操纵电系。$"
+    .string "这个训练家显然很善于\n操纵电属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType:
-    .string "这个训练家显然很善于\n操纵草系。$"
+    .string "这个训练家显然很善于\n操纵草属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType:
-    .string "这个训练家显然很善于\n操纵冰系。$"
+    .string "这个训练家显然很善于\n操纵冰属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType:
-    .string "这个训练家显然很善于\n操纵格斗系。$"
+    .string "这个训练家显然很善于\n操纵格斗属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType:
-    .string "这个训练家显然很善于\n操纵毒系。$"
+    .string "这个训练家显然很善于\n操纵毒属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType:
-    .string "这个训练家显然很善于\n操纵地上系。$"
+    .string "这个训练家显然很善于\n操纵地面属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType:
-    .string "这个训练家显然很善于\n操纵飞行系。$"
+    .string "这个训练家显然很善于\n操纵飞行属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType:
-    .string "这个训练家显然很善于\n操纵超能系。$"
+    .string "这个训练家显然很善于\n操纵超能力属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType:
-    .string "这个训练家显然很善于\n操纵虫系。$"
+    .string "这个训练家显然很善于\n操纵虫属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType:
-    .string "这个训练家显然很善于\n操纵岩石系。$"
+    .string "这个训练家显然很善于\n操纵岩石属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType:
-    .string "这个训练家显然很善于\n操纵幽灵系。$"
+    .string "这个训练家显然很善于\n操纵幽灵属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType:
-    .string "这个训练家显然很善于\n操纵龙系。$"
+    .string "这个训练家显然很善于\n操纵龙属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
-    .string "这个训练家显然很善于\n操纵恶系。$"
+    .string "这个训练家显然很善于\n操纵恶属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType:
 	.string "The TRAINER is apparently skilled\n"
 	.string "in the handling of the FAIRY type.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
-    .string "这个训练家显然很善于\n操纵钢系。$"
+    .string "这个训练家显然很善于\n操纵钢属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite:
-    .string "这个训练家显然没有特别\n善长的系。$"
+    .string "这个训练家显然没有特别\n擅长的属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleSlowAndSteady:
-    .string "最喜欢的战斗风格好像是\n慢而稳的那种。$"
+    .string "最喜欢的战斗风格好像是\n稳扎稳打的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleEndurance:
-    .string "最喜欢的战斗风格好像是\n持久战的那种。$"
+    .string "最喜欢的战斗风格好像是\n着重耐力的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleHighRisk:
-    .string "最喜欢的战斗风格好像是\n高风险，高回报的那种。$"
+    .string "最喜欢的战斗风格好像是\n孤注一掷的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleDependsOnFlow:
-    .string "最喜欢的战斗风格好像是\n根据战斗情况变化而变化的那种。$"
+    .string "最喜欢的战斗风格好像是\n善观战斗走向的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleTotalPreparation:
-    .string "最喜欢的战斗风格好像是\n以事先做好充分准备为基础的那种。$"
+    .string "最喜欢的战斗风格好像是\n万事俱备的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleWeakenFoe:
-    .string "最喜欢的战斗风格好像是\n以削弱敌人实力为开始的那种。$"
+    .string "最喜欢的战斗风格好像是\n弱敌为先的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleFlexible:
-    .string "最喜欢的战斗风格好像是\n对形势能极好适应的那种。$"
+    .string "最喜欢的战斗风格好像是\n因地制宜的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleImpossibleToPredict:
-    .string "最喜欢的战斗风格好像是\n不可能预言的那种。$"
+    .string "最喜欢的战斗风格好像是\n高深莫测的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained:
-    .string "最喜欢的战斗风格好像是\n思想自由不受约束的那种。$"
+    .string "最喜欢的战斗风格好像是\n自由奔放、无拘无束的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon:
     .string "再开始战斗之前，你要\n交换一只宝可梦吗？$"
@@ -582,10 +582,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay:
     .string "请走这边！$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait:
-    .string "我在为你保存数据。\n请稍等。$"
+    .string "我在为你保存记录。\n请稍等。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle:
-    .string "你要把你上次的战斗记录\n到你的开拓区通行证吗？$"
+    .string "你要把你上次的战斗记录\n到你的开拓通行证吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments:
     .string "抱歉！请原谅！\n你能等一下吗？$"
@@ -594,10 +594,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo:
     .string "…嗯？什么？！…谁啊！\n有没有搞错！是吗！$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
-    .string "哦，我的…\n很抱歉让你久等了！\p我有一个老板厂主那里\n的消息。\p他说，“我们就去干！\n马上过来！”$"
+    .string "哦，我的…\n很抱歉让你久等了！\p我有一个老板工厂头目那里\n的消息。\p他说，“我们就去干！\n马上过来！”$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
-    .string "厂主要求见你。\n你准备好面见他了吗？$"
+    .string "工厂头目要求见你。\n你准备好面见他了吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead:
-    .string "十分抱歉，我不能告诉你\n任何有关于厂主的事。$"
+    .string "十分抱歉，我不能告诉你\n任何有关于工厂头目的事。$"

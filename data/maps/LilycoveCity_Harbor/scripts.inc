@@ -569,7 +569,7 @@ LilycoveCity_Harbor_Text_WhereWouldYouLikeToGo:
     .string "那么，您想去哪儿？$"
 
 LilycoveCity_Harbor_Text_SailorFerryUnavailable:
-    .string "他们不造好游船，\n我们海员就无事可做…\p希望凯那的船坞里\n那些家伙们动作快一点。$"
+    .string "他们不造好游船，\n我们海员就无事可做…\p希望凯那的船厂里\n那些家伙们动作快一点。$"
 
 LilycoveCity_Harbor_Text_SailorFerryAvailable:
-    .string "破浪号游船\n终于完成了，\p凯那的船坞里\n那些家伙们一定干得很努力。\p好了，现在该我们忙活了！$"
+    .string "破浪号游船\n终于完成了，\p凯那的船厂里\n那些家伙们一定干得很努力。\p好了，现在该我们忙活了！$"

@@ -392,7 +392,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
     .string "双人交换式对战锦标赛\n是一种只能用租借的宝可梦的\l双打对战式的比赛。\p首先，为了比赛你要专门租借\n三只宝可梦。\p你必须用所提供的租借宝可梦，\n指挥一场双打对战。\p如果赢了，你就可以把其中一只\n租借宝可梦换掉。\p重复这种战斗和\n交换--如果你能连着赢七次，\l你会得到对战点数。\p如果你要中断挑战，\n请先保存游戏。\p如果你不保存，你下次就不能继续\n你的挑战。$"
 
 BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead:
-    .string "恭喜你击败了\n厂主并\l一连赢了七场比赛！$"
+    .string "恭喜你击败了\n工厂头目并\l一连赢了七场比赛！$"
 
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints:
     .string "为了对你拥有的知识财富\n及非凡的智力表示认可，\l我们授予你这些对战点数。$"
@@ -401,10 +401,10 @@ BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
     .string "我来归还你的宝可梦\n并收回我们租借的宝可梦。\p我需要保存战斗数据，\n请稍等。$"
 
 BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch:
-    .string "你要把你上次的\n对战工厂比赛记录到你的\l开拓区通行证吗？$"
+    .string "你要把你上次的\n对战工厂比赛记录到你的\l开拓通行证吗？$"
 
 BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
-    .string "喂！\n那边的，你！\p你在想既然不必去\n培养一组宝可梦\l那么战斗就会很容易是吗？\p我认为要赢并不是那么\n简单的。\p如果你不具备对宝可梦及\n他们的行动的深刻的知识的话，\l想要赢是很难的。$"
+    .string "喂！\n那边的，你！\p你在想既然不必去\n培养一组宝可梦\l那么战斗就会很容易是吗？\p我认为要赢并不是那么\n简单的。\p如果你不具备对宝可梦及\n他们的招式的深刻的知识的话，\l想要赢是很难的。$"
 
 BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon:
     .string "我交换到了一只弱的宝可梦…\n我想他是一种善于…\p他们和我们一起擦地板…$"
@@ -417,7 +417,7 @@ BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints:
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried:
-    .string "例如，我很坚强，但是我很容易感到\n厌烦，于是我不停的\l交换并且战斗。\p不管怎么说，当我进入\n交换式对战活动中，我发现他们\l有很多不同的宝可梦出租。$"
+    .string "例如，我很强大，但是我很容易感到\n无聊，于是我不停的\l交换并且战斗。\p不管怎么说，当我进入\n交换式对战活动中，我发现他们\l有很多不同的宝可梦租借。$"
 
 BattleFrontier_BattleFactoryLobby_Text_RulesAreListed:
     .string "交换式对战的规则如下。$"

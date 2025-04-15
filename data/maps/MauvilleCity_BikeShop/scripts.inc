@@ -180,19 +180,19 @@ MauvilleCity_BikeShop_Text_RydelGreeting:
     .string "哎呀哎呀，看看是谁来了？\n一位充满活力的客人！\p我？你可以叫我风野，\n我是这家车店的店主。$"
 
 MauvilleCity_BikeShop_Text_DidYouComeFromFarAway:
-    .string "风野：你的风速鞋…\n看上去已经很脏了。\p你是从很远的地方来的吗？$"
+    .string "风野：你的跑步鞋…\n看上去已经很脏了。\p你是从很远的地方来的吗？$"
 
 MauvilleCity_BikeShop_Text_GuessYouDontNeedBike:
     .string "风野：是吗？\p那么我想你\n不需要我的自行车。$"
 
 MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
-    .string "风野：唔，唔… … … … …\p你说你从未白镇\n一路来到这里？\p天啊！\n那么远的地方！\p如果你骑着我的自行车，\n你可以在感受轻风拂面的同时\l轻轻松松地到任何地方去！\p我跟你说！\n我给你辆自行车！\p啊，等等！\p忘了告诉你，我这儿\n有两种自行车！\p分别是马赫自行车\n和飞跃自行车！\p马赫自行车是为\n追风的单车一族而设计，\p而飞跃自行车则是给\n喜爱车技的人所准备！\p我是好心人，所以\n让你随便挑一种！\p你想要哪样？$"
+    .string "风野：唔，唔… … … … …\p你说你从未白镇\n一路来到这里？\p天啊！\n那么远的地方！\p如果你骑着我的自行车，\n你可以在感受轻风拂面的同时\l轻轻松松地到任何地方去！\p我跟你说！\n我给你辆自行车！\p啊，等等！\p忘了告诉你，我这儿\n有两种自行车！\p分别是音速自行车\n和越野自行车！\p音速自行车是为\n追风的单车一族而设计，\p而越野自行车则是给\n喜爱车技的人所准备！\p我是好心人，所以\n让你随便挑一种！\p你想要哪样？$"
 
 MauvilleCity_BikeShop_Text_ChoseMachBike:
-    .string "{PLAYER}选择了马赫自行车。$"
+    .string "{PLAYER}选择了音速自行车。$"
 
 MauvilleCity_BikeShop_Text_ChoseAcroBike:
-    .string "{PLAYER}选择了飞跃自行车。$"
+    .string "{PLAYER}选择了越野自行车。$"
 
 MauvilleCity_BikeShop_Text_ComeBackToSwitchBikes:
     .string "风野：如果你想换一辆自行车，\n再回来找我！$"
@@ -204,10 +204,10 @@ MauvilleCity_BikeShop_Text_IllSwitchBikes:
     .string "风野：好，没问题！\n我给你换一辆车！$"
 
 MauvilleCity_BikeShop_Text_ExchangedMachForAcro:
-    .string "{PLAYER}把马赫自行车\n换成了飞跃自行车。$"
+    .string "{PLAYER}把音速自行车\n换成了越野自行车。$"
 
 MauvilleCity_BikeShop_Text_ExchangedAcroForMach:
-    .string "{PLAYER}把飞跃自行车\n换成了马赫自行车。$"
+    .string "{PLAYER}把越野自行车\n换成了音速自行车。$"
 
 MauvilleCity_BikeShop_Text_HappyYouLikeIt:
     .string "风野：好，好！\n我很高兴你能喜欢它！$"
@@ -219,19 +219,19 @@ MauvilleCity_BikeShop_Text_HandbooksAreInBack:
     .string "我在这儿工作的时候\n学到了很多关于自行车的知识。\p如果你想知道\n怎么骑车，那边\l有几本说明书。$"
 
 MauvilleCity_BikeShop_Text_MachHandbookWhichPage:
-    .string "是马赫自行车的说明书。\p想读哪一页？$"
+    .string "是音速自行车的说明书。\p想读哪一页？$"
 
 MauvilleCity_BikeShop_Text_HowToRideMachBike:
     .string "按方向键可以\n使自行车向相应的方向移动。\p持续移动的话车会加速。\p若要停止，则松开方向键，\n自行车会慢慢减速停下。\p还要翻到其他页吗？$"
 
 MauvilleCity_BikeShop_Text_HowToTurnMachBike:
-    .string "马赫自行车速度很快，\n但并不容易停下，\p转弯的时候\n也有些麻烦，\p需要提前松开\n方向键减速。\p还要翻到其他页吗？$"
+    .string "音速自行车速度很快，\n但并不容易停下，\p转弯的时候\n也有些麻烦，\p需要提前松开\n方向键减速。\p还要翻到其他页吗？$"
 
 MauvilleCity_BikeShop_Text_SandySlopes:
-    .string "丰缘地区中某些地方\n有小沙坡，\p普通方法很难爬上\n这些松散细碎的斜坡，\p但如果骑着马赫自行车\n就能冲上沙坡。\p还要翻到其他页吗？$"
+    .string "丰缘地区中某些地方\n有小沙坡，\p普通方法很难爬上\n这些松散细碎的斜坡，\p但如果骑着音速自行车\n就能冲上沙坡。\p还要翻到其他页吗？$"
 
 MauvilleCity_BikeShop_Text_AcroHandbookWhichPage:
-    .string "是飞跃自行车的说明书。\p想读哪一页？$"
+    .string "是越野自行车的说明书。\p想读哪一页？$"
 
 MauvilleCity_BikeShop_Text_Wheelies:
     .string "骑车时按住B键\n可以抬起前轮，\p此时按方向键\n能够抬着前轮移动。\p这叫做后轮特技。\p还要翻到其他页吗？$"

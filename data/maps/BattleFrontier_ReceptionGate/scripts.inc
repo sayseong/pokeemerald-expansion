@@ -305,13 +305,13 @@ BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
     .string "这里是宝可梦对战的最前线！\n欢迎来到对战开拓区！$"
 
 BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
-    .string "每一位新的来访者都会\n得到一张开拓区通行证。\p有了它就可以参加\n对战开拓区各种设施。\p给，这是你的！$"
+    .string "每一位新的来访者都会\n得到一张开拓通行证。\p有了它就可以参加\n对战开拓区各种设施。\p给，这是你的！$"
 
 BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
-    .string "{PLAYER}得到了\n开拓区通行证。$"
+    .string "{PLAYER}得到了\n开拓通行证。$"
 
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
-    .string "{PLAYER}把训练家卡片\n放进了开拓区通行证里。$"
+    .string "{PLAYER}把训练家卡\n放进了开拓通行证里。$"
 
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
     .string "希望你喜欢\n对战开拓区的一切！$"
@@ -347,7 +347,7 @@ BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
     .string "对战工厂就是离我们\n最近的那个大型建筑。\p里面举行\n交换式对战。\p交换式对战分两种，\n分别是单人和双人\l对战。$"
 
 BattleFrontier_ReceptionGate_Text_BattlePikeInfo:
-    .string "对战水管是位于\n对战开拓区中央偏左的\l像宝可梦一样的建筑。\p里面会举行\n选择式对战。$"
+    .string "对战管道是位于\n对战开拓区中央偏左的\l像宝可梦一样的建筑。\p里面会举行\n选择式对战。$"
 
 BattleFrontier_ReceptionGate_Text_BattlePyramidInfo:
     .string "对战金字塔就是那个\n巨大的金字塔。\p里面会举行\n追寻式战斗。$"
@@ -380,16 +380,16 @@ BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
     .string "参加对战开拓区的\n挑战时，每只宝可梦\l携带的物品都不能相同。\p参加之前请先确认\n每只参加的宝可梦\l都携带了不同的物品。$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass:
-    .string "我负责向你介绍开拓区通行证。$"
+    .string "我负责向你介绍开拓通行证。$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
     .string "你想知道什么？$"
 
 BattleFrontier_ReceptionGate_Text_SymbolsInfo:
-    .string "对战开拓区中有\n七种设施。\p在每一设施中，训练家的能力\n如果能够被认可，\l就能够得到一枚象征作为奖励。\p要想得到印记，训练家也许\n得连续打败许多其他训练家，\l也许得在同一活动中不断胜出。\p确实，想要得到印记并不容易，\n祝你好运！$"
+    .string "对战开拓区中有\n七种设施。\p在每一设施中，训练家的能力\n如果能够被认可，\l就能够得到一枚象征作为奖励。\p要想得到象征，训练家也许\n得连续打败许多其他训练家，\l也许得在同一活动中不断胜出。\p确实，想要得到象征并不容易，\n祝你好运！$"
 
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
-    .string "可以在你的开拓区通行证上面\n记录下你的某一场战斗。\p你可以记录你与你的\n朋友们的战斗，\p或者记录下在对战开拓区\n进行过的一场战斗，包括\l在对战水管或对战金字塔里\l进行的比赛。\p战斗结束时你可以选择\n是否要记录战斗。$"
+    .string "可以在你的开拓通行证上面\n记录下你的某一场战斗。\p你可以记录你与你的\n朋友们的战斗，\p或者记录下在对战开拓区\n进行过的一场战斗，包括\l在对战管道或对战金字塔里\l进行的比赛。\p战斗结束时你可以选择\n是否要记录战斗。$"
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
     .string "对战点数是送给\n对战开拓区中战斗非常出色的\l训练家的奖励。\p你可以在交换服务中心\n用你的对战点数\l兑换其他奖品。$"

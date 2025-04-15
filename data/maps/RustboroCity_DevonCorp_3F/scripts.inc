@@ -198,16 +198,16 @@ RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay::
 	end
 
 RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
-    .string "我是兹伏奇，\n得文公司的董事长。\p我刚刚听研究员介绍过你，\p你不止一次\n帮了我们的员工！\p我很高兴能得到\n你这样的人的帮助。\p我知道你要送包裹到\n凯那市的船坞去，\p唔，顺便，能不能\n在武斗镇停一下？\p希望你同时能把这封信\n交给武斗镇里一个叫大吾的人。$"
+    .string "我是兹伏奇，\n得文公司的社长。\p我刚刚听研究员介绍过你，\p你不止一次\n帮了我们的员工！\p我很高兴能得到\n你这样的人的帮助。\p我知道你要送包裹到\n凯那市的船厂去，\p唔，顺便，能不能\n在武斗镇停一下？\p希望你同时能把这封信\n交给武斗镇里一个叫大吾的人。$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
-    .string "兹伏奇：你知道\n我是个大公司的董事长，\p所以我不会请人\n白白帮忙的。\p因此我把这个送给你！$"
+    .string "兹伏奇：你知道\n我是个大公司的社长，\p所以我不会请人\n白白帮忙的。\p因此我把这个送给你！$"
 
 RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
     .string "{PLAYER}得到了宝可梦导航仪。$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
-    .string "兹伏奇：那个装置…\p那是宝可梦领航设备，\n简称宝可梦导航仪，\p对探险中的训练家来说\n是不可或缺的工具。\p那里面有丰缘地区的地图，\p你可以很方便地找到\n武斗镇和凯那市的地点！\p对了，我听说一些邪恶的犯罪团伙\n——我想是火岩队和水舰队——\l在到处惹麻烦，\p你上路之前最好\n先好好休息一下。$"
+    .string "兹伏奇：那个装置…\p那是宝可梦领航设备，\n简称宝可梦导航仪，\p对探险中的训练家来说\n是不可或缺的工具。\p那里面有丰缘地区的地图，\p你可以很方便地找到\n武斗镇和凯那市的地点！\p对了，我听说一些邪恶的犯罪团伙\n——我想是熔岩队和海洋队——\l在到处惹麻烦，\p你上路之前最好\n先好好休息一下。$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare:
     .string "兹伏奇：好了，{PLAYER}{KUN}，\n小心谨慎地出发吧！$"
@@ -225,20 +225,20 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
     .string "兹伏奇：我年轻的时候\n一直全身心沉迷于工作，\p结果，我一点也不了解\n潮流或类似的东西。\p年轻人们都想成为\n宝可梦联盟的训练家吗？$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
-    .string "这里是得文公司\n三楼，\p董事长办公室的\n所在地。\p无论如何，我无法表明\n我对你所做的事情的感谢。\p呃…另外，你帮我们\n取回来的那个包裹…\p能再请你帮忙\n送到凯那市的船坞吗？\p如果再让那些强盗\n抢走就糟了。\p呃…哈哈哈，那，呃，\n能帮我这个忙吗？\p啊，对了，\n请在此稍等一下。$"
+    .string "这里是得文公司\n三楼，\p社长办公室的\n所在地。\p无论如何，我无法表明\n我对你所做的事情的感谢。\p呃…另外，你帮我们\n取回来的那个包裹…\p能再请你帮忙\n送到凯那市的船厂吗？\p如果再让那些强盗\n抢走就糟了。\p呃…哈哈哈，那，呃，\n能帮我这个忙吗？\p啊，对了，\n请在此稍等一下。$"
 
 RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe:
-    .string "我们的董事长\n有话想跟你说，\p跟我来。$"
+    .string "我们的社长\n有话想跟你说，\p跟我来。$"
 
 RustboroCity_DevonCorp_3F_Text_PleaseGoAhead:
     .string "过来吧。$"
 
 RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard:
-    .string "你到凯那的船坞后，\n应该去找库斯诺吉馆长。$"
+    .string "你到凯那的船厂后，\n应该去找楠木馆长。$"
 
 RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular:
     .string "得文的新产品重复球\n和时间球很快就\l在训练家之中流行起来了。$"
 
 RustboroCity_DevonCorp_3F_Text_RareRocksDisplay:
-    .string "这是董事长收集的\n稀有岩石。$"
+    .string "这是社长收集的\n稀有岩石。$"
 

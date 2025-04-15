@@ -348,7 +348,7 @@ PlayersHouse_1F_Text_TheresAMovieOnTV:
     .string "上演着一部电影，\p两个人在巨大的\n琴键上跳舞。\p该走了！$"
 
 PlayersHouse_1F_Text_RunningShoesManual:
-    .string "这是\n风速鞋的说明书。\p“穿上风速鞋，\n按B键奔跑。\p系好你的鞋带，在\n踏地的节奏中飞奔吧！”$"
+    .string "这是\n跑步鞋的说明书。\p“穿上跑步鞋，\n按B键奔跑。\p系好你的鞋带，在\n踏地的节奏中飞奔吧！”$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
     .string "爸爸：嗯？\p嗨，{PLAYER}！\p有段时间没见了，\n让我看看…好像变强了嘛。\p但你老爹我也不会放弃，\n不会输给你的！\p啊，对了，有东西要给你，\n这是一个叫哈奇的人\l托我带给你的。$"

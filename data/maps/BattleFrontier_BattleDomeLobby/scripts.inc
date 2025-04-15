@@ -541,13 +541,13 @@ BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully:
     .string "我要是让这只宝可梦待命的话，\n我就会赢。\p你必须调查清楚对手\n的宝可梦后，\l再挑选你的宝可梦。$"
 
 BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker:
-    .string "恭喜你！\p你打败了巨蛋天王，\n并获得了对战锦标赛的胜利。$"
+    .string "恭喜你！\p你打败了巨蛋超级巨星，\n并获得了对战锦标赛的胜利。$"
 
 BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
     .string "不得不承认，\n你的战术还真的是相当的漂亮！\l这些对战点数就奖给你啦！$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
-    .string "是否在开拓区通行证上\n记录下最后一次\l对战巨蛋的比赛？$"
+    .string "是否在开拓通行证上\n记录下最后一次\l对战巨蛋的比赛？$"
 
 BattleFrontier_BattleDomeLobby_Text_RulesAreListed:
     .string "对战锦标赛比赛规则\n已经列出来了。$"

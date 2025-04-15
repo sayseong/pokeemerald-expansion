@@ -338,19 +338,19 @@ BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait:
     .string "正在记录存档。\n请稍候。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RecordLastMatch:
-    .string "我能记录你在开拓区通行证的\n最后一次比赛吗？$"
+    .string "我能记录你在开拓通行证的\n最后一次比赛吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver:
-    .string "恭喜你成功\n进入决赛！\p在决赛中，你将挑战的人是——\n巨蛋天王希尔斯。\p准备好了吗？$"
+    .string "恭喜你成功\n进入决赛！\p在决赛中，你将挑战的人是——\n巨蛋超级巨星石南。\p准备好了吗？$"
 
 @ Identical to ReadyForTuckerSilver
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold:
-    .string "恭喜你成功\n进入决赛！\p在决赛中，你将挑战的人是——\n巨蛋天王希尔斯。\p准备好了吗？$"
+    .string "恭喜你成功\n进入决赛！\p在决赛中，你将挑战的人是——\n巨蛋超级巨星石南。\p准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilverShort:
-    .string "接下来的是你最后的对手希尔斯。\n准备好了吗？$"
+    .string "接下来的是你最后的对手石南。\n准备好了吗？$"
 
 @ Identical again
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGoldShort:
-    .string "接下来的是你最后的对手希尔斯。\n准备好了吗？$"
+    .string "接下来的是你最后的对手石南。\n准备好了吗？$"
 

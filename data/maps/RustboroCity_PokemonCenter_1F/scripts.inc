@@ -31,7 +31,7 @@ RustboroCity_PokemonCenter_1F_EventScript_Girl::
 	end
 
 RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities:
-    .string "我的宝可梦是天真性格，\n而我朋友的是开朗性格。\p宝可梦也有自己的性格，\n真有趣！$"
+    .string "我的宝可梦是天真性格，\n而我朋友的是爽朗性格。\p宝可梦也有自己的性格，\n真有趣！$"
 
 RustboroCity_PokemonCenter_1F_Text_MaleAndFemalePokemon:
     .string "就像人类一样，\n宝可梦也有性别，\p但似乎没人知道\n它们的不同点在何处。$"

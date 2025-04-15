@@ -739,7 +739,7 @@ static void Task_TitleScreenPhase1(u8 taskId)
 static void Task_TitleScreenPhase2(u8 taskId)
 {
     //u32 yPos;
-    //修改，新增「宠物小精灵」大标题向右偏移相关（不按按键跳过时）
+    //修改，新增「宠物小精灵」大标题向右偏移相关(不按按键跳过时)
     u32 xPos, yPos;
 
     // Skip to next phase when A, B, Start, or Select is pressed
@@ -777,7 +777,7 @@ static void Task_TitleScreenPhase2(u8 taskId)
         gTasks[taskId].tBg2Y++;
 
     // Slide Pokémon logo up
-    //修改，新增「宠物小精灵」大标题向右偏移相关（不按按键跳过时）
+    //修改，新增「宠物小精灵」大标题向右偏移相关(不按按键跳过时)
     xPos = gTasks[taskId].data[3] * 256;
     SetGpuReg(REG_OFFSET_BG2X_L, xPos);
     SetGpuReg(REG_OFFSET_BG2X_H, xPos / 0x10000);
@@ -817,7 +817,7 @@ static void Task_TitleScreenPhase3(u8 taskId)
     }
     else
     {
-        //修改，新增「宠物小精灵」大标题向右偏移相关（按按键跳过时）
+        //修改，新增「宠物小精灵」大标题向右偏移相关(按按键跳过时)
         SetGpuReg(REG_OFFSET_BG2X_L, 0);
         SetGpuReg(REG_OFFSET_BG2X_H, 0);
         SetGpuReg(REG_OFFSET_BG2Y_L, 0);

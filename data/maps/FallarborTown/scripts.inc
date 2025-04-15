@@ -64,7 +64,7 @@ FallarborTown_Text_Azurill:
     .string "露力丽：蓝蓝路～～～～～。$"
 
 FallarborTown_Text_HaveYouChallengedFlannery:
-    .string "你挑战过釜炎镇道馆的馆主\n亚莎了吗？\p那女孩的爷爷非常出名，\n他曾是宝可梦联盟的\l四大天王之一，\p如今亚莎也成长为一个\n出色的训练家\l并不让我感到奇怪。$"
+    .string "你挑战过釜炎镇道馆的馆主\n亚莎了吗？\p那女孩的爷爷非常出名，\n他曾是宝可梦联盟的\l四天王之一，\p如今亚莎也成长为一个\n出色的训练家\l并不让我感到奇怪。$"
 
 FallarborTown_Text_BattleTentSign:
     .string "对战帐篷秋叶镇分址\n“愿优秀的队伍在这里聚集！”$"

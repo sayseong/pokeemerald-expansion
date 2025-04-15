@@ -35,13 +35,13 @@ gBirchDexRatingText_LessThan90::
     .string "已经收集这么多了…\n你一定有这方面的天赋！$"
 
 gBirchDexRatingText_LessThan100::
-    .string "你去过野生原野区了吗？\p听说有些宝可梦\n只有在那里才能抓到。$"
+    .string "你去过狩猎地带了吗？\p听说有些宝可梦\n只有在那里才能抓到。$"
 
 gBirchDexRatingText_LessThan110::
     .string "已经超过100种了，\n真棒的宝可梦图鉴！$"
 
 gBirchDexRatingText_LessThan120::
-    .string "使用岩石粉碎也有可能\n找到宝可梦哦。$"
+    .string "使用碎岩也有可能\n找到宝可梦哦。$"
 
 gBirchDexRatingText_LessThan130::
     .string "你可以和其他人交换\n来得到更多的宝可梦。$"

@@ -131,10 +131,10 @@ AquaHideout_B1F_Text_Grunt5Defeat:
     .string "唔…\n见鬼，我输了…$"
 
 AquaHideout_B1F_Text_Grunt5PostBattle:
-    .string "到处瞎转悠的话，你肯定会\n被其他水舰队的人看到的。$"
+    .string "到处瞎转悠的话，你肯定会\n被其他海洋队的人看到的。$"
 
 AquaHideout_B1F_Text_Grunt7Intro:
-    .string "嘿！\n你！\p你认为水舰队的制服和火岩队的\n哪一个更酷一点？$"
+    .string "嘿！\n你！\p你认为海洋队的制服和熔岩队的\n哪一个更酷一点？$"
 
 AquaHideout_B1F_Text_Grunt7Defeat:
     .string "我很酷地输掉了…$"

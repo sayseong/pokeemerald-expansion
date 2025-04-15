@@ -16,7 +16,7 @@ LavaridgeTown_House_EventScript_Zigzagoon::
 	end
 
 LavaridgeTown_House_Text_WifeWarmingEggInHotSprings:
-    .string "我妻子告诉我，她在温泉里\n养了一只蛋。\p她在抚养家寄存了两只宝可梦，\n然后就发现了那个蛋！$"
+    .string "我妻子告诉我，她在温泉里\n养了一只蛋。\p她在培育屋寄存了两只宝可梦，\n然后就发现了那个蛋！$"
 
 LavaridgeTown_House_Text_Zigzagoon:
     .string "蛇纹熊：噗休！$"

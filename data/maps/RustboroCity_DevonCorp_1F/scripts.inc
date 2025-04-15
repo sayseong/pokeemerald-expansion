@@ -87,13 +87,13 @@ RustboroCity_DevonCorp_1F_Text_StaffGotRobbed:
     .string "我们的一个调查员被人\n把很重要的包裹抢走了。$"
 
 RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
-    .string "哎，那是风速鞋！\n那也是我们的产品！\p每次看到别人使用我们的发明，\n我都会很高兴。$"
+    .string "哎，那是跑步鞋！\n那也是我们的产品！\p每次看到别人使用我们的发明，\n我都会很高兴。$"
 
 RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
     .string "被偷走的包裹…\p虽然确实很重要，\n但也不是所有人都会使用的东西。\p我看那个强盗\n没那么聪明。$"
 
 RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered:
-    .string "听说被抢走的得文的包裹\n找回来了。$"
+    .string "听说被抢走的得文的物品\n找回来了。$"
 
 RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter:
     .string "对不起，\n无关人士请勿入内。$"

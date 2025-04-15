@@ -472,7 +472,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmTotodileDoll::
     .string "你选择了小锯鳄玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaprasDoll::
-    .string "你选择了乘龙玩偶。\n可以吗？$"
+    .string "你选择了拉普拉斯玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll::
     .string "你选择了卡比兽玩偶。\n可以吗？$"
@@ -487,49 +487,49 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll::
     .string "你选择了水箭龟玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmProtein::
-    .string "你选择了蛋白药剂。\n可以吗？$"
+    .string "你选择了攻击增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCalcium::
-    .string "你选择了补钙药剂。\n可以吗？$"
+    .string "你选择了特攻增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmIron::
-    .string "你选择了补铁药剂。\n可以吗？$"
+    .string "你选择了防御增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmZinc::
-    .string "你选择了补锌药剂。\n可以吗？$"
+    .string "你选择了特防增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarbos::
-    .string "你选择了补碳药剂。\n可以吗？$"
+    .string "你选择了速度增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmHPUp::
     .string "你选择了HP增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrightpowder::
-    .string "你选择了亮光之粉。\n可以吗？$"
+    .string "你选择了光粉。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmWhiteHerb::
-    .string "你选择了白色药草。\n可以吗？$"
+    .string "你选择了白色香草。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmQuickClaw::
-    .string "你选择了先攻之爪。\n可以吗？$"
+    .string "你选择了先制之爪。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMentalHerb::
-    .string "你选择了心灵药草。\n可以吗？$"
+    .string "你选择了心灵香草。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceBand::
-    .string "你选择了专爱头巾。\n可以吗？$"
+    .string "你选择了讲究头巾。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKingsRock::
     .string "你选择了王者之证。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmFocusBand::
-    .string "你选择了气息头巾。\n可以吗？$"
+    .string "你选择了气势头带。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmScopeLens::
-    .string "你选择了对焦镜片。\n可以吗？$"
+    .string "你选择了焦点镜。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLeftovers::
-    .string "你选择了剩饭。\n可以吗？$"
+    .string "你选择了吃剩的东西。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC::
     .string "谢谢！\n我们会把它送到你家的电脑上的。$"
@@ -634,7 +634,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
     .string "提升招式的力量，但只针对\n那个招式而言。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
-    .string "一件在遇到敌人时能使敌人\n退缩的道具。$"
+    .string "一件在遇到敌人时能使敌人\n畏缩的道具。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
     .string "一件能偶尔防止昏厥\n的道具。$"

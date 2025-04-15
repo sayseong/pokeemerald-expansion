@@ -237,10 +237,10 @@ BattleFrontier_BattlePyramidTop_Text_BringCourageToOurBattle:
     .string "现在呢，\n带上你的能力来一起对战吧！$"
 
 BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease:
-    .string "神代：哈哈哈！真棒！\n你真的很棒！\p这个，你获得的荣誉：\n开拓区通行证！$"
+    .string "神代：哈哈哈！真棒！\n你真的很棒！\p这个，你获得的荣誉：\n开拓通行证！$"
 
 BattleFrontier_BattlePyramidTop_Text_ReceivedBraveSymbol:
-    .string "勇气印记浮现在\n开拓区通行证上。$"
+    .string "英勇象征浮现在\n开拓通行证上。$"
 
 BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
     .string "年轻的冒险者！\n我期待我们的下一次见面！$"
@@ -258,7 +258,7 @@ BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis:
     .string "神代：哈哈哈！\n非常出色！\l对，无须置疑！\p年轻的冒险者！\p你完全胜了我！\n给！这是我想要让你得到的！$"
 
 BattleFrontier_BattlePyramidTop_Text_BraveSymbolTookGoldenShine:
-    .string "勇气印记闪耀着\n金色的光芒！$"
+    .string "英勇象征闪耀着\n金色的光芒！$"
 
 BattleFrontier_BattlePyramidTop_Text_FarewellForNow:
     .string "不错！这就表示\n我仍然有很多需要去学！\p我们还会见面的！\n现在让我们告别吧，年轻的冒险者！$"

@@ -68,13 +68,13 @@ FortreeCity_House4_Text_BringsWorldCloserTogether:
     .string "和宝可梦在一起，\n人们可以交上更多朋友，\p这让我们的世界\n变得更小。这多美妙！$"
 
 FortreeCity_House4_Text_GoBirdPokemon:
-    .string "好了！\n去吧，飞行系宝可梦！$"
+    .string "好了！\n去吧，飞行属性宝可梦！$"
 
 FortreeCity_House4_Text_AskedWingullToRunErrand:
     .string "我让我的长翅鸥\n帮我送信。$"
 
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
-    .string "太好了！\n欢迎回来，长翅鸥！\p嗯？这是什么？\n它抓着的是什么？\p心灵药草？\n一定是在哪儿偶然抓到的。\p但我不是训练家，\n这个还是给你吧。$"
+    .string "太好了！\n欢迎回来，长翅鸥！\p嗯？这是什么？\n它抓着的是什么？\p心灵香草？\n一定是在哪儿偶然抓到的。\p但我不是训练家，\n这个还是给你吧。$"
 
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
     .string "多亏了我的长翅鸥，我才能够\n跟住在很远的地方的人交朋友。$"
