@@ -212,11 +212,11 @@ static void ConfirmSell(u8);
 static void CancelSell(u8);
 static void Task_FadeAndCloseBagMenuIfMulch(u8 taskId);
 
-static const u8 sText_Var1CantBeHeldHere[] = _("The {STR_VAR_1} can't be held\nhere.");
-static const u8 sText_DepositHowManyVar1[] = _("Deposit how many\n{STR_VAR_1}?");
-static const u8 sText_DepositedVar2Var1s[] = _("Deposited {STR_VAR_2}\n{STR_VAR_1}.");
-static const u8 sText_NoRoomForItems[] = _("There's no room to\nstore items.");
-static const u8 sText_CantStoreImportantItems[] = _("Important items\ncan't be stored in\nthe PC!");
+static const u8 sText_Var1CantBeHeldHere[] = _("不能让宝可梦持有\n{STR_VAR_1}！");
+static const u8 sText_DepositHowManyVar1[] = _("要存放多少个\n{STR_VAR_1}呢？");
+static const u8 sText_DepositedVar2Var1s[] = _("存放了{STR_VAR_2}个\n{STR_VAR_1}。");
+static const u8 sText_NoRoomForItems[] = _("已经没有\n存放道具的空间了……");
+static const u8 sText_CantStoreImportantItems[] = _("重要物品\n不能存放到\n电脑中！");
 
 static const struct BgTemplate sBgTemplates_ItemMenu[] =
 {
