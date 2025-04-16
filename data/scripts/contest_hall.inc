@@ -1580,8 +1580,8 @@ ContestHall_Text_ReceivedRibbon:
 	.string "{PLAYER}得到了缎带。$"
 
 ContestHall_Text_PutRibbonOnMon:
-	.string "{PLAYER}带上了缎带\n"
-	.string "{STR_VAR_1}。$"
+	.string "{PLAYER}给{STR_VAR_1}\n"
+	.string "戴上了缎带！$"
 
 ContestHall_Text_PickUpPrizeAtCounterLater:
 	.string "请稍后到前台来\n"
