@@ -850,7 +850,7 @@ void UpdateSpeciesSpritePSS(struct BoxPokemon *boxmon);
 
 static const u8 gText_JustOnePkmn[] = _("这样就没有可战斗的宝可梦了！");
 static const u8 gText_PartyFull[] = _("同行的宝可梦已经满了！");
-static const u8 gText_Box[] = _("箱子 ");
+static const u8 gText_Box[] = _("盒子 ");
 
 struct {
     const u8 *text;
@@ -1038,29 +1038,29 @@ static const struct SpriteTemplate sSpriteTemplate_DisplayMon =
     .callback = SpriteCallbackDummy,
 };
 
-static const u8 gText_PkmnIsSelected[] = _("要对{DYNAMIC 0}做什么？");
+static const u8 gText_PkmnIsSelected[] = _("要拿{DYNAMIC 0}怎么办？");
 
 static const struct StorageMessage sMessages[] =
 {
-    [MSG_EXIT_BOX]             = {COMPOUND_STRING("要停止对箱子的操作吗？"),         MSG_VAR_NONE},
-    [MSG_WHAT_YOU_DO]          = {COMPOUND_STRING("要对这个箱子做什么？"),    MSG_VAR_NONE},
+    [MSG_EXIT_BOX]             = {COMPOUND_STRING("要停止对盒子的操作吗？"),         MSG_VAR_NONE},
+    [MSG_WHAT_YOU_DO]          = {COMPOUND_STRING("要对这个盒子做什么？"),    MSG_VAR_NONE},
     [MSG_PICK_A_THEME]         = {COMPOUND_STRING("要选择哪一种壁纸主题？"),       MSG_VAR_NONE},
     [MSG_PICK_A_WALLPAPER]     = {COMPOUND_STRING("要选择哪一种壁纸？"),        MSG_VAR_NONE},
     [MSG_IS_SELECTED]          = {gText_PkmnIsSelected,                          MSG_VAR_MON_NAME_1},
-    [MSG_JUMP_TO_WHICH_BOX]    = {COMPOUND_STRING("要跳转到哪个箱子？"),         MSG_VAR_NONE},
-    [MSG_DEPOSIT_IN_WHICH_BOX] = {COMPOUND_STRING("要存放到哪个箱子中？"),      MSG_VAR_NONE},
+    [MSG_JUMP_TO_WHICH_BOX]    = {COMPOUND_STRING("要跳转到哪个盒子？"),         MSG_VAR_NONE},
+    [MSG_DEPOSIT_IN_WHICH_BOX] = {COMPOUND_STRING("要存放到哪个盒子中？"),      MSG_VAR_NONE},
     [MSG_WAS_DEPOSITED]        = {COMPOUND_STRING("存放了{DYNAMIC 0}！"), MSG_VAR_MON_NAME_1},
-    [MSG_BOX_IS_FULL]          = {COMPOUND_STRING("这个箱子已经满了！"),           MSG_VAR_NONE},
+    [MSG_BOX_IS_FULL]          = {COMPOUND_STRING("这个盒子已经满了！"),           MSG_VAR_NONE},
     [MSG_RELEASE_POKE]         = {COMPOUND_STRING("真的要放生吗？"),      MSG_VAR_NONE},
     [MSG_WAS_RELEASED]         = {COMPOUND_STRING("已将{DYNAMIC 0}放生了！"),  MSG_VAR_RELEASE_MON_1},
     [MSG_BYE_BYE]              = {COMPOUND_STRING("再见了！{DYNAMIC 0}！"),      MSG_VAR_RELEASE_MON_3},
     [MSG_MARK_POKE]            = {COMPOUND_STRING("请选择标记。"),         MSG_VAR_NONE},
-    [MSG_LAST_POKE]            = {COMPOUND_STRING("没有可以战斗的宝可梦了！"),  MSG_VAR_NONE},
+    [MSG_LAST_POKE]            = {COMPOUND_STRING("这样就没有可战斗的宝可梦了！"),  MSG_VAR_NONE},
     [MSG_PARTY_FULL]           = {gText_YourPartysFull,                          MSG_VAR_NONE},
     [MSG_HOLDING_POKE]         = {COMPOUND_STRING("正在抓着宝可梦！"),  MSG_VAR_NONE},
     [MSG_WHICH_ONE_WILL_TAKE]  = {COMPOUND_STRING("请选择要带走的宝可梦！"),   MSG_VAR_NONE},
-    [MSG_CANT_RELEASE_EGG]     = {COMPOUND_STRING("你不能放生宝可梦蛋！"),  MSG_VAR_NONE},
-    [MSG_CONTINUE_BOX]         = {COMPOUND_STRING("要继续对箱子的操作吗？"),   MSG_VAR_NONE},
+    [MSG_CANT_RELEASE_EGG]     = {COMPOUND_STRING("无法将蛋放生！"),  MSG_VAR_NONE},
+    [MSG_CONTINUE_BOX]         = {COMPOUND_STRING("要继续对盒子的操作吗？"),   MSG_VAR_NONE},
     [MSG_CAME_BACK]            = {COMPOUND_STRING("{DYNAMIC 0}回来了！"),     MSG_VAR_MON_NAME_1},
     [MSG_WORRIED]              = {COMPOUND_STRING("它是在担心你吗？"),  MSG_VAR_NONE},
     [MSG_SURPRISE]             = {COMPOUND_STRING("… … … … !"),                  MSG_VAR_NONE},
@@ -8004,7 +8004,7 @@ static const u8 *const sMenuTexts[] =
 {
     [MENU_CANCEL]     = COMPOUND_STRING("取消"),
     [MENU_STORE]      = COMPOUND_STRING("寄放"),
-    [MENU_WITHDRAW]   = COMPOUND_STRING("同行"),
+    [MENU_WITHDRAW]   = COMPOUND_STRING("带走"),
     [MENU_MOVE]       = COMPOUND_STRING("移动"),
     [MENU_SHIFT]      = COMPOUND_STRING("交换"),
     [MENU_PLACE]      = COMPOUND_STRING("放下"),
@@ -8017,7 +8017,7 @@ static const u8 *const sMenuTexts[] =
     [MENU_TAKE]       = COMPOUND_STRING("取下"),
     [MENU_GIVE]       = gPCText_Give,
     [MENU_GIVE_2]     = gPCText_Give,
-    [MENU_SWITCH]     = COMPOUND_STRING("调换"),
+    [MENU_SWITCH]     = COMPOUND_STRING("移动"),
     [MENU_BAG]        = COMPOUND_STRING("放回包包"),
     [MENU_INFO]       = COMPOUND_STRING("查看信息"),
     [MENU_SCENERY_1]  = COMPOUND_STRING("风景1"),
