@@ -492,10 +492,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_GUST] =
     {
-        .name = COMPOUND_STRING("Gust"),
+        .name = COMPOUND_STRING("起风"),
         .description = COMPOUND_STRING(
-            "Strikes the foe with a gust\n"
-            "of wind whipped up by wings."),
+			"用翅膀将刮起的狂风\n"
+			"袭向对手进行攻击。"),
         .effect = EFFECT_HIT,
         .power = 40,
         .type = TYPE_FLYING,
@@ -20980,7 +20980,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_ALL_OUT_PUMMELING] =
     {
-        .name = COMPOUND_STRING("All Out Pummeling"),
+        .name = COMPOUND_STRING("全力无双激烈拳"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -20994,7 +20994,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_SUPERSONIC_SKYSTRIKE] =
     {
-        .name = COMPOUND_STRING("Supersonic Skystrike"),
+        .name = COMPOUND_STRING("极速俯冲轰烈撞"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21008,7 +21008,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_ACID_DOWNPOUR] =
     {
-        .name = COMPOUND_STRING("Acid Downpour"),
+        .name = COMPOUND_STRING("强酸剧毒灭绝雨"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21022,7 +21022,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_TECTONIC_RAGE] =
     {
-        .name = COMPOUND_STRING("Tectonic Rage"),
+        .name = COMPOUND_STRING("地隆啸天大终结"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21037,7 +21037,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_CONTINENTAL_CRUSH] =
     {
-        .name = COMPOUND_STRING("Continental Crush"),
+        .name = COMPOUND_STRING("毁天灭地巨岩坠"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21051,7 +21051,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_SAVAGE_SPIN_OUT] =
     {
-        .name = COMPOUND_STRING("Savage Spin Out"),
+        .name = COMPOUND_STRING("绝对捕食回旋斩"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21065,7 +21065,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_NEVER_ENDING_NIGHTMARE] =
     {
-        .name = COMPOUND_STRING("Never Ending Nightmare"),
+        .name = COMPOUND_STRING("无尽暗夜之诱惑"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21079,7 +21079,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_CORKSCREW_CRASH] =
     {
-        .name = COMPOUND_STRING("Corkscrew Crash"),
+        .name = COMPOUND_STRING("超绝螺旋连击"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21093,7 +21093,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_INFERNO_OVERDRIVE] =
     {
-        .name = COMPOUND_STRING("Inferno Overdrive"),
+        .name = COMPOUND_STRING("超强极限爆焰弹"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21107,7 +21107,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_HYDRO_VORTEX] =
     {
-        .name = COMPOUND_STRING("Hydro Vortex"),
+        .name = COMPOUND_STRING("超级水流大漩涡"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21121,7 +21121,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_BLOOM_DOOM] =
     {
-        .name = COMPOUND_STRING("Bloom Doom"),
+        .name = COMPOUND_STRING("绚烂缤纷花怒放"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21135,7 +21135,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_GIGAVOLT_HAVOC] =
     {
-        .name = COMPOUND_STRING("Gigavolt Havoc"),
+        .name = COMPOUND_STRING("终极伏特狂雷闪"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21149,7 +21149,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_SHATTERED_PSYCHE] =
     {
-        .name = COMPOUND_STRING("Shattered Psyche"),
+        .name = COMPOUND_STRING("至高精神破坏波"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21163,7 +21163,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_SUBZERO_SLAMMER] =
     {
-        .name = COMPOUND_STRING("Subzero Slammer"),
+        .name = COMPOUND_STRING("激狂大地万里冰"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21177,7 +21177,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_DEVASTATING_DRAKE] =
     {
-        .name = COMPOUND_STRING("Devastating Drake"),
+        .name = COMPOUND_STRING("究极巨龙震天地"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21191,7 +21191,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_BLACK_HOLE_ECLIPSE] =
     {
-        .name = COMPOUND_STRING("Black Hole Eclipse"),
+        .name = COMPOUND_STRING("黑洞吞噬万物灭"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21205,7 +21205,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_TWINKLE_TACKLE] =
     {
-        .name = COMPOUND_STRING("Twinkle Tackle"),
+        .name = COMPOUND_STRING("可爱星星飞天撞"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 1,
@@ -21219,7 +21219,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_CATASTROPIKA] =
     {
-        .name = COMPOUND_STRING("Catastropika"),
+        .name = COMPOUND_STRING("皮卡皮卡必杀击"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 210,
@@ -21233,7 +21233,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_10000000_VOLT_THUNDERBOLT] =
     {
-        .name = COMPOUND_STRING("10,000,000 Volt Thunderbolt"),
+        .name = COMPOUND_STRING("千万伏特"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 195,
@@ -21248,7 +21248,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_STOKED_SPARKSURFER] =
     {
-        .name = COMPOUND_STRING("Stoked Sparksurfer"),
+        .name = COMPOUND_STRING("驾雷驭电戏冲浪"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 175,
@@ -21266,7 +21266,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_EXTREME_EVOBOOST] =
     {
-        .name = COMPOUND_STRING("Extreme Evoboost"),
+        .name = COMPOUND_STRING("九彩升华齐聚顶"),
         .description = sNullDescription,
         .effect = EFFECT_EXTREME_EVOBOOST,
         .power = 0,
@@ -21280,7 +21280,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_PULVERIZING_PANCAKE] =
     {
-        .name = COMPOUND_STRING("Pulverizing Pancake"),
+        .name = COMPOUND_STRING("认真起来大爆击"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 210,
@@ -21294,7 +21294,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_GENESIS_SUPERNOVA] =
     {
-        .name = COMPOUND_STRING("Genesis Supernova"),
+        .name = COMPOUND_STRING("起源超新星大爆炸"),
         .description = sNullDescription,
         .effect = EFFECT_HIT_SET_REMOVE_TERRAIN,
         .power = 185,
@@ -21309,7 +21309,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_SINISTER_ARROW_RAID] =
     {
-        .name = COMPOUND_STRING("Sinister Arrow Raid"),
+        .name = COMPOUND_STRING("遮天蔽日暗影箭"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 180,
@@ -21323,7 +21323,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_MALICIOUS_MOONSAULT] =
     {
-        .name = COMPOUND_STRING("Malicious Moonsault"),
+        .name = COMPOUND_STRING("极恶飞跃粉碎击"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 180,
@@ -21337,7 +21337,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_OCEANIC_OPERETTA] =
     {
-        .name = COMPOUND_STRING("Oceanic Operetta"),
+        .name = COMPOUND_STRING("海神庄严交响乐"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 195,
@@ -21351,7 +21351,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_SPLINTERED_STORMSHARDS] =
     {
-        .name = COMPOUND_STRING("Splintered Stormshards"),
+        .name = COMPOUND_STRING("狼啸石牙飓风暴"),
         .description = sNullDescription,
         .effect = EFFECT_HIT_SET_REMOVE_TERRAIN,
         .power = 190,
@@ -21366,7 +21366,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_LETS_SNUGGLE_FOREVER] =
     {
-        .name = COMPOUND_STRING("Let's Snuggle Forever"),
+        .name = COMPOUND_STRING("亲密无间大乱揍"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 190,
@@ -21380,7 +21380,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_CLANGOROUS_SOULBLAZE] =
     {
-        .name = COMPOUND_STRING("Clangorous Soulblaze"),
+        .name = COMPOUND_STRING("炽魂热舞烈音爆"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 185,
@@ -21401,7 +21401,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_GUARDIAN_OF_ALOLA] =
     {
-        .name = COMPOUND_STRING("Guardian of Alola"),
+        .name = COMPOUND_STRING("巨人卫士阿罗拉"),
         .description = sNullDescription,
         .effect = EFFECT_GUARDIAN_OF_ALOLA,
         .power = 1,
@@ -21415,7 +21415,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_SEARING_SUNRAZE_SMASH] =
     {
-        .name = COMPOUND_STRING("Searing Sunraze Smash"),
+        .name = COMPOUND_STRING("日光回旋下苍穹"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 200,
@@ -21430,7 +21430,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_MENACING_MOONRAZE_MAELSTROM] =
     {
-        .name = COMPOUND_STRING("Menacing Moonraze Maelstrom"),
+        .name = COMPOUND_STRING("月华飞溅落灵霄"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 200,
@@ -21445,7 +21445,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_LIGHT_THAT_BURNS_THE_SKY] =
     {
-        .name = COMPOUND_STRING("Light That Burns The Sky"),
+        .name = COMPOUND_STRING("焚天灭世炽光爆"),
         .description = sNullDescription,
         .effect = EFFECT_PHOTON_GEYSER,
         .power = 200,
@@ -21460,7 +21460,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_SOUL_STEALING_7_STAR_STRIKE] =
     {
-        .name = COMPOUND_STRING("Soul Stealing 7 Star Strike"),
+        .name = COMPOUND_STRING("七星夺魂腿"),
         .description = sNullDescription,
         .effect = EFFECT_HIT,
         .power = 195,
