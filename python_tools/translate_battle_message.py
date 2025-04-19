@@ -36,7 +36,9 @@ def replace_c_file(c_file_path, translations):
             original_text = match.group(1)
             # 检查是否有匹配的 key（忽略大小写）
             for key, replacement in translations.items():
-                if key in line.lower():
+                # 确保 key 匹配且后续字符是 "[" 或 "]"
+                key_index = line.lower().find(key)
+                if key_index != -1 and (key_index + len(key) == len(line) or line[key_index + len(key)] in "[]"):
                     # 替换双引号中的内容
                     escaped_replacement = replacement.replace('"', r'\"')  # 保留转义符
                     line = line[:match.start(1)] + escaped_replacement + line[match.end(1):]
