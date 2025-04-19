@@ -149,4 +149,4 @@ Text_SprayWoreOffAskUseX::
 
 Text_SprayWoreOffUseX::
 	.string "{PLAYER}使用了\n"
-	.string "{STR_VAR_2}.$"
+	.string "{STR_VAR_2}。$"

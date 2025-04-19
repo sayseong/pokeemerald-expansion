@@ -92,16 +92,16 @@ BravoTrainerBattleTower_Text_Unsatisfied::
     .string "训练家应该是这么说的：\n“我还没满足…”\p我们的训练家在那发表后\n明显心情有些低落。\p不过，想要在完全满意的\n状态下战斗也没那么容易吧？\p不管怎么说，我们的训练家\n总是会以这样一句话来表达懊恼：$"
 
 BravoTrainerBattleTower_Text_None1::
-	.string "None$"
+	.string "无$"
 
 BravoTrainerBattleTower_Text_None2::
-	.string "None$"
+	.string "无$"
 
 BravoTrainerBattleTower_Text_None3::
-	.string "None$"
+	.string "无$"
 
 BravoTrainerBattleTower_Text_None4::
-	.string "None$"
+	.string "无$"
 
 BravoTrainerBattleTower_Text_Response::
     .string "“{STR_VAR_1}。”$"

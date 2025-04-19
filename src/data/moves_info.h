@@ -4825,8 +4825,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("出奇一击"),
         .description = COMPOUND_STRING(
-            "Draws the foe close, then\n"
-            "strikes without fail."),
+            "悄悄地靠近对手，趁其不备\n"
+            "进行殴打。攻击必定会命中。"),
         .effect = EFFECT_HIT,
         .power = 60,
         .type = TYPE_DARK,

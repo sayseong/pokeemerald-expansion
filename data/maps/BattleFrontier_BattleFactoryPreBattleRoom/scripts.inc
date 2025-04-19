@@ -536,8 +536,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
     .string "这个训练家显然很善于\n操纵恶属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the FAIRY type.$"
+	.string "这个训练家显然很善于\n操纵妖精属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
     .string "这个训练家显然很善于\n操纵钢属性。$"

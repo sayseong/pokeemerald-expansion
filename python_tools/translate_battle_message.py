@@ -3,8 +3,8 @@ import os
 from openpyxl import load_workbook
 
 # 文件路径
-c_file_path = os.path.abspath(r"c:\Users\Nox\Documents\GitHub\pokeemerald-expansion-Chinese\src\battle_message.c")
-xlsx_file_path = os.path.abspath(r"C:\Users\Nox\Documents\GitHub\pokeemerald-expansion-Chinese\python_tools\src\战斗文本.xlsx")
+c_file_path = os.path.dirname(os.path.abspath(__file__))+"/../src/battle_message.c"
+xlsx_file_path = os.path.dirname(os.path.abspath(__file__))+"/src/战斗文本.xlsx"
 
 # 读取 xlsx 文件并解析为字典
 def load_translations(xlsx_file_path):
