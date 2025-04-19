@@ -28,7 +28,7 @@ void InitFieldMessageBox(void)
 static void Task_DrawFieldMessage(u8 taskId)
 {
     struct Task *task = &gTasks[taskId];
-
+    msgboxtransparent();
     switch (task->tState)
     {
         case 0:

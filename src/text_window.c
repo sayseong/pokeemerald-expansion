@@ -94,8 +94,15 @@ const struct TilesPal *GetWindowFrameTilesPal(u8 id)
         return &sWindowFrames[id];
 }
 
+void msgboxtransparent(void)
+{
+    REG_BLDCNT = BLDCNT_TGT1_BG0 | BLDCNT_EFFECT_BLEND |BLDCNT_TGT2_BG_ALL ;
+    REG_BLDALPHA = BLDALPHA_BLEND(6, 10);
+}
+
 void LoadMessageBoxGfx(u8 windowId, u16 destOffset, u8 palOffset)
 {
+    msgboxtransparent();
     LoadBgTiles(GetWindowAttribute(windowId, WINDOW_BG), gMessageBox_Gfx, 0x1C0, destOffset);
     LoadPalette(GetOverworldTextboxPalettePtr(), palOffset, PLTT_SIZE_4BPP);
 }

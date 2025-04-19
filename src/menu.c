@@ -18,6 +18,7 @@
 #include "string_util.h"
 #include "strings.h"
 #include "script.h"
+#include "text.h"
 #include "task.h"
 #include "text_window.h"
 #include "window.h"
@@ -213,6 +214,7 @@ void AddTextPrinterWithCustomSpeedForMessage(bool8 allowSkippingDelayWithButtonP
 
 void LoadMessageBoxAndBorderGfx(void)
 {
+    msgboxtransparent();
     LoadMessageBoxGfx(0, DLG_WINDOW_BASE_TILE_NUM, BG_PLTT_ID(DLG_WINDOW_PALETTE_NUM));
     LoadUserWindowBorderGfx(0, STD_WINDOW_BASE_TILE_NUM, BG_PLTT_ID(STD_WINDOW_PALETTE_NUM));
 }
@@ -336,6 +338,7 @@ void DrawDialogueFrame(u8 windowId, bool8 copyToVram)
     CallWindowFunction(windowId, GetWindowFunc_DialogueFrame());
     FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
     PutWindowTilemap(windowId);
+    msgboxtransparent();
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
 }
