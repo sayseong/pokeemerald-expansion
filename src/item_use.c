@@ -91,8 +91,8 @@ static const u8 sText_BootedUpHM[] = _("启动了秘传招式学习器！");
 static const u8 sText_TMHMContainedVar1[] = _("里面有被记录着\n{STR_VAR_1}！\p要让宝可梦学会\n{STR_VAR_1}吗？");
 static const u8 sText_UsedVar2WildLured[] = _("{PLAYER}\n使用了{STR_VAR_2}！\p野生的宝可梦们\n会被引诱过来。{PAUSE_UNTIL_PRESS}");
 static const u8 sText_UsedVar2WildRepelled[] = _("{PLAYER}\n使用了{STR_VAR_2}！\p野生的宝可梦们\n会被驱赶不再出现。{PAUSE_UNTIL_PRESS}");
-static const u8 sText_PlayedPokeFluteCatchy[] = _("{PLAYER}\n吹响了宝可梦之笛！\p嗯……不错的音色！{PAUSE_UNTIL_PRESS}");
-static const u8 sText_PlayedPokeFlute[] = _("{PLAYER}\n吹响了宝可梦之笛！");
+static const u8 sText_PlayedPokeFluteCatchy[] = _("吹响了宝可梦之笛！\p嗯……不错的音色！{PAUSE_UNTIL_PRESS}");
+static const u8 sText_PlayedPokeFlute[] = _("吹响了宝可梦之笛！");
 static const u8 sText_PokeFluteAwakenedMon[] = _("听到宝可梦之笛声音的\n宝可梦醒来了！{PAUSE_UNTIL_PRESS}");
 
 // EWRAM variables
