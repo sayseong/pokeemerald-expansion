@@ -58,12 +58,13 @@ SealedChamber_InnerRoom_Braille_FirstWailordLastRelicanth:
 	.braille "WEI SHI\n"
 	.braille "GU KONG JI YU\n"
 	.braille "WEI MO\n"
+	.braille "XI SHU JIN KAI$"
 
 SealedChamber_InnerRoom_Braille_InThisCaveWeHaveLived:
 	brailleformat 2, 0, 26, 19, 5, 3
 	.braille "WU DENG\n"
 	.braille "JU CI KU ZHONG\n"
-	.braille "CUN YU CI CHU\n"
+	.braille "CUN YU CI CHU$"
 
 SealedChamber_InnerRoom_Braille_WeOweAllToThePokemon:
 	brailleformat 7, 2, 23, 17, 10, 5
