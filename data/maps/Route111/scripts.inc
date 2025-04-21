@@ -634,7 +634,7 @@ Route111_Text_RouteSign113:
     .string "111号道路\n{LEFT_ARROW}113号道路$"
 
 Route111_Text_OldLadysRestStopSign:
-    .string "老奶奶的歇息小屋\n“欢迎进来歇脚。”$"
+    .string "简康奶奶的家\n“欢迎进来歇脚。”$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
     .string "训练家小技巧\p表示宝可梦的数值之一\n是特攻，全称\l“特殊招式攻击力。”\p相似地，还有特防，全称“特殊招式\n防御力”。$"

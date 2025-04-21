@@ -431,13 +431,13 @@ RusturfTunnel_Text_Peeko:
     .string "小皮：皮 皮可！$"
 
 RusturfTunnel_Text_GruntIntro:
-    .string "靠，不是吧！\p那个宝可梦看起来\n没用了！\p我想我得逃了…\n这里通向所有地方！\p嘿！说你呢！\n你想要和我战斗？$"
+    .string "靠，不是吧！\p那只宝可梦看起来\n没用了！\p没想到……\n我竟然逃进了一个没有出口的隧道！\p嘿！说你呢！\n你想要和我战斗？$"
 
 RusturfTunnel_Text_GruntDefeat:
     .string "呃！我犯罪的生涯看样子\n要结束了！$"
 
 RusturfTunnel_Text_GruntTakePackage:
-    .string "很明显这不对…\p老大明明告诉我\n这是个很简单的工作。\p我要做的就是从\n得文偷点包裹。\p嗯！\n既然你那么想要回，拿着它！$"
+    .string "很明显这不对…\p老大明明告诉我\n这是个很简单的工作。\p我要做的就是从\n得文偷个包裹。\p嗯！\n既然你那么想要回，拿着它！$"
 
 RusturfTunnel_Text_PeekoGladToSeeYouSafe:
     .string "小皮！\n我很高兴看到你很安全！$"

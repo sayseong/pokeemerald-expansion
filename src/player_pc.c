@@ -189,7 +189,7 @@ static const u8 sText_Mailbox[] = _("邮件箱");
 static const u8 sText_WithdrawHowManyItems[] = _("要取出多少个\n{STR_VAR_1}呢？");
 static const u8 sText_WithdrawXItems[] = _("取出了{STR_VAR_2}个\n{STR_VAR_1}。");
 static const u8 sText_NoRoomInBag[] = _("包包已经满了！");
-static const u8 sText_TooImportantToToss[] = _("That's much too\nimportant to toss\nout!");
+static const u8 sText_TooImportantToToss[] = _("那是重要的东西，\n不能丢掉！");
 
 static const u8 *const sItemStorage_OptionDescriptions[] =
 {
@@ -203,8 +203,8 @@ static const struct MenuAction sPlayerPCMenuActions[] =
 {
     [MENU_ITEMSTORAGE] = { COMPOUND_STRING("存放道具"), {PlayerPC_ItemStorage} },
     [MENU_MAILBOX]     = { sText_Mailbox,                   {PlayerPC_Mailbox} },
-    [MENU_DECORATION]  = { COMPOUND_STRING("装饰"),   {PlayerPC_Decoration} },
-    [MENU_TURNOFF]     = { COMPOUND_STRING("切断接续"),     {PlayerPC_TurnOff} }
+    [MENU_DECORATION]  = { COMPOUND_STRING("装饰物品"),   {PlayerPC_Decoration} },
+    [MENU_TURNOFF]     = { COMPOUND_STRING("关闭电源"),     {PlayerPC_TurnOff} }
 };
 
 static const u8 sBedroomPC_OptionOrder[] =

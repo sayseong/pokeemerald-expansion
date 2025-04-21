@@ -68,5 +68,5 @@ sText_MysteryGiftEgg:
 
 sText_FullParty:
 	.string "你的队伍看起来满了。\p"
-	.string "请保存一个宝可梦\n"
+	.string "请保存一只宝可梦\n"
 	.string "到电脑中再来吧。$"

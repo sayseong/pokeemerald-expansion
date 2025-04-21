@@ -235,7 +235,7 @@ DebugScript_Text_EmptyParty::
 	.string "你既没有宝可梦也没有宝可梦的蛋。$"
 
 DebugScript_HatchAnEgg_Text_NotAnEgg::
-	.string "那不是一个宝可梦的蛋。$"
+	.string "那不是宝可梦的蛋。$"
 
 DebugScript_ZeroDaycareMons::
 	msgbox DebugText_DaycareNoPokemon, MSGBOX_DEFAULT

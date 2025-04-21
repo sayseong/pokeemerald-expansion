@@ -157,7 +157,7 @@ const u8 *const gPokeblockWasTooXStringTable[FLAVOR_COUNT] =
 };
 
 static const u8 sText_Someones[] = _("某人的");
-static const u8 sText_Lanettes[] = _("水木的"); //no decapitalize until it is everywhere
+static const u8 sText_Lanettes[] = _("真由美的"); //no decapitalize until it is everywhere
 static const u8 sText_EnigmaBerry[] = _("谜芝果"); //no decapitalize until it is everywhere
 static const u8 sText_BerrySuffix[] = _("果"); //no decapitalize until it is everywhere
 const u8 gText_EmptyString3[] = _("");
@@ -1496,7 +1496,7 @@ const u8 *const gRefereeStringsTable[] =
     [B_MSG_REF_COMMENCE_BATTLE]    = COMPOUND_STRING("裁判：{B_PLAYER_MON1_NAME} VS {B_OPPONENT_MON1_NAME}！战斗开始！"),
 };
 
-static const u8 sText_Trainer1Fled[] = _( "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS} fled!");
+static const u8 sText_Trainer1Fled[] = _( "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS}逃走了!");
 static const u8 sText_PlayerLostAgainstTrainer1[] = _("被{B_TRAINER1_NAME_WITH_CLASS}打败了！");
 static const u8 sText_PlayerBattledToDrawTrainer1[] = _("和{B_TRAINER1_NAME_WITH_CLASS}打成了平局！");
 const u8 gText_RecordBattleToPass[] = _("要把你本次的战斗\n保存到开拓通行证上吗？");

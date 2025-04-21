@@ -410,8 +410,8 @@ Text_EggHatchHuh:
 
 Route117_PokemonDayCare_Text_YoullBeLeftWithJustOne:
 	.string "哼？\n"
-	.string "…，是啊。\p"
-	.string "如果你留下那个宝可梦给\n"
-	.string "我，你就只剩下一个了。\p"
+	.string "……是啊。\p"
+	.string "如果你留下那只宝可梦给\n"
+	.string "我，你就只剩下一只了。\p"
 	.string "你最好离开的时候再\n"
 	.string "多抓点，我想说。$"

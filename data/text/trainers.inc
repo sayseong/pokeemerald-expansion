@@ -72,7 +72,7 @@ Route103_Text_AmyPostBattle::
     .string "久美：在同时面对两个训练家\n的时候，你必须考虑到\l所有可能发生的情况。$"
 
 Route103_Text_AmyNotEnoughPokemon::
-    .string "久美：啊-哦，你身上\n只带了一个宝可梦。\l你没法和我们战斗。$"
+    .string "久美：啊-哦，你身上\n只带了一只宝可梦。\l你没法和我们战斗。$"
 
 Route103_Text_LivIntro::
     .string "留美：我们是作为\n一个小队战斗的。$"
@@ -99,7 +99,7 @@ Route103_Text_AmyRematchPostBattle::
     .string "久美：在同时面对两个训练家\n的时候，你必须考虑到\l所有可能发生的情况。$"
 
 Route103_Text_AmyRematchNotEnoughPokemon::
-    .string "久美：啊哦，你身上\n只带了一个宝可梦。\l你没法和我们战斗。$"
+    .string "久美：啊哦，你身上\n只带了一只宝可梦。\l你没法和我们战斗。$"
 
 Route103_Text_LivRematchIntro::
     .string "留美：我们是作为一个小队\n战斗的。$"
@@ -492,7 +492,7 @@ Route107_Text_RayDefeated::
     .string "真：喔，你的级别\n比我们要高！$"
 
 Route107_Text_RayPostBattle::
-    .string "真：我的妹妹给我这个宝可梦。\n是我养大它的，现在是我很重要的\l拍档！$"
+    .string "真：我的妹妹给我这只宝可梦。\n是我养大它的，现在是我很重要的\l拍档！$"
 
 Route107_Text_RayNotEnoughPokemon::
     .string "真：如果你想和我们战斗，\n去，多带点宝可梦！$"
