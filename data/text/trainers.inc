@@ -1,7 +1,6 @@
 VSSeeker_Text_TrainersNotReady::
-	.string "The other TRAINERS don't appear\n"
-	.string "to be ready for battle.\p"
-	.string "Let's wait till later.{PAUSE_UNTIL_PRESS}$"
+	.string "其他训练家似乎还没有准备好战斗，\n"
+	.string "过段时间再尝试吧。{PAUSE_UNTIL_PRESS}$"
 
 Route102_Text_CalvinIntro::
     .string "如果你随身带着宝可梦，那么\n你就是个正式的宝可梦训练家！\l你不能拒绝我的挑战！$"
@@ -73,7 +72,7 @@ Route103_Text_AmyPostBattle::
     .string "久美：在同时面对两个训练家\n的时候，你必须考虑到\l所有可能发生的情况。$"
 
 Route103_Text_AmyNotEnoughPokemon::
-    .string "久美：啊-哦，你身上\n只带了一个宝可梦。\l你没法和我们战斗。$"
+    .string "久美：啊-哦，你身上\n只带了一只宝可梦。\l你没法和我们战斗。$"
 
 Route103_Text_LivIntro::
     .string "留美：我们是作为\n一个小队战斗的。$"
@@ -100,7 +99,7 @@ Route103_Text_AmyRematchPostBattle::
     .string "久美：在同时面对两个训练家\n的时候，你必须考虑到\l所有可能发生的情况。$"
 
 Route103_Text_AmyRematchNotEnoughPokemon::
-    .string "久美：啊哦，你身上\n只带了一个宝可梦。\l你没法和我们战斗。$"
+    .string "久美：啊哦，你身上\n只带了一只宝可梦。\l你没法和我们战斗。$"
 
 Route103_Text_LivRematchIntro::
     .string "留美：我们是作为一个小队\n战斗的。$"
@@ -493,7 +492,7 @@ Route107_Text_RayDefeated::
     .string "真：喔，你的级别\n比我们要高！$"
 
 Route107_Text_RayPostBattle::
-    .string "真：我的妹妹给我这个宝可梦。\n是我养大它的，现在是我很重要的\l拍档！$"
+    .string "真：我的妹妹给我这只宝可梦。\n是我养大它的，现在是我很重要的\l拍档！$"
 
 Route107_Text_RayNotEnoughPokemon::
     .string "真：如果你想和我们战斗，\n去，多带点宝可梦！$"
@@ -3172,28 +3171,28 @@ Route131_Text_KaraPostBattle::
     .string "也许吸引了别人的目光的不是\n我的泳装，是我的美丽才对啊！$"
 
 Route131_Text_ReliIntro::
-    .string "亚美：我们两个会\n齐心协力对付你的！$"
+    .string "胜：我们两个会\n齐心协力对付你的！$"
 
 Route131_Text_ReliDefeat::
-    .string "亚美：就算齐心协力，\n我们还是赢不了…$"
+    .string "胜：就算齐心协力，\n我们还是赢不了…$"
 
 Route131_Text_ReliPostBattle::
-    .string "亚美：暮水镇的人们\n从出生的那一刻就一直跟\l大海和宝可梦为伴。$"
+    .string "胜：暮水镇的人们\n从出生的那一刻就一直跟\l大海和宝可梦为伴。$"
 
 Route131_Text_ReliNotEnoughMons::
-    .string "亚美：你没带足两只宝可梦？\n真可惜，这样就不能战斗了。$"
+    .string "胜：你没带足两只宝可梦？\n真可惜，这样就不能战斗了。$"
 
 Route131_Text_IanIntro::
-    .string "胜：我要努力地和姐姐\n一起战斗！$"
+    .string "亚美：我要努力地和姐姐\n一起战斗！$"
 
 Route131_Text_IanDefeat::
-    .string "胜：我和姐姐都努力了，\n但我们还是输了…$"
+    .string "亚美：我和姐姐都努力了，\n但我们还是输了…$"
 
 Route131_Text_IanPostBattle::
-    .string "胜：你知道那个被称作\n漂浮的小镇的暮水镇吗？\p凡是有大海的地方，\n都是暮水镇的一部分！$"
+    .string "亚美：你知道那个被称作\n漂浮的小镇的暮水镇吗？\p凡是有大海的地方，\n都是暮水镇的一部分！$"
 
 Route131_Text_IanNotEnoughMons::
-    .string "胜：假如你有两只宝可梦，\n我们就可以和你战斗了！$"
+    .string "亚美：假如你有两只宝可梦，\n我们就可以和你战斗了！$"
 
 Route131_Text_TaliaIntro::
     .string "你能打败我的话，\n我就告诉你一些好事情。$"

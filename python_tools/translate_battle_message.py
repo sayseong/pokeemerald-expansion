@@ -3,8 +3,8 @@ import os
 from openpyxl import load_workbook
 
 # 文件路径
-c_file_path = os.path.abspath(r"c:\Users\Nox\Documents\GitHub\pokeemerald-expansion-Chinese\src\battle_message.c")
-xlsx_file_path = os.path.abspath(r"C:\Users\Nox\Documents\GitHub\pokeemerald-expansion-Chinese\python_tools\src\战斗文本.xlsx")
+c_file_path = os.path.dirname(os.path.abspath(__file__))+"/../src/battle_message.c"
+xlsx_file_path = os.path.dirname(os.path.abspath(__file__))+"/src/战斗文本.xlsx"
 
 # 读取 xlsx 文件并解析为字典
 def load_translations(xlsx_file_path):
@@ -36,7 +36,9 @@ def replace_c_file(c_file_path, translations):
             original_text = match.group(1)
             # 检查是否有匹配的 key（忽略大小写）
             for key, replacement in translations.items():
-                if key in line.lower():
+                # 确保 key 匹配且后续字符是 "[" 或 "]"
+                key_index = line.lower().find(key)
+                if key_index != -1 and (key_index + len(key) == len(line) or line[key_index + len(key)] in "[]"):
                     # 替换双引号中的内容
                     escaped_replacement = replacement.replace('"', r'\"')  # 保留转义符
                     line = line[:match.start(1)] + escaped_replacement + line[match.end(1):]

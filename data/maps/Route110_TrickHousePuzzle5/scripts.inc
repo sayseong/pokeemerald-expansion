@@ -974,4 +974,4 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
     .string "机械娃娃5问答。\p茵郁市里\n一共有多少树屋？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
-    .string "机械娃娃5问答。\p在自行车道路上上\n一共有多少铁人三项选手？$"
+    .string "机械娃娃5问答。\p在自行车道上\n一共有多少铁人三项选手？$"

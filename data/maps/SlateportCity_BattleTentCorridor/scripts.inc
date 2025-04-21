@@ -200,7 +200,7 @@ SlateportCity_ContestHall_Text_BattleAndContestAlike:
 
 @ Unused
 SlateportCity_ContestHall_Text_MonLooksOnTopOfGame:
-    .string "那个宝可梦看起来像是比赛中的\n高手，嗯？\p宝可梦在评判比赛中做得好的话\n会比在吸引力比赛中\l看起来更放松。$"
+    .string "那只宝可梦看起来像是比赛中的\n高手，嗯？\p宝可梦在评判比赛中做得好的话\n会比在吸引力比赛中\l看起来更放松。$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MyMonBetterThanThatLot:

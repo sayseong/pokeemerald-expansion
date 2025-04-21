@@ -17,7 +17,7 @@ LilycoveCity_ContestLobby_Text_LookingForwardToNextContest::
     .string "我很期待你的下一场\n华丽大赛。$"
 
 gTVBravoTrainerText00::
-    .string "太好了！\n现在是BRAVO训练家时间！\p今天我们所要介绍的\n主角就是{STR_VAR_1}。\p现在，这个宝可梦在{STR_VAR_2}\n比赛中获得{STR_VAR_3}级别为荣。$"
+    .string "太好了！\n现在是BRAVO训练家时间！\p今天我们所要介绍的\n主角就是{STR_VAR_1}。\p现在，这只宝可梦在{STR_VAR_2}\n比赛中获得{STR_VAR_3}级别为荣。$"
 
 gTVBravoTrainerText01::
     .string "现在开始介绍{STR_VAR_1}的\n{STR_VAR_2}！\p昵称是{STR_VAR_2}…\p即便昵称也在散发\n一种呼喊“{STR_VAR_3}”的气氛啊！$"
@@ -92,16 +92,16 @@ BravoTrainerBattleTower_Text_Unsatisfied::
     .string "训练家应该是这么说的：\n“我还没满足…”\p我们的训练家在那发表后\n明显心情有些低落。\p不过，想要在完全满意的\n状态下战斗也没那么容易吧？\p不管怎么说，我们的训练家\n总是会以这样一句话来表达懊恼：$"
 
 BravoTrainerBattleTower_Text_None1::
-	.string "None$"
+	.string "无$"
 
 BravoTrainerBattleTower_Text_None2::
-	.string "None$"
+	.string "无$"
 
 BravoTrainerBattleTower_Text_None3::
-	.string "None$"
+	.string "无$"
 
 BravoTrainerBattleTower_Text_None4::
-	.string "None$"
+	.string "无$"
 
 BravoTrainerBattleTower_Text_Response::
     .string "“{STR_VAR_1}。”$"
@@ -302,22 +302,22 @@ gTVNameRaterText02::
     .string "一个昵称配上训练家的名字\n{STR_VAR_1}，就完美无缺了。\p我建议你在适当的时候\n打造一个好的伙伴关系。$"
 
 gTVNameRaterText03::
-    .string "一个昵称很适合\n一个独一无二的宝可梦！\p如果饲养得当的话，这个宝可梦\n的独特性就很会快体现起来！$"
+    .string "一个昵称很适合\n一个独一无二的宝可梦！\p如果饲养得当的话，这只宝可梦\n的独特性就很会快体现起来！$"
 
 gTVNameRaterText04::
-    .string "一个昵称会培养出宝可梦的\n人道心和同情心。\p如果饲养得当的话，这个宝可梦将会\n觉醒和展示出真正的热情！$"
+    .string "一个昵称会培养出宝可梦的\n人道心和同情心。\p如果饲养得当的话，这只宝可梦将会\n觉醒和展示出真正的热情！$"
 
 gTVNameRaterText05::
-    .string "一个好的昵称会暗示\n有好事发生。\p我很有兴趣想知道这个宝可梦\n的将来会是什么样。$"
+    .string "一个好的昵称会暗示\n有好事发生。\p我很有兴趣想知道这只宝可梦\n的将来会是什么样。$"
 
 gTVNameRaterText06::
-    .string "一个好的昵称应该会让\n宝可梦精神充沛！\p那个宝可梦应该会长时间的保持健康\n和精神充沛。$"
+    .string "一个好的昵称应该会让\n宝可梦精神充沛！\p那只宝可梦应该会长时间的保持健康\n和精神充沛。$"
 
 gTVNameRaterText07::
-    .string "一个好的昵称应该会让\n宝可梦非常活跃的！\p我会认为这个宝可梦将会\n在战场上有强有力的表现。$"
+    .string "一个好的昵称应该会让\n宝可梦非常活跃的！\p我会认为这只宝可梦将会\n在战场上有强有力的表现。$"
 
 gTVNameRaterText08::
-    .string "一个吸引人的昵称应该会让\n宝可梦魅力十足！\p我肯定这个宝可梦\n在宝可梦华丽大赛上人见人爱。$"
+    .string "一个吸引人的昵称应该会让\n宝可梦魅力十足！\p我肯定这只宝可梦\n在宝可梦华丽大赛上人见人爱。$"
 
 gTVNameRaterText09::
     .string "昵称{STR_VAR_1}源于\n这个字“{STR_VAR_3}。”\p这个字依托于第一个\n字“{STR_VAR_2}，”，\l这个字赋予了它实际意义。$"
@@ -362,7 +362,7 @@ gTVPokemonTodayFailedText01::
     .string "哦！\n说到{STR_VAR_1}…\p大姐姐，我是亲眼见过\n那个训练家！\p大姐姐：哦，你都看到了什么了？\p大哥哥：好吧，我只好旅行到\n{STR_VAR_2}。\p那时我碰巧要穿越\n{STR_VAR_1}，他正在努力去抓住那个\l宝可梦{STR_VAR_3}，可是…$"
 
 gTVPokemonTodayFailedText02::
-    .string "那个宝可梦却逃掉了！\p结果浪费了很多\n精灵球：{STR_VAR_2}！\p你应该看见过挫败的\n表情在{STR_VAR_1}的脸上当\l宝可梦逃掉的时候！$"
+    .string "那只宝可梦却逃掉了！\p结果浪费了很多\n精灵球：{STR_VAR_2}！\p你应该看见过挫败的\n表情在{STR_VAR_1}的脸上当\l宝可梦逃掉的时候！$"
 
 gTVPokemonTodayFailedText03::
     .string "可是{STR_VAR_1}弄错的话会让\n宝可梦昏厥的！\p结果就是浪费钱\n精灵球：{STR_VAR_2}！\p你应该见过\n惊吓了的又沮丧表情在{STR_VAR_1}的脸上\l当宝可梦昏厥时！$"

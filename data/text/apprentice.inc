@@ -299,7 +299,7 @@ gText_ApprenticeItemAlreadyRecommended3::
     .string "哦，可是…\n我以前好像听说过这种道具…\p是不是我以前没有\n正确使用{STR_VAR_1}？\p还是说我的{STR_VAR_2}\n不需要携带道具？$"
 
 gText_ApprenticeWhatHeldItem4::
-    .string "哦，{PLAYER}{KUN}。\n我想问你件事。\p你记得你曾经替我\n选了一个宝可梦吧？\p但我当时却忘了问你\n它应该携带什么道具。\p既然你之前帮了我一回，\n那不如帮到底吧？\p哪一个好？我想让我的\n{STR_VAR_1}携带一个道具。$"
+    .string "哦，{PLAYER}{KUN}。\n我想问你件事。\p你记得你曾经替我\n选了一只宝可梦吧？\p但我当时却忘了问你\n它应该携带什么道具。\p既然你之前帮了我一回，\n那不如帮到底吧？\p哪一个好？我想让我的\n{STR_VAR_1}携带一个道具。$"
 
 gText_ApprenticeHoldNothing4::
     .string "哦！这么说我的{STR_VAR_1}\n应该什么都不拿？$"
@@ -521,25 +521,25 @@ gText_ApprenticeMonFirstThanks6::
     .string "嗯！\n你是说我的{STR_VAR_1}！\l真是精彩的回答，谢谢！\p我今天想问你的\n就这么多。\p以后再见吧？\n谢谢你！$"
 
 gText_ApprenticeWhichMonFirst7::
-    .string "谢谢你能抽空\n和我聊天，{PLAYER}。\p我知道我在利用你的善意\n不过你能不能给我点建议？\p我希望你能替我决定\n宝可梦的排序。\p能不能告诉我\n哪一个宝可梦应该先出场？$"
+    .string "谢谢你能抽空\n和我聊天，{PLAYER}。\p我知道我在利用你的善意\n不过你能不能给我点建议？\p我希望你能替我决定\n宝可梦的排序。\p能不能告诉我\n哪一只宝可梦应该先出场？$"
 
 gText_ApprenticeMonFirstThanks7::
     .string "我的{STR_VAR_1}！\n我马上就去做！\p谢谢你，{PLAYER}。\n希望下次还能找你帮忙。\l请多保重！$"
 
 gText_ApprenticeWhichMonFirst8::
-    .string "哎呀！{PLAYER}！\n我…我真高兴能够再次见到你！\p我的宝可梦已经大有\n进步了！\p但我不能保持常胜。似乎\n第一个出场的宝可梦至关重要。\p{PLAYER}，我需要你的帮助！\p请替我决定哪一个宝可梦\n应该先出场！$"
+    .string "哎呀！{PLAYER}！\n我…我真高兴能够再次见到你！\p我的宝可梦已经大有\n进步了！\p但我不能保持常胜。似乎\n第一个出场的宝可梦至关重要。\p{PLAYER}，我需要你的帮助！\p请替我决定哪一只宝可梦\n应该先出场！$"
 
 gText_ApprenticeMonFirstThanks8::
     .string "唉…我真是高兴死了…\p能让你替我决定\n这简直就像是在做梦，{PLAYER}。\p我明白了！\n我会先派出{STR_VAR_1}的！\p希望你以后\n还能再教教我。$"
 
 gText_ApprenticeWhichMonFirst9::
-    .string "你好，你好！\n我的导师，{PLAYER}{KUN}！\l今天再给我一些建议吧！\p你瞧，我现在组建了一支\n3宝可梦战队。目前一切都很顺利。\p但是整个战队的顺序\n还没有定下来。\p这就是你要发挥的地方，{PLAYER}{KUN}！\n你来决定哪一个宝可梦打头阵吧！\p不要害羞，说出来吧！$"
+    .string "你好，你好！\n我的导师，{PLAYER}{KUN}！\l今天再给我一些建议吧！\p你瞧，我现在组建了一支\n3宝可梦战队。目前一切都很顺利。\p但是整个战队的顺序\n还没有定下来。\p这就是你要发挥的地方，{PLAYER}{KUN}！\n你来决定哪一只宝可梦打头阵吧！\p不要害羞，说出来吧！$"
 
 gText_ApprenticeMonFirstThanks9::
     .string "啊-嗯，我的{STR_VAR_1}做领队！\n好的，好的！\l我会重新组队的！\p谢谢你再次帮忙！\n再见！$"
 
 gText_ApprenticeWhichMonFirst10::
-    .string "{PLAYER}{KUN}，听着！\n我遇到危机了！\p我的那三只宝可梦同时\n加入了战斗！\p这当然是不可能的！\n哇哈哈！\p说正事吧。\n我不擅长决定\l宝可梦的出场顺序。\p不如你替我决定\n哪一个宝可梦先出场吧，师傅？$"
+    .string "{PLAYER}{KUN}，听着！\n我遇到危机了！\p我的那三只宝可梦同时\n加入了战斗！\p这当然是不可能的！\n哇哈哈！\p说正事吧。\n我不擅长决定\l宝可梦的出场顺序。\p不如你替我决定\n哪一只宝可梦先出场吧，师傅？$"
 
 gText_ApprenticeMonFirstThanks10::
     .string "哦，你选的是{STR_VAR_1}？\n那我绝不选它！\p开玩笑啦！\n我会听从你的教导的，师傅！\p谢谢你，师傅！\n希望你以后还能教导我！$"
@@ -563,13 +563,13 @@ gText_ApprenticeMonFirstThanks13::
     .string "嗯，好的。\n我的{STR_VAR_1}先出场。\p我吃过晚饭后\n就去修改顺序。\p希望我以后还能这样\n向你咨询。$"
 
 gText_ApprenticeWhichMonFirst14::
-    .string "呃…嗯…\n{PLAYER}{KUN}？\p请不要这样看着我。\n我都觉得脸红了。\p嗯…\n我迫切需要你的建议。\p真是有些难以启齿，\n我组建了一支3-宝可梦的队伍。\l可是却决定不了出场顺序。\p哪一个宝可梦先出场\n我才会有胜算？$"
+    .string "呃…嗯…\n{PLAYER}{KUN}？\p请不要这样看着我。\n我都觉得脸红了。\p嗯…\n我迫切需要你的建议。\p真是有些难以启齿，\n我组建了一支3-宝可梦的队伍。\l可是却决定不了出场顺序。\p哪一只宝可梦先出场\n我才会有胜算？$"
 
 gText_ApprenticeMonFirstThanks14::
     .string "哦…好的！\n我会让{STR_VAR_1}打头阵的。\p希望我能毫不气馁\n奋力拼搏…\p谢谢你，{PLAYER}{KUN}。\n如果我们还能见面的话\l请再给我些建议。$"
 
 gText_ApprenticeWhichMonFirst15::
-    .string "嗯？你好像是{PLAYER}{KUN}…\n真的是你吗？\l该不会是冒牌的吧？\p哦，不，不，不，别担心！\n如果你真的是{PLAYER}，\l请原谅我的无礼。\p我现在需要你的建议。\p我组建了一支宝可梦战队。\n希望你能告诉我应该由\l哪一个宝可梦打头阵。$"
+    .string "嗯？你好像是{PLAYER}{KUN}…\n真的是你吗？\l该不会是冒牌的吧？\p哦，不，不，不，别担心！\n如果你真的是{PLAYER}，\l请原谅我的无礼。\p我现在需要你的建议。\p我组建了一支宝可梦战队。\n希望你能告诉我应该由\l哪一只宝可梦打头阵。$"
 
 gText_ApprenticeMonFirstThanks15::
     .string "我的{STR_VAR_1}…\n你不是开玩笑吧？\p我明白了。那就这么着吧。\n谢谢你抽空回答问题。\p我现在虽然还不强\n但我一定会努力的。\p回见！$"
@@ -647,7 +647,7 @@ gText_ApprenticeMonThanks11::
     .string "你说的{STR_VAR_1}，哈，哈！\n我马上就去抓来它！\p如果我想要什么建议，\n{PLAYER}，我总会听听你的话！$"
 
 gText_ApprenticeWhichMon12::
-    .string "哇，这不是{PLAYER}吗？\p我该怎么办？给我建议？\n当然！我已经在和你说话了。\p已经很久了，是该捅破窗户纸的\n时候了，我需要你的建议！\l你能告诉我吗？\l你当然会告诉我！\p我该用哪个宝可梦？\n{STR_VAR_1}和{STR_VAR_2}，\l我该选哪一个？$"
+    .string "哇，这不是{PLAYER}吗？\p我该怎么办？给我建议？\n当然！我已经在和你说话了。\p已经很久了，是该捅破窗户纸的\n时候了，我需要你的建议！\l你能告诉我吗？\l你当然会告诉我！\p我该用哪只宝可梦？\n{STR_VAR_1}和{STR_VAR_2}，\l我该选哪一个？$"
 
 gText_ApprenticeMonThanks12::
     .string "如果说最好用{STR_VAR_1}，\n那我就听你的！\p哎，{PLAYER}，我要去自由地流浪，\n但你不要忘记我。\p下回再见，我的朋友！$"

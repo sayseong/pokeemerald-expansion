@@ -189,7 +189,7 @@ Route114_Text_MeteorFallsSign:
     .string "流星瀑布\n通往卡那兹市$"
 
 Route114_Text_FossilManiacsHouseSign:
-    .string "化石迷之家\n“欢迎带化石来！”$"
+    .string "化石迷的家\n“欢迎带化石来！”$"
 
 Route114_Text_LanettesHouse:
     .string "真由美的家$"

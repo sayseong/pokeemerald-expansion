@@ -105,7 +105,7 @@ const struct FollowerMsgInfo gFollowerNeutralMessages[] = {
 // Unconditional sad messages
 static const u8 sSadMsg00[] = _("{STR_VAR_1}晕乎乎的。");
 static const u8 sSadMsg01[] = _("{STR_VAR_1}踩了踩\n你的脚。");
-static const u8 sSadMsg02[] = _("{STR_VAR_1} seems a little tired.");
+static const u8 sSadMsg02[] = _("{STR_VAR_1}好像有点累了。");
 // Conditional messages begin, index 3
 static const u8 sSadMsg03[] = _("{STR_VAR_1}不太开心。");
 static const u8 sSadMsg04[] = _("{STR_VAR_1}看起来\n快要倒下了！");

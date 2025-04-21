@@ -358,7 +358,7 @@ ALIGNED(4) static const u8 sText_YoureToughMale[] = _("哇！\n你太坚强了�
 ALIGNED(4) static const u8 sText_UsedGoodMoveMale[] = _("你用了那个技能？\n真是好办法！\p");
 ALIGNED(4) static const u8 sText_BattleSurpriseMale[] = _("就这么做！\n真是令人大开眼界！\p");
 ALIGNED(4) static const u8 sText_SwitchedMonsMale[] = _("你竟然可以在那种情况下\n使用那只宝可梦？\p");
-ALIGNED(4) static const u8 sText_YoureToughFemale[] = _("那个宝可梦…\n培养的真好！\p\p");
+ALIGNED(4) static const u8 sText_YoureToughFemale[] = _("那只宝可梦…\n培养的真好！\p\p");
 ALIGNED(4) static const u8 sText_UsedGoodMoveFemale[] = _("就是这样！\n现在就是适当的技能！\p");
 ALIGNED(4) static const u8 sText_BattleSurpriseFemale[] = _("太可怕了！\n你竟然以这种方式战斗？\p");
 ALIGNED(4) static const u8 sText_SwitchedMonsFemale[] = _("你真有\n选择宝可梦的天赋！\p");
@@ -380,7 +380,7 @@ static const u8 *const sBattleReactionTexts[GENDER_COUNT][4] = {
 
 ALIGNED(4) static const u8 sText_LearnedSomethingMale[] = _("我知道了！\n受教了！\p");
 ALIGNED(4) static const u8 sText_ThatsFunnyMale[] = _("不要再说些搞笑的事了！\n从笑声中我感到痛苦！\p");
-ALIGNED(4) static const u8 sText_RandomChatMale1[] = _("O哦？\n那种事发生了。\p");
+ALIGNED(4) static const u8 sText_RandomChatMale1[] = _("哦？\n那种事发生了。\p");
 ALIGNED(4) static const u8 sText_RandomChatMale2[] = _("嗯…什么？\n这就是你说的？\p\p");
 ALIGNED(4) static const u8 sText_LearnedSomethingFemale[] = _("那样好吗？\n我不知道。\p");
 ALIGNED(4) static const u8 sText_ThatsFunnyFemale[] = _("哈哈！\n关于什么？\p\p");

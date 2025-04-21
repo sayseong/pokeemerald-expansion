@@ -397,7 +397,7 @@ Route116_Text_RusturfTunnelSign:
     .string "卡绿隧道\n“连接卡那兹市和绿茵镇的隧道\p工程已被\n取消”$"
 
 Route116_Text_TunnelersRestHouse:
-    .string "地道迷的休息室$"
+    .string "隧道工人休息屋$"
 
 Route116_Text_TrainerTipsBToStopEvolution:
     .string "训练家小技巧\p如果你不希望宝可梦进化，\n则应在它试图进化时\l按下B键，\l受惊的宝可梦会停止进化。\p这叫做进化取消。$"
