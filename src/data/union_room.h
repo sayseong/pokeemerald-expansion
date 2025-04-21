@@ -380,7 +380,7 @@ static const u8 *const sBattleReactionTexts[GENDER_COUNT][4] = {
 
 ALIGNED(4) static const u8 sText_LearnedSomethingMale[] = _("我知道了！\n受教了！\p");
 ALIGNED(4) static const u8 sText_ThatsFunnyMale[] = _("不要再说些搞笑的事了！\n从笑声中我感到痛苦！\p");
-ALIGNED(4) static const u8 sText_RandomChatMale1[] = _("O哦？\n那种事发生了。\p");
+ALIGNED(4) static const u8 sText_RandomChatMale1[] = _("哦？\n那种事发生了。\p");
 ALIGNED(4) static const u8 sText_RandomChatMale2[] = _("嗯…什么？\n这就是你说的？\p\p");
 ALIGNED(4) static const u8 sText_LearnedSomethingFemale[] = _("那样好吗？\n我不知道。\p");
 ALIGNED(4) static const u8 sText_ThatsFunnyFemale[] = _("哈哈！\n关于什么？\p\p");
