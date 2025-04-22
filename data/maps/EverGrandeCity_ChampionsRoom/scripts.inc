@@ -254,7 +254,7 @@ EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe:
     .string "米可利：{PLAYER}{KUN}…\p不，我要改口了。\p新任冠军！\p跟我来。$"
 
 EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside:
-    .string "米可利：对不起，但是…\p从这里开始，只有那些成为冠军的训练家\n才可以进去。\p你只能在外面等候了\n小田卷博士。$"
+    .string "米可利：对不起，但是…\p这前面只有那些成为冠军的训练家\n才可以进去。\p你只能在外面等候了\n小田卷博士。$"
 
 EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
     .string "小遥：呃…\p… … … … … … … …\n… … … … … … … …\p开玩笑的吧？！没关系！\n这是规定嘛！\p{PLAYER}{KUN}！\n真诚的恭喜你！$"

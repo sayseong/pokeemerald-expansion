@@ -440,7 +440,7 @@ LilycoveCity_Text_MayYouGoingToBattleFrontier:
     .string "{PLAYER}{KUN}，你打算做什么？\p你要挑战\n对战开拓区吗？\p或者你想完成\n宝可梦图鉴？\p也许战斗我会输给你，\n但我会比你更快完成宝可梦图鉴的！\p再见了！$"
 
 LilycoveCity_Text_BrendanShoppingLetsBattle:
-    .string "小悠：嗨，这不是{PLAYER}吗。\p我在替老爸跑腿呢。\n不，我才不是来买玩偶的。\p不管怎样，离上次我们碰面已经有段时间了，\p想试试我们两个谁的宝可梦\n训练得更好吗？$"
+    .string "小悠：嗨，这不是{PLAYER}吗。\p我在替老爸跑腿呢。\n不，我才不是来买玩偶的。\p不管怎样，离上次我们\n碰面已经有段时间了，\p想试试我们两个谁的宝可梦\n训练得更好吗？$"
 
 LilycoveCity_Text_BrendanNoConfidence:
     .string "小悠：哦，怎么了？\n没信心吗？$"

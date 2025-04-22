@@ -1044,7 +1044,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
     .string "就在此时，就在此地，\n我要释放我所有的力量！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
-    .string "石南：你是一个非凡的人！\p我从未碰见过在我释放出所有的力量之后\n还能打败我的人，从来没有过！\p是的，你拥有非凡的力量！\n好了，把你的开拓通行证给我吧。$"
+    .string "石南：你是一个非凡的人！\p我从未碰见过在我释放出全力之后\n还能打败我的人，从来没有过！\p是的，你拥有非凡的力量！\n好了，把你的开拓通行证给我吧。$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
     .string "战术象征\n亮起了金光！$"

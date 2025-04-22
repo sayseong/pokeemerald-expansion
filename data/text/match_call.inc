@@ -194,7 +194,7 @@ MatchCall_DifferentRouteBattleRequestText8::
     .string "哦，{PLAYER}{KUN}，你好么？\n我是{STR_VAR_1}。\p我希望你一切都好。\n我的宝可梦非常的活跃。\p如果你和我在一个地方，\n和我再战一场吧。\p我就在{STR_VAR_2}。\n不见不散，再见！$"
 
 MatchCall_DifferentRouteBattleRequestText9::
-    .string "哦，{PLAYER}{KUN}，你好啊！\n我是{STR_VAR_1}！\l你的宝可梦还好吗？\p我的宝可梦越来越强了。\n我想给你见识一下，{PLAYER}{KUN}。\p我现在就在{STR_VAR_2}这里，\n如果你在附近的话，那么就让我们战一场吧。\p希望能早点见到你！$"
+    .string "哦，{PLAYER}{KUN}，你好啊！\n我是{STR_VAR_1}！\l你的宝可梦还好吗？\p我的宝可梦越来越强了。\n我想给你见识一下，{PLAYER}{KUN}。\p我现在就在{STR_VAR_2}这里，\n如果你在附近的话，\l那么就让我们战一场吧。\p希望能早点见到你！$"
 
 MatchCall_DifferentRouteBattleRequestText10::
     .string "哦，{PLAYER}{KUN}，你好…\n我是{STR_VAR_1}。\l啊，最近还好吗？\p我的宝可梦可是比以前\n要强多了。\p我很想和你再战一次，\n{PLAYER}{KUN}。\p现在我在{STR_VAR_2}。\n如果方便的话就来吧。$"
@@ -806,7 +806,7 @@ MatchCall_Text_Brendan11::
     .string "小悠：你好，{PLAYER}！\n你不觉得这很棒吗？\p即使没有船，\n你也能利用宝可梦招式\l来越过大海。\p你知道这还不是全部吧？\n有种宝可梦招式能够让你潜入深海呢。\p宝可梦无所不能啊！$"
 
 MatchCall_Text_Brendan12::
-    .string "小悠：嗨，{PLAYER}！\n希望一切都好！\p你出海之后\n有没有发现通向彼岸的航路被封住了？？\p试试看潜下深水\n沿着壕沟前进。\p当你到了对岸之后，\n再浮上水面。容易吧！$"
+    .string "小悠：嗨，{PLAYER}！\n希望一切都好！\p你出海之后有没有发现通向\n对岸的航路被封住了？？\p试试看潜下深水\n沿着壕沟前进。\p当你到了对岸之后，\n再浮上水面。容易吧！$"
 
 MatchCall_Text_Brendan13::
     .string "小悠：你好啊，{PLAYER}！\p怎么样了？还在在补完你的？\n宝可梦图鉴？\p我听说某些地方有\n上古宝可梦的存在。。\l一共三只哦！\p我哪怕抓到一只才好…$"

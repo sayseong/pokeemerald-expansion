@@ -13,5 +13,5 @@ MagmaHideout_3F_2R_Text_Grunt10Defeat:
     .string "嗯，我们确实做错了\n一些事情。$"
 
 MagmaHideout_3F_2R_Text_Grunt10PostBattle:
-    .string "说实话，输给你后我的大脑清醒了许多，\p下次见到老大的时候，\n我会找他谈谈的。$"
+    .string "说实话，输给你后\n我的大脑清醒了许多，\p下次见到老大的时候，\n我会找他谈谈的。$"
 

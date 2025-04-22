@@ -1067,7 +1067,7 @@ RustboroCity_Text_WaitDontTakeMyGoods:
     .string "等等！等——等！\p别抢我的包裹！$"
 
 RustboroCity_Text_HelpMeIWasRobbed:
-    .string "啊，是你！\p你是橙华森林里\n帮过我的那个训练家！\p请再帮我一次吧！海洋队抢了我的东西！\n我得把得文的物品拿回来！\p否则…\n我会有大麻烦的。$"
+    .string "啊，是你！\p你是橙华森林里\n帮过我的那个训练家！\p请再帮我一次吧！\n海洋队抢了我的东西！\l我得把得文的物品拿回来！\p否则…\n我会有大麻烦的。$"
 
 RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
     .string "那个小偷大概\n向着那边的隧道逃跑了。$"

@@ -350,10 +350,10 @@ gTVNameRaterText18::
     .string "我得说{STR_VAR_1}是非常\n好的昵称。\p我希望那个训练家会继续\n用爱来对待{STR_VAR_1}。\p今天的表演就到此为止了。\n我们也许会再见面的。$"
 
 gTVPokemonAnglerText00::
-    .string "{STR_VAR_2}钓鱼\p主持：你好！今天，我们会得到提示\n在寻找{STR_VAR_2}。\p戈鲁，你可以给点什么建议来\n抓{STR_VAR_2}？\p戈鲁：嗯？抓{STR_VAR_2}？\n好吧，告诉你，要有耐心\l并会等待。那是底线。\p你有没有看见{STR_VAR_1}在那里？\n那个训练家做了个好榜样。\p那个训练家已经把\n{STR_VAR_3}宝可梦送走了。\p但是那个{STR_VAR_1}还等着。没放弃。\n这就是抓{STR_VAR_2}的不二法则。\p主持人：了解…\p哦！{STR_VAR_1}终于到达了一个\n难于定义的{STR_VAR_2}！\p这个训练家看起来就要\n流出喜悦的眼泪了！\p看着这样快乐的表情，我也越发\n的渴望去钓鱼了！\p观众们，为什么不把这个当作是一个暗示\n试试用一些{STR_VAR_2}来钓鱼？\p在我们下一次的广播来到前，那么先再见了，\n祝大家都钓到好东西！$"
+    .string "{STR_VAR_2}钓鱼\p主持：你好！今天，我们会得到提示\n在寻找{STR_VAR_2}。\p戈鲁，你可以给点什么建议来\n抓{STR_VAR_2}？\p戈鲁：嗯？抓{STR_VAR_2}？\n好吧，告诉你，要有耐心\l并会等待。那是底线。\p你有没有看见{STR_VAR_1}在那里？\n那个训练家做了个好榜样。\p那个训练家已经把\n{STR_VAR_3}宝可梦送走了。\p但是那个{STR_VAR_1}还等着。没放弃。\n这就是抓{STR_VAR_2}的不二法则。\p主持人：了解…\p哦！{STR_VAR_1}终于到达了一个\n难于定义的{STR_VAR_2}！\p这个训练家看起来就要\n流出喜悦的眼泪了！\p看着这样快乐的表情，我也越发\n的渴望去钓鱼了！\p观众们，为什么不把这个当作是个契机\n试试用一些{STR_VAR_2}来钓鱼？\p那么在我们下一次的广播前先再见了，\n祝大家都钓到好东西！$"
 
 gTVPokemonAnglerText01::
-    .string "{STR_VAR_2}钓鱼\p主持人：嗨！今天，我们会得都一些提示\n来钓{STR_VAR_2}。\p戈鲁，你会给大家什么样的建议来\n抓住{STR_VAR_2}？\p戈鲁：哦？想抓住{STR_VAR_2}？\n好吧，让我告诉你，用你的钓鱼\l竿和精力！\p你看到{STR_VAR_1}在那边了吗？\n看看这个鱼竿是怎样用的？\p那个训练家已经连续地抓住了\n{STR_VAR_3}。\p主持人：真是不可思议！\n看起来就像一个风暴…\p看这卓越的技巧，我也\n越发的渴望去钓鱼了。\p观众们，为什么不把这个当作是一个暗示\n试试用一些{STR_VAR_2}来钓鱼？\p在我们下一次的广播来到前，那么先再见了\n祝大家都钓到好东西！$"
+    .string "{STR_VAR_2}钓鱼\p主持人：嗨！今天，我们会得都一些提示\n来钓{STR_VAR_2}。\p戈鲁，你会给大家什么样的建议来\n抓住{STR_VAR_2}？\p戈鲁：哦？想抓住{STR_VAR_2}？\n好吧，让我告诉你，用你的钓鱼\l竿和精力！\p你看到{STR_VAR_1}在那边了吗？\n看看这个鱼竿是怎样用的？\p那个训练家已经连续地抓住了\n{STR_VAR_3}。\p主持人：真是不可思议！\n看起来就像一个风暴…\p看这卓越的技巧，我也\n越发的渴望去钓鱼了。\p观众们，为什么不把这个当作是个契机\n试试用一些{STR_VAR_2}来钓鱼？\p那么在我们下次的广播前先再见了！\n祝大家都钓到好东西！$"
 
 gTVPokemonTodayFailedText00::
     .string "哈喽！\p是今天的宝可梦的时间了！\p大姐姐：嗨！大家今天过的\n都好吗？\p今天，我们要关注下{STR_VAR_1}的\n宝可梦{STR_VAR_2}！\p大哥哥：是的！这就是我们打算\n去做的！$"
@@ -389,7 +389,7 @@ gTVPokemonTodaySuccessfulText03::
     .string "大姐姐：如果很容易就抓住的话，\n那一定是命运把\l{STR_VAR_1}和{STR_VAR_2}带到了一起$"
 
 gTVPokemonTodaySuccessfulText04::
-    .string "大姐姐：哇！那可真简洁！\p但是你知道人们都说，一个需要花上很大努力\n才可以抓住的宝可梦\l才会得到它的训练家的爱！$"
+    .string "大姐姐：哇！那可真简洁！\p但是你知道人们都说，一个需要花上\n很多努力才可以抓住的宝可梦\l才会得到它的训练家的爱！$"
 
 gTVPokemonTodaySuccessfulText05::
     .string "大姐姐：{STR_VAR_1}的{STR_VAR_2}是一个\n值得纪念的宝可梦因为它需要一个\l无价的大师球才可以抓住！\p大哥哥：哇！真是帅呆了！\p大姐姐：{STR_VAR_1}一定想\n那个{STR_VAR_2}想疯了，一定的！$"
@@ -621,7 +621,7 @@ gTVSecretBaseVisitText13::
     .string "我必须说，超级的秘密基地\n就是这样的！\p参观者们，如果你有机会，\n一定要参观一下{STR_VAR_1}的秘密基地。\p希望还能再见！$"
 
 gTVPokemonLotteryWinnerFlashReportText00::
-    .string "多么令人激动！\n多么具有戏剧性！\p这是宝可梦彩票\n赢家快速报导！\p大家好！这是在水静\l百货一楼的\n宝可梦彩票中心的\l现场直播！\p就像以前一样，今天出现了幸运的训练家！\p这个训练家是…\n{STR_VAR_1}！\p{STR_VAR_1}得了{STR_VAR_2}等奖\n他获得了{STR_VAR_3}！\p{STR_VAR_1}！\n恭喜！\p观众们，不要只是在电视机前观看，\n加入我们吧！\p水静百货的我们\n期待着你的下次来访！\p这是来自水静百货\n的现场直播，\l给你提供，在丰缘能买到的\l最好的商品！$"
+    .string "多么令人激动！\n多么具有戏剧性！\p这是宝可梦彩票\n赢家快速报导！\p大家好！这是在水静\l百货一楼的\n宝可梦彩票中心的\l现场直播！\p就像以前一样，\n今天出现了幸运的训练家！\p这个训练家是…\n{STR_VAR_1}！\p{STR_VAR_1}得了{STR_VAR_2}等奖\n他获得了{STR_VAR_3}！\p{STR_VAR_1}！\n恭喜！\p观众们，不要只是在电视机前观看，\n加入我们吧！\p水静百货的我们\n期待着你的下次来访！\p这是来自水静百货\n的现场直播，\l给你提供，在丰缘能买到的\l最好的商品！$"
 
 gTVThePokemonBattleSeminarText00::
     .string "这里是宝可梦对战研讨会！\p我们研究战斗，来发现\n我们能从别人那里学到什么。\p今天我们来研究一下{STR_VAR_1}的\n战斗。\p{STR_VAR_1}的{STR_VAR_2}正在\n与{STR_VAR_3}战斗…$"
@@ -642,7 +642,7 @@ gTVThePokemonBattleSeminarText05::
     .string "{STR_VAR_2}这个招式。$"
 
 gTVThePokemonBattleSeminarText06::
-    .string "在这个状况下，\n这训练家用了什么招式呢？\p… … … … … …\n{STR_VAR_1}！\p{STR_VAR_1}这招式一定会\n比{STR_VAR_2}好。\p观众们，我强烈希望你能从这次战斗学到什么，\n下次要更聪明的战斗哦！\p下次再见，拜拜！$"
+    .string "在这个状况下，\n这训练家用了什么招式呢？\p… … … … … …\n{STR_VAR_1}！\p{STR_VAR_1}这招式一定会\n比{STR_VAR_2}好。\p观众们，我很希望你能从这学到什么，\n下次要更聪明的战斗哦！\p下次再见，拜拜！$"
 
 gTVTrainerFanClubText00::
     .string "大家注意了！\n这里是训练家迷俱乐部！\p主持：大家状态都好吗？\n今天，我们聚集了众所周知\l的训练家，{STR_VAR_1}的支持者！\p酱油众：哦！\p酱油众：{STR_VAR_1}！\p主持：大家！\n你们对{STR_VAR_1}的感觉是？！\p酱油众：我们爱{STR_VAR_1}！\p主持：你们怎么会爱\n{STR_VAR_1}的？！$"
@@ -678,7 +678,7 @@ gTVTrainerFanClubText10::
     .string "酱油众：这个训练家大胆地\n使用招式学习器！$"
 
 gTVTrainerFanClubText11::
-    .string "主持：就像你们看见的那样，{STR_VAR_1}\n真流行！简直就像没法触碰一样，哇呼！\p在{STR_VAR_1}的酱油众中\n有一个特别的口号！\p主持：当我说{STR_VAR_1}，\n你们说…\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p主持：就是这样。当一个人对你说\n“{STR_VAR_1}”时…\p一定要回应， “{STR_VAR_2}\n{STR_VAR_3}！”\p这是独一无二的环！\n我能理解为什么人们成为了\l{STR_VAR_1}的酱油众！\p电视机前的观众们，加入我们吧！\n大家注意！\p主持：当我说{STR_VAR_1}，\n你说…\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p主持：感谢大家的参与，\n狂野的{STR_VAR_1}的酱油众们！\l节目结束！下次再见！\p主持：当我说{STR_VAR_1}，\n你就说…\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！$"
+    .string "主持：就像你们看见的那样，{STR_VAR_1}\n真流行！可以说是炙手可热！\p在{STR_VAR_1}的酱油众中\n有一个特别的口号！\p主持：当我说{STR_VAR_1}，\n你们说…\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p主持：就是这样。当一个人对你说\n“{STR_VAR_1}”时…\p一定要回应， “{STR_VAR_2}\n{STR_VAR_3}！”\p这是独一无二的环！\n我能理解为什么人们成为了\l{STR_VAR_1}的酱油众！\p电视机前的观众们，加入我们吧！\n大家注意！\p主持：当我说{STR_VAR_1}，\n你说…\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p主持：感谢大家的参与，\n狂野的{STR_VAR_1}的酱油众们！\l节目结束！下次再见！\p主持：当我说{STR_VAR_1}，\n你就说…\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！$"
 
 TVSpotTheCuties_Text_Intro::
     .string "抓住可爱的一瞬！\n宝可梦戴缎带！\p我亲爱的观众们，你们好！\p我知道你们都同意，形容戴着缎带\n的宝可梦就只有一个词：美丽！\p今天，我想和观众们分享\n一个当我在城里散步时看见的宝可梦。\p今天的可爱的宝可梦\n是{STR_VAR_1}的{STR_VAR_2}。$"
@@ -834,7 +834,7 @@ TVSecretBaseSecrets_Text_PlayerHugeFanOfBase::
     .string "{STR_VAR_2}看起来成了\n{STR_VAR_1}秘密基地的\l骨灰级粉丝啦。$"
 
 TVSecretBaseSecrets_Text_Outro::
-    .string "观众们是不是对\n{STR_VAR_1}的秘密基地也有兴趣呢？\p请继续锁定这个频道，和我们一同参观其他\n秘密基地！非常感谢您的收看！$"
+    .string "观众们是不是对\n{STR_VAR_1}的秘密基地也有兴趣呢？\p请继续锁定这个频道，和我们一同参观\n其他秘密基地！非常感谢您的收看！$"
 
 TVSecretBaseSecrets_Text_StoppedMoving1::
     .string "游客停下了脚步！\p完全不想离开！\p{STR_VAR_1}的秘密基地\n真的这么吸引人吗？$"

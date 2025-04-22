@@ -37,7 +37,7 @@ Route110_TrickHousePuzzle4_Text_CoraDefeat:
     .string "就算会输，我还是喜欢\n挑战高手！$"
 
 Route110_TrickHousePuzzle4_Text_CoraPostBattle:
-    .string "只要有训练家的地方，都是我的目的地。\n你也是这么想的吧？$"
+    .string "只要有训练家的地方，\n都是我的目的地。\l你也是这么想的吧？$"
 
 Route110_TrickHousePuzzle4_Text_YujiIntro:
     .string "哈！像这样的小石头，\n我用一根手指头就能推走！$"

@@ -5,7 +5,7 @@ BerryBlender_Text_SeeMyMasteryInAction::
     .string "混合大师：哦！这么说来，\n你是想看看我战斗的英姿吧？$"
 
 BerryBlender_Text_TooBusyNowIsee::
-    .string "啊！\p我看你好像挺忙的！\p别担心！\n我天天都在这儿！\l我看这样吧，等你旅行结束了再来找我吧！$"
+    .string "啊！\p我看你好像挺忙的！\p别担心！\n我天天都在这儿！\l我看这样吧，等你旅行\l结束了再来找我吧！$"
 
 BerryBlender_Text_BlendMasterNoBerries::
     .string "啊！\p你没带来不同寻常的树果！\p我每天都在这儿的！\n再拿一些珍稀的树果回来，赶快！$"

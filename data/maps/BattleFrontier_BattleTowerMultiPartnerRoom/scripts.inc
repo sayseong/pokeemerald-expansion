@@ -1287,7 +1287,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon1::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}和$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon2Ask::
-    .string "另一只懂得如何使用{STR_VAR_1}\n的{STR_VAR_2}。这就是我的搭档。\p你觉得如何？\n我们一定能组成一直很好的队伍，我这么觉得。$"
+    .string "另一只懂得如何使用{STR_VAR_1}\n的{STR_VAR_2}。这就是我的搭档。\p你觉得如何？\n我们一定能组成一直很好的\l队伍，我这么觉得。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFAccept::
     .string "我喜欢这个答案！\n我会很快去注册的！$"

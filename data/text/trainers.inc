@@ -189,7 +189,7 @@ Route104_Text_GinaPostBattle::
     .string "奈绪：你很强！\n我们还要好好修行啊！$"
 
 Route104_Text_GinaNotEnoughMons::
-    .string "奈绪：哦？就一只宝可梦？\n那么，我们不和你打了。\p如果就只有一只宝可梦，不是很热闹啊。\n不爽啊。$"
+    .string "奈绪：哦？就一只宝可梦？\n那么，我们不和你打了。\p如果就只有一只宝可梦，\n感觉好孤单啊，那可不好。$"
 
 Route104_Text_MiaIntro::
     .string "美绪：我们是双胞胎，和\n我们的宝可梦战斗吧。$"
@@ -201,7 +201,7 @@ Route104_Text_MiaPostBattle::
     .string "美绪：我们会好好训练宝可梦的，\n变得和你一样强。$"
 
 Route104_Text_MiaNotEnoughMons::
-    .string "美绪：你想与我们战斗？\p如果没有两只宝可梦的话，就一定不可以的。\l对你来说我们太强了！$"
+    .string "美绪：你想与我们战斗？\p如果没有两只宝可梦的话，\n就一定不可以的。\l对你来说我们太强了！$"
 
 Route104_Text_IvanIntro::
     .string "干什么保密啊？\n我就是水属性宝可梦专家！\p啥？\n你不认识我？$"
@@ -231,10 +231,10 @@ Route104_Text_HaleyPostBattle::
     .string "如果你面对决择的时候，\n让别人替你做决定。\l你会对事情的\l结果后悔的。$"
 
 Route104_Text_HaleyRegister1::
-    .string "你很强，但是我是不是应该把你记录在我的\n宝可梦导航仪里？\l也许我不应该…\p好吧，是的，我会记录你的！$"
+    .string "你很强，但是我是不是应该把你记录在\n我的宝可梦导航仪里？\l也许我不应该…\p好吧，是的，我会记录你的！$"
 
 Route104_Text_HaleyRegister2::
-    .string "你很强，但是我是不是应该把你记录到\l我的宝可梦导航仪？也许我不应该…\p好吧，是的，我会记录你的！$"
+    .string "你很强，但是我是不是应该把你记录到\n我的宝可梦导航仪？也许我不应该…\p好吧，是的，我会记录你的！$"
 
 Route104_Text_HaleyRematchIntro::
     .string "来吧，和我战斗！$"
@@ -252,7 +252,7 @@ Route104_Text_WinstonDefeat::
     .string "为什么我赢不了？$"
 
 Route104_Text_WinstonPostBattle::
-    .string "金钱不是万能的，也有钱买不到的东西。\n就是宝可梦…$"
+    .string "金钱不是万能的，\n也有钱买不到的东西。\l那就是宝可梦…$"
 
 Route104_Text_WinstonRegister1::
     .string "呜？\n啊，你拿着的是宝可梦导航仪。\p我很愿意记录你。\n毕竟，我有的是钱。$"
@@ -261,7 +261,7 @@ Route104_Text_WinstonRegister2::
     .string "呜？\n啊，你拿着的是宝可梦导航仪。\p我很乐意帮你登录上。\n毕竟，我有的是钱。$"
 
 Route104_Text_WinstonRematchIntro::
-    .string "在我输给你之后，我学到很多关于宝可梦的事。$"
+    .string "在我输给你之后，\n我学到很多关于宝可梦的事。$"
 
 Route104_Text_WinstonRematchDefeat::
     .string "我又输了？\n为什么我总是赢不了？$"
@@ -1296,7 +1296,7 @@ Route114_Text_LennyPostBattle::
     .string "当我还是很小的时候\n我就相信有人一直\l在叫“蓝蓝路。”$"
 
 Route114_Text_LucasIntro::
-    .string "如果你还有没有准备好的话，你就不应该\n上山！$"
+    .string "如果你还有没有准备好的话，\n你就不应该上山！$"
 
 Route114_Text_LucasDefeat::
     .string "山是不会饶恕你的…$"
@@ -2022,7 +2022,7 @@ Route119_Text_CatherinePostBattle::
     .string "虽然是轻装而行，你却\n已经拥有了你所需要的一切。\p无论是精神上还是身体上，\n你都已经熟练掌握了许多东西。$"
 
 Route119_Text_CatherineRegister::
-    .string "你有宝可梦导航仪吗？\n对于任何一个训练家来说，它都是必须的工具。\p哦，你有一个！\n那么我们互相登记吧！$"
+    .string "你有宝可梦导航仪吗？\n对于任何一个训练家来说，\l它都是必须的工具。\p哦，你有一个！\n那么我们互相登记吧！$"
 
 Route119_Text_CatherineRematchIntro::
     .string "你跟你的宝可梦\n的旅程怎么样了？$"
@@ -3096,7 +3096,7 @@ Route129_Text_TishaDefeat::
     .string "噢，天哪，\n我想再休息一会儿…$"
 
 Route129_Text_TishaPostBattle::
-    .string "想想看，在急急忙忙做事的时候突然犯了\n点错误的话，就会觉得很心烦吧？\p所以我做事一直\n尽力放慢脚步。$"
+    .string "想想看，在急急忙忙做事的\n时候突然犯了点错误的话，\l就会觉得很心烦吧？\p所以我做事一直\n尽力放慢脚步。$"
 
 Route129_Text_ClarenceIntro::
     .string "冲浪并不像看上去\n那么简单，不是吗？$"

@@ -174,7 +174,7 @@ CableClub_Text_NoEnigmaBerryInUnionRoom::
     .string "带有{STR_VAR_1}树果的宝可梦\n不能进入联合房间。$"
 
 CableClub_Text_UnionRoomAdapterNotConnected::
-    .string "这里是宝可梦无线俱乐部\n联合房间，\p很抱歉，您的无线接收器没有正确连接，\p请下次再来。$"
+    .string "这里是宝可梦无线俱乐部\n联合房间，\p很抱歉，您的无线接收器\n没有正确连接，\p请下次再来。$"
 
 @ Unused
 CableClub_Text_OhExcuseMe::

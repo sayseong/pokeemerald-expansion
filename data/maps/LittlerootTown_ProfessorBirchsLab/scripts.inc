@@ -664,7 +664,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall::
 	end
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
-    .string "什么？小田卷博士？\p博士去野外考察了，\n现在不在这里。\p啊，我给你解释一下什么是野外考察吧。\p野外考察，就是走出研究所，\n去田里或山间等自然环境中\l做研究。\p博士是那种坐不住的人，\n比起坐下来读书\l了解什么事情，他更愿意\l走出门去，亲身体验一下。$"
+    .string "什么？小田卷博士？\p博士去野外考察了，\n现在不在这里。\p啊，我给你解释一下\n什么是野外考察吧。\p野外考察，就是走出研究所，\n去田里或山间等自然环境中\l做研究。\p博士是那种坐不住的人，\n比起坐下来读书\l了解什么事情，他更愿意\l走出门去，亲身体验一下。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
     .string "博士是那种坐不住的人，\n比起坐下来读书\l了解什么事情，他更愿意\l走出门去，亲身体验一下。$"

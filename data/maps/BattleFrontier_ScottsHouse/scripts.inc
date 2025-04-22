@@ -242,7 +242,7 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
     .string "亚希达：在对战开拓区\n玩得还高兴吗？\p…等等…\n啊！\p你的开拓通行证！\n你已经收集到了\l所有的银色象征！\p简直太不可置信了！\n和我预想中一样，你真的非常非常强！\p虽说通常我不会做这些，\n不过这次就让我破例一回！\p这个送给你，\n你肯定能善加利用的。$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
-    .string "亚希达：希望你喜欢\n我的对战开拓区。\p…等等…\n啊，我不是眼花了吧！\p你的开拓通行证！\n你已经收集到了\l所有的金色象征！\p太了不起了！\n和我预想中一样，你真是个不可思议的人！\p… … … … … …\p{PLAYER}，你一定得收下这个！\p是你的话，一定能识得\n我的礼物的价值的！$"
+    .string "亚希达：希望你喜欢\n我的对战开拓区。\p…等等…\n啊，我不是眼花了吧！\p你的开拓通行证！\n你已经收集到了\l所有的金色象征！\p太了不起了！和我预想中一样，\n你真是个不可思议的人！\p… … … … … …\p{PLAYER}，你一定得收下这个！\p是你的话，一定能识得\n我的礼物的价值的！$"
 
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
     .string "我可是有天赋的，可以第一眼就\n看出训练家的实力。\p真高兴我的先见让我\n把你带到了这里！$"

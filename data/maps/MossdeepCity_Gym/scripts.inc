@@ -467,7 +467,7 @@ MossdeepCity_Gym_Text_MaceyDefeat:
     .string "你怎么会变得\n这么强的？$"
 
 MossdeepCity_Gym_Text_MaceyPostBattle:
-    .string "哼！你也许很强，但你\n却与超能力属性不合！\p某种程度来说，你的战斗方式极为冷漠！$"
+    .string "哼！你也许很强，但你\n却与超能力属性不合！\p某种程度来说，\n你的战斗方式极为冷漠！$"
 
 MossdeepCity_Gym_Text_NicholasIntro:
     .string "呜啊啊啊！尝尝我的宝可梦\n那超凡脱俗的力量吧！$"

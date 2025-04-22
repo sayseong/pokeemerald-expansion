@@ -249,7 +249,7 @@ SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds:
     .string "我觉得在这里\n我会做出些坏事来…$"
 
 SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
-    .string "如果不是那些蠢货在\n卡那兹市搞砸了，我们怎么会到这儿来！$"
+    .string "如果不是那些蠢货在卡那兹市\n搞砸了，我们怎么会到这儿来！$"
 
 SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
     .string "我没带够¥50，从接待员那儿\n混进来花了不少时间。$"
