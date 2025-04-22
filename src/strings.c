@@ -168,7 +168,7 @@ const u8 gText_TheField[] = _("野外");
 const u8 gText_TheBattle[] = _("战斗");
 const u8 gText_ThePokemonList[] = _("宝可梦列表");
 const u8 gText_TheShop[] = _("友好商店");
-const u8 gText_ThePC[] = _("宝可梦中心");
+const u8 gText_ThePC[] = _("电脑");//虽然这个PC在商店的下面，但是其实它是电脑的意思……
 
 const u8 *const gBagMenu_ReturnToStrings[] =
 {
@@ -270,7 +270,7 @@ const u8 gText_PkmnNeedsToReplaceMove[] = _("{STR_VAR_1}想要学习\n{STR_VAR_2
 const u8 gText_StopLearningMove2[] = _("放弃学习{STR_VAR_2}吗？");
 const u8 gText_MoveNotLearned[] = _("{STR_VAR_1}没有学习\n{STR_VAR_2}就结束了。{PAUSE_UNTIL_PRESS}");
 const u8 gText_WhichMoveToForget[] = _("要忘记哪个招式呢？{PAUSE_UNTIL_PRESS}");
-const u8 gText_12PoofForgotMove[] = _("1，{PAUSE 15}2，{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}空！\p{STR_VAR_1}把{STR_VAR_2}的\n使用方法忘得干干净净了！\p于是……！{PAUSE_UNTIL_PRESS}");
+const u8 gText_12PoofForgotMove[] = _("1，{PAUSE 15}2，{PAUSE 15}……{PAUSE 15}……{PAUSE 15}……{PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}空！\p{STR_VAR_1}把{STR_VAR_2}的\n使用方法忘得干干净净了！\p于是……！{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnAlreadyKnows[] = _("{STR_VAR_1}学会了\n{STR_VAR_2}！{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnHPRestoredByVar2[] = _("{STR_VAR_1}的体力回复了\n{STR_VAR_2}。{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnCuredOfPoison[] = _("{STR_VAR_1}的毒\n消失得干干净净！{PAUSE_UNTIL_PRESS}");
@@ -1237,7 +1237,7 @@ const u8 gText_MoveRelearnerTeachMoveConfirm[] = _("要学习{STR_VAR_2}吗？")
 const u8 gText_MoveRelearnerPkmnLearnedMove[] = _("{STR_VAR_1}学会了\n{STR_VAR_2}！");
 const u8 gText_MoveRelearnerPkmnTryingToLearnMove[] = _("{STR_VAR_1}想要学习\n{STR_VAR_2}……\p为了学习{STR_VAR_2}，\p要忘记其他的招式吗？");
 const u8 gText_MoveRelearnerStopTryingToTeachMove[] = _("放弃学习{STR_VAR_2}吗？");
-const u8 gText_MoveRelearnerAndPoof[] = _("{PAUSE 32}1， {PAUSE 15}2， {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}空！\p");
+const u8 gText_MoveRelearnerAndPoof[] = _("{PAUSE 32}1， {PAUSE 15}2， {PAUSE 15}……{PAUSE 15}……{PAUSE 15}……{PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}空！\p");
 const u8 gText_MoveRelearnerPkmnForgotMoveAndLearnedNew[] = _("{STR_VAR_1}忘记了{STR_VAR_3}！\p并且学会了{STR_VAR_2}！");
 const u8 gText_MoveRelearnedPkmnDidNotLearnMove[] = _("{STR_VAR_1}没有学习{STR_VAR_2}。"); // Unused
 const u8 gText_MoveRelearnerGiveUp[] = _("要放弃让{STR_VAR_1}学习新招式吗？");
