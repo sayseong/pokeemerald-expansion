@@ -621,7 +621,7 @@ MtChimney_Text_MagmaOutnumbersUs:
     .string "可恶…熔岩队比我们人多！\n我们阻止不了他们！$"
 
 MtChimney_Text_LessHabitatForWaterPokemon:
-    .string "如果任他们扩展陆地，\n水属性宝可梦们的生存空间就会减少了！$"
+    .string "如果任他们扩展陆地，水属性\n宝可梦们的生存空间就会减少了！$"
 
 MtChimney_Text_MagmasNameSimilar:
     .string "我们是海洋队！\p他们是熔岩队！\p这种容易混淆的名字\n真气死我了！$"

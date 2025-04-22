@@ -62,7 +62,7 @@ const u8 DecorDesc_RED_TENT[] = _("大型的红色账篷，可以进入里面");
 
 const u8 DecorDesc_BLUE_TENT[] = _("大型的蓝色账篷，可以进入里面");
 
-const u8 DecorDesc_SOLID_BOARD[] = _("放在洞穴的上方的话就可以走到对面去");
+const u8 DecorDesc_SOLID_BOARD[] = _("放在洞上面的话就可以走到对面去");
 
 const u8 DecorDesc_SLIDE[] = _("从台子上方可以滑下来");
 
@@ -84,7 +84,7 @@ const u8 DecorDesc_SILVER_SHIELD[] = _("在对战塔战胜50人的纪念奖牌")
 
 const u8 DecorDesc_GOLD_SHIELD[] = _("在对战塔战胜100人的纪念奖牌");
 
-const u8 DecorDesc_GLASS_ORNAMENT[] = _("以玻璃依照美术馆里的知名雕刻模仿制作而成的东西");
+const u8 DecorDesc_GLASS_ORNAMENT[] = _("以玻璃按美术馆的知名雕刻仿制而成");
 
 const u8 DecorDesc_TV[] = _("灰色的小型玩具电视机");
 

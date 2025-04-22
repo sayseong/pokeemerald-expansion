@@ -253,13 +253,13 @@ DebugScript_DaycareMonsNotCompatible::
 	end
 
 DebugText_DaycareNoPokemon:
-	.string "你没有在培育屋的宝可梦$"
+	.string "你没有在培育屋的宝可梦。$"
 
 DebugText_DaycareOnePokemon:
-	.string "你仅有一个在培育屋的宝可梦$"
+	.string "你仅有一个在培育屋的宝可梦。$"
 
 DebugText_DaycarePokemonNotCompatible:
-	.string "你在培育屋的宝可梦不能生育幼年宝可梦!$"
+	.string "你在培育屋的宝可梦\n不能生育幼年宝可梦!$"
 
 Debug_ShowExpansionVersion::
 	callnative BufferExpansionVersion

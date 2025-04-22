@@ -1,5 +1,5 @@
 FallarborTown_BattleTentLobby_Text_WelcomeToBattleTent::
-    .string "欢迎来到对战帐篷\n秋叶镇分址！\p由我向你说明三回合定胜负锦标赛的相关内容！$"
+    .string "欢迎来到对战帐篷\n秋叶镇分址！\p由我向你说明三回合定胜负\n锦标赛的相关内容！$"
 
 FallarborTown_BattleTentLobby_Text_TakeChallenge::
     .string "现在你有挑战三回合定胜负锦标赛\n的觉悟了吗？$"

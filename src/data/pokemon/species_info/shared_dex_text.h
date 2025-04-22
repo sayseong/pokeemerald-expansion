@@ -88,10 +88,10 @@ const u8 gSilvallyMemoryPokedexText[] = _(
     "有着依所装备的存储碟\n改变自身属性的能力。\n这是它装备了属性存储碟的样子。");
 
 const u8 gMiniorMeteorPokedexText[] = _(
-    "摸它叫它，\n它都会作出些什么反应，\n但并不清楚这些反应是否出自它自身的意志。");
+    "摸它叫它，\n它都会作出些什么反应，\n但并不清楚这些反应是否\n出自它自身的意志。");
 
 const u8 gMiniorCorePokedexText[] = _(
-    "以大气中的尘埃为食物。\n据说核心的颜色是根据尘埃含有的成分而定。");
+    "以大气中的尘埃为食物。\n据说核心的颜色是根据\n尘埃含有的成分而定。");
 
 const u8 gTogedemaruPokedexText[] = _(
     "在危急时刻会把身体卷成一团，\n倒竖起背上的尖刺，\n不分青红皂白地发出电击。");

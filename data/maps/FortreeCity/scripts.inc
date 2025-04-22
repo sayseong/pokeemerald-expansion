@@ -94,7 +94,7 @@ FortreeCity_Text_SomethingBlockingGym:
     .string "我想去宝可梦道馆，\n但有东西堵了路。\p在120号道路训练了\n那么久，现在却…$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
-    .string "我带着我漂亮又可爱的\n宝可梦一起来了。\n这一次，我一定要打败娜琪。$"
+    .string "我带着我漂亮又可爱的\n宝可梦一起来了。\l这一次，我一定要打败娜琪。$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:
     .string "树木吸收了渗进地面的雨水，\n慢慢长大…\p我们茵郁市就是在\n水和土地上建造起来的。$"

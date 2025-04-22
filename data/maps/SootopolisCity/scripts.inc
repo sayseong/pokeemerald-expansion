@@ -1547,7 +1547,7 @@ SootopolisCity_Text_ThankYouForHelpAcceptThis:
     .string "米可利：{PLAYER}{KUN}…\n我的眼光果然没错。\p多亏了你的帮助，琉璃市…\n不，整个丰缘地区都脱离了危机。\p我代表所有人感谢你。\p这是我的谢礼，\n请你收下它。$"
 
 SootopolisCity_Text_ExplainWaterfallGoToGym:
-    .string "这个密传机器里有\n攀瀑。\p如果你有雨滴徽章的话，\n学会这个秘传学习器招式\n的宝可梦\l就能爬上瀑布。\p至于哪儿能得到雨滴徽章，\n你应该知道吧？\p没错！你要打败\n琉璃市道馆馆主。\p如果你准备好了的话，\n就跨入那扇门中去吧。$"
+    .string "这个密传机器里有\n攀瀑。\p如果你有雨滴徽章的话，\n学会这个秘传学习器招式\l的宝可梦就能爬上瀑布。\p至于哪儿能得到雨滴徽章，\n你应该知道吧？\p没错！你要打败\n琉璃市道馆馆主。\p如果你准备好了的话，\n就跨入那扇门中去吧。$"
 
 SootopolisCity_Text_DazzledByMentor:
     .string "米可利：我想你会由衷地赞叹\n老师那令人目眩神驰的\l战斗技巧的。$"

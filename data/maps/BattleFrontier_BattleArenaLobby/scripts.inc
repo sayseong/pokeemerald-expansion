@@ -368,7 +368,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
     .string "在对战竞技场中，我们开展\n三回定胜负锦标赛\p所有的参赛者以三只宝可梦\n组成的一个队参加。\p这三只宝可梦必须要以他们\n出现的顺序安排好先后次序。\p在战斗中，宝可梦会以事先\n安排好的顺序每次出现一只。\p一旦一只宝可梦加入了战斗，\n他就必须一直持续到比赛结束。\p如果一场比赛经过三个回合还无结果，\n那就要进行判定。\p如果你要中断挑战，\n请先保存游戏。\p如果你不保存，你下次就不能继续\n你的挑战。\p如果你能成功击败七个\n训练家的话，\l我们会给你对战点数。$"
 
 BattleFrontier_BattleArenaLobby_Text_OkayToSave:
-    .string "在带你进入对战竞技场之前你必须存档。\n可以了吗？$"
+    .string "在带你进入对战竞技场之前必须存档。\n可以吗？$"
 
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
     .string "对战竞技场提供两个等级的\n挑战，50级和自由级。\l你要选择哪个？$"

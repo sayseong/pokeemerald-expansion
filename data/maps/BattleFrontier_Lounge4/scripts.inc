@@ -14,7 +14,7 @@ BattleFrontier_Lounge4_EventScript_Man::
 	end
 
 BattleFrontier_Lounge4_Text_WonderIfInterviewsAiring:
-    .string "不知道今天会不会有关于强大训练家的\n电视采访？$"
+    .string "不知道今天会不会有关于强大训练家\n的电视采访？$"
 
 BattleFrontier_Lounge4_Text_IfIOpenedRestaurantHere:
     .string "在这儿开个饭馆的话\n肯定能挣大钱吧。$"

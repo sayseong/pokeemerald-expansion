@@ -1033,7 +1033,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen:
     .string "对不起，\p你符合条件的宝可梦不足{STR_VAR_2}只。\p必须有{STR_VAR_2}只不同的宝可梦\n才可以参加比赛，\p同时这些宝可梦携带的物品\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles:
-    .string "对不起，\p你符合条件的宝可梦不足三只。\p必须有三只不同的50级以下的\n宝可梦才可以参加比赛，\n同时这些宝可梦携带的物品\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p你符合条件的宝可梦不足三只。\p必须有三只不同的50级以下的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的物品\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenSingles:
     .string "对不起，\p你符合条件的宝可梦不足三只。\p必须有三只不同的宝可梦\n才可以参加比赛，\p同时这些宝可梦携带的物品\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"

@@ -306,7 +306,7 @@ Route105_Text_FosterIntro::
     .string "那里应该有一个神秘的\n石头在这周围。\l你知不知道？$"
 
 Route105_Text_FosterDefeated::
-    .string "关于那个石头\n我想太多了，在我的宝可梦\n一直很虚弱的时候…$"
+    .string "关于那个石头我想太多了，\n并且我的宝可梦也不够强……$"
 
 Route105_Text_FosterPostBattle::
     .string "我可以不厌其烦的盯着\n这个石头几个小时$"
@@ -390,7 +390,7 @@ Route106_Text_ElliotRegister::
     .string "钓鱼是很棒，战斗也是。\n如果你不介意我们可不可以再见面？$"
 
 Route106_Text_ElliotRematchIntro::
-    .string "我钓到了很多宝可梦。\n我会向你展示一场令人深刻印象的战斗！$"
+    .string "我钓到了很多宝可梦。\n我让你见识一场精彩的战斗！$"
 
 Route106_Text_ElliotRematchDefeated::
     .string "我又输的一塌糊涂！$"
@@ -570,7 +570,7 @@ Route108_Text_CarolinaDefeated::
     .string "那个一点也不可爱。$"
 
 Route108_Text_CarolinaPostBattle::
-    .string "既然我在海中就是这样，我不会\n介意穿上一件粉红色带镶褶边的游泳衣…$"
+    .string "既然我在海中就是这样，我不会介意\n穿上一件粉红色带镶褶边的游泳衣…$"
 
 Route109_Text_DavidIntro::
     .string "你好！看看我的手！\n这是你所谓的“居合劈”！$"
@@ -687,7 +687,7 @@ Route109_Text_PaulPostBattle::
     .string "理树：对了，别告诉任何人\n我们在这。\l这就是我们两个人的世界！$"
 
 Route109_Text_PaulNotEnoughPokemon::
-    .string "理树：我们完全坠落爱河了。\n这就是为什么我们要让我们的宝可梦在一起\l战斗。$"
+    .string "理树：我们完全坠落爱河了。\n这就是为什么我们要让我们的宝可梦\l在一起战斗。$"
 
 Route109_Text_MelIntro::
     .string "志木：我们，大概，完全相爱了。\n我们的罗曼史正在加热整个丰缘！$"
@@ -2589,7 +2589,7 @@ Route124_Text_SpencerDefeat::
     .string "战斗中我失去了我的方向！$"
 
 Route124_Text_SpencerPostBattle::
-    .string "很多人都会在大海里迷失方向。\p如果你也是那种类型，\n那你应该依靠一下宝可梦导航仪的地图。$"
+    .string "很多人都会在大海里迷失方向。\p如果你也是那种类型，那你应该\n仰仗一下宝可梦导航仪的地图。$"
 
 Route124_Text_RolandIntro::
     .string "啊！你竟然坐在宝可梦上，\n不用自己游泳……\p太让人嫉妒了！$"
@@ -2850,7 +2850,7 @@ Route126_Text_PabloDefeat::
     .string "哇！太强了！\n不错！真不错！$"
 
 Route126_Text_PabloPostBattle::
-    .string "我的失败更加刺激了我！\n我要更努力地训练我的宝可梦和我自己！$"
+    .string "我的失败更加刺激了我！\n我要更努力地训练我和我的宝可梦！$"
 
 Route126_Text_PabloRegister::
     .string "嗯，你确实不错！\n我想进一步了解你！$"

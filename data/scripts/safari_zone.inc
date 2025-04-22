@@ -238,7 +238,7 @@ SafariZone_RestHouse_Text_Youngster:
 SafariZone_RestHouse_Text_PsychicM:
 	.string "如果使用宝可方块，野生宝可梦\n"
 	.string "就不会很快逃跑。\p"
-	.string "而对于那些本来就不太容易逃跑的宝可梦，\n"
+	.string "而对那些本就不太容易逃跑的宝可梦，\n"
 	.string "使用宝可方块效果并不大。$"
 
 SafariZone_RestHouse_Text_FatMan:
