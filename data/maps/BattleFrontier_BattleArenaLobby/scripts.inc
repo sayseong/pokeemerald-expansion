@@ -419,7 +419,7 @@ BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
     .string "要我把你上次的对战竞技场比赛记录\n在你的开拓通行证上吗？$"
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
-    .string "我对裁判的决定感到困惑…\p我认为只防守而不进攻是\n行不通的…$"
+    .string "我对裁判的决定感到困惑……\p我认为只防守而不进攻是\n行不通的……$"
 
 BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked:
     .string "我的判断正确！\p降落到对手的宝可梦身上的连续打击\n这招果然行得通！$"
