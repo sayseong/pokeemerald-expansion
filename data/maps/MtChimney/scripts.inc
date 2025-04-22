@@ -615,7 +615,7 @@ MtChimney_Text_ArchieIHaveMyHandsFull:
     .string "水梧桐：唔唔……\p我想要阻止赤焰松，\n但做不到！\p同时对付三个对手\n已经让我忙不过来了！$"
 
 MtChimney_Text_ArchieThankYou:
-    .string "水梧桐：{PLAYER}！\n谢谢！\p多亏你帮忙，我们才能挫败\n熔岩队的破坏计划！\p可是……你…\n到底站在哪边？\p啊，这不重要。\p我们会保持警惕\n继续追击熔岩队的。\p{PLAYER}，后会有期！$"
+    .string "水梧桐：{PLAYER}！\n谢谢！\p多亏你帮忙，我们才能挫败\n熔岩队的破坏计划！\p可是……你……\n到底站在哪边？\p啊，这不重要。\p我们会保持警惕\n继续追击熔岩队的。\p{PLAYER}，后会有期！$"
 
 MtChimney_Text_MagmaOutnumbersUs:
     .string "可恶……熔岩队比我们人多！\n我们阻止不了他们！$"

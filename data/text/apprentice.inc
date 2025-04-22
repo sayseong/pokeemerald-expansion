@@ -167,7 +167,7 @@ gText_ApprenticeLevelModeThanks9::
     .string "哦，是{STR_VAR_1}啊！\n好的，啊-好的！\l那我去奋斗了！\p以后我还会找你指导我的！\n再见！$"
 
 gText_ApprenticePleaseTeach10::
-    .string "哦，嘿，{PLAYER}{KUN}，对吧？\n警察正找你呢！\p…… …\n当然是开玩笑了！\p是我，{STR_VAR_1}。别看我长成这样，\n我可是宝可梦冠军！\l……当然这也是个玩笑！\p不过这次是认真的。\n我不擅长对战。\p因此我能不能拜你为师\n向你学习宝可梦的知识？$"
+    .string "哦，嘿，{PLAYER}{KUN}，对吧？\n警察正找你呢！\p…… ……\n当然是开玩笑了！\p是我，{STR_VAR_1}。别看我长成这样，\n我可是宝可梦冠军！\l……当然这也是个玩笑！\p不过这次是认真的。\n我不擅长对战。\p因此我能不能拜你为师\n向你学习宝可梦的知识？$"
 
 gText_ApprenticeRejectTeaching10::
     .string "如果你想这样耍酷，\n那我就要使绝招了！\p哇！哇！哇！\n嗝！\p哈哈哈，这就是我的鳄鱼的眼泪！\p行了，你愿意\n收我这个徒弟吗？$"
@@ -215,7 +215,7 @@ gText_ApprenticeLevelModeThanks13::
     .string "嗯，好的。那就{STR_VAR_1}吧。\n我马上就去。\p真希望能一直向你\n咨询--你已经是我的导师了！$"
 
 gText_ApprenticePleaseTeach14::
-    .string "呃……嗯…\n{PLAYER}{KUN}……？\p请不要这样看着我。\n我都觉得不自然了。\p我……我是{STR_VAR_1}。\p虽然难以启齿，\n但我一直在研究古代遗迹。\p更让我难以启齿的是\n我对对战开拓区感兴趣。\p{PLAYER}{KUN}，你是出了名的\n高级训练家……\p请原谅我的无礼，\n我想求你件事。\p你能当我的老师\n给我些建议吗？$"
+    .string "呃……嗯……\n{PLAYER}{KUN}……？\p请不要这样看着我。\n我都觉得不自然了。\p我……我是{STR_VAR_1}。\p虽然难以启齿，\n但我一直在研究古代遗迹。\p更让我难以启齿的是\n我对对战开拓区感兴趣。\p{PLAYER}{KUN}，你是出了名的\n高级训练家……\p请原谅我的无礼，\n我想求你件事。\p你能当我的老师\n给我些建议吗？$"
 
 gText_ApprenticeRejectTeaching14::
     .string "请不要这样拒绝我！\n我无法忍受这种耻辱。\p请当我的老师吧！\n我需要你的建议！$"
@@ -239,7 +239,7 @@ gText_ApprenticeLevelModeThanks15::
     .string "{STR_VAR_1}？\n你确定吗？\p我明白了。那就好。\n谢谢你抽空解答问题。\p我知道我不讨喜，但我很\n高兴你能接受我。\p回见！$"
 
 gText_ApprenticeWhatHeldItem0::
-    .string "唉……呜…\n哦，{PLAYER}！\p我现在进退两难\n举棋不定。\p我不知道该让我的{STR_VAR_1}\n携带什么道具。\p请告诉我，{PLAYER}。\n我应该选哪一个道具？$"
+    .string "唉……呜……\n哦，{PLAYER}！\p我现在进退两难\n举棋不定。\p我不知道该让我的{STR_VAR_1}\n携带什么道具。\p请告诉我，{PLAYER}。\n我应该选哪一个道具？$"
 
 gText_ApprenticeHoldNothing0::
     .string "哦，真的？我不能让\n我的{STR_VAR_1}携带任何道具？$"
@@ -449,7 +449,7 @@ gText_ApprenticeItemAlreadyRecommended13::
     .string "不，不，你之前已经提到过\n{STR_VAR_1}了，你忘了？\p能不能告诉我一个\n更好的？\p哦，等一等。\n你是说我的{STR_VAR_2}\l什么都不需要拿？$"
 
 gText_ApprenticeWhatHeldItem14::
-    .string "啊……嗯…\n{PLAYER}{KUN}……\p请不要这样看着我。\n我的宝可梦什么都没有。\p我……我真丢人，\n我迫切需要你的建议。\p我不知道选什么道具\n能让我的{STR_VAR_1}变强。\p{PLAYER}{KUN}，你觉得什么\n道具比较好？$"
+    .string "啊……嗯……\n{PLAYER}{KUN}……\p请不要这样看着我。\n我的宝可梦什么都没有。\p我……我真丢人，\n我迫切需要你的建议。\p我不知道选什么道具\n能让我的{STR_VAR_1}变强。\p{PLAYER}{KUN}，你觉得什么\n道具比较好？$"
 
 gText_ApprenticeHoldNothing14::
     .string "哦……你认为我的{STR_VAR_1}\n最好什么都不拿？$"
@@ -563,7 +563,7 @@ gText_ApprenticeMonFirstThanks13::
     .string "嗯，好的。\n我的{STR_VAR_1}先出场。\p我吃过晚饭后\n就去修改顺序。\p希望我以后还能这样\n向你咨询。$"
 
 gText_ApprenticeWhichMonFirst14::
-    .string "呃……嗯…\n{PLAYER}{KUN}？\p请不要这样看着我。\n我都觉得脸红了。\p嗯……\n我迫切需要你的建议。\p真是有些难以启齿，\n我组建了一支3-宝可梦的队伍。\l可是却决定不了出场顺序。\p哪一只宝可梦先出场\n我才会有胜算？$"
+    .string "呃……嗯……\n{PLAYER}{KUN}？\p请不要这样看着我。\n我都觉得脸红了。\p嗯……\n我迫切需要你的建议。\p真是有些难以启齿，\n我组建了一支3-宝可梦的队伍。\l可是却决定不了出场顺序。\p哪一只宝可梦先出场\n我才会有胜算？$"
 
 gText_ApprenticeMonFirstThanks14::
     .string "哦……好的！\n我会让{STR_VAR_1}打头阵的。\p希望我能毫不气馁\n奋力拼搏……\p谢谢你，{PLAYER}{KUN}。\n如果我们还能见面的话\l请再给我些建议。$"
@@ -659,7 +659,7 @@ gText_ApprenticeMonThanks13::
     .string "晤，{STR_VAR_1}，好吧，\n我的头疼好一点之后就去抓一只来。\p希望以后还能麻烦你\n帮我决定这种事情。$"
 
 gText_ApprenticeWhichMon14::
-    .string "呃……嗯…\n{PLAYER}{KUN}……？\p拜托别那么看着我。\n我太紧张了……\l我……我希望你能给我点建议。\p真……真不好意思，\n能帮我决定一下我该用什么宝可梦吗？\p{STR_VAR_1}和{STR_VAR_2}之中\n我该选哪个？$"
+    .string "呃……嗯……\n{PLAYER}{KUN}……？\p拜托别那么看着我。\n我太紧张了……\l我……我希望你能给我点建议。\p真……真不好意思，\n能帮我决定一下我该用什么宝可梦吗？\p{STR_VAR_1}和{STR_VAR_2}之中\n我该选哪个？$"
 
 gText_ApprenticeMonThanks14::
     .string "啊……好的！\n我会努力找到{STR_VAR_1}的。\p但愿我能做到最好，\n不要这么慌乱。\p谢谢你，{PLAYER}{KUN}，\n下次我们见面的时候\l希望你还能帮我的忙。$"
@@ -755,7 +755,7 @@ gText_ApprenticeMoveThanks13::
     .string "恩，{STR_VAR_1}，对了。咳咳！\n我好了后将教它。\p我希望我能一直像这样\n帮助你。$"
 
 gText_ApprenticeWhichMove14::
-    .string "嗯……呃…\n{PLAYER}{KUN}……？\p请不要那样看着我。\n我感到很混乱……\l我……我需要你的建议。\p我……我已经被囚禁了，但是我不能\n决定要教我的宠物什么\l活动。\p这是为了我{STR_VAR_1}。\n如果是这样选择{STR_VAR_2}\l{STR_VAR_3}，哪个会是更好的呢？$"
+    .string "嗯……呃……\n{PLAYER}{KUN}……？\p请不要那样看着我。\n我感到很混乱……\l我……我需要你的建议。\p我……我已经被囚禁了，但是我不能\n决定要教我的宠物什么\l活动。\p这是为了我{STR_VAR_1}。\n如果是这样选择{STR_VAR_2}\l{STR_VAR_3}，哪个会是更好的呢？$"
 
 gText_ApprenticeMoveThanks14::
     .string "噢……好的！\n我试一下{STR_VAR_1}。\p我希望我能教那样的活动……\n这太伤脑筋了……\p谢谢，{PLAYER}{KUN}。\n如果我们再见面，我希望你能\l给我帮助。$"
@@ -815,7 +815,7 @@ gText_ApprenticeWinSpeechThanks7::
     .string "{STR_VAR_1}\p啊！太棒了！这话让我清醒\n并且感到如获新生！\p我一定将它用好！\p现在，我必须提升实力，\n{PLAYER}……\p我要和其他人战斗，\n但决不会忘记你的教导。\p没准儿哪天……\n回见！$"
 
 gText_ApprenticePickWinSpeech8::
-    .string "呃！你是{PLAYER}吧！\n我… 能见到你真是太高兴了！\p噢-噢-噢！我有些事\n要向你请教一下！\p不久之前，我赢得了比赛。\n那真是令人眼花缭乱！\p但是我在万分高兴之余\n就说不出话来了！\p所以，{PLAYER}，我想请你现在\n为我指明一条出路！$"
+    .string "呃！你是{PLAYER}吧！\n我…… 能见到你真是太高兴了！\p噢-噢-噢！我有些事\n要向你请教一下！\p不久之前，我赢得了比赛。\n那真是令人眼花缭乱！\p但是我在万分高兴之余\n就说不出话来了！\p所以，{PLAYER}，我想请你现在\n为我指明一条出路！$"
 
 gText_ApprenticeWinSpeechThanks8::
     .string "{STR_VAR_1}\p哇啊啊啊啊！\n我以后就要这么说了吗？！\l我……高兴得不知说什么好了！\p谢-谢-谢谢你了！\n我现在可以没有遗憾的离开了！\p我要游遍大江南北\n和各种人战斗。\p什么也不说了，{PLAYER}。\n真的，真的，太感谢你了！\p我现在就要走了，但是有一天\n我们会见面并且打一场的！$"
@@ -851,10 +851,10 @@ gText_ApprenticeWinSpeechThanks13::
     .string "{STR_VAR_1}\p……太棒了。\n不，真是太感动了！\l我又开始流泪了！\p但是不用管我的眼泪\n和鼻子，我以后就这么说了！\p我还有事要和你说，\n{PLAYER}{KUN}。\p现在开始，我们就是对手了！\n谢谢你的帮助！$"
 
 gText_ApprenticePickWinSpeech14::
-    .string "呃… 唔……\n{PLAYER}{KUN}……\p请不要这样看着我。\n你弄得我很紧张。\p我……我还得向你请教。\n在比赛结束之后， 虽然……\p这真的让人难以启齿，\n但是如果我赢了比赛\l我该说些什么呢？$"
+    .string "呃…… 唔……\n{PLAYER}{KUN}……\p请不要这样看着我。\n你弄得我很紧张。\p我……我还得向你请教。\n在比赛结束之后， 虽然……\p这真的让人难以启齿，\n但是如果我赢了比赛\l我该说些什么呢？$"
 
 gText_ApprenticeWinSpeechThanks14::
-    .string "{STR_VAR_1}\p哦… 好的！\n我会试着这么说的！\l我可能会不好意思说出来……\p谢谢你，{PLAYER}{KUN}。\n那么再见了。\p我会按你教的那样做的，\n{PLAYER}{KUN}，而且要做到最好。$"
+    .string "{STR_VAR_1}\p哦…… 好的！\n我会试着这么说的！\l我可能会不好意思说出来……\p谢谢你，{PLAYER}{KUN}。\n那么再见了。\p我会按你教的那样做的，\n{PLAYER}{KUN}，而且要做到最好。$"
 
 gText_ApprenticePickWinSpeech15::
     .string "唔？你貌似是{PLAYER}{KUN}……\n是真的吗？\l难道你不是{PLAYER}的人偶？\p噢，不，不，不，别担心！\n如果你真的是本人，\l请原谅我的无礼。\p没必要这么生气吧。我还需要\n你好好指点我呢。\p是关于言词的。\p准确地说，就是在我打赢之后\n应该说些什么呢？$"

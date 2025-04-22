@@ -154,16 +154,16 @@ BattleFrontier_Lounge1_Text_PokemonBreederIntro:
     .string "我培养宝可梦有70年了！\n我被人们尊为传奇性的\l顶级宝可梦培育家！\p当你变得和我一样成熟时，\n你就能一眼看出宝可梦\l的能力。\p你是一个训练家。难道你\n没兴趣知道你的宝可梦的\l能力吗？\p来吧！\n让我们看看你的宝可梦！$"
 
 BattleFrontier_Lounge1_Text_AverageAbility:
-    .string "……嗯…\p这一只，总而言之，我的评价\n是能力一般。$"
+    .string "……嗯……\p这一只，总而言之，我的评价\n是能力一般。$"
 
 BattleFrontier_Lounge1_Text_BetterThanAverageAbility:
-    .string "……嗯…\p这一只，总而言之，我的评价\n是能力较好。$"
+    .string "……嗯……\p这一只，总而言之，我的评价\n是能力较好。$"
 
 BattleFrontier_Lounge1_Text_ImpressiveAbility:
-    .string "……嗯…\p这一只，总而言之，我要说\n能力相当不错！$"
+    .string "……嗯……\p这一只，总而言之，我要说\n能力相当不错！$"
 
 BattleFrontier_Lounge1_Text_OutstandingAbility:
-    .string "……嗯…\p这一只，总而言之，我要说\n能力非凡的杰出！$"
+    .string "……嗯……\p这一只，总而言之，我要说\n能力非凡的杰出！$"
 
 BattleFrontier_Lounge1_Text_BestAspectHP:
     .string "顺便提一句，它最出色的方面，\n我认为，是它的体力……$"

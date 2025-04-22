@@ -321,7 +321,7 @@ LittlerootTown_MaysHouse_1F_Movement_MayGoUpstairs2:
 	step_end
 
 RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
-    .string "哦，你好，你是？\p…… …… …… …… …\n…… …… …… …… …\p啊，你是隔壁的邻居\n{PLAYER}{KUN}吧！你好！\p我家的{STR_VAR_1}\n也和你差不多大。\p我们{STR_VAR_1}特别喜欢\n交朋友，\p现在{STR_VAR_1}应该在楼上吧。$"
+    .string "哦，你好，你是？\p…… …… …… …… ……\n…… …… …… …… ……\p啊，你是隔壁的邻居\n{PLAYER}{KUN}吧！你好！\p我家的{STR_VAR_1}\n也和你差不多大。\p我们{STR_VAR_1}特别喜欢\n交朋友，\p现在{STR_VAR_1}应该在楼上吧。$"
 
 RivalsHouse_1F_Text_LikeChildLikeFather:
     .string "老公和孩子一个样。\p丈夫也和孩子似的\n疯狂地喜欢宝可梦。\p要是老公不在他的研究所里，\n那他肯定在野外的草丛里找什么东西。$"

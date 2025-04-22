@@ -246,7 +246,7 @@ BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
     .string "年轻的冒险者！\n我期待我们的下一次见面！$"
 
 BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
-    .string "神代：……你终于回来了，\n年轻的冒险者……\p你对冒险的热情像源于\n你的内心深处……\p对… 你简直就像是\n年轻时期的我自己\p…… ……啊……\p热情！\p险恶！\p不顾一切！\p对死亡毫不畏惧的那些日子，\n及一生矢志不渝的冒险者\p都成了过去……$"
+    .string "神代：……你终于回来了，\n年轻的冒险者……\p你对冒险的热情像源于\n你的内心深处……\p对…… 你简直就像是\n年轻时期的我自己\p…… ……啊……\p热情！\p险恶！\p不顾一切！\p对死亡毫不畏惧的那些日子，\n及一生矢志不渝的冒险者\p都成了过去……$"
 
 BattleFrontier_BattlePyramidTop_Text_MyCourageIsOffMeter:
     .string "然而，现在\p我知道我的勇气已经\n衰退了！$"

@@ -491,7 +491,7 @@ MauvilleCity_Text_WallyHereICome:
     .string "满充：{PLAYER}，谢谢。\p好……我要上了！$"
 
 MauvilleCity_Text_WallyDefeat:
-    .string "满充：…… …… …… …\p…… …… …… ……\p我输了……$"
+    .string "满充：…… …… …… ……\p…… …… …… ……\p我输了……$"
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf:
     .string "满充：叔叔……\n我会回绿茵镇的……$"

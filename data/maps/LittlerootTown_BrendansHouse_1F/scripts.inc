@@ -330,7 +330,7 @@ PlayersHouse_1F_Text_DontPushYourselfTooHard:
     .string "别太勉强自己，宝贝，\n累了的话就回家来歇歇。\p加油吧！$"
 
 PlayersHouse_1F_Text_IsThatAPokenav:
-    .string "妈妈：亲爱的，那是什么？宝可梦导航仪？\n是得文公司的人给你的吗？\p那么，登记一下妈妈的信息\n怎么样？\p…… …$"
+    .string "妈妈：亲爱的，那是什么？宝可梦导航仪？\n是得文公司的人给你的吗？\p那么，登记一下妈妈的信息\n怎么样？\p…… ……$"
 
 PlayersHouse_1F_Text_RegisteredMom:
     .string "把妈妈的信息\n登记进宝可梦导航仪。$"

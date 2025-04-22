@@ -1563,7 +1563,7 @@ Route116_Text_ClarkIntro::
     .string "隧道过不去的话，\n我就从山顶上过去吧。$"
 
 Route116_Text_ClarkDefeat::
-    .string "呼……呼…\n输了啊，好累哦……$"
+    .string "呼……呼……\n输了啊，好累哦……$"
 
 Route116_Text_ClarkPostBattle::
     .string "没有隧道也没什么大不了的嘛。\n对于我们登山者，山就是路！$"
@@ -3141,7 +3141,7 @@ Route131_Text_RichardDefeat::
     .string "训练家培养的宝可梦\n真的非常强大……$"
 
 Route131_Text_RichardPostBattle::
-    .string "呼……呼…\n我输掉了……\p来的时候很简单，\n麻烦的是怎么回去。\l我还有力气往回走吗？$"
+    .string "呼……呼……\n我输掉了……\p来的时候很简单，\n麻烦的是怎么回去。\l我还有力气往回走吗？$"
 
 Route131_Text_HermanIntro::
     .string "大海……大海……大海……\n放眼望过去全都是海！\l我开始受够大海了！$"

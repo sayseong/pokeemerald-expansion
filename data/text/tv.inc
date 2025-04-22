@@ -440,7 +440,7 @@ SmartShopper_Text_DuringSale::
     .string "营业员：再加上，他还在热卖中。\n那是一个明智的选购。$"
 
 SmartShopper_Text_OutroNormal::
-    .string "访问记者：恩… {STR_VAR_1}听起来\n很像一个精明的生意人！\p那么，{STR_VAR_1}的消费总额是……\p{STR_VAR_2}$？！\n多么另人惊讶的数字！\p哎呀！时间又到了！\n我们下次见吧！$"
+    .string "访问记者：恩…… {STR_VAR_1}听起来\n很像一个精明的生意人！\p那么，{STR_VAR_1}的消费总额是……\p{STR_VAR_2}$？！\n多么另人惊讶的数字！\p哎呀！时间又到了！\n我们下次见吧！$"
 
 SmartShopper_Text_IsVIP::
     .string "营业员：{STR_VAR_1}是一个VIP客人，\n没什么好怀疑的。$"
@@ -516,7 +516,7 @@ TrendWatcher_Text_FemaleTellMeBigger::
     .string "老人：{STR_VAR_3}！\n那么，请你告诉我一些\l比{STR_VAR_1}{STR_VAR_2}更重要的事吧！$"
 
 TrendWatcher_Text_Outro::
-    .string "主持：……恩……这样，那都是你的想法，\n你的兴趣，别在这里说！\p{STR_VAR_1}{STR_VAR_2}……恩…\n我们没有得到关于武斗镇的趣闻啊！\p我可没时间去理解你的胡言乱语！\p老人：{STR_VAR_1}{STR_VAR_2}！$"
+    .string "主持：……恩……这样，那都是你的想法，\n你的兴趣，别在这里说！\p{STR_VAR_1}{STR_VAR_2}……恩……\n我们没有得到关于武斗镇的趣闻啊！\p我可没时间去理解你的胡言乱语！\p老人：{STR_VAR_1}{STR_VAR_2}！$"
 
 gTVHoennTreasureInvestigatorsText00::
     .string "丰缘宝藏挖掘者！\p嗨，大家！\n最近记下什么秘密了么？\p一直以来，我们都在从各地的\n目击者报告里找寻各种秘密！\p让我们从这封信开始。\n信中说道，“发现{STR_VAR_1}！”$"
@@ -627,7 +627,7 @@ gTVThePokemonBattleSeminarText00::
     .string "这里是宝可梦对战研讨会！\p我们研究战斗，来发现\n我们能从别人那里学到什么。\p今天我们来研究一下{STR_VAR_1}的\n战斗。\p{STR_VAR_1}的{STR_VAR_2}正在\n与{STR_VAR_3}战斗……$"
 
 gTVThePokemonBattleSeminarText01::
-    .string "然后它对{STR_VAR_2}\n使用了{STR_VAR_3}这个招式……\p哼哼… {STR_VAR_1}！\n你不能这样做！$"
+    .string "然后它对{STR_VAR_2}\n使用了{STR_VAR_3}这个招式……\p哼哼…… {STR_VAR_1}！\n你不能这样做！$"
 
 gTVThePokemonBattleSeminarText02::
     .string "{STR_VAR_1}也会这个……$"
@@ -726,7 +726,7 @@ TVSpotTheCuties_Text_RibbonEffort::
     .string "勤勉缎带真是\n太漂亮啦。\p{STR_VAR_2}因其投入的工作态度\n而获得了这款缎带。\p它见证了\n{STR_VAR_2}的决心。\p{STR_VAR_2}和勤勉缎带！\n多么契合的组合啊！$"
 
 TVSpotTheCuties_Text_Outro::
-    .string "……唉…\p缎带和宝可梦……\n真是太相称了！\p在我陶醉得晕倒之前，\n先向各位道声再会！$"
+    .string "……唉……\p缎带和宝可梦……\n真是太相称了！\p在我陶醉得晕倒之前，\n先向各位道声再会！$"
 
 gTVPokemonNewsBattleFrontierText00::
     .string "大家好！\n现在是宝可梦新闻时间。\p我们将为大家带来战斗前线上\n最令人振奋的消息。$"
@@ -891,10 +891,10 @@ TVSecretBaseSecrets_Text_DeclinedBattle::
     .string "游客在和{STR_VAR_1}\n说些什么！\p他们好像要\n进行对战了！\p接下来……\p噢，游客拒绝了！\p他们并没有战斗！\p他认为{STR_VAR_1}没有\n吸引力了吗？$"
 
 TVSecretBaseSecrets_Text_UsedPoster::
-    .string "游客正聚精会神地\n盯着一张海报！\p那是他喜欢的\n海报吗？\p……但是… 他的眼神中\n带着一丝不安。$"
+    .string "游客正聚精会神地\n盯着一张海报！\p那是他喜欢的\n海报吗？\p……但是…… 他的眼神中\n带着一丝不安。$"
 
 TVSecretBaseSecrets_Text_UsedNoteMat::
-    .string "游客站在了音符地毯上！\p……唔…\n他谱写出了一段不可思议的乐章！$"
+    .string "游客站在了音符地毯上！\p……唔……\n他谱写出了一段不可思议的乐章！$"
 
 TVSecretBaseSecrets_Text_BattledDraw::
     .string "游客在和{STR_VAR_1}\n说些什么！\p他们好像要\n进行对战了！\p接下来……\p是个平局！\n什么都没解决！\p两个训练家\n似乎都很懊悔！$"

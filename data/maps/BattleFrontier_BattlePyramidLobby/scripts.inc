@@ -614,7 +614,7 @@ BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem:
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
-    .string "……啊…\n你的包包已经满了。\p请整理好包包\n以后再来。$"
+    .string "……啊……\n你的包包已经满了。\p请整理好包包\n以后再来。$"
 
 BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
     .string "真遗憾……\p这是我们为你\n保管的包包。\p{PLAYER}取回了包包。$"
@@ -630,7 +630,7 @@ BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
     .string "欢迎……\p我会告诉你金字塔中\n有什么灾祸在等待着……$"
 
 BattleFrontier_BattlePyramidLobby_Text_Aah:
-    .string "…… …… …\n…… …… …\p…… …… …\n啊啊！$"
+    .string "…… …… ……\n…… …… ……\p…… …… ……\n啊啊！$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintParalysis:
     .string "我看到了大片的电火花……\p……你被麻痹的宝可梦\n正在其中挣扎……$"

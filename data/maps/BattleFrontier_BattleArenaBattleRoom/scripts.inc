@@ -575,7 +575,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain:
     .string "黄瓜香：嘿！你好！\n你最后赢得了我对你的考验！\p我一直害怕等待你！\n我真的期待能\l再见到你！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady:
-    .string "…… …\n那么，你准备好了吗？$"
+    .string "…… ……\n那么，你准备好了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort:
     .string "我不允许有不全心全意地去努力！\n准备接受打击吧！$"

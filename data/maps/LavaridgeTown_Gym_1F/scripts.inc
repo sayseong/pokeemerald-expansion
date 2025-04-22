@@ -207,7 +207,7 @@ LavaridgeTown_Gym_1F_Text_AxleDefeat:
     .string "我想看到你被亚莎的火焰燃烧！$"
 
 LavaridgeTown_Gym_1F_Text_AxlePostBattle:
-    .string "哈啊……呼…\p埋在热沙子里太久，\n都没力气了……$"
+    .string "哈啊……呼……\p埋在热沙子里太久，\n都没力气了……$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganIntro:
     .string "到现在你一定很累了，\n想在热沙子里休息一下，\l是吗？\p但对训练家来说，\n坚强的毅力是一种\l非常重要的品质。$"

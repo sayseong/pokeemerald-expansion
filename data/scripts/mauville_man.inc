@@ -254,7 +254,7 @@ MauvilleCity_PokemonCenter_1F_Text_IKnowNoTales:
 
 MauvilleCity_PokemonCenter_1F_Text_YouDidStatXTimes:
 	.string "啊？！\n"
-	.string "你… 你……\p"
+	.string "你…… 你……\p"
 	.string "{STR_VAR_2}\n"
 	.string "{STR_VAR_1}次？！\p"
 	.string "太强了！\n"

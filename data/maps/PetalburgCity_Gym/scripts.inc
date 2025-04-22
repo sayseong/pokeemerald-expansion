@@ -1145,7 +1145,7 @@ PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
     .string "爸爸：嗯？\p哟，{PLAYER}，你来了！\n搬完家了吗？\p你怎么一个人\n跑过来了？\p啊，我明白了，\n你是跟宝可梦一起来的。\p唔……你是想成为像我一样的\n训练家吧，{PLAYER}？\p努力干吧！\n老爸支持你！$"
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
-    .string "呃……我…\n我想要一只宝可梦，拜托了……$"
+    .string "呃……我……\n我想要一只宝可梦，拜托了……$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
     .string "爸爸：嗯？你是……呃……啊，对了，\n你是满充吧？$"

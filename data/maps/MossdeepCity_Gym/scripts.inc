@@ -389,7 +389,7 @@ MossdeepCity_Gym_Text_VirgilPostBattle:
     .string "如果世上真的有天才，\n那么就是我们的道馆馆主！\p但你也许比她们拥有\n更高的天赋……$"
 
 MossdeepCity_Gym_Text_BlakeIntro:
-    .string "嘿嘿嘿……看我用心灵感应\n让精灵球浮起来！\p呜啊啊啊啊啊啊啊！\n…… …… …… …\p有时我还是不能同步……$"
+    .string "嘿嘿嘿……看我用心灵感应\n让精灵球浮起来！\p呜啊啊啊啊啊啊啊！\n…… …… …… ……\p有时我还是不能同步……$"
 
 MossdeepCity_Gym_Text_BlakeDefeat:
     .string "我的宝可梦战斗技术\n也不能同步了！$"
