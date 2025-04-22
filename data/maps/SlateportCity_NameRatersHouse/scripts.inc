@@ -68,7 +68,7 @@ SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname:
     .string "要我看看哪只\n宝可梦的名字？$"
 
 SlateportCity_NameRatersHouse_Text_FineNameSuggestBetterOne:
-    .string "唔…{STR_VAR_1}是吗？\n你给它起了个好名字，\p但是，我能给它起个\n更好的名字，怎么样？$"
+    .string "唔……{STR_VAR_1}是吗？\n你给它起了个好名字，\p但是，我能给它起个\n更好的名字，怎么样？$"
 
 SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe:
     .string "啊，好，那么，\n该叫什么呢？$"
@@ -83,7 +83,7 @@ SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior:
     .string "好了！现在开始，这只宝可梦\n就叫{STR_VAR_1}了！\p虽然跟以前没什么不同，\n但这是个绝佳的名字！\p你真幸运！$"
 
 SlateportCity_NameRatersHouse_Text_MagnificentName:
-    .string "唔…是{STR_VAR_1}！\p绝妙的名字！\n没什么可以修正的地方！\p你一定要好好珍惜\n你的{STR_VAR_1}。$"
+    .string "唔……是{STR_VAR_1}！\p绝妙的名字！\n没什么可以修正的地方！\p你一定要好好珍惜\n你的{STR_VAR_1}。$"
 
 SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
     .string "哎呀哎呀，\n这只是个蛋而已！$"

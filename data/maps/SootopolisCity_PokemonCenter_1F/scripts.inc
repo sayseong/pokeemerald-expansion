@@ -46,7 +46,7 @@ SootopolisCity_PokemonCenter_1F_EventScript_WomanNoLegendaries::
 	end
 
 SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn:
-    .string "传说米可利是整个丰缘地区\n最强的训练家，\p而这镇上道馆的训练家\n是米可利的老师。\p但四天王…据说\n比米可利的老师还要强。\p那么他们会有多强呢？$"
+    .string "传说米可利是整个丰缘地区\n最强的训练家，\p而这镇上道馆的训练家\n是米可利的老师。\p但四天王……据说\n比米可利的老师还要强。\p那么他们会有多强呢？$"
 
 SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge:
     .string "镇上的人都躲在家里\n不愿出来，\p就算是我也\n不想出门冒险。$"

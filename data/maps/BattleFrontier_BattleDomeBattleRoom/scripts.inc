@@ -1005,7 +1005,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
     .string "感受正在大师的光芒！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
-    .string "下面…{PLAYER}将要\n面对的训练家是…\p当然！就是他！\n对战巨蛋理事！\l我们的巨蛋超级巨星！\l用你们的热情来欢迎石南吧！$"
+    .string "下面……{PLAYER}将要\n面对的训练家是……\p当然！就是他！\n对战巨蛋理事！\l我们的巨蛋超级巨星！\l用你们的热情来欢迎石南吧！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
     .string "观众：石南！石南！\n石南！石南！石南！$"
@@ -1029,7 +1029,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol:
     .string "开拓通行证上竟然\n浮现出战术象征！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
-    .string "… … … … … …\p我太过低估你了，\n下一次我不会犯同样的错误…$"
+    .string "…… …… ……\p我太过低估你了，\n下一次我不会犯同样的错误……$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
     .string "我们的冠军还会继续制霸吗？\n让我们期待比赛的结果吧！$"
@@ -1038,7 +1038,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
     .string "女士们，先生们，\n男孩们，女孩们，还有宝可梦们！\p最后，\n最后的最后，我们的传说回归了！\p是的，就是那个传说中的名字！\n我们的巨蛋超级巨星！\l他就是——石南！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
-    .string "石南：啊…\n观众们那一浪高过一浪的欢呼声…\l还有他们那如熔炉一般火热的激情…\l这里真是个美妙的地方…\p对观众们来说，我就是巨蛋超级巨星…\n我代表了他们的希望与梦想…\l我不能在他们的眼前枯萎…\p我必须重生！\n我必须达到更高、更强！\l我必须点燃这里的一切！$"
+    .string "石南：啊……\n观众们那一浪高过一浪的欢呼声……\l还有他们那如熔炉一般火热的激情……\l这里真是个美妙的地方……\p对观众们来说，\n我就是巨蛋超级巨星……\l我代表了他们的希望与梦想……\l我不能在他们的眼前枯萎……\p我必须重生！\n我必须达到更高、更强！\l我必须点燃这里的一切！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
     .string "就在此时，就在此地，\n我要释放我所有的力量！$"

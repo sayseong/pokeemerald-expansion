@@ -63,7 +63,7 @@ VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu::
 	end
 
 VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou:
-    .string "让我看看你的宝可梦，\n我能看出它对你的感情如何。\p哎，\n你的宝可梦…$"
+    .string "让我看看你的宝可梦，\n我能看出它对你的感情如何。\p哎，\n你的宝可梦……$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou:
     .string "它很敬仰你，\n非常非常喜欢你。\l看着它，我也很开心。$"
@@ -84,7 +84,7 @@ VerdanturfTown_FriendshipRatersHouse_Text_VeryWary:
     .string "它的警惕心很强，\n眼神特别吓人。\l它一点也不喜欢你。$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou:
-    .string "有些遗憾…\p你的宝可梦非常厌恶你。\n这没让你感到愧疚吗？$"
+    .string "有些遗憾……\p你的宝可梦非常厌恶你。\n这没让你感到愧疚吗？$"
 
 VerdanturfTown_FriendshipRatersHouse_Text_Pikachu:
     .string "皮卡丘：皮卡！皮卡！$"

@@ -53,13 +53,13 @@ RustboroCity_House1_Text_IllTradeIfYouWant:
     .string "嗯？我的宝可梦很可爱？\n那是当然的。\p但你如果真的想要，\n我也可以考虑跟你交换。\p愿意的话，我用我的{STR_VAR_2}\n跟你换{STR_VAR_1}。$"
 
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
-    .string "呵呵呵…\n要善待我的宝可梦啊。$"
+    .string "呵呵呵……\n要善待我的宝可梦啊。$"
 
 RustboroCity_House1_Text_DoesntLookLikeMonToMe:
     .string "嗯？这看上去可\n不是{STR_VAR_1}。$"
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
-    .string "啊，如果你不想换也不要紧，\n但你知道，我的宝可梦非常可爱…$"
+    .string "啊，如果你不想换也不要紧，\n但你知道，我的宝可梦非常可爱……$"
 
 RustboroCity_House1_Text_AnyPokemonCanBeCute:
     .string "如果用爱心和细心去照顾宝可梦，\n它们都会变得十分可爱。$"

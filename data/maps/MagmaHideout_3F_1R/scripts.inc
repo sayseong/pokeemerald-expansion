@@ -15,7 +15,7 @@ MagmaHideout_3F_1R_Text_Grunt9Intro:
     .string "我怎么会被分配到这个\n岗位上？\p我的左耳发热了！$"
 
 MagmaHideout_3F_1R_Text_Grunt9Defeat:
-    .string "热量耗尽了…$"
+    .string "热量耗尽了……$"
 
 MagmaHideout_3F_1R_Text_Grunt9PostBattle:
     .string "你是不是很奇怪我们为什么\n在满是岩浆的火山里面戴着风帽？$"

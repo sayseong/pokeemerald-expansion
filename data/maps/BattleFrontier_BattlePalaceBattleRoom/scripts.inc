@@ -448,7 +448,7 @@ BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter:
 	step_end
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons:
-    .string "干得好…\n现在给宝可梦进行回复。$"
+    .string "干得好……\n现在给宝可梦进行回复。$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent:
     .string "下面是第2个对手，\n准备好了吗？$"
@@ -475,13 +475,13 @@ BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge:
     .string "要放弃挑战吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
-    .string "保存记录中，\n请耐心等候…$"
+    .string "保存记录中，\n请耐心等候……$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
     .string "要把最近的比赛记录在\n开拓通行证上吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
-    .string "下面…\p连胜这么多场，\n你可以挑战我们的冠军\l宫殿守护者…$"
+    .string "下面……\p连胜这么多场，\n你可以挑战我们的冠军\l宫殿守护者……$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven:
     .string "现在带你去见宫殿守护者，\n准备好了吗？$"
@@ -499,7 +499,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle:
     .string "郁金：哇啊啊啊！\p哼，你还没见过我真正的力量！\n为自己耍的花招后悔吧！\p来吧！\n就让你看看！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass:
-    .string "哎呀哎呀，如果你能一直\n保持住你坚定的信心的话…\p好了！\n给我你的开拓通行证吧！$"
+    .string "哎呀哎呀，如果你能一直\n保持住你坚定的信心的话……\p好了！\n给我你的开拓通行证吧！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol:
     .string "开拓通行证上浮现出了\n精神象征！$"
@@ -511,13 +511,13 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack:
     .string "郁金：哇啊啊啊！\n你又赢了？\p你和你的宝可梦之间\n必定有着很深的联系。\p来吧！\p这次我不会手下留情了，\n这一回不会让你那么轻松了，\p准备好了吗？\n我会打败你的！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_Kaaah:
-    .string "… …啊啊啊！$"
+    .string "……啊啊啊！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable:
     .string "郁金：这真是一场激烈的战斗！\n就算是全力一搏，我的\l伙伴也没能打败你。\p你们的团队令人感动啊！\p好了！\n把那给我吧！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass:
-    .string "哎呀哎呀，如果你再注意一下\n你的礼仪方面的话…\p哈哈哈，开玩笑的！\n把你的开拓通行证拿来吧！$"
+    .string "哎呀哎呀，如果你再注意一下\n你的礼仪方面的话……\p哈哈哈，开玩笑的！\n把你的开拓通行证拿来吧！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine:
     .string "精神象征\n亮起了金光！$"

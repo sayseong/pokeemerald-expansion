@@ -28,7 +28,7 @@ Route110_TrickHousePuzzle4_EventScript_Paula::
 	end
 
 Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened:
-    .string "{PLAYER}在门上写下\n密码。\p“戏法大师真棒”\n… … … … … … … …\p锁“咔嗒”一声开了！$"
+    .string "{PLAYER}在门上写下\n密码。\p“戏法大师真棒”\n…… …… …… ……\p锁“咔嗒”一声开了！$"
 
 Route110_TrickHousePuzzle4_Text_CoraIntro:
     .string "思考这些太麻烦了，\n我只想战斗而已！$"
@@ -43,10 +43,10 @@ Route110_TrickHousePuzzle4_Text_YujiIntro:
     .string "哈！像这样的小石头，\n我用一根手指头就能推走！$"
 
 Route110_TrickHousePuzzle4_Text_YujiDefeat:
-    .string "我能推动这些小石头，但\n我解不开谜题…$"
+    .string "我能推动这些小石头，但\n我解不开谜题……$"
 
 Route110_TrickHousePuzzle4_Text_YujiPostBattle:
-    .string "四肢发达并不完全是好事…\n你必须要动脑子！$"
+    .string "四肢发达并不完全是好事……\n你必须要动脑子！$"
 
 Route110_TrickHousePuzzle4_Text_PaulaIntro:
     .string "戏法屋的谜题越来越难了，\n不是吗？$"

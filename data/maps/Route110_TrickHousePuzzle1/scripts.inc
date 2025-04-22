@@ -37,7 +37,7 @@ Route110_TrickHousePuzzle1_EventScript_Robin::
 	end
 
 Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened:
-    .string "{PLAYER}在门上写下\n密码。\p“戏法大师是传说般的人”\n… … … … … … … …\p锁“咔嗒”一声开了！$"
+    .string "{PLAYER}在门上写下\n密码。\p“戏法大师是传说般的人”\n…… …… …… ……\p锁“咔嗒”一声开了！$"
 
 Route110_TrickHousePuzzle1_Text_SallyIntro:
     .string "我要用刚刚学会的居合劈\n砍出一条路！$"
@@ -49,13 +49,13 @@ Route110_TrickHousePuzzle1_Text_SallyPostBattle:
     .string "对砍树我永远\n不会厌烦！$"
 
 Route110_TrickHousePuzzle1_Text_EddieIntro:
-    .string "我只是偶然地走进了\n这间奇怪的房屋…$"
+    .string "我只是偶然地走进了\n这间奇怪的房屋……$"
 
 Route110_TrickHousePuzzle1_Text_EddieDefeat:
-    .string "我输了…$"
+    .string "我输了……$"
 
 Route110_TrickHousePuzzle1_Text_EddiePostBattle:
-    .string "我迷路了，我输了战斗，现在我\n越来越伤心…我出不去了…$"
+    .string "我迷路了，我输了战斗，现在我\n越来越伤心……我出不去了……$"
 
 Route110_TrickHousePuzzle1_Text_RobinIntro:
     .string "戏法大师究竟是谁？$"

@@ -23,5 +23,5 @@ MauvilleCity_PokemonCenter_2F_EventScript_Youngster::
 	end
 
 MauvilleCity_PokemonCenter_2F_Text_Youngster:
-    .string "你知道吗，你可以在这里的\n竞技场进行联机对战，\p他们还会把你的记录\n贴在墙上给大家看。\p如果输的比赢的多的话\n会感觉很没面子的…$"
+    .string "你知道吗，你可以在这里的\n竞技场进行联机对战，\p他们还会把你的记录\n贴在墙上给大家看。\p如果输的比赢的多的话\n会感觉很没面子的……$"
 

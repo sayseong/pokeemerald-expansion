@@ -27,16 +27,16 @@ CableClub_Text_CantTradeEnigmaBerry::
     .string "带有{STR_VAR_1}树果的\n宝可梦无法进行交换。$"
 
 gText_PleaseWaitForLink::
-    .string "请稍候\n… … B键：取消$"
+    .string "请稍候\n…… B键：取消$"
 
 gText_ConfirmLinkWhenPlayersReady::
-    .string "等待玩家准备…\nA键：确认\lB键：取消$"
+    .string "等待玩家准备……\nA键：确认\lB键：取消$"
 
 gText_ConfirmStartLinkWithXPlayers::
     .string "与玩家{STR_VAR_1}开始连接。\nA键：确认\lB键：取消$"
 
 gText_AwaitingLinkup::
-    .string "等待连接…\n… … B键：取消$"
+    .string "等待连接……\n…… B键：取消$"
 
 @ Unused
 CableClub_Text_OkayToSaveProgress::
@@ -52,7 +52,7 @@ Text_SomeoneIsNotReadyToLink::
     .string "对方未准备好连接。\p请待所有人准备好之后\n再回来。$"
 
 Text_LinkErrorPleaseReset::
-    .string "对不起，连接发生了错误…\n请重启之后再试。$"
+    .string "对不起，连接发生了错误……\n请重启之后再试。$"
 
 Text_PlayersMadeDifferentSelections::
     .string "连接的伙伴似乎\n做出了别的选择。$"
@@ -79,10 +79,10 @@ Text_TerminateLinkConfirmation::
     .string "如果您离开房间，连接\n将会终止。可以吗？$"
 
 Text_TerminateLinkPleaseWait::
-    .string "终止连接…\n您会由服务员带出\l房间，请稍候。$"
+    .string "终止连接……\n您会由服务员带出\l房间，请稍候。$"
 
 CableClub_Text_TooBusyToNotice::
-    .string "这个训练家太忙，\n没空注意…$"
+    .string "这个训练家太忙，\n没空注意……$"
 
 CableClub_Text_GotToLookAtTrainerCard::
     .string "成功！看一下{STR_VAR_1}的\n训练家卡！$"
@@ -106,7 +106,7 @@ CableClub_Text_HopeToSeeYouAgain::
     .string "下回再见！$"
 
 CableClub_Text_NotSetUpForFarAwayRegion::
-    .string "非常抱歉，\p我们现在无法与\n远在其它地区的训练家\l进行连接…$"
+    .string "非常抱歉，\p我们现在无法与\n远在其它地区的训练家\l进行连接……$"
 
 CableClub_Text_OtherTrainerNotReady::
     .string "其他训练家还未准备好。$"
@@ -178,7 +178,7 @@ CableClub_Text_UnionRoomAdapterNotConnected::
 
 @ Unused
 CableClub_Text_OhExcuseMe::
-    .string "哦…\n打扰了！$"
+    .string "哦……\n打扰了！$"
 
 CableClub_Text_PlayerIsWaiting::
     .string "看来{STR_VAR_1}已经\n准备好了。\l加油！$"
@@ -218,7 +218,7 @@ MossdeepCity_GameCorner_1F_Text_LeavingDoComeAgain::
     .string "现在离开吗？\n要再来哟！$"
 
 MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon::
-    .string "看来你并没有可以\n参加的宝可梦…\p需要我为你解释一下\n什么样的宝可梦可以参加吗？$"
+    .string "看来你并没有可以\n参加的宝可梦……\p需要我为你解释一下\n什么样的宝可梦可以参加吗？$"
 
 MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed::
     .string "参加“宝可梦跳绳”的宝可梦\n必须在60厘米以下，\p并且，不会跳跃的\n宝可梦也不能参加，\p比如说，只会游泳、挖掘、\n飞行的宝可梦。\p知道这些就够了。$"

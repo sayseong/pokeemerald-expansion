@@ -127,7 +127,7 @@ ProfileMan_Text_LetsSeeItThen:
 ProfileMan_Text_ImagineYouWouldHaveWonderfulProfile:
 	.string "啊，不，确定吗？\p"
 	.string "我认为像你这样的人应该\n"
-	.string "有一份华丽的档案的…$"
+	.string "有一份华丽的档案的……$"
 
 ProfileMan_Text_NotIntoItRightNow:
 	.string "啊？你现在还不想编辑？\p"

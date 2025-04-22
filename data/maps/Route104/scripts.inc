@@ -1050,7 +1050,7 @@ Route104_Text_MayHowsYourPokedex:
     .string "小遥：噢，对了，{PLAYER}{KUN}，\n你的宝可梦图鉴怎么样了？$"
 
 Route104_Text_MayMinesDecentLetsBattle:
-    .string "我这边还算满意。\n那么…\l来场战斗吧？$"
+    .string "我这边还算满意。\n那么……\l来场战斗吧？$"
 
 Route104_Text_MayHaventRaisedPokemon:
     .string "小遥：哦，怎么了？\p你没怎么训练\n你的宝可梦吗？\p作为一个训练家可不该这样！$"
@@ -1089,7 +1089,7 @@ Route104_Text_BrendanIntro:
     .string "小悠：我知道你已经是训练家了，\n但我也不是那么好对付的！$"
 
 Route104_Text_BrendanDefeat:
-    .string "唔…\n你真得很强。$"
+    .string "唔……\n你真得很强。$"
 
 Route104_Text_BrendanPostBattle:
     .string "小悠：你在训练宝可梦方面\n独具天赋，\p但要知道，你不能\n只是让宝可梦去战斗。\p像哈奇那样，\n和宝可梦交朋友也很重要。$"

@@ -121,7 +121,7 @@ VictoryRoad_1F_EventScript_Katelynn::
 	end
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
-    .string "满充：嗨！{PLAYER}！\p你肯定想不到我会在这儿吧！\p我能来到这儿\n还是托你的福呢！\p{PLAYER}，要不是上次败给了你，\n我是不会变强的！\p但我不会再输了！\p我会赢的！为了给了我\n勇气和力量的宝可梦们！\p好了…上吧！$"
+    .string "满充：嗨！{PLAYER}！\p你肯定想不到我会在这儿吧！\p我能来到这儿\n还是托你的福呢！\p{PLAYER}，要不是上次败给了你，\n我是不会变强的！\p但我不会再输了！\p我会赢的！为了给了我\n勇气和力量的宝可梦们！\p好了……上吧！$"
 
 VictoryRoad_1F_Text_WallyEntranceDefeat:
     .string "哇！\n{PLAYER}，看来你也变强了！$"
@@ -130,19 +130,19 @@ VictoryRoad_1F_Text_WallyPostEntranceBattle:
     .string "满充：这次我还是没能打败你，\n{PLAYER}，但是，总有一天\l我会超过你！$"
 
 VictoryRoad_1F_Text_WallyIntro:
-    .string "满充：嗨！{PLAYER}！\p这一回我又变得更强了！\n给你看看我的实力吧，{PLAYER}！\p好了…上吧！$"
+    .string "满充：嗨！{PLAYER}！\p这一回我又变得更强了！\n给你看看我的实力吧，{PLAYER}！\p好了……上吧！$"
 
 VictoryRoad_1F_Text_WallyDefeat:
     .string "哇！\n{PLAYER}，看来你也变强了！$"
 
 VictoryRoad_1F_Text_WallyPostBattle:
-    .string "满充：这次我还是赢不了你…\n但是，{PLAYER}，总有一天\l我会超过你…\p去挑战宝可梦联盟！$"
+    .string "满充：这次我还是赢不了你……\n但是，{PLAYER}，总有一天\l我会超过你……\p去挑战宝可梦联盟！$"
 
 VictoryRoad_1F_Text_EdgarIntro:
-    .string "我花了这么长时间到达这里，\n但这最后一段路实在是太长了…$"
+    .string "我花了这么长时间到达这里，\n但这最后一段路实在是太长了……$"
 
 VictoryRoad_1F_Text_EdgarDefeat:
-    .string "我的梦想要再次终结了么…$"
+    .string "我的梦想要再次终结了么……$"
 
 VictoryRoad_1F_Text_EdgarPostBattle:
     .string "既然好不容易来到这里，\n就顺着这势头冲向冠军吧！\l要说谁能做到的话，那就是你！$"
@@ -151,16 +151,16 @@ VictoryRoad_1F_Text_AlbertIntro:
     .string "我千里迢迢来这里可不是为了失败的。\n那是绝对不可能的事情！$"
 
 VictoryRoad_1F_Text_AlbertDefeat:
-    .string "不可能…\n我输了？$"
+    .string "不可能……\n我输了？$"
 
 VictoryRoad_1F_Text_AlbertPostBattle:
-    .string "我输在了这里…\p这就是说我没有\n成为冠军的资格…$"
+    .string "我输在了这里……\p这就是说我没有\n成为冠军的资格……$"
 
 VictoryRoad_1F_Text_HopeIntro:
     .string "这条无尽却艰险的道路\n不愧于冠军之名。$"
 
 VictoryRoad_1F_Text_HopeDefeat:
-    .string "你的战斗风格真完美…$"
+    .string "你的战斗风格真完美……$"
 
 VictoryRoad_1F_Text_HopePostBattle:
     .string "看起来你有成为\n冠军的潜力。$"
@@ -178,7 +178,7 @@ VictoryRoad_1F_Text_KatelynnIntro:
     .string "我对来到这里的人\n没有什么话可说。上吧！$"
 
 VictoryRoad_1F_Text_KatelynnDefeat:
-    .string "太丢脸了…$"
+    .string "太丢脸了……$"
 
 VictoryRoad_1F_Text_KatelynnPostBattle:
     .string "唔，继续走吧。\n我不介意。$"

@@ -52,7 +52,7 @@ FallarborTown_EventScript_MoveTutorSign::
 	end
 
 FallarborTown_Text_ShadyCharactersCozmosHome:
-    .string "发生了些\n很讨厌的事！\p我总是看到鬼鬼祟祟的家伙\n在索蓝斯博士家进进出出…$"
+    .string "发生了些\n很讨厌的事！\p我总是看到鬼鬼祟祟的家伙\n在索蓝斯博士家进进出出……$"
 
 FallarborTown_Text_RegionKnownForMeteors:
     .string "自古这片地区\n就以陨石而闻名，\p据说流星瀑布就是很久以前\n一颗陨石掉下来砸成的。$"

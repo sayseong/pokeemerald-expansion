@@ -417,4 +417,4 @@ EventScript_FailSweetScent::
 	end
 
 Text_FailSweetScent:
-	.string "看起来这里什么也没有…$"
+	.string "看起来这里什么也没有……$"

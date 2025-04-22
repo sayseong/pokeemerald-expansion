@@ -174,7 +174,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_HaveYouAnInterestInPaintings:
     .string "嗯？我想你\n是宝可梦训练家吧。\p你也喜欢\n绘画吗？$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HonoredYoudVisitInSpiteOfThat:
-    .string "哦…\p尽管那样，还是\n很感谢你能来参观。$"
+    .string "哦……\p尽管那样，还是\n很感谢你能来参观。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ExcellentCanYouComeWithMe:
     .string "啊，很好！\n你喜欢绘画！\p那么，可以请你跟我来吗？$"
@@ -207,13 +207,13 @@ LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText:
     .string "是一块刻着宝可梦，\n密密麻麻写着\l不认识的古文字的\l巨大石匾。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_WorksOfMagnificence:
-    .string "嗯…\n多么华丽啊…$"
+    .string "嗯……\n多么华丽啊……$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
     .string "和宝可梦一同战斗很有趣，\n我承认，\p但人们不能忘记\n对艺术的热爱。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration:
-    .string "这家美术馆…这里有\n很多优秀的画作，\p馆长也是个杰出的人。\p对我们这样的艺术家来说，\n这间美术馆总能给我们带来灵感。$"
+    .string "这家美术馆……这里有\n很多优秀的画作，\p馆长也是个杰出的人。\p对我们这样的艺术家来说，\n这间美术馆总能给我们带来灵感。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisLadyIsPretty:
     .string "这位女士真漂亮！\n就像我妈妈一样！$"
@@ -231,5 +231,5 @@ LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings:
     .string "我立志要来这里\n观赏大量作品学习绘画，\p我一直梦想某一天\n我的画作也能挂在这里。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
-    .string "美术馆已经成为\n一个旅游景点，\p这对水静市来说也是好消息…\n不，是对整个丰缘地区都是好消息！\p我听说——楼上的画全部\n属于同一个训练家。$"
+    .string "美术馆已经成为\n一个旅游景点，\p这对水静市来说也是好消息……\n不，是对整个丰缘地区都是好消息！\p我听说——楼上的画全部\n属于同一个训练家。$"
 

@@ -538,13 +538,13 @@ BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize::
     .string "这里是你的奖品！$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints::
-    .string "很抱歉…\n你没有足够多的对战点数…$"
+    .string "很抱歉……\n你没有足够多的对战点数……$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PCIsFull::
-    .string "很抱歉…\n你的电脑好像满了…$"
+    .string "很抱歉……\n你的电脑好像满了……$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt::
-    .string "很抱歉…\n你没有空间拿它…$"
+    .string "很抱歉……\n你没有空间拿它……$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints::
     .string "非常感谢。\p当你存够了对战点数\n请再来见我们。$"

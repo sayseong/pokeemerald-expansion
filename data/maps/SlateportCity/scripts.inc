@@ -946,7 +946,7 @@ SlateportCity_Text_EnergyGuruSellWhatYouNeed:
     .string "我是能量格鲁！我会\n为你寻找需要的东西！$"
 
 SlateportCity_Text_OhYourPokemon:
-    .string "哦？\n你的{STR_VAR_1}…$"
+    .string "哦？\n你的{STR_VAR_1}……$"
 
 SlateportCity_Text_PleaseGiveItThisEffortRibbon:
     .string "很努力嘛！\p这个努力缎带就\n给它作奖品吧。$"
@@ -973,7 +973,7 @@ SlateportCity_Text_HowTownIsBornAndGrows:
     .string "有洁净水源的地方\n就会长出富足的果园，\p然后人们聚集在这里，\n就出现了集市。\p一个镇子就是这样诞生和发展下去的。$"
 
 SlateportCity_Text_SlateportWonderfulPlace:
-    .string "在可以闻到海风的地方\n购物…\p凯那市简直就是天堂！$"
+    .string "在可以闻到海风的地方\n购物……\p凯那市简直就是天堂！$"
 
 SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
     .string "把玩偶和坐垫\n直接放在地上会把它们弄脏，\p所以我准备买几块地砖来\n放玩偶和坐垫，这样\l它们就不会脏了。$"
@@ -982,13 +982,13 @@ SlateportCity_Text_GoingToCompeteInBattleTent:
     .string "啊啊啊！我也要参加\n对战帐篷！\p但在那之前，我得先去\n抓几只宝可梦！$"
 
 SlateportCity_Text_BushedHikingFromMauville:
-    .string "呼…累死了…\p我是从紫堇市徒步走来的。\n但是，看呐，这城市简直太大了。\p早知道我就\n骑车过来了。$"
+    .string "呼……累死了……\p我是从紫堇市徒步走来的。\n但是，看呐，这城市简直太大了。\p早知道我就\n骑车过来了。$"
 
 SlateportCity_Text_EveryoneCallsHimCaptStern:
     .string "是楠木设立了博物馆，\n他同时也是\l海底勘探队的队长，\p大家都叫他楠木馆长。$"
 
 SlateportCity_Text_WhatsLongLineOverThere:
-    .string "那边怎么了？\n排了那么长的队…$"
+    .string "那边怎么了？\n排了那么长的队……$"
 
 SlateportCity_Text_VisitedMuseumOften:
     .string "我小的时候 \n经常去博物馆。\p参观展览的时候，\n总会陶醉于大海的神秘。$"
@@ -1003,7 +1003,7 @@ SlateportCity_Text_BossIsBrilliant:
     .string "我们老大很聪明，\p但我还没明白\n他为什么要占领博物馆。$"
 
 SlateportCity_Text_WhatsNewSchemeIWonder:
-    .string "不知道下面的计划是什么？\p老大发起火来太可怕了，\n我得小心别把事情搞砸…$"
+    .string "不知道下面的计划是什么？\p老大发起火来太可怕了，\n我得小心别把事情搞砸……$"
 
 SlateportCity_Text_ShouldTakeItAll:
     .string "如果博物馆里有我们想要的东西，\n我们就会把那些全部抢走！$"
@@ -1012,7 +1012,7 @@ SlateportCity_Text_DontButtIn:
     .string "喂，那边的！\n别插队！$"
 
 SlateportCity_Text_RemindsMeOfLongLineForGames:
-    .string "这么长的队，嗯，\p让我想起了以前\n排队买游戏大作的时候…$"
+    .string "这么长的队，嗯，\p让我想起了以前\n排队买游戏大作的时候……$"
 
 SlateportCity_Text_WhyAreWeLiningUp:
     .string "我们干嘛非得排队买票？\n直接闯进去不就得了！$"
@@ -1024,16 +1024,16 @@ SlateportCity_Text_IllReadSignForYou:
     .string "想看看这块标牌？\n我帮你读吧！$"
 
 SlateportCity_Text_SaysSomethingLikeSeaIsEndless:
-    .string "我看看…\p呃…上面写的大概是\n“大海中的生命是无穷的”。\p嗯，我肯定\n上面就是这么写的。$"
+    .string "我看看……\p呃……上面写的大概是\n“大海中的生命是无穷的”。\p嗯，我肯定\n上面就是这么写的。$"
 
 SlateportCity_Text_ShouldveBroughtMyGameBoy:
-    .string "唔嗯…\p我真该把我的GBA带来的，那样就\n不用在这儿等得这么无聊了…\p唔嗯…$"
+    .string "唔嗯……\p我真该把我的GBA带来的，那样就\n不用在这儿等得这么无聊了……\p唔嗯……$"
 
 SlateportCity_Text_HotSpringsAfterOperation:
     .string "“这次工作完毕之后\n我就带你们去泡温泉！”\p老大这么说的。\n我都等不及了！$"
 
 SlateportCity_Text_SeaIsSoWet:
-    .string "大海这么广阔…\p会是宝可梦的泪水\n聚成的吗？$"
+    .string "大海这么广阔……\p会是宝可梦的泪水\n聚成的吗？$"
 
 SlateportCity_Text_SinkOldBoats:
     .string "你知道人们怎么处理\n无法再出海的旧船吗？\p他们把船沉到海里面，\n那些旧船成了宝可梦的家。$"
@@ -1072,7 +1072,7 @@ SlateportCity_Text_BigSmileForCamera:
     .string "达伊：好，楠木馆长，\n对镜头笑一下！$"
 
 SlateportCity_Text_MostInvaluableExperience:
-    .string "玛莉：我们知道您在此次探险中\n获得了非常宝贵的经验…$"
+    .string "玛莉：我们知道您在此次探险中\n获得了非常宝贵的经验……$"
 
 SlateportCity_Text_SternMoveAheadWithExploration:
     .string "楠木馆长：是的，\n我们打算把探险继续进行下去。$"
@@ -1081,16 +1081,16 @@ SlateportCity_Text_GabbyWonderfulThanksForInterview:
     .string "玛莉：加油吧，楠木馆长！\n感谢您在百忙中抽出时间来\l接受我们的采访，\p下次有什么新发现的话，\n希望还能允许我们采访您！$"
 
 SlateportCity_Text_SternWhewFirstInterview:
-    .string "楠木馆长：呼…\p这是我第一次上电视。\n真紧张。$"
+    .string "楠木馆长：呼……\p这是我第一次上电视。\n真紧张。$"
 
 SlateportCity_Text_OhPlayerWeMadeDiscovery:
     .string "噢！{PLAYER}{KUN}！\n你精神真不错！\p在我们上次探险中\n有个大发现，\p在128号水路上\n有个海底洞窟。\p我们认为这可能是一种\n被认为灭绝了很久的宝可梦的栖息地。$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
-    .string "哼哼哼…\n楠木馆长，打扰了，\p你的潜水艇\n我们海洋队征用了！\p反抗是没用的！\n希望你好好配合！\p哼哼哼…\n你就好好看看我们海洋队的\l宏伟计划吧！$"
+    .string "哼哼哼……\n楠木馆长，打扰了，\p你的潜水艇\n我们海洋队征用了！\p反抗是没用的！\n希望你好好配合！\p哼哼哼……\n你就好好看看我们海洋队的\l宏伟计划吧！$"
 
 SlateportCity_Text_SternWhatWasAllThat:
-    .string "楠木馆长：怎么回事？\p听起来好像是\n有人在用扩音器说话…\p声音是从哪儿来的？$"
+    .string "楠木馆长：怎么回事？\p听起来好像是\n有人在用扩音器说话……\p声音是从哪儿来的？$"
 
 SlateportCity_Text_FromHarborTryingToTakeSub:
     .string "是船舶那儿！\p潜水艇！\n他们想抢潜艇！$"
@@ -1162,10 +1162,10 @@ SlateportCity_Text_YouDroveTeamAquaAway:
     .string "亚希达：嗯？\n我以前见过你。\p我没向你介绍过自己吗？\n我叫亚希达，\p刚才看到海洋队\n好像很慌张地逃跑了，\p我想——是你赶走他们的吧？$"
 
 SlateportCity_Text_MaybeThisTrainer:
-    .string "亚希达：嗯…\n也许，只是也许，这个训练家…$"
+    .string "亚希达：嗯……\n也许，只是也许，这个训练家……$"
 
 SlateportCity_Text_LetsRegisterEachOther:
-    .string "亚希达：好吧！我想我们\n会成为好朋友的。\p我们在各自的宝可梦导航仪里\n登记信息吧。\p… … … … … …$"
+    .string "亚希达：好吧！我想我们\n会成为好朋友的。\p我们在各自的宝可梦导航仪里\n登记信息吧。\p…… …… ……$"
 
 SlateportCity_Text_RegisteredScott:
     .string "把亚希达的个人信息\n登记到宝可梦导航仪里。$"

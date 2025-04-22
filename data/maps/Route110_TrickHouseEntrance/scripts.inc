@@ -697,34 +697,34 @@ Route110_TrickHouseEntrance_EventScript_DoHidingSpotSparkle::
 	return
 
 Route110_TrickHouseEntrance_Text_YoureBeingWatched:
-    .string "你被盯上了…$"
+    .string "你被盯上了……$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk:
-    .string "哈？咕…\p你怎么看出来我藏在\n桌子底下？眼睛真尖！$"
+    .string "哈？咕……\p你怎么看出来我藏在\n桌子底下？眼睛真尖！$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindTree:
-    .string "哈？咕…\p你怎么看出来我藏在\n树后面？眼睛真尖！$"
+    .string "哈？咕……\p你怎么看出来我藏在\n树后面？眼睛真尖！$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInDresser:
-    .string "哈？咕…\p你怎么看出来我藏在\n柜子里面？眼睛真尖！$"
+    .string "哈？咕……\p你怎么看出来我藏在\n柜子里面？眼睛真尖！$"
 
 Route110_TrickHouseEntrance_Text_ConealedBeyondWindow:
-    .string "哈？咕…\p你怎么看出来我藏在\n窗户后面？眼睛真尖！$"
+    .string "哈？咕……\p你怎么看出来我藏在\n窗户后面？眼睛真尖！$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInPlanter:
-    .string "哈？咕…\p你怎么看出来我藏在\n花盆里面？眼睛真尖！$"
+    .string "哈？咕……\p你怎么看出来我藏在\n花盆里面？眼睛真尖！$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInCupboard:
-    .string "哈？咕…\p你怎么看出来我藏在\n碗柜里面？眼睛真尖！$"
+    .string "哈？咕……\p你怎么看出来我藏在\n碗柜里面？眼睛真尖！$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindWindow:
-    .string "哈？咕…\p你怎么看出来我藏在\n窗户后面？眼睛真尖！$"
+    .string "哈？咕……\p你怎么看出来我藏在\n窗户后面？眼睛真尖！$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion:
-    .string "哈？咕…\p你怎么看出来我藏在\n垫子下面？眼睛真尖！$"
+    .string "哈？咕……\p你怎么看出来我藏在\n垫子下面？眼睛真尖！$"
 
 Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
-    .string "看！\p我是丰缘地区\n最伟大的谜题之人！\l人称…\p戏法大师！\n哇哈哈哈！很高兴见到你！$"
+    .string "看！\p我是丰缘地区\n最伟大的谜题之人！\l人称……\p戏法大师！\n哇哈哈哈！很高兴见到你！$"
 
 Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
     .string "你想挑战我的\n戏法屋，对吗？\p所以你才会来这里，对吗？\n当然没错！\p我接受你的挑战！\p现在就从那边的卷轴进去，\n开始挑战吧！\p我会在后面等着你！$"
@@ -736,10 +736,10 @@ Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll:
     .string "卷轴后面有一个大洞！\p要进去吗？$"
 
 Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote:
-    .string "卷轴上贴着一张纸条…\p“外出旅行。不要来找我。\n戏法大师”$"
+    .string "卷轴上贴着一张纸条……\p“外出旅行。不要来找我。\n戏法大师”$"
 
 Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:
-    .string "下次，我就要这样，\n这样，再那样…\p噢呵呵呵…就算对我来说，\n困难的程度也是非常华丽的。$"
+    .string "下次，我就要这样，\n这样，再那样……\p噢呵呵呵……就算对我来说，\n困难的程度也是非常华丽的。$"
 
 Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
     .string "哈？什么？！\n啊，是你！\p我正在设计\n新的谜题！\p给我些时间构思一下\n不过分吧？\l你不会发牢骚的吧？\l稍后再回来吧！$"
@@ -769,4 +769,4 @@ Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt:
     .string "上面写有密码。$"
 
 Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere:
-    .string "门锁着。\p…仔细一看，上面写着：\n“在此写下密码。”$"
+    .string "门锁着。\p……仔细一看，上面写着：\n“在此写下密码。”$"

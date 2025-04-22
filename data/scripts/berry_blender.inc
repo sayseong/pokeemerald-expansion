@@ -16,8 +16,8 @@ BerryBlender_Text_Excellent:
 	.string "非常好！$"
 
 BerryBlender_Text_MadeOldTimerSad:
-	.string "哦…\n"
-	.string "你让这个老前辈很难过…$"
+	.string "哦……\n"
+	.string "你让这个老前辈很难过……$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks:
 	.string "你知道怎么做宝可方块？$"
@@ -49,7 +49,7 @@ BerryBlender_Text_CanHaveOneOfMyBerries:
 
 BerryBlender_Text_DontHaveAnyBerriesToSpare:
 	.string "如果我还有一些树果留下的话，\n"
-	.string "我很乐意给你一个…\p"
+	.string "我很乐意给你一个……\p"
 	.string "可是，今天我一个多余的都没有。\n"
 	.string "我们得以后再做了。$"
 
@@ -78,7 +78,7 @@ BerryBlender_Text_Okay:
 	.string "好啊！$"
 
 BerryBlender_Text_ThatsTooBad:
-	.string "真是太糟糕了…\p"
+	.string "真是太糟糕了……\p"
 	.string "不过我们总是在这附近，\n"
 	.string "无论什么时候你都可以找我们混合！$"
 
@@ -100,21 +100,21 @@ BerryBlender_Text_ExplainBerryBlending2:
 	.string "很简单吧，你说呢？$"
 
 BerryBlender_Text_DontHaveAnyBerries2:
-	.string "哦，但是等一下…\n"
+	.string "哦，但是等一下……\n"
 	.string "你都没有树果。\p"
 	.string "要是没有树果的话，\n"
-	.string "你可做不了宝可方块…\p"
+	.string "你可做不了宝可方块……\p"
 	.string "我们一直在这附近，只要你有\n"
 	.string "树果就可以找我们混合。$"
 
 BerryBlender_Text_PokeblockCaseIsFull2:
-	.string "哦，但是等一下…\n"
+	.string "哦，但是等一下……\n"
 	.string "你的宝可方块盒满了。\p"
 	.string "你应该用掉一些\n"
 	.string "宝可方块再回来。$"
 
 BerryBlender_Text_DontHavePokeblockCase2:
-	.string "哦，但是等一下…\n"
+	.string "哦，但是等一下……\n"
 	.string "可是你都没有宝可方块盒。\p"
 	.string "你应该先有一个宝可方块盒\n"
 	.string "然后再回来。$"
@@ -128,7 +128,7 @@ BerryBlender_Text_OhDear:
 	.string "哦，天哪！$"
 
 BerryBlender_Text_LeftUsInShock:
-	.string "哦，天哪…\p"
+	.string "哦，天哪……\p"
 	.string "你真让我们震惊！$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks3:
@@ -189,8 +189,8 @@ BerryBlender_Text_SaveGameBeforeBerryBlenderLink:
 	.string "再和你的朋友连线？$"
 
 BerryBlender_Text_SearchingForFriends:
-	.string "搜索你的朋友中…\n"
-	.string "… … B键：取消$"
+	.string "搜索你的朋友中……\n"
+	.string "…… B键：取消$"
 
 BerryBlender_Text_Player1Arrived:
 	.string "{STR_VAR_1}到达。$"
@@ -238,7 +238,7 @@ BerryBlender_Text_DontHaveAnyBerriesNoneToSpare:
 	.string "哦？\n"
 	.string "你没有树果？\p"
 	.string "如果我还有一些留下的话，\n"
-	.string "我很乐意给你一个…\p"
+	.string "我很乐意给你一个……\p"
 	.string "可是，今天我一个多余的都没有。\n"
 	.string "不好意思。$"
 

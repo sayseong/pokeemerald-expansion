@@ -48,7 +48,7 @@ GiddyText_WhenYouSeeTheSettingSunDoesIt::
     .string "当你看到夕阳的时候，\n是不是会想回家？$"
 
 GiddyText_LyingBackInTheGreenGrass::
-    .string "往草地上这么一躺…\n哦，太，太棒了！$"
+    .string "往草地上这么一躺……\n哦，太，太棒了！$"
 
 GiddyText_SecretBasesAreSoWonderful::
     .string "秘密基地真是太棒了！\n你不觉得刺激么？$"

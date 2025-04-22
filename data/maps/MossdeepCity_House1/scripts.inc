@@ -22,7 +22,7 @@ MossdeepCity_House1_EventScript_Woman::
 	end
 
 MossdeepCity_House1_Text_HmmYourPokemon:
-    .string "啊！\n你的{STR_VAR_1}…$"
+    .string "啊！\n你的{STR_VAR_1}……$"
 
 MossdeepCity_House1_Text_ItLikesXPokeblocks:
     .string "它喜欢{STR_VAR_1}\n是吧？\p不，我肯定它\n就是喜欢{STR_VAR_1}！$"

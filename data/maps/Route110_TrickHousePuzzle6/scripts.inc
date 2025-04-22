@@ -43,7 +43,7 @@ Route110_TrickHousePuzzle6_EventScript_Sebastian::
 	end
 
 Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened:
-    .string "{PLAYER}在门上写下\n密码。\p“戏法大师是我的生命”\n… … … … … … … …\p锁“咔嗒”一声开了！$"
+    .string "{PLAYER}在门上写下\n密码。\p“戏法大师是我的生命”\n…… …… …… ……\p锁“咔嗒”一声开了！$"
 
 Route110_TrickHousePuzzle6_Text_SophiaIntro:
     .string "我听说这儿有间奇怪的房子，\n所以我就来了。$"
@@ -55,19 +55,19 @@ Route110_TrickHousePuzzle6_Text_SophiaPostBattle:
     .string "调查这个地方\n令我非常快乐。\p这是值得一遍遍地\n挑战的地方！$"
 
 Route110_TrickHousePuzzle6_Text_BennyIntro:
-    .string "也许我能让我的飞行属性宝可梦\n飞过这些墙去…$"
+    .string "也许我能让我的飞行属性宝可梦\n飞过这些墙去……$"
 
 Route110_TrickHousePuzzle6_Text_BennyDefeat:
     .string "唔哇啊啊！计划告吹！$"
 
 Route110_TrickHousePuzzle6_Text_BennyPostBattle:
-    .string "哦呵呵呵…我想我试图\n作弊才会输的。$"
+    .string "哦呵呵呵……我想我试图\n作弊才会输的。$"
 
 Route110_TrickHousePuzzle6_Text_SebastianIntro:
-    .string "我快要被这些\n旋转门弄晕了…$"
+    .string "我快要被这些\n旋转门弄晕了……$"
 
 Route110_TrickHousePuzzle6_Text_SebastianDefeat:
-    .string "周围的一切都在转啊转啊…\n我再也受不了了…$"
+    .string "周围的一切都在转啊转啊……\n我再也受不了了……$"
 
 Route110_TrickHousePuzzle6_Text_SebastianPostBattle:
     .string "你好像没受影响啊，还是说你\n只是摆出一副面无表情的样子？$"

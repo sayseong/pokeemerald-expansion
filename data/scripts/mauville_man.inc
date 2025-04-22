@@ -254,7 +254,7 @@ MauvilleCity_PokemonCenter_1F_Text_IKnowNoTales:
 
 MauvilleCity_PokemonCenter_1F_Text_YouDidStatXTimes:
 	.string "啊？！\n"
-	.string "你… 你…\p"
+	.string "你… 你……\p"
 	.string "{STR_VAR_2}\n"
 	.string "{STR_VAR_1}次？！\p"
 	.string "太强了！\n"
@@ -272,7 +272,7 @@ MauvilleCity_PokemonCenter_1F_Text_HaveYouAnyLegendaryTales:
 
 @ Unused
 MauvilleCity_PokemonCenter_1F_Text_HearAnotherLegendaryTale:
-	.string "顺带一提…你要听另一个\n"
+	.string "顺带一提……你要听另一个\n"
 	.string "传说吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_NotWorthyOfLegend:
@@ -861,14 +861,14 @@ MauvilleCity_PokemonCenter_1F_Text_HearMyStory:
 	.string "想听听吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_GiddyFeelingTheBlues:
-	.string "哎…\n"
-	.string "你真是给我泼了一盆冷水…$"
+	.string "哎……\n"
+	.string "你真是给我泼了一盆冷水……$"
 
 MauvilleCity_PokemonCenter_1F_Text_AlsoIWasThinking:
-	.string "我也一直在想…$"
+	.string "我也一直在想……$"
 
 MauvilleCity_PokemonCenter_1F_Text_WeShouldChatAgain:
-	.string "就是这样了，我想…\p"
+	.string "就是这样了，我想……\p"
 	.string "我们下次再聊吧！\n"
 	.string "再见！$"
 
@@ -923,12 +923,12 @@ MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToHearMySong:
 	.string "想听听我的歌吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues1:
-	.string "哎…\n"
-	.string "你真是给我泼了一盆冷水…$"
+	.string "哎……\n"
+	.string "你真是给我泼了一盆冷水……$"
 
 MauvilleCity_PokemonCenter_1F_Text_WishICouldPlaySongForOthers:
-	.string "啊，多么动感的音乐…\n"
-	.string "我真希望能演奏给别人听…$"
+	.string "啊，多么动感的音乐……\n"
+	.string "我真希望能演奏给别人听……$"
 
 MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToWriteSomeLyrics:
 	.string "是这样么？\n"
@@ -939,8 +939,8 @@ MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToWriteSomeLyrics:
 	.string "歌词吗？$"
 
 MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues2:
-	.string "哎…\n"
-	.string "你真是给我泼了一盆冷水…$"
+	.string "哎……\n"
+	.string "你真是给我泼了一盆冷水……$"
 
 MauvilleCity_PokemonCenter_1F_Text_LetMeSingItForYou:
 	.string "太感谢你了！\n"
@@ -972,5 +972,5 @@ MauvilleCity_PokemonCenter_1F_Text_IveGotNothingNewToTeach:
 MauvilleCity_PokemonCenter_1F_Text_HaveYouHeardOfWord:
 	.string "嘿，你听过\n"
 	.string "“{STR_VAR_1}”么？\p"
-	.string "那是什么意思？好的…\n"
+	.string "那是什么意思？好的……\n"
 	.string "去问你的爸爸妈妈，明白吗？$"

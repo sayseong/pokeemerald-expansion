@@ -94,13 +94,13 @@ PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation:
     .string "咳咳！\p我是宝可梦发烧友俱乐部的\n核心成员之一，\l会长的弟弟。\p我来这里和宝可梦\n一起度假，就是这样。$"
 
 PacifidlogTown_House2_Text_AhYourPokemon:
-    .string "啊！\n你的宝可梦…$"
+    .string "啊！\n你的宝可梦……$"
 
 PacifidlogTown_House2_Text_AdoringPokemonTakeThis:
     .string "看起来它很喜欢你。\p一个敬仰你也被敬仰的宝可梦\n值得奖给它这样一个\l招式学习器，对吗？$"
 
 PacifidlogTown_House2_Text_PutInSomeMoreEffort:
-    .string "唔…\n不怎么样，但也差不到哪儿去。\p作为一个训练家，\n你要更努力啊。$"
+    .string "唔……\n不怎么样，但也差不到哪儿去。\p作为一个训练家，\n你要更努力啊。$"
 
 PacifidlogTown_House2_Text_ViciousPokemonTakeThis:
     .string "它似乎充满了恶意。\p这样可怕的宝可梦，\n给它这个招式学习器吧。$"

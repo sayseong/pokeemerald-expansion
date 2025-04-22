@@ -147,7 +147,7 @@ Route109_SeashoreHouse_Text_SimonIntro:
     .string "让你见识一下我的\n宝可梦的厉害。不要哭鼻子！$"
 
 Route109_SeashoreHouse_Text_SimonDefeated:
-    .string "…输了，但我不会哭的…$"
+    .string "……输了，但我不会哭的……$"
 
 Route109_SeashoreHouse_Text_SimonPostBattle:
     .string "如果我的宝可梦会那样\n背着我过海的招式，\l我就可以摆脱这个泳圈了。$"

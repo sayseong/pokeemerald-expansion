@@ -44,7 +44,7 @@ FallarborTown_BattleTentCorridor_Movement_AttendantEnterDoor:
 @ Leftover text from when this was a Contest Hall in R/S
 @ Unused
 FallarborTown_ContestHall_Text_DoAllRightInPreliminary:
-    .string "我们在预选赛中确实做得很好，\n但是我们丝毫没有赢得吸引力…\p也许这意味着我不得不去观看\n其他对手是如何做的…$"
+    .string "我们在预选赛中确实做得很好，\n但是我们丝毫没有赢得吸引力……\p也许这意味着我不得不去观看\n其他对手是如何做的……$"
 
 @ Unused
 FallarborTown_ContestHall_Text_MonAllTheseRibbons:
@@ -52,7 +52,7 @@ FallarborTown_ContestHall_Text_MonAllTheseRibbons:
 
 @ Unused
 FallarborTown_ContestHall_Text_CantWinEverywhere:
-    .string "我赢不了道馆馆主…\p我赢不了任何华丽大赛…\p我去过这里，那里和所有地方，\n但这都是徒劳的…$"
+    .string "我赢不了道馆馆主……\p我赢不了任何华丽大赛……\p我去过这里，那里和所有地方，\n但这都是徒劳的……$"
 
 @ Unused
 FallarborTown_ContestHall_Text_SuperRankStage:

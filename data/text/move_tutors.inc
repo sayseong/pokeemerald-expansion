@@ -47,10 +47,10 @@ MoveTutor_Text_MimicWhichMon::
     .string "噗噗！我当然能！\n让我看看你想要\l学会招式的宝可梦。$"
 
 MoveTutor_Text_MimicTaught::
-    .string "模仿是个伟大而深奥的招式。\p你能像我一样\n运用自如吗…？$"
+    .string "模仿是个伟大而深奥的招式。\p你能像我一样\n运用自如吗……？$"
 
 MoveTutor_Text_MetronomeTeach::
-    .string "我想要各种各样的事情！\n但是我把钱都花光了…\p你难道不想在你摇动手指时\n给你带来好运\l使你得到很多钱？\p如果你想，我能让你的宝可梦\n学会摇手指。\p前没有出现，但你的宝可梦\n将摇动手指。不是吗？$"
+    .string "我想要各种各样的事情！\n但是我把钱都花光了……\p你难道不想在你摇动手指时\n给你带来好运\l使你得到很多钱？\p如果你想，我能让你的宝可梦\n学会摇手指。\p前没有出现，但你的宝可梦\n将摇动手指。不是吗？$"
 
 MoveTutor_Text_MetronomeDeclined::
     .string "好的。等你改变主意了\n再来找我。$"
@@ -65,7 +65,7 @@ MoveTutor_Text_SleepTalkTeach::
     .string "嗯！我的妻子依靠觉醒\n力量激发潜能。\p她正好要像我一样打个盹，\n并且梦话。\p我能让你的宝可梦\n学会梦话。有兴趣吗？$"
 
 MoveTutor_Text_SleepTalkDeclined::
-    .string "噢，好，好。你也想用\n觉醒力量来激发潜能…$"
+    .string "噢，好，好。你也想用\n觉醒力量来激发潜能……$"
 
 MoveTutor_Text_SleepTalkWhichMon::
     .string "啊，多有眼光的孩子呀！\n你想让我教哪只宝可梦？$"
@@ -74,13 +74,13 @@ MoveTutor_Text_SleepTalkTaught::
     .string "我从来都弄不清楚老婆那\n硬币把戏究竟是怎么一回事。\p要是从梦话中知道点什么\n那就太棒了。$"
 
 MoveTutor_Text_SubstituteTeach::
-    .string "当我在屋顶上看着\n这广大的世界时…\p我在想如果这个世界\n不只有一个我那该多有趣啊\l所以我喜欢各种各样的生命。\p当然这是不可能的。\n嘿嘿…\p我明白了！\n你想让你的宝可梦学习替身吗？$"
+    .string "当我在屋顶上看着\n这广大的世界时……\p我在想如果这个世界\n不只有一个我那该多有趣啊\l所以我喜欢各种各样的生命。\p当然这是不可能的。\n嘿嘿……\p我明白了！\n你想让你的宝可梦学习替身吗？$"
 
 MoveTutor_Text_SubstituteDeclined::
     .string "噢，不？\p宝可梦能将自己本身\n复制出来，你知道的。$"
 
 MoveTutor_Text_SubstituteWhichMon::
-    .string "嘿嘿…\n你想让哪只宝可梦\l学会替身？$"
+    .string "嘿嘿……\n你想让哪只宝可梦\l学会替身？$"
 
 MoveTutor_Text_SubstituteTaught::
     .string "我们人类更应该极度\n珍惜我们的生命！\p我希望你也走上这条路！$"
@@ -98,10 +98,10 @@ MoveTutor_Text_DynamicPunchTaught::
     .string "我希望你能用爆裂拳\n在绿岭市道馆获胜！$"
 
 MoveTutor_Text_DoubleEdgeTeach::
-    .string "啊…\p琉璃市道馆馆主确实\n特别可爱。\p但这也意味着我会有很多\n被他吸引的竞争对手。\p他用舍身一击引起别人的注意。\n可他注意不到我。\p那么，让我教你的宝可梦\n学习舍身一击！$"
+    .string "啊……\p琉璃市道馆馆主确实\n特别可爱。\p但这也意味着我会有很多\n被他吸引的竞争对手。\p他用舍身一击引起别人的注意。\n可他注意不到我。\p那么，让我教你的宝可梦\n学习舍身一击！$"
 
 MoveTutor_Text_DoubleEdgeDeclined::
-    .string "噢…\n即使你拒绝我…$"
+    .string "噢……\n即使你拒绝我……$"
 
 MoveTutor_Text_DoubleEdgeWhichMon::
     .string "好的，你希望哪只宝可梦\n能学会舍身一击？$"
@@ -119,4 +119,4 @@ MoveTutor_Text_ExplosionWhichMon::
     .string "好的！这是大爆炸！\n哪只宝可梦要学？$"
 
 MoveTutor_Text_ExplosionTaught::
-    .string "长时间以来，我一直在教宝可梦\n如何使用大爆炸，但是\l我的大爆炸会引起火灾…\p也许这是个深渊，\n但我宁愿留在这…$"
+    .string "长时间以来，我一直在教宝可梦\n如何使用大爆炸，但是\l我的大爆炸会引起火灾……\p也许这是个深渊，\n但我宁愿留在这……$"

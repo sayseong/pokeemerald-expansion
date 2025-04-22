@@ -57,5 +57,5 @@ LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels:
     .string "我听说过那些\n偷宝可梦抢陨石的\l流氓的事情。$"
 
 LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels:
-    .string "那些偷宝可梦\n抢陨石的流氓…\p最近在这附近没看到他们。$"
+    .string "那些偷宝可梦\n抢陨石的流氓……\p最近在这附近没看到他们。$"
 

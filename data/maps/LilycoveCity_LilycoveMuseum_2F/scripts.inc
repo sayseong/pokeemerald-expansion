@@ -220,10 +220,10 @@ LilycoveCity_LilycoveMuseum_2F_Text_ThisIsExhibitHall:
     .string "这里是特别展厅。$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ExplainExhibitHall:
-    .string "正如你所见，现在这里\n一幅展出的画也没有。\p我不想在这里展出所谓的\n古典艺术品，\p那些都可以\n在一楼观赏到。\p我想展出的是\n与它们完全不同的作品，\p毕竟，并不只有古老\n才能称为艺术！\p这个展厅我希望能展出一些…\p描绘那些看起来准备\n向辉煌的生活跃进的宝可梦的\l现代绘画！$"
+    .string "正如你所见，现在这里\n一幅展出的画也没有。\p我不想在这里展出所谓的\n古典艺术品，\p那些都可以\n在一楼观赏到。\p我想展出的是\n与它们完全不同的作品，\p毕竟，并不只有古老\n才能称为艺术！\p这个展厅我希望能展出一些……\p描绘那些看起来准备\n向辉煌的生活跃进的宝可梦的\l现代绘画！$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_PleaseObtainPaintingsForExhibit:
-    .string "抱歉，我并不是想要\n打断你的话题，\p我只是想，既然你这么年轻，\n而且明显也是旅行者…\p你一定能见到活泼的宝可梦\n和描绘它们的画作。\p如果你见到了这种画，\n能请你为我们求得\l画家的许可把画作\l在此展出吗？$"
+    .string "抱歉，我并不是想要\n打断你的话题，\p我只是想，既然你这么年轻，\n而且明显也是旅行者……\p你一定能见到活泼的宝可梦\n和描绘它们的画作。\p如果你见到了这种画，\n能请你为我们求得\l画家的许可把画作\l在此展出吗？$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_WishToFillExhibit:
     .string "我想用现代\n描绘宝可梦的画作\l挂满这个展厅。$"
@@ -268,7 +268,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsSurprisedMe:
     .string "我离开了一阵子，\n这儿出现的新画真让人吃惊。\p要是有人也能把我的宝可梦\n画这么漂亮就好了。$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsRatherAmusing:
-    .string "唔…时兴的宝可梦绘画\n就在这儿展出啊。\p看来这些绘画\n确实很有趣。$"
+    .string "唔……时兴的宝可梦绘画\n就在这儿展出啊。\p看来这些绘画\n确实很有趣。$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_ThesePaintingsOfYourPokemon:
     .string "哇，是吗？\n这些画的都是你的宝可梦？\p对于一个训练家来说，\n最大的荣耀莫过于此了吧？$"

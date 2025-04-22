@@ -61,7 +61,7 @@ FortreeCity_House1_EventScript_Zigzagoon::
 	end
 
 FortreeCity_House1_Text_YouWillTradeWontYou:
-    .string "唔啊啊啊！我想要！\n我想要只{STR_VAR_1}！\l我会拼尽全力找到它的！\p…呃…被你听到了吗？\n被你听到了我那发自内心的呼喊？\p既然听见了，就用\n{STR_VAR_1}来换我的{STR_VAR_2}吧，\l好吗？$"
+    .string "唔啊啊啊！我想要！\n我想要只{STR_VAR_1}！\l我会拼尽全力找到它的！\p……呃……被你听到了吗？\n被你听到了我那发自内心的呼喊？\p既然听见了，就用\n{STR_VAR_1}来换我的{STR_VAR_2}吧，\l好吗？$"
 
 FortreeCity_House1_Text_MonYouTakeCare:
     .string "哦，耶，对！\p欢迎，{STR_VAR_1}！\n你要照顾好{STR_VAR_2}！$"
@@ -76,7 +76,7 @@ FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
     .string "从现在开始，我要把甜甜萤\n养得壮壮的！\p你也要善待正电拍拍啊！$"
 
 FortreeCity_House1_Text_TradingMemoriesWithOthers:
-    .string "和别人交换宝可梦…\p就像跟别人交换\n自己的记忆一样。$"
+    .string "和别人交换宝可梦……\p就像跟别人交换\n自己的记忆一样。$"
 
 FortreeCity_House1_Text_Zigzagoon:
     .string "蛇纹熊：米西米西滴？$"

@@ -521,7 +521,7 @@ BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough:
     .string "看到了吗？\n最新的对战锦标赛？\p胜利者{STR_VAR_1}\n可真强啊！\p你可以在电脑旁的显示器上\n查看结果。$"
 
 BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier:
-    .string "对战开拓区…\n我梦寐以求的地方啊！$"
+    .string "对战开拓区……\n我梦寐以求的地方啊！$"
 
 @ Functionally unused
 BattleFrontier_OutsideWest_Text_BattleDomeSign2:
@@ -535,7 +535,7 @@ BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation:
     .string "当一位训练家连续在对战巨蛋\n中挑战胜利，他/她\l将获得明星一样的荣誉。\p厉害的训练家是通过对战巨蛋\n选拔出来的\p真正的超级明星是能保持\n挑战胜利成绩的。$"
 
 BattleFrontier_BattleDomeLobby_Text_TrashedInFirstRound:
-    .string "比赛的第一场我就碰上了\n一个夺冠呼声很高的对手。\p输掉也是预料之中…$"
+    .string "比赛的第一场我就碰上了\n一个夺冠呼声很高的对手。\p输掉也是预料之中……$"
 
 BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully:
     .string "我要是让这只宝可梦待命的话，\n我就会赢。\p你必须调查清楚对手\n的宝可梦后，\l再挑选你的宝可梦。$"

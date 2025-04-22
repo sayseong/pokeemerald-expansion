@@ -551,7 +551,7 @@ Debug_EventScript_FontTest_Text_9::                 @ Special thanks to Nintendo
 	.string "任天堂GBA可以连接到\l"
 	.string "NGC主机！虽然我不信\l"
 	.string "他闭着眼睛完成的。\l"
-	.string "你信吗…？$"
+	.string "你信吗……？$"
 
 Debug_PrintFontTest::
 	msgbox Debug_EventScript_FontTest_Text_1, MSGBOX_DEFAULT

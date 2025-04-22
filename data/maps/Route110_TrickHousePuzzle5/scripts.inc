@@ -902,10 +902,10 @@ Route110_TrickHousePuzzle5_Movement_MechadollShake:
 	step_end
 
 Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened:
-    .string "{PLAYER}在门上写下\n密码。\p“戏法大师是天才”\n… … … … … … … …\p锁“咔嗒”一声开了！$"
+    .string "{PLAYER}在门上写下\n密码。\p“戏法大师是天才”\n…… …… …… ……\p锁“咔嗒”一声开了！$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
-    .string "咔嗒、噼啪…\n我是机械娃娃1！\p正确回答问题，\n通过机械娃娃5，\l就能得到密码。$"
+    .string "咔嗒、噼啪……\n我是机械娃娃1！\p正确回答问题，\n通过机械娃娃5，\l就能得到密码。$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
     .string "机械娃娃1问答。\p下列宝可梦中哪一个不能\n在110号道路找到？$"
@@ -929,7 +929,7 @@ Route110_TrickHousePuzzle5_Text_WaitForNextChallenge:
     .string "我们等你再次挑战。$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
-    .string "咔嗒、噼啪…\n我是机械娃娃2！\p机械娃娃1的问答\n难度等级太低了。$"
+    .string "咔嗒、噼啪……\n我是机械娃娃2！\p机械娃娃1的问答\n难度等级太低了。$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
     .string "机械娃娃2问答。\p满充从你的父亲那里\n借来的是哪只宝可梦？$"
@@ -941,7 +941,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
     .string "机械娃娃2问答。\p海洋队在橙华市森林\n里用的是哪只宝可梦？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
-    .string "咔嗒、噼啪…\n我是机械娃娃3！\p我关心的只有价格。$"
+    .string "咔嗒、噼啪……\n我是机械娃娃3！\p我关心的只有价格。$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
     .string "机械娃娃3问答。\p买3个港湾邮件或买1个灼伤药\n哪样花钱更多？$"
@@ -953,7 +953,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
     .string "机械娃娃3问答。\p买1个除虫喷雾和1个劲爽汽水\n花的钱比1个厉害伤药多吗？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
-    .string "咔嗒、噼啪…\n机械娃娃4就是我！\p我的问答是关于人的。$"
+    .string "咔嗒、噼啪……\n机械娃娃4就是我！\p我的问答是关于人的。$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
     .string "机械娃娃4问答。\p大海之家里，\n男人多还是女人多？$"
@@ -965,7 +965,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
     .string "机械娃娃4问答。\p训练家学校里，\n女生有多少个？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
-    .string "咔嗒、噼啪…\n我是机械娃娃5！\p主人最得意的作品\n就是我。$"
+    .string "咔嗒、噼啪……\n我是机械娃娃5！\p主人最得意的作品\n就是我。$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
     .string "机械娃娃5问答。\p在凯那的宝可梦迷之家里，\n一共有多少只宝可梦？$"

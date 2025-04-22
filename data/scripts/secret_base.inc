@@ -722,11 +722,11 @@ SecretBase_Text_ToyTV:
 
 SecretBase_Text_SeedotTV:
 	.string "一个橡实果形状的玩具电视，\n"
-	.string "好像就要滚动着离开一样…$"
+	.string "好像就要滚动着离开一样……$"
 
 SecretBase_Text_SkittyTV:
 	.string "一个向尾喵形状的玩具电视，\n"
-	.string "好像就要溜走一样…$"
+	.string "好像就要溜走一样……$"
 
 SecretBase_Text_WouldYouLikeToMoveBases:
 	.string "只能拥有一个秘密基地，\p"

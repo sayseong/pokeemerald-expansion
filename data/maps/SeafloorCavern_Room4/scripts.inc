@@ -15,7 +15,7 @@ SeafloorCavern_Room4_Text_Grunt3Intro:
     .string "你是谁？\n从哪儿进来的？$"
 
 SeafloorCavern_Room4_Text_Grunt3Defeat:
-    .string "输了…$"
+    .string "输了……$"
 
 SeafloorCavern_Room4_Text_Grunt3PostBattle:
     .string "我找不到出去的路了！\p别误会，我不是害怕！$"

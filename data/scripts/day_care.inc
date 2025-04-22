@@ -298,7 +298,7 @@ Route117_Text_IllKeepIt:
 	.string "谢谢！$"
 
 Route117_Text_YouHaveNoRoomForIt:
-	.string "你没有地方放它了…\n"
+	.string "你没有地方放它了……\n"
 	.string "等你有空间的时候再来吧。$"
 
 Route117_Text_ReceivedEgg:
@@ -354,7 +354,7 @@ Route117_PokemonDayCare_Text_FineThenComeAgain:
 	.string "欢迎再次光临。$"
 
 Route117_PokemonDayCare_Text_NotEnoughMoney:
-	.string "你没有足够的钱了…$"
+	.string "你没有足够的钱了……$"
 
 Route117_PokemonDayCare_Text_TakeOtherOneBackToo:
 	.string "你想把另一只\n"

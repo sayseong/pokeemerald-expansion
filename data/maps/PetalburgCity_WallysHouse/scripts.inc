@@ -68,7 +68,7 @@ PetalburgCity_WallysHouse_EventScript_ReceivedHMSurf::
 	end
 
 PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
-    .string "你是…\n啊，你一定是{PLAYER}{KUN}，对吗？\p谢谢你刚才能\n和满充一起玩。\p他从小\n体弱多病，\p我们打算送他到\n绿茵镇的亲戚家去，\p那里的空气\n比这儿洁净。\p什么？满充在哪儿？\n我们家满充已经出发了。\p不知道现在\n该到哪儿了呢？$"
+    .string "你是……\n啊，你一定是{PLAYER}{KUN}，对吗？\p谢谢你刚才能\n和满充一起玩。\p他从小\n体弱多病，\p我们打算送他到\n绿茵镇的亲戚家去，\p那里的空气\n比这儿洁净。\p什么？满充在哪儿？\n我们家满充已经出发了。\p不知道现在\n该到哪儿了呢？$"
 
 PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing:
     .string "不知道我家满充在做什么？$"
@@ -89,5 +89,5 @@ PetalburgCity_WallysHouse_Text_WallyWasReallyHappy:
     .string "满充非常兴奋地告诉我们\n他抓到了一只宝可梦。\p已经有很多年没看到过\n他那快乐的笑容了。$"
 
 PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling:
-    .string "有件事你一定要\n对我丈夫保密…\p我们的满充没跟任何人说\n就离开了绿茵镇。\p你知道，尽管满充身体很弱，\n但他的意志很坚强。\p我知道他总有一天\n会平安无事地回家的！$"
+    .string "有件事你一定要\n对我丈夫保密……\p我们的满充没跟任何人说\n就离开了绿茵镇。\p你知道，尽管满充身体很弱，\n但他的意志很坚强。\p我知道他总有一天\n会平安无事地回家的！$"
 

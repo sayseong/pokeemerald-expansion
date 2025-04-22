@@ -989,7 +989,7 @@ LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries:
     .string "做好的宝可方块可以装在里面。\p做宝可方块的时候，\n大家都要放进不同的树果。$"
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
-    .string "祝贺你！\p我为你的宝可梦\n画了一幅画纪念它的成功…\p你的宝可梦的吸引力\n惊人，这激励着我\l尽我所能画出最好的画。\l看，怎么样？$"
+    .string "祝贺你！\p我为你的宝可梦\n画了一幅画纪念它的成功……\p你的宝可梦的吸引力\n惊人，这激励着我\l尽我所能画出最好的画。\l看，怎么样？$"
 
 LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum:
     .string "你看怎么样？我对自己的作品\n很有自信，你喜欢吗？\p这种画作绝对能够\n挂到美术馆中的。\p嗯？真的有美术馆\n想寻找画作？\p你说我要把这拿过去吗？$"
@@ -1010,13 +1010,13 @@ LilycoveCity_ContestLobby_Text_OkaySeeYou:
     .string "好了，再会！$"
 
 LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum:
-    .string "噢…那么我想\n我只有把这带回家了…\p但你知道，我真的想\n把这送到美术馆去…好吗？$"
+    .string "噢……那么我想\n我只有把这带回家了……\p但你知道，我真的想\n把这送到美术馆去……好吗？$"
 
 LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs:
     .string "哎，好吧，算了，\n我还是挂到自己家里去吧。\p下次我得再努力一些。\n再见。$"
 
 LilycoveCity_ContestLobby_Text_MasterRankHereICome:
-    .string "哈哈…大师组华丽大赛，\n我来了。\p终于到此刻了，\n世界将会认识到我亲爱的宝可梦\l是所有生物中最可爱的存在！\l哇哈哈哈。$"
+    .string "哈哈……大师组华丽大赛，\n我来了。\p终于到此刻了，\n世界将会认识到我亲爱的宝可梦\l是所有生物中最可爱的存在！\l哇哈哈哈。$"
 
 LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere:
     .string "在这儿能看到\n很多宝可梦，\p因此我每天闲逛\n都会到这儿来。$"
@@ -1025,7 +1025,7 @@ LilycoveCity_ContestLobby_Text_ContestFeastForEyes:
     .string "哇，观看华丽大赛\n简直是场视觉盛宴！\p你看过那些\n画里的宝可梦吗？$"
 
 LilycoveCity_ContestLobby_Text_ToughContestIsExtreme:
-    .string "强壮组华丽大赛的\n表演非常非常精彩！\p那摄人心魂的魅力…\n瀑布般的汗水…我要晕倒了！$"
+    .string "强壮组华丽大赛的\n表演非常非常精彩！\p那摄人心魂的魅力……\n瀑布般的汗水……我要晕倒了！$"
 
 LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
     .string "我花费了大量精力\n日日夜夜照顾这只宝可梦，\p现在它的状态已经达到了巅峰。\n今天，胜利是属于我的！$"

@@ -38,7 +38,7 @@ VictoryRoad_B2F_Text_VitoDefeat:
     .string "比我的家人更强？！\n这可能么？！$"
 
 VictoryRoad_B2F_Text_VitoPostBattle:
-    .string "我比我家里的任何一个人都强，\n我之前从没输过的…\p我失去信心了…\n回家好了…$"
+    .string "我比我家里的任何一个人都强，\n我之前从没输过的……\p我失去信心了……\n回家好了……$"
 
 VictoryRoad_B2F_Text_OwenIntro:
     .string "听说这附近来了一个很强的\n小孩，说的是你吗？$"
@@ -68,10 +68,10 @@ VictoryRoad_B2F_Text_JuliePostBattle:
     .string "看着自己收集的徽章，回忆一下\n那些曾与自己相逢的训练家们吧。$"
 
 VictoryRoad_B2F_Text_FelixIntro:
-    .string "我做了这么多努力，\n但是紧张让我的肚子疼得厉害…$"
+    .string "我做了这么多努力，\n但是紧张让我的肚子疼得厉害……$"
 
 VictoryRoad_B2F_Text_FelixDefeat:
-    .string "哦…\n痛死了…$"
+    .string "哦……\n痛死了……$"
 
 VictoryRoad_B2F_Text_FelixPostBattle:
     .string "一想到宝可梦联盟已经近在咫尺了\n我就紧张得不行。\p我只是假装冷静而已。$"

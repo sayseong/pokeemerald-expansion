@@ -481,38 +481,38 @@ BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
     .string "发生了某些错误，\n数据无法保存。$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay:
-    .string "打扰了…\p我们的领袖对战塔大君正在\n来这里的路上，她希望和你进行对战。\p她很快就能到这儿。$"
+    .string "打扰了……\p我们的领袖对战塔大君正在\n来这里的路上，她希望和你进行对战。\p她很快就能到这儿。$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden:
     .string "对战塔大君在等着你，\n准备好了吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
-    .string "你好…\n我的名字叫莉拉，\p人称对战塔大君，也是\n这个对战塔的管理者…\p我听说过关于\n你的传言…\p虽然在某些方面，\n这些传言并不能吸引我…\p我来找你的原因…\n有且只有一个…$"
+    .string "你好……\n我的名字叫莉拉，\p人称对战塔大君，也是\n这个对战塔的管理者……\p我听说过关于\n你的传言……\p虽然在某些方面，\n这些传言并不能吸引我……\p我来找你的原因……\n有且只有一个……$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent:
-    .string "让我看一看你\n所有的天赋吧…$"
+    .string "让我看一看你\n所有的天赋吧……$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized:
-    .string "莉拉：呵呵呵，干得好…\p拿来你的开拓通行证吧…\n我认可你的天赋了。$"
+    .string "莉拉：呵呵呵，干得好……\p拿来你的开拓通行证吧……\n我认可你的天赋了。$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol:
     .string "能力象征浮现在\n开拓通行证上面！$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
-    .string "… … … … … …\p你对自己在宝可梦战斗方面的\n天赋很有信心，是吗？\p那就继续战斗，继续\n取得胜利吧。\p我在这儿等着你，\n等着下一次见面…$"
+    .string "…… …… ……\p你对自己在宝可梦战斗方面的\n天赋很有信心，是吗？\p那就继续战斗，继续\n取得胜利吧。\p我在这儿等着你，\n等着下一次见面……$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
-    .string "莉拉：你果然回来\n见我了…\p… … … … … …\p经过了严苛的战斗来到我面前…\n与你战斗我不必留手…\p已经很久了…\p已经很久没有人可以让我\n在战斗中不必顾虑别的事情…$"
+    .string "莉拉：你果然回来\n见我了……\p…… …… ……\p经过了严苛的战斗来到我面前……\n与你战斗我不必留手……\p已经很久了……\p已经很久没有人可以让我\n在战斗中不必顾虑别的事情……$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe:
     .string "好，要开始了。$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease:
-    .string "莉拉：呵呵，恭喜你…\n你的开拓通行证…$"
+    .string "莉拉：呵呵，恭喜你……\n你的开拓通行证……$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine:
     .string "能力象征闪着\n金黄色的光辉！$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain:
-    .string "真是快乐啊…\p以前从来没有\n这么快乐地战斗过…\p希望以后还能和你战斗…$"
+    .string "真是快乐啊……\p以前从来没有\n这么快乐地战斗过……\p希望以后还能和你战斗……$"
 

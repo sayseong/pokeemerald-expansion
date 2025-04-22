@@ -176,10 +176,10 @@ Route121_Text_OkayMoveOutToMtPyre:
     .string "好！\n向送神山码头出发！$"
 
 Route121_Text_AheadLoomsMtPyre:
-    .string "前方隐约可以看到送神山码头…\p那是自然为故去宝可梦的\n灵魂建立的坟墓…$"
+    .string "前方隐约可以看到送神山码头……\p那是自然为故去宝可梦的\n灵魂建立的坟墓……$"
 
 Route121_Text_MtPyrePierSign:
-    .string "送神山码头\p…牌子老旧得快要坏掉了，\n上面的字迹几乎看不清楚…$"
+    .string "送神山码头\p……牌子老旧得快要坏掉了，\n上面的字迹几乎看不清楚……$"
 
 Route121_Text_SafariZoneSign:
     .string "“稀有宝可梦的家园！”\n狩猎地带$"

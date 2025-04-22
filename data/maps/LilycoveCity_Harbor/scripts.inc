@@ -542,13 +542,13 @@ LilycoveCity_Harbor_Movement_SailorBoardWithBrineyEast:
 	step_end
 
 LilycoveCity_Harbor_Text_FerryUnavailable:
-    .string "你说什么？\n在找船吗？\p对不起，现在游船\n还未通航…$"
+    .string "你说什么？\n在找船吗？\p对不起，现在游船\n还未通航……$"
 
 LilycoveCity_Harbor_Text_MayISeeYourTicket:
     .string "您好，您来乘坐游船吗？\n可以看看您的船票吗？$"
 
 LilycoveCity_Harbor_Text_NoTicket:
-    .string "{PLAYER}没有船票…\p非常抱歉，\p要乘船的话\n必须要有船票。$"
+    .string "{PLAYER}没有船票……\p非常抱歉，\p要乘船的话\n必须要有船票。$"
 
 LilycoveCity_Harbor_Text_FlashTicketWhereTo:
     .string "{PLAYER}出示了船票。\p好！这就足够了！\p您想去哪儿？$"
@@ -569,7 +569,7 @@ LilycoveCity_Harbor_Text_WhereWouldYouLikeToGo:
     .string "那么，您想去哪儿？$"
 
 LilycoveCity_Harbor_Text_SailorFerryUnavailable:
-    .string "他们不造好游船，\n我们海员就无事可做…\p希望凯那的船厂里\n那些家伙们动作快一点。$"
+    .string "他们不造好游船，\n我们海员就无事可做……\p希望凯那的船厂里\n那些家伙们动作快一点。$"
 
 LilycoveCity_Harbor_Text_SailorFerryAvailable:
     .string "破浪号游船\n终于完成了，\p凯那的船厂里\n那些家伙们一定干得很努力。\p好了，现在该我们忙活了！$"

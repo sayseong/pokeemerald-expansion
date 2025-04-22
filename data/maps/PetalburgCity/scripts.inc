@@ -705,10 +705,10 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_Text_WhereIsWally:
-    .string "我家满充去哪儿了？\p我们得马上出发\n去绿茵镇了…$"
+    .string "我家满充去哪儿了？\p我们得马上出发\n去绿茵镇了……$"
 
 PetalburgCity_Text_AreYouRookieTrainer:
-    .string "嗨！莫非你是…\n新人训练家？\p你知道一名训练家来到\n新城镇时首先要做什么吗？\p他们会去看看那里\n有什么样的道馆。$"
+    .string "嗨！莫非你是……\n新人训练家？\p你知道一名训练家来到\n新城镇时首先要做什么吗？\p他们会去看看那里\n有什么样的道馆。$"
 
 PetalburgCity_Text_ThisIsPetalburgGym:
     .string "看到了吗？这就是橙华市的道馆。$"
@@ -717,10 +717,10 @@ PetalburgCity_Text_ThisIsGymSign:
     .string "这是道馆的标记。\n想要去道馆，找它就对了。$"
 
 PetalburgCity_Text_WaterReflection:
-    .string "我的脸倒映在水面上。\p那也许是张充满希望的笑脸…\p又或是在恐惧中挣扎的\n一张忧郁而沉默的脸…\p你的脸在水里会是什么样？$"
+    .string "我的脸倒映在水面上。\p那也许是张充满希望的笑脸……\p又或是在恐惧中挣扎的\n一张忧郁而沉默的脸……\p你的脸在水里会是什么样？$"
 
 PetalburgCity_Text_FullPartyExplanation:
-    .string "假如你已经带了六只宝可梦，\n那么再抓到一只的话…\p就会通过电脑传送到\n仓库盒子里。$"
+    .string "假如你已经带了六只宝可梦，\n那么再抓到一只的话……\p就会通过电脑传送到\n仓库盒子里。$"
 
 PetalburgCity_Text_GymSign:
     .string "橙华市宝可梦道馆\n馆主：千里\l“一个执著追求力量的人！”$"
@@ -735,7 +735,7 @@ PetalburgCity_Text_AreYouATrainer:
     .string "打扰了！\p看你的打扮，\n是个宝可梦训练家吧？$"
 
 PetalburgCity_Text_WellMaybeNot:
-    .string "… … … … … …\p呃，也许我猜错了。\n你的衣服并不是很脏，\p你不是个新人训练家，\n就是个普通的小孩子。$"
+    .string "…… …… ……\p呃，也许我猜错了。\n你的衣服并不是很脏，\p你不是个新人训练家，\n就是个普通的小孩子。$"
 
 PetalburgCity_Text_ImLookingForTalentedTrainers:
     .string "抱歉，浪费你的时间了。\n我在这儿是为了\p寻找天才训练家。$"

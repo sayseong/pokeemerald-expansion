@@ -195,7 +195,7 @@ LavaridgeTown_Gym_1F_Text_ColeIntro:
     .string "啊啊啊啊！\n呀，好烫！$"
 
 LavaridgeTown_Gym_1F_Text_ColeDefeat:
-    .string "汗水把眼睛都遮住了…$"
+    .string "汗水把眼睛都遮住了……$"
 
 LavaridgeTown_Gym_1F_Text_ColePostBattle:
     .string "埋在热沙子里可以促进\n血液循环，\p对治疗关节疼痛\n有好处。$"
@@ -207,28 +207,28 @@ LavaridgeTown_Gym_1F_Text_AxleDefeat:
     .string "我想看到你被亚莎的火焰燃烧！$"
 
 LavaridgeTown_Gym_1F_Text_AxlePostBattle:
-    .string "哈啊…呼…\p埋在热沙子里太久，\n都没力气了…$"
+    .string "哈啊……呼…\p埋在热沙子里太久，\n都没力气了……$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganIntro:
     .string "到现在你一定很累了，\n想在热沙子里休息一下，\l是吗？\p但对训练家来说，\n坚强的毅力是一种\l非常重要的品质。$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganDefeat:
-    .string "玩火自焚了…$"
+    .string "玩火自焚了……$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
-    .string "你的技术不错…\n但我们的馆主亚莎很强，\p你不小心的话\n会被烧焦的。$"
+    .string "你的技术不错……\n但我们的馆主亚莎很强，\p你不小心的话\n会被烧焦的。$"
 
 LavaridgeTown_Gym_1F_Text_GeraldIntro:
     .string "你的宝可梦能抵挡\n392度的高温吗？$"
 
 LavaridgeTown_Gym_1F_Text_GeraldDefeat:
-    .string "火还不够热…$"
+    .string "火还不够热……$"
 
 LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
     .string "岩浆的温度\n是392度。\p你的宝可梦打败了我，那么\n在岩浆中也应该能比较容易生存下来。$"
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro:
-    .string "呃…\n好吧，我就和你战斗吧。$"
+    .string "呃……\n好吧，我就和你战斗吧。$"
 
 LavaridgeTown_Gym_1F_Text_DanielleDefeat:
     .string "呀，你太强了。$"
@@ -240,7 +240,7 @@ LavaridgeTown_Gym_B1F_Text_JaceIntro:
     .string "来战斗吧！\n别让我的热情冷却！$"
 
 LavaridgeTown_Gym_B1F_Text_JaceDefeat:
-    .string "周围那么热，\n我的心却好像掉进了冰窟…$"
+    .string "周围那么热，\n我的心却好像掉进了冰窟……$"
 
 LavaridgeTown_Gym_B1F_Text_JacePostBattle:
     .string "凭你心中燃烧的\n战斗热情，你也许有机会\l胜过我们的馆主。$"
@@ -252,7 +252,7 @@ LavaridgeTown_Gym_B1F_Text_JeffDefeat:
     .string "有什么事搞错了。$"
 
 LavaridgeTown_Gym_B1F_Text_JeffPostBattle:
-    .string "那又怎么样？我说那又怎么样\n我能光着脚在热炭上走！\p…不用试也知道你是不可能做到的！$"
+    .string "那又怎么样？我说那又怎么样\n我能光着脚在热炭上走！\p……不用试也知道你是不可能做到的！$"
 
 LavaridgeTown_Gym_B1F_Text_EliIntro:
     .string "我喜欢高山，\n尤其喜欢火山。$"
@@ -264,10 +264,10 @@ LavaridgeTown_Gym_B1F_Text_EliPostBattle:
     .string "我留在这儿是因为\n迷上了亚莎的力量。\p呵呵呵呵。$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro:
-    .string "欢迎…啊，不对。\p可怜的训练家，我很惊讶\n你能来到这里！\p我受人之托…\n啊，不对。\p我是亚莎，这里的\n道馆馆主！\p呃…\n虽然我刚刚成为馆主不久，\l但不要低估我的实力！\p用从爷爷那儿继承而来的能力，\n我，呃…会向你展示出我们\l在这片大地上磨炼出来的灼热的招式！$"
+    .string "欢迎……啊，不对。\p可怜的训练家，我很惊讶\n你能来到这里！\p我受人之托……\n啊，不对。\p我是亚莎，这里的\n道馆馆主！\p呃……\n虽然我刚刚成为馆主不久，\l但不要低估我的实力！\p用从爷爷那儿继承而来的能力，\n我，呃……会向你展示出我们\l在这片大地上磨炼出来的灼热的招式！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
-    .string "哎…\n我对自己的期待太高了…\p我…我只是刚刚成为\n道馆馆主而已。\p我总是想学那种\n不适合我的性格，\p但我应该按我自己的性格行事，\n否则我的宝可梦会迷茫的。\p谢谢你教给我的这一切，\n这个送给你吧。$"
+    .string "哎……\n我对自己的期待太高了……\p我……我只是刚刚成为\n道馆馆主而已。\p我总是想学那种\n不适合我的性格，\p但我应该按我自己的性格行事，\n否则我的宝可梦会迷茫的。\p谢谢你教给我的这一切，\n这个送给你吧。$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
     .string "{PLAYER}从亚莎处\n得到了烈焰徽章。$"
@@ -282,7 +282,7 @@ LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
     .string "把道馆馆主亚莎的信息\n登记进宝可梦导航仪里。$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
-    .string "你的力量让我想起了一个人…\p啊，我知道了！你很像橙华市的\n道馆馆主，千里。$"
+    .string "你的力量让我想起了一个人……\p啊，我知道了！你很像橙华市的\n道馆馆主，千里。$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue:
     .string "釜炎镇宝可梦道馆$"
@@ -291,7 +291,7 @@ LavaridgeTown_Gym_1F_Text_GymStatueCertified:
     .string "釜炎镇宝可梦道馆\p亚莎认可的训练家：\n{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
-    .string "亚莎：输掉一场战斗\n不会让我泄气的。\p我喜欢宝可梦，\n喜欢战斗，\l而且…我喜欢这道馆！\p我们再来一次战斗，\n释放我们的热情吧！$"
+    .string "亚莎：输掉一场战斗\n不会让我泄气的。\p我喜欢宝可梦，\n喜欢战斗，\l而且……我喜欢这道馆！\p我们再来一次战斗，\n释放我们的热情吧！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
     .string "呼！\n差点喷发出来了！$"
@@ -300,4 +300,4 @@ LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
     .string "亚莎：我输了，\n但我很高兴，\p很少能碰上\n这么畅快淋漓的战斗。\p以后我们再来一场\n这样的战斗吧！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
-    .string "亚莎：输掉一场战斗\n不会让我泄气的。\p我喜欢宝可梦，\n喜欢战斗，\l而且…我喜欢这道馆！\p我们再来一次战斗，\n释放我们的热情吧！\p啊，慢着，你只带了一只\n可以战斗的宝可梦？\p你来找我时至少得\n带两只宝可梦吧。$"
+    .string "亚莎：输掉一场战斗\n不会让我泄气的。\p我喜欢宝可梦，\n喜欢战斗，\l而且……我喜欢这道馆！\p我们再来一次战斗，\n释放我们的热情吧！\p啊，慢着，你只带了一只\n可以战斗的宝可梦？\p你来找我时至少得\n带两只宝可梦吧。$"

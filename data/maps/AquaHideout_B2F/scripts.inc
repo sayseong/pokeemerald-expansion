@@ -90,10 +90,10 @@ AquaHideout_B2F_EventScript_Grunt8::
 	end
 
 AquaHideout_B2F_Text_MattIntro:
-    .string "嘿嘿嘿…\p居然能走到这儿来啊，\n看来我们低估了你！\p但是到此为止了！\p我可比前面那些家伙\n都要强得多。\p我可不是仅仅拖延时间的，\n我会将你捏成粉末的！$"
+    .string "嘿嘿嘿……\p居然能走到这儿来啊，\n看来我们低估了你！\p但是到此为止了！\p我可比前面那些家伙\n都要强得多。\p我可不是仅仅拖延时间的，\n我会将你捏成粉末的！$"
 
 AquaHideout_B2F_Text_MattDefeat:
-    .string "嘿嘿嘿…\n看来我也输了…$"
+    .string "嘿嘿嘿……\n看来我也输了……$"
 
 AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
     .string "嘿嘿嘿！\p我陪你玩的时候，我们的老大\n就可以做好准备了！$"
@@ -105,10 +105,10 @@ AquaHideout_B2F_Text_Grunt4Intro:
     .string "哇哈哈，我已经等烦了！\n你也欠我一场战斗！$"
 
 AquaHideout_B2F_Text_Grunt4Defeat:
-    .string "等烦了…\n也败得一塌糊涂…$"
+    .string "等烦了……\n也败得一塌糊涂……$"
 
 AquaHideout_B2F_Text_Grunt4PostBattle:
-    .string "老大…\n这样可以了么？$"
+    .string "老大……\n这样可以了么？$"
 
 AquaHideout_B2F_Text_Grunt6Intro:
     .string "这里的传送地板可是\n基地的骄傲！\p你完全不知道你身在何处了吧，\n不是吗？\p等敌人变得慌乱又疲劳，突然给他\n致命一击！这就是我们的作战计划！$"
@@ -117,13 +117,13 @@ AquaHideout_B2F_Text_Grunt6Defeat:
     .string "你怎么会这样？\n你一点也不显得累！$"
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
-    .string "说起来…我忘了\n把大师球放在哪里了。\p如果我没有保护好它，\n会被老大骂死的…$"
+    .string "说起来……我忘了\n把大师球放在哪里了。\p如果我没有保护好它，\n会被老大骂死的……$"
 
 AquaHideout_B2F_Text_Grunt8Intro:
     .string "我加入海洋队的时候，第一件事\n就是记住这些传送地板\l都通向什么地方。$"
 
 AquaHideout_B2F_Text_Grunt8Defeat:
-    .string "脑子里全都是\n传送地板的事情了…$"
+    .string "脑子里全都是\n传送地板的事情了……$"
 
 AquaHideout_B2F_Text_Grunt8PostBattle:
-    .string "我想我必须学学\n战斗的要诀了…$"
+    .string "我想我必须学学\n战斗的要诀了……$"

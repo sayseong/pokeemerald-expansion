@@ -112,5 +112,5 @@ AbandonedShip_HiddenFloorRooms_EventScript_Trash::
 	end
 
 AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash:
-    .string "金光闪闪！\n可惜只是些垃圾…$"
+    .string "金光闪闪！\n可惜只是些垃圾……$"
 

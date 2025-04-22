@@ -255,28 +255,28 @@ BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
     .string "哇！\n好大！\p对战塔看起来很特别，\n和别的建筑都不同。$"
 
 BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier:
-    .string "我的目标是征服整个\n对战开拓区和\l宝可梦联盟。\p如果成功了的话…\p我…我就去求我家隔壁\n的咪咪跟我做朋友！$"
+    .string "我的目标是征服整个\n对战开拓区和\l宝可梦联盟。\p如果成功了的话……\p我……我就去求我家隔壁\n的咪咪跟我做朋友！$"
 
 BattleFrontier_OutsideEast_Text_PyramidTooHarsh:
-    .string "对战金字塔的战斗非常严酷！\n我想我是走不到最上层了。\p实在没有其他办法的话，\n也许我可以试试从外面爬上去…$"
+    .string "对战金字塔的战斗非常严酷！\n我想我是走不到最上层了。\p实在没有其他办法的话，\n也许我可以试试从外面爬上去……$"
 
 BattleFrontier_OutsideEast_Text_ThriveInDarkness:
-    .string "我是在黑暗中长大的…\n是的…哪里最适合我？\l必然是对战金字塔…\p在黑暗中探索的时候\n你是不是也会陷入完全的绝望？$"
+    .string "我是在黑暗中长大的……\n是的……哪里最适合我？\l必然是对战金字塔……\p在黑暗中探索的时候\n你是不是也会陷入完全的绝望？$"
 
 BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
     .string "我一个星期没有睡觉了，\n但我已经找到了最强组合！\p我是绝对不会输的，这不是玩笑，\n我们的风暴会席卷对战竞技场！$"
 
 BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
-    .string "你也是亚希达带来的吗？\n那家伙到底是什么人？\p他好像总能发现\n天才训练家，不过…\p我从来没见过\n他跟别人战斗。$"
+    .string "你也是亚希达带来的吗？\n那家伙到底是什么人？\p他好像总能发现\n天才训练家，不过……\p我从来没见过\n他跟别人战斗。$"
 
 BattleFrontier_OutsideEast_Text_BelieveInYouBuddy:
     .string "兹格！\n我相信你能行的，伙计！\p我的小兹格赢了的话\n什么好东西都买给你！$"
 
 BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant:
-    .string "蛇纹熊看起来挺清闲…$"
+    .string "蛇纹熊看起来挺清闲……$"
 
 BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
-    .string "大家都说我爱管闲事，\n但我总是忍不住啊。\p你的帽子歪了！\n啊，天哪，地上有垃圾！\l哎呀，到晚饭时间了！\p真不知道我究竟能不能\n安静地看对战宫殿里的战斗…$"
+    .string "大家都说我爱管闲事，\n但我总是忍不住啊。\p你的帽子歪了！\n啊，天哪，地上有垃圾！\l哎呀，到晚饭时间了！\p真不知道我究竟能不能\n安静地看对战宫殿里的战斗……$"
 
 BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
     .string "也许我看起来不像那种人，\n但我确实打败过道馆馆主。\p哎，我是不是应该再做一些什么\n来保持我的荣誉？$"
@@ -303,7 +303,7 @@ BattleFrontier_OutsideEast_Text_GotWipedOut:
     .string "可恶！\n我以前从来没输过！\p但一到这里我就被\n毫不留情地打败了！\p然后有人说我根本没有天赋？！\n可恶！$"
 
 BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower:
-    .string "这个人在挑战\n对战塔的时候\l碰上了个非常强的训练家。\p唉，现在他变成这样了…\p挑战对战塔的话\n一定要三思而后行。$"
+    .string "这个人在挑战\n对战塔的时候\l碰上了个非常强的训练家。\p唉，现在他变成这样了……\p挑战对战塔的话\n一定要三思而后行。$"
 
 BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll:
     .string "好了！\n终于攒够了对战点数！\p可以再换一个\n毛绒玩具了！$"
@@ -318,7 +318,7 @@ BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
     .string "哦哦，亲爱的，你太棒了！\p哦哦，我再也等不及了！\p我们马上去挑战\n多人对战房间吧！\p如果我们一起去对战沙龙，\n我们之间爱的力量一定会\l使我们战胜所有人。\p啊，亲爱的，在我们两人面前，\n一切都像推倒多米诺一样！$"
 
 BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
-    .string "对战开拓区并不是\n强大的训练家专属的，\p似乎很多拥有特别能力的人\n也在被邀请的行列。\p那个亚希达…\p他建造这个地方一定有着\n远大的目标…$"
+    .string "对战开拓区并不是\n强大的训练家专属的，\p似乎很多拥有特别能力的人\n也在被邀请的行列。\p那个亚希达……\p他建造这个地方一定有着\n远大的目标……$"
 
 BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle:
     .string "打扰一下，年轻人，\n你的视力还可以吧？\p我刚才看到那边有棵奇怪的树\n好像在摇摆。$"
@@ -327,4 +327,4 @@ BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere:
     .string "打扰一下，年轻人，\n你的记忆力还可以吧？\p我好像记得那边曾经\n有棵奇怪的树。$"
 
 BattleFrontier_OutsideEast_Text_StickyMonWithLongTail:
-    .string "我…\n我看见了！\p是一只举着长长尾巴的\n小小的宝可梦！\p刚才它藏在一块大石头底下，\n还一直偷偷地盯着我看！$"
+    .string "我……\n我看见了！\p是一只举着长长尾巴的\n小小的宝可梦！\p刚才它藏在一块大石头底下，\n还一直偷偷地盯着我看！$"

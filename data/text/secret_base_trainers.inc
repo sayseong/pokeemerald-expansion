@@ -7,10 +7,10 @@ SecretBase_Text_Trainer0AcceptBattle::
 	.string "好！\n来吧！$"
 
 SecretBase_Text_Trainer0DeclineBattle::
-	.string "哎？\n啊，现在不行啊…$"
+	.string "哎？\n啊，现在不行啊……$"
 
 SecretBase_Text_Trainer0Defeated::
-    .string "哇啊啊！你真强！\n我输掉的事…请帮我保密！$"
+    .string "哇啊啊！你真强！\n我输掉的事……请帮我保密！$"
 
 SecretBase_Text_Trainer0PostBattle::
 	.string "我的秘密基地怎么样？\n明天也来玩吧。$"
@@ -29,10 +29,10 @@ SecretBase_Text_Trainer5AcceptBattle::
 	.string "好了，来吧！$"
 
 SecretBase_Text_Trainer5DeclineBattle::
-	.string "啊…\n现在不行吗，也罢。$"
+	.string "啊……\n现在不行吗，也罢。$"
 
 SecretBase_Text_Trainer5Defeated::
-    .string "唔…我们输了…\n别告诉别人啊！\l这是一级机密！$"
+    .string "唔……我们输了……\n别告诉别人啊！\l这是一级机密！$"
 
 SecretBase_Text_Trainer5PostBattle::
 	.string "下次来这附近的话，\n再来我这里转转吧。$"
@@ -74,7 +74,7 @@ SecretBase_Text_Trainer6DeclineBattle::
 	.string "啊，\n那么下次吧！$"
 
 SecretBase_Text_Trainer6Defeated::
-    .string "嗯…我还有很多不足，\n还得继续学习啊。$"
+    .string "嗯……我还有很多不足，\n还得继续学习啊。$"
 
 SecretBase_Text_Trainer6PostBattle::
 	.string "谢谢你和我战斗，\n明天也来玩吧。$"
@@ -114,10 +114,10 @@ SecretBase_Text_Trainer7AcceptBattle::
 	.string "谢谢，\n开始吧？$"
     
 SecretBase_Text_Trainer7DeclineBattle::
-	.string "啊，\n真遗憾…$"
+	.string "啊，\n真遗憾……$"
 
 SecretBase_Text_Trainer7Defeated::
-    .string "我认输…$"
+    .string "我认输……$"
 
 SecretBase_Text_Trainer7PostBattle::
 	.string "真高兴！\n现在我该去买东西了！$"
@@ -135,13 +135,13 @@ SecretBase_Text_Trainer3AcceptBattle::
 	.string "我不会被你轻易打败的！$"
 
 SecretBase_Text_Trainer3DeclineBattle::
-	.string "哦…是因为你找来\n这个地方很累吗？$"
+	.string "哦……是因为你找来\n这个地方很累吗？$"
 
 SecretBase_Text_Trainer3Defeated::
-    .string "我失败了…$"
+    .string "我失败了……$"
 
 SecretBase_Text_Trainer3PostBattle::
-	.string "我失败了…"
+	.string "我失败了……"
 	.string "你的秘密基地在哪儿？\n我也会去拜访你的。$"
 
 SecretBase_Text_Trainer3PreChampion::
@@ -205,7 +205,7 @@ SecretBase_Text_Trainer9DeclineBattle::
 	.string "我很乐意随时向你\n展示我的风格。$"
 
 SecretBase_Text_Trainer9Defeated::
-    .string "你拥有至高的天份！\n你的力量是无限大的…$"
+    .string "你拥有至高的天份！\n你的力量是无限大的……$"
 
 SecretBase_Text_Trainer9PostBattle::
 	.string "觉得我的风格怎么样？\n我一直在不断完善！$"

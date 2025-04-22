@@ -19,7 +19,7 @@ LilycoveCity_House2_EventScript_ReceivedRest::
 	end
 
 LilycoveCity_House2_Text_NotAwakeYetHaveThis:
-    .string "嗯？什么？那是什么？\p我还想睡…\n这个给你吧…$"
+    .string "嗯？什么？那是什么？\p我还想睡……\n这个给你吧……$"
 
 LilycoveCity_House2_Text_SleepIsEssential:
-    .string "呵欠…\p睡得好才会身体好…\n睡觉让身体恢复…$"
+    .string "呵欠……\p睡得好才会身体好……\n睡觉让身体恢复……$"

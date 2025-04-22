@@ -63,7 +63,7 @@ SSTidalRooms_EventScript_Naomi::
 	end
 
 SSTidalRooms_Text_TakeRestOnBed:
-    .string "有一张床…\n休息一下吧。$"
+    .string "有一张床……\n休息一下吧。$"
 
 SSTidalRooms_Text_ColtonIntro:
     .string "我经常坐船去水静市。\p那是因为我喜欢参加\n那里的华丽大赛。$"
@@ -84,7 +84,7 @@ SSTidalRooms_Text_MicahPostBattle:
     .string "朋友不一定非要是人类，\n对我来说，宝可梦是我的挚友！$"
 
 SSTidalRooms_Text_ThomasIntro:
-    .string "孩子…\n你敲门了吗？$"
+    .string "孩子……\n你敲门了吗？$"
 
 SSTidalRooms_Text_ThomasDefeat:
     .string "即使输了也不可\n焦躁惊慌。$"
@@ -93,10 +93,10 @@ SSTidalRooms_Text_ThomasPostBattle:
     .string "在任何情况下都能泰然自若\n是绅士的行为准则。$"
 
 SSTidalRooms_Text_JedIntro:
-    .string "阿新：说起来真有些不好意思…\n我们会展示给你爱情的力量！$"
+    .string "阿新：说起来真有些不好意思……\n我们会展示给你爱情的力量！$"
 
 SSTidalRooms_Text_JedDefeat:
-    .string "阿新：唉…$"
+    .string "阿新：唉……$"
 
 SSTidalRooms_Text_JedPostBattle:
     .string "阿新：我们爱情的力量\n头一回没能取胜！\l你肯定是一名很强的训练家！$"
@@ -105,22 +105,22 @@ SSTidalRooms_Text_JedNotEnoughMons:
     .string "阿新: 你只有一只宝可梦？\n这是不是也太孤单了？$"
 
 SSTidalRooms_Text_LeaIntro:
-    .string "佳穗：说起来真有些傻…\n我们会展示给你爱情的力量！$"
+    .string "佳穗：说起来真有些傻……\n我们会展示给你爱情的力量！$"
 
 SSTidalRooms_Text_LeaDefeat:
     .string "佳穗：哦，完了！$"
 
 SSTidalRooms_Text_LeaPostBattle:
-    .string "佳穗：真是难以置信！\n我们爱情的力量输了…\l你肯定是一名很强的训练家！$"
+    .string "佳穗：真是难以置信！\n我们爱情的力量输了……\l你肯定是一名很强的训练家！$"
 
 SSTidalRooms_Text_LeaNotEnoughMons:
-    .string "佳穗：我也想对战…\n但你连两只宝可梦都没有…$"
+    .string "佳穗：我也想对战……\n但你连两只宝可梦都没有……$"
 
 SSTidalRooms_Text_GarretIntro:
     .string "啊，你来的正好。\p我无聊死了，\n一块玩玩吧。$"
 
 SSTidalRooms_Text_GarretDefeat:
-    .string "…玩够了。$"
+    .string "……玩够了。$"
 
 SSTidalRooms_Text_GarretPostBattle:
     .string "或许我应该叫爸爸\n给我弄艘快艇。\l属于我和宝可梦的快艇！$"
@@ -132,10 +132,10 @@ SSTidalRooms_Text_NaomiDefeat:
     .string "我明白了，\n你是活跃型的。$"
 
 SSTidalRooms_Text_NaomiPostBattle:
-    .string "坐着豪华客轮周游世界\n确实很吸引人…\p但必须承认，坐着渡轮\n周游丰缘也别有一番风味。$"
+    .string "坐着豪华客轮周游世界\n确实很吸引人……\p但必须承认，坐着渡轮\n周游丰缘也别有一番风味。$"
 
 SSTidalRooms_Text_NotSuspiciousTakeThis:
-    .string "嗯…你好！我…我不是什么可疑的人！\n嗯…这个给你！免费的！\p这…真的，这不是我\n偷来的！我绝不会干这种事！\l这不是赃物！你放心用吧！$"
+    .string "嗯……你好！\n我……我不是什么可疑的人！\l嗯……这个给你！免费的！\p这……真的，这不是我\n偷来的！我绝不会干这种事！\l这不是赃物！你放心用吧！$"
 
 SSTidalRooms_Text_ExplainSnatch:
     .string "抢夺可以把对手或盟友\n即将使用的某些招式\l据为己有。$"

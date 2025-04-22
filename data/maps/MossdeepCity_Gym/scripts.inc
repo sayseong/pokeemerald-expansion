@@ -386,16 +386,16 @@ MossdeepCity_Gym_Text_VirgilDefeat:
     .string "你拥有华美的天赋！$"
 
 MossdeepCity_Gym_Text_VirgilPostBattle:
-    .string "如果世上真的有天才，\n那么就是我们的道馆馆主！\p但你也许比她们拥有\n更高的天赋…$"
+    .string "如果世上真的有天才，\n那么就是我们的道馆馆主！\p但你也许比她们拥有\n更高的天赋……$"
 
 MossdeepCity_Gym_Text_BlakeIntro:
-    .string "嘿嘿嘿…看我用心灵感应\n让精灵球浮起来！\p呜啊啊啊啊啊啊啊！\n… … … … … … …\p有时我还是不能同步…$"
+    .string "嘿嘿嘿……看我用心灵感应\n让精灵球浮起来！\p呜啊啊啊啊啊啊啊！\n…… …… …… …\p有时我还是不能同步……$"
 
 MossdeepCity_Gym_Text_BlakeDefeat:
     .string "我的宝可梦战斗技术\n也不能同步了！$"
 
 MossdeepCity_Gym_Text_BlakePostBattle:
-    .string "要用精神力举起精灵球\n还是困难了点，但这么小的灰尘的话…\p呜啊啊啊啊啊啊啊！\n… … … … … …\p不不，我没骗人！\n我没吹！真的！$"
+    .string "要用精神力举起精灵球还是困难\n了点，但这么小的灰尘的话……\p呜啊啊啊啊啊啊啊！\n…… …… ……\p不不，我没骗人！\n我没吹！真的！$"
 
 MossdeepCity_Gym_Text_HannahIntro:
     .string "输给我的话，也不要\n太责怪自己。\p不是你弱小——\n而是我太强了！$"
@@ -407,31 +407,31 @@ MossdeepCity_Gym_Text_HannahPostBattle:
     .string "我失败了，但我不会气馁。\n我只是需要更严格的训练。\p总是乐观看待事情——\n这是我的优势！$"
 
 MossdeepCity_Gym_Text_SamanthaIntro:
-    .string "看到了…\n你的未来…\p你能打败我的话，\n我就告诉你未来！$"
+    .string "看到了……\n你的未来……\p你能打败我的话，\n我就告诉你未来！$"
 
 MossdeepCity_Gym_Text_SamanthaDefeat:
     .string "我投降！$"
 
 MossdeepCity_Gym_Text_SamanthaPostBattle:
-    .string "你和我们的道馆馆主之间\n会有一场激烈的战斗…\p结果…\n我不会告诉你的！$"
+    .string "你和我们的道馆馆主之间\n会有一场激烈的战斗……\p结果……\n我不会告诉你的！$"
 
 MossdeepCity_Gym_Text_MauraIntro:
-    .string "你走过的路…\n你经历过的事…\p用你所学会的一切\n全力攻击吧！$"
+    .string "你走过的路……\n你经历过的事……\p用你所学会的一切\n全力攻击吧！$"
 
 MossdeepCity_Gym_Text_MauraDefeat:
     .string "你走在通向伟大的道路上！$"
 
 MossdeepCity_Gym_Text_MauraPostBattle:
-    .string "勤奋的人们拥有\n光明的前途，\p而懒惰的人所面对的\n惟有绝望的终点。\p种下什么因，就得到什么果…$"
+    .string "勤奋的人们拥有\n光明的前途，\p而懒惰的人所面对的\n惟有绝望的终点。\p种下什么因，就得到什么果……$"
 
 MossdeepCity_Gym_Text_SylviaIntro:
     .string "即使生命有危险，\n我也会赢得胜利！$"
 
 MossdeepCity_Gym_Text_SylviaDefeat:
-    .string "你所做的…\n吓倒了我…$"
+    .string "你所做的……\n吓倒了我……$"
 
 MossdeepCity_Gym_Text_SylviaPostBattle:
-    .string "你竟敢打败我…\p若有厄运降临于你，\n不要怪我…$"
+    .string "你竟敢打败我……\p若有厄运降临于你，\n不要怪我……$"
 
 MossdeepCity_Gym_Text_NateIntro:
     .string "呵呵呵。\p让我给你看看\n超能力属性的执着。$"
@@ -440,7 +440,7 @@ MossdeepCity_Gym_Text_NateDefeat:
     .string "啊，天哪，天哪！\n你的战斗无与伦比！$"
 
 MossdeepCity_Gym_Text_NatePostBattle:
-    .string "我…我不会被任—任何失败\n吓—吓倒。$"
+    .string "我……我不会被任—任何失败\n吓—吓倒。$"
 
 MossdeepCity_Gym_Text_KathleenIntro:
     .string "体会一下完全绝望的\n恐怖吧！$"
@@ -479,10 +479,10 @@ MossdeepCity_Gym_Text_NicholasPostBattle:
     .string "好吧！下次我要找到一种\n绝对不可战胜的力量。$"
 
 MossdeepCity_Gym_Text_TateAndLizaIntro:
-    .string "小枫：嘿嘿嘿…你惊讶吗？\p小南：呵呵呵…你惊讶吗？\p小枫：这里有两个道馆馆主。\n小南：这里有两个道馆馆主。\p小枫：我们是双胞胎！\n小南：我们是双胞胎！\p小枫：我们不需要交谈，因为…\n小南：我们可以用意识…\p小枫：互相感应到…\n小南：对方的想法！\p小枫：你能打败我们…\n小南：这完美的组合吗？$"
+    .string "小枫：嘿嘿嘿……你惊讶吗？\p小南：呵呵呵……你惊讶吗？\p小枫：这里有两个道馆馆主。\n小南：这里有两个道馆馆主。\p小枫：我们是双胞胎！\n小南：我们是双胞胎！\p小枫：我们不需要交谈，因为……\n小南：我们可以用意识……\p小枫：互相感应到……\n小南：对方的想法！\p小枫：你能打败我们……\n小南：这完美的组合吗？$"
 
 MossdeepCity_Gym_Text_TateAndLizaDefeat:
-    .string "小枫：什么？！我们的组合…\n小南：被打败了！\p小枫：没办法，是你赢了…\n小南：那么，这是我们承认你的证明。$"
+    .string "小枫：什么？！我们的组合……\n小南：被打败了！\p小枫：没办法，是你赢了……\n小南：那么，这是我们承认你的证明。$"
 
 MossdeepCity_Gym_Text_ReceivedMindBadge:
     .string "{PLAYER}从小枫和小南处\n得到了心灵徽章。$"
@@ -491,7 +491,7 @@ MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
     .string "小枫：心灵徽章能够提升\n宝可梦的特攻和特防。\p小南：同时也可以在战斗外\n使用秘传学习器潜水。\p小枫：这个也给你吧。$"
 
 MossdeepCity_Gym_Text_ExplainCalmMind:
-    .string "小枫：那个招式学习器04里面是…\n小南：冥想！\p小枫：它能提升特攻…\n小南：还能提高特防！\p小枫：这是超能宝可梦…\n小南：最佳的招式！\p… … … … … …$"
+    .string "小枫：那个招式学习器04里面是……\n小南：冥想！\p小枫：它能提升特攻……\n小南：还能提高特防！\p小枫：这是超能宝可梦……\n小南：最佳的招式！\p…… …… ……$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:
     .string "把道馆馆主小枫和小南的信息\n登记进宝可梦导航仪里。$"
@@ -500,7 +500,7 @@ MossdeepCity_Gym_Text_TateAndLizaPostBattle:
     .string "小枫：看来你和你的宝可梦间的\n牵绊比我们之间的\l还要强得多。\p小南：你会变得更强的！\n这在我们的战斗中就能看出来。$"
 
 MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
-    .string "小枫：嘿嘿嘿…你惊讶吗？\p小南：这里有两个道馆馆主。\p小枫：哎，你只有一只…\n小南：能战斗的宝可梦。\p小枫：我们不能这样战斗！\p小南：要和我们战斗，\n再多带几只宝可梦来吧。$"
+    .string "小枫：嘿嘿嘿……你惊讶吗？\p小南：这里有两个道馆馆主。\p小枫：哎，你只有一只……\n小南：能战斗的宝可梦。\p小枫：我们不能这样战斗！\p小南：要和我们战斗，\n再多带几只宝可梦来吧。$"
 
 MossdeepCity_Gym_Text_GymStatue:
     .string "绿岭市宝可梦道馆$"
@@ -509,13 +509,13 @@ MossdeepCity_Gym_Text_GymStatueCertified:
     .string "绿岭市宝可梦道馆\p小南与小枫认可的训练家：\n{PLAYER}$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch:
-    .string "小枫：宝可梦…\n小南：宝可梦…\p小枫：队伍改变后…\n小南：战术也随之改变。\p小枫：但我…\n小南：但我…\p小枫：我会一直跟小南在一起！\n小南：我会一直跟小枫在一起！\p小枫：我们会让你一次次…\n小南：看到我们完美的组合！$"
+    .string "小枫：宝可梦……\n小南：宝可梦……\p小枫：队伍改变后……\n小南：战术也随之改变。\p小枫：但我……\n小南：但我……\p小枫：我会一直跟小南在一起！\n小南：我会一直跟小枫在一起！\p小枫：我们会让你一次次……\n小南：看到我们完美的组合！$"
 
 MossdeepCity_Gym_Text_TateAndLizaRematchDefeat:
-    .string "小枫：你和你的宝可梦…\n小南：就像！$"
+    .string "小枫：你和你的宝可梦……\n小南：就像！$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostRematch:
     .string "小枫：你打败了我们，\n但我们不会沮丧！\p小南：因为我们两人\n永远会相互依靠！$"
 
 MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons:
-    .string "小枫：你又回来…\n小南：你又回来…\p小枫：跟我们再次战斗。\n小南：跟我们再次战斗。\p小枫：但是…\n小南：向我们挑战…\p小枫：你却只带来了一只宝可梦！\n小南：你却只带来了一只宝可梦！\p小枫：你再来时要带来…\n小南：至少两只宝可梦。$"
+    .string "小枫：你又回来……\n小南：你又回来……\p小枫：跟我们再次战斗。\n小南：跟我们再次战斗。\p小枫：但是……\n小南：向我们挑战……\p小枫：你却只带来了一只宝可梦！\n小南：你却只带来了一只宝可梦！\p小枫：你再来时要带来……\n小南：至少两只宝可梦。$"

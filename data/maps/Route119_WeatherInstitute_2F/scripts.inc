@@ -235,7 +235,7 @@ Route119_WeatherInstitute_2F_Text_Grunt5Defeat:
     .string "啊，看看我的宝可梦怎么样？$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
-    .string "哼，那又怎么样？\n我们想要的…\p我们真正想要的并不在这里…\n咿哈哈哈哈…$"
+    .string "哼，那又怎么样？\n我们想要的……\p我们真正想要的并不在这里……\n咿哈哈哈哈……$"
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro:
     .string "啊哈哈哈哈！\p你想干涉我们海洋队的\n行动吗？\p你是无畏，还是无知，\n或是两者兼有呢？\p太可爱了，太可恨了！\n我这就打倒你，小东西！$"
@@ -269,10 +269,10 @@ Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:
     .string "数年来我一直在研究雨，\n但要说到让人类自由地控制\l天气，是不是很可笑呢？$"
 
 Route119_WeatherInstitute_2F_Text_GroudonWeather:
-    .string "我在跟踪观察丰缘\n地区的气候状况，\p最近，我们发现{STR_VAR_1}地区\n气候比较干燥，\p这是不是就意味着，\n{STR_VAR_1}附近某处…$"
+    .string "我在跟踪观察丰缘\n地区的气候状况，\p最近，我们发现{STR_VAR_1}地区\n气候比较干燥，\p这是不是就意味着，\n{STR_VAR_1}附近某处……$"
 
 Route119_WeatherInstitute_2F_Text_KyogreWeather:
-    .string "我在跟踪观察丰缘\n地区的气候状况，\p最近，我们发现{STR_VAR_1}地区\n出现大量降雨，\p这是不是就意味着，\n{STR_VAR_1}附近某处…$"
+    .string "我在跟踪观察丰缘\n地区的气候状况，\p最近，我们发现{STR_VAR_1}地区\n出现大量降雨，\p这是不是就意味着，\n{STR_VAR_1}附近某处……$"
 
 Route119_WeatherInstitute_2F_Text_NoAbnormalWeather:
     .string "最近没有反常的\n气候现象出现，\p偶然的降雨对人们来说\n应该是幸事吧。$"

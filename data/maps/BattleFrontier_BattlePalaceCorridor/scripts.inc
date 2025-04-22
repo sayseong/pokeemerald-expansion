@@ -122,17 +122,17 @@ BattleFrontier_BattlePalaceCorridor_Movement_AttendantEnterBattleRoom:
 	step_end
 
 BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame:
-    .string "人也好宝可梦也好，\n大家都是一样的…\p个性决定了他们\n擅长某些事情，\l而不擅长另一些事情。$"
+    .string "人也好宝可梦也好，\n大家都是一样的……\p个性决定了他们\n擅长某些事情，\l而不擅长另一些事情。$"
 
 BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes:
     .string "与其勉强宝可梦做自己\n不喜欢的事情，不如让它们\l去做喜欢并且擅长的事。\p站在你的宝可梦的角度思考一下\n它究竟会喜欢什么样的招式。$"
 
 BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered:
-    .string "宝可梦的性格\n至关重要…\p一些宝可梦在陷入绝境时可能会\n做出与之前完全相反的行动来。$"
+    .string "宝可梦的性格\n至关重要……\p一些宝可梦在陷入绝境时可能会\n做出与之前完全相反的行动来。$"
 
 BattleFrontier_BattlePalaceCorridor_Text_BeginningToUnderstandNature:
     .string "你开始理解宝可梦的性格\n与它们的行动之间的关系了吗？$"
 
 BattleFrontier_BattlePalaceCorridor_Text_HeartfeltBondBetweenYouAndMons:
-    .string "啊…你和你的宝可梦之间的\n牵绊是多么强大啊…$"
+    .string "啊……你和你的宝可梦之间的\n牵绊是多么强大啊……$"
 

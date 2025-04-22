@@ -83,7 +83,7 @@ static bool32 IsValidLocationForVsSeeker(void);
 static const u8 sText_CantDismountBike[] = _("这里不能下车！{PAUSE_UNTIL_PRESS}");
 static const u8 sText_ItemFinderNearby[] = _("哦！\n机器有反应了！\p附近有埋着道具！{PAUSE_UNTIL_PRESS}");
 static const u8 sText_ItemFinderOnTop[] = _("机器在脚下\n反应得很剧烈了！{PAUSE_UNTIL_PRESS}");
-static const u8 sText_ItemFinderNothing[] = _("…… …… 呼！\n…… 什么反应都没有！{PAUSE_UNTIL_PRESS}");
+static const u8 sText_ItemFinderNothing[] = _("………… 呼！\n…… 什么反应都没有！{PAUSE_UNTIL_PRESS}");
 static const u8 sText_CoinCase[] = _("你现在的代币\n{STR_VAR_1}枚{PAUSE_UNTIL_PRESS}");
 static const u8 sText_PowderQty[] = _("粉末量 {STR_VAR_1}{PAUSE_UNTIL_PRESS}");
 static const u8 sText_BootedUpTM[] = _("启动了招式学习器！");

@@ -184,11 +184,11 @@ SlateportCity_ContestHall_Text_ItsAppealTime:
 
 @ Unused
 SlateportCity_ContestHall_Text_DidntPayAttentionToAppeal:
-    .string "他们没有太注意\n我的宝可梦的吸引力…\p哼，那个裁判，他根本\n就不懂得欣赏。$"
+    .string "他们没有太注意\n我的宝可梦的吸引力……\p哼，那个裁判，他根本\n就不懂得欣赏。$"
 
 @ Unused
 SlateportCity_ContestHall_Text_RewardWithSageAdvice:
-    .string "你好！你一定是追求此项活动的\n狂热爱好者。\p为了奖励你的热情\n给你一条忠告吧。\p如果一个招式表现的非常好，\n观众会变得很激动。\p当观众变得激动时\n做出这个招式的宝可梦吸引力就会…\p好了，会发生什么好事你应该\n可以想象得到吧！$"
+    .string "你好！你一定是追求此项活动的\n狂热爱好者。\p为了奖励你的热情\n给你一条忠告吧。\p如果一个招式表现的非常好，\n观众会变得很激动。\p当观众变得激动时\n做出这个招式的宝可梦吸引力就会……\p好了，会发生什么好事你应该\n可以想象得到吧！$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MoreFreakedOutThanMon:

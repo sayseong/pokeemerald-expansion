@@ -15,13 +15,13 @@ SeafloorCavern_Room1_Text_Grunt1Intro:
     .string "小孩子可不要在这儿乱逛！\n快回家去吧！$"
 
 SeafloorCavern_Room1_Text_Grunt1Defeat:
-    .string "该回家的是我…$"
+    .string "该回家的是我……$"
 
 SeafloorCavern_Room1_Text_Grunt1PostBattle:
-    .string "真希望能晋升，这样就可以\n指挥小杂鱼们了…$"
+    .string "真希望能晋升，这样就可以\n指挥小杂鱼们了……$"
 
 SeafloorCavern_Room1_Text_Grunt2Intro:
-    .string "那潜水艇…里面太小了。\n挤得真难受！$"
+    .string "那潜水艇……里面太小了。\n挤得真难受！$"
 
 SeafloorCavern_Room1_Text_Grunt2Defeat:
     .string "失败让我更难受！$"

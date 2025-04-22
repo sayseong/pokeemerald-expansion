@@ -79,7 +79,7 @@ RustboroCity_Flat1_2F_EventScript_PokeDoll::
 	end
 
 RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard:
-    .string "唉，天天这样太难了…\p什么难？\n还用问吗？\p当然是考虑一天三餐\n该吃什么。\p每天都想着做什么饭\n也不容易。$"
+    .string "唉，天天这样太难了……\p什么难？\n还用问吗？\p当然是考虑一天三餐\n该吃什么。\p每天都想着做什么饭\n也不容易。$"
 
 RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
     .string "哎，你好！\n欢迎来到箱神家。\p问你一个问题，\n你带过小孩吗？\p你看，我刚当上爸爸，\n抚养孩子什么的都得从头学。\p我现在有点麻烦，\n女儿文乃总是不爱笑。\p我想如果给她讲笑话\n她就会笑起来的。\p你知道什么有趣的故事\n或词语吗？$"
@@ -103,13 +103,13 @@ RustboroCity_Flat1_2F_Text_LetsGiveItATry:
     .string "啊，知道了。\n来试试吧？$"
 
 RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll:
-    .string "{STR_VAR_1}。\n{STR_VAR_1}。\p唔…她根本不笑。\n也许文乃生来就很严肃…$"
+    .string "{STR_VAR_1}。\n{STR_VAR_1}。\p唔……她根本不笑。\n也许文乃生来就很严肃……$"
 
 RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase:
-    .string "唉，你也不知道什么好词啊。\n那我只能自己想一个了。\p嗯…\n“{STR_VAR_1}”怎么样？\l我们试试看。$"
+    .string "唉，你也不知道什么好词啊。\n那我只能自己想一个了。\p嗯……\n“{STR_VAR_1}”怎么样？\l我们试试看。$"
 
 RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2:
-    .string "{STR_VAR_1}。\n{STR_VAR_1}。\p唔…她根本不笑。\n也许文乃生来就很严肃…$"
+    .string "{STR_VAR_1}。\n{STR_VAR_1}。\p唔……她根本不笑。\n也许文乃生来就很严肃……$"
 
 RustboroCity_Flat1_2F_Text_OhYouDontKnowAny:
     .string "唉，你也不知道什么好词啊。\n看来我只能用上次的词\l逗她笑了。\p对了，如果你想到了什么，\n要赶快告诉我，好吗？$"

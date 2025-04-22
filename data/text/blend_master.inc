@@ -11,7 +11,7 @@ BerryBlender_Text_BlendMasterNoBerries::
     .string "啊！\p你没带来不同寻常的树果！\p我每天都在这儿的！\n再拿一些珍稀的树果回来，赶快！$"
 
 BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks::
-    .string "当然了！\n当然了！\p对了…\n你知道如何用树果\l做出宝可方块吗？$"
+    .string "当然了！\n当然了！\p对了……\n你知道如何用树果\l做出宝可方块吗？$"
 
 BerryBlender_Text_BlendMasterExplainBerryBlending::
     .string "嗯！\p不知道没关系，其实非常简单！\p当混合机的指针正对着\n你的时候马上按A键。\p这事儿难不倒你吧。\p你看了我的示范之后，\n就会明白了。$"
@@ -38,7 +38,7 @@ BerryBlender_Text_MadeAmazingPokeblocksWithMaster::
     .string "能和大师一起混合的话，\n我们就能做出极品的宝可方块了！$"
 
 BerryBlender_Text_QualitiesOfBlendMaster::
-    .string "看到轨道上的指针像\n机器般强烈震动时…\p就以固定的频率\n一下一下连点A键…\p掌握这种能力\n正是混合大师的终极要义。$"
+    .string "看到轨道上的指针像\n机器般强烈震动时……\p就以固定的频率\n一下一下连点A键……\p掌握这种能力\n正是混合大师的终极要义。$"
 
 BerryBlender_Text_MasterWorksOnSkillsInMountains::
     .string "可以想象混合大师在深山中\n进行严格修行。\p有时他一整天\n都在水静市混合树果。$"

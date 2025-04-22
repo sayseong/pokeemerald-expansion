@@ -264,25 +264,25 @@ BattleFrontier_BattlePikeThreePathRoom_Movement_HintGiverReturnToPos:
 	step_end
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom1:
-    .string "你现在在\n1号房间…$"
+    .string "你现在在\n1号房间……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom3:
-    .string "你现在在\n3号房间…$"
+    .string "你现在在\n3号房间……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom5:
-    .string "你现在在\n5号房间…$"
+    .string "你现在在\n5号房间……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom7:
-    .string "你现在在\n7号房间…$"
+    .string "你现在在\n7号房间……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom9:
-    .string "你现在在\n9号房间…$"
+    .string "你现在在\n9号房间……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom11:
-    .string "你现在在\n11号房间…$"
+    .string "你现在在\n11号房间……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom13:
-    .string "你现在在\n13号房间…$"
+    .string "你现在在\n13号房间……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge:
     .string "你要继续\n你的挑战吗？$"
@@ -294,31 +294,31 @@ BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge:
     .string "你要离开\n选择式对战挑战吗？$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume:
-    .string "我们一直等你回来…\p在继续你的选择式对战\n挑战前，让我保存游戏…$"
+    .string "我们一直等你回来……\p在继续你的选择式对战\n挑战前，让我保存游戏……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge:
-    .string "请好好享受你的选择式对战\n挑战吧…$"
+    .string "请好好享受你的选择式对战\n挑战吧……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData:
-    .string "正在为你保存记录…\n请稍等…$"
+    .string "正在为你保存记录……\n请稍等……$"
 
 BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack:
-    .string "道路被阻断了！\n并且没有退路了…$"
+    .string "道路被阻断了！\n并且没有退路了……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose:
-    .string "请原谅，但…\p你是否觉得选择\n道路很困难？$"
+    .string "请原谅，但……\p你是否觉得选择\n道路很困难？$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence:
-    .string "我知道…\n我对我的不礼貌表示道歉…$"
+    .string "我知道……\n我对我的不礼貌表示道歉……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath:
-    .string "哦，让我看看…有一些关于\n右边道路的事…$"
+    .string "哦，让我看看……有一些关于\n右边道路的事……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutCenterPath:
-    .string "哦，让我看看…有一些关于\n中间道路的事…$"
+    .string "哦，让我看看……有一些关于\n中间道路的事……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath:
-    .string "哦，让我看看…有一些关于\n左边道路的事…$"
+    .string "哦，让我看看……有一些关于\n左边道路的事……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
     .string "似乎有宝可梦在里面的感觉……$"
@@ -333,7 +333,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_WaveOfNostaliga:
     .string "不知道为什么，\n有股熟悉的氛围……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent:
-    .string "我很抱歉地说…\p一件可怕的事，没错，一件恐怖的事，\n将要降临到你头上…\p我劝你要万分小心\n做好最坏的打算。$"
+    .string "我很抱歉地说……\p一件可怕的事，没错，一件恐怖的事，\n将要降临到你头上……\p我劝你要万分小心\n做好最坏的打算。$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence:
     .string "无论哪道门后都有一股很可怕的感觉……$"

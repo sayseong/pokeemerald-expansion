@@ -48,31 +48,31 @@ BattleFrontier_Lounge5_Text_NatureGirlNoneShown::
     .string "砰！\n咔嚓！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAttackHighAttackLow::
-    .string "嗯嗯…\p它说它想去战斗！\n它说无论会受什么伤\l它都想去战斗！$"
+    .string "嗯嗯……\p它说它想去战斗！\n它说无论会受什么伤\l它都想去战斗！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAttackHighDefenseLow::
-    .string "嗯嗯…\p它说它想去战斗！\n但如果它受伤太重，\l它会更多照顾自己的！$"
+    .string "嗯嗯……\p它说它想去战斗！\n但如果它受伤太重，\l它会更多照顾自己的！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAttackHighSupportLow::
-    .string "嗯嗯…\p它说它想去战斗！\n但如果它受伤太重，\l它还是想避开战斗！$"
+    .string "嗯嗯……\p它说它想去战斗！\n但如果它受伤太重，\l它还是想避开战斗！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDefenseHighAttackLow::
-    .string "嗯嗯…\p它说它会照顾自己更多一些！\n但如果它受伤太重，\l它还是会报复！$"
+    .string "嗯嗯……\p它说它会照顾自己更多一些！\n但如果它受伤太重，\l它还是会报复！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDefenseHighDefenseLow::
-	 .string "嗯嗯…\p它说它会照顾自己更多一些！\n它说不管受伤重不重\l它都会更多照顾自己！$"
+	 .string "嗯嗯……\p它说它会照顾自己更多一些！\n它说不管受伤重不重\l它都会更多照顾自己！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDefenseHighSupportLow::
-	.string "嗯嗯…\p它说它会小心躲开战斗的！\n它说就算受伤很重\l它还是想避开战斗！$"
+	.string "嗯嗯……\p它说它会小心躲开战斗的！\n它说就算受伤很重\l它还是想避开战斗！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSupportHighAttackLow::
-	.string "嗯嗯…\p它说它会小心躲开战斗的！\n但如果它受伤太重，\l它还是会报复！$"
+	.string "嗯嗯……\p它说它会小心躲开战斗的！\n但如果它受伤太重，\l它还是会报复！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSupportHighDefenseLow::
-	.string "嗯嗯…\p它说它会小心躲开战斗的！\n但如果它受伤太重，\l它会更多照顾自己的！$"
+	.string "嗯嗯……\p它说它会小心躲开战斗的！\n但如果它受伤太重，\l它会更多照顾自己的！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSupportHighSupportLow::
-	.string "嗯嗯…\p它说它会小心躲开战斗的！\n它说就算受伤很重\l它还是想避开战斗！$"
+	.string "嗯嗯……\p它说它会小心躲开战斗的！\n它说就算受伤很重\l它还是想避开战斗！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlEgg::
     .string "你在干什么傻事！蛋可在沉睡啊！\n我怎么跟它交谈呢！$"

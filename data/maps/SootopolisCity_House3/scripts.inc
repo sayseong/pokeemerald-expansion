@@ -26,7 +26,7 @@ SootopolisCity_House3_Text_YouMustBePrettyStrong:
     .string "呀，那么你肯定很强。$"
 
 SootopolisCity_House3_Text_LonesomeTryWorkingHarder:
-    .string "哎呀…\n这样可有点寂寞。\p你得更努力些，\n那样才会有粉丝跟着你的。$"
+    .string "哎呀……\n这样可有点寂寞。\p你得更努力些，\n那样才会有粉丝跟着你的。$"
 
 SootopolisCity_House3_Text_TrainerFanClubWasWild:
     .string "追星的人们甚至都会\n从丰缘地区以外的地方赶来，\p我上次去水静市的训练家俱乐部时\n真正见识到了他们的狂热。$"

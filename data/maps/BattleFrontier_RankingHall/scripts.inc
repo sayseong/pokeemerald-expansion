@@ -119,5 +119,5 @@ BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName:
     .string "哦，你说是不是这样？\p如果你看到你朋友的名字在上面，\n我打赌你会变得更加努力的！$"
 
 BattleFrontier_RankingHall_Text_MyNamesNotUpThere:
-    .string "嗯…\n我的名字不在上面…\p没错，这很正常，因为我\n从没参加过任何挑战。$"
+    .string "嗯……\n我的名字不在上面……\p没错，这很正常，因为我\n从没参加过任何挑战。$"
 

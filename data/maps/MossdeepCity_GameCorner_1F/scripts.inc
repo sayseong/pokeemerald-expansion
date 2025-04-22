@@ -48,7 +48,7 @@ RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer:
     .string "名叫{STR_VAR_1}的训练家\n来我家拜访了。\p你想挑战\n{STR_VAR_1}吗？$"
 
 RS_MysteryEventsHouse_Text_YouWontBattle:
-    .string "你不想战斗？看不到你的战斗\n我好失望啊…$"
+    .string "你不想战斗？看不到你的战斗\n我好失望啊……$"
 
 RS_MysteryEventsHouse_Text_KeepItToA3On3:
     .string "很好，很好！\p但是我的房子没那么结实。\p我们可不可以来场\n3对3的比赛？$"

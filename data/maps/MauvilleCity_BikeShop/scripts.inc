@@ -180,13 +180,13 @@ MauvilleCity_BikeShop_Text_RydelGreeting:
     .string "哎呀哎呀，看看是谁来了？\n一位充满活力的客人！\p我？你可以叫我风野，\n我是这家车店的店主。$"
 
 MauvilleCity_BikeShop_Text_DidYouComeFromFarAway:
-    .string "风野：你的跑步鞋…\n看上去已经很脏了。\p你是从很远的地方来的吗？$"
+    .string "风野：你的跑步鞋……\n看上去已经很脏了。\p你是从很远的地方来的吗？$"
 
 MauvilleCity_BikeShop_Text_GuessYouDontNeedBike:
     .string "风野：是吗？\p那么我想你\n不需要我的自行车。$"
 
 MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
-    .string "风野：唔，唔… … … … …\p你说你从未白镇\n一路来到这里？\p天啊！\n那么远的地方！\p如果你骑着我的自行车，\n你可以在感受轻风拂面的同时\l轻轻松松地到任何地方去！\p我跟你说！\n我给你辆自行车！\p啊，等等！\p忘了告诉你，我这儿\n有两种自行车！\p分别是音速自行车\n和越野自行车！\p音速自行车是为\n追风的单车一族而设计，\p而越野自行车则是给\n喜爱车技的人所准备！\p我是好心人，所以\n让你随便挑一种！\p你想要哪样？$"
+    .string "风野：唔，唔…… ……\p你说你从未白镇\n一路来到这里？\p天啊！\n那么远的地方！\p如果你骑着我的自行车，\n你可以在感受轻风拂面的同时\l轻轻松松地到任何地方去！\p我跟你说！\n我给你辆自行车！\p啊，等等！\p忘了告诉你，我这儿\n有两种自行车！\p分别是音速自行车\n和越野自行车！\p音速自行车是为\n追风的单车一族而设计，\p而越野自行车则是给\n喜爱车技的人所准备！\p我是好心人，所以\n让你随便挑一种！\p你想要哪样？$"
 
 MauvilleCity_BikeShop_Text_ChoseMachBike:
     .string "{PLAYER}选择了音速自行车。$"

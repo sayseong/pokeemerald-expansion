@@ -250,7 +250,7 @@ static const u8 sCuriousMsg02[] = _("嗅了嗅，\n似乎附近有什么东西�
 static const u8 sCuriousMsg03[] = _("{STR_VAR_1}正在\n骨碌骨碌地\l滚着石头玩。");
 static const u8 sCuriousMsg04[] = _("{STR_VAR_1}东张西望地\n在找着什么。");
 static const u8 sCuriousMsg05[] = _("{STR_VAR_1}正在\n闻着你的气味。");
-static const u8 sCuriousMsg06[] = _("{STR_VAR_1}好像有点\n犹豫…");
+static const u8 sCuriousMsg06[] = _("{STR_VAR_1}好像有点\n犹豫……");
 
 const struct FollowerMsgInfo gFollowerCuriousMessages[] = {
     {sCuriousMsg00, EventScript_FollowerLookAround},

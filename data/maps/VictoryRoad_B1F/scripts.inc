@@ -27,13 +27,13 @@ VictoryRoad_B1F_EventScript_Halle::
 	end
 
 VictoryRoad_B1F_Text_SamuelIntro:
-    .string "一想到我离宝可梦联盟\n越来越近了…\p我开始有些怯场的感觉了…$"
+    .string "一想到我离宝可梦联盟\n越来越近了……\p我开始有些怯场的感觉了……$"
 
 VictoryRoad_B1F_Text_SamuelDefeat:
-    .string "我什么也做不了…$"
+    .string "我什么也做不了……$"
 
 VictoryRoad_B1F_Text_SamuelPostBattle:
-    .string "宝可梦联盟又变得\n遥远了…好失望…$"
+    .string "宝可梦联盟又变得\n遥远了……好失望……$"
 
 VictoryRoad_B1F_Text_ShannonIntro:
     .string "想要通过宝可梦联盟\n的考验，你必须信任你的\l宝可梦。$"

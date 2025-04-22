@@ -28,7 +28,7 @@ Route116_TunnelersRestHouse_EventScript_TunnelOpened::
 	end
 
 Route116_TunnelersRestHouse_Text_WeHadToStopBoring:
-    .string "卡绿隧道…\p我们用先进的机器在石头上\n做了好多庞大无聊的工作。\l但是，我们不得不停止了。\p看来我们所做的\n对这里的野生宝可梦\l产生了不好的影响。\p因此，我们要做的\n就是什么都不做。$"
+    .string "卡绿隧道……\p我们用先进的机器在石头上\n做了好多庞大无聊的工作。\l但是，我们不得不停止了。\p看来我们所做的\n对这里的野生宝可梦\l产生了不好的影响。\p因此，我们要做的\n就是什么都不做。$"
 
 Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf:
     .string "有人为见女友而\n要挖洞去绿茵镇。\l他不顾一切挖通了。\p他说如果不使用机器\n一点一点的挖\l就不会影响到宝可梦\l也就避免了影响自然环境。\p我怀疑他现在是否完成了。$"
