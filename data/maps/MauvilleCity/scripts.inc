@@ -464,7 +464,7 @@ MauvilleCity_EventScript_RegisterWallyCall::
 	end
 
 MauvilleCity_Text_UncleHesTooPeppy:
-    .string "叔叔：我想，是宝可梦\n让那孩子打起精神来的…\l但他好像有点兴奋过头了…$"
+    .string "叔叔：我想，是宝可梦\n让那孩子打起精神来的……\l但他好像有点兴奋过头了……$"
 
 MauvilleCity_Text_WallyWantToChallengeGym:
     .string "满充：好啦，叔叔，拜托了，\p我想挑战这个道馆，\n我想试试我变得多强了。\p好吗？求你了，好吗？$"
@@ -479,7 +479,7 @@ MauvilleCity_Text_WallyWillYouBattleMe:
     .string "满充：噢，你好，{PLAYER}！\p自从我们上次见面，\n我已经变得更强了。\p{PLAYER}，我想向你和叔叔\n证明这点。\p{PLAYER}，拜托了，\n和我战斗吧？$"
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
-    .string "满充：呃…{PLAYER}，如果你不跟我战斗，\n叔叔就不会相信\l我真的变强了。$"
+    .string "满充：呃……{PLAYER}，如果你不跟我战斗，\n叔叔就不会相信\l我真的变强了。$"
 
 MauvilleCity_Text_UncleCanYouBattleWally:
     .string "叔叔：你是{PLAYER}{KUN}吧？\n为了满充，\l能请你和他战斗一次吗？\p我想他现在这样\n是不可能听得进劝说的。$"
@@ -488,13 +488,13 @@ MauvilleCity_Text_WallyPleaseBattleMe:
     .string "满充：{PLAYER}，拜托了！\n我们战斗吧。$"
 
 MauvilleCity_Text_WallyHereICome:
-    .string "满充：{PLAYER}，谢谢。\p好…我要上了！$"
+    .string "满充：{PLAYER}，谢谢。\p好……我要上了！$"
 
 MauvilleCity_Text_WallyDefeat:
-    .string "满充：… … … … … … …\p… … … … … … … …\p我输了…$"
+    .string "满充：…… …… …… ……\p…… …… …… ……\p我输了……$"
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf:
-    .string "满充：叔叔…\n我会回绿茵镇的…$"
+    .string "满充：叔叔……\n我会回绿茵镇的……$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
     .string "{PLAYER}，谢谢。\n做一个训练家也没那么容易，是吗？\p仅仅是让自己的宝可梦去战斗\n还不够，这样并不会成为\l真正的训练家。$"
@@ -507,13 +507,13 @@ MauvilleCity_Text_UncleVisitUsSometime:
 
 
 MauvilleCity_Text_WallyPokenavCall:
-    .string "… … … … … …\n… … … … …哔！\p满充：啊，{PLAYER}！\p我只是想告诉你\n我叔叔刚给我买了个宝可梦导航仪！\p现在我随时都\n可以和你联系了，{PLAYER}！\p… … … … … …\n… … … … …咔哒！$"
+    .string "…… …… ……\n…… …… ……哔！\p满充：啊，{PLAYER}！\p我只是想告诉你\n我叔叔刚给我买了个宝可梦导航仪！\p现在我随时都\n可以和你联系了，{PLAYER}！\p…… …… ……\n…… …… ……咔哒！$"
 
 MauvilleCity_Text_RegisteredWally:
     .string "把满充的信息\n登记到宝可梦导航仪里。$"
 
 MauvilleCity_Text_ScottYouDidntHoldBack:
-    .string "亚希达：嘿嘿…\n我刚才一直在看你们的战斗！\p那个叫满充的男孩是你的朋友，\n对吗？\p但你击败他的时候\n没有任何犹豫。\p没错！这才是\n真正的宝可梦战斗！\p我所仰慕的就是这样的训练家！\p… … … … … …\n我会为你加油的！$"
+    .string "亚希达：嘿嘿……\n我刚才一直在看你们的战斗！\p那个叫满充的男孩是你的朋友，\n对吗？\p但你击败他的时候\n没有任何犹豫。\p没错！这才是\n真正的宝可梦战斗！\p我所仰慕的就是这样的训练家！\p…… …… ……\n我会为你加油的！$"
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
     .string "铁旋：嗨，{PLAYER}{KUN}！\n你看起来挺精神嘛！\l不错，不错，啊哈哈哈哈！\p好！我决定了！\n{PLAYER}{KUN}，我需要帮助！\p紫堇市这里有一个\n叫做新紫堇的地下区域。\p{PLAYER}{KUN}，希望你能\n去那里关掉发电器。\p最近发电器的运转有些失控，\n现在那里不是很安全。\p给，这是\n进入新紫堇的钥匙。$"
@@ -528,7 +528,7 @@ MauvilleCity_Text_WattsonYoungTakeCharge:
     .string "铁旋：啊哈哈哈哈！\p我最喜欢看到年轻人\n挑起重担，引领这个时代！$"
 
 MauvilleCity_Text_NurseHurtMonBackToHealth:
-    .string "你知道么，看着宝可梦去战斗\n真是太棒了…\p但如果你的宝可梦受了伤，\n就得赶快帮它治疗。$"
+    .string "你知道么，看着宝可梦去战斗\n真是太棒了……\p但如果你的宝可梦受了伤，\n就得赶快帮它治疗。$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough:
     .string "这个镇子的道路\n通向四面八方，\p因此在这里\n能见到各式各样的人。$"

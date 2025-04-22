@@ -88,16 +88,16 @@ FortreeCity_Movement_KecleonFlee:
 	step_end
 
 FortreeCity_Text_SawGiganticPokemonInSky:
-    .string "没人肯相信我，但我\n确实在天空中看到了巨大的宝可梦。\p它在飞过131号水路时\n好像有些不安。\p另外…\n唔唔…你身上，呃…好像有焦味。\p你刚从火山或什么地方来吗？$"
+    .string "没人肯相信我，但我\n确实在天空中看到了巨大的宝可梦。\p它在飞过131号水路时\n好像有些不安。\p另外……\n唔唔……你身上，呃……好像有焦味。\p你刚从火山或什么地方来吗？$"
 
 FortreeCity_Text_SomethingBlockingGym:
-    .string "我想去宝可梦道馆，\n但有东西堵了路。\p在120号道路训练了\n那么久，现在却…$"
+    .string "我想去宝可梦道馆，\n但有东西堵了路。\p在120号道路训练了\n那么久，现在却……$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
-    .string "我带着我漂亮又可爱的\n宝可梦一起来了。\n这一次，我一定要打败娜琪。$"
+    .string "我带着我漂亮又可爱的\n宝可梦一起来了。\l这一次，我一定要打败娜琪。$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:
-    .string "树木吸收了渗进地面的雨水，\n慢慢长大…\p我们茵郁市就是在\n水和土地上建造起来的。$"
+    .string "树木吸收了渗进地面的雨水，\n慢慢长大……\p我们茵郁市就是在\n水和土地上建造起来的。$"
 
 FortreeCity_Text_EveryoneHealthyAndLively:
     .string "城市中的房子\n都建在树上。\p也许正因这种生活方式，\n大家都很健康，充满活力。\p哈，我也一样——我感觉\n好像年轻了30岁。$"

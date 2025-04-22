@@ -306,7 +306,7 @@ PlayersHouse_1F_Text_MaybeDadWillBeOn:
     .string "妈妈：看！是橙华市道馆！\n爸爸可能也上电视了！$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
-    .string "妈妈：唉…结束了。\p我们错过了爸爸的镜头。\n真遗憾。$"
+    .string "妈妈：唉……结束了。\p我们错过了爸爸的镜头。\n真遗憾。$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
     .string "对了，\n爸爸的一个朋友也住在镇上，\p他叫小田卷博士，\p就住在旁边，\n去拜访一下吧。$"
@@ -330,7 +330,7 @@ PlayersHouse_1F_Text_DontPushYourselfTooHard:
     .string "别太勉强自己，宝贝，\n累了的话就回家来歇歇。\p加油吧！$"
 
 PlayersHouse_1F_Text_IsThatAPokenav:
-    .string "妈妈：亲爱的，那是什么？宝可梦导航仪？\n是得文公司的人给你的吗？\p那么，登记一下妈妈的信息\n怎么样？\p… … …$"
+    .string "妈妈：亲爱的，那是什么？宝可梦导航仪？\n是得文公司的人给你的吗？\p那么，登记一下妈妈的信息\n怎么样？\p…… ……$"
 
 PlayersHouse_1F_Text_RegisteredMom:
     .string "把妈妈的信息\n登记进宝可梦导航仪。$"
@@ -339,10 +339,10 @@ PlayersHouse_1F_Text_Vigoroth1:
     .string "喵呀呀呀！$"
 
 PlayersHouse_1F_Text_Vigoroth2:
-    .string "嗯，嗯嗯…$"
+    .string "嗯，嗯嗯……$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
-    .string "访问记者：…以上就是\n关于橙华市道馆的报道。$"
+    .string "访问记者：……以上就是\n关于橙华市道馆的报道。$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
     .string "上演着一部电影，\p两个人在巨大的\n琴键上跳舞。\p该走了！$"
@@ -351,7 +351,7 @@ PlayersHouse_1F_Text_RunningShoesManual:
     .string "这是\n跑步鞋的说明书。\p“穿上跑步鞋，\n按B键奔跑。\p系好你的鞋带，在\n踏地的节奏中飞奔吧！”$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
-    .string "爸爸：嗯？\p嗨，{PLAYER}！\p有段时间没见了，\n让我看看…好像变强了嘛。\p但你老爹我也不会放弃，\n不会输给你的！\p啊，对了，有东西要给你，\n这是一个叫哈奇的人\l托我带给你的。$"
+    .string "爸爸：嗯？\p嗨，{PLAYER}！\p有段时间没见了，\n让我看看……好像变强了嘛。\p但你老爹我也不会放弃，\n不会输给你的！\p啊，对了，有东西要给你，\n这是一个叫哈奇的人\l托我带给你的。$"
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove:
     .string "爸爸：唔，是乘坐游船的船票吧？\p记得没错的话，\n凯那市和水静市都有游船的码头。$"
@@ -360,7 +360,7 @@ PlayersHouse_1F_Text_BetterGetBackToGym:
     .string "我该回橙华市道馆去了，\p老婆，谢谢你在我\n不在的时候看家。$"
 
 PlayersHouse_1F_Text_DadShouldStayLonger:
-    .string "妈妈：果然是你的爸爸…\p已经很久没回家了，\n一回来就滔滔不绝地讲宝可梦的事。\p他该在家多休息几天的。$"
+    .string "妈妈：果然是你的爸爸……\p已经很久没回家了，\n一回来就滔滔不绝地讲宝可梦的事。\p他该在家多休息几天的。$"
 
 PlayersHouse_1F_Text_IsThatABreakingStory:
     .string "妈妈：是爆炸性新闻吗？$"

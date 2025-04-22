@@ -38,14 +38,14 @@ static const u8 sText_BerryProgramUpdate[] = _("树果问题修复补丁程序")
 static const u8 sText_RubySapphire[] = _("红宝石·蓝宝石");
 static const u8 sText_Emerald[] = _("绿宝石");
 static const u8 sText_BerryProgramWillBeUpdatedPressA[] = _("{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}{CLEAR_TO 24}针对精灵宝可梦：红宝石·蓝宝石\n"
-                                                            "{CLEAR_TO 12}树果问题进行修复的补丁程序已经就绪\n"
+                                                            "{CLEAR_TO 12}树果问题进行修复的补丁程序已就绪\n"
                                                             "\n{COLOR RED}{SHADOW LIGHT_RED}{CLEAR_TO 8}请按下A键继续。");
 static const u8 sText_EnsureGBAConnectionMatches[] = _("{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}请确认两台GBA游戏机\n"
-                                                       "是否已经按照上图所示这样的方式连接。\n"
+                                                       "是否已经按照上图所示的方式连接。\n"
                                                        "{COLOR RED}{SHADOW LIGHT_RED}确认，没有问题{CLEAR_TO 12} ▶按下A键\n"
                                                        "不是{CLEAR_TO 12} ▶关机重启再试一次");
 static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}请一边按住开始键和选择键，一边打开\n"
-                                                           "插有精灵宝可梦红蓝宝石卡带的GBA电源。\n"
+                                                           "插有宝可梦红蓝宝石卡带的GBA电源。\n"
                                                            "完成以上步骤后，请确认该GBA上\n"
                                                            "是否已经出现上面的开机画面。");
 static const u8 sText_TransmittingPleaseWait[] = _("正在建立通信连接\n"

@@ -84,7 +84,7 @@ EverGrandeCity_HallOfFame_Movement_WalkIntoHallOfFame2:
 	step_end
 
 EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions:
-    .string "米可利：这个房间…\p用来记录那些\n通过了艰苦战斗\l而取得胜利的宝可梦。\p这里是联盟冠军\n的荣耀所在。$"
+    .string "米可利：这个房间……\p用来记录那些\n通过了艰苦战斗\l而取得胜利的宝可梦。\p这里是联盟冠军\n的荣耀所在。$"
 
 EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames:
     .string "米可利：来，让我们记录下\n作为战胜宝可梦联盟的你的名字\l还有和你一起战斗的\l伙伴们的名字吧。$"

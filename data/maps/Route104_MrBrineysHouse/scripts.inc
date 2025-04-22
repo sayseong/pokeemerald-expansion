@@ -101,7 +101,7 @@ Route104_MrBrineysHouse_Text_WaitUpPeeko:
     .string "哈奇：停一下，孩子！\n稍等，小皮！$"
 
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
-    .string "嗯？你是{PLAYER}{KUN}！\n你救了我心爱的小皮！\l我们欠你的人情！\p什么？\n你想要和我一起出航？\p嗯…\p你要去武斗送信\n还要去凯那送包裹，那么？\p你一定经历了非常忙碌的生活！\p当然，你的请求\n我答应了。\p你找对人了！\n我们就是要去武斗。$"
+    .string "嗯？你是{PLAYER}{KUN}！\n你救了我心爱的小皮！\l我们欠你的人情！\p什么？\n你想要和我一起出航？\p嗯……\p你要去武斗送信\n还要去凯那送包裹，那么？\p你一定经历了非常忙碌的生活！\p当然，你的请求\n我答应了。\p你找对人了！\n我们就是要去武斗。$"
 
 Route104_MrBrineysHouse_Text_SetSailForDewford:
     .string "哈奇：目标武斗！\p起锚！\n小皮，亲爱的，我们出发了！$"

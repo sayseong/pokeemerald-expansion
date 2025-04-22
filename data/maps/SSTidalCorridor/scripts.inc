@@ -254,7 +254,7 @@ SSTidalCorridor_Movement_SailorReturn:
 	step_end
 
 SSTidalCorridor_Text_ScottBattleFrontierInvite:
-    .string "亚希达：哦，嘿！\n{PLAYER}{KUN}，{PLAYER}{KUN}！\p出了点事，我要下船\n一趟，但很高兴见到你！\p祝贺你成为联盟冠军！\p我想邀请像你这样的人\n去一个地方，\p那就是…\n对战开拓区！\p那是什么地方？\n你去了就知道了！\p我已经和船长\n说好了，\p你下次坐船的时候，\n就可以选择去\l对战开拓区了。\p就这样，{PLAYER}{KUN}，我会在\n对战开拓区等你的！$"
+    .string "亚希达：哦，嘿！\n{PLAYER}{KUN}，{PLAYER}{KUN}！\p出了点事，我要下船\n一趟，但很高兴见到你！\p祝贺你成为联盟冠军！\p我想邀请像你这样的人\n去一个地方，\p那就是……\n对战开拓区！\p那是什么地方？\n你去了就知道了！\p我已经和船长\n说好了，\p你下次坐船的时候，\n就可以选择去\l对战开拓区了。\p就这样，{PLAYER}{KUN}，我会在\n对战开拓区等你的！$"
 
 SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage:
     .string "这艘船是为了驶过急流\n而专门建造的。\p我们希望能和你共度美好的旅程。\n请自由参观本渡轮。$"
@@ -284,10 +284,10 @@ SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole:
     .string "舷窗外地平线\n愈加宽广。$"
 
 SSTidalCorridor_Text_BrineyWelcomeAboard:
-    .string "哈奇：欢迎上船，{PLAYER}{KUN}！\p我被选作破浪号的\n荣誉船长了！\p现在你可以叫我船长哈奇了！\p其实我已经是退休的人了，\n但当我看见这艘豪华的渡轮时…\p可以说，它唤醒了我心中的\n水手之魂！$"
+    .string "哈奇：欢迎上船，{PLAYER}{KUN}！\p我被选作破浪号的\n荣誉船长了！\p现在你可以叫我船长哈奇了！\p其实我已经是退休的人了，\n但当我看见这艘豪华的渡轮时……\p可以说，它唤醒了我心中的\n水手之魂！$"
 
 SSTidalCorridor_Text_Peeko:
-    .string "小皮：皮卡皮卡…$"
+    .string "小皮：皮卡皮卡……$"
 
 SSTidalCorridor_Text_Cabin1:
     .string "1号船舱$"

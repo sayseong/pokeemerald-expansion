@@ -271,10 +271,10 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext::
 	end
 
 RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
-    .string "我们在开发与宝可梦\n交谈的装置，\p但进展并不理想…$"
+    .string "我们在开发与宝可梦\n交谈的装置，\p但进展并不理想……$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls:
-    .string "我在开发新型\n精灵球…\p但还没什么进展…$"
+    .string "我在开发新型\n精灵球……\p但还没什么进展……$"
 
 RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
     .string "我们终于开发出了\n新型精灵球！\p用重复球抓曾经\n抓到过的宝可梦更容易，\p战斗拖得久的话用时间球\n能很方便抓到宝可梦。\p这都是我们\n得文公司的发明，\p一定要试试啊！$"
@@ -283,16 +283,16 @@ RustboroCity_DevonCorp_2F_Text_IMadePokenav:
     .string "我开发了宝可梦导航仪！\p作为一个工程师，能开发出\n这么伟大的工具是我的幸运！$"
 
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
-    .string "哇！\n那是宝可梦导航仪！\p因为我们社长想要\n了解宝可梦的感受，\l才会有这东西的构想。\p你要我想你详细\n讲解一下它的功能吗？\p啊，不，不，我想你会在试用\n我们的宝可梦导航仪时慢慢摸索出来的。$"
+    .string "哇！\n那是宝可梦导航仪！\p因为我们社长想要\n了解宝可梦的感受，\l才会有这东西的构想。\p你要我想你详细\n讲解一下它的功能吗？\p啊，不，不，我想你会在试用我们的\n宝可梦导航仪时慢慢摸索出来的。$"
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
-    .string "我在开发一种能\n将宝可梦的梦境\l投影出来的装置…\p但进展不理想。$"
+    .string "我在开发一种能\n将宝可梦的梦境\l投影出来的装置……\p但进展不理想。$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
-    .string "我开发了一种能使\n化石中的宝可梦复活的装置…\p现在运转良好！$"
+    .string "我开发了一种能使\n化石中的宝可梦复活的装置……\p现在运转良好！$"
 
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
-    .string "什么！你拿着的…\n是宝可梦化石吗？\p你想复活\n那只宝可梦吗？\p用我新开发的\n化石重生器就能做到。$"
+    .string "什么！你拿着的……\n是宝可梦化石吗？\p你想复活\n那只宝可梦吗？\p用我新开发的\n化石重生器就能做到。$"
 
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
     .string "是吗？\p告诉你，得文的技术知识\n是最优秀的。$"
@@ -304,7 +304,7 @@ RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
     .string "太好了！\n我们这就开始。\p{PLAYER}把{STR_VAR_1}\n交给了得文研究员。$"
 
 RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
-    .string "我研发的化石重生器\n极棒，\p但它有个缺点——\n花的时间太久。\p所以，呃…\n你可以暂时出去转转。$"
+    .string "我研发的化石重生器\n极棒，\p但它有个缺点——\n花的时间太久。\p所以，呃……\n你可以暂时出去转转。$"
 
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
     .string "久等了！\p变成化石的宝可梦\n复活了！\p这个化石是一种古代的宝可梦，\n{STR_VAR_2}！$"
@@ -317,7 +317,7 @@ RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
     .string "噢，你带的宝可梦太多了。\n已经没有空位了。$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
-    .string "我在为宝可梦导航仪\n开发新功能…\p但还没什么进展。$"
+    .string "我在为宝可梦导航仪\n开发新功能……\p但还没什么进展。$"
 
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
     .string "唔，下面我\n该开发什么？\p我们公司允许我们\n将自己的灵感变成现实。\p作为工程师，再也找不到\n更好的工作环境了。$"

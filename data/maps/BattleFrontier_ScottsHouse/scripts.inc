@@ -212,10 +212,10 @@ BattleFrontier_ScottsHouse_EventScript_ScottFaceAwayWest::
 	return
 
 BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier:
-    .string "亚希达：啊，欢迎！\n呵呵呵…抱歉来的时候有点挤。\p不管如何，{PLAYER}{KUN}，请让我\n正式欢迎你来到对战开拓区。\p这个地方就是我的梦想。\n经过了一年又一年，直到今天，\l我的梦想终于可以实现了。$"
+    .string "亚希达：啊，欢迎！\n呵呵呵……抱歉来的时候有点挤。\p不管如何，{PLAYER}{KUN}，请让我\n正式欢迎你来到对战开拓区。\p这个地方就是我的梦想。\n经过了一年又一年，直到今天，\l我的梦想终于可以实现了。$"
 
 BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal:
-    .string "回头想想，这一路\n还真是走了很久很久…\p我独自离开家乡，\n只为寻找强大的训练家。\p谁也无法算清我在这一路上\n究竟付出了多少时间与汗水。$"
+    .string "回头想想，这一路\n还真是走了很久很久……\p我独自离开家乡，\n只为寻找强大的训练家。\p谁也无法算清我在这一路上\n究竟付出了多少时间与汗水。$"
 
 BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing:
     .string "但那些都已经过去了，\n没必要紧盯着过去不放！\p现在，从心底里好好享受\n在这里的战斗吧！\p{PLAYER}{KUN}，这个送给你，\n就作为我们那屡次交错的旅程\l的纪念吧。$"
@@ -236,13 +236,13 @@ BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain:
     .string "亚希达：你与开拓之脑\n交过手了吗？\p你得到了他们的\n象征了吗？\p开拓之脑是我从世界各地\n挑选出来的最强训练家，\p但我能肯定，看到你的能力，\n他们也会被吓一跳！$"
 
 BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
-    .string "亚希达：你的目标不只是战斗吧？\n对吗？\p我好像还记得你也在\n收集宝可梦图鉴。\p想知道一个好消息吗？\p在对战开拓区某处\n你也能碰到野生宝可梦…\l哈哈哈！$"
+    .string "亚希达：你的目标不只是战斗吧？\n对吗？\p我好像还记得你也在\n收集宝可梦图鉴。\p想知道一个好消息吗？\p在对战开拓区某处\n你也能碰到野生宝可梦……\l哈哈哈！$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
-    .string "亚希达：在对战开拓区\n玩得还高兴吗？\p…等等…\n啊！\p你的开拓通行证！\n你已经收集到了\l所有的银色象征！\p简直太不可置信了！\n和我预想中一样，你真的非常非常强！\p虽说通常我不会做这些，\n不过这次就让我破例一回！\p这个送给你，\n你肯定能善加利用的。$"
+    .string "亚希达：在对战开拓区\n玩得还高兴吗？\p……等等……\n啊！\p你的开拓通行证！\n你已经收集到了\l所有的银色象征！\p简直太不可置信了！\n和我预想中一样，你真的非常非常强！\p虽说通常我不会做这些，\n不过这次就让我破例一回！\p这个送给你，\n你肯定能善加利用的。$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
-    .string "亚希达：希望你喜欢\n我的对战开拓区。\p…等等…\n啊，我不是眼花了吧！\p你的开拓通行证！\n你已经收集到了\l所有的金色象征！\p太了不起了！\n和我预想中一样，你真是个不可思议的人！\p… … … … … …\p{PLAYER}，你一定得收下这个！\p是你的话，一定能识得\n我的礼物的价值的！$"
+    .string "亚希达：希望你喜欢\n我的对战开拓区。\p……等等……\n啊，我不是眼花了吧！\p你的开拓通行证！\n你已经收集到了\l所有的金色象征！\p太了不起了！和我预想中一样，\n你真是个不可思议的人！\p…… …… ……\p{PLAYER}，你一定得收下这个！\p是你的话，一定能识得\n我的礼物的价值的！$"
 
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
     .string "我可是有天赋的，可以第一眼就\n看出训练家的实力。\p真高兴我的先见让我\n把你带到了这里！$"

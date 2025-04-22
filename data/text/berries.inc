@@ -5,7 +5,7 @@ Route104_Text_PlantBerriesInSoilTakeThis::
     .string "你可以随意取走生长在\n松软的土壤里的树果，\p但记住离开之前一定要在同一个地方\n种下一枚树果，这是约定俗成的习惯。\p这个给你吧。$"
 
 Route104_Text_TrainersOftenMakeMonHoldBerries::
-    .string "看上去…你一定\n是训练家吧？\p训练家经常会给他们的宝可梦\n带上树果。\p当然，得到树果后是种植\n还是使用都取决于你自己。$"
+    .string "看上去……你一定\n是训练家吧？\p训练家经常会给他们的宝可梦\n带上树果。\p当然，得到树果后是种植\n还是使用都取决于你自己。$"
 
 Route111_Text_WateredPlantsEveryDayTakeBerry::
     .string "我每天都来给它们浇水，\n所以这里开了这么多的花，\l当然，我也收获了非常多的树果。\p给！这个送给你了！$"
@@ -32,7 +32,7 @@ Route120_Text_YesYouUnderstand::
     .string "啊，没错，没错，\n看来你明白我说的话了。\p这个给你吧。$"
 
 Route120_Text_MakeYourOwnImpressions::
-    .string "啊…也对，有自己的想法\n才是最重要的…\p这个给你吧。$"
+    .string "啊……也对，有自己的想法\n才是最重要的……\p这个给你吧。$"
 
 Route120_Text_BerryIsRareRaiseItWithCare::
     .string "这可是个很少见的树果，\n希望你能用你的爱去照顾它成长。$"
@@ -41,13 +41,13 @@ Route120_Text_IllGetMoreBerriesFromBerryMaster::
     .string "我会从树果大师那儿\n得到更多树果。$"
 
 LilycoveCity_Text_BerrySuitsYou::
-    .string "要怎么说呢…\p就像我适合穿套装，\n海风适合在海边吹一样，\p你适合拥有树果…\p为什么呢？$"
+    .string "要怎么说呢……\p就像我适合穿套装，\n海风适合在海边吹一样，\p你适合拥有树果……\p为什么呢？$"
 
 LilycoveCity_Text_BecauseYoureTrainer::
-    .string "要怎么说呢…\p就因为你是训练家！$"
+    .string "要怎么说呢……\p就因为你是训练家！$"
 
 LilycoveCity_Text_PokeblocksSuitPokemon::
-    .string "要怎么说呢…\p就像简单对我的胃口一样，\n宝可方块也要对宝可梦胃口。$"
+    .string "要怎么说呢……\p就像简单对我的胃口一样，\n宝可方块也要对宝可梦胃口。$"
 
 Route123_BerryMastersHouse_Text_YoureDeservingOfBerry::
     .string "你可以叫我树果大师，\p我始终梦想着让鲜花开满\n世界各地，所以我种植树果\l并把它们交托给遇见的每一个人。\p收下这个吧！$"
@@ -74,7 +74,7 @@ Route123_BerryMastersHouse_Text_JoyNeverGoesOutOfMyLife::
     .string "我们的四个孙子\n肯定会比老头子干得更好的，\p我的生活里始终都充满了快乐！$"
 
 Route123_BerryMastersHouse_Text_Ah::
-    .string "啊…$"
+    .string "啊……$"
 
 Route104_PrettyPetalFlowerShop_Text_ThisIsPrettyPetalFlowerShop::
     .string "欢迎！\p这里是花店。\n我们的目标是让鲜花开满全世界！$"
@@ -104,7 +104,7 @@ Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries::
     .string "你可以把树果种到土里让它长大，\n也可以让宝可梦带上它，\p现在还有另一种选择，用一种\n特别的机器混合树果\l为宝可梦制作糖果。\p我也想要些糖果啊。$"
 
 SootopolisCity_Text_NameIsKiriHaveOneOfThese::
-    .string "你叫什么名字啊？\p… … … … … … … … …\n嗯，真是个好名字\p我叫小桐，\p爸爸妈妈希望我健康长大，而且热心助人，\n所以给我起了这个名字。\p这个给你一个吧。$"
+    .string "你叫什么名字啊？\p…… …… …… …… ……\n嗯，真是个好名字\p我叫小桐，\p爸爸妈妈希望我健康长大且热心\n助人，所以给我起了这个名字。\p这个给你一个吧。$"
 
 SootopolisCity_Text_GiveYouThisBerryToo::
     .string "小桐也会给你这种树果的！\n我真的很喜欢它！$"
@@ -113,10 +113,10 @@ SootopolisCity_Text_WhatKindOfWishInYourName::
     .string "你的名字里\n会包含了什么样的期望呢？$"
 
 SootopolisCity_Text_LikeSeasonBornIn::
-    .string "春，夏，秋，冬…\p春天出生的人喜欢春天\n冬天出生的人喜欢冬天吗？$"
+    .string "春，夏，秋，冬……\p春天出生的人喜欢春天\n冬天出生的人喜欢冬天吗？$"
 
 SootopolisCity_Text_ThenILoveAutumn::
     .string "那么，小桐是秋天出生的，\n所以一定喜欢秋天！\p你喜欢什么季节？$"
 
 SootopolisCity_Text_OhDoesntMatter::
-    .string "啊…没关系…\n我想知道的事情太多了…$"
+    .string "啊……没关系……\n我想知道的事情太多了……$"

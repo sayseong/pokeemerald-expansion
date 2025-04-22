@@ -302,7 +302,7 @@ Route110_TrickHousePuzzle3_EventScript_Alan::
 	end
 
 Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened:
-    .string "{PLAYER}在门上写下\n密码。\p“戏法大师令人仰慕”\n… … … … … … … …\p锁“咔嗒”一声开了！$"
+    .string "{PLAYER}在门上写下\n密码。\p“戏法大师令人仰慕”\n…… …… …… ……\p锁“咔嗒”一声开了！$"
 
 Route110_TrickHousePuzzle3_Text_JustinIntro:
     .string "我总是会绕回相同的地方！$"
@@ -314,10 +314,10 @@ Route110_TrickHousePuzzle3_Text_JustinPostBattle:
     .string "这儿到处都是门！\n太狭窄、太黑了！救命！$"
 
 Route110_TrickHousePuzzle3_Text_MarthaIntro:
-    .string "我不知道这儿发生了什么，\n我开始感到伤心了…$"
+    .string "我不知道这儿发生了什么，\n我开始感到伤心了……$"
 
 Route110_TrickHousePuzzle3_Text_MarthaDefeat:
-    .string "你…你真讨厌！$"
+    .string "你……你真讨厌！$"
 
 Route110_TrickHousePuzzle3_Text_MarthaPostBattle:
     .string "我知道我很弱！\n而且我还没有方向感！$"

@@ -55,7 +55,7 @@ SootopolisCity_Gym_B1F_Text_AndreaIntro:
     .string "给你看看我从馆主亚当那里\n学到的超凡的技术！$"
 
 SootopolisCity_Gym_B1F_Text_AndreaDefeat:
-    .string "请原谅我，亚当…$"
+    .string "请原谅我，亚当……$"
 
 SootopolisCity_Gym_B1F_Text_AndreaPostBattle:
     .string "看看踩碎所有地板后\n会发生什么吧。$"
@@ -70,13 +70,13 @@ SootopolisCity_Gym_B1F_Text_CrissyPostBattle:
     .string "你也许能够躲过\n被亚当一击打倒的命运。$"
 
 SootopolisCity_Gym_B1F_Text_DaphneIntro:
-    .string "亚当战斗时的\n样子…\p我被那令人心醉的美丽吸引，\n才决定成为训练家。$"
+    .string "亚当战斗时的\n样子……\p我被那令人心醉的美丽吸引，\n才决定成为训练家。$"
 
 SootopolisCity_Gym_B1F_Text_DaphneDefeat:
-    .string "你的战斗比我\n更加美丽…$"
+    .string "你的战斗比我\n更加美丽……$"
 
 SootopolisCity_Gym_B1F_Text_DaphnePostBattle:
-    .string "你的战斗\n非常优雅。\p啊…跟宝可梦在一起\n真幸运。$"
+    .string "你的战斗\n非常优雅。\p啊……跟宝可梦在一起\n真幸运。$"
 
 SootopolisCity_Gym_B1F_Text_ConnieIntro:
     .string "让我告诉你\n战斗的严酷吧。$"
@@ -88,7 +88,7 @@ SootopolisCity_Gym_B1F_Text_ConniePostBattle:
     .string "告诉你一件事吧。\p如果你想走到亚当那儿，\n就得在每块地板上走过一次。$"
 
 SootopolisCity_Gym_B1F_Text_BridgetIntro:
-    .string "丰缘地区最高水平的\n宝可梦道馆…\p就是琉璃市道馆。$"
+    .string "丰缘地区最高水平的\n宝可梦道馆……\p就是琉璃市道馆。$"
 
 SootopolisCity_Gym_B1F_Text_BridgetDefeat:
     .string "你的水平更高！$"
@@ -100,13 +100,13 @@ SootopolisCity_Gym_B1F_Text_OliviaIntro:
     .string "我和亚当一起\n训练宝可梦，\p别以为你能轻易打倒我。$"
 
 SootopolisCity_Gym_B1F_Text_OliviaDefeat:
-    .string "我被打败了…$"
+    .string "我被打败了……$"
 
 SootopolisCity_Gym_B1F_Text_OliviaPostBattle:
     .string "看来你有潜力，\n为何不和我们一起训练呢？$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyIntro:
-    .string "优雅地滑过冰面，\n道路却没有交叉…\p能做到这一点的训练家\n才拥有最高雅的美丽！$"
+    .string "优雅地滑过冰面，\n道路却没有交叉……\p能做到这一点的训练家\n才拥有最高雅的美丽！$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyDefeat:
     .string "啊，打扰了。$"
@@ -130,14 +130,14 @@ SootopolisCity_Gym_B1F_Text_AnnikaDefeat:
     .string "哎呀！你仔细看过\n我的宝可梦了吗？$"
 
 SootopolisCity_Gym_B1F_Text_AnnikaPostBattle:
-    .string "我来到这道馆只因\n亚当会欣赏我亲爱的宝可梦。\p啊，如果我还年轻的时候\n就碰到了亚当多好…$"
+    .string "我来到这道馆只因\n亚当会欣赏我亲爱的宝可梦。\p啊，如果我还年轻的时候\n就碰到了亚当多好……$"
 
 SootopolisCity_Gym_B1F_Text_BriannaIntro:
-    .string "嘻嘻…\n你那严肃的面孔真迷人。$"
+    .string "嘻嘻……\n你那严肃的面孔真迷人。$"
 
 SootopolisCity_Gym_B1F_Text_BriannaDefeat:
     .string "呀，天啊，\n我太小看你了。$"
 
 SootopolisCity_Gym_B1F_Text_BriannaPostBattle:
-    .string "你根本不可能擦到亚当，\n嘻嘻，我肯定…$"
+    .string "你根本不可能擦到亚当，\n嘻嘻，我肯定……$"
 

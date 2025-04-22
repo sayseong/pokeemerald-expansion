@@ -278,16 +278,16 @@ DewfordTown_Hall_Text_NotEasyToKeepUp:
     .string "什么？！\n真的？！\p对我这样的老人来说，\n已经很难追上潮流了！$"
 
 DewfordTown_Hall_Text_TVShowAboutTrend:
-    .string "说到关于\n“{STR_VAR_1}”的事…\l不是有部关于它的电视剧吗？$"
+    .string "说到关于\n“{STR_VAR_1}”的事……\l不是有部关于它的电视剧吗？$"
 
 DewfordTown_Hall_Text_IsTrendMorePopularAcrossSea:
-    .string "在海的另一侧…\p“{STR_VAR_1}”\n比这里更流行吗？$"
+    .string "在海的另一侧……\p“{STR_VAR_1}”\n比这里更流行吗？$"
 
 DewfordTown_Hall_Text_CollectTrendMerchandise:
-    .string "我收集经过官方认证的\n“{STR_VAR_1}”\l商品。\p我有官方\n“{STR_VAR_1}”玩偶…\p“{STR_VAR_1}”牌\n服装的真品…\p还有官方认证的\n“{STR_VAR_1}”\l图画书。\p呵呵呵，全是我的！\n我什么也不会给你！$"
+    .string "我收集经过官方认证的\n“{STR_VAR_1}”\l商品。\p我有官方\n“{STR_VAR_1}”玩偶……\p“{STR_VAR_1}”牌\n服装的真品……\p还有官方认证的\n“{STR_VAR_1}”\l图画书。\p呵呵呵，全是我的！\n我什么也不会给你！$"
 
 DewfordTown_Hall_Text_BooksAboutTrend:
-    .string "确认好的\n“{STR_VAR_1}”&\l坏的“{STR_VAR_1}”…\p这两者\n“{STR_VAR_1}”和\l宝可梦之间的关系…\p有用的\n“{STR_VAR_1}”…\p整整齐齐地排列着关于\n“{STR_VAR_1}”的书。$"
+    .string "确认好的\n“{STR_VAR_1}”&\l坏的“{STR_VAR_1}”……\p这两者\n“{STR_VAR_1}”和\l宝可梦之间的关系……\p有用的\n“{STR_VAR_1}”……\p整整齐齐地排列着关于\n“{STR_VAR_1}”的书。$"
 
 DewfordTown_Hall_Text_TrendsScream:
     .string "标题是“{STR_VAR_1}的\n尖叫”。$"
@@ -305,13 +305,13 @@ DewfordTown_Hall_Text_SawTrendCoolestThing:
     .string "我看过“{STR_VAR_1}”！\n厉害吧？\p它就像，呃，最酷的东西！\p非常棒！\n都是真的！$"
 
 DewfordTown_Hall_Text_AllegedTrendNotAuthentic:
-    .string "啊，不不不。\p你说你看到过的\n“{STR_VAR_1}”\l——那是不可能的。\p有凭有据的文章更…\n怎么说，\l更尖锐，更丰富！\p啊，没什么，太惊讶了！$"
+    .string "啊，不不不。\p你说你看到过的\n“{STR_VAR_1}”\l——那是不可能的。\p有凭有据的文章更……\n怎么说，\l更尖锐，更丰富！\p啊，没什么，太惊讶了！$"
 
 DewfordTown_Hall_Text_ComposedTrendThemeSong:
-    .string "嘿，听好，我为\n“{STR_VAR_1}”作了曲。\p“{STR_VAR_1}”\n现在真的非常流行。\p好了，听着！\n… …\p哦！\n{STR_VAR_1}！\p美丽的\n{STR_VAR_1}！$"
+    .string "嘿，听好，我为\n“{STR_VAR_1}”作了曲。\p“{STR_VAR_1}”\n现在真的非常流行。\p好了，听着！\n……\p哦！\n{STR_VAR_1}！\p美丽的\n{STR_VAR_1}！$"
 
 DewfordTown_Hall_Text_WorkOnYourSinging:
-    .string "… …\p我说，小子，\n你沉迷进\l“{STR_VAR_1}”之前\l能不能先学会怎么唱歌？$"
+    .string "……\p我说，小子，\n你沉迷进\l“{STR_VAR_1}”之前\l能不能先学会怎么唱歌？$"
 
 DewfordTown_Hall_Text_OrganizeTrendParty:
     .string "无论如何，就像我\n之前说的，我们该在\l这个小岛上开个\l“{STR_VAR_1}”聚会。$"
@@ -320,7 +320,7 @@ DewfordTown_Hall_Text_BrilliantIndeed:
     .string "啊，真美妙的主意！\p我们可以邀请\n所有热爱\l“{STR_VAR_1}”的人。\l绝妙的主意，真的！\p今天就开始吧，我们生活的中心就是\n“{STR_VAR_1}”！$"
 
 DewfordTown_Hall_Text_TrendHasBecomePartOfLife:
-    .string "我想…\p你不认为\n“{STR_VAR_1}”已\l超越了潮流，成为\l我们日常生活的一部分了吗？$"
+    .string "我想……\p你不认为\n“{STR_VAR_1}”已\l超越了潮流，成为\l我们日常生活的一部分了吗？$"
 
 DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind:
     .string "什么？\n刚才你说的什么？\p但是，无论你醒着还是睡着，\n“{STR_VAR_1}”\l在你心中无疑都\l占有重大的地位。\p毫无疑问，你是\n“{STR_VAR_1}”\l博士！$"

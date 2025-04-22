@@ -272,60 +272,60 @@ BattleFrontier_BattlePike_EventScript_CloseCurtain::
 	return
 
 BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
-    .string "在这里，训练家的运气将\n受到考验…\p欢迎来到对战管道…\p我是你对战管道的指导…$"
+    .string "在这里，训练家的运气将\n受到考验……\p欢迎来到对战管道……\p我是你对战管道的指导……$"
 
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
     .string "你要进行对战管道\n的挑战吗？$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
-    .string "我们在这里进行名叫\n选择式对战的比赛。\p选择式对战的规则\n很简单…\p在三条道路中选择一条\n在对战管道的最后\l要到达目的地房间。这很简单。\p然而，在选择的道路上会\n发生什么事完全取决于\l挑战者的运气…\p如果你达到了目标，你会被\n授予对战点数。\p如果你要中断挑战，\n请和路上大房间里的\l人员谈话。\p如果在中断之前不保存，\n就无法继续挑战。$"
+    .string "我们在这里进行名叫\n选择式对战的比赛。\p选择式对战的规则\n很简单……\p在三条道路中选择一条\n在对战管道的最后\l要到达目的地房间。这很简单。\p然而，在选择的道路上会\n发生什么事完全取决于\l挑战者的运气……\p如果你达到了目标，你会被\n授予对战点数。\p如果你要中断挑战，\n请和路上大房间里的\l人员谈话。\p如果在中断之前不保存，\n就无法继续挑战。$"
 
 BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou:
-    .string "我们期待着在别的场合\n见到你…$"
+    .string "我们期待着在别的场合\n见到你……$"
 
 BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode:
     .string "你有两个选择，\n50级和自由级。\l你要挑战哪个？$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
-    .string "请原谅，但…\p你没有三只符合选择式对战\n条件的宝可梦。\p你要参加必须要有\n三只不同的50级以下的宝可梦。\p他们还不能持有相同\n的道具。\p蛋{STR_VAR_1}是不行的。\p请你准备好了\n来见我…$"
+    .string "请原谅，但……\p你没有三只符合选择式对战\n条件的宝可梦。\p你要参加必须要有\n三只不同的50级以下的宝可梦。\p他们还不能持有相同\n的道具。\p蛋{STR_VAR_1}是不行的。\p请你准备好了\n来见我……$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "请原谅，但…\p你没有三只符合选择式对战\n条件的宝可梦。\p你要参加必须要有\n三只不同的宝可梦。\p他们还不能持有相同\n的道具。\p蛋{STR_VAR_1}是不行的。\p请你准备好了\n来见我…$"
+    .string "请原谅，但……\p你没有三只符合选择式对战\n条件的宝可梦。\p你要参加必须要有\n三只不同的宝可梦。\p他们还不能持有相同\n的道具。\p蛋{STR_VAR_1}是不行的。\p请你准备好了\n来见我……$"
 
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
-    .string "请选择三只你要参加\n挑战的宝可梦…$"
+    .string "请选择三只你要参加\n挑战的宝可梦……$"
 
 BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge:
     .string "在你开始战斗之前，\n我必须保存游戏。\l可以吗？$"
 
 BattleFrontier_BattlePikeLobby_Text_StepThisWay:
-    .string "请走这边…$"
+    .string "请走这边……$"
 
 BattleFrontier_BattlePikeLobby_Text_ChallengeEndedRecordResults:
-    .string "你的挑战结束了…\p我要记录你的结果。\n请稍等…$"
+    .string "你的挑战结束了……\p我要记录你的结果。\n请稍等……$"
 
 BattleFrontier_BattlePikeLobby_Text_PossessLuckInAbundance:
-    .string "你完成了挑战…\p我必须说…你好像拥有\n巨大的运气…$"
+    .string "你完成了挑战……\p我必须说……你好像拥有\n巨大的运气……$"
 
 BattleFrontier_BattlePikeLobby_Text_ShallRecordResults:
-    .string "我要记录你的结果。\n请稍等…$"
+    .string "我要记录你的结果。\n请稍等……$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
-    .string "为庆祝你完成\n对战管道的挑战，我们\l授予你这些对战点数…$"
+    .string "为庆祝你完成\n对战管道的挑战，我们\l授予你这些对战点数……$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:
-    .string "看起来你已经得到足够多\n的对战点数…\p请用对战点数\n交换奖品后再回来…$"
+    .string "看起来你已经得到足够多\n的对战点数……\p请用对战点数\n交换奖品后再回来……$"
 
 BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting:
-    .string "请原谅，但…\p你上次退出挑战之前\n没有存档。\p因为这，到目前为止你的\n挑战无效。很抱歉…$"
+    .string "请原谅，但……\p你上次退出挑战之前\n没有存档。\p因为这，到目前为止你的\n挑战无效。很抱歉……$"
 
 BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
-    .string "恭喜…\p你从水管皇后那取得了胜利\n并完成了任务…$"
+    .string "恭喜……\p你从水管皇后那取得了胜利\n并完成了任务……$"
 
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints:
-    .string "为了对你非凡的运气表示认可，\n我们授予你这些对战点数…$"
+    .string "为了对你非凡的运气表示认可，\n我们授予你这些对战点数……$"
 
 BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal:
     .string "啊！我失去了机会！\n我走错了房间！\p在这里，你要当心\n毒，冰冻，等其它的。$"

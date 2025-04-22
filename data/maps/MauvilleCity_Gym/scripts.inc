@@ -275,7 +275,7 @@ MauvilleCity_Gym_Text_ShawnIntro:
     .string "我跟着铁旋训练，\n不会轻易输给你的！$"
 
 MauvilleCity_Gym_Text_ShawnDefeat:
-    .string "电源被拔掉了…$"
+    .string "电源被拔掉了……$"
 
 MauvilleCity_Gym_Text_ShawnPostBattle:
     .string "我们的道馆馆主铁旋\n在这里已经很久很久了，\p你爸爸出生前\n他就在战斗。$"
@@ -284,7 +284,7 @@ MauvilleCity_Gym_Text_BenIntro:
     .string "道馆里有谜题！\n很好玩吧？$"
 
 MauvilleCity_Gym_Text_BenDefeat:
-    .string "输了一点也不好玩…$"
+    .string "输了一点也不好玩……$"
 
 MauvilleCity_Gym_Text_BenPostBattle:
     .string "铁旋说他喜欢\n弄些开关控制的小机关。$"
@@ -302,7 +302,7 @@ MauvilleCity_Gym_Text_AngeloIntro:
     .string "我喜欢闪光的东西！$"
 
 MauvilleCity_Gym_Text_AngeloDefeat:
-    .string "呀…\n眼睛花了…$"
+    .string "呀……\n眼睛花了……$"
 
 MauvilleCity_Gym_Text_AngeloPostBattle:
     .string "紫堇市道馆的铁旋额头上\n总是闪着光，我好兴奋！$"
@@ -317,10 +317,10 @@ MauvilleCity_Gym_Text_ReceivedDynamoBadge:
     .string "{PLAYER}从铁旋处\n得到了电力徽章。$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
-    .string "有了电力徽章，宝可梦\n可以在战斗外使用碎岩，\p而且你的宝可梦的速度\n也会变快一点。\p嗯…\n这个也给你吧！$"
+    .string "有了电力徽章，宝可梦\n可以在战斗外使用碎岩，\p而且你的宝可梦的速度\n也会变快一点。\p嗯……\n这个也给你吧！$"
 
 MauvilleCity_Gym_Text_ExplainShockWave:
-    .string "招式学习器34里面是电击波，\p这是绝对不会打空的\n可靠招式！值得你信赖！\p… … … … … …$"
+    .string "招式学习器34里面是电击波，\p这是绝对不会打空的\n可靠招式！值得你信赖！\p…… …… ……$"
 
 MauvilleCity_Gym_Text_RegisteredWattson:
     .string "把道馆馆主铁旋的信息\n登记进宝可梦导航仪里。$"
@@ -341,7 +341,7 @@ MauvilleCity_Gym_Text_WattsonPreRematch:
     .string "铁旋：啊哈！终于又回来了！\n我知道你想做什么，\l你想和我的宝可梦战斗！\p啊哈哈哈哈！\p我会用我的电火花包围你的！\n别说我没警告过你！$"
 
 MauvilleCity_Gym_Text_WattsonRematchDefeat:
-    .string "唔…\n我们的电池耗光了…$"
+    .string "唔……\n我们的电池耗光了……$"
 
 MauvilleCity_Gym_Text_WattsonPostRematch:
     .string "铁旋：我们还要\n继续充电，\p充满电之后，我们很乐意\n再次接受你的挑战。\p所以一定要再来，\n好吗？$"

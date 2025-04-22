@@ -43,10 +43,10 @@ MtPyre_2F_EventScript_Zander::
 	end
 
 MtPyre_2F_Text_MemoriesOfSkitty:
-    .string "一想到我亲爱的向尾喵…\n眼睛里总会不知不觉地蓄满泪水。$"
+    .string "一想到我亲爱的向尾喵……\n眼睛里总会不知不觉地蓄满泪水。$"
 
 MtPyre_2F_Text_TumbledFromFloorAbove:
-    .string "啊噢…地上\n到处都是洞，\p我一个不小心\n从楼上掉下来了。$"
+    .string "啊噢……地上\n到处都是洞，\p我一个不小心\n从楼上掉下来了。$"
 
 MtPyre_2F_Text_MarkIntro:
     .string "嘿！你也是来找宝可梦的吗？\n一直跟着我干什么！你这无礼的家伙！$"
@@ -82,13 +82,13 @@ MtPyre_2F_Text_DezNotEnoughMons:
     .string "真子：如果想挑战我们，你至少\n得带两只宝可梦。\p我的男友很强，\n仅仅一只宝可梦没用的喔。$"
 
 MtPyre_2F_Text_LeahIntro:
-    .string "生面孔呢…\n在什么都没发生前快离开！$"
+    .string "生面孔呢……\n在什么都没发生前快离开！$"
 
 MtPyre_2F_Text_LeahDefeat:
-    .string "哼…\n你还挺难对付嘛。$"
+    .string "哼……\n你还挺难对付嘛。$"
 
 MtPyre_2F_Text_LeahPostBattle:
-    .string "从我曾祖母时代起，我们家族的人\n便是一直这里的训练家…\p守护这座山是\n我的责任…$"
+    .string "从我曾祖母时代起，我们家族的人\n便是一直这里的训练家……\p守护这座山是\n我的责任……$"
 
 MtPyre_2F_Text_ZanderIntro:
     .string "呀啊啊啊！！\n我好害怕啊！$"
@@ -97,5 +97,5 @@ MtPyre_2F_Text_ZanderDefeat:
     .string "不----！\n我输了！$"
 
 MtPyre_2F_Text_ZanderPostBattle:
-    .string "每次看到什么东西活动\n我就会被吓一跳…\p我真不该来这里训练…$"
+    .string "每次看到什么东西活动\n我就会被吓一跳……\p我真不该来这里训练……$"
 

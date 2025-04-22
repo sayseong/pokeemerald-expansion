@@ -118,13 +118,13 @@ SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull1:
     .string "嗯？\n你的包包已经塞满了。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot:
-    .string "{STR_VAR_2}厘米是吗？\p唔…我见过\n比这更大的橡实果。$"
+    .string "{STR_VAR_2}厘米是吗？\p唔……我见过\n比这更大的橡实果。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotSeedot:
-    .string "哎，这看上去不错…\n但它不是橡实果！$"
+    .string "哎，这看上去不错……\n但它不是橡实果！$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot:
-    .string "你没有大的橡实果？\n真糟糕…\p如果你有大橡实果，\n就拿给我看看吧。$"
+    .string "你没有大的橡实果？\n真糟糕……\p如果你有大橡实果，\n就拿给我看看吧。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
     .string "史上最大的橡实果！\n{STR_VAR_2}的{STR_VAR_3}厘米大的巨物！\p比莲叶童子更大的橡实果\n总是人们追寻的东西！$"
@@ -143,13 +143,13 @@ SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2:
     .string "嗯？\n你的包包已经塞满了。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad:
-    .string "{STR_VAR_2}厘米？\p唔…我还见过\n比它更大的莲叶童子。$"
+    .string "{STR_VAR_2}厘米？\p唔……我还见过\n比它更大的莲叶童子。$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad:
     .string "哎，这个不错！\n但不是莲叶童子！$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad:
-    .string "你没有大的莲叶童子？\n真可惜…\p如果你得到了大莲叶童子，\n一定要给我看看！$"
+    .string "你没有大的莲叶童子？\n真可惜……\p如果你得到了大莲叶童子，\n一定要给我看看！$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory:
     .string "史上最大的莲叶童子！\n{STR_VAR_2}的{STR_VAR_3}厘米大的巨物！\p比橡实果更大的莲叶童子\n总是人们追寻的东西！$"

@@ -252,4 +252,4 @@ NewMauville_Inside_Text_GeneratorQuietedDown:
     .string "发电机停止了。$"
 
 NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
-    .string "{PLAYER}踏上了开关。\p嘀…\p… … … … … … … …\n… … … … … … … …\p发电机似乎\n停止了…$"
+    .string "{PLAYER}踏上了开关。\p嘀……\p…… …… …… ……\n…… …… …… ……\p发电机似乎\n停止了……$"

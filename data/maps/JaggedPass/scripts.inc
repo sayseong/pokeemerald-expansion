@@ -150,19 +150,19 @@ JaggedPass_EventScript_Autumn::
 	end
 
 JaggedPass_Text_EricIntro:
-    .string "烟囱山的崎岖山路…\p这正是我在每一座山中\n所渴望寻找到的东西。\p这崎岖不平的路面…\n震动着我的灵魂！$"
+    .string "烟囱山的崎岖山路……\p这正是我在每一座山中\n所渴望寻找到的东西。\p这崎岖不平的路面……\n震动着我的灵魂！$"
 
 JaggedPass_Text_EricDefeat:
     .string "失败让我痛苦！$"
 
 JaggedPass_Text_EricPostBattle:
-    .string "确实，在宝可梦的对战中我失败了…\p但说到对山的热爱\n我绝对不会输给你！$"
+    .string "确实，在宝可梦的对战中我失败了……\p但说到对山的热爱\n我绝对不会输给你！$"
 
 JaggedPass_Text_DianaIntro:
     .string "这可不是可以随便来闲逛的地方，\n这里并不适合野餐。$"
 
 JaggedPass_Text_DianaDefeat:
-    .string "哦哦哦，不！\n地面实在太颠簸了…$"
+    .string "哦哦哦，不！\n地面实在太颠簸了……$"
 
 JaggedPass_Text_DianaPostBattle:
     .string "知道吗？\p有些人能够轻松地驾着自行车\n在这可怕的路面上行驶呢。$"
@@ -183,7 +183,7 @@ JaggedPass_Text_EthanIntro:
     .string "崎岖山路很难走，\n这是个训练的好地方。$"
 
 JaggedPass_Text_EthanDefeat:
-    .string "在我们还在寻找一个合适立足点\n的时候，一切就结束了…$"
+    .string "在我们还在寻找一个合适立足点\n的时候，一切就结束了……$"
 
 JaggedPass_Text_EthanPostBattle:
     .string "如果有越野自行车的话，\n我就能跳过断坡了。$"
@@ -195,16 +195,16 @@ JaggedPass_Text_EthanRematchIntro:
     .string "我已经习惯这里崎岖的路，\n能一边唱歌一边攀登了。$"
 
 JaggedPass_Text_EthanRematchDefeat:
-    .string "在这么高低不平的地面上战斗\n还是不容易啊…$"
+    .string "在这么高低不平的地面上战斗\n还是不容易啊……$"
 
 JaggedPass_Text_EthanPostRematch:
-    .string "我真该先去紫堇市的风野那儿\n弄台越野自行车…$"
+    .string "我真该先去紫堇市的风野那儿\n弄台越野自行车……$"
 
 JaggedPass_Text_GruntIntro:
     .string "哇啊！\n你在这做什么？\p我在这儿干什么事？\p跟你有什么关系？$"
 
 JaggedPass_Text_GruntDefeat:
-    .string "唔咕咕…\p我应该早点躲进\n基地里面的…$"
+    .string "唔咕咕……\p我应该早点躲进\n基地里面的……$"
 
 JaggedPass_Text_GoWhereverYouWant:
     .string "好吧好吧！\n我承认--你很强！\p别管我在干什么，\n赶紧去你想去的地方吧！$"
@@ -216,16 +216,16 @@ JaggedPass_Text_JulioIntro:
     .string "哎呀！一下子从山顶冲下来\n真的好可怕！$"
 
 JaggedPass_Text_JulioDefeat:
-    .string "我觉得好像要崩溃了…$"
+    .string "我觉得好像要崩溃了……$"
 
 JaggedPass_Text_JulioPostBattle:
-    .string "在自行车上被颠得这么厉害，\n屁股痛死了…$"
+    .string "在自行车上被颠得这么厉害，\n屁股痛死了……$"
 
 JaggedPass_Text_AutumnIntro:
     .string "我每天都要爬这座山，\n对自己的体力很自信喔！$"
 
 JaggedPass_Text_AutumnDefeat:
-    .string "嗯…\n哪里不对劲呢？$"
+    .string "嗯……\n哪里不对劲呢？$"
 
 JaggedPass_Text_AutumnPostBattle:
     .string "那边那块突起来一些的\n奇怪的岩石究竟是怎么回事？$"

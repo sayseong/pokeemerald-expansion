@@ -323,7 +323,7 @@ MossdeepCity_Text_WhatToDoWithWeirdRock:
     .string "是么，你也这么想啊！\n拿着这种奇怪的石头有什么用吗？$"
 
 MossdeepCity_Text_WailmerWatching:
-    .string "在绿岭市周围可以看到\n野生吼吼鲸。\p这叫啥来着，呃…\n是那啥…\p吼，吼，吼…\p吼吼鲸观赏！$"
+    .string "在绿岭市周围可以看到\n野生吼吼鲸。\p这叫啥来着，呃……\n是那啥……\p吼，吼，吼……\p吼吼鲸观赏！$"
 
 MossdeepCity_Text_SpaceCenterReceivedLetter:
     .string "岛上的宇宙中心曾经\n发射过巨大的火箭。\p最近他们收到了一封信，\n引起了大骚动。$"
@@ -344,7 +344,7 @@ MossdeepCity_Text_LifeNeedsSeaToLive:
     .string "所有的生命都要依靠大海才能生存，\n即使是生活在陆地上的生命也一样。\p当一个生命走完了它的旅程，\n它又变成泥土回归大地。\p而大地总是和海洋\n紧密相连的。\p没错，就像这里的海岸线一样。$"
 
 MossdeepCity_Text_SurfExhilarating:
-    .string "虽然乘船航行还算不错，\p但乘着宝可梦\n渡海的话…\p那简直是太美妙了！\n你不这么想吗，年轻人？$"
+    .string "虽然乘船航行还算不错，\p但乘着宝可梦\n渡海的话……\p那简直是太美妙了！\n你不这么想吗，年轻人？$"
 
 MossdeepCity_Text_SpecialSpaceCenterRock:
     .string "这块石头对宇宙中心的人来说\n意义非凡，\p他们把它放在这里，\n祈祷火箭能安全上天。\p你许愿的时候会怎么做？\n你会向流星许愿吗？\p我会把愿望写在纸签上，\n祈祷它能实现。$"
@@ -362,8 +362,8 @@ MossdeepCity_Text_SpaceCenterSign:
     .string "绿岭市宇宙中心\n“最接近宇宙的地方。”$"
 
 MossdeepCity_Text_ScottSomethingWrongWithTown:
-    .string "亚希达：{PLAYER}{KUN}，还好吗？\n我这儿很顺利！\p我听说绿岭市的道馆馆主\n实力很强，所以我打算\l来这调查一下。\p但这镇子上好像\n出了什么事，\p人们都在谈论宇宙中心\n和一封警告信…\p不过，我认为那与我\n一毛钱的关系也没有。$"
+    .string "亚希达：{PLAYER}{KUN}，还好吗？\n我这儿很顺利！\p我听说绿岭市的道馆馆主\n实力很强，所以我打算\l来这调查一下。\p但这镇子上好像\n出了什么事，\p人们都在谈论宇宙中心\n和一封警告信……\p不过，我认为那与我\n一毛钱的关系也没有。$"
 
 MossdeepCity_Text_SootopolisNewGymLeader:
-    .string "啊…海浪冲刷在脚上的感觉\n真好…\p说到海浪，你知道\n那个海岛城市琉璃市吗？\p那儿的道馆来了个\n新馆主，\p据说他\n曾教导过米可利。$"
+    .string "啊……海浪冲刷在脚上的感觉\n真好……\p说到海浪，你知道\n那个海岛城市琉璃市吗？\p那儿的道馆来了个\n新馆主，\p据说他\n曾教导过米可利。$"
 

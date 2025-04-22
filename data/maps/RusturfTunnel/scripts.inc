@@ -431,25 +431,25 @@ RusturfTunnel_Text_Peeko:
     .string "小皮：皮 皮可！$"
 
 RusturfTunnel_Text_GruntIntro:
-    .string "靠，不是吧！\p那个宝可梦看起来\n没用了！\p我想我得逃了…\n这里通向所有地方！\p嘿！说你呢！\n你想要和我战斗？$"
+    .string "靠，不是吧！\p那只宝可梦看起来\n没用了！\p没想到……\n我竟然逃进了一个没有出口的隧道！\p嘿！说你呢！\n你想要和我战斗？$"
 
 RusturfTunnel_Text_GruntDefeat:
     .string "呃！我犯罪的生涯看样子\n要结束了！$"
 
 RusturfTunnel_Text_GruntTakePackage:
-    .string "很明显这不对…\p老大明明告诉我\n这是个很简单的工作。\p我要做的就是从\n得文偷点包裹。\p嗯！\n既然你那么想要回，拿着它！$"
+    .string "很明显这不对……\p老大明明告诉我\n这是个很简单的工作。\p我要做的就是从\n得文偷个包裹。\p嗯！\n既然你那么想要回，拿着它！$"
 
 RusturfTunnel_Text_PeekoGladToSeeYouSafe:
     .string "小皮！\n我很高兴看到你很安全！$"
 
 RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
-    .string "小皮欠你一条命！\p他们叫我哈奇。\n那么，你是？\p… … … … … … … …\n… … … … … … … …\p啊，你是{PLAYER}{KUN}！\n我真心感谢你！\p现在，如果你有什么事\n请一定要告诉我！\p你可以在我的小木屋找到我\n在橙华森林的海边。\p来吧，小皮，我们\n回家了。\p小皮：皮可！$"
+    .string "小皮欠你一条命！\p他们叫我哈奇。\n那么，你是？\p…… …… …… ……\n…… …… …… ……\p啊，你是{PLAYER}{KUN}！\n我真心感谢你！\p现在，如果你有什么事\n请一定要告诉我！\p你可以在我的小木屋找到我\n在橙华森林的海边。\p来吧，小皮，我们\n回家了。\p小皮：皮可！$"
 
 RusturfTunnel_Text_WhyCantTheyKeepDigging:
-    .string "… …\p为什么他们不继续挖了？\n是因为岩床太硬吗？\p我心爱的人就在那一边的绿茵镇\n等着我…\p如果能挖通这条隧道\n连接起卡那兹市和绿茵镇，\l我就能每天见到她了…\p可是现在…\n我该怎么办？$"
+    .string "……\p为什么他们不继续挖了？\n是因为岩床太硬吗？\p我心爱的人就在那一边的绿茵镇\n等着我……\p如果能挖通这条隧道\n连接起卡那兹市和绿茵镇，\l我就能每天见到她了……\p可是现在……\n我该怎么办？$"
 
 RusturfTunnel_Text_ToGetToVerdanturf:
-    .string "想要从卡那兹市到绿茵镇，\n你得先到武斗镇，然后穿过\l凯那和紫堇市…$"
+    .string "想要从卡那兹市到绿茵镇，\n你得先到武斗镇，然后穿过\l凯那和紫堇市……$"
 
 RusturfTunnel_Text_YouShatteredBoulderTakeHM:
     .string "哇喔！你打碎了挡路的\n大石头。\p这个秘传学习器送给你，\n就当作是我的谢礼吧。$"
@@ -458,16 +458,16 @@ RusturfTunnel_Text_ExplainStrength:
     .string "那个秘传学习器里面\n是怪力。\p让力量大的宝可梦学会的话，\n就能够移动更大的\l石头了。$"
 
 RusturfTunnel_Text_WandaReunion:
-    .string "满盈！\n现在我可以随时看到你了！\p满盈：这真是…太好了。\p来，到我家好好休息吧。$"
+    .string "满盈！\n现在我可以随时看到你了！\p满盈：这真是……太好了。\p来，到我家好好休息吧。$"
 
 RusturfTunnel_Text_BoyfriendOnOtherSideOfRock:
-    .string "在岩石的另一边…\n有我的男友。\p他…他并不单单是为了见我而\n挖这条隧道，\p他用自己的双手辛苦地挖掘着，\n也是为了大家。$"
+    .string "在岩石的另一边……\n有我的男友。\p他……他并不单单是为了见我而\n挖这条隧道，\p他用自己的双手辛苦地挖掘着，\n也是为了大家。$"
 
 RusturfTunnel_Text_MikeIntro:
     .string "你怎么称呼住在山里的野人？\n登山者，对吗？\p为什么不把生活在山里的宝可梦\n称作山宝可梦呢？$"
 
 RusturfTunnel_Text_MikeDefeat:
-    .string "我的宝可梦…\n耗尽力量了…$"
+    .string "我的宝可梦……\n耗尽力量了……$"
 
 RusturfTunnel_Text_MikePostBattle:
     .string "为了保护宝可梦\n他们停止了开发，是吗？\l是个好故事呢！$"

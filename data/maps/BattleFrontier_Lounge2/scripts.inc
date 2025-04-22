@@ -123,10 +123,10 @@ BattleFrontier_Lounge2_Text_MyInformationsBeenUsefulRight::
     .string "哇喔？哇喔？哇喔？\p我的情报对你来说\n非常有用，是吧？$"
 
 BattleFrontier_Lounge2_Text_FacilityIsHottest::
-    .string "让我想想…\p现在好像{STR_VAR_1}是\n最热门的地方。$"
+    .string "让我想想……\p现在好像{STR_VAR_1}是\n最热门的地方。$"
 
 BattleFrontier_Lounge2_Text_BattleTowerIsHottest::
-    .string "让我想想…\p现在好像对战塔\n{STR_VAR_1}是最热门的。$"
+    .string "让我想想……\p现在好像对战塔\n{STR_VAR_1}是最热门的。$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenIsThere::
     .string "告诉你个秘密！\p被亚希达称作开拓区大脑\n的顶级训练家之一现在就在那里。\p那个地方就是这个名叫对战塔大君的\n神秘的训练家管理的。$"
@@ -138,19 +138,19 @@ BattleFrontier_Lounge2_Text_SalonMaidenGoldMons::
     .string "你跟认真起来的对战塔大君\n交过手了吗？\p她全力出手的时候，\n通常都会用这些宝可梦：\p龙和超能力属性的长寿宝可梦，\n电属性的闪电宝可梦，\l还有一般属性的睡眠宝可梦。$"
 
 BattleFrontier_Lounge2_Text_DomeAceIsThere::
-    .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那个地方就是这个名叫巨蛋超级巨星的\n如火般的训练家管理的。$"
+    .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那里就是这个名叫巨蛋超级巨星的\n如火般的训练家管理的。$"
 
 BattleFrontier_Lounge2_Text_DomeAceSilverMons::
     .string "你跟巨蛋超级巨星交过手了吗？\p他没认真起来的时候，\n通常都会用这些宝可梦：\p龙和飞行的龙宝可梦，\n水和地面的泥鱼宝可梦，\l还有火和飞行的火焰宝可梦。$"
 
 BattleFrontier_Lounge2_Text_DomeAceGoldMons::
-    .string "你跟认真起来的巨蛋超级巨星\n交过手了吗？\p当他把自己的策略完全展示出来的时候，\n通常都会用这些宝可梦：\p龙和飞行的古代宝可梦，\n水和地面的泥鱼宝可梦，\l还有钢铁和超能力属性的铁腿\l宝可梦。$"
+    .string "你跟认真起来的巨蛋超级巨星\n交过手了吗？\p当他把自己的策略完全展示的时候，\n通常都会用这些宝可梦：\p龙和飞行的古代宝可梦，\n水和地面的泥鱼宝可梦，\l还有钢铁和超能力属性的铁腿\l宝可梦。$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadIsThere::
     .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那个地方就是这个名叫工厂头目的\n令人无法捉摸的训练家管理的。$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadSilverMons::
-    .string "你跟工厂头目\n交过手了吗？\p我想想…他开始战斗的时候，\n通常只是借三只宝可梦用。\p他是和你在\n非常相似的条件下战斗。$"
+    .string "你跟工厂头目\n交过手了吗？\p我想想……他开始战斗的时候，\n通常只是借三只宝可梦用。\p他是和你在\n非常相似的条件下战斗。$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadGoldMons::
     .string "你跟认真起来的工厂头目\n交过手了吗？\p就算他认真起来了，\n他还是用借来的宝可梦战斗。\p他是和你在完全\n相同的条件下战斗。$"
@@ -180,7 +180,7 @@ BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
     .string "你跟宫殿守护者\n交过手了吗？\p据说他测试对手的心的时候，\n通常会用这些宝可梦：\p毒和飞行属性的蝙蝠宝可梦，\n一般属性的懒惰宝可梦，还有\l水和冰属性的传送宝可梦。$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
-    .string "你跟认真起来的宫殿守护者\n交过手了吗？\p据说他把精力全部集中到战斗上的时候，\n通常会使用这些宝可梦：\p火属性的传说宝可梦，\n一般属性的懒惰宝可梦，，\l还有水属性的极光宝可梦。$"
+    .string "你跟认真起来的宫殿守护者\n交过手了吗？\p据说他把精力全部集中到战斗的时候，\n通常会使用这些宝可梦：\p火属性的传说宝可梦，\n一般属性的懒惰宝可梦，，\l还有水属性的极光宝可梦。$"
 
 BattleFrontier_Lounge2_Text_PyramidKingIsThere::
     .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那个地方就是这个名叫金字塔法老的\n热情如火的训练家管理的。$"
@@ -216,5 +216,5 @@ BattleFrontier_Lounge2_Text_AmazingPowerOfPersuasion::
     .string "说服别人好厉害！\n老师果然非同一般！$"
 
 BattleFrontier_Lounge2_Text_ThisPlaceIsScaringMe::
-    .string "…这里是哪儿？\n好可怕…$"
+    .string "……这里是哪儿？\n好可怕……$"
 

@@ -46,7 +46,7 @@ BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena:
     .string "好了！下一站是对战竞技场！\n最好先去电脑寄放系统\l换出合适的宝可梦来。$"
 
 BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge:
-    .string "咯咯…我可要和这个孩子\n一同赢得所有的比赛！$"
+    .string "咯咯……我可要和这个孩子\n一同赢得所有的比赛！$"
 
 BattleFrontier_PokemonCenter_1F_Text_Skitty:
     .string "向尾喵：喵 喵！$"

@@ -92,10 +92,10 @@ VerdanturfTown_WandasHouse_Text_WallysNextDoor:
     .string "叔叔：哦，{PLAYER}{KUN}！\n满充就在隔壁。\p但是，孩子，有些事我想\n告诉你，\p这里的自然环境\n对满充的身体有好处，\p但让他打起精神来的\n并不只是环境，\l是宝可梦给了那孩子希望。$"
 
 VerdanturfTown_WandasHouse_Text_WallySlippedOff:
-    .string "满充不在…\n他一个人溜了出去…$"
+    .string "满充不在……\n他一个人溜了出去……$"
 
 VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
-    .string "叔叔：是真的吗？\n满充自己一个人\l跑了那么远…\p我想我该表扬一下他\n——不愧是弟弟的儿子。$"
+    .string "叔叔：是真的吗？\n满充自己一个人\l跑了那么远……\p我想我该表扬一下他\n——不愧是弟弟的儿子。$"
 
 VerdanturfTown_WandasHouse_Text_MeetWanda:
     .string "满盈：你是？\n哦，对，我知道了！\p你就是满充常说的\n{PLAYER}。\p我是满充的堂姐，\n很高兴认识你！\p自从满充来这儿以后，\n他变得活泼开朗多了。$"
@@ -113,7 +113,7 @@ VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging:
     .string "太令人吃惊了，女儿的男友\n徒手挖开了隧道！\p不敢相信！$"
 
 VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally:
-    .string "如果满充发生了什么，\n我无法再面对他那\l住在橙华市的父母…$"
+    .string "如果满充发生了什么，\n我无法再面对他那\l住在橙华市的父母……$"
 
 VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande:
     .string "满充去过彩悠市？\p他那住在橙华市的父母\n一定会大吃一惊的！$"

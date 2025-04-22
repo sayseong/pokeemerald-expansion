@@ -256,22 +256,22 @@ SlateportCity_PokemonFanClub_Text_MeetChairman:
     .string "咳咳！我是宝可梦发烧友俱乐部的\n会长！\p当然，作为会长，\n我是这里最重要的人！\p说到抚养宝可梦，没人能\n做得比我更好，一个也没有！\p我告诉你些关于\n宝可梦华丽大赛的事情吧。\p这是把自己的宝可梦\n展示给全世界的比赛，\p但这些比赛都在很远的\n城镇举行，我没法经常参加。\p正因如此，我们才会\n聚集到这个地方\l互相展示我们的宝可梦。$"
 
 SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon:
-    .string "参加了宝可梦华丽大赛的\n训练家的宝可梦…\l我真想去看看。$"
+    .string "参加了宝可梦华丽大赛的\n训练家的宝可梦……\l我真想去看看。$"
 
 SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
-    .string "咳咳！你参加了\n宝可梦华丽大赛！\p拜托你！让我看看\n你的宝可梦！\p我总是禁不住想看看\n其他训练家养的宝可梦。\p被悉心照顾的宝可梦\n那快乐的表情…\p养育宝可梦的训练家\n那温柔的眼神…\p每当想起这些，\n我心中就充满了极大的快乐。\p啊！对不起！\n原谅我的喋喋不休吧！\p拜托你！让我看看\n你的宝可梦！$"
+    .string "咳咳！你参加了\n宝可梦华丽大赛！\p拜托你！让我看看\n你的宝可梦！\p我总是禁不住想看看\n其他训练家养的宝可梦。\p被悉心照顾的宝可梦\n那快乐的表情……\p养育宝可梦的训练家\n那温柔的眼神……\p每当想起这些，\n我心中就充满了极大的快乐。\p啊！对不起！\n原谅我的喋喋不休吧！\p拜托你！让我看看\n你的宝可梦！$"
 
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing:
     .string "你的宝可梦长得怎么样？\n让我看看吧。$"
 
 SlateportCity_PokemonFanClub_Text_HmHmISee:
-    .string "唔，嗯…\n看来…$"
+    .string "唔，嗯……\n看来……$"
 
 SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks:
-    .string "唔…说不上\n是好是坏…\p你作为训练家，应该\n更努力地照顾好这只宝可梦！\p比如，你可以再给它\n一些树果。$"
+    .string "唔……说不上\n是好是坏……\p你作为训练家，应该\n更努力地照顾好这只宝可梦！\p比如，你可以再给它\n一些树果。$"
 
 SlateportCity_PokemonFanClub_Text_NoSpaceForReward:
-    .string "啊，天哪…\p你的宝可梦真不错。\n给你些奖励吧。\p很遗憾，你的包包\n已经满了。$"
+    .string "啊，天哪……\p你的宝可梦真不错。\n给你些奖励吧。\p很遗憾，你的包包\n已经满了。$"
 
 SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis:
     .string "你的{STR_VAR_1}\n长得真不错！\l这是我们的模范！\p但你如果把这给它的话，\n它会长得更好的！真的！$"
@@ -310,10 +310,10 @@ SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
     .string "宝可梦喜欢训练家对它们\n使用物品吗？\p我把攻击增强剂给我的宝可梦时\n它显得很高兴。$"
 
 SlateportCity_PokemonFanClub_Text_Skitty:
-    .string "向尾喵：喵呀呀呀…$"
+    .string "向尾喵：喵呀呀呀……$"
 
 SlateportCity_PokemonFanClub_Text_Zigzagoon:
-    .string "蛇纹熊：卡哟哟哟…$"
+    .string "蛇纹熊：卡哟哟哟……$"
 
 SlateportCity_PokemonFanClub_Text_Azumarill:
     .string "露力丽：玛丽玛利？$"

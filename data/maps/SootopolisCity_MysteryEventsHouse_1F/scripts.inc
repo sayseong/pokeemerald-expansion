@@ -175,7 +175,7 @@ SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer:
     .string "一个叫{STR_VAR_1}的训练家\n到我家来了，\p你想挑战\n{STR_VAR_1}吗？$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle:
-    .string "你不想战斗？好失望，\n我真的很想看你们的战斗…$"
+    .string "你不想战斗？好失望，\n我真的很想看你们的战斗……$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_KeepItTo3On3:
     .string "啊，好，太好了！\p不过我的房子不是特别坚固，\p能请你们进行一场\n三对三的战斗吗？$"

@@ -199,10 +199,10 @@ SafariZone_Southwest_Text_Woman:
 	.string "也有不同的喜好呢？$"
 
 SafariZone_Northwest_Text_Man:
-	.string "呼…呼…\n"
-	.string "我…终于到这儿了…不过…\p"
-	.string "我已经累了…没力气\n"
-	.string "去抓宝可梦了…$"
+	.string "呼……呼……\n"
+	.string "我……终于到这儿了……不过……\p"
+	.string "我已经累了……没力气\n"
+	.string "去抓宝可梦了……$"
 
 SafariZone_North_Text_Fisherman:
 	.string "我需要找到一些丰缘地区\n"
@@ -238,7 +238,7 @@ SafariZone_RestHouse_Text_Youngster:
 SafariZone_RestHouse_Text_PsychicM:
 	.string "如果使用宝可方块，野生宝可梦\n"
 	.string "就不会很快逃跑。\p"
-	.string "而对于那些本来就不太容易逃跑的宝可梦，\n"
+	.string "而对那些本就不太容易逃跑的宝可梦，\n"
 	.string "使用宝可方块效果并不大。$"
 
 SafariZone_RestHouse_Text_FatMan:

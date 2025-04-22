@@ -92,7 +92,7 @@ Debug_BoxFilledMessage::
 	goto Debug_MessageEnd
 
 Debug_BoxFilledMessage_Text:
-	.string "Storage boxes filled!$"
+	.string "盒子已满！$"
 
 Debug_EventScript_CheckEVs::
 	lockall
@@ -235,7 +235,7 @@ DebugScript_Text_EmptyParty::
 	.string "你既没有宝可梦也没有宝可梦的蛋。$"
 
 DebugScript_HatchAnEgg_Text_NotAnEgg::
-	.string "那不是一个宝可梦的蛋。$"
+	.string "那不是宝可梦的蛋。$"
 
 DebugScript_ZeroDaycareMons::
 	msgbox DebugText_DaycareNoPokemon, MSGBOX_DEFAULT
@@ -253,13 +253,13 @@ DebugScript_DaycareMonsNotCompatible::
 	end
 
 DebugText_DaycareNoPokemon:
-	.string "你没有在培育屋的宝可梦$"
+	.string "你没有在培育屋的宝可梦。$"
 
 DebugText_DaycareOnePokemon:
-	.string "你仅有一个在培育屋的宝可梦$"
+	.string "你仅有一个在培育屋的宝可梦。$"
 
 DebugText_DaycarePokemonNotCompatible:
-	.string "你在培育屋的宝可梦不能生育幼年宝可梦!$"
+	.string "你在培育屋的宝可梦\n不能生育幼年宝可梦!$"
 
 Debug_ShowExpansionVersion::
 	callnative BufferExpansionVersion
@@ -281,8 +281,8 @@ Debug_BerryPestsDisabled::
 	end
 
 DebugText_BerryPestsDisabled:
-	.string "OW_BERRY_PESTS is disabled.\n"
-	.string "Unable to force pests onto berry trees.$"
+	.string "OW_BERRY_PESTS未开启。\n"
+	.string "无法在果树上强制添加害虫。$"
 
 Debug_BerryWeedsDisabled::
 	msgbox DebugText_BerryWeedsDisabled, MSGBOX_DEFAULT
@@ -290,8 +290,8 @@ Debug_BerryWeedsDisabled::
 	end
 
 DebugText_BerryWeedsDisabled:
-	.string "OW_BERRY_WEEDS is disabled.\n"
-	.string "Unable to force weeds onto berry trees.$"
+	.string "OW_BERRY_WEEDS未开启。\n"
+	.string "无法在果树上强制添加杂草。"
 
 Debug_EventScript_InflictStatus1::
 	lockall
@@ -551,7 +551,7 @@ Debug_EventScript_FontTest_Text_9::                 @ Special thanks to Nintendo
 	.string "任天堂GBA可以连接到\l"
 	.string "NGC主机！虽然我不信\l"
 	.string "他闭着眼睛完成的。\l"
-	.string "你信吗…？$"
+	.string "你信吗……？$"
 
 Debug_PrintFontTest::
 	msgbox Debug_EventScript_FontTest_Text_1, MSGBOX_DEFAULT

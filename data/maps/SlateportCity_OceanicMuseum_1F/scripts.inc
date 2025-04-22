@@ -240,16 +240,16 @@ SlateportCity_OceanicMuseum_1F_Text_AquaExistForGoodOfAll:
     .string "我们海洋队永远\n站在正义的一方！$"
 
 SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere:
-    .string "上面要我们在这儿集合，\n所以我们都来了，但是…\p老大还没来。$"
+    .string "上面要我们在这儿集合，\n所以我们都来了，但是……\p老大还没来。$"
 
 SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich:
     .string "如果偷走这儿的东西，\n能让我一夜暴富吗？$"
 
 SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds:
-    .string "我觉得在这里\n我会做出些坏事来…$"
+    .string "我觉得在这里\n我会做出些坏事来……$"
 
 SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
-    .string "如果不是那些蠢货在\n卡那兹市搞砸了，我们怎么会到这儿来！$"
+    .string "如果不是那些蠢货在卡那兹市\n搞砸了，我们怎么会到这儿来！$"
 
 SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
     .string "我没带够¥50，从接待员那儿\n混进来花了不少时间。$"
@@ -261,7 +261,7 @@ SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel:
     .string "一看到大海\n我就会感到头晕！\p对我来说，楠木馆长\n是最大的榜样！$"
 
 SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow:
-    .string "大海一望无际，\n无限深沉…\p里面一定还有很多\n我们所不知道的宝可梦。$"
+    .string "大海一望无际，\n无限深沉……\p里面一定还有很多\n我们所不知道的宝可梦。$"
 
 SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon:
     .string "我想要只海中的宝可梦，\p抱着它们的感觉\n一定很奇妙。$"
@@ -300,5 +300,5 @@ SlateportCity_OceanicMuseum_1F_Text_FossilDisplay:
     .string "有波浪形突起的化石。\p“洋底的泥土经过\n潮汐的冲刷，\p表面留下了\n凹凸不平的痕迹。\p泥土变成化石后，\n就形成了波纹石。”$"
 
 SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine:
-    .string "半球型的玻璃罩下面\n有奇怪的机器在运转。\p也许是用来测量\n什么东西的深度的…$"
+    .string "半球型的玻璃罩下面\n有奇怪的机器在运转。\p也许是用来测量\n什么东西的深度的……$"
 

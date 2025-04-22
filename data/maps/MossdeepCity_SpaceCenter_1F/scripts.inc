@@ -289,10 +289,10 @@ MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber:
     .string "火箭发射成功！\n成功脱离。{STR_VAR_1}！$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent:
-    .string "我知道现在一切\n有点混乱，但是…\p火箭就要发射了！$"
+    .string "我知道现在一切\n有点混乱，但是……\p火箭就要发射了！$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber:
-    .string "我知道现在一切\n有点混乱，但是…\p火箭发射成功！\n成功脱离。{STR_VAR_1}！$"
+    .string "我知道现在一切\n有点混乱，但是……\p火箭发射成功！\n成功脱离。{STR_VAR_1}！$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
     .string "火箭的发射必须十全十美，\n即使是1%的差错也不容许存在。\p就算99%的程序都没错，\n一切也会毁在那1%上。\p但即使这样，我们也不会停止尝试。\n为什么？因为这是个无尽的梦。$"
@@ -319,10 +319,10 @@ MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
     .string "海洋队得当心一下\n熔岩队！\p但如果他们真的敢那样，\n海洋队不就太过胆大妄为了吗？$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
-    .string "一块巨大的金属冲破云霄，\n然后飞向宇宙…\p简直匪夷所思！$"
+    .string "一块巨大的金属冲破云霄，\n然后飞向宇宙……\p简直匪夷所思！$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
-    .string "一块巨大的金属冲破云霄，\n然后飞向宇宙…\p但熔岩队想打破\n我的那场梦！\p我不能让他们肆意妄为！$"
+    .string "一块巨大的金属冲破云霄，\n然后飞向宇宙……\p但熔岩队想打破\n我的那场梦！\p我不能让他们肆意妄为！$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
     .string "大吾：{PLAYER}{KUN}，\n你读过他们的声明了吗？\p熔岩队想要的是\n这岛上的火箭燃料。\p虽然不知他们的目的何在，\n但我们不会让他们得逞的。\p我得在这儿\n盯着事情的发展，\p你趁此去镇上看看\n怎么样？$"
@@ -331,7 +331,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
     .string "就像说好的，\n我们来拿火箭燃料了！$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat:
-    .string "燃料没了…$"
+    .string "燃料没了……$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle:
     .string "别以为你打败了我\n就了不起了！$"
@@ -340,7 +340,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro:
     .string "我们堂堂正正向你们发出了通告！\n我们从没做什么见不得人的事！$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat:
-    .string "咕…\n我们该用点阴谋诡计的…$"
+    .string "咕……\n我们该用点阴谋诡计的……$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle:
     .string "好了，我已经明白了！\n下一次我们不会再发通知了。$"
@@ -361,7 +361,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat:
     .string "啊！啊！啊啊啊！$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
-    .string "拜托告诉老大\n我没忘记我的职责，\l但我还是尝到了苦果…$"
+    .string "拜托告诉老大\n我没忘记我的职责，\l但我还是尝到了苦果……$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
-    .string "这是…\n盗窃预告？\p“致宇宙中心的成员们：\n大家好吗？我们很好。\p我们很快会来你们这里\n带走火箭燃料。\p请不要妄图阻止我们，\n我们必定会带走燃料。\p愿大地更加广阔！\n                熔岩队”$"
+    .string "这是……\n盗窃预告？\p“致宇宙中心的成员们：\n大家好吗？我们很好。\p我们很快会来你们这里\n带走火箭燃料。\p请不要妄图阻止我们，\n我们必定会带走燃料。\p愿大地更加广阔！\n                熔岩队”$"

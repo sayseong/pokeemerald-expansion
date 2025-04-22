@@ -69,7 +69,7 @@ LilycoveCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 	end
 
 LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
-    .string "呃…\n唔，没错，我是遗忘爷爷，\p我可以让宝可梦忘记招式。\p要让它们忘掉招式吗？$"
+    .string "呃……\n唔，没错，我是遗忘爷爷，\p我可以让宝可梦忘记招式。\p要让它们忘掉招式吗？$"
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget:
     .string "让哪只宝可梦忘记招式？$"
@@ -78,7 +78,7 @@ LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
     .string "忘记哪个招式？$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
-    .string "{STR_VAR_1}只会一个招式，\n不能忘记…$"
+    .string "{STR_VAR_1}只会一个招式，\n不能忘记……$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
     .string "嗯，{STR_VAR_1}的{STR_VAR_2}？\n忘掉它吗？$"

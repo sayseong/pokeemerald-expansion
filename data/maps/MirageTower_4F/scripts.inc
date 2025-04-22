@@ -63,13 +63,13 @@ MirageTower_4F_EventScript_CollapseMirageTower::
 	end
 
 MirageTower_4F_Text_TakeRootFossil:
-    .string "你发现了根状化石。\p如果拿走化石，周围的\n地面很可能会塌陷…\p真的要拿走根状化石吗？$"
+    .string "你发现了根状化石。\p如果拿走化石，周围的\n地面很可能会塌陷……\p真的要拿走根状化石吗？$"
 
 MirageTower_4F_Text_LeftRootFossilAlone:
     .string "{PLAYER}留下了根状化石。$"
 
 MirageTower_4F_Text_TakeClawFossil:
-    .string "你发现了爪子化石。\p如果拿走化石，周围的\n地面很可能会塌陷…\p真的要拿走爪子化石吗？$"
+    .string "你发现了爪子化石。\p如果拿走化石，周围的\n地面很可能会塌陷……\p真的要拿走爪子化石吗？$"
 
 MirageTower_4F_Text_LeaveClawFossilAlone:
     .string "{PLAYER}留下了爪子化石。$"

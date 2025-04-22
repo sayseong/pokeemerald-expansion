@@ -207,7 +207,7 @@ RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
     .string "{PLAYER}得到了宝可梦导航仪。$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
-    .string "兹伏奇：那个装置…\p那是宝可梦领航设备，\n简称宝可梦导航仪，\p对探险中的训练家来说\n是不可或缺的工具。\p那里面有丰缘地区的地图，\p你可以很方便地找到\n武斗镇和凯那市的地点！\p对了，我听说一些邪恶的犯罪团伙\n——我想是熔岩队和海洋队——\l在到处惹麻烦，\p你上路之前最好\n先好好休息一下。$"
+    .string "兹伏奇：那个装置……\p那是宝可梦领航设备，\n简称宝可梦导航仪，\p对探险中的训练家来说\n是不可或缺的工具。\p那里面有丰缘地区的地图，\p你可以很方便地找到\n武斗镇和凯那市的地点！\p对了，我听说一些邪恶的犯罪团伙\n——我想是熔岩队和海洋队——\l在到处惹麻烦，\p你上路之前最好\n先好好休息一下。$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare:
     .string "兹伏奇：好了，{PLAYER}{KUN}，\n小心谨慎地出发吧！$"
@@ -225,7 +225,7 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
     .string "兹伏奇：我年轻的时候\n一直全身心沉迷于工作，\p结果，我一点也不了解\n潮流或类似的东西。\p年轻人们都想成为\n宝可梦联盟的训练家吗？$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
-    .string "这里是得文公司\n三楼，\p社长办公室的\n所在地。\p无论如何，我无法表明\n我对你所做的事情的感谢。\p呃…另外，你帮我们\n取回来的那个包裹…\p能再请你帮忙\n送到凯那市的船厂吗？\p如果再让那些强盗\n抢走就糟了。\p呃…哈哈哈，那，呃，\n能帮我这个忙吗？\p啊，对了，\n请在此稍等一下。$"
+    .string "这里是得文公司\n三楼，\p社长办公室的\n所在地。\p无论如何，我无法表明\n我对你所做的事情的感谢。\p呃……另外，你帮我们\n取回来的那个包裹……\p能再请你帮忙\n送到凯那市的船厂吗？\p如果再让那些强盗\n抢走就糟了。\p呃……哈哈哈，那，呃，\n能帮我这个忙吗？\p啊，对了，\n请在此稍等一下。$"
 
 RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe:
     .string "我们的社长\n有话想跟你说，\p跟我来。$"

@@ -103,7 +103,7 @@ MeteorFalls_1F_2R_Text_JayDefeat:
     .string "初：哦，亲爱的。\n我们输了，我亲爱的老公。$"
 
 MeteorFalls_1F_2R_Text_JayPostBattle:
-    .string "初：结婚50年了…\p每当我们吵架，我们都是通过\n宝可梦对战来解决…$"
+    .string "初：结婚50年了……\p每当我们吵架，我们都是通过\n宝可梦对战来解决……$"
 
 MeteorFalls_1F_2R_Text_JayNotEnoughMons:
     .string "初：好啦，好啦，你难道不是\n年轻的训练家？\p如果你想和我们战斗，就得\n拿来更多的宝可梦。$"
@@ -115,7 +115,7 @@ MeteorFalls_1F_2R_Text_JohnRematchDefeat:
     .string "源：天啊。\n我们输了，亲爱的老婆。$"
 
 MeteorFalls_1F_2R_Text_JohnPostRematch:
-    .string "源：结婚50年了…\p仔细想想，我和亲爱的老婆\n每天都是在战斗的…$"
+    .string "源：结婚50年了……\p仔细想想，我和亲爱的老婆\n每天都是在战斗的……$"
 
 MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons:
     .string "源：多么年轻的训练家！\p想和我们战斗吗？想的话就\n带来更多的宝可梦。$"
@@ -127,7 +127,7 @@ MeteorFalls_1F_2R_Text_JayRematchDefeat:
     .string "初：哦，亲爱的。\n我们输了，我亲爱的老公。$"
 
 MeteorFalls_1F_2R_Text_JayPostRematch:
-    .string "初：结婚50年了…\n发生过太多事。\p我希望我们可以继续\n一起创造快乐的记忆。$"
+    .string "初：结婚50年了……\n发生过太多事。\p我希望我们可以继续\n一起创造快乐的记忆。$"
 
 MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons:
     .string "初：好啦，好啦，你难道不是\n年轻的训练家？\p如果你想和我们战斗，\n就得拿来更多的宝可梦。$"

@@ -1142,16 +1142,16 @@ PetalburgCity_Gym_EventScript_GymStatue::
 	end
 
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
-    .string "爸爸：嗯？\p哟，{PLAYER}，你来了！\n搬完家了吗？\p你怎么一个人\n跑过来了？\p啊，我明白了，\n你是跟宝可梦一起来的。\p唔…你是想成为像我一样的\n训练家吧，{PLAYER}？\p努力干吧！\n老爸支持你！$"
+    .string "爸爸：嗯？\p哟，{PLAYER}，你来了！\n搬完家了吗？\p你怎么一个人\n跑过来了？\p啊，我明白了，\n你是跟宝可梦一起来的。\p唔……你是想成为像我一样的\n训练家吧，{PLAYER}？\p努力干吧！\n老爸支持你！$"
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
-    .string "呃…我…\n我想要一只宝可梦，拜托了…$"
+    .string "呃……我……\n我想要一只宝可梦，拜托了……$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
-    .string "爸爸：嗯？你是…呃…啊，对了，\n你是满充吧？$"
+    .string "爸爸：嗯？你是……呃……啊，对了，\n你是满充吧？$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
-    .string "满充：我很快就要搬到\n绿茵镇去跟亲戚一起住了，\p我觉得一个人会很孤单，\n所以我想带只宝可梦一起去，\p但我以前从未抓过宝可梦，\n我不知道该怎么…$"
+    .string "满充：我很快就要搬到\n绿茵镇去跟亲戚一起住了，\p我觉得一个人会很孤单，\n所以我想带只宝可梦一起去，\p但我以前从未抓过宝可梦，\n我不知道该怎么……$"
 
 PetalburgCity_Gym_Text_DadHmISee:
     .string "爸爸：嗯，明白了。$"
@@ -1160,7 +1160,7 @@ PetalburgCity_Gym_Text_DadPlayerGoWithWally:
     .string "爸爸：{PLAYER}，\n你听到了吧？\p和满充一起去\n教教他怎么抓宝可梦吧。$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
-    .string "满充，过来，我先把自己的宝可梦借给你。\p满充得到蛇纹熊！$"
+    .string "满充，过来，我先把我自己的\n宝可梦借给你。\p满充得到蛇纹熊！$"
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
     .string "满充：哇！\n一只宝可梦！\p爸爸：唔，再给你只精灵球吧。\n加油！\p满充得到精灵球！$"
@@ -1169,7 +1169,7 @@ PetalburgCity_Gym_Text_WallyOhWowThankYou:
     .string "满充：哇！\n谢谢！$"
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
-    .string "{PLAYER}…你真的能\n和我一起来吗？$"
+    .string "{PLAYER}……你真的能\n和我一起来吗？$"
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
     .string "爸爸：那么，成功了吗？$"
@@ -1178,22 +1178,22 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
     .string "满充：谢谢，我抓到了\n这只宝可梦还给您。\p{PLAYER}，谢谢你\n和我一起去。\p多亏了你们，我才\n抓了到我的宝可梦。\p我保证我会\n好好照顾它的。\p啊！妈妈该等急了，\n我走了！\p再见，{PLAYER}！$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
-    .string "爸爸：好了…\p{PLAYER}，如果你想成为一个\n强大的训练家，我有几条建议。\p首先去距此不远的\n卡那兹市，\p挑战那儿的\n道馆馆主，杜娟，\p然后再去其他宝可梦道馆，\n打败那里的馆主，\p收集他们的徽章，\n明白了吗？\p当然，我也是道馆馆主，\n所以我们总有一天会战斗的，{PLAYER}，\p但那之前，你得先\n变得更强些才行。$"
+    .string "爸爸：好了……\p{PLAYER}，如果你想成为一个\n强大的训练家，我有几条建议。\p首先去距此不远的\n卡那兹市，\p挑战那儿的\n道馆馆主，杜娟，\p然后再去其他宝可梦道馆，\n打败那里的馆主，\p收集他们的徽章，\n明白了吗？\p当然，我也是道馆馆主，\n所以我们总有一天会战斗的，{PLAYER}，\p但那之前，你得先\n变得更强些才行。$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
     .string "爸爸：嗯？你还没去\n卡那兹市的宝可梦道馆？\p一个新手训练家\n是没法打败我的。\p{PLAYER}，等你变强了\n再向我挑战吧，\p当你收集四个道馆徽章后，\n我再接受你的挑战，{PLAYER}。$"
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
-    .string "爸爸：嗯…看来你打败了\n卡那兹市的宝可梦道馆馆主。\p但还有很多比你更强的\n训练家，{PLAYER}。\p海对岸的武斗镇里\n有个叫做藤树的道馆馆主，\p去挑战他吧。$"
+    .string "爸爸：嗯……看来你打败了\n卡那兹市的宝可梦道馆馆主。\p但还有很多比你更强的\n训练家，{PLAYER}。\p海对岸的武斗镇里\n有个叫做藤树的道馆馆主，\p去挑战他吧。$"
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger:
-    .string "爸爸：嗯…{PLAYER}，\n你变强了，\p看你得到的那些徽章\n就可以知道。$"
+    .string "爸爸：嗯……{PLAYER}，\n你变强了，\p看你得到的那些徽章\n就可以知道。$"
 
 PetalburgCity_Gym_Text_NormanIntro:
-    .string "爸爸：嗯…\n你得到四个道馆徽章了。\p那好，就像我答应你的，\n我们来战斗吧。\p{PLAYER}…\p我很高兴能和自己的孩子\n来一场真真正正的战斗，\p然而，战斗就是战斗！\p作为一个道馆馆主，\n我会尽我全力取胜的。\p{PLAYER}，你也要\n全力出战！$"
+    .string "爸爸：嗯……\n你得到四个道馆徽章了。\p那好，就像我答应你的，\n我们来战斗吧。\p{PLAYER}……\p我很高兴能和自己的孩子\n来一场真真正正的战斗，\p然而，战斗就是战斗！\p作为一个道馆馆主，\n我会尽我全力取胜的。\p{PLAYER}，你也要\n全力出战！$"
 
 PetalburgCity_Gym_Text_NormanDefeat:
-    .string "…\p我…我不…\p我不相信。{PLAYER}…\p我输给了{PLAYER}？\p不过，输就是输！\n好，拿上这个吧。$"
+    .string "……\p我……我不……\p我不相信。{PLAYER}……\p我输给了{PLAYER}？\p不过，输就是输！\n好，拿上这个吧。$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
     .string "{PLAYER}从爸爸那儿\n得到了天秤徽章！$"
@@ -1205,7 +1205,7 @@ PetalburgCity_Gym_Text_ExplainFacade:
     .string "爸爸：招式学习器42里面是硬撑，\p如果宝可梦中毒，\n麻痹，或者灼伤，\l招式的威力会提升。\p用这可以在处于不利时\n逆转形势。$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
-    .string "爸爸：作为道馆馆主，\n我觉得很沮丧…\p但作为父亲，我在失望的同时，\n又很高兴。这可真怪…$"
+    .string "爸爸：作为道馆馆主，\n我觉得很沮丧……\p但作为父亲，我在失望的同时，\n又很高兴。这可真怪……$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
     .string "啊，你来了，{PLAYER}{KUN}！\p跟我来，\n我有些东西要给你。$"
@@ -1220,13 +1220,13 @@ PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
     .string "爸爸：{PLAYER}，怎么样了？\p宝可梦的世界非常广大，\p我想，无论怎样的训练\n都不会足够。$"
 
 PetalburgCity_Gym_Text_GymGuideAdvice:
-    .string "嗨，怎么样，向冠军的目标\n冲刺的{PLAYER}？\p在这个道馆里，你打败房间里的训练家后，\n通向下一个房间的门就会开启。\p哇呀！这个房间的门\n已经打开了，别打我！\p橙华市道馆的训练家\n会使用各种各样的物品，\p左边的门通向\n速度房间，\p右边的门通向\n命中房间。\p房间的名称就写在门上，\n你要谨慎选择。\p选好房间之后…\n哎，好了，加油吧！$"
+    .string "嗨，怎么样，向冠军的目标\n冲刺的{PLAYER}？\p在这个道馆里，\n你打败房间里的训练家后，\l通向下一个房间的门就会开启。\p哇呀！这个房间的门\n已经打开了，别打我！\p橙华市道馆的训练家\n会使用各种各样的物品，\p左边的门通向\n速度房间，\p右边的门通向\n命中房间。\p房间的名称就写在门上，\n你要谨慎选择。\p选好房间之后……\n哎，好了，加油吧！$"
 
 PetalburgCity_Gym_Text_GymGuidePostVictory:
     .string "哇！{PLAYER}！你甚至打败了\n自己的父亲！\p哇！\n多么令人吃惊的结局！$"
 
 PetalburgCity_Gym_Text_RandallIntro:
-    .string "比对手先一步发动攻击的\n能力…\p正因如此，才会在战斗中\n占尽先机，你说呢？$"
+    .string "比对手先一步发动攻击的\n能力……\p正因如此，才会在战斗中\n占尽先机，你说呢？$"
 
 PetalburgCity_Gym_Text_RandallDefeat:
     .string "一场出色的战斗！$"
@@ -1241,7 +1241,7 @@ PetalburgCity_Gym_Text_ParkerIntro:
     .string "这里是混乱房间，\p让我看看你和宝可梦之间\n有多么强的羁绊！$"
 
 PetalburgCity_Gym_Text_ParkerDefeat:
-    .string "我还不足以让你们的组合陷入混乱…\n你们间的信任真的很强。$"
+    .string "我还不足以让你们的组合陷入混乱……\n你们间的信任真的很强。$"
 
 PetalburgCity_Gym_Text_ParkerPostBattle:
     .string "下面是力量房间，\n你能抵挡住那强大的威力吗？$"
@@ -1250,10 +1250,10 @@ PetalburgCity_Gym_Text_ParkerPostBadge:
     .string "你打败了我们的馆主，\n我们必须更加努力训练了。$"
 
 PetalburgCity_Gym_Text_GeorgeIntro:
-    .string "当你以为自己就要赢了时，\n对手的体力恢复了…\p你了解那种\n沮丧的感觉吗？\p就让你体会一下\n这种沮丧吧！$"
+    .string "当你以为自己就要赢了时，\n对手的体力恢复了……\p你了解那种\n沮丧的感觉吗？\p就让你体会一下\n这种沮丧吧！$"
 
 PetalburgCity_Gym_Text_GeorgeDefeat:
-    .string "我来不及恢复体力…\n这么强大的攻击…$"
+    .string "我来不及恢复体力……\n这么强大的攻击……$"
 
 PetalburgCity_Gym_Text_GeorgePostBattle:
     .string "我不该小看\n我们馆主的孩子。\p不，等等！训练家的力量\n全是靠自己的努力得来的，\p我的努力还不够，\n所以才会输。\p加油吧！下面是一击必杀房间。$"
@@ -1265,7 +1265,7 @@ PetalburgCity_Gym_Text_BerkeIntro:
     .string "就算你是我们馆主的孩子，\n我也不会放水的。\p体会一下宝可梦被\n击中要害的恐惧吧！$"
 
 PetalburgCity_Gym_Text_BerkeDefeat:
-    .string "你的力量…\n这是真正的力量。$"
+    .string "你的力量……\n这是真正的力量。$"
 
 PetalburgCity_Gym_Text_BerkePostBattle:
     .string "你的父亲很强，\n大家都很尊敬他。\p而且，我感到你身上也\n散发着同他一样的热情。\p希望能看到你和你父亲之间\n一场激烈的战斗！$"
@@ -1274,10 +1274,10 @@ PetalburgCity_Gym_Text_BerkePostBadge:
     .string "自从你爸爸成为馆主以来，\n橙华市的训练家\l已经变得很强了。$"
 
 PetalburgCity_Gym_Text_MaryIntro:
-    .string "嘻嘻…\n这里是命中房间。\p当所有攻击全部命中时，\n你会应付不过来的。$"
+    .string "嘻嘻……\n这里是命中房间。\p当所有攻击全部命中时，\n你会应付不过来的。$"
 
 PetalburgCity_Gym_Text_MaryDefeat:
-    .string "你的命中比我更强…$"
+    .string "你的命中比我更强……$"
 
 PetalburgCity_Gym_Text_MaryPostBattle:
     .string "前面有更强的\n训练家在等着你。\p左边是防御房间，\n右边是回复房间。\p你的宝可梦的攻击\n会在前方受到挑战。$"
@@ -1289,7 +1289,7 @@ PetalburgCity_Gym_Text_AlexiaIntro:
     .string "防御越高，\n攻击时越没有后顾之忧。$"
 
 PetalburgCity_Gym_Text_AlexiaDefeat:
-    .string "我们的防御还不够…$"
+    .string "我们的防御还不够……$"
 
 PetalburgCity_Gym_Text_AlexiaPostBattle:
     .string "你给我上了\n重要的一课。\p好了，加油吧！左边的门\n通向力量房间，\p右边的门通向\n一击必杀房间，\p两边的训练家都\n十分善于进攻。$"
@@ -1301,23 +1301,23 @@ PetalburgCity_Gym_Text_JodyIntro:
     .string "我们的道馆馆主要我们\n尽最大努力打败你，\p就算你是馆主的孩子，\n我们也不能放水！$"
 
 PetalburgCity_Gym_Text_JodyDefeat:
-    .string "但…我已经尽力了！$"
+    .string "但……我已经尽力了！$"
 
 PetalburgCity_Gym_Text_JodyPostBattle:
-    .string "你使用宝可梦的方法…\n和你父亲很像。\p去吧，你的父亲，道馆馆主，\n正在等着你！$"
+    .string "你使用宝可梦的方法……\n和你父亲很像。\p去吧，你的父亲，道馆馆主，\n正在等着你！$"
 
 PetalburgCity_Gym_Text_JodyPostBadge:
     .string "当然，让宝可梦变强\n并没有错，\p但是，是什么决定了胜负？\p正是训练家对他们\n宝可梦的感情。$"
 
 PetalburgCity_Gym_Text_DoorAppearsLocked:
-    .string "这扇门现在\n锁着…$"
+    .string "这扇门现在\n锁着……$"
 
 PetalburgCity_Gym_Text_EnterSpeedRoom:
     .string "牌子上写着“速度房间”。\p想进去吗？$"
 
 @ Unused
 PetalburgCity_Gym_Text_DoorAppearsLocked2:
-    .string "这扇门现在\n锁着…$"
+    .string "这扇门现在\n锁着……$"
 
 PetalburgCity_Gym_Text_EnterAccuracyRoom:
     .string "牌子上写着“命中房间”。\p想进去吗？$"
@@ -1347,14 +1347,14 @@ PetalburgCity_Gym_Text_GymStatueCertified:
     .string "橙华市宝可梦道馆\p千里认可的训练家：\n{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanPreRematch:
-    .string "爸爸：{PLAYER}…\n我就知道你会来。\p我是不会拒绝\n你的挑战的，\p你明白这点，对吗？\p在道馆之中，我们\n父亲与孩子的关系并不重要。\p…不，正因为我们的这种关系，\n我们才会尽自己的全力战斗。\l你说对吗，{PLAYER}？$"
+    .string "爸爸：{PLAYER}……\n我就知道你会来。\p我是不会拒绝\n你的挑战的，\p你明白这点，对吗？\p在道馆之中，我们\n父亲与孩子的关系并不重要。\p……不，正因为我们的这种关系，\n我们才会尽自己的全力战斗。\l你说对吗，{PLAYER}？$"
 
 PetalburgCity_Gym_Text_NormanRematchDefeat:
-    .string "呃…哈哈…\n也许太勉强了…$"
+    .string "呃……哈哈……\n也许太勉强了……$"
 
 PetalburgCity_Gym_Text_NormanPostRematch:
-    .string "爸爸：{PLAYER}…\n你的梦想是什么？\p我的梦想…\n哈哈哈…\l实际上，它已经成真了。$"
+    .string "爸爸：{PLAYER}……\n你的梦想是什么？\p我的梦想……\n哈哈哈……\l实际上，它已经成真了。$"
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
-    .string "爸爸：{PLAYER}…\n我就知道你会来。\p我是不会拒绝\n你的挑战的，\p你明白这点，对吗？\p在道馆之中，我们\n父亲与孩子的关系并不重要。\p嗯？等等，{PLAYER}，\p你只有一只\n能战斗的宝可梦吗？\p你得带至少两只\n宝可梦来才行。$"
+    .string "爸爸：{PLAYER}……\n我就知道你会来。\p我是不会拒绝\n你的挑战的，\p你明白这点，对吗？\p在道馆之中，我们\n父亲与孩子的关系并不重要。\p嗯？等等，{PLAYER}，\p你只有一只\n能战斗的宝可梦吗？\p你得带至少两只\n宝可梦来才行。$"
 

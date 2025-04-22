@@ -501,7 +501,7 @@ Route109_Text_ChillAtMyPapasSpot:
     .string "哟，训练家！\n不论你是火气冲天，\l还是冷酷无边，\l都能在爸爸的店里找到个人空间！$"
 
 Route109_Text_LittleKidsDartAround:
-    .string "小孩子跑得很快…\p你得时时刻刻盯着她们，\n这真的很累人。\p我的孩子跟宝可梦在一起，\n大概没什么问题，可是…$"
+    .string "小孩子跑得很快……\p你得时时刻刻盯着她们，\n这真的很累人。\p我的孩子跟宝可梦在一起，\n大概没什么问题，可是……$"
 
 Route109_Text_SandCastleTakingLongTime:
     .string "我们用了很长时间\n才堆好沙堡。$"
@@ -513,7 +513,7 @@ Route109_Text_WereGoingToMakeBigCastle:
     .string "我们要把沙滩上的沙都\n收集起来，堆一个大大的沙堡！\p我们就是城堡里的\n国王和王后。\p你可以做我们的卫兵。$"
 
 Route109_Text_ZigzagoonPicksUpLitter:
-    .string "这里的水很清澈，\p但我仍会带着我的蛇纹熊\n来海岸捡垃圾。\p污水会升到空中形成雨，\n然后落到我们汲水的小河里…\p如果我们污染了海洋，\n最终受害的还是我们自己。$"
+    .string "这里的水很清澈，\p但我仍会带着我的蛇纹熊\n来海岸捡垃圾。\p污水会升到空中形成雨，\n然后落到我们汲水的小河里……\p如果我们污染了海洋，\n最终受害的还是我们自己。$"
 
 Route109_Text_ZigzagoonCry:
     .string "蛇纹熊：咕呜？$"

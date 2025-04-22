@@ -362,7 +362,7 @@ OldaleTown_Text_DiscoveredFootprints:
     .string "我刚刚发现了\n稀有宝可梦的足迹！\p等我描下它们来再说，\n好吗？$"
 
 OldaleTown_Text_FinishedSketchingFootprints:
-    .string "我描下了\n稀有宝可梦的足迹，\p但怎么看都是\n我自己的脚印…$"
+    .string "我描下了\n稀有宝可梦的足迹，\p但怎么看都是\n我自己的脚印……$"
 
 OldaleTown_Text_MayLetsGoBack:
     .string "小遥：{PLAYER}{KUN}！\n来！\l我们快回家吧！$"

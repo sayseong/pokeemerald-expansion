@@ -55,13 +55,13 @@ PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType::
 	return
 
 PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem:
-    .string "电脑上的\n宝可梦寄放系统…\p无论是谁发明的，\n那人一定是个科学狂人！$"
+    .string "电脑上的\n宝可梦寄放系统……\p无论是谁发明的，\n那人一定是个科学狂人！$"
 
 PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP:
     .string "我的宝可梦吃了蓝橘果后，\n它的体力就恢复了！$"
 
 PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon:
-    .string "宝可梦分为很多属性，\p每种属性对其他属性\n都有不同的优势和弱点。\p由于宝可梦属性的不同，\n战斗可能会变得很容易或变得更加棘手。$"
+    .string "宝可梦分为很多属性，\p每种属性对其他属性\n都有不同的优势和弱点。\p由于宝可梦属性的不同，\n战斗可能会变得更加容易或棘手。$"
 
 PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType:
     .string "比如，你的木守宫\n是草属性。\p它对水属性和地面属性时\n占有优势，\p但对火属性宝可梦时\n则处于劣势。$"

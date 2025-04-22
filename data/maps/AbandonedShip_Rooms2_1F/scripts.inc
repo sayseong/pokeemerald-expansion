@@ -53,10 +53,10 @@ AbandonedShip_Rooms2_1F_Text_DanIntro:
     .string "文：在寻宝的途中，\n我们发现了一名训练家！$"
 
 AbandonedShip_Rooms2_1F_Text_DanDefeat:
-    .string "文：即使我们联手\n也没能打过他…$"
+    .string "文：即使我们联手\n也没能打过他……$"
 
 AbandonedShip_Rooms2_1F_Text_DanPostBattle:
-    .string "文：我们什么宝藏也没找到…\n是不是已经被挖走了？$"
+    .string "文：我们什么宝藏也没找到……\n是不是已经被挖走了？$"
 
 AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons:
     .string "文：你连两只宝可梦都没有，\n这样肯定赢不了我们。$"
@@ -83,7 +83,7 @@ AbandonedShip_Rooms2_1F_Text_DanRematchDefeat:
     .string "文：你还是那么强！$"
 
 AbandonedShip_Rooms2_1F_Text_DanPostRematch:
-    .string "文：我们没找到宝藏，\n还输了宝可梦对战…\p我要回家…不过要是我真的说出来，\n她肯定会生气的…$"
+    .string "文：我们没找到宝藏，\n还输了宝可梦对战……\p我要回家……不过要是我真的说出来，\n她肯定会生气的……$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons:
     .string "文：你连两只宝可梦都没有，\n这样你是赢不了我们的。$"
@@ -92,7 +92,7 @@ AbandonedShip_Rooms2_1F_Text_KiraRematchIntro:
     .string "夏：哦？我们又见面了！\p你和我们一样，还在寻找\n宝藏，对不对？\p不如来场战斗吧，\n输的人放弃寻宝。$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat:
-    .string "夏：哦，我们又输了…$"
+    .string "夏：哦，我们又输了……$"
 
 AbandonedShip_Rooms2_1F_Text_KiraPostRematch:
     .string "夏：不把宝可梦练得强一些，\n不找到宝藏，\l我们绝不回去！$"
@@ -110,7 +110,7 @@ AbandonedShip_Rooms2_1F_Text_JaniPostBattle:
     .string "赤脚在这艘船上走\n还真有些难受。$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonIntro:
-    .string "力量与体贴…\n这就是训练家的宝藏！$"
+    .string "力量与体贴……\n这就是训练家的宝藏！$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonDefeat:
     .string "啊，没想到你还\n真有两下子。$"

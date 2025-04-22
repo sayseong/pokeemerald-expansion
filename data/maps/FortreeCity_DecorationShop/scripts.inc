@@ -57,5 +57,5 @@ FortreeCity_DecorationShop_Text_MerchandiseSentToPC:
     .string "在这儿买的商品\n都会送到自己的电脑里，\p太奇妙了！如果也能让他们\n把我那样送回家就好了。$"
 
 FortreeCity_DecorationShop_Text_BuyingDeskForDolls:
-    .string "我要买张漂亮的桌子\n放我可爱的玩偶，\p否则我装扮我的\n秘密基地的时候我的玩偶\l会弄脏，还可能被戳坏。$"
+    .string "我要买张漂亮桌子\n放我可爱的玩偶，\p否则我装扮我的\n秘密基地的时候我的玩偶\l会弄脏，还可能被戳坏。$"
 

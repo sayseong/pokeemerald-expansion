@@ -664,7 +664,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall::
 	end
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
-    .string "什么？小田卷博士？\p博士去野外考察了，\n现在不在这里。\p啊，我给你解释一下什么是野外考察吧。\p野外考察，就是走出研究所，\n去田里或山间等自然环境中\l做研究。\p博士是那种坐不住的人，\n比起坐下来读书\l了解什么事情，他更愿意\l走出门去，亲身体验一下。$"
+    .string "什么？小田卷博士？\p博士去野外考察了，\n现在不在这里。\p啊，我给你解释一下\n什么是野外考察吧。\p野外考察，就是走出研究所，\n去田里或山间等自然环境中\l做研究。\p博士是那种坐不住的人，\n比起坐下来读书\l了解什么事情，他更愿意\l走出门去，亲身体验一下。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
     .string "博士是那种坐不住的人，\n比起坐下来读书\l了解什么事情，他更愿意\l走出门去，亲身体验一下。$"
@@ -688,7 +688,7 @@ LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
     .string "小田卷博士：唉，别这样，\n去见见我孩子吧。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
-    .string "小田卷博士：{RIVAL}？\n回家里去了吧，\p要不又去草丛里\n找寻什么了…\p你和宝可梦累了的话，\n就回家休息一下吧。$"
+    .string "小田卷博士：{RIVAL}？\n回家里去了吧，\p要不又去草丛里\n找寻什么了……\p你和宝可梦累了的话，\n就回家休息一下吧。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
     .string "小田卷博士：嗨，{PLAYER}{KUN}！\p听说你跟{RIVAL}的战斗\n初战告捷，真不错！\p{RIVAL}帮我做了\n很久调查了，\p{RIVAL}已经有了不少\n训练家的经验。\p{PLAYER}{KUN}，这个宝可梦图鉴\n本来是我为了研究订购的，\l但现在我决定把它给你。$"
@@ -715,7 +715,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
     .string "小遥：不知道下面该\n去哪儿找宝可梦呢？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
-    .string "小悠：哈…\n你也有宝可梦图鉴了。\p那好，喏，\n我把这些给你。$"
+    .string "小悠：哈……\n你也有宝可梦图鉴了。\p那好，喏，\n我把这些给你。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
     .string "小悠：你知道，抓一大堆\n宝可梦的感觉很快乐。\p我要去各种地方\n寻找不同的宝可梦，\p如果见到很出色的宝可梦，\n我就用精灵球抓回来。$"
@@ -724,7 +724,7 @@ LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
     .string "喂，你的包包满了。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
-    .string "小悠：下面我该去哪儿\n找宝可梦…$"
+    .string "小悠：下面我该去哪儿\n找宝可梦……$"
 
 LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine:
     .string "看上去是个很先进的机器，\n一定是博士做研究时用的。$"
@@ -739,7 +739,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead:
     .string "一本晦涩难懂的书。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
-    .string "小田卷博士：好了…\p{PLAYER}{KUN}，{RIVAL}，\n你们一直在帮我研究宝可梦，\p多亏了你们，\n我弄明白了一些事情。\p看来在丰缘地区中\n也有来自其它地区的\l宝可梦。\p这让我们意识到了\n丰缘地区自然环境的\l丰富多彩，\p因此我觉得有必要\n把你们的宝可梦图鉴升级为\l全国模式。\p好了，让我看看你们的宝可梦图鉴。$"
+    .string "小田卷博士：好了……\p{PLAYER}{KUN}，{RIVAL}，\n你们一直在帮我研究宝可梦，\p多亏了你们，\n我弄明白了一些事情。\p看来在丰缘地区中\n也有来自其它地区的\l宝可梦。\p这让我们意识到了\n丰缘地区自然环境的\l丰富多彩，\p因此我觉得有必要\n把你们的宝可梦图鉴升级为\l全国模式。\p好了，让我看看你们的宝可梦图鉴。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
     .string "小遥：呵呵呵！\p太好了，我的宝可梦图鉴\n也能升级了！\p都亏了你出去抓了\n那么多宝可梦，{PLAYER}{KUN}！$"
@@ -763,7 +763,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
     .string "小悠：从现在起，\n我暂停野外调查，\p留在这里\n帮博士的忙。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
-    .string "小田卷博士：噢，{PLAYER}{KUN}！\n我看看你的宝可梦图鉴。\p… … … … … …\n… … … … … …\p好了，毫无疑问，\p你真的完成了丰缘地区的\n宝可梦图鉴，\p真令人不敢相信。\p这是我给你的礼物，\p就当作是我对你做得\n如此出色的谢礼。\p这是只有在其它地区\n才能找到的稀有宝可梦！\p从这三只中\n挑一只吧！$"
+    .string "小田卷博士：噢，{PLAYER}{KUN}！\n我看看你的宝可梦图鉴。\p…… …… ……\n…… …… ……\p好了，毫无疑问，\p你真的完成了丰缘地区的\n宝可梦图鉴，\p真令人不敢相信。\p这是我给你的礼物，\p就当作是我对你做得\n如此出色的谢礼。\p这是只有在其它地区\n才能找到的稀有宝可梦！\p从这三只中\n挑一只吧！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon:
     .string "小田卷博士：这是只有在其它地区\n才能找到的稀有宝可梦！\p从这三只中\n挑一只吧！$"
@@ -802,7 +802,7 @@ LittlerootTown_ProfessorBirchsLab_Text_DontHaveAnyRoomForPokemon:
     .string "噢，你没有放下这只\n宝可梦的地方了。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
-    .string "小遥：{PLAYER}{KUN}，这以后…\n你打算怎么做？\p继续战斗提升\n自己的实力吗？\p还是试着完成\n全国宝可梦图鉴？\p我要留在这儿给博士帮忙。$"
+    .string "小遥：{PLAYER}{KUN}，这以后……\n你打算怎么做？\p继续战斗提升\n自己的实力吗？\p还是试着完成\n全国宝可梦图鉴？\p我要留在这儿给博士帮忙。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
     .string "小悠：比起收集\n宝可梦，我更喜欢一步步慢慢培养\l我自己选择的那一只。$"
@@ -814,4 +814,4 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
     .string "小悠：喂，{PLAYER}！\n你去过\l对战开拓区了吗？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
-    .string "… … … … … …\n… … … … …哔！\p亚希达：喂，你好，{PLAYER}！\n是我，亚希达，\p我现在在破浪号上呢。\n在海上的感觉不错！\p顺便…\p有个地方希望\n你能去看看。\p感兴趣的话，就去\n凯那市或水静市乘游船吧。\p见面之后再跟你说详情，\n我等你！\p… … … … … …\n… … … … …咔哒！$"
+    .string "…… …… ……\n…… …… ……哔！\p亚希达：喂，你好，{PLAYER}！\n是我，亚希达，\p我现在在破浪号上呢。\n在海上的感觉不错！\p顺便……\p有个地方希望\n你能去看看。\p感兴趣的话，就去\n凯那市或水静市乘游船吧。\p见面之后再跟你说详情，\n我等你！\p…… …… ……\n…… …… ……咔哒！$"

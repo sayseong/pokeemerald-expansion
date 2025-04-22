@@ -50,7 +50,7 @@ LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM:
-    .string "唔…\p攻击招式…\n防御招式…\p决定教给宝可梦\n什么招式真是困难…$"
+    .string "唔……\p攻击招式……\n防御招式……\p决定教给宝可梦\n什么招式真是困难……$"
 
 LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs:
     .string "有许多不同的\n招式学习器，\p我读过一本目录上说\n一共有50种。$"

@@ -536,8 +536,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
     .string "这个训练家显然很善于\n操纵恶属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType:
-	.string "The TRAINER is apparently skilled\n"
-	.string "in the handling of the FAIRY type.$"
+	.string "这个训练家显然很善于\n操纵妖精属性。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
     .string "这个训练家显然很善于\n操纵钢属性。$"
@@ -591,10 +590,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments:
     .string "抱歉！请原谅！\n你能等一下吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo:
-    .string "…嗯？什么？！…谁啊！\n有没有搞错！是吗！$"
+    .string "……嗯？什么？！……谁啊！\n有没有搞错！是吗！$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
-    .string "哦，我的…\n很抱歉让你久等了！\p我有一个老板工厂头目那里\n的消息。\p他说，“我们就去干！\n马上过来！”$"
+    .string "哦，我的……\n很抱歉让你久等了！\p我有一个老板工厂头目那里\n的消息。\p他说，“我们就去干！\n马上过来！”$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
     .string "工厂头目要求见你。\n你准备好面见他了吗？$"

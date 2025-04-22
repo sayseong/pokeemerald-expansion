@@ -36,5 +36,5 @@ SlateportCity_Mart_Text_SomeItemsOnlyAtMart:
     .string "市场里有些很有趣的\n商品，\p但有些东西只有\n在宝可梦商业中心才能买到。$"
 
 SlateportCity_Mart_Text_GreatBallIsBetter:
-    .string "用超级球比精灵球\n更容易抓到宝可梦。\p我可以用它抓住那些\n比较难抓的宝可梦…$"
+    .string "用超级球比精灵球\n更容易抓到宝可梦。\p我可以用它抓住那些\n比较难抓的宝可梦……$"
 

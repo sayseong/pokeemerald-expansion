@@ -744,7 +744,7 @@ Route110_Movement_BirchExit4:
 	step_end
 
 Route110_Text_WeCantTalkAboutAquaActivities:
-    .string "海洋队的活动…\n我们还不能多说。$"
+    .string "海洋队的活动……\n我们还不能多说。$"
 
 Route110_Text_KickUpARuckus:
     .string "我想去凯那市\n搞出大飞机来！$"
@@ -756,7 +756,7 @@ Route110_Text_AquaActionsBringSmiles:
     .string "海洋队的活动应该让\n所有人都欣慰地笑起来！$"
 
 Route110_Text_MayLetsBattle:
-    .string "小遥：嗨，{PLAYER}{KUN}，好久不见了！\p我寻找宝可梦的时候，\n自己的宝可梦也变强了。\p那么…\n来战斗一场吧？$"
+    .string "小遥：嗨，{PLAYER}{KUN}，好久不见了！\p我寻找宝可梦的时候，\n自己的宝可梦也变强了。\p那么……\n来战斗一场吧？$"
 
 Route110_Text_MayDefeated:
     .string "呀！\n你比我想象中更强！$"
@@ -771,10 +771,10 @@ Route110_Text_BrendanLetsBattle:
     .string "小悠：嗨，{PLAYER}，\n你到这儿来了。\l还顺利吗？\p你的宝可梦训练得如何？\n向我展示一下吧。$"
 
 Route110_Text_BrendanDefeated:
-    .string "唔…\n你很厉害。$"
+    .string "唔……\n你很厉害。$"
 
 Route110_Text_BrendanTakeThis:
-    .string "小悠：{PLAYER}，在我不注意时\n你已经变得这么强了…\p干得不错！\n来，这个给你。$"
+    .string "小悠：{PLAYER}，在我不注意时\n你已经变得这么强了……\p干得不错！\n来，这个给你。$"
 
 Route110_Text_BrendanExplainItemfinder:
     .string "小悠：这是探宝器。\p用它可以寻找附近\n看不见的物品。\p如果它探测到什么，\n就会发出声响。\p好了，我去找\n新的宝可梦了。$"
@@ -786,10 +786,10 @@ Route110_Text_HairStreamsBehindMe:
     .string "我乌亮的头发\n飘在脑后的样子怎么样？\p我就是为此才留长发的。$"
 
 Route110_Text_YouGotBikeFromRydel:
-    .string "嘿，那是风野那儿的自行车！\p啊，这很明显，\n就在你车子上写着呢…\p风野，风野，风野，风野，风野，\n风野，风野，风野，风野，风野，\p风野，风野，风野，风野，风野，\n风野，风野，风野，风野，风野，\p风野，风野，风野，风野，风野，\n风野，风野，风野，风野，风野，\p风野，风野，风野，风野，风野，\n风野，风野，风野，风野，风野，\p风野，风野，风野，风野，风野……\n这名字到处都是。\p你应该骑着它四处走走——\n广告效果会很可观！$"
+    .string "嘿，那是风野那儿的自行车！\p啊，这很明显，\n就在你车子上写着呢……\p风野，风野，风野，风野，风野，\n风野，风野，风野，风野，风野，\p风野，风野，风野，风野，风野，\n风野，风野，风野，风野，风野，\p风野，风野，风野，风野，风野，\n风野，风野，风野，风野，风野，\p风野，风野，风野，风野，风野，\n风野，风野，风野，风野，风野，\p风野，风野，风野，风野，风野……\n这名字到处都是。\p你应该骑着它四处走走——\n广告效果会很可观！$"
 
 Route110_Text_TwoRoads:
-    .string "两条路，一条在上，一条在下…\p一条给人，一条给宝可梦。\n也许这样是最公平的。$"
+    .string "两条路，一条在上，一条在下……\p一条给人，一条给宝可梦。\n也许这样是最公平的。$"
 
 Route110_Text_WalkOnTheLowRoad:
     .string "我没有自行车，\n所以我只能走下面的路。$"
@@ -801,7 +801,7 @@ Route110_Text_WhichShouldIChoose:
     .string "我该选哪条路？\p上自行车道走捷径\n去紫堇市，还是走\l下面的路找宝可梦？$"
 
 Route110_Text_CyclingChallengeResultSummary:
-    .string "碰撞次数：\n… … {STR_VAR_1}！\p总时间：\n… … {STR_VAR_2}！$"
+    .string "碰撞次数：\n…… {STR_VAR_1}！\p总时间：\n…… {STR_VAR_2}！$"
 
 Route110_Text_ChallengeReactionBest:
     .string "华丽的表演！\p你从心底热爱骑车，\l这让我的灵魂\n也为此鼓舞！$"
@@ -813,10 +813,10 @@ Route110_Text_ChallengeReactionOk:
     .string "我想你确实\n努力了。\p但我希望你不要\n忘记骑车的快感。$"
 
 Route110_Text_ChallengeReactionBad:
-    .string "要我说…你的骑车水平\n还不行。\p很明显，你\n还得练习。$"
+    .string "要我说……你的骑车水平\n还不行。\p很明显，你\n还得练习。$"
 
 Route110_Text_ChallengeReactionWorst:
-    .string "…我很无奈…\p你也许并不\n适合骑车。\p你该考虑考虑\n把车还给风野。$"
+    .string "……我很无奈……\p你也许并不\n适合骑车。\p你该考虑考虑\n把车还给风野。$"
 
 Route110_Text_RatedForNumberOfCollisions:
     .string "这里是自行车道。\p如果你骑着风速自行车\n从紫堇市到凯那市去，\l你的碰撞次数和\l总时间都会被记录下来。$"
@@ -855,20 +855,20 @@ Route110_Text_TrickHouseSign:
     .string "“{RIGHT_ARROW}三步，{UP_ARROW}两步，\n进入奇妙的戏法屋。”$"
 
 Route110_Text_BestRecord:
-    .string "至今为止最好的纪录…\p碰撞次数：{STR_VAR_1}\p用时：{STR_VAR_2}$"
+    .string "至今为止最好的纪录……\p碰撞次数：{STR_VAR_1}\p用时：{STR_VAR_2}$"
 
 Route110_Text_ThereIsNoRecord:
-    .string "至今为止最好的纪录…\p还未出现挑战者。\n没记录…$"
+    .string "至今为止最好的纪录……\p还未出现挑战者。\n没记录……$"
 
 Route110_Text_ImagineSeeingYouHere:
     .string "小田卷博士：嗨，{PLAYER}{KUN}！\n想不到在这儿见到你！\p我家{RIVAL}呢？$"
 
 Route110_Text_HeardYouInstallMatchCall:
-    .string "哦，明白了！\n你们两个不是一起行动的，\l嗯，也罢。\p啊，对了，听说你的宝可梦导航仪里\n装了对战寻呼系统，\p那么，我们也互相\n登记信息吧。\p那样的话，就算我们不在一起，\n我也能对你的宝可梦图鉴作出评价了。\p… … … … … …$"
+    .string "哦，明白了！\n你们两个不是一起行动的，\l嗯，也罢。\p啊，对了，听说你的宝可梦导航仪里\n装了对战寻呼系统，\p那么，我们也互相\n登记信息吧。\p那样的话，就算我们不在一起，\n我也能对你的宝可梦图鉴作出评价了。\p…… …… ……$"
 
 Route110_Text_RegisteredBirchInPokenav:
     .string "把小田卷博士的信息\n登记进宝可梦导航仪里。$"
 
 Route110_Text_KeepAnEyeOutForRival:
-    .string "小田卷博士：{PLAYER}{KUN}…\p帮我看着我家{RIVAL}。\n… … … … … …\p好了，我该走了，\n再见，{PLAYER}{KUN}！$"
+    .string "小田卷博士：{PLAYER}{KUN}……\p帮我看着我家{RIVAL}。\n…… …… ……\p好了，我该走了，\n再见，{PLAYER}{KUN}！$"
 

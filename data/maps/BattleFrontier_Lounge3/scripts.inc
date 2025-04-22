@@ -198,10 +198,10 @@ BattleFrontier_Lounge3_EventScript_FaceOriginalDirection::
 	end
 
 BattleFrontier_Lounge3_Text_CantYouSeeWereBusyHere::
-    .string "…你想干什么？\p没看见我们很忙吗？\n你就不能一边去等等？$"
+    .string "……你想干什么？\p没看见我们很忙吗？\n你就不能一边去等等？$"
 
 BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
-    .string "…嗯？\n我觉得你是个挺强的训练家。\p呵呵呵…\n听着，我有个小提议。\p现在我们在对战开拓区\n有一组人，\l我们正在做一个小游戏。\p规则很简单，\p首先，我们选择一种\n对战开拓区的设施，\p然后我们各自选择一个\n正在挑战的训练家，\l赌上自己的对战点数，\p选的训练家获得成绩最好\n的人就可以得到所有的\l对战点数。\p很简单是吧？\n然后…$"
+    .string "……嗯？\n我觉得你是个挺强的训练家。\p呵呵呵……\n听着，我有个小提议。\p现在我们在对战开拓区\n有一组人，\l我们正在做一个小游戏。\p规则很简单，\p首先，我们选择一种\n对战开拓区的设施，\p然后我们各自选择一个\n正在挑战的训练家，\l赌上自己的对战点数，\p选的训练家获得成绩最好\n的人就可以得到所有的\l对战点数。\p很简单是吧？\n然后……$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle::
     .string "我正在找想要挑战\n对战塔里单人对战\l房间的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
@@ -243,7 +243,7 @@ BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe::
     .string "我觉得也许你值得一试，\n怎么样？\l能替我参加吗？$"
 
 BattleFrontier_Lounge3_Text_SpotMeSomeBattlePoints::
-    .string "好的，太好了。\n那么，呃…能先给我\l一些对战点数吗？\p相信我，事后我会\n感谢你的。$"
+    .string "好的，太好了。\n那么，呃……能先给我\l一些对战点数吗？\p相信我，事后我会\n感谢你的。$"
 
 BattleFrontier_Lounge3_Text_HowMuchCanYouSpot::
     .string "太好了，太好了！\n那你能给我多少？$"
@@ -291,7 +291,7 @@ BattleFrontier_Lounge3_Text_GetToBattlePyramid::
     .string "马上就去对战金字塔的\n追寻式战斗吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_NiceTryCantReturnPoints::
-    .string "啊，你来了…\n你很努力了…\p不过抱歉，我没法把\n对战点数还给你了…\p就让我们下一回\n更加努力一些吧！$"
+    .string "啊，你来了……\n你很努力了……\p不过抱歉，我没法把\n对战点数还给你了……\p就让我们下一回\n更加努力一些吧！$"
 
 BattleFrontier_Lounge3_Text_HelloChampHeresYourPoints::
     .string "啊，太棒了！\n我在这儿！\p我就知道你可以的！\n我就知道你会成功！\l今天我们两个是大赢家！\p你的对战点数还给你，\n还有，这是额外的奖品！$"
@@ -306,16 +306,16 @@ BattleFrontier_Lounge3_Text_NotInterested::
     .string "你不感兴趣吗？！\n不要怕挑战啊！$"
 
 BattleFrontier_Lounge3_Text_Oh::
-    .string "啊…$"
+    .string "啊……$"
 
 BattleFrontier_Lounge3_Text_BackedWrongTrainer::
-    .string "我又押错了训练家！\p也许我还是老老实实\n像别人那样去战斗比较好…$"
+    .string "我又押错了训练家！\p也许我还是老老实实\n像别人那样去战斗比较好……$"
 
 BattleFrontier_Lounge3_Text_TrainerGoodButRattled::
-    .string "那边的训练家…\p他的实力其实不错，可惜太容易紧张，\n总是通不过对战巨蛋…$"
+    .string "那边的训练家……\p他的实力其实不错，可惜太容易紧张，\n总是通不过对战巨蛋……$"
 
 BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne::
     .string "嘻嘻！\n我一眼就能看出谁会是赢家！$"
 
 BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges::
-    .string "那些训练家…\n他们在干什么？\l他们应该去挑战啊。$"
+    .string "那些训练家……\n他们在干什么？\l他们应该去挑战啊。$"

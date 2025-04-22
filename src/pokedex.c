@@ -3829,7 +3829,7 @@ static void Task_LoadSizeScreen(u8 taskId)
             //StringCopy(string, gText_SizeComparedTo);
             //StringAppend(string, gSaveBlock2Ptr->playerName);
             //修改，修改名字大小比较文本与日版相同
-            StringCopy(gStringVar1, GetSpeciesName(sPokedexListItem->dexNum)); //复制字符串到变量
+            StringCopy(gStringVar1, GetSpeciesName(NationalPokedexNumToSpecies(sPokedexListItem->dexNum))); //复制字符串到变量
             StringCopy(gStringVar2, gSaveBlock2Ptr->playerName); //复制字符串到变量
             StringExpandPlaceholders(gStringVar4, gText_SizeComparedTo); //写入变量到文本
             //显示（打印），string由于多余就去除了。

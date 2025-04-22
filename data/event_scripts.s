@@ -888,7 +888,7 @@ gText_PokemonCenterSign::
 
 gText_MomOrDadMightLikeThisProgram::
 	.string "也许是{STR_VAR_1}喜欢的游戏\n"
-	.string "… … … … … … … … … … … … … … … …\p"
+	.string "…… …… …… …… …… …… …… ……\p"
 	.string "该走了！$"
 
 gText_WhichFloorWouldYouLike::
@@ -906,11 +906,11 @@ gText_SelectWithoutRegisteredItem::
 gText_PokemonTrainerSchoolEmail::
 	.string "有一封宝可梦训练家\n"
 	.string "学校来的电子邮件。\p"
-	.string "… … … … … …\p"
+	.string "…… …… ……\p"
 	.string "一只宝可梦最多可以学4个招式，\p"
 	.string "训练家的专业程度就可以从其\n"
 	.string "为宝可梦所选择的招式中看出来。\p"
-	.string "… … … … … …$"
+	.string "…… …… ……$"
 
 gText_PlayerHouseBootPC::
 	.string "{PLAYER}登录了电脑。$"
@@ -934,8 +934,8 @@ gText_FirstShouldRestoreMonsHealth::
 gText_MonsHealedShouldBuyPotions::
 	.string "宝可梦的体力已经\n"
 	.string "回复满了。\p"
-	.string "宝可梦的体力……也就是HP变少了的话，\n"
-	.string "请随时来这里回复吧。\p"
+	.string "宝可梦的体力……也就是HP变少了\n"
+	.string "的话，请随时来这里回复吧。\p"
 	.string "如果要去稍微有点远的地方，\n"
 	.string "建议你先去友好商店购买伤药备用。\p"
 	.string "那么，请加油吧！\p"
@@ -1003,7 +1003,7 @@ gText_SorryWirelessClubAdjustments::
 
 gText_UndergoingAdjustments::
 	.string "似乎正在进行\n"
-	.string "调整的样子…$"
+	.string "调整的样子……$"
 
 @ Unused
 gText_SorryTradeCenterInspections::

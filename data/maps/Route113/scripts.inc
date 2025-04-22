@@ -149,5 +149,5 @@ Route113_Text_TrainerTipsRegisterKeyItems:
     .string "训练家小技巧\p可以将包包中的某个重要物品\n登录到SELECT键上，\p按下SELECT键就可以\n方便地使用登录的物品了。$"
 
 Route113_Text_GlassWorkshopSign:
-    .string "玻璃制造工作室\n“将火山灰变成玻璃”$"
+    .string "琉璃工坊\n“将火山灰变成玻璃”$"
 

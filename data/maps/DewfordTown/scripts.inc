@@ -685,7 +685,7 @@ DewfordTown_Text_GiveYouOneOfMyRods:
     .string "我听到了，\n我真高兴你能这么说！\p我就把我的钓竿给你一支吧。$"
 
 DewfordTown_Text_ThrowInFishingAdvice:
-    .string "作为附送，\n我给你几条钓鱼的建议吧！\p首先，面对水面，\n甩出钓竿。\p集中精神…\n鱼咬钩的时候，拉起钓竿。\p有时你马上就能钓到什么，\n但想抓大家伙的话，\l你就得计算好钓的晃动次数\l才能拖它们上来。$"
+    .string "作为附送，\n我给你几条钓鱼的建议吧！\p首先，面对水面，\n甩出钓竿。\p集中精神……\n鱼咬钩的时候，拉起钓竿。\p有时你马上就能钓到什么，\n但想抓大家伙的话，\l你就得计算好钓的晃动次数\l才能拖它们上来。$"
 
 DewfordTown_Text_ThatsTooBadThen:
     .string "哦，是吗？\n真遗憾。$"
@@ -697,19 +697,19 @@ DewfordTown_Text_GreatHaulInSomeBigOnes:
     .string "是吗！太好了！\n继续钓更大的鱼吧！$"
 
 DewfordTown_Text_FishingAdvice:
-    .string "好了，别沮丧，！\n我给你点钓鱼的建议。\p首先，面对水面，\n甩出钓竿。\p集中精神…\n鱼咬钩的时候，拉起钓竿。\p有时你马上就能钓到什么，\n但想抓大家伙的话，\l你就得计算好钓竿的晃动次数\l才能拖它们上来。$"
+    .string "好了，别沮丧，！\n我给你点钓鱼的建议。\p首先，面对水面，\n甩出钓竿。\p集中精神……\n鱼咬钩的时候，拉起钓竿。\p有时你马上就能钓到什么，\n但想抓大家伙的话，\l你就得计算好钓竿的晃动次数\l才能拖它们上来。$"
 
 DewfordTown_Text_XIsTheBiggestHappeningThingRight:
-    .string "我知道什么在发生，什么最时髦，\n我一直在调查。\p你听说过这个新词\n“{STR_VAR_1}”吗？\p没错！\n你当然知道！\p我是说，嘘\n“{STR_VAR_1}”…\l是现在最新最热的词！\p无论你从哪儿来，\n“{STR_VAR_1}”\l都是最重要的事，对吗？$"
+    .string "我知道什么在发生，什么最时髦，\n我一直在调查。\p你听说过这个新词\n“{STR_VAR_1}”吗？\p没错！\n你当然知道！\p我是说，嘘\n“{STR_VAR_1}”……\l是现在最新最热的词！\p无论你从哪儿来，\n“{STR_VAR_1}”\l都是最重要的事，对吗？$"
 
 DewfordTown_Text_TellMeWhatsNewAndIn:
     .string "嗯？\n这不是现在最流行的吗？\p哎，那么，你得告诉我，\n现在最流行的是什么？$"
 
 DewfordTown_Text_OfCourseIKnowAboutThat:
-    .string "呃？\n“{STR_VAR_2}”？\p… …\p…呃…对！没错！\n我知道！一直都知道！\p我当然知道！\n“{STR_VAR_2}”，对吗？\p对，是它，就是它！\n“{STR_VAR_2}”\l不就是最酷的词吗？\p不就是在潮流最尖端的词吗？\n你以为我不知道吗？\p“{STR_VAR_1}”…\n那只是，呃，五分钟前的事了，\p现在，“{STR_VAR_2}”才是\n最重要最时兴的！$"
+    .string "呃？\n“{STR_VAR_2}”？\p……\p……呃……对！没错！\n我知道！一直都知道！\p我当然知道！\n“{STR_VAR_2}”，对吗？\p对，是它，就是它！\n“{STR_VAR_2}”\l不就是最酷的词吗？\p不就是在潮流最尖端的词吗？\n你以为我不知道吗？\p“{STR_VAR_1}”……\n那只是，呃，五分钟前的事了，\p现在，“{STR_VAR_2}”才是\n最重要最时兴的！$"
 
 DewfordTown_Text_XHuhIThinkYIsCool:
-    .string "唔…\n“{STR_VAR_2}”？\p但我觉得，\n“{STR_VAR_1}”\l才是最棒的。$"
+    .string "唔……\n“{STR_VAR_2}”？\p但我觉得，\n“{STR_VAR_1}”\l才是最棒的。$"
 
 DewfordTown_Text_HearOfAnyTrendsComeShareWithMe:
     .string "那，如果你听说了什么\n新的潮流，来跟我说说好吗？$"

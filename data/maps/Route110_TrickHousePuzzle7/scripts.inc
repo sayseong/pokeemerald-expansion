@@ -315,7 +315,7 @@ Route110_TrickHousePuzzle7_EventScript_Everett::
 	end
 
 Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened:
-    .string "{PLAYER}在门上写下\n密码。\p“我想拥抱戏法大师”\n… … … … … … … …\p锁“咔嗒”一声开了！$"
+    .string "{PLAYER}在门上写下\n密码。\p“我想拥抱戏法大师”\n…… …… …… ……\p锁“咔嗒”一声开了！$"
 
 Route110_TrickHousePuzzle7_Text_JoshuaIntro:
     .string "戏法大师总是像一阵烟\n似的消失了，他怎么做到的？$"
@@ -327,13 +327,13 @@ Route110_TrickHousePuzzle7_Text_JoshuaPostBattle:
     .string "我也想要像一阵烟一样\n消失或者出现。$"
 
 Route110_TrickHousePuzzle7_Text_PatriciaIntro:
-    .string "总是在同样的地方转来转去…\n这会招致厄运的…$"
+    .string "总是在同样的地方转来转去……\n这会招致厄运的……$"
 
 Route110_TrickHousePuzzle7_Text_PatriciaDefeat:
-    .string "败了！\n不祥的预兆…$"
+    .string "败了！\n不祥的预兆……$"
 
 Route110_TrickHousePuzzle7_Text_PatriciaPostBattle:
-    .string "我已经在同一个地方转了\n十多次了…真不幸…$"
+    .string "我已经在同一个地方转了\n十多次了……真不幸……$"
 
 Route110_TrickHousePuzzle7_Text_AlexisIntro:
     .string "胜利的人就会先离开这儿，\n我有这样的预感。$"
@@ -357,17 +357,17 @@ Route110_TrickHousePuzzle7_Text_AlvaroIntro:
     .string "我一直看着你走了过来！$"
 
 Route110_TrickHousePuzzle7_Text_AlvaroDefeat:
-    .string "我没有预见到这样的结果…$"
+    .string "我没有预见到这样的结果……$"
 
 Route110_TrickHousePuzzle7_Text_AlvaroPostBattle:
     .string "啊，不管怎样，我们\n在命运之地相识了。\p虽然对对方来说我们都是怪人，\n我们也都要努力啊！$"
 
 Route110_TrickHousePuzzle7_Text_EverettIntro:
-    .string "被困在这儿真讨厌…$"
+    .string "被困在这儿真讨厌……$"
 
 Route110_TrickHousePuzzle7_Text_EverettDefeat:
     .string "啊，你真强。$"
 
 Route110_TrickHousePuzzle7_Text_EverettPostBattle:
-    .string "我本来打算打败你之后\n和你交换位置，结果…$"
+    .string "我本来打算打败你之后\n和你交换位置，结果……$"
 

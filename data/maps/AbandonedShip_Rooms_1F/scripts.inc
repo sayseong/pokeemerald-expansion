@@ -32,16 +32,16 @@ AbandonedShip_Rooms_1F_EventScript_ThaliaRematch::
 	end
 
 AbandonedShip_Rooms_1F_Text_TakingALookAround:
-    .string "这种船很罕见，我得\n趁机参观一下。\p嗯…\n似乎还有其它船舱…$"
+    .string "这种船很罕见，我得\n趁机参观一下。\p嗯……\n似乎还有其它船舱……$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaIntro:
     .string "你究竟是为什么来\n这里？肯定是好奇吧！$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaDefeat:
-    .string "不仅好奇，还很强…$"
+    .string "不仅好奇，还很强……$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
-    .string "隔壁的那个人…\p他说他只是来观光，\n可我觉得不对劲。$"
+    .string "隔壁的那个人……\p他说他只是来观光，\n可我觉得不对劲。$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaRegister:
     .string "你真是太强了！\n我登记下你的信息作纪念吧！$"
@@ -56,7 +56,7 @@ AbandonedShip_Rooms_1F_Text_ThaliaPostRematch:
     .string "我敢肯定那个人有什么企图！\n他的行为太可疑了！$"
 
 AbandonedShip_Rooms_1F_Text_DemetriusIntro:
-    .string "哇啊！\n被发现了！…啊？$"
+    .string "哇啊！\n被发现了！……啊？$"
 
 AbandonedShip_Rooms_1F_Text_DemetriusDefeat:
     .string "呼，你不是我妈。$"

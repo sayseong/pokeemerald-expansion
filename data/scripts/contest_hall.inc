@@ -1383,7 +1383,7 @@ LilycoveCity_ContestLobby_Text_ReceptionDontHavePokeblockCase:
 
 LilycoveCity_ContestLobby_Text_NowThatWeveClearedThatUp:
 	.string "OK，\n"
-	.string "现在我们弄清楚了…\p"
+	.string "现在我们弄清楚了……\p"
 	.string "你好！\p"
 	.string "这里是宝可梦华丽大赛的\n"
 	.string "服务前台。$"
@@ -1460,7 +1460,7 @@ LilycoveCity_ContestLobby_Text_EnterWhichPokemon1:
 LilycoveCity_ContestLobby_Text_MonNotQualifiedForRank:
 	.string "非常抱歉，你的宝可梦\n"
 	.string "还没有资格参加\l"
-	.string "这个等级的比赛…$"
+	.string "这个等级的比赛……$"
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart:
 	.string "非常抱歉，宝可梦蛋是\n"
@@ -1468,10 +1468,10 @@ LilycoveCity_ContestLobby_Text_EggCannotTakePart:
 
 LilycoveCity_ContestLobby_Text_MonInNoConditionForContest:
 	.string "还够资格参加这个等级的\l"
-	.string "比赛…$"
+	.string "比赛……$"
 
 LilycoveCity_ContestLobby_Text_AlreadyWonEnterAnyway:
-	.string "这个缎带…\p"
+	.string "这个缎带……\p"
 	.string "你的宝可梦似乎已经获得了\n"
 	.string "这个等级的缎带？\p"
 	.string "你还想参加这个等级\n"
@@ -1528,7 +1528,7 @@ ContestHall_Text_SeenContestantsAudienceWillVote:
 	.string "开始吧！$"
 
 ContestHall_Text_VotingUnderWay:
-	.string "投票进行中…$"
+	.string "投票进行中……$"
 
 ContestHall_Text_VotingCompleteLetsAppeal:
 	.string "投票结束了！\p"
@@ -1629,10 +1629,10 @@ LilycoveCity_ContestLobby_Text_EnterWhichPokemon2:
 	.string "要让哪只宝可梦参加？$"
 
 LilycoveCity_ContestLobby_Text_Transmitting:
-	.string "传输中…$"
+	.string "传输中……$"
 
 LilycoveCity_ContestLobby_Text_TransmissionError:
-	.string "传输错误…$"
+	.string "传输错误……$"
 
 LilycoveCity_ContestLobby_Text_PlayersChoseDifferentContest:
 	.string "你可能选择了和别人不一样的\n"
@@ -1644,7 +1644,7 @@ LilycoveCity_ContestLobby_Text_PlayersMadeDifferentChoice:
 
 LilycoveCity_ContestLobby_Text_PleaseWaitBButtonCancel:
 	.string "请等待。\n"
-	.string "… … B键：取消$"
+	.string "…… B键：取消$"
 
 @ Unused
 LilycoveCity_ContestLobby_Text_ParticipateAnotherTime2:
@@ -1681,7 +1681,7 @@ LilycoveCity_ContestLobby_Text_EnterWhichContest3:
 
 LilycoveCity_ContestLobby_Text_MonInNoCondition2:
 	.string "还够资格参加这个等级的\l"
-	.string "比赛…$"
+	.string "比赛……$"
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart2:
 	.string "很抱歉你的宠物蛋是不\n"

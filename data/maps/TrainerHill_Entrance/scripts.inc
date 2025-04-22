@@ -301,16 +301,16 @@ TrainerHill_Entrance_Text_SaveGameBeforeEnter:
     .string "你是第一次来这儿吗？\p在进入之前，请先\n保存进度。$"
 
 TrainerHill_Entrance_Text_TrainersUpToFloorX:
-    .string "唔，我看看…\n现在这儿的训练家正在…\p{STR_VAR_1}楼。$"
+    .string "唔，我看看……\n现在这儿的训练家正在……\p{STR_VAR_1}楼。$"
 
 TrainerHill_Entrance_Text_TrainersInEveryRoom:
-    .string "唔，我看看…\n现在这儿的训练家正在…\p好像每间房间里\n都有训练家。$"
+    .string "唔，我看看……\n现在这儿的训练家正在……\p好像每间房间里\n都有训练家。$"
 
 TrainerHill_Entrance_Text_LikeToChallengeTrainers:
     .string "你想要挑战\n等候着的训练家吗？$"
 
 TrainerHill_Entrance_Text_TimeProgessGetSetGo:
-    .string "我会为你计时的，\n祝你好运！\p记下你的成绩…\p创造自己的纪录…\p去吧！$"
+    .string "我会为你计时的，\n祝你好运！\p记下你的成绩……\p创造自己的纪录……\p去吧！$"
 
 TrainerHill_Entrance_Text_PleaseVisitUsAgain:
     .string "下次再来！$"
@@ -335,7 +335,7 @@ TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
     .string "哦，对不起，但是\n你只有一只宝可梦。\p你最少需要两只宝可梦\n来参加这个活动。$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo:
-    .string "嗯，嗯！\p你终于来了！\n是啊，你来了！\p等！不要说话！\n我知道你为什么会\l一个人单独走到这里来！\p你要来见我这个\n训练家之山的老板，因为…\p你希望和我组队！\n呀—呵！\p…呃？\n不是吗？\p不管怎样，我一路看着你上来。\n完美的战斗！勇气可嘉！$"
+    .string "嗯，嗯！\p你终于来了！\n是啊，你来了！\p等！不要说话！\n我知道你为什么会\l一个人单独走到这里来！\p你要来见我这个\n训练家之山的老板，因为……\p你希望和我组队！\n呀—呵！\p……呃？\n不是吗？\p不管怎样，我一路看着你上来。\n完美的战斗！勇气可嘉！$"
 
 TrainerHill_Roof_Text_HaveTheMostMarvelousGift:
     .string "像你这样杰出的人，当然\n只有最杰出的礼物才配得上你！$"
@@ -347,7 +347,7 @@ TrainerHill_Roof_Text_GotHereMarvelouslyQuickly:
     .string "啊，等等！\n你来得可真快啊。\p真让我吃惊！你不必\n这么急着来见我的！\p真棒，接待处的\n时间板需要更新了！$"
 
 TrainerHill_Roof_Text_YouWerentVeryQuick:
-    .string "呃，噢…\n你来得并不是很快。$"
+    .string "呃，噢……\n你来得并不是很快。$"
 
 TrainerHill_Roof_Text_ArriveZippierNextTime:
     .string "也许下次你快一点来\n我会更高兴的。\p那样，我将会很高兴\n和你一同组队！\p下次再见，朋友！$"

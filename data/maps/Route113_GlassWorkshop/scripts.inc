@@ -302,7 +302,7 @@ Route113_GlassWorkshop_Text_LetsSeeCollectedAshes:
     .string "火山灰收集得怎么样了，呼呼？\n我看看，呼呼。$"
 
 Route113_GlassWorkshop_Text_NotEnoughAshNeedX:
-    .string "唔…\n不是很多啊，呼呼。\l这一点不够制造玻璃哨的，呼呼。\p嗯…再走{STR_VAR_1}步\n我就可以制造\l蓝色玻璃哨了，呼呼。$"
+    .string "唔……\n不是很多啊，呼呼。\l这一点不够制造玻璃哨的，呼呼。\p嗯……再走{STR_VAR_1}步\n我就可以制造\l蓝色玻璃哨了，呼呼。$"
 
 Route113_GlassWorkshop_Text_WhichGlassItemWoudYouLike:
     .string "哦！\n你收集了不少火山灰了，呼呼！\p我这就给你制造玻璃，呼呼。\n你想要什么样的，呼呼？$"
@@ -317,7 +317,7 @@ Route113_GlassWorkshop_Text_IllMakeItemForYou:
     .string "那么，是{STR_VAR_1}了，呼呼！\p好，我这就开始，呼呼。\n稍等一下就好了，呼呼。$"
 
 Route113_GlassWorkshop_Text_NotEnoughAshToMakeItem:
-    .string "是{STR_VAR_1}吗？呼呼。\p做它的话，火山灰不够啊，\n呼呼。\p我看看…要做这个还要再走{STR_VAR_2}步\n才能收集到足够的火山灰，\l呼呼。\p那么，你还希望我\n为你做什么？呼呼。$"
+    .string "是{STR_VAR_1}吗？呼呼。\p做它的话，火山灰不够啊，\n呼呼。\p我看看……要做这个还要再走{STR_VAR_2}步\n才能收集到足够的火山灰，\l呼呼。\p那么，你还希望我\n为你做什么？呼呼。$"
 
 Route113_GlassWorkshop_Text_AllThatAshButDontWantAnything:
     .string "收集了那么多火山灰，但\n你没有想要的东西吗？呼呼。$"

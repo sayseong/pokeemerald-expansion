@@ -22,10 +22,10 @@ MagmaHideout_2F_1R_EventScript_Grunt5::
 	end
 
 MagmaHideout_2F_1R_Text_Grunt14Intro:
-    .string "什么，什么，什么？\p只有熔岩队\n才准进来！\p但你没穿熔岩队的\n制服…\p你很可疑！\n和我对战吧！$"
+    .string "什么，什么，什么？\p只有熔岩队\n才准进来！\p但你没穿熔岩队的\n制服……\p你很可疑！\n和我对战吧！$"
 
 MagmaHideout_2F_1R_Text_Grunt14Defeat:
-    .string "哎呀呀…\n我做为熔岩队成员的荣誉啊…$"
+    .string "哎呀呀……\n我做为熔岩队成员的荣誉啊……$"
 
 MagmaHideout_2F_1R_Text_Grunt14PostBattle:
     .string "如果你怕冷，那就加入\n熔岩队吧。$"
@@ -37,7 +37,7 @@ MagmaHideout_2F_1R_Text_Grunt3Defeat:
     .string "哇啊！\n我认输！$"
 
 MagmaHideout_2F_1R_Text_Grunt3PostBattle:
-    .string "或许我不应该挑战你，\n直接放你过去算了…$"
+    .string "或许我不应该挑战你，\n直接放你过去算了……$"
 
 MagmaHideout_2F_1R_Text_Grunt4Intro:
     .string "啊！\n有入侵者！$"
@@ -52,8 +52,8 @@ MagmaHideout_2F_1R_Text_Grunt5Intro:
     .string "哦，哦！\n有入侵者！$"
 
 MagmaHideout_2F_1R_Text_Grunt5Defeat:
-    .string "切…$"
+    .string "切……$"
 
 MagmaHideout_2F_1R_Text_Grunt5PostBattle:
-    .string "事实上我不擅长对战…$"
+    .string "事实上我不擅长对战……$"
 

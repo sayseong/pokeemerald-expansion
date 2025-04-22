@@ -604,13 +604,13 @@ Route111_Text_ViviDefeat:
     .string "哎？我刚刚输了吗？$"
 
 Route111_Text_ViviPostBattle:
-    .string "讨厌…\p…呜呜…奶奶！$"
+    .string "讨厌……\p……呜呜……奶奶！$"
 
 Route111_Text_VickyIntro:
     .string "是你把我孙女\n惹哭了的吗？\p那么，我要打倒你！\n做好输的准备吧！$"
 
 Route111_Text_VickyDefeat:
-    .string "咕哇！你太厉害了…\n我孙女是对的…$"
+    .string "咕哇！你太厉害了……\n我孙女是对的……$"
 
 Route111_Text_VickyPostBattle:
     .string "如果你不是很忙，\n就进来坐会儿吧。$"
@@ -619,7 +619,7 @@ Route111_Text_ToughToKeepWinningUpTheRanks:
     .string "如果你不继续训练宝可梦，\n在水平越来越高的战斗中\l将会难以持续获胜下去。\p我听说宝可梦联盟的\n四天王的实力\l比道馆馆主强多了。$"
 
 Route111_Text_WinstrateFamilyDestroyedMe:
-    .string "我挑战过连胜家族，\n但一连四场的战斗太困难了…\l他们打败了我。$"
+    .string "我挑战过连胜家族，\n但一连四场的战斗太困难了……\l他们打败了我。$"
 
 Route111_Text_RouteSignMauville:
     .string "111号道路\n{DOWN_ARROW}紫堇市$"
@@ -634,7 +634,7 @@ Route111_Text_RouteSign113:
     .string "111号道路\n{LEFT_ARROW}113号道路$"
 
 Route111_Text_OldLadysRestStopSign:
-    .string "老奶奶的歇息小屋\n“欢迎进来歇脚。”$"
+    .string "简康奶奶的家\n“欢迎进来歇脚。”$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
     .string "训练家小技巧\p表示宝可梦的数值之一\n是特攻，全称\l“特殊招式攻击力。”\p相似地，还有特防，全称“特殊招式\n防御力”。$"
@@ -643,19 +643,19 @@ Route111_Text_ShouldBeMirageTowerAroundHere:
     .string "这附近什么地方\n有座沙形成的塔，\p但由于某种原因，\n它却时隐时现。\p因此我叫它幻影之塔。$"
 
 Route111_Text_MirageTowerClearlyVisible:
-    .string "我看到了！\n沙形成的塔！\p那座以幻影冠名的沙塔\n清清楚楚地现身了！\p但它看上去好像一推就倒…\n也许随时会倒下…\p我想进里面去，\n但我总提不起勇气…$"
+    .string "我看到了！\n沙形成的塔！\p那座以幻影冠名的沙塔\n清清楚楚地现身了！\p但它看上去好像一推就倒……\n也许随时会倒下……\p我想进里面去，\n但我总提不起勇气……$"
 
 Route111_Text_ThatWasShockingSandRainedDown:
-    .string "哇…\n太惊人了，\p沙子突然哗啦啦地\n都散落下来。\p里面怎么了？\n有沙鬼什么的吗？$"
+    .string "哇……\n太惊人了，\p沙子突然哗啦啦地\n都散落下来。\p里面怎么了？\n有沙鬼什么的吗？$"
 
 Route111_Text_MirageTowerHasntBeenSeenSince:
-    .string "我跟你说话的时候，\n那座沙塔已经不见了。\p也许那真的是座\n幻想的塔…$"
+    .string "我跟你说话的时候，\n那座沙塔已经不见了。\p也许那真的是座\n幻想的塔……$"
 
 Route111_Text_ClawFossilDisappeared:
-    .string "爪子化石沉进了\n沙里…$"
+    .string "爪子化石沉进了\n沙里……$"
 
 Route111_Text_RootFossilDisappeared:
-    .string "根状化石沉进了\n沙里…$"
+    .string "根状化石沉进了\n沙里……$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
     .string "呀，糟糕！\p叔叔在紫堇市嘱咐过我\n去111号道路\l要带上碎岩！\p我叔叔在哪？\n他就住在紫堇市的车店对面。$"

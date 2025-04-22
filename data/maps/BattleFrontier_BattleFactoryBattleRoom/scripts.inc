@@ -254,7 +254,7 @@ BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn:
     .string "嘿，嘿！\n快行动！$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
-    .string "嘿，我叫达拉！\n我基本掌握着这块地方，\l这就是为什么我叫工厂头目！\p我看了一下你交换式对战的情况。\p你好像有好主意，\n但是你的脑筋还是太死！\p好好听着，行吗？知识并不只是读书\n或者做功课。\p仅仅做那种事的话…\n还是没用的！\p你必须用你的身心去\n亲自经历，明白吗？\p我要在和你同等条件\n下跟你较量。\p我也用租借的宝可梦！$"
+    .string "嘿，我叫达拉！\n我基本掌握着这块地方，\l这就是为什么我叫工厂头目！\p我看了一下你交换式对战的情况。\p你好像有好主意，\n但是你的脑筋还是太死！\p好好听着，行吗？知识并不只是读书\n或者做功课。\p仅仅做那种事的话……\n还是没用的！\p你必须用你的身心去\n亲自经历，明白吗？\p我要在和你同等条件\n下跟你较量。\p我也用租借的宝可梦！$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn:
     .string "运用你所拥有的每一点\n知识并发扬它！$"
@@ -266,16 +266,16 @@ BattleFrontier_BattleFactoryBattleRoom_Text_ReceivedKnowledgeSymbol:
     .string "知识象征被刻在了\n开拓通行证上！$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred:
-    .string "哈…\n你是一个非常聪明的人…\p下次，我会紧紧跟着你的。\n别手下留情，明白吗？\p你要保持你的学习！$"
+    .string "哈……\n你是一个非常聪明的人……\p下次，我会紧紧跟着你的。\n别手下留情，明白吗？\p你要保持你的学习！$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_HarderLookThanLastTime:
-    .string "达拉：嘿，嘿！怎么回事？\n你保持你的学习了吗？\p…哦？\p你看上去比我上次见到你\n时更努力。\p那么，这会很有趣的！\n我开始兴奋了，嘿！$"
+    .string "达拉：嘿，嘿！怎么回事？\n你保持你的学习了吗？\p……哦？\p你看上去比我上次见到你\n时更努力。\p那么，这会很有趣的！\n我开始兴奋了，嘿！$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_AllRightBringItOn:
     .string "好！\n继续！$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass:
-    .string "达拉：什么…\n你要离开我的同盟！\p嘻嘻！\n让我们看看开拓通行证吧！$"
+    .string "达拉：什么……\n你要离开我的同盟！\p嘻嘻！\n让我们看看开拓通行证吧！$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_KnowledgeSymbolTookGoldenShine:
     .string "知识象征闪耀着\n金色的光芒！$"

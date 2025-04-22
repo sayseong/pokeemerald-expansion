@@ -42,7 +42,7 @@ VerdanturfTown_Mart_Text_XSpecialIsCrucial:
     .string "无论什么宝可梦比赛，\n特攻强化都至关重要。\p它能提升某些招式的威力，\n但只在一场战斗中有效。$"
 
 VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent:
-    .string "他们不打算卖什么\n对战帐篷战术指南…\p看来必须用自己的智慧\n来夺取胜利…$"
+    .string "他们不打算卖什么\n对战帐篷战术指南……\p看来必须用自己的智慧\n来夺取胜利……$"
 
 VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon:
     .string "巢穴球对弱小的宝可梦\n非常管用，\p只有在绿茵镇这里\n才能买到。$"

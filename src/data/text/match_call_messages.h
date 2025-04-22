@@ -60,7 +60,7 @@ const u8 gText_MatchCallBeauty_Thalia_Intro2[] = _("去环游世界。");
 
 const u8 gText_MatchCallBeauty_Jessica_Strategy[] = _("我会让你被迷住的。");
 const u8 gText_MatchCallBeauty_Jessica_Pokemon[] = _("当然是可爱的。");
-const u8 gText_MatchCallBeauty_Jessica_Intro1[] = _("我喜欢狩猎地带,");
+const u8 gText_MatchCallBeauty_Jessica_Intro1[] = _("我喜欢狩猎地带，");
 const u8 gText_MatchCallBeauty_Jessica_Intro2[] = _("可能会在那待一辈子。");
 
 const u8 gText_MatchCallRichBoy_Winston_Strategy[] = _("战术？谁需要这个？");

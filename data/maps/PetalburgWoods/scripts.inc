@@ -319,7 +319,7 @@ PetalburgWoods_EventScript_JamesRematch::
 	end
 
 PetalburgWoods_Text_NotAOneToBeFound:
-    .string "唔…\n什么也没有啊…$"
+    .string "唔……\n什么也没有啊……$"
 
 PetalburgWoods_Text_HaveYouSeenShroomish:
     .string "嗨，你在附近见到过\n叫做蘑蘑菇的宝可梦吗？\p我真的很喜欢那种宝可梦。$"
@@ -340,10 +340,10 @@ PetalburgWoods_Text_YoureKiddingMe:
     .string "你打败了我！你太强了！$"
 
 PetalburgWoods_Text_YouveGotSomeNerve:
-    .string "呼呼…敢和\n海洋队作对，你胆子不小！\l再来战斗一次吧！\p虽然想这么说，可我已经\n没有宝可梦了…\p而且，哼，我们海洋队\n还得在卡那兹市找某些东西，\p今天先放过你！$"
+    .string "呼呼……敢和\n海洋队作对，你胆子不小！\l再来战斗一次吧！\p虽然想这么说，可我已经\n没有宝可梦了……\p而且，哼，我们海洋队\n还得在卡那兹市找某些东西，\p今天先放过你！$"
 
 PetalburgWoods_Text_ThatWasAwfullyClose:
-    .string "呼…\n好险哪！\p多亏了你，重要的文件\n才没被抢走\p好吧，作为答谢，送你\n一个超级球！$"
+    .string "呼……\n好险哪！\p多亏了你，重要的文件\n才没被抢走\p好吧，作为答谢，送你\n一个超级球！$"
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
     .string "这么说来刚才那个海洋队\n的混混说，他们也在寻找\l卡那兹市的什么东西，是吗？$"
@@ -358,7 +358,7 @@ PetalburgWoods_Text_GoBugPokemonTeam:
     .string "我捉了许多的宝可梦！\p上啊！\n我的虫宝可梦之队！$"
 
 PetalburgWoods_Text_ICouldntWin:
-    .string "拥有这些宝可梦，\n我却无法获胜…$"
+    .string "拥有这些宝可梦，\n我却无法获胜……$"
 
 PetalburgWoods_Text_ImOutOfPokeBalls:
     .string "我捉了许多的宝可梦，\n现在已经没有精灵球了。$"

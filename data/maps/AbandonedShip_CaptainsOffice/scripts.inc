@@ -23,7 +23,7 @@ AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus::
 	end
 
 AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner:
-    .string "我代表楠木馆长\n对这艘船进行调查，\p他还让我找一个探测器，\n但目前为止还没有找到…$"
+    .string "我代表楠木馆长\n对这艘船进行调查，\p他还让我找一个探测器，\n但目前为止还没有找到……$"
 
 AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner:
     .string "哦！那就是探测器！\p听着，你能不能替我把它\n送给楠木馆长？\p我还要对这艘船\n继续进行一些调查。$"

@@ -149,7 +149,7 @@ SkyPillar_Outside_Text_EarthquakeNotMomentToWaste:
     .string "米可利：是地震！\p不能再浪费时间了！\n我们得抓紧时间！$"
 
 SkyPillar_Outside_Text_SituationGettingWorse:
-    .string "米可利：嗯…\n越来越不妙了…$"
+    .string "米可利：嗯……\n越来越不妙了……$"
 
 SkyPillar_Outside_Text_GotToGoBackForSootopolis:
-    .string "米可利：糟糕…\p这里居然也出现了\n异常的天气…\p{PLAYER}{KUN}，\p烈空坐应该在\n上面很高的地方。\p我有点担心琉璃市那边，\n我要回去一趟。\p一切就拜托给你了，\n可不要让我们失望！$"
+    .string "米可利：糟糕……\p这里居然也出现了\n异常的天气……\p{PLAYER}{KUN}，\p烈空坐应该在\n上面很高的地方。\p我有点担心琉璃市那边，\n我要回去一趟。\p一切就拜托给你了，\n可不要让我们失望！$"

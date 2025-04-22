@@ -27,7 +27,7 @@ sText_MysteryGiftVisitingTrainerInstructions:
 	.string "宝可梦商场。\p"
 	.string "通过调查你可以邀请\n"
 	.string "训练家去琉璃市。\p"
-	.string "…让我给你一个\n"
+	.string "……让我给你一个\n"
 	.string "调查的密码吧：\p"
 	.string "“GIVE ME\n"
 	.string "AWESOME TRAINER”\p"

@@ -239,16 +239,16 @@ RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself:
     .string "你知道某些宝可梦的招式\n可以使对手宝可梦混乱吗？\p混乱的宝可梦有时\n会不知为何攻击自己。\p但一旦它退出战斗，\n它就会恢复正常。$"
 
 RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
-    .string "带着树果的宝可梦\n能够自我治疗…\p许多物品都可以\n让宝可梦带上…\p唉，及时记下笔记\n太难了…$"
+    .string "带着树果的宝可梦\n能够自我治疗……\p许多物品都可以\n让宝可梦带上……\p唉，及时记下笔记\n太难了……$"
 
 RustboroCity_PokemonSchool_Text_StudentsNotes:
-    .string "这是这个学生的笔记本…\p用精灵球\n可以抓住宝可梦。\p一个训练家最多可以\n同时携带六只宝可梦。\p训练家就是捕捉宝可梦，\n并养育它们，与它们\l共同战斗的人。\p训练家的任务是\n打败在宝可梦道馆中\l等待着的强大训练家。$"
+    .string "这是这个学生的笔记本……\p用精灵球\n可以抓住宝可梦。\p一个训练家最多可以\n同时携带六只宝可梦。\p训练家就是捕捉宝可梦，\n并养育它们，与它们\l共同战斗的人。\p训练家的任务是\n打败在宝可梦道馆中\l等待着的强大训练家。$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
     .string "你好，我们以前见过面吧？\n我想是在橙华市见过。\p我来介绍一下自己。\n我叫亚希达，\p我是为了寻找\n出色的训练家而旅行，\p具体点说，就是\n寻找战斗的专家。\p可以问问你为什么会来学校吗？\n你也是训练家吗？\p你首先要做的是\n拥有一只会居合劈的宝可梦。\p如果我记得不错，\n这镇上就有人拥有居合劈。$"
 
 RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown:
-    .string "亚希达：嗯…\p不知道这里的学生天赋如何。\n也许有潜力的人并不在此。$"
+    .string "亚希达：嗯……\p不知道这里的学生天赋如何。\n也许有潜力的人并不在此。$"
 
 RustboroCity_PokemonSchool_Text_ScottStoneBadge:
     .string "亚希达：哦，那是什么？\p岩石徽章是吗？\n真令人吃惊。\p但是，我更想看看\n你的战斗。\p仅凭一枚联盟徽章\n很难看出训练家的水平高低。$"

@@ -151,7 +151,7 @@ MossdeepCity_StevensHouse_EventScript_DiveItemBall::
 	end
 
 MossdeepCity_StevensHouse_Text_YouveEarnedHMDive:
-    .string "大吾：{PLAYER}{KUN}…\p这是我家。\n有点寒酸，见笑了。\p谢谢你所做的一切。\p这是我的谢礼，\n秘传学习器潜水。\p不用害羞——这是你自己的努力\n得到的。$"
+    .string "大吾：{PLAYER}{KUN}……\p这是我家。\n有点寒酸，见笑了。\p谢谢你所做的一切。\p这是我的谢礼，\n秘传学习器潜水。\p不用害羞——这是你自己的努力\n得到的。$"
 
 MossdeepCity_StevensHouse_Text_ExplainDive:
     .string "大吾：使用冲浪的时候，\n你大概也注意到水中的深色区域了，\p在那样的深水区域上使用潜水\n就能到达海底。\p想要回到海面上的话，\n就再次使用潜水。\p但在某些地方\n却不能回到水面上。$"
@@ -173,7 +173,7 @@ MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas:
     .string "{PLAYER}把精灵球\n放回原处。$"
 
 MossdeepCity_StevensHouse_Text_LetterFromSteven:
-    .string "是一封信。\p… … … … … …\p致{PLAYER}{KUN}…\p我反思过自己，\n也许我又该踏上训练之路了。\p短时间内我不准备\n回家，\p所以有件事要拜托你。\p桌子上有个\n精灵球，\p里面是我最喜欢的宝可梦\n铁哑铃，\p希望你照顾好它。\p愿我们的道路终会在某天交汇。\p大吾·兹伏奇$"
+    .string "是一封信。\p…… …… ……\p致{PLAYER}{KUN}……\p我反思过自己，\n也许我又该踏上训练之路了。\p短时间内我不准备\n回家，\p所以有件事要拜托你。\p桌子上有个\n精灵球，\p里面是我最喜欢的宝可梦\n铁哑铃，\p希望你照顾好它。\p愿我们的道路终会在某天交汇。\p大吾·兹伏奇$"
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
     .string "是大吾收集的\n稀有石头。$"

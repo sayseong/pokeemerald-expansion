@@ -216,7 +216,7 @@ static const u8 sText_Var1CantBeHeldHere[] = _("不能让宝可梦持有\n{STR_V
 static const u8 sText_DepositHowManyVar1[] = _("要存放多少个\n{STR_VAR_1}呢？");
 static const u8 sText_DepositedVar2Var1s[] = _("存放了{STR_VAR_2}个\n{STR_VAR_1}。");
 static const u8 sText_NoRoomForItems[] = _("已经没有\n存放道具的空间了……");
-static const u8 sText_CantStoreImportantItems[] = _("重要物品\n不能存放到\n电脑中！");
+static const u8 sText_CantStoreImportantItems[] = _("重要物品不能存放\n到电脑中！");
 
 static const struct BgTemplate sBgTemplates_ItemMenu[] =
 {

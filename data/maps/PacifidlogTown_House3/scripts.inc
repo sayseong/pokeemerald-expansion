@@ -63,7 +63,7 @@ PacifidlogTown_House3_Text_NotDesperateOrAnything:
     .string "哦？你不想\n考虑一下吗？\p也好，我也不是急着\n想交换的。$"
 
 PacifidlogTown_House3_Text_ReallyWantedToGetBagon:
-    .string "我知道我也能自己\n去找一只，但是…\p我真的很想要一只\n其他训练家抓的宝贝龙…$"
+    .string "我知道我也能自己\n去找一只，但是……\p我真的很想要一只\n其他训练家抓的宝贝龙……$"
 
 PacifidlogTown_House3_Text_IsThatAPokedex:
     .string "那是宝可梦图鉴吗？\p你见过了很多不同的\n宝可梦了吗？\p我要是也能像你一样多好。$"

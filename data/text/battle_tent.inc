@@ -1,5 +1,5 @@
 FallarborTown_BattleTentLobby_Text_WelcomeToBattleTent::
-    .string "欢迎来到对战帐篷\n秋叶镇分址！\p由我向你说明三回合定胜负锦标赛的相关内容！$"
+    .string "欢迎来到对战帐篷\n秋叶镇分址！\p由我向你说明三回合定胜负\n锦标赛的相关内容！$"
 
 FallarborTown_BattleTentLobby_Text_TakeChallenge::
     .string "现在你有挑战三回合定胜负锦标赛\n的觉悟了吗？$"
@@ -73,10 +73,10 @@ VerdanturfTown_BattleTentLobby_Text_WhichLevelMode::
     .string "有两个级别，\n级别50和自由级。\l你要挑战哪个？$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50::
-    .string "唉…\p你没有符合挑战要求\n的3只宝可梦。\p要想参加，你必须准备\n3只不同的宝可梦。\p而且它们不能携带\n同样的道具。\p蛋{STR_VAR_1}不能参加比赛。\p请你准备好了之后\n再来挑战。$"
+    .string "唉……\p你没有符合挑战要求\n的3只宝可梦。\p要想参加，你必须准备\n3只不同的宝可梦。\p而且它们不能携带\n同样的道具。\p蛋{STR_VAR_1}不能参加比赛。\p请你准备好了之后\n再来挑战。$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen::
-    .string "唉…\p你没有符合挑战要求\n的3只宝可梦。\p要想参加，你必须准备\n3只不同的宝可梦。\p而且它们不能携带\n同样的道具。\p蛋{STR_VAR_1}不能参加比赛。\p请你准备好了之后\n再来挑战。$"
+    .string "唉……\p你没有符合挑战要求\n的3只宝可梦。\p要想参加，你必须准备\n3只不同的宝可梦。\p而且它们不能携带\n同样的道具。\p蛋{STR_VAR_1}不能参加比赛。\p请你准备好了之后\n再来挑战。$"
 
 VerdanturfTown_BattleTentLobby_Text_SelectThreeMons::
     .string "好。现在请你选择\n3只宝可梦。$"
@@ -91,7 +91,7 @@ VerdanturfTown_BattleTentLobby_Text_ResultsWillBeRecorded::
     .string "我十分欣赏\n你的宝可梦取得的成绩。\p比赛结果正在记录。\n请稍候。$"
 
 VerdanturfTown_BattleTentLobby_Text_AchievedThreeWinStreak::
-    .string "能够达成3连胜就证明…\p你与你的宝可梦之间的羁绊\n是真诚的并且坚不可摧。$"
+    .string "能够达成3连胜就证明……\p你与你的宝可梦之间的羁绊\n是真诚的并且坚不可摧。$"
 
 VerdanturfTown_BattleTentLobby_Text_FeatWillBeRecorded::
     .string "比赛结果正在记录。\n请稍候。$"

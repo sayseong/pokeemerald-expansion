@@ -407,7 +407,7 @@ BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
     .string "喂！\n那边的，你！\p你在想既然不必去\n培养一组宝可梦\l那么战斗就会很容易是吗？\p我认为要赢并不是那么\n简单的。\p如果你不具备对宝可梦及\n他们的招式的深刻的知识的话，\l想要赢是很难的。$"
 
 BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon:
-    .string "我交换到了一只弱的宝可梦…\n我想他是一种善于…\p他们和我们一起擦地板…$"
+    .string "我交换到了一只弱的宝可梦……\n我想他是一种善于……\p他们和我们一起擦地板……$"
 
 BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons:
     .string "事情变得和我的计划\n一点也不一样了。\p你要在战斗中检查\n一下你对手的宝可梦\l是否有问题。$"

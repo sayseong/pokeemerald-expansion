@@ -3331,12 +3331,12 @@ static void CreateInterfaceSprites(u8 page)
 
     if (page == PAGE_MAIN)
     {
-        spriteId = CreateSprite(&sDexListStartMenuCursorSpriteTemplate, 136, 96, 1);
+        spriteId = CreateSprite(&sDexListStartMenuCursorSpriteTemplate, 168, 96, 1);
         gSprites[spriteId].invisible = TRUE;
     }
     else // PAGE_SEARCH_RESULTS
     {
-        spriteId = CreateSprite(&sDexListStartMenuCursorSpriteTemplate, 136, 80, 1);
+        spriteId = CreateSprite(&sDexListStartMenuCursorSpriteTemplate, 168, 80, 1);
         gSprites[spriteId].invisible = TRUE;
     }
 }
@@ -7064,8 +7064,8 @@ static void Task_LoadCryScreen(u8 taskId)
         gMain.state++;
         break;
     case 4:
-        PrintInfoScreenText(gText_CryOf, 82, 33);
-        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 49);
+        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 33);
+        PrintInfoScreenText(gText_CryOf, 82, 49);
         gMain.state++;
         break;
     case 5:
@@ -7246,11 +7246,17 @@ static void Task_LoadSizeScreen(u8 taskId)
         break;
     case 3:
     {
-        u8 string[64];
+        //u8 string[64];
 
-        StringCopy(string, gText_SizeComparedTo);
-        StringAppend(string, gSaveBlock2Ptr->playerName);
-        PrintInfoScreenText(string, GetStringCenterAlignXOffset(FONT_NORMAL, string, 0xF0), 0x79);
+        //StringCopy(string, gText_SizeComparedTo);
+        //StringAppend(string, gSaveBlock2Ptr->playerName);
+        //修改，修改名字大小比较文本与日版相同
+        StringCopy(gStringVar1, GetSpeciesName(NationalPokedexNumToSpecies(sPokedexListItem->dexNum))); //复制字符串到变量
+        StringCopy(gStringVar2, gSaveBlock2Ptr->playerName); //复制字符串到变量
+        StringExpandPlaceholders(gStringVar4, gText_SizeComparedTo); //写入变量到文本
+        //显示（打印），string由于多余就去除了。
+        //PrintInfoScreenText(string, GetStringCenterAlignXOffset(FONT_NORMAL, string, DISPLAY_WIDTH), 121);
+        PrintInfoScreenText(gStringVar4, GetStringCenterAlignXOffset(FONT_NORMAL, gStringVar4, 0xF0), 0x79);
         gMain.state++;
         break;
     }
