@@ -1,5 +1,5 @@
 Questionnaire_Text_FillOut::
-	.string "我们有一张问卷调查，\n您愿意填一下吗？$"
+	.string "这里一张问卷调查，\n要填一下吗？$"
 
 Questionnaire_Text_ThankYou::
 	.string "谢谢您抽出时间来\n填写我们的调查表，\p您的反馈将成为\n我们的参考。$"
