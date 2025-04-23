@@ -2473,7 +2473,7 @@ static u8* AddTextPrinterAndCreateWindowOnAbilityPopUp(const u8 *str, u32 x, u32
     u8 color[3] = {color1, color2, color3};
     struct WindowTemplate winTemplate = {0};
     winTemplate.width = POPUP_WINDOW_WIDTH;
-    winTemplate.height = 2;
+    winTemplate.height = 3;
 
     *windowId = AddWindow(&winTemplate);
     FillWindowPixelBuffer(*windowId, PIXEL_FILL(color1));
@@ -2491,9 +2491,12 @@ static void TextIntoAbilityPopUp(void *dest, u8 *windowTileData, s32 xTileAmount
         do
         {
             if (arg3)
-                CpuCopy32(windowTileData + 16, dest + 16, 16);
+                CpuCopy32(windowTileData + 12, dest + 12, 20);
             else
+            {
                 CpuCopy32(windowTileData + 20, dest + 20, 12);
+                CpuCopy32(windowTileData + 512, dest + 512, 4);
+            }
             dest += 32, windowTileData += 32;
             xTileAmount--;
         } while (xTileAmount != 0);
