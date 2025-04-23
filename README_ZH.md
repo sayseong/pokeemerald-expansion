@@ -8,10 +8,10 @@ pokeemerald-expansion-Chinese是基于ROM Hacking Hideout的[pokeemerald-expansi
   - 统一游戏内文本的译名及标点使用，专有名词及常用功能文本参照最新官方正作简体中文版译名及神奇宝贝百科的民间译名。
   - 按照绿宝石日文版还原了一部分包括标题画面、读取存档及部分细节功能的内容。
 
-本项目不包含对于expansion项目的优化及新功能开发。
+注：本项目不包含对于expansion项目的优化及新功能开发。
 
 汉化人员名单（不分先后）：
-- 字库程序：泡泡
+- 字库破解及文本提取程序：泡泡，卧看微尘
 - 文本整理、英文翻译及润色：Chaotix，sayseong，会飞的鱼
 - 图片文字汉化及调整：兔砸博士，SKT，猫猫，Chaotix
 - 日文翻译及日版功能还原：SKT
@@ -246,4 +246,4 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
     - 《黑2/白2》及以后的驱虫喷雾系统，也支持《Let's Go!皮卡丘/伊布》中的香水。
     - 第六世代及以后的努力值上限。
     - 包含了pret的所有错误修复。
-    - 修复了地图上的下雪效果。
+    - 修复了地图上的下雪天气效果。
