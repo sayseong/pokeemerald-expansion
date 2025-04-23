@@ -8070,9 +8070,12 @@ static s8 GetMenuItemTextId(u8 menuIdx)
 
 static void AddMenu(void)
 {
-    sStorage->menuWindow.width = sStorage->menuWidth;
-    //修改，修改精灵存储页面选择框宽度。
+    //修改，修改菜单宽度
+    //原版为+2，这里改成+1
+    //理论上，日版这里使用的是8x13旧字体，汉化后汉字占用两个HEX字符，所以本来为8的宽度会因为HEX字符串叠加变成16
+    //个人的改法是将后面决定len的函数「Stringlength」换成Getstringwidth之后除以8来获得实际长度
     //sStorage->menuWindow.width = sStorage->menuWidth + 2;
+    sStorage->menuWindow.width = sStorage->menuWidth + 1;
     sStorage->menuWindow.height = 2 * sStorage->menuItemsCount;
     sStorage->menuWindow.tilemapLeft = 29 - sStorage->menuWindow.width;
     sStorage->menuWindow.tilemapTop = 15 - sStorage->menuWindow.height;
