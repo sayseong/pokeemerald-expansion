@@ -690,7 +690,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop:
     .string "现在，现在！\n彷徨夜灵，停下！$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic:
-    .string "奇鲁莉安用猛毒素！$"
+    .string "奇鲁莉安用剧毒！$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis:
     .string "奇鲁莉安使用了催眠术！$"
