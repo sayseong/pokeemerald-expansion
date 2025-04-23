@@ -97,7 +97,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
 - [大地图配置](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/overworld.h)
 - [调试配置](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/debug.h)
 
-  ## 升级的战斗引擎
+- ***升级的战斗引擎***
     - Gen5+伤害计算。
     - 支持2v2野外战斗。
     - 支持1v2/2v1战斗。
@@ -142,7 +142,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
       - 反转对战支持。
       - 大量其他功能[在此](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/battle.h)。
 
-    ## 全面的训练家自定义
+- ***全面的训练家自定义***
 
     - 昵称、努力值（EVs）、个体值（IVs）、招式、特性、精灵球、亲密度、性格、性别、异色。
     - 自定义双打对战支持（与NPC组队）。
@@ -153,7 +153,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
       - 更快的计算速度。
       - 可以按训练家类型指定精灵球。
 
-    ## 宝可梦涵盖第1至第9世代
+- ***宝可梦涵盖第1至第9世代***
 
     - 简化了添加新宝可梦的过程。
     - 可以禁用不需要的宝可梦进化链。
@@ -176,7 +176,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
       - 为雌性河马兽、沙河马、皮卡丘和晃晃斑自定义了雌性图标。
     - 传说宝可梦、幻之宝可梦和究极异兽拥有3项完美个体值。
 
-    ## 可自定义的形态变化表。完整方法列表[在此](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/constants/form_change_types.h)
+- ***可自定义的形态变化表。完整方法列表[在此](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/constants/form_change_types.h)***
 
     - 持有道具（如骑拉帝纳/阿尔宙斯）
     - 使用道具（如花舞鸟）
@@ -192,7 +192,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
     - 特定时间（如谢米）
     - 融合（如酋雷姆）
 
-    ## 繁殖改进
+- ***孵蛋改进***
 
     - 需要香薰孵化的幼年宝可梦蛋现在可以直接孵化（可配置）。
     - 1级蛋（可配置）。
@@ -201,13 +201,13 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
     - 使用不变石可确保100%遗传性格（可配置）
     - 第六世代及以后的特性遗传（可配置）。
 
-    ## 新世代道具。完整列表[在此](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/constants/items.h)
+- ***新世代道具。完整列表[在此](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/constants/items.h)***
 
     - 第六世代及以后的学习装置（可配置）
     - 破坏因子
     - 大多数第四世代及以后的战斗道具
 
-    ## 合并的功能分支（已获授权）
+- ***合并的功能分支（已获授权）***
 
     - [RHH开场动画](https://github.com/Xhyzi/pokeemerald/tree/rhh-intro-credits)由@Xhyzi制作
         - 展示我们所有人签名的小环节，体现了项目的集体努力 :)
@@ -234,7 +234,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
           - *宝可梦跟随行走图更新至第八世代*。
           - *与我们的宝可梦宝可梦图像可视化工具集成，允许用户浏览宝可梦跟随及战斗图像*。
 
-    ## 其他功能
+- ***其他功能***
 
     - 抓起宝可梦时按B键可以像官方新作中那样放下（可配置）。
     - 室内跑步（可配置）。
