@@ -10,7 +10,7 @@ pokeemerald-expansion-Chinese是基于ROM Hacking Hideout的[pokeemerald-expansi
 
 本项目不包含对于expansion项目的优化及新功能开发。
 
-- 汉化人员名单：（不分先后）
+汉化人员名单（不分先后）：
 - 字库程序：泡泡
 - 文本整理、英文翻译及润色：Chaotix，sayseong，会飞的鱼
 - 图片文字汉化及调整：兔砸博士，SKT，猫猫，Chaotix
