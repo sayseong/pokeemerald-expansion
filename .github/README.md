@@ -11,7 +11,7 @@ pokeemerald-expansion-Chinese是基于ROM Hacking Hideout的[pokeemerald-expansi
 注：本项目不包含对于expansion项目的优化及新功能开发。
 
 汉化人员名单（不分先后）：
-- 字库破解及文本提取程序：泡泡，卧看微尘
+- 字库破解及文本提取程序：卧看微尘，泡泡
 - 文本整理、英文翻译及润色：Chaotix，sayseong，会飞的鱼
 - 图片文字汉化及调整：兔砸博士，SKT，猫猫，Chaotix
 - 日文翻译及日版功能还原：SKT
@@ -23,9 +23,9 @@ pokeemerald-expansion-Chinese是基于ROM Hacking Hideout的[pokeemerald-expansi
 也感谢之前于2011年发布的漫游&TGB联合汉化的绿宝石汉化版的参与人员：
 飞眼，enler，胡里胡涂，ルナ，零度雨，灰米，绿叶枫，yeyezai，lazybone，雪山肥壶，信天翁，爱姿病，troy1229，夜露死苦，阿宝，lioyy，凛，酷酷的安仔，空白君，AISU，吾鱼（小黑屋）
 
-以下是pokeemerald-expansion项目的Readme文件翻译（其中链接直接指向该项目，请用相对路径寻找汉化项目中的对应文件）：
+# 以下是pokeemerald-expansion项目的Readme文件翻译（其中链接直接指向该项目，请用相对路径寻找汉化项目中的对应文件）：
 
-# pokeemerald-expansion
+## pokeemerald-expansion
 
 pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokeemerald)反编译项目的一个***ROM改版蓝本***。***它不是一个可玩的ROM改版***，但它为ROM修改者提供了多种功能，以便他们可以创建自己的游戏，因此它本身不是用来单独游玩的。
 
