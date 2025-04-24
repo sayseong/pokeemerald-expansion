@@ -109,7 +109,7 @@ PacifidlogTown_House2_Text_ExplainReturnFrustration:
     .string "如果宝可梦非常喜欢你，\n报恩的威力就会增强。\p如果它不喜欢你，\n迁怒的威力则会提升。$"
 
 PacifidlogTown_House2_Text_GetGoodTMInXDays:
-    .string "啊，是的，大概{STR_VAR_1}天后我能得到\n一两个不错的招式学习器，\p那时再来找我吧，\n我会给你适合\l你的宝可梦\n的招式学习器。$"
+    .string "啊，是的，大概{STR_VAR_1}天后我能得到\n一两个不错的招式学习器，\p那时再来找我吧，\n我会给你适合\l你的宝可梦的招式学习器。$"
 
 PacifidlogTown_House2_Text_Rurii:
     .string "露力丽：露莉莉。$"

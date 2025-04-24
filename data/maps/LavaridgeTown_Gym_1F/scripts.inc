@@ -279,7 +279,7 @@ LavaridgeTown_Gym_1F_Text_ExplainOverheat:
     .string "招式学习器50\n里面是过热，\p这招式可以对对手造成\n极大伤害，\p但同时会让使用这招式的\n宝可梦的特攻下降。\l这招式并不适合持久战。$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
-    .string "把道馆馆主亚莎的信息\n登记进宝可梦导航仪里。$"
+    .string "把道馆馆主亚莎的信息\n登记进宝可导航里。$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
     .string "你的力量让我想起了一个人……\p啊，我知道了！你很像橙华市的\n道馆馆主，千里。$"

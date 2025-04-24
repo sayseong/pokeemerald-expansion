@@ -71,7 +71,7 @@ CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
     .string "米可利：觉醒神殿？\p那不就是这里么！\n我希望你能更准确一点！\p拜托，请你帮我想一想\n烈空坐现在到底在哪里。$"
 
 CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
-    .string "米可利：送神山码头？\p但在我之前去见那里的那位老夫人时，\n她并没有提及这种事啊。\p我可不认为老夫人\n会隐瞒什么……\p{PLAYER}{KUN}，能不能\n再好好想想？$"
+    .string "米可利：送神山？\p但在我之前去见那里的老夫人时，\n她并没有提及这种事啊。\p我可不认为老夫人\n会隐瞒什么……\p{PLAYER}{KUN}，能不能\n再好好想想？$"
 
 CaveOfOrigin_B1F_Text_CantYouRememberSomehow:
     .string "米可利：哈？你想不起来了？\n唔……这是个问题……\p你什么也记不起来了？$"

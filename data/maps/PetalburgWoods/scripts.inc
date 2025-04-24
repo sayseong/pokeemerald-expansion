@@ -373,10 +373,10 @@ PetalburgWoods_Text_PeopleRespectYou:
     .string "如果拥有一只好大的虫宝可梦，\n大家会很羡慕你的。$"
 
 PetalburgWoods_Text_IWantRematch1:
-    .string "等我的虫宝可梦\n长大后，我们再比一次吧！\p我把你登记进宝可梦导航仪里了！$"
+    .string "等我的虫宝可梦\n长大后，我们再比一次吧！\p我把你登记进宝可导航里了！$"
 
 PetalburgWoods_Text_IWantRematch2:
-    .string "等我的虫宝可梦\n长大后，我们再比一次吧！\p我把你登记进宝可梦导航仪里了！$"
+    .string "等我的虫宝可梦\n长大后，我们再比一次吧！\p我把你登记进宝可导航里了！$"
 
 PetalburgWoods_Text_MyPokemonHaveGrown:
     .string "我的虫宝可梦长大了，\n我会再次变成明星的。$"
@@ -403,5 +403,5 @@ PetalburgWoods_Text_TrainerTipsExperience:
     .string "训练家小技巧\p所有在战斗中出过场的宝可梦\n都会得到经验值。\p想培育弱小的宝可梦，\n就把它放到队伍列表的左侧。\p战斗开始时，先把它换下场。\n这样它不会受伤\l也能获得经验值了。$"
 
 PetalburgWoods_Text_TrainerTipsPP:
-    .string "训练家小技巧\p除了被打击点数HP(体力)，\n宝可梦还拥有用来在战斗\l中发动招式的招式点数\n(PP)。\p如果宝可梦的PP值耗尽，必须把它\n带到宝可梦中心去。$"
+    .string "训练家小技巧\p除了被打击点数HP(体力)，\n宝可梦还拥有用来在战斗中发动招式的\l招式点数(PP)。\p如果宝可梦的PP值耗尽，必须把它\n带到宝可梦中心去。$"
 

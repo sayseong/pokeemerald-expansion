@@ -712,7 +712,7 @@ DewfordTown_Text_XHuhIThinkYIsCool:
     .string "唔……\n“{STR_VAR_2}”？\p但我觉得，\n“{STR_VAR_1}”\l才是最棒的。$"
 
 DewfordTown_Text_HearOfAnyTrendsComeShareWithMe:
-    .string "那，如果你听说了什么\n新的潮流，来跟我说说好吗？$"
+    .string "那，如果你听说了什么\n新的流行词，来跟我说说好吗？$"
 
 DewfordTown_Text_YeahDefinitionOfInRightNow:
     .string "没错，完全正确！\p现在“{STR_VAR_1}”\n就是流行！$"

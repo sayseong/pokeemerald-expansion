@@ -132,7 +132,7 @@ Route109_SeashoreHouse_Text_DwayneDefeated:
     .string "火热的战斗！\n我心服口服了，伙计！$"
 
 Route109_SeashoreHouse_Text_DwaynePostBattle:
-    .string "在凯那就是要享受\n火热的战斗和冰爽的劲爽汽水！$"
+    .string "在凯那市就是要享受\n火热的战斗和冰爽的劲爽汽水！$"
 
 Route109_SeashoreHouse_Text_JohannaIntro:
     .string "无聊的战斗不值得为之付出努力。\p只有火一般的战斗才能使\n训练家和宝可梦成长起来！$"

@@ -210,7 +210,7 @@ FortreeCity_Gym_Text_ExplainAerialAce:
     .string "招式学习器40的\n里面是燕返，\p它的速度……\n没有任何宝可梦能躲过。\p…… …… ……$"
 
 FortreeCity_Gym_Text_RegisteredWinona:
-    .string "把道馆馆主娜琪的信息\n登记进宝可梦导航仪里。$"
+    .string "把道馆馆主娜琪的信息\n登记进宝可导航里。$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
     .string "尽管我输给了你，\n我还会尽心抚养我的飞行属性宝可梦。$"

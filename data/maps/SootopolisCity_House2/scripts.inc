@@ -19,7 +19,7 @@ SootopolisCity_House2_EventScript_DontKnowAboutOrbs::
 	return
 
 SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs:
-    .string "送神山码头……\p在它的顶峰并列着\n两块宝珠，你知道吗？$"
+    .string "送神山……\p在它的顶峰并列着\n两块宝珠，你知道吗？$"
 
 SootopolisCity_House2_Text_YesTwoOrbsSideBySide:
     .string "是的，并列的两块宝珠……\p看着它们摆在那儿……\n心中就会充满宁静……$"

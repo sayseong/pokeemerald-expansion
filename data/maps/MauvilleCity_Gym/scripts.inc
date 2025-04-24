@@ -323,7 +323,7 @@ MauvilleCity_Gym_Text_ExplainShockWave:
     .string "招式学习器34里面是电击波，\p这是绝对不会打空的\n可靠招式！值得你信赖！\p…… …… ……$"
 
 MauvilleCity_Gym_Text_RegisteredWattson:
-    .string "把道馆馆主铁旋的信息\n登记进宝可梦导航仪里。$"
+    .string "把道馆馆主铁旋的信息\n登记进宝可导航里。$"
 
 MauvilleCity_Gym_Text_WattsonPostBattle:
     .string "看到你这样前途无量的训练家，\n我心里特别欣慰！$"

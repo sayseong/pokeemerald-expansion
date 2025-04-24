@@ -34,8 +34,8 @@ Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf:
     .string "有人为见女友而\n要挖洞去绿茵镇。\l他不顾一切挖通了。\p他说如果不使用机器\n一点一点的挖\l就不会影响到宝可梦\l也就避免了影响自然环境。\p我怀疑他现在是否完成了。$"
 
 Route116_TunnelersRestHouse_Text_GetToVerdanturfWithoutTunnel:
-    .string "不通过隧道要到达绿茵\n的话，你不得不穿越\l大海到武斗，航行到凯那\l最后穿过紫堇。$"
+    .string "不通过隧道要到达绿茵镇\n的话，你不得不穿越\l大海到武斗镇，航行到凯那市\l最后穿过紫堇市。$"
 
 Route116_TunnelersRestHouse_Text_TunnelHasGoneThrough:
-    .string "听到了吗？到绿茵的隧道\n已经打通了！\p有时，当你的愿望很强烈时，\n美梦就会成真。$"
+    .string "听到了吗？到绿茵镇的隧道\n已经打通了！\p有时，当你的愿望很强烈时，\n美梦就会成真。$"
 

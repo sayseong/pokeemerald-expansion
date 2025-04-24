@@ -250,7 +250,7 @@ MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua:
     .string "呵呵呵！\n甚至海洋队都加入我们了！\p但是对付你们\n太麻烦了……\p嘿，没关系！\p我们得到了陨石，我们去\n烟囱山咯！\p嘿嘿！再见了\n海洋队的笨蛋！$"
 
 MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
-    .string "水梧桐：我以前见过你吗？\n在凯那的博物馆？\p啊，那么你是{PLAYER}。\p那时，我还以为你是\n熔岩队的一员呢。\p哼……\n真是个奇怪的孩子。\p熔岩队是一个聚集\n完全狂热者的组织。\p他们致力于破坏和\n扩张地盘。\p他们是我们的竞争对手\n我们是热爱海洋的海洋队！$"
+    .string "水梧桐：我以前见过你吗？\n在凯那市博物馆？\p啊，那么你是{PLAYER}。\p那时，我还以为你是\n熔岩队的一员呢。\p哼……\n真是个奇怪的孩子。\p熔岩队是一个聚集\n完全狂热者的组织。\p他们致力于破坏和\n扩张地盘。\p他们是我们的竞争对手\n我们是热爱海洋的海洋队！$"
 
 MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma:
     .string "老大，我们应该去追赶\n熔岩队……$"

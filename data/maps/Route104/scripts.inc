@@ -999,7 +999,7 @@ Route104_EventScript_Darian::
 	end
 
 Route104_Text_BrineyLivesInSeasideCottage:
-    .string "那就是哈奇住的海边小屋。\n他曾经是个伟大的海员，\p即使永远都是风雨交加，\n他也从未害怕过大海。$"
+    .string "那就是哈奇老人住的海边小屋。\n他曾经是个伟大的水手，\p即使永远都是风雨交加，\n他也从未害怕过大海。$"
 
 Route104_Text_WhatsItLikeAtBottomOfSea:
     .string "大海，嗯？\p不知道海底\n是什么样子的？$"
@@ -1026,7 +1026,7 @@ Route104_Text_FlowerShopSellingSaplings:
     .string "这间花店最近\n开始卖小树，\p我太兴奋了，买了太多的东西。\n我该把它们放在哪儿呢？$"
 
 Route104_Text_MrBrineysCottage:
-    .string "哈奇的小屋$"
+    .string "哈奇老人的小屋$"
 
 Route104_Text_RouteSignPetalburg:
     .string "1O4号道路\n{RIGHT_ARROW}橙华市$"
@@ -1041,10 +1041,10 @@ Route104_Text_TrainerTipsDoubleBattles:
     .string "训练家小技巧\p在丰缘地区中，一些\n结伴的训练家会向别人发起\l2对2的挑战，\l称作双打对战。\p在双打对战中，训练家要派出\n两只宝可梦，即列表\l左边的和最上边的。\l一定要注意宝可梦的队列顺序。$"
 
 Route104_Text_MayWeShouldRegister:
-    .string "小遥：呀，你好，{PLAYER}{KUN}！\p得文为你的宝可梦导航仪加入了\n对战寻呼系统，是吧？\p我们登记一下各自的信息吧，\n这样就能随时联系了。$"
+    .string "小遥：呀，你好，{PLAYER}{KUN}！\p得文为你的宝可导航加入了\n对战寻呼系统，是吧？\p我们登记一下各自的信息吧，\n这样就能随时联系了。$"
 
 Route104_Text_RegisteredMay:
-    .string "{PLAYER}把小遥的信息\n登记进宝可梦导航仪里。$"
+    .string "{PLAYER}把小遥的信息\n登记进宝可导航里。$"
 
 Route104_Text_MayHowsYourPokedex:
     .string "小遥：噢，对了，{PLAYER}{KUN}，\n你的宝可梦图鉴怎么样了？$"
@@ -1065,13 +1065,13 @@ Route104_Text_MayDefeat:
     .string "呀！\n你比我想像中要强多了！$"
 
 Route104_Text_MayPostBattle:
-    .string "小遥：我觉得你的宝可梦\n训练得真不错，\p但你该向哈奇学学，\n不要只是让它们去战斗。\p和宝可梦做朋友\n也同样重要。$"
+    .string "小遥：我觉得你的宝可梦\n训练得真不错，\p但你该向哈奇老人学学，\n不要只是让它们去战斗。\p和宝可梦做朋友\n也同样重要。$"
 
 Route104_Text_BrendanWeShouldRegister:
-    .string "小悠：哦，嗨，{PLAYER}！\p哈，你把得文给你的宝可梦导航仪装了\n对战寻呼系统？\p我们互相登记各自的信息吧，\n这样我们就能保持联系了。$"
+    .string "小悠：哦，嗨，{PLAYER}！\p哈，你把得文给你的宝可导航\n装了对战寻呼系统？\p我们互相登记各自的信息吧，\n这样我们就能保持联系了。$"
 
 Route104_Text_RegisteredBrendan:
-    .string "{PLAYER}把小悠的信息\n登记进宝可梦导航仪里。$"
+    .string "{PLAYER}把小悠的信息\n登记进宝可导航里。$"
 
 Route104_Text_BrendanHowsYourPokedex:
     .string "小悠：{PLAYER}，你的宝可梦图鉴进展如何？\n有几页了吗？$"
@@ -1092,4 +1092,4 @@ Route104_Text_BrendanDefeat:
     .string "唔……\n你真得很强。$"
 
 Route104_Text_BrendanPostBattle:
-    .string "小悠：你在训练宝可梦方面\n独具天赋，\p但要知道，你不能\n只是让宝可梦去战斗。\p像哈奇那样，\n和宝可梦交朋友也很重要。$"
+    .string "小悠：你在训练宝可梦方面\n独具天赋，\p但要知道，你不能\n只是让宝可梦去战斗。\p像哈奇老人那样，\n和宝可梦交朋友也很重要。$"

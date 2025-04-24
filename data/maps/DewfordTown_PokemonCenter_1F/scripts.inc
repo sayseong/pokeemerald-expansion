@@ -30,5 +30,5 @@ DewfordTown_PokemonCenter_1F_Text_StoneCavern:
     .string "镇子边上有个\n岩洞，\p据说那里面能\n找到稀有的石头。$"
 
 DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM:
-    .string "即使宝可梦昏厥不能\n战斗了，它仍然可以使用\l从秘传学习器里学到\n的招式。$"
+    .string "即使宝可梦昏厥不能\n战斗了，它仍然可以使用\l从秘传学习器里学到\l的招式。$"
 

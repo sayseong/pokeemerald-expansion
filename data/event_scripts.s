@@ -967,7 +967,7 @@ gText_MomExplainHPGetPotions::
 
 gText_RegisteredTrainerinPokeNav::
 	.string "把{STR_VAR_1} {STR_VAR_2}\n"
-	.string "登录进宝可梦导航器。$"
+	.string "登录进宝可导航。$"
 
 gText_ComeBackWithSecretPower::
 	.string "你知道招式学习器秘密之力吗？\p"

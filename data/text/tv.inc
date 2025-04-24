@@ -621,7 +621,7 @@ gTVSecretBaseVisitText13::
     .string "我必须说，超级的秘密基地\n就是这样的！\p参观者们，如果你有机会，\n一定要参观一下{STR_VAR_1}的秘密基地。\p希望还能再见！$"
 
 gTVPokemonLotteryWinnerFlashReportText00::
-    .string "多么令人激动！\n多么具有戏剧性！\p这是宝可梦彩票\n赢家快速报导！\p大家好！这是在水静\l百货一楼的\n宝可梦彩票中心的\l现场直播！\p就像以前一样，\n今天出现了幸运的训练家！\p这个训练家是……\n{STR_VAR_1}！\p{STR_VAR_1}得了{STR_VAR_2}等奖\n他获得了{STR_VAR_3}！\p{STR_VAR_1}！\n恭喜！\p观众们，不要只是在电视机前观看，\n加入我们吧！\p水静百货的我们\n期待着你的下次来访！\p这是来自水静百货\n的现场直播，\l给你提供，在丰缘能买到的\l最好的商品！$"
+    .string "多么令人激动！\n多么具有戏剧性！\p这是宝可梦彩票\n赢家快速报导！\p大家好！这是在水静百货一楼的宝可梦\n彩票中心的现场直播！\p就像以前一样，\n今天出现了幸运的训练家！\p这个训练家是……\n{STR_VAR_1}！\p{STR_VAR_1}得了{STR_VAR_2}等奖\n他获得了{STR_VAR_3}！\p{STR_VAR_1}！\n恭喜！\p观众们，不要只是在电视机前观看，\n加入我们吧！\p水静百货的我们\n期待着你的下次来访！\p这是来自水静百货\n的现场直播，\l给你提供，在丰缘能买到的\l最好的商品！$"
 
 gTVThePokemonBattleSeminarText00::
     .string "这里是宝可梦对战研讨会！\p我们研究战斗，来发现\n我们能从别人那里学到什么。\p今天我们来研究一下{STR_VAR_1}的\n战斗。\p{STR_VAR_1}的{STR_VAR_2}正在\n与{STR_VAR_3}战斗……$"
@@ -975,7 +975,7 @@ gTVSafariFanClubText10::
     .string "采访者：没错！\n勇敢面对挑战是最重要的！\p电视机前的观众们，\n快来挑战狩猎活动吧！\p下次节目同一时间，再会！$"
 
 ContestLiveUpdates_Text_Intro::
-    .string "“宝可梦华丽大赛结果速报！”\p主持：好的！\p{STR_VAR_1}华丽大赛的会场报告，\l结果刚刚出来了。会场似乎还有\n很多观众还不想离开的样子。\p观众：{STR_VAR_2}！\p观众：{STR_VAR_3}！\p主持：正如你们所听到的，\n获胜的是{STR_VAR_3}的宝可梦\l{STR_VAR_2}。\p观众：{STR_VAR_2}！\n你是最棒的！\p观众：{STR_VAR_3}！\n了不起！\p主持：好的，现在我们来听听看\n观众们对这场华丽大赛的感想。$"
+    .string "“宝可梦华丽大赛结果速报！”\p主持：好的！\p{STR_VAR_1}华丽大赛的会场报告，\l结果刚刚出来了。会场似乎还有\l很多观众还不想离开的样子。\p观众：{STR_VAR_2}！\p观众：{STR_VAR_3}！\p主持：正如你们所听到的，\n获胜的是{STR_VAR_3}的宝可梦\l{STR_VAR_2}。\p观众：{STR_VAR_2}！\n你是最棒的！\p观众：{STR_VAR_3}！\n了不起！\p主持：好的，现在我们来听听看\n观众们对这场华丽大赛的感想。$"
 
 ContestLiveUpdates_Text_WonBothRounds::
     .string "观众：{STR_VAR_2}在第一和第二阶段\n的审查都是第一！\p{STR_VAR_2}获得了胜利！$"

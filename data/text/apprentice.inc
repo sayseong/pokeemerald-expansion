@@ -737,7 +737,7 @@ gText_ApprenticeMoveThanks10::
     .string "好，所以这是{STR_VAR_1}你的选择？\n那么我将选择其他的招式！\p仅仅玩笑而已！\n主人我将服从你的教导！\p谢谢主人！\n我希望你继续教导我！$"
 
 gText_ApprenticeWhichMove11::
-    .string "A——H——O——Y！\n拼写是ahoy！\p我是一个唱Rap的海员！\n我总用它，不要问我为什么。\p今天，我有一个恳求你的建议\n的问题！\p{STR_VAR_2}并且{STR_VAR_3}是\n招式。什么对于我来说是\l能给{STR_VAR_1}带来最佳状态？$"
+    .string "A——H——O——Y！\n拼写是ahoy！\p我是一个唱Rap的水手！\n我总用它，不要问我为什么。\p今天，我有一个恳求你的建议\n的问题！\p{STR_VAR_2}并且{STR_VAR_3}是\n招式。什么对于我来说是\l能给{STR_VAR_1}带来最佳状态？$"
 
 gText_ApprenticeMoveThanks11::
     .string "{STR_VAR_1}，你说，嗨，嗨！\n我将立刻去教！\p如果我需要建议，\n{PLAYER}，你的话就是最好的！$"

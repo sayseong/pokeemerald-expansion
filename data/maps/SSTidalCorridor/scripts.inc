@@ -263,7 +263,7 @@ SSTidal_Text_HopeYouEnjoyVoyage:
     .string "希望您能在本渡轮上\n度过美好的旅程。$"
 
 SSTidal_Text_MadeLandInSlateport:
-    .string "我们已经到达凯那。\n谢谢您的惠顾。$"
+    .string "我们已经到达凯那市。\n谢谢您的惠顾。$"
 
 SSTidal_Text_MadeLandInLilycove:
     .string "我们已经到达水静市。\n谢谢您的惠顾。$"

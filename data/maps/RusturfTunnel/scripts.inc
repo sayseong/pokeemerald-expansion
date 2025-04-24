@@ -449,7 +449,7 @@ RusturfTunnel_Text_WhyCantTheyKeepDigging:
     .string "……\p为什么他们不继续挖了？\n是因为岩床太硬吗？\p我心爱的人就在那一边的绿茵镇\n等着我……\p如果能挖通这条隧道\n连接起卡那兹市和绿茵镇，\l我就能每天见到她了……\p可是现在……\n我该怎么办？$"
 
 RusturfTunnel_Text_ToGetToVerdanturf:
-    .string "想要从卡那兹市到绿茵镇，\n你得先到武斗镇，然后穿过\l凯那和紫堇市……$"
+    .string "想要从卡那兹市到绿茵镇，\n你得先到武斗镇，然后穿过\l凯那市和紫堇市……$"
 
 RusturfTunnel_Text_YouShatteredBoulderTakeHM:
     .string "哇喔！你打碎了挡路的\n大石头。\p这个秘传学习器送给你，\n就当作是我的谢礼吧。$"

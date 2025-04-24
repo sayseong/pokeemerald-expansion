@@ -12,13 +12,13 @@ Route102_Text_CalvinPostBattle::
     .string "听着，如果你很强，\n那你应该事先告诉我！$"
 
 Route102_Text_CalvinRegister::
-    .string "自从上次遇见你，\n我就很努力的锻炼。\p我想再和你战一场，所以\n让我在宝可梦导航仪里登记吧？$"
+    .string "自从上次遇见你，\n我就很努力的锻炼。\p我想再和你战一场，所以\n让我在宝可导航里登记吧？$"
 
 Route102_Text_CalvinRegisterShort::
-    .string "我想和你日后再战，\n你能在宝可梦导航仪里登记我吗？$"
+    .string "我想和你日后再战，\n你能在宝可导航里登记我吗？$"
 
 Route102_Text_CalvinRematchIntro::
-    .string "自从上次输给你，\n我拼命的特训我的宝可梦。\l不准拒绝我的挑战！$"
+    .string "自从上次输给你，\n我拼命地特训我的宝可梦。\l不准拒绝我的挑战！$"
 
 Route102_Text_CalvinRematchDefeated::
     .string "呃啊，我败了……\n难道是我的训练不对吗？$"
@@ -150,7 +150,7 @@ Route103_Text_PeteDefeated::
     .string "哦，好极了！$"
 
 Route103_Text_PetePostBattle::
-    .string "哦，\n原来如此啊。\p如果我也有那么可靠的宝可梦，\n我也想骑着它冲浪阿！$"
+    .string "哦，\n原来如此啊。\p如果我也有那么可靠的宝可梦，\n我也想骑着它冲浪啊！$"
 
 Route103_Text_IsabelleIntro::
     .string "小心前面！\n我们要相撞了！$"
@@ -207,7 +207,7 @@ Route104_Text_IvanIntro::
     .string "为什么要保密？\n我就是水属性宝可梦专家！\p啊？\n你不认识我？$"
 
 Route104_Text_IvanDefeat::
-    .string "要说的话，我原以为我还不错，\n但是看来不是……唉……$"
+    .string "要说的话，我原以为我还不错，\n但是看来算不上……唉……$"
 
 Route104_Text_IvanPostBattle::
     .string "我太醉心钓鱼了。\n我都忘了要培育宝可梦……$"
@@ -231,10 +231,10 @@ Route104_Text_HaleyPostBattle::
     .string "如果你面对决择的时候，\n让别人替你做决定。\l你会对事情的\l结果后悔的。$"
 
 Route104_Text_HaleyRegister1::
-    .string "你很强，但是我是不是应该把你登记在\n我的宝可梦导航仪里？\l也许我不应该……\p好吧，当然，我会登记你的！$"
+    .string "你很强，但是我是不是应该把你登记在\n我的宝可导航里？\l也许我不应该……\p好吧，当然，我会登记你的！$"
 
 Route104_Text_HaleyRegister2::
-    .string "你很强，但是我是不是应该把你登记到\n我的宝可梦导航仪里？\l也许我不应该……\p好吧，当然，我会登记你的！$"
+    .string "你很强，但是我是不是应该把你登记到\n我的宝可导航里？\l也许我不应该……\p好吧，当然，我会登记你的！$"
 
 Route104_Text_HaleyRematchIntro::
     .string "来吧，和我战斗！$"
@@ -255,10 +255,10 @@ Route104_Text_WinstonPostBattle::
     .string "金钱不是万能的，\n也有钱买不到的东西。\l那就是宝可梦……$"
 
 Route104_Text_WinstonRegister1::
-    .string "呜？\n啊，你拿着的是宝可梦导航仪。\p我很愿意登记你。\n毕竟，我有的是钱。$"
+    .string "呜？\n啊，你拿着的是宝可导航。\p我很愿意登记你。\n毕竟，我有的是钱。$"
 
 Route104_Text_WinstonRegister2::
-    .string "呜？\n啊，你拿着的是宝可梦导航仪。\p我很愿意登记你。\n毕竟，我有的是钱。$"
+    .string "呜？\n啊，你拿着的是宝可导航。\p我很愿意登记你。\n毕竟，我有的是钱。$"
 
 Route104_Text_WinstonRematchIntro::
     .string "在我输给你之后，\n我学到很多关于宝可梦的事。$"
@@ -279,10 +279,10 @@ Route104_Text_CindyPostBattle::
     .string "“你好”是“再见”的开端。\n希望我们可以再见。$"
 
 Route104_Text_CindyRegister1::
-    .string "你好，又见面了。\p我们好像很有缘。让我们\n互相在宝可梦导航仪里登记吧。$"
+    .string "你好，又见面了。\p我们好像很有缘。让我们\n互相在宝可导航里登记吧。$"
 
 Route104_Text_CindyRegister2::
-    .string "我们应该纪念\n一下我们的缘分。\p让我们互相在宝可梦导航仪里登记吧。$"
+    .string "我们应该纪念\n一下我们的缘分。\p让我们互相在宝可导航里登记吧。$"
 
 Route104_Text_CindyRematchIntro::
     .string "你好，我们又见面了。\n可以请你再和我对战吗？$"
@@ -294,7 +294,7 @@ Route104_Text_CindyPostRematch::
     .string "“你好”是“再见”的开端。\n希望我们可以再见。$"
 
 Route104_Text_DarianIntro::
-    .string "我拿出了一个看起来很强的宝可梦！\p它身上有种神秘的魔力！\n它的确看上去很强，\l没错，它就是很强！$"
+    .string "我钓到了一个看起来很强的宝可梦！\p它身上有种神奇的魔力！\n它的确看上去很强，\l绝对错不了！$"
 
 Route104_Text_DarianDefeat::
     .string "什么……$"
@@ -357,7 +357,7 @@ Route105_Text_AndresPostBattle::
     .string "我肯定在大海中\n还有很多秘密等着被发现。\p我要把它们全部找出来！$"
 
 Route105_Text_AndresRegister::
-    .string "啊？我这么弱，你还愿意\n把我登记在你的宝可梦导航仪吗？$"
+    .string "啊？我这么弱，你还愿意\n把我登记在你的宝可导航吗？$"
 
 Route105_Text_AndresRematchIntro::
     .string "我已经说过了我很弱……\n你确定你还想这样做？$"
@@ -552,7 +552,7 @@ Route108_Text_CoryPostBattle::
     .string "大喊大叫对我有好处！\n让我振奋！$"
 
 Route108_Text_CoryRegister::
-    .string "我也喜欢强大的训练家！\n在你的宝可梦导航仪里登记我吧！$"
+    .string "我也喜欢强大的训练家！\n在你的宝可导航里登记我吧！$"
 
 Route108_Text_CoryRematchIntro::
     .string "无论输赢，我都喜欢在大海里战斗！$"
@@ -618,7 +618,7 @@ Route109_Text_RickyPostBattle::
     .string "我快饿坏了……我的救生圈看起来\n就像一个巨大的甜甜圈……$"
 
 Route109_Text_RickyRegister::
-    .string "等我不那么渴的时候，你可不可以再和我比一场\n？$"
+    .string "等我不那么渴的时候，\n你可不可以再和我比一场？$"
 
 Route109_Text_RickyRematchIntro::
     .string "我很饿，但是我还是有勇气\n来场战斗的！$"
@@ -948,7 +948,7 @@ Route111_Text_DustyPostBattle::
     .string "我已经找了三十年的遗迹！\p等等，是已经找了四十年了吗？\n现在是哪一年？$"
 
 Route111_Text_DustyRegister::
-    .string "我从没找过任何强力的\n宝可梦。\p不过不知道为什么，\n我真的很喜欢宝可梦导航仪。$"
+    .string "我从没找过任何强力的\n宝可梦。\p不过不知道为什么，\n我真的很喜欢宝可导航。$"
 
 Route111_Text_DustyRematchIntro::
     .string "我已经找了三十年的遗迹！\p等等，是已经找了四十年了吗？\n总之要向这样的我挑战吗？$"
@@ -1110,7 +1110,7 @@ Route112_Text_TrentPostBattle::
     .string "试着去徒步旅行吧，我的意思是\n背着一大包的东西在\l山上进行徒步旅行。\p我的朋友，那样会让你身体\n变得很好的。$"
 
 Route112_Text_TrentRegister::
-    .string "啊，我的腿抽筋了。\n能从我的包包里拿些\l绷带给我吗？\p哦不，那个是我的宝可梦导航仪！\n好吧，我会登记上你的。$"
+    .string "啊，我的腿抽筋了。\n能从我的包包里拿些\l绷带给我吗？\p哦不，那个是我的宝可导航！\n好吧，我会登记上你的。$"
 
 Route112_Text_TrentRematchIntro::
     .string "我一直通过爬山来保持健康。\n力气绰绰有余！$"
@@ -1605,10 +1605,10 @@ Route116_Text_JerryPostBattle::
     .string "我得去训练家学校\n重修一些课程。\l不然杜娟会生气的。$"
 
 Route116_Text_JerryRegister1::
-    .string "我从训练家学校学到\n宝可梦导航仪可以登记训练家。\p我不是太明白这是什么意思，\n可以让我试一下吗？$"
+    .string "我从训练家学校学到\n宝可导航可以登记训练家。\p我不是太明白这是什么意思，\n可以让我试一下吗？$"
 
 Route116_Text_JerryRegister2::
-    .string "我从训练家学校学到\n宝可梦导航仪可以登记训练家。\p我不是太明白这是什么意思，\n可以让我试一下吗？$"
+    .string "我从训练家学校学到\n宝可导航可以登记训练家。\p我不是太明白这是什么意思，\n可以让我试一下吗？$"
 
 Route116_Text_JerryRematchIntro::
     .string "那次之后我就很认真地在\n训练家学校学习了。\l我不会再像上次那样输掉了。$"
@@ -1629,10 +1629,10 @@ Route116_Text_KarenPostBattle::
     .string "噢，我永远也不可能成为像\n杜娟那样优雅的训练家！$"
 
 Route116_Text_KarenRegister1::
-    .string "啊！那不是宝可梦导航仪吗？\n我也有一个，来登记吧！$"
+    .string "啊！那不是宝可导航吗？\n我也有一个，来登记吧！$"
 
 Route116_Text_KarenRegister2::
-    .string "啊！那不是宝可梦导航仪吗？\n我也有一个，来登记吧！$"
+    .string "啊！那不是宝可导航吗？\n我也有一个，来登记吧！$"
 
 Route116_Text_KarenRematchIntro::
     .string "自从遇到你以后我学到了很多啊。\n你应该来看看我的成就！$"
@@ -2022,7 +2022,7 @@ Route119_Text_CatherinePostBattle::
     .string "虽然是轻装而行，你却\n已经拥有了你所需要的一切。\p无论是精神上还是身体上，\n你都已经熟练掌握了许多东西。$"
 
 Route119_Text_CatherineRegister::
-    .string "你有宝可梦导航仪吗？\n对于任何一个训练家来说，\l它都是必须的工具。\p哦，你有一个！\n那么我们互相登记吧！$"
+    .string "你有宝可导航吗？\n对于任何一个训练家来说，\l它都是必须的工具。\p哦，你有一个！\n那么我们互相登记吧！$"
 
 Route119_Text_CatherineRematchIntro::
     .string "你跟你的宝可梦\n的旅程进行得如何？$"
@@ -2133,7 +2133,7 @@ Route120_Text_RobertPostBattle::
     .string "你可以信赖一只\n稳定成长的宝可梦。$"
 
 Route120_Text_RobertRegister::
-    .string "你会变得更强的。\n我想把你登记到我的宝可梦导航仪上！$"
+    .string "你会变得更强的。\n我想把你登记到我的宝可导航上！$"
 
 Route120_Text_RobertRematchIntro::
     .string "你可以信赖一只\n稳定成长的宝可梦。$"
@@ -2172,7 +2172,7 @@ Route120_Text_JeffreyPostBattle::
     .string "…… …… ……\n…… …… ……\l我会更努力的……$"
 
 Route120_Text_JeffreyRegister::
-    .string "…… …… ……\n…… …… ……\l你有宝可梦导航仪吗……？$"
+    .string "…… …… ……\n…… …… ……\l你有宝可导航吗……？$"
 
 Route120_Text_JeffreyRematchIntro::
     .string "…… …… ……\n…… …… ……\l想再次对战吗？$"
@@ -2349,7 +2349,7 @@ Route121_Text_CristinPostBattle::
     .string "我从没想过会这么简单就输了……\n下次我一定会赢的！$"
 
 Route121_Text_CristinRegister::
-    .string "简直是奇耻大辱！\n我不会忘记你的……\l把你的宝可梦导航仪交出来！$"
+    .string "简直是奇耻大辱！\n我不会忘记你的……\l把你的宝可导航交出来！$"
 
 Route121_Text_CristinRematchIntro::
     .string "我有了一个新习惯，就是\n每天打败十个训练家。\l猜到了吗？你就是第十个！$"
@@ -2433,7 +2433,7 @@ Route123_Text_CameronPostBattle::
     .string "要做超能力者需要有意志力。\n我以为我不会输给你的……$"
 
 Route123_Text_CameronRegister::
-    .string "我感觉到了！\n我们会再度战斗的！\l虽然我没办法保证我会赢……\p把你的宝可梦导航仪拿出来吧。$"
+    .string "我感觉到了！\n我们会再度战斗的！\l虽然我没办法保证我会赢……\p把你的宝可导航拿出来吧。$"
 
 Route123_Text_CameronRematchIntro::
     .string "我已经向自己保证过不会再失败了。\n这让我变得更强了！$"
@@ -2589,7 +2589,7 @@ Route124_Text_SpencerDefeat::
     .string "战斗中我迷失了方向！$"
 
 Route124_Text_SpencerPostBattle::
-    .string "很多人都会在大海里迷失方向。\p如果你也是那种类型，那你应该\n仰仗一下宝可梦导航仪的地图。$"
+    .string "很多人都会在大海里迷失方向。\p如果你也是那种类型，那你应该\n仰仗一下宝可导航的地图。$"
 
 Route124_Text_RolandIntro::
     .string "啊！你竟然坐在宝可梦上，\n不用自己游泳……\p太让人羡慕了！$"
@@ -2610,7 +2610,7 @@ Route124_Text_JennyPostBattle::
     .string "在游泳的时候，我注意到有些\n宝可梦会攻击，而有些只是旁观。\p我想宝可梦\n也有着它们自己的个性吧。$"
 
 Route124_Text_JennyRegister::
-    .string "虽然只是一时兴起，也许你可以\n把我登记到你的宝可梦导航仪里。$"
+    .string "虽然只是一时兴起，也许你可以\n把我登记到你的宝可导航里。$"
 
 Route124_Text_JennyRematchIntro::
     .string "如果你就像这样在海里漂着，\n训练家会向你挑战的！$"
@@ -2754,7 +2754,7 @@ Route125_Text_ErnestPostBattle::
     .string "在浅滩洞穴中的\n潮水时涨时退。\p顺便说一句，从涨潮到退潮要经过\n六小时的时间。你知道吗？$"
 
 Route125_Text_ErnestRegister::
-    .string "把我存入你的宝可梦导航仪，\n我会跟你讲些有趣的事。$"
+    .string "把我存入你的宝可导航，\n我会跟你讲些有趣的事。$"
 
 Route125_Text_ErnestRematchIntro::
     .string "该是和你算总帐的\n时候了！我们做个了断吧！$"
@@ -2985,7 +2985,7 @@ Route128_Text_IsaiahPostBattle::
     .string "我一生都在屡败屡战，\n但我绝不放弃！$"
 
 Route128_Text_IsaiahRegister::
-    .string "我知道我现在还不行，但我\n最终肯定能够取得胜利。\p请在宝可梦导航仪记下我。$"
+    .string "我知道我现在还不行，但我\n最终肯定能够取得胜利。\p请在宝可导航记下我。$"
 
 Route128_Text_IsaiahRematchIntro::
     .string "我现在仍然感觉良好。我会\n一直游到彩悠市。$"

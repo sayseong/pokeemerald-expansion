@@ -446,7 +446,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
     .string "第二个判定准则是“技”。\n这个因素评价宝可梦的\l招式命中。\p如果一次招式成功了，\n技的评价就会上升。\p如果一次招式失败了，\n技的评价就会下降。\p对于攻击招式，如果招式是“效果绝佳”\n技的评价就会上升\l如果是“没有效果”\l技的评价就会下降。\p对于像保护和看穿的招式\n技的评价是不会上升的。\p如果对手采取了保护或是看穿\n的招式，并且你的宝可梦没能\l成功命中，技的评价也\l不会下降。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
-    .string "第三个判定准则是“体”。\n这个因素评价在战斗结束后\l体力还剩下多少。\p这个值把宝可梦\n战斗开始时的体力\l和战斗结束后还剩下的\n体力都加以考虑。$"
+    .string "第三个判定准则是“体”。\n这个因素评价在战斗结束后\l体力还剩下多少。\p这个值把宝可梦\n战斗开始时的体力\l和战斗结束后还剩下的\l体力都加以考虑。$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
     .string "从竞技场主将手里得到了胜利，\n并且干掉了七个训练家！\p恭喜你的挑战\n干得漂亮！$"

@@ -280,10 +280,10 @@ RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
     .string "我们终于开发出了\n新型精灵球！\p用重复球抓曾经\n抓到过的宝可梦更容易，\p战斗拖得久的话用时间球\n能很方便抓到宝可梦。\p这都是我们\n得文公司的发明，\p一定要试试啊！$"
 
 RustboroCity_DevonCorp_2F_Text_IMadePokenav:
-    .string "我开发了宝可梦导航仪！\p作为一个工程师，能开发出\n这么伟大的工具是我的幸运！$"
+    .string "我开发了宝可导航！\p作为一个工程师，能开发出\n这么伟大的工具是我的幸运！$"
 
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
-    .string "哇！\n那是宝可梦导航仪！\p因为我们社长想要\n了解宝可梦的感受，\l才会有这东西的构想。\p你要我想你详细\n讲解一下它的功能吗？\p啊，不，不，我想你会在试用我们的\n宝可梦导航仪时慢慢摸索出来的。$"
+    .string "哇！\n那是宝可导航！\p因为我们社长想要\n了解宝可梦的感受，\l才会有这东西的构想。\p你要我想你详细\n讲解一下它的功能吗？\p啊，不，不，我想你会在试用我们的\n宝可导航时慢慢摸索出来的。$"
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
     .string "我在开发一种能\n将宝可梦的梦境\l投影出来的装置……\p但进展不理想。$"
@@ -317,7 +317,7 @@ RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
     .string "噢，你带的宝可梦太多了。\n已经没有空位了。$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
-    .string "我在为宝可梦导航仪\n开发新功能……\p但还没什么进展。$"
+    .string "我在为宝可导航\n开发新功能……\p但还没什么进展。$"
 
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
     .string "唔，下面我\n该开发什么？\p我们公司允许我们\n将自己的灵感变成现实。\p作为工程师，再也找不到\n更好的工作环境了。$"

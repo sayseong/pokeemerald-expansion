@@ -497,7 +497,7 @@ LilycoveCity_Text_ImFromKanto:
     .string "我是从关都来的。\p有着青山碧水的丰缘地区\n真的很美。\p呃？等等……\p也许会有只在这片地区生活的\n稀有宝可梦吧？$"
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
-    .string "海洋队一直在海湾\n训练他们的吼吼鲸。\p他们挡着路，\n我们海员根本没法驾船出海！$"
+    .string "海洋队一直在海湾\n训练他们的吼吼鲸。\p他们挡着路，\n我们水手根本没法驾船出海！$"
 
 LilycoveCity_Text_SomeonePuntedTeamAquaOut:
     .string "喂，知道吗？\p有人替我们\n赶走了海洋队！\p海湾那边的那些吼吼鲸也因此离开了，\n我们的船又能出海了。$"

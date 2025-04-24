@@ -347,7 +347,7 @@ BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading:
     .string "你要读哪个标题？$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
-    .string "在选择式对战的挑战中\n包包和宝可梦导航仪不能使用。$"
+    .string "在选择式对战的挑战中\n包包和宝可导航不能使用。$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
     .string "在一次选择式对战的挑战中，\n宝可梦持有的任何树果或者药草\l只能一次有效。$"
