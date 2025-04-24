@@ -4408,13 +4408,13 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     else
         value = num;
     ConvertIntToDecimalStringN(StringCopy(str, gText_NumberClear01), value, STR_CONV_MODE_LEADING_ZEROS, digitCount);
-    PrintInfoScreenTextWhite(str, 123, 17);
+    PrintInfoScreenTextWhite(str, 123, 18);
     species = NationalPokedexNumToSpeciesHGSS(num);
     if (species)
         name = GetSpeciesName(species);
     else
         name = sText_TenDashes;
-    PrintInfoScreenTextWhite(name, 139 + (6 * digitCount), 17);
+    PrintInfoScreenTextWhite(name, 139 + (6 * digitCount), 18);
     if (owned)
     {
         CopyMonCategoryText(species, str2);
@@ -4424,7 +4424,7 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     {
         category = gText_5MarksPokemon;
     }
-    PrintInfoScreenText(category, 123, 31);
+    PrintInfoScreenText(category, 123, 32);
     PrintMonMeasurements(species,owned);
     if (owned)
         description = GetSpeciesPokedexDescription(species);
@@ -7078,8 +7078,8 @@ static void Task_LoadCryScreen(u8 taskId)
         gMain.state++;
         break;
     case 4:
-        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 33);
-        PrintInfoScreenText(gText_CryOf, 82, 49);
+        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 34);
+        PrintInfoScreenText(gText_CryOf, 82, 50);
         gMain.state++;
         break;
     case 5:
@@ -7270,7 +7270,7 @@ static void Task_LoadSizeScreen(u8 taskId)
         StringExpandPlaceholders(gStringVar4, gText_SizeComparedTo); //写入变量到文本
         //显示（打印），string由于多余就去除了。
         //PrintInfoScreenText(string, GetStringCenterAlignXOffset(FONT_NORMAL, string, DISPLAY_WIDTH), 121);
-        PrintInfoScreenText(gStringVar4, GetStringCenterAlignXOffset(FONT_NORMAL, gStringVar4, 0xF0), 0x79);
+        PrintInfoScreenText(gStringVar4, GetStringCenterAlignXOffset(FONT_NORMAL, gStringVar4, 0xF0), 0x7A);
         gMain.state++;
         break;
     }
