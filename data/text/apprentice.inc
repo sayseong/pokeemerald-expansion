@@ -641,7 +641,7 @@ gText_ApprenticeMonThanks10::
     .string "你说要选{STR_VAR_1}吗？\n那么我就去抓另一种吧！\p哈哈，开玩笑的！\n我听你的，老师！\p谢谢你！\n希望你以后还能教我！$"
 
 gText_ApprenticeWhichMon11::
-    .string "W-E-I！\n拼出来就是喂！\p唱RAP的水手就是我！\n你还记得我是谁？\p今天有一个宝可梦的问题\n等你来回答！\p如果我要在\n{STR_VAR_1}和{STR_VAR_2}之中选一只，\l我应该要抓哪只？$"
+    .string "W——E——I！\n拼出来就是喂！\p唱RAP的水手就是我！\n你还记得我是谁？\p今天有一个宝可梦的问题\n等你来回答！\p如果我要在\n{STR_VAR_1}和{STR_VAR_2}之中选一只，\l我应该要抓哪只？$"
 
 gText_ApprenticeMonThanks11::
     .string "你说的{STR_VAR_1}，哈，哈！\n我马上就去抓来它！\p如果我想要什么建议，\n{PLAYER}，我总会听听你的话！$"
@@ -722,7 +722,7 @@ gText_ApprenticeWhichMove8::
     .string "呀！{PLAYER}！有见到你了！\n我……我非常高兴！\p每当我需要帮助的时候，你总能\n出现，{PLAYER}！\p今天，我想要你为我推荐\n一个活动！\p请为我选择一个\n活动{STR_VAR_1}！\p哪个活动更好，\n{STR_VAR_2}或者{STR_VAR_3}？$"
 
 gText_ApprenticeMoveThanks8::
-    .string "哦-哦-哦！谢谢！\n{STR_VAR_1}这！\l完全了解了！\p我希望你下次教会我更多\n东西。$"
+    .string "哦——哦——哦！谢谢！\n{STR_VAR_1}这！\l完全了解了！\p我希望你下次教会我更多\n东西。$"
 
 gText_ApprenticeWhichMove9::
     .string "你好，{PLAYER}{KUN}，很好！\n我今天需要你的\l更高明的建议！\p我的最好的招式将是\n什么{STR_VAR_1}？\p可以让我赢得那样的\n东西！\p会是什么{STR_VAR_2}？\n或者{STR_VAR_3}？$"
@@ -737,7 +737,7 @@ gText_ApprenticeMoveThanks10::
     .string "好，所以这是{STR_VAR_1}你的选择？\n那么我将选择其他的招式！\p仅仅玩笑而已！\n主人我将服从你的教导！\p谢谢主人！\n我希望你继续教导我！$"
 
 gText_ApprenticeWhichMove11::
-    .string "A-H-O-Y！\n拼写是ahoy！\p我是一个唱Rap的海员！\n我总用它，不要问我为什么。\p今天，我有一个恳求你的建议\n的问题！\p{STR_VAR_2}并且{STR_VAR_3}是\n招式。什么对于我来说是\l能给{STR_VAR_1}带来最佳状态？$"
+    .string "A——H——O——Y！\n拼写是ahoy！\p我是一个唱Rap的海员！\n我总用它，不要问我为什么。\p今天，我有一个恳求你的建议\n的问题！\p{STR_VAR_2}并且{STR_VAR_3}是\n招式。什么对于我来说是\l能给{STR_VAR_1}带来最佳状态？$"
 
 gText_ApprenticeMoveThanks11::
     .string "{STR_VAR_1}，你说，嗨，嗨！\n我将立刻去教！\p如果我需要建议，\n{PLAYER}，你的话就是最好的！$"
@@ -815,16 +815,16 @@ gText_ApprenticeWinSpeechThanks7::
     .string "{STR_VAR_1}\p啊！太棒了！这话让我清醒\n并且感到如获新生！\p我一定将它用好！\p现在，我必须提升实力，\n{PLAYER}……\p我要和其他人战斗，\n但决不会忘记你的教导。\p没准儿哪天……\n回见！$"
 
 gText_ApprenticePickWinSpeech8::
-    .string "呃！你是{PLAYER}吧！\n我…… 能见到你真是太高兴了！\p噢-噢-噢！我有些事\n要向你请教一下！\p不久之前，我赢得了比赛。\n那真是令人眼花缭乱！\p但是我在万分高兴之余\n就说不出话来了！\p所以，{PLAYER}，我想请你现在\n为我指明一条出路！$"
+    .string "呃！你是{PLAYER}吧！\n我…… 能见到你真是太高兴了！\p噢——噢——噢！我有些事\n要向你请教一下！\p不久之前，我赢得了比赛。\n那真是令人眼花缭乱！\p但是我在万分高兴之余\n就说不出话来了！\p所以，{PLAYER}，我想请你现在\n为我指明一条出路！$"
 
 gText_ApprenticeWinSpeechThanks8::
-    .string "{STR_VAR_1}\p哇啊啊啊啊！\n我以后就要这么说了吗？！\l我……高兴得不知说什么好了！\p谢-谢-谢谢你了！\n我现在可以没有遗憾的离开了！\p我要游遍大江南北\n和各种人战斗。\p什么也不说了，{PLAYER}。\n真的，真的，太感谢你了！\p我现在就要走了，但是有一天\n我们会见面并且打一场的！$"
+    .string "{STR_VAR_1}\p哇啊啊啊啊！\n我以后就要这么说了吗？！\l我……高兴得不知说什么好了！\p谢——谢——谢谢你了！\n我现在可以没有遗憾的离开了！\p我要游遍大江南北\n和各种人战斗。\p什么也不说了，{PLAYER}。\n真的，真的，太感谢你了！\p我现在就要走了，但是有一天\n我们会见面并且打一场的！$"
 
 gText_ApprenticePickWinSpeech9::
     .string "喂，你好！\n{PLAYER}{KUN}！\p你知道，我渴望到处流浪并且\n到处战斗。\p但是在这之前，我想请你再次\n帮助我！\p如果我赢了，我应该如何\n向被我打败的训练家\l吹嘘自己的本领呢？$"
 
 gText_ApprenticeWinSpeechThanks9::
-    .string "{STR_VAR_1}\p嗯-啊，真有趣！\n嘶，不错！\l我会试着这么说的， 就像是，演员！\p现在，是该说再见的时候了！\n谢谢你的指导！\p那天和我打一场吧，怎么样？\n再见！$"
+    .string "{STR_VAR_1}\p嗯——啊，真有趣！\n嘶，不错！\l我会试着这么说的， 就像是，演员！\p现在，是该说再见的时候了！\n谢谢你的指导！\p那天和我打一场吧，怎么样？\n再见！$"
 
 gText_ApprenticePickWinSpeech10::
     .string "{PLAYER}{KUN}，有大麻烦了！\p当我赢了的时候，我至少\n吹了一个小时的牛！\p当然，我是说着玩儿的！\n哇哈哈哈哈！\p尽管是这样，可是。\n我并不怎么擅长聊天。\p所以，你认为我获胜后\n应该怎么说呢，\l老师？$"

@@ -36,7 +36,7 @@ gContestToughness::
     .string "强壮$"
 
 gContestPaintingCool1::
-    .string "挡不住的帅气--\n无可估量的{STR_VAR_1}$"
+    .string "挡不住的帅气——\n无可估量的{STR_VAR_1}$"
 
 gContestPaintingCool2::
     .string "嗨那边的！\n好漂亮的宝可梦啊{STR_VAR_1}$"
@@ -51,7 +51,7 @@ gContestPaintingBeauty2::
     .string "{STR_VAR_1}耀眼\n而闪亮的微笑$"
 
 gContestPaintingBeauty3::
-    .string "宝可梦中心的超级偶像--\n无与伦比的{STR_VAR_1}$"
+    .string "宝可梦中心的超级偶像——\n无与伦比的{STR_VAR_1}$"
 
 gContestPaintingCute1::
     .string "可爱的{STR_VAR_1}$"
@@ -63,10 +63,10 @@ gContestPaintingCute3::
     .string "让我们看看\n那个漂亮的宝可梦{STR_VAR_1}！$"
 
 gContestPaintingSmart1::
-    .string "智慧的艺术大师--\n聪明的宝可梦{STR_VAR_1}$"
+    .string "智慧的艺术大师——\n聪明的宝可梦{STR_VAR_1}$"
 
 gContestPaintingSmart2::
-    .string "{STR_VAR_1}--被选中的宝可梦\n宝可梦中的宝可梦$"
+    .string "{STR_VAR_1}——被选中的宝可梦\n宝可梦中的宝可梦$"
 
 gContestPaintingSmart3::
     .string "优秀的{STR_VAR_1}的\n高贵瞬间$"

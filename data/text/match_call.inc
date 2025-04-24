@@ -326,7 +326,7 @@ MatchCall_PersonalizedText38::
     .string "哦，我是{STR_VAR_1}，你好。\p我已经游了很长很长时间了\n但是看上去我还是到达不了彩悠市。\p难道我正在兜圈子。\p不，不，那绝对不可能。\n哇哈哈哈。\l保重！$"
 
 MatchCall_PersonalizedText39::
-    .string "嘿，我是{STR_VAR_1}……\n哇！\p扑通！\p啪-啪-啪-啪……\p哗啦！\p呼-呼！呼-呼！\p嘿！不好意思啊！\n我在抹防晒油哪。\p所以我的手滑了一下，\n宝可梦导航仪就一下子掉到水里了！\p不过，得文的\n宝可梦导航仪是非常结实的。\p泡到水里都没事！\p总之，我要晒日光浴了，\n改日再聊吧。$"
+    .string "嘿，我是{STR_VAR_1}……\n哇！\p扑通！\p啪——啪——啪——啪……\p哗啦！\p呼——呼！呼——呼！\p嘿！不好意思啊！\n我在抹防晒油哪。\p所以我的手滑了一下，\n宝可梦导航仪就一下子掉到水里了！\p不过，得文的\n宝可梦导航仪是非常结实的。\p泡到水里都没事！\p总之，我要晒日光浴了，\n改日再聊吧。$"
 
 MatchCall_PersonalizedText40::
     .string "你好，我是{STR_VAR_1}。\p铁人三项赛里面，\n我最喜欢游泳了。\p但是如果我在海水里呆的时间太长，\n我岂不是会被泡的像一棵海参了？\p哦，铁人三项赛真是对\n人类耐力的严酷考验啊！再见！$"
@@ -446,7 +446,7 @@ MatchCall_BattleFrontierStreakText14::
     .string "喂，嗨，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我听说你了！\n你真的在一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p你真厉害！\n再见！$"
 
 MatchCall_BattleFrontierRecordStreakText1::
-    .string "嗨！我是{STR_VAR_1}。\n我听说了！\p我听说你在{STR_VAR_2}\n做得非常出色。\p真是恐怖啊--{STR_VAR_3}连胜？\n再见！$"
+    .string "嗨！我是{STR_VAR_1}。\n我听说了！\p我听说你在{STR_VAR_2}\n做得非常出色。\p真是恐怖啊——{STR_VAR_3}连胜？\n再见！$"
 
 MatchCall_BattleFrontierRecordStreakText2::
     .string "你好，我是{STR_VAR_1}！\n我听说你了！\n你真的在一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p真的不容易啊！我也要\n努力了！再见$"
@@ -695,7 +695,7 @@ MatchCall_Text_TateLiza4::
     .string "小枫：{PLAYER}，我们之间的战斗……\n小南：真是宝贵的经历。\p小枫：真期待能和你……\n小南：再战一场！$"
 
 MatchCall_Text_Juan1::
-    .string "亚当：嗯……\n{PLAYER}{KUN}……是你吗？\p我们的战斗-\n这让我想起了第一次\l遇到米可利的时候。\p也许你真是个天才\n甚至超越了米可利！$"
+    .string "亚当：嗯……\n{PLAYER}{KUN}……是你吗？\p我们的战斗——\n这让我想起了第一次\l遇到米可利的时候。\p也许你真是个天才\n甚至超越了米可利！$"
 
 MatchCall_Text_Juan2::
     .string "亚当：呼呼……{PLAYER}{KUN}……\n你终于达成了你的目标。\p我当初真的没有\n看错人……\p我希望能再见你一次，\n告诉我你是如何\l取得这样的成功的。$"

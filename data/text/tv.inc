@@ -323,10 +323,10 @@ gTVNameRaterText09::
     .string "昵称{STR_VAR_1}源于\n这个字“{STR_VAR_3}。”\p这个字依托于第一个\n字“{STR_VAR_2}，”，\l这个字赋予了它实际意义。$"
 
 gTVNameRaterText10::
-    .string "一个昵称{STR_VAR_1}在令人愉快的意义上是\n非常有条理的。\p字“{STR_VAR_2}”和“{STR_VAR_3}”的存在\n--现在那是非常的好！$"
+    .string "一个昵称{STR_VAR_1}在令人愉快的意义上是\n非常有条理的。\p字“{STR_VAR_2}”和“{STR_VAR_3}”的存在\n——现在那是非常的好！$"
 
 gTVNameRaterText11::
-    .string "这个昵称{STR_VAR_1}--它让人有\n一种连贯，流畅的感觉。\p从第一个字“{STR_VAR_2}”到\n“{STR_VAR_3}”一气呵成。实在太奇妙了$"
+    .string "这个昵称{STR_VAR_1}——它让人有\n一种连贯，流畅的感觉。\p从第一个字“{STR_VAR_2}”到\n“{STR_VAR_3}”一气呵成。实在太奇妙了$"
 
 gTVNameRaterText12::
     .string "让我们看看别的好昵称的\n例子，好不好？$"
@@ -401,7 +401,7 @@ gTVPokemonTodaySuccessfulText07::
     .string "如果是我的话，我会把那个昵称\n给像{STR_VAR_3}这样的！\p大哥哥：唔哇！那可能是一个新事物的\n开端！$"
 
 gTVPokemonTodaySuccessfulText08::
-    .string "{STR_VAR_2}那个{STR_VAR_1}？\n听起来很完美吧？\p这个字母还有一切--它们\n听起起来很配宝可梦\l{STR_VAR_1}！\p大哥哥：是啊，没错，那个！$"
+    .string "{STR_VAR_2}那个{STR_VAR_1}？\n听起来很完美吧？\p这个字母还有一切——它们\n听起起来很配宝可梦\l{STR_VAR_1}！\p大哥哥：是啊，没错，那个！$"
 
 gTVPokemonTodaySuccessfulText09::
     .string "就居我所知，没有一个训练家\n把昵称{STR_VAR_2}给过他们的\l{STR_VAR_1}！\p大哥哥：那展示了那个\n训练家在选昵称上有很\l好的品味！$"
@@ -531,13 +531,13 @@ gTVFindThatGamerText00::
     .string "寻找玩家！\p嘿，玩家们！\n你们的{STR_VAR_2}转的如何？\p象往常一样，我们会关注\n那个稀有的训练家，也就是第一个\l访问游戏中心的人！\p今天，我们的No.1玩家是……\n{STR_VAR_1}！$"
 
 gTVFindThatGamerText01::
-    .string "{STR_VAR_1}玩过{STR_VAR_2}游戏\n并赢得了珍贵的{STR_VAR_3}代币。\p“当{STR_VAR_1}来到时，我们要确定\n我们有足够的代币。”\p这就是游戏中心的职员\n在我们的玩家玩游戏时的碎碎念！\p观众们，你们最好像{STR_VAR_1}一样看一看\n你们的代币，如果你去了游戏\l中心并且玩了{STR_VAR_2}游戏。\p这就是游戏中心里的生活--\n一个你能随时感到刺激的地方！\p今天的节目到此为止！$"
+    .string "{STR_VAR_1}玩过{STR_VAR_2}游戏\n并赢得了珍贵的{STR_VAR_3}代币。\p“当{STR_VAR_1}来到时，我们要确定\n我们有足够的代币。”\p这就是游戏中心的职员\n在我们的玩家玩游戏时的碎碎念！\p观众们，你们最好像{STR_VAR_1}一样看一看\n你们的代币，如果你去了游戏\l中心并且玩了{STR_VAR_2}游戏。\p这就是游戏中心里的生活——\n一个你能随时感到刺激的地方！\p今天的节目到此为止！$"
 
 gTVFindThatGamerText02::
     .string "{STR_VAR_1}玩了{STR_VAR_2}游戏\n并输了{STR_VAR_3}的代币。\p“当{STR_VAR_1}来的时候，我们的代币\n销售看起来增大了。”\p这就是游戏中心的职员\n在我们的玩家玩游戏时的碎碎念！$"
 
 gTVFindThatGamerText03::
-    .string "观众们，你们最好像{STR_VAR_1}一样看一看\n你们的代币，如果你去了游戏\l中心并且玩了{STR_VAR_2}游戏。\p这就是游戏中心里的生活--\n一个你能随时感到刺激的地方！\p今天的节目到此为止！$"
+    .string "观众们，你们最好像{STR_VAR_1}一样看一看\n你们的代币，如果你去了游戏\l中心并且玩了{STR_VAR_2}游戏。\p这就是游戏中心里的生活——\n一个你能随时感到刺激的地方！\p今天的节目到此为止！$"
 
 gTVBreakingNewsText00::
     .string "重大新闻！$"
