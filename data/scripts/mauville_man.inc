@@ -757,7 +757,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedDaycareStory::
 	.string "的。\p"
 	.string "他在培育屋照顾的宝可梦\n"
 	.string "有{STR_VAR_1}只！\p"
-	.string "{STR_VAR_3}一定是一个饲养\n"
+	.string "{STR_VAR_3}一定是一个培育\n"
 	.string "宝可梦的老手了！$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarTitle::

@@ -103,10 +103,10 @@ SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent::
     .string "欢迎来到对战帐篷\n凯那市分址！\p由我把你带领到选择式对战\n锦标赛。$"
 
 SlateportCity_BattleTentLobby_Text_TakeChallenge::
-    .string "你要向交换式\n对战挑战吗？？$"
+    .string "你要向交换式\n对战挑战吗？$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSlateportTent::
-    .string "这里是凯那市对战帐篷，\n在这里我们要用租借的\l宝可梦进行选择式对战。\p首先，你要租用3只特定的\n宝可梦来参加比赛。\p你要带着那些租借的宝可梦，\n进行单人对战。\p如果你获胜了，你可以交换其中1只\n1只租借的宝可梦。\p重复循环战斗和交换--\n如果取得3连胜\l你将获得精美的奖品。\p如果你想停止挑战，\n请保存游戏进度。\p如果你在保存之前中断的话，\n你将失去这场比赛的资格。$"
+    .string "这里是凯那市对战帐篷，\n在这里我们要用租借的\l宝可梦进行选择式对战。\p首先，你要租用3只特定的\n宝可梦来参加比赛。\p你要带着那些租借的宝可梦，\n进行单人对战。\p如果你获胜了，你可以交换其中1只\n1只租借的宝可梦。\p重复循环战斗和交换——\n如果取得3连胜\l你将获得精美的奖品。\p如果你想停止挑战，\n请保存游戏进度。\p如果你在保存之前中断的话，\n你将失去这场比赛的资格。$"
 
 SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit::
     .string "我们期待你的再次来临。$"

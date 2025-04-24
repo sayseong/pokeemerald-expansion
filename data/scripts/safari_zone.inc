@@ -77,7 +77,7 @@ SafariZone_Text_WouldYouLikeToExit:
 	.string "狩猎地带吗？$"
 
 SafariZone_Text_TimesUp:
-	.string "叮-咚！时间到！\n"
+	.string "叮——咚！时间到！\n"
 	.string "狩猎活动结束。$"
 
 SafariZone_Text_OutOfBalls:

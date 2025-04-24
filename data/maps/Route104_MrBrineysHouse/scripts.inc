@@ -110,10 +110,10 @@ Route104_MrBrineysHouse_Text_DeclineDeliverySail:
     .string "哈奇：这样啊？\n你的货物可以等待吗？\p你继续你的工作吧\n什么时候出航可以随时跟我说！$"
 
 Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
-    .string "哈奇：喂！\n我知道你想说什么！\p你想要去武斗送信\n还要去凯那送包裹。\p你需要我做的\n丝毫没有问题--我就是适合这个工作的人！\p首先我们出航去武斗。$"
+    .string "哈奇：喂！\n我知道你想说什么！\p你想要去武斗送信\n还要去凯那送包裹。\p你需要我做的\n丝毫没有问题——我就是适合这个工作的人！\p首先我们出航去武斗。$"
 
 Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
-    .string "哈奇：喂！\n我知道你想说什么！\p你想要送包裹给\n凯那的楠木。\p你需要我做的\n丝毫没有问题--我就是适合这个工作的人！\p首先我们出航去武斗。$"
+    .string "哈奇：喂！\n我知道你想说什么！\p你想要送包裹给\n凯那的楠木。\p你需要我做的\n丝毫没有问题——我就是适合这个工作的人！\p首先我们出航去武斗。$"
 
 Route104_MrBrineysHouse_Text_WhereAreWeBound:
     .string "哈奇：喂！\n为了你，我们可以随时出航！\p现在，朋友，我们去哪？$"

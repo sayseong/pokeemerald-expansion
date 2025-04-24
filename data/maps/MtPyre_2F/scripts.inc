@@ -94,7 +94,7 @@ MtPyre_2F_Text_ZanderIntro:
     .string "呀啊啊啊！！\n我好害怕啊！$"
 
 MtPyre_2F_Text_ZanderDefeat:
-    .string "不----！\n我输了！$"
+    .string "不——！\n我输了！$"
 
 MtPyre_2F_Text_ZanderPostBattle:
     .string "每次看到什么东西活动\n我就会被吓一跳……\p我真不该来这里训练……$"

@@ -175,8 +175,8 @@ BerryBlender_Text_SetNewBlenderRecord:
 
 BerryBlender_Text_LookGoodAtBlendingJoinUs:
 	.string "哦，天哪！\n"
-	.string "你好像很在行混合。\l"
-	.string "愿意加入我们吗？？$"
+	.string "你好像对混合很在行。\l"
+	.string "愿意加入我们吗？$"
 
 BerryBlender_Text_MakeDeliciousPokeblocks:
 	.string "我将做美味的宝可方块\n"

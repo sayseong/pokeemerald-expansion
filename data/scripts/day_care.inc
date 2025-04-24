@@ -274,7 +274,7 @@ EventScript_EggHatch::
 	end
 
 Route117_Text_SeeWifeIfYoudLikeMeToRaiseMon:
-	.string "我是培育屋的饲养爷爷。\p"
+	.string "我是培育屋的培育爷爷。\p"
 	.string "我会帮忙照顾训练家的那些\n"
 	.string "珍贵的宝可梦。\p"
 	.string "如果你想我照顾你的宝可梦，\n"
@@ -302,7 +302,7 @@ Route117_Text_YouHaveNoRoomForIt:
 	.string "等你有空间的时候再来吧。$"
 
 Route117_Text_ReceivedEgg:
-	.string "{PLAYER}从饲养爷爷\n"
+	.string "{PLAYER}从培育爷爷\n"
 	.string "手里得到了蛋。$"
 
 Route117_Text_TakeGoodCareOfIt:
@@ -329,7 +329,7 @@ Route117_Text_IWillKeepDoYouWantIt:
 	.string "你想要，是不是？$"
 
 Route117_PokemonDayCare_Text_WouldYouLikeUsToRaiseAMon:
-	.string "我是饲养婆婆。\p"
+	.string "我是培育婆婆。\p"
 	.string "我们可以为你照顾宝可梦。\p"
 	.string "想让我们照顾一只吗？$"
 
@@ -390,7 +390,7 @@ Route117_PokemonDayCare_Text_HeresYourMon:
 
 Route117_PokemonDayCare_Text_TookBackMon:
 	.string "{PLAYER}把{STR_VAR_1}从\n"
-	.string "饲养婆婆那里拿回来了。$"
+	.string "培育婆婆那里拿回来了。$"
 
 Route117_PokemonDayCare_Text_YouHaveJustOneMon:
 	.string "咦？你只有一只\n"

@@ -62,7 +62,7 @@ Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection::
 	end
 
 Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou:
-    .string "你是我所见过的训练家中\n指挥宝可梦最纯熟的。\p但是，我要告诉你--我的儿子\n比你还要厉害。\p他甚至成为了宝可梦联盟\n挑战者，你知道吗。$"
+    .string "你是我所见过的训练家中\n指挥宝可梦最纯熟的。\p但是，我要告诉你——我的儿子\n比你还要厉害。\p他甚至成为了宝可梦联盟\n挑战者，你知道吗。$"
 
 Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace:
     .string "我们使用强制锻炼器\n有效提高宝可梦\l的力量。\p你战胜了我们所有人，\n我不知道你是否需要这个\l请收下我们给你的强制锻炼器。$"

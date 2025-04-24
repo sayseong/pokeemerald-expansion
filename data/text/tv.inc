@@ -212,7 +212,7 @@ gTVRecentHappeningsText00::
     .string "你好，又到了丰缘写真的时间。\p对于训练家来说，每一天都是\n一个故事片。\p我们想要做的就是给大家\n介绍一些宝可梦的奇闻异事。\p今天带给你们故事的是\n{STR_VAR_1}。\p{STR_VAR_1}的故事是什么呢？\n让我查一下。\p让我看看……$"
 
 gTVRecentHappeningsText01::
-    .string "这不是很有趣吗？\p这个故事有没有让\n{STR_VAR_1}觉得似曾相识呢。\l就好象我们亲眼目睹了一样！$"
+    .string "这不是很有趣吗？\p这个故事有没有让\n{STR_VAR_1}觉得似曾相识呢。\l就好像我们亲眼目睹了一样！$"
 
 gTVRecentHappeningsText02::
     .string "“{STR_VAR_3}。”\n强调了这点。$"
@@ -302,10 +302,10 @@ gTVNameRaterText02::
     .string "一个昵称配上训练家的名字\n{STR_VAR_1}，就完美无缺了。\p我建议你在适当的时候\n打造一个好的伙伴关系。$"
 
 gTVNameRaterText03::
-    .string "一个昵称很适合\n一个独一无二的宝可梦！\p如果饲养得当的话，这只宝可梦\n的独特性就很会快体现起来！$"
+    .string "一个昵称很适合\n一个独一无二的宝可梦！\p如果培育得当的话，这只宝可梦\n的独特性就很会快体现起来！$"
 
 gTVNameRaterText04::
-    .string "一个昵称会培养出宝可梦的\n人道心和同情心。\p如果饲养得当的话，这只宝可梦将会\n觉醒和展示出真正的热情！$"
+    .string "一个昵称会培育出宝可梦的\n人道心和同情心。\p如果培育得当的话，这只宝可梦将会\n觉醒和展示出真正的热情！$"
 
 gTVNameRaterText05::
     .string "一个好的昵称会暗示\n有好事发生。\p我很有兴趣想知道这只宝可梦\n的将来会是什么样。$"
@@ -612,7 +612,7 @@ gTVSecretBaseVisitText10::
     .string "哎呀！\n我要把它给{STR_VAR_1}。\p这个训练家的宝可梦\n像怪物一样强！\p它们充分地证明了{STR_VAR_1}\n作为训练家的顽强。\p那个{STR_VAR_2}竟然会\n{STR_VAR_3}这个招式……\p它说明了你到底是个什么样\n的训练家，{STR_VAR_1}。\p我实在学到了很多！$"
 
 gTVSecretBaseVisitText11::
-    .string "哎呀！\n我要把它给{STR_VAR_1}。\p这个训练家的宝可梦很明显地\n是被培养成了具有很平均的风度。\p它们充分地证明了{STR_VAR_1}的\n作为训练家的思维缜密。\p那个{STR_VAR_2}竟然会\n{STR_VAR_3}这个招式……\p它说明了你到底是个什么样的训练家\n，{STR_VAR_1}。\p我实在学到了很多！$"
+    .string "哎呀！\n我要把它给{STR_VAR_1}。\p这个训练家的宝可梦很明显地\n是被培育成了具有很平均的风度。\p它们充分地证明了{STR_VAR_1}的\n作为训练家的思维缜密。\p那个{STR_VAR_2}竟然会\n{STR_VAR_3}这个招式……\p它说明了你到底是个什么样的训练家\n，{STR_VAR_1}。\p我实在学到了很多！$"
 
 gTVSecretBaseVisitText12::
     .string "好啊，好啊！\n我要把它给{STR_VAR_1}。\p这个训练家的宝可梦展现了\n对未来成长的决心。\p它们代表了{STR_VAR_1}的\n希望和梦想。\p那个{STR_VAR_2}竟然会\n{STR_VAR_3}这个招式……\p它说明了你到底是个什么样的训练家\n，{STR_VAR_1}。\p我实在学到了很多！$"
@@ -942,7 +942,7 @@ TVSecretBaseSecrets_Text_UsedJumpMat::
     .string "游客登上了\n跳床！\p跳一下！\p两下！\p完美着陆！\p为他鼓掌！\n多棒的个人演出！$"
 
 gTVSafariFanClubText00::
-    .string "狩猎地带爱好者俱乐部！\p采访者：怎么，\n开始扔狩猎球了？\p我现在就在充满了\n珍稀宝可梦的狩猎地带里！\p来吧\n一起去找饲养员谈谈！\p你觉得狩猎地带的\n训练家都怎么样啊？$"
+    .string "狩猎地带爱好者俱乐部！\p采访者：怎么，\n开始扔狩猎球了？\p我现在就在充满了\n珍稀宝可梦的狩猎地带里！\p来吧\n一起去找培育员谈谈！\p你觉得狩猎地带的\n训练家都怎么样啊？$"
 
 gTVSafariFanClubText01::
     .string "导游：大家都十分\n努力。\p特别是{STR_VAR_1}。\p为什么？因为{STR_VAR_1}抓住了\n{STR_VAR_2}宝可梦。$"

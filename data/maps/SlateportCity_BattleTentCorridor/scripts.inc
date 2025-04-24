@@ -196,7 +196,7 @@ SlateportCity_ContestHall_Text_MoreFreakedOutThanMon:
 
 @ Unused
 SlateportCity_ContestHall_Text_BattleAndContestAlike:
-    .string "虽然对战和选美并不一样\n但它们也有相似之处。\p你需要更努力并且\n要相信你所培养的宝可梦。$"
+    .string "虽然对战和选美并不一样\n但它们也有相似之处。\p你需要更努力并且\n要相信你所培育的宝可梦。$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MonLooksOnTopOfGame:

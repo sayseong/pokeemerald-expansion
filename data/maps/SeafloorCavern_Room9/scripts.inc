@@ -262,7 +262,7 @@ SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
     .string "赤焰松：你都干了些什么？\p水梧桐……你还是唤醒盖欧卡了，\n是不是？\p这场倾盆大雨一直下个不停的话，\n我们的世界会变成什么样？\p所有的大陆都会被海水\n所淹没……$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
-    .string "水梧桐：什----什么？！\n别把责任都推到我身上！\p你不也一样么，熔岩队，\n那只狂怒的固拉多怎么说？\p既然我有朱红色宝珠，\n我应该能控制盖欧卡……\p我应该能控制它的……$"
+    .string "水梧桐：什——什么？！\n别把责任都推到我身上！\p你不也一样么，熔岩队，\n那只狂怒的固拉多怎么说？\p既然我有朱红色宝珠，\n我应该能控制盖欧卡……\p我应该能控制它的……$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
     .string "赤焰松：我们没时间\n继续在这儿吵了！\p出去自己看看吧！\p去看看那个由我们制造的\n梦想中的世界！$"

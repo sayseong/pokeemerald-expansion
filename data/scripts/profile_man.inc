@@ -94,7 +94,7 @@ ProfileMan_EventScript_Ret::
 ProfileMan_Text_CollectTrainerProfiles:
 	.string "嘿，训练家！\n"
 	.string "你有一个很灿烂的微笑。\p"
-	.string "我有一个爱好--收集宝可梦训练家\n"
+	.string "我有一个爱好——收集宝可梦训练家\n"
 	.string "的各种信息档案。$"
 
 ProfileMan_Text_MayISeeYourProfile:
@@ -147,7 +147,7 @@ ProfileMan_Text_EvenBetterThanLastProfile:
 
 ProfileMan_Text_LikeProfileWayItIs:
 	.string "啊，你喜欢这种形式的档案呀。\p"
-	.string "我没有看错你--现在它是一份\n"
+	.string "我没有看错你——现在它是一份\n"
 	.string "非常棒的档案了。$"
 
 ProfileMan_Text_FantasticProfile:

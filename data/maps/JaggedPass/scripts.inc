@@ -207,7 +207,7 @@ JaggedPass_Text_GruntDefeat:
     .string "唔咕咕……\p我应该早点躲进\n基地里面的……$"
 
 JaggedPass_Text_GoWhereverYouWant:
-    .string "好吧好吧！\n我承认--你很强！\p别管我在干什么，\n赶紧去你想去的地方吧！$"
+    .string "好吧好吧！\n我承认——你很强！\p别管我在干什么，\n赶紧去你想去的地方吧！$"
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
     .string "喔！这块大石头对熔岩标志\n有反应！石头晃动起来了！$"

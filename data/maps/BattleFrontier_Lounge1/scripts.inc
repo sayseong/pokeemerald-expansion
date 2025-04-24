@@ -151,7 +151,7 @@ BattleFrontier_Lounge1_EventScript_Boy2::
 	end
 
 BattleFrontier_Lounge1_Text_PokemonBreederIntro:
-    .string "我培养宝可梦有70年了！\n我被人们尊为传奇性的\l顶级宝可梦培育家！\p当你变得和我一样成熟时，\n你就能一眼看出宝可梦\l的能力。\p你是一个训练家。难道你\n没兴趣知道你的宝可梦的\l能力吗？\p来吧！\n让我们看看你的宝可梦！$"
+    .string "我培育宝可梦有70年了！\n我被人们尊为传奇性的\l顶级宝可梦培育家！\p当你变得和我一样成熟时，\n你就能一眼看出宝可梦\l的能力。\p你是一个训练家。难道你\n没兴趣知道你的宝可梦的\l能力吗？\p来吧！\n让我们看看你的宝可梦！$"
 
 BattleFrontier_Lounge1_Text_AverageAbility:
     .string "……嗯……\p这一只，总而言之，我的评价\n是能力一般。$"
@@ -209,8 +209,8 @@ BattleFrontier_Lounge1_Text_EvenICantTell:
     .string "虽然我是专家，但对于还没有\n孵化出的宝可梦我也不能说什么！\p给我看一只宝可梦！\n一只宝可梦才是我要看的！$"
 
 BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding:
-    .string "他说我的宝可梦很出色！\n我很高兴我能精心培养它！$"
+    .string "他说我的宝可梦很出色！\n我很高兴我能精心培育它！$"
 
 BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt:
-    .string "他说我的宝可梦很出色！\n但是我培养它时没有任何\l特殊照顾……$"
+    .string "他说我的宝可梦很出色！\n但是我培育它时没有任何\l特殊照顾……$"
 

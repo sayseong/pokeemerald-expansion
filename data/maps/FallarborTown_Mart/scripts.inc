@@ -49,7 +49,7 @@ FallarborTown_Mart_Text_DecidingSkittyEvolve:
     .string "我一直在犹豫该不该\n让我的向尾喵进化。\p只要使用这个月之石就可以了，\n但我还没下定决心……\p它进化后当然会\n变得更强，\p但看上去会完全不同了。$"
 
 FallarborTown_Mart_Text_Skitty:
-    .string "向尾喵：喵-夭？$"
+    .string "向尾喵：喵——夭？$"
 
 FallarborTown_Mart_Text_SellNuggetIFound:
     .string "我在这儿找到的金珠……\n好像没什么用，\l我想该卖掉它。$"

@@ -107,7 +107,7 @@ SecretBase_Text_Trainer2PreChampion::
 
 SecretBase_Text_Trainer7Intro::
 	.string "我非常喜欢逛商店\n买家具和装饰物品，\p"
-	.string "也同样喜欢\n培养宝可梦。\p"
+	.string "也同样喜欢\n培育宝可梦。\p"
 	.string "如果你愿意的话，\n跟我的宝可梦战斗怎么样？$"
 
 SecretBase_Text_Trainer7AcceptBattle::
@@ -124,7 +124,7 @@ SecretBase_Text_Trainer7PostBattle::
 
 SecretBase_Text_Trainer7PreChampion::
 	.string "我非常喜欢逛商店\n买家具和装饰物品，\p"
-	.string "也同样喜欢\n培养宝可梦。$"
+	.string "也同样喜欢\n培育宝可梦。$"
 
 SecretBase_Text_Trainer3Intro::
 	.string "有些人把秘密基地\n建在别人很难找到的地方，\l"
@@ -171,7 +171,7 @@ SecretBase_Text_Trainer8PreChampion::
 
 SecretBase_Text_Trainer4Intro::
 	.string "我寻找一个中意的地点，\n然后用喜欢的装饰物品来装点它。\p"
-	.string "我培养自己喜欢的宝可梦，\n并与它一同成长。\p"
+	.string "我培育自己喜欢的宝可梦，\n并与它一同成长。\p"
 	.string "这是我的生活。\n要和我战斗吗？$"
 
 SecretBase_Text_Trainer4AcceptBattle::
@@ -188,7 +188,7 @@ SecretBase_Text_Trainer4PostBattle::
 
 SecretBase_Text_Trainer4PreChampion::
 	.string "我寻找一个中意的地点，\n然后用喜欢的装饰物品来装点它。\p"
-	.string "我培养自己喜欢的宝可梦，\n并与它一同成长。\p"
+	.string "我培育自己喜欢的宝可梦，\n并与它一同成长。\p"
 	.string "每一天都是最好的一天。$"
 
 SecretBase_Text_Trainer9Intro::

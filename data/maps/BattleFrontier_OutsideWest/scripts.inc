@@ -362,7 +362,7 @@ BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
     .string "呃……\n大概不要紧吧。\p我想是的……\p记得那个吓人的大家伙吗？\n他不是说：“我会借给你宝可梦！”$"
 
 BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
-    .string "那边的是对战工厂，\n在那儿你能借到强大的宝可梦，\p不过我一直在奇怪，\n那些宝可梦是谁培养出来的？$"
+    .string "那边的是对战工厂，\n在那儿你能借到强大的宝可梦，\p不过我一直在奇怪，\n那些宝可梦是谁培育出来的？$"
 
 BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
     .string "我不敢进对战管道，\n我怕饭匙蛇……\p但—但我既然已经到这儿来了\n我要努力战胜一切！\l……咕咕……$"

@@ -304,7 +304,7 @@ LavaridgeTown_Text_AsYouWishThen:
     .string "那么请便吧……\p如果你改变主意了，\n再来这儿找我。$"
 
 LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
-    .string "有时宝可梦饲养园里\n会发现蛋，\p至少传闻中是这样。$"
+    .string "有时宝可梦培育屋里\n会发现蛋，\p至少传闻中是这样。$"
 
 LavaridgeTown_Text_HotSpringsNeverRunDry:
     .string "我们不断地汲取热水，\n但温泉却从未干涸，\p很神奇不是吗？\p这些温泉都很接近活火山，\n地下水脉被岩浆加热，\l从地表冒出来，\l就形成了温泉。$"

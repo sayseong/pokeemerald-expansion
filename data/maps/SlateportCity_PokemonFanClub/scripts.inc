@@ -292,7 +292,7 @@ SlateportCity_PokemonFanClub_Text_ExplainYellowScarf:
     .string "给宝可梦戴上这黄色头巾，\p它会激励你的宝可梦\n变得强壮！$"
 
 SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou:
-    .string "很遗憾，我已经没有可以\n给你的东西了！没有了！\p不过，你有那种不依靠\n任何道具就能培养出\l非常优秀的宝可梦的天赋！$"
+    .string "很遗憾，我已经没有可以\n给你的东西了！没有了！\p不过，你有那种不依靠\n任何道具就能培育出\l非常优秀的宝可梦的天赋！$"
 
 SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou:
     .string "我喜欢看到爱它们的\n训练家的宝可梦。\p宝可梦对训练家的\n感情非常敏感，\p如果你用爱与细心照料你的宝可梦，\n它们也会回报你的爱。\p当你的宝可梦开始喜欢你了，\n就来给我看看吧。$"

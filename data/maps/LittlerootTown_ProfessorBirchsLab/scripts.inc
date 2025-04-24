@@ -805,7 +805,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
     .string "小遥：{PLAYER}{KUN}，这以后……\n你打算怎么做？\p继续战斗提升\n自己的实力吗？\p还是试着完成\n全国宝可梦图鉴？\p我要留在这儿给博士帮忙。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
-    .string "小悠：比起收集\n宝可梦，我更喜欢一步步慢慢培养\l我自己选择的那一只。$"
+    .string "小悠：比起收集\n宝可梦，我更喜欢一步步慢慢培育\l我自己选择的那一只。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
     .string "小遥：嗨，你好，{PLAYER}{KUN}！\n你去过\l对战开拓区了吗？$"

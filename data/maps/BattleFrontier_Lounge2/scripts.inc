@@ -180,7 +180,7 @@ BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
     .string "你跟宫殿守护者\n交过手了吗？\p据说他测试对手的心的时候，\n通常会用这些宝可梦：\p毒和飞行属性的蝙蝠宝可梦，\n一般属性的懒惰宝可梦，还有\l水和冰属性的传送宝可梦。$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
-    .string "你跟认真起来的宫殿守护者\n交过手了吗？\p据说他把精力全部集中到战斗的时候，\n通常会使用这些宝可梦：\p火属性的传说宝可梦，\n一般属性的懒惰宝可梦，，\l还有水属性的极光宝可梦。$"
+    .string "你跟认真起来的宫殿守护者\n交过手了吗？\p据说他把精力全部集中到战斗的时候，\n通常会使用这些宝可梦：\p火属性的传说宝可梦，\n一般属性的懒惰宝可梦，\l还有水属性的极光宝可梦。$"
 
 BattleFrontier_Lounge2_Text_PyramidKingIsThere::
     .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那个地方就是这个名叫金字塔法老的\n热情如火的训练家管理的。$"
@@ -195,7 +195,7 @@ BattleFrontier_Lounge2_Text_DoubleBattleAdvice1::
     .string "确实，有些地方也可以\n进行双打对战，\p不过在对战塔的双人\n对战房间里，这可是最基本的！\p你可以在那里学习\n如何在对战开拓区\l进行双打对战。$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice2::
-    .string "在这里战斗不要大意。\p听说有些训练家\n可是专门为了双打对战\l而培养宝可梦的。$"
+    .string "在这里战斗不要大意。\p听说有些训练家\n可是专门为了双打对战\l而培育宝可梦的。$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice3::
     .string "当你熟悉了这里的\n双打对战之后，\l就去试着挑战其他地方的\l双打对战吧。$"

@@ -158,7 +158,7 @@ MagmaHideout_4F_Text_Grunt13Defeat:
     .string "我那么容易就被干掉了？$"
 
 MagmaHideout_4F_Text_Grunt13PostBattle:
-    .string "来-来吧，再战一回……$"
+    .string "来——来吧，再战一回……$"
 
 MagmaHideout_4F_Text_TabithaIntro:
     .string "嘿嘿！既然你都\n打到这里了，那我就告诉你吧！\p正如你所料！\n固拉多就在前面沉睡着！\p赤焰松刚刚已经\n进去找固拉多了！\p它不久就要苏醒了！\n嘿嘿！嘿嘿！$"

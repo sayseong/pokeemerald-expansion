@@ -134,7 +134,7 @@ RustboroCity_Gym_Text_MarcDefeat:
     .string "哦，天哪！\n我们的挑战者这么强大！$"
 
 RustboroCity_Gym_Text_MarcPostBattle:
-    .string "只有交给我们的馆主了。\p这么年轻就培养岩石属性，\n真是辛苦她了。$"
+    .string "只有交给我们的馆主了。\p这么年轻就培育岩石属性，\n真是辛苦她了。$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
     .string "你好，我是卡那兹市\n宝可梦道馆的馆主杜娟。\p因为想要在实战中验证\n在宝可梦训练家学校中所学，\l我才成为了道馆馆主。\p让我看看你用什么宝可梦，\n怎样战斗，好吗？$"

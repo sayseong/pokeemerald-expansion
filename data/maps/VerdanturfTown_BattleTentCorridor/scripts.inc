@@ -45,11 +45,11 @@ VerdanturfTown_BattleTentCorridor_Movement_AttendantEnterDoor:
 @ Leftover text from when this was a Contest Hall in R/S
 @ Unused
 VerdanturfTown_ContestHall_Text_WhichContestYouEntering:
-    .string "你想要参加哪个部门？\n需要建议吗？\p在任一部门中，例如可爱部门\n我认为裁判不仅仅\l在第一回合中判定。\p你应该努力制定出更多方法\n来更好的培养你的宝可梦。$"
+    .string "你想要参加哪个部门？\n需要建议吗？\p在任一部门中，例如可爱部门\n我认为裁判不仅仅\l在第一回合中判定。\p你应该努力制定出更多方法\n来更好的培育你的宝可梦。$"
 
 @ Unused
 VerdanturfTown_ContestHall_Text_RaisedMonToBeCute:
-    .string "我培养宝可梦让它变得可爱。\p我发现你可以让宝可梦参加\n可爱部门！\p我很高兴我是用爱心来培养\n我的宝可梦。$"
+    .string "我培育宝可梦让它变得可爱。\p我发现你可以让宝可梦参加\n可爱部门！\p我很高兴我是用爱心来培育\n我的宝可梦。$"
 
 @ Unused
 VerdanturfTown_ContestHall_Text_MyMonRules:

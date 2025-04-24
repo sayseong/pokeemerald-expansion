@@ -580,7 +580,7 @@ LilycoveCity_PokemonCenter_1F_Text_IWillCherishThis:
 	.string "真的是非常{STR_VAR_1}的\n"
 	.string "{STR_VAR_2}……\p"
 	.string "真好啊，\n"
-	.string "好象做梦一样……\p"
+	.string "好像做梦一样……\p"
 	.string "谢谢你……\n"
 	.string "我会珍惜的……$"
 

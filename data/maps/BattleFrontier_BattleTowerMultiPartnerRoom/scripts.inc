@@ -402,7 +402,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Mon1::
     .string "我用的是{STR_VAR_3}推荐的\n用{STR_VAR_1}的{STR_VAR_2}$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Mon2Ask::
-    .string "和用{STR_VAR_1}\n的{STR_VAR_2}。\p无论我有多忙，我都会\n尽最大的努力去培养他们。\p让我们组队\n横扫一切对手吧！$"
+    .string "和用{STR_VAR_1}\n的{STR_VAR_2}。\p无论我有多忙，我都会\n尽最大的努力去培育他们。\p让我们组队\n横扫一切对手吧！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Accept::
     .string "好极了，要的就是这种精神！\n我去登记，你就在这儿等一下吧。$"
@@ -417,7 +417,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon1::
     .string "听着，听着！你有必要听听\n{STR_VAR_3}推荐的宝可梦。\l有{STR_VAR_1}的{STR_VAR_2}$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon2Ask::
-    .string "和{STR_VAR_1}的{STR_VAR_2}。\n当然，我的培养方式也非常完美！\p好了，组个队如何？\n我相信我们的联手一定超强！$"
+    .string "和{STR_VAR_1}的{STR_VAR_2}。\n当然，我的培育方式也非常完美！\p好了，组个队如何？\n我相信我们的联手一定超强！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Accept::
     .string "哈，我想这次一定会很有趣的！\n我去登记了！$"
@@ -429,7 +429,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Intro::
     .string "请允许我先介绍一下自己。\n我是{STR_VAR_3}，\p也就是{STR_VAR_1}的\n第{STR_VAR_2}个徒弟。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Mon1::
-    .string "我遵从了睿智的{STR_VAR_3}\n的建议，培养了\l有{STR_VAR_1}的{STR_VAR_2}$"
+    .string "我遵从了睿智的{STR_VAR_3}\n的建议，培育了\l有{STR_VAR_1}的{STR_VAR_2}$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Mon2Ask::
     .string "和有{STR_VAR_1}的{STR_VAR_2}。\p请与我组队吧！$"
@@ -501,7 +501,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Reject::
     .string "哦呀，{PLAYER}，你真绝情！\n或许是我太唐突了！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Intro::
-    .string "耶耶，呀--呼--！\n喂，别跑呀！我没病，只是自娱自乐！\p喔哈哈！我是{STR_VAR_3}！\n{STR_VAR_1}的第{STR_VAR_2}个徒弟！$"
+    .string "喂喂，呀——呼——！\n喂，别跑呀！我没病，只是自娱自乐！\p喔哈哈！我是{STR_VAR_3}！\n{STR_VAR_1}的第{STR_VAR_2}个徒弟！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon1::
     .string "{STR_VAR_3}教我怎么做，\n使用{STR_VAR_1}的{STR_VAR_2}$"
@@ -534,7 +534,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Intro::
     .string "你好！\n这里真是个强者云集的地方。\p我是{STR_VAR_3}，\n{STR_VAR_1}的第{STR_VAR_2}个徒弟。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon1::
-    .string "{STR_VAR_3}说这样的队伍不错--\n有{STR_VAR_1}的{STR_VAR_2}和$"
+    .string "{STR_VAR_3}说这样的队伍不错——\n有{STR_VAR_1}的{STR_VAR_2}和$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon2Ask::
     .string "有{STR_VAR_1}的{STR_VAR_2}。\p虽然有点害羞，不过，\n能让我跟你组队吗？$"
@@ -684,7 +684,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMIntro::
     .string "你好！\n我是补习班学生{STR_VAR_1}！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon1::
-    .string "我培养的是\n使用{STR_VAR_1}的{STR_VAR_2}$"
+    .string "我培育的是\n使用{STR_VAR_1}的{STR_VAR_2}$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon2Ask::
     .string "和使用{STR_VAR_1}的\n{STR_VAR_2}。\p不觉得这组合不错吗？\n有没有兴趣一起组队呢？$"
@@ -759,7 +759,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMIntro::
     .string "你好吗？我是{STR_VAR_1}，\n一个宝可梦培育家！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon1::
-    .string "我很细心地培养了两个伙伴！\n会{STR_VAR_1}的{STR_VAR_2}和$"
+    .string "我很细心地培育了两个伙伴！\n会{STR_VAR_1}的{STR_VAR_2}和$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon2Ask::
     .string "会{STR_VAR_1}的{STR_VAR_2}！\p怎么样？\n和我组队如何？$"
@@ -789,7 +789,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMIntro::
     .string "嗨！我是{STR_VAR_1}！\n一个铁人三项选手！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon1::
-    .string "跑步的时候我会都带着同样的伙伴--\n会{STR_VAR_1}的{STR_VAR_2}和$"
+    .string "跑步的时候我会都带着同样的伙伴——\n会{STR_VAR_1}的{STR_VAR_2}和$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon2Ask::
     .string "会{STR_VAR_1}的{STR_VAR_2}！\p这队伍还不坏，对吧？\n我们组队肯定不错！$"
@@ -846,16 +846,16 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMReject::
     .string "我的宝可梦确实很强的……\n不和我组队真可惜啊。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristIntro::
-    .string "呀-嘿！\n叫我吉他手{STR_VAR_1}！$"
+    .string "呀——嘿！\n叫我吉他手{STR_VAR_1}！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon1::
     .string "我来介绍一下我的随从！\n一只带着{STR_VAR_1}的{STR_VAR_2}和$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon2Ask::
-    .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p呀-嘿！非常棒，是不是？\n让我们在队伍里继续交流吧！$"
+    .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p呀——嘿！非常棒，是不是？\n让我们在队伍里继续交流吧！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristAccept::
-    .string "呀-嘿！痛快！\n我这就去注册！$"
+    .string "呀——嘿！痛快！\n我这就去注册！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristReject::
     .string "我的宝可梦很失望！\n我告诉你，你必须要道歉！$"
@@ -912,7 +912,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon1::
     .string "我十分的热爱宝可梦。\n一只带着{STR_VAR_1}的{STR_VAR_2}和$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon2Ask::
-    .string "一只带着{STR_VAR_1}的{STR_VAR_2}--\n这就是我拥有的。\p你难道不想和我组一个队吗？$"
+    .string "一只带着{STR_VAR_1}的{STR_VAR_2}——\n这就是我拥有的。\p你难道不想和我组一个队吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFAccept::
     .string "好，太好了。\n我马上就到注册点去。$"
@@ -987,7 +987,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon1::
     .string "我也有宝可梦，没错。\n一只带着{STR_VAR_1}的{STR_VAR_2}和$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon2Ask::
-    .string "一只带着{STR_VAR_1}的{STR_VAR_2}--\n这就是我拥有的。\p那么有没有兴趣\n组一个队呢？$"
+    .string "一只带着{STR_VAR_1}的{STR_VAR_2}——\n这就是我拥有的。\p那么有没有兴趣\n组一个队呢？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacAccept::
     .string "好极了！\n了解！\p我不会用太多时间去注册的！$"
@@ -1197,7 +1197,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon1::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}和$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon2Ask::
-    .string "一只带着{STR_VAR_1}的{STR_VAR_2}--\n这就是我的伙伴。\p建一支二人战斗组，\n你觉得如何？$"
+    .string "一只带着{STR_VAR_1}的{STR_VAR_2}——\n这就是我的伙伴。\p建一支二人战斗组，\n你觉得如何？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFAccept::
     .string "谢谢。\n接下来的申请就交给我了。$"
