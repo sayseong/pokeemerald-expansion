@@ -578,7 +578,7 @@ gText_ApprenticeWhichMon0::
     .string "呜呜……\n啊，{PLAYER}！\p你来得正好！\n有些事我不知道该怎么办……\p我不知道我该选\n哪只宝可梦，\p不知道该\n选{STR_VAR_1}还是{STR_VAR_2}……\p{PLAYER}，你说我用哪只\n才会赢呢？$"
 
 gText_ApprenticeMonThanks0::
-    .string "呜呜……我……我明白了！\n啊，对不起！\l我高兴得都哭出来了……\p我一定要努力抓一只\n{STR_VAR_1}！\p非常感谢！$"
+    .string "呜呜……我……我明白了！\n啊，对不起！\l我高兴得都哭出来了……\p我一定要努力捕捉一只\n{STR_VAR_1}！\p非常感谢！$"
 
 gText_ApprenticeWhichMon1::
     .string "耶！是{PLAYER}！\n呀，你来得正好！\l再给我点建议吧！\p呃，我已经搞不清楚了，我应该\n用我的{STR_VAR_1}还是{STR_VAR_2}……\p我该怎么办，\n{PLAYER}？$"
@@ -608,7 +608,7 @@ gText_ApprenticeWhichMon5::
     .string "这不是{PLAYER}{KUN}嘛！一切还好吧？\n我还是像以前一样忙！\p我也想养宝可梦，\n但我还没决定\l要养哪只宝可梦。\p你觉得{STR_VAR_1}强吗？\n但也不能忽视{STR_VAR_2}啊。\p{PLAYER}{KUN}，给我点建议吧！\n哪个更适合我？$"
 
 gText_ApprenticeMonThanks5::
-    .string "知道了。\n我会努力去抓你说的\l那个{STR_VAR_1}的。\p真高兴能碰上你这样的好老师。\n谢谢啦，再见！$"
+    .string "知道了。\n我会努力去捕捉你说的\l那个{STR_VAR_1}的。\p真高兴能碰上你这样的好老师。\n谢谢啦，再见！$"
 
 gText_ApprenticeWhichMon6::
     .string "噢！\n呀，是{PLAYER}！\p我才没有浪费时间去\n向朋友吹嘘碰上你的事！\p今天我还想麻烦你，\n对你来说很简单的！\p拜托了！\n我的问题是……\p如果我要在{STR_VAR_1}与\n{STR_VAR_2}两只宝可梦中选一只来养，\l我该选哪个？$"
@@ -620,7 +620,7 @@ gText_ApprenticeWhichMon7::
     .string "啊，是你，{PLAYER}？\n很高兴再见到你！\p我成了你的徒弟后，\n越来越有信心了。\p我想培育一只\n自己的宝可梦！\p{PLAYER}，能麻烦你帮我\n选一只宝可梦吗？\p我该培育{STR_VAR_1}\n还是{STR_VAR_2}？\l哪只宝可梦更适合我？$"
 
 gText_ApprenticeMonThanks7::
-    .string "{STR_VAR_1}吗？\n我马上就去抓一只！\p谢谢，{PLAYER}，\n希望下次还能请你帮忙。\l祝你一路顺风！$"
+    .string "{STR_VAR_1}吗？\n我马上就去捕捉一只！\p谢谢，{PLAYER}，\n希望下次还能请你帮忙。\l祝你一路顺风！$"
 
 gText_ApprenticeWhichMon8::
     .string "哎！{PLAYER}！又见到你了！\n太……太棒了！\p啊，啊，啊，我知道\n我不能白白放掉这次机会！\p能请你帮个忙吗，{PLAYER}\n帮我选一只宝可梦吧！\p告诉我，{STR_VAR_1}和{STR_VAR_2}\n哪只更好一点！$"
@@ -632,19 +632,19 @@ gText_ApprenticeWhichMon9::
     .string "哎，喂！\n老师！{PLAYER}{KUN}！\p嗨，我一直在找你，\n希望你能再给我些建议！\p哪只宝可梦更适合我？\n{STR_VAR_1}还是{STR_VAR_2}？\p别顾忌什么，\n告诉我吧！$"
 
 gText_ApprenticeMonThanks9::
-    .string "啊哈，是{STR_VAR_1}\n好，太好了！\l我马上就去抓一只！\p还是多谢了！\n拜拜！$"
+    .string "啊哈，是{STR_VAR_1}\n好，太好了！\l我马上就去捕捉一只！\p还是多谢了！\n拜拜！$"
 
 gText_ApprenticeWhichMon10::
-    .string "{PLAYER}{KUN}，听好，有大消息了！\n我抓了一只稀有的宝可梦！\p当然，我在撒谎！\n啊哈哈哈！\p但我不太擅长\n抓宝可梦这一点\l可不是撒谎。\p帮我想想我该\n抓什么宝可梦好吗，\l老师？\p{STR_VAR_1}和{STR_VAR_2}\n哪只更好？$"
+    .string "{PLAYER}{KUN}，听好，有大消息了！\n我捕捉了一只稀有的宝可梦！\p当然，我在撒谎！\n啊哈哈哈！\p但我不太擅长\n捕捉宝可梦这一点\l可不是撒谎。\p帮我想想我该\n捕捉什么宝可梦好吗，\l老师？\p{STR_VAR_1}和{STR_VAR_2}\n哪只更好？$"
 
 gText_ApprenticeMonThanks10::
-    .string "你说要选{STR_VAR_1}吗？\n那么我就去抓另一种吧！\p哈哈，开玩笑的！\n我听你的，老师！\p谢谢你！\n希望你以后还能教我！$"
+    .string "你说要选{STR_VAR_1}吗？\n那么我就去捕捉另一种吧！\p哈哈，开玩笑的！\n我听你的，老师！\p谢谢你！\n希望你以后还能教我！$"
 
 gText_ApprenticeWhichMon11::
-    .string "W——E——I！\n拼出来就是喂！\p唱RAP的水手就是我！\n你还记得我是谁？\p今天有一个宝可梦的问题\n等你来回答！\p如果我要在\n{STR_VAR_1}和{STR_VAR_2}之中选一只，\l我应该要抓哪只？$"
+    .string "W——E——I！\n拼出来就是喂！\p唱RAP的水手就是我！\n你还记得我是谁？\p今天有一个宝可梦的问题\n等你来回答！\p如果我要在\n{STR_VAR_1}和{STR_VAR_2}之中选一只，\l我应该要捕捉哪只？$"
 
 gText_ApprenticeMonThanks11::
-    .string "你说的{STR_VAR_1}，哈，哈！\n我马上就去抓来它！\p如果我想要什么建议，\n{PLAYER}，我总会听听你的话！$"
+    .string "你说的{STR_VAR_1}，哈，哈！\n我马上就去捕捉来它！\p如果我想要什么建议，\n{PLAYER}，我总会听听你的话！$"
 
 gText_ApprenticeWhichMon12::
     .string "哇，这不是{PLAYER}吗？\p我该怎么办？给我建议？\n当然！我已经在和你说话了。\p已经很久了，是该捅破窗户纸的\n时候了，我需要你的建议！\l你能告诉我吗？\l你当然会告诉我！\p我该用哪只宝可梦？\n{STR_VAR_1}和{STR_VAR_2}，\l我该选哪一个？$"
@@ -656,7 +656,7 @@ gText_ApprenticeWhichMon13::
     .string "啊，你好，{PLAYER}{KUN}……\n我正在头疼一件事情……\p对于要培育哪只宝可梦\n我已经想得太多了。\p现在只能这样，\n你替我决定好吗？\p{PLAYER}{KUN}，如果要从\n{STR_VAR_1}和{STR_VAR_2}之中选一个，\l那么选择哪个好呢？$"
 
 gText_ApprenticeMonThanks13::
-    .string "晤，{STR_VAR_1}，好吧，\n我的头疼好一点之后就去抓一只来。\p希望以后还能麻烦你\n帮我决定这种事情。$"
+    .string "晤，{STR_VAR_1}，好吧，\n我的头疼好一点之后就去捕捉一只来。\p希望以后还能麻烦你\n帮我决定这种事情。$"
 
 gText_ApprenticeWhichMon14::
     .string "呃……嗯……\n{PLAYER}{KUN}……？\p拜托别那么看着我。\n我太紧张了……\l我……我希望你能给我点建议。\p真……真不好意思，\n能帮我决定一下我该用什么宝可梦吗？\p{STR_VAR_1}和{STR_VAR_2}之中\n我该选哪个？$"

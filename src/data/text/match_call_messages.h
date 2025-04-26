@@ -116,7 +116,7 @@ const u8 gText_MatchCallOldCouple_JohnAndJay_Intro2[] = _("一直用心培育宝
 const u8 gText_MatchCallBugManiac_Jeffrey_Strategy[] = _("轮番攻击！");
 const u8 gText_MatchCallBugManiac_Jeffrey_Pokemon[] = _("虫属性宝可梦很酷。");
 const u8 gText_MatchCallBugManiac_Jeffrey_Intro1[] = _("我每天都到森林里");
-const u8 gText_MatchCallBugManiac_Jeffrey_Intro2[] = _("去捕获虫宝可梦。");
+const u8 gText_MatchCallBugManiac_Jeffrey_Intro2[] = _("去捕捉虫宝可梦。");
 
 const u8 gText_MatchCallPsychic_Cameron_Strategy[] = _("让对方眩晕！");
 const u8 gText_MatchCallPsychic_Cameron_Pokemon[] = _("有奇异力量的宝可梦。");
@@ -175,7 +175,7 @@ const u8 gText_MatchCallYoungster_Calvin_Intro2[] = _("直到打败道馆馆主�
 
 const u8 gText_MatchCallFisherman_Elliot_Strategy[] = _("耐心对战。");
 const u8 gText_MatchCallFisherman_Elliot_Pokemon[] = _("用水属性宝可梦对战！");
-const u8 gText_MatchCallFisherman_Elliot_Intro1[] = _("我是世界上唯一捕获");
+const u8 gText_MatchCallFisherman_Elliot_Intro1[] = _("我是世界上唯一捕捉");
 const u8 gText_MatchCallFisherman_Elliot_Intro2[] = _("过巨大宝可梦的人！");
 
 const u8 gText_MatchCallTriathlete_Isaiah_Strategy[] = _("利用环境！");

@@ -979,7 +979,7 @@ SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
     .string "把玩偶和坐垫\n直接放在地上会把它们弄脏，\p所以我准备买几块地砖来\n放玩偶和坐垫，这样\l它们就不会脏了。$"
 
 SlateportCity_Text_GoingToCompeteInBattleTent:
-    .string "啊啊啊！我也要参加\n对战帐篷！\p但在那之前，我得先去\n抓几只宝可梦！$"
+    .string "啊啊啊！我也要参加\n对战帐篷！\p但在那之前，我得先去\n捕捉几只宝可梦！$"
 
 SlateportCity_Text_BushedHikingFromMauville:
     .string "呼……累死了……\p我是从紫堇市徒步走来的。\n但是，看呐，这城市简直太大了。\p早知道我就\n骑车过来了。$"

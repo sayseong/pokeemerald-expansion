@@ -74,7 +74,7 @@ Route102_EventScript_Allen::
 	end
 
 Route102_Text_WatchMeCatchPokemon:
-    .string "满充：{PLAYER}……\n宝可梦会像这样\l藏在草丛里，对吗？\p请你看看我抓宝可梦的\n方法是不是正确。\p……哇！$"
+    .string "满充：{PLAYER}……\n宝可梦会像这样\l藏在草丛里，对吗？\p请你看看我捕捉宝可梦的\n方法是不是正确。\p……哇！$"
 
 Route102_Text_WallyIDidIt:
     .string "满充：我做到了……是我的……\n我的宝可梦！$"
