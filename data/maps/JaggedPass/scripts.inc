@@ -150,7 +150,7 @@ JaggedPass_EventScript_Autumn::
 	end
 
 JaggedPass_Text_EricIntro:
-    .string "烟囱山的崎岖山路……\p这正是我在每一座山中\n所渴望寻找到的东西。\p这崎岖不平的路面……\n震动着我的灵魂！$"
+    .string "烟囱山的凹凸山道……\p这正是我在每一座山中\n所渴望寻找到的东西。\p这凹凸不平的路面……\n震动着我的灵魂！$"
 
 JaggedPass_Text_EricDefeat:
     .string "失败让我痛苦！$"
@@ -177,10 +177,10 @@ JaggedPass_Text_DianaRematchDefeat:
     .string "我只是因为地面太颠簸\n才输的！$"
 
 JaggedPass_Text_DianaPostRematch:
-    .string "我会忘记这次失败，享受\n在这崎岖的山中远足的乐趣。$"
+    .string "我会忘记这次失败，享受\n在这凹凸的山中远足的乐趣。$"
 
 JaggedPass_Text_EthanIntro:
-    .string "崎岖山路很难走，\n这是个训练的好地方。$"
+    .string "凹凸山道很难走，\n这是个训练的好地方。$"
 
 JaggedPass_Text_EthanDefeat:
     .string "在我们还在寻找一个合适立足点\n的时候，一切就结束了……$"
@@ -189,10 +189,10 @@ JaggedPass_Text_EthanPostBattle:
     .string "如果有越野自行车的话，\n我就能跳过断坡了。$"
 
 JaggedPass_Text_EthanRegister:
-    .string "等我习惯了这崎岖的路面，\n就一定能赢！\p能把我登记进你的宝可导航吗？$"
+    .string "等我习惯了这凹凸的路面，\n就一定能赢！\p能把我登记进你的宝可导航吗？$"
 
 JaggedPass_Text_EthanRematchIntro:
-    .string "我已经习惯这里崎岖的路，\n能一边唱歌一边攀登了。$"
+    .string "我已经习惯这里凹凸的路，\n能一边唱歌一边攀登了。$"
 
 JaggedPass_Text_EthanRematchDefeat:
     .string "在这么高低不平的地面上战斗\n还是不容易啊……$"

@@ -1005,7 +1005,7 @@ Route104_Text_WhatsItLikeAtBottomOfSea:
     .string "大海，嗯？\p不知道海底\n是什么样子的？$"
 
 Route104_Text_ThrowBallAtWeakenedPokemon:
-    .string "投出精灵球之前，\n要先让野生宝可梦变弱。\p如果它中毒或被灼伤、催眠的话，\n会更容易抓住它。$"
+    .string "投出精灵球之前，\n要先让野生宝可梦变弱。\p如果它中毒或被灼伤、催眠的话，\n会更容易捕捉到它。$"
 
 Route104_Text_OnlyThrowBallAtWildPokemon:
     .string "你不能偷\n别人的宝可梦，\p你只能向野生的宝可梦\n投掷精灵球。$"

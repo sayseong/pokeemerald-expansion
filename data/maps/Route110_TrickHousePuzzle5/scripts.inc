@@ -968,7 +968,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
     .string "咔嗒、噼啪……\n我是机械娃娃5！\p主人最得意的作品\n就是我。$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
-    .string "机械娃娃5问答。\p在凯那市的宝可梦迷之家里，\n一共有多少只宝可梦？$"
+    .string "机械娃娃5问答。\p在凯那市的宝可梦发烧友俱乐部里，\n一共有多少只宝可梦？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
     .string "机械娃娃5问答。\p茵郁市里\n一共有多少树屋？$"

@@ -320,7 +320,7 @@ MossdeepCity_Text_StevensHouseOverThere:
     .string "大吾的家就在那儿！$"
 
 MossdeepCity_Text_WhatToDoWithWeirdRock:
-    .string "是么，你也这么想啊！\n拿着这种奇怪的石头有什么用吗？$"
+    .string "是吗，你也这么想啊！\n拿着这种奇怪的石头有什么用吗？$"
 
 MossdeepCity_Text_WailmerWatching:
     .string "在绿岭市周围可以看到\n野生吼吼鲸。\p这叫啥来着，呃……\n是那啥……\p吼，吼，吼……\p吼吼鲸观赏！$"

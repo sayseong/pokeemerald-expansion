@@ -440,7 +440,7 @@ MossdeepCity_Gym_Text_NateDefeat:
     .string "啊，天哪，天哪！\n你的战斗无与伦比！$"
 
 MossdeepCity_Gym_Text_NatePostBattle:
-    .string "我……我不会被任—任何失败\n吓—吓倒。$"
+    .string "我……我不会被任——任何失败\n吓——吓倒。$"
 
 MossdeepCity_Gym_Text_KathleenIntro:
     .string "体会一下完全绝望的\n恐怖吧！$"

@@ -514,7 +514,7 @@ Route119_Text_StayAwayFromWeatherInstitute:
     .string "我们在这里放哨。\p喂，你！别接近\n天气研究所，那儿不安全。$"
 
 Route119_Text_DontGoNearWeatherInstitute:
-    .string "放哨的人物实在太无聊了。\p喂，你！别跑到\n天气研究所附近去。$"
+    .string "放哨的任务实在太无聊了。\p喂，你！别跑到\n天气研究所附近去。$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
     .string "我本以为所谓飞翔是指\n捉一大群鸟宝可梦，然后\l不知怎么挂在它们身上，\p但实际上飞翔是\n一种秘传学习器招式！\p我要是早点知道\n就好了……$"
@@ -523,7 +523,7 @@ Route119_Text_TallGrassSnaresBikeTires:
     .string "切……\n过不去……\p长草会卷进自行车的轮胎里，\n不可能骑车过去。$"
 
 Route119_Text_CanYourMonMakeSecretBase:
-    .string "你的宝可梦能用神秘力量\n在一大团草中打出一个\l秘密基地吗？$"
+    .string "你的宝可梦能用秘密之力\n在一大团草中打出一个\l秘密基地吗？$"
 
 Route119_Text_RouteSignFortree:
     .string "119号道路\n{RIGHT_ARROW} 茵郁市$"

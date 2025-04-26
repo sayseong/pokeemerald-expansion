@@ -943,7 +943,7 @@ SlateportCity_EventScript_BerryCrushRankingsSign::
 	end
 
 SlateportCity_Text_EnergyGuruSellWhatYouNeed:
-    .string "我是能量格鲁！我会\n为你寻找需要的东西！$"
+    .string "我是努力家！我会\n为你寻找需要的东西！$"
 
 SlateportCity_Text_OhYourPokemon:
     .string "哦？\n你的{STR_VAR_1}……$"
@@ -1042,7 +1042,7 @@ SlateportCity_Text_BuyTooMuch:
     .string "每次我来这里都控制不住自己，\n买一大堆东西回去。$"
 
 SlateportCity_Text_GetNameRaterToHelpYou:
-    .string "想为你的宝可梦\n改名的话，就\l去找姓名鉴定师帮忙吧。$"
+    .string "如果想要为你的宝可梦\n更改昵称的话，\l就去找姓名鉴定师帮忙吧。$"
 
 SlateportCity_Text_CantChangeTradeMonName:
     .string "你不能更改\n交换得来的宝可梦的名字，\p因为那名字中\n包含着原先的训练家对它的情感。$"

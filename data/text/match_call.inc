@@ -1,47 +1,47 @@
 MatchCall_WildBattleText1::
-    .string "嗨！{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}。\p我见过这个{STR_VAR_2}就在刚才！\n但是我没办法抓到它。\p就只差一点点呀！\n好，待会见！$"
+    .string "嗨！{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}。\p我见过这个{STR_VAR_2}就在刚才！\n但是我没办法捕捉到它。\p就只差一点点呀！\n好，待会见！$"
 
 MatchCall_WildBattleText2::
-    .string "你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我差点就抓住一只很棒的{STR_VAR_2}\n就在刚才。\p但是，它还是跑掉了。\n我真的很丧气啊！\p好了，再见！$"
+    .string "你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我差点就捕捉到了一只很棒的{STR_VAR_2}\n就在刚才。\p但是，它还是跑掉了。\n我真的很丧气啊！\p好了，再见！$"
 
 MatchCall_WildBattleText3::
-    .string "你好阿，{PLAYER}！\n是我呀，{STR_VAR_1}。\p我刚才差点抓住\n这个{STR_VAR_2}，但是给它逃掉了。\p差一点就成功了！\p今天算是毁了……\n好了，待会见！$"
+    .string "你好啊，{PLAYER}！\n是我呀，{STR_VAR_1}。\p我刚才差点捕捉到了\n这个{STR_VAR_2}，但是给它逃掉了。\p差一点就成功了！\p今天算是毁了……\n好了，待会见！$"
 
 MatchCall_WildBattleText4::
-    .string "嗨，{PLAYER}{KUN}。\n{STR_VAR_1}就是我。\p你知道那种宝可梦{STR_VAR_2}么？\n我差点就抓到一只。\p就在刚才。\n我以为我已经抓到了，但是它挣脱了。\p如果再让我看见它\n他肯定跑不了！\p好，待会再和你联系。$"
+    .string "嗨，{PLAYER}{KUN}。\n{STR_VAR_1}就是我。\p你知道那种宝可梦{STR_VAR_2}么？\n我差点就捕捉到一只。\p就在刚才。\n我以为我已经捕捉到了，但是它挣脱了。\p如果再让我看见它\n他肯定跑不了！\p好，待会再和你联系。$"
 
 MatchCall_WildBattleText5::
-    .string "你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\l最近抓到什么宝可梦了么？\p刚才我几乎就\n抓住一只，但是它逃掉了。\p好，多保重！$"
+    .string "你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\l最近捕捉到什么宝可梦了么？\p刚才我差一点\n捕捉到了一只，但是它逃掉了。\p好，多保重！$"
 
 MatchCall_WildBattleText6::
-    .string "嘿，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l最近抓到什么宝可梦了么？\p那天我差点抓住一只。\n但是给它闪开了。\p多保重。$"
+    .string "嘿，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l最近捕捉到什么宝可梦了么？\p那天我差点捕捉到了一只。\n但是给它闪开了。\p多保重。$"
 
 MatchCall_WildBattleText7::
-    .string "……嗯，{PLAYER}{KUN}？\n是我，{STR_VAR_1}。\p哦，等等！等等！\n我能抓住这只{STR_VAR_2}……\p啊啊！给他逃了！\n只差一点点啊！$"
+    .string "……嗯，{PLAYER}{KUN}？\n是我，{STR_VAR_1}。\p哦，等等！等等！\n我能捕捉到了这只{STR_VAR_2}……\p啊啊！给他逃了！\n只差一点点啊！$"
 
 MatchCall_WildBattleText8::
-    .string "哦，{PLAYER}{KUN}，最近如何？\n我是{STR_VAR_1}。\p你最近有抓到过什么\n宝可梦么？\p我刚刚悄悄的靠近了一只\n但是，我的猎物还是逃掉了。\p我还未够本呀！\n一会见！$"
+    .string "哦，{PLAYER}{KUN}，最近如何？\n我是{STR_VAR_1}。\p你最近有捕捉到过什么\n宝可梦么？\p我刚刚悄悄的靠近了一只\n但是，我的猎物还是逃掉了。\p我还未够本呀！\n一会见！$"
 
 MatchCall_WildBattleText9::
-    .string "哦，{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}！\p哦？你正在收集宝可梦\n是么？\p我最近过得糟透了，因为它们！\n它们都逃跑了！\p再见！$"
+    .string "哦，{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}！\p哦？你正在收集宝可梦\n是吗？\p我最近过得糟透了，因为它们！\n它们都逃跑了！\p再见！$"
 
 MatchCall_WildBattleText10::
     .string "哦，{PLAYER}{KUN}，你好……\n我是{STR_VAR_1}。\p听着，我几乎已经\n够着这只{STR_VAR_2}了……\p但是，它脚底抹油了……\p我还未够本呀。\n待会见。$"
 
 MatchCall_WildBattleText11::
-    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l最近怎么样？\p我想抓只野生的{STR_VAR_2}\n就在刚才，但是它成功挣脱了。\p我败了……$"
+    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l最近怎么样？\p我想捕捉只野生的{STR_VAR_2}\n就在刚才，但是它成功挣脱了。\p我败了……$"
 
 MatchCall_WildBattleText12::
-    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还在抓那些宝可梦吗？\p我也试着自己去抓他们\n但是，这没有那么容易呀。\p宝可梦之道是博大的！$"
+    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还在捕捉那些宝可梦吗？\p我也试着自己去捕捉他们\n但是，这没有那么容易呀。\p宝可梦之道是博大的！$"
 
 MatchCall_WildBattleText13::
-    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l你抓到宝可梦了吗？\p我自己也尝试着去抓几只，\n但是很少有成功的。\p宝可梦之道是精深的！$"
+    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l你捕捉到宝可梦了吗？\p我自己也尝试着去捕捉几只，\n但是很少有成功的。\p宝可梦之道是精深的！$"
 
 MatchCall_WildBattleText14::
-    .string "哦，嗨，{PLAYER}{KUN}，你好么？\n我是{STR_VAR_1}。\p刚才，我差点抓到一只可爱的\n{STR_VAR_2}。\p可恨给它跑了！\n哦，我真的很难过啊！\p再见！$"
+    .string "哦，嗨，{PLAYER}{KUN}，你好么？\n我是{STR_VAR_1}。\p刚才，我差点捕捉到一只可爱的\n{STR_VAR_2}。\p可恨给它跑了！\n哦，我真的很难过啊！\p再见！$"
 
 MatchCall_WildBattleText15::
-    .string "嘿，{PLAYER}！\n我是{STR_VAR_1}！\p我正在思考，怎样才能\n抓一两只宝可梦。\p但是还是没想出好办法。\n这真是个难题啊！\p真的把我难住了！\n以后再见！$"
+    .string "嘿，{PLAYER}！\n我是{STR_VAR_1}！\p我正在思考，怎样才能\n捕捉一两只宝可梦。\p但是还是没想出好办法。\n这真是个难题啊！\p真的把我难住了！\n以后再见！$"
 
 MatchCall_NegativeBattleText1::
     .string "嗨！{PLAYER}{KUN}，好啊！\n我是{STR_VAR_1}。\p我试着挑战了另一个训练家，\n但是我输了。\p真丧气。\n好了，以后再聊！$"
@@ -158,7 +158,7 @@ MatchCall_SameRouteBattleRequestText10::
     .string "哦，{PLAYER}{KUN}，好……\n这里是{STR_VAR_1}。\p过得顺利么？\n哦，你在{STR_VAR_2}这里。\p那么你应该来战一场，嗯。\p我准备好了等你。\n快点！$"
 
 MatchCall_SameRouteBattleRequestText11::
-    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p啊，你现在正在\n{STR_VAR_2}？\p那么，我们之间一定要\n来战一场的，不是么？\p我在这里等你！\n回见！$"
+    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p啊，你现在正在\n{STR_VAR_2}？\p那么，我们之间一定要\n来战一场的，不是吗？\p我在这里等你！\n回见！$"
 
 MatchCall_SameRouteBattleRequestText12::
     .string "喂，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你现在在哪儿呢？\p{STR_VAR_2}？\n很近的么！\p你说我们来战一场\n怎么样？\p我能等的。\n再见！$"
@@ -248,7 +248,7 @@ MatchCall_PersonalizedText12::
     .string "你好，{STR_VAR_1}在此。\n嗯，没错，我有钱了，嗯。\p我要告诉你，我的财富\n在上次见面后又增加了不少。\p而且，我的宝可梦也变得\n更强了。\p我不得不开始怀疑\n地球是围着我转的！\p哦，无需多言！\n事实就在眼前！\p哦，我必须说声抱歉，我还有一个\n重要的晚宴要参加。$"
 
 MatchCall_PersonalizedText13::
-    .string "呼呼呼……\n是我，{STR_VAR_1}……\p你能猜到我看见了什么吗？\n一对{STR_VAR_2}正在打架。\p也许我应把胜利者抓住……\n呼呼呼……\p我要去忙了。\n我走了。$"
+    .string "呼呼呼……\n是我，{STR_VAR_1}……\p你能猜到我看见了什么吗？\n一对{STR_VAR_2}正在打架。\p也许我应把胜利者捕捉了……\n呼呼呼……\p我要去忙了。\n我走了。$"
 
 MatchCall_PersonalizedText14::
     .string "哦，我是{STR_VAR_1}！\p我已经开始觉得\n呆在被遗弃的海船里有些无聊了。\p但既然我来了，\n而且我想打败你一次，\l那么我得多呆一会。\p如果你愿意的话，为什么\n不来看看我？\p我想今天\n我终于可以和\l我的老邻居来场比赛了。\p再见！$"
@@ -359,7 +359,7 @@ MatchCall_PersonalizedText49::
     .string "我是{STR_VAR_1}！\p我是个水手，但是现在我并不在\n船上。\p我很好奇如何来称呼\n一个在陆地上的水手呢？\p这就是我经常在远航时\n所想的问题。\p好了，下次见！$"
 
 MatchCall_PersonalizedText50::
-    .string "我是{STR_VAR_1}。\n啥？获得更多的宝可梦了吗？\p如果你抓到了新的宝可梦，\n你一定要来给我看看。\p我不会嫉妒的，相信我。\n我等着你。会见。$"
+    .string "我是{STR_VAR_1}。\n啥？获得更多的宝可梦了吗？\p如果你捕捉到了新的宝可梦，\n你一定要来给我看看。\p我不会嫉妒的，相信我。\n我等着你。会见。$"
 
 MatchCall_PersonalizedText51::
     .string "这里是{STR_VAR_1}。\p你正在用正确的方法\n来培育你的宝可梦吗？\p我这里的空气很清洁呀。\n对于培育宝可梦来说\l这是最好的环境。\p如果你还在致力于培育\n宝可梦，你应来\l{STR_VAR_2}。来看看吧$"
@@ -506,7 +506,7 @@ MatchCall_BattleDomeText6::
     .string "嘿，{PLAYER}{KUN}？\n我是{STR_VAR_1}。你还好吗？\p顺便问下\n据说你在{STR_VAR_2}\l赢了{STR_VAR_2}场。\p我也必须训练我的宝可梦，\n在你把我甩开太远之前。$"
 
 MatchCall_BattleDomeText7::
-    .string "{PLAYER}{KUN}？\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n连续获得了{STR_VAR_3}次冠军？\p真不得了啊。另外，\n你抓到什么稀有的宝可梦没有？\p哦，这样阿。\n好，再见。$"
+    .string "{PLAYER}{KUN}？\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n连续获得了{STR_VAR_3}次冠军？\p真不得了啊。另外，\n你捕捉到什么稀有的宝可梦没有？\p哦，这样阿。\n好，再见。$"
 
 MatchCall_BattleDomeText8::
     .string "哦，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l我希望你一切都好。\l哦，那个，那个什么。\p我听说你在{STR_VAR_2}\n连续赢了{STR_VAR_3}场。\p我也要像你一样训练宝可梦。\n再见。$"
@@ -614,10 +614,10 @@ MatchCall_BattlePyramidText14::
     .string "喂，你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l我听说你了！\p你在{STR_VAR_2}里\n到达了第{STR_VAR_3}层？\p你真是我的偶像！\n再见了！$"
 
 MatchCall_Text_Mom1::
-    .string "妈妈：你们父子两个……\n统统都被宝可梦迷住了。\p宝可梦到底有啥能耐？\p我？\n我喜欢那些宝可梦\l它们每天都帮我干杂活。$"
+    .string "妈妈：你们父子两个……\n大家都被宝可梦迷住了。\p宝可梦到底有什么魅力？\p我？\n我喜欢那些能帮我\l做家务的宝可梦。$"
 
 MatchCall_Text_Mom2::
-    .string "妈妈：嗨，{PLAYER}！\n你老爸把自己\l关在橙华市道馆里。\p他偶尔也会回家。\n但是每次从道馆回来\l他都会拼命的吃东西。\p我想，败给你\n对他的自尊心是一个很大的打击！$"
+    .string "妈妈：嗨，{PLAYER}！\n你老爸把自己\l关在橙华市道馆里。\p他偶尔也会回家。\n但是每次他吃光东西之后，\l就立刻回道馆了。\p我想，败给你\n对他的自尊心是一个很大的打击！$"
 
 MatchCall_Text_Mom3::
     .string "妈妈：{PLAYER}……\n别为我和房子担心。\p穿上这些跑步鞋\n直到它们被穿烂为止！$"
@@ -665,7 +665,7 @@ MatchCall_Text_Flannery2::
     .string "亚莎：你好，{PLAYER}？\n祝贺你！\p有关你成功的消息\n就像火山喷发一样止不住！\p我们的修炼\n十分顺利。\p当我们的道馆就绪之后，\n看看你的对战寻呼，\l我的名字旁边会有标记。$"
 
 MatchCall_Text_Flannery3::
-    .string "亚莎：哦，{PLAYER}？\n我们的道馆已经准备好了！\p请来釜炎镇，你可以\n泡泡温泉，顺便还可以决斗！$"
+    .string "亚莎：哦，{PLAYER}？\n我们的道馆已经准备好了！\p请来釜炎镇，你可以\n泡泡温泉，顺便还可以对战！$"
 
 MatchCall_Text_Flannery4::
     .string "亚莎：{PLAYER}……\n当我看见你的训练成果\l越来越好，我很高兴。$"
@@ -752,10 +752,10 @@ MatchCall_Text_May8::
     .string "小遥：{PLAYER}{KUN}，嗨。\p送神山是被当作\n纪念死去的宝可梦而存在的。\p结果时，里面有\n很多幽灵属性宝可梦！$"
 
 MatchCall_Text_May9::
-    .string "小遥：嗨，{PLAYER}{KUN}！\p我想去釜炎镇\n泡温泉。\p但是，在崎岖山路上，\n我撞上了一群丑八怪。\l真扫兴！$"
+    .string "小遥：嗨，{PLAYER}{KUN}！\p我想去釜炎镇\n泡温泉。\p但是，在凹凸山道上，\n我撞上了一群丑八怪。\l真扫兴！$"
 
 MatchCall_Text_May10::
-    .string "小遥：嗨，{PLAYER}{KUN}！\n看到新闻了吗？\p他们说楠木馆长在\n潜水远征中\l发现了海底洞窟。$"
+    .string "小遥：嗨，{PLAYER}{KUN}！\n看到新闻了吗？\p他们说楠木馆长在\n水下勘探中\l发现了海底洞窟。$"
 
 MatchCall_Text_May11::
     .string "小遥：嗨，{PLAYER}{KUN}！\n你不觉得这很棒吗？\p即使没有船，\n你也能利用宝可梦的招式\l来越过大海。\p你知道这还不是全部吧？\p有种宝可梦招式能够\n让你潜入深海。$"
@@ -797,10 +797,10 @@ MatchCall_Text_Brendan8::
     .string "小悠：{PLAYER}！\p送神山是作为死去的宝可梦\n的纪念场而存在的。\p说不定\n你面有很多幽灵属性宝可梦！$"
 
 MatchCall_Text_Brendan9::
-    .string "小悠：你好，{PLAYER}。\p我本来想去釜炎镇\n泡温泉的。\p但是在崎岖山路，我撞上了\n一帮丑陋的家伙。\p真可怕……\n我想他们是熔岩队。$"
+    .string "小悠：你好，{PLAYER}。\p我本来想去釜炎镇\n泡温泉的。\p但是在凹凸山道，我撞上了\n一帮丑陋的家伙。\p真可怕……\n我想他们是熔岩队。$"
 
 MatchCall_Text_Brendan10::
-    .string "小悠：嗨，{PLAYER}！\n听到新闻了？\p楠木馆长在\n潜水探险中发现了\l海底洞窟。$"
+    .string "小悠：嗨，{PLAYER}！\n听到新闻了？\p楠木馆长在\n水下勘探中发现了\l海底洞窟。$"
 
 MatchCall_Text_Brendan11::
     .string "小悠：你好，{PLAYER}！\n你不觉得这很棒吗？\p即使没有船，\n你也能利用宝可梦招式\l来越过大海。\p你知道这还不是全部吧？\n有种宝可梦招式能够让你潜入深海呢。\p宝可梦无所不能啊！$"
@@ -809,10 +809,10 @@ MatchCall_Text_Brendan12::
     .string "小悠：嗨，{PLAYER}！\n希望一切都好！\p你出海之后有没有发现通向\n对岸的航路被封住了？\p试试看潜下深水\n沿着壕沟前进。\p当你到了对岸之后，\n再浮上水面。容易吧！$"
 
 MatchCall_Text_Brendan13::
-    .string "小悠：你好啊，{PLAYER}！\p怎么样了？还在在补完你的？\n宝可梦图鉴？\p我听说某些地方有\n上古宝可梦的存在。\l一共三只哦！\p我哪怕抓到一只才好……$"
+    .string "小悠：你好啊，{PLAYER}！\p怎么样了？还在在补完你的？\n宝可梦图鉴？\p我听说某些地方有\n上古宝可梦的存在。\l而且不止一只——是三只！\p我哪怕捕捉到一只也好……$"
 
 MatchCall_Text_Brendan14::
-    .string "小悠：{PLAYER}！\n我听说了！\p你打倒了琉璃市道馆的\n馆主？真厉害！\p你已经很接近那个了！$"
+    .string "小悠：{PLAYER}！\n我听说了！\p你打倒了琉璃市道馆的\n馆主？真厉害！\p你已经只差一步了！$"
 
 MatchCall_Text_Brendan15::
     .string "小悠：在离开丰缘的\n当中，没有一个不知道\l你的，{PLAYER}！\p我告诉他们你是我的朋友\n哈哈，{PLAYER}，他们都\l羡慕死了！$"
@@ -821,7 +821,7 @@ MatchCall_Text_Wally1::
     .string "满充：哦，{PLAYER}！\p我已经变得更健康\n更结实。\p我希望能变成你这样的\n训练家，{PLAYER}！$"
 
 MatchCall_Text_Wally2::
-    .string "满充：{PLAYER}，你好！\p当卡绿隧道打通\n之后，满盈非常高兴！$"
+    .string "满充：{PLAYER}，你好！\p当卡绿隧道打通\n之后，满盈姐非常高兴！$"
 
 MatchCall_Text_Wally3::
     .string "满充：哦，{PLAYER}！\p我离开了我叔叔家，\n离开了绿茵镇，没有告诉别人。\p他会不会为我担心呢……\p{PLAYER}，你知道我的感受，\n对不对？$"
@@ -830,7 +830,7 @@ MatchCall_Text_Wally4::
     .string "满充：{PLAYER}？\n是我呀，满充！\p训练家的世界多么美妙！\p当我带着我的宝可梦，\n所有人都向我问好！\p好像他们都是\n被宝可梦联结起来了一样！$"
 
 MatchCall_Text_Wally5::
-    .string "满充：{PLAYER}？太不可思议了！\n还记得我们抓的拉鲁拉丝吗？\l他进化了，{PLAYER}！\p我大概是个天才……\p哦，我觉得我的头还\n不够大！\p不过，值得表扬的应该是宝可梦\n才对！$"
+    .string "满充：{PLAYER}？太不可思议了！\n还记得我们捕捉的拉鲁拉丝吗？\l他进化了，{PLAYER}！\p我大概是个天才……\p哦，我觉得我的头还\n不够大！\p不过，值得表扬的应该是宝可梦\n才对！$"
 
 MatchCall_Text_Wally6::
     .string "…… …… ……\n…… …… ……\p满充好像\n不在宝可导航的服务区……$"

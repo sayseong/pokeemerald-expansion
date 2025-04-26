@@ -370,7 +370,7 @@ MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesStory::
 	.string "战斗的机会！$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtTitle::
-	.string "捕获专家$"
+	.string "捕捉专家$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtAction::
 	.string "捕捉宝可梦$"
@@ -378,10 +378,10 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtAction::
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "据不完全统计，共捕获了\n"
+	.string "据不完全统计，共捕捉了\n"
 	.string "{STR_VAR_1}只宝可梦！\p"
-	.string "{STR_VAR_3}— 传说中的\n"
-	.string "宝可梦捕获专家！$"
+	.string "{STR_VAR_3}——传说中的\n"
+	.string "宝可梦捕捉专家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtTitle::
 	.string "钓圣$"
@@ -394,7 +394,7 @@ MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtStory::
 	.string "的。\p"
 	.string "他在钓鱼时\n"
 	.string "钓到{STR_VAR_1}只宝可梦！\p"
-	.string "{STR_VAR_3}— 传说中的\n"
+	.string "{STR_VAR_3}——传说中的\n"
 	.string "钓圣！$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedTitle::

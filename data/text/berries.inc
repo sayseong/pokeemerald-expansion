@@ -56,7 +56,7 @@ Route123_BerryMastersHouse_Text_WhyBeStingyTakeAnother::
     .string "不用客气，\n这个也给你！$"
 
 Route123_BerryMastersHouse_Text_VisitPrettyPetalFlowerShop::
-    .string "记得一定要去卡那兹市附近的花店\n漂亮花瓣看看。\p愿鲜花开满世界！$"
+    .string "记得一定要去卡那兹市附近的花店\n圣橙华看看。\p愿鲜花开满世界！$"
 
 Route123_BerryMastersHouse_Text_DoneForToday::
     .string "今天就这些了，\n以后再来吧。\p愿鲜花开满世界！$"

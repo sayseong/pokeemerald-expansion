@@ -576,7 +576,7 @@ MtChimney_Text_Grunt2Defeat:
     .string "哎？\n我输了？$"
 
 MtChimney_Text_Grunt2PostBattle:
-    .string "我们的老大说过，“这会\n让所有人都幸福。”\p可是为什么每个人都在\n阻碍我们？$"
+    .string "我们的老大说过，\n“这会让所有人都幸福。”\p可是为什么每个人都在\n阻碍我们？$"
 
 MtChimney_Text_Grunt1Intro:
     .string "如果有更多的土地，我就能\n有一所自己的大房子了！\p我要把它建在凝固的岩浆上！$"
@@ -657,7 +657,7 @@ MtChimney_Text_MachineMakesNoResponse:
     .string "是一台奇异的机器……\n什么反应也没有。$"
 
 MtChimney_Text_RouteSign:
-    .string "{DOWN_ARROW}崎岖山路\n前方为釜炎镇$"
+    .string "{DOWN_ARROW}凹凸山道\n前方为釜炎镇$"
 
 MtChimney_Text_ShelbyIntro:
     .string "泡过温泉后，\n筋骨都舒展开了。\l现在我精神焕发！$"

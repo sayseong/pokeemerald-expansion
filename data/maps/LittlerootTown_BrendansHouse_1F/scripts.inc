@@ -369,7 +369,7 @@ PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
     .string "插播一条\n紧急新闻！\p在丰缘地区许多地方\n送来的目击报告称，有人\l看到天空中有彩色宝可梦飞过，\p现在这只宝可梦\n身份依然不明。\p下面继续播放\n正常节目。$"
 
 PlayersHouse_1F_Text_WhatColorDidTheySay:
-    .string "妈妈：{PLAYER}，你抓到那个了吗？\p播音员刚才说的\n宝可梦是什么颜色的？$"
+    .string "妈妈：{PLAYER}，你听到那个了吗？\p播音员刚才说的\n宝可梦是什么颜色的？$"
 
 PlayersHouse_1F_Text_StillUnknownPokemon:
     .string "妈妈：呵呵，真有趣！\n竟然还有未知的宝可梦。$"

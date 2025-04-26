@@ -365,7 +365,7 @@ BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
     .string "那边的是对战工厂，\n在那儿你能借到强大的宝可梦，\p不过我一直在奇怪，\n那些宝可梦是谁培育出来的？$"
 
 BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
-    .string "我不敢进对战管道，\n我怕饭匙蛇……\p但—但我既然已经到这儿来了\n我要努力战胜一切！\l……咕咕……$"
+    .string "我不敢进对战管道，\n我怕饭匙蛇……\p但——但我既然已经到这儿来了\n我要努力战胜一切！\l……咕咕……$"
 
 BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
     .string "来，石头剪子布！\n一～二～三！\p…… …… ……$"
@@ -377,7 +377,7 @@ BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge:
     .string "啊，不要啊……\n我输了。\p好像我今天的运气不是很好，\n明天再去挑战\l对战管道吧。$"
 
 BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling:
-    .string "我想这儿除了我，再没有别人\n会因为某些原因不对战\l反而去钓鱼。\p嗯？这儿什么都抓不到？\n好失望……$"
+    .string "我想这儿除了我，再没有别人\n会因为某些原因不对战\l反而去钓鱼。\p嗯？这儿什么都钓不到？\n好失望……$"
 
 BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol:
     .string "今天，不论发生什么，我都要\n坚持战斗下去，直到获得奖章为止。$"
@@ -407,7 +407,7 @@ BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet:
     .string "哈，你在叫给自己听吗？\n那种东西什么都不是！\p看看，我为他加油的时候，\n我们交汇的眼神里都射出了火花！$"
 
 BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering:
-    .string "什—么？！\n哼！\p这是因为我恰好\n坐在你旁边而已！\p是因为我的加油声很大，\n巨蛋超级巨星才会注意到这边的！$"
+    .string "什——么？！\n哼！\p这是因为我恰好\n坐在你旁边而已！\p是因为我的加油声很大，\n巨蛋超级巨星才会注意到这边的！$"
 
 BattleFrontier_OutsideWest_Text_DomeAceIsMine:
     .string "啊，嘘～嘘～\n吵死了，安静一下啦！\p你该让你那些不坚定的追星族们\n给别的道馆馆主加油！\p巨蛋超级巨星是我的！\n是只属于我的偶像！$"

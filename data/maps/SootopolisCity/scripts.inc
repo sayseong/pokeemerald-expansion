@@ -1538,7 +1538,7 @@ SootopolisCity_Text_MaxieArchieLeft:
     .string "大吾：看来赤焰松和\n水梧桐都离开了。\p也许他们是去送神山\n归还那些宝珠了……$"
 
 SootopolisCity_Text_HaventYouScaledSkyPillar:
-    .string "米可利：哦？\n{PLAYER}{KUN}？\p你还没\n登上过天空之柱吗？\p我相信以你的能力\n一定能够登上天空之柱塔顶的……$"
+    .string "米可利：哦？\n{PLAYER}{KUN}？\p你还没登上过\n天空之柱吗？\p我相信以你的能力\n一定能够登上天空之柱塔顶的……$"
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
     .string "米可利：{PLAYER}{KUN}……\p我想熔岩队和海洋队的首领\n并不想造成什么灾害，\p听听他们为自己的辩护\n也并没什么。$"

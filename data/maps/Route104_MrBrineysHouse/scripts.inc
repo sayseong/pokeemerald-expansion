@@ -98,28 +98,28 @@ Route104_MrBrineysHouse_EventScript_Peeko::
 	end
 
 Route104_MrBrineysHouse_Text_WaitUpPeeko:
-    .string "哈奇：停一下，孩子！\n稍等，小皮！$"
+    .string "哈奇：稍等，孩子！\n等等我，小皮！$"
 
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
-    .string "嗯？你是{PLAYER}{KUN}！\n你救了我心爱的小皮！\l我们欠你的人情！\p什么？\n你想要和我一起出航？\p嗯……\p你要去武斗镇送信\n还要去凯那市送包裹，那么？\p你一定经历了非常忙碌的生活！\p当然，你的请求\n我答应了。\p你找对人了！\n我们就是要去武斗镇。$"
+    .string "嗯？你是{PLAYER}{KUN}！\n你救了我心爱的小皮！\l我们欠你的人情！\p什么？\n你想要和我一起启航？\p嗯……\p你要去武斗镇送信\n还要去凯那市送包裹，那么？\p你的生活真忙碌啊！\p当然，你的请求我答应了。\p你找对人了！\n我们启航去武斗镇。$"
 
 Route104_MrBrineysHouse_Text_SetSailForDewford:
     .string "哈奇：目标武斗镇！\p起锚！\n小皮，亲爱的，我们出发了！$"
 
 Route104_MrBrineysHouse_Text_DeclineDeliverySail:
-    .string "哈奇：这样啊？\n你的货物可以等待吗？\p你继续你的工作吧\n什么时候出航可以随时跟我说！$"
+    .string "哈奇：这样啊？\n你的货物可以等待吗？\p你继续你的工作吧，\n什么时候启航可以随时跟我说！$"
 
 Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
-    .string "哈奇：喂！\n我知道你想说什么！\p你想要去武斗镇送信\n还要去凯那市送包裹。\p你需要我做的\n丝毫没有问题——我就是适合这个工作的人！\p首先我们出航去武斗镇。$"
+    .string "哈奇：喂！\n我知道你想说什么！\p你想要去武斗镇送信，\n还要去凯那市送包裹。\p你需要我做的事完全没问题——\n我就是最适合的人选！\p首先我们启航去武斗镇。$"
 
 Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
-    .string "哈奇：喂！\n我知道你想说什么！\p你想要送包裹给\n凯那市的楠木。\p你需要我做的\n丝毫没有问题——我就是适合这个工作的人！\p首先我们出航去武斗镇。$"
+    .string "哈奇：喂！\n我知道你想说什么！\p你想要送包裹给\n凯那市的楠木。\p你需要我做的事完全没问题——\n我就是最适合的人选！\p首先我们启航去武斗镇。$"
 
 Route104_MrBrineysHouse_Text_WhereAreWeBound:
-    .string "哈奇：喂！\n为了你，我们可以随时出航！\p现在，朋友，我们去哪？$"
+    .string "哈奇：喂！\n为了你，我们可以随时启航！\p现在，朋友，我们去哪？$"
 
 Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail:
-    .string "哈奇：这样就行了？\n那个，小皮的命是你救的。\p你继续忙你的吧\n什么时候想出航去哪随时跟我说！$"
+    .string "哈奇：这样就行了？\n那个，小皮的命是你救的。\p你继续忙你的吧，\n什么时候想启航去哪里随时跟我说！$"
 
 Route104_MrBrineysHouse_Text_Peeko:
     .string "小皮：皮皮呦咯！$"

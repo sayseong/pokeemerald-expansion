@@ -29,7 +29,7 @@ MoveTutor_Text_FuryCutterTeach::
     .string "这是一个你连续使用\n就会变得更强壮的招式。\p这是一个虫属性的招式，并且\n是很酷的招式。\p这个招式叫做连续切。\n想让我教你的宝可梦吗？$"
 
 MoveTutor_Text_FuryCutterDeclined::
-    .string "我们是不可能融洽相处的。$"
+    .string "我们合不来。$"
 
 MoveTutor_Text_FuryCutterWhichMon::
     .string "耶！\n把要学习的宝可梦交给我。$"
@@ -38,7 +38,7 @@ MoveTutor_Text_FuryCutterTaught::
     .string "当我连续击中对手时\n我会觉得很兴奋！$"
 
 MoveTutor_MimicTeach::
-    .string "啊，孩子！\p我也是个小孩子，但我在这个镇\n模仿大人们的\l言谈举止。\p你说什么，小朋友？\n如果我能教你模仿\l你就能承认我？$"
+    .string "啊，孩子！\p我也是个小孩子，\n但我在这个模仿这个镇子里的\l大人们的言谈举止。\p你说什么，小朋友？\n如果我能教你模仿\l你就能承认我？$"
 
 MoveTutor_MimicDeclined::
     .string "嘘！我要让你的宝可梦\n学会模仿！$"

@@ -5,7 +5,7 @@ gBirchDexRatingText_Cancel::
     .string "嗯，你收集的宝可梦还不够多，\n没什么太大的价值啊。$"
 
 gBirchDexRatingText_SoYouveSeenAndCaught::
-    .string "唔唔……\p见过了{STR_VAR_1}只宝可梦，\n抓到了{STR_VAR_2}只宝可梦……$"
+    .string "唔唔……\p见过了{STR_VAR_1}只宝可梦，\n捕捉了{STR_VAR_2}只宝可梦……$"
 
 gBirchDexRatingText_LessThan10::
     .string "多去草丛里转转，\n仔细寻找宝可梦吧。$"
@@ -35,10 +35,10 @@ gBirchDexRatingText_LessThan90::
     .string "已经收集这么多了……\n你一定有这方面的天赋！$"
 
 gBirchDexRatingText_LessThan100::
-    .string "你去过狩猎地带了吗？\p听说有些宝可梦\n只有在那里才能抓到。$"
+    .string "你去过狩猎地带了吗？\p听说有些宝可梦\n只有在那里才能捕捉到。$"
 
 gBirchDexRatingText_LessThan110::
-    .string "已经超过100种了，\n真棒的宝可梦图鉴！$"
+    .string "已经超过100种了，\n很棒的宝可梦图鉴！$"
 
 gBirchDexRatingText_LessThan120::
     .string "使用碎岩也有可能\n找到宝可梦哦。$"
@@ -71,4 +71,4 @@ gBirchDexRatingText_DexCompleted::
     .string "恭喜你！\n你做成了完美的宝可梦图鉴！$"
 
 gBirchDexRatingText_OnANationwideBasis::
-    .string "唔唔……\n从全国来看……\p见过了{STR_VAR_1}只宝可梦，\n抓到了{STR_VAR_2}只宝可梦……$"
+    .string "唔唔……\n从全国来看……\p见过了{STR_VAR_1}只宝可梦，\n捕捉了{STR_VAR_2}只宝可梦……$"

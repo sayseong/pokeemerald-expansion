@@ -413,7 +413,7 @@ LilycoveCity_EventScript_DontKnowAboutBerryBlender::
 	return
 
 LilycoveCity_Text_MayShoppingLetsBattle:
-    .string "小遥：嗨，你好啊？\n{PLAYER}{KUN}，你也来买东西吗？\p我买了一大堆\n玩偶和海报。\p当然，我抓了不少\n宝可梦，也训练得\l不错。\p不过，我更在意的是\n你的宝可梦训练得如何了，{PLAYER}{KUN}。\p我要和你战斗，\n看看你的宝可梦，{PLAYER}{KUN}。$"
+    .string "小遥：嗨，你好啊？\n{PLAYER}{KUN}，你也来买东西吗？\p我买了一大堆\n玩偶和海报。\p当然，我捕捉了不少\n宝可梦，也训练得\l不错。\p不过，我更在意的是\n你的宝可梦训练得如何了，{PLAYER}{KUN}。\p我要和你战斗，\n看看你的宝可梦，{PLAYER}{KUN}。$"
 
 LilycoveCity_Text_MayNotRaisingPokemon:
     .string "小遥：啊，怎么了？{PLAYER}{KUN}，\n你没好好训练你的宝可梦吗？\p作为一个训练家\n可不该这样呢……$"
@@ -428,13 +428,13 @@ LilycoveCity_Text_MayDefeat:
     .string "…… …… …… ……\p我还记得我们上次\n在103号道路的战斗，{PLAYER}{KUN}。\p是那场战斗让你变得这么强的，是吗，\n{PLAYER}{KUN}？$"
 
 LilycoveCity_Text_MayGoingBackToLittleroot:
-    .string "小遥：我打算\n回未白镇去。\p我已经抓到了很多不错的宝可梦，\n宝可梦图鉴也快完成了，\l我要回家给爸爸看。$"
+    .string "小遥：我打算\n回未白镇去。\p我已经捕捉了很多不错的宝可梦，\n宝可梦图鉴也快完成了，\l我要回家给爸爸看。$"
 
 LilycoveCity_Text_MayYouGoingToCollectBadges:
     .string "{PLAYER}{KUN}，你打算做什么？\p收集所有的道馆徽章，\n然后去挑战宝可梦联盟吗？\p好吧，{PLAYER}{KUN}，那你收集徽章的时候，\n我就致力于我的宝可梦图鉴吧。\l我会比你更早完成的！\p再见了！$"
 
 LilycoveCity_Text_MayYouGoingToPokemonLeague:
-    .string "{PLAYER}{KUN}，你打算做什么？\p想挑战\n宝可梦联盟吗？\p或者你想完成\n宝可梦图鉴？\p也许战斗我会输给你，\n但我会比你更快完成宝可梦图鉴！\p再见了！$"
+    .string "{PLAYER}{KUN}，你打算做什么？\p想挑战宝可梦联盟吗？\p或者你想完成\n宝可梦图鉴？\p也许战斗我会输给你，\n但我会比你更快完成宝可梦图鉴！\p再见了！$"
 
 LilycoveCity_Text_MayYouGoingToBattleFrontier:
     .string "{PLAYER}{KUN}，你打算做什么？\p你要挑战\n对战开拓区吗？\p或者你想完成\n宝可梦图鉴？\p也许战斗我会输给你，\n但我会比你更快完成宝可梦图鉴的！\p再见了！$"

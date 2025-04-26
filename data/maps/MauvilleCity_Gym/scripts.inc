@@ -257,19 +257,19 @@ MauvilleCity_Gym_EventScript_GymStatue::
 	end
 
 MauvilleCity_Gym_Text_GymGuideAdvice:
-    .string "嗨，怎么样，向冠军的目标\n冲刺的{PLAYER}？\p紫堇市道馆的馆主铁旋\n使用电属性宝可梦。\p如果用水属性宝可梦\n挑战他，会被他电麻的！吱—\p还有，他在自己的道馆里设置了一大堆\n由开关控制的电子屏障！怪人！\p好了，加油吧！$"
+    .string "嗨，怎么样，向冠军的目标\n冲刺的{PLAYER}？\p紫堇市道馆的馆主铁旋\n使用电属性宝可梦。\p如果用水属性宝可梦\n挑战他，会被他电麻的！吱——\p还有，他在自己的道馆里设置了一大堆\n由开关控制的电子屏障！怪人！\p好了，加油吧！$"
 
 MauvilleCity_Gym_Text_GymGuidePostVictory:
     .string "哇，真让人吃惊！\n你打开了屏障！$"
 
 MauvilleCity_Gym_Text_KirkIntro:
-    .string "让我的电之魂\n粉碎你的梦想吧，哦—耶！$"
+    .string "让我的电之魂\n粉碎你的梦想吧，哦——耶！$"
 
 MauvilleCity_Gym_Text_KirkDefeat:
     .string "插上了电源，\n但电流过载了！$"
 
 MauvilleCity_Gym_Text_KirkPostBattle:
-    .string "宝可梦和摇滚，都要\n用心来表现，哦—耶！$"
+    .string "宝可梦和摇滚，都要\n用心来表现，哦——耶！$"
 
 MauvilleCity_Gym_Text_ShawnIntro:
     .string "我跟着铁旋训练，\n不会轻易输给你的！$"

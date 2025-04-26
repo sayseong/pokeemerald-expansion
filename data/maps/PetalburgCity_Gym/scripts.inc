@@ -1151,13 +1151,13 @@ PetalburgCity_Gym_Text_DadOhYoureWallyRight:
     .string "爸爸：嗯？你是……呃……啊，对了，\n你是满充吧？$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
-    .string "满充：我很快就要搬到\n绿茵镇去跟亲戚一起住了，\p我觉得一个人会很孤单，\n所以我想带只宝可梦一起去，\p但我以前从未抓过宝可梦，\n我不知道该怎么……$"
+    .string "满充：我很快就要搬到\n绿茵镇去跟亲戚一起住了，\p我觉得一个人会很孤单，\n所以我想带只宝可梦一起去，\p但我以前从未捕捉过宝可梦，\n我不知道该怎么……$"
 
 PetalburgCity_Gym_Text_DadHmISee:
     .string "爸爸：嗯，明白了。$"
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
-    .string "爸爸：{PLAYER}，\n你听到了吧？\p和满充一起去\n教教他怎么抓宝可梦吧。$"
+    .string "爸爸：{PLAYER}，\n你听到了吧？\p和满充一起去\n教教他怎么捕捉宝可梦吧。$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
     .string "满充，过来，我先把我自己的\n宝可梦借给你。\p满充得到蛇纹熊！$"
@@ -1175,7 +1175,7 @@ PetalburgCity_Gym_Text_DadSoDidItWorkOut:
     .string "爸爸：那么，成功了吗？$"
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
-    .string "满充：谢谢，我抓到了\n这只宝可梦还给您。\p{PLAYER}，谢谢你\n和我一起去。\p多亏了你们，我才\n抓了到我的宝可梦。\p我保证我会\n好好照顾它的。\p啊！妈妈该等急了，\n我走了！\p再见，{PLAYER}！$"
+    .string "满充：谢谢您，我做到了。\n这只宝可梦还给您。\p{PLAYER}，谢谢你\n和我一起去。\p多亏了你们，我才\n捕捉了到我的宝可梦。\p我保证我会\n好好照顾它的。\p啊！妈妈该等急了，\n我走了！\p再见，{PLAYER}！$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
     .string "爸爸：好了……\p{PLAYER}，如果你想成为一个\n强大的训练家，我有几条建议。\p首先去距此不远的\n卡那兹市，\p挑战那儿的\n道馆馆主，杜娟，\p然后再去其他宝可梦道馆，\n打败那里的馆主，\p收集他们的徽章，\n明白了吗？\p当然，我也是道馆馆主，\n所以我们总有一天会战斗的，{PLAYER}，\p但那之前，你得先\n变得更强些才行。$"
@@ -1199,7 +1199,7 @@ PetalburgCity_Gym_Text_ReceivedBalanceBadge:
     .string "{PLAYER}从爸爸那儿\n得到了天秤徽章！$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
-    .string "爸爸：有了这个徽章，你所有\n宝可梦的防御都会提升，\p学会秘传学习器技冲浪\n的宝可梦也可以渡水。\p这是我的礼物，{PLAYER}，\n我想你知道该怎么使用它。$"
+    .string "爸爸：有了这个徽章，你所有\n宝可梦的防御都会提升，\p学会秘传招式冲浪\n的宝可梦也可以渡水。\p这是我的礼物，{PLAYER}，\n我想你知道该怎么使用它。$"
 
 PetalburgCity_Gym_Text_ExplainFacade:
     .string "爸爸：招式学习器42里面是硬撑，\p如果宝可梦中毒，\n麻痹，或者灼伤，\l招式的威力会提升。\p用这可以在处于不利时\n逆转形势。$"

@@ -326,7 +326,7 @@ RivalsHouse_2F_Text_ItsRivalsPokeBall:
     .string "是{RIVAL}的精灵球！\p最好不要乱动。$"
 
 RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
-    .string "小遥：{PLAYER}{KUN}！\p我在看我的宝可梦图鉴呢。\p有很多我看见却\n没抓到的宝可梦，\p还有些我想\n可能会进化。\p不知道下面该\n去哪儿抓宝可梦呢？$"
+    .string "小遥：{PLAYER}{KUN}！\p我在看我的宝可梦图鉴呢。\p有很多我看见却\n没捕捉的宝可梦，\p还有些我想\n可能会进化。\p不知道下面该\n去哪儿抓宝可梦呢？$"
 
 RivalsHouse_2F_Text_MayWhereShouldIGoNext:
     .string "小遥：不知道下面该\n去哪儿抓宝可梦呢？\p如果我们能偶然遇上，那会\n很有趣吧，{PLAYER}{KUN}？$"

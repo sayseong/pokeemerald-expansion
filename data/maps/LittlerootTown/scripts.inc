@@ -946,7 +946,7 @@ LittlerootTown_Text_YouSavedBirch:
     .string "你救了小田卷博士！\n太好了！$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
-    .string "你要去抓宝可梦？\n祝你好运！$"
+    .string "你要去捕捉宝可梦？\n祝你好运！$"
 
 LittlerootTown_Text_TownSign:
     .string "未白镇\n“充满缤纷色彩的小镇。”$"

@@ -54,7 +54,7 @@ AbandonedShip_Corridors_B1F_EventScript_Duncan::
 	end
 
 AbandonedShip_Corridors_B1F_Text_DuncanIntro:
-    .string "出航的时候，我们水手\n都带着自己的宝可梦。\l对战一场怎么样？$"
+    .string "启航的时候，我们水手\n都带着自己的宝可梦。\l对战一场怎么样？$"
 
 AbandonedShip_Corridors_B1F_Text_DuncanDefeat:
     .string "哎呀，我被击沉了！$"

@@ -29,7 +29,7 @@ const u8 gText_MatchCallSisAndBro_LilaAndRoy_Intro1[] = _("我们和宝可梦的
 const u8 gText_MatchCallSisAndBro_LilaAndRoy_Intro2[] = _("我们姐弟间感情一样。");
 
 const u8 gText_MatchCallCooltrainer_Cristin_Strategy[] = _("用强力的招式来终结。");
-const u8 gText_MatchCallCooltrainer_Cristin_Pokemon[] = _("各种不同类型的组合。");
+const u8 gText_MatchCallCooltrainer_Cristin_Pokemon[] = _("各种不同属性的组合。");
 const u8 gText_MatchCallCooltrainer_Cristin_Intro1[] = _("我渴望成为");
 const u8 gText_MatchCallCooltrainer_Cristin_Intro2[] = _("最强的训练家。");
 
@@ -175,7 +175,7 @@ const u8 gText_MatchCallYoungster_Calvin_Intro2[] = _("直到打败道馆馆主�
 
 const u8 gText_MatchCallFisherman_Elliot_Strategy[] = _("耐心对战。");
 const u8 gText_MatchCallFisherman_Elliot_Pokemon[] = _("用水属性宝可梦对战！");
-const u8 gText_MatchCallFisherman_Elliot_Intro1[] = _("我是世界上唯一抓到");
+const u8 gText_MatchCallFisherman_Elliot_Intro1[] = _("我是世界上唯一捕获");
 const u8 gText_MatchCallFisherman_Elliot_Intro2[] = _("过巨大宝可梦的人！");
 
 const u8 gText_MatchCallTriathlete_Isaiah_Strategy[] = _("利用环境！");

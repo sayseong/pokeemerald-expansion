@@ -44,7 +44,7 @@ Roulette_Text_Jackpot::
 	.string "中大奖了！$"
 
 Roulette_Text_NothingDoing::
-	.string "没中—$"
+	.string "没中——$"
 
 Roulette_Text_YouveWonXCoins::
 	.string "恭喜中奖！\n"

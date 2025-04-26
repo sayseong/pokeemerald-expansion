@@ -83,7 +83,7 @@ Route102_Text_LetsGoBack:
     .string "{PLAYER}，谢谢！\n我们回道馆去吧！$"
 
 Route102_Text_ImNotVeryTall:
-    .string "我……不是很高，所以在草丛里\n走的时候我就被草遮起来了。\p草总是戳到我的鼻子里，然后就……\n阿—阿—阿—阿……\p阿嚏！$"
+    .string "我……不是很高，所以在草丛里\n走的时候我就被草遮起来了。\p草总是戳到我的鼻子里，然后就……\n阿——阿—阿——阿……\p阿嚏！$"
 
 Route102_Text_CatchWholeBunchOfPokemon:
     .string "我要捉一大堆\n宝可梦！$"

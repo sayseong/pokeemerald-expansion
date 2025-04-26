@@ -27,7 +27,7 @@ SlateportCity_PokemonCenter_1F_EventScript_Woman::
 	end
 
 SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon:
-    .string "想要我指点一下怎么战斗吗？\p你应该用较平衡的方式\n培育多种宝可梦。\p仅仅培育一只强大的\n宝可梦并不够，\p如果它的类型被克制，\n战斗会处于相当被动的局面。$"
+    .string "想要我指点一下怎么战斗吗？\p你应该用较平衡的方式\n培育多种宝可梦。\p仅仅培育一只强大的\n宝可梦并不够，\p如果它的属性被克制，\n战斗会处于相当被动的局面。$"
 
 SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend:
     .string "我和朋友交换宝可梦。\p如果交换来的宝可梦带有物品，\n我会更加兴奋的！$"

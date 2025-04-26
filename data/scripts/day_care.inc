@@ -414,4 +414,4 @@ Route117_PokemonDayCare_Text_YoullBeLeftWithJustOne:
 	.string "如果你留下那只宝可梦给\n"
 	.string "我，你就只剩下一只了。\p"
 	.string "你最好离开的时候再\n"
-	.string "多抓点，我想说。$"
+	.string "多捕捉些，我想说。$"

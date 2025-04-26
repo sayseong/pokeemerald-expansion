@@ -503,7 +503,7 @@ MauvilleCity_Text_UncleNoNeedToBeDown:
     .string "叔叔：满充，\n不要这么沮丧。\p想想是什么激励着你\n要变得越来越强的？\p好了，我们回家吧，\n大家都在等你呢。$"
 
 MauvilleCity_Text_UncleVisitUsSometime:
-    .string "叔叔：{PLAYER}{KUN}，我刚刚才想起来，\n你就是那位看着满充\l抓到他的第一只宝可梦的\l训练家吧？\p有空的话，\n可以来绿茵镇转转吗？\l我想满充也会很高兴的。$"
+    .string "叔叔：{PLAYER}{KUN}，我刚刚才想起来，\n你就是那位看着满充\l捕捉他的第一只宝可梦的\l训练家吧？\p有空的话，\n可以来绿茵镇转转吗？\l我想满充也会很高兴的。$"
 
 
 MauvilleCity_Text_WallyPokenavCall:

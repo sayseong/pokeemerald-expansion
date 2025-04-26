@@ -99,7 +99,7 @@ AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
     .string "嘿嘿嘿！\p我陪你玩的时候，我们的老大\n就可以做好准备了！$"
 
 AquaHideout_B2F_Text_MattPostBattle:
-    .string "嘿嘿嘿！\p我们的老大已经在去\n海底洞窟的路上了！\p想追的话，就去\n水静市那边\l宽广的海域慢慢找吧。\p但是你能找到吗？\n嘿嘿嘿！$"
+    .string "嘿嘿嘿！\p我们的老大已经在去\n海底洞窟的路上了！\p要是你想追的话，\n就去水静市那边宽广的海域\l慢慢找吧。\p但是你能找到吗？\n嘿嘿嘿！$"
 
 AquaHideout_B2F_Text_Grunt4Intro:
     .string "哇哈哈，我已经等烦了！\n你也欠我一场战斗！$"

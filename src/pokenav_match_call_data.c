@@ -214,7 +214,7 @@ static const struct MatchCallBirch sProfBirchMatchCallHeader =
     .mapSec = 0,
     .flag = FLAG_ENABLE_PROF_BIRCH_MATCH_CALL,
     .desc = COMPOUND_STRING("宝可梦博士"),
-    .name = COMPOUND_STRING("小田卷博士")
+    .name = COMPOUND_STRING("小田卷")
 };
 
 static const match_call_text_data_t sMomTextScripts[] = {
@@ -339,7 +339,7 @@ static const struct MatchCallWally sWallyMatchCallHeader =
     .mapSec = 0,
     .flag = FLAG_ENABLE_WALLY_MATCH_CALL,
     .rematchTableIdx = REMATCH_WALLY_VR,
-    .desc = COMPOUND_STRING("宝可梦发烧友"),
+    .desc = COMPOUND_STRING("宝可梦迷"),
     .textData = sWallyTextScripts,
     .locationData = sWallyLocationData
 };
@@ -380,7 +380,7 @@ static const struct MatchCallStructTrainer sRoxanneMatchCallHeader =
     .mapSec = MAPSEC_RUSTBORO_CITY,
     .flag = FLAG_ENABLE_ROXANNE_MATCH_CALL,
     .rematchTableIdx = REMATCH_ROXANNE,
-    .desc = COMPOUND_STRING("岩石的优等生"),
+    .desc = COMPOUND_STRING("岩石优等生"),
     .name = NULL,
     .textData = sRoxanneTextScripts
 };
@@ -456,7 +456,7 @@ static const struct MatchCallStructTrainer sWinonaMatchCallHeader =
     .mapSec = MAPSEC_FORTREE_CITY,
     .flag = FLAG_ENABLE_WINONA_MATCH_CALL,
     .rematchTableIdx = REMATCH_WINONA,
-    .desc = COMPOUND_STRING("世界的鸟使者"),
+    .desc = COMPOUND_STRING("世界鸟使者"),
     .name = NULL,
     .textData = sWinonaTextScripts
 };
@@ -494,7 +494,7 @@ static const struct MatchCallStructTrainer sJuanMatchCallHeader =
     .mapSec = MAPSEC_SOOTOPOLIS_CITY,
     .flag = FLAG_ENABLE_JUAN_MATCH_CALL,
     .rematchTableIdx = REMATCH_JUAN,
-    .desc = COMPOUND_STRING("迷人的花花公子"),
+    .desc = COMPOUND_STRING("迷人花公子"),
     .name = NULL,
     .textData = sJuanTextScripts
 };

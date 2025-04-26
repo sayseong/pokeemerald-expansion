@@ -590,13 +590,13 @@ gText_ApprenticeWhichMon2::
     .string "{PLAYER}，你好！\n我想问你个问题。\p我在犹豫该用\n{STR_VAR_1}还是{STR_VAR_2}，\p你说哪只宝可梦\n更强一点？$"
 
 gText_ApprenticeMonThanks2::
-    .string "你说是{STR_VAR_1}吗？\n嗯，我明白了！\p我这就去抓一只\n很强的{STR_VAR_1}来！\p回头见！$"
+    .string "你说是{STR_VAR_1}吗？\n嗯，我明白了！\p我这就去捕捉一只\n很强的{STR_VAR_1}来！\p回头见！$"
 
 gText_ApprenticeWhichMon3::
     .string "你好，{PLAYER}……\p呃，你好像已经忘了\n我这个人了……\p……但没关系，我还是希望\n你能给我点建议……\p我不知道我该培育\n哪只宝可梦……\p我看中了两只宝可梦\n{STR_VAR_1}和{STR_VAR_2}，但\l下面我就不知道该怎么办了……\p{PLAYER}，很抱歉打扰你，\n但希望你能给我点建议。$"
 
 gText_ApprenticeMonThanks3::
-    .string "但野生{STR_VAR_1}会\n注意到我吗？\p我会努力的！\p但我能不能抓到……\n不对，我要尽全力做到！\p谢谢！$"
+    .string "但野生{STR_VAR_1}会\n注意到我吗？\p我会努力的！\p但我能不能捕捉到……\n不对，我要尽全力做到！\p谢谢！$"
 
 gText_ApprenticeWhichMon4::
     .string "噢，{PLAYER}{KUN}！很高兴见到你！\n我还打算去找你呢！\p你能帮我选一下我该\n用哪只宝可梦吗？\p比如……\n{STR_VAR_1}和\l{STR_VAR_2}怎么样？\p你说哪一个\n更好一点？$"

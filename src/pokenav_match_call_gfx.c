@@ -886,7 +886,7 @@ static void CreateMatchCallList(void)
     template.listTop = 1;
     template.maxShowed = 8;
     template.fillValue = 3;
-    template.fontId = FONT_NARROW;
+    template.fontId = FONT_NORMAL;
     template.bufferItemFunc = (PokenavListBufferItemFunc)BufferMatchCallNameAndDesc;
     template.iconDrawFunc = TryDrawRematchPokeballIcon;
     CreatePokenavList(&sMatchCallBgTemplates[2], &template, 2);
