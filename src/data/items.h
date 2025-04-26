@@ -788,7 +788,6 @@ const struct Item gItemsInfo[] =
     [ITEM_MOOMOO_MILK] =
     {
         .name = _("哞哞鲜奶"),
-        .pluralName = _("Moomoo Milk"),
         .price = (I_PRICE >= GEN_7) ? 600 : 500,
         .holdEffectParam = 100,
         .description = COMPOUND_STRING(
@@ -808,7 +807,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ENERGY_POWDER] =
     {
         .name = _("元气粉"),
-        .pluralName = _("Energy Powder"),
         .price = 500,
         .description = COMPOUND_STRING(
 			"非常苦的药粉。能\n"
@@ -845,7 +843,6 @@ const struct Item gItemsInfo[] =
     [ITEM_HEAL_POWDER] =
     {
         .name = _("万能粉"),
-        .pluralName = _("Heal Powder"),
         .price = (I_PRICE >= GEN_7) ? 300 : 450,
         .description = COMPOUND_STRING(
 			"非常苦的药粉。能\n"
@@ -1063,7 +1060,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BERRY_JUICE] =
     {
         .name = _("树果汁"),
-        .pluralName = _("Berry Juice"),
         .price = 100,
         .holdEffect = HOLD_EFFECT_RESTORE_HP,
         .holdEffectParam = 20,
@@ -1084,7 +1080,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SACRED_ASH] =
     {
         .name = _("圣灰"),
-        .pluralName = _("Sacred Ashes"),
         .price = (I_PRICE >= GEN_7) ? 50000 : 200,
         .description = COMPOUND_STRING(
 			"能让陷入昏厥的全\n"
@@ -1121,7 +1116,6 @@ const struct Item gItemsInfo[] =
     [ITEM_MAX_HONEY] =
     {
         .name = _("极巨甜蜜"),
-        .pluralName = _("Max Honey"),
         .price = 8000,
         .description = sMaxReviveDesc,
         .pocket = POCKET_ITEMS,
@@ -1139,7 +1133,6 @@ const struct Item gItemsInfo[] =
     [ITEM_PEWTER_CRUNCHIES] =
     {
         .name = _("深灰米果"),
-        .pluralName = _("Pewter Crunchies"),
         .price = 250,
         .description = sFullHealDesc,
         .pocket = POCKET_ITEMS,
@@ -1188,7 +1181,6 @@ const struct Item gItemsInfo[] =
     [ITEM_OLD_GATEAU] =
     {
         .name = _("森之羊羹"),
-        .pluralName = _("Old Gateaux"),
         .price = (I_PRICE >= GEN_7) ? 350 : 200,
         .description = sFullHealDesc,
         .pocket = POCKET_ITEMS,
@@ -1351,7 +1343,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CARBOS] =
     {
         .name = _("速度增强剂"),
-        .pluralName = _("Carbos"),
         .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
 			"宝可梦的营养饮料\n"
@@ -1386,7 +1377,6 @@ const struct Item gItemsInfo[] =
     [ITEM_PP_MAX] =
     {
         .name = _("PP极限提升剂"),
-        .pluralName = _("PP Maxes"),
         .price = (I_PRICE >= GEN_7) ? 10000 : 9800,
         .description = COMPOUND_STRING(
 			"能将宝可梦学会的\n"
@@ -1508,7 +1498,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ABILITY_PATCH] =
     {
         .name = _("特性膏药"),
-        .pluralName = _("Ability Patches"),
         .price = (I_PRICE >= GEN_9) ? 250000 : 20,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
@@ -1885,7 +1874,6 @@ const struct Item gItemsInfo[] =
     [ITEM_RARE_CANDY] =
     {
         .name = _("神奇糖果"),
-        .pluralName = _("Rare Candies"),
         .price = (I_PRICE >= GEN_7) ? 10000 : 4800,
         .description = COMPOUND_STRING(
 			"充满能量的糖果。\n"
@@ -1903,7 +1891,6 @@ const struct Item gItemsInfo[] =
     [ITEM_EXP_CANDY_XS] =
     {
         .name = _("经验糖果XS"),
-        .pluralName = _("Exp. Candies XS"),
         .price = 20,
         .holdEffectParam = EXP_100,
         .description = COMPOUND_STRING(
@@ -1922,7 +1909,6 @@ const struct Item gItemsInfo[] =
     [ITEM_EXP_CANDY_S] =
     {
         .name = _("经验糖果S"),
-        .pluralName = _("Exp. Candies S"),
         .price = 240,
         .holdEffectParam = EXP_800,
         .description = COMPOUND_STRING(
@@ -1941,7 +1927,6 @@ const struct Item gItemsInfo[] =
     [ITEM_EXP_CANDY_M] =
     {
         .name = _("经验糖果M"),
-        .pluralName = _("Exp. Candies M"),
         .price = 1000,
         .holdEffectParam = EXP_3000,
         .description = COMPOUND_STRING(
@@ -1960,7 +1945,6 @@ const struct Item gItemsInfo[] =
     [ITEM_EXP_CANDY_L] =
     {
         .name = _("经验糖果L"),
-        .pluralName = _("Exp. Candies L"),
         .price = 3000,
         .holdEffectParam = EXP_10000,
         .description = COMPOUND_STRING(
@@ -1979,7 +1963,6 @@ const struct Item gItemsInfo[] =
     [ITEM_EXP_CANDY_XL] =
     {
         .name = _("经验糖果XL"),
-        .pluralName = _("Exp. Candies XL"),
         .price = 10000,
         .holdEffectParam = EXP_30000,
         .description = COMPOUND_STRING(
@@ -1998,7 +1981,6 @@ const struct Item gItemsInfo[] =
     [ITEM_DYNAMAX_CANDY] =
     {
         .name = _("极巨糖果"),
-        .pluralName = _("Dynamax Candies"),
         .price = 0,
         .description = COMPOUND_STRING(
 			"充满能量的糖果。\n"
@@ -2333,7 +2315,6 @@ const struct Item gItemsInfo[] =
     [ITEM_X_ACCURACY] =
     {
         .name = _("命中强化"),
-        .pluralName = _("X Accuracies"),
         .price = (I_PRICE >= GEN_7) ? 1000 : 950,
         .holdEffectParam = X_ITEM_STAGES,
             .description = COMPOUND_STRING(
@@ -2370,7 +2351,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GUARD_SPEC] =
     {
         .name = _("能力防守"),
-        .pluralName = _("Guard Specs."),
         .price = (I_PRICE >= GEN_7) ? 1500 : 700,
         .description = COMPOUND_STRING(
 			"在战斗中，5回合\n"
@@ -2431,7 +2411,6 @@ const struct Item gItemsInfo[] =
     [ITEM_MAX_MUSHROOMS] =
     {
         .name = _("极巨菇菇"),
-        .pluralName = _("Max Mushrooms"),
         .price = 8000,
         .description = COMPOUND_STRING(
 			"有某种神奇力量的\n"
@@ -2605,7 +2584,6 @@ const struct Item gItemsInfo[] =
     [ITEM_STARDUST] =
     {
         .name = _("星星沙子"),
-        .pluralName = _("Stardust"),
         .price = (I_PRICE >= GEN_7) ? 3000 * TREASURE_FACTOR: 2000,
         .description = COMPOUND_STRING(
 			"手感细腻且美丽的\n"
@@ -2654,7 +2632,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SHOAL_SALT] =
     {
         .name = _("浅滩海盐"),
-        .pluralName = _("Shoal Salt"),
         .price = 20,
         .description = COMPOUND_STRING(
 			"在浅滩洞穴这地方\n"
@@ -2753,7 +2730,6 @@ const struct Item gItemsInfo[] =
     [ITEM_HONEY] =
     {
         .name = _("甜甜蜜"),
-        .pluralName = _("Honey"),
         .price = (I_PRICE < GEN_5) ? 100 : ((I_PRICE < GEN_8) ? 300 : 900),
         .description = COMPOUND_STRING(
 			"宝可梦采集的清甜\n"
@@ -3157,7 +3133,6 @@ const struct Item gItemsInfo[] =
     [ITEM_FOSSILIZED_FISH] =
     {
         .name = _("化石鱼"),
-        .pluralName = _("Fossilized Fishes"),
         .price = 5000,
         .description = sFossilizedFishDesc,
         .pocket = POCKET_ITEMS,
@@ -3202,7 +3177,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GROWTH_MULCH] =
     {
         .name = _("速速肥"),
-        .pluralName = _("Growth Mulch"),
         .price = 200,
 #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
@@ -3224,7 +3198,6 @@ const struct Item gItemsInfo[] =
     [ITEM_DAMP_MULCH] =
     {
         .name = _("湿湿肥"),
-        .pluralName = _("Damp Mulch"),
         .price = 200,
 #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
@@ -3246,7 +3219,6 @@ const struct Item gItemsInfo[] =
     [ITEM_STABLE_MULCH] =
     {
         .name = _("久久肥"),
-        .pluralName = _("Stable Mulch"),
         .price = 200,
 #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
@@ -3268,7 +3240,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GOOEY_MULCH] =
     {
         .name = _("粘粘肥"),
-        .pluralName = _("Gooey Mulch"),
         .price = 200,
 #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
@@ -3290,7 +3261,6 @@ const struct Item gItemsInfo[] =
     [ITEM_RICH_MULCH] =
     {
         .name = _("硕果肥"),
-        .pluralName = _("Rich Mulch"),
         .price = 200,
 #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
@@ -3312,7 +3282,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SURPRISE_MULCH] =
     {
         .name = _("吃惊肥"),
-        .pluralName = _("Surprise Mulch"),
         .price = 200,
 #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
@@ -3334,7 +3303,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BOOST_MULCH] =
     {
         .name = _("劲劲肥"),
-        .pluralName = _("Boost Mulch"),
         .price = 200,
 #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
@@ -3356,7 +3324,6 @@ const struct Item gItemsInfo[] =
     [ITEM_AMAZE_MULCH] =
     {
         .name = _("超效肥"),
-        .pluralName = _("Amaze Mulch"),
         .price = 200,
 #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
@@ -3512,7 +3479,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ARMORITE_ORE] =
     {
         .name = _("铠甲矿石"),
-        .pluralName = _("Armorite Ore"),
         .price = 20,
         .description = COMPOUND_STRING(
 			"能够在铠岛找出的\n"
@@ -3528,7 +3494,6 @@ const struct Item gItemsInfo[] =
     [ITEM_DYNITE_ORE] =
     {
         .name = _("极矿石"),
-        .pluralName = _("Dynite Ore"),
         .price = 20,
         .description = COMPOUND_STRING(
 			"能够在王冠雪原找\n"
@@ -3546,7 +3511,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ORANGE_MAIL] =
     {
         .name = _("橙色邮件"),
-        .pluralName = _("Orange Mail"),
         .price = 50,
         .description = COMPOUND_STRING(
 			"印有蛇纹熊的信纸\n"
@@ -3563,7 +3527,6 @@ const struct Item gItemsInfo[] =
     [ITEM_HARBOR_MAIL] =
     {
         .name = _("港口邮件"),
-        .pluralName = _("Harbor Mail"),
         .price = 50,
         .description = COMPOUND_STRING(
 			"印有长翅鸥的信纸\n"
@@ -3580,7 +3543,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GLITTER_MAIL] =
     {
         .name = _("闪亮邮件"),
-        .pluralName = _("Glitter Mail"),
         .price = 50,
         .description = COMPOUND_STRING(
 			"印有皮卡丘的信纸\n"
@@ -3597,7 +3559,6 @@ const struct Item gItemsInfo[] =
     [ITEM_MECH_MAIL] =
     {
         .name = _("机械邮件"),
-        .pluralName = _("Mech Mail"),
         .price = 50,
         .description = COMPOUND_STRING(
 			"印有小磁怪的信纸\n"
@@ -3614,7 +3575,6 @@ const struct Item gItemsInfo[] =
     [ITEM_WOOD_MAIL] =
     {
         .name = _("木纹邮件"),
-        .pluralName = _("Wood Mail"),
         .price = 50,
         .description = COMPOUND_STRING(
 			"印有懒人獭的信纸\n"
@@ -3631,7 +3591,6 @@ const struct Item gItemsInfo[] =
     [ITEM_WAVE_MAIL] =
     {
         .name = _("波涛邮件"),
-        .pluralName = _("Wave Mail"),
         .price = 50,
         .description = COMPOUND_STRING(
 			"印有吼吼鲸的信纸\n"
@@ -3648,7 +3607,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BEAD_MAIL] =
     {
         .name = _("珠宝邮件"),
-        .pluralName = _("Bead Mail"),
         .price = 50,
         .description = sBeadMailDesc,
         .pocket = POCKET_ITEMS,
@@ -3662,7 +3620,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SHADOW_MAIL] =
     {
         .name = _("影子邮件"),
-        .pluralName = _("Shadow Mail"),
         .price = 50,
         .description = COMPOUND_STRING(
 			"印有夜巡灵的信纸\n"
@@ -3679,7 +3636,6 @@ const struct Item gItemsInfo[] =
     [ITEM_TROPIC_MAIL] =
     {
         .name = _("热带邮件"),
-        .pluralName = _("Tropic Mail"),
         .price = 50,
         .description = COMPOUND_STRING(
 			"印有美丽花的信纸\n"
@@ -3696,7 +3652,6 @@ const struct Item gItemsInfo[] =
     [ITEM_DREAM_MAIL] =
     {
         .name = _("梦境邮件"),
-        .pluralName = _("Dream Mail"),
         .price = 50,
         .description = sBeadMailDesc,
         .pocket = POCKET_ITEMS,
@@ -3710,7 +3665,6 @@ const struct Item gItemsInfo[] =
     [ITEM_FAB_MAIL] =
     {
         .name = _("奇迹邮件"),
-        .pluralName = _("Fab Mail"),
         .price = 50,
         .description = COMPOUND_STRING(
 			"一张华丽的信纸，\n"
@@ -3727,7 +3681,6 @@ const struct Item gItemsInfo[] =
     [ITEM_RETRO_MAIL] =
     {
         .name = _("复古邮件"),
-        .pluralName = _("Retro Mail"),
         .price = 50,
         .description = COMPOUND_STRING(
 			"印有三种宝可梦的\n"
@@ -3971,7 +3924,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GALARICA_WREATH] =
     {
         .name = _("伽勒豆蔻花圈"),
-        .pluralName = _("Galarica Wreathes"),
         .price = (I_PRICE >= GEN_9) ? 3000 : 6000,
         .description = COMPOUND_STRING(
 			"用伽勒豆蔻枝编的\n"
@@ -4094,7 +4046,6 @@ const struct Item gItemsInfo[] =
     [ITEM_REAPER_CLOTH] =
     {
         .name = _("灵界之布"),
-        .pluralName = _("Reaper Cloths"),
         .price = (I_PRICE >= GEN_7) ? 2000 * TREASURE_FACTOR : 2100,
         .description = COMPOUND_STRING(
 			"蕴含着惊人强大灵\n"
@@ -4129,7 +4080,6 @@ const struct Item gItemsInfo[] =
     [ITEM_WHIPPED_DREAM] =
     {
         .name = _("泡沫奶油"),
-        .pluralName = _("Whipped Dream"),
         .price = (I_PRICE >= GEN_7) ? 2000 * TREASURE_FACTOR : 2100,
         .description = COMPOUND_STRING(
 			"松软起着泡的有点\n"
@@ -4769,7 +4719,6 @@ const struct Item gItemsInfo[] =
     [ITEM_FIRE_MEMORY] =
     {
         .name = _("火焰存储碟"),
-        .pluralName = _("Fire Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -4789,7 +4738,6 @@ const struct Item gItemsInfo[] =
     [ITEM_WATER_MEMORY] =
     {
         .name = _("清水存储碟"),
-        .pluralName = _("Water Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -4809,7 +4757,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ELECTRIC_MEMORY] =
     {
         .name = _("电子存储碟"),
-        .pluralName = _("Electric Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -4829,7 +4776,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GRASS_MEMORY] =
     {
         .name = _("青草存储碟"),
-        .pluralName = _("Grass Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -4849,7 +4795,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ICE_MEMORY] =
     {
         .name = _("冰雪存储碟"),
-        .pluralName = _("Ice Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -4869,7 +4814,6 @@ const struct Item gItemsInfo[] =
     [ITEM_FIGHTING_MEMORY] =
     {
         .name = _("战斗存储碟"),
-        .pluralName = _("Fighting Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -4889,7 +4833,6 @@ const struct Item gItemsInfo[] =
     [ITEM_POISON_MEMORY] =
     {
         .name = _("毒存储碟"),
-        .pluralName = _("Poison Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -4909,7 +4852,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GROUND_MEMORY] =
     {
         .name = _("大地存储碟"),
-        .pluralName = _("Ground Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -4929,7 +4871,6 @@ const struct Item gItemsInfo[] =
     [ITEM_FLYING_MEMORY] =
     {
         .name = _("飞翔存储碟"),
-        .pluralName = _("Flying Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -4949,7 +4890,6 @@ const struct Item gItemsInfo[] =
     [ITEM_PSYCHIC_MEMORY] =
     {
         .name = _("精神存储碟"),
-        .pluralName = _("Psychic Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -4969,7 +4909,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BUG_MEMORY] =
     {
         .name = _("虫子存储碟"),
-        .pluralName = _("Bug Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -4989,7 +4928,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ROCK_MEMORY] =
     {
         .name = _("岩石存储碟"),
-        .pluralName = _("Rock Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -5009,7 +4947,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GHOST_MEMORY] =
     {
         .name = _("幽灵存储碟"),
-        .pluralName = _("Ghost Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -5029,7 +4966,6 @@ const struct Item gItemsInfo[] =
     [ITEM_DRAGON_MEMORY] =
     {
         .name = _("龙存储碟"),
-        .pluralName = _("Dragon Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -5049,7 +4985,6 @@ const struct Item gItemsInfo[] =
     [ITEM_DARK_MEMORY] =
     {
         .name = _("黑暗存储碟"),
-        .pluralName = _("Dark Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -5069,7 +5004,6 @@ const struct Item gItemsInfo[] =
     [ITEM_STEEL_MEMORY] =
     {
         .name = _("钢铁存储碟"),
-        .pluralName = _("Steel Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -5089,7 +5023,6 @@ const struct Item gItemsInfo[] =
     [ITEM_FAIRY_MEMORY] =
     {
         .name = _("妖精存储碟"),
-        .pluralName = _("Fairy Memories"),
         .price = 1000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
@@ -5192,7 +5125,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CHARIZARDITE_X] =
     {
         .name = _("喷火龙进化石X"),
-        .pluralName = _("Charizardites X"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sCharizarditeDesc,
@@ -5207,7 +5139,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CHARIZARDITE_Y] =
     {
         .name = _("喷火龙进化石Y"),
-        .pluralName = _("Charizardites Y"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sCharizarditeDesc,
@@ -5392,7 +5323,6 @@ const struct Item gItemsInfo[] =
     [ITEM_MEWTWONITE_X] =
     {
         .name = _("超梦进化石X"),
-        .pluralName = _("Mewtwonites X"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sMewtwoniteDesc,
@@ -5407,7 +5337,6 @@ const struct Item gItemsInfo[] =
     [ITEM_MEWTWONITE_Y] =
     {
         .name = _("超梦进化石Y"),
-        .pluralName = _("Mewtwonites Y"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sMewtwoniteDesc,
@@ -6942,7 +6871,6 @@ const struct Item gItemsInfo[] =
     [ITEM_LUCKY_PUNCH] =
     {
         .name = _("吉利拳"),
-        .pluralName = _("Lucky Punches"),
         .price = (I_PRICE >= GEN_7) ? 1000 : 10,
         .holdEffect = HOLD_EFFECT_LUCKY_PUNCH,
         .description = COMPOUND_STRING(
@@ -6960,7 +6888,6 @@ const struct Item gItemsInfo[] =
     [ITEM_METAL_POWDER] =
     {
         .name = _("金属粉"),
-        .pluralName = _("Metal Powder"),
         .price = (I_PRICE >= GEN_7) ? 1000 : 10,
         .holdEffect = HOLD_EFFECT_METAL_POWDER,
         .description = COMPOUND_STRING(
@@ -6978,7 +6905,6 @@ const struct Item gItemsInfo[] =
     [ITEM_QUICK_POWDER] =
     {
         .name = _("速度粉"),
-        .pluralName = _("Quick Powder"),
         .price = (I_PRICE >= GEN_7) ? 1000 : 10,
         .holdEffect = HOLD_EFFECT_QUICK_POWDER,
         .description = COMPOUND_STRING(
@@ -7014,7 +6940,6 @@ const struct Item gItemsInfo[] =
     [ITEM_DEEP_SEA_TOOTH] =
     {
         .name = _("深海之牙"),
-        .pluralName = _("Deep Sea Teeth"),
         .price = (I_PRICE >= GEN_7) ? 2000 : 200,
         .holdEffect = HOLD_EFFECT_DEEP_SEA_TOOTH,
         .description = COMPOUND_STRING(
@@ -7245,7 +7170,6 @@ const struct Item gItemsInfo[] =
     [ITEM_RED_SCARF] =
     {
         .name = _("红色头巾"),
-        .pluralName = _("Red Scarves"),
         .price = 100,
         .description = COMPOUND_STRING(
 			"携带它去参加华丽\n"
@@ -7262,7 +7186,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BLUE_SCARF] =
     {
         .name = _("蓝色头巾"),
-        .pluralName = _("Blue Scarves"),
         .price = 100,
         .description = COMPOUND_STRING(
 			"携带它去参加华丽\n"
@@ -7279,7 +7202,6 @@ const struct Item gItemsInfo[] =
     [ITEM_PINK_SCARF] =
     {
         .name = _("粉红头巾"),
-        .pluralName = _("Pink Scarves"),
         .price = 100,
         .description = COMPOUND_STRING(
 			"携带它去参加华丽\n"
@@ -7296,7 +7218,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GREEN_SCARF] =
     {
         .name = _("绿色头巾"),
-        .pluralName = _("Green Scarves"),
         .price = 100,
         .description = COMPOUND_STRING(
 			"携带它去参加华丽\n"
@@ -7313,7 +7234,6 @@ const struct Item gItemsInfo[] =
     [ITEM_YELLOW_SCARF] =
     {
         .name = _("黄色头巾"),
-        .pluralName = _("Yellow Scarves"),
         .price = 100,
         .description = COMPOUND_STRING(
 			"携带它去参加华丽\n"
@@ -7406,7 +7326,6 @@ const struct Item gItemsInfo[] =
     [ITEM_POWER_LENS] =
     {
         .name = _("力量镜"),
-        .pluralName = _("Power Lenses"),
         .price = (I_PRICE >= GEN_9) ? 10000 : 3000,
         .holdEffect = HOLD_EFFECT_POWER_ITEM,
         .holdEffectParam = POWER_ITEM_BOOST,
@@ -7466,7 +7385,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SILK_SCARF] =
     {
         .name = _("丝绸围巾"),
-        .pluralName = _("Silk Scarves"),
         .price = (I_PRICE >= GEN_9) ? 3000 : ((I_PRICE >= GEN_7) ? 1000 : 100),
         .holdEffect = HOLD_EFFECT_NORMAL_POWER,
         .holdEffectParam = TYPE_BOOST_PARAM,
@@ -7503,7 +7421,6 @@ const struct Item gItemsInfo[] =
     [ITEM_MYSTIC_WATER] =
     {
         .name = _("神秘水滴"),
-        .pluralName = _("Mystic Water"),
         .price = (I_PRICE >= GEN_9) ? 3000 : ((I_PRICE >= GEN_7) ? 1000 : 100),
         .holdEffect = HOLD_EFFECT_WATER_POWER,
         .holdEffectParam = TYPE_BOOST_PARAM,
@@ -7543,7 +7460,10 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_9) ? 3000 : ((I_PRICE >= GEN_7) ? 1000 : 100),
         .holdEffect = HOLD_EFFECT_GRASS_POWER,
         .holdEffectParam = TYPE_BOOST_PARAM,
-        .description = sRoseIncenseDesc,
+        .description = COMPOUND_STRING(
+			"孕育生命的种子。\n"
+			"携带后，草招式威\n"
+			"力会提高。"),
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -7555,7 +7475,6 @@ const struct Item gItemsInfo[] =
     [ITEM_NEVER_MELT_ICE] =
     {
         .name = _("不融冰"),
-        .pluralName = _("Never-Melt Ice"),
         .price = (I_PRICE >= GEN_9) ? 3000 : ((I_PRICE >= GEN_7) ? 1000 : 100),
         .holdEffect = HOLD_EFFECT_ICE_POWER,
         .holdEffectParam = TYPE_BOOST_PARAM,
@@ -7610,7 +7529,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SOFT_SAND] =
     {
         .name = _("柔软沙子"),
-        .pluralName = _("Soft Sand"),
         .price = (I_PRICE >= GEN_9) ? 3000 : ((I_PRICE >= GEN_7) ? 1000 : 100),
         .holdEffect = HOLD_EFFECT_GROUND_POWER,
         .holdEffectParam = TYPE_BOOST_PARAM,
@@ -7650,7 +7568,10 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_9) ? 3000 : ((I_PRICE >= GEN_7) ? 1000 : 100),
         .holdEffect = HOLD_EFFECT_PSYCHIC_POWER,
         .holdEffectParam = TYPE_BOOST_PARAM,
-        .description = sOddIncenseDesc,
+        .description = COMPOUND_STRING(
+			"注入了念力的汤匙\n"
+			"。携带后，超能力\n"
+			"招式威力会提高。"),
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -7662,7 +7583,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SILVER_POWDER] =
     {
         .name = _("银粉"),
-        .pluralName = _("Silver Powder"),
         .price = (I_PRICE >= GEN_9) ? 3000 : ((I_PRICE >= GEN_7) ? 1000 : 100),
         .holdEffect = HOLD_EFFECT_BUG_POWER,
         .holdEffectParam = TYPE_BOOST_PARAM,
@@ -7684,7 +7604,10 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_9) ? 3000 : ((I_PRICE >= GEN_7) ? 1000 : 100),
         .holdEffect = HOLD_EFFECT_ROCK_POWER,
         .holdEffectParam = TYPE_BOOST_PARAM,
-        .description = sRockIncenseDesc,
+        .description = COMPOUND_STRING(
+			"绝对不会裂开的石\n"
+			"头。携带后，岩石\n"
+			"招式威力会提高。"),
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -7732,7 +7655,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BLACK_GLASSES] =
     {
         .name = _("黑色眼镜"),
-        .pluralName = _("Black Glasses"),
         .price = (I_PRICE >= GEN_9) ? 3000 : ((I_PRICE >= GEN_7) ? 1000 : 100),
         .holdEffect = HOLD_EFFECT_DARK_POWER,
         .holdEffectParam = TYPE_BOOST_PARAM,
@@ -7789,7 +7711,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CHOICE_SPECS] =
     {
         .name = _("讲究眼镜"),
-        .pluralName = _("Choice Specs"),
         .price = (I_PRICE >= GEN_9) ? 100000 : ((I_PRICE >= GEN_7) ? 4000 : 100),
         .holdEffect = HOLD_EFFECT_CHOICE_SPECS,
         .description = COMPOUND_STRING(
@@ -7807,7 +7728,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CHOICE_SCARF] =
     {
         .name = _("讲究围巾"),
-        .pluralName = _("Choice Scarves"),
         .price = (I_PRICE >= GEN_9) ? 100000 : ((I_PRICE >= GEN_7) ? 4000 : 100),
         .holdEffect = HOLD_EFFECT_CHOICE_SCARF,
         .description = COMPOUND_STRING(
@@ -8025,7 +7945,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CELL_BATTERY] =
     {
         .name = _("充电电池"),
-        .pluralName = _("Cell Batteries"),
         .price = (I_PRICE >= GEN_9) ? 5000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
         .holdEffect = HOLD_EFFECT_CELL_BATTERY,
         .holdEffectParam = 0,
@@ -8044,7 +7963,6 @@ const struct Item gItemsInfo[] =
     [ITEM_LUMINOUS_MOSS] =
     {
         .name = _("光苔"),
-        .pluralName = _("Luminous Moss"),
         .price = (I_PRICE >= GEN_9) ? 5000 : ((I_PRICE >= GEN_7) ? 4000 : 1000),
         .holdEffect = HOLD_EFFECT_LUMINOUS_MOSS,
         .holdEffectParam = 0,
@@ -8083,7 +8001,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BRIGHT_POWDER] =
     {
         .name = _("光粉"),
-        .pluralName = _("Bright Powder"),
         .price = (I_PRICE >= GEN_9) ? 30000 : ((I_PRICE >= GEN_7) ? 4000 : 10),
         .holdEffect = HOLD_EFFECT_EVASION_UP,
         .holdEffectParam = 10,
@@ -8284,7 +8201,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SCOPE_LENS] =
     {
         .name = _("焦点镜"),
-        .pluralName = _("Scope Lenses"),
         .price = (I_PRICE >= GEN_9) ? 15000 : ((I_PRICE >= GEN_7) ? 4000 : 100),
         .holdEffect = HOLD_EFFECT_SCOPE_LENS,
         .description = COMPOUND_STRING(
@@ -8302,7 +8218,6 @@ const struct Item gItemsInfo[] =
     [ITEM_LEFTOVERS] =
     {
         .name = _("吃剩的东西"),
-        .pluralName = _("Leftovers"),
         .price = (I_PRICE >= GEN_9) ? 20000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
         .holdEffect = HOLD_EFFECT_LEFTOVERS,
         .holdEffectParam = 10,
@@ -8339,7 +8254,6 @@ const struct Item gItemsInfo[] =
     [ITEM_WIDE_LENS] =
     {
         .name = _("广角镜"),
-        .pluralName = _("Wide Lenses"),
         .price = (I_PRICE >= GEN_9) ? 20000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
         .holdEffect = HOLD_EFFECT_WIDE_LENS,
         .holdEffectParam = 10,
@@ -8376,7 +8290,6 @@ const struct Item gItemsInfo[] =
     [ITEM_WISE_GLASSES] =
     {
         .name = _("博识眼镜"),
-        .pluralName = _("Wise Glasses"),
         .price = (I_PRICE >= GEN_9) ? 8000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
         .holdEffect = HOLD_EFFECT_WISE_GLASSES,
         .holdEffectParam = 10,
@@ -8414,7 +8327,6 @@ const struct Item gItemsInfo[] =
     [ITEM_LIGHT_CLAY] =
     {
         .name = _("光之黏土"),
-        .pluralName = _("Light Clay"),
         .price = (I_PRICE >= GEN_9) ? 20000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
         .holdEffect = HOLD_EFFECT_LIGHT_CLAY,
         .description = COMPOUND_STRING(
@@ -8466,7 +8378,6 @@ const struct Item gItemsInfo[] =
     [ITEM_FOCUS_SASH] =
     {
         .name = _("气势披带"),
-        .pluralName = _("Focus Sashes"),
         .price = (I_PRICE >= GEN_9) ? 50000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
         .holdEffect = HOLD_EFFECT_FOCUS_SASH,
         .description = COMPOUND_STRING(
@@ -8484,7 +8395,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ZOOM_LENS] =
     {
         .name = _("对焦镜"),
-        .pluralName = _("Zoom Lenses"),
         .price = (I_PRICE >= GEN_9) ? 10000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
         .holdEffect = HOLD_EFFECT_ZOOM_LENS,
         .holdEffectParam = 20,
@@ -8570,7 +8480,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BLACK_SLUDGE] =
     {
         .name = _("黑色污泥"),
-        .pluralName = _("Black Sludge"),
         .price = (I_PRICE >= GEN_9) ? 10000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
         .holdEffect = HOLD_EFFECT_BLACK_SLUDGE,
         .description = COMPOUND_STRING(
@@ -8833,7 +8742,6 @@ const struct Item gItemsInfo[] =
     [ITEM_WEAKNESS_POLICY] =
     {
         .name = _("弱点保险"),
-        .pluralName = _("Weakness Policies"),
         .price = (I_PRICE >= GEN_9) ? 50000 : 1000,
         .holdEffect = HOLD_EFFECT_WEAKNESS_POLICY,
         .holdEffectParam = 0,
@@ -8870,7 +8778,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SAFETY_GOGGLES] =
     {
         .name = _("防尘护目镜"),
-        .pluralName = _("Safety Goggles"),
         .price = (I_PRICE >= GEN_9) ? 20000 : ((I_PRICE >= GEN_7) ? 4000 : 1000),
         .holdEffect = HOLD_EFFECT_SAFETY_GOGGLES,
         .description = COMPOUND_STRING(
@@ -8921,7 +8828,6 @@ const struct Item gItemsInfo[] =
     [ITEM_PROTECTIVE_PADS] =
     {
         .name = _("部位护具"),
-        .pluralName = _("Protective Pads"),
         .price = (I_PRICE >= GEN_9) ? 15000 : 4000,
         .holdEffect = HOLD_EFFECT_PROTECTIVE_PADS,
         .description = COMPOUND_STRING(
@@ -8973,7 +8879,6 @@ const struct Item gItemsInfo[] =
     [ITEM_HEAVY_DUTY_BOOTS] =
     {
         .name = _("厚底靴"),
-        .pluralName = _("Heavy-Duty Boots"),
         .price = (I_PRICE >= GEN_9) ? 20000 : 4000,
         .holdEffect = HOLD_EFFECT_HEAVY_DUTY_BOOTS,
         .description = COMPOUND_STRING(
@@ -8990,7 +8895,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BLUNDER_POLICY] =
     {
         .name = _("打空保险"),
-        .pluralName = _("Blunder Policies"),
         .price = (I_PRICE >= GEN_9) ? 30000 : 4000,
         .holdEffect = HOLD_EFFECT_BLUNDER_POLICY,
         .description = COMPOUND_STRING(
@@ -9044,7 +8948,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CHERI_BERRY] =
     {
         .name = _("樱子果"),
-        .pluralName = _("Cheri Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CURE_PAR,
         .description = COMPOUND_STRING(
@@ -9063,7 +8966,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CHESTO_BERRY] =
     {
         .name = _("零余果"),
-        .pluralName = _("Chesto Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CURE_SLP,
         .description = COMPOUND_STRING(
@@ -9082,7 +8984,6 @@ const struct Item gItemsInfo[] =
     [ITEM_PECHA_BERRY] =
     {
         .name = _("桃桃果"),
-        .pluralName = _("Pecha Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CURE_PSN,
         .description = COMPOUND_STRING(
@@ -9101,7 +9002,6 @@ const struct Item gItemsInfo[] =
     [ITEM_RAWST_BERRY] =
     {
         .name = _("莓莓果"),
-        .pluralName = _("Rawst Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CURE_BRN,
         .description = COMPOUND_STRING(
@@ -9120,7 +9020,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ASPEAR_BERRY] =
     {
         .name = _("利木果"),
-        .pluralName = _("Aspear Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CURE_FRZ,
         .description = COMPOUND_STRING(
@@ -9139,7 +9038,6 @@ const struct Item gItemsInfo[] =
     [ITEM_LEPPA_BERRY] =
     {
         .name = _("苹野果"),
-        .pluralName = _("Leppa Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESTORE_PP,
         .holdEffectParam = 10,
@@ -9159,7 +9057,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ORAN_BERRY] =
     {
         .name = _("橙橙果"),
-        .pluralName = _("Oran Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESTORE_HP,
         .holdEffectParam = 10,
@@ -9179,7 +9076,6 @@ const struct Item gItemsInfo[] =
     [ITEM_PERSIM_BERRY] =
     {
         .name = _("柿仔果"),
-        .pluralName = _("Persim Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CURE_CONFUSION,
         .description = COMPOUND_STRING(
@@ -9198,7 +9094,6 @@ const struct Item gItemsInfo[] =
     [ITEM_LUM_BERRY] =
     {
         .name = _("木子果"),
-        .pluralName = _("Lum Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CURE_STATUS,
         .description = COMPOUND_STRING(
@@ -9217,7 +9112,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SITRUS_BERRY] =
     {
         .name = _("文柚果"),
-        .pluralName = _("Sitrus Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
             .holdEffect = HOLD_EFFECT_RESTORE_PCT_HP,
             .holdEffectParam = 25,
@@ -9237,7 +9131,6 @@ const struct Item gItemsInfo[] =
     [ITEM_FIGY_BERRY] =
     {
         .name = _("勿花果"),
-        .pluralName = _("Figy Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CONFUSE_SPICY,
         .holdEffectParam = CONFUSE_BERRY_HEAL_FRACTION,
@@ -9253,7 +9146,6 @@ const struct Item gItemsInfo[] =
     [ITEM_WIKI_BERRY] =
     {
         .name = _("异奇果"),
-        .pluralName = _("Wiki Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CONFUSE_DRY,
         .holdEffectParam = CONFUSE_BERRY_HEAL_FRACTION,
@@ -9269,7 +9161,6 @@ const struct Item gItemsInfo[] =
     [ITEM_MAGO_BERRY] =
     {
         .name = _("芒芒果"),
-        .pluralName = _("Mago Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CONFUSE_SWEET,
         .holdEffectParam = CONFUSE_BERRY_HEAL_FRACTION,
@@ -9285,7 +9176,6 @@ const struct Item gItemsInfo[] =
     [ITEM_AGUAV_BERRY] =
     {
         .name = _("乐芭果"),
-        .pluralName = _("Aguav Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CONFUSE_BITTER,
         .holdEffectParam = CONFUSE_BERRY_HEAL_FRACTION,
@@ -9301,7 +9191,6 @@ const struct Item gItemsInfo[] =
     [ITEM_IAPAPA_BERRY] =
     {
         .name = _("芭亚果"),
-        .pluralName = _("Iapapa Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CONFUSE_SOUR,
         .holdEffectParam = CONFUSE_BERRY_HEAL_FRACTION,
@@ -9317,7 +9206,6 @@ const struct Item gItemsInfo[] =
     [ITEM_RAZZ_BERRY] =
     {
         .name = _("蔓莓果"),
-        .pluralName = _("Razz Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9334,7 +9222,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BLUK_BERRY] =
     {
         .name = _("墨莓果"),
-        .pluralName = _("Bluk Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9351,7 +9238,6 @@ const struct Item gItemsInfo[] =
     [ITEM_NANAB_BERRY] =
     {
         .name = _("蕉香果"),
-        .pluralName = _("Nanab Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"捕捉宝可梦时，给\n"
@@ -9368,7 +9254,6 @@ const struct Item gItemsInfo[] =
     [ITEM_WEPEAR_BERRY] =
     {
         .name = _("西梨果"),
-        .pluralName = _("Wepear Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9385,7 +9270,6 @@ const struct Item gItemsInfo[] =
     [ITEM_PINAP_BERRY] =
     {
         .name = _("凰梨果"),
-        .pluralName = _("Pinap Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9402,7 +9286,6 @@ const struct Item gItemsInfo[] =
     [ITEM_POMEG_BERRY] =
     {
         .name = _("榴石果"),
-        .pluralName = _("Pomeg Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"给宝可梦后会变得\n"
@@ -9420,7 +9303,6 @@ const struct Item gItemsInfo[] =
     [ITEM_KELPSY_BERRY] =
     {
         .name = _("藻根果"),
-        .pluralName = _("Kelpsy Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"给宝可梦后会变得\n"
@@ -9438,7 +9320,6 @@ const struct Item gItemsInfo[] =
     [ITEM_QUALOT_BERRY] =
     {
         .name = _("比巴果"),
-        .pluralName = _("Qualot Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"给宝可梦后会变得\n"
@@ -9456,7 +9337,6 @@ const struct Item gItemsInfo[] =
     [ITEM_HONDEW_BERRY] =
     {
         .name = _("哈密果"),
-        .pluralName = _("Hondew Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"给宝可梦后会变得\n"
@@ -9474,7 +9354,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GREPA_BERRY] =
     {
         .name = _("萄葡果"),
-        .pluralName = _("Grepa Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"给宝可梦后会变得\n"
@@ -9492,7 +9371,6 @@ const struct Item gItemsInfo[] =
     [ITEM_TAMATO_BERRY] =
     {
         .name = _("茄番果"),
-        .pluralName = _("Tamato Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"给宝可梦后会变得\n"
@@ -9510,7 +9388,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CORNN_BERRY] =
     {
         .name = _("玉黍果"),
-        .pluralName = _("Cornn Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9527,7 +9404,6 @@ const struct Item gItemsInfo[] =
     [ITEM_MAGOST_BERRY] =
     {
         .name = _("岳竹果"),
-        .pluralName = _("Magost Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9544,7 +9420,6 @@ const struct Item gItemsInfo[] =
     [ITEM_RABUTA_BERRY] =
     {
         .name = _("茸丹果"),
-        .pluralName = _("Rabuta Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9561,7 +9436,6 @@ const struct Item gItemsInfo[] =
     [ITEM_NOMEL_BERRY] =
     {
         .name = _("檬柠果"),
-        .pluralName = _("Nomel Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9578,7 +9452,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SPELON_BERRY] =
     {
         .name = _("刺角果"),
-        .pluralName = _("Spelon Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9595,7 +9468,6 @@ const struct Item gItemsInfo[] =
     [ITEM_PAMTRE_BERRY] =
     {
         .name = _("椰木果"),
-        .pluralName = _("Pamtre Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9612,7 +9484,6 @@ const struct Item gItemsInfo[] =
     [ITEM_WATMEL_BERRY] =
     {
         .name = _("瓜西果"),
-        .pluralName = _("Watmel Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9629,7 +9500,6 @@ const struct Item gItemsInfo[] =
     [ITEM_DURIN_BERRY] =
     {
         .name = _("金枕果"),
-        .pluralName = _("Durin Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9646,7 +9516,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BELUE_BERRY] =
     {
         .name = _("靛莓果"),
-        .pluralName = _("Belue Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"可用于制作宝可方\n"
@@ -9663,7 +9532,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CHILAN_BERRY] =
     {
         .name = _("灯浆果"),
-        .pluralName = _("Chilan Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_NORMAL,
@@ -9682,7 +9550,6 @@ const struct Item gItemsInfo[] =
     [ITEM_OCCA_BERRY] =
     {
         .name = _("巧可果"),
-        .pluralName = _("Occa Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_FIRE,
@@ -9701,7 +9568,6 @@ const struct Item gItemsInfo[] =
     [ITEM_PASSHO_BERRY] =
     {
         .name = _("千香果"),
-        .pluralName = _("Passho Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_WATER,
@@ -9720,7 +9586,6 @@ const struct Item gItemsInfo[] =
     [ITEM_WACAN_BERRY] =
     {
         .name = _("烛木果"),
-        .pluralName = _("Wacan Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_ELECTRIC,
@@ -9739,7 +9604,6 @@ const struct Item gItemsInfo[] =
     [ITEM_RINDO_BERRY] =
     {
         .name = _("罗子果"),
-        .pluralName = _("Rindo Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_GRASS,
@@ -9758,7 +9622,6 @@ const struct Item gItemsInfo[] =
     [ITEM_YACHE_BERRY] =
     {
         .name = _("番荔果"),
-        .pluralName = _("Yache Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_ICE,
@@ -9777,7 +9640,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CHOPLE_BERRY] =
     {
         .name = _("莲蒲果"),
-        .pluralName = _("Chople Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_FIGHTING,
@@ -9796,7 +9658,6 @@ const struct Item gItemsInfo[] =
     [ITEM_KEBIA_BERRY] =
     {
         .name = _("通通果"),
-        .pluralName = _("Kebia Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_POISON,
@@ -9815,7 +9676,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SHUCA_BERRY] =
     {
         .name = _("腰木果"),
-        .pluralName = _("Shuca Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_GROUND,
@@ -9834,7 +9694,6 @@ const struct Item gItemsInfo[] =
     [ITEM_COBA_BERRY] =
     {
         .name = _("棱瓜果"),
-        .pluralName = _("Coba Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_FLYING,
@@ -9853,7 +9712,6 @@ const struct Item gItemsInfo[] =
     [ITEM_PAYAPA_BERRY] =
     {
         .name = _("福禄果"),
-        .pluralName = _("Payapa Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_PSYCHIC,
@@ -9872,7 +9730,6 @@ const struct Item gItemsInfo[] =
     [ITEM_TANGA_BERRY] =
     {
         .name = _("扁樱果"),
-        .pluralName = _("Tanga Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_BUG,
@@ -9891,7 +9748,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CHARTI_BERRY] =
     {
         .name = _("草蚕果"),
-        .pluralName = _("Charti Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_ROCK,
@@ -9910,7 +9766,6 @@ const struct Item gItemsInfo[] =
     [ITEM_KASIB_BERRY] =
     {
         .name = _("佛柑果"),
-        .pluralName = _("Kasib Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_GHOST,
@@ -9929,7 +9784,6 @@ const struct Item gItemsInfo[] =
     [ITEM_HABAN_BERRY] =
     {
         .name = _("莓榴果"),
-        .pluralName = _("Haban Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_DRAGON,
@@ -9948,7 +9802,6 @@ const struct Item gItemsInfo[] =
     [ITEM_COLBUR_BERRY] =
     {
         .name = _("刺耳果"),
-        .pluralName = _("Colbur Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_DARK,
@@ -9967,7 +9820,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BABIRI_BERRY] =
     {
         .name = _("霹霹果"),
-        .pluralName = _("Babiri Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_STEEL,
@@ -9986,7 +9838,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ROSELI_BERRY] =
     {
         .name = _("洛玫果"),
-        .pluralName = _("Roseli Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESIST_BERRY,
         .holdEffectParam = TYPE_FAIRY,
@@ -10005,7 +9856,6 @@ const struct Item gItemsInfo[] =
     [ITEM_LIECHI_BERRY] =
     {
         .name = _("枝荔果"),
-        .pluralName = _("Liechi Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_ATTACK_UP,
         .holdEffectParam = 4,
@@ -10024,7 +9874,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GANLON_BERRY] =
     {
         .name = _("龙睛果"),
-        .pluralName = _("Ganlon Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_DEFENSE_UP,
         .holdEffectParam = 4,
@@ -10043,7 +9892,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SALAC_BERRY] =
     {
         .name = _("沙鳞果"),
-        .pluralName = _("Salac Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_SPEED_UP,
         .holdEffectParam = 4,
@@ -10062,7 +9910,6 @@ const struct Item gItemsInfo[] =
     [ITEM_PETAYA_BERRY] =
     {
         .name = _("龙火果"),
-        .pluralName = _("Petaya Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_SP_ATTACK_UP,
         .holdEffectParam = 4,
@@ -10081,7 +9928,6 @@ const struct Item gItemsInfo[] =
     [ITEM_APICOT_BERRY] =
     {
         .name = _("杏仔果"),
-        .pluralName = _("Apicot Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_SP_DEFENSE_UP,
         .holdEffectParam = 4,
@@ -10100,7 +9946,6 @@ const struct Item gItemsInfo[] =
     [ITEM_LANSAT_BERRY] =
     {
         .name = _("兰萨果"),
-        .pluralName = _("Lansat Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CRITICAL_UP,
         .holdEffectParam = 4,
@@ -10119,7 +9964,6 @@ const struct Item gItemsInfo[] =
     [ITEM_STARF_BERRY] =
     {
         .name = _("星桃果"),
-        .pluralName = _("Starf Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RANDOM_STAT_UP,
         .holdEffectParam = 4,
@@ -10138,7 +9982,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ENIGMA_BERRY] =
     {
         .name = _("谜芝果"),
-        .pluralName = _("Enigma Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_ENIGMA_BERRY,
         .description = COMPOUND_STRING(
@@ -10156,7 +9999,6 @@ const struct Item gItemsInfo[] =
     [ITEM_MICLE_BERRY] =
     {
         .name = _("奇秘果"),
-        .pluralName = _("Micle Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_MICLE_BERRY,
         .holdEffectParam = 4,
@@ -10175,7 +10017,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CUSTAP_BERRY] =
     {
         .name = _("释陀果"),
-        .pluralName = _("Custap Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CUSTAP_BERRY,
         .holdEffectParam = 4,
@@ -10194,7 +10035,6 @@ const struct Item gItemsInfo[] =
     [ITEM_JABOCA_BERRY] =
     {
         .name = _("嘉珍果"),
-        .pluralName = _("Jaboca Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_JABOCA_BERRY,
         .description = COMPOUND_STRING(
@@ -10212,7 +10052,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ROWAP_BERRY] =
     {
         .name = _("雾莲果"),
-        .pluralName = _("Rowap Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_ROWAP_BERRY,
         .description = COMPOUND_STRING(
@@ -10230,7 +10069,6 @@ const struct Item gItemsInfo[] =
     [ITEM_KEE_BERRY] =
     {
         .name = _("亚开果"),
-        .pluralName = _("Kee Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_KEE_BERRY,
         .description = COMPOUND_STRING(
@@ -10248,7 +10086,6 @@ const struct Item gItemsInfo[] =
     [ITEM_MARANGA_BERRY] =
     {
         .name = _("香罗果"),
-        .pluralName = _("Maranga Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_MARANGA_BERRY,
         .description = COMPOUND_STRING(
@@ -10266,7 +10103,6 @@ const struct Item gItemsInfo[] =
     [ITEM_ENIGMA_BERRY_E_READER] =
     {
         .name = _("谜芝果"),
-        .pluralName = _("Enigma Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
 			"受效果绝佳的招式\n"
@@ -11853,7 +11689,6 @@ const struct Item gItemsInfo[] =
     [ITEM_REVEAL_GLASS] =
     {
         .name = _("现形镜"),
-        .pluralName = _("Reveal Glasses"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
@@ -11870,7 +11705,6 @@ const struct Item gItemsInfo[] =
     [ITEM_DNA_SPLICERS] =
     {
         .name = _("基因之楔"),
-        .pluralName = _("DNA Splicers"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
@@ -11951,7 +11785,6 @@ const struct Item gItemsInfo[] =
     [ITEM_REINS_OF_UNITY] =
     {
         .name = _("牵绊缰绳"),
-        .pluralName = _("Reins of Unity"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
@@ -12187,7 +12020,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BERRY_POUCH] =
     {
         .name = _("树果袋"),
-        .pluralName = _("Berry Pouches"),
         .price = 0,
         .description = COMPOUND_STRING(
 			"将树果收集起来的\n"
@@ -12462,7 +12294,6 @@ const struct Item gItemsInfo[] =
     [ITEM_DEVON_PARTS] =
     {
         .name = _("得文的物品"),
-        .pluralName = _("Devon Parts"),
         .price = 0,
         .description = COMPOUND_STRING(
 			"此物品里面放着的\n"
@@ -12479,7 +12310,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GO_GOGGLES] =
     {
         .name = _("GOGO护目镜"),
-        .pluralName = _("Go-Goggles"),
         .price = 0,
         .description = COMPOUND_STRING(
 			"能在沙漠的沙暴中\n"
@@ -12557,7 +12387,6 @@ const struct Item gItemsInfo[] =
     [ITEM_KEY_TO_ROOM_1] =
     {
         .name = _("1号客房的钥匙"),
-        .pluralName = _("Keys to Room 1"),
         .price = 0,
         .description = sKeyToRoomDesc,
         .importance = 1,
@@ -12571,7 +12400,6 @@ const struct Item gItemsInfo[] =
     [ITEM_KEY_TO_ROOM_2] =
     {
         .name = _("2号客房的钥匙"),
-        .pluralName = _("Keys to Room 2"),
         .price = 0,
         .description = sKeyToRoomDesc,
         .importance = 1,
@@ -12585,7 +12413,6 @@ const struct Item gItemsInfo[] =
     [ITEM_KEY_TO_ROOM_4] =
     {
         .name = _("4号客房的钥匙"),
-        .pluralName = _("Keys to Room 4"),
         .price = 0,
         .description = sKeyToRoomDesc,
         .importance = 1,
@@ -12599,7 +12426,6 @@ const struct Item gItemsInfo[] =
     [ITEM_KEY_TO_ROOM_6] =
     {
         .name = _("6号客房的钥匙"),
-        .pluralName = _("Keys to Room 6"),
         .price = 0,
         .description = sKeyToRoomDesc,
         .importance = 1,
@@ -12645,7 +12471,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CONTEST_PASS] =
     {
         .name = _("华丽大赛参加证"),
-        .pluralName = _("Contest Passes"),
         .price = 0,
         .description = COMPOUND_STRING(
 			"拿着它就可以参加\n"
@@ -12710,7 +12535,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GOLD_TEETH] =
     {
         .name = _("金假牙"),
-        .pluralName = _("Gold Teeth"),
         .price = 0,
         .description = COMPOUND_STRING(
 			"狩猎地带的园长遗\n"
@@ -12772,7 +12596,6 @@ const struct Item gItemsInfo[] =
     [ITEM_TRI_PASS] =
     {
         .name = _("三岛通行船券"),
-        .pluralName = _("Tri-Passes"),
         .price = 0,
         .description = COMPOUND_STRING(
 			"能够在第1、2、\n"
@@ -12789,7 +12612,6 @@ const struct Item gItemsInfo[] =
     [ITEM_RAINBOW_PASS] =
     {
         .name = _("七彩通行船券"),
-        .pluralName = _("Rainbow Passes"),
         .price = 0,
         .description = COMPOUND_STRING(
 			"能够在枯叶市和七\n"
@@ -12806,7 +12628,6 @@ const struct Item gItemsInfo[] =
     [ITEM_TEA] =
     {
         .name = _("茶"),
-        .pluralName = _("Tea"),
         .price = 0,
         .description = COMPOUND_STRING(
 			"有一点点苦，却又\n"
@@ -12822,7 +12643,6 @@ const struct Item gItemsInfo[] =
     [ITEM_RUBY] =
     {
         .name = _("红宝石"),
-        .pluralName = _("Rubies"),
         .price = 0,
         .description = COMPOUND_STRING(
 			"散发着红色光辉的\n"
@@ -12925,7 +12745,6 @@ const struct Item gItemsInfo[] =
     [ITEM_LOADED_DICE] =
     {
         .name = _("机变骰子"),
-        .pluralName = _("Loaded Dice"),
         .price = 20000,
         .holdEffect = HOLD_EFFECT_LOADED_DICE,
         .description = COMPOUND_STRING(
@@ -12960,7 +12779,6 @@ const struct Item gItemsInfo[] =
     [ITEM_BOOSTER_ENERGY] =
     {
         .name = _("驱劲能量"),
-        .pluralName = _("Booster Energies"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_BOOSTER_ENERGY,
         .description = COMPOUND_STRING(
@@ -13058,7 +12876,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SCROLL_OF_DARKNESS] =
     {
         .name = _("恶之挂轴"),
-        .pluralName = _("Scrolls of Darkness"),
         .price = 0,
         .description = COMPOUND_STRING(
 			"能让某些宝可梦进\n"
@@ -13076,7 +12893,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SCROLL_OF_WATERS] =
     {
         .name = _("水之挂轴"),
-        .pluralName = _("Scrolls of Waters"),
         .price = 0,
         .description = COMPOUND_STRING(
 			"能让某些宝可梦进\n"
@@ -13584,7 +13400,6 @@ const struct Item gItemsInfo[] =
     [ITEM_HEALTH_MOCHI] =
     {
         .name = _("体力粘糕"),
-        .pluralName = _("Health Mochi"),
         .price = 500,
         .description = sHealthFeatherDesc,
         .pocket = POCKET_ITEMS,
@@ -13599,7 +13414,6 @@ const struct Item gItemsInfo[] =
     [ITEM_MUSCLE_MOCHI] =
     {
         .name = _("肌力粘糕"),
-        .pluralName = _("Muscle Mochi"),
         .price = 500,
         .description = sMuscleFeatherDesc,
         .pocket = POCKET_ITEMS,
@@ -13614,7 +13428,6 @@ const struct Item gItemsInfo[] =
     [ITEM_RESIST_MOCHI] =
     {
         .name = _("抵抗粘糕"),
-        .pluralName = _("Resist Mochi"),
         .price = 500,
         .description = sResistFeatherDesc,
         .pocket = POCKET_ITEMS,
@@ -13629,7 +13442,6 @@ const struct Item gItemsInfo[] =
     [ITEM_GENIUS_MOCHI] =
     {
         .name = _("智力粘糕"),
-        .pluralName = _("Genius Mochi"),
         .price = 500,
         .description = sGeniusFeatherDesc,
         .pocket = POCKET_ITEMS,
@@ -13644,7 +13456,6 @@ const struct Item gItemsInfo[] =
     [ITEM_CLEVER_MOCHI] =
     {
         .name = _("精神粘糕"),
-        .pluralName = _("Clever Mochi"),
         .price = 500,
         .description = sCleverFeatherDesc,
         .pocket = POCKET_ITEMS,
@@ -13659,7 +13470,6 @@ const struct Item gItemsInfo[] =
     [ITEM_SWIFT_MOCHI] =
     {
         .name = _("瞬发粘糕"),
-        .pluralName = _("Swift Mochi"),
         .price = 500,
         .description = sSwiftFeatherDesc,
         .pocket = POCKET_ITEMS,
@@ -13674,7 +13484,6 @@ const struct Item gItemsInfo[] =
     [ITEM_FRESH_START_MOCHI] =
     {
         .name = _("净空粘糕"),
-        .pluralName = _("Fresh Start Mochi"),
         .price = 300,
         .description = COMPOUND_STRING(
 			"糅合树果的粘糕。\n"
