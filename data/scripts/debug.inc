@@ -193,7 +193,7 @@ Debug_SaveBlock3Size::
 	.string "剩余空间: {STR_VAR_3}b.$"
 
 Debug_PokemonStorageSize::
-	.string "{PKMN}Storage 大小: {STR_VAR_1}b/{STR_VAR_2}b.\n"
+	.string "宝可梦盒子 大小: {STR_VAR_1}b/{STR_VAR_2}b.\n"
 	.string "剩余空间: {STR_VAR_3}b.$"
 
 Debug_CheckROMSpace::

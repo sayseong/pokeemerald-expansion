@@ -679,4 +679,4 @@ LilycoveCity_PokemonTrainerFanClub_Text_HaventRealizedPotential:
     .string "是的，我在你眼中看到了力量，\p但是……\p你还未发掘出\n自己的潜力。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YourePowerfulButNotTrueStrength:
-    .string "毫无疑问，\n你非常强大。\p但是\n我可以说……\p那力量还未成为\n真正的实力！\p真正的实力是……\n……\p实际上，我也不知道。$"
+    .string "毫无疑问，\n你非常强大。\p但是我可以说……\p那力量还未成为\n真正的实力！\p真正的实力是……\n……\p实际上，我也不知道。$"

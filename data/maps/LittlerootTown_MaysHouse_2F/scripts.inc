@@ -311,7 +311,7 @@ LittlerootTown_MaysHouse_2F_EventScript_TurnOffPlayerPC::
 	end
 
 RivalsHouse_2F_Text_MayWhoAreYou:
-    .string "嗯？\n你……你是谁？\p…… …… …… ……\n…… …… …… ……\p噢，是{PLAYER}{KUN}啊。\n这么说你搬家就是今天。\p呃……我叫小遥，\n很高兴见到你！\p我……\n我梦想要和世界上\l每一只宝可梦做朋友。\p我从爸爸……小田卷博士\n那儿听说过你，{PLAYER}{KUN}，\p我一直希望我们能\n成为好朋友，{PLAYER}{KUN}。\p呵呵，有点傻，是吗？\n我……我还刚刚认识你呢{PLAYER}{KUN}。\p啊哈哈……\p呀，坏了！我忘了！\p我还得去帮爸爸抓\n野生宝可梦！\p{PLAYER}{KUN}，回头见！$"
+    .string "嗯？\n你……你是谁？\p…… …… …… ……\n…… …… …… ……\p噢，是{PLAYER}{KUN}啊。\n这么说你搬家就是今天。\p呃……我叫小遥，\n很高兴见到你！\p我……\n我梦想要和世界上\l每一只宝可梦做朋友。\p我从爸爸……小田卷博士\n那儿听说过你，{PLAYER}{KUN}，\p我一直希望我们能\n成为好朋友，{PLAYER}{KUN}。\p呵呵，有点傻，是吗？\n我……我还刚刚认识你呢{PLAYER}{KUN}。\p啊哈哈……\p呀，坏了！我忘了！\p我还得去帮爸爸捕捉\n野生宝可梦！\p{PLAYER}{KUN}，回头见！$"
 
 RivalsHouse_2F_Text_MayGettingReady:
     .string "宝可梦完全恢复了！\n东西都准备好了，还有……$"
@@ -326,13 +326,13 @@ RivalsHouse_2F_Text_ItsRivalsPokeBall:
     .string "是{RIVAL}的精灵球！\p最好不要乱动。$"
 
 RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
-    .string "小遥：{PLAYER}{KUN}！\p我在看我的宝可梦图鉴呢。\p有很多我看见却\n没抓到的宝可梦，\p还有些我想\n可能会进化。\p不知道下面该\n去哪儿抓宝可梦呢？$"
+    .string "小遥：{PLAYER}{KUN}！\p我在看我的宝可梦图鉴呢。\p有很多我看见却\n没捕捉的宝可梦，\p还有些我想\n可能会进化。\p不知道下面该\n去哪儿捕捉宝可梦呢？$"
 
 RivalsHouse_2F_Text_MayWhereShouldIGoNext:
-    .string "小遥：不知道下面该\n去哪儿抓宝可梦呢？\p如果我们能偶然遇上，那会\n很有趣吧，{PLAYER}{KUN}？$"
+    .string "小遥：不知道下面该\n去哪儿捕捉宝可梦呢？\p如果我们能偶然遇上，那会\n很有趣吧，{PLAYER}{KUN}？$"
 
 RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
-    .string "小悠：嗨，{PLAYER}，\p我在检查我的宝可梦图鉴。\p我还有不少宝可梦要抓，\n但现在这样\l进展也不错。\p看着这宝可梦图鉴就觉得它好像\n在催我回草丛里去。$"
+    .string "小悠：嗨，{PLAYER}，\p我在检查我的宝可梦图鉴。\p我还有不少宝可梦要捕捉，\n但现在这样\l进展也不错。\p看着这宝可梦图鉴就觉得它好像\n在催我回草丛里去。$"
 
 RivalsHouse_2F_Text_BrendanWhereShouldIGoNext:
     .string "小悠：我正在头疼下面\n要去哪儿捉宝可梦。\p喂，{PLAYER}，我如果能在找\n宝可梦时碰见你，\l可以和你来场小小的战斗。$"

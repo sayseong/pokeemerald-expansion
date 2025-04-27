@@ -420,7 +420,7 @@ SlateportCity_Harbor_Text_AbnormalWeather:
     .string "要让船安全航行，\n我们就得事先了解天气变化！\p说到天气，我从天气研究所的\n一个人哪儿听说，\p他们接到了来自很多地方的\n关于天气反常的报告！\p你该去天气研究所\n了解一下情况！$"
 
 SlateportCity_Harbor_Text_SubTooSmallForMe:
-    .string "我也想跟着楠木馆长\n去海底探险，\p但潜水艇对我来说太小了。\p如果我挤进去，\n船长就没地方了……$"
+    .string "我也想跟着楠木馆长\n去海底勘探，\p但潜水艇对我来说太小了。\p如果我挤进去，\n船长就没地方了……$"
 
 SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
     .string "楠木馆长：那些混账……\p他们和上次在博物馆\n抢得文的物品的人是一伙儿的。$"
@@ -444,7 +444,7 @@ SlateportCity_Harbor_Text_FinishedMakingFerry:
     .string "楠木馆长：{PLAYER}{KUN}！\p我们终于造好\n破浪号游船了！\p多亏了你朋友哈奇的\n帮忙，我们才能这么快完工。\p上船游览一番吧！$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
-    .string "楠木馆长：嗯？\n{PLAYER}{KUN}，你拿的是……\p那是探测器！这会在我们的探险中\n派上大用场的。\p{PLAYER}{KUN}，你愿意用你的\n探测器换点东西吗？\p比如，嗯，深海之牙\n或者深海鳞片？$"
+    .string "楠木馆长：嗯？\n{PLAYER}{KUN}，你拿的是……\p那是探测器！这会在我们的勘探中\n派上大用场的。\p{PLAYER}{KUN}，你愿意用你的\n探测器换点东西吗？\p比如，嗯，深海之牙\n或者深海鳞片？$"
 
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
     .string "楠木馆长：真的吗？\n那对你没什么用，{PLAYER}{KUN}……\p唉，那好吧，如果你改变主意了，\n再来告诉我。$"

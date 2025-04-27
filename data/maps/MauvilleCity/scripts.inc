@@ -503,7 +503,7 @@ MauvilleCity_Text_UncleNoNeedToBeDown:
     .string "叔叔：满充，\n不要这么沮丧。\p想想是什么激励着你\n要变得越来越强的？\p好了，我们回家吧，\n大家都在等你呢。$"
 
 MauvilleCity_Text_UncleVisitUsSometime:
-    .string "叔叔：{PLAYER}{KUN}，我刚刚才想起来，\n你就是那位看着满充\l抓到他的第一只宝可梦的\l训练家吧？\p有空的话，\n可以来绿茵镇转转吗？\l我想满充也会很高兴的。$"
+    .string "叔叔：{PLAYER}{KUN}，我刚刚才想起来，\n你就是那位看着满充\l捕捉他的第一只宝可梦的\l训练家吧？\p有空的话，\n可以来绿茵镇转转吗？\l我想满充也会很高兴的。$"
 
 
 MauvilleCity_Text_WallyPokenavCall:
@@ -528,7 +528,7 @@ MauvilleCity_Text_WattsonYoungTakeCharge:
     .string "铁旋：啊哈哈哈哈！\p我最喜欢看到年轻人\n挑起重担，引领这个时代！$"
 
 MauvilleCity_Text_NurseHurtMonBackToHealth:
-    .string "你知道么，看着宝可梦去战斗\n真是太棒了……\p但如果你的宝可梦受了伤，\n就得赶快帮它治疗。$"
+    .string "你知道吗，看着宝可梦去战斗\n真是太棒了……\p但如果你的宝可梦受了伤，\n就得赶快帮它治疗。$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough:
     .string "这个镇子的道路\n通向四面八方，\p因此在这里\n能见到各式各样的人。$"

@@ -99,7 +99,7 @@ ProfileMan_Text_CollectTrainerProfiles:
 
 ProfileMan_Text_MayISeeYourProfile:
 	.string "那么，这个怎么样？\n"
-	.string "我能看看你的档案么？$"
+	.string "我能看看你的档案吗？$"
 
 ProfileMan_Text_EasyChatExplanation:
 	.string "你要确定一个由四个\n"
@@ -138,7 +138,7 @@ ProfileMan_Text_YouHaveWonderfulSmile:
 	.string "你有一个很灿烂的微笑啊。$"
 
 ProfileMan_Text_MayISeeYourNewProfile:
-	.string "我能看看你的新档案么？$"
+	.string "我能看看你的新档案吗？$"
 
 ProfileMan_Text_EvenBetterThanLastProfile:
 	.string "好的！谢谢！\p"

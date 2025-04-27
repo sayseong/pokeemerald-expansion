@@ -943,7 +943,7 @@ SlateportCity_EventScript_BerryCrushRankingsSign::
 	end
 
 SlateportCity_Text_EnergyGuruSellWhatYouNeed:
-    .string "我是能量格鲁！我会\n为你寻找需要的东西！$"
+    .string "我是努力家！我会\n为你寻找需要的东西！$"
 
 SlateportCity_Text_OhYourPokemon:
     .string "哦？\n你的{STR_VAR_1}……$"
@@ -979,7 +979,7 @@ SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
     .string "把玩偶和坐垫\n直接放在地上会把它们弄脏，\p所以我准备买几块地砖来\n放玩偶和坐垫，这样\l它们就不会脏了。$"
 
 SlateportCity_Text_GoingToCompeteInBattleTent:
-    .string "啊啊啊！我也要参加\n对战帐篷！\p但在那之前，我得先去\n抓几只宝可梦！$"
+    .string "啊啊啊！我也要参加\n对战帐篷！\p但在那之前，我得先去\n捕捉几只宝可梦！$"
 
 SlateportCity_Text_BushedHikingFromMauville:
     .string "呼……累死了……\p我是从紫堇市徒步走来的。\n但是，看呐，这城市简直太大了。\p早知道我就\n骑车过来了。$"
@@ -1042,7 +1042,7 @@ SlateportCity_Text_BuyTooMuch:
     .string "每次我来这里都控制不住自己，\n买一大堆东西回去。$"
 
 SlateportCity_Text_GetNameRaterToHelpYou:
-    .string "想为你的宝可梦\n改名的话，就\l去找姓名鉴定师帮忙吧。$"
+    .string "如果想要为你的宝可梦\n更改昵称的话，\l就去找姓名鉴定师帮忙吧。$"
 
 SlateportCity_Text_CantChangeTradeMonName:
     .string "你不能更改\n交换得来的宝可梦的名字，\p因为那名字中\n包含着原先的训练家对它的情感。$"
@@ -1072,10 +1072,10 @@ SlateportCity_Text_BigSmileForCamera:
     .string "达伊：好，楠木馆长，\n对镜头笑一下！$"
 
 SlateportCity_Text_MostInvaluableExperience:
-    .string "玛莉：我们知道您在此次探险中\n获得了非常宝贵的经验……$"
+    .string "玛莉：我们知道您在此次勘探中\n获得了非常宝贵的经验……$"
 
 SlateportCity_Text_SternMoveAheadWithExploration:
-    .string "楠木馆长：是的，\n我们打算把探险继续进行下去。$"
+    .string "楠木馆长：是的，\n我们打算把勘探继续进行下去。$"
 
 SlateportCity_Text_GabbyWonderfulThanksForInterview:
     .string "玛莉：加油吧，楠木馆长！\n感谢您在百忙中抽出时间来\l接受我们的采访，\p下次有什么新发现的话，\n希望还能允许我们采访您！$"
@@ -1084,7 +1084,7 @@ SlateportCity_Text_SternWhewFirstInterview:
     .string "楠木馆长：呼……\p这是我第一次上电视。\n真紧张。$"
 
 SlateportCity_Text_OhPlayerWeMadeDiscovery:
-    .string "噢！{PLAYER}{KUN}！\n你精神真不错！\p在我们上次探险中\n有个大发现，\p在128号水路上\n有个海底洞窟。\p我们认为这可能是一种\n被认为灭绝了很久的宝可梦的栖息地。$"
+    .string "噢！{PLAYER}{KUN}！\n你精神真不错！\p在我们上次勘探中\n有个大发现，\p在128号水路上\n有个海底洞窟。\p我们认为这可能是一种\n被认为灭绝了很久的宝可梦的栖息地。$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
     .string "哼哼哼……\n楠木馆长，打扰了，\p你的潜水艇\n我们海洋队征用了！\p反抗是没用的！\n希望你好好配合！\p哼哼哼……\n你就好好看看我们海洋队的\l宏伟计划吧！$"

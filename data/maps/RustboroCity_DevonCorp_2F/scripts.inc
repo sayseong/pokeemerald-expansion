@@ -277,7 +277,7 @@ RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls:
     .string "我在开发新型\n精灵球……\p但还没什么进展……$"
 
 RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
-    .string "我们终于开发出了\n新型精灵球！\p用重复球抓曾经\n抓到过的宝可梦更容易，\p战斗拖得久的话用时间球\n能很方便抓到宝可梦。\p这都是我们\n得文公司的发明，\p一定要试试啊！$"
+    .string "我们终于开发出了\n新型精灵球！\p用重复球捕捉曾经\n捕捉过的宝可梦更容易，\p战斗拖得久的话用时间球\n能很方便捕捉宝可梦。\p这都是我们\n得文公司的发明，\p一定要试试啊！$"
 
 RustboroCity_DevonCorp_2F_Text_IMadePokenav:
     .string "我开发了宝可导航！\p作为一个工程师，能开发出\n这么伟大的工具是我的幸运！$"

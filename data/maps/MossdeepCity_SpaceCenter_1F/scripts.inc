@@ -316,7 +316,7 @@ MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:
     .string "有人宣称宝可梦是从宇宙来的。\n这是真的吗？$"
 
 MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
-    .string "海洋队得当心一下\n熔岩队！\p但如果他们真的敢那样，\n海洋队不就太过胆大妄为了吗？$"
+    .string "海洋队应该解决掉\n熔岩队！\p但如果他们真的做到了，\n胆大妄为的不就会是海洋队了吗？$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
     .string "一块巨大的金属冲破云霄，\n然后飞向宇宙……\p简直匪夷所思！$"

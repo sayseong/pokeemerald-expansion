@@ -383,10 +383,10 @@ BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
     .string "亲爱的挑战者！\p你没有三只能参加比赛的\n宝可梦。\p要有参赛资格，你要带有三只不同\n种类的宝可梦。\p三只不同种类的宝可梦必须\n都在50级以下。\p他们还不能持有相同\n的道具。\p蛋{STR_VAR_1}是不行的。\p当你都准备好了，\n请再回来。$"
 
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
-    .string "我会为你做对战竞技场的\n指导。$"
+    .string "我会为你做对战竞技场的指导。$"
 
 BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
-    .string "亲爱的挑战者！\p你在关机之前没有\n存档，是不是？\p很不幸，但这是由于你在挑战中\n失去比赛资格\l所造成的。\p当然，你可以开始一次新的\n挑战。$"
+    .string "亲爱的挑战者！\p你在关机之前没有\n存档，是不是？\p很不幸，但那导致了你在本次挑战中\n失去比赛资格。\p当然，你随时可以开始\n一次新的挑战。$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
     .string "我们恭喜你一连串漂亮地战胜了\n七个训练家！$"
@@ -428,7 +428,7 @@ BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
     .string "我们的比赛被判为平局。\p当时间到时，我和\n我对手的宝可梦\l都剩下等量的体力。$"
 
 BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
-    .string "在对战竞技场中，宝可梦的顺序\n十分重要。\p比如说，如果你的第一只宝可梦\n有某种弱点，\l那你就该安排让你的第二只宝可梦能\l非常有效地\l对付第一只。\p我认为这会是组成一支有效队伍的\n好方法。$"
+    .string "在对战竞技场中，宝可梦的顺序\n十分重要。\p比如说，如果你的第一只宝可梦\n有某种弱点，\l那你就该安排让你的\l第二只宝可梦能非常有效地\l对付第一只。\p我认为这会是组成一支有效队伍的\n好方法。$"
 
 BattleFrontier_BattleArenaLobby_Text_RulesAreListed:
     .string "三回合定胜负锦标赛的规则如下。$"
@@ -440,13 +440,13 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
     .string "三回合定胜负锦标赛有特殊规则，\n而不像常规战斗。\p第一，每场战斗只进行\n三个回合。\p如果在三个回合之后还未\n分胜负，就要进行判定。\p裁判会根据宝可梦的战斗情况\n判出胜者。\p同样，宝可梦在出比赛结果之前\n不能调换出的。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
-    .string "第一个判定准则是“心”。\n这个因素评价战斗者的进攻\l意识。\p判定依据的是训练家\n下达攻击招式的命令的\l频繁程度。$"
+    .string "第一个判定准则是“心”。\n这个因素评价战斗者的\l进攻意识。\p判定依据的是训练家\n下达攻击招式的命令的\l频繁程度。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
     .string "第二个判定准则是“技”。\n这个因素评价宝可梦的\l招式命中。\p如果一次招式成功了，\n技的评价就会上升。\p如果一次招式失败了，\n技的评价就会下降。\p对于攻击招式，如果招式是“效果绝佳”\n技的评价就会上升\l如果是“没有效果”\l技的评价就会下降。\p对于像保护和看穿的招式\n技的评价是不会上升的。\p如果对手采取了保护或是看穿\n的招式，并且你的宝可梦没能\l成功命中，技的评价也\l不会下降。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
-    .string "第三个判定准则是“体”。\n这个因素评价在战斗结束后\l体力还剩下多少。\p这个值把宝可梦\n战斗开始时的体力\l和战斗结束后还剩下的\l体力都加以考虑。$"
+    .string "第三个判定准则是“体”。\n这个因素评价在战斗结束后的\l剩余体力。\p这个准则把宝可梦\n战斗开始时的体力\l和战斗结束后还剩下的\l体力都加以考虑。$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
     .string "从竞技场主将手里得到了胜利，\n并且干掉了七个训练家！\p恭喜你的挑战\n干得漂亮！$"

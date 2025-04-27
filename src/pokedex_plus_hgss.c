@@ -195,7 +195,7 @@ static const u8 sText_Stats_eggGroup_DRAGON[] = _("龙");
 static const u8 sText_Stats_eggGroup_NO_EGGS_DISCOVERED[] = _("---");
 static const u8 sText_Stats_eggGroup_UNKNOWN[] = _("???");
 static const u8 sText_Dex_SEEN[] = _("遇到");
-static const u8 sText_Dex_OWN[] = _("捕获");
+static const u8 sText_Dex_OWN[] = _("捕捉");
 
 static const u8 sText_EVO_Buttons[] = _("{DPAD_UPDOWN}进化  {A_BUTTON}确认");
 static const u8 sText_EVO_Buttons_Decapped[] = _("{DPAD_UPDOWN}进化  {A_BUTTON}确认");

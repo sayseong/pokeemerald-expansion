@@ -320,7 +320,7 @@ MossdeepCity_Text_StevensHouseOverThere:
     .string "大吾的家就在那儿！$"
 
 MossdeepCity_Text_WhatToDoWithWeirdRock:
-    .string "是么，你也这么想啊！\n拿着这种奇怪的石头有什么用吗？$"
+    .string "是吗，你也这么想啊！\n拿着这种奇怪的石头有什么用吗？$"
 
 MossdeepCity_Text_WailmerWatching:
     .string "在绿岭市周围可以看到\n野生吼吼鲸。\p这叫啥来着，呃……\n是那啥……\p吼，吼，吼……\p吼吼鲸观赏！$"
@@ -335,7 +335,7 @@ MossdeepCity_Text_MossdeepTargetedByMagma:
     .string "我听一个水手说\n海洋队在水静市惹了些麻烦，\p但后来有人到那儿，\n把他们都驱逐了出去！\p可现在绿岭市被\n熔岩队盯上了。\p你想要知道他们的目的的话，\n就去宇宙中心看看吧。$"
 
 MossdeepCity_Text_FeelReliefOnLand:
-    .string "我是个水手，\n大海对我来说应该更重要。\p但你知道么？在每次长途航行后\n回到陆地上时，我都会觉得松了口气！$"
+    .string "我是个水手，\n大海对我来说应该更重要。\p但你知道吗？在每次长途航行后\n回到陆地上时，我都会觉得松了口气！$"
 
 MossdeepCity_Text_NiceIfWorldCoveredByFlowers:
     .string "如果整个世界都像这个小岛\n一样被红花绿草所覆盖，\p那不是很好吗？$"

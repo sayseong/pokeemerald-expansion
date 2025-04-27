@@ -256,13 +256,13 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
     .string "水梧桐：是我。出什么事了？\p嗯……\n下暴雨了？\p好……那是应该的。\n这就是唤醒盖欧卡的目的，\l为实现海洋队\l拓展海洋的梦想。\p什么？！\p雨比我们预计的还要\n大得多？你们遇上危险了？\p那不可能……\n那绝不可能……\p呆在那儿不要动，\n看清楚发生了什么事！$"
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
-    .string "水梧桐：一定是哪里出错了……\p不是说朱红色宝珠可以唤醒\n并控制盖欧卡么……\p但是……为什么？\n为什么盖欧卡不见了？\p为什么？！$"
+    .string "水梧桐：一定是哪里出错了……\p不是说朱红色宝珠可以唤醒\n并控制盖欧卡吗……\p但是……为什么？\n为什么盖欧卡不见了？\p为什么？！$"
 
 SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
     .string "赤焰松：你都干了些什么？\p水梧桐……你还是唤醒盖欧卡了，\n是不是？\p这场倾盆大雨一直下个不停的话，\n我们的世界会变成什么样？\p所有的大陆都会被海水\n所淹没……$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
-    .string "水梧桐：什——什么？！\n别把责任都推到我身上！\p你不也一样么，熔岩队，\n那只狂怒的固拉多怎么说？\p既然我有朱红色宝珠，\n我应该能控制盖欧卡……\p我应该能控制它的……$"
+    .string "水梧桐：什——什么？！\n别把责任都推到我身上！\p你不也一样吗，熔岩队，\n那只狂怒的固拉多怎么说？\p既然我有朱红色宝珠，\n我应该能控制盖欧卡……\p我应该能控制它的……$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
     .string "赤焰松：我们没时间\n继续在这儿吵了！\p出去自己看看吧！\p去看看那个由我们制造的\n梦想中的世界！$"

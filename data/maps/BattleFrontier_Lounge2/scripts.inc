@@ -113,7 +113,7 @@ BattleFrontier_Lounge2_EventScript_TriathleteF::
 	end
 
 BattleFrontier_Lounge2_Text_FrontierManiacIntro::
-    .string "嗨！我是对战开拓区\n消息最灵通的人，\p你可以叫我\n开拓区迷。\p只要看一眼我就知道你是个训练家，\n对不？\p我很高兴可以和你分享在\n对战开拓区收集的最新最热的新闻。$"
+    .string "嗨！我是对战开拓区\n消息最灵通的人，\p你可以叫我开拓区迷。\p只要看一眼我就知道你是个训练家，\n对不？\p我很高兴可以和你分享在\n对战开拓区收集的最新最热的新闻。$"
 
 BattleFrontier_Lounge2_Text_SwingByForTheLatestWord::
     .string "嗨！你来是想知道最新的\n消息吗？好吧！$"
@@ -150,7 +150,7 @@ BattleFrontier_Lounge2_Text_FactoryHeadIsThere::
     .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那个地方就是这个名叫工厂头目的\n令人无法捉摸的训练家管理的。$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadSilverMons::
-    .string "你跟工厂头目\n交过手了吗？\p我想想……他开始战斗的时候，\n通常只是借三只宝可梦用。\p他是和你在\n非常相似的条件下战斗。$"
+    .string "你跟工厂头目\n交过手了吗？\p我想想……他开始战斗的时候，\n通常只是借三只宝可梦用。\p他和你在非常相似的\n条件下战斗。$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadGoldMons::
     .string "你跟认真起来的工厂头目\n交过手了吗？\p就算他认真起来了，\n他还是用借来的宝可梦战斗。\p他是和你在完全\n相同的条件下战斗。$"

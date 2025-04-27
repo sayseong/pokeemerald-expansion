@@ -294,11 +294,11 @@ static const s8 sCenterToCornerVecXs[8] ={-32, -16, -16, -32, -32};
 // [TRAINER_CLASS_XYZ] = { _("name"), <money=5>, <ball=BALL_POKE> }
 const struct TrainerClass gTrainerClasses[TRAINER_CLASS_COUNT] =
 {
-    [TRAINER_CLASS_PKMN_TRAINER_1] = { _("{PKMN} 训练家") },
-    [TRAINER_CLASS_PKMN_TRAINER_2] = { _("{PKMN} 训练家") },
+    [TRAINER_CLASS_PKMN_TRAINER_1] = { _("宝可梦训练家") },
+    [TRAINER_CLASS_PKMN_TRAINER_2] = { _("宝可梦训练家") },
     [TRAINER_CLASS_HIKER] = { _("登山男"), 10 },
     [TRAINER_CLASS_TEAM_AQUA] = { _("海洋队") },
-    [TRAINER_CLASS_PKMN_BREEDER] = { _("{PKMN} 培育家"), 10, B_TRAINER_CLASS_POKE_BALLS >= GEN_8 ? BALL_HEAL : BALL_FRIEND },
+    [TRAINER_CLASS_PKMN_BREEDER] = { _("宝可梦培育家"), 10, B_TRAINER_CLASS_POKE_BALLS >= GEN_8 ? BALL_HEAL : BALL_FRIEND },
     [TRAINER_CLASS_COOLTRAINER] = { _("精英训练家"), 12, BALL_ULTRA },
     [TRAINER_CLASS_BIRD_KEEPER] = { _("养鸟人"), 8 },
     [TRAINER_CLASS_COLLECTOR] = { _("宝可梦收藏家"), 15, BALL_PREMIER },
@@ -4750,6 +4750,8 @@ u32 GetBattlerTotalSpeedStatArgs(u32 battler, u32 ability, u32 holdEffect)
         speed = (GetHighestStatId(battler) == STAT_SPEED) ? (speed * 150) / 100 : speed;
     else if (ability == ABILITY_QUARK_DRIVE && !(gBattleMons[battler].status2 & STATUS2_TRANSFORMED) && (gFieldStatuses & STATUS_FIELD_ELECTRIC_TERRAIN || gDisableStructs[battler].boosterEnergyActivates))
         speed = (GetHighestStatId(battler) == STAT_SPEED) ? (speed * 150) / 100 : speed;
+    else if (ability == ABILITY_UNBURDEN && gDisableStructs[battler].unburdenActive)
+        speed *= 2;
 
     // stat stages
     speed *= gStatStageRatios[gBattleMons[battler].statStages[STAT_SPEED]][0];
@@ -4775,8 +4777,6 @@ u32 GetBattlerTotalSpeedStatArgs(u32 battler, u32 ability, u32 holdEffect)
 
     // various effects
     if (gSideStatuses[GetBattlerSide(battler)] & SIDE_STATUS_TAILWIND)
-        speed *= 2;
-    if (gDisableStructs[battler].unburdenActive)
         speed *= 2;
 
     // paralysis drop

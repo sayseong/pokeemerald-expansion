@@ -267,25 +267,25 @@ static const struct MenuAction MultichoiceList_GameCornerDolls[] =
 
 static const struct MenuAction MultichoiceList_GameCornerTMs[] =
 {
-    {COMPOUND_STRING("TM32{CLEAR_TO 0x48}1,500代币")},
-    {COMPOUND_STRING("TM29{CLEAR_TO 0x48}3,500代币")},
-    {COMPOUND_STRING("TM35{CLEAR_TO 0x48}4,000代币")},
-    {COMPOUND_STRING("TM24{CLEAR_TO 0x48}4,000代币")},
-    {COMPOUND_STRING("TM13{CLEAR_TO 0x48}4,000代币")},
+    {COMPOUND_STRING("TM32{CLEAR_TO 0x48}1500代币")},
+    {COMPOUND_STRING("TM29{CLEAR_TO 0x48}3500代币")},
+    {COMPOUND_STRING("TM35{CLEAR_TO 0x48}4000代币")},
+    {COMPOUND_STRING("TM24{CLEAR_TO 0x48}4000代币")},
+    {COMPOUND_STRING("TM13{CLEAR_TO 0x48}4000代币")},
     {gText_Exit},
 };
 
 static const struct MenuAction MultichoiceList_GameCornerCoins[] =
 {
-    {COMPOUND_STRING("  50 COINS    ¥1,000")},
-    {COMPOUND_STRING("500 COINS  ¥10,000")},
+    {COMPOUND_STRING(" 50代币   ¥1000")},
+    {COMPOUND_STRING("500代币  ¥10000")},
     {gText_Exit},
 };
 
 static const struct MenuAction MultichoiceList_HowsFishing[] =
 {
-    {COMPOUND_STRING("优秀")},
-    {COMPOUND_STRING("不好")},
+    {COMPOUND_STRING("好得很")},
+    {COMPOUND_STRING("不太好")},
 };
 
 static const struct MenuAction MultichoiceList_SSTidalSlateportWithBF[] =

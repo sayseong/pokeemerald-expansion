@@ -32,7 +32,7 @@ MtPyre_1F_Text_ExplainCleanseTag:
     .string "让一只宝可梦携带\n这个净化之符，\p就能够避开一些野生宝可梦。$"
 
 MtPyre_1F_Text_ComeToPayRespects:
-    .string "你是来祭奠死去的宝可梦\n的灵魂的么？\p你一定很怀念你的宝可梦。$"
+    .string "你是来祭奠逝去的宝可梦\n的灵魂的吗？\p你一定很怀念你的宝可梦。$"
 
 MtPyre_1F_Text_RestingPlaceOfZigzagoon:
     .string "这是我的蛇纹熊的安息之地。\n我很怀念它……$"

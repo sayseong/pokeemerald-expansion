@@ -181,7 +181,7 @@ static const u32 sHiddenMonIconGfx[] = INCBIN_U32("graphics/dexnav/hidden.4bpp.l
 
 // strings
 static const u8 sText_DexNav_NoInfo[] = _("--------");
-static const u8 sText_DexNav_CaptureToSee[] = _("捕获后可见!");
+static const u8 sText_DexNav_CaptureToSee[] = _("捕捉后可见!");
 static const u8 sText_DexNav_PressRToRegister[] = _("R键登记!");
 static const u8 sText_DexNav_SearchForRegisteredSpecies[] = _("搜寻 {STR_VAR_1}");
 static const u8 sText_DexNav_NotFoundHere[] = _("该宝可梦无法\n在这里找到!");

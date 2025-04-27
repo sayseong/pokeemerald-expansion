@@ -49,10 +49,10 @@ MtPyre_6F_Text_ValeriePostRematch:
     .string "在这里沉眠的宝可梦……\n有时也会出来玩耍……$"
 
 MtPyre_6F_Text_CedricIntro:
-    .string "你迷失方向了么？\n有我在，不用怕！$"
+    .string "你迷失方向了吗？\n有我在，不用怕！$"
 
 MtPyre_6F_Text_CedricDefeat:
-    .string "你并没有迷路么？$"
+    .string "你并没有迷路吗？$"
 
 MtPyre_6F_Text_CedricPostBattle:
     .string "我觉得一个迷路的训练家\n会很惊慌，很容易就能打败。\p但那样太卑鄙了，我不会再那么做了……$"

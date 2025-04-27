@@ -247,7 +247,7 @@ Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
     .string "有熔岩队在周围没头苍蝇似的\n乱晃就够讨厌了，现在又多了个你！\p你究竟为什么要\n调查我们的事情？$"
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
-    .string "这儿是我们的地方！\p有个熔岩队的畜牲刚刚\n经过天气研究所，\p他们应该是去\n送神山了！$"
+    .string "这儿是我们的地方！\p有群熔岩队的家伙刚刚\n经过天气研究所，\p他们应该是去\n送神山了！$"
 
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
     .string "什么？！\p我们不能再在这里浪费时间了！\n我们也得赶紧去送神山了！\p啊哈哈哈哈！\n熔岩队，你们等着！$"

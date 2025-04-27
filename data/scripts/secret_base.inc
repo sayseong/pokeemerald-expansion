@@ -5,7 +5,7 @@ SecretBase_Text_TreeCanBeClimbed:
 SecretBase_Text_TreeUseSecretPower:
 	.string "如果有藤蔓垂下来，\n"
 	.string "就可以爬到树上去了。\p"
-	.string "要使用神秘力量吗？$"
+	.string "要使用秘密之力吗？$"
 
 SecretBase_Text_VineDroppedDown:
 	.string "粗大的藤蔓垂了下来！$"
@@ -17,7 +17,7 @@ SecretBase_Text_ClumpOfGrass:
 SecretBase_Text_ClumpUseSecretPower:
 	.string "如果弄掉这丛草，\n"
 	.string "就可以进去了。\p"
-	.string "要使用神秘力量吗？$"
+	.string "要使用秘密之力吗？$"
 
 SecretBase_Text_DiscoveredSmallEntrance:
 	.string "发现了小小的入口！$"
@@ -734,5 +734,5 @@ SecretBase_Text_WouldYouLikeToMoveBases:
 	.string "基地搬过来吗？$"
 
 SecretBase_Text_MovingCompletedUseSecretPower:
-	.string "搬动完成。\p"
-	.string "要使用神秘力量吗？$"
+	.string "搬家完成。\p"
+	.string "要使用秘密之力吗？$"

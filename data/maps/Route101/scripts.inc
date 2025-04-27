@@ -276,7 +276,7 @@ Route101_Text_TakeTiredPokemonToPokeCenter:
     .string "宝可梦累了的话，\n就要带它们去宝可梦中心。\p附近的古玫镇里\n就有个宝可梦中心。$"
 
 Route101_Text_WildPokemonInTallGrass:
-    .string "在草丛中行走时野生宝可梦\n有可能跳出来袭击。\p如果想抓宝可梦的话，\n就得去草丛里寻找。$"
+    .string "在草丛中行走时野生宝可梦\n有可能跳出来袭击。\p如果想捕捉宝可梦的话，\n就得去草丛里寻找。$"
 
 Route101_Text_RouteSign:
     .string "101号道路\n{UP_ARROW}古玫镇$"

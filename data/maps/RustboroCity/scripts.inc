@@ -1049,7 +1049,7 @@ RustboroCity_Text_WowYouHavePokemon:
     .string "哇，你也带着宝可梦！\p我长大以后\n也要带宝可梦一起去旅行。$"
 
 RustboroCity_Text_CatchRarePokemonIfIGoToSchool:
-    .string "宝可梦训练家学校！\p如果我进这所学校的话，\n抓稀有宝可梦会更容易吗？$"
+    .string "宝可梦训练家学校！\p如果我进这所学校的话，\n捕捉稀有宝可梦会更容易吗？$"
 
 RustboroCity_Text_PokemonCanChangeLookFromExp:
     .string "宝可梦在战斗中获得经验后，\n到某时有可能会改变形态。$"

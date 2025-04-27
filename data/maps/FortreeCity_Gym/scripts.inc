@@ -141,7 +141,7 @@ FortreeCity_Gym_Text_GymGuidePostVictory:
     .string "你做到了！\n你飞上了天空！$"
 
 FortreeCity_Gym_Text_JaredIntro:
-    .string "观赏一下飞行属性宝可梦\n优雅的战斗吧！$"
+    .string "观赏一下鸟类宝可梦\n优雅的战斗吧！$"
 
 FortreeCity_Gym_Text_JaredDefeat:
     .string "你……\n你真强……$"
@@ -150,7 +150,7 @@ FortreeCity_Gym_Text_JaredPostBattle:
     .string "训练家必须有面对\n意料之外的转变的智慧，\p你有足够的智慧\n到达我们的馆主那儿吗？$"
 
 FortreeCity_Gym_Text_EdwardoIntro:
-    .string "所有飞行属性宝可梦爱好者\n都渴望进入这道馆，\p作为茵郁市道馆的一员，\n我不能输！$"
+    .string "所有鸟类宝可梦爱好者\n都渴望进入这道馆，\p作为茵郁市道馆的一员，\n我不能输！$"
 
 FortreeCity_Gym_Text_EdwardoDefeat:
     .string "这对我来说\n压力太大了……$"
@@ -165,7 +165,7 @@ FortreeCity_Gym_Text_FlintDefeat:
     .string "娜琪，我……\n我输了！$"
 
 FortreeCity_Gym_Text_FlintPostBattle:
-    .string "娜琪很可爱，也很强。\n她是最棒的馆主！\p唔……$"
+    .string "娜琪很可爱，也很强。\n她是最棒的馆主！\p脸红……$"
 
 FortreeCity_Gym_Text_AshleyIntro:
     .string "娜琪单独教过我！\n我不会轻易输给你的！$"
@@ -195,7 +195,7 @@ FortreeCity_Gym_Text_DariusPostBattle:
     .string "你确实打败了我，\n但你最好小心点！我们的馆主\l娜琪的宝可梦都不好对付。$"
 
 FortreeCity_Gym_Text_WinonaIntro:
-    .string "我是娜琪，茵郁市\n宝可梦道馆的馆主。\p我是飞行属性宝可梦的朋友，\n同它们一起在天空中翱翔……\p无论战斗多么困难，\n我们都会优雅地凯旋……\p见识一下我和飞行属性宝可梦\n那华丽的舞步吧！$"
+    .string "我是娜琪，茵郁市\n宝可梦道馆的馆主。\p我是鸟类宝可梦的朋友，\n同它们一起在天空中翱翔……\p无论战斗多么困难，\n我们都会优雅地凯旋……\p见识一下我和鸟类宝可梦\n那华丽的舞步吧！$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
     .string "我以前从未见过\n指挥宝可梦比我更优雅的\l训练家……\p作为承认你的才能的标志，\n我把这道馆徽章送给你。$"
@@ -213,7 +213,7 @@ FortreeCity_Gym_Text_RegisteredWinona:
     .string "把道馆馆主娜琪的信息\n登记进宝可导航里。$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
-    .string "尽管我输给了你，\n我还会尽心抚养我的飞行属性宝可梦。$"
+    .string "尽管我输给了你，\n我还会尽心抚养我的鸟类宝可梦。$"
 
 FortreeCity_Gym_Text_GymStatue:
     .string "茵郁市宝可梦道馆$"

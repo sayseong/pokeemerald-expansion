@@ -81,7 +81,7 @@ SafariZone_Text_TimesUp:
 	.string "狩猎活动结束。$"
 
 SafariZone_Text_OutOfBalls:
-	.string "狩猎球没了，\n"
+	.string "狩猎球用完了，\n"
 	.string "狩猎活动结束。$"
 
 SafariZone_Text_PlacePokeblockOnFeeder:
@@ -202,7 +202,7 @@ SafariZone_Northwest_Text_Man:
 	.string "呼……呼……\n"
 	.string "我……终于到这儿了……不过……\p"
 	.string "我已经累了……没力气\n"
-	.string "去抓宝可梦了……$"
+	.string "去捕捉宝可梦了……$"
 
 SafariZone_North_Text_Fisherman:
 	.string "我需要找到一些丰缘地区\n"
@@ -210,7 +210,7 @@ SafariZone_North_Text_Fisherman:
 	.string "你知道湖在哪儿吗？$"
 
 SafariZone_North_Text_Man:
-	.string "我要在这儿抓一大堆宝可梦，\n"
+	.string "我要在这儿捕捉好多宝可梦，\n"
 	.string "然后跟我的朋友们交换！$"
 
 SafariZone_South_Text_Youngster:
@@ -230,10 +230,10 @@ SafariZone_Southwest_Text_RestHouseSign:
 
 SafariZone_RestHouse_Text_Youngster:
 	.string "我没有宝可方块，\n"
-	.string "但我还是抓到了很多宝可梦。\p"
+	.string "但我还是捕捉了很多宝可梦。\p"
 	.string "先小心地接近，\n"
 	.string "然后再扔出狩猎球，\l"
-	.string "就有更大的可能性抓到它们。$"
+	.string "就有更大的可能性捕捉到它们。$"
 
 SafariZone_RestHouse_Text_PsychicM:
 	.string "如果使用宝可方块，野生宝可梦\n"
@@ -267,7 +267,7 @@ SafariZone_Southeast_Text_LittleGirl:
 SafariZone_Southeast_Text_FatMan:
 	.string "这些宝可梦\n"
 	.string "我还是第一次见到，\p"
-	.string "而且我还可以抓这些\n"
+	.string "而且我还能捕捉这些\n"
 	.string "稀有宝可梦！太棒了！$"
 
 SafariZone_Southeast_Text_RichBoy:
@@ -277,7 +277,7 @@ SafariZone_Southeast_Text_RichBoy:
 SafariZone_Northeast_Text_Boy:
 	.string "我的狩猎球没剩几个了，\p"
 	.string "我得好好考虑一下\n"
-	.string "要抓什么样的宝可梦。$"
+	.string "要捕捉什么样的宝可梦。$"
 
 SafariZone_Northeast_Text_Woman:
 	.string "据说有人在这附近发现过皮卡丘，\n"
@@ -285,6 +285,6 @@ SafariZone_Northeast_Text_Woman:
 
 SafariZone_Northeast_Text_Girl:
 	.string "啊，真烦！\n"
-	.string "我什么都没抓到！\p"
-	.string "要是再抓不住什么的话\n"
+	.string "我什么都没捕捉到！\p"
+	.string "要是再不捕捉些什么的话\n"
 	.string "我就不在这儿浪费钱了！$"

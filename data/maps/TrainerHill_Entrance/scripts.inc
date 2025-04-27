@@ -292,10 +292,10 @@ TrainerHill_Entrance_Pokemart_Expanded:
 	pokemartlistend
 
 TrainerHill_Entrance_Text_StillGettingReady:
-    .string "这里是训练家之山，\n你可以在这里与许多其他训练家\l组队战斗。\p不过很抱歉，我们正在进行准备，\n请您下次再来！$"
+    .string "这里是训练家之丘，\n你可以在这里与许多其他训练家\l组队战斗。\p不过很抱歉，我们正在进行准备，\n请您下次再来！$"
 
 TrainerHill_Entrance_Text_WelcomeToTrainerHill:
-    .string "欢迎！\p这里是训练家之山，\n在这里你可以与其他的\l训练家进行对战！$"
+    .string "欢迎！\p这里是训练家之丘，\n在这里你可以与其他的\l训练家进行对战！$"
 
 TrainerHill_Entrance_Text_SaveGameBeforeEnter:
     .string "你是第一次来这儿吗？\p在进入之前，请先\n保存进度。$"
@@ -328,14 +328,14 @@ TrainerHill_Entrance_Text_ThankYouForPlaying:
     .string "感谢你来此游玩！$"
 
 TrainerHill_Entrance_Text_ExplainTrainerHill:
-    .string "我们训练家之山这里有一种\n叫做限时进攻的活动，\p是计算你从这个\n柜台跑到顶层老板\l那里的用时的游戏。\p最快的成绩会贴在那边的\n时间板上。跟你的\l朋友比试吧。\p一路上的战斗中，\n你既不能获得经验点数，\l也不能获得金钱。$"
+    .string "我们训练家之丘这里有一种\n叫做限时进攻的活动，\p是计算你从这个\n柜台跑到顶层老板\l那里的用时的游戏。\p最快的成绩会贴在那边的\n时间板上。跟你的\l朋友比试吧。\p一路上的战斗中，\n你既不能获得经验点数，\l也不能获得金钱。$"
 
 @ Unused
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
     .string "哦，对不起，但是\n你只有一只宝可梦。\p你最少需要两只宝可梦\n来参加这个活动。$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo:
-    .string "嗯，嗯！\p你终于来了！\n是啊，你来了！\p等！不要说话！\n我知道你为什么会\l一个人单独走到这里来！\p你要来见我这个\n训练家之山的老板，因为……\p你希望和我组队！\n呀—呵！\p……呃？\n不是吗？\p不管怎样，我一路看着你上来。\n完美的战斗！勇气可嘉！$"
+    .string "嗯，嗯！\p你终于来了！\n是啊，你来了！\p等！不要说话！\n我知道你为什么会\l一个人单独走到这里来！\p你要来见我这个\n训练家之丘的老板，因为……\p你希望和我组队！\n呀——呵！\p……呃？\n不是吗？\p不管怎样，我一路看着你上来。\n完美的战斗！勇气可嘉！$"
 
 TrainerHill_Roof_Text_HaveTheMostMarvelousGift:
     .string "像你这样杰出的人，当然\n只有最杰出的礼物才配得上你！$"
@@ -354,7 +354,7 @@ TrainerHill_Roof_Text_ArriveZippierNextTime:
 
 @ Unused
 TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner:
-    .string "我建这训练家之山\n的原因只有一个！\p就是要找到最合适的\n搭档来组成职业队伍！$"
+    .string "我建这训练家之丘\n的原因只有一个！\p就是要找到最合适的\n搭档来组成职业队伍！$"
 
 TrainerHill_Entrance_Text_ChallengeTime:
     .string "{STR_VAR_1}分{STR_VAR_2}。{STR_VAR_3}秒。$"
@@ -363,7 +363,7 @@ TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead:
     .string "谁关心前面会有什么样的\n训练家和宝可梦的组合呢？\p我只知道，我要打倒每一个\n挡住我的路的人！$"
 
 TrainerHill_Entrance_Text_CantWaitToTestTheWaters:
-    .string "听说各地的强大训练家\n都会来到训练家之山。\p我已经跃跃欲试了！\p我要打倒每一个\n挡住我的路的人！$"
+    .string "听说各地的强大训练家\n都会来到训练家之丘。\p我已经跃跃欲试了！\p我要打倒每一个\n挡住我的路的人！$"
 
 TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop:
     .string "看到那边的时间板了吗？\p我和朋友正在比试\n谁能更快到达山顶。$"

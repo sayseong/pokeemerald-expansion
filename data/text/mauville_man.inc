@@ -30,13 +30,13 @@ GiddyText_DontYouAgree::
     .string "\n你同意吗？$"
 
 GiddyText_ISoWantToGoOnAVacation::
-    .string "我很想去旅行。\n你知道什么好去处么？$"
+    .string "我很想去旅行。\n你知道什么好去处吗？$"
 
 GiddyText_IBoughtCrayonsWith120Colors::
-    .string "我买了一套120色的蜡笔！\n你不觉得很棒么？$"
+    .string "我买了一套120色的蜡笔！\n你不觉得很棒吗？$"
 
 GiddyText_WouldntItBeNiceIfWeCouldFloat::
-    .string "你不觉得，\n漂浮在一片泡泡云上很舒服么？$"
+    .string "你不觉得，\n漂浮在一片泡泡云上很舒服吗？$"
 
 GiddyText_WhenYouWriteOnASandyBeach::
     .string "你在沙滩上写好字，\n不久就会被冲掉的。真扫兴。$"
@@ -51,4 +51,4 @@ GiddyText_LyingBackInTheGreenGrass::
     .string "往草地上这么一躺……\n哦，太，太棒了！$"
 
 GiddyText_SecretBasesAreSoWonderful::
-    .string "秘密基地真是太棒了！\n你不觉得刺激么？$"
+    .string "秘密基地真是太棒了！\n你不觉得刺激吗？$"

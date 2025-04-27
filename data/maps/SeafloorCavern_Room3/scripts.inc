@@ -27,5 +27,5 @@ SeafloorCavern_Room3_Text_Grunt5Defeat:
     .string "呃！$"
 
 SeafloorCavern_Room3_Text_Grunt5PostBattle:
-    .string "要知道，我们从来不会质疑\n头儿要干的事情。\p但是现在，你，一个小废物，\n竟然要顶撞我们的老大。\p也许……\n你是不是有点……$"
+    .string "要知道，我们从来不会质疑\n头儿要干的事情。\p但是现在，你，一个小混混，\n竟然要顶撞我们的老大。\p也许……\n你真是个人物。$"
 

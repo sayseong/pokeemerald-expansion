@@ -254,7 +254,7 @@ MauvilleCity_PokemonCenter_1F_Text_IKnowNoTales:
 
 MauvilleCity_PokemonCenter_1F_Text_YouDidStatXTimes:
 	.string "啊？！\n"
-	.string "你…… 你……\p"
+	.string "你……你……\p"
 	.string "{STR_VAR_2}\n"
 	.string "{STR_VAR_1}次？！\p"
 	.string "太强了！\n"
@@ -370,7 +370,7 @@ MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesStory::
 	.string "战斗的机会！$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtTitle::
-	.string "捕获专家$"
+	.string "捕捉专家$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtAction::
 	.string "捕捉宝可梦$"
@@ -378,10 +378,10 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtAction::
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "据不完全统计，共捕获了\n"
+	.string "据不完全统计，共捕捉了\n"
 	.string "{STR_VAR_1}只宝可梦！\p"
-	.string "{STR_VAR_3}— 传说中的\n"
-	.string "宝可梦捕获专家！$"
+	.string "{STR_VAR_3}——传说中的\n"
+	.string "宝可梦捕捉专家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtTitle::
 	.string "钓圣$"
@@ -394,7 +394,7 @@ MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtStory::
 	.string "的。\p"
 	.string "他在钓鱼时\n"
 	.string "钓到{STR_VAR_1}只宝可梦！\p"
-	.string "{STR_VAR_3}— 传说中的\n"
+	.string "{STR_VAR_3}——传说中的\n"
 	.string "钓圣！$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedTitle::
@@ -931,7 +931,7 @@ MauvilleCity_PokemonCenter_1F_Text_WishICouldPlaySongForOthers:
 	.string "我真希望能演奏给别人听……$"
 
 MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToWriteSomeLyrics:
-	.string "是这样么？\n"
+	.string "是这样吗？\n"
 	.string "你有多喜欢我的歌？\p"
 	.string "但是我对歌词\n"
 	.string "一点都不满意。\p"
@@ -971,6 +971,6 @@ MauvilleCity_PokemonCenter_1F_Text_IveGotNothingNewToTeach:
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouHeardOfWord:
 	.string "嘿，你听过\n"
-	.string "“{STR_VAR_1}”么？\p"
+	.string "“{STR_VAR_1}”吗？\p"
 	.string "那是什么意思？好的……\n"
 	.string "去问你的爸爸妈妈，明白吗？$"

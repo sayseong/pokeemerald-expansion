@@ -801,7 +801,7 @@ Route110_Text_WhichShouldIChoose:
     .string "我该选哪条路？\p上自行车道走捷径\n去紫堇市，还是走\l下面的路找宝可梦？$"
 
 Route110_Text_CyclingChallengeResultSummary:
-    .string "碰撞次数：\n…… {STR_VAR_1}！\p总时间：\n…… {STR_VAR_2}！$"
+    .string "碰撞次数：\n……{STR_VAR_1}次！\p总时间：\n……{STR_VAR_2}！$"
 
 Route110_Text_ChallengeReactionBest:
     .string "华丽的表演！\p你从心底热爱骑车，\l这让我的灵魂也为此鼓舞！$"
@@ -846,7 +846,7 @@ Route110_Text_MauvilleCitySign:
     .string "110号道路\n{UP_ARROW}紫堇市$"
 
 Route110_Text_TrainerTipsPrlzSleep:
-    .string "训练家小技巧\p敌人被麻痹或催眠后\n会无法自卫。\p这类招式在战斗中\n很重要。$"
+    .string "训练家小技巧\p敌人被麻痹或催眠后\n会变得束手无策。\p这类招式在战斗中很重要。$"
 
 Route110_Text_TrainerTipsRegisterItems:
     .string "训练家小技巧\p包包里的物品可以\n按SELECT键来整理。$"

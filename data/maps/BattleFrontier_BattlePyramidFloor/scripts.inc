@@ -129,7 +129,7 @@ BattleFacility_TrainerBattle_PlaceholderText::
     .string "测试信息。$"
 
 gText_BattlePyramidConfirmRest::
-    .string "要中断对战金字塔的探索\n需要先存档\l好吗？$"
+    .string "要中断对战金字塔的探索\n需要先进行存档,\l可以吗？$"
 
 gText_BattlePyramidConfirmRetire::
     .string "你确实要中断\n金字塔的探索吗？$"
@@ -183,16 +183,16 @@ BattlePyramid_Text_ExitHintDown4::
     .string "在本层，出口位于\n{DOWN_ARROW} 方向的某个位置。$"
 
 BattlePyramid_Text_ExitHintUp5::
-    .string "出口么？\n在 {UP_ARROW} 。$"
+    .string "出口吗？\n在 {UP_ARROW} 。$"
 
 BattlePyramid_Text_ExitHintLeft5::
-    .string "出口么？\n在 {LEFT_ARROW} 。$"
+    .string "出口吗？\n在 {LEFT_ARROW} 。$"
 
 BattlePyramid_Text_ExitHintRight5::
-    .string "出口么？\n在 {RIGHT_ARROW} 。$"
+    .string "出口吗？\n在 {RIGHT_ARROW} 。$"
 
 BattlePyramid_Text_ExitHintDown5::
-    .string "出口么？\n在 {DOWN_ARROW} 。$"
+    .string "出口吗？\n在 {DOWN_ARROW} 。$"
 
 BattlePyramid_Text_ExitHintUp6::
     .string "出口出现在\n{UP_ARROW} 方向。$"

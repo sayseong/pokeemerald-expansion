@@ -274,13 +274,13 @@ SlateportCity_OceanicMuseum_2F_EventScript_MuseumPatron3::
 	end
 
 SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
-    .string "你好，你在找楠木？\n我就是。\p啊！那是我向得文的\n兹伏奇订购的部件吧？\p非常感谢！\n我们可以开始准备出航了。$"
+    .string "你好，你在找楠木？\n我就是。\p啊！那是我向得文的\n兹伏奇订购的部件吧？\p非常感谢！\n我们可以开始为勘探做准备了。$"
 
 SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts:
     .string "嘿嘿嘿，别急！\n那些部件是我们的！$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou:
-    .string "楠木馆长：什—什么？\n你们是什么人？$"
+    .string "楠木馆长：什——什么？\n你们是什么人？$"
 
 SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua:
     .string "我们是海洋队！\p我们老大想要那些部件！\n闭上嘴，乖乖把东西交出来！$"
@@ -310,7 +310,7 @@ SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
     .string "楠木馆长：你是……\n啊，是吗，你是{PLAYER}{KUN}……\p刚才的形势太紧张了！\n谢谢你救了我！\p噢，对了，我差点忘了\n你还带着得文送来的零件！$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
-    .string "楠木馆长：呼！\n没时间了！\p我们得赶快开始\n我们的海底探索了。\p再次谢谢你，不过\n我现在得走了！\p随便观赏一下\n我们的展品吧。$"
+    .string "楠木馆长：呼！\n没时间了！\p我们得赶快开始\n我们的海底勘探了。\p再次谢谢你，不过\n我现在得走了！\p随便观赏一下\n我们的展品吧。$"
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
     .string "我在这儿看到了一艘模型船，\p这让我想起了武斗镇附近的\n那艘被遗弃的海船……$"
@@ -343,10 +343,10 @@ SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica:
     .string "“正在楠木造船厂建造的\p破浪号游船的\n等比例模型。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica:
-    .string "“潜艇海渊1号\p洋底探险用\n高级潜水艇的模型。”$"
+    .string "“潜艇海渊1号\p洋底勘探用\n高级潜水艇的模型。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SumbersibleReplica:
-    .string "“潜水者\p海底探险用的坚固的\n无人探测器的模型。”$"
+    .string "“潜水者\p海底勘探用的坚固的\n无人探测器的模型。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica:
     .string "“环游世界的\p豪华定期船\n圣特安努号的模型。”$"

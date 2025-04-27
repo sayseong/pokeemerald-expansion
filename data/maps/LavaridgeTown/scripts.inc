@@ -331,5 +331,5 @@ LavaridgeTown_Text_GymSign:
     .string "釜炎镇宝可梦道馆\n馆主：亚莎\l“拥有火焰般燃烧的激情的人！”$"
 
 LavaridgeTown_Text_HerbShopSign:
-    .string "宝可梦药草商店\n“良药苦口。”$"
+    .string "宝可梦中药店\n“良药苦口。”$"
 

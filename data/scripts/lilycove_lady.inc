@@ -767,10 +767,10 @@ LilycoveCity_PokemonCenter_1F_Text_Kecleon:
 	.string "{STR_VAR_1}：唧唧，唧唧！$"
 
 LilycoveCity_PokemonCenter_1F_Text_Poochyena:
-	.string "{STR_VAR_1}：汪—呜……$"
+	.string "{STR_VAR_1}：汪——呜……$"
 
 LilycoveCity_PokemonCenter_1F_Text_Pikachu:
 	.string "{STR_VAR_1}：皮～卡！$"
 
 LilycoveCity_PokemonCenter_1F_Text_Skitty:
-	.string "{STR_VAR_1}：呜—喵～$"
+	.string "{STR_VAR_1}：呜——喵～$"
