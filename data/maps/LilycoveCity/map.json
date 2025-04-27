@@ -132,7 +132,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
       "x": 57,
-      "y": 17,
+      "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -328,7 +328,7 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 24,
+      "x": 25,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_POKEMON_CENTER_1F",
@@ -349,8 +349,8 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 39,
-      "y": 14,
+      "x": 38,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_POKEMON_TRAINER_FAN_CLUB",
       "dest_warp_id": "1"
@@ -364,21 +364,21 @@
     },
     {
       "x": 36,
-      "y": 6,
+      "y": 7,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_MOVE_DELETERS_HOUSE",
       "dest_warp_id": "0"
     },
     {
       "x": 42,
-      "y": 6,
+      "y": 7,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_HOUSE1",
       "dest_warp_id": "0"
     },
     {
       "x": 55,
-      "y": 15,
+      "y": 18,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_HOUSE2",
       "dest_warp_id": "0"
@@ -392,7 +392,7 @@
     },
     {
       "x": 12,
-      "y": 14,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_HOUSE4",
       "dest_warp_id": "0"
@@ -412,7 +412,9 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
@@ -424,7 +426,7 @@
     },
     {
       "type": "sign",
-      "x": 25,
+      "x": 26,
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -440,7 +442,7 @@
     },
     {
       "type": "sign",
-      "x": 26,
+      "x": 27,
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",

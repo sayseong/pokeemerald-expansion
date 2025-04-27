@@ -94,7 +94,7 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 16,
+      "x": 17,
       "y": 3,
       "elevation": 0,
       "dest_map": "MAP_VERDANTURF_TOWN_POKEMON_CENTER_1F",
@@ -151,7 +151,7 @@
     },
     {
       "type": "sign",
-      "x": 17,
+      "x": 18,
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -175,7 +175,7 @@
     },
     {
       "type": "sign",
-      "x": 18,
+      "x": 19,
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
