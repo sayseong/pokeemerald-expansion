@@ -351,7 +351,7 @@ PlayersHouse_1F_Text_RunningShoesManual:
     .string "这是\n跑步鞋的说明书。\p“穿上跑步鞋，\n按B键奔跑。\p系好你的鞋带，在\n踏地的节奏中飞奔吧！”$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
-    .string "爸爸：嗯？\p嗨，{PLAYER}！\p有段时间没见了，\n让我看看……好像变强了嘛。\p但你老爹我也不会放弃，\n不会输给你的！\p啊，对了，有东西要给你，\n这是一个叫哈奇的人\l托我带给你的。$"
+    .string "爸爸：嗯？\p嗨，{PLAYER}！\p有段时间没见了，\n让我看看……好像变强了嘛。\p但你老爸我也不会放弃，\n不会输给你的！\p啊，对了，有东西要给你，\n这是一个叫哈奇的人\l托我带给你的。$"
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove:
     .string "爸爸：唔，是乘坐游船的船票吧？\p记得没错的话，\n凯那市和水静市都有游船的码头。$"
@@ -363,10 +363,10 @@ PlayersHouse_1F_Text_DadShouldStayLonger:
     .string "妈妈：果然是你的爸爸……\p已经很久没回家了，\n一回来就滔滔不绝地讲宝可梦的事。\p他该在家多休息几天的。$"
 
 PlayersHouse_1F_Text_IsThatABreakingStory:
-    .string "妈妈：是爆炸性新闻吗？$"
+    .string "妈妈：那是突发新闻吗？$"
 
 PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
-    .string "插播一条\n紧急新闻！\p在丰缘地区许多地方\n送来的目击报告称，有人\l看到天空中有彩色宝可梦飞过，\p现在这只宝可梦\n身份依然不明。\p下面继续播放\n正常节目。$"
+    .string "插播一条\n紧急新闻！\p在丰缘地区许多地方\n送来的目击报告称，有人看到\l天空中有彩色宝可梦飞过，\p现在这只宝可梦\n身份依然不明。\p下面继续播放\n正常节目。$"
 
 PlayersHouse_1F_Text_WhatColorDidTheySay:
     .string "妈妈：{PLAYER}，你听到那个了吗？\p播音员刚才说的\n宝可梦是什么颜色的？$"

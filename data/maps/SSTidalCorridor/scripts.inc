@@ -257,16 +257,16 @@ SSTidalCorridor_Text_ScottBattleFrontierInvite:
     .string "亚希达：哦，嘿！\n{PLAYER}{KUN}，{PLAYER}{KUN}！\p出了点事，我要下船\n一趟，但很高兴见到你！\p祝贺你成为联盟冠军！\p我想邀请像你这样的人\n去一个地方，\p那就是……\n对战开拓区！\p那是什么地方？\n你去了就知道了！\p我已经和船长\n说好了，\p你下次坐船的时候，\n就可以选择去\l对战开拓区了。\p就这样，{PLAYER}{KUN}，我会在\n对战开拓区等你的！$"
 
 SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage:
-    .string "这艘船是为了驶过急流\n而专门建造的。\p我们希望能和你共度美好的旅程。\n请自由参观本渡轮。$"
+    .string "本渡轮专为驶过急流\n而设计建造。\p我们希望能和您共度美好的旅程。\n请自由参观本船。$"
 
 SSTidal_Text_HopeYouEnjoyVoyage:
     .string "希望您能在本渡轮上\n度过美好的旅程。$"
 
 SSTidal_Text_MadeLandInSlateport:
-    .string "我们已经到达凯那市。\n谢谢您的惠顾。$"
+    .string "我们已经到达凯那市。\n感谢您的乘坐。$"
 
 SSTidal_Text_MadeLandInLilycove:
-    .string "我们已经到达水静市。\n谢谢您的惠顾。$"
+    .string "我们已经到达水静市。\n感谢您的乘坐。$"
 
 SSTidalCorridor_Text_CanRestInCabin2:
     .string "船要过一会儿才能\n到达目的地，\p你可以在船舱里稍事休息。\n你的船舱号是2号，\p那里的床很柔软舒适，\n我保证你会感觉很舒服的！$"
@@ -287,7 +287,7 @@ SSTidalCorridor_Text_BrineyWelcomeAboard:
     .string "哈奇：欢迎上船，{PLAYER}{KUN}！\p我被选作破浪号的\n荣誉船长了！\p现在你可以叫我船长哈奇了！\p其实我已经是退休的人了，\n但当我看见这艘豪华的渡轮时……\p可以说，它唤醒了我心中的\n水手之魂！$"
 
 SSTidalCorridor_Text_Peeko:
-    .string "小皮：皮卡皮卡……$"
+    .string "小皮：皮可皮可……$"
 
 SSTidalCorridor_Text_Cabin1:
     .string "1号船舱$"

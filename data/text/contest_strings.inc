@@ -101,19 +101,19 @@ gText_AppealTriedToUnnerveWaitingMons::
 
 gText_TauntedMonsDoingWell::
     .string "它试着去嘲笑捉弄那些\n"
-    .string "状态还不错的宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "气势还不错的宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @ちょうしが　いい　ポケモンを
 @からかってみた！
 
 gText_MonRegainedItsForm::
-    .string "{STR_VAR_1}的状态\n"
+    .string "{STR_VAR_1}的气势\n"
     .string "回到了本来的样子！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}の　ちょうしが
 @もとに　もどって　しまった！
 
 gText_TriedToJamMonDoingWell::
     .string "它想去打扰那些\n"
-    .string "状态还不错的宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "气势还不错的宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @ちょうしが　いい　ポケモンの
 @じゃまを　しようと　した！
 
@@ -238,13 +238,13 @@ gText_DidntDoAsWellAsMonBefore::
 @うまく　できなかった！
 
 gText_MonsConditionRoseAboveUsual::
-    .string "{STR_VAR_1}的状态\n"
+    .string "{STR_VAR_1}的气势\n"
     .string "相比平常有所提升！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}の　ちょうしが
 @いつもより　あがった！
 
 gText_MonsHotStatusMadeGreatAppeal::
-    .string "{STR_VAR_1}状态不错\n"
+    .string "{STR_VAR_1}气势不错\n"
     .string "表演变得棒极了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}は　ちょうしが　よくて
 @ぜっこうの　アピールに　なった！
@@ -378,13 +378,13 @@ gText_ButItWasIgnored::
 @でも　むし　されて　しまった……
 
 gText_CouldntImproveItsCondition::
-	.string "但是状态\n"
+	.string "但是气势\n"
     .string "并没有被提升……{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @でも　ちょうしは
 @あがらなかった……
 
 gText_BadConditionResultedInWeakAppeal::
-	.string "它因为状态不行\n"
+	.string "它因为气势不行\n"
     .string "表演得一点也不好……{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @ちょうしが　よく　なくて
 @あまり　うまく　できなかった……

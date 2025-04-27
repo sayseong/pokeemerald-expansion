@@ -857,10 +857,10 @@ struct {
     const u8 *desc;
 } static const sMainMenuTexts[OPTIONS_COUNT] =
 {
-    [OPTION_WITHDRAW]   = {COMPOUND_STRING("取出宝可梦"),     COMPOUND_STRING("可以将当前队伍中的宝可梦\n存放到电脑中。")},
-    [OPTION_DEPOSIT]    = {COMPOUND_STRING("存放宝可梦"),     COMPOUND_STRING("可以将存放在盒子中的宝可梦\n取出并添加到队伍中。")},
-    [OPTION_MOVE_MONS]  = {COMPOUND_STRING("整理宝可梦"),     COMPOUND_STRING("可以整理当前队伍以及\n盒子中存放的所有宝可梦。")},
-    [OPTION_MOVE_ITEMS] = {COMPOUND_STRING("整理道具"),       COMPOUND_STRING("可以整理当前所有宝可梦\n所携带的道具。")},
+    [OPTION_WITHDRAW]   = {COMPOUND_STRING("取出宝可梦"),     COMPOUND_STRING("可以将寄放在盒子中的宝可梦\n取出并添加到队伍中。")},
+    [OPTION_DEPOSIT]    = {COMPOUND_STRING("寄放宝可梦"),     COMPOUND_STRING("可以将当前队伍中的宝可梦\n寄放到电脑中。")},
+    [OPTION_MOVE_MONS]  = {COMPOUND_STRING("整理宝可梦"),     COMPOUND_STRING("可以整理当前队伍以及\n盒子中寄放的所有宝可梦。")},
+    [OPTION_MOVE_ITEMS] = {COMPOUND_STRING("整理持有物"),     COMPOUND_STRING("可以整理当前所有宝可梦\n的持有物。")},
     [OPTION_EXIT]       = {COMPOUND_STRING("再见！"),         COMPOUND_STRING("返回上一个菜单。")}
 };
 
@@ -1048,8 +1048,8 @@ static const struct StorageMessage sMessages[] =
     [MSG_PICK_A_WALLPAPER]     = {COMPOUND_STRING("要选择哪一种壁纸？"),        MSG_VAR_NONE},
     [MSG_IS_SELECTED]          = {gText_PkmnIsSelected,                          MSG_VAR_MON_NAME_1},
     [MSG_JUMP_TO_WHICH_BOX]    = {COMPOUND_STRING("要跳转到哪个盒子？"),         MSG_VAR_NONE},
-    [MSG_DEPOSIT_IN_WHICH_BOX] = {COMPOUND_STRING("要存放到哪个盒子中？"),      MSG_VAR_NONE},
-    [MSG_WAS_DEPOSITED]        = {COMPOUND_STRING("存放了{DYNAMIC 0}！"), MSG_VAR_MON_NAME_1},
+    [MSG_DEPOSIT_IN_WHICH_BOX] = {COMPOUND_STRING("要寄放到哪个盒子中？"),      MSG_VAR_NONE},
+    [MSG_WAS_DEPOSITED]        = {COMPOUND_STRING("寄放了{DYNAMIC 0}！"), MSG_VAR_MON_NAME_1},
     [MSG_BOX_IS_FULL]          = {COMPOUND_STRING("这个盒子已经满了！"),           MSG_VAR_NONE},
     [MSG_RELEASE_POKE]         = {COMPOUND_STRING("真的要放生吗？"),      MSG_VAR_NONE},
     [MSG_WAS_RELEASED]         = {COMPOUND_STRING("已将{DYNAMIC 0}放生了！"),  MSG_VAR_RELEASE_MON_1},
@@ -1058,7 +1058,7 @@ static const struct StorageMessage sMessages[] =
     [MSG_LAST_POKE]            = {COMPOUND_STRING("这样就没有可战斗的宝可梦了！"),  MSG_VAR_NONE},
     [MSG_PARTY_FULL]           = {gText_YourPartysFull,                          MSG_VAR_NONE},
     [MSG_HOLDING_POKE]         = {COMPOUND_STRING("正在抓着宝可梦！"),  MSG_VAR_NONE},
-    [MSG_WHICH_ONE_WILL_TAKE]  = {COMPOUND_STRING("请选择要带走的宝可梦！"),   MSG_VAR_NONE},
+    [MSG_WHICH_ONE_WILL_TAKE]  = {COMPOUND_STRING("请选择要取出的宝可梦！"),   MSG_VAR_NONE},
     [MSG_CANT_RELEASE_EGG]     = {COMPOUND_STRING("无法将蛋放生！"),  MSG_VAR_NONE},
     [MSG_CONTINUE_BOX]         = {COMPOUND_STRING("要继续对盒子的操作吗？"),   MSG_VAR_NONE},
     [MSG_CAME_BACK]            = {COMPOUND_STRING("{DYNAMIC 0}回来了！"),     MSG_VAR_MON_NAME_1},
@@ -1072,7 +1072,7 @@ static const struct StorageMessage sMessages[] =
     [MSG_PUT_IN_BAG]           = {COMPOUND_STRING("要将道具放回包包吗？"),  MSG_VAR_NONE},
     [MSG_ITEM_IS_HELD]         = {COMPOUND_STRING("让精灵持有了{DYNAMIC 0}。"),   MSG_VAR_ITEM_NAME},
     [MSG_CHANGED_TO_ITEM]      = {COMPOUND_STRING("将{DYNAMIC 0}交换出来了！"),    MSG_VAR_ITEM_NAME},
-    [MSG_CANT_STORE_MAIL]      = {COMPOUND_STRING("不能存放邮件！"),      MSG_VAR_NONE},
+    [MSG_CANT_STORE_MAIL]      = {COMPOUND_STRING("不能寄放邮件！"),      MSG_VAR_NONE},
 };
 
 static const struct WindowTemplate sYesNoWindowTemplate =
@@ -8004,7 +8004,7 @@ static const u8 *const sMenuTexts[] =
 {
     [MENU_CANCEL]     = COMPOUND_STRING("取消"),
     [MENU_STORE]      = COMPOUND_STRING("寄放"),
-    [MENU_WITHDRAW]   = COMPOUND_STRING("带走"),
+    [MENU_WITHDRAW]   = COMPOUND_STRING("取出"),
     [MENU_MOVE]       = COMPOUND_STRING("移动"),
     [MENU_SHIFT]      = COMPOUND_STRING("交换"),
     [MENU_PLACE]      = COMPOUND_STRING("放下"),

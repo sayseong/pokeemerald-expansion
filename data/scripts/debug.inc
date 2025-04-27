@@ -423,7 +423,7 @@ Debug_EventScript_InflictStatus1_Text_PartyWide:
     .string "全队$"
 
 Debug_EventScript_InflictStatus1_Text_Close:
-    .string "近战$"
+    .string "关闭$"
 
 Debug_EventScript_InflictStatus1_Text_Poison:
     .string "中毒$"
