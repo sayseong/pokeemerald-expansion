@@ -45,7 +45,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
 
 ***重要提示***：不要使用GitHub的“Download Zip”选项。使用这个选项将无法下载更新你的扩展版本或合并其他功能分支所需的提交历史。相反，请阅读[此指南](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub)以了解如何分叉存储库并从那里本地克隆。
 
-请按照`INSTALL.md`中的说明在你的机器上设置pokeemerald-expansion。
+请按照[`INSTALL_ZH.md`](INSTALL_ZH.md)中的说明在你的机器上设置pokeemerald-expansion。
 
 ### 如果我已经有一个基于原版pokeemerald的项目，我可以使用pokeemerald-expansion吗？
 
