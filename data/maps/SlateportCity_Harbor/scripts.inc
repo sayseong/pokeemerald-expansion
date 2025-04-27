@@ -444,7 +444,7 @@ SlateportCity_Harbor_Text_FinishedMakingFerry:
     .string "楠木馆长：{PLAYER}{KUN}！\p我们终于造好\n破浪号游船了！\p多亏了你朋友哈奇的\n帮忙，我们才能这么快完工。\p上船游览一番吧！$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
-    .string "楠木馆长：嗯？\n{PLAYER}{KUN}，你拿的是……\p那是探测器！这会在我们的探险中\n派上大用场的。\p{PLAYER}{KUN}，你愿意用你的\n探测器换点东西吗？\p比如，嗯，深海之牙\n或者深海鳞片？$"
+    .string "楠木馆长：嗯？\n{PLAYER}{KUN}，你拿的是……\p那是探测器！这会在我们的勘探中\n派上大用场的。\p{PLAYER}{KUN}，你愿意用你的\n探测器换点东西吗？\p比如，嗯，深海之牙\n或者深海鳞片？$"
 
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
     .string "楠木馆长：真的吗？\n那对你没什么用，{PLAYER}{KUN}……\p唉，那好吧，如果你改变主意了，\n再来告诉我。$"

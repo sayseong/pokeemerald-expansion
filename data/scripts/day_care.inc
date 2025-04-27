@@ -358,7 +358,7 @@ Route117_PokemonDayCare_Text_NotEnoughMoney:
 
 Route117_PokemonDayCare_Text_TakeOtherOneBackToo:
 	.string "你想把另一只\n"
-	.string "也带走么？$"
+	.string "也带走吗？$"
 
 Route117_PokemonDayCare_Text_ComeAgain:
 	.string "好。\n"

@@ -142,7 +142,7 @@ VictoryRoad_1F_Text_EdgarIntro:
     .string "我花了这么长时间到达这里，\n但这最后一段路实在是太长了……$"
 
 VictoryRoad_1F_Text_EdgarDefeat:
-    .string "我的梦想要再次终结了么……$"
+    .string "我的梦想要再次终结了吗……$"
 
 VictoryRoad_1F_Text_EdgarPostBattle:
     .string "既然好不容易来到这里，\n就顺着这势头冲向冠军吧！\l要说谁能做到的话，那就是你！$"

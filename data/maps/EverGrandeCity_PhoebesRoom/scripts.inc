@@ -59,11 +59,11 @@ EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
-    .string "啊哈哈哈！\p我是四天王中的芙蓉。\n我在送神山训练。\p在训练过程中，我获得了\n与幽灵属性宝可梦交流的能力。\p是的，我和宝可梦的关系\n非常紧密。\p那么，加油吧，试试看你能否\n对我的宝可梦造成伤害！$"
+    .string "啊哈哈哈！\p我是四天王中的芙蓉。\n我在送神山训练。\p在训练过程中，我获得了\n与幽灵属性宝可梦交流的能力。\p是的，我和宝可梦之间的\n牵绊非常地深。\p那么，来吧，试试看你能否\n对我的宝可梦造成伤害！$"
 
 EverGrandeCity_PhoebesRoom_Text_Defeat:
     .string "喔，不。\n我失败了。$"
 
 EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech:
-    .string "你和你的宝可梦关系\n也是那么紧密啊。\p我竟然没看出来这一点\n很显然是我输了。\p是的，我很想看到你们的紧密\n能带你到多远。\p走吧，继续去下一个房间。$"
+    .string "你和你的宝可梦也有着\n不容置疑的牵绊啊。\p我竟然没看出来这一点，\n也难怪是我输了。\p嗯，我很想看到你们的牵绊\n能带你到多远。\p前进吧，继续去下一个房间。$"
 

@@ -1436,10 +1436,10 @@ SootopolisCity_Text_WonderWhatWorldIsLike:
     .string "我……我从未离开过这座城。\p不知这圆椭的天空的\n另一端会有什么呢？$"
 
 SootopolisCity_Text_ThisIsWicked:
-    .string "哇！\n这太神奇了！$"
+    .string "哇！\n这太炸裂了！$"
 
 SootopolisCity_Text_ThatWasWicked:
-    .string "哇！\n太神奇了！$"
+    .string "哇！\n那也太炸裂了！$"
 
 SootopolisCity_Text_GoRedAndBlueMon:
     .string "加油，红色宝可梦！\n别认输，蓝色宝可梦！$"
@@ -1487,7 +1487,7 @@ SootopolisCity_Text_CaveOfOriginSleepsToo:
     .string "这里是觉醒神殿……\p现在危机过去了，\n这里也该沉睡了……$"
 
 SootopolisCity_Text_SootopolisSkyBeautiful:
-    .string "琉璃市是在火山口中\n建起的城市。\p只要你抬头望天，\n你就能看到火山的顶端。\l瞧，你看到头顶上的圆形天空了么？\p不过正因如此，琉璃市的天空\n才如此美丽。$"
+    .string "琉璃市是在火山口中\n建起的城市。\p只要你抬头望天，\n你就能看到火山的顶端。\l瞧，你看到头顶上的圆形天空了吗？\p不过正因如此，琉璃市的天空\n才如此美丽。$"
 
 SootopolisCity_Text_GiganticPokemonFight:
     .string "当那两只巨大的宝可梦\n战斗时，我们却\l只能眼睁睁地看着。$"

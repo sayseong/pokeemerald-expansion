@@ -45,16 +45,15 @@ EventScript_CancelCut::
 	end
 
 Text_WantToCut:
-	.string "这棵树看起来\n"
-	.string "能被砍倒！\p"
-	.string "想把它砍了吗？$"
+	.string "这棵树好像可以砍断！\n"
+	.string "要用居合劈来砍吗？$"
 
 Text_MonUsedFieldMove:
 	.string "{STR_VAR_1}使用了{STR_VAR_2}!$"
 
 Text_CantCut:
-	.string "这棵树看起来\n"
-	.string "能被砍倒！$"
+	.string "这棵树好像可以用\n\n"
+	.string "秘传招式砍断！$"
 
 @ Use rock smash from party menu
 EventScript_UseRockSmash::
@@ -216,12 +215,12 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
-	.string "这块石头看起来不是很结实。\n"
-	.string "想使用碎岩吗？$"
+	.string "好像可以用秘传招式击碎！\n"
+	.string "要使用碎岩吗？$"
 
 Text_CantSmash:
-	.string "这是一块奇形怪状的石头，\n"
-	.string "但是看起来宝可梦可以破坏掉它。$"
+	.string "看起来很硬的岩石……\n"
+	.string "或许可以用秘传招式击碎？$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -267,22 +266,22 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "这是一块大石头，但是宝可梦\n"
-	.string "应该还是能把它推到一边的。\p"
-	.string "想使用怪力吗？$"
+	.string "好大的岩石……\n"
+	.string "或许可以用秘传招式推动？\l"
+	.string "要使用怪力吗？$"
 
 Text_MonUsedStrength:
 	.string "{STR_VAR_1}使用了怪力！\p"
-	.string "{STR_VAR_1}的怪力让他\n"
-	.string "有力量把大石头推开了！$"
+	.string "使出了怪力后，\n"
+	.string "可以推动岩石了！$"
 
 Text_CantStrength:
-	.string "这是一块大石头，但是宝可梦\n"
-	.string "应该还是能把它推到一边的。$"
+	.string "好大的岩石……\n"
+	.string "或许可以用秘传招式推动？$"
 
 Text_StrengthActivated:
-	.string "怪力让它有力量\n"
-	.string "推开大石头了。$"
+	.string "使出了怪力后，\n"
+	.string "可以推动岩石了！$"
 
 EventScript_UseWaterfall::
 	lockall
@@ -307,12 +306,13 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "随着震耳欲聋的巨响，\n"
-	.string "一道水墙气势非凡的横在眼前。$"
+	.string "伴随着巨大的轰响，\n"
+	.string "大量的水从上方倾泻而下！\n"
+	.string "或许可以用秘传招式攀上去？$"
 
 Text_WantToWaterfall:
-	.string "很大的一面水墙。\n"
-	.string "想使用攀瀑吗？$"
+	.string "好大的瀑布啊！\n"
+	.string "要使用攀瀑吗？$"
 
 Text_MonUsedWaterfall:
 	.string "{STR_VAR_1}使用了攀瀑。$"
@@ -394,22 +394,22 @@ EventScript_UseCutGrass::
 	goto EventScript_CutGrassCommon
 
 Text_CantDive:
-	.string "这里的水很深。宝可梦\n"
-	.string "可以潜下去。$"
+	.string "这里的水很深。好像\n"
+	.string "可以用秘传招式潜下去。$"
 
 Text_WantToDive:
 	.string "这里的水很深。\n"
-	.string "想使用潜水吗？$"
+	.string "要使用潜水吗？$"
 
 Text_MonUsedDive:
 	.string "{STR_VAR_1}使用了潜水。$"
 
 Text_CantSurface:
-	.string "上方有明亮的光芒。\n"
-	.string "宝可梦应该可以从这里浮出水面。$"
+	.string "上方有亮光洒下。\n"
+	.string "好像可以从这里浮出水面。$"
 
 Text_WantToSurface:
-	.string "上方有明亮的光芒。\n"
+	.string "上方有亮光洒下。\n"
 	.string "要使用潜水吗？$"
 
 EventScript_FailSweetScent::

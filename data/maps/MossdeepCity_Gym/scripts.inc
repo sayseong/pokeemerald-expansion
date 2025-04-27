@@ -377,13 +377,13 @@ MossdeepCity_Gym_Text_PrestonDefeat:
     .string "我输了！\n我必须重新调整我的精神！$"
 
 MossdeepCity_Gym_Text_PrestonPostBattle:
-    .string "优柔寡断的人会输掉战斗，\n这是我对你的警告。$"
+    .string "优柔寡断的人会输掉战斗，\n这是我对你的忠告。$"
 
 MossdeepCity_Gym_Text_VirgilIntro:
     .string "让我看看你的天赋吧！$"
 
 MossdeepCity_Gym_Text_VirgilDefeat:
-    .string "你拥有华美的天赋！$"
+    .string "你拥有非凡的天赋！$"
 
 MossdeepCity_Gym_Text_VirgilPostBattle:
     .string "如果世上真的有天才，\n那么就是我们的道馆馆主！\p但你也许比她们拥有\n更高的天赋……$"
@@ -395,7 +395,7 @@ MossdeepCity_Gym_Text_BlakeDefeat:
     .string "我的宝可梦战斗技术\n也不能同步了！$"
 
 MossdeepCity_Gym_Text_BlakePostBattle:
-    .string "要用精神力举起精灵球还是困难\n了点，但这么小的灰尘的话……\p呜啊啊啊啊啊啊啊！\n…… …… ……\p不不，我没骗人！\n我没吹！真的！$"
+    .string "要用精神力举起精灵球还是困难\n了点，但这么小的灰尘的话……\p呜啊啊啊啊啊啊啊！\n…… …… ……\p不不，我没骗人！\n我没吹牛！真的！$"
 
 MossdeepCity_Gym_Text_HannahIntro:
     .string "输给我的话，也不要\n太责怪自己。\p不是你弱小——\n而是我太强了！$"
@@ -419,13 +419,13 @@ MossdeepCity_Gym_Text_MauraIntro:
     .string "你走过的路……\n你经历过的事……\p用你所学会的一切\n全力攻击吧！$"
 
 MossdeepCity_Gym_Text_MauraDefeat:
-    .string "你走在通向伟大的道路上！$"
+    .string "你走过的路可谓非凡！$"
 
 MossdeepCity_Gym_Text_MauraPostBattle:
     .string "勤奋的人们拥有\n光明的前途，\p而懒惰的人所面对的\n惟有绝望的终点。\p种下什么因，就得到什么果……$"
 
 MossdeepCity_Gym_Text_SylviaIntro:
-    .string "即使生命有危险，\n我也会赢得胜利！$"
+    .string "即使有生命危险，\n我也会赢得胜利！$"
 
 MossdeepCity_Gym_Text_SylviaDefeat:
     .string "你所做的……\n吓倒了我……$"
@@ -452,7 +452,7 @@ MossdeepCity_Gym_Text_KathleenPostBattle:
     .string "你的活力感染了我！\n快点离开吧！$"
 
 MossdeepCity_Gym_Text_CliffordIntro:
-    .string "我也许已过盛年，\n但你也不要太过接近我。$"
+    .string "我也许已过盛年，\n但我建议你不要小觑我。$"
 
 MossdeepCity_Gym_Text_CliffordDefeat:
     .string "啊，你身上散发着\n年轻的活力！$"
@@ -467,7 +467,7 @@ MossdeepCity_Gym_Text_MaceyDefeat:
     .string "你怎么会变得\n这么强的？$"
 
 MossdeepCity_Gym_Text_MaceyPostBattle:
-    .string "哼！你也许很强，但你\n却与超能力属性不合！\p某种程度来说，\n你的战斗方式极为冷漠！$"
+    .string "哼！你也许很强，但你\n不适合超能力属性！\p某种程度来说，\n你的战斗方式很野蛮！$"
 
 MossdeepCity_Gym_Text_NicholasIntro:
     .string "呜啊啊啊！尝尝我的宝可梦\n那超凡脱俗的力量吧！$"

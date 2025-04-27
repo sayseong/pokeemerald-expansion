@@ -114,7 +114,7 @@ Route103_Text_LivRematchNotEnoughPokemon::
     .string "留美：如果你想和我们战斗\n那你必须有两只宝可梦！\l否则就不公平！$"
 
 Route103_Text_AndrewIntro::
-    .string "嘎！我的钓鱼线乱成一团！\n我什么都没钓到，知道后果么！\l没错！来战吧！$"
+    .string "嘎！我的钓鱼线乱成一团！\n我什么都没钓到，知道后果吗！\l没错！来战斗吧！$"
 
 Route103_Text_AndrewDefeated::
     .string "嘎！输了！\n我更生气了啊！$"

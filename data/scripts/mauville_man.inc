@@ -254,7 +254,7 @@ MauvilleCity_PokemonCenter_1F_Text_IKnowNoTales:
 
 MauvilleCity_PokemonCenter_1F_Text_YouDidStatXTimes:
 	.string "啊？！\n"
-	.string "你…… 你……\p"
+	.string "你……你……\p"
 	.string "{STR_VAR_2}\n"
 	.string "{STR_VAR_1}次？！\p"
 	.string "太强了！\n"
@@ -931,7 +931,7 @@ MauvilleCity_PokemonCenter_1F_Text_WishICouldPlaySongForOthers:
 	.string "我真希望能演奏给别人听……$"
 
 MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToWriteSomeLyrics:
-	.string "是这样么？\n"
+	.string "是这样吗？\n"
 	.string "你有多喜欢我的歌？\p"
 	.string "但是我对歌词\n"
 	.string "一点都不满意。\p"
@@ -971,6 +971,6 @@ MauvilleCity_PokemonCenter_1F_Text_IveGotNothingNewToTeach:
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouHeardOfWord:
 	.string "嘿，你听过\n"
-	.string "“{STR_VAR_1}”么？\p"
+	.string "“{STR_VAR_1}”吗？\p"
 	.string "那是什么意思？好的……\n"
 	.string "去问你的爸爸妈妈，明白吗？$"

@@ -801,7 +801,7 @@ Route110_Text_WhichShouldIChoose:
     .string "我该选哪条路？\p上自行车道走捷径\n去紫堇市，还是走\l下面的路找宝可梦？$"
 
 Route110_Text_CyclingChallengeResultSummary:
-    .string "碰撞次数：\n…… {STR_VAR_1}！\p总时间：\n…… {STR_VAR_2}！$"
+    .string "碰撞次数：\n……{STR_VAR_1}次！\p总时间：\n……{STR_VAR_2}！$"
 
 Route110_Text_ChallengeReactionBest:
     .string "华丽的表演！\p你从心底热爱骑车，\l这让我的灵魂也为此鼓舞！$"

@@ -59,11 +59,11 @@ EverGrandeCity_GlaciasRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
-    .string "欢迎，我是波妮\n四天王之一。\p我从很远的地方来到丰缘\n因此也磨练了我的冰雪招式。\p但是到现在为止我所见的都是\n弱弱的训练家和他们的宝可梦。\p你怎么样呢？\p如果我全力以赴的话\n你是没有赢的机会！$"
+    .string "欢迎，我是波妮，\n四天王之一。\p我从很远的地方来到丰缘\n以磨练我的冰属性招式。\p但是我在这里所见到的尽是\n弱不禁风的训练家和宝可梦。\p你又如何呢？\p如果能让我全力以赴的话\n就再好不过了！$"
 
 EverGrandeCity_GlaciasRoom_Text_Defeat:
-    .string "你和你的宝可梦……\n灵魂燃烧的那么炽烈！\p我已经被你的炽烈所打倒。\p我的冰雪招式\n输给了你的炽热灵魂。$"
+    .string "你和你的宝可梦……\n灵魂燃烧的那么炽烈！\p这激烈的热量仿佛能吞噬一切。\p难怪我的冰属性招式\n奈何不了你。$"
 
 EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech:
-    .string "进去下一个房间吧。\p在那里，你会感受到\n宝可梦联盟的真正恐怖。$"
+    .string "进去下一个房间吧。\p在那里，你会感受到\n宝可梦联盟的真正可怕之处。$"
 

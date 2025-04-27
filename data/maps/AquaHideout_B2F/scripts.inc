@@ -108,13 +108,13 @@ AquaHideout_B2F_Text_Grunt4Defeat:
     .string "等烦了……\n也败得一塌糊涂……$"
 
 AquaHideout_B2F_Text_Grunt4PostBattle:
-    .string "老大……\n这样可以了么？$"
+    .string "老大……\n这样可以了吗？$"
 
 AquaHideout_B2F_Text_Grunt6Intro:
     .string "这里的传送地板可是\n基地的骄傲！\p你完全不知道你身在何处了吧，\n不是吗？\p等敌人变得慌乱又疲劳，突然给他\n致命一击！这就是我们的作战计划！$"
 
 AquaHideout_B2F_Text_Grunt6Defeat:
-    .string "你怎么会这样？\n你一点也不显得累！$"
+    .string "怎么回事？\n你一点都不累！$"
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
     .string "说起来……我忘了\n把大师球放在哪里了。\p如果我没有保护好它，\n会被老大骂死的……$"

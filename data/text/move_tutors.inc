@@ -98,7 +98,7 @@ MoveTutor_Text_DynamicPunchTaught::
     .string "我希望你能用爆裂拳\n在绿岭市道馆获胜！$"
 
 MoveTutor_Text_DoubleEdgeTeach::
-    .string "啊……\p琉璃市道馆馆主确实\n特别可爱。\p但这也意味着我会有很多\n被他吸引的竞争对手。\p他用舍身一击引起别人的注意。\n可他注意不到我。\p那么，让我教你的宝可梦\n学习舍身一击！$"
+    .string "啊……\p琉璃市道馆馆主可真\n让人钦佩。\p但这也意味着我会有很多\n同样被他吸引的竞争对手。\p他的魅力就像舍身一击\n一样有利有弊。\l他根本注意不到我。\p那么，让我教你的宝可梦\n学习舍身一击！$"
 
 MoveTutor_Text_DoubleEdgeDeclined::
     .string "噢……\n即使你拒绝我……$"

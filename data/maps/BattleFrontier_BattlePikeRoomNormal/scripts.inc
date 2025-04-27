@@ -750,7 +750,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear:
     .string "……所有的……\n都消失了……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain:
-    .string "小蓟：……你又一次……\p…… …… ……\p……我践踏花朵并冒着\n暴风雨到达了我现在的地位……\p我对我再次输给同样的对手\n并不感到懊恼……\p…… …… ……\n好…… 我会做的……$"
+    .string "小蓟：……你又一次……\p…… …… ……\p……我践踏花朵并冒着\n暴风雨到达了我现在的地位……\p我对我再次输给同样的对手\n并不感到懊恼……\p…… …… ……\n好……我会做的……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn:
     .string "那么！\n来吧！$"

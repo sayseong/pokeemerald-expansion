@@ -822,7 +822,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon1::
     .string "我一直带着\n会使用{STR_VAR_1}的{STR_VAR_2}$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon2Ask::
-    .string "和会{STR_VAR_1}的{STR_VAR_2}跑步！\p我们两个组队的话，\n不是很棒么？$"
+    .string "和会{STR_VAR_1}的{STR_VAR_2}跑步！\p我们两个组队的话，\n不是很棒吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMAccept::
     .string "谢谢！\p我去登记，\n现在立刻就去！$"

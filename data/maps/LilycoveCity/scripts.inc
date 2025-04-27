@@ -413,7 +413,7 @@ LilycoveCity_EventScript_DontKnowAboutBerryBlender::
 	return
 
 LilycoveCity_Text_MayShoppingLetsBattle:
-    .string "小遥：嗨，你好啊？\n{PLAYER}{KUN}，你也来买东西吗？\p我买了一大堆\n玩偶和海报。\p当然，我捕捉了不少\n宝可梦，也训练得\l不错。\p不过，我更在意的是\n你的宝可梦训练得如何了，{PLAYER}{KUN}。\p我要和你战斗，\n看看你的宝可梦，{PLAYER}{KUN}。$"
+    .string "小遥：嗨，你好啊？\n{PLAYER}{KUN}，你也来买东西吗？\p我买了一大堆\n玩偶和海报。\p当然，我捕捉了不少\n宝可梦，也训练得不错。\p不过，我更在意的是\n你的宝可梦训练得如何了，{PLAYER}{KUN}。\p我要和你战斗，\n看看你的宝可梦，{PLAYER}{KUN}。$"
 
 LilycoveCity_Text_MayNotRaisingPokemon:
     .string "小遥：啊，怎么了？{PLAYER}{KUN}，\n你没好好训练你的宝可梦吗？\p作为一个训练家\n可不该这样呢……$"
@@ -425,7 +425,7 @@ LilycoveCity_Text_MayWontBeBeaten:
     .string "小遥：我训练的宝可梦不会\n被你的宝可梦打败的，{PLAYER}{KUN}！$"
 
 LilycoveCity_Text_MayDefeat:
-    .string "…… …… …… ……\p我还记得我们上次\n在103号道路的战斗，{PLAYER}{KUN}。\p是那场战斗让你变得这么强的，是吗，\n{PLAYER}{KUN}？$"
+    .string "…… …… …… ……\p我还记得我们上次\n在103号道路的战斗，{PLAYER}{KUN}。\p那场战斗让你变得这么强了，\n是吗，{PLAYER}{KUN}？$"
 
 LilycoveCity_Text_MayGoingBackToLittleroot:
     .string "小遥：我打算\n回未白镇去。\p我已经捕捉了很多不错的宝可梦，\n宝可梦图鉴也快完成了，\l我要回家给爸爸看。$"
@@ -482,7 +482,7 @@ LilycoveCity_Text_WailmerLeapOutOfWater:
     .string "这里！吼吼鲸！\n跳出水来！$"
 
 LilycoveCity_Text_GetLostMessingUpTraining:
-    .string "嗯？你想干什么？\p你打扰了我们训练了，\n呃，请你有多远死多远行么？$"
+    .string "嗯？你想干什么？\p你打扰了我们训练了，\n呃，请你有多远死多远行吗？$"
 
 LilycoveCity_Text_ContestHallInTown:
     .string "就在这个镇子里有个\n宝可梦比赛大厅，\p来自全国的强大宝可梦\n都会聚集在这里。\p我已经激动得心跳加速了！$"
@@ -503,7 +503,7 @@ LilycoveCity_Text_SomeonePuntedTeamAquaOut:
     .string "喂，知道吗？\p有人替我们\n赶走了海洋队！\p海湾那边的那些吼吼鲸也因此离开了，\n我们的船又能出海了。$"
 
 LilycoveCity_Text_SomeoneStoleMyPokemon:
-    .string "刚才我在海边的小旅舍\n听着潮声睡了一觉……\p有人却趁机偷了我的宝可梦！\p是谁干的？\n海洋队？是海洋队吗？$"
+    .string "刚才我在海边的民宿里\n听着潮声睡了一觉……\p有人却趁机偷了我的宝可梦！\p是谁干的？\n海洋队？是海洋队吗？$"
 
 LilycoveCity_Text_MissingPokemonCameBack:
     .string "我那失踪的宝可梦……\n在我没注意时自己回来了！$"
@@ -530,7 +530,7 @@ LilycoveCity_Text_ContestHallSign:
     .string "宝可梦华丽大赛会场\n“训练家聚集的地方！”$"
 
 LilycoveCity_Text_MotelSign:
-    .string "静水旅馆\p“请记住我们——\n水静市的静水。”$"
+    .string "静水民宿\p“请记住我们——\n水静市的静水。”$"
 
 LilycoveCity_Text_MuseumSign:
     .string "水静市美术馆\p“大量宝可梦名作\n正在展出！”$"

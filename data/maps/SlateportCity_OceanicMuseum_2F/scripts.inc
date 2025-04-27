@@ -343,7 +343,7 @@ SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica:
     .string "“正在楠木造船厂建造的\p破浪号游船的\n等比例模型。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica:
-    .string "“潜艇海渊1号\p洋底探险用\n高级潜水艇的模型。”$"
+    .string "“潜艇海渊1号\p洋底勘探用\n高级潜水艇的模型。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SumbersibleReplica:
     .string "“潜水者\p海底勘探用的坚固的\n无人探测器的模型。”$"

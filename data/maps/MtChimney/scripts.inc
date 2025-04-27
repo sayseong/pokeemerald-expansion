@@ -705,7 +705,7 @@ MtChimney_Text_ShirleyDefeat:
     .string "阿嚏！\n出浴后有点发冷呢。$"
 
 MtChimney_Text_ShirleyPostBattle:
-    .string "我要去温泉里再泡一下。\n一起来么？\p开玩笑啦！$"
+    .string "我要去温泉里再泡一下。\n一起来吗？\p开玩笑啦！$"
 
 MtChimney_Text_SawyerIntro:
     .string "真是座好山啊！有许多\n热情的人呢！$"

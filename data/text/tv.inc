@@ -134,7 +134,7 @@ SlateportCity_PokemonFanClub_Text_WhatDoPokemonMeanToYou::
     .string "OK是这样的。\p下一个问题呢\n会有一点难。\p这样的话……\p宝可梦对于你来说有什么样的意义呢？$"
 
 SlateportCity_PokemonFanClub_Text_ThatsAllForInterview::
-    .string "我知道了！\p恩……\p好的！\n谢谢你帮我解决了问题。\p和你谈话真是一件\n令人赏心悦目的事情啊。\p有可能的话我们的节目\n会上演的。一定要收看啊\p就这样了。\n再见！$"
+    .string "我知道了！\p嗯……\p好的！\n谢谢你帮我解决了问题。\p和你谈话真是一件\n令人赏心悦目的事情啊。\p有可能的话我们的节目\n会上演的。一定要收看啊\p就这样了。\n再见！$"
 
 SlateportCity_PokemonFanClub_Text_HereIfYouGetUrgeToTellMe::
     .string "哦好的……\p如果你想要说些关于宝可梦\n的事情的话，我会在这里的！$"
@@ -167,7 +167,7 @@ gTVFanClubOpinionsText04::
     .string "应该还有呢。\n我查一下吧！\p让我看看……\p我们这样问{STR_VAR_1}，\n“宝可梦对于你来说有什么意义呢？”\p…… …… ……\p“{STR_VAR_3}！”\p好极了！\p这是我今天听到最棒的呐喊！\p“{STR_VAR_3}！”\p他让你一遍一遍的\n重复着！\p既然我们得到了这么棒的呐喊，\n又到了我们说再见的时候了！\p所以我们最后再次把它大声喊出来吧！\n现在就一起……\p“{STR_VAR_3}！”$"
 
 gTVFanClubText00::
-    .string "我们是宝可梦发烧友俱乐部！\p现在正在直播！\p今天我们将连线到\n宝可梦服务中心。\p除了那些关于训练家和宝可梦的\n花边新闻，今天什么东西会吸引\l我们的眼球呢？\p让我看看……\p这个！\p我们将从这封信来开始！\p这是一封来自{STR_VAR_1}关于\n受人喜爱的{STR_VAR_2}的。\p让我们看看作者是怎样激情的\n表达了对于{STR_VAR_2}的喜爱！\l恩……$"
+    .string "我们是宝可梦发烧友俱乐部！\p现在正在直播！\p今天我们将连线到\n宝可梦服务中心。\p除了那些关于训练家和宝可梦的\n花边新闻，今天什么东西会吸引\l我们的眼球呢？\p让我看看……\p这个！\p我们将从这封信来开始！\p这是一封来自{STR_VAR_1}关于\n受人喜爱的{STR_VAR_2}的。\p让我们看看作者是怎样激情的\n表达了对于{STR_VAR_2}的喜爱！\l嗯……$"
 
 gTVFanClubText01::
     .string "哇！\n多么令人惊奇的信啊！$"
@@ -239,7 +239,7 @@ gTV3CheersForPokeblocksText02::
     .string "{STR_VAR_1}的混合式表演\n仍然有很多值得回味的。\p如果训练家安排得更好，\n宝可方块是不是会更棒呢。$"
 
 gTV3CheersForPokeblocksText03::
-    .string "古平：古比！古比比！\p主持：恩……太{STR_VAR_1}。\n古平这么称赞 “{STR_VAR_2}！”\p看起来{STR_VAR_3}的努力\n不是很有用……$"
+    .string "古平：古比！古比比！\p主持：嗯……太{STR_VAR_1}。\n古平这么称赞 “{STR_VAR_2}！”\p看起来{STR_VAR_3}的努力\n不是很有用……$"
 
 gTV3CheersForPokeblocksText04::
     .string "真是太糟糕了 {STR_VAR_1}的\n努力付诸东流了。\p我们希望{STR_VAR_2}下次能\n带给我们一个更加精彩的表演！$"
@@ -275,7 +275,7 @@ LilycoveCity_PokemonTrainerFanClub_HopeYouCatchTVSpecial::
     .string "这个节目关于\n{STR_VAR_1}的节目很快就播了。\p希望你能准时收看！$"
 
 gTVTrainerFanClubSpecialText00::
-    .string "训练家迷俱乐部\n{STR_VAR_1}特别版！\p这是赠给{STR_VAR_1}的粉丝的\n一个特别的礼物！\p今天让我们来进行这个话题大家是\n怎样看待{STR_VAR_1}？”\p让我们连线{STR_VAR_2}\n一位训练家代表。\p我们问，“总的来说你要怎\n么来描述{STR_VAR_1}？”\p回答是：“{STR_VAR_3}。”\p对{STR_VAR_2}的称赞！\n多么富有灵气的回答啊！\p“{STR_VAR_3} {STR_VAR_1}。”\n他是多么的令人羡慕啊！\p{STR_VAR_2}也将{STR_VAR_1}的\n视做完美。$"
+    .string "训练家迷俱乐部\n{STR_VAR_1}特别版！\p这是赠给{STR_VAR_1}的粉丝的\n一个特别的礼物！\p今天让我们来进行这个话题大家是\n怎样看待{STR_VAR_1}？”\p让我们连线{STR_VAR_2}\n一位训练家代表。\p我们问，“总的来说你要怎么\n来描述{STR_VAR_1}？”\p回答是：“{STR_VAR_3}。”\p对{STR_VAR_2}的称赞！\n多么富有灵气的回答啊！\p“{STR_VAR_3} {STR_VAR_1}。”\n他是多么的令人羡慕啊！\p{STR_VAR_2}也将{STR_VAR_1}的\n视做完美。$"
 
 gTVTrainerFanClubSpecialText01::
     .string "得分是{STR_VAR_3}点！\n得分相当的高啊！\p{STR_VAR_2}对\n{STR_VAR_1}很敬重啊。$"
@@ -440,7 +440,7 @@ SmartShopper_Text_DuringSale::
     .string "营业员：再加上，他还在热卖中。\n那是一个明智的选购。$"
 
 SmartShopper_Text_OutroNormal::
-    .string "访问记者：恩…… {STR_VAR_1}听起来\n很像一个精明的生意人！\p那么，{STR_VAR_1}的消费总额是……\p{STR_VAR_2}$？！\n多么另人惊讶的数字！\p哎呀！时间又到了！\n我们下次见吧！$"
+    .string "访问记者：嗯……{STR_VAR_1}听起来\n很像一个精明的生意人！\p那么，{STR_VAR_1}的消费总额是……\p{STR_VAR_2}$？！\n多么另人惊讶的数字！\p哎呀！时间又到了！\n我们下次见吧！$"
 
 SmartShopper_Text_IsVIP::
     .string "营业员：{STR_VAR_1}是一个VIP客人，\n没什么好怀疑的。$"
@@ -449,7 +449,7 @@ SmartShopper_Text_ClerkMax::
     .string "让我们采访一下店员\n来获取一些消息。\p嘿，你们的过工作何了？\p营业员：啊，我们的工作情况简直\n另人难以置信。实在是压倒性的顺利。\p最近，一个叫做{STR_VAR_1}的训练家\n大批量的购买了{STR_VAR_2}。\p那个训练家几乎买空了\n我们的{STR_VAR_2}库存。\p我从没想过会有一个客人\n需要这么多的{STR_VAR_2}。\l这是闻所未闻的！\p访问记者：就像卖出去了\n一两百个那么多？\p营业员：啊？不！比那多的多！\p访问记者：啊，我的天那！\n{STR_VAR_1}一定是个很特别的客人！\p营业员：{STR_VAR_1}是一个VIP客人，\n无须怀疑。$"
 
 SmartShopper_Text_OutroMax::
-    .string "访问记者：恩……\n太另人惊讶了。\p但是为什么一个训练家\n需要这么多？\p……\p越来越神秘了，但是我们节目\n结束的时间又到了。\l我们下次节目再见！\p然而，{STR_VAR_1}一定是个不可思议的人……$"
+    .string "访问记者：嗯……\n太另人惊讶了。\p但是为什么一个训练家\n需要这么多？\p……\p越来越神秘了，但是我们节目\n结束的时间又到了。\l我们下次节目再见！\p然而，{STR_VAR_1}一定是个不可思议的人……$"
 
 gTVWorldOfMastersText00::
     .string "大师的世界\p你们好，观众朋友。\p也许你们已经听到过\n那个叫{STR_VAR_1}的训练家。\p{STR_VAR_1}是一个出了名的\n宝可梦捕捉大师。\p{STR_VAR_1}对宝可梦的寻求完全依靠\n凭借双脚仔细的寻找。\p在那些值得纪念的日子里，那个训练家\n走过了{STR_VAR_2}的足迹。\p他捕捉的宝可梦总数\n达到了让人难忘的{STR_VAR_3}！$"
@@ -496,7 +496,7 @@ gTVTodaysRivalTrainerText06::
     .string "那么，你怎样才能拥有足以\n和{STR_VAR_1}相比的实力呢？\p去冒险吧！\p去追随训练家！\p让我们去追赶我们的竞争者\n甚至是超越他吧！$"
 
 TrendWatcher_Text_Intro::
-    .string "武斗镇流行调查员联络网！\p主持：怎么了？\n我们需要了解那些\l发生在武斗镇的的一些趣闻。\p我们今天的客人就是这位\n被称做武斗镇一切事物\l的权威人士的老家伙。\p老人：很高兴来到这里。\p主持：好的，让我们转入正题吧。\p您觉得目前在武斗镇的\n居民中最流行的是什么？\p老人：{STR_VAR_1}{STR_VAR_2}。\p主持：你说{STR_VAR_1}\n{STR_VAR_2}？\p老人：不。\p{STR_VAR_1}{STR_VAR_2}从来\n就没有出名过。\p你想听听他们的故事吗？\p主持：恩，不了。我们想知道的是\n一些政治性的……$"
+    .string "武斗镇流行调查员联络网！\p主持：怎么了？\n我们需要了解那些\l发生在武斗镇的的一些趣闻。\p我们今天的客人就是这位\n被称做武斗镇一切事物\l的权威人士的老家伙。\p老人：很高兴来到这里。\p主持：好的，让我们转入正题吧。\p您觉得目前在武斗镇的\n居民中最流行的是什么？\p老人：{STR_VAR_1}{STR_VAR_2}。\p主持：你说{STR_VAR_1}\n{STR_VAR_2}？\p老人：不。\p{STR_VAR_1}{STR_VAR_2}从来\n就没有出名过。\p你想听听他们的故事吗？\p主持：嗯，不了。我们想知道的是\n一些当下流行的……$"
 
 @ Identical to below, may have been different in other languages
 TrendWatcher_Text_MaleTaughtMePhrase::
@@ -506,7 +506,7 @@ TrendWatcher_Text_FemaleTaughtMePhrase::
     .string "老人：{STR_VAR_1}{STR_VAR_2}\n是一个从未白镇来的{STR_VAR_3}\l告诉我的一件新鲜事物……$"
 
 TrendWatcher_Text_PhraseWasHopeless::
-    .string "但是我绝望了。\p{STR_VAR_1}{STR_VAR_2}节！\p{STR_VAR_1}{STR_VAR_2}比赛！\p我试着尽全力去把它\n教给每一个人，但是……\p或许{STR_VAR_1}部分\n并不是正确的……\p主持：恩，打扰一下，先生，我需要\n听一些政治性的……$"
+    .string "但是我绝望了。\p{STR_VAR_1}{STR_VAR_2}节！\p{STR_VAR_1}{STR_VAR_2}比赛！\p我试着尽全力去把它\n教给每一个人，但是……\p或许{STR_VAR_1}部分\n并不是正确的……\p主持：嗯，打扰一下，先生，我需要\n听一些当下流行的……$"
 
 @ Identical to below, may have been different in other languages
 TrendWatcher_Text_MaleTellMeBigger::
@@ -516,10 +516,10 @@ TrendWatcher_Text_FemaleTellMeBigger::
     .string "老人：{STR_VAR_3}！\n那么，请你告诉我一些\l比{STR_VAR_1}{STR_VAR_2}更重要的事吧！$"
 
 TrendWatcher_Text_Outro::
-    .string "主持：……恩……这样，那都是你的想法，\n你的兴趣，别在这里说！\p{STR_VAR_1}{STR_VAR_2}……恩……\n我们没有得到关于武斗镇的趣闻啊！\p我可没时间去理解你的胡言乱语！\p老人：{STR_VAR_1}{STR_VAR_2}！$"
+    .string "主持：……嗯……这样，那都是你的想法，\n你的兴趣，别在这里说！\p{STR_VAR_1}{STR_VAR_2}……嗯……\n我们没有得到关于武斗镇的趣闻啊！\p我可没时间去理解你的胡言乱语！\p老人：{STR_VAR_1}{STR_VAR_2}！$"
 
 gTVHoennTreasureInvestigatorsText00::
-    .string "丰缘宝藏挖掘者！\p嗨，大家！\n最近记下什么秘密了么？\p一直以来，我们都在从各地的\n目击者报告里找寻各种秘密！\p让我们从这封信开始。\n信中说道，“发现{STR_VAR_1}！”$"
+    .string "丰缘宝藏挖掘者！\p嗨，大家！\n最近记下什么秘密了吗？\p一直以来，我们都在从各地的\n目击者报告里找寻各种秘密！\p让我们从这封信开始。\n信中说道，“发现{STR_VAR_1}！”$"
 
 gTVHoennTreasureInvestigatorsText01::
     .string "喔，我们必须要仔细看看这封信！\n我来为你们读一下。\p……亲爱的挖掘者，\n我希望你很好。\p我最近在{STR_VAR_3}附近的一些地方\n看到了{STR_VAR_2}。\p那个训练家找到了\n{STR_VAR_1}。这让我很嫉妒。\p……好的，这很不错，{STR_VAR_2}！\p观众们，就让这件事激发你们的\n探索欲望吧！\p我会一直等待你们\n给我激动人心的消息的！$"
@@ -627,7 +627,7 @@ gTVThePokemonBattleSeminarText00::
     .string "这里是宝可梦对战研讨会！\p我们研究战斗，来发现\n我们能从别人那里学到什么。\p今天我们来研究一下{STR_VAR_1}的\n战斗。\p{STR_VAR_1}的{STR_VAR_2}正在\n与{STR_VAR_3}战斗……$"
 
 gTVThePokemonBattleSeminarText01::
-    .string "然后它对{STR_VAR_2}\n使用了{STR_VAR_3}这个招式……\p哼哼…… {STR_VAR_1}！\n你不能这样做！$"
+    .string "然后它对{STR_VAR_2}\n使用了{STR_VAR_3}这个招式……\p哼哼……{STR_VAR_1}！\n你不能这样做！$"
 
 gTVThePokemonBattleSeminarText02::
     .string "{STR_VAR_1}也会这个……$"
@@ -891,7 +891,7 @@ TVSecretBaseSecrets_Text_DeclinedBattle::
     .string "游客在和{STR_VAR_1}\n说些什么！\p他们好像要\n进行对战了！\p接下来……\p噢，游客拒绝了！\p他们并没有战斗！\p他认为{STR_VAR_1}没有\n吸引力了吗？$"
 
 TVSecretBaseSecrets_Text_UsedPoster::
-    .string "游客正聚精会神地\n盯着一张海报！\p那是他喜欢的\n海报吗？\p……但是…… 他的眼神中\n带着一丝不安。$"
+    .string "游客正聚精会神地\n盯着一张海报！\p那是他喜欢的\n海报吗？\p……但是……他的眼神中\n带着一丝不安。$"
 
 TVSecretBaseSecrets_Text_UsedNoteMat::
     .string "游客站在了音符地毯上！\p……唔……\n他谱写出了一段不可思议的乐章！$"

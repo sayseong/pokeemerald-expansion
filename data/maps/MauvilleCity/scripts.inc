@@ -528,7 +528,7 @@ MauvilleCity_Text_WattsonYoungTakeCharge:
     .string "铁旋：啊哈哈哈哈！\p我最喜欢看到年轻人\n挑起重担，引领这个时代！$"
 
 MauvilleCity_Text_NurseHurtMonBackToHealth:
-    .string "你知道么，看着宝可梦去战斗\n真是太棒了……\p但如果你的宝可梦受了伤，\n就得赶快帮它治疗。$"
+    .string "你知道吗，看着宝可梦去战斗\n真是太棒了……\p但如果你的宝可梦受了伤，\n就得赶快帮它治疗。$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough:
     .string "这个镇子的道路\n通向四面八方，\p因此在这里\n能见到各式各样的人。$"

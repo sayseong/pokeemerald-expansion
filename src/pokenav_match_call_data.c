@@ -214,7 +214,7 @@ static const struct MatchCallBirch sProfBirchMatchCallHeader =
     .mapSec = 0,
     .flag = FLAG_ENABLE_PROF_BIRCH_MATCH_CALL,
     .desc = COMPOUND_STRING("宝可梦博士"),
-    .name = COMPOUND_STRING("小田卷")
+    .name = COMPOUND_STRING("小田卷博士")
 };
 
 static const match_call_text_data_t sMomTextScripts[] = {

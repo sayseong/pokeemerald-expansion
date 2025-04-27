@@ -752,7 +752,7 @@ gText_ApprenticeWhichMove13::
     .string "呀！啊！哦，{PLAYER}{KUN}……\n我很冷，我做……\p我想要我的宠物进行，\n但是我不能让它达到这个地步……\p于是，事情就这样了，\n我需要你给我一个建议。\p{PLAYER}{KUN}，如果我在这之间有\n{STR_VAR_2}一个{STR_VAR_3}选择\l{STR_VAR_1}，会是哪个呢？$"
 
 gText_ApprenticeMoveThanks13::
-    .string "恩，{STR_VAR_1}，对了。咳咳！\n我好了后将教它。\p我希望我能一直像这样\n帮助你。$"
+    .string "嗯，{STR_VAR_1}，对了。咳咳！\n我好了后将教它。\p我希望我能一直像这样\n帮助你。$"
 
 gText_ApprenticeWhichMove14::
     .string "嗯……呃……\n{PLAYER}{KUN}……？\p请不要那样看着我。\n我感到很混乱……\l我……我需要你的建议。\p我……我已经被囚禁了，但是我不能\n决定要教我的宠物什么\l活动。\p这是为了我{STR_VAR_1}。\n如果是这样选择{STR_VAR_2}\l{STR_VAR_3}，哪个会是更好的呢？$"
@@ -815,7 +815,7 @@ gText_ApprenticeWinSpeechThanks7::
     .string "{STR_VAR_1}\p啊！太棒了！这话让我清醒\n并且感到如获新生！\p我一定将它用好！\p现在，我必须提升实力，\n{PLAYER}……\p我要和其他人战斗，\n但决不会忘记你的教导。\p没准儿哪天……\n回见！$"
 
 gText_ApprenticePickWinSpeech8::
-    .string "呃！你是{PLAYER}吧！\n我…… 能见到你真是太高兴了！\p噢——噢——噢！我有些事\n要向你请教一下！\p不久之前，我赢得了比赛。\n那真是令人眼花缭乱！\p但是我在万分高兴之余\n就说不出话来了！\p所以，{PLAYER}，我想请你现在\n为我指明一条出路！$"
+    .string "呃！你是{PLAYER}吧！\n我……能见到你真是太高兴了！\p噢——噢——噢！我有些事\n要向你请教一下！\p不久之前，我赢得了比赛。\n那真是令人眼花缭乱！\p但是我在万分高兴之余\n就说不出话来了！\p所以，{PLAYER}，我想请你现在\n为我指明一条出路！$"
 
 gText_ApprenticeWinSpeechThanks8::
     .string "{STR_VAR_1}\p哇啊啊啊啊！\n我以后就要这么说了吗？！\l我……高兴得不知说什么好了！\p谢——谢——谢谢你了！\n我现在可以没有遗憾的离开了！\p我要游遍大江南北\n和各种人战斗。\p什么也不说了，{PLAYER}。\n真的，真的，太感谢你了！\p我现在就要走了，但是有一天\n我们会见面并且打一场的！$"
@@ -851,10 +851,10 @@ gText_ApprenticeWinSpeechThanks13::
     .string "{STR_VAR_1}\p……太棒了。\n不，真是太感动了！\l我又开始流泪了！\p但是不用管我的眼泪\n和鼻子，我以后就这么说了！\p我还有事要和你说，\n{PLAYER}{KUN}。\p现在开始，我们就是对手了！\n谢谢你的帮助！$"
 
 gText_ApprenticePickWinSpeech14::
-    .string "呃…… 唔……\n{PLAYER}{KUN}……\p请不要这样看着我。\n你弄得我很紧张。\p我……我还得向你请教。\n在比赛结束之后， 虽然……\p这真的让人难以启齿，\n但是如果我赢了比赛\l我该说些什么呢？$"
+    .string "呃……唔……\n{PLAYER}{KUN}……\p请不要这样看着我。\n你弄得我很紧张。\p我……我还得向你请教。\n在比赛结束之后， 虽然……\p这真的让人难以启齿，\n但是如果我赢了比赛\l我该说些什么呢？$"
 
 gText_ApprenticeWinSpeechThanks14::
-    .string "{STR_VAR_1}\p哦…… 好的！\n我会试着这么说的！\l我可能会不好意思说出来……\p谢谢你，{PLAYER}{KUN}。\n那么再见了。\p我会按你教的那样做的，\n{PLAYER}{KUN}，而且要做到最好。$"
+    .string "{STR_VAR_1}\p哦……好的！\n我会试着这么说的！\l我可能会不好意思说出来……\p谢谢你，{PLAYER}{KUN}。\n那么再见了。\p我会按你教的那样做的，\n{PLAYER}{KUN}，而且要做到最好。$"
 
 gText_ApprenticePickWinSpeech15::
     .string "唔？你貌似是{PLAYER}{KUN}……\n是真的吗？\l难道你不是{PLAYER}的人偶？\p噢，不，不，不，别担心！\n如果你真的是本人，\l请原谅我的无礼。\p没必要这么生气吧。我还需要\n你好好指点我呢。\p是关于言词的。\p准确地说，就是在我打赢之后\n应该说些什么呢？$"

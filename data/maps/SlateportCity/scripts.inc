@@ -1072,10 +1072,10 @@ SlateportCity_Text_BigSmileForCamera:
     .string "达伊：好，楠木馆长，\n对镜头笑一下！$"
 
 SlateportCity_Text_MostInvaluableExperience:
-    .string "玛莉：我们知道您在此次探险中\n获得了非常宝贵的经验……$"
+    .string "玛莉：我们知道您在此次勘探中\n获得了非常宝贵的经验……$"
 
 SlateportCity_Text_SternMoveAheadWithExploration:
-    .string "楠木馆长：是的，\n我们打算把探险继续进行下去。$"
+    .string "楠木馆长：是的，\n我们打算把勘探继续进行下去。$"
 
 SlateportCity_Text_GabbyWonderfulThanksForInterview:
     .string "玛莉：加油吧，楠木馆长！\n感谢您在百忙中抽出时间来\l接受我们的采访，\p下次有什么新发现的话，\n希望还能允许我们采访您！$"
@@ -1084,7 +1084,7 @@ SlateportCity_Text_SternWhewFirstInterview:
     .string "楠木馆长：呼……\p这是我第一次上电视。\n真紧张。$"
 
 SlateportCity_Text_OhPlayerWeMadeDiscovery:
-    .string "噢！{PLAYER}{KUN}！\n你精神真不错！\p在我们上次探险中\n有个大发现，\p在128号水路上\n有个海底洞窟。\p我们认为这可能是一种\n被认为灭绝了很久的宝可梦的栖息地。$"
+    .string "噢！{PLAYER}{KUN}！\n你精神真不错！\p在我们上次勘探中\n有个大发现，\p在128号水路上\n有个海底洞窟。\p我们认为这可能是一种\n被认为灭绝了很久的宝可梦的栖息地。$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
     .string "哼哼哼……\n楠木馆长，打扰了，\p你的潜水艇\n我们海洋队征用了！\p反抗是没用的！\n希望你好好配合！\p哼哼哼……\n你就好好看看我们海洋队的\l宏伟计划吧！$"
