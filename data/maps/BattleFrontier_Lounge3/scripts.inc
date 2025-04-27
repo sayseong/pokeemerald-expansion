@@ -237,7 +237,7 @@ BattleFrontier_Lounge3_Text_ChallengeBattlePike::
     .string "我正在找想要参加\n对战管道里选择式对战\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePyramid::
-    .string "我正在找想要参加\n对战金字塔里追寻式战斗\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要参加\n对战金字塔里探索式战斗\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe::
     .string "我觉得也许你值得一试，\n怎么样？\l能替我参加吗？$"
@@ -288,7 +288,7 @@ BattleFrontier_Lounge3_Text_GetToBattlePike::
     .string "马上就去对战管道的\n选择式对战吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePyramid::
-    .string "马上就去对战金字塔的\n追寻式战斗吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战金字塔的\n探索式战斗吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_NiceTryCantReturnPoints::
     .string "啊，你来了……\n你很努力了……\p不过抱歉，我没法把\n对战点数还给你了……\p就让我们下一回\n更加努力一些吧！$"

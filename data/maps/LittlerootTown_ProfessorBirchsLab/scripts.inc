@@ -754,7 +754,7 @@ LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational:
     .string "{PLAYER}的宝可梦图鉴升级成\n全国模式！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
-    .string "小田卷博士：但是，听好，\n虽然你成为了冠军，\l但你的宝可梦之旅还未结束，\p这条与宝可梦同行的路\n并无尽头，\p还有未知的草地\n在等待你去探索！$"
+    .string "小田卷博士：但是，听好，\n虽然你成为了冠军，\l但你的宝可梦之旅还未结束，\p这条与宝可梦同行的路\n永无止境，\p某处总有着未知的草丛\n在等待着你去探索！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
     .string "小遥：我准备暂停\n野外调查，\p留在这里帮一下\n博士。$"
@@ -792,7 +792,7 @@ LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
     .string "要给刚得到的\n{STR_VAR_1}起个昵称吗？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
-    .string "小田卷博士：听好，{PLAYER}{KUN}，\n你完成了丰缘宝可梦图鉴，\l但你的宝可梦之旅并未结束，\p这条与宝可梦同行的路\n并无尽头，\p还有未知的草地\n在等待你去探索！$"
+    .string "小田卷博士：听好，{PLAYER}{KUN}，\n你完成了丰缘宝可梦图鉴，\l但你的宝可梦之旅并未结束，\p这条与宝可梦同行的路\n永无止境，\p某处总有着未知的草丛\n在等待着你去探索！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone:
     .string "你已经拿到了你的宝可梦，\n其他的还是留下吧。$"

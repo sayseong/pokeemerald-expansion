@@ -532,13 +532,13 @@ BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid:
     .string "欢迎来到\n对战金字塔！\p在这里测试的是\p训练家的勇气！\n我是对战任务的向导。$"
 
 BattleFrontier_BattlePyramidLobby_Text_EmbarkOnChallenge:
-    .string "你有开始挑战\n追寻式对战的勇气吗？$"
+    .string "你有开始挑战\n探索式对战的勇气吗？$"
 
 BattleFrontier_BattlePyramidLobby_Text_AwaitFutureChallenge:
     .string "我们会等你以后来挑战！$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
-    .string "在追寻式对战中，\n你需要探索金字塔\l内部，并努力攀到顶峰。\p金字塔中有七层迷宫，\n里面不仅有强大的训练家，\l还有野生宝可梦。\p你需要带三只宝可梦进入，\n并且它们不能携带物品。\p攀登的过程中，你可以\n得到一个战斗包包来装物品，\p如果挑战失败，放在战斗包包中的\n物品都会消失。\p如果要中断挑战，\n请选择“休息”\l并保存游戏，\p中断前未作保存\n则视为放弃挑战。$"
+    .string "在探索式对战中，\n你需要探索金字塔\l内部，并努力攀到顶峰。\p金字塔中有七层迷宫，\n里面不仅有强大的训练家，\l还有野生宝可梦。\p你需要带三只宝可梦进入，\n并且它们不能携带物品。\p攀登的过程中，你可以\n得到一个战斗包包来装物品，\p如果挑战失败，放在战斗包包中的\n物品都会消失。\p如果要中断挑战，\n请选择“休息”\l并保存游戏，\p中断前未作保存\n则视为放弃挑战。$"
 
 BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode:
     .string "金字塔挑战有两种等级，\n50级和自由级，\l你要参加哪一种？$"
@@ -708,7 +708,7 @@ BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints:
     .string "年轻的冒险者啊！\n为了表彰你的勇气，\l我们赠与你这些对战点数！$"
 
 BattleFrontier_BattlePyramidLobby_Text_RulesAreListed:
-    .string "上面写着追寻式对战的规则。$"
+    .string "上面写着探索式对战的规则。$"
 
 BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading:
     .string "想读哪一条？$"

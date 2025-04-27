@@ -551,7 +551,7 @@ LilycoveCity_Harbor_Text_NoTicket:
     .string "{PLAYER}没有船票……\p非常抱歉，\p要乘船的话\n必须要有船票。$"
 
 LilycoveCity_Harbor_Text_FlashTicketWhereTo:
-    .string "{PLAYER}出示了船票。\p好！这就足够了！\p您想去哪儿？$"
+    .string "{PLAYER}出示了船票。\p好！有它就够了！\p您想去哪儿？$"
 
 LilycoveCity_Harbor_Text_SailAnotherTime:
     .string "欢迎下次再来！$"

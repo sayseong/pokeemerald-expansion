@@ -485,7 +485,7 @@ LilycoveCity_Text_GetLostMessingUpTraining:
     .string "嗯？你想干什么？\p你打扰了我们训练了，\n呃，请你有多远死多远行吗？$"
 
 LilycoveCity_Text_ContestHallInTown:
-    .string "就在这个镇子里有个\n宝可梦比赛大厅，\p来自全国的强大宝可梦\n都会聚集在这里。\p我已经激动得心跳加速了！$"
+    .string "就在这个镇子里有个\n宝可梦华丽大赛会场，\p全国的悉心培育的宝可梦\n都会在这里聚集。\p我已经激动得心跳加速了！$"
 
 LilycoveCity_Text_StrangeCaveInCove:
     .string "你看到镇子边缘的海湾里\n那个可疑的洞窟了吗？$"

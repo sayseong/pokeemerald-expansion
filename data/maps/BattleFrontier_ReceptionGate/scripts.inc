@@ -350,7 +350,7 @@ BattleFrontier_ReceptionGate_Text_BattlePikeInfo:
     .string "对战管道是位于\n对战开拓区中央偏左的\l像宝可梦一样的建筑。\p里面会举行\n选择式对战。$"
 
 BattleFrontier_ReceptionGate_Text_BattlePyramidInfo:
-    .string "对战金字塔就是那个\n巨大的金字塔。\p里面会举行\n追寻式战斗。$"
+    .string "对战金字塔就是那个\n巨大的金字塔。\p里面会举行\n探索式战斗。$"
 
 BattleFrontier_ReceptionGate_Text_RankingHallInfo:
     .string "排行榜位于\n对战塔附近。\p你可以在那里看到\n活跃在对战开拓区的\l训练家们所留下的\l非凡的成绩。$"

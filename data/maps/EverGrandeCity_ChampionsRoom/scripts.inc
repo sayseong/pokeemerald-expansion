@@ -227,7 +227,7 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
     .string "米可利：欢迎你，{PLAYER}{KUN}。\p在琉璃市发生的事……\n你做得真是华丽，凭一己之力就\l化解了危机。\p呵呵！\p说是一己之力\n可能有点不太妥当。\p通过你和你的宝可梦之间的\n齐心协力，你克服了重重困难。\p我们训练家通过给予宝可梦道具\n并教授给它们战斗技巧以培育它们。\p但其实我们自己本身\n也从宝可梦那里获益良多。\p这里就是检验像你这样的训练家\n努力成果的最好的地方。\p现在！\p谁是全丰缘最能与自己的宝可梦\n华丽共舞之人？\p此时此处，展示给我看吧！$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat:
-    .string "我，冠军，被打败了……\p你做得很好。\n优雅得令人嫉妒，\l仿佛闪闪发光！\p光荣属于你，{PLAYER}{KUN}！\p你是一名真正高贵的\n宝可梦训练家！$"
+    .string "我，冠军，被打败了……\p你做得很好。\n优雅得令人嫉妒，\l仿佛在闪闪发光！\p光荣属于你，{PLAYER}{KUN}！\p你是一名真正高贵的\n宝可梦训练家！$"
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
     .string "米可利：你所选择参加战斗的\n宝可梦……\p有时它们轻柔如风，\n有时它们又迅猛如雷。\p还带着一丝，无疑是从你那里获得的，\n轻盈而坚定的优雅。\p甚至连我都为你\n出色的表现而着迷！\p你现在已经到达了\n宝可梦联盟光荣的顶峰。\p我现在宣布\n你是丰缘地区新的……$"
@@ -245,10 +245,10 @@ EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
     .string "小悠：{PLAYER}……\p你不会是想告诉我……\n你已经打败了冠军？$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
-    .string "小田卷博士：是吧？\n就像我之前说过的，{RIVAL}？\p我说过你不必担忧\n{PLAYER}{KUN}？\p…… …… …… ……\n{PLAYER}{KUN}，你最终成功了。\p当我听说你\n在橙华道馆打败了你的父亲，\l我当时认为你可能有机会……\p但是我没想到你现在\n真的成为了冠军！\p啊，是的！\p你的图鉴完成得如何了？\n这里，来让我看下。$"
+    .string "小田卷博士：是吧？\n就像我之前说过的，{RIVAL}？\p我说过你不必担忧\n{PLAYER}{KUN}？\p…… …… …… ……\n{PLAYER}{KUN}，你终于做到了。\p当我听说你在橙华道馆\n打败了你的父亲，\l我当时认为你可能有机会……\p但是我没想到你现在\n真的成为了冠军！\p啊，对了！\p你的图鉴完成得如何了？\n来，让我看一下。$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchCongratulations:
-    .string "小田卷博士：不管怎么说，\n恭喜你！\p现在，昂首挺进最终的房间吧！$"
+    .string "小田卷博士：无论如何，\n恭喜你！\p现在，昂首挺进最终的房间吧！$"
 
 EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe:
     .string "米可利：{PLAYER}{KUN}……\p不，我要改口了。\p新任冠军！\p跟我来。$"

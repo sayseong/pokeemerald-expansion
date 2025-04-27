@@ -961,5 +961,5 @@ LittlerootTown_Text_ProfBirchsHouse:
     .string "小田卷博士的家$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
-    .string "小田卷博士：好，好，{PLAYER}{KUN}！\n你干的不错！\p我第一眼看到你\n就知道你不简单，\l但我从未想到你能做得这么好。\p哦，对了，你还带着\n我给你的宝可梦图鉴吗？\p我有些东西要给你看。\n到我的研究所来吧。$"
+    .string "小田卷博士：{PLAYER}{KUN}！\n你干得不错！\p我第一眼看到你\n就知道你不简单，\l但我从未想到你能做得这么好。\p哦，对了，你还带着\n我给你的宝可梦图鉴吗？\p我有些东西要给你看。\n到我的研究所来吧。$"
 

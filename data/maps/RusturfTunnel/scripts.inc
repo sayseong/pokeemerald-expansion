@@ -428,7 +428,7 @@ RusturfTunnel_Text_ComeAndGetSome:
     .string "什么，你已经来了啊？\n那么过来拿吧！$"
 
 RusturfTunnel_Text_Peeko:
-    .string "小皮：皮 皮可！$"
+    .string "小皮：皮——皮可！$"
 
 RusturfTunnel_Text_GruntIntro:
     .string "靠，不是吧！\p那只宝可梦看起来\n没用了！\p没想到……\n我竟然逃进了一个没有出口的隧道！\p嘿！说你呢！\n你想要和我战斗？$"

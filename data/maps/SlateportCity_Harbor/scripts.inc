@@ -396,7 +396,7 @@ SlateportCity_Harbor_Text_YouMustHaveTicket:
     .string "{PLAYER}没有船票……\p非常抱歉，\p要乘船的话\n必须要有船票。$"
 
 SlateportCity_Harbor_Text_FlashedTicketWhereTo:
-    .string "{PLAYER}出示了船票。\p好！这就足够了！\p您想去哪儿？$"
+    .string "{PLAYER}出示了船票。\p好！有它就够了！\p您想去哪儿？$"
 
 SlateportCity_Harbor_Text_SailAnotherTime:
     .string "欢迎下次再来！$"
@@ -441,7 +441,7 @@ SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
     .string "楠木馆长：啊，没错，\n哈奇到我们船厂来了。\p这样游船\n很快就会完工了！$"
 
 SlateportCity_Harbor_Text_FinishedMakingFerry:
-    .string "楠木馆长：{PLAYER}{KUN}！\p我们终于造好\n破浪号游船了！\p多亏了你朋友哈奇的\n帮忙，我们才能这么快完工。\p上船游览一番吧！$"
+    .string "楠木馆长：{PLAYER}{KUN}！\p我们终于造好\n破浪号游船了！\p多亏了你朋友哈奇的帮忙，\n我们才能这么快完工。\p上船游览一番吧！$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
     .string "楠木馆长：嗯？\n{PLAYER}{KUN}，你拿的是……\p那是探测器！这会在我们的勘探中\n派上大用场的。\p{PLAYER}{KUN}，你愿意用你的\n探测器换点东西吗？\p比如，嗯，深海之牙\n或者深海鳞片？$"
