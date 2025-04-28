@@ -3,7 +3,7 @@
 每个支持的操作系统的安装说明可在 `docs/install/` 目录下的对应子目录中找到。
 各个系统的链接列在各自的标题下。
 本文件仅包含对每个支持系统的简要介绍。
-如果遇到问题，请在 Discord 上寻求帮助（见 [README.md](README.md)）。
+如果遇到问题，请在 Discord 上寻求帮助（见 [README_ZH.md](README_ZH.md)）。
 
 完成对应操作系统的安装说明后，继续阅读 [构建 pokeemerald-expansion](#构建-pokeemerald-expansion)。
 
@@ -20,7 +20,7 @@
 
 **注意**：仅推荐使用 WSL 系统。
 
-[WSL 安装说明](docs/install/windows/WSL.md)
+[WSL 安装说明](docs/install/windows/WSL_ZH.md)
 
 [Msys2 安装说明](docs/install/windows/MSYS2.md)
 
