@@ -246,7 +246,7 @@ BattleFrontier_OutsideEast_Text_BattlePyramidSign:
     .string "这里是对战金字塔！\n升华你的对战之道！$"
 
 BattleFrontier_OutsideEast_Text_RankingHallSign:
-    .string "对战开拓区排行榜\n关注最新的纪录！$"
+    .string "对战开拓区排名大厅\n关注最新的纪录！$"
 
 BattleFrontier_OutsideEast_Text_ExchangeCornerSign:
     .string "对战点数兑换服务区\n兑换对战点数！$"
@@ -291,7 +291,7 @@ BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy:
     .string "去吧，小甜心！\n为了爸爸取得胜利吧！\p你和你妈妈一样，\n绝对能够主导战斗！$"
 
 BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena:
-    .string "这一路过来可真不容易！\n但我可是听说对战竞技场的\n有个无比漂亮的女孩。\p除了她，你知道我还\n找到了什么？\p一大群满身汗臭的\n自然的武术家！$"
+    .string "这一路过来可真不容易！\n但我可是听说对战竞技场的\l有个无比漂亮的女孩。\p除了她，你知道我还\n找到了什么？\p一大群满身汗臭的\n粗野的武术家！$"
 
 BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere:
     .string "有时候能看到这位看上去\n明显是大人物的老人到这儿来，\p他的宝可梦真强，\n但他本人看起来很和善。$"
@@ -309,7 +309,7 @@ BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll:
     .string "好了！\n终于攒够了对战点数！\p可以再换一个\n毛绒玩具了！$"
 
 BattleFrontier_OutsideEast_Text_LikeToHaveNameRecordedHere:
-    .string "啊哈哈！\n这里就是排行榜！\p我要让历史记住我这个\n超级冠军，把我的名字记录在这里，\l让所有的子孙后代都能看到！$"
+    .string "啊哈哈！\n这里就是排名大厅！\p我要让历史记住我这个\n超级冠军，把我的名字记录在这里，\l让所有的子孙后代都能看到！$"
 
 BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou:
     .string "只要有你在身边，我会无往不利。$"

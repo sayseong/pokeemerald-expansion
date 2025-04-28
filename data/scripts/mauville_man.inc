@@ -678,18 +678,18 @@ MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexStory::
 	.string "宝可梦的数据！$"
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsTitle::
-	.string "缎带收藏家$"
+	.string "奖章收藏家$"
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsAction::
-	.string "收藏缎带$"
+	.string "收藏奖章$"
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "他一共收藏了缎带\n"
+	.string "他一共收藏了奖章\n"
 	.string "{STR_VAR_1}条！\p"
 	.string "{STR_VAR_3}一定很喜欢\n"
-	.string "收藏缎带！$"
+	.string "收藏奖章！$"
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedTitle::
 	.string "蹦极狂热爱好者$"

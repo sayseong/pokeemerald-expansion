@@ -968,7 +968,7 @@ BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons:
     .string "这是连续打败七位\n强大的训练家的奖励。\p{PLAYER}得到奖章！$"
 
 BattleFrontier_BattleTowerLobby_Text_PutRibbonOnMons:
-    .string "{PLAYER}给挑战的宝可梦\n佩戴了奖章。$"
+    .string "{PLAYER}给挑战的宝可梦\n戴上了奖章。$"
 
 BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower:
     .string "打扰了，能占用你一点时间吗？\p请说说你在对战塔比赛\n开始之前的想法，也可以\l谈谈赢了或输了比赛\l之后的感受。$"

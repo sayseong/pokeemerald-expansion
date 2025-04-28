@@ -681,52 +681,52 @@ gTVTrainerFanClubText11::
     .string "主持：就像你们看见的那样，{STR_VAR_1}\n真流行！可以说是炙手可热！\p在{STR_VAR_1}的酱油众中\n有一个特别的口号！\p主持：当我说{STR_VAR_1}，\n你们说……\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p主持：就是这样。当一个人对你说\n“{STR_VAR_1}”时……\p一定要回应， “{STR_VAR_2}\n{STR_VAR_3}！”\p这是独一无二的环！\n我能理解为什么人们成为了\l{STR_VAR_1}的酱油众！\p电视机前的观众们，加入我们吧！\n大家注意！\p主持：当我说{STR_VAR_1}，\n你说……\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p主持：感谢大家的参与，\n狂野的{STR_VAR_1}的酱油众们！\l节目结束！下次再见！\p主持：当我说{STR_VAR_1}，\n你就说……\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！$"
 
 TVSpotTheCuties_Text_Intro::
-    .string "捕捉可爱的一瞬！\n宝可梦戴缎带！\p我亲爱的观众们，你们好！\p我知道你们都同意，形容戴着缎带\n的宝可梦就只有一个词：美丽！\p今天，我想和观众们分享\n一个当我在城里散步时看见的宝可梦。\p今天的可爱的宝可梦\n是{STR_VAR_1}的{STR_VAR_2}。$"
+    .string "捕捉可爱的一瞬！\n宝可梦戴奖章！\p我亲爱的观众们，你们好！\p我知道你们都同意，形容戴着奖章\n的宝可梦就只有一个词：美丽！\p今天，我想和观众们分享\n一个当我在城里散步时看见的宝可梦。\p今天的可爱的宝可梦\n是{STR_VAR_1}的{STR_VAR_2}。$"
 
 TVSpotTheCuties_Text_RibbonsLow::
-    .string "由{STR_VAR_2}戴着的\n缎带数是{STR_VAR_3}。\p这告诉了我们\n{STR_VAR_1}有多么爱他的宝可梦。$"
+    .string "由{STR_VAR_2}戴着的\n奖章数是{STR_VAR_3}。\p这告诉了我们\n{STR_VAR_1}有多么爱他的宝可梦。$"
 
 TVSpotTheCuties_Text_RibbonsMid::
-    .string "{STR_VAR_2}带着令人惊讶的\n{STR_VAR_3}缎带！\p它清楚地展现了{STR_VAR_1}\n对于宝可梦的执著！$"
+    .string "{STR_VAR_2}带着令人惊讶的\n{STR_VAR_3}奖章！\p它清楚地展现了{STR_VAR_1}\n对于宝可梦的执著！$"
 
 TVSpotTheCuties_Text_RibbonsHigh::
-    .string "{STR_VAR_2}戴着令人难以置信的\n{STR_VAR_3}缎带！\p它们展现了{STR_VAR_1}\n作为收集者的奉献！$"
+    .string "{STR_VAR_2}戴着令人难以置信的\n{STR_VAR_3}奖章！\p它们展现了{STR_VAR_1}\n作为收集者的奉献！$"
 
 TVSpotTheCuties_Text_RibbonIntro::
-    .string "让我们仔细地看看这些\n由{STR_VAR_2}戴着的缎带。$"
+    .string "让我们仔细地看看这些\n由{STR_VAR_2}戴着的奖章。$"
 
 TVSpotTheCuties_Text_RibbonChampion::
-    .string "冠军缎带真是\n太漂亮啦。\p{STR_VAR_2}在进入名人纪念馆时\n获得了这款缎带。\p它见证了\n{STR_VAR_2}的勇敢。\p{STR_VAR_2}和冠军缎带！\n多么契合的组合啊！$"
+    .string "冠军奖章真是\n太漂亮啦。\p{STR_VAR_2}在进入名人纪念馆时\n获得了这款奖章。\p它见证了\n{STR_VAR_2}的勇敢。\p{STR_VAR_2}和冠军奖章！\n多么契合的组合啊！$"
 
 TVSpotTheCuties_Text_RibbonCool::
-    .string "帅气缎带真是\n太漂亮啦。\p{STR_VAR_2}因赢得了帅气华丽大赛\n而获得了这款缎带。\p它见证了\n{STR_VAR_2}的帅气。\p{STR_VAR_2}和帅气缎带！\n多么契合的组合啊！$"
+    .string "帅气奖章真是\n太漂亮啦。\p{STR_VAR_2}因赢得了帅气华丽大赛\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的帅气。\p{STR_VAR_2}和帅气奖章！\n多么契合的组合啊！$"
 
 TVSpotTheCuties_Text_RibbonBeauty::
-    .string "漂亮缎带真是\n太漂亮啦。\p{STR_VAR_2}因赢得了漂亮华丽大赛\n而获得了这款缎带。\p它见证了\n{STR_VAR_2}的漂亮。\p{STR_VAR_2}和漂亮缎带！\n多么契合的组合啊！$"
+    .string "漂亮奖章真是\n太漂亮啦。\p{STR_VAR_2}因赢得了漂亮华丽大赛\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的漂亮。\p{STR_VAR_2}和漂亮奖章！\n多么契合的组合啊！$"
 
 TVSpotTheCuties_Text_RibbonCute::
-    .string "可爱缎带真是\n太漂亮啦。\p{STR_VAR_2}因赢得了可爱华丽大赛\n而获得了这款缎带。\p它见证了\n{STR_VAR_2}的可爱。\p{STR_VAR_2}和可爱缎带！\n多么契合的组合啊！$"
+    .string "可爱奖章真是\n太漂亮啦。\p{STR_VAR_2}因赢得了可爱华丽大赛\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的可爱。\p{STR_VAR_2}和可爱奖章！\n多么契合的组合啊！$"
 
 TVSpotTheCuties_Text_RibbonSmart::
-    .string "聪明缎带真是\n太漂亮啦。\p{STR_VAR_2}因赢得了聪明华丽大赛\n而获得了这款缎带。\p它见证了\n{STR_VAR_2}的聪明。\p{STR_VAR_2}和聪明缎带！\n多么契合的组合啊！$"
+    .string "聪明奖章真是\n太漂亮啦。\p{STR_VAR_2}因赢得了聪明华丽大赛\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的聪明。\p{STR_VAR_2}和聪明奖章！\n多么契合的组合啊！$"
 
 TVSpotTheCuties_Text_RibbonTough::
-    .string "强壮缎带真是\n太漂亮啦。\p{STR_VAR_2}因赢得了强壮华丽大赛\n而获得了这款缎带。\p它见证了\n{STR_VAR_2}的强壮。\p{STR_VAR_2}和强壮缎带！\n多么契合的组合啊！$"
+    .string "强壮奖章真是\n太漂亮啦。\p{STR_VAR_2}因赢得了强壮华丽大赛\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的强壮。\p{STR_VAR_2}和强壮奖章！\n多么契合的组合啊！$"
 
 TVSpotTheCuties_Text_RibbonWinning::
-    .string "胜利缎带真是\n太漂亮啦。\p{STR_VAR_2}因其在作战大厦的杰出表现\n而获得了这款缎带。\p它见证了\n{STR_VAR_2}的力量。\p{STR_VAR_2}和胜利缎带！\n多么契合的组合啊！$"
+    .string "胜利奖章真是\n太漂亮啦。\p{STR_VAR_2}因其在作战大厦的杰出表现\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的力量。\p{STR_VAR_2}和胜利奖章！\n多么契合的组合啊！$"
 
 TVSpotTheCuties_Text_RibbonVictory::
-    .string "优胜缎带真是\n太漂亮啦。\p{STR_VAR_2}因其在对战塔的杰出表现\n而获得了这款缎带。\p它见证了\n{STR_VAR_2}的惊人力量。\p{STR_VAR_2}和优胜缎带！\n多么契合的组合啊！$"
+    .string "优胜奖章真是\n太漂亮啦。\p{STR_VAR_2}因其在对战塔的杰出表现\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的惊人力量。\p{STR_VAR_2}和优胜奖章！\n多么契合的组合啊！$"
 
 TVSpotTheCuties_Text_RibbonArtist::
-    .string "艺术缎带真是\n太漂亮啦。\p{STR_VAR_2}因给艺术家做模特\n而获得了这款缎带。\p它见证了\n{STR_VAR_2}的明星气质。\p{STR_VAR_2}和艺术缎带！\n多么契合的组合啊！$"
+    .string "艺术奖章真是\n太漂亮啦。\p{STR_VAR_2}因给艺术家做模特\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的明星气质。\p{STR_VAR_2}和艺术奖章！\n多么契合的组合啊！$"
 
 TVSpotTheCuties_Text_RibbonEffort::
-    .string "勤勉缎带真是\n太漂亮啦。\p{STR_VAR_2}因其投入的工作态度\n而获得了这款缎带。\p它见证了\n{STR_VAR_2}的决心。\p{STR_VAR_2}和勤勉缎带！\n多么契合的组合啊！$"
+    .string "勤勉奖章真是\n太漂亮啦。\p{STR_VAR_2}因其投入的工作态度\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的决心。\p{STR_VAR_2}和勤勉奖章！\n多么契合的组合啊！$"
 
 TVSpotTheCuties_Text_Outro::
-    .string "……唉……\p缎带和宝可梦……\n真是太相称了！\p在我陶醉得晕倒之前，\n先向各位道声再会！$"
+    .string "……唉……\p奖章和宝可梦……\n真是太相称了！\p在我陶醉得晕倒之前，\n先向各位道声再会！$"
 
 gTVPokemonNewsBattleFrontierText00::
     .string "大家好！\n现在是宝可梦新闻时间。\p我们将为大家带来战斗前线上\n最令人振奋的消息。$"

@@ -237,8 +237,8 @@ MauvilleCity_BikeShop_Text_Wheelies:
     .string "骑车时按住B键\n可以抬起前轮，\p此时按方向键\n能够抬着前轮移动。\p这叫做后轮特技。\p还要翻到其他页吗？$"
 
 MauvilleCity_BikeShop_Text_BunnyHops:
-    .string "一直按住B键，\n自行车会原地跳跃。\p这叫做小跳。\p跳起时也可以继续骑车。\p还要翻到其他页吗？$"
+    .string "一直按住B键，\n自行车会原地跳跃。\p这叫做弹跳。\p弹跳时也可以继续骑车。\p还要翻到其他页吗？$"
 
 MauvilleCity_BikeShop_Text_Jumps:
-    .string "同时按下方向键和\nB键能跳起来。\p按方向键\n可以向旁边跳。\p跳起时向后可以\n使自行车调头。\p还要翻到其他页吗？$"
+    .string "同时按下方向键和\nB键进行侧跳。\p按方向键\n决定向哪一边侧跳。\p跳起时按反方向可以\n使自行车调头。\p还要翻到其他页吗？$"
 

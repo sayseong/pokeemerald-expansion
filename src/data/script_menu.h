@@ -220,15 +220,15 @@ static const struct MenuAction MultichoiceList_MachBikeInfo[] =
 {
     {COMPOUND_STRING("如何骑行")},
     {COMPOUND_STRING("如何转弯")},
-    {COMPOUND_STRING("流沙坡")},
+    {COMPOUND_STRING("沙坡")},
     {gText_Exit},
 };
 
 static const struct MenuAction MultichoiceList_AcroBikeInfo[] =
 {
-    {COMPOUND_STRING("单轮特技")},
-    {COMPOUND_STRING("小跳")},
-    {COMPOUND_STRING("跳")},
+    {COMPOUND_STRING("后轮特技")},
+    {COMPOUND_STRING("弹跳")},
+    {COMPOUND_STRING("侧跳")},
     {gText_Exit},
 };
 
@@ -642,8 +642,8 @@ static const struct MenuAction MultichoiceList_BattleTowerRules[] =
 {
     {COMPOUND_STRING("对战塔信息")},
     {COMPOUND_STRING("对战宝可梦")},
-    {COMPOUND_STRING("对战沙龙")},
-    {COMPOUND_STRING("多人联机")},
+    {COMPOUND_STRING("对战塔")},
+    {COMPOUND_STRING("多人连线")},
     {gText_Exit},
 };
 
@@ -651,7 +651,7 @@ static const struct MenuAction MultichoiceList_BattleDomeRules[] =
 {
     {COMPOUND_STRING("对手")},
     {COMPOUND_STRING("对阵树")},
-    {COMPOUND_STRING("双双击倒")},
+    {COMPOUND_STRING("同时倒地")},
     {gText_Exit},
 };
 
@@ -686,7 +686,7 @@ static const struct MenuAction MultichoiceList_BattlePyramidRules[] =
 
 static const struct MenuAction MultichoiceList_BattlePikeRules[] =
 {
-    {COMPOUND_STRING("导航器和包包")},
+    {COMPOUND_STRING("宝可导航和包包")},
     {COMPOUND_STRING("持有物")},
     {COMPOUND_STRING("宝可梦顺序")},
     {gText_Exit},

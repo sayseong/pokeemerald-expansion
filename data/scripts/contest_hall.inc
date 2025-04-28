@@ -1471,9 +1471,9 @@ LilycoveCity_ContestLobby_Text_MonInNoConditionForContest:
 	.string "比赛……$"
 
 LilycoveCity_ContestLobby_Text_AlreadyWonEnterAnyway:
-	.string "这个缎带……\p"
+	.string "这个奖章……\p"
 	.string "你的宝可梦似乎已经获得了\n"
-	.string "这个等级的缎带？\p"
+	.string "这个等级的奖章？\p"
 	.string "你还想参加这个等级\n"
 	.string "的比赛吗？$"
 
@@ -1573,15 +1573,15 @@ ContestHall_Text_AcceptYourPrize:
 	.string "你的奖章！$"
 
 ContestHall_Text_ConferRibbonAsPrize:
-	.string "这个缎带就做为你的\n"
+	.string "这个奖章就做为你的\n"
 	.string "奖章吧！$"
 
 ContestHall_Text_ReceivedRibbon:
-	.string "{PLAYER}得到了缎带。$"
+	.string "{PLAYER}得到了奖章。$"
 
 ContestHall_Text_PutRibbonOnMon:
 	.string "{PLAYER}给{STR_VAR_1}\n"
-	.string "戴上了缎带！$"
+	.string "戴上了奖章！$"
 
 ContestHall_Text_PickUpPrizeAtCounterLater:
 	.string "请稍后到前台来\n"
