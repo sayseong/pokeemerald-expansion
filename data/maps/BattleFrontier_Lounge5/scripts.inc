@@ -81,7 +81,7 @@ BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon::
     .string "好像魔法一样啊！\n那边那位小女孩说她能\l懂得宝可梦在说什么！$"
 
 BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound::
-    .string "我感觉那个小女孩好像在\n说什么很深奥难明的话。$"
+    .string "我感觉那个小女孩好像在\n说什么很晦涩难懂的话。$"
 
 BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot::
     .string "我知道我知道！\p那个小女孩经常在\n红色的房子里玩！$"

@@ -1478,7 +1478,7 @@ SootopolisCity_Text_CaveOfOriginPleaseLeave:
     .string "你是什么人？\p这里是觉醒神殿，\p据说在送神山沉睡的\n宝可梦会在此重生。\p请你离开吧。$"
 
 SootopolisCity_Text_LeadSuperiorTrainerToCave:
-    .string "米可利告诉我，\n当一个拥有着坚定的意志\p与非凡的天赋的人，\n一个了解多种\p宝可梦的训练家出现时……\n我将带他进神殿里。$"
+    .string "米可利告诉我，\n当一个拥有着坚定的意志\p与非凡的天赋的人，\n一个了解多种\p宝可梦的训练家出现时……\n我将带他进入神殿。$"
 
 SootopolisCity_Text_AwakenedPokemonClash:
     .string "哦，偶滴天……\p两只觉醒的宝可梦的争斗\n被第三只觉醒的宝可梦\l平息了……$"

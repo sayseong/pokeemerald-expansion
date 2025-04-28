@@ -294,7 +294,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge:
     .string "你要离开\n选择式对战挑战吗？$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume:
-    .string "我们一直等你回来……\p在继续你的选择式对战\n挑战前，让我保存游戏……$"
+    .string "我们一直在等你回来……\p在继续你的选择式对战\n挑战前，请让我保存游戏……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge:
     .string "请好好享受你的选择式对战\n挑战吧……$"
@@ -309,7 +309,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose:
     .string "请原谅，但……\p你是否觉得选择\n道路很困难？$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence:
-    .string "我知道……\n我对我的不礼貌表示道歉……$"
+    .string "知道了……\n我对我的唐突表示道歉……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath:
     .string "哦，让我看看……有一些关于\n右边道路的事……$"

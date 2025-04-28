@@ -24,7 +24,7 @@ EverGrandeCity_EventScript_SetVisitedEverGrande::
 	end
 
 EverGrandeCity_Text_EnteringVictoryRoad:
-    .string "进入冠军之路$"
+    .string "由此进入冠军之路$"
 
 EverGrandeCity_Text_EnteringPokemonLeague:
     .string "进入宝可梦联盟\n中心大门$"

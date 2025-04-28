@@ -290,16 +290,16 @@ BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay:
     .string "这边请。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth:
-    .string "感谢你的参与。\p现在帮你全面恢复\n你的宝可梦。$"
+    .string "感谢你的参与。\p现在将你的宝可梦\n的体力全部回复。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete:
-    .string "第一场比赛\n已经结束。\p这一队都是优秀的宝可梦！$"
+    .string "第一场比赛\n已经结束。\p这些是成功晋级的队伍！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round2Complete:
-    .string "第二场比赛\n已经结束。\p这一队都是优秀的宝可梦！$"
+    .string "第二场比赛\n已经结束。\p这些是成功晋级的队伍！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SemifinalsComplete:
-    .string "半决赛比赛\n已经结束。\p这一队都是优秀的宝可梦！$"
+    .string "半决赛比赛\n已经结束。\p这些是成功晋级的队伍！$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForRound2:

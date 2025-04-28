@@ -435,17 +435,17 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize::
-    .string "你好，这里是交换服务中心。\p我们用可爱的奖品同你收集到的\n对战点数进行交换。\p请在列表上选择一个奖品。$"
+    .string "你好，这里是兑换服务区。\p我们用可爱的奖品同你收集到的\n对战点数进行兑换。\p请在列表上选择一个奖品。$"
 
 @ Unused
 BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize::
     .string "请选择一个奖品。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissPoster::
-    .string "你选择了亲吻的海报。\n可以吗？$"
+    .string "你选择了飞吻海报。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissCushion::
-    .string "你选择了亲吻的垫子。\n可以吗？$"
+    .string "你选择了亲吻垫子。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSmoochumDoll::
     .string "你选择了迷唇姐玩偶。\n可以吗？$"
@@ -538,64 +538,64 @@ BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize::
     .string "这里是你的奖品！$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints::
-    .string "很抱歉……\n你没有足够多的对战点数……$"
+    .string "很抱歉……\n你没有足够的对战点数……$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PCIsFull::
     .string "很抱歉……\n你的电脑好像满了……$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt::
-    .string "很抱歉……\n你没有空间拿它……$"
+    .string "很抱歉……\n你的包包已经放不下了……$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints::
-    .string "非常感谢。\p当你存够了对战点数\n请再来见我们。$"
+    .string "非常感谢。\p存够了对战点数的话，\n欢迎再来光顾。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls::
-    .string "哦，它们真漂亮！\n我想要它们！\l漂亮的垫子！\l大号豪华的玩偶！\l小号豪华的玩偶！\l我希望能全部得到！$"
+    .string "哦，它们真棒！\n我想要它们！\l漂亮的垫子！\l大号豪华的玩偶！\l小号豪华的玩偶！\l我希望能全部得到！$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant::
-    .string "交给你的妈妈吧！\p无论什么你想要的，我会通过\n任何途径为你得到，我的小宝贝！$"
+    .string "交给你的妈妈吧！\p无论你想要什么，我都会尽我所能\n为你得到的，我的小宝贝！$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher::
-    .string "如果我能拿到这里的道具，\n我的宝可梦会变得更强。\p你要相信它们肯定会的！\n毫无疑问！$"
+    .string "如果我能获得这里的道具，\n我的宝可梦会变得更强。\p你要相信它们肯定会的！\n毫无疑问！$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll::
-    .string "啊？\n你在呆望什么？\p我不喜欢你那样盯着\n我的漂亮娃娃看。\p如果你想要，自己去弄一只！\n这不很好吗，迷唇娃？$"
+    .string "啊？\n你在看什么呢？\p我不喜欢你那样盯着\n我的漂亮娃娃看。\p如果你想要，自己去弄一只！\n对不对，迷唇娃？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord::
-    .string "你知道吗？\p如果你能在任何战斗场\n创造新记录，他们会给你\l更多更多对战点数。$"
+    .string "你知道吗？\p如果你能在任何对战设施\n创造新纪录，他们会开始给你\l越来越多的对战点数。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc::
-    .string "一大幅有迷唇姐签名的贴画。$"
+    .string "一幅有迷唇娃\n图案的大海报。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc::
-    .string "一个迷唇姐垫子。\n把它放在席子或桌子上。$"
+    .string "一个迷唇姐垫子。\n要放置在地毯和桌子上。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc::
-    .string "一个迷唇姐玩偶。\n把它放在席子或桌子上。$"
+    .string "一个迷唇姐玩偶。\n要放置在地毯和桌子上。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc::
-    .string "一个波克比玩偶。\n把它放在席子或桌子上。$"
+    .string "一个波克比玩偶。\n要放置在地毯和桌子上。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
-    .string "一个喵喵玩偶。\n把它放在席子或桌子上。$"
+    .string "一个喵喵玩偶。\n要放置在地毯和桌子上。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc::
-    .string "一个皮皮玩偶。\n把它放在席子或桌子上。$"
+    .string "一个皮皮玩偶。\n要放置在地毯和桌子上。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::
-    .string "一个百变怪玩偶。\n把它放在席子或桌子上。$"
+    .string "一个百变怪玩偶。\n要放置在地毯和桌子上。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc::
-    .string "一个火球鼠。\n把它放在席子或桌子上。$"
+    .string "一个火球鼠。\n要放置在地毯和桌子上。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc::
-    .string "一个菊草叶。\n把它放在席子或桌子上。$"
+    .string "一个菊草叶。\n要放置在地毯和桌子上。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc::
-    .string "一个小锯鳄。\n把它放在席子或桌子上。$"
+    .string "一个小锯鳄。\n要放置在地毯和桌子上。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc::
-    .string "一个巨大的玩偶。\n把它放在席子或桌子上。$"
+    .string "一个巨大的玩偶。\n要放置在地毯和桌子上。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc::
     .string "提升宝可梦的攻击\n能力。$"
@@ -622,19 +622,19 @@ BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc::
     .string "一件能回复所有能力\n的道具。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc::
-    .string "一件能随机发生先制\n攻击的道具。$"
+    .string "一件有概率能先制\n攻击的道具。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc::
-    .string "一件能解除宝可梦昏迷\n的道具。$"
+    .string "一件能解除宝可梦着迷\n的道具。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc::
-    .string "一件能射出眩目的光降低\n准确度的道具。$"
+    .string "一件能射出眩目的光降低\n命中率的道具。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
-    .string "提升招式的力量，但只针对\n那个招式而言。$"
+    .string "提升物理招式的威力，但不能\n使用其他招式了。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
-    .string "一件在遇到敌人时能使敌人\n畏缩的道具。$"
+    .string "一件在接触攻击时能使对手\n畏缩的道具。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
     .string "一件能偶尔防止昏厥\n的道具。$"

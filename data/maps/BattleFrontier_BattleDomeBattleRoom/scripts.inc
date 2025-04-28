@@ -963,46 +963,46 @@ BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
     .string "哪一位训练家进入\n冠军赛了呢？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAchieveChampionFirstTry:
-    .string "第一次的冠军赛才艺试练\n能完成吗？\p$"
+    .string "首次挑战就能获得冠军的壮举\n能够实现吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
-    .string "要重复上次失败的\n挑战吗？\p$"
+    .string "上一场比赛的失利\n会被一雪前耻吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
-    .string "训练家为了第一场冠军赛的\n试练发火了。\p$"
+    .string "训练家为了首场冠军赛\n将会全力以赴！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
-    .string "胜利代表着训练家\n靠近了决赛。\p$"
+    .string "这场的胜利将意味着训练家\n能够晋级决赛！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillLongHeldDreamComeTrue:
-    .string "渴望以久的冠军赛\n真的来临了吗？\p$"
+    .string "渴望以久的冠军梦\n最终能够实现吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
     .string "无敌的冠军！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
-    .string "哪位想打败\n这位训练家？\p$"
+    .string "有谁能够击败\n这位训练家？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer:
-    .string "现在还有独自打败\n这位训练家的训练家吗？\p$"
+    .string "难道一切战斗都只为\n这位训练家而存在吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CurrentChampAimingToRetainTitle:
-    .string "上届冠军\n卫冕成功！\p$"
+    .string "现任冠军\n正力争卫冕！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerChampHasReturned:
-    .string "上一位冠军已经被送回。\p$"
+    .string "前任冠军\n再次归来！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
-    .string "上一位勇士已经被送回。\p$"
+    .string "昔日强悍\n再次重现！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
-    .string "这位训练家会像预期\n那样进入总决赛吗？\p$"
+    .string "这位训练家会如期\n晋级决赛吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory:
-    .string "上届冠军会赢回\n失去的荣誉吗？\p$"
+    .string "前任冠军能否成功\n东山再起？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
-    .string "感受正在大师的光芒！$"
+    .string "感受真正王者的耀眼光芒吧！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
     .string "下面……{PLAYER}将要\n面对的训练家是……\p当然！就是他！\n对战巨蛋理事！\l我们的巨蛋超级巨星！\l用你们的热情来欢迎石南吧！$"
@@ -1011,7 +1011,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
     .string "观众：石南！石南！\n石南！石南！石南！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
-    .string "石南：哈哈哈！\p听到没？观众的呼唤\n他们都想看到我们的比赛呢\p哈哈哈！\p你现在应该害怕得\n全身发抖了吧！\p别紧张，别紧张。\p我是对战巨蛋的明星，第一明星！\n我，石南，巨蛋超级巨星，\l要在我的光芒下与你战斗！$"
+    .string "石南：哈哈哈！\p听到没？观众的呼唤\n他们期待着我们的比赛呢！\p哈哈哈！\p你现在应该害怕得\n全身发抖了吧！\p别紧张，别紧张。\p我是对战巨蛋的明星，第一明星！\n我，石南，巨蛋超级巨星，\l要在我的光芒下与你战斗！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LetsSeeYourStrategy:
     .string "让我来看看\n你的战术吧！$"
@@ -1023,7 +1023,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
     .string "冠军是——石南！\n巨蛋超级巨星还是胜利了！\p祝贺他！祝贺石南！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass:
-    .string "石南：规矩就是规矩！\n拿出你的开拓通行证让我看看吧。$"
+    .string "石南：规矩就是规矩！\n拿出你的开拓通行证吧。$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol:
     .string "开拓通行证上竟然\n浮现出战术象征！$"
@@ -1032,25 +1032,25 @@ BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
     .string "…… …… ……\p我太过低估你了，\n下一次我不会犯同样的错误……$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
-    .string "我们的冠军还会继续制霸吗？\n让我们期待比赛的结果吧！$"
+    .string "我们的冠军还会继续称霸吗？\n让我们期待比赛的结果吧！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
     .string "女士们，先生们，\n男孩们，女孩们，还有宝可梦们！\p最后，\n最后的最后，我们的传说回归了！\p是的，就是那个传说中的名字！\n我们的巨蛋超级巨星！\l他就是——石南！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
-    .string "石南：啊……\n观众们那一浪高过一浪的欢呼声……\l还有他们那如熔炉般火热的激情……\l这里真是个美妙的地方……\p对观众们来说，\n我就是巨蛋超级巨星……\l我代表了他们的希望与梦想……\l我不能在他们的眼前枯萎……\p我必须重生！\n我必须达到更高、更强！\l我必须点燃这里的一切！$"
+    .string "石南：啊……\n观众们那一浪高过一浪的欢呼声……\l还有他们那如熔炉般火热的激情……\l这里真是个美妙的地方……\p对观众们来说，\n我就是巨蛋超级巨星……\l我承载着他们的希望与梦想……\l我决不能从他们的视野中消失……\p我必须燃烧！\n燃烧得更加明亮、更加耀眼！\l我必须点亮这里的所有人！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
-    .string "就在此时，就在此地，\n我要释放我所有的力量！$"
+    .string "就在此时，就在此地，\n我要释放我所拥有的全部实力！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
-    .string "石南：你是一个非凡的人！\p我从未碰见过在我释放出全力之后\n还能打败我的人，从来没有过！\p是的，你拥有非凡的力量！\n好了，把你的开拓通行证给我吧。$"
+    .string "石南：你是一个非凡的人！\p我从未遇到在我释放出全部实力后\n还能打败我的人，从来没有过！\p是的，你拥有非凡的实力！\n好了，把你的开拓通行证给我吧。$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
     .string "战术象征\n亮起了金光！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
-    .string "你真的很强。但最重要的是，\n你拥有独一无二的魅力！\p我可以看到你的身体中\n隐藏着成为我这样的明星的潜力。\p我很期待我们\n下一次的相遇！$"
+    .string "你真的很强。但最重要的是，\n你拥有独一无二的魅力！\p我可以看到你的身体中\n蕴藏着成为我这样的明星的潜力。\p我很期待我们\n下一次的相遇！$"
 
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2:

@@ -396,7 +396,7 @@ BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
-    .string "作为7连胜的奖励，\n我们送你这个奖品$"
+    .string "作为7连胜的奖励，\n我们将这个奖品授予你$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:
@@ -410,19 +410,19 @@ BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave:
     .string "非常感谢你的参与！\p在我记录游戏时请稍等。$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge2:
-    .string "我们将在另外的场合下\n等待你的挑战！$"
+    .string "我们期待着你的再次挑战！$"
 
 BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
-    .string "我们早已期待你的\n到来。$"
+    .string "我们一直期待着\n你的到来。\p在带你去战斗大厅之前，\n我必须先保存游戏，\l请稍候。$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
-    .string "要我把你上次的对战竞技场比赛记录\n在你的开拓通行证上吗？$"
+    .string "要我把你上次的对战竞技场比赛\n记录在你的开拓通行证上吗？$"
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
-    .string "我对裁判的决定感到困惑……\p我认为只防守而不进攻是\n行不通的……$"
+    .string "我被裁判判负了……\p看来只防守而不进攻是\n行不通的……$"
 
 BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked:
-    .string "我的判断正确！\p降落到对手的宝可梦身上的连续打击\n这招果然行得通！$"
+    .string "我被判定获胜了！\p持续攻击对手的宝可梦\n这招果然行得通！$"
 
 BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
     .string "我们的比赛被判为平局。\p当时间到时，我和\n我对手的宝可梦\l都剩下等量的体力。$"
@@ -434,10 +434,10 @@ BattleFrontier_BattleArenaLobby_Text_RulesAreListed:
     .string "三回合定胜负锦标赛的规则如下。$"
 
 BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading:
-    .string "你要读哪个标题的？$"
+    .string "要读哪一部分的说明？$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
-    .string "三回合定胜负锦标赛有特殊规则，\n而不像常规战斗。\p第一，每场战斗只进行\n三个回合。\p如果在三个回合之后还未\n分胜负，就要进行判定。\p裁判会根据宝可梦的战斗情况\n判出胜者。\p同样，宝可梦在出比赛结果之前\n不能调换出的。$"
+    .string "三回合定胜负锦标赛有特殊规则，\n而不像常规战斗。\p第一，每场战斗只进行\n三个回合。\p如果在三个回合之后还未分胜负，\n就要进行判定。\p裁判会根据宝可梦的战斗情况\n判出胜者。\p同样，宝可梦在得出比赛结果之前\n是不能替换的。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
     .string "第一个判定准则是“心”。\n这个因素评价战斗者的\l进攻意识。\p判定依据的是训练家\n下达攻击招式的命令的\l频繁程度。$"
@@ -449,7 +449,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
     .string "第三个判定准则是“体”。\n这个因素评价在战斗结束后的\l剩余体力。\p这个准则把宝可梦\n战斗开始时的体力\l和战斗结束后还剩下的\l体力都加以考虑。$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
-    .string "从竞技场主将手里得到了胜利，\n并且干掉了七个训练家！\p恭喜你的挑战\n干得漂亮！$"
+    .string "从竞技场主将手里得到了胜利，\n并且横扫了七个训练家！\p恭喜你的挑战，\n干得漂亮！$"
 
 BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:
     .string "亲爱的挑战者，为了对你那不屈的\n意志表示认可，请接受这些\l对战点数吧。$"

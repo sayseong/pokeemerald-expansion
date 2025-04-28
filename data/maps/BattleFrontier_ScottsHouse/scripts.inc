@@ -212,7 +212,7 @@ BattleFrontier_ScottsHouse_EventScript_ScottFaceAwayWest::
 	return
 
 BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier:
-    .string "亚希达：啊，欢迎！\n呵呵呵……抱歉来的时候有点挤。\p不管如何，{PLAYER}{KUN}，请让我\n正式欢迎你来到对战开拓区。\p这个地方就是我的梦想。\n经过了一年又一年，直到今天，\l我的梦想终于可以实现了。$"
+    .string "亚希达：啊，欢迎！\n呵呵呵……抱歉这里空间有些狭窄。\p不管如何，{PLAYER}{KUN}，请让我\n正式欢迎你来到对战开拓区。\p这个地方就是我的梦想。\n经过了一年又一年，直到今天，\l我的梦想终于可以实现了。$"
 
 BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal:
     .string "回头想想，这一路\n还真是走了很久很久……\p我独自离开家乡，\n只为寻找强大的训练家。\p谁也无法算清我在这一路上\n究竟付出了多少时间与汗水。$"
@@ -224,7 +224,7 @@ BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
     .string "{PLAYER}得到了\n{STR_VAR_1}对战点数。$"
 
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
-    .string "亚希达：你可以在开拓通行证上\n查看你对战点数的数量。\p你在对战开拓区\n获得的胜利越多，收集的\l对战点数就越多。\p这些对战点数你可以随便用，\n比如用来交换物品。$"
+    .string "亚希达：你可以在开拓通行证上\n查看你对战点数的数量。\p你在对战开拓区\n获得的胜利越多，收集的\l对战点数就越多。\p这些对战点数你可以随便用，\n比如用来兑换物品。$"
 
 BattleFrontier_ScottsHouse_Text_ExpectingGreatThings:
     .string "期待你的精彩表现！$"
@@ -245,7 +245,7 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
     .string "亚希达：希望你喜欢\n我的对战开拓区。\p……等等……\n啊，我不是眼花了吧！\p你的开拓通行证！\n你已经收集到了\l所有的金色象征！\p太了不起了！和我预想中一样，\n你真是个不可思议的人！\p…… …… ……\p{PLAYER}，你一定得收下这个！\p是你的话，一定能识得\n我的礼物的价值的！$"
 
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
-    .string "我可是有天赋的，可以第一眼就\n看出训练家的实力。\p真高兴我的先见让我\n把你带到了这里！$"
+    .string "我可是有才能的，可以第一眼就\n看出训练家的实力。\p真高兴我的先见让我\n把你带到了这里！$"
 
 BattleFrontier_ScottsHouse_Text_BerryPocketStuffed:
     .string "你的树果口袋好像\n已经塞满了。$"

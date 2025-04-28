@@ -855,7 +855,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p呀——嘿！非常棒，是不是？\n让我们在队伍里继续交流吧！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristAccept::
-    .string "呀——嘿！痛快！\n我这就去注册！$"
+    .string "呀——嘿！痛快！\n我这就去登记！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristReject::
     .string "我的宝可梦很失望！\n我告诉你，你必须要道歉！$"
@@ -870,7 +870,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon2Ask::
     .string "一只用来{STR_VAR_1}的{STR_VAR_2}。\p我邀请你和我组一支\n二人战斗队，如何？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanAccept::
-    .string "啊，谢谢你对我的信任。\n我会去注册的。$"
+    .string "啊，谢谢你对我的信任。\n我会去登记的。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanReject::
     .string "这太不幸了……\p我只好去找下一个\n机会了……$"
@@ -885,7 +885,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}。\p喜欢他们吗？\n那为什么不成为我的搭档呢？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMAccept::
-    .string "谢谢！\n我这就去找注册点！$"
+    .string "谢谢！\n我这就去找登记点！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMReject::
     .string "我的宝可梦是顶尖级别的……\n你竟然不懂得欣赏他们。$"
@@ -900,7 +900,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p和我组个队如何？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMAccept::
-    .string "那个！\n我会马上去注册的！\l让我们做到最好吧！$"
+    .string "那个！\n我会马上去登记的！\l让我们做到最好吧！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMReject::
     .string "我希望你的决定\n不会让你后悔……$"
@@ -915,7 +915,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}——\n这就是我拥有的。\p你难道不想和我组一个队吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFAccept::
-    .string "好，太好了。\n我马上就到注册点去。$"
+    .string "好，太好了。\n我马上就到登记点去。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFReject::
     .string "希望在我们下一次见面的时候\n你会回心转意。$"
@@ -930,7 +930,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p如何？\n和我搭档怎么样？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerAccept::
-    .string "好极，我一定会做到最好的！\n这就去注册，没问题吧？$"
+    .string "好极，我一定会做到最好的！\n这就去登记，没问题吧？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerReject::
     .string "你不会找到比我再好的\n搭档了！$"
@@ -945,7 +945,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}。\p你不觉得我们能构成一支\n像样的队伍吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperAccept::
-    .string "太好了，谢谢！\n我马上去找注册点！$"
+    .string "太好了，谢谢！\n我马上去找登记点！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperReject::
     .string "我的宝可梦和我都很强。\n太让人失望了。$"
@@ -960,7 +960,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}构成！\p让我们组一支队伍吧！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyAccept::
-    .string "耶！\n我去注册！$"
+    .string "耶！\n我去登记！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyReject::
     .string "你会后悔没有接受\n我强大的宝可梦！$"
@@ -975,7 +975,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon2Ask::
     .string "用来{STR_VAR_1}\n的{STR_VAR_2}。\p他们漂亮吧？\n想和我们合作吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyAccept::
-    .string "真是太谢谢你了！\p我去注册点注册一下。\n我们都不要让彼此失望喔！$"
+    .string "真是太谢谢你了！\p我去登记点登记一下。\n我们都不要让彼此失望喔！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyReject::
     .string "我的宝可梦是很强的。\n太失望了呀……$"
@@ -990,7 +990,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}——\n这就是我拥有的。\p那么有没有兴趣\n组一个队呢？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacAccept::
-    .string "好极了！\n了解！\p我不会用太多时间去注册的！$"
+    .string "好极了！\n了解！\p我不会用太多时间去登记的！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacReject::
     .string "和我找到的宝可梦一起，我们\n不可能输的……$"
@@ -1005,7 +1005,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p当然你不会让我失望的\n我们会组成一个队的，对吧？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorAccept::
-    .string "这简直太出乎我的意料了！\n我现在就去注册。$"
+    .string "这简直太出乎我的意料了！\n我现在就去登记。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorReject::
     .string "我本来不想暴风雨般的\n击败敌人的！太糟了！$"
@@ -1020,7 +1020,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p很有气势，是不是？\n我们应该组一个队的。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorAccept::
-    .string "太棒啦！\p好的，那就不要浪费时间了。\n我这就去帮我们注册。$"
+    .string "太棒啦！\p好的，那就不要浪费时间了。\n我这就去帮我们登记。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorReject::
     .string "呃，这真让人心烦。\n你竟然不赏识我的宝可梦。$"
@@ -1035,7 +1035,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p你不认为我们我们能构成\n一支令人印象深刻的队伍吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMAccept::
-    .string "太好了！\n我马上就去解决注册问题。$"
+    .string "太好了！\n我马上就去解决登记问题。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMReject::
     .string "下一次，你会选择我的宝可梦的，\n是吧？$"
@@ -1065,7 +1065,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyMon2Ask::
     .string "一只用来{STR_VAR_1}的{STR_VAR_2}\n到处旅行。\p希望你会喜欢他们。\n你想成为我的搭档吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyAccept::
-    .string "我尊敬你的决断。\n刻不容缓，我这就去注册。$"
+    .string "我尊敬你的决断。\n刻不容缓，我这就去登记。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyReject::
     .string "没关系，我们下次再组队\n那也是非常美好的。$"
@@ -1080,7 +1080,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p很迷人，是吧？\n你和我，组个队如何？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacAccept::
-    .string "合理的决断！\n我这就去填注册申请表。$"
+    .string "合理的决断！\n我这就去填登记申请表。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject::
     .string "嗯……\n我认为我的宝可梦很强的……$"
@@ -1095,7 +1095,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}。\n酷，是不是？\p你不觉得如果我们组队\n他们会变得更酷吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMAccept::
-    .string "酷！\n看我瞬间就搞定注册项目！$"
+    .string "酷！\n看我瞬间就搞定登记项目！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMReject::
     .string "我觉得我们能组成一支\n最强的队伍的。$"
@@ -1110,7 +1110,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}。\p听起来很棒吧？\n我们组成一支队伍如何？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFAccept::
-    .string "听起来好极了！\n我最好现在就去注册。$"
+    .string "听起来好极了！\n我最好现在就去登记。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFReject::
     .string "我一直在想\n怎样才能建一支坚韧的队伍……$"
@@ -1125,7 +1125,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}，\n就是他们！\p无所不能！\n我们组了队一定会威震八方的！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacAccept::
-    .string "说得好！\n这就去注册我们两个！$"
+    .string "说得好！\n这就去登记我们两个！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacReject::
     .string "我的宝可梦是无敌的！\n你可不要后悔！$"
@@ -1140,7 +1140,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p你想说什么？\n想和我组队吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerAccept::
-    .string "好极了！\n我马上去注册点。$"
+    .string "好极了！\n我马上去登记点。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerReject::
     .string "好吧，我允许你再考虑\n直到我们下次见面。$"
@@ -1155,7 +1155,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperMon2Ask::
     .string "用来{STR_VAR_1}的{STR_VAR_2}。\p你不觉得和我组队会很有趣吗？\n我打赌一定会！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperAccept::
-    .string "耶！\n我会抽空去注册的！$"
+    .string "耶！\n我会抽空去登记的！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperReject::
     .string "下一次吧，好吗？\n我真的很想成为你的队友。$"
@@ -1170,7 +1170,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}。\p你有没有兴趣\n和我组一支队伍呢？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerAccept::
-    .string "哇，谢谢！\n我现在就去注册。$"
+    .string "哇，谢谢！\n我现在就去登记。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerReject::
     .string "今后还有机会，我会努力\n加入你的。$"
@@ -1185,7 +1185,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}。\p你想和我\n组个队吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMAccept::
-    .string "理所当然！\n我会马上去注册的！$"
+    .string "理所当然！\n我会马上去登记的！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMReject::
     .string "如果我们下次还能见面，我依然\n希望加入你。$"
@@ -1215,7 +1215,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon2Ask::
     .string "和一只用来{STR_VAR_1}的\n{STR_VAR_2}就是我的宝可梦搭档。\p我能成为你的\n战斗伙伴吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFAccept::
-    .string "哇，谢谢！\n我现在就去注册台！$"
+    .string "哇，谢谢！\n我现在就去登记台！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFReject::
     .string "哎？那么，\n下一次我能加入你吗？$"
@@ -1230,7 +1230,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon2Ask::
     .string "一只用来{STR_VAR_1}的{STR_VAR_2}。\p听起来不错吧？\n接下来，我们组个队如何？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFAccept::
-    .string "太好了！\n请允许我这就去注册！$"
+    .string "太好了！\n请允许我这就去登记！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFReject::
     .string "下一次你会答应我的，\n对吗？$"
@@ -1245,7 +1245,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}。\p他们很聪明伶俐吧？\n我们应该组一支队伍！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFAccept::
-    .string "谢谢，亲爱的！\n我这就注册去！$"
+    .string "谢谢，亲爱的！\n我这就登记去！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFReject::
     .string "我心爱的宝可梦是最棒的，\n我会让你知道。真恼火！$"
@@ -1260,7 +1260,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon2Ask::
     .string "和一只用来{STR_VAR_1}的\n{STR_VAR_2}是我的旅行伙伴。\p你和我，让我们组一支队伍吧。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFAccept::
-    .string "那太酷了！\n我这就去注册。$"
+    .string "那太酷了！\n我这就去登记。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFReject::
     .string "下次见面时，你一定要\n让我加入你！$"
@@ -1275,7 +1275,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p如果我们组队，那是多高雅的\n一件事呀，你觉得呢？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMAccept::
-    .string "太好了！\n你等我去注册一下，好不好？$"
+    .string "太好了！\n你等我去登记一下，好不好？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMReject::
     .string "那么下一次见面的时候\n请让我加入你，好不好？$"
@@ -1290,7 +1290,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon2Ask::
     .string "另一只懂得如何使用{STR_VAR_1}\n的{STR_VAR_2}。这就是我的搭档。\p你觉得如何？\n我们一定能组成一直很好的\l队伍，我这么觉得。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFAccept::
-    .string "我喜欢这个答案！\n我会很快去注册的！$"
+    .string "我喜欢这个答案！\n我会很快去登记的！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFReject::
     .string "下一次你还会给我一个机会的，\n是不是？$"
@@ -1305,7 +1305,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p不错，是不是？\n我很想和你组个队的！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMAccept::
-    .string "太棒了！\n我马上就去注册！$"
+    .string "太棒了！\n我马上就去登记！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMReject::
     .string "如果我们再见面，你会和我组队的\n你会的，对吧？$"

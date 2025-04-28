@@ -22,7 +22,7 @@
 
 [WSL 安装说明](docs/install/windows/WSL_ZH.md)
 
-[Msys2 安装说明](docs/install/windows/MSYS2.md)
+[Msys2 安装说明](docs/install/windows/MSYS2_ZH.md)
 
 [Cygwin 安装说明](docs/install/windows/CYGWIN.md)
 

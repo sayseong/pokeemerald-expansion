@@ -458,7 +458,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection:
     .string "首先，我们会把你的宝可梦\n好好保管的。\p你可以从我们挑选的宝可梦\n进行选择。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons:
-    .string "感谢你参赛！\n让我们帮你的宝可梦恢复！$"
+    .string "感谢你参赛！\n让我们帮你的宝可梦进行回复！$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent:
     .string "接下来是第2场比赛！\n准备好了吗？$"
@@ -587,16 +587,16 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle:
     .string "你要把你上次的战斗记录\n到你的开拓通行证吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments:
-    .string "抱歉！请原谅！\n你能等一下吗？$"
+    .string "抱歉！请见谅！\n能稍等一下吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo:
-    .string "……嗯？什么？！……谁啊！\n有没有搞错！是吗！$"
+    .string "……啊？什么？！……哇哦！\n明白了先生！马上就做！$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
-    .string "哦，我的……\n很抱歉让你久等了！\p我有一个老板工厂头目那里\n的消息。\p他说，“我们就去干！\n马上过来！”$"
+    .string "哦，天哪……\n很抱歉让你久等了！\p我收到了老板——工厂头目\n那边发来的消息。\p他说，“我们即将开始！\n现在马上过来！”$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
-    .string "工厂头目要求见你。\n你准备好面见他了吗？$"
+    .string "工厂头目要求见你。\n你准备好迎战他了吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead:
     .string "十分抱歉，我不能告诉你\n任何有关于工厂头目的事。$"

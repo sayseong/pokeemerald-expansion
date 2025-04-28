@@ -448,7 +448,7 @@ BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter:
 	step_end
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons:
-    .string "干得好……\n现在给宝可梦进行回复。$"
+    .string "太精彩了……\n让我为你的宝可梦进行回复。$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent:
     .string "下面是第2个对手，\n准备好了吗？$"
@@ -481,46 +481,46 @@ BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
     .string "要把最近的比赛记录在\n开拓通行证上吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
-    .string "下面……\p连胜这么多场，\n你可以挑战我们的冠军\l宫殿守护者……$"
+    .string "现在……\p由于你连胜的战绩，\n你获得了挑战大师——\n宫殿守护者的资格……$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven:
     .string "现在带你去见宫殿守护者，\n准备好了吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser:
-    .string "宫殿守护者，郁金，\n现在登场了！$"
+    .string "让我们以最热烈的欢呼声，\n迎接宫殿守护者郁金的登场！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro:
-    .string "郁金：我始终都和\n我的宝可梦一同锻炼！\p我的心始终都和\n我的宝可梦一同跳动！\p年轻的训练家啊！\n你信任你的宝可梦吗？\p你能始终不渝地\n信任它们吗？\p如果你的信任是脆弱的，\n你们不可能打败我的伙伴！$"
+    .string "郁金：我的身体永远\n与宝可梦同在！\p我的灵魂永远\n与宝可梦共鸣！\p年轻的训练家啊！\n你信任你的宝可梦吗？\p你能矢志不渝地\n信任它们吗？\p如果你的牵绊不够坚韧，\n你绝无可能打败我的伙伴！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ProveYourBondWithMons:
-    .string "就在此处，向我证明你和\n你的宝可梦之间的羁绊吧！$"
+    .string "就在此处，让我见证你和\n你的宝可梦之间的牵绊吧！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle:
-    .string "郁金：哇啊啊啊！\p哼，你还没见过我真正的力量！\n为自己耍的花招后悔吧！\p来吧！\n就让你看看！$"
+    .string "郁金：哇哈哈哈！\p居然没被我的虚张声势唬住！\n刚才的拙劣演技真是见笑了！\p来！\n把东西拿来！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass:
-    .string "哎呀哎呀，如果你能一直\n保持住你坚定的信心的话……\p好了！\n给我你的开拓通行证吧！$"
+    .string "唉，真是的，明明刚才还在\n保持着的威严形象呢……\p来吧！\n给我你的开拓通行证吧！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol:
     .string "开拓通行证上浮现出了\n精神象征！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserAwaitNextTime:
-    .string "郁金：你的宝可梦的双眼\n看上去是那么纯洁无瑕，\p我非常期待\n我们的再会。$"
+    .string "郁金：你的宝可梦的眼中\n没有丝毫的迷茫，\p我会满怀期待地等候\n下一次我们的再会。$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack:
-    .string "郁金：哇啊啊啊！\n你又赢了？\p你和你的宝可梦之间\n必定有着很深的联系。\p来吧！\p这次我不会手下留情了，\n这一回不会让你那么轻松了，\p准备好了吗？\n我会打败你的！$"
+    .string "郁金：哇哈哈哈！\n你又一路赢过来了？\p你和你的宝可梦之间\n的牵绊看来已然坚不可摧。\p很好！\p这次，我既不会虚张声势，\n也不会手下留情了。\l这次，我要动真格的了。\p准备好了吗？\n做好失败的觉悟吧！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_Kaaah:
-    .string "……啊啊啊！$"
+    .string "…… …… ……嘎啊！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable:
-    .string "郁金：这真是一场激烈的战斗！\n就算是全力一搏，我的\l伙伴也没能打败你。\p你们的团队令人感动啊！\p好了！\n把那给我吧！$"
+    .string "郁金：何等激烈的战斗！\n就算是全力一搏，\l我的伙伴也没能打败你。\p你们的团队精神令人钦佩！\p来！\n把东西拿来吧！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass:
-    .string "哎呀哎呀，如果你再注意一下\n你的礼仪方面的话……\p哈哈哈，开玩笑的！\n把你的开拓通行证拿来吧！$"
+    .string "唉，真是的，明明应该再保持\n点风度的……\p嘎啊，来！\n把你的开拓通行证拿来吧！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine:
     .string "精神象征\n亮起了金光！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserComeSeeMeAgain:
-    .string "郁金：啊哈哈哈！\p下次再来吧！\n我和我的伙伴会等着你的！$"
+    .string "郁金：哇哈哈哈！\p记得常来！\n我和我的伙伴会等着你的！$"

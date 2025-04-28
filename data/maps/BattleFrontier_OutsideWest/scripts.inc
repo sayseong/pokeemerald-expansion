@@ -359,13 +359,13 @@ BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons:
     .string "嗨，伙计……\p你敢肯定我们没有宝可梦\n也能进行挑战？$"
 
 BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
-    .string "呃……\n大概不要紧吧。\p我想是的……\p记得那个吓人的大家伙吗？\n他不是说：“我会借给你宝可梦！”$"
+    .string "呃……\n大概不要紧吧。\p我想是的……\p记得那个吓人的大个子吗？\n他不是说：“我会借给你宝可梦！”$"
 
 BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
     .string "那边的是对战工厂，\n在那儿你能借到强大的宝可梦，\p不过我一直在奇怪，\n那些宝可梦是谁培育出来的？$"
 
 BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
-    .string "我不敢进对战管道，\n我怕饭匙蛇……\p但——但我既然已经到这儿来了\n我要努力战胜一切！\l……咕咕……$"
+    .string "我不敢进对战管道，\n我怕饭匙蛇……\p但——但我既然已经到这儿来了\n我要努力战胜一切！\l……哆嗦……$"
 
 BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
     .string "来，石头剪子布！\n一～二～三！\p…… …… ……$"
@@ -380,7 +380,7 @@ BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling:
     .string "我想这儿除了我，再没有别人\n会因为某些原因不对战\l反而去钓鱼。\p嗯？这儿什么都钓不到？\n好失望……$"
 
 BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol:
-    .string "今天，不论发生什么，我都要\n坚持战斗下去，直到获得奖章为止。$"
+    .string "今天，不论发生什么，我都要\n坚持战斗下去，直到获得象征为止。$"
 
 BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome:
     .string "嗯？你要去挑战\n对战巨蛋？\p祝你好运，\n希望我们都会一路获胜下去，\l然后在挑战中相遇。$"
@@ -404,7 +404,7 @@ BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
     .string "嘎吱嘎吱……\p刚才在对战管道\n看到了一个目光很可怕的\l大姐姐。\p嘎吱嘎吱……\p她冲我吼：“别吃了！”\n然后揍了我一顿。\p真可怕的经历啊！\p嘎吱嘎吱……$"
 
 BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet:
-    .string "哈，你在叫给自己听吗？\n那种东西什么都不是！\p看看，我为他加油的时候，\n我们交汇的眼神里都射出了火花！$"
+    .string "哈，你要不要听听你在说什么？\n那什么都算不上！\p看看，我为他加油的时候，\n我们交汇的眼神里都射出了火花！$"
 
 BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering:
     .string "什——么？！\n哼！\p这是因为我恰好\n坐在你旁边而已！\p是因为我的加油声很大，\n巨蛋超级巨星才会注意到这边的！$"
@@ -413,8 +413,8 @@ BattleFrontier_OutsideWest_Text_DomeAceIsMine:
     .string "啊，嘘～嘘～\n吵死了，安静一下啦！\p你该让你那些不坚定的追星族们\n给别的道馆馆主加油！\p巨蛋超级巨星是我的！\n是只属于我的偶像！$"
 
 BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
-    .string "那边吵架的那些人……\p真不敢相信那些人以前也都是\n训练家，而且还挺厉害的。\p他们以前非常强，\n同时也相当有名气。\p但在一场联赛中，他们都被\n某个训练家击倒了。\p他们完全地失败了，\n同时开始对那个训练家神魂颠倒。\p而现在，他们仅仅是那个训练家的\n狂热者而已，每天每天地在\l对战巨蛋为他们的偶像加油助威。$"
+    .string "那边吵架的那些人……\p真不敢相信那些人以前也都是\n训练家，而且还挺厉害的。\p他们以前非常强，\n同时也相当有名气。\p但在一场锦标赛中，他们都被\n某个训练家击倒了。\p他们完全地失败了，\n同时开始对那个训练家神魂颠倒。\p而现在，他们仅仅是那个训练家的\n狂热者而已，每天每天地在\l对战巨蛋为他们的偶像加油助威。$"
 
 BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
-    .string "有传言说有人在\n对战开拓区的某处看到\l一种尾巴异常长的宝可梦。\p我敢肯定，它一定很可爱……\p啊，挑战什么的都一边去吧，\n我要去找那个小东西了！$"
+    .string "有传言说有人在\n对战开拓区的某处看到\l一种尾巴特别长的宝可梦。\p我敢肯定，它一定很可爱……\p啊，挑战什么的都一边去吧，\n我要去找那个小家伙了！$"
 
