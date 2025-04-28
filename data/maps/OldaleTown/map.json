@@ -86,7 +86,7 @@
   "warp_events": [
     {
       "x": 5,
-      "y": 7,
+      "y": 9,
       "elevation": 0,
       "dest_map": "MAP_OLDALE_TOWN_HOUSE1",
       "dest_warp_id": "0"
