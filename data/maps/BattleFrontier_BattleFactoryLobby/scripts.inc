@@ -326,7 +326,7 @@ BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
-    .string "在这里，训练家的智力将\n受到考验！\p欢迎来到对战工厂！\p我是你的单人交换式对战锦标赛\n的指导。$"
+    .string "在这里，训练家的智慧将\n受到考验！\p欢迎来到对战工厂！\p我是你的单人交换式对战锦标赛\n的指导。$"
 
 BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge:
     .string "你要进行单人交换式对战\n挑战吗？$"
@@ -351,7 +351,7 @@ BattleFrontier_BattleFactoryLobby_Text_StepThisWay:
     .string "请这边走。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ReturnMonsSaveResults:
-    .string "感谢你的参与！\p我将把你的宝可梦还给你\n而把租借宝可梦换掉。\p我还必须保存记录。\n请稍等。$"
+    .string "感谢你的参与！\p我将把你的宝可梦还给你\n并把租借宝可梦换回来。\p并且需要保存战斗数据。\n请稍等。$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_ReturnMons:
@@ -362,7 +362,7 @@ BattleFrontier_BattleFactoryLobby_Text_CongratsSevenWins:
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePointsForStreak:
-    .string "作为7连胜的奖励，\n我们送你对战点数。$"
+    .string "作为7连胜的奖励，\n特此授予对战点数。$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_MaxBattlePoints:
@@ -372,7 +372,7 @@ BattleFrontier_BattleFactoryLobby_Text_WaitingForYouToResume:
     .string "我们等你很久了！\p在继续你的挑战前，\n必须保存游戏。$"
 
 BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting:
-    .string "很抱歉，你上次退出\n游戏前没有存档。\p结果，你不能继续上\n次的挑战。$"
+    .string "很抱歉，你上次退出\n游戏前没有存档。\p因此你上次的挑战资格\n已被取消。$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_WellReturnMons:
@@ -383,7 +383,7 @@ BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem:
     .string "{PLAYER}得到了奖品\n{STR_VAR_1}。$"
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
-    .string "在这里，训练家的智力将\n受到考验！\p欢迎来到对战工厂！\p我是你的双人交换式对战锦标赛\n的指导。$"
+    .string "在这里，训练家的智慧将\n受到考验！\p欢迎来到对战工厂！\p我是你的双人交换式对战锦标赛\n的指导。$"
 
 BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge:
     .string "你要进行双人交换式对战锦标赛\n挑战吗？$"
@@ -395,25 +395,25 @@ BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead:
     .string "恭喜你击败了\n工厂头目并\l一连赢了七场比赛！$"
 
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints:
-    .string "为了对你拥有的知识财富\n及非凡的智力表示认可，\l我们授予你这些对战点数。$"
+    .string "为了对你拥有的知识财富\n及非凡的智慧表示认可，\l我们授予你这些对战点数。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
-    .string "我来归还你的宝可梦\n并收回我们租借的宝可梦。\p我需要保存战斗数据，\n请稍等。$"
+    .string "我来归还你的宝可梦\n并换回我们租借的宝可梦。\p我需要保存战斗数据，\n请稍等。$"
 
 BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch:
     .string "你要把你上次的\n对战工厂比赛记录到你的\l开拓通行证吗？$"
 
 BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
-    .string "喂！\n那边的，你！\p你在想既然不必去\n培育一组宝可梦\l那么战斗就会很容易是吗？\p我认为要赢并不是那么\n简单的。\p如果你不具备对宝可梦及\n他们的招式的深刻的知识的话，\l想要赢是很难的。$"
+    .string "喂！\n那边的，你！\p你在想既然不必去\n培育一组宝可梦\l那么战斗就会很容易是吗？\p我认为要赢并不是那么\n简单的。\p如果你不具备对宝可梦及\n他们的招式的透彻的知识的话，\l想要赢是很难的。$"
 
 BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon:
-    .string "我交换到了一只弱的宝可梦……\n我想他是一种善于……\p他们和我们一起擦地板……$"
+    .string "我交换到了一只很弱的宝可梦……\n我本以为那种不错……\p结果他们把我打得一败涂地……$"
 
 BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons:
-    .string "事情变得和我的计划\n一点也不一样了。\p你要在战斗中检查\n一下你对手的宝可梦\l是否有问题。$"
+    .string "一切都变得和我想的\n完全不一样了。\p你要在战斗中仔细检查\n你对手的宝可梦是否强大。$"
 
 BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints:
-    .string "你知道这的参谋怎样给你\n一些关于你下个对手的提示吗？\p好吧，虽然我是一个经验丰富的人，\n但我弄不懂他们的提示。$"
+    .string "你知道这的工作人员会给你\n一些关于你下个对手的提示吧？\p好吧，虽然我是一个经验丰富的人，\n但我弄不懂他们的提示。$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried:
@@ -423,10 +423,10 @@ BattleFrontier_BattleFactoryLobby_Text_RulesAreListed:
     .string "交换式对战的规则如下。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading:
-    .string "你要读哪个标题？$"
+    .string "要读哪一部分的说明？$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules:
-    .string "在交换式对战中，你只能用\n三只宝可梦。\p不管是租借的还是交换得到的，\n你的队里不能出现两只或更多\l相同的宝可梦。$"
+    .string "在交换式对战中，你只能用\n三只宝可梦。\p不管是租借的还是交换得到的，\n你的队里不能出现两只或以上\l相同的宝可梦。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules:
     .string "你只能同之前你所击败\n过的训练家进行宝可梦交换。\p你只能交换到被你击败过的训练家\n使用的宝可梦。$"
@@ -435,7 +435,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
     .string "每赢一场战斗，你只能\n和被你击败的对手交换\l一只宝可梦。\p你不能和第七个训练家\n进行宝可梦交换。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
-    .string "在交换宝可梦时有两个关键\n要注意。\p第一，交换时，你无法知道\n你要接受的宝可梦的\l资料。\p第二，在你队里的宝可梦\n是按顺序排列的，这个顺序取决\l于你租借他们的先后。\p即使进行了交换这个顺序\n也保持不变。$"
+    .string "在交换宝可梦时有两个\n关键点要注意。\p第一，交换时，你无法得知\n你将要获得的宝可梦的\l具体能力。\p第二，在你队里的宝可梦\n是按顺序排列的，这个顺序取决\l于你租借他们的先后。\p即使进行了交换这个顺序\n也保持不变。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
     .string "在自由级中，租借的宝可梦\n和对方训练家的宝可梦\l都是100级的。$"

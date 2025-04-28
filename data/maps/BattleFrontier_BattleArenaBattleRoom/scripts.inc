@@ -494,10 +494,10 @@ BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter:
 	step_end
 
 BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward:
-    .string "裁判：训练家{PLAYER}！\n请向前走！$"
+    .string "裁判：训练家{PLAYER}！\n请向前！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward:
-    .string "裁判：训练家{STR_VAR_1}！\n请向前走！$"
+    .string "裁判：训练家{STR_VAR_1}！\n请向前！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin:
     .string "裁判：三回合定胜负锦标赛！\n开始！$"
@@ -509,7 +509,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent:
     .string "裁判：胜者是{STR_VAR_1}！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored:
-    .string "你的宝可梦将回复\n到满血。$"
+    .string "你的宝可梦的体力\n将会全部回复。$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent:
     .string "接下来，你的第二个对手！\n你准备好开始了吗？$"
@@ -542,7 +542,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
     .string "你要把你上次的战斗记录在你的\n开拓通行证吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:
-    .string "亲爱的挑战者！\p你的实力十分惊人！\p我们想要你见识一下\n我们的头，竞技场主将！$"
+    .string "亲爱的挑战者！\p你的实力十分惊人！\p我们想要你见识一下\n我们的头儿，竞技场主将！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_PreparedForTycoon:
     .string "同竞技场主将的战斗！\n准备好了吗？$"
@@ -557,13 +557,13 @@ BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight:
     .string "有没有搞错？哈……\n哈哈……$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy:
-    .string "我不知道该怎么说，不过……\n说实在的，你看起来实在是太弱了。\l你确信要接受我的考验吗？\p哈……\p那么，好吧！\n看来事情将变得很好办！$"
+    .string "我不知道该怎么说，不过……\n说实在的，你看起来实在是太弱了。\l你确信要接受我的考验吗？\p哈……\p那么，好吧！\n我们慢慢来！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle:
-    .string "好的！看你激起我的战斗\n欲望！$"
+    .string "好！看你能不能点燃我的\n战斗激情！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll:
-    .string "哦，等一下！\n你还是挺强的！\p我喜欢你！\n让我们看看你的开拓通行证。$"
+    .string "哦，等一下！\n你还挺强的！\p我喜欢你！\n把你的开拓通行证给我吧！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol:
     .string "毅力象征被刻在了\n开拓通行证上！$"
@@ -578,13 +578,13 @@ BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady:
     .string "…… ……\n那么，你准备好了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort:
-    .string "我不允许有不全心全意地去努力！\n准备接受打击吧！$"
+    .string "我决不允许三心二意！\n准备接招吧！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_LetsGetThisStarted:
-    .string "加油，裁判！\n让我们从这开始！$"
+    .string "来吧，裁判！\n让我们开始吧！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway:
-    .string "黄瓜香：咯咯！击倒！\n让我们看看你的开拓通行证。$"
+    .string "黄瓜香：嘎啊！被击倒了！\n把你的开拓通行证给我吧！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GutsSymbolTookGoldenShine:
     .string "毅力象征闪耀着\n金色的光芒！$"

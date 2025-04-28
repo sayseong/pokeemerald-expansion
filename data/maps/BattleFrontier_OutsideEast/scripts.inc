@@ -249,7 +249,7 @@ BattleFrontier_OutsideEast_Text_RankingHallSign:
     .string "对战开拓区排行榜\n关注最新的纪录！$"
 
 BattleFrontier_OutsideEast_Text_ExchangeCornerSign:
-    .string "对战点数交换服务中心\n交换对战点数！$"
+    .string "对战点数兑换服务区\n兑换对战点数！$"
 
 BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
     .string "哇！\n好大！\p对战塔看起来很特别，\n和别的建筑都不同。$"
@@ -264,7 +264,7 @@ BattleFrontier_OutsideEast_Text_ThriveInDarkness:
     .string "我是在黑暗中长大的……\n是的……哪里最适合我？\l必然是对战金字塔……\p在黑暗中探索的时候\n你是不是也会陷入完全的绝望？$"
 
 BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
-    .string "我一个星期没有睡觉了，\n但我已经找到了最强组合！\p我是绝对不会输的，这不是玩笑，\n我们的风暴会席卷对战竞技场！$"
+    .string "我一个星期没有睡觉了，\n但我已经找到了最强组合！\p我是绝对不会输的，我没开玩笑，\n我们的风暴会席卷对战竞技场！$"
 
 BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
     .string "你也是亚希达带来的吗？\n那家伙到底是什么人？\p他好像总能发现\n天才训练家，不过……\p我从来没见过\n他跟别人战斗。$"
@@ -288,19 +288,19 @@ BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon:
     .string "对于宝可梦，我比爸爸\n还要更胜一筹。$"
 
 BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy:
-    .string "去吧，小甜心！\n为了爸爸取得胜利吧！\p你和你妈妈一样的，\n绝对能够主导战斗！$"
+    .string "去吧，小甜心！\n为了爸爸取得胜利吧！\p你和你妈妈一样，\n绝对能够主导战斗！$"
 
 BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena:
-    .string "我听说过对战竞技场的\n这个令人倾心的女孩。\l从现在开始要加油了！\p除了她，你知道我还\n找到了什么？\p一大群满身汗臭的\n自然的武术家！$"
+    .string "这一路过来可真不容易！\n但我可是听说对战竞技场的\n有个无比漂亮的女孩。\p除了她，你知道我还\n找到了什么？\p一大群满身汗臭的\n自然的武术家！$"
 
 BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere:
-    .string "有时候能看到这位看上去\n明显是大人物的老人到这儿来，\p他的宝可梦真强，\n但他本人很和善。$"
+    .string "有时候能看到这位看上去\n明显是大人物的老人到这儿来，\p他的宝可梦真强，\n但他本人看起来很和善。$"
 
 BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid:
-    .string "你听说过那个关于\n对战金字塔的传说吗？\p当一位勇敢的训练家到达\n金光照耀的顶峰之时，\l就会有一个人出现在人群中。\p你知道这个传说吗？\n哈哈，你当然不知道！\l这是我刚刚编的！\p至于这是什么意思，\n那是，呃，不告诉你！$"
+    .string "你听说过那个关于\n对战金字塔的传说吗？\p当一位勇敢的训练家到达\n金光闪闪的顶峰之时，\l就会有一个人出现在人群中。\p你知道这个传说吗？\n哈哈，你当然不知道！\l这是我刚刚编的！\p至于这是什么意思，\n那是，呃，不告诉你！$"
 
 BattleFrontier_OutsideEast_Text_GotWipedOut:
-    .string "可恶！\n我以前从来没输过！\p但一到这里我就被\n毫不留情地打败了！\p然后有人说我根本没有天赋？！\n可恶！$"
+    .string "可恶！\n我以前从来没输过！\p但一到这里我就被\n毫不留情地打败了！\p然后还被人说我根本没有才能？！\n可恶！$"
 
 BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower:
     .string "这个人在挑战\n对战塔的时候\l碰上了个非常强的训练家。\p唉，现在他变成这样了……\p挑战对战塔的话\n一定要三思而后行。$"
@@ -315,7 +315,7 @@ BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou:
     .string "只要有你在身边，我会无往不利。$"
 
 BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
-    .string "哦哦，亲爱的，你太棒了！\p哦哦，我再也等不及了！\p我们马上去挑战\n多人对战房间吧！\p如果我们一起去对战沙龙，\n我们之间爱的力量一定会\l使我们战胜所有人。\p啊，亲爱的，在我们两人面前，\n一切都像推倒多米诺一样！$"
+    .string "哦哦，亲爱的，你太棒了！\p哦哦，我再也等不及了！\p我们马上去挑战\n多人对战房间吧！\p如果我们一起去对战塔，\n我们之间爱的力量一定会\l使我们战胜所有人。\p啊，亲爱的，在我们两人面前，\n一切都像推倒多米诺一样！$"
 
 BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
     .string "对战开拓区并不是\n强大的训练家专属的，\p似乎很多拥有特别能力的人\n也在被邀请的行列。\p那个亚希达……\p他建造这个地方一定有着\n远大的目标……$"

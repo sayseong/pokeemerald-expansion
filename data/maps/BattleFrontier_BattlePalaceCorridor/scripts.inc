@@ -122,7 +122,7 @@ BattleFrontier_BattlePalaceCorridor_Movement_AttendantEnterBattleRoom:
 	step_end
 
 BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame:
-    .string "人也好宝可梦也好，\n大家都是一样的……\p个性决定了他们\n擅长某些事情，\l而不擅长另一些事情。$"
+    .string "人也好宝可梦也好，\n其实都是一样的……\p每个个体的性格决定了他们\n擅长哪些事情，\l不擅长哪些事情。$"
 
 BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes:
     .string "与其勉强宝可梦做自己\n不喜欢的事情，不如让它们\l去做喜欢并且擅长的事。\p站在你的宝可梦的角度思考一下\n它究竟会喜欢什么样的招式。$"

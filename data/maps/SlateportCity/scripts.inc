@@ -1171,7 +1171,7 @@ SlateportCity_Text_RegisteredScott:
     .string "把亚希达的个人信息\n登记到宝可导航里。$"
 
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
-    .string "亚希达：虽然我想跟你同行，\n但我还得去找其他\l有天赋的训练家。\p我会去其他城市\n逛逛的。\p那么，回头见，{PLAYER}{KUN}！$"
+    .string "亚希达：虽然我想跟你同行，\n但我还得去找其他\l有才能的训练家。\p我会去其他城市\n逛逛的。\p那么，回头见，{PLAYER}{KUN}！$"
 
 SlateportCity_Text_TakingBattleTentChallenge:
     .string "亚希达：喂，好啊！\n这不是{PLAYER}{KUN}吗！\p{PLAYER}{KUN}，我猜——你\n要去挑战对战帐篷吧？\p好主意！\n真是个好主意！\p毕竟，只有强大的训练家\n才敢挑战对战帐篷！\p尽自己最大的努力取胜吧！$"
