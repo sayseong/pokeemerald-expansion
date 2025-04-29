@@ -392,7 +392,7 @@
 #define METATILE_Petalburg_Door_BirchsLab   0x22D
 #define METATILE_Petalburg_Door_Littleroot  0x248
 #define METATILE_Petalburg_Door_Oldale      0x287
-#define METATILE_Petalburg_Door_Playerroom  0x229
+#define METATILE_Petalburg_Door_PlayerRoom  0x229
 
 // gTileset_PetalburgGym
 #define METATILE_PetalburgGym_Door                0x224
