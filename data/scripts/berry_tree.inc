@@ -268,34 +268,34 @@ BerryTree_Text_PlantedOneBerry:
 
 BerryTree_Text_BerryGrowthStage1:
 .if OW_BERRY_SIX_STAGES == TRUE
-	.string "这里是你种下{STR_VAR_1}的地方\n!$"
+	.string "这里是你种下{STR_VAR_1}的地方\n！$"
 .else
 	.string "这里种植了一个{STR_VAR_1}。$"
 .endif
 
 BerryTree_Text_BerryGrowthStage2:
 .if OW_BERRY_SIX_STAGES == TRUE
-	.string "{STR_VAR_1}正在发芽中!$"
+	.string "{STR_VAR_1}正在发芽中！$"
 .else
 	.string "{STR_VAR_1}已经发芽了。$"
 .endif
 
 BerryTree_Text_BerryGrowthStage3:
 .if OW_BERRY_SIX_STAGES == TRUE
-	.string "{STR_VAR_1}的幼苗长得很漂亮!$"
+	.string "{STR_VAR_1}的幼苗长得很漂亮！$"
 .else
 	.string "{STR_VAR_1}正在变得更高。$"
 .endif
 
 BerryTree_Text_BerryGrowthStageTrunk:
-	.string "{STR_VAR_1}的树干越来越粗了!$"
+	.string "{STR_VAR_1}的树干越来越粗了！$"
 
 BerryTree_Text_BerryGrowthStageBudding:
-	.string "{STR_VAR_1}的树干上发芽了!$"
+	.string "{STR_VAR_1}的树干上发芽了！$"
 
 BerryTree_Text_BerryGrowthStage4:
 .if OW_BERRY_SIX_STAGES == TRUE
-	.string "{STR_VAR_1}的树开花了!$"
+	.string "{STR_VAR_1}的树开花了！$"
 .else
 	.string "{STR_VAR_1}的花正在{STR_VAR_2}盛开\n。"
 .endif
@@ -342,7 +342,7 @@ BerryTree_Text_PlantIsDelighted:
     .string "植物似乎感到很高兴。$"
 
 BerryTree_Text_ExclamationPoint:
-	.string "!$"
+	.string "！$"
 
 .if OW_BERRY_MUTATIONS == TRUE
 BerryTree_EventScript_CheckBerryFullyGrown_Mutation:
@@ -381,7 +381,7 @@ BerryTree_EventScript_PickBerry_Mutation::
 BerryTree_Text_WantToPick_Mutation:
 	.string "你找到了{STR_VAR_2} ,{STR_VAR_1}\n"
 	.string "与一个 {STR_VAR_3}!\p"
-	.string "你想要摘下它们吗？?$"
+	.string "你想要摘下它们吗？？$"
 
 BerryTree_Text_BerryLeftUnpicked_Mutation:
     .string "{PLAYER} 离开了 {STR_VAR_1}\n"
@@ -460,5 +460,5 @@ BerryTree_EventScript_EncounterPests::
 	return
 
 BerryTree_Text_APokemonAppeared:
-	.string "一只宝可梦跳出来了!$"
+	.string "一只宝可梦跳出来了！$"
 .endif

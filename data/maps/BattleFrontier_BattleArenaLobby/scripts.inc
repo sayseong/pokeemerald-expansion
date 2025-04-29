@@ -396,7 +396,7 @@ BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
-    .string "作为7连胜的奖励，\n我们将这个奖品授予你$"
+    .string "作为7连胜的奖励，\n我们将这个奖品授予你。$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:

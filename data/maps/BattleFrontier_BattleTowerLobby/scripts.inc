@@ -956,7 +956,7 @@ BattleFrontier_BattleTowerLobby_Text_RecordWillBeSaved:
     .string "准备保存记录，\n请稍等。$"
 
 BattleFrontier_BattleTowerLobby_Text_WeveBeenWaitingForYou:
-    .string "我们正在等你！\p$"
+    .string "我们一直在等你！\p$"
 
 BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved:
     .string "进入对战房间之前需要\n保存进度，请稍等。$"

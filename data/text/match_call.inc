@@ -362,7 +362,7 @@ MatchCall_PersonalizedText50::
     .string "我是{STR_VAR_1}。\n啥？获得更多的宝可梦了吗？\p如果你捕捉到了新的宝可梦，\n你一定要来给我看看。\p我不会嫉妒的，相信我。\n我等着你。会见。$"
 
 MatchCall_PersonalizedText51::
-    .string "这里是{STR_VAR_1}。\p你正在用正确的方法\n来培育你的宝可梦吗？\p我这里的空气很清洁呀。\n对于培育宝可梦来说\l这是最好的环境。\p如果你还在致力于培育\n宝可梦，你应来\l{STR_VAR_2}。来看看吧$"
+    .string "这里是{STR_VAR_1}。\p你正在用正确的方法\n来培育你的宝可梦吗？\p我这里的空气很清新呀。\n对于培育宝可梦来说\l这是最好的环境。\p如果你还在致力于培育\n宝可梦，你应来\l{STR_VAR_2}。多保重啦！$"
 
 MatchCall_PersonalizedText52::
     .string "嗨，我是{STR_VAR_1}。\p我给了我的{STR_VAR_2}一个宝可方块。\n它看上去非常喜欢。\p看上去宝可梦的喜怒哀乐\n都是和宝可方块相关的。\p这真是不可思议啊。\n多保重。$"
@@ -449,7 +449,7 @@ MatchCall_BattleFrontierRecordStreakText1::
     .string "嗨！我是{STR_VAR_1}。\n我听说了！\p我听说你在{STR_VAR_2}\n做得非常出色。\p真是恐怖啊——{STR_VAR_3}连胜？\n再见！$"
 
 MatchCall_BattleFrontierRecordStreakText2::
-    .string "你好，我是{STR_VAR_1}！\n我听说你了！\n你真的在一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p真的不容易啊！我也要\n努力了！再见$"
+    .string "你好，我是{STR_VAR_1}！\n我听说你了！\n你真的在一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p真的不容易啊！我也要\n努力了！再见！$"
 
 MatchCall_BattleFrontierRecordStreakText3::
     .string "喂你好，{PLAYER}！\n是我，{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n做得非常出色。\p{STR_VAR_3}连胜……\n是个新纪录吧？\p我也要加油了！\n再见！$"

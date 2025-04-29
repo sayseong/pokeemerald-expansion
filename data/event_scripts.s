@@ -1029,7 +1029,7 @@ gText_PlayerFoundOneTMHM::
 
 gText_PlayerFoundTMHMs::
 	.string "{PLAYER}发现了{STR_VAR_3}、{STR_VAR_1}\n"
-	.string "与{STR_VAR_2}!$"
+	.string "与{STR_VAR_2}！$"
 
 gText_Sudowoodo_Attacked::
 	.string "奇怪的树不喜欢\n"

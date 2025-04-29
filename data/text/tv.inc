@@ -326,7 +326,7 @@ gTVNameRaterText10::
     .string "一个昵称{STR_VAR_1}在令人愉快的意义上是\n非常有条理的。\p字“{STR_VAR_2}”和“{STR_VAR_3}”的存在\n——现在那是非常的好！$"
 
 gTVNameRaterText11::
-    .string "这个昵称{STR_VAR_1}——它让人有\n一种连贯，流畅的感觉。\p从第一个字“{STR_VAR_2}”到\n“{STR_VAR_3}”一气呵成。实在太奇妙了$"
+    .string "这个昵称{STR_VAR_1}——它让人有\n一种连贯，流畅的感觉。\p从第一个字“{STR_VAR_2}”到\n“{STR_VAR_3}”一气呵成，妙不可言。$"
 
 gTVNameRaterText12::
     .string "让我们看看别的好昵称的\n例子，好不好？$"
@@ -386,7 +386,7 @@ gTVPokemonTodaySuccessfulText02::
     .string "大哥哥：那个训练家不得不丢\n许多精灵球来捕捉它：{STR_VAR_3}！\p终于用了一个{STR_VAR_2}\n捕捉到它了！$"
 
 gTVPokemonTodaySuccessfulText03::
-    .string "大姐姐：如果很容易就捕捉到的话，\n那一定是命运把\l{STR_VAR_1}和{STR_VAR_2}带到了一起$"
+    .string "大姐姐：如果很容易就捕捉到的话，\n那一定是命运把\l{STR_VAR_1}和{STR_VAR_2}带到了一起！$"
 
 gTVPokemonTodaySuccessfulText04::
     .string "大姐姐：哇！那可真简洁！\p但是你知道人们都说，一个需要花上\n很多努力才可以捕捉到的宝可梦\l才会得到它的训练家的爱！$"
