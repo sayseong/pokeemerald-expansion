@@ -378,7 +378,7 @@ BattleFrontier_BattlePalaceLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
-    .string "欢迎来到对战宫殿，\n这里是对训练家的\p心灵的测试，这里接受\p单人对战大厅\n的挑战。$"
+    .string "欢迎来到对战宫殿，\n这里是对训练家的心灵的测试，\p这里接受单人对战大厅\n的挑战。$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
     .string "你想要挑战\n单人对战大厅吗？$"
@@ -393,10 +393,10 @@ BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
     .string "有两种对战大厅，\n50级和自由级，\l你要挑战哪一种？$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50:
-    .string "哎……\p你没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，你必须\n带着三只不同种类的宝可梦，\p而且它们必须都在\n50级以下。\p而且，也不能让它们携带\n相同种类的物品。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"
+    .string "哎……\p你没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，你必须\n带着三只不同种类的宝可梦，\p而且它们必须都在\n50级以下。\p而且，也不能让它们携带\n相同种类的道具。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "哎……\p你没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，你必须\n带着三只不同种类的宝可梦。\p而且，也不能让它们携带\n相同种类的物品。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"
+    .string "哎……\p你没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，你必须\n带着三只不同种类的宝可梦。\p而且，也不能让它们携带\n相同种类的道具。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NowSelectThreeMons:
     .string "好的。现在，请选择\n要参加的三只宝可梦。$"
@@ -449,7 +449,7 @@ BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway:
     .string "不知道一只喜欢削弱，\n然后慢慢消耗对手的宝可梦\l该算是什么性格，\p它要是乐天性格的话，\n我可真是惊了。\p但，呃，应该没可能吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
-    .string "欢迎来到对战宫殿，\n这里是对训练家的心灵的测试，\p这里接受\p双打对战大厅\n的挑战。$"
+    .string "欢迎来到对战宫殿，\n这里是对训练家的心灵的测试，\p这里接受双打对战大厅\n的挑战。$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
     .string "你想要挑战\n双打对战大厅吗？$"
@@ -467,7 +467,7 @@ BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
     .string "你要在你的开拓通行证上\n记录下你在对战宫殿\l最近的比赛吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_RulesAreListed:
-    .string "上面写着对战大厅的规则。$"
+    .string "上面列出了对战大厅的规则。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"

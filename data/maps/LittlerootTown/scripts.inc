@@ -928,7 +928,7 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
     .string "…… …… …… ……\n…… …… …… ……\p要是知道你有了\n自己的宝可梦……\l爸爸也一定会很高兴的。\p……但是，路上小心，无论发生了\n什么，家门永远为你敞开着。\p去吧，向着自己的目标努力吧，宝贝！$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
-    .string "打开电脑就可以存取\n物品和宝可梦了。\p科学的力量真伟大！$"
+    .string "打开电脑就可以存取\n道具和宝可梦了。\p科学的力量真伟大！$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
     .string "小田卷博士整天\n就待在研究所里作研究，\l然后突然出门去野外调查……\p小田卷博士什么时候\n才能在家里待上几天呢？$"

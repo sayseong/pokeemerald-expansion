@@ -59,7 +59,7 @@ SootopolisCity_Mart_Text_TooScaryOutside:
     .string "发……\n发生了什么？\p我很想知道，\n但我不敢出去。$"
 
 SootopolisCity_Mart_Text_FullRestoreItemOfDreams:
-    .string "知道全复药吗？\p它能完全恢复体力！\n清除所有异常状态！\p简直是梦一样的物品！$"
+    .string "知道全复药吗？\p它能完全恢复体力！\n清除所有异常状态！\p简直是梦一样的道具！$"
 
 SootopolisCity_Mart_Text_DidSomethingAwaken:
     .string "这种天气……\n有什么觉醒了吗？$"

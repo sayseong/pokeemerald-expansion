@@ -403,5 +403,5 @@ Route116_Text_TrainerTipsBToStopEvolution:
     .string "训练家小技巧\p如果你不希望宝可梦进化，\n则应在它试图进化时\l按下B键，\l受惊的宝可梦会停止进化。\p这叫做进化取消。$"
 
 Route116_Text_TrainerTipsBagHasPockets:
-    .string "训练家小技巧\p包包由数个口袋组成，\p得到的物品会\n自动放入合适的口袋中。\p每个训练家都应\n有一个自己的包包。$"
+    .string "训练家小技巧\p包包由数个口袋组成，\p得到的道具会\n自动放入合适的口袋中。\p每个训练家都应\n有一个自己的包包。$"
 

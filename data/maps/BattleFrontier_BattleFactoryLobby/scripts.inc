@@ -326,7 +326,7 @@ BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
-    .string "在这里，训练家的智慧将\n受到考验！\p欢迎来到对战工厂！\p我是你的单人交换式对战锦标赛\n的指导。$"
+    .string "在这里，训练家的智慧将\n受到考验！\p欢迎来到对战工厂！\p我是你的单人交换式对战锦标赛\n的向导。$"
 
 BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge:
     .string "你要进行单人交换式对战\n挑战吗？$"
@@ -383,7 +383,7 @@ BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem:
     .string "{PLAYER}得到了奖品\n{STR_VAR_1}。$"
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
-    .string "在这里，训练家的智慧将\n受到考验！\p欢迎来到对战工厂！\p我是你的双人交换式对战锦标赛\n的指导。$"
+    .string "在这里，训练家的智慧将\n受到考验！\p欢迎来到对战工厂！\p我是你的双人交换式对战锦标赛\n的向导。$"
 
 BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge:
     .string "你要进行双人交换式对战锦标赛\n挑战吗？$"
@@ -420,7 +420,7 @@ BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried:
     .string "例如，我很强大，但是我很容易感到\n无聊，于是我不停的\l交换并且战斗。\p不管怎么说，当我进入\n交换式对战活动中，我发现他们\l有很多不同的宝可梦租借。$"
 
 BattleFrontier_BattleFactoryLobby_Text_RulesAreListed:
-    .string "交换式对战的规则如下。$"
+    .string "上面列出了交换式对战的规则。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"

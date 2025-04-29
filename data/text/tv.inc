@@ -591,7 +591,7 @@ gTVSecretBaseVisitText03::
     .string "哦，原来如此！\n我清楚地看见了\p这里的{STR_VAR_2}\n多么有效！$"
 
 gTVSecretBaseVisitText04::
-    .string "哦，原来如此！\n我清楚地看见了！\p这里故意没有摆放\n内饰物品！\p多么有效！$"
+    .string "哦，原来如此！\n我清楚地看见了！\p这里故意没有摆放\n装饰物品！\p多么有效！$"
 
 gTVSecretBaseVisitText05::
     .string "哇呼！\p这里有一对{STR_VAR_2}\n和{STR_VAR_3}！\p相对于只有一个，\n这简直是梦幻的结合！$"

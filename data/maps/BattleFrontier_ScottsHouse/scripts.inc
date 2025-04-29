@@ -224,7 +224,7 @@ BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
     .string "{PLAYER}得到了\n{STR_VAR_1}对战点数。$"
 
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
-    .string "亚希达：你可以在开拓通行证上\n查看你对战点数的数量。\p你在对战开拓区\n获得的胜利越多，收集的\l对战点数就越多。\p这些对战点数你可以随便用，\n比如用来兑换物品。$"
+    .string "亚希达：你可以在开拓通行证上\n查看你对战点数的数量。\p你在对战开拓区\n获得的胜利越多，收集的\l对战点数就越多。\p这些对战点数你可以随便用，\n比如用来兑换道具。$"
 
 BattleFrontier_ScottsHouse_Text_ExpectingGreatThings:
     .string "期待你的精彩表现！$"

@@ -356,7 +356,7 @@ BattleFrontier_BattleArenaLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
-    .string "在这里，训练家的战斗意志将\n受到考验！\p欢迎来到对战竞技场！\p我是你的三回合定胜负锦标赛的指导！$"
+    .string "在这里，训练家的战斗意志将\n受到考验！\p欢迎来到对战竞技场！\p我是你的三回合定胜负锦标赛的向导！$"
 
 BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
     .string "那么，你想要进行\n对战竞技场挑战吗？$"
@@ -383,13 +383,13 @@ BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
     .string "亲爱的挑战者！\p你没有三只能参加比赛的\n宝可梦。\p要有参赛资格，你要带有三只不同\n种类的宝可梦。\p三只不同种类的宝可梦必须\n都在50级以下。\p他们还不能持有相同\n的道具。\p蛋{STR_VAR_1}是不行的。\p当你都准备好了，\n请再回来。$"
 
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
-    .string "我会为你做对战竞技场的指导。$"
+    .string "我会为你做对战竞技场的向导。$"
 
 BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
     .string "亲爱的挑战者！\p你在关机之前没有\n存档，是不是？\p很不幸，但那导致了你在本次挑战中\n失去比赛资格。\p当然，你随时可以开始\n一次新的挑战。$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
-    .string "我们恭喜你一连串漂亮地战胜了\n七个训练家！$"
+    .string "我们恭喜你漂亮地一连战胜了\n七个训练家！$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
     .string "你的成绩将被记录。\n在我记录游戏时请稍等。$"
@@ -431,7 +431,7 @@ BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
     .string "在对战竞技场中，宝可梦的顺序\n十分重要。\p比如说，如果你的第一只宝可梦\n有某种弱点，\l那你就该安排让你的\l第二只宝可梦能非常有效地\l对付第一只。\p我认为这会是组成一支有效队伍的\n好方法。$"
 
 BattleFrontier_BattleArenaLobby_Text_RulesAreListed:
-    .string "三回合定胜负锦标赛的规则如下。$"
+    .string "上面列出了三回合定胜负锦标赛的规则。$"
 
 BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"

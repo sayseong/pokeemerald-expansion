@@ -371,7 +371,7 @@ MatchCall_PersonalizedText53::
     .string "我是{STR_VAR_1}。\p如果你和宝可梦一起合作，\n那么在野外是很适合的。\p每个人都应该知道这一点\n并且和宝可梦更多的合作。\p那样就好了。\n我是这么认为的。\p我希望你走在正道上！\n稍后联系！$"
 
 MatchCall_PersonalizedText54::
-    .string "嗨，我是{STR_VAR_1}。你要知道，\n训练家是时刻准备着的！\p{PLAYER}{KUN}，你有足够的物品吗？\n你的宝可梦适合行动吗？\p让你身边的一切事情\n都保持在最佳状态，o\l是继续冒险的秘密。\p我去检查我自己的装备去了\n时刻准备着！$"
+    .string "嗨，我是{STR_VAR_1}。你要知道，\n训练家是时刻准备着的！\p{PLAYER}{KUN}，你有足够的道具吗？\n你的宝可梦适合行动吗？\p让你身边的一切事情\n都保持在最佳状态，o\l是继续冒险的秘密。\p我去检查我自己的装备去了\n时刻准备着！$"
 
 MatchCall_PersonalizedText55::
     .string "我是{STR_VAR_1}！\n我是{STR_VAR_1}！\p{STR_VAR_2}是一条非常繁忙的\n街道，所以\l我每天都能挑战各种训练家。\p今天，我赢了5次\n只败了3场！\p你的战绩呢？\n下次告诉我吧，好吗？$"

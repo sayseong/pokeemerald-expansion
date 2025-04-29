@@ -113,7 +113,7 @@ LilycoveCity_House3_Text_GoingToWinMultiBattles:
     .string "我们在进行多人战斗，\n我肯定会赢的。$"
 
 LilycoveCity_House3_Text_LikeMixingAtRecordCorner:
-    .string "我们喜欢在联机中心\n混合物品，\p但究竟是什么混合起来了？$"
+    .string "我们喜欢在联机中心\n混合东西，\p但究竟是什么混合起来了？$"
 
 LilycoveCity_House3_Text_MakePokeblocksWithBerryBlender:
     .string "我们要用树果混合器\n制作出超级宝可方块！$"

@@ -649,9 +649,9 @@ static const struct MenuAction MultichoiceList_BattleTowerRules[] =
 
 static const struct MenuAction MultichoiceList_BattleDomeRules[] =
 {
-    {COMPOUND_STRING("对手")},
-    {COMPOUND_STRING("对阵树")},
-    {COMPOUND_STRING("同时倒地")},
+    {COMPOUND_STRING("匹配对手")},
+    {COMPOUND_STRING("比赛进程表")},
+    {COMPOUND_STRING("同时被击倒")},
     {gText_Exit},
 };
 
