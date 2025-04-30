@@ -949,19 +949,19 @@ SlateportCity_Text_OhYourPokemon:
     .string "哦？\n你的{STR_VAR_1}……$"
 
 SlateportCity_Text_PleaseGiveItThisEffortRibbon:
-    .string "很努力嘛！\p这个努力缎带就\n给它作奖品吧。$"
+    .string "很努力嘛！\p这个努力奖章就\n给它作奖品吧。$"
 
 SlateportCity_Text_ReceivedEffortRibbon:
-    .string "{PLAYER}得到努力缎带。$"
+    .string "{PLAYER}得到努力奖章。$"
 
 SlateportCity_Text_PutEffortRibbonOnMon:
-    .string "{PLAYER}给{STR_VAR_1}\n戴上努力缎带。$"
+    .string "{PLAYER}给{STR_VAR_1}\n戴上努力奖章。$"
 
 SlateportCity_Text_GoForItLittleHarder:
     .string "你要更努力些才行，\p我会给你的宝可梦\n好东西的。$"
 
 SlateportCity_Text_EffortRibbonLooksGoodOnIt:
-    .string "啊！你的{STR_VAR_1}，戴着\n努力缎带很合适嘛！$"
+    .string "啊！你的{STR_VAR_1}，戴着\n努力奖章很合适嘛！$"
 
 SlateportCity_Text_WonderIfLighthouseStartlesPokemon:
     .string "灯塔的光能照到\n数百里外的地方。\p不知道这样会不会\n吓到海里的宝可梦。$"

@@ -1,5 +1,5 @@
-const u8 gRibbonDescriptionPart1_Champion[] = _("");
-const u8 gRibbonDescriptionPart2_Champion[] = _("打败冠军并登录\n名人堂的奖章。");
+const u8 gRibbonDescriptionPart1_Champion[] = _("打败冠军并登录");
+const u8 gRibbonDescriptionPart2_Champion[] = _("名人堂的奖章。");
 const u8 gRibbonDescriptionPart1_CoolContest[] = _("在帅气大赛中获得了");
 const u8 gRibbonDescriptionPart1_BeautyContest[] = _("在美丽大赛中获得了");
 const u8 gRibbonDescriptionPart1_CuteContest[] = _("在可爱大赛中获得了");

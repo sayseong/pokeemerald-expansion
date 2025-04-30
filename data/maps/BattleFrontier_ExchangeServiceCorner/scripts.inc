@@ -435,7 +435,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize::
-    .string "你好，这里是兑换服务区。\p我们用可爱的奖品同你收集到的\n对战点数进行兑换。\p请在列表上选择一个奖品。$"
+    .string "你好，这里是兑换服务区。\p我们用精美的奖品同你收集到的\n对战点数进行兑换。\p请在列表中选择一个奖品。$"
 
 @ Unused
 BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize::

@@ -1001,10 +1001,10 @@ LilycoveCity_ContestLobby_Text_TakeMementoOfPainting:
     .string "哦，对了！\p这个给你吧，就当作是\n我为你的宝可梦作画的纪念。$"
 
 LilycoveCity_ContestLobby_Text_ReceivedARibbon:
-    .string "{PLAYER}得到缎带。$"
+    .string "{PLAYER}得到奖章。$"
 
 LilycoveCity_ContestLobby_Text_PutTheRibbonOnMon:
-    .string "{PLAYER}给{STR_VAR_1}\n戴上缎带。$"
+    .string "{PLAYER}给{STR_VAR_1}\n戴上奖章。$"
 
 LilycoveCity_ContestLobby_Text_OkaySeeYou:
     .string "好了，再会！$"
