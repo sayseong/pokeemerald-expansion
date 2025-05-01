@@ -377,7 +377,7 @@ BattleFrontier_ReceptionGate_Text_MonEntryInfo:
     .string "大部分宝可梦都可以参加\n所有设施里面的挑战，\p但蛋和某些特定的宝可梦\n不能参加。\p参加挑战的宝可梦数量\n根据挑战的不同而不同，\p但所有设施都不可以\n选择同样的两只\l或以上宝可梦参加。$"
 
 BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
-    .string "参加对战开拓区的\n挑战时，每只宝可梦\l携带的物品都不能相同。\p参加之前请先确认\n每只参加的宝可梦\l都携带了不同的物品。$"
+    .string "参加对战开拓区的\n挑战时，每只宝可梦\l携带的道具都不能相同。\p参加之前请先确认\n每只参加的宝可梦\l都携带了不同的道具。$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass:
     .string "我负责向你介绍开拓通行证。$"

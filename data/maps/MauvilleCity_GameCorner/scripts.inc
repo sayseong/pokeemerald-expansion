@@ -673,7 +673,7 @@ MauvilleCity_GameCorner_Text_SoYourChoiceIsX:
     .string "您想换{STR_VAR_1}吗？$"
 
 MauvilleCity_GameCorner_Text_HereYouGo:
-    .string "这是您的物品$"
+    .string "请拿好！$"
 
 @ Unused
 MauvilleCity_GameCorner_Text_CantCarryAnyMore:
@@ -683,7 +683,7 @@ MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne:
     .string "我不小心弄错了，\n拿了两只一样的玩偶。\p你想要一个吗？$"
 
 MauvilleCity_GameCorner_Text_HereYouGo2:
-    .string "给你了！$"
+    .string "请拿好！$"
 
 MauvilleCity_GameCorner_Text_YouWantItButNotNow:
     .string "嗯？\n你现在还不想要？$"

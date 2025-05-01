@@ -956,7 +956,7 @@ BattleFrontier_BattleTowerLobby_Text_RecordWillBeSaved:
     .string "准备保存记录，\n请稍等。$"
 
 BattleFrontier_BattleTowerLobby_Text_WeveBeenWaitingForYou:
-    .string "我们正在等你！\p$"
+    .string "我们一直在等你！\p$"
 
 BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved:
     .string "进入对战房间之前需要\n保存进度，请稍等。$"
@@ -1138,7 +1138,7 @@ BattleFrontier_Text_ObtainedXBattlePoints:
     .string "{PLAYER}获得{STR_VAR_1}点对战点数。$"
 
 BattleFrontier_BattleTowerLobby_Text_RulesAreListed:
-    .string "写着对战塔的规则。$"
+    .string "上面列出了对战塔的规则。$"
 
 BattleFrontier_BattleTowerLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"

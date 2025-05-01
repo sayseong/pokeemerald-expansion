@@ -550,7 +550,7 @@ BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
     .string "是否在开拓通行证上\n记录下最后一次\l对战巨蛋的比赛？$"
 
 BattleFrontier_BattleDomeLobby_Text_RulesAreListed:
-    .string "对战锦标赛比赛规则\n已经列出来了。$"
+    .string "上面列出了对战锦标赛的规则。$"
 
 BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"

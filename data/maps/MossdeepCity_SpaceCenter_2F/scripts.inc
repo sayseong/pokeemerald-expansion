@@ -380,13 +380,13 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro:
     .string "真是个冲动草率的家伙。\n好吧，我先上了！$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat:
-    .string "可恶\n我输了$"
+    .string "我输了，\n但是！$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro:
     .string "要放松还太早！\n下面是我！$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Defeat:
-    .string "可恶！\n我也输了！$"
+    .string "我也输了！\n但是！$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro:
     .string "我想你已经很累了，\n但我不会让你休息的！$"

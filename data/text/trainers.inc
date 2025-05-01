@@ -309,7 +309,7 @@ Route105_Text_FosterDefeated::
     .string "关于那个石头我想太多了，\n并且我的宝可梦也不够强……$"
 
 Route105_Text_FosterPostBattle::
-    .string "我可以不厌其烦的盯着\n这个石头几个小时$"
+    .string "我可以不厌其烦的盯着\n这个石头几个小时。$"
 
 Route105_Text_LuisIntro::
     .string "唉呀！我看到你还担心\n有孩子会溺水呢。\p看起来你没事，\n所以要不要来场对战？$"

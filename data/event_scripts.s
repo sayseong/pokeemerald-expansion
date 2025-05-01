@@ -879,7 +879,7 @@ Common_EventScript_PlayerHandedOverTheItem::
 
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
-	.string "“挑选一些便利的物品吧！”\n"
+	.string "“挑选一些便利的道具吧！”\n"
 	.string "友好商店$"
 
 gText_PokemonCenterSign::
@@ -900,7 +900,7 @@ gText_SandstormIsVicious::
 	.string "走不过去。$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "包包里的物品可以\n"
+	.string "包包里的道具可以\n"
 	.string "登录到SELECT上，方便使用。$"
 
 gText_PokemonTrainerSchoolEmail::
@@ -976,7 +976,7 @@ gText_ComeBackWithSecretPower::
 	.string "我们的成员之一会把它送给你，\n"
 	.string "拿到之后就回来给我看看吧，\p"
 	.string "我们会让你成为我们之中的一员，\n"
-	.string "还可以秘密卖给你些物品。$"
+	.string "还可以秘密卖给你些道具。$"
 
 gText_PokerusExplanation::
 	.string "交给我的宝可梦\n"
@@ -1029,7 +1029,7 @@ gText_PlayerFoundOneTMHM::
 
 gText_PlayerFoundTMHMs::
 	.string "{PLAYER}发现了{STR_VAR_3}、{STR_VAR_1}\n"
-	.string "与{STR_VAR_2}!$"
+	.string "与{STR_VAR_2}！$"
 
 gText_Sudowoodo_Attacked::
 	.string "奇怪的树不喜欢\n"

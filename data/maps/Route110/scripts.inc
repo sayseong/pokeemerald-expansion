@@ -765,7 +765,7 @@ Route110_Text_MayTakeThis:
     .string "小遥：{PLAYER}{KUN}，你\n也在努力训练是吧？\p我想你应该得到些奖励！\n这是给你的！$"
 
 Route110_Text_MayExplainItemfinder:
-    .string "小遥：这是探宝器。\p试试，如果附近有看不见的\n物品，它就会响起来。\p好了，{PLAYER}{KUN}，下次再见！\p虽然我这么说你可能会不以为然\n但我想下次见面前你得\l更努力训练才是。$"
+    .string "小遥：这是探宝器。\p试试，如果附近有看不见的\n道具，它就会响起来。\p好了，{PLAYER}{KUN}，下次再见！\p虽然我这么说你可能会不以为然\n但我想下次见面前你得\l更努力训练才是。$"
 
 Route110_Text_BrendanLetsBattle:
     .string "小悠：嗨，{PLAYER}，\n你到这儿来了。\l还顺利吗？\p你的宝可梦训练得如何？\n向我展示一下吧。$"
@@ -777,7 +777,7 @@ Route110_Text_BrendanTakeThis:
     .string "小悠：{PLAYER}，在我不注意时\n你已经变得这么强了……\p干得不错！\n来，这个给你。$"
 
 Route110_Text_BrendanExplainItemfinder:
-    .string "小悠：这是探宝器。\p用它可以寻找附近\n看不见的物品。\p如果它探测到什么，\n就会发出声响。\p好了，我去找\n新的宝可梦了。$"
+    .string "小悠：这是探宝器。\p用它可以寻找附近\n看不见的道具。\p如果它探测到什么，\n就会发出声响。\p好了，我去找\n新的宝可梦了。$"
 
 Route110_Text_RideBikeAtFullSpeed:
     .string "在自行车道上\n风驰电掣的感觉很好吧？$"
@@ -849,7 +849,7 @@ Route110_Text_TrainerTipsPrlzSleep:
     .string "训练家小技巧\p敌人被麻痹或催眠后\n会变得束手无策。\p这类招式在战斗中很重要。$"
 
 Route110_Text_TrainerTipsRegisterItems:
-    .string "训练家小技巧\p包包里的物品可以\n按SELECT键来整理。$"
+    .string "训练家小技巧\p包包里的道具可以\n按SELECT键来整理。$"
 
 Route110_Text_TrickHouseSign:
     .string "“{RIGHT_ARROW}三步，{UP_ARROW}两步，\n进入奇妙的戏法屋。”$"

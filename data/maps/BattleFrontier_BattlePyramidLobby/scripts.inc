@@ -529,7 +529,7 @@ BattleFrontier_BattlePyramidLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid:
-    .string "欢迎来到\n对战金字塔！\p在这里测试的是\p训练家的勇气！\n我是探索式对战的向导。$"
+    .string "欢迎来到\n对战金字塔！\p在这里测试的是\n训练家的勇气！\l我是探索式对战的向导。$"
 
 BattleFrontier_BattlePyramidLobby_Text_EmbarkOnChallenge:
     .string "你有开始挑战\n探索式对战的勇气吗？$"
@@ -571,7 +571,7 @@ BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag:
     .string "{PLAYER}把包包换成了\n战斗包包。$"
 
 BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel:
-    .string "每一层当你走到这样的\n地板上之后，就会把你\l传送到金字塔更高\p的楼层，祝你\n一路顺风！$"
+    .string "每一层当你走到这样的\n地板上之后，就会把你\l传送到金字塔更高的楼层，\p祝你一路顺风！$"
 
 BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag:
     .string "冒险者啊，有个大问题！\p上回退出挑战时\n你没有进行记录，\p因此，很抱歉，\n你的挑战被取消资格了。\p这是你寄放在我们\n这里的包包。\p{PLAYER}拿回了包包。$"
@@ -708,7 +708,7 @@ BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints:
     .string "年轻的冒险者啊！\n为了表彰你的勇气，\l我们授予你这些对战点数！$"
 
 BattleFrontier_BattlePyramidLobby_Text_RulesAreListed:
-    .string "上面写着探索式对战的规则。$"
+    .string "上面列出了探索式对战的规则。$"
 
 BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"

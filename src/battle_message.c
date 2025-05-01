@@ -237,7 +237,7 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_PKMNIMMOBILIZEDBYLOVE]                = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n因着迷了而无法使出招式！"),
     [STRINGID_PKMNBLOWNAWAY]                        = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}被吹走了！"), //unused
     [STRINGID_PKMNCHANGEDTYPE]                      = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n变成了{B_BUFF1}属性！"),
-    [STRINGID_PKMNFLINCHED]                         = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}畏缩了，无法使出招式！"),
+    [STRINGID_PKMNFLINCHED]                         = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}畏缩了，\n无法使出招式！"),
     [STRINGID_PKMNREGAINEDHEALTH]                   = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}的\n体力回复了！"),
     [STRINGID_PKMNHPFULL]                           = COMPOUND_STRING("但是，{B_DEF_NAME_WITH_PREFIX}的\n体力是全满的！"),
     [STRINGID_PKMNRAISEDSPDEF]                      = COMPOUND_STRING("光墙使{B_ATK_TEAM2}的\n特殊抗性提高了！"),
@@ -1490,10 +1490,10 @@ const u8 *const gRefereeStringsTable[] =
     [B_MSG_REF_JUDGE_MIND]         = COMPOUND_STRING("裁判：判定准则其一，心！\n是否展现出斗志与勇气！\p"),
     [B_MSG_REF_JUDGE_SKILL]        = COMPOUND_STRING("裁判：判定准则其二，技！\n是否准确地使用了招式！\p"),
     [B_MSG_REF_JUDGE_BODY]         = COMPOUND_STRING("裁判：判定准则其三，体！\n是否保留了足够的体力！\p"),
-    [B_MSG_REF_PLAYER_WON]         = COMPOUND_STRING("裁判：判定结果：{B_BUFF1}比{B_BUFF2}！胜者是{B_PLAYER_NAME}的{B_PLAYER_MON1_NAME}！\p"),
-    [B_MSG_REF_OPPONENT_WON]       = COMPOUND_STRING("裁判：判定结果：{B_BUFF1}比{B_BUFF2}！胜者是{B_TRAINER1_NAME}的{B_OPPONENT_MON1_NAME}！\p"),
+    [B_MSG_REF_PLAYER_WON]         = COMPOUND_STRING("裁判：判定结果：{B_BUFF1}比{B_BUFF2}！\n胜者是{B_PLAYER_NAME}的{B_PLAYER_MON1_NAME}！\p"),
+    [B_MSG_REF_OPPONENT_WON]       = COMPOUND_STRING("裁判：判定结果：{B_BUFF1}比{B_BUFF2}！\n胜者是{B_TRAINER1_NAME}的{B_OPPONENT_MON1_NAME}！\p"),
     [B_MSG_REF_DRAW]               = COMPOUND_STRING("裁判：判定结果：3比3！双方打成了平手！"),
-    [B_MSG_REF_COMMENCE_BATTLE]    = COMPOUND_STRING("裁判：{B_PLAYER_MON1_NAME} VS {B_OPPONENT_MON1_NAME}！战斗开始！"),
+    [B_MSG_REF_COMMENCE_BATTLE]    = COMPOUND_STRING("裁判：{B_PLAYER_MON1_NAME} VS {B_OPPONENT_MON1_NAME}！\n战斗开始！"),
 };
 
 static const u8 sText_Trainer1Fled[] = _( "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS}逃走了!");

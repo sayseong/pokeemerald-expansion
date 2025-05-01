@@ -70,7 +70,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex:
     .string "我是游戏设计师。\p哦，是吗？\n你在收集宝可梦图鉴？\p完成它并不容易，\n但也别放弃。\p如果你完成了，\n就来给我看看吧。$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis:
-    .string "哇！太棒了！\n真的太棒了！\p这个宝可梦图鉴完成了！\n你一定很喜欢宝可梦！\p我好感动！\p我给你一件展示出\n你的成绩的物品吧！$"
+    .string "哇！太棒了！\n真的太棒了！\p这个宝可梦图鉴完成了！\n你一定很喜欢宝可梦！\p我好感动！\p我给你一件能彰显出\n你的成绩的东西吧！$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
     .string "我？你在跟我说话？\n我是程序员，\p我想知道这儿的老虎机\n是怎么样的。$"

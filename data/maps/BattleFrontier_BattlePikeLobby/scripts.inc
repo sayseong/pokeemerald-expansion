@@ -341,7 +341,7 @@ BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose:
     .string "这个怪异的地方是什么？\n我根本弄不明白！\p我已经进行挑战好多次了\n但无论我选哪个路线\l还是要遇到训练家。$"
 
 BattleFrontier_BattlePikeLobby_Text_RulesAreListed:
-    .string "选择式对战的规则如下。$"
+    .string "上面列出了选择式对战的规则。$"
 
 BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"

@@ -284,7 +284,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals:
     .string "决赛即将开始。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons:
-    .string "请选择两只\n参赛的宝可梦$"
+    .string "请选择两只即将在战斗中\n登场的宝可梦。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay:
     .string "这边请。$"

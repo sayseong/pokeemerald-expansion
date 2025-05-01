@@ -221,7 +221,7 @@ RustboroCity_PokemonSchool_Text_ExplainFreeze:
     .string "宝可梦被冰冻后，\n它完全无法反击，\p战斗后依然会保持冻结。\n用解冻药为它解冻。$"
 
 RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw:
-    .string "对于偷懒的学生，\n我就让他们尝尝我的先制之爪。\p你是不是个好学生，\n只要看看你怎么用这件物品\l就能知道。$"
+    .string "对于偷懒的学生，\n我就让他们尝尝我的先制之爪。\p你是不是个好学生，\n只要看看你怎么用这件道具\l就能知道。$"
 
 RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
     .string "带着先制之爪的宝可梦\n偶尔会提高速度\l比对手先发动攻击。\p还有很多可以给宝可梦\n携带的东西，\p只是这一点就\n足够你学很久了！$"
@@ -233,13 +233,13 @@ RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot:
     .string "我一直想要一只橡实果，\n现在终于有了！$"
 
 RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems:
-    .string "宝可梦可以带一些物品，\n但它们不会使用伤药或\l解毒药这样的人造物品。$"
+    .string "宝可梦可以带一些道具，\n但它们不会使用伤药或\l解毒药这样的人造道具。$"
 
 RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself:
     .string "你知道某些宝可梦的招式\n可以使对手宝可梦混乱吗？\p混乱的宝可梦有时\n会不知为何攻击自己。\p但一旦它退出战斗，\n它就会恢复正常。$"
 
 RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
-    .string "带着树果的宝可梦\n能够自我治疗……\p许多物品都可以\n让宝可梦带上……\p唉，及时记下笔记\n太难了……$"
+    .string "带着树果的宝可梦\n能够自我治疗……\p许多道具都可以\n让宝可梦带上……\p唉，及时记下笔记\n太难了……$"
 
 RustboroCity_PokemonSchool_Text_StudentsNotes:
     .string "这是这个学生的笔记本……\p用精灵球\n可以捕捉宝可梦。\p一个训练家最多可以\n同时携带六只宝可梦。\p训练家就是捕捉宝可梦，\n并养育它们，与它们\l共同战斗的人。\p训练家的任务是\n打败在宝可梦道馆中\l等待着的强大训练家。$"

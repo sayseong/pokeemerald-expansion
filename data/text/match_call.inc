@@ -362,7 +362,7 @@ MatchCall_PersonalizedText50::
     .string "我是{STR_VAR_1}。\n啥？获得更多的宝可梦了吗？\p如果你捕捉到了新的宝可梦，\n你一定要来给我看看。\p我不会嫉妒的，相信我。\n我等着你。会见。$"
 
 MatchCall_PersonalizedText51::
-    .string "这里是{STR_VAR_1}。\p你正在用正确的方法\n来培育你的宝可梦吗？\p我这里的空气很清洁呀。\n对于培育宝可梦来说\l这是最好的环境。\p如果你还在致力于培育\n宝可梦，你应来\l{STR_VAR_2}。来看看吧$"
+    .string "这里是{STR_VAR_1}。\p你正在用正确的方法\n来培育你的宝可梦吗？\p我这里的空气很清新呀。\n对于培育宝可梦来说\l这是最好的环境。\p如果你还在致力于培育\n宝可梦，你应来\l{STR_VAR_2}。多保重啦！$"
 
 MatchCall_PersonalizedText52::
     .string "嗨，我是{STR_VAR_1}。\p我给了我的{STR_VAR_2}一个宝可方块。\n它看上去非常喜欢。\p看上去宝可梦的喜怒哀乐\n都是和宝可方块相关的。\p这真是不可思议啊。\n多保重。$"
@@ -371,7 +371,7 @@ MatchCall_PersonalizedText53::
     .string "我是{STR_VAR_1}。\p如果你和宝可梦一起合作，\n那么在野外是很适合的。\p每个人都应该知道这一点\n并且和宝可梦更多的合作。\p那样就好了。\n我是这么认为的。\p我希望你走在正道上！\n稍后联系！$"
 
 MatchCall_PersonalizedText54::
-    .string "嗨，我是{STR_VAR_1}。你要知道，\n训练家是时刻准备着的！\p{PLAYER}{KUN}，你有足够的物品吗？\n你的宝可梦适合行动吗？\p让你身边的一切事情\n都保持在最佳状态，o\l是继续冒险的秘密。\p我去检查我自己的装备去了\n时刻准备着！$"
+    .string "嗨，我是{STR_VAR_1}。你要知道，\n训练家是时刻准备着的！\p{PLAYER}{KUN}，你有足够的道具吗？\n你的宝可梦适合行动吗？\p让你身边的一切事情\n都保持在最佳状态，o\l是继续冒险的秘密。\p我去检查我自己的装备去了\n时刻准备着！$"
 
 MatchCall_PersonalizedText55::
     .string "我是{STR_VAR_1}！\n我是{STR_VAR_1}！\p{STR_VAR_2}是一条非常繁忙的\n街道，所以\l我每天都能挑战各种训练家。\p今天，我赢了5次\n只败了3场！\p你的战绩呢？\n下次告诉我吧，好吗？$"
@@ -449,7 +449,7 @@ MatchCall_BattleFrontierRecordStreakText1::
     .string "嗨！我是{STR_VAR_1}。\n我听说了！\p我听说你在{STR_VAR_2}\n做得非常出色。\p真是恐怖啊——{STR_VAR_3}连胜？\n再见！$"
 
 MatchCall_BattleFrontierRecordStreakText2::
-    .string "你好，我是{STR_VAR_1}！\n我听说你了！\n你真的在一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p真的不容易啊！我也要\n努力了！再见$"
+    .string "你好，我是{STR_VAR_1}！\n我听说你了！\n你真的在一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p真的不容易啊！我也要\n努力了！再见！$"
 
 MatchCall_BattleFrontierRecordStreakText3::
     .string "喂你好，{PLAYER}！\n是我，{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n做得非常出色。\p{STR_VAR_3}连胜……\n是个新纪录吧？\p我也要加油了！\n再见！$"
