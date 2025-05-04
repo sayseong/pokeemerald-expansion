@@ -87,7 +87,7 @@ endif
 ELF := $(ROM:.gba=.elf)
 MAP := $(ROM:.gba=.map)
 SYM := $(ROM:.gba=.sym)
-NOCASHSYM := $(ROM.gba=.sym)
+NOCASHSYM := $(ROM:.gba=.sym)
 
 # Commonly used directories
 C_SUBDIR = src
@@ -472,4 +472,4 @@ $(SYM): $(ELF)
 
 # Symbol file (`make nosyms)
 $(NOCASHSYM): $(ELF)
-	$(READELF) -Ws $< | tail -n +4 | awk '$4 !~/(FILE|NOTYPE)/ && $8 !~/^(\$|\.)/ {print $2,$8}' | sort -k 1 | awk '!seen[$1]++' > $@
+	$(READELF) -Ws $< | tail -n +4 | awk '$$4 !~/(FILE|NOTYPE)/ && $$8 !~/^(\$$|\.)/ {print $$2,$$8}' | sort -k 1 | awk '!seen[$$1]++' > $@
