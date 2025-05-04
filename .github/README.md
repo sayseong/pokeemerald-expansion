@@ -105,7 +105,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
     - 妖精属性（可配置）。
     - 物理/特殊/变化招式划分（可配置）。
     - 新增招式和能力，直至朱/紫。
-      - 自定义大赛数据，直至剑/盾，新增招式正在开发中。（来源](https://web.archive.org/web/20240910012333/https://pokemonurpg.com/info/contests/rse-move-list/)）
+      - 自定义大赛数据，直至剑/盾，新增招式正在开发中。[来源](https://web.archive.org/web/20240910012333/https://pokemonurpg.com/info/contests/rse-move-list/)
     - 新增战斗机制支持：
       - 超级进化
       - 原始回归
@@ -135,8 +135,8 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
       - 动态经验。
       - 未进化时经验加成。
       - 冻伤
-        - 如果不启用配置则不会替换冻结效果，因此你可以混合搭配。
-      - 会心捕获。
+        - 如果不启用配置则不会替换冰冻效果，因此你可以混合搭配。
+      - 会心捕捉。
       - 可配置的移除徽章加成。
       - 每场战斗结束时重新计算属性。
       - 等级100的宝可梦可以获得努力值。
@@ -168,7 +168,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
         - 可以使用叶之石、冰之石和雷之石。
       - 好啦鱿只需达到30级即可进化。
         - 由于物理上无法同时拥有实时时钟（RTC）和陀螺仪，因此我们跳过了此要求。
-      - 奇鲁莉安使用第八世代及以后的进化方法（亲密度+妖精系招式）。
+      - 仙子伊布使用第八世代及以后的进化方法（亲密度+妖精系招式）。
       - 可以选择直接使用进化道具（如石头）。
     - 隐藏特性
       - 可以通过特性膏药获得。
