@@ -50,6 +50,7 @@ endif
 PREFIX := arm-none-eabi-
 OBJCOPY := $(PREFIX)objcopy
 OBJDUMP := $(PREFIX)objdump
+READELF := $(PREFIX)readelf
 AS := $(PREFIX)as
 LD := $(PREFIX)ld
 
@@ -86,6 +87,7 @@ endif
 ELF := $(ROM:.gba=.elf)
 MAP := $(ROM:.gba=.map)
 SYM := $(ROM:.gba=.sym)
+NOCASHSYM := $(ROM.gba=.sym)
 
 # Commonly used directories
 C_SUBDIR = src
@@ -294,6 +296,8 @@ endif
 
 syms: $(SYM)
 
+nosyms: $(NOCASHSYM)
+
 clean: tidy clean-tools clean-check-tools clean-generated clean-assets
 	@$(MAKE) clean -C libagbsyscall
 
@@ -465,3 +469,7 @@ $(ROM): $(ELF)
 # Symbol file (`make syms`)
 $(SYM): $(ELF)
 	$(OBJDUMP) -t $< | sort -u | grep -E "^0[2389]" | $(PERL) -p -e 's/^(\w{8}) (\w).{6} \S+\t(\w{8}) (\S+)$$/\1 \2 \3 \4/g' > $@
+
+# Symbol file (`make nosyms)
+$(NOCASHSYM): $(ELF)
+	$(READELF) -Ws $< | tail -n +4 | awk '$4 !~/(FILE|NOTYPE)/ && $8 !~/^(\$|\.)/ {print $2,$8}' | sort -k 1 | awk '!seen[$1]++' > $@
