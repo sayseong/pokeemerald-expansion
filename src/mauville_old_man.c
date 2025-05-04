@@ -39,11 +39,11 @@ static EWRAM_DATA u8 sStorytellerWindowId = 0;
 
 static const u16 sDefaultBardSongLyrics[NUM_BARD_SONG_WORDS] = {
     EC_WORD_SHAKE,
-    EC_WORD_IT,
-    EC_WORD_DO,
-    EC_WORD_THE,
-    EC_WORD_DIET,
-    EC_WORD_DANCE
+    EC_WORD_FAINT,
+    EC_WORD_TOGETHER,
+    EC_WORD_HEALTHY,
+    EC_WORD_TOO,
+    EC_WORD_DANCE,    
 };
 
 static const u8 *const sGiddyAdjectives[] = {
