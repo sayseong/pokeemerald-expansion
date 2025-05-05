@@ -1,4 +1,4 @@
-
+#!/usr/bin/python python3
 import os
 import re
 import pandas as pd
@@ -44,13 +44,12 @@ def replace_move_info(content, df):
     return content
 
 def log(message):
-    with open(current_folder+"\log.txt", "a", encoding="utf-8") as log_file:
+    with open(os.path.join(current_folder, "log.txt"), "a", encoding="utf-8") as log_file:
         log_file.write(message + "\n")
     print(message)
 if __name__ == "__main__":
-
-    work_file = current_folder +"\..\src\strings.c"
-    df = pd.read_excel(current_folder + r'\src\文本.xlsx')
+    work_file = os.path.join(os.path.dirname(current_folder), "src", "strings.c")
+    df = pd.read_excel(os.path.join(current_folder, "src", "文本.xlsx"))
 
     # 检查并清理重复的“变量名”
     df = df.drop_duplicates(subset='变量名', keep='first')

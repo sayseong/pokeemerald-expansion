@@ -1,3 +1,4 @@
+#!/usr/bin/python python3
 import re
 import openpyxl
 import os
@@ -45,8 +46,8 @@ def replace_in_c_file(c_file, replacement_dict):
 # 主函数
 def main():
     current_folder = os.path.dirname(os.path.abspath(__file__))
-    xlsx_file = current_folder+"/src/debug文本.xlsx"  # Excel 文件路径
-    c_file = current_folder+"/../src/battle_debug.c"       # C 文件路径
+    xlsx_file = os.path.join(current_folder, "src", "debug文本.xlsx")  # Excel 文件路径
+    c_file = os.path.join(os.path.dirname(current_folder), "src", "battle_debug.c")       # C 文件路径
 
     # 加载替换字典
     replacement_dict = load_replacement_dict(xlsx_file)

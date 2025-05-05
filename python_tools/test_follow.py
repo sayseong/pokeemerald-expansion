@@ -1,9 +1,19 @@
+#!/usr/bin/python python3
+import os
 import openpyxl
 import re
 
+# 获取py文件所在文件夹绝对路径
+pydir = os.path.dirname(os.path.realpath(__file__))
+
+#获取excel相对py文件路径
+excel_path = os.path.join(pydir, "src", "精灵跟随.xlsx")
+
+# 获取C文件所在文件夹相对py文件路径
+cdir = os.path.join(os.path.dirname(pydir), "src")
+
 # 文件路径
-excel_path = r"c:\Users\Nox\Documents\GitHub\pokeemerald-expansion-Chinese\python_tools\src\精灵跟随.xlsx"
-c_file_path = r"c:\Users\Nox\Documents\GitHub\pokeemerald-expansion-Chinese\src\follower_helper.c"
+c_file_path = os.path.join(cdir, "follower_helper.c")
 
 # 读取 Excel 文件
 wb = openpyxl.load_workbook(excel_path)
