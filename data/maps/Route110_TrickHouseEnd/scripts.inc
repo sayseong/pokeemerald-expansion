@@ -274,19 +274,19 @@ Route110_TrickHouseEnd_Text_AllNightSettingUpArrows:
     .string "我用了整整一个晚上设置好箭……\p你与我一样伟大！$"
 
 Route110_TrickHouseEnd_Text_AllNightPolishingFloors:
-    .string "我用了整整一个晚上磨光地板……\p你比我还要伟大！\n也许……$"
+    .string "我用了整整一个晚上抛光地板……\p你比我还要伟大！\n也许……$"
 
 Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry:
     .string "我……我该怎么办？\n我对谜题的灵感\l已经枯竭了……\p也许我该去环游全国\n来寻找灵感……$"
 
 Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
-    .string "我不喜欢认输，但你\n确实比我优秀！\p不过，你一定是被我的魅力\n所吸引，才会一次又一次地\l来到这儿。一定是的！\p然而，这与我的失败\n没有关系！\p作为拥有紧迫感的你和\n拥有天才的头脑的我两个人之间\l友谊的证明，希望你能\l收下这件纪念品！\p其实，这里有两个——\n红帐篷和蓝帐篷。\l你喜欢哪一个？$"
+    .string "我不喜欢认输，但你\n确实比我优秀！\p不过，你一定是被我的魅力\n所吸引，才会一次又一次地\l来到这儿。一定是的！\p然而，这与我的失败\n没有关系！\p作为拥有紧迫感的你和\n拥有天才的头脑的我两个人之间\l友谊的证明，希望你能\l收下这件纪念品！\p其实，这里有两个——\n红色帐篷和蓝色帐篷。\l你喜欢哪一个？$"
 
 Route110_TrickHouseEnd_Text_NoRoomInPC:
     .string "什么？你的电脑里没有空间了？\n我该怎么办？\p我是一个心地非常善良的人，\n你以后再来拿吧！$"
 
 Route110_TrickHouseEnd_Text_LeavingOnJourney:
-    .string "…… …… ……\p我要进行我的发现之旅了，\n为探索新的谜题而进行的旅程。\p希望将来的某一天你还会再来\n解答我的谜题。\p现在，说再见了！$"
+    .string "…… …… ……\p我要进行我的发现之旅了，\n为探索新的谜题而进行的旅程。\p希望将来的某一天你还会再来\n解答我的谜题。\p现在，先暂别了！$"
 
 Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward:
     .string "好！\n这是给你的奖励！$"

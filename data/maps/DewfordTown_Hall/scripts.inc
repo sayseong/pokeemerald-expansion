@@ -332,8 +332,8 @@ DewfordTown_Hall_Text_WellBeTrendDuo:
     .string "完全正确，好朋友！\p我们就是\n“{STR_VAR_1}”铛！\p这不是最适合的形象吗？\n哈哈哈哈！$"
 
 DewfordTown_Hall_Text_GiveYouSludgeBomb:
-    .string "对我来说，泥爆弹才是\n最最流行的。\p嗯？你说你不知道\n泥爆弹？\p真可惜。\n我给你一个吧。$"
+    .string "对我来说，污泥炸弹才是\n最最流行的。\p嗯？你说你不知道\n污泥炸弹？\p真可惜。\n我给你一个吧。$"
 
 DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo:
-    .string "我喜欢泥爆弹。\p但会\n“{STR_VAR_1}”的\l宝可梦也很棒。$"
+    .string "我喜欢污泥炸弹。\p但会\n“{STR_VAR_1}”的\l宝可梦也很棒。$"
 

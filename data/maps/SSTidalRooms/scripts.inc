@@ -135,8 +135,8 @@ SSTidalRooms_Text_NaomiPostBattle:
     .string "坐着豪华客轮周游世界\n确实很吸引人……\p但必须承认，坐着渡轮\n周游丰缘也别有一番风味。$"
 
 SSTidalRooms_Text_NotSuspiciousTakeThis:
-    .string "嗯……你好！\n我……我不是什么可疑的人！\l嗯……这个给你！免费的！\p这……真的，这不是我\n偷来的！我绝不会干这种事！\l这不是赃物！你放心用吧！$"
+    .string "嗯……你好！\n我……我不是什么可疑的人！\l嗯……这个给你！免费的！\p这……真的，这不是我\n抢夺来的！我绝不会干这种事！\l这不是赃物！你放心用吧！$"
 
 SSTidalRooms_Text_ExplainSnatch:
-    .string "抢夺可以把对手或盟友\n即将使用的某些招式\l据为己有。$"
+    .string "化为己用可以把对手或我方\n即将使用的某些招式\l抢夺过来化为己用。$"
 

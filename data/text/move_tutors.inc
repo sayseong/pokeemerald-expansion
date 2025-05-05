@@ -26,7 +26,7 @@ MoveTutor_Text_RolloutTaught::
     .string "在草里打滚使我\n非常快乐。来吧，让我们滚起来！$"
 
 MoveTutor_Text_FuryCutterTeach::
-    .string "这是一个你连续使用\n就会变得更强大的招式。\p这是一个虫属性的招式，并且\n是很酷的招式。\p这个招式叫做连续切。\n想让我教你的宝可梦吗？$"
+    .string "这是一个你连续使用\n就会变得更强大的招式。\p这是一个虫属性的招式，并且\n是很酷的招式。\p这个招式叫做连斩。\n想让我教你的宝可梦吗？$"
 
 MoveTutor_Text_FuryCutterDeclined::
     .string "我们合不来。$"
@@ -50,7 +50,7 @@ MoveTutor_Text_MimicTaught::
     .string "模仿是个伟大而深奥的招式。\p你能像我一样\n运用自如吗……？$"
 
 MoveTutor_Text_MetronomeTeach::
-    .string "我什么东西都想要！\n但是我把钱都花光了……\p如果要是有个能够让你\n一摇手指就会出现钱的\l魔法岂不美哉？\p如果你想，我能让你的宝可梦\n学会摇手指。\p钱不会出现，但你的宝可梦\n将会摇动手指。好吗？$"
+    .string "我什么东西都想要！\n但是我把钱都花光了……\p如果要是有个能够让你\n一挥指就会出现钱的\l魔法岂不美哉？\p如果你想，我能让你的宝可梦\n学会挥指。\p钱不会出现，但你的宝可梦\n将会摇动手指。好吗？$"
 
 MoveTutor_Text_MetronomeDeclined::
     .string "好的。等你改变主意了\n再来找我。$"
@@ -59,7 +59,7 @@ MoveTutor_Text_MetronomeWhichMon::
     .string "好的！我来教你！\n想让哪只宝可梦学习？$"
 
 MoveTutor_Text_MetronomeTaught::
-    .string "当宝可梦使用\n摇手指时，各种各样的好事情\l都会发生。\p我们使用它不是也很棒吗？$"
+    .string "当宝可梦使用\n挥指时，各种各样的好事情\l都会发生。\p我们使用它不是也很棒吗？$"
 
 MoveTutor_Text_SleepTalkTeach::
     .string "嗯！我的妻子依靠觉醒\n力量来保持清醒。\p她明明可以像我一样打个盹，\n然后说梦话。\p我能让你的宝可梦\n学会梦话。有兴趣吗？$"
@@ -98,13 +98,13 @@ MoveTutor_Text_DynamicPunchTaught::
     .string "我希望你能用爆裂拳\n在绿岭市道馆获胜！$"
 
 MoveTutor_Text_DoubleEdgeTeach::
-    .string "唉……\p琉璃市道馆馆主可真是\n太让人敬爱不已了。\p但这也意味着会有很多同样被\n他吸引的人做我的竞争对手。\p他的魅力就像舍身一击\n一样有利有弊。\l他根本都注意不到我。\p那么，让我教你的宝可梦\n学习舍身一击！$"
+    .string "唉……\p琉璃市道馆馆主可真是\n太让人敬爱不已了。\p但这也意味着会有很多同样被\n他吸引的人做我的竞争对手。\p他的魅力就像舍身冲撞\n一样有利有弊。\l他根本都注意不到我。\p那么，让我教你的宝可梦\n学习舍身冲撞！$"
 
 MoveTutor_Text_DoubleEdgeDeclined::
     .string "噢……\n连你都拒绝我……$"
 
 MoveTutor_Text_DoubleEdgeWhichMon::
-    .string "好的，你希望哪只宝可梦\n能学会舍身一击？$"
+    .string "好的，你希望哪只宝可梦\n能学会舍身冲撞？$"
 
 MoveTutor_Text_DoubleEdgeTaught::
     .string "我不再为爱而活着！\n我要更加坚强！$"
