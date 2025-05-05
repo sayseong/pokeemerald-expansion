@@ -23,7 +23,7 @@ pokeemerald-expansion-Chinese是基于ROM Hacking Hideout的[pokeemerald-expansi
 也感谢之前于2011年发布的漫游&TGB联合汉化的绿宝石汉化版的参与人员：
 飞眼，enler，胡里胡涂，ルナ，零度雨，灰米，绿叶枫，yeyezai，lazybone，雪山肥壶，信天翁，爱姿病，troy1229，夜露死苦，阿宝，lioyy，凛，酷酷的安仔，空白君，AISU，吾鱼（小黑屋）
 
-# 以下是pokeemerald-expansion项目的Readme文件翻译（其中链接直接指向该项目，请用相对路径寻找汉化项目中的对应文件）：
+# 以下是pokeemerald-expansion项目的Readme文件翻译：
 
 ## pokeemerald-expansion
 
@@ -92,11 +92,11 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
 ## 包含了哪些功能？
 
 - ***重要❗❗ 阅读以下内容以了解你可以切换哪些功能***：
-- [战斗配置](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/battle.h)
-- [宝可梦配置](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/pokemon.h)
-- [物品配置](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/item.h)
-- [大地图配置](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/overworld.h)
-- [调试配置](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/debug.h)
+- [战斗配置](../include/config/battle.h)
+- [宝可梦配置](../include/config/pokemon.h)
+- [物品配置](../include/config/item.h)
+- [大地图配置](../include/config/overworld.h)
+- [调试配置](../include/config/debug.h)
 
 - ***升级的战斗引擎***
     - Gen5+伤害计算。
@@ -141,7 +141,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
       - 每场战斗结束时重新计算属性。
       - 等级100的宝可梦可以获得努力值。
       - 反转对战支持。
-      - 大量其他功能[在此](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/battle.h)。
+      - 大量其他功能[在此](..//include/config/battle.h)。
 
 - ***全面的训练家自定义***
 
@@ -177,7 +177,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
       - 为雌性河马兽、沙河马、皮卡丘和晃晃斑自定义了雌性图标。
     - 传说宝可梦、幻之宝可梦和究极异兽拥有3项完美个体值。
 
-- ***可自定义的形态变化表。完整方法列表[在此](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/constants/form_change_types.h)***
+- ***可自定义的形态变化表。完整方法列表[在此](..//include/constants/form_change_types.h)***
 
     - 持有道具（如骑拉帝纳/阿尔宙斯）
     - 使用道具（如花舞鸟）
@@ -202,7 +202,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
     - 使用不变石可确保100%遗传性格（可配置）
     - 第六世代及以后的特性遗传（可配置）。
 
-- ***新世代道具。完整列表[在此](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/constants/items.h)***
+- ***新世代道具。完整列表[在此](..//include/constants/items.h)***
 
     - 第六世代及以后的学习装置（可配置）
     - 破坏因子
