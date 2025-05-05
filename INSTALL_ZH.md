@@ -27,11 +27,12 @@
 [Cygwin 安装说明](docs/install/windows/CYGWIN.md)
 
 ## Linux
+
 该项目可在任意 Linux 发行版上构建。
 已有说明的发行版：
-- [Ubuntu](docs/install/linux/UBUNTU.md)
-- [Debian](docs/install/linux/DEBIAN.md)
-- [Arch Linux](docs/install/linux/ARCH_LINUX.md)
+- [Ubuntu](docs/install/linux/UBUNTU_ZH.md)
+- [Debian](docs/install/linux/DEBIAN_ZH.md)
+- [Arch Linux](docs/install/linux/ARCH_LINUX_ZH.md)
 - [NixOS](docs/install/linux/NIXOS.md)
 
 其他发行版请参考 [通用说明](docs/install/linux/OTHERS.md)。
