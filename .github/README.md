@@ -64,14 +64,14 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
 - 检查你的当前版本。
   - 你可以在调试菜单的`Utilities -> Expansion Version`选项中检查。
   - 如果该选项不可用，你可能拥有的是1.6.2或更早的版本。在那种情况下，请查看[更改日志](docs/CHANGELOG.md)以确定你的版本，基于你仓库中可用的功能。
-- ***重要提示***：如果你落后了几个版本，我们建议你一次更新一个小版本，而不是直接跳到最新的补丁版本（例如，1.5.3 -> 1.6.2 -> 1.7.4等等。查看在线文档网站](https://rh-hideout.github.io/pokeemerald-expansion/CHANGELOG.html)以查看每个步骤的最新版本。）
+- ***重要提示***：如果你落后了几个版本，我们建议你一次更新一个小版本，而不是直接跳到最新的补丁版本（例如，1.5.3 -> 1.6.2 -> 1.7.4等等。[查看在线文档网站](https://rh-hideout.github.io/pokeemerald-expansion/CHANGELOG.html)以查看每个步骤的最新版本。）
 - 一旦你设置了远程仓库，请运行命令`git pull RHH expansion/X.Y.Z`，将X、Y和Z替换为你想要更新到的相应版本的数字（例如，要更新到1.11.1，请使用`git pull RHH expansion/1.11.1`）。
 - ***重要提示***：如果你落后了几个版本，我们建议你一次更新一个小版本，而不是直接跳到最新的补丁版本（例如，1.5.3 -> 1.6.2 -> 1.7.4等等）
 - 另外，你可以更新到扩展的未发布版本。
   - ***master（稳定版）***：它包含将在下一个补丁版本中发布的***bug修复***。要合并，请使用`git pull RHH master`。
   - ***upcoming（不稳定版，可能存在bug）***：它包含将在下一个小版本中发布的***功能***。要合并，请使用`git pull RHH upcoming`。
 
-### 请考虑在你的项目中归功于整个贡献者名单](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits)，因为他们都为开发这个项目付出了辛勤的努力 :)
+### 请考虑在你的项目中归功于整个[贡献者名单](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits)，因为他们都为开发这个项目付出了辛勤的努力 :)
 
 ## 谁在维护这个项目？
 

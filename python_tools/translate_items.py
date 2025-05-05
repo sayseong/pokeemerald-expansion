@@ -1,3 +1,4 @@
+#!/usr/bin/python python3
 import os
 import re
 import pandas as pd
@@ -60,13 +61,13 @@ def replace_item_info(content, df):
     return content
 
 def log(message):
-    with open(current_folder+"\log.txt", "a", encoding="utf-8") as log_file:
+    with open(os.path.join(current_folder, "log.txt"), "a", encoding="utf-8") as log_file:
         log_file.write(message + "\n")
     print(message)
 
 if __name__ == "__main__":
-    work_file = current_folder +"\..\src\data\items.h"
-    df = pd.read_excel(current_folder +r'\src\道具.xlsx')
+    work_file = os.path.join(os.path.dirname(current_folder), "src", "data", "items.h")
+    df = pd.read_excel(os.path.join(current_folder, "src", "道具.xlsx"))
     df.set_index('道具', inplace=True)
 
 
