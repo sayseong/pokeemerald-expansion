@@ -292,13 +292,13 @@ TrainerHill_Entrance_Pokemart_Expanded:
 	pokemartlistend
 
 TrainerHill_Entrance_Text_StillGettingReady:
-    .string "这里是训练家之丘，\n你可以在这里与许多其他训练家\l组队战斗。\p不过很抱歉，我们正在进行准备，\n请您下次再来！$"
+    .string "这里是训练家之丘，\n您可以在这里与许多其他训练家\l组队战斗。\p不过很抱歉，我们正在进行准备，\n请您下次再来！$"
 
 TrainerHill_Entrance_Text_WelcomeToTrainerHill:
-    .string "欢迎！\p这里是训练家之丘，\n在这里你可以与其他的\l训练家进行对战！$"
+    .string "欢迎！\p这里是训练家之丘，\n在这里您可以与其他的\l训练家进行对战！$"
 
 TrainerHill_Entrance_Text_SaveGameBeforeEnter:
-    .string "你是第一次来这儿吗？\p在进入之前，请先\n保存进度。$"
+    .string "您是第一次来这儿吗？\p在进入之前，请先\n写入记录。$"
 
 TrainerHill_Entrance_Text_TrainersUpToFloorX:
     .string "唔，我看看……\n现在这儿的训练家正在……\p{STR_VAR_1}楼。$"
@@ -307,32 +307,32 @@ TrainerHill_Entrance_Text_TrainersInEveryRoom:
     .string "唔，我看看……\n现在这儿的训练家正在……\p好像每间房间里\n都有训练家。$"
 
 TrainerHill_Entrance_Text_LikeToChallengeTrainers:
-    .string "你想要挑战\n等候着的训练家吗？$"
+    .string "您想要挑战\n等候着的训练家吗？$"
 
 TrainerHill_Entrance_Text_TimeProgessGetSetGo:
-    .string "我会为你计时的，\n祝你好运！\p记下你的成绩……\p创造自己的纪录……\p去吧！$"
+    .string "我会为您计时的，\n祝您好运！\p记下您的成绩……\p创造自己的纪录……\p去吧！$"
 
 TrainerHill_Entrance_Text_PleaseVisitUsAgain:
     .string "下次再来！$"
 
 TrainerHill_Entrance_Text_TooBadTremendousEffort:
-    .string "真不幸。\p你一定为战斗付出了\n极大的努力。\p再来试试吧！$"
+    .string "真遗憾。\p您一定为战斗付出了\n极大的努力。\p再来试试吧！$"
 
 TrainerHill_Entrance_Text_HopeYouGiveItYourBest:
-    .string "希望你能尽力。$"
+    .string "希望您发挥顺利。$"
 
 TrainerHill_Entrance_Text_MovedReceptionHereForSwitch:
-    .string "训练家移动的时候，\n就显得有些混乱。\p为避免这种情况，\n我们就把接待处搬到这儿来了。\p很抱歉对你造成了不便。$"
+    .string "训练家移动的时候，\n就显得有些混乱。\p为避免这种情况，\n我们就把接待处搬到这儿来了。\p很抱歉对您造成了不便。$"
 
 TrainerHill_Entrance_Text_ThankYouForPlaying:
-    .string "感谢你来此游玩！$"
+    .string "感谢你来光顾！$"
 
 TrainerHill_Entrance_Text_ExplainTrainerHill:
-    .string "我们训练家之丘这里有一种\n叫做限时进攻的活动，\p是计算你从这个\n柜台跑到顶层老板\l那里的用时的游戏。\p最快的成绩会贴在那边的\n时间板上。跟你的\l朋友比试吧。\p一路上的战斗中，\n你既不能获得经验点数，\l也不能获得金钱。$"
+    .string "我们训练家之丘这里有一种\n叫做限时进攻的活动，\p是计算您从这个\n柜台跑到顶层老板\l那里的用时的游戏。\p最快的成绩会贴在那边的\n时间板上。跟您的\l朋友比试吧。\p一路上的战斗中，\n您既不能获得经验点数，\l也不能获得金钱。$"
 
 @ Unused
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
-    .string "哦，对不起，但是\n你只有一只宝可梦。\p你最少需要两只宝可梦\n来参加这个活动。$"
+    .string "哦，对不起，但是\n您只有一只宝可梦。\p您最少需要两只宝可梦\n来参加这个活动。$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo:
     .string "嗯，嗯！\p你终于来了！\n是啊，你来了！\p等！不要说话！\n我知道你为什么会\l一个人单独走到这里来！\p你要来见我这个\n训练家之丘的老板，因为……\p你希望和我组队！\n呀——呵！\p……呃？\n不是吗？\p不管怎样，我一路看着你上来。\n完美的战斗！勇气可嘉！$"
@@ -372,4 +372,4 @@ TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen:
     .string "你知道这里什么时候\n才会开门吗？\p我一直在这儿等着\n成为这里的第一个挑战者！$"
 
 TrainerHill_Elevator_Text_ReturnToReception:
-    .string "现在请你回到\n接待处好吗？$"
+    .string "现在请您回到\n接待处好吗？$"

@@ -192,7 +192,7 @@ BattleFrontier_Lounge2_Text_PyramidKingGoldMons::
     .string "你跟认真起来的金字塔法老\n交过手了吗？\p他的热情燃烧起来的时候，\n通常都会用这些宝可梦：\p冰和飞行属性的冰冻宝可梦，\n电和飞行属性的电击宝可梦，\l还有火和飞行属性的火焰宝可梦。$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice1::
-    .string "确实，有些地方也可以\n进行双打对战，\p不过在对战塔的双人\n对战房间里，这可是最基本的！\p你可以在那里学习\n如何在对战开拓区\l进行双打对战。$"
+    .string "确实，有些地方也可以\n进行双打对战，\p不过在对战塔的双人\n对战间里，这可是最基本的！\p你可以在那里学习\n如何在对战开拓区\l进行双打对战。$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice2::
     .string "在这里战斗不要大意。\p听说有些训练家\n可是专门为了双打对战\l而培育宝可梦的。$"
@@ -204,7 +204,7 @@ BattleFrontier_Lounge2_Text_MultiBattleAdvice::
     .string "对战塔里聚集了\n各种各样的训练家。\p想想吧——你可能会碰上\n你的朋友或粉丝！\l要好好注意周围啊！$"
 
 BattleFrontier_Lounge2_Text_LinkMultiBattleAdvice::
-    .string "如果碰到了朋友，就去\n多人连线对战房间吧。\p有一个很厉害的朋友在旁边的话，\n就有可能碰上很强的对手！$"
+    .string "如果碰到了朋友，就去\n多人连线对战间吧。\p有一个很厉害的朋友在旁边的话，\n就有可能碰上很强的对手！$"
 
 BattleFrontier_Lounge2_Text_NewsGatheringPower::
     .string "收集消息好厉害！\n老师果然非同一般！$"

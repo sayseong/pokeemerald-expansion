@@ -381,56 +381,56 @@ BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
     .string "欢迎来到对战宫殿，\n这里是对训练家的心灵的测试，\p这里接受单人对战大厅\n的挑战。$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
-    .string "你想要挑战\n单人对战大厅吗？$"
+    .string "您想要挑战\n单人对战大厅吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
-    .string "对战宫殿里有几个\n专门为单人对战准备的礼堂，\l被称作单人对战大厅。\p单人对战与普通比赛的规则\n相同，但增加了一条\l非常重要的规则，\p训练家只能选择\n进行战斗的宝可梦，\p不可以对宝可梦\n下达任何战斗指令。\p宝可梦要\n依靠自己的本能战斗，\p你必须完全信赖你的宝可梦，\n在一边观看它们的比赛。\p如果你能成功地连续打败\n七个训练家，\l就可以得到对战点数。\p需要中断挑战的话\n必须进行存档，\p假如没有存档\n则视为放弃参赛权。$"
+    .string "对战宫殿里有几个\n专门为单人对战准备的礼堂，\l被称作单人对战大厅。\p单人对战与普通比赛的规则\n相同，但增加了一条\l非常重要的规则，\p训练家只能选择\n进行战斗的宝可梦，\p不可以对宝可梦\n下达任何战斗指令。\p宝可梦要\n依靠自己的本能战斗，\p您必须完全信赖您的宝可梦，\n在一边旁观它们的比赛。\p如果您能成功地连续打败\n七个训练家，\l就可以得到对战点数。\p需要暂停挑战的话\n必须先写入记录，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
-    .string "当你的心灵与你的宝可梦都变得\n更强的时候，再回到这里来吧。$"
+    .string "当您的心灵与您的宝可梦都变得\n更强的时候，再回到这里来吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
-    .string "有两种对战大厅，\n50级和自由级，\l你要挑战哪一种？$"
+    .string "有两种对战大厅，\n50级和自由级，\l您要挑战哪一种？$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50:
-    .string "哎……\p你没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，你必须\n带着三只不同种类的宝可梦，\p而且它们必须都在\n50级以下。\p而且，也不能让它们携带\n相同种类的道具。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"
+    .string "哎……\p您没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，您必须\n带着三只不同种类的宝可梦，\p而且它们必须都在\n50级以下。\p而且，也不能让它们携带\n相同种类的道具。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "哎……\p你没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，你必须\n带着三只不同种类的宝可梦。\p而且，也不能让它们携带\n相同种类的道具。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"
+    .string "哎……\p您没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，您必须\n带着三只不同种类的宝可梦。\p而且，也不能让它们携带\n相同种类的道具。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NowSelectThreeMons:
     .string "好的。现在，请选择\n要参加的三只宝可梦。$"
 
 BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge2:
-    .string "带你去对战大厅之前\n需要先存档，可以吗？$"
+    .string "带您去对战大厅之前\n需要先写入记录，可以吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_FollowMe:
     .string "好的。\n跟我来。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ResultsWillBeRecorded:
-    .string "很荣幸能观赏到\n你的宝可梦的英姿。\p正在记录你的结果中，\n请稍候。$"
+    .string "很荣幸能观赏到\n您的宝可梦的英姿。\p正在记录您的结果，\n请稍候。$"
 
 BattleFrontier_BattlePalaceLobby_Text_FirmTrueBondsFor7WinStreak:
-    .string "你达到了七连胜……\p看起来你的心灵与宝可梦之间的\n牵绊已经坚不可摧。$"
+    .string "您达到了七连胜……\p看起来您的心灵与宝可梦之间的\n牵绊已经坚不可摧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded:
-    .string "正在记录你的成绩，\n请稍候。$"
+    .string "正在记录您的成绩，\n请稍候。$"
 
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_BattlePointsFor7WinStreak:
 	.string "作为7连胜的奖励，\n特此授予对战点数。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
-    .string "看起来你没有地方\n装我们的礼品了，\p整理好包包再\n回来这里吧。$"
+    .string "看起来您没有地方\n装我们的礼品了，\p整理好包包再\n回来这里吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_WeHaveBeenWaiting:
-    .string "我们一直在等你……$"
+    .string "我们已经恭候多时……$"
 
 BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge:
-    .string "带你去对战大厅之前\n需要先存档，可以吗？$"
+    .string "带您去对战大厅之前\n需要先写入记录，可以吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_FailedToSaveBeforeEndingChallenge:
-    .string "哎……\p上次结束挑战时\n你没有成功存档，\p因此你的挑战资格\n被取消了。真是太可惜了。$"
+    .string "唉……\p您在上次结束时\n没有完好地写入记录。\p很不幸，没有写入记录的\n挑战我们将视其为无效。$"
 
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize:
@@ -452,19 +452,19 @@ BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
     .string "欢迎来到对战宫殿，\n这里是对训练家的心灵的测试，\p这里接受双打对战大厅\n的挑战。$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
-    .string "你想要挑战\n双打对战大厅吗？$"
+    .string "您想要挑战\n双打对战大厅吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
-    .string "对战宫殿里有几个\n专门为双打对战准备的礼堂，\l被称作双打对战大厅。\p双打对战与普通比赛的规则\n相同，但增加了一条\l非常重要的规则，\p训练家只能选择\n进行战斗的宝可梦，\p不可以对宝可梦\n下达任何战斗指令。\p宝可梦要\n依靠自己的本能战斗，\p你必须完全信赖你的宝可梦，\n在一边观看它们的比赛。\p如果你能成功地连续打败\n七个训练家，\l就可以得到对战点数。\p需要中断挑战的话\n必须进行存档，\p假如没有存档\n则视为放弃参赛权。$"
+    .string "对战宫殿里有几个\n专门为双打对战准备的礼堂，\l被称作双打对战大厅。\p双打对战与普通比赛的规则\n相同，但增加了一条\l非常重要的规则，\p训练家只能选择\n进行战斗的宝可梦，\p不可以对宝可梦\n下达任何战斗指令。\p宝可梦要\n依靠自己的本能战斗，\p您必须完全信赖您的宝可梦，\n在一边旁观它们的比赛。\p如果您能成功地连续打败\n七个训练家，\l就可以得到对战点数。\p需要暂停挑战的话\n必须先写入记录，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers:
     .string "要连续打败宫殿守护者\n和七个训练家啊……$"
 
 BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
-    .string "为了表彰你和你的宝可梦\n之间密切的关系，我们将\l这些对战点数授予你。$"
+    .string "为了表彰您和您的宝可梦\n之间密切的关系，我们将\l这些对战点数授予您。$"
 
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
-    .string "你要在你的开拓通行证上\n记录下你在对战宫殿\l最近的比赛吗？$"
+    .string "您要在您的开拓通行证上\n记录下您在对战宫殿\l最近的比赛吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_RulesAreListed:
     .string "上面列出了对战大厅的规则。$"

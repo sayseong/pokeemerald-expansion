@@ -57,5 +57,5 @@ BattleFrontier_BattlePikeCorridor_Movement_AttendantEnterCorridor:
 	step_end
 
 BattleFrontier_BattlePikeCorridor_Text_YourChallengeHasBegun:
-    .string "你的选择式对战挑战\n现在开始了……$"
+    .string "您的选择式对战挑战\n现在开始了……$"
 

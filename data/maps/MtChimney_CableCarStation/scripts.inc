@@ -86,10 +86,10 @@ MtChimney_CableCarStation_Movement_ExitCableCar:
 	step_end
 
 MtChimney_CableCarStation_Text_CableCarReadyGetOn:
-    .string "缆车已经停了。\n你要继续坐在上面吗？$"
+    .string "缆车即将下行。\n您要搭乘吗？$"
 
 MtChimney_CableCarStation_Text_StepThisWay:
-    .string "请走这边。$"
+    .string "这边请。$"
 
 MtChimney_CableCarStation_Text_RideAnotherTime:
     .string "欢迎下次再来搭乘。$"

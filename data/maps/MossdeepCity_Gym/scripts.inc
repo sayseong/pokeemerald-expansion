@@ -494,7 +494,7 @@ MossdeepCity_Gym_Text_ExplainCalmMind:
     .string "小枫：那个招式学习器04里面是……\n小南：冥想！\p小枫：它能提升特攻……\n小南：还能提高特防！\p小枫：这是超能宝可梦……\n小南：最佳的招式！\p…… …… ……$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:
-    .string "把道馆馆主小枫和小南的信息\n登记进宝可导航里。$"
+    .string "把道馆馆主小枫和小南\n登记到宝可导航里了。$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle:
     .string "小枫：看来你和你的宝可梦间的\n牵绊比我们之间的\l还要强得多。\p小南：你会变得更强的！\n这在我们的战斗中就能看出来。$"
@@ -506,7 +506,7 @@ MossdeepCity_Gym_Text_GymStatue:
     .string "绿岭市宝可梦道馆$"
 
 MossdeepCity_Gym_Text_GymStatueCertified:
-    .string "绿岭市宝可梦道馆\p小南与小枫认可的训练家：\n{PLAYER}$"
+    .string "绿岭市宝可梦道馆\p小南和小枫认可的训练家：\n{PLAYER}$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch:
     .string "小枫：宝可梦……\n小南：宝可梦……\p小枫：队伍改变后……\n小南：战术也随之改变。\p小枫：但我……\n小南：但我……\p小枫：我会一直跟小南在一起！\n小南：我会一直跟小枫在一起！\p小枫：我们会让你一次次……\n小南：看到我们完美的组合！$"

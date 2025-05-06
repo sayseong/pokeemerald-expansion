@@ -73,7 +73,7 @@ SafariZone_EventScript_PokeblockPresent::
 	end
 
 SafariZone_Text_WouldYouLikeToExit:
-	.string "你现在就要退出\n"
+	.string "您现在就要退出\n"
 	.string "狩猎地带吗？$"
 
 SafariZone_Text_TimesUp:
@@ -100,32 +100,32 @@ Route121_SafariZoneEntrance_Text_WelcomeToSafariZone:
 	.string "欢迎来到狩猎地带！\p"
 	.string "在这里有许多丰缘地区\n"
 	.string "难得一见的宝可梦，\p"
-	.string "你可以观察这些野生宝可梦\n"
+	.string "您可以观察这些野生宝可梦\n"
 	.string "在自然栖息地的生活。\p"
 	.string "另外，我们也欢迎\n"
 	.string "宝可梦训练家的到来，\p"
-	.string "你可以在这里捕捉\n"
-	.string "你想要的宝可梦！\p"
-	.string "祝你在狩猎地带玩得愉快！$"
+	.string "您可以在这里捕捉\n"
+	.string "您想要的宝可梦！\p"
+	.string "祝您在狩猎地带玩得愉快！$"
 
 Route121_SafariZoneEntrance_Text_WelcomeFirstTime:
 	.string "欢迎来到狩猎地带！\n"
 	.string "请问是第一次来这里吗？$"
 
 Route121_SafariZoneEntrance_Text_ComeInAndEnjoy:
-	.string "祝你在狩猎地带玩得愉快！$"
+	.string "祝您在狩猎地带玩得愉快！$"
 
 Route121_SafariZoneEntrance_Text_FirstTimeInfo:
 	.string "进入狩猎地带以后，\n"
-	.string "会给你30只狩猎球用来捕捉宝可梦，\p"
-	.string "狩猎球用完或者你走了500步以后，\n"
+	.string "会给您30只狩猎球用来捕捉宝可梦，\p"
+	.string "狩猎球用完或者您走了500步以后，\n"
 	.string "狩猎活动就结束了。\p"
-	.string "祝你在狩猎地带玩得愉快！$"
+	.string "祝您在狩猎地带玩得愉快！$"
 
 Route121_SafariZoneEntrance_Text_WouldYouLikeToPlay:
 	.string "欢迎来到狩猎地带！\p"
 	.string "花¥500就可以尽情地捕捉宝可梦！\n"
-	.string "你要进行狩猎活动吗？$"
+	.string "您要进行狩猎活动吗？$"
 
 Route121_SafariZoneEntrance_Text_PlayAnotherTime:
 	.string "好的，\n"
@@ -133,37 +133,37 @@ Route121_SafariZoneEntrance_Text_PlayAnotherTime:
 
 Route121_SafariZoneEntrance_Text_NotEnoughMoney:
 	.string "抱歉，\n"
-	.string "你带的钱不够。$"
+	.string "您带的钱不够。$"
 
 Route121_SafariZoneEntrance_Text_ThatWillBe500Please:
 	.string "请先付¥500。$"
 
 Route121_SafariZoneEntrance_Text_HereAreYourSafariBalls:
-	.string "请收好你的狩猎球。$"
+	.string "请收好您的狩猎球。$"
 
 Route121_SafariZoneEntrance_Text_Received30SafariBalls:
 	.string "{PLAYER}得到30个狩猎球。$"
 
 Route121_SafariZoneEntrance_Text_PleaseEnjoyYourself:
-	.string "游戏结束的时候你会收到通知，\n"
+	.string "游戏结束的时候您会收到通知，\n"
 	.string "在那之前，请尽情地玩吧。\l"
-	.string "野生的宝可梦们在等着你去发现！$"
+	.string "野生的宝可梦们在等着您去发现！$"
 
 Route121_SafariZoneEntrance_Text_PCIsFull:
 	.string "很抱歉，\n"
-	.string "你的电脑盒子满了。$"
+	.string "您的电脑盒子满了。$"
 
 Route121_SafariZoneEntrance_Text_YouNeedPokeblockCase:
 	.string "很抱歉，\n"
-	.string "似乎你还没有宝可方块盒。\p"
+	.string "似乎您还没有宝可方块盒。\p"
 	.string "使用宝可方块会使\n"
 	.string "狩猎活动变得更有趣的。\p"
 	.string "拿到宝可方块盒再来吧，\p"
-	.string "你可以在水静市选美大厅\n"
+	.string "您可以在水静市选美大厅\n"
 	.string "索要到宝可方块盒。$"
 
 SafariZone_South_Text_StillHaveTimeExit:
-	.string "你的时间还没有用完，\n"
+	.string "您的时间还没有用完，\n"
 	.string "现在就要离开狩猎地带吗？$"
 
 SafariZone_South_Text_EnjoyTheRestOfYourAdventure:
@@ -172,12 +172,12 @@ SafariZone_South_Text_EnjoyTheRestOfYourAdventure:
 
 SafariZone_South_Text_ExitEarlyThankYouForPlaying:
 	.string "好的，现在我要收回\n"
-	.string "你余下的狩猎球。\p"
-	.string "谢谢你的光临，\n"
+	.string "您余下的狩猎球。\p"
+	.string "谢谢您的光临，\n"
 	.string "下次再见。$"
 
 SafariZone_South_Text_GoodLuck:
-	.string "祝你好运！\p"
+	.string "祝您好运！\p"
 	.string "需要什么帮助的话，\n"
 	.string "就直接告诉我吧！$"
 
@@ -254,7 +254,7 @@ SafariZone_South_Text_AreaOffLimits1:
 SafariZone_Southeast_Text_ExpansionIsFinished:
 	.string "狩猎地带的扩建\n"
 	.string "已经完工，\p"
-	.string "希望你能喜欢。$"
+	.string "希望您能喜欢。$"
 
 SafariZone_South_Text_AreaOffLimits2:
 	.string "此处正在建设中，\n"

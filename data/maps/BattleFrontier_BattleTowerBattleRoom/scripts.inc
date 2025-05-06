@@ -438,7 +438,7 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge::
 	end
 
 BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth:
-    .string "现在为你的宝可梦\n回复体力。$"
+    .string "现在为您的宝可梦\n回复体力。$"
 
 @ Unused
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent:
@@ -463,28 +463,28 @@ BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent:
     .string "下面是第七位对手，\n准备好了吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle:
-    .string "要在开拓通行证上\n记录下你的成绩吗？$"
+    .string "要在开拓通行证上\n记录下您的成绩吗？$"
 
 BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass:
     .string "{PLAYER}的战绩已经\n记录在了开拓通行证上。$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame:
-    .string "想要保存并\n退出游戏吗？$"
+    .string "要写入记录并\n退出游戏吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
-    .string "保存战斗记录中，\n请稍等。$"
+    .string "正在写入记录……\n请稍等。$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
-    .string "要中断对战房间的\n挑战吗？$"
+    .string "要暂停对战间的\n挑战吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
-    .string "发生了某些错误，\n数据无法保存。$"
+    .string "发生了某些错误，\n记录无法保存。$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay:
-    .string "打扰了……\p我们的领袖，对战塔大君，\n正为与你对战而亲自前来。\p她应该很快便会抵达。$"
+    .string "打扰了……\p我们的领袖，对战塔大君，\n正为与您对战而亲自前来。\p她应该很快便会抵达。$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden:
-    .string "对战塔大君在等着你，\n准备好了吗？$"
+    .string "对战塔大君在等着您，\n准备好了吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
     .string "你好……\n我的名字叫莉拉，\p人称对战塔大君，\n也是这个对战塔的管理者……\p我听说过关于\n你的传言……\p坦率而言，\n这些传言并不吸引人……\p我来找你的原因……\n有且只有一个……$"

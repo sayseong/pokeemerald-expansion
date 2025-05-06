@@ -320,13 +320,13 @@ BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
     .string "这里是对战塔，\p训练家将他们最优秀的\n宝可梦带来进行淘汰赛。$"
 
 BattleFrontier_OutsideWest_Text_MayISeeYourTicket:
-    .string "你好，你想登船？\n可以让我看一下你的船票吗？$"
+    .string "您好，您想登船？\n可以让我看一下您的船票吗？$"
 
 BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard:
     .string "{PLAYER}没有船票……\p非常抱歉，\p想登船的话必须\n要有船票。$"
 
 BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo:
-    .string "{PLAYER}晃了晃船票。\p很好！这就够了！\p你想去哪里？$"
+    .string "{PLAYER}晃了晃船票。\p很好！这就够了！\p您想去哪里？$"
 
 BattleFrontier_OutsideWest_Text_SlateportItIs:
     .string "那就去凯那市！$"
@@ -341,7 +341,7 @@ BattleFrontier_OutsideWest_Text_PleaseBoardFerry:
     .string "请登船等待\n启航。$"
 
 BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo:
-    .string "那么你想去哪里？$"
+    .string "那么您想去哪里？$"
 
 BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends:
     .string "在朋友之中我是最强的，\n但在这儿……\l我根本不算什么！$"

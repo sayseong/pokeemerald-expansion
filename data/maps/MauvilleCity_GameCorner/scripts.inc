@@ -630,7 +630,7 @@ MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner:
     .string "这里是紫堇市游戏中心。$"
 
 MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins:
-    .string "你想要些代币\n玩游戏吗？\p但你还没有\n装代币的代币盒。$"
+    .string "您想要些代币\n玩游戏吗？\p但您还没有\n装代币的代币盒。$"
 
 MauvilleCity_GameCorner_Text_WereYouLookingForCoins:
     .string "您要买代币吗？\p¥1000可以买50枚。\n要一些吗？$"
@@ -677,7 +677,7 @@ MauvilleCity_GameCorner_Text_HereYouGo:
 
 @ Unused
 MauvilleCity_GameCorner_Text_CantCarryAnyMore:
-    .string "噢，你不能再拿更多了。$"
+    .string "噢，您不能再拿更多了。$"
 
 MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne:
     .string "我不小心弄错了，\n拿了两只一样的玩偶。\p你想要一个吗？$"

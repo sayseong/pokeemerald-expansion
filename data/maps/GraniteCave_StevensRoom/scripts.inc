@@ -91,7 +91,7 @@ GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
     .string "大吾：你的宝可梦看起来\n很能干嘛。\p如果坚持训练，也许有天\n你能成为宝可梦联盟\l的冠军呢。我是这么想啦。\p这样吧，既然我们已经互相认识了\n就在宝可导航上\l登录一下吧。\p…… …… ……$"
 
 GraniteCave_StevensRoom_Text_RegisteredSteven:
-    .string "把大吾的信息\n登记到宝可导航里。$"
+    .string "把大吾\n登记到宝可导航里了。$"
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
     .string "好了，我得快点走了。$"

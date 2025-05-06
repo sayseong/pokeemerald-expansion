@@ -279,7 +279,7 @@ PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
     .string "妈妈：{PLAYER}，喜欢你的\n新房间吗？\p好！房间都清理干净了！\p楼下也\n整理完毕了，\p让宝可梦帮忙搬家真方便啊！\p啊，最好去看看你桌子上的东西\n是不是都齐了。$"
 
 PlayersHouse_2F_Text_Notebook:
-    .string "{PLAYER}翻开笔记。\p冒险须知第一条\n用START键打开菜单。\p冒险须知第二条\n保存选项可以记录。\p后面是空白……$"
+    .string "{PLAYER}翻开笔记。\p冒险须知第一条\n用START键打开菜单。\p冒险须知第二条\n记录选项可以写下记录。\p后面是空白……$"
 
 Common_Text_LookCloserAtMap:
     .string "{PLAYER}仔细察看\n丰缘地区的地图。$"

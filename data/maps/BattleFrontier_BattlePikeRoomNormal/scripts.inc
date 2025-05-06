@@ -647,16 +647,16 @@ BattleFrontier_BattlePikeRoomNormal_Movement_CameraPanDown:
 	step_end
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth:
-    .string "欢迎……\n你的运气值得赞扬……\p我们将为您的宝可梦\n回复体力……$"
+    .string "欢迎……\n您的运气值得赞扬……\p我们将为您的宝可梦\n回复体力……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge:
-    .string "愿你享受接下来的\n选择式对战的挑战……$"
+    .string "愿您享受接下来的\n选择式对战的挑战……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon:
-    .string "哦，你是个幸运的人。\n我现在心情还不错。\p我会为你的一只宝可梦\n回复体力。$"
+    .string "哦，您是个幸运的人。\n我现在心情还不错。\p我会为您的一只宝可梦\n回复体力。$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell:
-    .string "祝你好运。\n再见。$"
+    .string "祝您好运。\n再见。$"
 
 @ Seems there was a planned room type where the player could choose to battle and would be healed if they won
 @ Possibly replaced/superseded by the hard battle room, which is the same but the battle isnt optional
@@ -711,28 +711,28 @@ BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
     .string "适可而止吧！$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia:
-    .string "我必须向你道歉……\n我的奇鲁莉安性格胆小……$"
+    .string "我必须向您道歉……\n我的奇鲁莉安性格胆小……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops:
-    .string "我必须向你道歉……\n我的彷徨夜灵性格胆小……$"
+    .string "我必须向您道歉……\n我的彷徨夜灵性格胆小……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
-    .string "一旦受到了惊吓就会\n无视警告胡乱攻击……\p你和你的宝可梦还好吗？$"
+    .string "一旦受到了惊吓就会\n无视警告胡乱攻击……\p您和您的宝可梦还好吗？$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine:
-    .string "我为所发生的一切表示道歉……\n我希望你的宝可梦没事。$"
+    .string "我为所发生的一切表示道歉……\n我希望您的宝可梦没事。$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_Silence:
     .string "…… …… ……\n…… …… ……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer:
-    .string "欢迎……\p在此你将会迎战一名\n颇具实力的训练家……$"
+    .string "欢迎……\p在此您将会迎战一名\n颇具实力的训练家……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth:
-    .string "精彩绝伦……\p为表彰你的胜利，你的宝可梦的体力\n将被完全回复……$"
+    .string "精彩绝伦……\p为表彰您的胜利，您的宝可梦的体力\n将被完全回复……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2:
-    .string "愿你享受接下来的\n选择式对战的挑战……$"
+    .string "愿您享受接下来的\n选择式对战的挑战……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen:
     .string "我叫小蓟……\n我就是这里的法则……\l因为我就是水管皇后……\p你已经知道了吧，想要前进，\n你必须击败我……\p……我可不是个喜欢闲聊的人。\n快点，来吧……$"
@@ -765,21 +765,21 @@ BattleFrontier_BattlePikeRoomNormal_Text_IWontForget:
     .string "……你，我不会忘记的……\n……永远……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal:
-    .string "欢迎你……\p咯咯……\n看来你运气不佳……\p如果你没有选择这个房间，\n你的宝可梦本可以得到回复……$"
+    .string "欢迎您……\p咯咯……\n看来您运气不佳……\p如果您没有选择这个房间，\n您的宝可梦本可以得到回复……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne:
-    .string "欢迎你……\p既然你选择了这个房间，\n我会把一只宝可梦的体力完全回复……$"
+    .string "欢迎您……\p既然您选择了这个房间，\n我会把一只宝可梦的体力完全回复……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo:
-    .string "欢迎你……\p既然你选择了这个房间，\n我会把两只宝可梦的体力完全回复……$"
+    .string "欢迎您……\p既然您选择了这个房间，\n我会把两只宝可梦的体力完全回复……$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons:
-    .string "欢迎你……\p呵呵……\n你应该感谢你的幸运星……\p因为你抽中了这间房间\n你的宝可梦将会接收治疗……$"
+    .string "欢迎您……\p呵呵……\n您应该感谢您的幸运星……\p因为您抽中了这间房间\n您的宝可梦将会接收治疗……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster:
     .string "我这就去请我们的主人……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons:
-    .string "哦，你是一个幸运的人！\n我现在心情不错。\p我来帮你的两只宝可梦\n完全回复体力！$"
+    .string "哦，您是一个幸运的人！\n我现在心情不错。\p我来帮您的两只宝可梦\n完全回复体力！$"
 

@@ -87,14 +87,14 @@ static const u8 *const sPlayersNeededOrModeTexts[][5] = {
 
 ALIGNED(4) static const u8 sText_BButtonCancel[] = _("{B_BUTTON}取消");
 ALIGNED(4) static const u8 sJPText_SearchingForParticipants[] = _("ため\nさんかしゃ ぼしゅうちゅう です！"); // Unused, may have been cut off
-ALIGNED(4) static const u8 sText_PlayerContactedYouForXAccept[] = _("{STR_VAR_2}想要与你连接\n\n{STR_VAR_1}接受吗？");
-ALIGNED(4) static const u8 sText_PlayerContactedYouShareX[] = _("{STR_VAR_2}连接上了你。\n想要交换{STR_VAR_1}？");
-ALIGNED(4) static const u8 sText_PlayerContactedYouAddToMembers[] = _("{STR_VAR_2}连接上了你。\n添加到成员？");
+ALIGNED(4) static const u8 sText_PlayerContactedYouForXAccept[] = _("{STR_VAR_2}想要与您连接\n\n{STR_VAR_1}接受吗？");
+ALIGNED(4) static const u8 sText_PlayerContactedYouShareX[] = _("{STR_VAR_2}连接上了您。\n想要交换{STR_VAR_1}？");
+ALIGNED(4) static const u8 sText_PlayerContactedYouAddToMembers[] = _("{STR_VAR_2}连接上了您。\n添加到成员？");
 ALIGNED(4) static const u8 sText_AreTheseMembersOK[] = _("{STR_VAR_1}！\n这些成员可以吗？");
 ALIGNED(4) static const u8 sText_CancelModeWithTheseMembers[] = _("取消和其他成员的\n{STR_VAR_1}模式");
 ALIGNED(4) static const u8 sText_AnOKWasSentToPlayer[] = _("已向\n{STR_VAR_1}提交确认。"); // 待定
 ALIGNED(4) static const u8 sText_OtherTrainerUnavailableNow[] = _("其他训练师好像\n现在不可见……\p");
-ALIGNED(4) static const u8 sText_CantTransmitTrainerTooFar[] = _(" 你不能和一个太远的\n训练师进行通信。\p");
+ALIGNED(4) static const u8 sText_CantTransmitTrainerTooFar[] = _(" 您不能和一个太远的\n训练师进行通信。\p");
 ALIGNED(4) static const u8 sText_TrainersNotReadyYet[] = _("其他训练师没有\n准备好。\p");
 
 static const u8 *const sCantTransmitToTrainerTexts[] = {
@@ -112,11 +112,11 @@ static const u8 *const sPlayerUnavailableTexts[] = {
 
 ALIGNED(4) static const u8 sText_TrainerAppearsUnavailable[] = _("其他训练师\n断开了……\p");
 ALIGNED(4) static const u8 sText_PlayerSentBackOK[] = _("{STR_VAR_1}回复“是”！");
-ALIGNED(4) static const u8 sText_PlayerOKdRegistration[] = _("{STR_VAR_1}确认被你登录为\n成员。");
+ALIGNED(4) static const u8 sText_PlayerOKdRegistration[] = _("{STR_VAR_1}确认被您登录为\n成员。");
 ALIGNED(4) static const u8 sText_PlayerRepliedNo[] = _("{STR_VAR_1}回复，“否……”\p");
 ALIGNED(4) static const u8 sText_AwaitingOtherMembers[] = _("{STR_VAR_1}！\n等待其他成员！");
 ALIGNED(4) static const u8 sText_QuitBeingMember[] = _("取消加入？");
-ALIGNED(4) static const u8 sText_StoppedBeingMember[] = _("你停止加入。\p");
+ALIGNED(4) static const u8 sText_StoppedBeingMember[] = _("您停止加入。\p");
 
 static const u8 *const sPlayerDisconnectedTexts[] = {
     [RFU_STATUS_OK]                  = NULL,
@@ -149,8 +149,8 @@ static const u8 *const sLinkDroppedTexts[] = {
     [RFU_STATUS_LEAVE_GROUP]         = NULL
 };
 
-ALIGNED(4) static const u8 sText_DoYouWantXMode[] = _("你想要加入{STR_VAR_2}\n模式？");
-ALIGNED(4) static const u8 sText_DoYouWantXMode2[] = _("你想要加入{STR_VAR_2}\n模式？");
+ALIGNED(4) static const u8 sText_DoYouWantXMode[] = _("您想要加入{STR_VAR_2}\n模式？");
+ALIGNED(4) static const u8 sText_DoYouWantXMode2[] = _("您想要加入{STR_VAR_2}\n模式？");
 
 // Unused
 static const u8 *const sDoYouWantModeTexts[] = {
@@ -204,8 +204,8 @@ static const u8 *const sDoSomethingTexts[][GENDER_COUNT] = {
     }
 };
 
-ALIGNED(4) static const u8 sText_SomebodyHasContactedYou[] = _("有人连接上了你。{PAUSE 60}");
-ALIGNED(4) static const u8 sText_PlayerHasContactedYou[] = _("{STR_VAR_1}连接上了你。{PAUSE 60}");
+ALIGNED(4) static const u8 sText_SomebodyHasContactedYou[] = _("有人连接上了您。{PAUSE 60}");
+ALIGNED(4) static const u8 sText_PlayerHasContactedYou[] = _("{STR_VAR_1}连接上了您。{PAUSE 60}");
 
 static const u8 *const sPlayerContactedYouTexts[] = {
     sText_SomebodyHasContactedYou,
@@ -220,14 +220,14 @@ static const u8 *const sAwaitingResponseTexts[] = {
     sText_AwaitingResponseFromPlayer
 };
 
-ALIGNED(4) static const u8 sText_ShowTrainerCard[] = _("其他训练师展示\n给你看他们的训练师卡片。\p你也要展示\n训练师卡片？");
-ALIGNED(4) static const u8 sText_BattleChallenge[] = _("其他训练师想通过\n宝可梦对战挑战你。\p你想要接受\n挑战吗？");
-ALIGNED(4) static const u8 sText_ChatInvitation[] = _("其他训练师邀请你\n聊天。\p你想要接受\n聊天申请吗？");
-ALIGNED(4) static const u8 sText_OfferToTradeMon[] = _("有人愿意用一只\n等级{DYNAMIC 0}的{DYNAMIC 1}\p与你登记的等级{DYNAMIC 2}\n的{DYNAMIC 3}交换。\p你同意吗？");
-ALIGNED(4) static const u8 sText_OfferToTradeEgg[] = _("有人想要交换你\n登记的蛋。\l你想要接受交换申请吗？");
+ALIGNED(4) static const u8 sText_ShowTrainerCard[] = _("其他训练师展示\n给您看他们的训练师卡片。\p您也要展示\n训练师卡片？");
+ALIGNED(4) static const u8 sText_BattleChallenge[] = _("其他训练师想通过\n宝可梦对战挑战您。\p您想要接受\n挑战吗？");
+ALIGNED(4) static const u8 sText_ChatInvitation[] = _("其他训练师邀请您\n聊天。\p您想要接受\n聊天申请吗？");
+ALIGNED(4) static const u8 sText_OfferToTradeMon[] = _("有人愿意用一只\n等级{DYNAMIC 0}的{DYNAMIC 1}\p与您登记的等级{DYNAMIC 2}\n的{DYNAMIC 3}交换。\p您同意吗？");
+ALIGNED(4) static const u8 sText_OfferToTradeEgg[] = _("有人想要交换您\n登记的蛋。\l您想要接受交换申请吗？");
 ALIGNED(4) static const u8 sText_ChatDropped[] = _("聊天断开。\p");
-ALIGNED(4) static const u8 sText_OfferDeclined1[] = _("你拒绝了请求。\p");
-ALIGNED(4) static const u8 sText_OfferDeclined2[] = _(" 你拒绝了请求。\p");
+ALIGNED(4) static const u8 sText_OfferDeclined1[] = _("您拒绝了请求。\p");
+ALIGNED(4) static const u8 sText_OfferDeclined2[] = _(" 您拒绝了请求。\p");
 ALIGNED(4) static const u8 sText_ChatEnded[] = _("聊天停止了。\p");
 
 // Unused
@@ -435,36 +435,36 @@ static const u8 *const sTradeReactionTexts[GENDER_COUNT][4] = {
 };
 
 ALIGNED(4) static const u8 sText_XCheckedTradingBoard[] = _("{STR_VAR_1}检查了\n交换平台。\p");
-ALIGNED(4) static const u8 sText_RegisterMonAtTradingBoard[] = _("欢迎来到交换平台。\p你需要登记宝可梦\n来进行交换。\p你现在需要登记\n你的精灵宝可梦吗？");
+ALIGNED(4) static const u8 sText_RegisterMonAtTradingBoard[] = _("欢迎来到交换平台。\p您需要登记宝可梦\n来进行交换。\p您现在需要登记\n您的精灵宝可梦吗？");
 ALIGNED(4) static const u8 sText_TradingBoardInfo[] = _("交换平台是用来\n"
                                                         "提供宝可梦进行交换的。\p"
-                                                        "你所做的就是把\n"
+                                                        "您所做的就是把\n"
                                                         "宝可梦进行登记。\p"
                                                         "其他训练师可能会提供\n"
-                                                        "你想要交换的宝可梦。\p"
-                                                        "我们希望你可以登记宝可梦\n"
+                                                        "您想要交换的宝可梦。\p"
+                                                        "我们希望您可以登记宝可梦\n"
                                                         "用来交换给\l"
                                                         "更多更多其他训练师。\p"
-                                                        "你现在需要登记\n你的宝可梦吗？");
-ALIGNED(4) static const u8 sText_ThankYouForRegistering[] = _("我们已经登记了你的宝可梦\n放在交换平台用来交换。\p感谢使用这项服务！\p"); // unused
+                                                        "您现在需要登记\n您的宝可梦吗？");
+ALIGNED(4) static const u8 sText_ThankYouForRegistering[] = _("我们已经登记了您的宝可梦\n放在交换平台用来交换。\p感谢使用这项服务！\p"); // unused
 ALIGNED(4) static const u8 sText_NobodyHasRegistered[] = _("没人登记宝可梦\n在交换平台用来交换。\p\n"); // unused
 ALIGNED(4) static const u8 sText_ChooseRequestedMonType[] = _("请选择宝可梦属性\n用于交换。");
-ALIGNED(4) static const u8 sText_WhichMonWillYouOffer[] = _("你将会拿什么宝可梦\n用来交换呢？\p");
+ALIGNED(4) static const u8 sText_WhichMonWillYouOffer[] = _("您将会拿什么宝可梦\n用来交换呢？\p");
 ALIGNED(4) static const u8 sText_RegistrationCanceled[] = _("登记取消。\p");
 ALIGNED(4) static const u8 sText_RegistrationCompleted[] = _("登记完成。\p");
 ALIGNED(4) static const u8 sText_TradeCanceled[] = _("交换被取消了。\p");
-ALIGNED(4) static const u8 sText_CancelRegistrationOfMon[] = _("取消登记你的\n等级{STR_VAR_2}的{STR_VAR_1}?");
-ALIGNED(4) static const u8 sText_CancelRegistrationOfEgg[] = _("取消登记你的蛋？?");
+ALIGNED(4) static const u8 sText_CancelRegistrationOfMon[] = _("取消登记您的\n等级{STR_VAR_2}的{STR_VAR_1}?");
+ALIGNED(4) static const u8 sText_CancelRegistrationOfEgg[] = _("取消登记您的蛋？?");
 ALIGNED(4) static const u8 sText_RegistrationCanceled2[] = _("登记取消。\p");
 ALIGNED(4) static const u8 sText_TradeTrainersWillBeListed[] = _("训练师想要进行的交换\n会用表格列出来。"); // unused
 ALIGNED(4) static const u8 sText_ChooseTrainerToTradeWith2[] = _("请选择训练师\n用来交换宝可梦。"); // unused
-ALIGNED(4) static const u8 sText_AskTrainerToMakeTrade[] = _("你想要和{STR_VAR_1}\n进行交换？");
+ALIGNED(4) static const u8 sText_AskTrainerToMakeTrade[] = _("您想要和{STR_VAR_1}\n进行交换？");
 ALIGNED(4) static const u8 sText_AwaitingResponseFromTrainer2[] = _("等待训练师\n的回复……"); // unused
 ALIGNED(4) static const u8 sText_NotRegisteredAMonForTrade[] = _("还没有登记宝可梦\n用于交换。\p\p"); // unused
-ALIGNED(4) static const u8 sText_DontHaveTypeTrainerWants[] = _("你还没有{STR_VAR_1}想要的\n{STR_VAR_2}属性的宝可梦\p");
-ALIGNED(4) static const u8 sText_DontHaveEggTrainerWants[] = _("你还没有蛋是\n{STR_VAR_1}需要的。\p");
-ALIGNED(4) static const u8 sText_PlayerCantTradeForYourMon[] = _("{STR_VAR_1}还不能和你交换\n你的宝可梦。\p");
-ALIGNED(4) static const u8 sText_CantTradeForPartnersMon[] = _("你还不能交换\n{STR_VAR_1}的宝可梦呢。\p");
+ALIGNED(4) static const u8 sText_DontHaveTypeTrainerWants[] = _("您还没有{STR_VAR_1}想要的\n{STR_VAR_2}属性的宝可梦\p");
+ALIGNED(4) static const u8 sText_DontHaveEggTrainerWants[] = _("您还没有蛋是\n{STR_VAR_1}需要的。\p");
+ALIGNED(4) static const u8 sText_PlayerCantTradeForYourMon[] = _("{STR_VAR_1}还不能和您交换\n您的宝可梦。\p");
+ALIGNED(4) static const u8 sText_CantTradeForPartnersMon[] = _("您还不能交换\n{STR_VAR_1}的宝可梦呢。\p");
 
 // Unused
 static const u8 *const sCantTradeMonTexts[] = {
@@ -472,7 +472,7 @@ static const u8 *const sCantTradeMonTexts[] = {
     sText_CantTradeForPartnersMon
 };
 
-ALIGNED(4) static const u8 sText_TradeOfferRejected[] = _("你的交换请求被拒绝。\p");
+ALIGNED(4) static const u8 sText_TradeOfferRejected[] = _("您的交换请求被拒绝。\p");
 ALIGNED(4) static const u8 sText_EggTrade[] = _("蛋的交换");
 ALIGNED(4) static const u8 sText_ChooseJoinCancel[] = _("{DPAD_UPDOWN}选择{A_BUTTON}加入{B_BUTTON}取消");
 ALIGNED(4) static const u8 sText_ChooseTrainer[] = _("请选择一名训练师。");
@@ -522,9 +522,9 @@ static const u8 *const sChooseTrainerTexts[NUM_LINK_GROUP_TYPES] =
 };
 
 ALIGNED(4) static const u8 sText_SearchingForWirelessSystemWait[] = _("搜索一个无线通讯系统。\n等待……");
-ALIGNED(4) static const u8 sText_MustHaveTwoMonsForDoubleBattle[] = _("参加双打对战，你至少要有\n两只宝可梦。\p"); // Unused
+ALIGNED(4) static const u8 sText_MustHaveTwoMonsForDoubleBattle[] = _("参加双打对战，您至少要有\n两只宝可梦。\p"); // Unused
 ALIGNED(4) static const u8 sText_AwaitingPlayersResponse[] = _("等待{STR_VAR_1}的回复……");
-ALIGNED(4) static const u8 sText_PlayerHasBeenAskedToRegisterYouPleaseWait[] = _("{STR_VAR_1}想要登记你\n为成员。请稍后。");
+ALIGNED(4) static const u8 sText_PlayerHasBeenAskedToRegisterYouPleaseWait[] = _("{STR_VAR_1}想要登记您\n为成员。请稍后。");
 ALIGNED(4) static const u8 sText_AwaitingResponseFromWirelessSystem[] = _("等待\n从无线通讯系统来的回复。");
 ALIGNED(4) static const u8 sText_PleaseWaitForOtherTrainersToGather[] = _("请等待其他训练师\n加入并准备完毕。"); // Unused
 ALIGNED(4) static const u8 sText_NoCardsSharedRightNow[] = _("好像没有卡片\n正在共享。");
@@ -564,8 +564,8 @@ ALIGNED(4) static const u8 sText_ToughContest[] = _("强壮组");
 ALIGNED(4) static const u8 sText_BattleTowerLv50[] = _("等级50对战塔");
 ALIGNED(4) static const u8 sText_BattleTowerOpenLv[] = _("对战塔");
 ALIGNED(4) static const u8 sText_ItsNormalCard[] = _("这是普通卡。");
-ALIGNED(4) static const u8 sText_ItsBronzeCard[] = _("这是蓝钴卡！");
-ALIGNED(4) static const u8 sText_ItsCopperCard[] = _("这是青铜卡！");
+ALIGNED(4) static const u8 sText_ItsBronzeCard[] = _("这是青铜卡！");
+ALIGNED(4) static const u8 sText_ItsCopperCard[] = _("这是黄铜卡！");
 ALIGNED(4) static const u8 sText_ItsSilverCard[] = _("这是白银卡");
 ALIGNED(4) static const u8 sText_ItsGoldCard[] = _("这是黄金卡！");
 

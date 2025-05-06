@@ -883,7 +883,7 @@ gText_PokemartSign::
 	.string "友好商店$"
 
 gText_PokemonCenterSign::
-	.string "“让你疲劳的伙伴们恢复活力！”\n"
+	.string "“让您疲劳的伙伴们恢复活力！”\n"
 	.string "宝可梦中心$"
 
 gText_MomOrDadMightLikeThisProgram::
@@ -967,7 +967,7 @@ gText_MomExplainHPGetPotions::
 
 gText_RegisteredTrainerinPokeNav::
 	.string "把{STR_VAR_1} {STR_VAR_2}\n"
-	.string "登录进宝可导航。$"
+	.string "登记到宝可导航里了。$"
 
 gText_ComeBackWithSecretPower::
 	.string "你知道招式学习器秘密之力吗？\p"

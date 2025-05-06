@@ -272,10 +272,10 @@ BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnterDoor:
 	step_end
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound1:
-    .string "下面是你的第一场比赛。\n准备好了吗？$"
+    .string "下面是您的第一场比赛。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound2:
-    .string "接下来是你的第二场比赛。\n准备好了吗？$"
+    .string "接下来是您的第二场比赛。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForSemifinals:
     .string "下一场是半决赛。\n准备好了吗？$"
@@ -290,7 +290,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay:
     .string "这边请。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth:
-    .string "感谢你的参与。\p现在将你的宝可梦\n的体力全部回复。$"
+    .string "感谢您的参与。\p现在将您的宝可梦\n的体力全部回复。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete:
     .string "第一场比赛\n已经结束。\p这些是成功晋级的队伍！$"
@@ -311,7 +311,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForSemifinals:
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals:
-    .string "恭喜进入\n决赛。\p你是冠军候选之一。\n准备好了吗？$"
+    .string "恭喜进入\n决赛。\p您是冠军候选之一。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer:
     .string "{PLAYER}的下一位对手是\n这位训练家。$"
@@ -329,28 +329,28 @@ BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInFinals:
     .string "锦标赛进入决赛！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SaveAndQuitGame:
-    .string "是否要存档并\n退出游戏？$"
+    .string "要写入记录\n并退出游戏吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RetireYourChallenge:
     .string "是否要退出\n对战锦标赛？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait:
-    .string "正在记录存档。\n请稍候。$"
+    .string "正在写入记录……\n请稍候。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RecordLastMatch:
-    .string "我能记录你在开拓通行证的\n最后一次比赛吗？$"
+    .string "我能记录您在开拓通行证的\n最后一次比赛吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver:
-    .string "恭喜你成功\n进入决赛！\p在决赛中，你将挑战的人是——\n巨蛋超级巨星石南。\p准备好了吗？$"
+    .string "恭喜您成功\n进入决赛！\p在决赛中，您将挑战的人是——\n巨蛋超级巨星石南。\p准备好了吗？$"
 
 @ Identical to ReadyForTuckerSilver
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold:
-    .string "恭喜你成功\n进入决赛！\p在决赛中，你将挑战的人是——\n巨蛋超级巨星石南。\p准备好了吗？$"
+    .string "恭喜您成功\n进入决赛！\p在决赛中，您将挑战的人是——\n巨蛋超级巨星石南。\p准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilverShort:
-    .string "接下来的是你最后的对手石南。\n准备好了吗？$"
+    .string "接下来的是您最后的对手石南。\n准备好了吗？$"
 
 @ Identical again
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGoldShort:
-    .string "接下来的是你最后的对手石南。\n准备好了吗？$"
+    .string "接下来的是您最后的对手石南。\n准备好了吗？$"
 

@@ -1175,7 +1175,7 @@ PetalburgCity_Gym_Text_DadSoDidItWorkOut:
     .string "爸爸：那么，成功了吗？$"
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
-    .string "满充：谢谢您，我做到了。\n这只宝可梦还给您。\p{PLAYER}，谢谢你\n和我一起去。\p多亏了你们，我才\n捕捉了到我的宝可梦。\p我保证我会\n好好照顾它的。\p啊！妈妈该等急了，\n我走了！\p再见，{PLAYER}！$"
+    .string "满充：谢谢您，我做到了。\n这只宝可梦还给您。\p{PLAYER}，谢谢你\n和我一起去。\p多亏了你们，\n我才捕捉到了我的宝可梦。\p我保证我会\n好好照顾它的。\p啊！妈妈该等急了，\n我走了！\p再见，{PLAYER}！$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
     .string "爸爸：好了……\p{PLAYER}，如果你想成为一个\n强大的训练家，我有几条建议。\p首先去距此不远的\n卡那兹市，\p挑战那儿的\n道馆馆主，杜娟，\p然后再去其他宝可梦道馆，\n打败那里的馆主，\p收集他们的徽章，\n明白了吗？\p当然，我也是道馆馆主，\n所以我们总有一天会战斗的，{PLAYER}，\p但那之前，你得先\n变得更强些才行。$"

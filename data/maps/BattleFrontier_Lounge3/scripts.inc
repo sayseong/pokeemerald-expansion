@@ -255,13 +255,13 @@ BattleFrontier_Lounge3_Text_ThanksOffYouGo::
     .string "呵呵呵！谢谢！\n好了，去吧！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerSingle::
-    .string "马上就去对战塔的\n单人对战房间吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战塔的\n单人对战间吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerDouble::
-    .string "马上就去对战塔的\n双打对战房间吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战塔的\n双打对战间吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerMulti::
-    .string "马上就去对战塔的\n多人对战房间吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战塔的\n多人对战间吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeSingle::
     .string "马上就去对战巨蛋的\n单人对战锦标赛吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"

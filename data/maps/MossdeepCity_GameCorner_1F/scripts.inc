@@ -54,7 +54,7 @@ RS_MysteryEventsHouse_Text_KeepItToA3On3:
     .string "很好，很好！\p但是我的房子没那么结实。\p我们可不可以来场\n3对3的比赛？$"
 
 RS_MysteryEventsHouse_Text_SaveYourProgress:
-    .string "在你们两个战斗前\n可以先保存下进度。$"
+    .string "在你们两个战斗前\n可以先写入记录。$"
 
 RS_MysteryEventsHouse_Text_HopeToSeeAGoodMatch:
     .string "我希望看到一场好的比赛。$"

@@ -867,7 +867,7 @@ Route110_Text_HeardYouInstallMatchCall:
     .string "哦，明白了！\n你们两个不是一起行动的，\l嗯，也罢。\p啊，对了，听说你的宝可导航里\n装了对战寻呼系统，\p那么，我们也互相\n登记信息吧。\p那样的话，就算我们不在一起，\n我也能对你的宝可梦图鉴作出评价了。\p…… …… ……$"
 
 Route110_Text_RegisteredBirchInPokenav:
-    .string "把小田卷博士的信息\n登记进宝可导航里。$"
+    .string "把小田卷博士\n登记到宝可导航里了。$"
 
 Route110_Text_KeepAnEyeOutForRival:
     .string "小田卷博士：{PLAYER}{KUN}……\p帮我看着我家{RIVAL}。\n…… …… ……\p好了，我该走了，\n再见，{PLAYER}{KUN}！$"

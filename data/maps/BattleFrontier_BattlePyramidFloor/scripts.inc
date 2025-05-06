@@ -129,10 +129,10 @@ BattleFacility_TrainerBattle_PlaceholderText::
     .string "测试信息。$"
 
 gText_BattlePyramidConfirmRest::
-    .string "要中断对战金字塔的探索\n需要先进行存档,\l可以吗？$"
+    .string "要暂停对战金字塔的探索\n需要先写入记录,\l可以吗？$"
 
 gText_BattlePyramidConfirmRetire::
-    .string "你确实要中断\n金字塔的探索吗？$"
+    .string "您确定要暂停\n金字塔的探索吗？$"
 
 BattlePyramid_Text_ExitHintUp1::
     .string "本层的出口方向是：\n{UP_ARROW}$"

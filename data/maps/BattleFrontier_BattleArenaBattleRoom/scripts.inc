@@ -509,40 +509,40 @@ BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent:
     .string "裁判：胜者是{STR_VAR_1}！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored:
-    .string "你的宝可梦的体力\n将会全部回复。$"
+    .string "您的宝可梦的体力\n将会全部回复。$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent:
-    .string "接下来，你的第二个对手！\n你准备好开始了吗？$"
+    .string "接下来，您的第二个对手！\n您准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent:
-    .string "接下来，你的第三个对手！\n你准备好开始了吗？$"
+    .string "接下来，您的第三个对手！\n您准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor4thOpponent:
-    .string "接下来，你的第四个对手！\n你准备好开始了吗？$"
+    .string "接下来，您的第四个对手！\n您准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor5thOpponent:
-    .string "接下来，你的第五个对手！\n你准备好开始了吗？$"
+    .string "接下来，您的第五个对手！\n您准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor6thOpponent:
-    .string "接下来，你的第六个对手！\n你准备好开始了吗？$"
+    .string "接下来，您的第六个对手！\n您准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent:
-    .string "接下来，你的第七个对手！\n你准备好开始了吗？$"
+    .string "接下来，您的第七个对手！\n您准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown:
-    .string "你要记录游戏并\n关机吗？$"
+    .string "您要写入记录并\n关机吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge:
-    .string "你要离开三回合定胜负锦标赛\n挑战了吗？$"
+    .string "您要离开三回合定胜负锦标赛\n挑战了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
-    .string "我正在为你记录游戏。\n请稍等。$"
+    .string "正在写入记录……\n请稍等。$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
-    .string "你要把你上次的战斗记录在你的\n开拓通行证吗？$"
+    .string "您要把您上次的战斗记录在您的\n开拓通行证吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:
-    .string "亲爱的挑战者！\p你的实力十分惊人！\p我们想要你见识一下\n我们的头儿，竞技场主将！$"
+    .string "亲爱的挑战者！\p您的实力十分惊人！\p我们想要您见识一下\n我们的头儿，竞技场主将！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_PreparedForTycoon:
     .string "同竞技场主将的战斗！\n准备好了吗？$"
@@ -554,7 +554,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger:
     .string "黄瓜香：嘿！\n你好！\p……等等，你就是挑战者？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight:
-    .string "有没有搞错？哈……\n哈哈……$"
+    .string "没有搞错吗？哈……\n哈哈……$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy:
     .string "我不知道该怎么说，不过……\n说实在的，你看起来实在是太弱了。\l你确信要接受我的考验吗？\p哈……\p那么，好吧！\n我们慢慢来！$"

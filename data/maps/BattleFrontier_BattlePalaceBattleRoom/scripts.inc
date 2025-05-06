@@ -448,7 +448,7 @@ BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter:
 	step_end
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons:
-    .string "太精彩了……\n让我为你的宝可梦进行回复。$"
+    .string "太精彩了……\n让我为您的宝可梦进行回复。$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent:
     .string "下面是第2个对手，\n准备好了吗？$"
@@ -469,22 +469,22 @@ BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor7thOpponent:
     .string "下面是第7个对手，\n准备好了吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame:
-    .string "要保存游戏\n并退出吗？$"
+    .string "要写入记录\n并退出游戏吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge:
     .string "要放弃挑战吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
-    .string "保存记录中，\n请耐心等候……$"
+    .string "正在写入记录，\n请耐心等候……$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
     .string "要把最近的比赛记录在\n开拓通行证上吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
-    .string "现在……\p由于你连胜的战绩，\n你获得了挑战大师——\n宫殿守护者的资格……$"
+    .string "现在……\p由于您连胜的战绩，\n您获得了挑战大师——\n宫殿守护者的资格……$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven:
-    .string "现在带你去见宫殿守护者，\n准备好了吗？$"
+    .string "现在带您去见宫殿守护者，\n准备好了吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser:
     .string "让我们以最热烈的欢呼声，\n迎接宫殿守护者郁金的登场！$"
@@ -499,7 +499,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle:
     .string "郁金：哇哈哈哈！\p居然没被我的虚张声势唬住！\n刚才的拙劣演技真是见笑了！\p来！\n把东西拿来！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass:
-    .string "唉，真是的，明明刚才还在\n保持着的威严形象呢……\p来吧！\n给我你的开拓通行证吧！$"
+    .string "唉，真是的，明明刚才还在\n保持着的威严形象呢……\p来吧！\n给我您的开拓通行证吧！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol:
     .string "开拓通行证上浮现出了\n精神象征！$"
@@ -517,7 +517,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable:
     .string "郁金：何等激烈的战斗！\n就算是全力一搏，\l我的伙伴也没能打败你。\p你们的团队精神令人钦佩！\p来！\n把东西拿来吧！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass:
-    .string "唉，真是的，明明应该再保持\n点风度的……\p嘎啊，来！\n把你的开拓通行证拿来吧！$"
+    .string "唉，真是的，明明应该再保持\n点风度的……\p嘎啊，来！\n把您的开拓通行证拿来吧！$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine:
     .string "精神象征\n亮起了金光！$"

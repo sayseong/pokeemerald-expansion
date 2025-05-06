@@ -373,10 +373,10 @@ PetalburgWoods_Text_PeopleRespectYou:
     .string "如果拥有一只好大的虫宝可梦，\n大家会很羡慕你的。$"
 
 PetalburgWoods_Text_IWantRematch1:
-    .string "等我的虫宝可梦\n长大后，我们再比一次吧！\p我把你登记进宝可导航里了！$"
+    .string "等我的虫宝可梦\n长大后，我们再比一次吧！\p我把你登记到宝可导航里了！$"
 
 PetalburgWoods_Text_IWantRematch2:
-    .string "等我的虫宝可梦\n长大后，我们再比一次吧！\p我把你登记进宝可导航里了！$"
+    .string "等我的虫宝可梦\n长大后，我们再比一次吧！\p我把你登记到宝可导航里了！$"
 
 PetalburgWoods_Text_MyPokemonHaveGrown:
     .string "我的虫宝可梦长大了，\n我会再次变成明星的。$"

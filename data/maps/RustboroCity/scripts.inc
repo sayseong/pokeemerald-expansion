@@ -1085,7 +1085,7 @@ RustboroCity_Text_MayHiLetsRegister:
     .string "小遥：啊，你好，{PLAYER}{KUN}！\p你的宝可导航\n有对战寻呼功能！\p我们登记一下各自的信息吧，\n这样就能随时联络了！\p…… …… ……$"
 
 RustboroCity_Text_RegisteredMay:
-    .string "小遥已被登记在\n宝可导航。$"
+    .string "把小遥\n登记到宝可导航里了。$"
 
 RustboroCity_Text_MayPassedBrineyWantToBattle:
     .string "小遥：顺便说一句，我\n在橙华森林碰上哈奇老人了，\p他大概正要回\n他的海边小屋去。\p对了，你的宝可梦图鉴怎么样了，\n{PLAYER}{KUN}？我这里进展不错！\p好了……\n来跟我战斗怎么样？$"
@@ -1109,7 +1109,7 @@ RustboroCity_Text_BrendanHiLetsRegister:
     .string "小悠：嗨，你好，{PLAYER}！\p你的宝可导航\n有对战寻呼功能！太棒了！\p我们登记一下各自的信息吧，\n这样就能随时联络了！\p…… …… ……$"
 
 RustboroCity_Text_RegisteredBrendan:
-    .string "把小悠的信息\n登记在宝可导航里。$"
+    .string "把小悠\n登记到宝可导航里了。$"
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
     .string "小悠：顺便说一句，我\n在橙华森林碰上哈奇老人了，\p他大概正要回\n他的海边小屋去。\p{PLAYER}，你的宝可梦图鉴怎么样了？\n有几页了吗？\p我的也是。\p跟我来场战斗吧？\n我看看你成长得如何了。$"
@@ -1154,7 +1154,7 @@ RustboroCity_Text_DevelopedNewPokenavFeature:
     .string "我正在开发宝可导航的\n其他功能……\p这是个非常棒的功能！\p{PLAYER}，能让我看看社长\n给你的宝可导航吗？$"
 
 RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
-    .string "好了，{PLAYER}！\p我给你的宝可导航\n加了个对战寻呼。\p你现在可以用对战寻呼\n与登记在你宝可导航里的人\l聊天了。\p{PLAYER}，我们的社长兹伏奇\n已经登记在你的宝可导航里了，\p试试吧，\n给我们社长打个电话。$"
+    .string "好了，{PLAYER}！\p我给你的宝可导航\n加了个对战寻呼。\p你现在可以用对战寻呼\n与登记到你宝可导航里的人\l聊天了。\p{PLAYER}，我们的社长兹伏奇\n已经登记到你的宝可导航里了，\p试试吧，\n给我们社长打个电话。$"
 
 RustboroCity_Text_PleaseSelectPokenav:
     .string "请选择宝可导航。$"

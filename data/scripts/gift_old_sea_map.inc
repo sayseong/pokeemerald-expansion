@@ -37,8 +37,8 @@ OldSeaMap_Obtained:
 sText_MysteryGiftOldSeaMapForYou:
 	.string "感谢使用\n"
 	.string "神秘礼物系统。\p"
-	.string "让我确定下，你是{PLAYER}？\p"
-	.string "我们收到这个古代航图是给你的。$"
+	.string "让我确定下，您是{PLAYER}？\p"
+	.string "我们收到这个古代航图是给您的。$"
 
 sText_MysteryGiftOldSeaMapUseAtPort:
 	.string "这个看起来是可以在\n"
@@ -52,6 +52,6 @@ sText_MysteryGiftOldSeaMapThankYou:
 
 sText_MysteryGiftOldSeaMapBagFull:
 	.string "哦，抱歉，{PLAYER}。\n"
-	.string "你的包包里放重要物品的口袋满了。\p"
+	.string "您的包包里放重要物品的口袋满了。\p"
 	.string "请存一些东西到电脑\n"
 	.string "然后回来拿这个吧。$"

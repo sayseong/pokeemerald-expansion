@@ -1168,7 +1168,7 @@ SlateportCity_Text_LetsRegisterEachOther:
     .string "亚希达：好吧！我想我们\n会成为好朋友的。\p我们在各自的宝可导航里\n登记信息吧。\p…… …… ……$"
 
 SlateportCity_Text_RegisteredScott:
-    .string "把亚希达的个人信息\n登记到宝可导航里。$"
+    .string "把亚希达\n登记到宝可导航里了。$"
 
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
     .string "亚希达：虽然我想跟你同行，\n但我还得去找其他\l有才能的训练家。\p我会去其他城市\n逛逛的。\p那么，回头见，{PLAYER}{KUN}！$"

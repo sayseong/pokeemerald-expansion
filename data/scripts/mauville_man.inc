@@ -290,7 +290,7 @@ MauvilleCity_PokemonCenter_1F_Text_SavedGameTitle::
 	.string "谨慎的训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameAction::
-	.string "保存游戏进度$"
+	.string "写入记录$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameStory::
 	.string "关于{STR_VAR_3}是这样流传\n"

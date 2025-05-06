@@ -490,4 +490,4 @@ gText_LinkStandby3::
     .string "等待连接……$"
 
 gText_YourPartnerHasRetired::
-    .string "你的搭档已退出。\p对战房间挑战\n将取消。$"
+    .string "您的搭档已退出。\p对战间挑战\n将取消。$"

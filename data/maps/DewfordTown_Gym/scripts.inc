@@ -358,7 +358,7 @@ DewfordTown_Gym_Text_ExplainBulkUp:
     .string "招式学习器08里面是\n健美，\p是可以提升攻击\n和防御的招式。\p…… …… ……$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
-    .string "把道馆馆主藤树的信息\n登记进宝可导航里。$"
+    .string "把道馆馆主藤树\n登记到宝可导航里了。$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
     .string "我预言总有一天，你的天赋\n会成为一波巨浪，在训练家之中\l掀起震撼的暴风雨！$"

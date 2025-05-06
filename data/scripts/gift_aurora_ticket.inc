@@ -37,8 +37,8 @@ AuroraTicket_Obtained:
 sText_AuroraTicketForYou:
 	.string "感谢使用\n"
 	.string "神秘礼物系统。\p"
-	.string "你一定是{PLAYER}。\n"
-	.string "这是给你的票。$"
+	.string "您一定是{PLAYER}。\n"
+	.string "这是给您的票。$"
 
 sText_AuroraTicketUseAtPort:
 	.string "看起来是在\n"
@@ -52,6 +52,6 @@ sText_AuroraTicketThankYou:
 
 sText_AuroraTicketBagFull:
 	.string "哦，抱歉，{PLAYER}。\n"
-	.string "你的包包里放重要物品的口袋满了。\p"
+	.string "您的包包里放重要物品的口袋满了。\p"
 	.string "请存一些东西到电脑\n"
 	.string "然后回来拿这个吧。$"

@@ -234,16 +234,16 @@ BattleFrontier_OutsideEast_EventScript_Camper::
 	end
 
 BattleFrontier_OutsideEast_Text_BattleTowerSign:
-    .string "这里是对战塔！\n保持你的不败纪录，\l成为最强的训练家吧！$"
+    .string "这里是对战塔！\n保持您的不败纪录，\l成为最强的训练家吧！$"
 
 BattleFrontier_OutsideEast_Text_BattlePalaceSign:
-    .string "这里是对战宫殿！\n关注你的宝可梦的战斗吧！$"
+    .string "这里是对战宫殿！\n关注您的宝可梦的战斗吧！$"
 
 BattleFrontier_OutsideEast_Text_BattleArenaSign:
     .string "这里是对战竞技场！\n最强的队伍在这里集结！$"
 
 BattleFrontier_OutsideEast_Text_BattlePyramidSign:
-    .string "这里是对战金字塔！\n升华你的对战之道！$"
+    .string "这里是对战金字塔！\n升华您的对战之道！$"
 
 BattleFrontier_OutsideEast_Text_RankingHallSign:
     .string "对战开拓区排名大厅\n关注最新的纪录！$"
@@ -315,7 +315,7 @@ BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou:
     .string "只要有你在身边，我会无往不利。$"
 
 BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
-    .string "哦哦，亲爱的，你太棒了！\p哦哦，我再也等不及了！\p我们马上去挑战\n多人对战房间吧！\p如果我们一起去对战塔，\n我们之间爱的力量一定会\l使我们战胜所有人。\p啊，亲爱的，在我们两人面前，\n一切都像推倒多米诺一样！$"
+    .string "哦哦，亲爱的，你太棒了！\p哦哦，我再也等不及了！\p我们马上去挑战\n多人对战间吧！\p如果我们一起去对战塔，\n我们之间爱的力量一定会\l使我们战胜所有人。\p啊，亲爱的，在我们两人面前，\n一切都像推倒多米诺一样！$"
 
 BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
     .string "对战开拓区并不是\n强大的训练家专属的，\p似乎很多拥有特别能力的人\n也在被邀请的行列。\p那个亚希达……\p他建造这个地方一定有着\n远大的目标……$"

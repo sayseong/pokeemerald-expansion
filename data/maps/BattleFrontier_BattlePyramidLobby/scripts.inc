@@ -532,37 +532,37 @@ BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid:
     .string "欢迎来到\n对战金字塔！\p在这里测试的是\n训练家的勇气！\l我是探索式对战的向导。$"
 
 BattleFrontier_BattlePyramidLobby_Text_EmbarkOnChallenge:
-    .string "你有开始挑战\n探索式对战的勇气吗？$"
+    .string "您有开始挑战\n探索式对战的勇气吗？$"
 
 BattleFrontier_BattlePyramidLobby_Text_AwaitFutureChallenge:
-    .string "我们会等你以后来挑战！$"
+    .string "我们会等您以后来挑战！$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
-    .string "在探索式对战中，\n你需要探索金字塔\l内部，并努力攀到顶峰。\p金字塔中有七层迷宫，\n里面不仅有强大的训练家，\l还有野生宝可梦。\p你需要带三只宝可梦进入，\n并且它们不能携带道具。\p攀登的过程中，你可以\n得到一个战斗包包来装道具，\p如果挑战失败，放在战斗包包中的\n道具都会消失。\p如果要中断挑战，\n请选择“休息”\l并保存游戏，\p中断前未作保存\n则视为放弃挑战。$"
+    .string "在探索式对战中，\n您需要探索金字塔\l内部，并努力攀到顶峰。\p金字塔中有七层迷宫，\n里面不仅有强大的训练家，\l还有野生宝可梦。\p您需要带三只宝可梦进入，\n并且它们不能携带道具。\p攀登的过程中，您可以\n得到一个战斗包包来装道具，\p如果挑战失败，放在战斗包包中的\n道具都会消失。\p如果要暂停挑战，\n请选择“休息”\l并写入记录，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode:
-    .string "金字塔挑战有两种等级，\n50级和自由级，\l你要参加哪一种？$"
+    .string "金字塔挑战有两种等级，\n50级和自由级，\l您要参加哪一种？$"
 
 BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons:
-    .string "好的，现在，请选择三只\n你想要携带的宝可梦。$"
+    .string "好的，现在，请选择三只\n您想要携带的宝可梦。$"
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "冒险者啊，有点小问题！\p你没有带足三只能够\n参加挑战的宝可梦。\p别忘了把宝可梦携带的\n道具取下来。\p蛋{STR_VAR_1}不能参加。\p准备好的话，\n就告诉我一声。$"
+    .string "冒险者啊，有点小问题！\p您没有带足三只能够\n参加挑战的宝可梦。\p别忘了把宝可梦携带的\n道具取下来。\p蛋{STR_VAR_1}不能参加。\p准备好的话，\n就告诉我一声。$"
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50:
-    .string "冒险者啊，有点小问题！\p你没有带足三只能够\n参加挑战的宝可梦。\p必须是三只不同的宝可梦，\n而且它们都要在50级以下。\p别忘了把宝可梦携带的\n道具取下来。\p蛋{STR_VAR_1}不能参加。\p准备好的话，\n就告诉我一声。$"
+    .string "冒险者啊，有点小问题！\p您没有带足三只能够\n参加挑战的宝可梦。\p必须是三只不同的宝可梦，\n而且它们都要在50级以下。\p别忘了把宝可梦携带的\n道具取下来。\p蛋{STR_VAR_1}不能参加。\p准备好的话，\n就告诉我一声。$"
 
 BattleFrontier_BattlePyramidLobby_Text_OkayToSaveBeforeChallenge:
-    .string "进入对战金字塔之前\n需要先存档，如何？$"
+    .string "进入对战金字塔之前\n需要先写入记录，可以吗？$"
 
 BattleFrontier_BattlePyramidLobby_Text_ShowYouIntoPyramid:
     .string "好的，现在请进入\n对战金字塔吧。$"
 
 BattleFrontier_BattlePyramidLobby_Text_WeWillHoldBagForSafekeeping:
-    .string "{PLAYER}，在你探索的时候，\n我们会暂时替你保管你的包包。$"
+    .string "{PLAYER}，在您探索的时候，\n我们会暂时替您保管您的包包。$"
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag:
-    .string "同时，请带上你之前用过的\n这个战斗包包。$"
+    .string "同时，请带上您之前用过的\n这个战斗包包。$"
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag:
     .string "同时，请带上\n这个战斗包包。$"
@@ -571,38 +571,38 @@ BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag:
     .string "{PLAYER}把包包换成了\n战斗包包。$"
 
 BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel:
-    .string "每一层当你走到这样的\n地板上之后，就会把你\l传送到金字塔更高的楼层，\p祝你一路顺风！$"
+    .string "每一层当您走到这样的\n地板上之后，就会把您\l传送到金字塔更高的楼层，\p祝您一路顺风！$"
 
 BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag:
-    .string "冒险者啊，有个大问题！\p上回退出挑战时\n你没有进行记录，\p因此，很抱歉，\n你的挑战被取消资格了。\p这是你寄放在我们\n这里的包包。\p{PLAYER}拿回了包包。$"
+    .string "冒险者啊，有个大问题！\p您在上次结束时\n没有写入记录。\p遗憾地告诉您，没有写入记录的\n挑战我们将视其为无效。\p这是您寄放在我们\n这里的包包。\p{PLAYER}拿回了包包。$"
 
 BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid:
-    .string "欢迎回来！\p你征服了金字塔！\n恭喜你！$"
+    .string "欢迎回来！\p您征服了金字塔！\n恭喜您！$"
 
 BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake:
-    .string "啊，有点小问题，\p有的宝可梦\n携带了道具。\p抱歉，你不能带走金字塔中\n得到的道具。$"
+    .string "啊，有点小问题，\p有的宝可梦\n携带了道具。\p抱歉，您不能带走金字塔中\n得到的道具。$"
 
 BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
-    .string "你的宝可梦携带的所有道具\n都会放回到战斗包包中，{PLAYER}。$"
+    .string "您的宝可梦携带的所有道具\n都会放回到战斗包包中，{PLAYER}。$"
 
 BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep:
-    .string "很抱歉，战斗包包装不下\n所有的道具，\p请选择你需要保留在\n战斗包包中的道具。$"
+    .string "很抱歉，战斗包包装不下\n所有的道具，\p请选择您需要保留在\n战斗包包中的道具。$"
 
 BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem:
     .string "仍有宝可梦在\n携带着道具。$"
 
 BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep:
-    .string "请选择你需要保留在\n战斗包包中的道具。$"
+    .string "请选择您需要保留在\n战斗包包中的道具。$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld:
     .string "{PLAYER}留下了宝可梦\n持有的道具。$"
 
 BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept:
-    .string "我们会保存你所使用的战斗包包\n以便你进行下一次挑战。\p{PLAYER}取下战斗包包，\n换回了包包。$"
+    .string "我们会寄存您所使用的战斗包包\n以便您进行下一次挑战。\p{PLAYER}取下战斗包包，\n换回了包包。$"
 
 BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait:
-    .string "正在记录你的结果，\n请稍等。$"
+    .string "正在记录您的结果，\n请稍等。$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis:
@@ -614,17 +614,17 @@ BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem:
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
-    .string "……啊……\n你的包包已经满了。\p请整理好包包\n以后再来。$"
+    .string "……啊……\n您的包包已经满了。\p请整理好包包\n以后再来。$"
 
 BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
-    .string "真遗憾……\p这是我们为你\n保管的包包。\p{PLAYER}取回了包包。$"
+    .string "真遗憾……\p这是我们为您\n保管的包包。\p{PLAYER}取回了包包。$"
 
 BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge:
-    .string "期待你下次的\n挑战！$"
+    .string "期待您下次的\n挑战！$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
-    .string "我们恭候\n你的到来！\p这是征服金字塔\n的奖品。$"
+    .string "我们恭候\n您的到来！\p这是征服金字塔\n的奖品。$"
 
 BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
     .string "欢迎……\p我会告诉你金字塔中\n有什么不幸在等待着……$"
@@ -702,10 +702,10 @@ BattleFrontier_BattlePyramidLobby_Text_LostLotOfItems:
     .string "哇啊啊啊啊啊啊！\p我已经攒了那么多道具，却一不小心\n失败了，现在道具全没了！\p哇啊啊啊啊啊啊！$"
 
 BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing:
-    .string "欢迎回来！\n你的能力真让人不敢相信！\p你打败了金字塔法老，\n征服了对战金字塔！$"
+    .string "欢迎回来！\n您的能力真让人不敢相信！\p您打败了金字塔法老，\n征服了对战金字塔！$"
 
 BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints:
-    .string "年轻的冒险者啊！\n为了表彰你的勇气，\l我们授予你这些对战点数！$"
+    .string "年轻的冒险者啊！\n为了表彰您的勇气，\l我们授予您这些对战点数！$"
 
 BattleFrontier_BattlePyramidLobby_Text_RulesAreListed:
     .string "上面列出了探索式对战的规则。$"
@@ -714,14 +714,14 @@ BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules:
-    .string "当征服金字塔后，\n里面的野生宝可梦会\l替换成其他的种类，\p仔细探索，仔细观察，尽量去\n了解你可能碰上什么样的宝可梦。$"
+    .string "当征服金字塔后，\n里面的野生宝可梦会\l替换成其他的种类，\p仔细探索，仔细观察，尽量去\n了解您可能碰上什么样的宝可梦。$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules:
-    .string "在金字塔里面会有训练家\n等着向你挑战。\p每层最多会有\n八个训练家。\p你每打败一个训练家，就会\n得到一条对探索有用的提示。$"
+    .string "在金字塔里面会有训练家\n等着向您挑战。\p每层最多会有\n八个训练家。\p您每打败一个训练家，就会\n得到一条对探索有用的提示。$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
     .string "每次进入金字塔后迷宫\n都会重新组合，\p迷宫里很暗，\n必须小心探索。\p每打败一个训练家或一只野生\n宝可梦，里面都会稍微变亮一些。$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
-    .string "在金字塔中，你可以像使用\n你的包包一样使用战斗包包。\p有两种不同的战斗包包——\n分别是为50级和\l自由级的冒险而准备的。\p两种包包都可以携带10种道具，\n每种道具99个。\p如果在探索中失败的话，\n战斗包包里的东西都会丢失。$"
+    .string "在金字塔中，您可以像使用\n您的包包一样使用战斗包包。\p有两种不同的战斗包包——\n分别是为50级和\l自由级的冒险而准备的。\p两种包包都可以携带10种道具，\n每种道具99个。\p如果在探索中失败的话，\n战斗包包里的东西都会丢失。$"
 

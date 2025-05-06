@@ -252,8 +252,8 @@ static const struct MenuAction MultichoiceList_UnusedAshVendor[] =
     {COMPOUND_STRING("红色玻璃哨")},
     {COMPOUND_STRING("白色玻璃哨")},
     {COMPOUND_STRING("黑色玻璃哨")},
-    {COMPOUND_STRING("玻璃凳子")},
-    {COMPOUND_STRING("玻璃桌子")},
+    {COMPOUND_STRING("漂亮椅子")},
+    {COMPOUND_STRING("漂亮桌子")},
     {gText_Cancel2},
 };
 

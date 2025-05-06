@@ -231,7 +231,7 @@ Route104_Text_HaleyPostBattle::
     .string "如果你面对决择的时候，\n让别人替你做决定。\l你会对事情的\l结果后悔的。$"
 
 Route104_Text_HaleyRegister1::
-    .string "你很强，但是我是不是应该把你登记在\n我的宝可导航里？\l也许我不应该……\p好吧，当然，我会登记你的！$"
+    .string "你很强，但是我是不是应该把你登记到\n我的宝可导航里？\l也许我不应该……\p好吧，当然，我会登记你的！$"
 
 Route104_Text_HaleyRegister2::
     .string "你很强，但是我是不是应该把你登记到\n我的宝可导航里？\l也许我不应该……\p好吧，当然，我会登记你的！$"
@@ -357,7 +357,7 @@ Route105_Text_AndresPostBattle::
     .string "我肯定在大海中\n还有很多秘密等着被发现。\p我要把它们全部找出来！$"
 
 Route105_Text_AndresRegister::
-    .string "啊？我这么弱，你还愿意\n把我登记在你的宝可导航吗？$"
+    .string "啊？我这么弱，你还愿意\n把我登记到你的宝可导航吗？$"
 
 Route105_Text_AndresRematchIntro::
     .string "我已经说过了我很弱……\n你确定你还想这样做？$"

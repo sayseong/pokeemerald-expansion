@@ -437,19 +437,19 @@ BattleFrontier_BattleDomeLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleDomeLobby_Text_WelcomeSingleBattle:
-    .string "这里是检验训练家\n战略的地方。\p欢迎来到对战巨蛋！\p我是你的单人对战\n锦标赛向导。$"
+    .string "这里是检验训练家\n战略的地方。\p欢迎来到对战巨蛋！\p我是您的单人对战\n锦标赛向导。$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeSinglesChallenge:
-    .string "你要挑战\n单人对战锦标赛吗？$"
+    .string "您要挑战\n单人对战锦标赛吗？$"
 
 BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain:
-    .string "希望下次能见到你！$"
+    .string "希望下次能见到您！$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
-    .string "单人对战锦标赛\n就和它的名字一样——\l每个人单独参加的比赛。\p所有的训练家必须\n带上三只宝可梦。\p每一回合，三只宝可梦必须\n有一只保留待命。\p另外两只宝可梦将\n依次单独参战。\p检查对手的三只宝可梦后，\n即可选出参战的两只宝可梦。\p打败四位训练家后\n即可获得胜利。\p锦标赛胜利者将会\n获得对战点数。\p如果要中断锦标赛\n请记录存档。\p如果中断前未记录，\n将失去锦标赛的资格。$"
+    .string "单人对战锦标赛\n就和它的名字一样——\l每个人单独参加的比赛。\p所有的训练家必须\n带上三只宝可梦。\p每一回合，三只宝可梦必须\n有一只保留待命。\p另外两只宝可梦将\n依次单独参战。\p检查对手的三只宝可梦后，\n即可选出参战的两只宝可梦。\p打败四位训练家后\n即可获得胜利。\p锦标赛胜利者将会\n获得对战点数。\p如果要暂停锦标赛\n请写入记录。\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge:
-    .string "在带你进入对战巨蛋前，\n我必须先记录存档。是否继续？$"
+    .string "在带您进入对战巨蛋前，\n必须先写入记录，可以吗？$"
 
 BattleFrontier_BattleDomeLobby_Text_WhichLevelMode:
     .string "锦标赛提供了两种挑战等级\n50级和自由级。\l请进行选择。$"
@@ -458,16 +458,16 @@ BattleFrontier_BattleDomeLobby_Text_SelectThreeMons:
     .string "现在请挑选参赛的\n三只宝可梦。$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "很抱歉！\p你没有符合条件的三只宝可梦。\p同样的，宝可梦必须持有\n不同的道具。\p蛋{STR_VAR_1}是不符合条件的。\p请准备好后再来找我吧！$"
+    .string "很抱歉！\p您没有符合条件的三只宝可梦。\p同样的，宝可梦必须持有\n不同的道具。\p蛋{STR_VAR_1}是不符合条件的。\p请准备好后再来找我吧！$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50:
-    .string "很抱歉！\p你没有符合条件的三只宝可梦。\p你必须拥有三只\n最高级为50的宝可梦才可进入。\p它们必须持有不同的\n道具。\p蛋{STR_VAR_1}是不符合条件的。\p请准备好后再来找我吧！$"
+    .string "很抱歉！\p您没有符合条件的三只宝可梦。\p您必须拥有三只\n最高级为50的宝可梦才可进入。\p它们必须持有不同的\n道具。\p蛋{STR_VAR_1}是不符合条件的。\p请准备好后再来找我吧！$"
 
 BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome:
-    .string "现在我将带你前往\n对战巨蛋。$"
+    .string "现在我将带您前往\n对战巨蛋。$"
 
 BattleFrontier_BattleDomeLobby_Text_DidntSaveBeforeQuitting:
-    .string "很抱歉！\p上次退出挑战前\n没有记录存档。\p因此，你本次的挑战资格将被取消。\n抱歉！$"
+    .string "抱歉！\p您在上次结束时\n没有写入记录。\p对不起，没有写入记录的\n挑战我们将视其为无效。$"
 
 BattleFrontier_BattleDomeLobby_Text_CongratsForWinningTourney:
     .string "恭喜挑战对战锦标赛\n成功！$"
@@ -482,28 +482,28 @@ BattleFrontier_BattleDomeLobby_Text_ReceivedPrize:
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:
-    .string "啊，你的包包已经满了。\p请将包包整理好之后\n再来找我。$"
+    .string "啊，您的包包已经满了。\p请将包包整理好之后\n再来找我。$"
 
 BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying:
-    .string "谢谢你的参与。$"
+    .string "谢谢您的参与。$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordWillBeSaved:
-    .string "存档正在保存。\n请稍候。$"
+    .string "正在写入记录……\n请稍候。$"
 
 BattleFrontier_BattleDomeLobby_Text_WeveBeenWaitingForYou:
-    .string "我们一直在等待你的到来！$"
+    .string "我们已经恭候多时了！$"
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge2:
-    .string "在带你进入对战巨蛋前，\n我必须先记录存档。是否继续？$"
+    .string "在带您进入对战巨蛋前，\n必须先写入记录，可以吗？$"
 
 BattleFrontier_BattleDomeLobby_Text_WelcomeDoubleBattle:
     .string "这里是检验训练家\n战术策略的地方！\p欢迎来到对战巨蛋！\p我是双打对战\n锦标赛的向导。$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge:
-    .string "你要挑战\n双打对战锦标赛吗？$"
+    .string "您要挑战\n双打对战锦标赛吗？$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
-    .string "双打对战锦标赛\n就同它的名称一样——\l双人一起对战的锦标赛。\p所有的训练家必须\n带上三只宝可梦。\p每一回合，其中一只宝可梦\n需要保留待命。\p其余的两只宝可梦必须\n参加双打对战。\p检查对手的三只宝可梦后，\n即可选出参战的两只宝可梦。\p打败四位训练家后\n即可获得胜利。\p锦标赛胜利者将会\n获得对战点数。\p如果要中断锦标赛\n请记录存档。\p如果中断前未记录，\n将失去锦标赛的资格。$"
+    .string "双打对战锦标赛\n就同它的名称一样——\l双人一起对战的锦标赛。\p所有的训练家必须\n带上三只宝可梦。\p每一回合，其中一只宝可梦\n需要保留待命。\p其余的两只宝可梦必须\n参加双打对战。\p检查对手的三只宝可梦后，\n即可选出参战的两只宝可梦。\p打败四位训练家后\n即可获得胜利。\p锦标赛胜利者将会\n获得对战点数。\p如果要暂停锦标赛\n请写入记录。\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50:
     .string "他们就是最近的\n50级单人对战锦标赛结果。$"
@@ -541,10 +541,10 @@ BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully:
     .string "我要是让这只宝可梦保留待命的话，\n我也许就能赢了。\p你必须检查清楚对手\n的宝可梦后，\l再挑选你的宝可梦。$"
 
 BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker:
-    .string "恭喜你！\p你打败了巨蛋超级巨星，\n并获得了对战锦标赛的胜利。$"
+    .string "恭喜您！\p您打败了巨蛋超级巨星，\n并获得了对战锦标赛的胜利。$"
 
 BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
-    .string "为了表彰你的战术策略——\n简直堪称美妙绝伦——\l我们将授予你这些对战点数！$"
+    .string "为了表彰您的战术策略——\n简直堪称美妙绝伦——\l我们将授予您这些对战点数！$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
     .string "是否在开拓通行证上\n记录下最后一次\l对战巨蛋的比赛？$"

@@ -70,7 +70,7 @@ MeteorFalls_1F_2R_Text_NicolasPostBattle:
     .string "前方的路还很曲折。\p何时我和我的宝可梦\n会成为最强？$"
 
 MeteorFalls_1F_2R_Text_NicolasRegister:
-    .string "我想更多了解你的力量。\n把你登记在宝可导航里吧。$"
+    .string "我想更多了解你的力量。\n把你登记到宝可导航里吧。$"
 
 MeteorFalls_1F_2R_Text_NicolasRematchIntro:
     .string "自从我们相遇，我们\n为了第一的目标而努力训练。\p让我们看下对方\n有多强大吧！$"

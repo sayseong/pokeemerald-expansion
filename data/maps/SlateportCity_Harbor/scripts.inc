@@ -387,7 +387,7 @@ SlateportCity_Harbor_EventScript_TradedScanner::
 	end
 
 SlateportCity_Harbor_Text_FerryServiceUnavailable:
-    .string "你说什么？\n在找船吗？\p对不起，现在游船\n还未通航……$"
+    .string "您说什么？\n在找船吗？\p对不起，现在游船\n还未通航……$"
 
 SlateportCity_Harbor_Text_MayISeeYourTicket:
     .string "您好，您来乘坐游船吗？\n可以看看您的船票吗？$"

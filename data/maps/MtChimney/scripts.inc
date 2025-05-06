@@ -717,7 +717,7 @@ MtChimney_Text_SawyerPostBattle:
     .string "我想我应该和这里的人一起\n到釜炎镇温泉深处去！$"
 
 MtChimney_Text_SawyerRegister:
-    .string "我喜欢你这样热情的训练家，\n让我把你登记进宝可导航吧。$"
+    .string "我喜欢你这样热情的训练家，\n让我把你登记到宝可导航吧。$"
 
 MtChimney_Text_SawyerRematchIntro:
     .string "我喜欢跟这里热情的人们\n呆在一起。我不会输的！$"

@@ -189,7 +189,7 @@ JaggedPass_Text_EthanPostBattle:
     .string "如果有越野自行车的话，\n我就能跳过断坡了。$"
 
 JaggedPass_Text_EthanRegister:
-    .string "等我习惯了这凹凸的路面，\n就一定能赢！\p能把我登记进你的宝可导航吗？$"
+    .string "等我习惯了这凹凸的路面，\n就一定能赢！\p能把我登记到你的宝可导航吗？$"
 
 JaggedPass_Text_EthanRematchIntro:
     .string "我已经习惯这里凹凸的路，\n能一边唱歌一边攀登了。$"
