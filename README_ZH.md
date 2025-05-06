@@ -19,51 +19,53 @@
       - 日文翻译及日版功能还原：SKT
       - 程序支持：明雅，墟芜，卧看微尘
       - 测试BUG反馈：摆烂
-    
-      感谢大家的努力与贡献！
-    
+      
+      
+    感谢大家的努力与贡献！
+      
       也感谢之前于2011年发布的漫游&TGB联合汉化的绿宝石汉化版的参与人员：
-      飞眼，enler，胡里胡涂，ルナ，零度雨，灰米，绿叶枫，yeyezai，lazybone，雪山肥壶，信天翁，爱姿病，troy1229，夜露死苦，阿宝，lioyy，凛，酷酷的安仔，空白君，AISU，吾鱼（小黑屋）
-    
-      # 以下是pokeemerald-expansion项目的Readme文件翻译：
-    
-      ## pokeemerald-expansion
-    
-      pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokeemerald)反编译项目的一个***ROM改版蓝本***。***它不是一个可玩的ROM改版***，但它为ROM修改者提供了多种功能，以便他们可以创建自己的游戏，因此它本身不是用来单独游玩的。
-    
-      ## 我应该使用它还是原版的pokeemerald作为我的改版蓝本？
-    
-      使用原版pokeemerald作为基础的主要优势是能够与其他官方的GBA《宝可梦》游戏进行联机战斗和交换。而pokeemerald-expansion则开箱即支持与同版本游戏进行战斗和交换。如果你不介意失去与原版完全兼容的能力，我们建议使用pokeemerald-expansion。否则，请使用pret的pokeemerald。你仍然可以获得pret提供的文档改进，因为我们定期合并pret的文档更改。
-    
-      ## 使用pokeemerald-expansion
-    
-      如果你在你的改版中使用了pokeemerald-expansion，请在制作人员名单中添加RHH（Rom Hacking Hideout）。可选地，你可以列出使用的版本，这样可以帮助玩家了解可以期待哪些功能。
-    
+    飞眼，enler，胡里胡涂，ルナ，零度雨，灰米，绿叶枫，yeyezai，lazybone，雪山肥壶，信天翁，爱姿病，troy1229，夜露死苦，阿宝，lioyy，凛，酷酷的安仔，空白君，AISU，吾鱼（小黑屋）
+      
+    # 以下是pokeemerald-expansion项目的Readme文件翻译：
+      
+    ## pokeemerald-expansion
+      
+    pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokeemerald)反编译项目的一个***ROM改版蓝本***。***它不是一个可玩的ROM改版***，但它为ROM修改者提供了多种功能，以便他们可以创建自己的游戏，因此它本身不是用来单独游玩的。
+      
+    ## 我应该使用它还是原版的pokeemerald作为我的改版蓝本？
+      
+    使用原版pokeemerald作为基础的主要优势是能够与其他官方的GBA《宝可梦》游戏进行联机战斗和交换。而pokeemerald-expansion则开箱即支持与同版本游戏进行战斗和交换。如果你不介意失去与原版完全兼容的能力，我们建议使用pokeemerald-expansion。否则，请使用pret的pokeemerald。你仍然可以获得pret提供的文档改进，因为我们定期合并pret的文档更改。
+      
+    ## 使用pokeemerald-expansion
+      
+    如果你在你的改版中使用了pokeemerald-expansion，请在制作人员名单中添加RHH（Rom Hacking Hideout）。可选地，你可以列出使用的版本，这样可以帮助玩家了解可以期待哪些功能。
+      
       你可以这样表述：
-    
-    
+  
+  
       基于RHH的pokeemerald-expansion 1.11.1 https://github.com/rh-hideout/pokeemerald-expansion/
+  
     
-    
+  
       ***重要提示***：不要使用GitHub的“Download Zip”选项。使用这个选项将无法下载更新你的扩展版本或合并其他功能分支所需的提交历史。相反，请阅读[此指南](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub)以了解如何分叉存储库并从那里本地克隆。
-    
+        
       请按照`INSTALL.md`中的说明在你的机器上设置pokeemerald-expansion。
-    
+        
       ### 如果我已经有一个基于原版pokeemerald的项目，我可以使用pokeemerald-expansion吗？
-    
+        
       可以！请注意，我们紧跟pret对pokeemerald的文档更新，这意味着如果你的项目有点旧，你可能会遇到需要手动解决的合并冲突。
-    
+        
       - 如果你还没有设置远程仓库，请运行命令`git remote add RHH https://github.com/rh-hideout/pokeemerald-expansion`。
       - 一旦你设置了远程仓库，请运行命令`git pull RHH master`。
-    
+        
       这样，你将获得pokeemerald-expansion的最新版本，以及一些尚未发布到下一个补丁版本中的bug修复。
-    
+        
       ## 文档
-    
+        
       [请点击此处访问我们的文档页面。](https://rh-hideout.github.io/pokeemerald-expansion/)
-    
+        
       ## ***如何更新我的pokeemerald-expansion版本？***
-    
+        
       - 如果你还没有设置远程仓库，请运行命令`git remote add RHH https://github.com/rh-hideout/pokeemerald-expansion`。
       - 检查你的当前版本。
         - 你可以在调试菜单的`Utilities -> Expansion Version`选项中检查。
@@ -73,34 +75,34 @@
       - 另外，你可以更新到扩展的未发布版本。
         - ***master（稳定版）***：它包含将在下一个补丁版本中发布的***bug修复***。要合并，请使用`git pull RHH master`。
         - ***upcoming（不稳定版，可能存在bug）***：它包含将在下一个小版本中发布的***功能***。要合并，请使用`git pull RHH upcoming`。
-    
+        
       ### 请考虑在你的项目中鸣谢整个[贡献者名单](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits)，因为他们都为开发这个项目付出了辛勤的努力 :)
-    
+        
       ## 谁在维护这个项目？
-    
+        
       这个项目最初是由DizzyEgg与其他贡献者一起启动的。现在它由ROM Hacking Hideout社区中的一个团队“Expansion Senate”维护。ROM Hacking Hideout（简称RHH）是一个基于Discord的ROM修改社区，专门研究《宝可梦》ROM改版。关于项目开发的大部分讨论都在那里进行。
-    
+        
       [点击此处加入RHH Discord服务器！](https://discord.gg/6CzjAG6GZk)
-    
+        
       ## 项目中有一个bug。我该如何让你们知道？
-    
+        
       请在此[提交](https://github.com/rh-hideout/pokeemerald-expansion/issues)项目的任何问题，并确保在提交之前使用过滤器搜索，确认问题尚未被其他人报告。你也可以加入Discord服务器，以尝试从团队和其他服务器成员那里获得更深入的支持。
-    
+        
       ## 即使我不是ROM Hacking Hideout的成员，我也可以贡献吗？
-    
+        
       可以！欢迎通过Pull Request进行贡献，它们将由维护者及时审查。
-    
+        
       此外，请遵循Pull Request模板，并随时讨论如何处理审查。***沟通是关键！***如果我们花了一些时间来审查你的PR，请不要感到气馁，我们会处理的。
-    
+        
       ## 包含了哪些功能？
-    
+        
       - ***重要❗❗ 阅读以下内容以了解你可以切换哪些功能***：
       - [战斗配置](include/config/battle.h)
       - [宝可梦配置](include/config/pokemon.h)
       - [物品配置](include/config/item.h)
       - [大地图配置](include/config/overworld.h)
       - [调试配置](include/config/debug.h)
-    
+        
       - ***升级的战斗引擎***
         - 第五世代及以后的伤害计算方式。
         - 支持2v2野外战斗。
@@ -145,20 +147,20 @@
           - 等级100的宝可梦可以获得努力值。
           - 反转对战支持。
           - 大量其他功能[在此](include/config/battle.h)。
-    
+        
       - ***全面的训练家自定义***
-    
+        
         - 昵称、努力值（EVs）、个体值（IVs）、招式、特性、精灵球、亲密度、性格、性别、异色。
         - 自定义双打对战支持（与NPC组队）。
         - 对战途中对手训练家的出现和对话信息显示。
         - 升级后的训练家AI
           - 考虑了最新的招式效果。
-          - 新的flag标识选项，允许你自定义训练家的AI。
+          - 新的标志（FLAG）选项，允许你自定义训练家的AI。
           - 更快的计算速度。
         - 可以按训练家类型指定其使用的精灵球种类。
-    
+        
       - ***宝可梦涵盖第1至第9世代***
-    
+        
         - 简化了添加新宝可梦的过程。
         - 可以禁用不需要的宝可梦进化链。
         - 更新为DS风格的宝可梦图像。
@@ -179,9 +181,9 @@
         - 保留了所有性别差异。
           - 为雌性的河马兽、沙河马、皮卡丘和果然翁自定义了雌性图标。
         - 传说宝可梦、幻之宝可梦和究极异兽拥有3项完美个体值。
-    
+        
       - ***可自定义的形态变化表。完整方法列表[在此](include/constants/form_change_types.h)***
-    
+        
         - 持有道具（如骑拉帝纳/阿尔宙斯）
         - 使用道具（如花舞鸟）
           - 对于谢米，可以设定在特定时间才能使用
@@ -195,24 +197,24 @@
         - 回合结束时（如莫鲁贝可）
         - 特定时间（如谢米）
         - 融合（如酋雷姆）
-    
+        
       - ***孵蛋改进***
-    
+        
         - 需要香薰孵化的幼年宝可梦蛋现在可以直接孵化（可配置）。
         - 1级蛋（可配置）。
         - 精灵球遗传（可配置）。
         - 蛋招式传递，包括模仿香草（可配置）。
         - 使用不变石可确保100%遗传性格（可配置）。
         - 第六世代及以后的特性遗传方式（可配置）。
-    
+        
       - ***新世代道具。完整列表[在此](include/constants/items.h)***
-    
+        
         - 第六世代及以后的学习装置（可配置）
         - 破坏因子
         - 大多数第四世代及以后的战斗道具
-    
+        
       - ***合并的功能分支（已获授权）***
-    
+        
         - [RHH开场动画](https://github.com/Xhyzi/pokeemerald/tree/rhh-intro-credits)由@Xhyzi制作
           - 展示我们所有人签名的小环节，体现了项目的集体努力 :)
         - [大地图调试](https://github.com/TheXaman/pokeemerald/tree/tx_debug_system)由@TheXaman制作
@@ -237,14 +239,14 @@
           - ‌**附加功能**‌：
             - *宝可梦跟随行走图更新至第八世代*。
             - *与我们的宝可梦宝可梦图像可视化工具集成，允许用户浏览宝可梦跟随及战斗图像*。
-    
+        
       - ***其他功能***
-    
+        
         - 抓起宝可梦时按B键可以像官方新作中那样放下（可配置）。
         - 室内跑步（可配置）。
         - 可配置的战斗外大地图中毒伤害。
-        - 可配置的flag标识，用于禁用野生宝可梦遭遇和训练家对战。
-        - 可配置的flag标识，用于强制或禁用异色宝可梦。
+        - 可配置的标志（FLAG），用于禁用野生宝可梦遭遇和训练家对战。
+        - 可配置的标志（FLAG），用于强制或禁用异色宝可梦。
         - 可重复使用的招式学习器（TM）（可配置）。
         - 《黑2/白2》及以后的驱虫喷雾系统，也支持《Let's Go!皮卡丘/伊布》中的香水。
         - 第六世代及以后的努力值上限。
