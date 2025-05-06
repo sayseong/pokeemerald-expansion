@@ -1062,7 +1062,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                 .speechBefore = {EC_WORD_I_AM, EC_WORD_STRONG, EC_WORD_SO, EC_WORD_BEAUTY, EC_WORD_OF, EC_WORD_PERSON},
                 .speechWin = {EC_WORD_ME, EC_WORD_VERY, EC_WORD_STRONG, EC_WORD_THIS, EC_WORD_WERE, EC_WORD_WHY},
                 .speechLose = {EC_WORD_ME, EC_WORD_TODAY, EC_WORD_TIRED, EC_WORD_THE, EC_WORD_LOST, EC_WORD_EXCL},
-                .speechAfter = {EC_WORD_I_AM, EC_WORD_FIGHTS, EC_WORD_LONESOME, EC_WORD_AND, EC_WORD_SAD, EC_EMPTY_WORD},
+                .speechAfter = {EC_WORD_ME, EC_WORD_FIGHTS, EC_WORD_LONESOME, EC_WORD_AND, EC_WORD_SAD, EC_EMPTY_WORD},
                 .mons =
                 {
                     [0] =
