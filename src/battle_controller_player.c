@@ -1765,6 +1765,7 @@ static void MoveSelectionDisplayMoveDescription(u32 battler)
     u8 cat_start[] = _("{CLEAR_TO 0x00}");
     u8 pwr_start[] = _("{CLEAR_TO 0x30}");
     u8 acc_start[] = _("{CLEAR_TO 0x62}");
+    u8 font_small[] = _("{FONT_SMALL}");
     LoadMessageBoxAndBorderGfx();
     DrawStdWindowFrame(B_WIN_MOVE_DESCRIPTION, FALSE);
     if (pwr < 2)
@@ -1784,6 +1785,7 @@ static void MoveSelectionDisplayMoveDescription(u32 battler)
     StringAppend(gDisplayedStringBattle, acc_desc);
     StringAppend(gDisplayedStringBattle, acc_num);
     StringAppend(gDisplayedStringBattle, gText_NewLine);
+    StringAppend(gDisplayedStringBattle, font_small);
     StringAppend(gDisplayedStringBattle, GetMoveDescription(move));
     BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MOVE_DESCRIPTION);
 
