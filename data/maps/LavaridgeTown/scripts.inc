@@ -325,10 +325,10 @@ LavaridgeTown_Text_HotSpringsClaims:
     .string "据说温泉可以放松\n紧张的神经，\l减轻身体的疲劳，解决\l爱情问题，还有\l增加收入……$"
 
 LavaridgeTown_Text_TownSign:
-    .string "釜炎镇\p“宝可梦中心温泉\n最佳的放松地！”$"
+    .string "这里是釜炎镇。\n“宝可梦中心、温泉、绝妙的场所。”$"
 
 LavaridgeTown_Text_GymSign:
-    .string "釜炎镇宝可梦道馆\n馆主：亚莎\l“拥有火焰般燃烧的激情的人！”$"
+    .string "釜炎镇宝可梦道馆\n馆主：亚莎\l“热情似火的女性！”$"
 
 LavaridgeTown_Text_HerbShopSign:
     .string "宝可梦中药店\n“良药苦口。”$"

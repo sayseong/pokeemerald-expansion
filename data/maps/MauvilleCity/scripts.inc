@@ -540,13 +540,13 @@ MauvilleCity_Text_PokemonCanJumpYouOnBike:
     .string "就算你骑着自行车，\n野生宝可梦也会跳出来袭击你。$"
 
 MauvilleCity_Text_CitySign:
-    .string "紫堇市\n“洋溢着欢乐气息的城市！”$"
+    .string "这里是紫堇市。\n“流光溢彩的欢乐城市！”$"
 
 MauvilleCity_Text_GymSign:
-    .string "紫堇市宝可梦道馆\n馆主：铁旋\l“一个活力与电力四射的男人！”$"
+    .string "紫堇市宝可梦道馆\n馆主：铁旋\l“开朗的电击大叔！”$"
 
 MauvilleCity_Text_BikeShopSign:
-    .string "“骑车到砂石路上去，\n晃动爱车的灵魂！”\l风野自行车行$"
+    .string "“骑车到砂石路上去，\n晃动爱车的灵魂！”\l风野自行车店$"
 
 MauvilleCity_Text_GameCornerSign:
     .string "“大家的游乐场！”\n紫堇市游戏中心$"

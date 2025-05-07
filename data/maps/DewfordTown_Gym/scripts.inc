@@ -343,25 +343,25 @@ DewfordTown_Gym_Text_CristianPostBattle:
     .string "你赢了！\n去争取徽章吧！$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
-    .string "我是藤树！\n武斗镇的道馆馆主！\p我曾与这里汹涌的巨浪搏斗，\n在漆黑的山洞中训练\l让自己变得更强！\p你想挑战我吗？\n让我看看你的力量！$"
+    .string "我是藤树！\n武斗道馆的道馆馆主！\p我在这附近的险浪中翻腾……\n在漆黑的洞窟中修行！\p想挑战我那就把你的实力……\n全部展现出来吧！$"
 
 DewfordTown_Gym_Text_BrawlyDefeat:
-    .string "哇，你着实让我\n大吃一惊！\p你的力量压过了我！\p好吧，是你赢了，\n这个道馆徽章归你了！$"
+    .string "喔喔！\n你一定会成为浪潮！\p我知道了！\p收下这枚道馆徽章吧！$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
-    .string "{PLAYER}从藤树处\n得到了拳击徽章。$"
+    .string "{PLAYER}从藤树那里\n得到了拳击徽章。$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
-    .string "拳击徽章能使包括交换得来的\n所有等级30以内的宝可梦听从指示，\p而且你也可以在战斗以外的时候\n使用秘传招式闪光。\p喜欢的话，这个\n招式学习器也给你吧。$"
+    .string "拳击徽章能让等级30以内的宝可梦，\n即使是交换得来的也乖乖听话！\p另外，你能在对战外使用\n秘传招式闪光了。\p喜欢的话，\n这个也给你吧。$"
 
 DewfordTown_Gym_Text_ExplainBulkUp:
-    .string "招式学习器08的内容是\n健美，\p是可以提升攻击\n和防御的招式。\p…… …… ……$"
+    .string "那个招式学习器08中是\n健美！\p是能同时提升攻击和\n防御能力的招式！\p…… …… ……$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
     .string "把道馆馆主藤树\n登记到宝可导航里了。$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
-    .string "我预言总有一天，你的天赋\n会成为一波巨浪，在训练家之中\l掀起震撼的暴风雨！$"
+    .string "你的才能有朝一日将成为巨浪，\n掀起令所有训练家惊愕不已的风暴！$"
 
 DewfordTown_Gym_Text_GymStatue:
     .string "武斗镇宝可梦道馆$"
@@ -370,13 +370,13 @@ DewfordTown_Gym_Text_GymStatueCertified:
     .string "武斗镇宝可梦道馆\p藤树认可的训练家：\n{PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
-    .string "藤树：波浪可能会暂时消退，\n但最终还会冲上海岸。\p拥有极高的天赋的你这一波巨浪……\n我知道迟早会回来的！\p就让我看看你现在\n有多么强了！$"
+    .string "藤树：海浪终会回到海滨。\p像你这样有天赋的巨浪……\n我知道你会回来！\p让我看看这巨浪已经达到\n何种高度了吧！$"
 
 DewfordTown_Gym_Text_BrawlyRematchDefeat:
-    .string "哇！\n又被你打倒了！$"
+    .string "喔！\n又让我湿透了！$"
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
-    .string "藤树：战斗就像丰缘地区\n的大海一样，广阔而又深沉，\l永远无法看到它的底部！$"
+    .string "藤树：战斗是浩瀚无边，\n深不见底的。\l就像是丰缘的大海一样！$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
-    .string "藤树：波浪可能会暂时消退，\n但最终还会冲上海岸。\p拥有极高的天赋的你这一波巨浪……\n我知道迟早会回来的！\p哦？你只有一只可以\n战斗的宝可梦。\p但我希望你至少\n带两只宝可梦来。$"
+    .string "藤树：海浪终会回到海滨。\p像你这样有天赋的巨浪………\n我知道你会回来！\p哦？你只有一只可以\n战斗的宝可梦。\p但我希望你至少\n带两只宝可梦来。$"

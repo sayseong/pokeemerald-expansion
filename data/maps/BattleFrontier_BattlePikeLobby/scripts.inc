@@ -350,7 +350,7 @@ BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
     .string "在选择式对战的挑战中\n包包和宝可导航不能使用。$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
-    .string "在一次选择式对战的挑战中，\n宝可梦携带的任何树果或者药草\l只能一次有效。$"
+    .string "在一次选择式对战的挑战中，\n宝可梦携带的任何树果或者香草\l只能一次有效。$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules:
     .string "在一次选择式对战的挑战中，\n宝可梦的顺序不能改变。\p顺序必须在您挑战之前\n就确定好。$"

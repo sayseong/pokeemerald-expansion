@@ -308,28 +308,28 @@ MauvilleCity_Gym_Text_AngeloPostBattle:
     .string "紫堇市道馆的铁旋额头上\n总是闪着光，我好兴奋！$"
 
 MauvilleCity_Gym_Text_WattsonIntro:
-    .string "我放弃了发展城市的\n计划，\p花时间在我自己的道馆里\n设置小机关。\p嗯？你来这儿做什么？\p怎么？你说你通过了\n我设置的电器屏障？\p啊哈哈哈！\n真有趣！\p那好，我，紫堇市道馆的馆主，\n铁旋，就让你体验一下电流的爽快！$"
+    .string "我放弃了自己改建城市的计划，\n而是将时间花在了道馆内，\l制作了这个电门迷宫。\p哦？\n你是怎么走到这里来的？\p是吗？\n你是说你已经破解了我的迷宫？\p哇哈哈哈！\n太有趣了！\p那么，我——紫堇道馆的道馆馆主——\n铁旋，就让你见识一下电气的威力吧！$"
 
 MauvilleCity_Gym_Text_WattsonDefeat:
-    .string "啊哈哈哈！\n好，我输了！\p你让我兴奋起来了！\n这个徽章给你！$"
+    .string "哇哈哈哈！\n好，我输了！\p你让我兴奋极了！\n收下这枚徽章！$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge:
-    .string "{PLAYER}从铁旋处\n得到了电力徽章。$"
+    .string "{PLAYER}从铁旋那里\n得到了电力徽章。$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
-    .string "有了电力徽章，宝可梦\n可以在战斗外使用碎岩，\p而且你的宝可梦的速度\n也会变快一点。\p嗯……\n这个也给你吧！$"
+    .string "有了这个电力徽章，\n宝可梦就可以在对战外使用碎岩了，\p而且你的宝可梦的速度也会\n变得稍微快一点。\p嗯……\n你也收下这个吧！$"
 
 MauvilleCity_Gym_Text_ExplainShockWave:
-    .string "招式学习器34的内容是电击波，\p这是绝对不会打空的\n可靠招式！值得你信赖！\p…… …… ……$"
+    .string "那是招式学习器34电击波，\n是永远不会打偏的可靠招式！\l你可以信赖它！\p…… …… ……$"
 
 MauvilleCity_Gym_Text_RegisteredWattson:
     .string "把道馆馆主铁旋\n登记到宝可导航里了。$"
 
 MauvilleCity_Gym_Text_WattsonPostBattle:
-    .string "看到你这样前途无量的训练家，\n我心里特别欣慰！$"
+    .string "能看到像你这样前途无量的年轻\n训练家，我真高兴呀！$"
 
 MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
-    .string "啊哈哈哈哈！\n努力前进吧，年轻人！$"
+    .string "哇哈哈哈！\n年轻人，向前进，努力吧！$"
 
 MauvilleCity_Gym_Text_GymStatue:
     .string "紫堇市宝可梦道馆$"
@@ -338,14 +338,14 @@ MauvilleCity_Gym_Text_GymStatueCertified:
     .string "紫堇市宝可梦道馆\p铁旋认可的训练家：\n{PLAYER}$"
 
 MauvilleCity_Gym_Text_WattsonPreRematch:
-    .string "铁旋：啊哈！终于又回来了！\n我知道你想做什么，\l你想和我的宝可梦战斗！\p啊哈哈哈哈！\p我会用我的电火花包围你的！\n别说我没警告过你！$"
+    .string "铁旋：啊哈！你终于来了！\n我知道你想要什么。\l你想和我的宝可梦对战！\p哇哈哈哈哈！\p别说我没警告你，\l我会让你火花四溅的！$"
 
 MauvilleCity_Gym_Text_WattsonRematchDefeat:
-    .string "唔……\n我们的电池耗光了……$"
+    .string "噢……\n我们的电池没电了……$"
 
 MauvilleCity_Gym_Text_WattsonPostRematch:
-    .string "铁旋：我们还要\n继续充电，\p充满电之后，我们很乐意\n再次接受你的挑战。\p所以一定要再来，\n好吗？$"
+    .string "铁旋：我们又要给我们的\n电池充电了。\p等我们充好电，\n我们会很高兴接受你的挑战。\p所以，有时间的话再来吧，\n好吗？$"
 
 MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
-    .string "铁旋：啊哈！终于又回来了！\n我知道你想做什么，\l你想和我的宝可梦战斗！\p啊哈哈哈哈！\p哎，等等！\n你只带了一只宝可梦！\p带两只以上宝可梦\n再来吧，好吗？$"
+    .string "铁旋：啊哈！你终于来了！\n我知道你想要什么。\l你想和我的宝可梦对战！\p哇哈哈哈哈！\p哎，等等！\n你只带了一只宝可梦！\p带两只以上宝可梦\n再来吧，好吗？$"
 

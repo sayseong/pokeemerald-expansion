@@ -353,10 +353,10 @@ MossdeepCity_Text_ItsAWhiteRock:
     .string "这是一块白色石头。$"
 
 MossdeepCity_Text_GymSign:
-    .string "绿岭市宝可梦道馆\n馆主：小枫和小南\p“神秘的组合！”$"
+    .string "绿岭市宝可梦道馆\n馆主：小枫与小南\p“神秘的组合！！”$"
 
 MossdeepCity_Text_CitySign:
-    .string "绿岭市\n“我们的口号是：珍爱宝可梦！”$"
+    .string "这里是绿岭市。\n“我们的口号：珍爱宝可梦！”$"
 
 MossdeepCity_Text_SpaceCenterSign:
     .string "绿岭市宇宙中心\n“最接近宇宙的地方。”$"

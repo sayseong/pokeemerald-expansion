@@ -118,8 +118,8 @@ FortreeCity_Text_UsedDevonScopePokemonFled:
     .string "{PLAYER}使用得文侦测镜。\p看不见的宝可梦\n现出了原形！\p受惊的宝可梦溜掉了！$"
 
 FortreeCity_Text_CitySign:
-    .string "茵郁市\n“融入自然的\l树上之城。”$"
+    .string "这里是茵郁市。\n“与自然嬉戏的树上城市。”$"
 
 FortreeCity_Text_GymSign:
-    .string "茵郁市宝可梦道馆\n馆主：娜琪\p“环翔世界的\n飞行属性训练家。”$"
+    .string "茵郁市宝可梦道馆\n馆主：娜琪\p“翱翔全世界的\n鸟宝可梦训练家！”$"
 

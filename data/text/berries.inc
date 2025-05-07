@@ -5,7 +5,7 @@ Route104_Text_PlantBerriesInSoilTakeThis::
     .string "你可以随意取走生长在\n松软的土壤里的树果，\p但记住离开之前一定要在同一个地方\n种下一枚树果，这是约定俗成的习惯。\p这个给你吧。$"
 
 Route104_Text_TrainersOftenMakeMonHoldBerries::
-    .string "看上去……你一定\n是训练家吧？\p训练家经常会给他们的宝可梦\n带上树果。\p当然，得到树果后是种植\n还是使用都取决于你自己。$"
+    .string "看上去……你一定\n是训练家吧？\p训练家经常会给他们的宝可梦\n携带树果。\p当然，得到树果后是种植\n还是使用都取决于你自己。$"
 
 Route111_Text_WateredPlantsEveryDayTakeBerry::
     .string "我每天都来给它们浇水，\n所以这里开了这么多的花，\l当然，我也收获了非常多的树果。\p给！这个送给你了！$"
@@ -101,7 +101,7 @@ Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers::
     .string "我正在向姐姐们学习种花，\n总有一天，我也会像她们那样优秀！\p给！这个送你！$"
 
 Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries::
-    .string "你可以把树果种到土里让它长大，\n也可以让宝可梦带上它，\p现在还有另一种选择，用一种\n特别的机器混合树果\l为宝可梦制作糖果。\p我也想要些糖果啊。$"
+    .string "你可以把树果种到土里让它长大，\n也可以让宝可梦携带它，\p现在还有另一种选择，用一种\n特别的机器混合树果\l为宝可梦制作糖果。\p我也想要些糖果啊。$"
 
 SootopolisCity_Text_NameIsKiriHaveOneOfThese::
     .string "你叫什么名字啊？\p…… …… …… …… ……\n嗯，真是个好名字\p我叫小桐，\p爸爸妈妈希望我健康长大且热心\n助人，所以给我起了这个名字。\p这个给你一个吧。$"

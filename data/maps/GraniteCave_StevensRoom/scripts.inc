@@ -97,5 +97,5 @@ GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
     .string "好了，我得快点走了。$"
 
 GraniteCave_StevensRoom_Text_OhBagIsFull:
-    .string "喔，你的包满了……\n真糟糕呢。$"
+    .string "喔，你的包满了……\n真可惜呢。$"
 

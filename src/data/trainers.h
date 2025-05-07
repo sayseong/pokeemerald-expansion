@@ -12423,7 +12423,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_TATE_AND_LIZA_1] =
     {
 #line 5036
-        .trainerName = _("小枫和小南"),
+        .trainerName = _("小枫与小南"),
 #line 5037
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 5038
@@ -38429,7 +38429,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_TATE_AND_LIZA_2] =
     {
 #line 15381
-        .trainerName = _("小枫和小南"),
+        .trainerName = _("小枫与小南"),
 #line 15382
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 15383
@@ -38548,7 +38548,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_TATE_AND_LIZA_3] =
     {
 #line 15431
-        .trainerName = _("小枫和小南"),
+        .trainerName = _("小枫与小南"),
 #line 15432
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 15433
@@ -38685,7 +38685,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_TATE_AND_LIZA_4] =
     {
 #line 15489
-        .trainerName = _("小枫和小南"),
+        .trainerName = _("小枫与小南"),
 #line 15490
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 15491
@@ -38822,7 +38822,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_TATE_AND_LIZA_5] =
     {
 #line 15547
-        .trainerName = _("小枫和小南"),
+        .trainerName = _("小枫与小南"),
 #line 15548
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 15549

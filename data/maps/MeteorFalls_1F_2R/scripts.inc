@@ -97,7 +97,7 @@ MeteorFalls_1F_2R_Text_JohnRegister:
     .string "源：年轻的训练家，如果有机会\n的话，你还会和我们对战吗？$"
 
 MeteorFalls_1F_2R_Text_JayIntro:
-    .string "初：我们结婚\n50年了。\p我们做为夫妻的羁绊\n永远不会解除。$"
+    .string "初：我们结婚\n50年了。\p我们作为夫妻的羁绊\n永远不会解除。$"
 
 MeteorFalls_1F_2R_Text_JayDefeat:
     .string "初：哦，亲爱的。\n我们输了，我亲爱的老公。$"

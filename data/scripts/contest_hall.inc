@@ -1573,7 +1573,7 @@ ContestHall_Text_AcceptYourPrize:
 	.string "你的奖章！$"
 
 ContestHall_Text_ConferRibbonAsPrize:
-	.string "这个奖章就做为你的\n"
+	.string "这个奖章就作为你的\n"
 	.string "奖章吧！$"
 
 ContestHall_Text_ReceivedRibbon:

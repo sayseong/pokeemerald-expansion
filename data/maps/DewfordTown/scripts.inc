@@ -643,10 +643,10 @@ DewfordTown_Text_TinyIslandCommunity:
     .string "武斗镇是个很小的岛镇，\n如果什么在这儿流行起来，\l很快所有人都会开始谈论。$"
 
 DewfordTown_Text_TownSign:
-    .string "武斗镇\n“蓝色大海中的小岛。”$"
+    .string "这里是武斗镇。\n“漂浮在蓝海上的小岛。”$"
 
 DewfordTown_Text_GymSign:
-    .string "武斗镇宝可梦道馆\n馆主：藤树\l“战斗中的巨浪！”$"
+    .string "武斗镇宝可梦道馆\n馆主：藤树\l“格斗浪潮！”$"
 
 DewfordTown_Text_HallSign:
     .string "武斗镇大厅\n“信息交换处！”$"

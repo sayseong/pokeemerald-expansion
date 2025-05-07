@@ -524,7 +524,7 @@ LilycoveCity_Text_TeamAquaLotGoneForGood:
     .string "那个海湾的洞窟……\p一开始我没注意，\n但它现在已经空了。\p那些海洋队一定是\n全体卷铺盖跑路了。$"
 
 LilycoveCity_Text_CitySign:
-    .string "水静市\p“连接大海与陆地的\n城市。”$"
+    .string "这里是水静市。\n“陆地止息，大海起始之地。”$"
 
 LilycoveCity_Text_ContestHallSign:
     .string "宝可梦华丽大赛会场\n“训练家聚集的地方！”$"

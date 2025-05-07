@@ -463,7 +463,7 @@ MtPyre_Summit_Text_Grunt4Defeat:
     .string "如果你那么想加入海洋队，\n我会考虑一下的……$"
 
 MtPyre_Summit_Text_Grunt4PostBattle:
-    .string "头儿和我们成员之间\n是紧紧联合在一起的。$"
+    .string "头儿和我们手下之间\n是紧紧联合在一起的。$"
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
     .string "水梧桐：虽然熔岩队的赤焰松先我们\n一步，但我们也得到了想要的东西。\p在送神山上所供奉的朱红色宝珠……\n我，水梧桐，现在已经拥有它了！\p呼呼呼……现在我们可以实现\n我们的最终目标了！\p好了，伙计们！\n出发了！$"

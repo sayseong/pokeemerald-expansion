@@ -949,7 +949,7 @@ LittlerootTown_Text_GoodLuckCatchingPokemon:
     .string "你要去捕捉宝可梦？\n祝你好运！$"
 
 LittlerootTown_Text_TownSign:
-    .string "未白镇\n“充满缤纷色彩的小镇。”$"
+    .string "这里是未白镇。\n“未能被任何颜色染上的城镇。”$"
 
 LittlerootTown_Text_ProfBirchsLab:
     .string "小田卷博士的宝可梦研究所$"

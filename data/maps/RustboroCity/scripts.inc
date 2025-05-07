@@ -1073,7 +1073,7 @@ RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
     .string "那个小偷大概\n向着那边的隧道逃跑了。$"
 
 RustboroCity_Text_YouGotItThankYou:
-    .string "嗨！怎么样了？\n得文的物品？\p太好了！\n你拿回来了！\p你真是厉害的训练家！\p这些超级球就\n做为我的谢礼吧！$"
+    .string "嗨！怎么样了？\n得文的物品？\p太好了！\n你拿回来了！\p你真是厉害的训练家！\p这些超级球就\n作为我的谢礼吧！$"
 
 RustboroCity_Text_YoureLoadedWithItems:
     .string "你背了太多东西，\n装不下这些超级球了。$"
@@ -1136,13 +1136,13 @@ RustboroCity_Text_DevonCorpSign:
     .string "得文公司\p“我们会为您提供\n一切日常必需品。”$"
 
 RustboroCity_Text_GymSign:
-    .string "卡那兹市宝可梦道馆\n馆主：杜娟\p“热爱岩石属性的学生！”$"
+    .string "卡那兹市宝可梦道馆\n馆主：杜娟\p“陶醉于岩石的高材生！”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:
     .string "得文公司分部办公室\p“闲杂人等\n请勿入内。”$"
 
 RustboroCity_Text_CitySign:
-    .string "卡那兹市\p“致力于\n自然与科学研究的城市。”$"
+    .string "这里是卡那兹市。\n“追求自然与科学相互融合的城市。”$"
 
 RustboroCity_Text_TrainersSchoolSign:
     .string "宝可梦训练家学校\p“教给你关于\n宝可梦的一切！”$"

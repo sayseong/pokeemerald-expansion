@@ -264,25 +264,25 @@ LavaridgeTown_Gym_B1F_Text_EliPostBattle:
     .string "我留在这儿是因为\n迷上了亚莎的力量。\p呵呵呵呵。$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro:
-    .string "欢迎……啊，不对。\p可怜的训练家，我很惊讶\n你能来到这里！\p我受人之托……\n啊，不对。\p我是亚莎，这里的\n道馆馆主！\p呃……\n虽然我刚刚成为馆主不久，\l但不要低估我的实力！\p用从爷爷那儿继承而来的能力，\n我，呃……会向你展示出我们\l在这片大地上磨炼出来的灼热的招式！$"
+    .string "欢迎……\n哦不，\p微不足道的挑战者啊，\n真高兴能看见你坚持到这里！\p爷爷托付我……\n我是说，\p我是亚莎，\n是这里的道馆馆主！\p那个……\n虽然我不久前才刚上任，\l但你可别小看我！\p我有爷爷传授给我的技巧，\n我会，那个……让你见识一下我们\l在这片土地上磨砺而出的火辣招式！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
-    .string "哎……\n我对自己的期待太高了……\p我……我只是刚刚成为\n道馆馆主而已。\p我总是想学那种\n不适合我的性格，\p但我应该按我自己的性格行事，\n否则我的宝可梦会迷茫的。\p谢谢你教给我的这一切，\n这个送给你吧。$"
+    .string "哦……\n也许我做得太过了……\p我……\n我最近才刚成为道馆馆主，\l我试着要装出道馆馆主的样子。\p我的宝可梦一定都被我搞糊涂了吧。\n也许我只要按自己的想法来做就好了。\p谢谢你让我明白这点，\n你配得上这枚徽章。$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
-    .string "{PLAYER}从亚莎处\n得到了烈焰徽章。$"
+    .string "{PLAYER}从亚莎那里\n得到了烈焰徽章。$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
-    .string "烈焰徽章能使包括交换得到的\n所有等级50以内的宝可梦听从指示，\p而且也可以让宝可梦在\n战斗以外使用秘传招式怪力。\p这是我的谢礼，\n不用推辞，收下吧！$"
+    .string "有了烈焰徽章，\n所有50级以下的宝可梦，\l即使是从别人那儿交换得来的\l也会完全听你的。\p另外，宝可梦也能在对战外\n使用秘传招式怪力了。\p这是我的小小谢礼，\n请别客气,收下吧！$"
 
 LavaridgeTown_Gym_1F_Text_ExplainOverheat:
-    .string "招式学习器50\n的内容是过热，\p这招式可以对对手造成\n极大伤害，\p但同时会让使用这招式的\n宝可梦的特攻下降。\l这招式并不适合持久战。$"
+    .string "那个招式学习器50里\n装着的是过热，\p能对对手造成\n巨大的伤害。\p但同时，使用它的宝可梦\n特攻会急剧下降。\l这个招式不太适合持久战。$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
     .string "把道馆馆主亚莎\n登记到宝可导航里了。$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
-    .string "你的力量让我想起了一个人……\p啊，我知道了！你很像橙华市的\n道馆馆主，千里。$"
+    .string "你的实力让我想起了某个人……\p哦！对了！\n你的战斗方式很像橙华道馆的\l道馆馆主千里。$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue:
     .string "釜炎镇宝可梦道馆$"
@@ -291,13 +291,13 @@ LavaridgeTown_Gym_1F_Text_GymStatueCertified:
     .string "釜炎镇宝可梦道馆\p亚莎认可的训练家：\n{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
-    .string "亚莎：输掉一场战斗\n不会让我泄气的。\p我喜欢宝可梦，\n喜欢战斗，\l而且……我喜欢这道馆！\p我们再来一次战斗，\n释放我们的热情吧！$"
+    .string "亚莎：打输一次不会\n让我泄气。\p我爱宝可梦，\n我爱战斗，\l而且……我爱这间道馆！\p让我们用炙热的招式\n开战吧！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
-    .string "呼！\n差点喷发出来了！$"
+    .string "哇！\n火山喷发也不过如此吧！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
-    .string "亚莎：我输了，\n但我很高兴，\p很少能碰上\n这么畅快淋漓的战斗。\p以后我们再来一场\n这样的战斗吧！$"
+    .string "亚莎：我输了，\n但是我很满足。\p像这样激烈的战斗\n可不是每天都有的。\p有空的话\n再来一场吧！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
-    .string "亚莎：输掉一场战斗\n不会让我泄气的。\p我喜欢宝可梦，\n喜欢战斗，\l而且……我喜欢这道馆！\p我们再来一次战斗，\n释放我们的热情吧！\p啊，慢着，你只带了一只\n可以战斗的宝可梦？\p你来找我时至少得\n带两只宝可梦吧。$"
+    .string "亚莎：打输一次不会\n让我泄气。\p我爱宝可梦，\n我爱战斗，\l而且……我爱这间道馆！\p让我们用炙热的招式\n开战吧！\p啊，慢着，你只带了一只\n可以战斗的宝可梦？\p你来找我时至少得\n带两只宝可梦吧。$"

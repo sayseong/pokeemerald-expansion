@@ -70,7 +70,7 @@ FallarborTown_Text_BattleTentSign:
     .string "对战帐篷秋叶镇分址\n“愿优秀的队伍在这里聚集！”$"
 
 FallarborTown_Text_TownSign:
-    .string "秋叶镇\n“一个拥有小花园的农业小镇。”$"
+    .string "这里是秋叶镇。\n“有着小型田野的农村。”$"
 
 FallarborTown_Text_MoveTutorSign:
     .string "招式爱好者的家\n“教会宝可梦新的招式。”$"

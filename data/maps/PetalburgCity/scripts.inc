@@ -723,10 +723,10 @@ PetalburgCity_Text_FullPartyExplanation:
     .string "假如你已经带了六只宝可梦，\n那么再捕捉一只的话……\p就会通过电脑传送到\n仓库盒子里。$"
 
 PetalburgCity_Text_GymSign:
-    .string "橙华市宝可梦道馆\n馆主：千里\l“一个执著追求力量的人！”$"
+    .string "橙华市宝可梦道馆\n馆主：千里\l“追求强大力量的男人！”$"
 
 PetalburgCity_Text_CitySign:
-    .string "橙华市\n“人们和谐相处的地方。”$"
+    .string "这里是橙华市。\n“人与自然沟通的城市。”$"
 
 PetalburgCity_Text_WallyHouseSign:
     .string "满充的家$"

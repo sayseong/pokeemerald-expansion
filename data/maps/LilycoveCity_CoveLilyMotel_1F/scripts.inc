@@ -82,7 +82,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua:
     .string "啊，抱歉，抱歉！\n我看电视看入迷了！\p自从海洋队来城里以后，\n都没什么游客来了。$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV:
-    .string "喂，别挡！\n我看不清电视了！$"
+    .string "喂，别挡着！\n我看不到电视了！$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem:
     .string "真吃惊！你说宝可梦\n可以找到别人掉下的东西？\p如果我们也有\n那么聪明的宝可梦……\p我们就能找出\n客人们遗落的东西了……$"

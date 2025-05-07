@@ -139,5 +139,5 @@ SootopolisCity_Gym_B1F_Text_BriannaDefeat:
     .string "呀，天啊，\n我太小看你了。$"
 
 SootopolisCity_Gym_B1F_Text_BriannaPostBattle:
-    .string "你根本不可能擦到亚当，\n嘻嘻，我肯定……$"
+    .string "你根本碰不到亚当分毫，\n嘻嘻，我肯定……$"
 

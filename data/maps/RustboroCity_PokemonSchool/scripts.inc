@@ -239,7 +239,7 @@ RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself:
     .string "你知道某些宝可梦的招式\n可以使对手宝可梦混乱吗？\p混乱的宝可梦有时\n会不知为何攻击自己。\p但一旦它退出战斗，\n它就会恢复正常。$"
 
 RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
-    .string "带着树果的宝可梦\n能够自我治疗……\p许多道具都可以\n让宝可梦带上……\p唉，及时记下笔记\n太难了……$"
+    .string "带着树果的宝可梦\n能够自我治疗……\p许多道具都可以\n让宝可梦携带……\p唉，及时记下笔记\n太难了……$"
 
 RustboroCity_PokemonSchool_Text_StudentsNotes:
     .string "这是这个学生的笔记本……\p用精灵球\n可以捕捉宝可梦。\p一个训练家最多可以\n同时携带六只宝可梦。\p训练家就是捕捉宝可梦，\n并养育它们，与它们\l共同战斗的人。\p训练家的任务是\n打败在宝可梦道馆中\l等待着的强大训练家。$"

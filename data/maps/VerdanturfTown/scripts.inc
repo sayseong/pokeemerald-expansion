@@ -82,7 +82,7 @@ VerdanturfTown_Text_EasyToGetToRustboroNow:
     .string "友好商店旁的洞穴\n现在成了通向山的另一侧的隧道。\p这太棒了——现在去卡那兹市\n买得文的新产品更方便了。$"
 
 VerdanturfTown_Text_TownSign:
-    .string "绿茵镇\p“从高原上吹下来的风中\n夹带有青草的芳香。”$"
+    .string "这里是绿茵镇。\n“带有青草气息的风吹高原。”$"
 
 VerdanturfTown_Text_WandasHouse:
     .string "满盈的家$"

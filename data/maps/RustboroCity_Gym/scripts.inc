@@ -137,22 +137,22 @@ RustboroCity_Gym_Text_MarcPostBattle:
     .string "只有交给我们的馆主了。\p这么年轻就培育岩石属性，\n真是辛苦她了。$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
-    .string "你好，我是卡那兹市\n宝可梦道馆的馆主杜娟。\p因为想要在实战中验证\n在宝可梦训练家学校中所学，\l我才成为了道馆馆主。\p让我看看你用什么宝可梦，\n怎样战斗，好吗？$"
+    .string "您好，我是卡那兹道馆的\n馆主杜娟。\p我想要把在宝可梦训练家学校中\n学到的知识应用到实战中去，\l所以才成为了道馆馆主。\p您要使用哪种宝可梦，\n如何对战，可以告诉我吗？$"
 
 RustboroCity_Gym_Text_RoxanneDefeat:
-    .string "这样……\n我输了……\p看来我还有\n很多东西要学……\p我明白了。\p宝可梦联盟规定\n如果训练家打败了道馆馆主，\l就可以得到这个。\p接受这宝可梦\n联盟岩石徽章。$"
+    .string "啊……\n是我输了……\p看来我还有\n许多东西要学……\p我知道了。\p宝可梦联盟规定\n战胜道馆馆主的训练家\n可以得到这个。\p请收下这枚宝可梦联盟\n公认的岩石徽章。$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge:
-    .string "{PLAYER}从杜娟处\n得到了岩石徽章。$"
+    .string "{PLAYER}从杜娟那里\n得到了岩石徽章。$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
-    .string "岩石徽章可以提升\n你的宝可梦的攻击，\p也可以让它们在战斗外\n使用秘传招式居合劈。\p这个也拿上吧。$"
+    .string "岩石徽章能提高您的\n宝可梦的攻击力。\p有了它，您的宝可梦也能在对战外\n使用秘传招式居合劈了。\p然后……\n请您也收下这个。$"
 
 RustboroCity_Gym_Text_ExplainRockTomb:
-    .string "招式学习器39的内容是\n岩石封锁，\p它不只能靠投掷岩石打击敌人，\n也能降低对手的速度。\p使用招式学习器的话，\n宝可梦马上会学会里面的招式，\p但记住，一个招式学习器只能\n使用一次，用之前要三思。$"
+    .string "那个招式学习器39中\n装着岩石封锁。\p用落石攻击对手的同时\n也能降低对手的速度。\p如果您使用招式学习器，\n宝可梦能立刻学会其中的招式。\p但一个招式学习器使用后就会消失，\n所以使用前要仔细考虑才行呢。$"
 
 RustboroCity_Gym_Text_RoxannePostBattle:
-    .string "既然你这么强，\n也挑战一下其他道馆馆主吧。\p你会在跟各种训练家的战斗中\n学到很多。$"
+    .string "像您这么强的训练家为什么不去\n其他道馆挑战看看呢？\p通过和许许多多的训练家对战，\n您能够学到很多知识哟。$"
 
 RustboroCity_Gym_Text_GymStatue:
     .string "卡那兹市宝可梦道馆$"
@@ -161,19 +161,19 @@ RustboroCity_Gym_Text_GymStatueCertified:
     .string "卡那兹市宝可梦道馆\p杜娟认可的训练家：\n{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
-    .string "…… …… ……\n…… …… ……哔！\p杜娟：喂，你好，{PLAYER}吗？\n我是卡那兹市的杜娟。\p我从藤树那儿听说\n你已经打败了\l很多训练家，\p但是，我认为\n我也不会输给你的。\p我发誓，我会提升我的道馆的实力，\n你可以再来挑战我们。\p我很期待\n那时的到来！\p…… …… ……\n…… ……咔哒！$"
+    .string "…… …… ……\n…… …… ……哔！\p杜娟：哦，您好，是{PLAYER}吗？\n我是卡那兹市的杜娟。\p我从藤树那儿听说您已经\n是个小有名气的训练家了。\p但是，我认为我不会\n再输给您了。\p我保证，我会提升道馆的实力，\n您可以再来挑战我们。\p我希望您会像我一样期待\n那个时刻的到来！\p…… …… ……\n…… ……咔哒！$"
 
 RustboroCity_Gym_Text_RegisteredRoxanne:
     .string "把道馆馆主杜娟\n登记到宝可导航里了。$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:
-    .string "杜娟：很高兴再见到你。\n我是杜娟，这里的道馆馆主。\p我肯定，自上次战斗以来，\n我们都经历了不少战斗。\p我想试试我们成长得\n如何了。战斗吧！$"
+    .string "杜娟：我真高兴能再见到您。\n我是这个道馆的\n道馆馆主杜娟。\p我相信我们可以再享受很多场\n像上次那样精彩的对战。\p我想看看我们彼此都变强了多少。\n让我们开始吧！$"
 
 RustboroCity_Gym_Text_RoxanneRematchDefeat:
-    .string "咕……\n我又输了……$"
+    .string "呃……\n我又输了……$"
 
 RustboroCity_Gym_Text_RoxannePostRematch:
-    .string "杜娟：对于宝可梦的战斗，\n我仍有很多要学。\p认识到这一点后，\n我更喜欢战斗了！$"
+    .string "杜娟：关于宝可梦对战，\n我还有许多事要学习。\p察觉到了这一点，\n让我更喜欢宝可梦对战了！$"
 
 RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
-    .string "杜娟：很高兴再见到你。\n我是杜娟，这里的道馆馆主。\p我肯定，自上次战斗以来，\n我们都经历了不少战斗。\p我想试试我们成长得\n如何了……\p哎，不……\n你只带了一只宝可梦？\p带至少两只\n宝可梦回来吧。$"
+    .string "杜娟：我真高兴能再见到您。\n我是这个道馆的\n道馆馆主杜娟。\p我相信我们可以再享受很多场\n像上次那样精彩的对战。\p我想看看我们彼此都变强了……\p哎，不……\n您只带了一只宝可梦？\p带至少两只\n宝可梦回来吧。$"

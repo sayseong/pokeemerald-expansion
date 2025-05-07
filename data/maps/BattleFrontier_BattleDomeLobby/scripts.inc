@@ -478,7 +478,7 @@ BattleFrontier_BattleDomeLobby_Text_HereIsYourPrize:
 
 @ Used by Verdanturf Tent
 BattleFrontier_BattleDomeLobby_Text_ReceivedPrize:
-    .string "{PLAYER}获得了\n{STR_VAR_1}做为奖励。$"
+    .string "{PLAYER}获得了\n{STR_VAR_1}作为奖励。$"
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:

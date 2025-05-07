@@ -11,7 +11,7 @@ ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway::
     .string "好的，我马上帮你\n做贝壳之铃。\p…… …… …… ……\n…… …… …… ……\p好了！做完了！$"
 
 ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell::
-    .string "把这个让宝可梦带上的话，\n宝可梦肯定会喜欢上它的。\p啊，贝壳之铃发出的乐声……\n那是多么美妙！\p原料每天都能采到原，\n想要的话我还可以做更多。$"
+    .string "把这个让宝可梦携带的话，\n宝可梦肯定会喜欢上它的。\p啊，贝壳之铃发出的乐声……\n那是多么美妙！\p原料每天都能采到原，\n想要的话我还可以做更多。$"
 
 ShoalCave_LowTideEntranceRoom_Text_WantedToMakeShellBell::
     .string "哎……是吗……\n真想做一个贝壳之铃啊……$"

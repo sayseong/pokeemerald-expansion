@@ -448,7 +448,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissCushion::
     .string "您选择了亲吻垫子。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSmoochumDoll::
-    .string "您选择了迷唇姐玩偶。\n可以吗？$"
+    .string "您选择了迷唇娃玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTogepiDoll::
     .string "您选择了波克比玩偶。\n可以吗？$"
@@ -568,10 +568,10 @@ BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc::
     .string "一幅有迷唇娃\n图案的大海报。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc::
-    .string "一个迷唇姐垫子。\n要放置在地毯和桌子上。$"
+    .string "一个迷唇娃垫子。\n要放置在地毯和桌子上。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc::
-    .string "一个迷唇姐玩偶。\n要放置在地毯和桌子上。$"
+    .string "一个迷唇娃玩偶。\n要放置在地毯和桌子上。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc::
     .string "一个波克比玩偶。\n要放置在地毯和桌子上。$"

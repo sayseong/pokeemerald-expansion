@@ -17024,7 +17024,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("光子喷涌"),
         .description = COMPOUND_STRING(
-			"用光柱来攻击。用物攻特攻\n"
+			"用光柱来攻击。用攻击特攻\n"
 			"数值更高的一项造成伤害。"),
         .effect = EFFECT_PHOTON_GEYSER,
         .power = 100,
@@ -18352,7 +18352,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("臂贝武器"),
         .description = COMPOUND_STRING(
-			"用物攻特攻数值更高的一项\n"
+			"用攻击特攻数值更高的一项\n"
 			"攻击。有时会让对手中毒。"),
         .effect = EFFECT_SHELL_SIDE_ARM,
         .power = 90,

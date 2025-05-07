@@ -1406,10 +1406,10 @@ SootopolisCity_Movement_DestroyTask::
 	step_end
 
 SootopolisCity_Text_GymSign:
-    .string "琉璃市宝可梦道馆\n馆主：亚当\p“拥有纯水之力的\n道馆馆主！”$"
+    .string "琉璃市宝可梦道馆\n馆主：亚当\p“娇艳欲滴的\n道馆馆主！”$"
 
 SootopolisCity_Text_CitySign:
-    .string "琉璃市\p“沉积着历史的\n神秘城市。”$"
+    .string "这里是琉璃市。\p“历史沉睡的神秘城市。”$"
 
 SootopolisCity_Text_DoorIsClosed:
     .string "这扇门上着锁。$"
@@ -1451,10 +1451,10 @@ SootopolisCity_Text_GreenOneSettlesThings:
     .string "我一直在猜测\n是红色的还是蓝色的会赢，\l但是！奇迹啊！是绿色的平息了一切！\p事件出现了大逆转！$"
 
 SootopolisCity_Text_SeeingLegendWithOwnEyes:
-    .string "在古老的传说中，\n大地和海洋是因\l宝可梦间的一场大战而形成的。\p现在，我亲眼看见了\n这个传说的发生！\p哇！我从没想过\n我能见证这么大的事件！$"
+    .string "在古老的传说中，\n大地和海洋是因\l宝可梦间的一场大战而形成的。\p现在，我亲眼见证着\n这个传说的发生！\p哇！我从没想过\n我能见证这么大的事件！$"
 
 SootopolisCity_Text_SawLegendWithOwnEyes:
-    .string "古老的传说中，\n大地和海洋是因\l宝可梦间的一场大战而形成的。\p现在，我亲眼看见了\n这个传说的发生！\p哇！我从没想过\n我能见证这么大的事件！$"
+    .string "在古老的传说中，\n大地和海洋是因\l宝可梦间的一场大战而形成的。\p现在，我亲眼见证了\n这个传说的发生！\p哇！我从没想过\n我能见证这么大的事件！$"
 
 SootopolisCity_Text_BigPokemonFighting:
     .string "一只巨大的宝可梦正在和另一只\n巨大的宝可梦战斗！\p拜托了！谁去阻止它们吧！$"
@@ -1466,10 +1466,10 @@ SootopolisCity_Text_SootopolisWillBeWrecked:
     .string "哦，不！\n琉璃市会被毁灭的！$"
 
 SootopolisCity_Text_SootopolisDidntGetWrecked:
-    .string "琉璃市没有毁灭！$"
+    .string "琉璃市没有被毁灭！$"
 
 SootopolisCity_Text_NoOrdinaryTourist:
-    .string "嗯？\n你是一路来到琉璃市？\l看来你并不是个寻常的旅行者，\p但我想这也不会让你\n成为一个特别的旅行者。$"
+    .string "嗯？\n你是一路来到琉璃市？\l看来你并不是个寻常的旅行者，\p但我想这也不会让你\n成为一个不寻常的旅行者。$"
 
 SootopolisCity_Text_CityRegainedCalm:
     .string "城市又恢复了平静……$"
@@ -1511,13 +1511,13 @@ SootopolisCity_Text_AfterAllOurScheming:
     .string "赤焰松：原来超古代宝可梦\n不仅只有固拉多和盖欧卡……\p我们计划了那么多无用的阴谋和\n疯狂的行动，可那只宝可梦\l轻而易举就让一切回归平静，\l好像什么也没发生一样……\p呼……\n呼～哈哈哈哈……$"
 
 SootopolisCity_Text_KyogreCalmDown:
-    .string "水梧桐：盖欧卡！怎么了？！\n看这里！朱红色宝珠！\l冷静一下！盖欧卡！\p…… …… ……\n…… …… ……\p没用……\n它根本什么反应也没有！$"
+    .string "水梧桐：盖欧卡！怎么了？！\n看这里！朱红色宝珠！\l冷静一下！盖欧卡！\p…… …… ……\n…… …… ……\p没用……\n它根本一点反应也没有！$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
     .string "水梧桐：没人知道盖欧卡和固拉多\n去了什么地方，\p不过丰缘地区的天气\n已经恢复正常了……\p哈哈……\n哈哈哈……\p也许我们的行为对宝可梦来说\n并不算什么，\l甚至只是微不足道的小动作罢了……$"
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
-    .string "大吾：那两只战斗的宝可梦……\n固拉多……还有盖欧卡……\p那两只超古代宝可梦\n从长眠中觉醒……\p现在它们正用它们那\n无法控制的力量互相攻击……\p……{PLAYER}{KUN}，\p我想你来这里\n已经有了被卷入\l这次危机的觉悟了。\p那么，\n我想带你去见一个人。\p跟我来吧。$"
+    .string "大吾：那两只战斗的宝可梦……\n固拉多……还有盖欧卡……\p那两只超古代宝可梦\n从长眠中觉醒……\p现在它们正用它们那\n失控的力量互相攻击……\p……{PLAYER}{KUN}，\p我想你来这里\n已经有了被卷入\l这次危机的觉悟了。\p那么，\n我想带你去见一个人。\p跟我来吧。$"
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
     .string "大吾：听着，{PLAYER}{KUN}。\p看到固拉多和盖欧卡，\n你是否对宝可梦开始感到害怕了？\p但这并不是事实，\n宝可梦并不仅如此而已……\p……我为什么这么问？\n你应该明白吧。$"
@@ -1541,13 +1541,13 @@ SootopolisCity_Text_HaventYouScaledSkyPillar:
     .string "米可利：哦？\n{PLAYER}{KUN}？\p你还没登上过\n天空之柱吗？\p我相信以你的能力\n一定能够登上天空之柱塔顶的……$"
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
-    .string "米可利：{PLAYER}{KUN}……\p我想熔岩队和海洋队的首领\n并不想造成什么灾害，\p听听他们为自己的辩护\n也并没什么。$"
+    .string "米可利：{PLAYER}{KUN}……\p我想熔岩队和海洋队的首领\n并不想造成什么灾害，\p听听他们为自己的辩解\n或许也无妨。$"
 
 SootopolisCity_Text_ThankYouForHelpAcceptThis:
     .string "米可利：{PLAYER}{KUN}……\n我的眼光果然没错。\p多亏了你的帮助，琉璃市……\n不，整个丰缘地区都脱离了危机。\p我代表所有人感谢你。\p这是我的谢礼，\n请你收下它。$"
 
 SootopolisCity_Text_ExplainWaterfallGoToGym:
-    .string "这个秘传学习器的内容是\n攀瀑。\p如果你有雨滴徽章的话，\n学会这个秘传招式\l的宝可梦就能爬上瀑布。\p至于哪儿能得到雨滴徽章，\n你应该知道吧？\p没错！你要打败\n琉璃市道馆馆主。\p如果你准备好了的话，\n就跨入那扇门中去吧。$"
+    .string "这个秘传学习器的内容是\n攀瀑。\p如果你有雨滴徽章的话，\n学会这个秘传招式\l的宝可梦就能爬上瀑布。\p至于哪儿能得到雨滴徽章，\n你应该知道吧？\p没错！你要打败\n琉璃市道馆馆主。\p如果你准备好了的话，\n就进入到那扇门里去吧。$"
 
 SootopolisCity_Text_DazzledByMentor:
     .string "米可利：我想你会由衷地赞叹\n老师那令人目眩神驰的\l战斗技巧的。$"

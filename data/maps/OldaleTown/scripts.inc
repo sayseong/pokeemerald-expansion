@@ -371,5 +371,5 @@ OldaleTown_Text_BrendanLetsGoBack:
     .string "小悠：我要回老爸的\n研究所去。\l{PLAYER}，你也该快点回去。$"
 
 OldaleTown_Text_TownSign:
-    .string "古玫镇\n“简单而朴实的小镇。”$"
+    .string "这里是古玫镇。\n“积微成著之地。”$"
 
