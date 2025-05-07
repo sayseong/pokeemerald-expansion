@@ -71,5 +71,5 @@ EverGrandeCity_SidneysRoom_Text_Defeat:
     .string "嗯，你觉得如何？我输了！\n嗯，不过这很有趣，所以也无所谓。$"
 
 EverGrandeCity_SidneysRoom_Text_PostBattleSpeech:
-    .string "好，\n听听我这个失败者的話。\p你已经具备了前进所需的一切。\n现在，继续去下一个房间\l享受你的下一场战斗吧！$"
+    .string "好，\n听听我这个失败者的话。\p你已经具备了前进所需的一切。\n现在，继续去下一个房间\l享受你的下一场战斗吧！$"
 
