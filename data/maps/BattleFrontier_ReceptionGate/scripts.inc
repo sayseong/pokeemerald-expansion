@@ -365,13 +365,13 @@ BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
     .string "您想知道什么？$"
 
 BattleFrontier_ReceptionGate_Text_LevelModeInfo:
-    .string "对战开拓区里的\n每种挑战都分成两种——\l50级和自由级。$"
+    .string "对战开拓区里的\n每种挑战都分成两种——\lLv. 50级和自由等级。$"
 
 BattleFrontier_ReceptionGate_Text_Level50Info:
-    .string "50级允许50级或以下的\n宝可梦参加。\p但是请记住，您并不会碰上\n使用50级以下宝可梦的\l训练家。\p这是对战开拓区的\n入门级战斗，\p如果您是新手，\n可以先来挑战它。$"
+    .string "Lv. 50级允许等级50级以内的\n宝可梦参加。\p但是请记住，您并不会遇到\n使用等级50以内宝可梦的\l训练家。\p这是对战开拓区的\n入门级战斗，\p如果您是新手，\n可以先来挑战它。$"
 
 BattleFrontier_ReceptionGate_Text_OpenLevelInfo:
-    .string "自由级对于\n参加宝可梦\l没有等级限制。\p您的对手的宝可梦等级\n会根据您自己的宝可梦等级\l而改变。\p但是，您不会碰上\n使用60级以下宝可梦的训练家。$"
+    .string "自由等级对于\n参加宝可梦\l没有等级限制。\p您的对手的宝可梦等级\n会根据您自己的宝可梦等级\l而改变。\p但是，您不会遇到\n使用等级60以内宝可梦的训练家。$"
 
 BattleFrontier_ReceptionGate_Text_MonEntryInfo:
     .string "大部分宝可梦都可以参加\n所有设施里面的挑战，\p但蛋和某些特定的宝可梦\n不能参加。\p参加挑战的宝可梦数量\n根据挑战的不同而不同，\p但所有设施都不可以\n选择同样的两只\l或以上宝可梦参加。$"

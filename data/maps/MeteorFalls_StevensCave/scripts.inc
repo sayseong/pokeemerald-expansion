@@ -35,5 +35,5 @@ MeteorFalls_StevensCave_Text_StevenDefeat:
     .string "你……\n我居然没发现你已经这么强了……$"
 
 MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
-    .string "大吾：这么想来，自从在\n武斗镇的石之洞窟\l碰到你，我就有了一种感觉，\p我感觉你最终能\n成为冠军。\p我的预感总是对的。\p那么……接下来你要去的地方是……\p…… …… ……\n…… …… ……\p呵呵呵，即使是我也不知道呀。$"
+    .string "大吾：这么想来，自从在\n武斗镇的石之洞窟\l遇到你，我就有了一种感觉，\p我感觉你最终能\n成为冠军。\p我的预感总是对的。\p那么……接下来你要去的地方是……\p…… …… ……\n…… …… ……\p呵呵呵，即使是我也不知道呀。$"
 

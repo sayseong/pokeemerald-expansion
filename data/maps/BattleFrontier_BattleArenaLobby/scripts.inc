@@ -371,16 +371,16 @@ BattleFrontier_BattleArenaLobby_Text_OkayToSave:
     .string "在带您进入对战竞技场之前需要先写入记录。\n可以吗？$"
 
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
-    .string "对战竞技场提供两个等级的\n挑战，50级和自由级。\l您要选择哪个？$"
+    .string "对战竞技场提供两个等级的\n挑战，Lv. 50级和自由等级。\l您要选择哪个？$"
 
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
     .string "好的，现在请选三只\n宝可梦。$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "亲爱的挑战者！\p您没有三只能参加比赛的\n宝可梦。\p要有参赛资格，您要带有三只不同\n种类的宝可梦。\p他们还不能持有相同\n的道具。\p蛋{STR_VAR_1}是不行的。\p当您都准备好了，\n请再回来。$"
+    .string "亲爱的挑战者！\p您没有三只能参加比赛的\n宝可梦。\p要有参赛资格，您要带有三只不同\n种类的宝可梦。\p他们还不能携带相同\n的道具。\p蛋{STR_VAR_1}无法参加对战！\p当您都准备好了，\n请再回来。$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
-    .string "亲爱的挑战者！\p您没有三只能参加比赛的\n宝可梦。\p要有参赛资格，您要带有三只不同\n种类的宝可梦。\p三只不同种类的宝可梦必须\n都在50级以下。\p他们还不能持有相同\n的道具。\p蛋{STR_VAR_1}是不行的。\p当您都准备好了，\n请再回来。$"
+    .string "亲爱的挑战者！\p您没有三只能参加比赛的\n宝可梦。\p要有参赛资格，您要带有三只不同\n种类的宝可梦。\p三只不同种类的宝可梦必须\n都在等级50以内。\p他们还不能携带相同\n的道具。\p蛋{STR_VAR_1}无法参加对战！\p当您都准备好了，\n请再回来。$"
 
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
     .string "我会为您做对战竞技场的向导。$"

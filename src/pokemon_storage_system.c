@@ -1070,7 +1070,7 @@ static const struct StorageMessage sMessages[] =
     [MSG_PLACED_IN_BAG]        = {COMPOUND_STRING("将{DYNAMIC 0}放入了包包。"),    MSG_VAR_ITEM_NAME},
     [MSG_BAG_FULL]             = {COMPOUND_STRING("包包已经满了！"),           MSG_VAR_NONE},
     [MSG_PUT_IN_BAG]           = {COMPOUND_STRING("要将道具放回包包吗？"),  MSG_VAR_NONE},
-    [MSG_ITEM_IS_HELD]         = {COMPOUND_STRING("让精灵持有了{DYNAMIC 0}。"),   MSG_VAR_ITEM_NAME},
+    [MSG_ITEM_IS_HELD]         = {COMPOUND_STRING("让精灵携带了{DYNAMIC 0}。"),   MSG_VAR_ITEM_NAME},
     [MSG_CHANGED_TO_ITEM]      = {COMPOUND_STRING("将{DYNAMIC 0}交换出来了！"),    MSG_VAR_ITEM_NAME},
     [MSG_CANT_STORE_MAIL]      = {COMPOUND_STRING("不能寄放邮件！"),      MSG_VAR_NONE},
 };

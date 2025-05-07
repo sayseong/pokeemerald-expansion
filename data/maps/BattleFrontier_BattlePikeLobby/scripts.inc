@@ -284,13 +284,13 @@ BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou:
     .string "我们期待下一次\n见到您……$"
 
 BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode:
-    .string "您有两个选择，\n50级和自由级。\l您要挑战哪个？$"
+    .string "您有两个选择，\nLv. 50级和自由等级。\l您要挑战哪个？$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
-    .string "请原谅，但……\p您没有三只符合选择式对战\n条件的宝可梦。\p您要参加必须要有\n三只不同的50级以下的宝可梦。\p他们还不能持有相同\n的道具。\p蛋{STR_VAR_1}是不行的。\p请您准备好了\n来见我……$"
+    .string "请原谅，但……\p您没有三只符合选择式对战\n条件的宝可梦。\p您要参加必须要有\n三只不同的等级50以内的宝可梦。\p他们还不能携带相同\n的道具。\p蛋{STR_VAR_1}无法参加对战！\p请您准备好了\n来见我……$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "请原谅，但……\p您没有三只符合选择式对战\n条件的宝可梦。\p您要参加必须要有\n三只不同的宝可梦。\p他们还不能持有相同\n的道具。\p蛋{STR_VAR_1}是不行的。\p请您准备好了\n来见我……$"
+    .string "请原谅，但……\p您没有三只符合选择式对战\n条件的宝可梦。\p您要参加必须要有\n三只不同的宝可梦。\p他们还不能携带相同\n的道具。\p蛋{STR_VAR_1}无法参加对战！\p请您准备好了\n来见我……$"
 
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
     .string "请选择三只您要参加\n挑战的宝可梦……$"
@@ -350,7 +350,7 @@ BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
     .string "在选择式对战的挑战中\n包包和宝可导航不能使用。$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
-    .string "在一次选择式对战的挑战中，\n宝可梦持有的任何树果或者药草\l只能一次有效。$"
+    .string "在一次选择式对战的挑战中，\n宝可梦携带的任何树果或者药草\l只能一次有效。$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules:
     .string "在一次选择式对战的挑战中，\n宝可梦的顺序不能改变。\p顺序必须在您挑战之前\n就确定好。$"

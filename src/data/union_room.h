@@ -333,8 +333,8 @@ static const u8 *const sIfYouWantToDoSomethingTexts[GENDER_COUNT] = {
 };
 
 ALIGNED(4) static const u8 sText_TrainerBattleBusy[] = _("哎呦！抱歉，但是我有事\n要做。\l下次吧，好吧？\p");
-ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower1[] = _("如果想要宝可梦对战，你\n需要两只宝可梦必须是\l等级30以下的。\p");
-ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower2[] = _("如果想要宝可梦对战，你\n需要宝可梦必须是\l等级30以下的。\p");
+ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower1[] = _("如果想要宝可梦对战，你\n需要两只宝可梦必须是\l等级30以内的。\p");
+ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower2[] = _("如果想要宝可梦对战，你\n需要宝可梦必须是\l等级30以内的。\p");
 
 ALIGNED(4) static const u8 sText_DeclineChatMale[] = _("好吧。\n随时可以来看我，好吧？\p");
 ALIGNED(4) static const u8 stext_DeclineChatFemale[] = _("哦……\n请随时过来看我。\p");

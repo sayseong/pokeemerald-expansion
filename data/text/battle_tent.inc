@@ -15,7 +15,7 @@ FallarborTown_BattleTentLobby_Text_SaveBeforeChallenge::
 
 @ Unused
 FallarborTown_BattleTentLobby_Text_WhichLevelMode::
-    .string "我们提供两个级别的比赛，\n级别50和自由级\l您要参加哪个？$"
+    .string "我们提供两个级别的比赛，\nLv. 50级和自由等级\l您要参加哪个？$"
 
 FallarborTown_BattleTentLobby_Text_SelectThreeMons::
     .string "很好，请选择\n3只宝可梦。$"
@@ -70,7 +70,7 @@ VerdanturfTown_BattleTentLobby_Text_ReturnFortified::
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_WhichLevelMode::
-    .string "有两个级别，\n级别50和自由级。\l您要挑战哪个？$"
+    .string "有两个级别，\nLv. 50级和自由等级。\l您要挑战哪个？$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50::
     .string "唉……\p您没有符合挑战要求\n的3只宝可梦。\p要想参加，您必须准备\n3只不同的宝可梦。\p而且它们不能携带\n同样的道具。\p蛋{STR_VAR_1}不能参加比赛。\p请您准备好了之后\n再来挑战。$"
@@ -113,7 +113,7 @@ SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit::
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_WhichLevelMode::
-    .string "您要挑战哪个等级？\n50级还是100级？$"
+    .string "您要挑战哪个等级？\nLv. 50级还是100级？$"
 
 SlateportCity_BattleTentLobby_Text_SaveBeforeChallenge::
     .string "在您挑战之前，\n需要先写入记录，可以吗？$"
@@ -207,7 +207,7 @@ VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules::
     .string "根据其性格，\n当陷入麻烦时，宝可梦可能会开始\l使用一些并不符合性格的招式。\p如果宝可梦开始变得行为怪异\n您就有必要仔细查查看了。$"
 
 BattleTentLobby_Text_ExplainLevelRules::
-    .string "在对战帐篷里，您对手的\n的等级会与您参赛的\l宝可梦的等级相适应。\p不管怎样，您不会碰到带着\n低于30级宝可梦的训练家。$"
+    .string "在对战帐篷里，您对手的\n的等级会匹配您参赛的\l宝可梦的等级。\p不管怎样，您不会遇到带着\n等级30以内宝可梦的训练家。$"
 
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed::
     .string "绿茵镇对战帐篷\n的规则已列出。$"

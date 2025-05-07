@@ -278,7 +278,7 @@ SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
     .string "那个，呃，我没有，呃，\n自己的宝可梦，\p所以，我觉得，呃，那个，\n我应该向那边那人抱怨一下。\p但他，呃，根本就不听我的，啊！\n那个，呃，真讨厌，对吗？\p啊，呃，你，过来！\n这个，呃，给你！$"
 
 SlateportCity_BattleTentLobby_Text_ExplainTorment:
-    .string "那个是，嗯，招式学习器41，\n知道吗？\p嘿，里面是无理取闹，\n懂吗？\p就，这样其他人就不能\n连续使用相同的招式，明白？\p嘿，你听好，\n就，我可没在无理取闹！$"
+    .string "那个是，嗯，招式学习器41，\n知道吗？\p嘿，里面装着无理取闹，\n懂吗？\p就，这样其他人就不能\n连续使用相同的招式，明白？\p嘿，你听好，\n就，我可没在无理取闹！$"
 
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
     .string "我并不很喜欢虫属性宝可梦，\n但也许我可以用用试试，\l做些改变。\p谁知道我最终会不会\n喜欢上它们呢！$"

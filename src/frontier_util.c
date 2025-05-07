@@ -2080,19 +2080,10 @@ static void CheckPartyIneligibility(void)
         for (i = 0; i < totalCaughtBanned; i++)
             AppendCaughtBannedMonSpeciesName(caughtBanned[i], i+1, totalCaughtBanned);
 
-        if (totalCaughtBanned == 0)
-        {
-            StringAppend(gStringVar1, gText_Space2);
-            StringAppend(gStringVar1, gText_Are);
-        }
-        else
-        {
-            if (totalCaughtBanned % SPECIES_PER_LINE == SPECIES_PER_LINE - 1)
-                StringAppend(gStringVar1, gText_LineBreak);
-            else
-                StringAppend(gStringVar1, gText_Space2);
-            StringAppend(gStringVar1, gText_Are2);
-        }
+        if (totalCaughtBanned <= 2)
+            StringAppend(gStringVar1, gText_NewLine);
+        else if (totalCaughtBanned % SPECIES_PER_LINE == SPECIES_PER_LINE - 1)
+            StringAppend(gStringVar1, gText_LineBreak);
     }
     else
     {

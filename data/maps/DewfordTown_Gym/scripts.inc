@@ -352,10 +352,10 @@ DewfordTown_Gym_Text_ReceivedKnuckleBadge:
     .string "{PLAYER}从藤树处\n得到了拳击徽章。$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
-    .string "拳击徽章能使包括交换得来的\n所有30级以下的宝可梦\l听从指挥，\p而且你也可以在战斗以外的时刻\n使用秘传学习器闪光。\p喜欢的话，这个\n招式学习器也给你吧。$"
+    .string "拳击徽章能使包括交换得来的\n所有等级30以内的宝可梦听从指示，\p而且你也可以在战斗以外的时候\n使用秘传招式闪光。\p喜欢的话，这个\n招式学习器也给你吧。$"
 
 DewfordTown_Gym_Text_ExplainBulkUp:
-    .string "招式学习器08里面是\n健美，\p是可以提升攻击\n和防御的招式。\p…… …… ……$"
+    .string "招式学习器08的内容是\n健美，\p是可以提升攻击\n和防御的招式。\p…… …… ……$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
     .string "把道馆馆主藤树\n登记到宝可导航里了。$"

@@ -614,8 +614,8 @@ static const struct MenuAction MultichoiceList_YesNo[] =
 static const struct MenuAction MultichoiceList_FrontierRules[] =
 {
     {COMPOUND_STRING("两种模式")},
-    {COMPOUND_STRING("50级")},
-    {COMPOUND_STRING("自由级")},
+    {COMPOUND_STRING("Lv. 50级")},
+    {COMPOUND_STRING("自由等级")},
     {COMPOUND_STRING("宝可梦属性&编号")},
     {COMPOUND_STRING("持有物")},
     {gText_Exit},
@@ -661,7 +661,7 @@ static const struct MenuAction MultichoiceList_BattleFactoryRules[] =
     {gText_SwapPartners},
     {gText_SwapNumber},
     {gText_SwapNotes},
-    {COMPOUND_STRING("自由级")},
+    {COMPOUND_STRING("自由等级")},
     {gText_Exit},
 };
 

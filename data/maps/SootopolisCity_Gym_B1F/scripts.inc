@@ -130,7 +130,7 @@ SootopolisCity_Gym_B1F_Text_AnnikaDefeat:
     .string "哎呀！你仔细看过\n我的宝可梦了吗？$"
 
 SootopolisCity_Gym_B1F_Text_AnnikaPostBattle:
-    .string "我来到这道馆只因\n亚当会欣赏我亲爱的宝可梦。\p啊，如果我还年轻的时候\n就碰到了亚当多好……$"
+    .string "我来到这道馆只因\n亚当会欣赏我亲爱的宝可梦。\p啊，如果我还年轻的时候\n就遇到了亚当多好……$"
 
 SootopolisCity_Gym_B1F_Text_BriannaIntro:
     .string "嘻嘻……\n你那严肃的面孔真迷人。$"

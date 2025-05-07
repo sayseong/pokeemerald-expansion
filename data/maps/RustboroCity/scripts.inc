@@ -1088,7 +1088,7 @@ RustboroCity_Text_RegisteredMay:
     .string "把小遥\n登记到宝可导航里了。$"
 
 RustboroCity_Text_MayPassedBrineyWantToBattle:
-    .string "小遥：顺便说一句，我\n在橙华森林碰上哈奇老人了，\p他大概正要回\n他的海边小屋去。\p对了，你的宝可梦图鉴怎么样了，\n{PLAYER}{KUN}？我这里进展不错！\p好了……\n来跟我战斗怎么样？$"
+    .string "小遥：顺便说一句，我\n在橙华森林遇到哈奇老人了，\p他大概正要回\n他的海边小屋去。\p对了，你的宝可梦图鉴怎么样了，\n{PLAYER}{KUN}？我这里进展不错！\p好了……\n来跟我战斗怎么样？$"
 
 RustboroCity_Text_MayOhHaventRaisedPokemonEnough:
     .string "小遥：怎么了？\p你没有好好照顾\n你的宝可梦吗？\p作为训练家可不能这样！$"
@@ -1103,7 +1103,7 @@ RustboroCity_Text_MayDefeat:
     .string "呀！\n你比我想象中更强！$"
 
 RustboroCity_Text_MayMrBrineyHint:
-    .string "小遥：噢，还有，说起\n我刚才碰上的哈奇老人……\p{PLAYER}{KUN}，你刚刚搬来，\n也许不知道，哈奇老人曾经\l是大家都很敬佩的水手。$"
+    .string "小遥：噢，还有，说起\n我刚才遇到的哈奇老人……\p{PLAYER}{KUN}，你刚刚搬来，\n也许不知道，哈奇老人曾经\l是大家都很敬佩的水手。$"
 
 RustboroCity_Text_BrendanHiLetsRegister:
     .string "小悠：嗨，你好，{PLAYER}！\p你的宝可导航\n有对战寻呼功能！太棒了！\p我们登记一下各自的信息吧，\n这样就能随时联络了！\p…… …… ……$"
@@ -1112,7 +1112,7 @@ RustboroCity_Text_RegisteredBrendan:
     .string "把小悠\n登记到宝可导航里了。$"
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
-    .string "小悠：顺便说一句，我\n在橙华森林碰上哈奇老人了，\p他大概正要回\n他的海边小屋去。\p{PLAYER}，你的宝可梦图鉴怎么样了？\n有几页了吗？\p我的也是。\p跟我来场战斗吧？\n我看看你成长得如何了。$"
+    .string "小悠：顺便说一句，我\n在橙华森林遇到哈奇老人了，\p他大概正要回\n他的海边小屋去。\p{PLAYER}，你的宝可梦图鉴怎么样了？\n有几页了吗？\p我的也是。\p跟我来场战斗吧？\n我看看你成长得如何了。$"
 
 RustboroCity_Text_BrendanNoConfidenceInPokemon:
     .string "小悠：怎么了？\n对你的宝可梦没信心吗？$"
@@ -1127,7 +1127,7 @@ RustboroCity_Text_BrendanDefeat:
     .string "唔……\n你很不错。$"
 
 RustboroCity_Text_BrendanMrBrineyHint:
-    .string "小悠：顺便，你知道\n我刚刚碰上的那个哈奇老人吗？\p我想你刚搬来\n还不知道，{PLAYER}，\l哈奇老人曾是个杰出的水手。$"
+    .string "小悠：顺便，你知道\n我刚刚遇到的那个哈奇老人吗？\p我想你刚搬来\n还不知道，{PLAYER}，\l哈奇老人曾是个杰出的水手。$"
 
 RustboroCity_Text_TunnelNearingCompletion:
     .string "“便利隧道\n即将完工！”\p……牌子上这么写着，\n但上面还有个用红漆\l画了的大大的“X”……$"

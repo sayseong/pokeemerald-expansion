@@ -212,7 +212,7 @@ static void ConfirmSell(u8);
 static void CancelSell(u8);
 static void Task_FadeAndCloseBagMenuIfMulch(u8 taskId);
 
-static const u8 sText_Var1CantBeHeldHere[] = _("不能让宝可梦持有\n{STR_VAR_1}！");
+static const u8 sText_Var1CantBeHeldHere[] = _("无法携带\n{STR_VAR_1}！");
 static const u8 sText_DepositHowManyVar1[] = _("要存放多少个\n{STR_VAR_1}呢？");
 static const u8 sText_DepositedVar2Var1s[] = _("存放了{STR_VAR_2}个\n{STR_VAR_1}。");
 static const u8 sText_NoRoomForItems[] = _("已经没有\n存放道具的空间了……");

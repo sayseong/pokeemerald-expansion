@@ -180,7 +180,7 @@ Route114_Text_AllMyMonDoesIsRoarTakeThis:
     .string "我的宝可梦总是吼叫……\n没什么敢接近我……\p唉……喜欢的话，\n就把这招式学习器拿走吧……$"
 
 Route114_Text_ExplainRoar:
-    .string "招式学习器05里面是吼叫。\n用吼叫可以吓跑宝可梦。$"
+    .string "招式学习器05的内容是吼叫。\n用吼叫可以吓跑宝可梦。$"
 
 Route114_Text_Poochyena:
     .string "吼！哦吼吼！$"

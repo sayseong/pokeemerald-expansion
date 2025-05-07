@@ -378,7 +378,7 @@ Route120_Text_StevenUsedDevonScope:
     .string "大吾使用了得文侦测镜。\p看不见的宝可梦\n完全现形了！\p受惊的宝可梦攻击过来！$"
 
 Route120_Text_StevenGiveDevonScope:
-    .string "大吾：看来……\n你的战斗方式真有趣。\p自从上次我们在武斗镇相见到现在，\n你的宝可梦成长了不少。\p这个得文侦测镜\n给你吧，\p谁知道什么时候又会\n碰上看不见的宝可梦呢。$"
+    .string "大吾：看来……\n你的战斗方式真有趣。\p自从上次我们在武斗镇相见到现在，\n你的宝可梦成长了不少。\p这个得文侦测镜\n给你吧，\p谁知道什么时候又会\n遇到看不见的宝可梦呢。$"
 
 Route120_Text_StevenGoodbye:
     .string "大吾：{PLAYER}{KUN}，\p我喜欢看着训练家和宝可梦\n共同努力进步，\p你做得不错。\p好了，下次再见。$"

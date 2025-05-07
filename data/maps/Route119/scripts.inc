@@ -483,7 +483,7 @@ Route119_Text_MayIntro:
     .string "小遥：{PLAYER}{KUN}！\n你去哪儿了？我一直在找你！\p你现在怎么样了？\n让我来看看吧！\p准备好你的宝可梦了吗？\n当然你会准备好的，开始了！$"
 
 Route119_Text_MayDefeat:
-    .string "呀啊！\n{PLAYER}{KUN}，你很强嘛！\p我一直担心你\n在训练中会碰上困难。$"
+    .string "呀啊！\n{PLAYER}{KUN}，你很强嘛！\p我一直担心你\n在训练中会遇到困难。$"
 
 Route119_Text_MayPresentForYou:
     .string "小遥：但看来我是白担心了！\n继续加油吧！\p还有，这是我给你的礼物。$"
@@ -504,7 +504,7 @@ Route119_Text_BrendanExplainFly:
     .string "小悠：使用飞翔的话，你的\n宝可梦会马上把你送到\l曾经去过的城镇，\p但你得先拿到\n茵郁市道馆徽章才行。\p好了，我该走了。$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
-    .string "亚希达：哈哈哈哈！\n又见面了，{PLAYER}{KUN}！\p我刚刚碰到了个\n骑着自行车的训练家。\p你刚刚打败了那个训练家是吗？\n很明显是你干的。\p那孩子气得脸红红的，\n好像很失望。\p那时我就肯定很快能碰上你。\n你现在要去茵郁市道馆是吗？\p我想你会顺利胜出的。\n好了，回头见！$"
+    .string "亚希达：哈哈哈哈！\n又见面了，{PLAYER}{KUN}！\p我刚刚遇到了个\n骑着自行车的训练家。\p你刚刚打败了那个训练家是吗？\n很明显是你干的。\p那孩子气得脸红红的，\n好像很失望。\p那时我就确信很快就能遇到你。\n你现在要去茵郁市道馆是吗？\p我想你会顺利胜出的。\n好了，回头见！$"
 
 
 Route119_Text_ScottYouWonAtFortreeGym:
@@ -517,7 +517,7 @@ Route119_Text_DontGoNearWeatherInstitute:
     .string "放哨的任务实在太无聊了。\p喂，你！别跑到\n天气研究所附近去。$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
-    .string "我本以为所谓飞翔是指\n捉一大群鸟宝可梦，然后\l不知怎么挂在它们身上，\p但实际上飞翔是\n一种秘传学习器招式！\p我要是早点知道\n就好了……$"
+    .string "我本以为所谓飞翔是指\n捉一大群鸟宝可梦，然后\l不知怎么挂在它们身上，\p但实际上飞翔是\n一种秘传招式！\p我要是早点知道\n就好了……$"
 
 Route119_Text_TallGrassSnaresBikeTires:
     .string "切……\n过不去……\p长草会卷进自行车的轮胎里，\n不可能骑车过去。$"

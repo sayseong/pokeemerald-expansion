@@ -236,7 +236,7 @@ BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain:
     .string "亚希达：你与开拓之脑\n交过手了吗？\p你得到了他们的\n象征了吗？\p开拓之脑是我从世界各地\n挑选出来的最强训练家，\p但我能肯定，看到你的能力，\n他们也会被吓一跳！$"
 
 BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
-    .string "亚希达：你的目标不只是战斗吧？\n对吗？\p我好像还记得你也在\n收集宝可梦图鉴。\p想知道一个好消息吗？\p在对战开拓区某处\n你也能碰到野生宝可梦……\l哈哈哈！$"
+    .string "亚希达：你的目标不只是战斗吧？\n对吗？\p我好像还记得你也在\n收集宝可梦图鉴。\p想知道一个好消息吗？\p在对战开拓区某处\n你也能遇到野生宝可梦……\l哈哈哈！$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
     .string "亚希达：在对战开拓区\n玩得还高兴吗？\p……等等……\n啊！\p你的开拓通行证！\n你已经收集到了\l所有的银色象征！\p简直太不可置信了！\n和我预想中一样，你真的非常非常强！\p虽说通常我不会做这些，\n不过这次就让我破例一回！\p这个送给你，\n你肯定能善加利用的。$"

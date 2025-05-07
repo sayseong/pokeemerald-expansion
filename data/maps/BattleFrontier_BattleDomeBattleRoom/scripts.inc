@@ -939,10 +939,10 @@ BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner:
     .string "{STR_VAR_2}获胜！\n恭喜恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ:
-    .string "{PLAYER}是50级\n对战锦标赛的冠军！\p恭喜！$"
+    .string "{PLAYER}是Lv. 50级\n对战锦标赛的冠军！\p恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp:
-    .string "{PLAYER}是自由级\n对战锦标赛的冠军！\p恭喜！$"
+    .string "{PLAYER}是自由等级\n对战锦标赛的冠军！\p恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
     .string "真是让人意外的结果！\n两方宝可梦同时倒地！\p按照比赛规则，出现这种情况时\n我们需要请裁判员进行评判。\p请耐心等待\n最终结果。$"
@@ -1054,11 +1054,11 @@ BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
 
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2:
-    .string "{PLAYER}是50级\n对战锦标赛的冠军！\p恭喜！$"
+    .string "{PLAYER}是Lv. 50级\n对战锦标赛的冠军！\p恭喜！$"
 
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2:
-    .string "{PLAYER}是自由级\n对战锦标赛的冠军！\p恭喜！$"
+    .string "{PLAYER}是自由等级\n对战锦标赛的冠军！\p恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
     .string "现在进行决赛！\p{PLAYER}对巨蛋超级巨星，石南！\p比赛开始！$"

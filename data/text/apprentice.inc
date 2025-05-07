@@ -53,7 +53,7 @@ gText_ApprenticeRejectTeaching0::
     .string "噢……可——可是……\n嗅……哇——！\p求求你！\n求求你教我吧！$"
 
 gText_ApprenticeWhichLevelMode0::
-    .string "噢，真的？你同意了？\n棒极了！太帅了！呜呜——！\p噢……对不起……\n我太高兴了，不知不觉地就哭了……\p嗯……那请告诉我吧！\n我想询问有关对战塔的事。\p哪一个比较适合我：\n50级还是自由级？$"
+    .string "噢，真的？你同意了？\n棒极了！太帅了！呜呜——！\p噢……对不起……\n我太高兴了，不知不觉地就哭了……\p嗯……那请告诉我吧！\n我想询问有关对战塔的事。\p哪一个比较适合我：\nLv. 50级还是自由等级？$"
 
 gText_ApprenticeLevelModeThanks0::
     .string "{STR_VAR_1}？\n哇哇——！\p噢！实在抱歉！\n你替我选择了级别\l我太高兴了，高兴得都哭出来了……\p嗅……\n太感谢你了！\l以后还请多多指教！$"
@@ -65,7 +65,7 @@ gText_ApprenticeRejectTeaching1::
     .string "啊，为什么？\n噢，求求你？真的求求你？\l请当我的老师吧，求求你！$"
 
 gText_ApprenticeWhichLevelMode1::
-    .string "耶！太好了！\p我第一件想问你的事情是\n有关对战塔的！\p50级和自由级……\n哪一个最适合我？$"
+    .string "耶！太好了！\p我第一件想问你的事情是\n有关对战塔的！\pLv. 50级和自由等级……\n哪一个最适合我？$"
 
 gText_ApprenticeLevelModeThanks1::
     .string "{STR_VAR_1}，对吗？没错！\n我会尽力的！\p如果我们还能见面的话，\n请教我更多的知识吧，老师！$"
@@ -77,19 +77,19 @@ gText_ApprenticeRejectTeaching2::
     .string "噢，可是……\p我真的想成为一名宝可梦\n训练家！\p求求你，能回答我的问题吗？$"
 
 gText_ApprenticeWhichLevelMode2::
-    .string "谢谢你！\n我现在就提第一个问题！\p对战塔有两个级别，\n50级和自由级，对吧？\p您认为哪一个\n更适合我？$"
+    .string "谢谢你！\n我现在就提第一个问题！\p对战塔有两个级别，\nLv. 50级和自由等级，对吧？\p您认为哪一个\n更适合我？$"
 
 gText_ApprenticeLevelModeThanks2::
     .string "噢，您是说{STR_VAR_1}？\n明白了！\p我如果还有问题的话，\n会回来请教您的！$"
 
 gText_ApprenticePleaseTeach3::
-    .string "噢？咦？你是……\n不，不可能。\p我这样的小人物\n怎么会碰到{PLAYER}。\p……你真的是{PLAYER}？\n真不敢相信我正在和你说话！\p可是福无双至，\n我以后肯定要倒霉的\l我就知道……\p……对不起……\n我……{STR_VAR_1}……\p我没有什么\n拿得出手的本事……\p我真不应该自我介绍\n你很快就会忘了我这种小人物……\p我一直梦想着如果有一天我能\n遇见你，{PLAYER}，我或许可以\l向你请教有关训练家的问题。\p我知道我只是\n在做白日梦。\p……不过或许您真的会\n给我一些建议？$"
+    .string "噢？咦？你是……\n不，不可能。\p我这样的小人物\n怎么会遇到{PLAYER}。\p……你真的是{PLAYER}？\n真不敢相信我正在和你说话！\p可是福无双至，\n我以后肯定要倒霉的\l我就知道……\p……对不起……\n我……{STR_VAR_1}……\p我没有什么\n拿得出手的本事……\p我真不应该自我介绍\n你很快就会忘了我这种小人物……\p我一直梦想着如果有一天我能\n遇见你，{PLAYER}，我或许可以\l向你请教有关训练家的问题。\p我知道我只是\n在做白日梦。\p……不过或许您真的会\n给我一些建议？$"
 
 gText_ApprenticeRejectTeaching3::
     .string "我就知道……\p我这种无趣的小人物\n只配这种结局……\p不过也许……\n您能再考虑考虑？\p我不能就这样放弃了。\n趁我现在还有福气，我不能放弃！\p求求你，您就网开一面\n给我点建议吧？$"
 
 gText_ApprenticeWhichLevelMode3::
-    .string "真的？我真不敢相信！\n您答应给我点建议了！\l我……我太高兴了……\p我想问你的都是些\n琐碎的事，怎么说呢……\p在对战塔，他们让我\n在50级和自由级中做出选择。\p我这种人选哪一个\n才会有点胜算？$"
+    .string "真的？我真不敢相信！\n您答应给我点建议了！\l我……我太高兴了……\p我想问你的都是些\n琐碎的事，怎么说呢……\p在对战塔，他们让我\n在Lv. 50级和自由等级中做出选择。\p我这种人选哪一个\n才会有点胜算？$"
 
 gText_ApprenticeLevelModeThanks3::
     .string "{STR_VAR_1}？好的！\n不过您真的认为\l像我这样的人有机会取胜？\p虽说没什么希望\n我还是会尽力的。\p感谢您在百忙之中\n抽出时间回答我的问题。$"
@@ -101,7 +101,7 @@ gText_ApprenticeRejectTeaching4::
     .string "啊？为什么拒绝我？\n问你的人可是我啊！\l你必须再考虑考虑！$"
 
 gText_ApprenticeWhichLevelMode4::
-    .string "很好，事情是这样的。\n我想让你替我决定一件事。\p你肯定知道在对战塔\n有50级和自由级两个房间吧？\p你说哪一个比较\n适合我，{PLAYER}{KUN}？$"
+    .string "很好，事情是这样的。\n我想让你替我决定一件事。\p你肯定知道在对战塔\n有Lv. 50级和自由等级两个房间吧？\p你说哪一个比较\n适合我，{PLAYER}{KUN}？$"
 
 gText_ApprenticeLevelModeThanks4::
     .string "你是说，{STR_VAR_1}适合我？\n谢谢你！\p反正是你做的决定，\n{PLAYER}{KUN}，我即使输了\l也不丢人。\p就这样，以后我还会向你讨教的。\n再见！$"
@@ -113,7 +113,7 @@ gText_ApprenticeRejectTeaching5::
     .string "噢，真的不行？\n可我这种人真的\l需要你，{PLAYER}{KUN}！\p我真的需要你的建议！$"
 
 gText_ApprenticeWhichLevelMode5::
-    .string "谢谢你！这就对了！\n那我们就先从简单的开始吧！\p你肯定知道对战塔的\n两种模式吧？\l也就是50级和自由级。\p我这种大忙人应该\n准备哪一种？$"
+    .string "谢谢你！这就对了！\n那我们就先从简单的开始吧！\p你肯定知道对战塔的\n两种模式吧？\l也就是Lv. 50级和自由等级。\p我这种大忙人应该\n准备哪一种？$"
 
 gText_ApprenticeLevelModeThanks5::
     .string "{STR_VAR_1}，是吗？我明白了。\n我会抽时间准备的！\p……哎呀，我要去工作了！\n谢谢你！回见！$"
@@ -125,7 +125,7 @@ gText_ApprenticeRejectTeaching6::
     .string "啊哈哈，别装了，\n你骗不了我！\l你肯定愿意，对不对？$"
 
 gText_ApprenticeWhichLevelMode6::
-    .string "耶！我就知道你是个热心肠，\n{PLAYER}！\p我该先问什么呢？\n……噢，我想到了！\p来点鼓声！\n我的问题是……\p如果我在对战塔\n战斗，应该选哪一个？\p50级还是自由级？\n哪一个更适合我？$"
+    .string "耶！我就知道你是个热心肠，\n{PLAYER}！\p我该先问什么呢？\n……噢，我想到了！\p来点鼓声！\n我的问题是……\p如果我在对战塔\n战斗，应该选哪一个？\pLv. 50级还是自由等级？\n哪一个更适合我？$"
 
 gText_ApprenticeLevelModeThanks6::
     .string "噢——噢——噢！\n你是说{STR_VAR_1}！\l这个回答太酷了！\p今天我就问\n这么多吧。\p以后再聊。\n谢谢！$"
@@ -137,7 +137,7 @@ gText_ApprenticeRejectTeaching7::
     .string "噢……！\p…… …… ……\n…… …… ……\p……我刚才肯定晕过去了。\n对不起，我一定是听错了。\p求求你！您就答应\n收我做徒弟吧！$"
 
 gText_ApprenticeWhichLevelMode7::
-    .string "噢……我太高兴了！\p我不希望浪费您的时间，\n您只要给我一点建议就行。\p我打算不久就在对战塔\n接受挑战。\p但那里有两个级别……\p哪一个更适合我？\n50级还是自由级？$"
+    .string "噢……我太高兴了！\p我不希望浪费您的时间，\n您只要给我一点建议就行。\p我打算不久就在对战塔\n接受挑战。\p但那里有两个级别……\p哪一个更适合我？\nLv. 50级还是自由等级？$"
 
 gText_ApprenticeLevelModeThanks7::
     .string "应该选{STR_VAR_1}！\n我明白了。我会尽力的！\p谢谢你，{PLAYER}。\n希望我以后还能向你讨教。\l请多保重！$"
@@ -149,7 +149,7 @@ gText_ApprenticeRejectTeaching8::
     .string "哇啊！\n{PLAYER}拒绝了我……\l这……这真是难得的经历啊！\p求求你，{PLAYER}！这次我想\n得到肯定的答复！\p求求你指导一下我！$"
 
 gText_ApprenticeWhichLevelMode8::
-    .string "耶！{PLAYER}同意了！\n{PLAYER}同意了！\p今晚我肯定睡不着觉了……\n太感谢你了！\p那我就开始提问了！\p在对战塔，哪一个\n适合我，50级还是自由级？$"
+    .string "耶！{PLAYER}同意了！\n{PLAYER}同意了！\p今晚我肯定睡不着觉了……\n太感谢你了！\p那我就开始提问了！\p在对战塔，哪一个\n适合我，Lv. 50级还是自由等级？$"
 
 gText_ApprenticeLevelModeThanks8::
     .string "{STR_VAR_1}！明白了！\n我完全明白！\l我真是有些欣喜若狂了！\p希望您以后还能\n教导教导我。$"
@@ -161,7 +161,7 @@ gText_ApprenticeRejectTeaching9::
     .string "啊！\n你真的是很酷很强……\p请不要这样。\n我求你了！$"
 
 gText_ApprenticeWhichLevelMode9::
-    .string "哦，耶！真是爽快！\n不得不承认，你太优秀了！\p那就先讲一讲\n对战塔吧？\p如果我去的话，哪一个更适合我？\n50级还是自由级？$"
+    .string "哦，耶！真是爽快！\n不得不承认，你太优秀了！\p那就先讲一讲\n对战塔吧？\p如果我去的话，哪一个更适合我？\nLv. 50级还是自由等级？$"
 
 gText_ApprenticeLevelModeThanks9::
     .string "哦，是{STR_VAR_1}啊！\n好的，啊——好的！\l那我去奋斗了！\p以后我还会找你指导我的！\n再见！$"
@@ -173,19 +173,19 @@ gText_ApprenticeRejectTeaching10::
     .string "如果你想这样耍酷，\n那我就要使绝招了！\p哇！哇！哇！\n嗝！\p哈哈哈，这就是我的鳄鱼的眼泪！\p行了，你愿意\n收我这个徒弟吗？$"
 
 gText_ApprenticeWhichLevelMode10::
-    .string "耶！\n我会买艘船送你的！\p当然还是个玩笑！\n不过……谢谢你，师傅！\p你知道对战塔有\n50级和自由级之分吧？\p我不知道该\n选哪一个……\p你能替我决定吗，师傅？$"
+    .string "耶！\n我会买艘船送你的！\p当然还是个玩笑！\n不过……谢谢你，师傅！\p你知道对战塔有\nLv. 50级和自由等级之分吧？\p我不知道该\n选哪一个……\p你能替我决定吗，师傅？$"
 
 gText_ApprenticeLevelModeThanks10::
     .string "明白，{STR_VAR_1}更适合！\n那我就不选它了！\p开个玩笑！\n我会遵从你的教导的，师傅！\p谢谢你！\n希望你以后还能教我！$"
 
 gText_ApprenticePleaseTeach11::
-    .string "啊——呵！\n我是说啊呵，你好的意思！\p我是{STR_VAR_1}，无敌的\n快嘴皮水手！\p现在轮到你进行\n自我介绍了，试一试！\p啊——嗯，啊——嗯！\n你叫{PLAYER}{KUN}，\l玩的是宝可梦！\p年纪轻轻就已经\n登上了世界舞台！\p总之我的意思是，\n你是我今天碰到的\l第十名训练家。\p我们为什么不庆祝一下！\n庆祝内容是你当我的导师！$"
+    .string "啊——呵！\n我是说啊呵，你好的意思！\p我是{STR_VAR_1}，无敌的\n快嘴皮水手！\p现在轮到你进行\n自我介绍了，试一试！\p啊——嗯，啊——嗯！\n你叫{PLAYER}{KUN}，\l玩的是宝可梦！\p年纪轻轻就已经\n登上了世界舞台！\p总之我的意思是，\n你是我今天遇到的\l第十名训练家。\p我们为什么不庆祝一下！\n庆祝内容是你当我的导师！$"
 
 gText_ApprenticeRejectTeaching11::
     .string "别这样！\n你必须和我合作！\p不要这么刻薄嘛！\n你就当一回我的导师吧！$"
 
 gText_ApprenticeWhichLevelMode11::
-    .string "这就对了！\n{PLAYER}，要的就是这种精神！\p我第一个想要咨询的\n问题是这样的！\p在对战塔战斗\n要量力而行！\p有50级和自由级两种级别，\n哪一个适合我？$"
+    .string "这就对了！\n{PLAYER}，要的就是这种精神！\p我第一个想要咨询的\n问题是这样的！\p在对战塔战斗\n要量力而行！\p有Lv. 50级和自由等级两种级别，\n哪一个适合我？$"
 
 gText_ApprenticeLevelModeThanks11::
     .string "哦，你是说{STR_VAR_1}！\n我这就准备去！\p说到建议，\n{PLAYER}，你的话总会令我满意！$"
@@ -209,7 +209,7 @@ gText_ApprenticeRejectTeaching13::
     .string "哦，为什么？\p我保证不会给你惹麻烦！\n行不行？$"
 
 gText_ApprenticeWhichLevelMode13::
-    .string "谢谢。你真是太好了！\n……咳！咳！\p哦，我必须赶快变强……\p我马上就去对战塔\n但是哪一个级别更适合我？\l50级还是自由级？$"
+    .string "谢谢。你真是太好了！\n……咳！咳！\p哦，我必须赶快变强……\p我马上就去对战塔\n但是哪一个级别更适合我？\lLv. 50级还是自由等级？$"
 
 gText_ApprenticeLevelModeThanks13::
     .string "嗯，好的。那就{STR_VAR_1}吧。\n我马上就去。\p真希望能一直向你\n咨询——你已经是我的导师了！$"
@@ -233,7 +233,7 @@ gText_ApprenticeRejectTeaching15::
     .string "哦？\n但你出于什么原因拒绝了我？\p很抱歉我刚才在\n怀疑你的身份。\p请接受我的道歉\n收我做徒弟吧。$"
 
 gText_ApprenticeWhichLevelMode15::
-    .string "你真的同意了？\n我可不想高兴得太早。\p如果你真的同意了，那我道歉。\n我现在需要你的指点。\p如果我要去对战塔，\n哪一个适合我？\l50级还是自由级？$"
+    .string "你真的同意了？\n我可不想高兴得太早。\p如果你真的同意了，那我道歉。\n我现在需要你的指点。\p如果我要去对战塔，\n哪一个适合我？\lLv. 50级还是自由等级？$"
 
 gText_ApprenticeLevelModeThanks15::
     .string "{STR_VAR_1}？\n你确定吗？\p我明白了。那就好。\n谢谢你抽空解答问题。\p我知道我不讨喜，但我很\n高兴你能接受我。\p回见！$"
@@ -314,7 +314,7 @@ gText_ApprenticeItemAlreadyRecommended4::
     .string "啊？你说什么？\n你之前已经\l告诉过我{STR_VAR_1}了。\p你是不是说我的{STR_VAR_2}\n应该什么都不拿？$"
 
 gText_ApprenticeWhatHeldItem5::
-    .string "嘿，{PLAYER}{KUN}！\p我们都很忙，可仍然\n能经常碰到对方！\p今天我想散散步，\n打扫一下卫生，做做家务。\p我之前都没时间为我的\n宝贝{STR_VAR_1}买东西。\p我时间不多，不如你给我\n一点建议吧，我的{STR_VAR_1}\l应该携带什么道具？$"
+    .string "嘿，{PLAYER}{KUN}！\p我们都很忙，可仍然\n能经常遇到对方！\p今天我想散散步，\n打扫一下卫生，做做家务。\p我之前都没时间为我的\n宝贝{STR_VAR_1}买东西。\p我时间不多，不如你给我\n一点建议吧，我的{STR_VAR_1}\l应该携带什么道具？$"
 
 gText_ApprenticeHoldNothing5::
     .string "哦，我是个大忙人，因此\n我的{STR_VAR_1}不需要道具？$"
@@ -323,7 +323,7 @@ gText_ApprenticeThanksNoHeldItem5::
     .string "明白了。\n真是省了我不少时间。\p谢谢啊！\n回见！$"
 
 gText_ApprenticeThanksHeldItem5::
-    .string "明白了。\n我会抽空去找\l你推荐的那个{STR_VAR_1}。\p真高兴能碰到你这种导师。\n谢谢啊！再见！$"
+    .string "明白了。\n我会抽空去找\l你推荐的那个{STR_VAR_1}。\p真高兴能遇到你这种导师。\n谢谢啊！再见！$"
 
 gText_ApprenticeItemAlreadyRecommended5::
     .string "啊？我早就知道\n那个{STR_VAR_1}。\p哦，我明白了。\n你是说，我这种大忙人的\l{STR_VAR_2}不需要道具？$"
@@ -503,7 +503,7 @@ gText_ApprenticeMonFirstThanks3::
     .string "我的{STR_VAR_1}？\n明白了！\p真不感相信你能\n耐着性子回答我的问题！\p光是和你说话我\n就无比感激了……谢谢你！$"
 
 gText_ApprenticeWhichMonFirst4::
-    .string "哦，{PLAYER}{KUN}！是我！\n真高兴能见到你\l我现在碰到了一点问题。\p我决定不了我的宝可梦的\n出场顺序。你能替我决定吗？\p哦，你目前不需要全部\n定下来。\p不如替我决定哪一个\n宝可梦先出场吧？$"
+    .string "哦，{PLAYER}{KUN}！是我！\n真高兴能见到你\l我现在遇到了一点问题。\p我决定不了我的宝可梦的\n出场顺序。你能替我决定吗？\p哦，你目前不需要全部\n定下来。\p不如替我决定哪一个\n宝可梦先出场吧？$"
 
 gText_ApprenticeMonFirstThanks4::
     .string "我的{STR_VAR_1}？太棒了！\p反正是你做的决定，\n{PLAYER}{KUN}，我即使输了\l也不丢人。\p就这样，我还会向你咨询的。\n再见！$"
@@ -608,10 +608,10 @@ gText_ApprenticeWhichMon5::
     .string "这不是{PLAYER}{KUN}嘛！一切还好吧？\n我还是像以前一样忙！\p我也想养宝可梦，\n但我还没决定\l要养哪只宝可梦。\p你觉得{STR_VAR_1}强吗？\n但也不能忽视{STR_VAR_2}啊。\p{PLAYER}{KUN}，给我点建议吧！\n哪个更适合我？$"
 
 gText_ApprenticeMonThanks5::
-    .string "知道了。\n我会努力去捕捉你说的\l那个{STR_VAR_1}的。\p真高兴能碰上你这样的好老师。\n谢谢啦，再见！$"
+    .string "知道了。\n我会努力去捕捉你说的\l那个{STR_VAR_1}的。\p真高兴能遇到你这样的好老师。\n谢谢啦，再见！$"
 
 gText_ApprenticeWhichMon6::
-    .string "噢！\n呀，是{PLAYER}！\p我才没有浪费时间去\n向朋友吹嘘碰上你的事！\p今天我还想麻烦你，\n对你来说很简单的！\p拜托了！\n我的问题是……\p如果我要在{STR_VAR_1}与\n{STR_VAR_2}两只宝可梦中选一只来养，\l我该选哪个？$"
+    .string "噢！\n呀，是{PLAYER}！\p我才没有浪费时间去\n向朋友吹嘘遇到你的事！\p今天我还想麻烦你，\n对你来说很简单的！\p拜托了！\n我的问题是……\p如果我要在{STR_VAR_1}与\n{STR_VAR_2}两只宝可梦中选一只来养，\l我该选哪个？$"
 
 gText_ApprenticeMonThanks6::
     .string "啊啊！\n你说是{STR_VAR_1}！\l真棒的答案！\p今天我想问你的\n就这些，\p下次再见吧。\n真的很感谢你！$"

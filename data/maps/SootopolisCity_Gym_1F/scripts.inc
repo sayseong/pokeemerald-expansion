@@ -195,10 +195,10 @@ SootopolisCity_Gym_1F_Text_ReceivedRainBadge:
     .string "{PLAYER}从亚当处\n得到了雨滴徽章。$"
 
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
-    .string "有了雨滴徽章，\n所有宝可梦都会听从\l你的命令，\p同时你可以使用\n秘传学习器攀瀑\l攀登瀑布。\p这个给你，不要忘了\n我们这次战斗……$"
+    .string "有了雨滴徽章，\n所有宝可梦都会听从\l你的命令，\p同时你可以使用\n秘传招式攀瀑\l攀登瀑布。\p这个给你，不要忘了\n我们这次战斗……$"
 
 SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
-    .string "我给你的这个招式学习器\n里面是水之波动。\p使用时偶尔会因它的超音波\n使目标陷入混乱。\p…… …… ……$"
+    .string "我给你的这个招式学习器\n的内容是水之波动。\p使用时偶尔会因它的超音波\n使目标陷入混乱。\p…… …… ……$"
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan:
     .string "把道馆馆主亚当\n登记到宝可导航里了。$"

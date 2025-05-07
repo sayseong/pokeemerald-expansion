@@ -452,16 +452,16 @@ BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge:
     .string "在带您进入对战巨蛋前，\n必须先写入记录，可以吗？$"
 
 BattleFrontier_BattleDomeLobby_Text_WhichLevelMode:
-    .string "锦标赛提供了两种挑战等级\n50级和自由级。\l请进行选择。$"
+    .string "锦标赛提供了两种挑战等级\nLv. 50级和自由等级。\l请进行选择。$"
 
 BattleFrontier_BattleDomeLobby_Text_SelectThreeMons:
     .string "现在请挑选参赛的\n三只宝可梦。$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "很抱歉！\p您没有符合条件的三只宝可梦。\p同样的，宝可梦必须持有\n不同的道具。\p蛋{STR_VAR_1}是不符合条件的。\p请准备好后再来找我吧！$"
+    .string "很抱歉！\p您没有符合条件的三只宝可梦。\p同样的，宝可梦必须携带\n不同的道具。\p蛋{STR_VAR_1}是不符合条件的。\p请准备好后再来找我吧！$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50:
-    .string "很抱歉！\p您没有符合条件的三只宝可梦。\p您必须拥有三只\n最高级为50的宝可梦才可进入。\p它们必须持有不同的\n道具。\p蛋{STR_VAR_1}是不符合条件的。\p请准备好后再来找我吧！$"
+    .string "很抱歉！\p您没有符合条件的三只宝可梦。\p您必须拥有三只\n最高级为50的宝可梦才可进入。\p它们必须携带不同的\n道具。\p蛋{STR_VAR_1}是不符合条件的。\p请准备好后再来找我吧！$"
 
 BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome:
     .string "现在我将带您前往\n对战巨蛋。$"
@@ -506,16 +506,16 @@ BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
     .string "双打对战锦标赛\n就同它的名称一样——\l双人一起对战的锦标赛。\p所有的训练家必须\n带上三只宝可梦。\p每一回合，其中一只宝可梦\n需要保留待命。\p其余的两只宝可梦必须\n参加双打对战。\p检查对手的三只宝可梦后，\n即可选出参战的两只宝可梦。\p打败四位训练家后\n即可获得胜利。\p锦标赛胜利者将会\n获得对战点数。\p如果要暂停锦标赛\n请写入记录。\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50:
-    .string "他们就是最近的\n50级单人对战锦标赛结果。$"
+    .string "他们就是最近的\nLv. 50级单人对战锦标赛结果。$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLv50:
-    .string "他们就是最近的\n50级双打对战锦标赛结果。$"
+    .string "他们就是最近的\nLv. 50级双打对战锦标赛结果。$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLvOpen:
-    .string "他们就是最近的\n自由级单人对战锦标赛结果。$"
+    .string "他们就是最近的\n自由等级单人对战锦标赛结果。$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLvOpen:
-    .string "他们就是最近的\n自由级双打对战锦标赛结果。$"
+    .string "他们就是最近的\n自由等级双打对战锦标赛结果。$"
 
 BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough:
     .string "看到了吗？\n最新的对战锦标赛？\p胜利者{STR_VAR_1}\n可真强啊！\p你可以在电脑旁的显示器上\n查看结果。$"

@@ -896,7 +896,7 @@ MatchCall_Text_Steven3::
     .string "大吾：嗨，{PLAYER}{KUN}！\p当你和你的宝可梦一起冒险的时候，\n你在想些什么呢？\p你有想让它们变成\n强大的伙伴吗？\p你把他们当作\n有趣的旅伴吗？\p你的想法不同，\n你的旅程也会发生极大的改变。$"
 
 MatchCall_Text_Steven4::
-    .string "大吾：喂？\n{PLAYER}{KUN}？\p我在宇宙中心里\n碰到了一些小麻烦。\p抱歉，不能再说了。\n再见！$"
+    .string "大吾：喂？\n{PLAYER}{KUN}？\p我在宇宙中心里\n遇到了一些小麻烦。\p抱歉，不能再说了。\n再见！$"
 
 MatchCall_Text_Steven5::
     .string "大吾：哦！\n{PLAYER}{KUN}！\p没必要多说了。\n再说也是浪费时间。\p你必须相信你自己\n做出正确的选择。$"

@@ -204,10 +204,10 @@ FortreeCity_Gym_Text_ReceivedFeatherBadge:
     .string "{PLAYER}从娜琪处\n得到白羽徽章。$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
-    .string "白羽徽章能使包括交换\n得来的所有LV70以下\l宝可梦听从指挥，\p同时也可以在战斗之外\n使用秘传学习器飞翔。\p还有这个……\n这是我的礼物。$"
+    .string "白羽徽章能使包括交换得到的\n所有等级70以内的宝可梦听从指示，\p同时也可以在战斗之外\n使用秘传招式飞翔。\p还有这个……\n这是我的礼物。$"
 
 FortreeCity_Gym_Text_ExplainAerialAce:
-    .string "招式学习器40的\n里面是燕返，\p它的速度……\n没有任何宝可梦能躲过。\p…… …… ……$"
+    .string "招式学习器40的\n的内容是燕返，\p它的速度……\n没有任何宝可梦能躲过。\p…… …… ……$"
 
 FortreeCity_Gym_Text_RegisteredWinona:
     .string "把道馆馆主娜琪\n登记到宝可导航里了。$"

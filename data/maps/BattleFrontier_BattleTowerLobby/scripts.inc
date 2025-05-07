@@ -1009,7 +1009,7 @@ BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge:
     .string "希望还能在下次挑战中\n遇到您！$"
 
 BattleFrontier_BattleTowerLobby_Text_WhichLevelMode:
-    .string "对战间有两种挑战等级，\n50级和自由级。\l您想选哪种？$"
+    .string "对战间有两种挑战等级，\nLv. 50级和自由等级。\l您想选哪种？$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectMons:
@@ -1026,26 +1026,26 @@ BattleFrontier_BattleTowerLobby_Text_RecordLastMatch:
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50:
-    .string "对不起，\p您符合条件的宝可梦不足{STR_VAR_2}只。\p必须有{STR_VAR_2}只不同的50级以下的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p您符合条件的宝可梦不足{STR_VAR_2}只。\p必须有{STR_VAR_2}只不同的等级50以内的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen:
     .string "对不起，\p您符合条件的宝可梦不足{STR_VAR_2}只。\p必须有{STR_VAR_2}只不同的宝可梦\n才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles:
-    .string "对不起，\p您符合条件的宝可梦不足三只。\p必须有三只不同的50级以下的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p您符合条件的宝可梦不足三只。\p必须有三只不同的等级50以内的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenSingles:
     .string "对不起，\p您符合条件的宝可梦不足三只。\p必须有三只不同的宝可梦\n才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Doubles:
-    .string "对不起，\p您符合条件的宝可梦不足四只。\p必须有四只不同的50级以下的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p您符合条件的宝可梦不足四只。\p必须有四只不同的等级50以内的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenDoubles:
     .string "对不起，\p您符合条件的宝可梦不足四只。\p必须有四只不同的宝可梦\n才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Multis:
-    .string "对不起，\p您符合条件的宝可梦不足两只。\p必须有两只不同的50级以下的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p您符合条件的宝可梦不足两只。\p必须有两只不同的等级50以内的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis:
     .string "对不起，\p您符合条件的宝可梦不足两只。\p必须有两只不同的宝可梦\n才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"

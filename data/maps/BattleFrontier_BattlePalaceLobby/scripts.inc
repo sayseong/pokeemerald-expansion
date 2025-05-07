@@ -390,10 +390,10 @@ BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
     .string "当您的心灵与您的宝可梦都变得\n更强的时候，再回到这里来吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
-    .string "有两种对战大厅，\n50级和自由级，\l您要挑战哪一种？$"
+    .string "有两种对战大厅，\nLv. 50级和自由等级，\l您要挑战哪一种？$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50:
-    .string "哎……\p您没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，您必须\n带着三只不同种类的宝可梦，\p而且它们必须都在\n50级以下。\p而且，也不能让它们携带\n相同种类的道具。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"
+    .string "哎……\p您没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，您必须\n带着三只不同种类的宝可梦，\p而且它们必须都在\n等级50以内。\p而且，也不能让它们携带\n相同种类的道具。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
     .string "哎……\p您没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，您必须\n带着三只不同种类的宝可梦。\p而且，也不能让它们携带\n相同种类的道具。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"

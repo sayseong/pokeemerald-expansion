@@ -338,7 +338,7 @@ BattleFrontier_BattleFactoryLobby_Text_LookForwardToNextVisit:
     .string "我们期待着和您下次见面。$"
 
 BattleFrontier_BattleFactoryLobby_Text_WhichLevelMode:
-    .string "您要挑战哪个等级？\n50级还是自由级？$"
+    .string "您要挑战哪个等级？\nLv. 50级还是自由等级？$"
 
 BattleFrontier_BattleFactoryLobby_Text_OkayToSaveBeforeChallenge:
     .string "在您挑战之前，\n要先写入记录，可以吗？$"
@@ -438,4 +438,4 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
     .string "在交换宝可梦时有两个\n关键点要注意。\p第一，交换时，您无法得知\n您将要获得的宝可梦的\l具体能力。\p第二，在您队里的宝可梦\n是按顺序排列的，这个顺序取决\l于您租借他们的先后。\p即使进行了交换这个顺序\n也保持不变。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
-    .string "在自由级中，租借的宝可梦\n和对方训练家的宝可梦\l都是100级的。$"
+    .string "在自由等级中，租借的宝可梦\n和对方训练家的宝可梦\l都是100级的。$"

@@ -122,7 +122,7 @@ SlateportCity_PokemonFanClub_Text_HereGoesQuickAnswers::
     .string "太棒了谢谢你！\p好吧走这边吧。\n来做个快速问答怎么样？$"
 
 SlateportCity_PokemonFanClub_Text_DescribeFeelingsFirstMetMon::
-    .string "当你第一次碰到{STR_VAR_1}，\n你是什么感觉？\p那时你是怎么描述这种\n感觉的？$"
+    .string "当你第一次遇到{STR_VAR_1}，\n你是什么感觉？\p那时你是怎么描述这种\n感觉的？$"
 
 SlateportCity_PokemonFanClub_Text_LikenMonToSomethingYouLike::
     .string "你的{STR_VAR_1}被你照料得很好啊。\p你如果想把他比喻做\n一样东西的话会是什么呢？$"
@@ -645,40 +645,40 @@ gTVThePokemonBattleSeminarText06::
     .string "在这个状况下，\n这训练家用了什么招式呢？\p…… …… ……\n{STR_VAR_1}！\p{STR_VAR_1}这招式一定会\n比{STR_VAR_2}好。\p观众们，我很希望你能从这学到什么，\n下次要更聪明的战斗哦！\p下次再见，拜拜！$"
 
 gTVTrainerFanClubText00::
-    .string "大家注意了！\n这里是训练家迷俱乐部！\p主持：大家状态都好吗？\n今天，我们聚集了众所周知\l的训练家，{STR_VAR_1}的支持者！\p酱油众：哦！\p酱油众：{STR_VAR_1}！\p主持：大家！\n你们对{STR_VAR_1}的感觉是？！\p酱油众：我们爱{STR_VAR_1}！\p主持：你们怎么会爱\n{STR_VAR_1}的？！$"
+    .string "大家注意了！\n这里是训练家迷俱乐部！\p主持：大家状态都好吗？\n今天，我们聚集了众所周知\l的训练家，{STR_VAR_1}的支持者！\p粉丝们：哦！\p粉丝们：{STR_VAR_1}！\p主持：大家！\n你们觉得{STR_VAR_1}怎么样？！\p粉丝们：我们爱{STR_VAR_1}！\p主持：你们喜欢{STR_VAR_1}的\n哪一点？！$"
 
 gTVTrainerFanClubText01::
-    .string "酱油众：他们帅呆了地扔精灵球！$"
+    .string "粉丝们：他们扔精灵球时帅气的样子！$"
 
 gTVTrainerFanClubText02::
-    .string "酱油众：他们跑步时那美丽的样子！$"
+    .string "粉丝们：他们跑步时那美丽的样子！$"
 
 gTVTrainerFanClubText03::
-    .string "酱油众：这些训练家在他们想要变强时，\n他们就变强了！$"
+    .string "粉丝们：这些训练家在他们想要变强时，\n他们就变强了！$"
 
 gTVTrainerFanClubText04::
-    .string "酱油众：这个训练家对宝可梦的渊博知识！$"
+    .string "粉丝们：这个训练家对宝可梦的渊博知识！$"
 
 gTVTrainerFanClubText05::
-    .string "酱油众：这个训练家对所有宝可梦的温柔！$"
+    .string "粉丝们：这个训练家对所有宝可梦的温柔！$"
 
 gTVTrainerFanClubText06::
-    .string "酱油众：这个训练家那\n令人惊异的骑车技术。$"
+    .string "粉丝们：这个训练家那\n令人惊异的骑车技术。$"
 
 gTVTrainerFanClubText07::
-    .string "酱油众：这个训练家那\n令人印象深刻的购物方式！$"
+    .string "粉丝们：这个训练家那\n令人印象深刻的购物方式！$"
 
 gTVTrainerFanClubText08::
-    .string "酱油众：这个训练家给宝可梦起的\n那些迷人的名字！$"
+    .string "粉丝们：这个训练家给宝可梦起的\n那些迷人的名字！$"
 
 gTVTrainerFanClubText09::
-    .string "酱油众：这个训练家那漂亮的\n装饰秘密基地的方式！$"
+    .string "粉丝们：这个训练家那漂亮的\n装饰秘密基地的方式！$"
 
 gTVTrainerFanClubText10::
-    .string "酱油众：这个训练家大胆地\n使用招式学习器！$"
+    .string "粉丝们：这个训练家大胆地\n使用招式学习器！$"
 
 gTVTrainerFanClubText11::
-    .string "主持：就像你们看见的那样，{STR_VAR_1}\n真流行！可以说是炙手可热！\p在{STR_VAR_1}的酱油众中\n有一个特别的口号！\p主持：当我说{STR_VAR_1}，\n你们说……\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p主持：就是这样。当一个人对你说\n“{STR_VAR_1}”时……\p一定要回应， “{STR_VAR_2}\n{STR_VAR_3}！”\p这是独一无二的环！\n我能理解为什么人们成为了\l{STR_VAR_1}的酱油众！\p电视机前的观众们，加入我们吧！\n大家注意！\p主持：当我说{STR_VAR_1}，\n你说……\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！\p主持：感谢大家的参与，\n狂野的{STR_VAR_1}的酱油众们！\l节目结束！下次再见！\p主持：当我说{STR_VAR_1}，\n你就说……\p酱油众：{STR_VAR_2}！\p酱油众：{STR_VAR_3}！$"
+    .string "主持：就像你们看见的那样，{STR_VAR_1}\n真流行！可以说是炙手可热！\p在{STR_VAR_1}的粉丝们中\n有一个特别的口号！\p主持：我说{STR_VAR_1}，\n你们说……\p粉丝们：{STR_VAR_2}！\p粉丝们：{STR_VAR_3}！\p粉丝们：{STR_VAR_2}！\p粉丝们：{STR_VAR_3}！\p主持：就是这样。当一个人对你说\n“{STR_VAR_1}”时……\p一定要回应， “{STR_VAR_2}\n{STR_VAR_3}！”\p这是独一无二的环！\n我能理解为什么人们成为了\l{STR_VAR_1}的粉丝们！\p电视机前的观众们，加入我们吧！\n大家注意！\p主持：我说{STR_VAR_1}，\n你说……\p粉丝们：{STR_VAR_2}！\p粉丝们：{STR_VAR_3}！\p粉丝们：{STR_VAR_2}！\p粉丝们：{STR_VAR_3}！\p主持：感谢大家的参与，\n狂野的{STR_VAR_1}的粉丝们！\l节目结束！下次再见！\p主持：我说{STR_VAR_1}，\n你就说……\p粉丝们：{STR_VAR_2}！\p粉丝们：{STR_VAR_3}！$"
 
 TVSpotTheCuties_Text_Intro::
     .string "捕捉可爱的一瞬！\n宝可梦戴奖章！\p我亲爱的观众们，你们好！\p我知道你们都同意，形容戴着奖章\n的宝可梦就只有一个词：美丽！\p今天，我想和观众们分享\n一个当我在城里散步时看见的宝可梦。\p今天的可爱的宝可梦\n是{STR_VAR_1}的{STR_VAR_2}。$"
