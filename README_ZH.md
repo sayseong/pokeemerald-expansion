@@ -100,11 +100,11 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
 ## 包含了哪些功能？
 
 - ***重要❗❗ 阅读以下内容以了解你可以切换哪些功能***：
-- [战斗配置](include/config/battle.h)
-- [宝可梦配置](include/config/pokemon.h)
-- [物品配置](include/config/item.h)
-- [大地图配置](include/config/overworld.h)
-- [调试配置](include/config/debug.h)
+- [战斗配置](./include/config/battle.h)
+- [宝可梦配置](./include/config/pokemon.h)
+- [物品配置](./include/config/item.h)
+- [大地图配置](./include/config/overworld.h)
+- [调试配置](./include/config/debug.h)
   
 - ***升级的战斗引擎***
   - 第五世代及以后的伤害计算方式。
@@ -149,7 +149,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
     - 每场战斗结束时重新计算能力值。
     - 等级100的宝可梦可以获得努力值。
     - 反转对战支持。
-    - 大量其他功能[在此](include/config/battle.h)。
+    - 大量其他功能[在此](./include/config/battle.h)。
   
 - ***全面的训练家自定义***
   
@@ -185,7 +185,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
     - 为雌性的河马兽、沙河马、皮卡丘和果然翁自定义了雌性图标。
   - 传说宝可梦、幻之宝可梦和究极异兽拥有3项完美个体值。
   
-- ***可自定义的形态变化表。完整方法列表[在此](include/constants/form_change_types.h)***
+- ***可自定义的形态变化表。完整方法列表[在此](./include/constants/form_change_types.h)***
   
   - 持有道具（如骑拉帝纳/阿尔宙斯）
   - 使用道具（如花舞鸟）
@@ -210,7 +210,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
   - 使用不变石可确保100%遗传性格（可配置）。
   - 第六世代及以后的特性遗传方式（可配置）。
   
-- ***新世代道具。完整列表[在此](include/constants/items.h)***
+- ***新世代道具。完整列表[在此](./include/constants/items.h)***
   
   - 第六世代及以后的学习装置（可配置）
   - 破坏因子
