@@ -464,31 +464,31 @@ MauvilleCity_EventScript_RegisterWallyCall::
 	end
 
 MauvilleCity_Text_UncleHesTooPeppy:
-    .string "叔叔：我想，是宝可梦\n让那孩子打起精神来的……\l但他好像有点兴奋过头了……$"
+    .string "叔叔：我想是宝可梦\n让那孩子打起精神来的……\l但他好像有点兴奋过头了……$"
 
 MauvilleCity_Text_WallyWantToChallengeGym:
-    .string "满充：好啦，叔叔，拜托了，\p我想挑战这个道馆，\n我想试试我变得多强了。\p好吗？求你了，好吗？$"
+    .string "满充：叔叔，拜托你了，\p我想挑战这个道馆，\n我想试试我变得多强了。\p可以吗？$"
 
 MauvilleCity_Text_UncleYourePushingIt:
-    .string "叔叔：好了，好了，满充，\p自从你开始和宝可梦旅行以来，\n确实成长了不少，\p但你不觉得现在就去挑战道馆\n还太早了吗？$"
+    .string "叔叔：等等，满充，\p自从你开始和宝可梦旅行以来，\n确实成长了不少，\p但你不觉得现在就挑战道馆\n也太勉强了吗？$"
 
 MauvilleCity_Text_WallyWeCanBeatAnyone:
-    .string "满充：我不这么认为，\p只要和拉鲁拉丝齐心协力的话，\n我们就能打败任何人！$"
+    .string "满充：才不勉强！\p只要和拉鲁拉丝齐心协力的话，\n我们不会输给任何人！$"
 
 MauvilleCity_Text_WallyWillYouBattleMe:
-    .string "满充：噢，你好，{PLAYER}！\p自从我们上次见面，\n我已经变得更强了。\p{PLAYER}，我想向你和叔叔\n证明这点。\p{PLAYER}，拜托了，\n和我战斗吧？$"
+    .string "满充：啊，{PLAYER}！\p我比之前见面时\n要强多了。\p{PLAYER}，\n我想让你和叔叔看看！\p{PLAYER}，拜托了，\n和我对战吧！$"
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
-    .string "满充：呃……{PLAYER}，如果你不跟我战斗，\n叔叔就不会相信\l我真的变强了。$"
+    .string "满充：唔……{PLAYER}，如果你不跟我战斗，\n叔叔就不会知道\l我真的变强了……$"
 
 MauvilleCity_Text_UncleCanYouBattleWally:
-    .string "叔叔：你是{PLAYER}{KUN}吧？\n为了满充，\l能请你和他战斗一次吗？\p我想他现在这样\n是不可能听得进劝说的。$"
+    .string "叔叔：你是{PLAYER}{KUN}吧？\n为了满充，\l能请你和来一场对战吗？\p我想他现在这样\n是没法听得进劝的。$"
 
 MauvilleCity_Text_WallyPleaseBattleMe:
-    .string "满充：{PLAYER}，拜托了！\n我们战斗吧。$"
+    .string "满充：{PLAYER}，拜托了！\n和我对战吧！$"
 
 MauvilleCity_Text_WallyHereICome:
-    .string "满充：{PLAYER}，谢谢。\p好……我要上了！$"
+    .string "满充：{PLAYER}，谢谢！\p那么……我要上了！$"
 
 MauvilleCity_Text_WallyDefeat:
     .string "满充：…… …… …… ……\p…… …… …… ……\p我输了……$"
@@ -497,17 +497,17 @@ MauvilleCity_Text_WallyIllGoBackToVerdanturf:
     .string "满充：叔叔……\n我会回绿茵镇的……$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
-    .string "{PLAYER}，谢谢。\n做一个训练家也没那么容易，是吗？\p仅仅是让自己的宝可梦去战斗\n还不够，这样并不会成为\l真正的训练家。$"
+    .string "{PLAYER}，谢谢你。\n果然做训练家真的\n很不容易啊……\p光是拥有自己的宝可梦\n让它们战斗还不够，\l还算不上是真正的训练家……$"
 
 MauvilleCity_Text_UncleNoNeedToBeDown:
-    .string "叔叔：满充，\n不要这么沮丧。\p想想是什么激励着你\n要变得越来越强的？\p好了，我们回家吧，\n大家都在等你呢。$"
+    .string "叔叔：满充，\n别这么沮丧。\p想想是什么激励着你\n要变得越来越强的？\p好了，我们回家吧，\n大家都在等你呢。$"
 
 MauvilleCity_Text_UncleVisitUsSometime:
-    .string "叔叔：{PLAYER}{KUN}，我刚刚才想起来，\n你就是那位看着满充\l捕捉他的第一只宝可梦的\l训练家吧？\p有空的话，\n可以来绿茵镇转转吗？\l我想满充也会很高兴的。$"
+    .string "叔叔：{PLAYER}{KUN}，我刚刚才想起来，\n你就是那位看着满充捕捉他的\l第一只宝可梦的训练家吧？\p有空的话，\n来绿茵镇转转好吗？\l我想满充也会很开心的。$"
 
 
 MauvilleCity_Text_WallyPokenavCall:
-    .string "…… …… ……\n…… …… ……哔！\p满充：啊，{PLAYER}！\p我只是想告诉你\n我叔叔刚给我买了个宝可导航！\p现在我随时都\n可以和你联系了，{PLAYER}！\p…… …… ……\n…… …… ……咔哒！$"
+    .string "…… …… ……\n…… …… ……哔！\p满充：啊，{PLAYER}！\p我只是想告诉你\n我叔叔刚给我买了个宝可导航！\p现在我随时都\n可以联系你了，{PLAYER}！\p…… …… ……\n…… …… ……咔哒！$"
 
 MauvilleCity_Text_RegisteredWally:
     .string "把满充\n登记到宝可导航里了。$"

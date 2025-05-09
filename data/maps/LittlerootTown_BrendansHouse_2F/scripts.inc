@@ -273,10 +273,10 @@ PlayersHouse_2F_EventScript_GameCube::
 	end
 
 PlayersHouse_2F_Text_ClockIsStopped:
-    .string "钟停了……\p把它调好吧！$"
+    .string "时钟停着……\p把时间调好吧！$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
-    .string "妈妈：{PLAYER}，喜欢你的\n新房间吗？\p好！房间都清理干净了！\p楼下也\n整理完毕了，\p让宝可梦帮忙搬家真方便啊！\p啊，最好去看看你桌子上的东西\n是不是都齐了。$"
+    .string "妈妈：{PLAYER}，喜欢你的\n新房间吗？\p太好了！房间收拾得很整洁呢！\p楼下的行李也都\n整理完毕了，\p宝可梦搬家服务真方便啊！\p对了，记得检查一下你桌子上\n的东西是不是都齐了。$"
 
 PlayersHouse_2F_Text_Notebook:
     .string "{PLAYER}翻开笔记。\p冒险须知第一条\n用START键打开菜单。\p冒险须知第二条\n记录选项可以写下记录。\p后面是空白……$"
