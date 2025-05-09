@@ -413,58 +413,58 @@ LilycoveCity_EventScript_DontKnowAboutBerryBlender::
 	return
 
 LilycoveCity_Text_MayShoppingLetsBattle:
-    .string "小遥：嗨，你好啊？\n{PLAYER}{KUN}，你也来买东西吗？\p我买了一大堆\n玩偶和海报。\p当然，我捕捉了不少\n宝可梦，也训练得不错。\p不过，我更在意的是\n你的宝可梦训练得如何了，{PLAYER}{KUN}。\p我要和你战斗，\n看看你的宝可梦，{PLAYER}{KUN}。$"
+    .string "小遥：嗨，你好啊？\n{PLAYER}{KUN}，你也来购物吗？\p我买了好多的\n玩偶和海报呢！\p当然，我也捕捉了不少宝可梦，\n而且也有好好培育它们哦。\p不如说，我反而更担心你有没有认真\n培养你的宝可梦，{PLAYER}{KUN}。\p来和我对战吧，{PLAYER}{KUN}，\n给看看你的宝可梦！$"
 
 LilycoveCity_Text_MayNotRaisingPokemon:
-    .string "小遥：啊，怎么了？{PLAYER}{KUN}，\n你没好好训练你的宝可梦吗？\p作为一个训练家\n可不该这样呢……$"
+    .string "小遥：哎——为什么？{PLAYER}{KUN}，\n你没好好培育你的宝可梦吗？\p作为一个训练家\n这样可不行呢……$"
 
 LilycoveCity_Text_MayBattleMe:
-    .string "小遥：来吧，和我战斗，\n让我看看你的宝可梦！$"
+    .string "小遥：来和我对战吧，\n给看看你的宝可梦！$"
 
 LilycoveCity_Text_MayWontBeBeaten:
-    .string "小遥：我训练的宝可梦不会\n被你的宝可梦打败的，{PLAYER}{KUN}！$"
+    .string "小遥：我培育的宝可梦才不会\n输给你呢，{PLAYER}{KUN}！$"
 
 LilycoveCity_Text_MayDefeat:
-    .string "…… …… …… ……\p我还记得我们上次\n在103号道路的战斗，{PLAYER}{KUN}。\p那场战斗让你变得这么强了，\n是吗，{PLAYER}{KUN}？$"
+    .string "…… …… …… ……\p想起我们之前\n在103号道路的对战了，{PLAYER}{KUN}。\p那场战斗让你变得这么强了，\n是吗，{PLAYER}{KUN}？$"
 
 LilycoveCity_Text_MayGoingBackToLittleroot:
-    .string "小遥：我打算\n回未白镇去。\p我已经捕捉了很多不错的宝可梦，\n宝可梦图鉴也快完成了，\l我要回家给爸爸看。$"
+    .string "小遥：我打算不久后\n回未白镇了。\p我已经捕捉了不少宝可梦，\n宝可梦图鉴也进展顺利，\l我想回家给爸爸看。$"
 
 LilycoveCity_Text_MayYouGoingToCollectBadges:
-    .string "{PLAYER}{KUN}，你打算做什么？\p收集所有的道馆徽章，\n然后去挑战宝可梦联盟吗？\p好吧，{PLAYER}{KUN}，那你收集徽章的时候，\n我就致力于我的宝可梦图鉴吧。\l我会比你更早完成的！\p再见了！$"
+    .string "{PLAYER}{KUN}，你接下来打算做什么？\p收集所有的道馆徽章，\n然后去挑战宝可梦联盟吗？\p不过你收集徽章的时候，\n我可要努力完成宝可梦图鉴了。\l我会比你先完成的！\p再见了！$"
 
 LilycoveCity_Text_MayYouGoingToPokemonLeague:
-    .string "{PLAYER}{KUN}，你打算做什么？\p想挑战宝可梦联盟吗？\p或者你想完成\n宝可梦图鉴？\p也许战斗我会输给你，\n但我会比你更快完成宝可梦图鉴！\p再见了！$"
+    .string "{PLAYER}{KUN}，你接下来打算做什么？\p想挑战宝可梦联盟吗？\p或者你想完成\n宝可梦图鉴？\p也许对战上我会输给你，\n但我会比你先完成宝可梦图鉴的！\p再见了！$"
 
 LilycoveCity_Text_MayYouGoingToBattleFrontier:
-    .string "{PLAYER}{KUN}，你打算做什么？\p你要挑战\n对战开拓区吗？\p或者你想完成\n宝可梦图鉴？\p也许战斗我会输给你，\n但我会比你更快完成宝可梦图鉴的！\p再见了！$"
+    .string "{PLAYER}{KUN}，你接下来打算做什么？\p你要挑战\n对战开拓区吗？\p或者你想完成\n宝可梦图鉴？\p也许对战上我会输给你，\n但我会比你先完成宝可梦图鉴的！\p再见了！$"
 
 LilycoveCity_Text_BrendanShoppingLetsBattle:
-    .string "小悠：嗨，这不是{PLAYER}吗。\p我在替老爸跑腿呢。\n不，我才不是来买玩偶的。\p不管怎样，离上次我们\n碰面已经有段时间了，\p想试试我们两个谁的宝可梦\n训练得更好吗？$"
+    .string "小悠：嗨，这不是{PLAYER}吗！\p我来帮爸爸跑腿买东西。\n……才没打算买玩偶呢！\p总之，离上次我们见面\n已经有段时间了，\p要不要来场对战比比看\n谁培育的宝可梦更好？$"
 
 LilycoveCity_Text_BrendanNoConfidence:
     .string "小悠：哦，怎么了？\n没信心吗？$"
 
 LilycoveCity_Text_BrendanBattleMe:
-    .string "小悠：想来战斗一场看看\n谁的宝可梦训练得更好吗？$"
+    .string "小悠：要不要来场对战比比看\n谁培育的宝可梦更好？$"
 
 LilycoveCity_Text_BrendanWontBeBeaten:
-    .string "小悠：好，我是\n不会输给{PLAYER}的。$"
+    .string "小悠：好，不过我是不会\n输给{PLAYER}的！$"
 
 LilycoveCity_Text_BrendanDefeat:
-    .string "唔……\n你的宝可梦训练得不错。\p我开始对你改变看法了——\n你会成为一个出色的训练家的……$"
+    .string "唔……\n你的宝可梦培育得不错。\p明明我才是前辈训练家……\n有点不甘心啊。$"
 
 LilycoveCity_Text_BrendanGoingBackToLittleroot:
-    .string "小悠：我……\n我打算回未白镇去。\p你知道我在帮老爸收集\n宝可梦图鉴，现在进展得不错，\l我要回去给他看看。$"
+    .string "小悠：我……\n我打算回未白镇了。\p你也知道我在帮爸爸收集\n宝可梦图鉴，现在进展得还挺不错，\l我要回去给他看看。$"
 
 LilycoveCity_Text_BrendanYouGoingToCollectBadges:
-    .string "{PLAYER}，你准备怎么办？\p收集所有的道馆徽章，然后\n去挑战宝可梦联盟吗？\p也许我也会去……\p好了，无论如何，加油吧！$"
+    .string "{PLAYER}，你接下来打算做什么？\p收集所有的道馆徽章，然后\n去挑战宝可梦联盟吗？\p也许我也会试试……\p好了，无论如何，加油吧！$"
 
 LilycoveCity_Text_BrendanYouGoingToPokemonLeague:
-    .string "{PLAYER}，你准备怎么办？\p你变得这么强了，\n试试挑战宝可梦联盟去吗？\p呵呵，就算我——如果能\n努力训练一下，\l我也会比你更强的，{PLAYER}。\p好了，无论如何，加油吧！$"
+    .string "{PLAYER}，你接下来打算做什么？\p你变得这么强了，\n试试挑战宝可梦联盟去吗？\p呵呵，就算我——如果能再\n努力训练一下，\l也许会比你更强的，{PLAYER}。\p好了，无论如何，加油吧！$"
 
 LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
-    .string "{PLAYER}，你准备怎么办？\p想去对战开拓区\n挑战吗？\p或者你想完成\n宝可梦图鉴？\p既然你已经这么强了，\n考虑一下去对战开拓区吧。\p呵呵，如果我更努力训练的话，\n我就会比你更强了，{PLAYER}。\p也许我也该去对战开拓区。\p好了，无论如何，加油吧！$"
+    .string "{PLAYER}，你接下来打算做什么？\p想去对战开拓区\n挑战吗？\p或者你想完成\n宝可梦图鉴？\p既然你已经这么强了，\n考虑一下去对战开拓区吧。\p呵呵，如果我更努力训练的话，\n也许就会比你更强了，{PLAYER}。\p可能我也该去对战开拓区看看。\p好了，无论如何，加油吧！$"
 
 LilycoveCity_Text_MovedLootIntoHideoutToday:
     .string "哼哼哼……\p我们今天往基地里\n搬了不少战利品……\p你……你是谁？！\n我只是在自言自语而已！$"
@@ -473,16 +473,16 @@ LilycoveCity_Text_ChanceToDoBigThings:
     .string "我只不过是个小兵，\n根本不知道老大在想什么……\p但我知道，只要加入海洋队，\n我总有机会做些大事的！\p你……你是谁？！\n我只是在自言自语而已！$"
 
 LilycoveCity_Text_DontGoNearCaveInCove:
-    .string "喂，说你呢！\p别靠近海湾那儿的洞窟！\p为什么？我干啥要告诉你！\n我是大人，所以你得听我的！$"
+    .string "喂，说你呢！\p别靠近海湾那儿的洞窟！\p为什么？我凭啥要告诉你！\n我是大人，所以你得听我的！$"
 
 LilycoveCity_Text_IfWorldBecomesOurs:
-    .string "如果这广大的世界都归属于我们\n海洋队，那么世界中的\l宝可梦会生活得更快乐的。$"
+    .string "如果这广阔的世界都归属于我们\n海洋队，那么世上的\l宝可梦会生活得更快乐的。$"
 
 LilycoveCity_Text_WailmerLeapOutOfWater:
     .string "这里！吼吼鲸！\n跳出水来！$"
 
 LilycoveCity_Text_GetLostMessingUpTraining:
-    .string "嗯？你想干什么？\p你打扰了我们训练了，\n呃，请你有多远死多远行吗？$"
+    .string "嗯？你想干什么？\p你打扰了我们训练了，\n所以你能不能，那个，赶紧消失啊？$"
 
 LilycoveCity_Text_ContestHallInTown:
     .string "就在这个镇子里有个\n宝可梦华丽大赛会场，\p全国的悉心培育的宝可梦\n都会在这里聚集。\p我已经激动得心跳加速了！$"
@@ -509,7 +509,7 @@ LilycoveCity_Text_MissingPokemonCameBack:
     .string "我那失踪的宝可梦……\n在我没注意时自己回来了！$"
 
 LilycoveCity_Text_ImArtDealer:
-    .string "我是一名艺术品商人，\p我的工作是买卖艺术品，\n尤其是绘画。\p我听说这里的美术馆\n正在展出极棒的艺术品……$"
+    .string "我是一名艺术品商人，\p我的工作是买卖艺术品，\n尤其是绘画。\p我听说这里的美术馆\n正在展出美妙绝伦的艺术品……$"
 
 LilycoveCity_Text_SeaRemainsForeverYoung:
     .string "时间在我们的脸上刻下了皱纹，\n而大海却还是一如既往地年轻，\l充满了生命的活力……\p呼呵呵呵呵……$"
@@ -569,7 +569,7 @@ LilycoveCity_Text_SawTallTowerOnRoute131:
     .string "我在130号水路的附近\n看到过一座高高的塔，\p那会不会是……？$"
 
 LilycoveCity_Text_JustArrivedAndSawRarePokemon:
-    .string "我们刚刚来这里\n度蜜月，\p却偶然看到一只龙属性\n宝可梦从天空飞过。\p丰缘有生活着\n那么厉害的宝可梦吗？$"
+    .string "我们刚刚来这里\n蜜月旅行，\p却偶然看到一只龙属性\n宝可梦从天空飞过。\p丰缘有生活着\n那么厉害的宝可梦吗？$"
 
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
     .string "我们曾许愿要在蜜月中\n看到很多很多稀有宝可梦，\p并且我们一到这儿\n就看到了稀有宝可梦。\p我是说，我真的很高兴！$"

@@ -908,7 +908,7 @@ MatchCall_Text_Steven7::
     .string "大吾：{PLAYER}{KUN}……祝贺你\n你进登入了名人堂。\p…… …… ……\n…… …… ……\p我希望能在其他地方\n再见到你！$"
 
 MatchCall_Text_BirchRegisterCall::
-    .string "小田卷博士：哦，{PLAYER}{KUN}！\n我已经听说你了！\p看起来你的宝可导航已经\n经过了对战寻呼的升级。\p好，我也应该登记一下！\p这样，哪怕是在野外我也可以\n检查你的宝可梦图鉴！\p…… …… ……$"
+    .string "小田卷博士：哦，{PLAYER}{KUN}！\n我已经听说了！\p你的宝可导航已经升级了\n对战寻呼功能对吧？\p我也来登记一下！\p这样你在外面时我也可以检查\n你的宝可梦图鉴进度了！\p…… …… ……$"
 
 MatchCall_Text_RegisteredBirch::
     .string "将小田卷博士的信息\n登录进宝可导航。$"

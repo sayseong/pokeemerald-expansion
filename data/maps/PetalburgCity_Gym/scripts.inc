@@ -1298,7 +1298,7 @@ PetalburgCity_Gym_Text_AlexiaPostBadge:
     .string "喂，你尝试过冲浪吗？$"
 
 PetalburgCity_Gym_Text_JodyIntro:
-    .string "我们的道馆馆主要我们\n尽最大努力打败你，\p就算你是馆主的孩子，\n我们也不能放水！$"
+    .string "我们的道馆馆主要我们\n尽全力打败你，\p就算你是馆主的孩子，\n我们也不能放水！$"
 
 PetalburgCity_Gym_Text_JodyDefeat:
     .string "但……我已经尽力了！$"

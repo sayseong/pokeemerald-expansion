@@ -1041,34 +1041,34 @@ Route104_Text_TrainerTipsDoubleBattles:
     .string "训练家小技巧\p在丰缘地区中，一些\n结伴的训练家会向别人发起\l2对2的挑战，\l称作双打对战。\p在双打对战中，训练家要派出\n两只宝可梦，即列表\l左边的和最上边的。\l一定要注意宝可梦的队列顺序。$"
 
 Route104_Text_MayWeShouldRegister:
-    .string "小遥：呀，你好，{PLAYER}{KUN}！\p得文为你的宝可导航加入了\n对战寻呼系统，是吧？\p我们登记一下各自的信息吧，\n这样就能随时联系了。$"
+    .string "小遥：啊，{PLAYER}{KUN}！\p得文给你的宝可导航装了\n对战寻呼系统对吧？\p我们互相登记一下信息吧，\n这样就能随时联系了。$"
 
 Route104_Text_RegisteredMay:
     .string "{PLAYER}把小遥\n登记到宝可导航里了。$"
 
 Route104_Text_MayHowsYourPokedex:
-    .string "小遥：噢，对了，{PLAYER}{KUN}，\n你的宝可梦图鉴怎么样了？$"
+    .string "小遥：对了，{PLAYER}{KUN}，\n你的宝可梦图鉴进展如何？$"
 
 Route104_Text_MayMinesDecentLetsBattle:
-    .string "我这边还算满意。\n那么……\l来场战斗吧？$"
+    .string "我这边已经很充实了。\n所以……\l要不要来场对战？$"
 
 Route104_Text_MayHaventRaisedPokemon:
-    .string "小遥：哦，怎么了？\p你没怎么训练\n你的宝可梦吗？\p作为一个训练家可不该这样！$"
+    .string "小遥：哎——为什么？\p你没有好好捕捉和培育\n宝可梦吗？\p作为训练家可不应该这样！$"
 
 Route104_Text_MayLetsBattle:
-    .string "小遥：那么，你怎么想？\n来场战斗吧？$"
+    .string "小遥：所以，怎么样？\n要不要来场对战？$"
 
 Route104_Text_MayIntro:
-    .string "小遥：你刚刚成为训练家，\n{PLAYER}{KUN}。我是不会输的！$"
+    .string "小遥：你刚刚成为训练家，\n{PLAYER}{KUN}。我可不会输哦！$"
 
 Route104_Text_MayDefeat:
-    .string "呀！\n你比我想像中要强多了！$"
+    .string "呜哇！\n比想象中厉害得多……$"
 
 Route104_Text_MayPostBattle:
-    .string "小遥：我觉得你的宝可梦\n训练得真不错，\p但你该向哈奇老人学学，\n不要只是让它们去战斗。\p和宝可梦做朋友\n也同样重要。$"
+    .string "小遥：你的宝可梦\n培育得不错嘛！\p不过也不要只顾着战斗，\n像哈奇老人那样和宝可梦\l做朋友也很重要哦！$"
 
 Route104_Text_BrendanWeShouldRegister:
-    .string "小悠：哦，嗨，{PLAYER}！\p哈，你把得文给你的宝可导航\n装了对战寻呼系统？\p我们互相登记各自的信息吧，\n这样我们就能保持联系了。$"
+    .string "小悠：嘿，{PLAYER}！\p得文给你的宝可导航\n装了对战寻呼系统吧？\p我们互相登记一下信息吧，\n这样我们就能随时联系了。$"
 
 Route104_Text_RegisteredBrendan:
     .string "把小悠\n登记到宝可导航里了。$"
@@ -1077,19 +1077,19 @@ Route104_Text_BrendanHowsYourPokedex:
     .string "小悠：{PLAYER}，你的宝可梦图鉴进展如何？\n有几页了吗？$"
 
 Route104_Text_BrendanDoingGreatLetsBattle:
-    .string "我？我这边很顺利！\p来场战斗互相\n切磋一下怎么样？$"
+    .string "我？我这边很顺利！\p来场对战让你看看\n我的成果如何？$"
 
 Route104_Text_BrendanNoConfidence:
-    .string "小悠：怎么了？\n对你的宝可梦没信心吗？$"
+    .string "小悠：怎么了？\n对自己的宝可梦没信心吗？$"
 
 Route104_Text_BrendanLetsBattle:
-    .string "小悠：怎么？\n想和我战斗吗？$"
+    .string "小悠：怎样？\n想和我来场对战吗？$"
 
 Route104_Text_BrendanIntro:
-    .string "小悠：我知道你已经是训练家了，\n但我也不是那么好对付的！$"
+    .string "小悠：虽然你刚成为\n训练家，但我不会手下留情哦！$"
 
 Route104_Text_BrendanDefeat:
-    .string "唔……\n你真得很强。$"
+    .string "嘿……\n挺能干的嘛。$"
 
 Route104_Text_BrendanPostBattle:
-    .string "小悠：你在训练宝可梦方面\n独具天赋，\p但要知道，你不能\n只是让宝可梦去战斗。\p像哈奇老人那样，\n和宝可梦交朋友也很重要。$"
+    .string "小悠：你在培育宝可梦方面\n很有天赋啊，\p但要知道，你不能\n只顾着让宝可梦战斗。\p像哈奇老人那样，\n和宝可梦做朋友也很重要。$"

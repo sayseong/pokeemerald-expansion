@@ -277,16 +277,16 @@ LavaridgeTown_EventScript_HerbShopSign::
 	end
 
 LavaridgeTown_Text_MayNiceBadgesTakeThis:
-    .string "小遥：{PLAYER}{KUN}！好久不见了！\p哦？看来我去温泉的时候\n你已经拿到釜炎镇道馆徽章了。\p你一定收集了不少\n优秀的宝可梦……\l不，我想是你训练得好的缘故。\p我想把这个给你\n没什么问题。$"
+    .string "小遥：{PLAYER}{KUN}！好久不见！\p哦？看来我去温泉的时候\n你已经拿到釜炎镇道馆徽章了。\p你一定得到了不少\n优秀的宝可梦……\l不，我想还是因为你培育得好。\p我想我可以把这个给你。$"
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
-    .string "小遥：有这个GOGO护目镜的话，\n穿过111号道路上的沙漠\l就很轻松了。\p但，真的，{PLAYER}{KUN}在\n挑战道馆……\p为了不输给我，\n你真的很努力呢！\p{PLAYER}{KUN}，我现在打算\n去橙华市道馆挑战你爸爸。\p回头见！$"
+    .string "小遥：有这个GOGO护目镜的话，\n就能穿越111号道路上的沙漠了。\p不过，{PLAYER}{KUN}居然在\n挑战道馆……\p是不想输给我吧？\n你为此真的很努力呢！\p{PLAYER}{KUN}，我现在打算\n去橙华市道馆挑战你爸爸了！\p回头见！$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
-    .string "小悠：{PLAYER}，嗨，又见面了，\n还顺利吗？\p唔……\n你收集了不少徽章了啊。\p那好，\n这个也给你吧。$"
+    .string "小悠：{PLAYER}，好久不见了，\n还顺利吗？\p唔……\n你收集了不少徽章了啊。\p那好，\n这个也给你吧。$"
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
-    .string "小悠：打算\n过111号道路上的沙漠的话\l就用它吧。\p沙漠里应该也有一些\n不怕风沙的宝可梦，\l你可以去找找。\p至于我……\n我打算去挑战橙华市的\l道馆馆主千里。\p{PLAYER}，你老爸和你不一样，\n他看上去相当强。\p下次见了！$"
+    .string "小悠：如果要去111号道路上\n的沙漠就带上它吧。\p那里应该也有一些\n沙漠特有的宝可梦，\l你可以去找找看。\p至于我……\n我打算去挑战橙华市的\l道馆馆主千里。\p{PLAYER}，你爸爸和你不一样，\n他看上去相当厉害！\p再见啦！$"
 
 LavaridgeTown_Text_HaveEggWillYouTakeIt:
     .string "我这儿有个蛋，\p我本来指望用温泉边温暖的沙子\n盖起它来会孵化的，\l但看来这样还不够……\p听说最好能\n让它跟宝可梦\l在一起。\p你是个训练家对吗？\n而且你的宝可梦看上去活力十足。\p怎么样？\n你愿意带上这个蛋孵化它吗？$"
@@ -322,7 +322,7 @@ LavaridgeTown_Text_IfPokemonInHotSprings:
     .string "如果把宝可梦放进温泉，\n它就会变得很奇怪。\p哈，有时候可能变成电气浴，\n或者泡沫浴，甚至岩浆浴……$"
 
 LavaridgeTown_Text_HotSpringsClaims:
-    .string "据说温泉可以放松\n紧张的神经，\l减轻身体的疲劳，解决\l爱情问题，还有\l增加收入……$"
+    .string "据说温泉可以放松\n紧张的神经，\l减轻身体的疲劳，\l解决感情问题，\l还能增加财运……$"
 
 LavaridgeTown_Text_TownSign:
     .string "这里是釜炎镇。\n“宝可梦中心、温泉、绝妙的场所。”$"

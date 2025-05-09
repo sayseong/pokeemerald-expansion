@@ -664,7 +664,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall::
 	end
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
-    .string "什么？小田卷博士？\p博士去野外考察了，\n现在不在这里。\p啊，我给你解释一下\n什么是野外考察吧。\p野外考察，就是走出研究所，\n去田里或山间等自然环境中\l做研究。\p博士是那种坐不住的人，\n比起坐下来读书\l了解什么事情，他更愿意\l走出门去，亲身体验一下。$"
+    .string "什么？小田卷博士？\p博士去实地调查了，\n现在不在这里。\p啊，我给你解释一下\n什么是实地调查吧。\p实地调查，就是走出研究所，\n去田里或山间等自然环境中\l做研究。\p博士是那种坐不住的人，\n比起坐下来读书\l了解什么事情，他更愿意\l走出门去，亲身体验一下。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
     .string "博士是那种坐不住的人，\n比起坐下来读书\l了解什么事情，他更愿意\l走出门去，亲身体验一下。$"
@@ -673,58 +673,58 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
     .string "小田卷博士正在研究\n宝可梦的栖息分布，\p他喜欢让{RIVAL}帮忙。\n两人感情很好。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
-    .string "小田卷博士：好了，{PLAYER}{KUN}，\p我从你爸爸那儿听说了\n很多关于你的事情。\p看来你还没有\n自己的宝可梦，\p但之前你战斗的时候\n显得很沉着！\p毕竟你流着\n你父亲的血液！\p啊，对了，为了感谢你救了我，\n之前你用的那只宝可梦\l就送给你吧。\p{PLAYER}得到{STR_VAR_1}！$"
+    .string "小田卷博士：……{PLAYER}{KUN}，\p我从你爸爸那儿听说了\n很多关于你的事。\p听说你还没有\n自己的宝可梦？\p但你刚才战斗的样子\n真是镇静自若！\p果然是遗传了\n你父亲的才能！\p对了，作为谢礼，\n你刚才用的那只宝可梦\l就送给你吧！\p{PLAYER}得到{STR_VAR_1}！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
-    .string "小田卷博士：现在它是你的了，\n给它起个名字吗{STR_VAR_1}？$"
+    .string "小田卷博士：要不要顺便给这只{STR_VAR_1}\n起个昵称呢？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
-    .string "小田卷博士：我想，如果你\n能和宝可梦一起成长，你会\l成为一名非常出色的训练家。\p我的孩子{RIVAL}也在帮我的同时\n自己研究宝可梦。\p{PLAYER}{KUN}，\n去看看{RIVAL}怎么样？$"
+    .string "小田卷博士：如果你努力培育宝可梦积累经验，\n一定会成为一名优秀的训练家。\p我的孩子{RIVAL}也在一边当我的助手，\n一边研究宝可梦。\p{PLAYER}{KUN}，\n去见见{RIVAL}怎么样？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
-    .string "小田卷博士：太好了！\n{RIVAL}也会很开心的。\p让{RIVAL}告诉你\n做一个训练家意味着什么吧。$"
+    .string "小田卷博士：太好了！\n{RIVAL}肯定会很高兴的！\p让{RIVAL}教教你\n成为训练家的意义吧。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
-    .string "小田卷博士：唉，别这样，\n去见见我孩子吧。$"
+    .string "小田卷博士：别这么说嘛，\n去见见我家孩子！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
-    .string "小田卷博士：{RIVAL}？\n回家里去了吧，\p要不又去草丛里\n找寻什么了……\p你和宝可梦累了的话，\n就回家休息一下吧。$"
+    .string "小田卷博士：{RIVAL}？\n可能回家里去了，\p也可能去草丛里\n调查什么了……\p你和宝可梦累了的话，\n记得回家休息一下。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
-    .string "小田卷博士：嗨，{PLAYER}{KUN}！\p听说你跟{RIVAL}的战斗\n初战告捷，真不错！\p{RIVAL}帮我做了\n很久调查了，\p{RIVAL}已经有了不少\n训练家的经验。\p{PLAYER}{KUN}，这个宝可梦图鉴\n本来是我为了研究订购的，\l但现在我决定把它给你。$"
+    .string "小田卷博士：哦，{PLAYER}{KUN}！\p听说你第一次对战就赢了\n{RIVAL}，很厉害啊！\p{RIVAL}做我的助手\n已经很久了，\p作为训练家而言，\n经验非常丰富。\p{PLAYER}{KUN}，这个宝可梦图鉴\n是我为了研究订购的，\l但现在我想把它给你。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
     .string "{PLAYER}得到了宝可梦图鉴！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
-    .string "小田卷博士：宝可梦图鉴是一种\n能够自动记录你看见或捕捉的\l宝可梦的高科技工具，\p我家{RIVAL}无论去哪儿\n都带着它。\p每当{RIVAL}捕捉稀有宝可梦\n并把数据记录到宝可梦图鉴上，\l那孩子就回来找在野外工作的我，\l然后把成果给我看。$"
+    .string "小田卷博士：宝可梦图鉴是一种\n能够自动记录你遇见或捕获的\l宝可梦的高科技工具，\p我家{RIVAL}无论去哪儿\n都一直带着它。\p每当{RIVAL}捕捉到稀有宝可梦\n并记录数据到宝可梦图鉴上时，\l那孩子就会来找在外实地调查的我，\l把成果展示给我看。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
-    .string "小田卷博士：数不清的宝可梦\n在等着你！\p啊，我又开始渴望\n去野外做研究了！$"
+    .string "小田卷博士：前面还有无数的宝可梦\n在等着你！\p啊——\n我又想去做实地调查了！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
-    .string "小遥：哇，{PLAYER}{KUN}！\n你也有了宝可梦图鉴！\p太好了！和我的一模一样！\n我也有东西要给你！$"
+    .string "小遥：哇，{PLAYER}{KUN}！\n你也拿到宝可梦图鉴啦！\p太好了！和我一样！\n这个送给你！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
-    .string "小遥：捕捉很多宝可梦的话\n会感觉到很快乐！\p我要去各种地方\n寻找不同的宝可梦，\p见到可爱的宝可梦我就要\n用精灵球捕捉它们！$"
+    .string "小遥：宝可梦捕捉得越多\n就感觉会越有趣！\p我要去各处寻找\n不同的宝可梦，\p发现可爱的宝可梦的话，\n就用精灵球捕捉它们！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
     .string "呀，你的包包满了。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
-    .string "小遥：不知道下面该\n去哪儿找宝可梦呢？$"
+    .string "小遥：接下来该去\n哪里找宝可梦呢？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
-    .string "小悠：哈……\n你也有宝可梦图鉴了。\p那好，喏，\n我把这些给你。$"
+    .string "小悠：哦……？\n你也拿到宝可梦图鉴了啊。\p那这个送给你！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
-    .string "小悠：你知道，捕捉一大堆\n宝可梦的感觉很快乐。\p我要去各种地方\n寻找不同的宝可梦，\p如果见到很出色的宝可梦，\n我就用精灵球捕捉回来。$"
+    .string "小悠：你知道吗，捕捉的宝可梦\n越多就越有趣。\p我要去各地寻找\n捕捉不同的宝可梦，\p如果见到很帅气的宝可梦，\n我肯定会用精灵球捕捉到！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
     .string "喂，你的包包满了。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
-    .string "小悠：下面我该去哪儿\n找宝可梦……$"
+    .string "小悠：接下来该去哪儿\n找宝可梦呢……$"
 
 LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine:
     .string "看上去是个很先进的机器，\n一定是博士做研究时用的。$"
@@ -739,43 +739,43 @@ LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead:
     .string "一本晦涩难懂的书。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
-    .string "小田卷博士：好了……\p{PLAYER}{KUN}，{RIVAL}，\n你们一直在帮我研究宝可梦，\p多亏了你们，\n我弄明白了一些事情。\p看来在丰缘地区中\n也有来自其它地区的\l宝可梦。\p这让我们意识到了\n丰缘地区自然环境的\l丰富多彩，\p因此我觉得有必要\n把你们的宝可梦图鉴升级为\l全国模式。\p好了，让我看看你们的宝可梦图鉴。$"
+    .string "小田卷博士：好了……\p{PLAYER}{KUN}，{RIVAL}，\n你们在帮我研究宝可梦的成果显著，\p多亏了你们，\n我发现了许多新的事实。\p看来在丰缘地区中\n栖息着其它地区的\l宝可梦。\p这说明丰缘地区的自然环境\n是多么地丰富多样！\p因此，我要把你们的宝可梦图鉴\n升级为全国模式。\p来，让我看看你们的宝可梦图鉴。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
-    .string "小遥：呵呵呵！\p太好了，我的宝可梦图鉴\n也能升级了！\p都亏了你出去捕捉了\n那么多宝可梦，{PLAYER}{KUN}！$"
+    .string "小遥：嘿嘿！\p太好了，我的宝可梦图鉴\n也跟着升级了！\p多亏了你捕捉了那么多\n宝可梦呀，{PLAYER}{KUN}！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
-    .string "小悠：我一直在全丰缘地区\n寻找宝可梦，\p你该为能因此得到\n全国模式宝可梦图鉴而感谢我。\p呵，你真走运，{PLAYER}！$"
+    .string "小悠：我跑遍了全丰缘地区\n寻找宝可梦，\p你的宝可梦图鉴能够升级\n全国模式可要感谢我！\p你运气真好，{PLAYER}！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone:
-    .string "小田卷博士：好，完成了！$"
+    .string "小田卷博士：好，升级完成啦！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational:
-    .string "{PLAYER}的宝可梦图鉴升级成\n全国模式！$"
+    .string "{PLAYER}的宝可梦图鉴升级成了\n全国模式！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
-    .string "小田卷博士：但是，听好，\n虽然你成为了冠军，\l但你的宝可梦之旅还未结束，\p这条与宝可梦同行的路\n永无止境，\p某处总有着未知的草丛\n在等待着你去探索！$"
+    .string "小田卷博士：记住，\n即使成为了冠军，\l你的宝可梦之旅也仍未结束，\p这条名为宝可梦的道路\n永无止境，\p总有一片未曾踏足的草丛\n在等待着你去探索！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
-    .string "小遥：我准备暂停\n野外调查，\p留在这里帮一下\n博士。$"
+    .string "小遥：我准备暂时\n不继续实地调查了，\p留在这里帮博士的忙。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
-    .string "小悠：从现在起，\n我暂停野外调查，\p留在这里\n帮博士的忙。$"
+    .string "小悠：从现在起，\n我打算暂停实地调查，\p就留在这里帮博士的忙。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
-    .string "小田卷博士：噢，{PLAYER}{KUN}！\n我看看你的宝可梦图鉴。\p…… …… ……\n…… …… ……\p好了，毫无疑问，\p你真的完成了丰缘地区的\n宝可梦图鉴，\p真令人不敢相信。\p这是我给你的礼物，\p就当作是我对你做得\n如此出色的谢礼。\p这是只有在其它地区\n才能找到的稀有宝可梦！\p从这三只中\n挑一只吧！$"
+    .string "小田卷博士：哦，{PLAYER}{KUN}！\n我看看你的宝可梦图鉴。\p…… …… ……\n…… …… ……\p毫无疑问，\p你真的完成了丰缘地区的\n宝可梦图鉴，\p真是太了不起了！\p我有礼物要送给你，\p就当作是我对你\n出色工作的感谢。\p这是只有在其它地区\n才能找到的稀有宝可梦！\p从这三只中\n选择一只吧！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon:
     .string "小田卷博士：这是只有在其它地区\n才能找到的稀有宝可梦！\p从这三只中\n挑一只吧！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil:
-    .string "小田卷博士：你看中了\n火属性宝可梦火球鼠！\p眼睛还是那么尖啊！\p那么，你想选的是火球鼠？$"
+    .string "小田卷博士：你看中了\n火属性宝可梦火球鼠！\p你还是那么地眼尖啊！\p那么，你要选择火球鼠？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile:
-    .string "小田卷博士：你选的是\n水属性宝可梦小锯鳄！\p你总能选出最好的一个。\p那么，你想要小锯鳄？$"
+    .string "小田卷博士：你选的是\n水属性宝可梦小锯鳄！\p你总能选出最好的一个。\p那么，你要选择小锯鳄？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita:
-    .string "小田卷博士：你选的是\n草属性宝可梦菊草叶！\p你很清楚自己想要什么。\p那么，你想要菊草叶？$"
+    .string "小田卷博士：你选的是\n草属性宝可梦菊草叶！\p你很清楚自己想要什么。\p那么，你要选择菊草叶？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable:
     .string "小田卷博士：决定前\n好好考虑一下吧，\p它们都是很珍贵的宝可梦。$"
@@ -792,7 +792,7 @@ LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
     .string "要给刚得到的\n{STR_VAR_1}起个昵称吗？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
-    .string "小田卷博士：听好，{PLAYER}{KUN}，\n你完成了丰缘宝可梦图鉴，\l但你的宝可梦之旅并未结束，\p这条与宝可梦同行的路\n永无止境，\p某处总有着未知的草丛\n在等待着你去探索！$"
+    .string "小田卷博士：记住，{PLAYER}{KUN}，\n即使完成了丰缘地区的宝可梦图鉴，\l你的宝可梦之旅也仍未结束，\p这条名为宝可梦的道路\n永无止境，\p总有一片未曾踏足的草丛\n在等待着你去探索！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone:
     .string "你已经拿到了你的宝可梦，\n其他的还是留下吧。$"

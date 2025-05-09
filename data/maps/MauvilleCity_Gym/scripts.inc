@@ -308,7 +308,7 @@ MauvilleCity_Gym_Text_AngeloPostBattle:
     .string "紫堇市道馆的铁旋额头上\n总是闪着光，我好兴奋！$"
 
 MauvilleCity_Gym_Text_WattsonIntro:
-    .string "我放弃了自己改建城市的计划，\n而是将时间花在了道馆内，\l制作了这个电门迷宫。\p哦？\n你是怎么走到这里来的？\p是吗？\n你是说你已经破解了我的迷宫？\p哇哈哈哈！\n太有趣了！\p那么，我——紫堇道馆的道馆馆主——\n铁旋，就让你见识一下电气的威力吧！$"
+    .string "我放弃了自己改建城市的计划，\n而是将时间花在了道馆内，\l制作了这个电门迷宫。\p哦？\n你是怎么走到这里来的？\p是吗？\n你是说你已经破解了我的迷宫？\p哇哈哈哈！\n太有趣了！\p那么，我——\n紫堇市宝可梦道馆的馆主——铁旋，\l就让你见识一下电气的威力吧！$"
 
 MauvilleCity_Gym_Text_WattsonDefeat:
     .string "哇哈哈哈！\n好，我输了！\p你让我兴奋极了！\n收下这枚徽章！$"

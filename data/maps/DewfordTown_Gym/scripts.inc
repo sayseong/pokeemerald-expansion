@@ -343,7 +343,7 @@ DewfordTown_Gym_Text_CristianPostBattle:
     .string "你赢了！\n去争取徽章吧！$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
-    .string "我是藤树！\n武斗道馆的道馆馆主！\p我在这附近的险浪中翻腾……\n在漆黑的洞窟中修行！\p想挑战我那就把你的实力……\n全部展现出来吧！$"
+    .string "我是藤树！\n武斗镇宝可梦道馆的馆主！\p我在这附近的险浪中翻腾……\n在漆黑的洞窟中修行！\p想挑战我那就把你的实力……\n全部展现出来吧！$"
 
 DewfordTown_Gym_Text_BrawlyDefeat:
     .string "喔喔！\n你一定会成为浪潮！\p我知道了！\p收下这枚道馆徽章吧！$"

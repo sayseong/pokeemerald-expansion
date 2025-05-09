@@ -233,22 +233,22 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
     .string "米可利：你的宝可梦在对战中……\p时而轻柔如风，\n时而又迅猛如雷。\p还带着一丝，\n无疑是从你那里耳濡目染所得的，\l轻盈而坚定的优雅。\p甚至连我都为你\n出色的表现而深深地着迷！\p此刻你已站上宝可梦联盟\n光荣的顶峰，\p我宣布你已成为\n丰缘地区的新……$"
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
-    .string "小遥：{PLAYER}{KUN}！\p给你几条挑战冠军前\n的建议……$"
+    .string "小遥：{PLAYER}{KUN}！\p挑战冠军前\n给你几个建议……$"
 
 EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver:
-    .string "小遥：呃？\n什么，那个，难道？\p{PLAYER}{KUN}……\n不会吧……\l已经结束了？$"
+    .string "小遥：咦？\n什么？\p{PLAYER}{KUN}……\n难道说……\l已经结束了？$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanAdvice:
-    .string "小悠：{PLAYER}！\p需要挑战冠军前\n的建议吗？……$"
+    .string "小悠：{PLAYER}！\p挑战冠军前\n需要建议吗？……$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
-    .string "小悠：{PLAYER}……\p你不会是想告诉我……\n你已经打败了冠军？$"
+    .string "小悠：{PLAYER}……\p你该不会……\n已经打败冠军了？$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
-    .string "小田卷博士：是吧？\n就像我之前说过的，{RIVAL}？\p我说过你不必担忧\n{PLAYER}{KUN}？\p…… …… …… ……\n{PLAYER}{KUN}，你终于做到了。\p当我听说你在橙华道馆\n打败了你的父亲，\l我当时认为你可能有机会……\p但是我没想到你现在\n真的成为了冠军！\p啊，对了！\p你的图鉴完成得如何了？\n来，让我看一下。$"
+    .string "小田卷博士：看吧？\n我说什么来着，{RIVAL}？\p早就告诉你{PLAYER}{KUN}\n不用我们担心！\p…… …… …… ……\n{PLAYER}{KUN}，你终于做到了。\p当我听说你在橙华道馆\n打败了你的父亲，\l我就预感你可能有机会……\p但是没想到你现在\n真的成为了冠军！\p啊，对了！\p你的图鉴完成得如何了？\n来，让我看一下。$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchCongratulations:
-    .string "小田卷博士：无论如何，\n恭喜你！\p现在，昂首挺进最终的房间吧！$"
+    .string "小田卷博士：总之恭喜你！\p现在，昂首挺胸地走进\n最后的房间吧！$"
 
 EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe:
     .string "米可利：{PLAYER}{KUN}……\p不，请容我改口。\p新任冠军！\p跟我来。$"
@@ -257,8 +257,8 @@ EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside:
     .string "米可利：我很抱歉，不过……\p从这里开始，只有成为冠军的\n训练家才能进入。\p请你和小田卷博士一起\n在外面等候吧。$"
 
 EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
-    .string "小遥：呃……\p…… …… …… ……\n…… …… …… ……\p我开玩笑的！没关系！\n这是规定嘛！\p{PLAYER}{KUN}！\n真诚地恭喜你！$"
+    .string "小遥：哎……\p…… …… …… ……\n…… …… …… ……\p我开玩笑啦！没关系！\n毕竟是规定嘛！\p{PLAYER}{KUN}！\n真的恭喜你！$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations:
-    .string "小悠：什什什么？！…… …… ……\n…… …… …… ……\p如果这是规定，也没有办法嘛。\p{PLAYER}，去吧！\n恭喜你！$"
+    .string "小悠：什么？！…… …… ……\n…… …… …… ……\p既然是规定，那也没办法。\p{PLAYER}，去吧！\n恭喜你！$"
 

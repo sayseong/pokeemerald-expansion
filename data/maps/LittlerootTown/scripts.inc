@@ -931,7 +931,7 @@ LittlerootTown_Text_CanUsePCToStoreItems:
     .string "打开电脑就可以存取\n道具和宝可梦了。\p科学的力量真伟大！$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-    .string "小田卷博士整天\n就待在研究所里作研究，\l然后突然出门去野外调查……\p小田卷博士什么时候\n才能在家里待上几天呢？$"
+    .string "小田卷博士整天\n就待在研究所里作研究，\l然后突然出门去实地调查……\p小田卷博士什么时候\n才能在家里待上几天呢？$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
     .string "呃，呃，呃，\p如果你走进草丛里，\n野生的宝可梦可能会跳出来袭击的！$"
@@ -961,5 +961,5 @@ LittlerootTown_Text_ProfBirchsHouse:
     .string "小田卷博士的家$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
-    .string "小田卷博士：{PLAYER}{KUN}！\n你干得不错！\p我第一眼看到你\n就知道你不简单，\l但我从未想到你能做得这么好。\p哦，对了，你还带着\n我给你的宝可梦图鉴吗？\p我有些东西要给你看。\n到我的研究所来吧。$"
+    .string "小田卷博士：{PLAYER}{KUN}！\n果然没有看错你！\p第一次见面我就\n知道你不简单，\l但我从未想到你能做得这么好。\p对了，你还带着我给\n你的宝可梦图鉴吗？\p我有些东西要给你看，\n跟我回研究所吧！$"
 

@@ -137,7 +137,7 @@ RustboroCity_Gym_Text_MarcPostBattle:
     .string "只有交给我们的馆主了。\p这么年轻就培育岩石属性，\n真是辛苦她了。$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
-    .string "您好，我是卡那兹道馆的\n馆主杜娟。\p我想要把在宝可梦训练家学校中\n学到的知识应用到实战中去，\l所以才成为了道馆馆主。\p您要使用哪种宝可梦，\n如何对战，可以告诉我吗？$"
+    .string "您好，我是卡那兹市宝可梦道馆的\n馆主杜娟。\p我想要把在宝可梦训练家学校中所学\n到的东西都运用到宝可梦对战里面，\l所以才成为了道馆馆主。\p您要使用哪种宝可梦，\n如何对战，可以告诉我吗？$"
 
 RustboroCity_Gym_Text_RoxanneDefeat:
     .string "啊……\n是我输了……\p看来我还有\n许多东西要学……\p我知道了。\p宝可梦联盟规定\n战胜道馆馆主的训练家\n可以得到这个。\p请收下这枚宝可梦联盟\n公认的岩石徽章。$"

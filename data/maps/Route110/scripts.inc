@@ -744,40 +744,40 @@ Route110_Movement_BirchExit4:
 	step_end
 
 Route110_Text_WeCantTalkAboutAquaActivities:
-    .string "海洋队的活动……\n我们还不能多说。$"
+    .string "海洋队的行动……\n我们还不能多说。$"
 
 Route110_Text_KickUpARuckus:
-    .string "我想去凯那市\n搞出大飞机来！$"
+    .string "我想去凯那市\n搞出大名堂来！$"
 
 Route110_Text_MyFirstJobInAqua:
     .string "这是我加入海洋队后的\n第一件工作。我有点害怕。$"
 
 Route110_Text_AquaActionsBringSmiles:
-    .string "海洋队的活动应该让\n所有人都欣慰地笑起来！$"
+    .string "海洋队的行动应会为\n所有人带来笑容！$"
 
 Route110_Text_MayLetsBattle:
-    .string "小遥：嗨，{PLAYER}{KUN}，好久不见了！\p我寻找宝可梦的时候，\n自己的宝可梦也变强了。\p那么……\n来战斗一场吧？$"
+    .string "小遥：{PLAYER}{KUN}，好久不见了！\p我寻找新宝可梦的同时，\n自己的宝可梦也变强了！\p所以……\n要不要来场对战？$"
 
 Route110_Text_MayDefeated:
-    .string "呀！\n你比我想象中更强！$"
+    .string "哎呀！\n比想象得更强！$"
 
 Route110_Text_MayTakeThis:
-    .string "小遥：{PLAYER}{KUN}，你\n也在努力训练是吧？\p我想你应该得到些奖励！\n这是给你的！$"
+    .string "小遥：{PLAYER}{KUN}，\n你也有在努力训练吧？\p这个奖励是你应得的，\n送给你！$"
 
 Route110_Text_MayExplainItemfinder:
-    .string "小遥：这是探宝器。\p试试，如果附近有看不见的\n道具，它就会响起来。\p好了，{PLAYER}{KUN}，下次再见！\p虽然我这么说你可能会不以为然\n但我想下次见面前你得\l更努力训练才是。$"
+    .string "小遥：这是探宝器。\p使用时如果附近有隐藏的\n道具，它就会发出声音。\p{PLAYER}{KUN}，下次见！\p虽然由我来说有点怪，\n但我希望下次见面时你变得更强呢！$"
 
 Route110_Text_BrendanLetsBattle:
-    .string "小悠：嗨，{PLAYER}，\n你到这儿来了。\l还顺利吗？\p你的宝可梦训练得如何？\n向我展示一下吧。$"
+    .string "小悠：嘿，{PLAYER}，\n原来你也在这里。\l还顺利吗？\p你的宝可梦训练得如何？\n让我来检查看看！$"
 
 Route110_Text_BrendanDefeated:
-    .string "唔……\n你很厉害。$"
+    .string "唔……\n挺能干的嘛。$"
 
 Route110_Text_BrendanTakeThis:
-    .string "小悠：{PLAYER}，在我不注意时\n你已经变得这么强了……\p干得不错！\n来，这个给你。$"
+    .string "小悠：{PLAYER}，不知不觉地\n你已经变得这么强了……\p干得不错！\n这个给你。$"
 
 Route110_Text_BrendanExplainItemfinder:
-    .string "小悠：这是探宝器。\p用它可以寻找附近\n看不见的道具。\p如果它探测到什么，\n就会发出声响。\p好了，我去找\n新的宝可梦了。$"
+    .string "小悠：这是探宝器。\p用它可以寻找附近\n隐藏的道具。\p如果它探测到东西，\n就会发出声音。\p我要继续去找新的\n宝可梦了，回见！$"
 
 Route110_Text_RideBikeAtFullSpeed:
     .string "在自行车道上\n风驰电掣的感觉很好吧？$"
@@ -861,14 +861,14 @@ Route110_Text_ThereIsNoRecord:
     .string "至今为止最好的纪录……\p还未出现挑战者。\n没记录……$"
 
 Route110_Text_ImagineSeeingYouHere:
-    .string "小田卷博士：嗨，{PLAYER}{KUN}！\n想不到在这儿见到你！\p我家{RIVAL}呢？$"
+    .string "小田卷博士：哦，{PLAYER}{KUN}！\n没想到会在这儿遇见你！\p我家{RIVAL}呢？$"
 
 Route110_Text_HeardYouInstallMatchCall:
-    .string "哦，明白了！\n你们两个不是一起行动的，\l嗯，也罢。\p啊，对了，听说你的宝可导航里\n装了对战寻呼系统，\p那么，我们也互相\n登记信息吧。\p那样的话，就算我们不在一起，\n我也能对你的宝可梦图鉴作出评价了。\p…… …… ……$"
+    .string "哦，原来如此！\n你们两个是分开行动的。\l嗯，这样也好。\p对了，听说你的宝可导航里\n装了对战寻呼系统，\p那么，我们也互相\n登记信息吧。\p这样一来，即使不在一起，\n我也能评估你的宝可梦图鉴进度了。\p…… …… ……$"
 
 Route110_Text_RegisteredBirchInPokenav:
     .string "把小田卷博士\n登记到宝可导航里了。$"
 
 Route110_Text_KeepAnEyeOutForRival:
-    .string "小田卷博士：{PLAYER}{KUN}……\p帮我看着我家{RIVAL}。\n…… …… ……\p好了，我该走了，\n再见，{PLAYER}{KUN}！$"
+    .string "小田卷博士：{PLAYER}{KUN}……\p请替我多关照{RIVAL}！\n…… …… ……\p好了，我得先走啦！\n再见，{PLAYER}{KUN}！$"
 

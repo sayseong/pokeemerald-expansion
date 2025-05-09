@@ -365,10 +365,10 @@ OldaleTown_Text_FinishedSketchingFootprints:
     .string "我描下了\n稀有宝可梦的足迹，\p但怎么看都是\n我自己的脚印……$"
 
 OldaleTown_Text_MayLetsGoBack:
-    .string "小遥：{PLAYER}{KUN}！\n来！\l我们快回家吧！$"
+    .string "小遥：{PLAYER}{KUN}！\n来这边！\l我们快回去吧！$"
 
 OldaleTown_Text_BrendanLetsGoBack:
-    .string "小悠：我要回老爸的\n研究所去。\l{PLAYER}，你也该快点回去。$"
+    .string "小悠：我要先回爸爸的\n研究所了，\l{PLAYER}，你也快点来吧！$"
 
 OldaleTown_Text_TownSign:
     .string "这里是古玫镇。\n“积微成著之地。”$"
