@@ -1024,11 +1024,11 @@ gText_ThankYouForAccessingMysteryGift::
 	.string "神秘礼物系统。$"
 
 gText_PlayerFoundOneTMHM::
-	.string "{PLAYER}发现一个{STR_VAR_1}\n"
+	.string "{PLAYER}找到了一个{STR_VAR_1}\n"
 	.string "{STR_VAR_2}！$"
 
 gText_PlayerFoundTMHMs::
-	.string "{PLAYER}发现了{STR_VAR_3}、{STR_VAR_1}\n"
+	.string "{PLAYER}找到了{STR_VAR_3}、{STR_VAR_1}\n"
 	.string "与{STR_VAR_2}！$"
 
 gText_Sudowoodo_Attacked::

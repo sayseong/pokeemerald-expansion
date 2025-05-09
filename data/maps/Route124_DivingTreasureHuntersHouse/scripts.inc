@@ -290,7 +290,7 @@ Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
     .string "告诉我，你见过\n古代工具的碎片吗？$"
 
 Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
-    .string "你没有找到什么宝藏啊……\p如果你发现了碎片，比如\n红色碎片，就来和我交换吧！$"
+    .string "你没有找到什么宝藏啊……\p如果你找到了碎片，比如\n红色碎片，就来和我交换吧！$"
 
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
     .string "哦，哈！那个……\n那是碎片！我找的就是它们！\p啊，拜托，跟我交换吧！\n我有好东西！$"
