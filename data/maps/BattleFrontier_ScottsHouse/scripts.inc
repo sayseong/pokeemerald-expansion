@@ -212,53 +212,53 @@ BattleFrontier_ScottsHouse_EventScript_ScottFaceAwayWest::
 	return
 
 BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier:
-    .string "亚希达：啊，欢迎！\n呵呵呵……抱歉这里空间有些狭窄。\p不管如何，{PLAYER}{KUN}，请让我\n正式欢迎你来到对战开拓区。\p这个地方就是我的梦想。\n经过了一年又一年，直到今天，\l我的梦想终于可以实现了。$"
+    .string "亚希达：欢迎欢迎！\n嘿嘿……抱歉空间有点狭窄。\p总之，{PLAYER}{KUN}，请让我\n正式欢迎你来到对战开拓区。\p这是我毕生梦想的实现，\n经过漫长的岁月终于得以成型。$"
 
 BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal:
-    .string "回头想想，这一路\n还真是走了很久很久……\p我独自离开家乡，\n只为寻找强大的训练家。\p谁也无法算清我在这一路上\n究竟付出了多少时间与汗水。$"
+    .string "回想起来，这一路还真是\n走了很久很久……\p独自离家踏上寻找\n强大训练家的旅程……\p其中所付出的时间与\n努力真是难以想象。$"
 
 BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing:
-    .string "但那些都已经过去了，\n没必要紧盯着过去不放！\p现在，从心底里好好享受\n在这里的战斗吧！\p{PLAYER}{KUN}，这个送给你，\n就作为我们那屡次交错的旅程\l的纪念吧。$"
+    .string "不说这些陈年往事了！\p我只希望你能在这里\n尽情享受对战！\p{PLAYER}{KUN}，请收下这个纪念我们\n旅途中屡次相遇的礼物。$"
 
 BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
     .string "{PLAYER}得到了\n{STR_VAR_1}对战点数。$"
 
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
-    .string "亚希达：你可以在开拓通行证上\n查看你对战点数的数量。\p你在对战开拓区\n获得的胜利越多，收集的\l对战点数就越多。\p这些对战点数你可以随便用，\n比如用来兑换道具。$"
+    .string "亚希达：你可以在开拓通行证上\n查看你对战点数的数量。\p你在对战开拓区\n获得的胜利越多，收集的\l对战点数就越多。\p这些对战点数随你所用，\n比如用来兑换道具什么的。$"
 
 BattleFrontier_ScottsHouse_Text_ExpectingGreatThings:
-    .string "期待你的精彩表现！$"
+    .string "期待你的更加精彩的表现！$"
 
 BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
-    .string "亚希达：每个训练家都是一个独特的人，\n他们都过着自己的生活。\p但当他们进行战斗的时候，\n他们是谁并不重要。\p他们都是一样的！\p我喜欢这样纯粹的战斗，\n大家都是平等的。\p因此我环游各地，寻找\n重视战斗的训练家，\l邀请他们来到这个地方。$"
+    .string "亚希达：每个训练家都是一个独特的人，\n他们都过着自己的生活。\p但当他们进行战斗的时候，\n他们是谁并不重要。\p他们都是一样的！\p我喜欢这样纯粹的战斗，\n大家都是平等的。\p因此我环游各地，\n寻找重视对战的训练家，\l邀请他们来到这个地方。$"
 
 BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain:
-    .string "亚希达：你与开拓之脑\n交过手了吗？\p你得到他们的\n象征了吗？\p开拓之脑是我从世界各地\n挑选出来的最强训练家，\p但我能肯定，看到你的能力，\n他们也会被吓一跳！$"
+    .string "亚希达：你与开拓之脑\n交过手了吗？\p还是说，你已经得到\n他们的象征了？\p开拓之脑是我从世界各地\n精挑细选出来的最强训练家，\p但我能肯定他们看到你的能力，\n也会大吃一惊！$"
 
 BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
-    .string "亚希达：你的目标不只是战斗吧？\n对吗？\p我好像还记得你也在\n收集宝可梦图鉴。\p想知道一个好消息吗？\p在对战开拓区某处\n你也能遇到野生宝可梦……\l哈哈哈！$"
+    .string "亚希达：你的目标不只是战斗吧？\n对吗？\p我好像还记得你也在\n收集宝可梦图鉴。\p猜猜怎么着？\p在对战开拓区的某些地方\n你也能遇到野生宝可梦……\l呼呼呼！$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
-    .string "亚希达：在对战开拓区\n玩得还高兴吗？\p……等等……\n啊！\p你的开拓通行证！\n你已经收集到了\l所有的银色象征！\p简直太不可置信了！\n和我预想中一样，你真的非常非常强！\p虽说通常我不会做这些，\n不过这次就让我破例一回！\p这个送给你，\n你肯定能善加利用的。$"
+    .string "亚希达：在对战开拓区\n玩得开心吗？\p……等等……\n啊！\p你的开拓通行证！\n你已经收集到了\l所有的银色象征！\p简直超乎想象！\n如我所料，你真的强大无比！\p虽说通常我不会这样，\n不过这次就让我破例一回！\p相信你一定\n能妥善使用。$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
-    .string "亚希达：希望你喜欢\n我的对战开拓区。\p……等等……\n啊，我不是眼花了吧！\p你的开拓通行证！\n你已经收集到了\l所有的金色象征！\p太了不起了！和我预想中一样，\n你真是个不可思议的人！\p…… …… ……\p{PLAYER}，你一定得收下这个！\p是你的话，一定能识得\n我的礼物的价值的！$"
+    .string "亚希达：希望你享受\n对战开拓区的一切。\p……等等……\n难以置信！\p你的开拓通行证！\n你已经收集到了\l所有的金色象征！\p简直神乎其技！\n如我所料，你真的无与伦比！\p…… …… ……\p{PLAYER}，请务必收下这个！\p相信你一定能理解\n这份礼物的价值！$"
 
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
-    .string "我可是有才能的，可以第一眼就\n看出训练家的实力。\p真高兴我的先见让我\n把你带到了这里！$"
+    .string "不得不说我有着与生俱来的\n鉴别优秀训练师的眼光。\p我当初能邀请你来\n真是有先见之明！$"
 
 BattleFrontier_ScottsHouse_Text_BerryPocketStuffed:
     .string "你的树果口袋好像\n已经塞满了。$"
 
 BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow:
-    .string "亚希达：啊，我听说过你的事了！\n你在对战塔干得不错！\l你一连打败了50个训练家？\p真让人惊讶！\n这个送给你！$"
+    .string "亚希达：啊，我听说过你的战绩了！\n称霸对战塔\n取得50连胜？\p太精彩了！\n把这个拿去吧！$"
 
 BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow:
-    .string "亚希达：啊，天哪，我听说过你的事了！\n你在对战塔干得太棒了！\l你一连打败了100个训练家？\p真令人不敢相信！\n这是送给你的奖励！$"
+    .string "亚希达：啊，天哪，我听说过你的战绩了！\n横扫对战塔\n取得100连胜？\p简直精彩绝伦！\n这是属于你的！$"
 
 BattleFrontier_ScottsHouse_Text_ExpectingToHearEvenGreaterThings:
-    .string "希望还能听到其他\n关于你的好消息！$"
+    .string "期待你更精彩的表现！$"
 
 BattleFrontier_ScottsHouse_Text_ComeBackForThisLater:
-    .string "哎，你装的东西太多了，\n收拾收拾再来吧。$"
+    .string "哦，你装的东西太多了，\n收拾收拾再来吧。$"
 

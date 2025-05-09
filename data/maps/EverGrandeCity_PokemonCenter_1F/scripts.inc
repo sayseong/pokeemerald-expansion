@@ -83,5 +83,5 @@ EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon:
     .string "漫长而艰苦的冠军之路……\p它就像是你人生中\n所经历的小路……\p相信自己的宝可梦并且\n给予它你的信心！$"
 
 EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou:
-    .string "亚希达：{PLAYER}{KUN}，你一路艰辛\n终于来到了宝可梦联盟！\p我为你感到高兴！\n你让我感到很骄傲！\p{PLAYER}{KUN}，如果你\n要去挑战联盟冠军……\p到时我会联系你的。\p好了，{PLAYER}{KUN}。\n为光荣而努力吧！$"
+    .string "亚希达：{PLAYER}{KUN}，\n你终于来挑战宝可梦联盟了！\p我真为你感到高兴！\n我的支持没有白费！\p{PLAYER}{KUN}，\n要是你成为了联盟冠军……\p那到时我会联系你的。\p好了，{PLAYER}{KUN}。\n去攀登巅峰吧！$"
 

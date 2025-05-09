@@ -735,7 +735,7 @@ PetalburgCity_Text_AreYouATrainer:
     .string "打扰了！\p看你的打扮，\n是个宝可梦训练家吧？$"
 
 PetalburgCity_Text_WellMaybeNot:
-    .string "…… …… ……\p呃，也许我猜错了。\n你的衣服并不是很脏，\p你不是个新人训练家，\n就是个普通的小孩子。$"
+    .string "…… …… ……\p嗯，也许不是。\n你的衣服看起来挺干净的……\p你可能是个新人训练家，\n或者只个普通的小孩子。$"
 
 PetalburgCity_Text_ImLookingForTalentedTrainers:
-    .string "抱歉，浪费你的时间了。\n我在这儿是为了\p寻找天才训练家。$"
+    .string "抱歉，占用你的时间了。\n我在这儿是为了\p寻找天才训练家。$"

@@ -529,7 +529,7 @@ BattleFrontier_OutsideWest_Text_BattleDomeSign2:
 
 @ Functionally unused
 BattleFrontier_OutsideWest_Text_QuestionMarkUnderConstruction:
-    .string "？？？？？？\n正在建设中……$"
+    .string "??????\n正在建设中……$"
 
 BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation:
     .string "当一位训练家连续在对战巨蛋\n中取得胜利，他/她\l将获得明星般的名誉。\p厉害的训练家将会慕名而来\n挑战对战巨蛋。\p真正的超级明星是能够不断\n赢得比赛的训练家。$"

@@ -814,4 +814,4 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
     .string "小悠：喂，{PLAYER}！\n你去过对战开拓区了吗？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
-    .string "…… …… ……\n…… …… ……哔！\p亚希达：喂，你好，{PLAYER}！\n是我，亚希达，\p我现在在破浪号上呢。\n在海上的感觉不错！\p顺便……\p有个地方希望\n你能去看看。\p感兴趣的话，就去\n凯那市或水静市乘游船吧。\p见面之后再跟你说详情，\n我等你！\p…… …… ……\n…… …… ……咔哒！$"
+    .string "…… …… ……\n…… …… ……哔！\p亚希达：嗨，{PLAYER}！\n是我，亚希达，\p我现在在破浪号上呢。\n在海上的感觉真是不错！\p对了……\p有个地方想邀请\n你能去看看。\p感兴趣的话，就去凯那市或\n水静市的码头去乘船吧。\p见面之后再跟你详细说，\n我等你！\p…… …… ……\n…… …… ……咔哒！$"

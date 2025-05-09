@@ -317,13 +317,13 @@ BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
     .string "希望您喜欢\n对战开拓区的一切！$"
 
 BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
-    .string "？？？：嗨，这不是{PLAYER}{KUN}吗！\n你来了！$"
+    .string "???：嗨，这不是{PLAYER}{KUN}吗！\n你终于来啦！$"
 
 BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay:
     .string "导游：啊，亚希达先生！\n您好！$"
 
 BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
-    .string "亚希达：很高兴能在这儿看见你，\n真的很高兴！\p希望你能在这儿好好转转，\n每个地方都去看看吧。\p当然，也希望你能在这里\n体会到战斗的精华。\p我在这儿也有住处，\n有空的话就过来歇歇脚吧。$"
+    .string "亚希达：能在这里见到你真是太好了，\n真的！\p希望你慢慢探索\n这里的每个角落。\p当然，也希望你能在这里\n体验到最纯粹的战斗精髓。\p我在这儿也有房间，\n有空记得随时来坐坐。$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFacilities:
     .string "我负责向您介绍\n对战开拓区的各种设施。$"

@@ -254,7 +254,7 @@ SSTidalCorridor_Movement_SailorReturn:
 	step_end
 
 SSTidalCorridor_Text_ScottBattleFrontierInvite:
-    .string "亚希达：哦，嘿！\n{PLAYER}{KUN}，{PLAYER}{KUN}！\p出了点事，我要下船\n一趟，但很高兴见到你！\p祝贺你成为联盟冠军！\p我想邀请像你这样的人\n去一个地方，\p那就是……\n对战开拓区！\p那是什么地方？\n你去了就知道了！\p我已经和船长\n说好了，\p你下次坐船的时候，\n就可以选择去\l对战开拓区了。\p就这样，{PLAYER}{KUN}，我会在\n对战开拓区等你的！$"
+    .string "亚希达：哎呀呀！\n{PLAYER}{KUN}，{PLAYER}{KUN}！\p虽然我有事要临时下船，\n但能见到你真是太高兴了！\p祝贺你成为联盟冠军！\p有个地方我想邀请像你\n这样的人前往，\p那就是……\n对战开拓区！\p那是什么地方？\n去了就知道啦！\p我已经和船长\n打过招呼了，\p你下次乘船的时候，\n就可以直接前往\l对战开拓区了。\p就这样，{PLAYER}{KUN}，\n我在对战开拓区等你！$"
 
 SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage:
     .string "本渡轮专为驶过急流\n而设计建造。\p我们希望能和您共度美好的旅程。\n请自由参观本船。$"

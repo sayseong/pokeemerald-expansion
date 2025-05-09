@@ -312,8 +312,8 @@ FallarborTown_BattleTentLobby_Text_CameToCampOut:
     .string "我听说过一些关于帐篷的事，\n所以才出来宿营，\p但我没想到现在的帐篷\n会这么豪华！\p既然都来了，就进去试试\n放手一搏吧！$"
 
 FallarborTown_BattleTentLobby_Text_ScottLookingForSomeone:
-    .string "亚希达：嗨，{PLAYER}{KUN}！\n你也来这里的对战帐篷了！\p这里的人看上去都\n不是特别强大，\p但你知道，\n我在找的是有……\p怎么说呢，\p有强烈的渴望\n和必胜信心的人。\p如果有那样的训练家，\n我马上就……\p唔哇！别介意！\n继续加油吧！$"
+    .string "亚希达：嗨，{PLAYER}{KUN}！\n你也来这里的对战帐篷了！\p这里的人看上去大多都\n比较悠然自得，\p但你知道，\n我在寻找的是有……\p怎么说呢，\p胸怀强烈的求胜\n渴望与决心的人。\p如果有那样的训练家，\n我马上就……\p啊！没什么！\n继续加油吧！$"
 
 FallarborTown_BattleTentLobby_Text_ScottMakeChallenge:
-    .string "亚希达：比起为了我的爱好\n而浪费时间，何不\l试着去挑战一下？$"
+    .string "亚希达：与其同我闲聊浪费时间，\n何不试着去挑战一下呢？$"
 

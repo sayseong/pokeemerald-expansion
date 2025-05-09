@@ -1159,19 +1159,19 @@ SlateportCity_Text_ComeBackToTradeBerryPowder:
     .string "想用树果粉末交换\n药的话随时可以再来，\p我会一直在这里收购。\p知道吗？$"
 
 SlateportCity_Text_YouDroveTeamAquaAway:
-    .string "亚希达：嗯？\n我以前见过你。\p我没向你介绍过自己吗？\n我叫亚希达，\p刚才看到海洋队\n好像很慌张地逃跑了，\p我想——是你赶走他们的吧？$"
+    .string "亚希达：嗯？\n我想我以前见过你。\p我有没有向你做过自我介绍？\n我叫亚希达，\p刚才看到海洋队\n好像很慌张地逃跑了，\p我想——是你赶走他们的吧？$"
 
 SlateportCity_Text_MaybeThisTrainer:
-    .string "亚希达：嗯……\n也许，只是也许，这个训练家……$"
+    .string "亚希达：唔……\n也许，说不定，这个训练家……$"
 
 SlateportCity_Text_LetsRegisterEachOther:
-    .string "亚希达：好吧！我想我们\n会成为好朋友的。\p我们在各自的宝可导航里\n登记信息吧。\p…… …… ……$"
+    .string "亚希达：好！我觉得我们\n能成为好朋友。\p我们互相在宝可导航里\n登记信息吧。\p…… …… ……$"
 
 SlateportCity_Text_RegisteredScott:
     .string "把亚希达\n登记到宝可导航里了。$"
 
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
-    .string "亚希达：虽然我想跟你同行，\n但我还得去找其他\l有才能的训练家。\p我会去其他城市\n逛逛的。\p那么，回头见，{PLAYER}{KUN}！$"
+    .string "亚希达：虽然我想跟你同行，\n但我还得去考察其他\l训练家的才能。\p我会去其他城市\n再稍微逛逛的。\p那么，回头见，{PLAYER}{KUN}！$"
 
 SlateportCity_Text_TakingBattleTentChallenge:
-    .string "亚希达：喂，好啊！\n这不是{PLAYER}{KUN}吗！\p{PLAYER}{KUN}，我猜——你\n要去挑战对战帐篷吧？\p好主意！\n真是个好主意！\p毕竟，只有强大的训练家\n才敢挑战对战帐篷！\p尽自己最大的努力取胜吧！$"
+    .string "亚希达：哦！\n这不是{PLAYER}{KUN}吗！\p{PLAYER}{KUN}，我猜——你\n要去挑战对战帐篷吧？\p好主意！\n很棒的主意！\p对战帐篷就是需要\n强大的训练家！\p拿出全力去取胜吧！$"
