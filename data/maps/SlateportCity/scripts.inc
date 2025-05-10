@@ -1087,7 +1087,7 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery:
     .string "噢！{PLAYER}{KUN}！\n你精神真不错！\p在我们上次勘探中\n有个大发现，\p在128号水路上\n有个海底洞窟。\p我们认为这可能是一种\n被认为灭绝了很久的宝可梦的栖息地。$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
-    .string "哼哼哼……\n楠木馆长，打扰了，\p你的潜水艇\n我们海洋队征用了！\p反抗是没用的！\n希望你好好配合！\p哼哼哼……\n你就好好看看我们海洋队的\l宏伟计划吧！$"
+    .string "哼哼哼……\n想必是楠木馆长吧？\p你的这艘潜水艇\n我们海洋队征用了！\p抗议无效！\n给我们好好老实配合！\p哼哼哼……\n你就好好见识一下我们\l海洋队的宏图大业吧！$"
 
 SlateportCity_Text_SternWhatWasAllThat:
     .string "楠木馆长：怎么回事？\p听起来好像是\n有人在用扩音器说话……\p声音是从哪儿来的？$"

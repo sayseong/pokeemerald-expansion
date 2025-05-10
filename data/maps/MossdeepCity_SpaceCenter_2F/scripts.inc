@@ -407,13 +407,13 @@ MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou:
     .string "哼哼哼！\p我们一路到了这里想要\n抢些燃料，却又有人来碍事！\p你如果也想卷进来，\n我们还足以对付你！$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
-    .string "赤焰松：别挡路！\n你敢挡我吗？$"
+    .string "赤焰松：让开！\n别多管闲事！$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel:
     .string "大吾：熔岩队……\p你们要火箭燃料\n做什么？$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
-    .string "赤焰松：哼哼哼……\n你这么好奇的话，告诉你也无妨，\p我们要把那些燃料\n全部扔到烟囱山里去！\p既然固拉多已经离开了，\n那山上的渣滓都没什么用了！\p我们要用燃料的力量\n让火山喷发！\p那会很壮观的！$"
+    .string "赤焰松：哼哼哼……\n你这么好奇的话，告诉你也无妨，\p我们要把那些燃料\n全部投入到烟囱山里！\p既然固拉多已经离开了，\n那么那座破火山也没什么价值了！\p我们要用燃料的力量\n引发火山喷发！\p那样才壮观！$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle:
     .string "大吾：{PLAYER}{KUN}！\n你来帮我吗？\p并肩战斗吧！\n准备好了吗？$"
@@ -422,16 +422,16 @@ MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly:
     .string "大吾：那么快点！\n赶快准备好！$"
 
 MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand:
-    .string "我只是想……\n扩展大地而已……$"
+    .string "我只是想……\n拓展大地而已……$"
 
 MossdeepCity_SpaceCenter_Text_TabithaDefeat:
     .string "我和老大在一起……$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
-    .string "赤焰松：我们没能\n让火山爆发……\p也没能在固拉多觉醒后\n控制它……\p我们扩展大陆的目标\n错了吗？\p…… …… ……\n…… …… ……\p如果……\n如果我们熔岩队错了……\l…… …… ……\p那么，海洋队扩展海洋的目标\n也许也是错的？$"
+    .string "赤焰松：我们没能\n让火山爆发……\p也没能在固拉多觉醒后\n控制它……\p难道我们拓展大地的\n目标错了吗？\p…… …… ……\n…… …… ……\p如果……\n如果我们熔岩队错了……\l…… …… ……\p那么，海洋队扩张海洋的\n目标也同样……$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
-    .string "赤焰松：好吧……\n我们放弃……\p还有些更重要的事情\n我得去调查……$"
+    .string "赤焰松：好吧……\n我们放弃燃料……\p我还有些更重要的事情\n得去确认……$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
-    .string "大吾：呼，好紧张。\n{PLAYER}{KUN}，谢谢你。\p为了感谢你的帮忙，\n我有些东西要送给你。\p过后到我家\n来一趟吧。\p啊，没错，我的家不在卡那兹市，\n我就住在这岛上。$"
+    .string "大吾：呼，真是紧张。\n{PLAYER}{KUN}，谢谢你。\p为了感谢你的帮忙，\n我有些东西要送给你。\p过后到我家\n来一趟吧。\p啊，没错，我的家不在卡那兹市，\n我就住在这岛上。$"

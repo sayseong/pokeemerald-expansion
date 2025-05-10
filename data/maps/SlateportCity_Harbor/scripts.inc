@@ -426,7 +426,7 @@ SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
     .string "楠木馆长：那些混账……\p他们和上次在博物馆\n抢得文的物品的人是一伙儿的。$"
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
-    .string "水梧桐：嗯？\n怎么又是你……\p坚持不懈地一路追我们到这儿来，\n真是辛苦你了。\p但现在……\n没人能阻止我们！没有人！\p还是说，你想追着我们\n回水静市的基地吗？\p哇哈哈哈哈……$"
+    .string "水梧桐：哦？\n又是你……\p坚持不懈地一路追到这里来，\n真是辛苦你了。\p但现在……\n谁也无法阻止我们！谁也不能！\p还是说你有胆量追着我们\n回水静市的基地吗？\p呵哈哈哈哈……$"
 
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
     .string "楠木馆长：为什么……\p为什么海洋队要抢我的\n海渊1号？\p他们不会是要去寻找\n那只沉睡在海底的宝可梦吧……\p但就算我追上去，\n也对付不了他们……$"

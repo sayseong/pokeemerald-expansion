@@ -170,16 +170,16 @@ MagmaHideout_4F_Text_TabithaPostBattle:
     .string "……在你和我周旋的时候，\n赤焰松应该已经唤醒了固拉多……$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
-    .string "赤焰松：固拉多……\p无论怎样也不会\n从岩浆中苏醒的你……\p一直在寻求的，\n是靛蓝色宝珠吧？\p我带来了靛蓝色宝珠。\n就让它的光芒唤醒你吧！\p展示给我……\n把你全部的力量展示给我！$"
+    .string "赤焰松：固拉多……\p无论怎样也不会\n从岩浆中苏醒的你……\p一直在寻求的，\n是这个靛蓝色宝珠吧？\p我已带来了靛蓝色宝珠。\n就让它的光芒唤醒你吧！\p向我展示……\n展示的你全部的力量吧！$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
-    .string "赤焰松：固拉多！\n怎么回事？\p难道靛蓝色宝珠也不行吗？\p固拉多！\n你去哪里了……$"
+    .string "赤焰松：固拉多！\n怎么回事？\p难道靛蓝色宝珠不行吗？\p固拉多！\n你去哪了……$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou:
-    .string "赤焰松：哦，是你？\p我早就看见你一直\n在偷偷摸摸东张西望……\p我明白了！\n肯定是你耍了什么花招！$"
+    .string "赤焰松：哦，原来是你？\p我早就注意到你一直\n到处鬼鬼祟祟的……\p明白了！\n一定是你动了手脚！$"
 
 MagmaHideout_4F_Text_MaxieDefeat:
-    .string "你使用宝可梦为什么如此\n纯熟？$"
+    .string "你为什么能如此娴熟地\n指挥宝可梦？$"
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
-    .string "赤焰松：固拉多逃跑肯定\n是有什么原因的……\p你是这个意思，\n对不对？\p…… …… ……\n…… …… ……\p哼……\n你以为我不知道？\p固拉多逃走了，我也没必要\n待在这座破火山里了。\p我去追固拉多，\n告辞了！$"
+    .string "赤焰松：固拉多逃跑\n另有原因……\p你想说这个，\n对不对？\p…… …… ……\n…… …… ……\p哼……\n你以为我不知道吗？\p既然固拉多走了，\n这座破火山也没意义了。\p我要去追固拉多，\n告辞了！$"

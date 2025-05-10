@@ -246,26 +246,26 @@ Route128_EventScript_Carlee::
 	end
 
 Route128_Text_ArchieWhatHappened:
-    .string "水梧桐：发生了什么……\n这种不幸的场面……\p我……犯了大错了吗？$"
+    .string "水梧桐：怎么会这样……\n这惨状……\p难道我……犯下大错了？$"
 
 Route128_Text_ArchieIOnlyWanted:
-    .string "我……\n我只是想……$"
+    .string "我……\n我只想……$"
 
 Route128_Text_MaxieDoYouUnderstandNow:
-    .string "赤焰松：你现在明白了吗，\n水梧桐？\p你总算明白你的想法\n造成了多大的灾难了吗？\p我们得快点行动了！\n必须在一切完全失去控制前\l做些什么！$"
+    .string "赤焰松：现在明白了吗，\n水梧桐？\p你总算明白你所谓的梦想\n酿成多大的灾难了吗？\p我们得抓紧时间！\n我们得在局势彻底\n失控前做些什么！$"
 
 Route128_Text_MaxieResposibilityFallsToArchieAndMe:
-    .string "赤焰松：{PLAYER}，什么都别说。\p我知道我没资格\n批评水梧桐……\p我想，到了现在，\n我们人类已经\l做不了什么了。\p但我们也不能站在这儿\n眼睁睁地看着这一切。\p我和水梧桐有责任\n去结束这一切……$"
+    .string "赤焰松：{PLAYER}，不用说了……\p我知道自己没资格\n批评水梧桐……\p但事已至此，以我们人类的力量而言，\n恐怕已经无力回天了。\p但我们也不能只是\n束手无策地旁观。\p我和水梧桐必须承担起责任\n来终结我们造成的这一切……$"
 
 Route128_Text_MaxieThisDefiesBelief:
-    .string "赤焰松：不可置信……\p那些超古代宝可梦……\p它们的力量简直让人不敢相信。\n它们打破了自然的平衡……$"
+    .string "赤焰松：难以置信……\p那些超古代宝可梦……\p它们的力量简直超乎想象。\n它们打破了自然的平衡……$"
 
 Route128_Text_StevenWhatIsHappening:
-    .string "大吾：{PLAYER}{KUN}！\n发生了什么？$"
+    .string "大吾：{PLAYER}{KUN}！\n这究竟……？$"
 
 Route128_Text_StevenWholeWorldWillDrown:
-    .string "太可怕了……\p足以烤干大地的热浪之后，\n又是淹没一切的洪水。\p这样下去的话，整个丰缘地区……\n不，是整个世界都会毁灭的。\p巨大的雨云不断\n从琉璃市上空飘来……\p究竟哪里发生了什么？\p没时间抱怨了……\n琉璃市会说明一切……$"
+    .string "太糟糕了……\p足以烤干大地的热浪之后，\n又是淹没一切的洪水。\p这样下去的话，整个丰缘地区……\n不，是整个世界都会毁灭的。\p巨大的雨云不断\n从琉璃市上空飘来……\p那里究竟发生了什么？\p没时间思考了……\n答案应该就在琉璃市那里……$"
 
 Route128_Text_StevenImGoingToSootopolis:
-    .string "{PLAYER}{KUN}……\n我不知道你想做什么，\l但千万不要草率行事。\p好了，\n我先去琉璃市了。$"
+    .string "{PLAYER}{KUN}……\n我不知道你怎么打算，\l但千万不要勉强。\p好了，\n我先去琉璃市了。$"
 

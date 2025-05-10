@@ -256,10 +256,10 @@ MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma:
     .string "老大，我们应该去追赶\n熔岩队……$"
 
 MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo:
-    .string "水梧桐：对，没错！\n我们得抓紧了。\p还不知道熔岩队\n要对烟囱山做什么！$"
+    .string "水梧桐：没错！\n我们得抓紧了。\p谁知道熔岩队会在\n烟囱山搞什么鬼！$"
 
 MeteorFalls_1F_1R_Text_ArchieFarewell:
-    .string "水梧桐：{PLAYER}，你也应该\n盯紧熔岩队。\p后会有期！$"
+    .string "水梧桐：{PLAYER}，你也应该\n提防点熔岩队。\p后会有期！$"
 
 MeteorFalls_1F_1R_Text_MeetProfCozmo:
     .string "我……我是索蓝斯……\n是一名教授……\p熔岩队要我带他们去\n流星瀑布……\p但是他们骗了我。\n甚至拿走了我的陨石……\p然后和他们相似的组织\n海洋队出现了。\p在那之后……\n我什么都不知道。\p但是那个熔岩队……\p他们会用\n陨石对烟囱山做什么呢？$"

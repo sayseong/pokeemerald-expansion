@@ -549,25 +549,25 @@ MtChimney_EventScript_SawyerRematch::
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano:
-    .string "蕴含在陨石的能量……\p用这机器放大这能量的话，\n烟囱山的火山活动\l马上会加剧的……\p这能量会直达火山口深处，\n然后……\l呵呵呵……$"
+    .string "蕴含在陨石中的能量……\p用这机器放大的话，\n烟囱山的火山活动\l瞬间就会加剧……\p这能量会在火山口深处积聚，\n然后……\l呵呵呵……$"
 
 MtChimney_Text_MaxieIntro:
-    .string "赤焰松：嗯？\n你是谁？\p…… …… ……\n…… …… ……\p我听水梧桐那家伙在抱怨说\n有个小孩把海洋队的计划\l全盘搅乱了，\p他说的就是你吧。\p哼！莫非你还想\n碍我们熔岩队的事？\p听着，\n很久以前，世界上的生命\l都是依靠大地生存与成长的，\p因此大地才会如此重要！\n它是一切生命的摇篮！\p也正因此我们熔岩队才会\n奉献出自己的一切来扩展大地。\p这是为了人类和宝可梦\n长远发展！\p为此，我们需要在这座山里\n沉睡的能量……\p哦！没必要告诉你\n这么多。\p不过，没关系！\n我会告诉你干涉我们的崇高的目标\l会有什么后果！$"
+    .string "赤焰松：嗯？\n你是谁？\p…… …… ……\n…… …… ……\p我听水梧桐那家伙在抱怨说\n有个孩子把海洋队的行动\l全都搅乱了，\p看来说的一定就是你吧。\p哼！你莫非还想\n妨碍我们熔岩队吗？\p听好了！远古时代，\n生物都是依赖陆地生存繁衍的。\p因此陆地至关重要！\n它是万物的摇篮！\p也正因此熔岩队才会\n致力于拓展大地。\p这是为了人类和宝可梦\n长远发展！\p为此，我们才需要在这座山里\n沉睡的力量……\p哦！没必要告诉你\n这么多。\p不过无所谓！\n我让你明白你妨碍我们的\l伟大计划会有什么下场！$"
 
 MtChimney_Text_MaxieDefeat:
-    .string "什么？！\p我，赤焰松，居然会被打败？！$"
+    .string "什么？！\p我，赤焰松，居然大意了？！$"
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
-    .string "赤焰松：哼，\n这次就先算了。\p但别以为我们熔岩队\n不会再出现了。\p哼哼哼……\p就算没有陨石，只要\n那个宝玉还在我们手上……哼哼哼……$"
+    .string "赤焰松：哼，罢了。\n这次暂且撤退。\p但别以为我们熔岩队\n会就此罢休。\p呵呵呵……\p哪怕没有陨石，\n只要能得到那个宝玉……哼哼哼……$"
 
 MtChimney_Text_TabithaIntro:
-    .string "呵呵呵！\p你还是追来了！\p可惜太迟了！\n我已经把流星瀑布的\l陨石交给老大了！$"
+    .string "嘿嘿嘿！\p你还是追来了！\p可惜太迟了！\n我已经把流星瀑布的\l陨石交给老大了！$"
 
 MtChimney_Text_TabithaDefeat:
-    .string "呵呵呵……\p我输了不要紧，只要我们的头儿\n能唤醒那家伙……$"
+    .string "嘿嘿嘿……\p我输了不要紧，只要我们的老大\n能唤醒那家伙……$"
 
 MtChimney_Text_TabithaPostBattle:
-    .string "老大，快！\n把陨石的力量交给它！\p呵呵呵……$"
+    .string "老大，快！\n把陨石的能量给它！\p嘿嘿嘿……$"
 
 MtChimney_Text_Grunt2Intro:
     .string "我们熔岩队\n是为了大家而努力着。\p比如说，如果那家伙的力量能制造更多\n土地，人们生活的空间会越来越多。\p大家都会很高兴的！$"
@@ -609,19 +609,19 @@ MtChimney_Text_Bufoh:
     .string "呼喔！$"
 
 MtChimney_Text_ArchieGoStopTeamMagma:
-    .string "水梧桐：唔唔，{PLAYER}！\n我该猜到你会出现的！\p自己看看熔岩队\n的所作所为吧！\p他们居然想把偷来的陨石\n的力量引入火山里面！\p这种举动会\n引起火山爆发的！$"
+    .string "水梧桐：唔唔，{PLAYER}！\n早该猜到你会来！\p亲眼看看熔岩队\n的所作所为吧！\p他们居然想把偷来的陨石\n的能量注入火山里！\p这样会引发\n火山爆发的！$"
 
 MtChimney_Text_ArchieIHaveMyHandsFull:
-    .string "水梧桐：唔唔……\p我想要阻止赤焰松，\n但做不到！\p同时对付三个对手\n已经让我忙不过来了！$"
+    .string "水梧桐：唔唔……\p我想要阻止赤焰松，\n但做不到！\p同时对付三个对手\n已经让我分身乏术了！$"
 
 MtChimney_Text_ArchieThankYou:
-    .string "水梧桐：{PLAYER}！\n谢谢！\p多亏你帮忙，我们才能挫败\n熔岩队的破坏计划！\p可是……你……\n到底站在哪边？\p啊，这不重要。\p我们会保持警惕\n继续追击熔岩队的。\p{PLAYER}，后会有期！$"
+    .string "水梧桐：{PLAYER}！\n谢谢！\p多亏你帮忙，我们才能挫败\n熔岩队的破坏计划！\p不过……你……\n到底站在哪边？\p算了，无所谓。\p我们会保持警惕\n继续追击熔岩队的。\p{PLAYER}，后会有期！$"
 
 MtChimney_Text_MagmaOutnumbersUs:
     .string "可恶……熔岩队比我们人多！\n我们阻止不了他们！$"
 
 MtChimney_Text_LessHabitatForWaterPokemon:
-    .string "如果任他们扩展陆地，水属性\n宝可梦们的生存空间就会减少了！$"
+    .string "如果任他们拓展陆地，水属性\n宝可梦们的生存空间就会减少了！$"
 
 MtChimney_Text_MagmasNameSimilar:
     .string "我们是海洋队！\p他们是熔岩队！\p这种容易混淆的名字\n真气死我了！$"
