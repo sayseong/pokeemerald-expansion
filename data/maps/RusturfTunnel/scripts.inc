@@ -431,19 +431,19 @@ RusturfTunnel_Text_Peeko:
     .string "小皮：皮——皮可！$"
 
 RusturfTunnel_Text_GruntIntro:
-    .string "靠，不是吧！\p那只宝可梦看起来\n没用了！\p没想到……\n我竟然逃进了一个没有出口的隧道！\p嘿！说你呢！\n你想要和我战斗？$"
+    .string "该死，白忙了！\p那只当人质的宝可梦\n根本完全排不上用场！\p亏我还拼命逃跑……\n逃进了一个没有出口的隧道！\p嘿！说你呢！\n你想要和我打一场？$"
 
 RusturfTunnel_Text_GruntDefeat:
-    .string "呃！我犯罪的生涯看样子\n要结束了！$"
+    .string "呃啊啊！我的犯罪生涯\n看来要到头了！$"
 
 RusturfTunnel_Text_GruntTakePackage:
-    .string "很明显这不对……\p老大明明告诉我\n这是个很简单的工作。\p我要做的就是从\n得文偷个包裹。\p嗯！\n既然你那么想要回，拿着它！$"
+    .string "这显然不对……\p老大明明告诉我\n这是份很简单的工作。\p我要做的就是从\n得文偷个包裹而已。\p切！\n既然你那么想要回，拿着！$"
 
 RusturfTunnel_Text_PeekoGladToSeeYouSafe:
-    .string "小皮！\n我很高兴看到你很安全！$"
+    .string "小皮！\n你平安无事真是太好了！$"
 
 RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
-    .string "小皮欠你一条命！\p他们叫我哈奇。\n那么，你是？\p…… …… …… ……\n…… …… …… ……\p啊，你是{PLAYER}{KUN}！\n我真心感谢你！\p现在，如果你有什么事\n请一定要告诉我！\p你可以在我的小木屋找到我\n在橙华森林的海边。\p来吧，小皮，我们\n回家了。\p小皮：皮可！$"
+    .string "你是小皮的救命恩人啊！\p大家都叫我哈奇老人。\n你是……？\p…… …… …… ……\n…… …… …… ……\p原来如此，是{PLAYER}{KUN}啊！\n真的太感谢你了！\p以后遇到什么困难\n尽管来找我！\p我平时就住在橙华森林\n附近的海边小屋。\p来吧，小皮，\n我们回家了。\p小皮：皮可！$"
 
 RusturfTunnel_Text_WhyCantTheyKeepDigging:
     .string "……\p为什么他们不继续挖了？\n是因为岩床太硬吗？\p我心爱的人就在那一边的绿茵镇\n等着我……\p如果能挖通这条隧道\n连接起卡那兹市和绿茵镇，\l我就能每天见到她了……\p可是现在……\n我该怎么办？$"
@@ -458,13 +458,13 @@ RusturfTunnel_Text_ExplainStrength:
     .string "那个秘传学习器里面\n是怪力。\p让力量大的宝可梦学会的话，\n就能够移动更大的\l石头了。$"
 
 RusturfTunnel_Text_WandaReunion:
-    .string "满盈！\n现在我可以随时看到你了！\p满盈：这真是……太好了。\p来，到我家好好休息吧。$"
+    .string "满盈！\n现在我可以随时看到你了！\p满盈：真是……太好了。\p来，到我家好好休息吧。$"
 
 RusturfTunnel_Text_BoyfriendOnOtherSideOfRock:
-    .string "在岩石的另一边……\n有我的男友。\p他……他并不单单是为了见我而\n挖这条隧道，\p他用自己的双手辛苦地挖掘着，\n也是为了大家。$"
+    .string "在岩石的另一边……\n是我的男朋友。\p他……他不光是为了见我\n而挖这条隧道，\p他用自己的双手辛苦地挖掘着，\n也是为了大家。$"
 
 RusturfTunnel_Text_MikeIntro:
-    .string "你怎么称呼住在山里的野人？\n登山者，对吗？\p为什么不把生活在山里的宝可梦\n称作山宝可梦呢？$"
+    .string "你怎么称呼住在山里的野人？\n山男，对不对？\p为什么不把生活在山里的宝可梦\n叫作山宝可梦呢？$"
 
 RusturfTunnel_Text_MikeDefeat:
     .string "我的宝可梦……\n耗尽力量了……$"

@@ -483,7 +483,7 @@ Route109_Text_BrineySailToDewfordQuestion:
     .string "哈奇：我以为你要\n去送得文的物品。\p那么，你想\n回武斗镇去吗？$"
 
 Route109_Text_BrineyDewfordItIs:
-    .string "哈奇：那么，向武斗镇出发！\p起锚！\n小皮，宝贝儿，出海了！$"
+    .string "哈奇：武斗镇是吗？\p起锚咯！\n小皮，亲爱的，我们出海了！$"
 
 Route109_Text_BrineyDeliverDevonGoods:
     .string "哈奇：那么你去送得文的物品吧，\n我就在这儿等着。$"

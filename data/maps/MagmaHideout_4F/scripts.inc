@@ -161,13 +161,13 @@ MagmaHideout_4F_Text_Grunt13PostBattle:
     .string "来——来吧，再战一回……$"
 
 MagmaHideout_4F_Text_TabithaIntro:
-    .string "嘿嘿！既然你都\n打到这里了，那我就告诉你吧！\p正如你所料！\n固拉多就在前面沉睡着！\p赤焰松刚刚已经\n进去找固拉多了！\p它不久就要苏醒了！\n嘿嘿！嘿嘿！$"
+    .string "嘿嘿嘿！看在你这么努力的份上，\n我就告诉你好了！\p没错！\n固拉多就在前方沉睡着！\p赤焰松刚刚已经\n过去找固拉多了！\p它很快就要被唤醒了！\n嘿嘿！嘿嘿嘿！$"
 
 MagmaHideout_4F_Text_TabithaDefeat:
-    .string "又输了……\n嘿嘿……$"
+    .string "又输给你了……\n嘿嘿嘿……$"
 
 MagmaHideout_4F_Text_TabithaPostBattle:
-    .string "……在你和我周旋的时候，\n赤焰松应该已经唤醒了固拉多……$"
+    .string "……在你和我浪费时间的时候，\n赤焰松应该已经唤醒了固拉多……$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
     .string "赤焰松：固拉多……\p无论怎样也不会\n从岩浆中苏醒的你……\p一直在寻求的，\n是这个靛蓝色宝珠吧？\p我已带来了靛蓝色宝珠。\n就让它的光芒唤醒你吧！\p向我展示……\n展示的你全部的力量吧！$"

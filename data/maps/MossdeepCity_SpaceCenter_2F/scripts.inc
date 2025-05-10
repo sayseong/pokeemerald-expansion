@@ -425,7 +425,7 @@ MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand:
     .string "我只是想……\n拓展大地而已……$"
 
 MossdeepCity_SpaceCenter_Text_TabithaDefeat:
-    .string "我和老大在一起……$"
+    .string "我和我们的老大……$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
     .string "赤焰松：我们没能\n让火山爆发……\p也没能在固拉多觉醒后\n控制它……\p难道我们拓展大地的\n目标错了吗？\p…… …… ……\n…… …… ……\p如果……\n如果我们熔岩队错了……\l…… …… ……\p那么，海洋队扩张海洋的\n目标也同样……$"
@@ -434,4 +434,4 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
     .string "赤焰松：好吧……\n我们放弃燃料……\p我还有些更重要的事情\n得去确认……$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
-    .string "大吾：呼，真是紧张。\n{PLAYER}{KUN}，谢谢你。\p为了感谢你的帮忙，\n我有些东西要送给你。\p过后到我家\n来一趟吧。\p啊，没错，我的家不在卡那兹市，\n我就住在这岛上。$"
+    .string "大吾：呼，千钧一发。\n{PLAYER}{KUN}，谢谢你。\p为了感谢你的帮忙，\n我有些东西要送给你。\p等会到我家来一趟吧。\p啊，没错，我的家不在卡那兹市，\n我就住在这岛上。$"

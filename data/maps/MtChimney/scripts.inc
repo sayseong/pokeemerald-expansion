@@ -561,13 +561,13 @@ MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
     .string "赤焰松：哼，罢了。\n这次暂且撤退。\p但别以为我们熔岩队\n会就此罢休。\p呵呵呵……\p哪怕没有陨石，\n只要能得到那个宝玉……哼哼哼……$"
 
 MtChimney_Text_TabithaIntro:
-    .string "嘿嘿嘿！\p你还是追来了！\p可惜太迟了！\n我已经把流星瀑布的\l陨石交给老大了！$"
+    .string "嘿嘿嘿！\p你总算是来了！\p可惜太迟了！\n我已经把流星瀑布的\l陨石交给老大了！$"
 
 MtChimney_Text_TabithaDefeat:
     .string "嘿嘿嘿……\p我输了不要紧，只要我们的老大\n能唤醒那家伙……$"
 
 MtChimney_Text_TabithaPostBattle:
-    .string "老大，快！\n把陨石的能量给它！\p嘿嘿嘿……$"
+    .string "老大，快！\n把陨石的能量输送给它！\p嘿嘿嘿……$"
 
 MtChimney_Text_Grunt2Intro:
     .string "我们熔岩队\n是为了大家而努力着。\p比如说，如果那家伙的力量能制造更多\n土地，人们生活的空间会越来越多。\p大家都会很高兴的！$"

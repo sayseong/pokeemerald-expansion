@@ -238,19 +238,19 @@ Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
     .string "哼，那又怎么样？\n我们想要的……\p我们真正想要的并不在这里……\n咿哈哈哈哈……$"
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro:
-    .string "啊哈哈哈哈！\p你想干涉我们海洋队的\n行动吗？\p你是无畏，还是无知，\n或是两者兼有呢？\p太可爱了，太可恨了！\n我这就打倒你，小东西！$"
+    .string "啊哈哈哈哈！\p竟敢插手我们\n海洋队的行动吗？\p你是无畏，还是无知，\n或是两者兼有呢？\p太可爱了，太可恨了！\n我这就打倒你，小家伙！$"
 
 Route119_WeatherInstitute_2F_Text_ShellyDefeat:
-    .string "啊哈哈哈哈！\n你的强大还真是讨厌！$"
+    .string "啊哈哈哈哈！\n你强大得真是讨厌！$"
 
 Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
-    .string "有熔岩队在周围没头苍蝇似的\n乱晃就够讨厌了，现在又多了个你！\p你究竟为什么要\n调查我们的事情？$"
+    .string "有熔岩队在周围没头苍蝇似的\n乱晃就够讨厌了，现在又多了个你！\p你究竟为什么要\n插手我们的事情？$"
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
     .string "这儿是我们的地方！\p有群熔岩队的家伙刚刚\n经过天气研究所，\p他们应该是去\n送神山了！$"
 
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
-    .string "什么？！\p我们不能再在这里浪费时间了！\n我们也得赶紧去送神山了！\p啊哈哈哈哈！\n熔岩队，你们等着！$"
+    .string "什么？！\p我们不能再在这里浪费时间了！\n我们也得赶紧去送神山了！\p啊哈哈哈哈！\n熔岩队，你们给我等着！$"
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon:
     .string "谢谢！\n多亏你救了我们！\p也许作为谢礼有点奇怪，\n不过，收下这只宝可梦吧。$"

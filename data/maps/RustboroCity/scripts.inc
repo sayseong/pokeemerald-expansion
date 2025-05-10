@@ -1043,7 +1043,7 @@ RustboroCity_Text_MrBrineyWalksInTheTunnel:
     .string "老水手哈奇住在\n海边的小屋里，\p他经常去\n隧道里散步。$"
 
 RustboroCity_Text_MrBrineyLovesPeeko:
-    .string "老水手哈奇住在\n海边的小屋里，\p他说要去凯那市\n为他的宠物小皮买些东西。\p那个老水手\n一定很爱他的皮可。$"
+    .string "老水手哈奇住在\n海边的小屋里，\p他说要去凯那市\n为他的宠物小皮买些东西。\p那个老水手\n一定很爱他的小皮。$"
 
 RustboroCity_Text_WowYouHavePokemon:
     .string "哇，你也带着宝可梦！\p我长大以后\n也要带宝可梦一起去旅行。$"

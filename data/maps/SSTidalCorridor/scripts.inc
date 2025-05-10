@@ -284,7 +284,7 @@ SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole:
     .string "舷窗外地平线\n愈加宽广。$"
 
 SSTidalCorridor_Text_BrineyWelcomeAboard:
-    .string "哈奇：欢迎上船，{PLAYER}{KUN}！\p我被选作破浪号的\n荣誉船长了！\p现在你可以叫我船长哈奇了！\p其实我已经是退休的人了，\n但当我看见这艘豪华的渡轮时……\p可以说，它唤醒了我心中的\n水手之魂！$"
+    .string "哈奇：欢迎上船，{PLAYER}{KUN}！\p我被选作破浪号的\n荣誉船长了！\p现在你可以叫我船长哈奇了！\p其实我本已是退休的人了，\n但当我看见这艘雄伟的渡轮时……\p怎么说呢，它唤醒了我心中的\n水手之魂！$"
 
 SSTidalCorridor_Text_Peeko:
     .string "小皮：皮可皮可……$"

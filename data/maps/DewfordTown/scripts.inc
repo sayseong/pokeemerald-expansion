@@ -652,22 +652,22 @@ DewfordTown_Text_HallSign:
     .string "武斗镇大厅\n“信息交换处！”$"
 
 Route104_Text_LandedInDewfordDeliverLetter:
-    .string "哈奇：喂！\n我们到武斗镇了。\p我想你要去给那个，大吾，\n送信是吧！$"
+    .string "哈奇：喂！\n我们到武斗镇啦！\p我想你要去给那个……大吾，\n送信是吧！$"
 
 DewfordTown_Text_SetSailBackToPetalburg:
-    .string "哈奇：\n你已经送完信了吗？\p还是你想\n回橙华市去？$"
+    .string "哈奇：你已经送完信了吗？\p还是你想回橙华市去？$"
 
 DewfordTown_Text_PetalburgWereSettingSail2:
     .string "哈奇：目标，橙华市！\p起锚！\n小皮，亲爱的，出海了！$"
 
 DewfordTown_Text_GoDeliverIllBeWaiting:
-    .string "哈奇：你去送信吧，\n我就在这儿等着。$"
+    .string "哈奇：那你去送信吧，\n我就在这儿等着。$"
 
 DewfordTown_Text_BrineyLandedInDewford:
-    .string "哈奇：喂！\n我们到武斗镇了！\p想再出海的话，\n随时来找我吧！$"
+    .string "哈奇：喂！\n我们到武斗镇了！\p想再出海随时叫我！$"
 
 DewfordTown_Text_WhereAreWeBound:
-    .string "哈奇：喂！\n只要你愿意，我随时可以出发！\p好了，朋友，想去哪儿？$"
+    .string "哈奇：喂！\n为了你我随时都能出海！\p说吧朋友，\n这次想去哪儿？$"
 
 DewfordTown_Text_PetalburgWereSettingSail:
     .string "哈奇：橙华市是吗？\p起锚！\n小皮，亲爱的，出海了！$"
@@ -676,7 +676,7 @@ DewfordTown_Text_SlateportWereSettingSail:
     .string "哈奇：凯那市是吗？\p起锚！\n小皮，亲爱的，出海了！$"
 
 DewfordTown_Text_JustTellMeWhenYouNeedToSetSail:
-    .string "哈奇：想再出海的话，\n随时来找我！$"
+    .string "哈奇：想再出海随时叫我！$"
 
 DewfordTown_Text_GettingItchToFish:
     .string "这里是著名的钓场。\n你渴望钓鱼吗？$"
