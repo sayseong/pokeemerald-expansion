@@ -410,16 +410,16 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
     .string "赤焰松：让开！\n别多管闲事！$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel:
-    .string "大吾：熔岩队……\p你们要火箭燃料\n做什么？$"
+    .string "大吾：熔岩队……\p你们抢火箭燃料\n究竟要做什么？$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
     .string "赤焰松：哼哼哼……\n你这么好奇的话，告诉你也无妨，\p我们要把那些燃料\n全部投入到烟囱山里！\p既然固拉多已经离开了，\n那么那座破火山也没什么价值了！\p我们要用燃料的力量\n引发火山喷发！\p那样才壮观！$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle:
-    .string "大吾：{PLAYER}{KUN}！\n你来帮我吗？\p并肩战斗吧！\n准备好了吗？$"
+    .string "大吾：{PLAYER}{KUN}！\n你来帮我吗？\p那就并肩战斗吧！\n准备好了吗？$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly:
-    .string "大吾：那么快点！\n赶快准备好！$"
+    .string "大吾：那么请快点！\n尽快准备好！$"
 
 MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand:
     .string "我只是想……\n拓展大地而已……$"
@@ -434,4 +434,4 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
     .string "赤焰松：好吧……\n我们放弃燃料……\p我还有些更重要的事情\n得去确认……$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
-    .string "大吾：呼，千钧一发。\n{PLAYER}{KUN}，谢谢你。\p为了感谢你的帮忙，\n我有些东西要送给你。\p等会到我家来一趟吧。\p啊，没错，我的家不在卡那兹市，\n我就住在这岛上。$"
+    .string "大吾：呼，千钧一发。\n{PLAYER}{KUN}，多谢帮忙。\p作为谢礼，\n我有东西想送给你。\p等会来我家一趟吧。\p啊对了，我的家不在卡那兹市，\n我就住在这岛上。$"

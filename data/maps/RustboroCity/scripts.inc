@@ -1148,7 +1148,7 @@ RustboroCity_Text_TrainersSchoolSign:
     .string "宝可梦训练家学校\p“教给你关于\n宝可梦的一切！”$"
 
 RustboroCity_Text_CuttersHouse:
-    .string "居合劈之家$"
+    .string "居合劈大叔的家$"
 
 RustboroCity_Text_DevelopedNewPokenavFeature:
     .string "我正在开发宝可导航的\n其他功能……\p这是个非常棒的功能！\p{PLAYER}，能让我看看社长\n给你的宝可导航吗？$"

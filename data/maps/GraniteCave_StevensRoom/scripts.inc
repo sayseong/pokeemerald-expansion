@@ -82,19 +82,19 @@ GraniteCave_StevensRoom_Movement_StevenExitSouth:
 	step_end
 
 GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
-    .string "我的名字是大吾。\p对稀有的石头很感兴趣，\n正在四处旅行收集。\p喔？\n是给我的信？$"
+    .string "我的名字是大吾。\p我对稀有的石头很有兴趣，\n所有经常四处旅行。\p哦？\n有给我的信？$"
 
 GraniteCave_StevensRoom_Text_ThankYouTakeThis:
-    .string "大吾：嗯，谢谢你。\p送这个过来辛苦你了。\n我得谢谢你。\p我想想……\n这个招式学习器给你吧。\p里面有我最爱的招式\n钢翼。$"
+    .string "大吾：嗯，谢谢你。\p特意专程送信过来，\n要好好答谢你才行。\p我想想……\n这个招式学习器给你吧。\p里面有我最爱的招式\n钢翼。$"
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
-    .string "大吾：你的宝可梦看起来\n很能干嘛。\p如果坚持训练，也许有天\n你能成为宝可梦联盟\l的冠军呢。我是这么想啦。\p这样吧，既然我们已经互相认识了\n就在宝可导航上\l登录一下吧。\p…… …… ……$"
+    .string "大吾：你的宝可梦看起来\n培养得很不错。\p继续努力的话，也许有一天能\n成为宝可梦联盟的冠军呢。\l我是这么想的喔。\p对了！既然有缘相识，\n就在宝可导航里\l互相登录一下吧。\p…… …… ……$"
 
 GraniteCave_StevensRoom_Text_RegisteredSteven:
     .string "把大吾\n登记到宝可导航里了。$"
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
-    .string "好了，我得快点走了。$"
+    .string "好了，那我先走一步了。$"
 
 GraniteCave_StevensRoom_Text_OhBagIsFull:
     .string "喔，你的包满了……\n真可惜呢。$"

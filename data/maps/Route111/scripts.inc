@@ -658,7 +658,7 @@ Route111_Text_RootFossilDisappeared:
     .string "根状化石沉进了\n沙里……$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
-    .string "呀，糟糕！\p叔叔在紫堇市嘱咐过我\n去111号道路\l要带上碎岩！\p我叔叔在哪？\n他就住在紫堇市的车店对面。$"
+    .string "呀，糟糕！\p叔叔在紫堇市嘱咐过我\n去111号道路要带上碎岩！\p我叔叔在哪？\n他就住在紫堇市的车店对面。$"
 
 Route111_Text_TrainerHillSign:
     .string "{RIGHT_ARROW}训练家之丘入口\p“努力向上攀登吧，\n充满热血的训练家！”$"

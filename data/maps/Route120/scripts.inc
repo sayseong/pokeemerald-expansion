@@ -363,25 +363,25 @@ Route120_EventScript_Callie::
 	end
 
 Route120_Text_StevenGreeting:
-    .string "大吾：嗯？{PLAYER}{KUN}，\n你好，好久不见了。\p前面有什么你看不见的\n东西，是吗？\p看好，如果我对这个\n看不见的障碍使用这个道具……\p不，不，比起描述，\n还是让你见识见识吧，\l这可能更有趣。\p{PLAYER}{KUN}，你的宝可梦\n做好战斗准备了吗？$"
+    .string "大吾：嗯？{PLAYER}{KUN}，\n好久不见。\p这里好像有什么看不见\n的东西，对吧？\p对着这个看不见的障碍\n使用这个道具的话……\p不，与其说明，\n不如直接使用展示\n给你看更有趣。\p{PLAYER}{KUN}，\n你的宝可梦准备好战斗了吗？$"
 
 Route120_Text_StevenIllWaitHere:
-    .string "大吾：没有？那我\p在这儿等着，快去准备吧。$"
+    .string "大吾：还没有吗？\p那我在这里等着你，\n去准备吧。$"
 
 Route120_Text_StevenReadyForBattle:
-    .string "大吾：{PLAYER}{KUN}，\n你的宝可梦准备好战斗了吗？$"
+    .string "大吾：{PLAYER}{KUN}，\n你的宝可梦准备好战斗了吗？？$"
 
 Route120_Text_StevenShowMeYourPower:
-    .string "大吾：{PLAYER}{KUN}，\n给我看看你作为训练家的力量吧！$"
+    .string "大吾：{PLAYER}{KUN}，\n让我见识下你作为训练家的实力吧！$"
 
 Route120_Text_StevenUsedDevonScope:
-    .string "大吾使用了得文侦测镜。\p看不见的宝可梦\n完全现形了！\p受惊的宝可梦攻击过来！$"
+    .string "大吾使用了得文侦测镜。\p看不见的宝可梦\n完全现形了！\p受惊的宝可梦攻击过来了！$"
 
 Route120_Text_StevenGiveDevonScope:
-    .string "大吾：看来……\n你的战斗方式真有趣。\p自从上次我们在武斗镇相见到现在，\n你的宝可梦成长了不少。\p这个得文侦测镜\n给你吧，\p谁知道什么时候又会\n遇到看不见的宝可梦呢。$"
+    .string "大吾：原来如此……\n你的战斗方式很有趣呢。\p比起在我们在武斗镇初见时，\n你的宝可梦成长了不少。\p这个得文侦测镜\n送给你，\p说不定还有其他隐藏了\n身形的宝可梦呢。$"
 
 Route120_Text_StevenGoodbye:
-    .string "大吾：{PLAYER}{KUN}，\p我喜欢看着训练家和宝可梦\n共同努力进步，\p你做得不错。\p好了，下次再见。$"
+    .string "大吾：{PLAYER}{KUN}，\p我很喜欢看到训练家和宝可梦\n共同努力一起成长，\p你做得很不错。\p那么，后会有期。$"
 
 Kecleon_Text_SomethingUnseeable:
     .string "有什么看不见的东西挡在路上。$"
@@ -390,7 +390,7 @@ Kecleon_Text_WantToUseDevonScope:
     .string "有什么看不见的东西挡在路上。\p要使用得文侦测镜吗？$"
 
 Kecleon_Text_UseDevonScopeMonAttacked:
-    .string "{PLAYER}使用了得文侦测镜。\p看不见的宝可梦\n完全现形了！\p受惊的宝可梦攻击过来！$"
+    .string "{PLAYER}使用了得文侦测镜。\p看不见的宝可梦\n完全现形了！\p受惊的宝可梦攻击过来了！$"
 
 Route120_Text_RouteSignFortree:
     .string "120号道路\n{LEFT_ARROW}茵郁市$"

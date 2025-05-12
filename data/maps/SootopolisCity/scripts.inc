@@ -1517,22 +1517,22 @@ SootopolisCity_Text_TryingMeaninglessToPokemon:
     .string "水梧桐：盖欧卡和固拉多都不知道\n去了什么地方，\p丰缘地区的天气也\n已经恢复正常了……\p哈哈……\n哈哈哈……\p也许我们拼命所做的一切\n对宝可梦而言什么都不算，\l根本渺小得不值一提……$"
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
-    .string "大吾：那两只战斗的宝可梦……\n固拉多……还有盖欧卡……\p那两只超古代宝可梦\n从长眠中觉醒……\p现在它们正宣泄着它们那\n失控的能量互相攻击……\p……{PLAYER}{KUN}，\p我想你既然来到这里，\n应该已经有了被卷入\l这次危机的觉悟了。\p那么，\n我想带你去见一个人。\p跟我来吧。$"
+    .string "大吾：那两只战斗的宝可梦……\n固拉多……还有盖欧卡……\p那两只超古代宝可梦\n从长眠中觉醒……\p现在正宣泄着它们那\n失控的能量互相攻击……\p……{PLAYER}{KUN}，\p我想你既然来到这里，\n应该已经有了被卷入\l这次危机的觉悟了。\p那么，\n我有个人想让你见见。\p跟我来吧。$"
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
-    .string "大吾：听着，{PLAYER}{KUN}。\p看到固拉多和盖欧卡，\n你是否对宝可梦开始感到害怕了？\p但这并不是事实，\n宝可梦并不仅如此而已……\p……我为什么这么问？\n你应该明白吧。$"
+    .string "大吾：听着，{PLAYER}{KUN}。\p看到固拉多和盖欧卡，\n让你觉得宝可梦很可怕吗？\p但事实绝非如此，\n宝可梦其实是更……\p……我何必多此一问？\n你早已心中有数。$"
 
 SootopolisCity_Text_HereWereAreHelpWallace:
-    .string "大吾：到了！\p在这里面你能找到一个\n叫米可利的人，\p我相信你的力量\n一定能帮上他的忙……$"
+    .string "大吾：到了！\p在这里面你能找到一个\n叫米可利的人，\p我相信你一定能\n成为他的助力……$"
 
 SootopolisCity_Text_KnowWhatsNeededToHelpHim:
-    .string "大吾：我相信你的力量\n一定能帮上他的忙……$"
+    .string "大吾：我相信你一定能\n成为他的助力……$"
 
 SootopolisCity_Text_NeverBeenToSkyPillar:
-    .string "大吾：天空之柱……\p我从未去过那里。\n也不知道它究竟在何处？$"
+    .string "大吾：天空之柱……\p我从未去过，\n它究竟在哪里呢？$"
 
 SootopolisCity_Text_SoThatsRayquaza:
-    .string "大吾：那就是烈空坐……\p不敢相信，那两只宝可梦\n居然畏惧地逃离了……$"
+    .string "大吾：原来这就是烈空坐……\p难以置信，居然让那两只宝可梦\n畏惧地逃离了……$"
 
 SootopolisCity_Text_MaxieArchieLeft:
     .string "大吾：看来赤焰松和\n水梧桐都离开了。\p也许他们是去送神山\n归还那些宝珠了……$"
