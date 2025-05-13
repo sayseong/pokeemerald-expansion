@@ -891,7 +891,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMReject::
     .string "我的宝可梦是顶尖级别的……\n你竟然不懂得欣赏他们。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMIntro::
-    .string "那个！\n我是{STR_VAR_1}，一个专家！$"
+    .string "那个！\n我是{STR_VAR_1}，一个达人！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon1::
     .string "我带着的宝可梦是\n一只带着{STR_VAR_1}的{STR_VAR_2}和$"
@@ -906,7 +906,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMReject::
     .string "我希望你的决定\n不会让你后悔……$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFIntro::
-    .string "你好，你好。\n我是{STR_VAR_1}，一个专家。$"
+    .string "你好，你好。\n我是{STR_VAR_1}，一个达人。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon1::
     .string "我十分的热爱宝可梦。\n一只带着{STR_VAR_1}的{STR_VAR_2}和$"
@@ -966,7 +966,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyReject::
     .string "你会后悔没有接受\n我强大的宝可梦！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyIntro::
-    .string "你好！\n我是阳伞小姐{STR_VAR_1}！$"
+    .string "你好！\n我是阳伞姐姐{STR_VAR_1}！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon1::
     .string "现在守护着我的是我的\n用来{STR_VAR_1}的{STR_VAR_2}$"

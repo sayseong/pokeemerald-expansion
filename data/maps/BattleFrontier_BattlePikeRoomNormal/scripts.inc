@@ -735,7 +735,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2:
     .string "愿您享受接下来的\n选择式对战的挑战……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen:
-    .string "我叫小蓟……\n我就是这里的法则……\l因为我就是水管皇后……\p你已经知道了吧，想要前进，\n你必须击败我……\p……我可不是个喜欢闲聊的人。\n快点，来吧……$"
+    .string "我叫小蓟……\n我就是这里的法则……\l因为我就是管道皇后……\p你已经知道了吧，想要前进，\n你必须击败我……\p……我可不是个喜欢闲聊的人。\n快点，来吧……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck:
     .string "你的运气……\n我希望你没有在这里把它用尽……$"

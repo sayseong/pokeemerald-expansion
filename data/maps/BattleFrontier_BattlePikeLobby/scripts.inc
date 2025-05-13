@@ -322,7 +322,7 @@ BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting:
     .string "请原谅，但……\p您在上次结束时\n没有成功写入记录。\p真抱歉……没有写入记录的\n挑战我们将视其为无效。$"
 
 BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
-    .string "恭喜……\p您从水管皇后那获取了胜利\n并完成了挑战……$"
+    .string "恭喜……\p您从管道皇后那获取了胜利\n并完成了挑战……$"
 
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints:
     .string "为了对您非凡的运气表示认可，\n我们授予您这些对战点数……$"

@@ -156,13 +156,13 @@ BattleFrontier_Lounge2_Text_FactoryHeadGoldMons::
     .string "你跟认真起来的工厂头目\n交过手了吗？\p就算他认真起来了，\n他还是用借来的宝可梦战斗。\p他是和你在完全\n相同的条件下战斗。$"
 
 BattleFrontier_Lounge2_Text_PikeQueenIsThere::
-    .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那里就是由那个名叫水管皇后的\n可怕的训练家所掌管的。$"
+    .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那里就是由那个名叫管道皇后的\n可怕的训练家所掌管的。$"
 
 BattleFrontier_Lounge2_Text_PikeQueenSilverMons::
-    .string "你跟水管皇后\n交过手了吗？\p据说她心情好的时候，\n通常都会用这些宝可梦：\p毒属性的牙蛇宝可梦，\n虫和岩石属性的发酵宝可梦，\l还有水属性的慈爱宝可梦。$"
+    .string "你跟管道皇后\n交过手了吗？\p据说她心情好的时候，\n通常都会用这些宝可梦：\p毒属性的牙蛇宝可梦，\n虫和岩石属性的发酵宝可梦，\l还有水属性的慈爱宝可梦。$"
 
 BattleFrontier_Lounge2_Text_PikeQueenGoldMons::
-    .string "你跟认真起来的水管皇后\n交过手了吗？\p据说她非常生气的时候，\n通常都会用这些宝可梦：\p毒属性的牙蛇宝可梦，\n钢和地面属性的铁蛇宝可梦，\l还有水和飞行属性的凶恶宝可梦。$"
+    .string "你跟认真起来的管道皇后\n交过手了吗？\p据说她非常生气的时候，\n通常都会用这些宝可梦：\p毒属性的牙蛇宝可梦，\n钢和地面属性的铁蛇宝可梦，\l还有水和飞行属性的凶恶宝可梦。$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonIsThere::
     .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那里就是由那个名叫竞技场主将的\n可爱的训练家所掌管的。$"
