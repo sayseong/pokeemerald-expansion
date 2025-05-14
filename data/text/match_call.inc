@@ -1,215 +1,215 @@
 MatchCall_WildBattleText1::
-    .string "嗨！{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}。\p我见过这个{STR_VAR_2}就在刚才！\n但是我没办法捕捉到它。\p就只差一点点呀！\n好，待会见！$"
+    .string "嗨！{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}。\p刚才我遇到了{STR_VAR_2}！\n但是没能捉到它。\p就差一点点！\n好了，下次见！$"
 
 MatchCall_WildBattleText2::
-    .string "你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我差点就捕捉到了一只很棒的{STR_VAR_2}\n就在刚才。\p但是，它还是跑掉了。\n我真的很丧气啊！\p好了，再见！$"
+    .string "你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p不久前我试着捕捉一只\n很棒的{STR_VAR_2}。\p但它还是跑掉了。\n真的好失望啊！\p好了，再见！$"
 
 MatchCall_WildBattleText3::
-    .string "你好啊，{PLAYER}！\n是我呀，{STR_VAR_1}。\p我刚才差点捕捉到了\n这个{STR_VAR_2}，但是给它逃掉了。\p差一点就成功了！\p今天算是毁了……\n好了，待会见！$"
+    .string "你好啊，{PLAYER}！\n是我呀，{STR_VAR_1}。\p我刚才试着捕捉\n这只{STR_VAR_2}，但是给它逃掉了。\p差一点就成功了！\p今天算是倒霉……\n好了，下次见！$"
 
 MatchCall_WildBattleText4::
-    .string "嗨，{PLAYER}{KUN}。\n{STR_VAR_1}就是我。\p你知道那种宝可梦{STR_VAR_2}吗？\n我差点就捕捉到一只。\p就在刚才。\n我以为我已经捕捉到了，但是它挣脱了。\p如果再让我看见它\n他肯定跑不了！\p好，待会再和你联系。$"
+    .string "嗨，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\p你知道宝可梦{STR_VAR_2}吗？\n我差点就捕捉到一只。\p就在刚才，\n我以为已经捕捉到了，但它还是跑了。\p如果再让我看见它，\n一定要捕捉到！\p好，回头见。$"
 
 MatchCall_WildBattleText5::
-    .string "你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\l最近捕捉到什么宝可梦了吗？\p刚才我差一点\n捕捉到了一只，但是它逃掉了。\p好，多保重！$"
+    .string "你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\l最近捕捉到什么宝可梦了吗？\p刚才我差一点捕捉到一只，\n但是它逃掉了。\p好，多保重！$"
 
 MatchCall_WildBattleText6::
-    .string "嘿，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l最近捕捉到什么宝可梦了吗？\p那天我差点捕捉到了一只。\n但是给它闪开了。\p多保重。$"
+    .string "嘿，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l最近有捕捉到什么宝可梦吗？\p前几天我差点捕捉到了一只。\n但是不知怎么它跑掉了。\p多保重。$"
 
 MatchCall_WildBattleText7::
-    .string "……嗯，{PLAYER}{KUN}？\n是我，{STR_VAR_1}。\p哦，等等！等等！\n我能捕捉到了这只{STR_VAR_2}……\p啊啊！给他逃了！\n只差一点点啊！$"
+    .string "……嗯，{PLAYER}{KUN}？\n是我，{STR_VAR_1}。\p哦，等等！等等！\n我能捕捉到这只{STR_VAR_2}……\p啊啊！给他逃了！\n只差一点点啊！$"
 
 MatchCall_WildBattleText8::
-    .string "哦，{PLAYER}{KUN}，最近如何？\n我是{STR_VAR_1}。\p你最近有捕捉到过什么\n宝可梦吗？\p我刚刚悄悄地靠近了一只\n但是，我的猎物还是逃掉了。\p我还未够本呀！\n一会见！$"
+    .string "哦，{PLAYER}{KUN}，最近如何？\n我是{STR_VAR_1}。\p你捕捉宝可梦还顺利吗？\p不久前我差点抓到一只。\n但目标还是逃掉了。\p我还得再加把劲啊！\n下次见！$"
 
 MatchCall_WildBattleText9::
-    .string "哦，{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}！\p哦？你正在收集宝可梦\n是吗？\p我最近过得糟透了，因为它们！\n它们都逃跑了！\p再见！$"
+    .string "哦，{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}！\p怎么样？有捕捉到\n更多宝可梦吗？\p我最近好倒霉，\n它们全都逃走了！\p再见！$"
 
 MatchCall_WildBattleText10::
-    .string "哦，{PLAYER}{KUN}，你好……\n我是{STR_VAR_1}。\p听着，我几乎已经\n够着这只{STR_VAR_2}了……\p但是，它脚底抹油了……\p我还未够本呀。\n待会见。$"
+    .string "哦，{PLAYER}{KUN}，你好……\n我是{STR_VAR_1}。\p听着，我几乎马上就能捉到\n这只{STR_VAR_2}了……\p但是，它还是溜掉了……\p我得再加把劲。\n回头见。$"
 
 MatchCall_WildBattleText11::
-    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l最近怎么样？\p我想捕捉只野生的{STR_VAR_2}\n就在刚才，但是它成功挣脱了。\p我败了……$"
+    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l最近怎么样？\p我刚才想捕捉只野生的{STR_VAR_2}，\n但是它成功逃走了。\p感觉好失败……$"
 
 MatchCall_WildBattleText12::
-    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还在捕捉那些宝可梦吗？\p我也试着自己去捕捉他们\n但是，这没有那么容易呀。\p宝可梦之道是博大的！$"
+    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还在捕捉宝可梦吗？\p我自己也在试着捕捉。\n但是真的好不容易呀。\p宝可梦的世界真是深奥啊！$"
 
 MatchCall_WildBattleText13::
-    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l你捕捉到宝可梦了吗？\p我自己也尝试着去捕捉几只，\n但是很少有成功的。\p宝可梦之道是精深的！$"
+    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l你捕捉到宝可梦了吗？\p我自己也努力试着捕捉，\n但没什么成果。\p宝可梦的世界真是深奥啊！$"
 
 MatchCall_WildBattleText14::
-    .string "哦，嗨，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\p刚才，我差点捕捉到一只可爱的\n{STR_VAR_2}。\p可恨给它跑了！\n哦，我真的很难过啊！\p再见！$"
+    .string "哦，嗨，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\p刚才我试着捕捉一只可爱的\n{STR_VAR_2}。\p但它还是逃走了！\n哦，我真是失望极了！\p再见！$"
 
 MatchCall_WildBattleText15::
-    .string "嘿，{PLAYER}！\n我是{STR_VAR_1}！\p我正在思考，怎样才能\n捕捉一两只宝可梦。\p但是还是没想出好办法。\n这真是个难题啊！\p真的把我难住了！\n以后再见！$"
+    .string "嘿，{PLAYER}！\n我是{STR_VAR_1}！\p我正在考虑捕捉\n一两只宝可梦。\p但一只都找不到。\n这真是个难题啊！\p我完全想不到办法！\n以后再见！$"
 
 MatchCall_NegativeBattleText1::
-    .string "嗨！{PLAYER}{KUN}，好啊！\n我是{STR_VAR_1}。\p我试着挑战了另一个训练家，\n但是我输了。\p真丧气。\n好了，以后再聊！$"
+    .string "嗨！{PLAYER}{KUN}，好啊！\n我是{STR_VAR_1}。\p我试着挑战了另一个训练家，\n但是我输了。\p好失望。\n好了，以后再聊！$"
 
 MatchCall_NegativeBattleText2::
-    .string "你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我挑战另一个家伙\n我们大战了一场。\p我差点就赢了，但是最后\n我输了。哎，没事没事！$"
+    .string "你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p在我们对战后，\n我又挑战了别人。\p我差点就赢了，但是最后\n还是输了。唉，算了！$"
 
 MatchCall_NegativeBattleText3::
-    .string "嘿你好，{PLAYER}！\n是我，{STR_VAR_1}。\p我在刚刚的战斗里面一败涂地。\p我想我需要更进一步\n锻炼我的队伍！$"
+    .string "嘿你好，{PLAYER}！\n是我，{STR_VAR_1}。\p我刚刚在对战中惨败。\p看来我得再训练\n一下我的队伍！$"
 
 MatchCall_NegativeBattleText4::
-    .string "嘿，{PLAYER}。\n{STR_VAR_1}是我。\p我昨天又打了一场，\n可还是没办法赢。\p我的小队需要再练练。\nOK，以后再聊。$"
+    .string "嘿，{PLAYER}。\n是我，{STR_VAR_1}。\p我昨天又对战了一场，\n可还是没能赢。\p我的队伍还需要再练练。\nOK，以后再聊。$"
 
 MatchCall_NegativeBattleText5::
-    .string "嘿嘿，{PLAYER}！\n我是{STR_VAR_1}。\p最近怎么样？\p我在不停地战斗，\n但不是经常能赢。\p我还是不能找到窍门。\n好了，保重！$"
+    .string "嘿嘿，{PLAYER}！\n我是{STR_VAR_1}。\p最近怎么样？\p我一直在对战，\n但很少能赢。\p完全找不到感觉。\n好了，保重！$"
 
 MatchCall_NegativeBattleText6::
-    .string "嘿，{PLAYER}。\n我是{STR_VAR_1}呢。\p最近还好吗？\p我最近战得昏天黑地，\n但是几乎全输了。\p我还是没能参透诀窍。\n你自己保重。$"
+    .string "嘿，{PLAYER}。\n我是{STR_VAR_1}呢。\p最近还好吗？\p我最近拼命对战，\n但没什么成果。\p完全找不到节奏。\n你多保重！$"
 
 MatchCall_NegativeBattleText7::
-    .string "{STR_VAR_1}。\n最近还顺利吗？\p我昨天又输了，\n现在我满脑子都是这事。\p我必须好好计划一下……\n再见。$"
+    .string "{STR_VAR_1}。\n最近还顺利吗？\p我昨天又输了，\n一直在想这件事。\p我得想个对策……\n再见。$"
 
 MatchCall_NegativeBattleText8::
-    .string "喂，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}呀。\p你的那些宝可梦还好吗？\n前天我又输了一场比赛。\p我要更努力些！\n再见！$"
+    .string "喂，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}呀。\p你的宝可梦怎么样？\n前几天我又输了一场对战。\p我要更努力些！\n再见！$"
 
 MatchCall_NegativeBattleText9::
-    .string "喂，{PLAYER}{KUN}，你好啊！\n我是{STR_VAR_1}！\p听好，听好，你一定要\n听听这个！\p我刚才来了场宝可梦大战，\n我在最后几秒的时候被打败了。\p哦哦，气死我了！$"
+    .string "喂，{PLAYER}{KUN}，你好啊！\n我是{STR_VAR_1}！\p听着，听着，你一定要\n听听这个！\p我刚才来了场宝可梦对战，\n我在最后一秒的时候被打败了。\p哦哦，气死我了！$"
 
 MatchCall_NegativeBattleText10::
-    .string "喂，{PLAYER}{KUN}，你好……\n我是{STR_VAR_1}。\p不久前，我在战斗。\n最后，我输了。\p我要进一步提升我的宝可梦。\n再见。$"
+    .string "喂，{PLAYER}{KUN}，你好……\n我是{STR_VAR_1}。\p不久前，我打了一场对战。\n结果我输了。\p我得在继续训练我的宝可梦。\n再见。$"
 
 MatchCall_NegativeBattleText11::
-    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l你的宝可梦咋样了？\p我又输掉了一场。\p哦，再见！$"
+    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l你的宝可梦怎么样？\p我又输掉了一场对战。\p哦，再见！$"
 
 MatchCall_NegativeBattleText12::
-    .string "喂你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还在拼命战斗吗？\p我？我最近老是输，所以\n我在训练我的队伍。\p以后见。$"
+    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还在努力对战吗？\p我的话，最近刚输了一场，\n所以我重新训练我的队伍。\p下次见吧！$"
 
 MatchCall_NegativeBattleText13::
-    .string "喂，你好啊，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\p我希望你一切顺利。\p我刚刚大战一场\n就在不久前。\p{PLAYER}{KUN}，要像我一样努力啊。\n再见！$"
+    .string "喂，你好啊，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\p我希望你一切顺利。\p我刚刚结束了一场对战。\p{PLAYER}{KUN}，要像我这样活跃哦！\n再见！$"
 
 MatchCall_NegativeBattleText14::
-    .string "喂，你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p最近如何？\p你要经常回家看看啊，\n咳咳。\p再见！$"
+    .string "喂，你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p最近还好吗？\p不过要记得常回家看看哦。\p再见！$"
 
 MatchCall_PositiveBattleText1::
-    .string "嗨！{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}！\p我和另外的一个训练家打了一场。\n我赢了！赢了！\p我的{STR_VAR_2}真的干得很漂亮！\n太棒了！$"
+    .string "嗨！{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}！\p我和其他训练家来了场对战。\n我赢啦！赢啦！\p我的{STR_VAR_2}真的干得很漂亮！\n太棒了！$"
 
 MatchCall_PositiveBattleText2::
-    .string "你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\p我昨天战了一场\n而且我赢了！太美妙了！$"
+    .string "你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\p我昨天对战了一场，\n而且赢了！太棒了！$"
 
 MatchCall_PositiveBattleText3::
-    .string "喂你好，{PLAYER}！\n我是，{STR_VAR_1}！\l你的战斗如何？\p我，前些天战了一场，\n我的{STR_VAR_2}变得很巨大！\p下次再遇到你，\n{PLAYER}，输的就不是我了！$"
+    .string "你好，{PLAYER}！\n我是{STR_VAR_1}！\l你战况如何？\p我前些天对战了一场，\n我的{STR_VAR_2}表现超级棒！\p下次再遇到你，\n{PLAYER}，输的就不是我了！$"
 
 MatchCall_PositiveBattleText4::
-    .string "嘿，{PLAYER}。\n{STR_VAR_1}在此。\p早些时间我有一场比赛。\n我努力去赢的，但还是差一点。\p我的{STR_VAR_2}上演了\n一出好戏。$"
+    .string "嘿，{PLAYER}。\n是我{STR_VAR_1}。\p刚刚我有一场对战。\n我尽全力取胜了，但其实很险。\p我的{STR_VAR_2}可真是\n上演了一出好戏。$"
 
 MatchCall_PositiveBattleText5::
-    .string "嘿呀，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p最近怎么样？\n战绩如何？\p我刚刚赢了一场！\n我的{STR_VAR_2}是天才！\p你等着。我一定会打败你的\n一定！好了，你要小心！$"
+    .string "嘿呀，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p最近怎么样？\n战绩如何？\p我刚刚赢了一场！\n我的{STR_VAR_2}太出色了！\p等着瞧，我一定会打败你的！\n好啦，保重！$"
 
 MatchCall_PositiveBattleText6::
-    .string "嘿，{PLAYER}{KUN}。\n{STR_VAR_1}在此。\p一切顺利吗？\p我正站在领奖台上。\n为什么？我刚刚赢了一场战斗。\p当我们下次交手的时候，\n我肯定不会输了！$"
+    .string "嘿，{PLAYER}{KUN}。\n是我{STR_VAR_1}。\p一切顺利吗？\p我最近势头正猛！\n我刚刚可就赢了一场对战。\p等我们下次交手时，\n我肯定不会输了！$"
 
 MatchCall_PositiveBattleText7::
-    .string "{PLAYER}{KUN}？\n{STR_VAR_1}在此。\p我的{STR_VAR_2}是个好战力！\n我刚刚又赢了一场！\p我真想现在就和你\n赛一场。$"
+    .string "{PLAYER}{KUN}？\n是我{STR_VAR_1}。\p我的{STR_VAR_2}超级厉害的！\n我刚刚又赢了一场！\p我真想现在就和你\n再比试一场。$"
 
 MatchCall_PositiveBattleText8::
-    .string "哦，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}呀。\p我希望你一切都好。\n我想告诉你我刚刚赢了。\p我的{STR_VAR_2}非常努力\n所以我们才能赢得比赛。\p一会见！$"
+    .string "哦，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}呀。\p我希望你一切都好。\n我想告诉你我刚刚赢了。\p我的{STR_VAR_2}为了赢得对战，\n表现得非常努力！\p下次见！$"
 
 MatchCall_PositiveBattleText9::
-    .string "哦，{PLAYER}{KUN}，好啊！\n我是{STR_VAR_1}！\p你现在得宝可梦怎么样了？\n我的那只刚刚赢了一场！\p我的{STR_VAR_2}真是太出色了，\n我只能这么说！\p我希望能你能看看！\n以后见！$"
+    .string "哦，{PLAYER}{KUN}，好啊！\n我是{STR_VAR_1}！\p你的宝可梦最近怎样？\n我刚刚赢了一场！\p不得不说我的{STR_VAR_2}\n真的是太出色了！\p我希望你也能看看！\n以后见！$"
 
 MatchCall_PositiveBattleText10::
-    .string "哦，{PLAYER}{KUN}，好啊……\n我是{STR_VAR_1}。\p最近过得好吗？\p我的宝可梦现在\n充满了能量。\p我刚刚靠他们获得了胜利。\n以后见。$"
+    .string "哦，{PLAYER}{KUN}，好啊……\n我是{STR_VAR_1}。\p最近过得好吗？\p我的宝可梦现在\n充满了力量。\p我刚刚与它们一同\n获得了胜利。\n以后见。$"
 
 MatchCall_PositiveBattleText11::
-    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p最近有战过吗？\n我今天又打败了一个！\p太美了！哈哈哈哈！\n好了，回见！$"
+    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p最近有在对战吗？\n我今天又战胜了一个！\p势不可挡！哈哈哈哈！\n好了，回见！$"
 
 MatchCall_PositiveBattleText12::
-    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\p我相信你过的不错？\n我仍然充满了活力！\p因为我刚刚又赢了一场。\n我不会输给你们这些\l小屁孩的！$"
+    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\p你过得还好吧？\n我依然充满了活力！\p刚刚又赢了一场。\n我可不会轻易输给\l你们年轻人！！$"
 
 MatchCall_PositiveBattleText13::
-    .string "啊，好啊，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\p我希望你一切都好。\n我现在进入了反弹期！\p我刚才又赢了一场。\n哦，我现在不会输给你们这些\l小屁孩的！\p再见！$"
+    .string "啊，好啊，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\p希望你一切安好。\n我依然精力充沛！\p刚才又赢了一场。\n我可不会轻易输给年轻人呢！\p再见！$"
 
 MatchCall_PositiveBattleText14::
-    .string "哦，嗨，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我刚刚经历了一场恶战，我的\n{STR_VAR_2}是独一无二的！\p我希望你能见识一下，\n{PLAYER}{KUN}。再见！$"
+    .string "哦，嗨，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我最近在对战时，\n我的{STR_VAR_2}表现超群！\p真希望你能看到呢，\n{PLAYER}{KUN}。再见！$"
 
 MatchCall_SameRouteBattleRequestText1::
-    .string "嗨！{PLAYER}，你好！\n这里是{STR_VAR_1}。\p嗯？等一下，你在\n{STR_VAR_2}附近？\p哦，哇噢，让我们来战吧！\n我等着你！回见！$"
+    .string "嗨！{PLAYER}，你好！\n这里是{STR_VAR_1}。\p嗯？等一下，你在\n{STR_VAR_2}附近？\p哇哦，那我们得来场对战！\n我等着你！待会见！$"
 
 MatchCall_SameRouteBattleRequestText2::
-    .string "你好，{PLAYER}！\n我是{STR_VAR_1}。\p啊？你说正在\n{STR_VAR_2}这里？\p我们来战一场可以吗？\n我等你啊！回见！$"
+    .string "你好，{PLAYER}！\n我是{STR_VAR_1}。\p啊？你说正在\n{STR_VAR_2}这里？\p我们来对战一场好吗？\n我等你啊！待会见！$"
 
 MatchCall_SameRouteBattleRequestText3::
-    .string "嗨你好，{PLAYER}！\n是我，{STR_VAR_1}。\p哦，嘿，你就在\n{STR_VAR_2}这里？\p我们来战一场怎么样？\n就现在。\p我不会再输了！\n我等着你啊！快来吧！$"
+    .string "嗨你好，{PLAYER}！\n是我，{STR_VAR_1}。\p哦，嘿，你就在\n{STR_VAR_2}这里？\p我们现在来对战\n一场怎么样？\p我不会再输了！\n我等你！快来吧！$"
 
 MatchCall_SameRouteBattleRequestText4::
-    .string "嘿，{PLAYER}{KUN}。\n{STR_VAR_1}在此。\p你在哪里？\n啥？{STR_VAR_2}？\p来战吗？\n我会等你的。回见！$"
+    .string "嘿，{PLAYER}{KUN}。\n是我{STR_VAR_1}。\p你在哪里？\n啥？{STR_VAR_2}？\p现在要和我对战吗？\n我等你。待会见！$"
 
 MatchCall_SameRouteBattleRequestText5::
-    .string "好哇，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\l最近如何？\p你在哪里？\n{STR_VAR_2}？\p好罢，你说我们之间\n再赛一场如何？\p我盼你来啊。\n再见！$"
+    .string "嘿呀，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\l最近如何？\p你在哪里？\n{STR_VAR_2}？\p那我们现在立刻\n再战一场如何？\p我会留意你的。\n马上见！$"
 
 MatchCall_SameRouteBattleRequestText6::
-    .string "嘿，{PLAYER}{KUN}。\n{STR_VAR_1}在此。\l你的宝可梦还好吗？\p哈，真的？你就在\n{STR_VAR_2}这里？\p这样，那么，我们再来\n比试一场。\p我等这你。\n再见！$"
+    .string "嘿，{PLAYER}{KUN}。\n是我{STR_VAR_1}。\l你的宝可梦还好吗？\p哦真的？你就在{STR_VAR_2}这里？\n那我们得再对战一场啊。\p我会等着你。\n待会见！$"
 
 MatchCall_SameRouteBattleRequestText7::
-    .string "……呃，{PLAYER}{KUN}？\n{STR_VAR_1}这里……\p哦，你碰巧在附近\n{STR_VAR_2}？\p那么，来战吧。\n马上，我是说。\p我想给你看看我的宝可梦。\n我等着你。$"
+    .string "……呃，{PLAYER}{KUN}？\n是我{STR_VAR_1}……\p哦，你正好在\n{STR_VAR_2}附近？\p那么，来对战吧。\n我是说，现在。\p我会给你看看我的宝可梦。\n我等着你。$"
 
 MatchCall_SameRouteBattleRequestText8::
-    .string "哦，{PLAYER}{KUN}，你还好吗？\n我是{STR_VAR_1}呀。\p希望你一切都好。\n哦，你就在{STR_VAR_2}这里啊。\p你想来跟我\n战一场吗，嗯？\p我等着你。\n一会见！$"
+    .string "哦，{PLAYER}{KUN}，你还好吗？\n我是{STR_VAR_1}呀。\p希望你一切都好。\n哦，你就在{STR_VAR_2}这里啊。\p那么，你想来跟我\n来一场对战吗？\p我等着你。\n等下见！$"
 
 MatchCall_SameRouteBattleRequestText9::
-    .string "嗯，{PLAYER}{KUN}，好啊！\n我是{STR_VAR_1}！\p一切都好吗？\n哦，你就在{STR_VAR_2}附近？\p哦，好吧，你不想和我\n战一场吗？\p别让我等太久！$"
+    .string "嗯，{PLAYER}{KUN}，你好啊！\n我是{STR_VAR_1}！\p一切都好吗？\n哦，你就在{STR_VAR_2}附近？\p哦，那你不觉得应该与我\n来一场对战吗？\p别让我久等！$"
 
 MatchCall_SameRouteBattleRequestText10::
-    .string "哦，{PLAYER}{KUN}，好……\n这里是{STR_VAR_1}。\p过得顺利吗？\n哦，你在{STR_VAR_2}这里。\p那么你应该来战一场，嗯。\p我准备好了等你。\n快点！$"
+    .string "哦，{PLAYER}{KUN}，你好……\n这里是{STR_VAR_1}。\p过得顺利吗？\n哦，你就在{STR_VAR_2}这里。\p那么我们应该来场对战。\p我已经准备好了。\n快点过来！$"
 
 MatchCall_SameRouteBattleRequestText11::
-    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p啊，你现在正在\n{STR_VAR_2}？\p那么，我们之间一定要\n来战一场的，不是吗？\p我在这里等你！\n回见！$"
+    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p啊，你现在正在\n{STR_VAR_2}？\p既然如此，我们之间一定得\n来一场对战，不是吗？\p我在这里等你！\n马上见！$"
 
 MatchCall_SameRouteBattleRequestText12::
-    .string "喂，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你现在在哪儿呢？\p{STR_VAR_2}？\n很近的吗！\p你说我们来战一场\n怎么样？\p我能等的。\n再见！$"
+    .string "喂，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你现在在哪儿呢？\p{STR_VAR_2}？\n离我很近啊！\p你说我们现在来一场\n对战如何？\p我会等你的。\n等会见！$"
 
 MatchCall_SameRouteBattleRequestText13::
-    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\p我希望你一切顺利。\n哦，你在{STR_VAR_2}附近？\p不是很远吗，\n来和我战一场吧。\p我等你。\n再见。$"
+    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\p希望你一切顺利。\n哦，你在{STR_VAR_2}附近？\p既然离得不远，\n来和我对战一场吧。\p我等你，\n先这样吧。$"
 
 MatchCall_SameRouteBattleRequestText14::
-    .string "哦，好，{PLAYER}{KUN}。\n我数{STR_VAR_1}。\p你在哪儿？……{STR_VAR_2}？\n很近。\p你不认为我们应该\n战一场吗？\p我会等你的！\n拜拜！$"
+    .string "哦，嗨，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p你在哪儿？……{STR_VAR_2}？\n那很近啊。\p你不觉得我们应该\n来一场对战吗？\p我会等你的！\n拜拜！$"
 
 MatchCall_DifferentRouteBattleRequestText1::
-    .string "嗨！{PLAYER}，你好！\n我是{STR_VAR_1}。\p想和我战一场吗？\p我就在\n{STR_VAR_2}等你！$"
+    .string "嗨！{PLAYER}，你好！\n我是{STR_VAR_1}。\p想和我对战一场吗？\p我就在\n{STR_VAR_2}等你！$"
 
 MatchCall_DifferentRouteBattleRequestText2::
-    .string "你好啊，{PLAYER}！\n我是{STR_VAR_1}。\p你想要\n再和我比试吗？\p你能在\n{STR_VAR_2}找到我。我等着呢！$"
+    .string "你好啊，{PLAYER}！\n我是{STR_VAR_1}。\p你想不想再和我比试一场？\p你能在\n{STR_VAR_2}这边找到我。我等着你！$"
 
 MatchCall_DifferentRouteBattleRequestText3::
-    .string "你好啊，{PLAYER}！\n是我，{STR_VAR_1}。\p我的宝可梦在上一次之后\n又成长了许多。\p我想看看他们和你的宝可梦比起来\n到底变强了多少，{PLAYER}。\p那么，让我们来战吧！\p我等着你，就在\n{STR_VAR_2}。$"
+    .string "你好啊，{PLAYER}！\n是我，{STR_VAR_1}。\p我的宝可梦比起之前\n成长了许多。\p我想看看它们和你的\n宝可梦比起来谁更强，{PLAYER}。\p我们对战吧！\p我就在{STR_VAR_2}这里等你。$"
 
 MatchCall_DifferentRouteBattleRequestText4::
-    .string "嘿，{PLAYER}{KUN}。\n{STR_VAR_1}在此。\l你还好吗？\p我的宝可梦已经\n成长了不少。\p嘿，你想来和我\n再战一场吗？\p让我们在\n{STR_VAR_2}见面，好吗？$"
+    .string "嘿，{PLAYER}{KUN}。\n是我{STR_VAR_1}。\l你还好吗？\p我的宝可梦最近\n变得很厉害了。\p嘿，你想再和我\n来一场对战吗？\p我们在{STR_VAR_2}见面，\n好吗？$"
 
 MatchCall_DifferentRouteBattleRequestText5::
-    .string "嘿，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p我的宝可梦在最近几天\n成长了不少。\p我真的非常想和你\n再战一场。\p我会一直等着你的，就在\n{STR_VAR_2}这里。回头见！$"
+    .string "嘿，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p我的宝可梦这些天\n成长了不少。\p真的好想和你\n再对战一次。\p我会在{STR_VAR_2}这里等你！\n回头见！$"
 
 MatchCall_DifferentRouteBattleRequestText6::
-    .string "嘿，{PLAYER}{KUN}。\n{STR_VAR_1}在此。\l我希望你一切顺利。\p我想什么时候能和你再战一场。\n你说什么？\p如果你想来战，\n到{STR_VAR_2}这里来。\p再见！$"
+    .string "嘿，{PLAYER}{KUN}。\n是我{STR_VAR_1}。\l希望你一切顺利。\p我想能和你再来一场对战。\n你觉得呢？\p如果你想就来{STR_VAR_2}这里吧。\p再见！$"
 
 MatchCall_DifferentRouteBattleRequestText7::
-    .string "……呃，{PLAYER}{KUN}？\n{STR_VAR_1}在此……\l哈？你的宝可梦成长了吗？\p我的也是。\n我希望能给你看一下。\p我会去{STR_VAR_2}那里。\n来和我再战一场吧。\p以后见。$"
+    .string "……呃，{PLAYER}{KUN}？\n是我{STR_VAR_1}……\l所以，你的宝可梦成长了吗？\p我的肯定变强了。\n想给你看一看。\p我会在{STR_VAR_2}附近。\n来找我对战吧。\p以后见。$"
 
 MatchCall_DifferentRouteBattleRequestText8::
-    .string "哦，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\p我希望你一切都好。\n我的宝可梦非常的活跃。\p如果你和我在一个地方，\n和我再战一场吧。\p我就在{STR_VAR_2}。\n不见不散，再见！$"
+    .string "哦，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\p希望你一切都好。\n我的宝可梦十分活跃。\p如果你在附近的话，\n和我再对战一次吧。\p我就在{STR_VAR_2}。\n不见不散，再见！$"
 
 MatchCall_DifferentRouteBattleRequestText9::
-    .string "哦，{PLAYER}{KUN}，你好啊！\n我是{STR_VAR_1}！\l你的宝可梦还好吗？\p我的宝可梦越来越强了。\n我想给你见识一下，{PLAYER}{KUN}。\p我现在就在{STR_VAR_2}这里，\n如果你在附近的话，\l那么就让我们战一场吧。\p希望能早点见到你！$"
+    .string "哦，{PLAYER}{KUN}，你好啊！\n我是{STR_VAR_1}！\l你的宝可梦还好吗？\p我的宝可梦越来越强了。\n想让你见识一下，{PLAYER}{KUN}。\p我现在就在{STR_VAR_2}这里，\n如果你在附近的话，\l那么我们就来场对战吧。\p希望很快能见到你！$"
 
 MatchCall_DifferentRouteBattleRequestText10::
-    .string "哦，{PLAYER}{KUN}，你好……\n我是{STR_VAR_1}。\l啊，最近还好吗？\p我的宝可梦可是比以前\n要强多了。\p我很想和你再战一次，\n{PLAYER}{KUN}。\p现在我在{STR_VAR_2}。\n如果方便的话就来吧。$"
+    .string "哦，{PLAYER}{KUN}，你好……\n我是{STR_VAR_1}。\l啊，最近还好吗？\p我的宝可梦可是比\n以前要强得多了。\p我很想和你再对战一次，\n{PLAYER}{KUN}。\p现在我在{STR_VAR_2}。\n如果方便的话就来吧。$"
 
 MatchCall_DifferentRouteBattleRequestText11::
-    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l现在的你会在哪里？\p我的宝可梦现在充满了活力。\n它们说很想再会会\l你的那些宝可梦，{PLAYER}{KUN}。\p我现在就在{STR_VAR_2}这里。\n希望你能找到我们。$"
+    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l你现在会在哪里呢？\p我的宝可梦现在充满活力。\n它们好像很想再见一见\l你的宝可梦，{PLAYER}{KUN}。\p我现在就在{STR_VAR_2}这里。\n希望你能来找我们。$"
 
 MatchCall_DifferentRouteBattleRequestText12::
-    .string "喂，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\p我想要告诉你，我的宝可梦已经\n成长了非常之多。\p我希望再和你战的时候\n能看到，{PLAYER}{KUN}。\p我们就在{STR_VAR_2}。\n随时欢迎！$"
+    .string "喂，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\p我想告诉你，我的宝可梦已经\n成长了很多很多。\p想看看它们和你对战的表现，\n{PLAYER}{KUN}。\p我们会在{STR_VAR_2}附近。\n随时欢迎来找我们！$"
 
 MatchCall_DifferentRouteBattleRequestText13::
-    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l你的宝可梦都好吗？\p我的宝可梦非常得健壮，\n他们不像是会输给你的样子！\p我很想再和你战一场，\n非常想。\p如果你在{STR_VAR_2}附近，\n来找我吧。$"
+    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l你的宝可梦都好吗？\p我的宝可梦非常健康，\n看起来不会输给你！\p我很想再和你对战一场。\p如果你在{STR_VAR_2}附近，\n一定要来找我们。$"
 
 MatchCall_DifferentRouteBattleRequestText14::
-    .string "哦，好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l一切都好吧。\p哦，对了！我的宝可梦已经\n比以前强大了不少。\p你不觉得我们应该\n再战一场吗，{PLAYER}{KUN}？\p我会在\n{STR_VAR_2}等着你的。\p你随时都能来，行吗？$"
+    .string "哦，好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l一切都好吧。\p哦，对了！我的宝可梦已经\n比以前强大了不少。\p你不觉得我们应该\n再战一场吗，{PLAYER}{KUN}？\p我会在\n{STR_VAR_2}等着你的。\p随时来找我们，好吗？$"
 
 MatchCall_PersonalizedText1::
     .string "是我啊，热爱大山的\n{STR_VAR_1}！\p那个，上次见过以后，你是不是\n也开始喜欢群山了呢？\p我很少在山里看见你呀……\p下一次，让我们在\n{STR_VAR_2}碰头吧。$"
@@ -218,400 +218,400 @@ MatchCall_PersonalizedText2::
     .string "我是{STR_VAR_1}。\n你好。\p我刚刚告诉了一个新人训练家\n有关你的事。\p我告诉她有一个强大的训练家\n用爱心培育他的宝可梦。\p我希望你能成为一个\n人人称赞的训练家。\p希望能再见到你！$"
 
 MatchCall_PersonalizedText3::
-    .string "你好！我是{STR_VAR_1}。\p我爱上我在的这个地方了。\n多么怡人的芳香！\p我想有人种下了些树果，\n它们正在开花。\p再见！$"
+    .string "你好！我是{STR_VAR_1}。\p我爱上我所在的地方了。\n多么怡人的芳香！\p我想有人种下了些树果，\n它们正在开花。\p再见！$"
 
 MatchCall_PersonalizedText4::
-    .string "你好！具有30年经验的探险家，\n{STR_VAR_1}为你服务！\p看上去你正在充满干劲的\n走东闯西呢。\p你发现了什么新的遗迹吗？\n如果有的话要告诉我！\p那么，如果没有的话，\n我自己有遗迹要去探索。$"
+    .string "你好！具有30年经验的探险家，\n{STR_VAR_1}为你服务！\p看上去你正在充满干劲的\n走东闯西呢。\p你发现了什么新的遗迹吗？\n如果有的话要告诉我！\p现在恕我失陪，\n我还要去探索遗迹。$"
 
 MatchCall_PersonalizedText5::
-    .string "我是{STR_VAR_1}！\p知道我正在做什么吗？\n我正在海边看海浪！\p啊……浪花多么美丽啊。\n这里真是看海的好地方啊。\l我有点饿了，再见了！$"
+    .string "我是{STR_VAR_1}！\p知道我正在做什么吗？\n我正在海边看海浪！\p啊……海浪闪闪发光。\n这里真是看海的好地方啊。\l我有点饿了，再见了！$"
 
 MatchCall_PersonalizedText6::
-    .string "嗯嗯……\n哦，嗨，我是{STR_VAR_1}。\l我喜欢在海滩上吃东西。\p我的宝可梦和我都很愉快。\n我们充满活力！\l我要去游个泳。再见！$"
+    .string "嗯嗯……\n哦，嗨，我是{STR_VAR_1}。\l我喜欢在海滩上吃东西。\p我的宝可梦和我都好得很。\n我们充满活力！\l我要去游个泳了。再见！$"
 
 MatchCall_PersonalizedText7::
-    .string "你好，我是{STR_VAR_1}……\p我对这个酷训练家\n已经有些厌倦了……\p每个人都认为我是完美的\n训练家，这迫使我\l按照别人期望而活着。\p但是我想要作个出色的\n酷训练家。\p我必须认真干……\n微笑着承受这一切。\p这些话\n我只对你一个人说。\p当我下一次见到你的时候，\n放心，我不会抱怨的！$"
+    .string "你好，我是{STR_VAR_1}……\p最近对“精英训练家”这个\n头衔有点厌倦了……\p每个人都认为我是完美的训练家，\n因此我不得不按照别人期望而活。\p不过这可能就是精英训练家\n的宿命吧。\p我得继续咬牙坚持……\n微笑着承受一切。\p这些话我只\n对你一个人说。\p但下次见面时别担心，\n我不会抱怨的！$"
 
 MatchCall_PersonalizedText8::
-    .string "哟荷，我是{STR_VAR_1}！\n你好吗？\p我现在正在训练我的宝可梦，\n你是我的目标哦。\p下次遇见你的时候\n我不会再输了。\p你说有一个训练家朋友\n不是很棒吗？再见吧！$"
+    .string "哟吼，我是{STR_VAR_1}！\n你好吗？\p我现在正在训练我的宝可梦，\n你是我的目标哦。\p下次遇见你的时候\n我不会再输了。\p有个训练家朋友可真好啊！\n再见啦！$"
 
 MatchCall_PersonalizedText9::
-    .string "我是{STR_VAR_1}……\n现在，在你的后面……\l你不觉得那里有东西吗……？\p那是沉睡在送神山的\n宝可梦之大能……\p他告诉了我你的存在……\p赶快离开这里，而且\n不要回头……\p口桀口桀……\n再见……$"
+    .string "我是{STR_VAR_1}……\n现在，在你的身后……\l不觉得那里有东西吗……？\p那是沉睡在送神山的\n宝可梦之大能……\p它正向我诉说你的一切……\p赶快离开这里，\n而且千万不要回头……\p嘻嘻……\n再见……$"
 
 MatchCall_PersonalizedText10::
-    .string "我是{STR_VAR_1}。\n最近好吗？\p能够远距离通话\n真是方便那？\p之前，如果我想和谁聊聊的话\n我只有叫我爸\l开车载我去……\p我要走了。\n和你聊天很愉快。$"
+    .string "我是{STR_VAR_1}。\n最近好吗？\p能够远距离通话\n真是方便呢！\p之前如果我想和谁聊聊的话，\n只能叫我爸开车载我去……\p差不多该挂啦。\n很高兴和你聊天。$"
 
 MatchCall_PersonalizedText11::
-    .string "我是{STR_VAR_1}！\n你听着呢吗？\p我很喜欢狩猎地带，\n但是不管我怎么走，我都迷路了！\p到处是高高的杂草！\n而且他们实在太多了！\p几乎都戳到\n我的胸口了！\p我要再次向狩猎地带出发了！\n回见！$"
+    .string "我是{STR_VAR_1}！\n听我说个事！\p我很喜欢狩猎地带，\n但每次去都会迷路！\p到处是高高的杂草！\n而且地方也太大了！\p说出来舒服多啦！\p我要再次向狩猎地带出发了！\n回见！$"
 
 MatchCall_PersonalizedText12::
-    .string "你好，{STR_VAR_1}在此。\n嗯，没错，我有钱了，嗯。\p我要告诉你，我的财富\n在上次见面后又增加了不少。\p而且，我的宝可梦也变得\n更强了。\p我不得不开始怀疑\n地球是围着我转的！\p哦，无需多言！\n事实就在眼前！\p哦，我必须说声抱歉，我还有一个\n重要的晚宴要参加。$"
+    .string "你好，是我{STR_VAR_1}。\n嗯，没错，我还是那么有钱。\p我要告诉你，我的财富在上次\n见面后又增加了不少。\p而且，我的宝可梦\n也变得更强了。\p我不得不开始怀疑\n地球是围着我转的！\p哦，无需多言！\n事实就在眼前！\p哦，抱歉要先失陪了，我得去\n参加一场重要的晚宴了。$"
 
 MatchCall_PersonalizedText13::
-    .string "呼呼呼……\n是我，{STR_VAR_1}……\p你能猜到我看见了什么吗？\n一对{STR_VAR_2}正在打架。\p也许我应把胜利者捕捉了……\n呼呼呼……\p我要去忙了。\n我走了。$"
+    .string "呼呼呼……\n是我，{STR_VAR_1}……\p能猜到我在看什么吗？\n一对{STR_VAR_2}正在打架。\p也许我应把胜利者捕捉了……\n呼呼呼……\p我……要去忙了。\n我走了。$"
 
 MatchCall_PersonalizedText14::
-    .string "哦，我是{STR_VAR_1}！\p我已经开始觉得\n呆在被遗弃的海船里有些无聊了。\p但既然我来了，\n而且我想打败你一次，\l那么我得多呆一会。\p如果你愿意的话，为什么\n不来看看我？\p我想今天\n我终于可以和\l我的老邻居来场比赛了。\p再见！$"
+    .string "哦，我是{STR_VAR_1}！\p我已经开始觉得呆在被\n遗弃的海船里有些无聊了。\p但既然我来了，\n而且还想赢你一次，\l那就再多呆一会吧。\p有兴趣的话，\n不妨来找我？\p我想今天终于可以和\n隔壁的大叔来场对战了。\p再见！$"
 
 MatchCall_PersonalizedText15::
-    .string "我是{STR_VAR_1}！\n海之男！\p你知道我在想啥吗？\p从大海里来的训练家\n才是强者中的强者呀！\p你一定要跟我学点东西\n还要在大海里修炼……\p哦哦哦，洪波涌起！\p这是多么好的修炼机会啊！\n抱歉，我先闪了！$"
+    .string "我是{STR_VAR_1}！\n大海的男儿！\p你知道我在想啥吗？\p从大海中来的训练家\n才是强者中的强者呀！\p你应该向我学着\n在大海中修炼……\p哦哦，有巨浪涌起！\p这是多么好的训练机会啊！\n抱歉，我先闪了！$"
 
 MatchCall_PersonalizedText16::
-    .string "在下是{STR_VAR_1}！听着，我一直在\n传授空手道给我的宝可梦。\p它们现在已经比我强了！\n我还来不及反应就败给他们了！\p但即便是我输给了\n宝可梦，我也不可能输给\l训练家的，没门！\p我们要再战一场！\n呜哇！$"
+    .string "在下是{STR_VAR_1}！听着，我一直在传授空手道\n给我的宝可梦。\p它们现在已经比我厉害了！\n我一直在输给它们！\p但就算输给了宝可梦，\n我也绝不会输给训练家的！\p我们再战一场吧！\n呜哇！$"
 
 MatchCall_PersonalizedText17::
-    .string "是我，{STR_VAR_1}。\n你的旅行顺利吗？\p……哇，真的真的？\n听起来真是刺激啊！\p我想我应该写一首\n有关你的歌。\p……哦，嘿，我正在找灵感呢。\n我的脑海里已经有旋律了。\p我得把曲子记下来\n嗯，我必须走了！一会见！$"
+    .string "是我，{STR_VAR_1}。\n旅行还顺利吗？\p……哇，真的？\n听起来超刺激啊！\p我想我都能把你\n的故事写成歌了。\p……哦，灵感来了。\n我的脑海里已经有旋律了。\p我得赶紧把曲子记下来,\n嗯，得走了！下次见！$"
 
 MatchCall_PersonalizedText18::
-    .string "我是{STR_VAR_1}……\n听听我的新歌吧。\p啦啦啦，{STR_VAR_2}，{STR_VAR_2}！\n为什么你是{STR_VAR_2}？\l为什么我不能成为你，{STR_VAR_2}？\l啦啦，{STR_VAR_2}和{STR_VAR_1}，\l{STR_VAR_1}和{STR_VAR_2}……\p反复，淡出……$"
+    .string "我是{STR_VAR_1}……\n听听我的新歌吧。\p啦啦啦，{STR_VAR_2}，{STR_VAR_2}！\n为什么你是{STR_VAR_2}？\l为什么我不能成为你，{STR_VAR_2}？\l啦啦，{STR_VAR_2}和{STR_VAR_1}，\l{STR_VAR_1}和{STR_VAR_2}……\p重复副歌，淡出……$"
 
 MatchCall_PersonalizedText19::
-    .string "我是{STR_VAR_1}，你知道的，\n野营专家！\p当我们战的时候，\n我情不自禁的输给了你。\p之后，我学习了野营的知识。\p无论结果如何，\n我都想在野营的时候去战斗。\p再和我们战一场吧，怎么样？\n哦，再让我们去野营吧！$"
+    .string "我是{STR_VAR_1}，你知道的，\n野营专家！\p上次对战输给你很正常。\p毕竟我的专长是露营。\p无论结果如何，\n我都喜欢在露营时对战。\p再来对战吧，怎么样？\n一起去露营也行哦！$"
 
 MatchCall_PersonalizedText20::
-    .string "是我呀，我，{STR_VAR_1}！\p凭良心讲，我想\n去爬一座比这更高的山。\p但是我不能确定别的山的美女\n能像火山口的一样多。\p如果你知道哪座山\n隐藏着美女的，让我知道！\p哦活活，再见啦！$"
+    .string "是我呀，我，{STR_VAR_1}！\p说实话，我想去爬其他的山。\p但是我不确定其他山的美女\n会不会像烟囱山里的一样多。\p如果你知道哪座山美女\n多的话，记得告诉我！\p哎嘿嘿，回见啦！$"
 
 MatchCall_PersonalizedText21::
-    .string "…… …… ……\n…… …… ……\l我是{STR_VAR_1}……\p…… …… ……\n…… …… ……\l今天就到这里……$"
+    .string "…… …… ……\n…… …… ……\l我是{STR_VAR_1}……\p…… …… ……\n…… …… ……\l今天就这样……$"
 
 MatchCall_PersonalizedText22::
-    .string "我是{STR_VAR_1}。今天，我想\n和你聊聊。\p我击败你的欲望\n与日俱增。\p你想要个好对手，是吧？\n我希望我就是……\p很高兴你能听我。\n再见！$"
+    .string "我是{STR_VAR_1}。\n今天有预感会和你通话。\p想打败你的心情与日俱增。\p你也有这样的劲敌吧？\n希望那个人是我……\p很高兴你能听我说这些。\n再见！$"
 
 MatchCall_PersonalizedText23::
-    .string "我是{STR_VAR_1}。\p每当一个强大的训练家\n在附近，我都能感觉到\l奇怪吧。\p你就在我附近吗，{PLAYER}{KUN}？\n我希望那是你。\p我等着你。\n再见！$"
+    .string "我是{STR_VAR_1}。\p附近有强大训练家时，\n我总能感应到。\p刚才是你经过吗，{PLAYER}{KUN}？\n说不定就是你呢。\p期待你的来访。\n再见！$"
 
 MatchCall_PersonalizedText24::
-    .string "你好，我是{STR_VAR_1}。\n听起来你还不错，{PLAYER}{KUN}。\p我周游了世界，\n但是我承认\l我被这个国度迷住了。\p我计划多呆一会。\n也许我们应该再见一次？\p我忘不了你炫目的\n技术。\p我真的想再战一场。$"
+    .string "你好，我是{STR_VAR_1}。\n听起来你还不错，{PLAYER}{KUN}。\p虽然周游了世界，\n但我特别喜欢这个地区。\p我打算多待一阵子。\n也许我们应该再见一见？\p我还记得你精彩的对战技巧。\p我真的希望能再切磋一次。$"
 
 MatchCall_PersonalizedText25::
-    .string "吸鼻涕……我是……{STR_VAR_1}……\n……吸……\p杜娟在班里训了我，\n就在今天。\p但是我并不嫉恨她或者别的什么人。\p杜娟详细的告诉了我\n哪里做错了，这样我能吃一堑长一智。\p我明天就要去\n训练家学校报道了w！\p以后再见！$"
+    .string "呜咽……我是……{STR_VAR_1}……\n……吸……\p今天在课上被杜娟训了。\p但是我并讨厌她。\p杜娟直接指出了我的错误，\n这样我能吃一堑长一智。\p明天我绝对还要去\n训练师学校！\p回头见！$"
 
 MatchCall_PersonalizedText26::
-    .string "我是{STR_VAR_1}！\p昨天，杜娟让我和她\n交了手。\p结果吗……\n很糟，和你想的一样。\p但是我很欣赏杜娟\n居然允许我挑战她！\p你不知道我有多么\n崇拜她！\p我必须努力学习！\n我要走了！$"
+    .string "我是{STR_VAR_1}！\p昨天，杜娟答应和我对战了。\p结果吗……\n不用问也知道很惨。\p但能挑战她我就超开心！\p我现在更崇拜她了！\p我会加倍努力的！\n先走啦！$"
 
 MatchCall_PersonalizedText27::
-    .string "嗨，我是美穗！我仍和我的\n伙伴里子在一起。\p我非常喜欢照料那些里子\n和宝可梦。它们真是可爱啊！\p我希望我能好好的照顾它们\n就像对自己的亲人一样！\p哦，嘿，里子！\n我要你去买的小面包呢？\p什么？不，不，我没有把你\n当作自己的奴隶啊！\p你输掉了比赛，所以你必须\n去帮我买面包，这是惩罚！\p我不会把你当作我的奴仆的，\n里子！你对我真是太重要了！\p我得走了。\n现在是甜点时间了！$"
+    .string "嗨，我是美穗！我今天还是和我的\n后辈搭档里子在一起。\p我超喜欢照顾里子\n和宝可梦。它们太可爱了！\p真希望我可以像对待\n弟弟妹妹一样宠它们！\p——哦，里子！\n面包买到了吗？\p什么？没有，才没有把你\n当成私家仆人使唤！\p你输了对战，所以就要罚你\n跑腿帮我买面包！\p我不会把你当作私家仆人的，\n里子对我可是特别的存在！\p现在得走啦，\n点心时间到！$"
 
 MatchCall_PersonalizedText28::
-    .string "我喜欢宝可梦！\n我是从宝可梦发烧友俱乐部来的{STR_VAR_1}！\p你一定要听听这个！\n我可爱的宝可梦……\p呼呼！哈哈哈哈！\n我已经不能再说！这是个秘密！\l你的可爱已经没法用语言形容了！\p哦，我可爱的{STR_VAR_2}\n正渴求着宝可方块！\p真是卡哇伊的照片啊！\p抱歉，我不能再说了！\n你下次也一定要听我说啊！$"
+    .string "我喜欢宝可梦！我是来自宝可梦\n发烧友俱乐部的{STR_VAR_1}！\p快听我说！\n我家宝贝宝可梦……\p呼呼！哈哈哈哈！\n不能再多说了！这是秘密！\l简直可爱到词穷！\p哦，我可爱的{STR_VAR_2}\n正撒娇要宝可方块！\p简直是可爱的代名词！\p抱歉现在没空聊了！\n下次一定要听我说啊！$"
 
 MatchCall_PersonalizedText29::
-    .string "活活！\p我是{STR_VAR_1}！我一定要\n跟你说说我心爱的宝可梦！\p求你了，一定要听我说。\n这是我的甜心{STR_VAR_2}。\p不管谁拾起它，\n它都会直接逃回我的怀里！\p哦……哦……还有比这\n更幸福的感觉吗？\p哦，我好像在天堂！\p你和我分享这份快乐\n我非常高兴。\p好，我要走了。\n再见！$"
+    .string "哦吼吼！\p我是{STR_VAR_1}！迫不及待想\n分享我家可爱宝可梦的趣事！\p拜托了，一定要听我说。\n是关于我亲爱的{STR_VAR_2}。\p只要被人抱起来，\n它就会立刻跳回我怀里！\p哦……哦……\n还有比这更幸福的感觉吗？\p啊，我仿佛身处天堂！\p很高兴能和你\n分享这份快乐！\p现在得走啦，\n拜拜！$"
 
 MatchCall_PersonalizedText30::
-    .string "我是……{STR_VAR_1}。\n人们都叫我专家。\p但是我知道一件事。\n在驾驭我自己的能力方面，\l我不能算是专家。\p只有在宝可梦的帮助下，\n一个训练家才能成为一个专家。\p哼哼！我想我说的是不是\n太深奥了！\p我应该给你留份好心情的！$"
+    .string "我是……{STR_VAR_1}。\n尽管人们都叫我达人。\p但是我清楚一件事——\n我无法仅凭一己之力成为达人。\p只有与宝可梦同心协力，\n训练家方能成为达人。\p哼！可能我说得有些\n过于深奥了！\p我应该给你留份好心情的！$"
 
 MatchCall_PersonalizedText31::
-    .string "我是{STR_VAR_1}。\n很高兴和你谈话！\p能泡个热水澡\n感觉真是好啊。\p自从上次交手以后\n我又和年轻训练家在战，但是你还是\l他们当中最出色的。\p可以想象你会在成年以后\n成为一个专家的！呵呵呵……$"
+    .string "我是{STR_VAR_1}。\n很高兴和你聊天！\p泡在温泉里的我\n现在神清气爽。\p自上次我们交手以后，我又和不少\n年轻的训练家对战过，但是你仍是\l他们之中的佼佼者。\p我能想象等你到了我这个岁数\n也会成为一个达人的！呵呵呵……$"
 
 MatchCall_PersonalizedText32::
-    .string "耶！我是{STR_VAR_1}！\n出了什么事？\p我可以想象，但是\n当我赢得比赛得时候，我的缺点看起来\l可能，也许，好像，貌似……\l总的来说。\p我再说些什么……？\n我很难表达，但是……\l我改怎么说哪……\l我的缺点看上去那么微小！\p但是我和你战的时候，{PLAYER}{KUN}，\n我的缺点却是那么明显而又让人讨厌。\p…… …… ……\n你不会当真吧？\l呵呵，就到这里吧！再见！$"
+    .string "耶！我是{STR_VAR_1}！\n猜怎么着？\p不知道是不是错觉，\n每次打赢对战，我的短裤\l材质好像都会变得更高级，\p那是什么意思？\n有点难以形容，\l怎么说呢……？\l好像触感更丝滑了！\p但是和你对战的时候，{PLAYER}{KUN}，\n短裤触感就会变得糙糙的。\p…… …… ……\n你不会当真吧？\l哎嘿嘿，就这样吧！拜拜！$"
 
 MatchCall_PersonalizedText33::
-    .string "咳咳！\n{STR_VAR_1}在此！\p和以前一样，我在\n狂野的捕鱼！\p除了大海和大河\n我还有其他地方能捕鱼吗？\p有一种强烈的欲望驱使着我\n去四处钓鱼！\p哦，该死，见鬼！\n我的线断了！\p我走了！\n帮我找些新的钓鱼场吧！$"
+    .string "咳咳！\n是我{STR_VAR_1}！\p和平常一样，\n正疯狂钓鱼中！\p除了大海和河流，\n还有其他地方能捕鱼吗？\p我现在无论看哪里\n都好想甩上一竿！\p哦，糟糕，见鬼！\n我的线缠住了！\p我走了！\n记得帮我找新钓点啊！$"
 
 MatchCall_PersonalizedText34::
-    .string "嘿，你好！我是{STR_VAR_1}。\n你最近过得很轻松吧？\p从我还是个孩子开始，要知道，\n我都生活得都很平静，是吧？\p我那时从来没有\n遇到过巨大的压力和刺激的事情。\p但是你不知道吧，\n我现在是个铁人三项选手了。\p你无法预见命运会把你带到哪里，\n如果你像我一样漂泊的话。\p你目前是个训练家，但是\n谁知道未来会怎样呢，是吧？\p想想看自己将成为一个导师，\n或是一个艺术家。酷，是吧？\p但是，嘿，冷静点。放轻松。\n再见了。$"
+    .string "嘿，你好！我是{STR_VAR_1}。\n最近过得悠闲吗？\p从我还是个孩子开始，要知道，\n我都生活得都很平静，是吧？\p我那时从来没有\n遇到过巨大的压力和刺激的事情。\p但是你不知道吧，\n我现在是个铁人三项选手了。\p你无法预见命运会把你带到哪里，\n如果你像我一样漂泊的话。\p你目前是个训练家，但是\n谁知道未来会怎样呢，是吧？\p想想看自己将成为一个导师，\n或是一个艺术家。酷，是吧？\p但是，嘿，冷静点。放轻松。\n再见了。$"
 
 MatchCall_PersonalizedText35::
-    .string "我是{STR_VAR_1}！\n我在骑自行车呢。\p我喜欢游泳和跑步，\n但是自行车是我的最爱！\p我感到我的整个身体\n好像和风化作一体了。\p好像随风飞行一样，\n感觉太棒了！\p好了！今天，我要创造一个\n自行车公路赛的新纪录！\p你也可以来挑战一下！\n再见！$"
+    .string "我是{STR_VAR_1}！\n我在骑自行车呢。\p我喜欢游泳和跑步，\n但是自行车是我的最爱！\p我感觉整个人好像\n都和风融为一体了。\p好像随风飞行一样，\n感觉太棒了！\p好了！今天，我要创造一个\n自行车公路赛的新纪录！\p你也可以来挑战一下！\n再见！$"
 
 MatchCall_PersonalizedText36::
-    .string "哟，我是{STR_VAR_1}！我正在\n参加铁人三项赛！\p不过，嘿，我总是有时间\n来聊天的！\p和宝可梦一起共事真是\n太棒了！\p不用语言上的交流，我们默契的\n就好像是一个人似的。\p多美妙啊！\p呃……边跑聊天……\n上气不接下气了……\l呼……我……必须……挂了……$"
+    .string "哟，我是{STR_VAR_1}！\n正在铁人三项赛中！\p不过，嘿，\n总有时间聊天的！\p和宝可梦一起训练超棒！\p无需言语就能心灵同步。\p多美妙啊！\p呃……边跑边聊……\n上气不接下气了……\l呼……我……必须……挂了……$"
 
 MatchCall_PersonalizedText37::
-    .string "嗨，我是{STR_VAR_1}。\n如果你想增强耐力，\l那么就来参加高原训练！\p来山顶上跑步吧。\n你会跟本喘不上气！\p我也感到呼吸困难了！\n再见！$"
+    .string "嗨，我是{STR_VAR_1}。\n如果你想增强耐力，\l那么就来参加高原训练！\p来山顶上跑步吧。\n你可能马上就喘不上气了！\p我也感到有点缺氧了！\n再见！$"
 
 MatchCall_PersonalizedText38::
-    .string "哦，我是{STR_VAR_1}，你好。\p我已经游了很长很长时间了\n但是看上去我还是到达不了彩悠市。\p难道我正在兜圈子。\p不，不，那绝对不可能。\n哇哈哈哈。\l保重！$"
+    .string "哦，我是{STR_VAR_1}，你好。\p我已经游了很久了，\n可看起来还是到不了彩悠市。\p我不会在兜圈子吧。\p不，那绝对不可能啦。\n哇哈哈哈。\l保重！$"
 
 MatchCall_PersonalizedText39::
-    .string "嘿，我是{STR_VAR_1}……\n哇！\p扑通！\p啪——啪——啪——啪……\p哗啦！\p呼——呼！呼——呼！\p嘿！不好意思啊！\n我在抹防晒油哪。\p所以我的手滑了一下，\n宝可导航就一下子掉到水里了！\p不过，得文的\n宝可导航是非常结实的。\p泡到水里都没事！\p总之，我要晒日光浴了，\n改日再聊吧。$"
+    .string "嘿，我是{STR_VAR_1}……\n哎呀！\p扑通！\p咕噜——咕噜——\n咕噜——咕噜……\p哗啦！\p呼——呼！呼——呼！\p嘿！不好意思啊！\n我刚刚在抹防晒油。\p结果我手滑了一下，\n宝可导航一下子掉到水里了！\p不过，得文的\n宝可导航还真是结实啊。\p泡到水里都没事！\p总之，我要晒日光浴了，\n改日再聊吧。$"
 
 MatchCall_PersonalizedText40::
-    .string "你好，我是{STR_VAR_1}。\p铁人三项赛里面，\n我最喜欢游泳了。\p但是如果我在海水里呆的时间太长，\n我岂不是会被泡的像一棵海参了？\p哦，铁人三项赛真是对\n人类耐力的严酷考验啊！再见！$"
+    .string "你好，我是{STR_VAR_1}。\p铁人三项赛里面，\n我最喜欢游泳了。\p但要是泡海里太久，\n皮肤会不会皱成梅干啊？\p哦，铁人三项赛真是对\n人类耐力的严酷考验啊！再见！$"
 
 MatchCall_PersonalizedText41::
-    .string "你好，{PLAYER}{KUN}。\n{STR_VAR_1}在此。\p你的宝可梦还好吗？\p我的龙宝可梦已经进化到\n终极形态了。再见。$"
+    .string "你好，{PLAYER}{KUN}。\n是我{STR_VAR_1}。\p你的宝可梦还好吗？\p我的龙宝可梦看起来\n状态绝佳。先这样吧。$"
 
 MatchCall_PersonalizedText42::
-    .string "{STR_VAR_1}在此。\p我的{STR_VAR_2}可是要比上一次的时候\n强多了。\p我不会在输给你了。\n你就等着吧！\p再见了！$"
+    .string "是我{STR_VAR_1}。\p我的{STR_VAR_2}可是要比上一次\n的时候强多了。\p我绝不会再输给你了。\n等着瞧吧！\p再见了！$"
 
 MatchCall_PersonalizedText43::
-    .string "我是{STR_VAR_1}。\p我正在进阶研究\n躲猫猫的艺术。\p但是我实在是太成功了。\n现在没人能找到我了。\l我的成功让我很孤独……\p我就像一阵烟尘，消失了！\n别了！$"
+    .string "我是{STR_VAR_1}。\p我一直在继续钻研\n精进隐匿之术。\p但似乎太成功了——\n现在根本没人能找到我了。\l成功的代价是孤独啊……\p我如烟般消散吧！\n告辞！$"
 
 MatchCall_PersonalizedText44::
-    .string "我是{STR_VAR_1}。\n再上次见面以后我一直在修炼。\p我的{STR_VAR_2}已经比以前\n强多了。\p在沙滩上修炼是很有成效的，\n和预料中的一样。再见！$"
+    .string "我是{STR_VAR_1}。\n上次见面以后我一直在修炼。\p我的{STR_VAR_2}变得很厉害了。\p海滩特训果然有效，\n和预料中的一样。再见！$"
 
 MatchCall_PersonalizedText45::
-    .string "你好吗？\n我是{STR_VAR_1}。\p我在想这些该死的火山灰\n要下到什么时候？\p如果再这样下去，我小花伞\n上的图画都要被盖住了……\p说好了一定要再见啊！$"
+    .string "你好吗？\n我是{STR_VAR_1}。\p我在想这烦人的火山灰\n要下到什么时候？\p如果再这样下去，我遮阳伞\n上的图案都要被盖住了……\p约好下次再见啦！$"
 
 MatchCall_PersonalizedText46::
-    .string "嗨，{STR_VAR_1}在此。\p你知道吗？浮在海水里\n比浮在池子里简单很多呢。\p只要躺着别动，你的身体\n会自己飘起来。\p但是如果你漂浮的时间太长，\n当心别被海流\l带出很远啊。\p……我在哪里？别管了……\n我得挂了！$"
+    .string "嗨，是我{STR_VAR_1}。\p你知道吗？浮在海水里\n比浮在泳池里简单很多呢。\p只要放松躺着，\n你的身体会自己飘起来。\p但如果你漂浮的时间太长，\n要注意别被海流冲得太远啊。\p……呃我现在是到哪了？\n我得挂了！$"
 
 MatchCall_PersonalizedText47::
-    .string "喂，{PLAYER}{KUN}，好啊！\n我是{STR_VAR_1}。\l我正在山里呢。\p但是这地面真是不平。\n我不能在这里搭帐篷……\p哦，我有个天才的想法！\p也许我能用宝可梦来\n平整土地！\p这就去试试看！\n再见！$"
+    .string "喂，{PLAYER}{KUN}，好啊！\n我是{STR_VAR_1}。\l我正在山上呢。\p但这地面一点也不平整。\n我不能在这里搭帐篷……\p哦，灵光一闪！\p也许我能用宝可梦\n来踏平地面！\p这就去试试看！\n再见！$"
 
 MatchCall_PersonalizedText48::
-    .string "喂，嗨，嗨，我是{STR_VAR_1}！\p我正在用留美培育我的宝可梦！\n我们正在努力尝试中！\p如果我们再努力些，我们会成为\n第一吗？再见！$"
+    .string "喂，嗨，嗨，我是{STR_VAR_1}！\p我正在和留美一起培育宝可梦！\n我们超努力的！\p如果我们再努力些，\n会成为第一吗？再见！$"
 
 MatchCall_PersonalizedText49::
-    .string "我是{STR_VAR_1}！\p我是个水手，但是现在我并不在\n船上。\p我很好奇如何来称呼\n一个在陆地上的水手呢？\p这就是我经常在远航时\n所想的问题。\p好了，下次见！$"
+    .string "我是{STR_VAR_1}！\p尽管是个水手，\n但是现在并不在船上。\p我很好奇应该如何称呼\n一个在陆地上的水手呢？\p这就是我经常在远航时\n常常在想的问题。\p好了，下次见！$"
 
 MatchCall_PersonalizedText50::
-    .string "我是{STR_VAR_1}。\n啥？获得更多的宝可梦了吗？\p如果你捕捉到了新的宝可梦，\n你一定要来给我看看。\p我不会嫉妒的，相信我。\n我等着你。会见。$"
+    .string "我是{STR_VAR_1}。\n捕捉新的宝可梦了吗？\p如果捕捉到了，\n你一定要来给我看看。\p保证不缠着你要，说到做到。\n我等着你，会见！$"
 
 MatchCall_PersonalizedText51::
-    .string "这里是{STR_VAR_1}。\p你正在用正确的方法\n来培育你的宝可梦吗？\p我这里的空气很清新呀。\n对于培育宝可梦来说\l这是最好的环境。\p如果你还在致力于培育\n宝可梦，你应来\l{STR_VAR_2}。多保重啦！$"
+    .string "这里是{STR_VAR_1}。\p你有在用最优方式\n培育宝可梦吗？\p我这里的空气超清新，\n对于培育宝可梦来说\l简直是完美环境。\p要专注培育宝可梦的话，\n强烈推荐来{STR_VAR_2}。多保重啦！$"
 
 MatchCall_PersonalizedText52::
-    .string "嗨，我是{STR_VAR_1}。\p我给了我的{STR_VAR_2}一个宝可方块。\n它看上去非常喜欢。\p看上去宝可梦的喜怒哀乐\n都是和宝可方块相关的。\p这真是不可思议啊。\n多保重。$"
+    .string "嗨，我是{STR_VAR_1}。\p我给我的{STR_VAR_2}吃了个宝可方块。\n它看上去非常喜欢。\p原来宝可梦对宝可方块\n也有口味偏好呢。\p真有趣！\n多保重呀！$"
 
 MatchCall_PersonalizedText53::
-    .string "我是{STR_VAR_1}。\p如果你和宝可梦一起合作，\n那么在野外是很适合的。\p每个人都应该知道这一点\n并且和宝可梦更多的合作。\p那样就好了。\n我是这么认为的。\p我希望你走在正道上！\n稍后联系！$"
+    .string "我是{STR_VAR_1}。\p只要和宝可梦协作，\n野外生活也能很舒适。\p真希望更多人明白这点，\n多多和宝可梦合作啊。\p我真的这么想！\p我觉得你做得就很好！\n改天见！$"
 
 MatchCall_PersonalizedText54::
-    .string "嗨，我是{STR_VAR_1}。你要知道，\n训练家是时刻准备着的！\p{PLAYER}{KUN}，你有足够的道具吗？\n你的宝可梦适合行动吗？\p让你身边的一切事情\n都保持在最佳状态，o\l是继续冒险的秘密。\p我去检查我自己的装备去了\n时刻准备着！$"
+    .string "嗨，我是时刻准备的\n训练家{STR_VAR_1}！\p{PLAYER}{KUN}，带够道具了吗？\n宝可梦状态如何？\p随时保持万全准备才是\n保持长久冒险的秘诀！\p我也得去检查行李了，\n时刻留意！$"
 
 MatchCall_PersonalizedText55::
-    .string "我是{STR_VAR_1}！\n我是{STR_VAR_1}！\p{STR_VAR_2}是一条非常繁忙的\n街道，所以\l我每天都能挑战各种训练家。\p今天，我赢了5次\n只败了3场！\p你的战绩呢？\n下次告诉我吧，好吗？$"
+    .string "我是{STR_VAR_1}！\n我是{STR_VAR_1}！\p{STR_VAR_2}是交通要道，\n所以我每天都能挑战\l到各种训练家。\p我今天五胜三败！\p你的战绩呢？\n下次告诉我吧，好吗？$"
 
 MatchCall_PersonalizedText56::
-    .string "是我，{STR_VAR_1}。\p我人气旺盛！因为我有\n很多虫宝可梦，对吧？\p对了，今天我带了一些\n最喜欢的虫子去学校了。\p我喜欢的女孩子被吓哭了！\n你想笑就笑吧。\p我必须让她知道\n那些虫宝可梦是多么的有吸引力。\p吸鼻涕……\n再见！$"
+    .string "是我，{STR_VAR_1}。\p我是因为虫系宝可梦多\n才受关注的对吧？\p今天我带了一堆最爱的\n虫宝可梦去学校。\p结果我喜欢的女孩子被吓哭了！\n你想笑就笑吧。\p我得想办法让她明白\n虫系宝可梦的魅力！\p呜呜……\n再见！$"
 
 MatchCall_PersonalizedText57::
-    .string "呼！呼！呼！呼！\p嗨！我是{STR_VAR_1}！呼！呼！\p尝试着……\n登山的时候聊天……\l是多么困难的训练啊……呼！呼！\p哇！呜……\n山峰真陡峭……\l我们要改日……再谈了……\l呼！呼！哇！$"
+    .string "呼！呼！呼！呼！\p嗨！我是{STR_VAR_1}！呼！呼！\p尝试……\n登山的时候聊天……\l是多么困难的训练啊……呼！呼！\p哇！呜……\n山峰真陡峭……\l我们要改日……再谈了……\l呼！呼！哇！$"
 
 MatchCall_PersonalizedText58::
-    .string "哦，嗨！\p我依然和奇拉一起\n寻找财宝！\p也许这里什么财宝\n都没有……\p但是和奇拉一起搜索\n对我来说很重要。\p哦，嘿，奇拉！\n为……为什么那么生气？\p我没有忽略你，宝贝！\n你就是我的唯一！\p……{PLAYER}，我要挂了，再见！$"
+    .string "哦，嗨！\p我依然和夏一起\n寻找财宝！\p也许这里其实什么\n财宝都没有……\p但是对我来说和夏\n一起搜索才重要。\p哦嘿，夏！\n为……为什么那么生气？\p我没有忽略你，宝贝！\n你就是我的唯一！\p……{PLAYER}，我得挂了，再见！$"
 
 MatchCall_PersonalizedText59::
-    .string "我是{STR_VAR_1}！\p我又去了武斗镇的道馆\n去锻炼。\p藤树，道馆馆主，看上去\n更壮了。\p看上去\n巨浪的确能锻炼人……\p但他还是和原来一样酷。\n女的都围着他！\l实话说，我有点嫉妒。\p我很好奇……他的朋友希巴\n是个和藤树差不多的人吗？\p你知道，那些优缺点，\n还有总喜欢把叫别人\l“巨浪”什么的。\p但是，嘿，我嫉妒的\n不是很明显吧？\p你就当我什么都没跟你说吧，\n怎么样？再见！$"
+    .string "我是{STR_VAR_1}！\p我又去武斗镇的道馆训练了。\p道馆馆主藤树，\n看上去更强大了。\p看起来巨浪的确能磨炼人……\p说来他还一如既往地帅气。\n女粉丝们可崇拜他了！\l说实话，真让人羡慕啊。\p我很好奇……他的朋友希巴会是个\n和藤树差不多的人吗？\p你知道的，浑身汗味，\n还喜欢叫别人“巨浪”之类的。\p不过这种嫉妒心理\n是不是不太好啊？\p就当我什么都没说吧，\n怎么样？再见啦！$"
 
 MatchCall_PersonalizedText60::
-    .string "我非常高兴\n能和你这样的年轻训练家交流。\p我可以想象你不管在任何时间\n都会喜欢宝可梦的。\p为什么你不像我们一样\n来合作呢？\p当然，{PLAYER}{KUN}，你已经\n在享受和宝可梦之间的\l信任和合作关系了。\p你已经建立了\n长久而牢固的关系了！\p哈哈！\n永远不能气馁！$"
+    .string "我很高兴能和你这样的\n年轻训练家交流。\p我想无论你多大年纪都会\n继续享受宝可梦的乐趣。\p如果你能像我们这样拥有\n伴侣不是很好吗？\p当然，{PLAYER}{KUN}，你现在已经\n拥有了宝可梦的信任与陪伴。\p你已经具备建立长久\n关系的基础了！\p哈哈哈！\n永远不要气馁！$"
 
 MatchCall_PersonalizedText61::
-    .string "嗨，我是{STR_VAR_1}！\n我们刚刚赢了一场战斗！\p我们不是每次都能赢，但是它真的是个\n很酷的游泳者。\p我的妹妹又在发牢骚了！\p她想装傻\n傻到对胜利没一点印象！\p不管我是赢是输\n她总是要说我一顿！\p{PLAYER}{KUN}，你能在下次\n跟她好好谈谈吗？\p好，再见！$"
+    .string "嗨，我是{STR_VAR_1}！\n我们刚刚赢了一场对战！\p尽管不是经常能赢，\n但对手是个很帅气的泳裤小伙子。\p我姐姐气坏了！\p她本来想假装弱小\n来博取关注！\p无论输赢，\n她都要数落我一顿！\p{PLAYER}{KUN}，\n下次你能帮我说说她吗？\p好了，再见！$"
 
 MatchCall_PersonalizedText62::
-    .string "我是{STR_VAR_1}，对。\n昨天我出海去了。\p我希望能发现一个\n新的遗迹。\p但是，海流好像把我\n又带回我出发的地方了。\p我还是不擅长战斗……\n想笑就笑吧……\l但是我不会放弃。\p等我发现了新的遗迹\n我就时来运转了！\p就说这么多了！\n再见咯！$"
+    .string "我是{STR_VAR_1}，对。\n昨天我出海去了。\p我本希望能发现一个\n新的遗迹。\p但是，海流不知怎么把我\n又带回我出发的地方了。\p我的对战水平也还很弱……\n尽管笑我吧……\l但是我不会放弃。\p终有一天我会\n发现新遗迹的！\p就说这么多了！\n先告辞了！$"
 
 MatchCall_PersonalizedText63::
-    .string "喂，那个啥！\n是我，{STR_VAR_1}！\l我现在正在108号水路！上\l一句话，我还是在老地方！\p今天，一位美丽的\n比基尼大姐在我身旁游过！\p我朝她大叫了一声！\p然后她朝我狠狠瞪了一眼！\p就发生108号水路！\n以上是{STR_VAR_1}带给你的消息！$"
+    .string "喂，那啥！\n是我，{STR_VAR_1}！\l我现在正在108号水路上！\l简而言之还是在老地方！\p今天，有位超级美丽的\n比基尼姐姐从我身旁游过！\p我就大喊一声吓了她一跳！\p结果她狠狠瞪了我一眼！\p以上都发生在108号水路！\n由{STR_VAR_1}为你报道！$"
 
 MatchCall_PersonalizedText64::
-    .string "我是{STR_VAR_1}！\p我有点忙，但是我想\n我应该让你知道\l我今天又打败了五个训练家。\p如果保持这种势头，\n我下次就能击败你了。\p我想我们会成为好对手的，\n你和我。再见了！$"
+    .string "我是{STR_VAR_1}！\p虽然有点忙，\n但觉得应该告诉你，\l我今天又打败了五个训练家。\p如果保持这种势头，\n下次大概就能赢你了。\p我想，你和我，会成为好对手的，\n再见了！$"
 
 MatchCall_BattleFrontierStreakText1::
-    .string "嗨！我是{STR_VAR_1}。\n告诉你一个好消息！\p他们说你在{STR_VAR_2}\n做得很出色。\p真可怕，一下子就连赢了{STR_VAR_3}场？\n再见！$"
+    .string "嗨！我是{STR_VAR_1}。\n听说消息了！\p他们说你在{STR_VAR_2}\n表现超棒。\p一下子就连赢了{STR_VAR_3}场？\n真了不起！再见！$"
 
 MatchCall_BattleFrontierStreakText2::
-    .string "你好，我是{STR_VAR_1}！\n我听说过你！\p他们说你在{STR_VAR_2}\n一下子就打赢了{STR_VAR_3}局。\p太厉害了！我也要努力！\n再见！$"
+    .string "你好，我是{STR_VAR_1}！\n听说你的事了！\p他们说你在{STR_VAR_2}\n一下子取得了{STR_VAR_3}连胜。\p太厉害了！我也要努力！\n再见！$"
 
 MatchCall_BattleFrontierStreakText3::
-    .string "喂你好，{PLAYER}！\n是我，{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n春风得意！\p一个漂亮的{STR_VAR_3}连胜……\n这是个新纪录，对吧？\p我也要努力了！\n以后联系！$"
+    .string "喂你好，{PLAYER}！\n是我，{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n势不可挡！\p一个漂亮的{STR_VAR_3}连胜……\n这是个新纪录，对吧？\p我也要努力了！\n以后联系！$"
 
 MatchCall_BattleFrontierStreakText4::
-    .string "喂，{PLAYER}{KUN}。\n{STR_VAR_1}在此。我有什么事？\p有传言说\n你在{STR_VAR_2}取得了\l{STR_VAR_3}连胜。\p我也要加油啊。\n再见！$"
+    .string "喂，{PLAYER}{KUN}。\n是我{STR_VAR_1}，最近怎样？\p有传言说你在{STR_VAR_2}\n取得了{STR_VAR_3}连胜。\p我也要加油啊。\n再见！$"
 
 MatchCall_BattleFrontierStreakText5::
-    .string "喂，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n一口气赢了{STR_VAR_3}场？\l真厉害啊！\p我也要继续和宝可梦努力了。\n回见！$"
+    .string "喂，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n取得{STR_VAR_3}连胜？\l真厉害啊！\p我也要多加训练宝可梦了。\n回见！$"
 
 MatchCall_BattleFrontierStreakText6::
-    .string "喂，{PLAYER}{KUN}。\n{STR_VAR_1}在此。你好吗？\p顺便说下，我听说你\n在{STR_VAR_2}一下子赢了{STR_VAR_3}场\l比赛。\p这让我更加专注与\n训练我的队伍了。$"
+    .string "喂，{PLAYER}{KUN}。\n是我{STR_VAR_1}。你好吗？\p对了，我听说你在{STR_VAR_2}\n完成了{STR_VAR_3}场连胜的壮举。\p这激励我要更\n专注于培养队伍了。$"
 
 MatchCall_BattleFrontierStreakText7::
-    .string "……呃，{PLAYER}{KUN}？\n{STR_VAR_1}在此……\p哦，对，你现在正在\n{STR_VAR_2}，对吧？\p并且你一下子赢了{STR_VAR_3}场战斗。\p哦，这里有一只稀有的宝可梦！\n我要走了！$"
+    .string "……呃，{PLAYER}{KUN}？\n是我{STR_VAR_1}……\p哦对了，你之前在\n{STR_VAR_2}，对吧？\p并且还取得了{STR_VAR_3}连胜。\p哎呀，这里有只稀有的宝可梦！\n我要走了！$"
 
 MatchCall_BattleFrontierStreakText8::
-    .string "喂，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l我希望你一切都好。\p嗯，那个，那个啥。我听说\n你一下子赢了{STR_VAR_3}场比赛，\l就在{STR_VAR_2}。\p真是让人震惊！\n我希望你能保持下去。$"
+    .string "喂，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l希望你一切顺利。\p不过你好像的确很顺利。\n我听说你在{STR_VAR_2}\l取得了{STR_VAR_3}连胜。\p真是让人震惊！\n祝你继续保持成功。$"
 
 MatchCall_BattleFrontierStreakText9::
     .string "哦，{PLAYER}{KUN}，你好啊！\n我是{STR_VAR_1}！\p我听说了！你在{STR_VAR_2}取得了\n{STR_VAR_3}连胜！\p太酷了！\n我也要加油！$"
 
 MatchCall_BattleFrontierStreakText10::
-    .string "喂，{PLAYER}{KUN}，你好……\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n一下子赢了{STR_VAR_3}场？\p这真是不容易啊。\n我要努力了。$"
+    .string "喂，{PLAYER}{KUN}，你好……\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n取得了{STR_VAR_3}连胜？\p真是了不起的成就。\n我要努力了。$"
 
 MatchCall_BattleFrontierStreakText11::
-    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p你已经成为了{STR_VAR_2}的\n恐怖传说？\p你赢了，多少，{STR_VAR_3}场\n还是一口气的？\p你很棒，你。\n我想知道我能赢几场？$"
+    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p听说你在{STR_VAR_2}所向披靡？\p你取得了，多少，\n{STR_VAR_3}连胜？\p你真厉害啊你。\n不知道我能赢几场？$"
 
 MatchCall_BattleFrontierStreakText12::
-    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还好吗？\p有些人在谈论你。\n你真的在一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p真的是个传奇啊。\n回见！$"
+    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还好吗？\p有些人在谈论你。\n说你在{STR_VAR_2}\l连胜了{STR_VAR_3}场？\p真是精彩的故事。\n回见！$"
 
 MatchCall_BattleFrontierStreakText13::
-    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l我希望你一切都好。\p他们说你在{STR_VAR_2}\n连赢了{STR_VAR_3}场。\p我赞赏你的能力！\n再见了。$"
+    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l希望你一切都好。\p他们说你在{STR_VAR_2}\n取得了{STR_VAR_3}连胜。\p真佩服你的活力！\n再见了。$"
 
 MatchCall_BattleFrontierStreakText14::
-    .string "喂，嗨，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我听说你了！\n你真的在一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p你真厉害！\n再见！$"
+    .string "喂，嗨，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我听说你的事了！\n你是不是刚在{STR_VAR_2}\l取得了{STR_VAR_3}连胜？\p真是鼓舞人心！\n再见！$"
 
 MatchCall_BattleFrontierRecordStreakText1::
-    .string "嗨！我是{STR_VAR_1}。\n我听说了！\p我听说你在{STR_VAR_2}\n做得非常出色。\p真是恐怖啊——{STR_VAR_3}连胜？\n再见！$"
+    .string "嗨！我是{STR_VAR_1}。\n听说消息了！\p他们说你在{STR_VAR_2}\n表现超棒。\p一下子就连赢了{STR_VAR_3}场？\n真了不起！再见！$"
 
 MatchCall_BattleFrontierRecordStreakText2::
-    .string "你好，我是{STR_VAR_1}！\n我听说你了！\n你真的在一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p真的不容易啊！我也要\n努力了！再见！$"
+    .string "你好，我是{STR_VAR_1}！\n听说你的事了！\p他们说你在{STR_VAR_2}\n一下子取得了{STR_VAR_3}连胜。\p太厉害了！我也要努力！\n再见！$"
 
 MatchCall_BattleFrontierRecordStreakText3::
-    .string "喂你好，{PLAYER}！\n是我，{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n做得非常出色。\p{STR_VAR_3}连胜……\n是个新纪录吧？\p我也要加油了！\n再见！$"
+    .string "喂你好，{PLAYER}！\n是我，{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n势不可挡！\p一个漂亮的{STR_VAR_3}连胜……\n这是个新纪录，对吧？\p我也要努力了！\n以后联系！$"
 
 MatchCall_BattleFrontierRecordStreakText4::
-    .string "喂，{PLAYER}{KUN}。\n{STR_VAR_1}在此。什么？\p有传言说\n你在一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p我也要加油了！\n再见！$"
+    .string "喂，{PLAYER}{KUN}。\n是我{STR_VAR_1}，最近怎样？\p有传言说你在{STR_VAR_2}\n取得了{STR_VAR_3}连胜。\p我也要加油啊。\n再见！$"
 
 MatchCall_BattleFrontierRecordStreakText5::
-    .string "嘿，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p你在一个叫{STR_VAR_2}的地方\n连胜了{STR_VAR_3}场？\l真厉害啊！\p我不能落后啊。\n再见！$"
+    .string "喂，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n取得{STR_VAR_3}连胜？\l真厉害啊！\p我也要多加训练宝可梦了。\n回见！$"
 
 MatchCall_BattleFrontierRecordStreakText6::
-    .string "嘿，{PLAYER}{KUN}。\n{STR_VAR_1}在此。你好吗？\p顺便说下，我听说\n你在一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p我不能落后啊。\n再见！$"
+    .string "喂，{PLAYER}{KUN}。\n是我{STR_VAR_1}。你好吗？\p对了，我听说你在{STR_VAR_2}\n完成了{STR_VAR_3}场连胜的壮举。\p这激励我要更\n专注于培养队伍了。$"
 
 MatchCall_BattleFrontierRecordStreakText7::
-    .string "……呃，{PLAYER}{KUN}？\n{STR_VAR_1}在此……\p哦，对，你现在正在\n{STR_VAR_2}，对吧？\p并且你一下子赢了{STR_VAR_3}场战斗。\p哦，这里有一只稀有的宝可梦！\n我要走了！$"
+    .string "……呃，{PLAYER}{KUN}？\n是我{STR_VAR_1}……\p哦对了，你之前在\n{STR_VAR_2}，对吧？\p并且还取得了{STR_VAR_3}连胜。\p哎呀，这里有只稀有的宝可梦！\n我要走了！$"
 
 MatchCall_BattleFrontierRecordStreakText8::
-    .string "喂，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l希望你一切都好。\p嗯，那个，我听说你在\n一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p太震撼了！\n我也要去和我的宝可梦好好锻炼了！$"
+    .string "喂，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l希望你一切顺利。\p不过你好像的确很顺利。\n我听说你在{STR_VAR_2}\l取得了{STR_VAR_3}连胜。\p真是让人震惊！\n祝你继续保持成功。$"
 
 MatchCall_BattleFrontierRecordStreakText9::
     .string "哦，{PLAYER}{KUN}，你好啊！\n我是{STR_VAR_1}！\p我听说了！你在{STR_VAR_2}取得了\n{STR_VAR_3}连胜！\p太酷了！\n我也要加油！$"
 
 MatchCall_BattleFrontierRecordStreakText10::
-    .string "哦，{PLAYER}{KUN}，你好……\n我是{STR_VAR_1}。\p我听说了！你在{STR_VAR_2}取得了\n{STR_VAR_3}连胜？\p真是不简单啊。\n我也要加油。$"
+    .string "喂，{PLAYER}{KUN}，你好……\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n取得了{STR_VAR_3}连胜？\p真是了不起的成就。\n我要努力了。$"
 
 MatchCall_BattleFrontierRecordStreakText11::
-    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p你已经成为了{STR_VAR_2}的\n恐怖传说？\p你赢了，多少，{STR_VAR_3}场\n还是一口气赢的？\p你很棒，你。\n我想知道我能赢几场？$"
+    .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p听说你在{STR_VAR_2}所向披靡？\p你取得了，多少，\n{STR_VAR_3}连胜？\p你真厉害啊你。\n不知道我能赢几场？$"
 
 MatchCall_BattleFrontierRecordStreakText12::
-    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还好吗？\p有些人在谈论你。\n你真的在一个叫{STR_VAR_2}的地方\l连胜了{STR_VAR_3}场？\p真的是个传奇啊。\n回见！$"
+    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还好吗？\p有些人在谈论你。\n说你在{STR_VAR_2}\l连胜了{STR_VAR_3}场？\p真是精彩的故事。\n回见！$"
 
 MatchCall_BattleFrontierRecordStreakText13::
-    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l我希望你一切都好。\p他们说你在{STR_VAR_2}\n连赢了{STR_VAR_3}场。\p我赞赏你的能力！\n再见了。$"
+    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l希望你一切都好。\p他们说你在{STR_VAR_2}\n取得了{STR_VAR_3}连胜。\p真佩服你的活力！\n再见了。$"
 
 MatchCall_BattleFrontierRecordStreakText14::
-    .string "喂，你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l我听说过你了！\p是不是你在{STR_VAR_2}\n连胜了{STR_VAR_3}场？\p真厉害呀！\n再见！$"
+    .string "喂，嗨，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我听说你的事了！\n你是不是刚在{STR_VAR_2}\l取得了{STR_VAR_3}连胜？\p真是鼓舞人心！\n再见！$"
 
 MatchCall_BattleDomeText1::
-    .string "嗨！{PLAYER}？\n你好，我是{STR_VAR_1}！\l我听说过你了！\p你在\n{STR_VAR_2}连续获得了{STR_VAR_3}次冠军？\p真厉害！我也要加油！\n会见！$"
+    .string "嗨！{PLAYER}？\n你好，我是{STR_VAR_1}！\l我听说你了！\p你在{STR_VAR_2}达成了\n{STR_VAR_3}连冠？\p太棒了！我也得加把劲！\n再见啦！$"
 
 MatchCall_BattleDomeText2::
-    .string "你好，我是{STR_VAR_1}！\n我听说过你的！\p他很说你在{STR_VAR_2}\n连赢了{STR_VAR_3}场。\p真厉害！我也能\n成为冠军吗？$"
+    .string "你好，我是{STR_VAR_1}！\n我听说了你的事！\p他们说你在{STR_VAR_2}\n取得了{STR_VAR_3}连冠。\p真厉害！我在想自己\n能不能也成为冠军呢？$"
 
 MatchCall_BattleDomeText3::
-    .string "嘿你好，{PLAYER}！\n是我啊，{STR_VAR_1}。\l最近好吗？\p我听说你在{STR_VAR_2}\n连赢了{STR_VAR_2}场！\p再接再厉！\n会见！$"
+    .string "嘿，你好，{PLAYER}！\n是我啊，{STR_VAR_1}。\l最近怎么样？\p我听说你在{STR_VAR_2}\n取得了{STR_VAR_2}连冠！\p再接再厉啊！\n回头见！$"
 
 MatchCall_BattleDomeText4::
-    .string "嘿，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p听说你在\n{STR_VAR_2}连续获得了{STR_VAR_3}次冠军？\p看上去你很努力呀。\n再接再厉！$"
+    .string "嘿，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p听说你在{STR_VAR_2}\n获得了{STR_VAR_3}连冠？\p看来你很努力啊。\n我也得跟上你的步伐！$"
 
 MatchCall_BattleDomeText5::
-    .string "喂，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n连赢了{STR_VAR_2}场！\p我也要加油！\n会见！$"
+    .string "喂，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n取得了{STR_VAR_2}连冠！\p我也要加油啊！\n再见啦！$"
 
 MatchCall_BattleDomeText6::
-    .string "嘿，{PLAYER}{KUN}？\n我是{STR_VAR_1}。你还好吗？\p顺便问下\n据说你在{STR_VAR_2}\l赢了{STR_VAR_2}场。\p我也必须训练我的宝可梦，\n在你把我甩开太远之前。$"
+    .string "嘿，{PLAYER}{KUN}？\n我是{STR_VAR_1}。你还好吗？\p对了，听说你在{STR_VAR_2}\n获得了{STR_VAR_2}连冠。\p我得赶紧训练我的宝可梦，\n不然你要甩开我啦。$"
 
 MatchCall_BattleDomeText7::
-    .string "{PLAYER}{KUN}？\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n连续获得了{STR_VAR_3}次冠军？\p真不得了啊。另外，\n你捕捉到什么稀有的宝可梦没有？\p哦，这样啊。\n好，再见。$"
+    .string "{PLAYER}{KUN}？\n我是{STR_VAR_1}。\p你在{STR_VAR_2}取得了\n{STR_VAR_3}连冠？\p真不得了啊。对了，\n你有捕捉到稀有的宝可梦吗？\p哦，这样啊。\n好，再见。$"
 
 MatchCall_BattleDomeText8::
-    .string "哦，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l我希望你一切都好。\l哦，那个，那个什么。\p我听说你在{STR_VAR_2}\n连续赢了{STR_VAR_3}场。\p我也要像你一样训练宝可梦。\n再见。$"
+    .string "喂，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l希望你一切顺利。\p不过你好像的确很顺利。\n我听说你在{STR_VAR_2}\l取得了{STR_VAR_3}连冠。\p我也得像你一样训练我的\n宝可梦。下次见！$"
 
 MatchCall_BattleDomeText9::
-    .string "喂，{PLAYER}{KUN}，你好啊！\n我是{STR_VAR_1}！\p我听说了！你在\n{STR_VAR_2}连续赢得了{STR_VAR_3}场比赛！\p真酷啊！\n我也要努力了！$"
+    .string "喂，{PLAYER}{KUN}，你好啊！\n我是{STR_VAR_1}！\p我听说了！你在{STR_VAR_2}\n取得了{STR_VAR_3}连冠！\p太酷了！\n我也要努力了！$"
 
 MatchCall_BattleDomeText10::
-    .string "哦，{PLAYER}{KUN}，你好。\n我是{STR_VAR_1}。\p你在{STR_VAR_2}连续赢得了\n{STR_VAR_3}场？\p真是了不起啊。\n我也要努力了。$"
+    .string "哦，{PLAYER}{KUN}，你好。\n我是{STR_VAR_1}。\p你在{STR_VAR_2}取得了\n{STR_VAR_3}连冠？\p真是了不起啊。\n我也要努力了。$"
 
 MatchCall_BattleDomeText11::
-    .string "哦，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n名声大振？\p你现在已经连续赢了{STR_VAR_3}场\n比赛了？\p我在想我会不会\n成为冠军？\p……不太可能吗？\n好，再见！$"
+    .string "哦，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p听说你在{STR_VAR_2}所向披靡？\p你现在已经实现\n{STR_VAR_3}连冠了？\p我在想自己能不能……\n也成为冠军？\p……大概不可能吧？\n好吧，再见！$"
 
 MatchCall_BattleDomeText12::
-    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l最近还好吗？\p你在一个叫{STR_VAR_2}的地方\n连续赢了{STR_VAR_3}场？\p真是传奇啊。\n再见！$"
+    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l最近还好吗？\p你在{STR_VAR_2}取得了\n{STR_VAR_3}连冠？\p真是传奇啊。\n再见！$"
 
 MatchCall_BattleDomeText13::
-    .string "喂，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l我希望你一切都好。\p据说你在一个叫{STR_VAR_2}的地方\n连续赢了{STR_VAR_3}场？\p真厉害啊！\n再见。$"
+    .string "喂，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l希望你一切都好。\p据说你在{STR_VAR_2}\n取得了{STR_VAR_3}连冠？\p真是精彩的故事！\n再见！$"
 
 MatchCall_BattleDomeText14::
-    .string "喂，你还，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l我听说你了！\p你不是在{STR_VAR_2}\n连赢了{STR_VAR_3}场吗？\p真了不起啊！\n再见！$"
+    .string "喂，你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l我听说你的事了！\p你不是在{STR_VAR_2}\n取得了{STR_VAR_3}连冠吗？\p真了不起啊！\n再见！$"
 
 MatchCall_BattlePikeText1::
-    .string "嗨！{PLAYER}？\n你好，我是{STR_VAR_1}！\l我听说了！\p你是不是在{STR_VAR_2}\n连赢了{STR_VAR_3}场？\p太惊人了！\n再见！$"
+    .string "嗨！{PLAYER}？\n你好，我是{STR_VAR_1}！\l我听说了！\p你是不是在{STR_VAR_2}\n连续通过了{STR_VAR_3}个房间？\p太惊人了！\n再见！$"
 
 MatchCall_BattlePikeText2::
-    .string "你好，我是{STR_VAR_1}！\n我听说你了！\p他们听说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}间房间！\p我也要加油啊！\n再见！$"
+    .string "你好，我是{STR_VAR_1}！\n听说你的事了！\p他们说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}个房间！\p我也要加油啊！\n再见！$"
 
 MatchCall_BattlePikeText3::
-    .string "嘿你好，{PLAYER}！\n是我，{STR_VAR_1}。\l一切还好吗？\p我听说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}间房间！\p下次要更努力啊！\n以后再见！$"
+    .string "嘿你好，{PLAYER}！\n是我，{STR_VAR_1}。\l一切还好吗？\p我听说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}个房间！\p下次争取更好成绩啊！\n以后再见！$"
 
 MatchCall_BattlePikeText4::
-    .string "嘿，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}间房间。\p我也要多多训练我的宝可梦\n不能落后！$"
+    .string "嘿，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n连续横扫了{STR_VAR_3}个房间。\p。我也得好好训练宝可梦\n才能跟上你！$"
 
 MatchCall_BattlePikeText5::
-    .string "你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}间房间。\p我也要多多努力！\n回见！$"
+    .string "你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n连续闯过了{STR_VAR_3}个房间。\p我也要多多努力！\n回见！$"
 
 MatchCall_BattlePikeText6::
-    .string "喂，{PLAYER}{KUN}？\n我是{STR_VAR_1}。你好吗？\p顺便说下，我听说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}间房间。\p我要多多训练我的宝可梦\n别把我甩得太远。$"
+    .string "喂，{PLAYER}{KUN}？\n我是{STR_VAR_1}。你好吗？\p对了，我听说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}个房间。\p我也得好好训练宝可梦\n才能跟上你！$"
 
 MatchCall_BattlePikeText7::
-    .string "{PLAYER}{KUN}？\n{STR_VAR_1}在此。\p我听说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}间房间？\p真不可思议。\p哦，我看见一只稀有的宝可梦！\n好，再见。$"
+    .string "{PLAYER}{KUN}？\n是我{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}个房间？\p真是太厉害了。\p哦，那边有只稀有的宝可梦！\n好了，再见！$"
 
 MatchCall_BattlePikeText8::
-    .string "喂，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l我希望你一切都好。\l哦，那个，你都很好啊。\p我听说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}间房间。\p真是让人震惊！\n我也要像你一样训练宝可梦了。\l再见。$"
+    .string "喂，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l希望你一切顺利。\l啊，看来你确实顺利啊。\p我听说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}个房间。\p真是让人震惊！\n我也要像你一样训练宝可梦了。\l再见。$"
 
 MatchCall_BattlePikeText9::
-    .string "喂，{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}！\p我听说了！你在{STR_VAR_2}\n连续通过了{STR_VAR_3}间房间。\p太酷了！\n我也要努力！$"
+    .string "喂，{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}！\p我听说了！你在{STR_VAR_2}\n连续通过了{STR_VAR_3}个房间。\p太酷了！\n我也要努力！$"
 
 MatchCall_BattlePikeText10::
-    .string "喂，{PLAYER}{KUN}，你好。\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n连续通过了{STR_VAR_3}间房间？\p真是了不起啊。\n我也要加油了。$"
+    .string "喂，{PLAYER}{KUN}，你好。\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n连续通过了{STR_VAR_3}个房间？\p真是了不起啊。\n我也要加油了。$"
 
 MatchCall_BattlePikeText11::
-    .string "喂，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n名声显赫？\p你通过了，啥，{STR_VAR_3}间房间？\n真是不得了啊。\p我想知道\n我也能成为冠军吗？\p……不可能吗？\n好了，再见！$"
+    .string "喂，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p听说你在{STR_VAR_2}所向披靡？\p你通过了，多少，{STR_VAR_3}个房间？\n真是不得了啊。\p我想知道我也能\n成为冠军吗？\p……不可能吗？\n好吧，再见！$"
 
 MatchCall_BattlePikeText12::
-    .string "喂，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还好吗？\p你在{STR_VAR_2}\n连续通过了{STR_VAR_3}间房间？\p真是不得了啊。\n再见！$"
+    .string "喂，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l最近好吗？\p你在{STR_VAR_2}连续\n通过了{STR_VAR_3}个房间？\p真是个精彩的故事。\n再见！$"
 
 MatchCall_BattlePikeText13::
-    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l希望你一切都好。\p他们说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}间房间？\p你可真厉害！\n再见。$"
+    .string "啊，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l希望你一切都好。\p据说你在{STR_VAR_2}\n连续通过了{STR_VAR_3}个房间？\p真佩服你的精力！\n再见。$"
 
 MatchCall_BattlePikeText14::
-    .string "喂，嗨，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l我听说了！\p不就是你在{STR_VAR_2}\n连续通过了{STR_VAR_3}间房间？\p真是了不起！\n再见！$"
+    .string "喂，嗨，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l听说你的事了！\p你不是在{STR_VAR_2}连续\n通过了{STR_VAR_3}个房间吗？\p真是了不起！\n再见！$"
 
 MatchCall_BattlePyramidText1::
-    .string "喂！{PLAYER}？\n你好，我是{STR_VAR_1}！\l我听说了！\p你在{STR_VAR_2}里\n登上了{STR_VAR_3}层？\p真是厉害啊！\n我也该试着挑战一下。$"
+    .string "喂！{PLAYER}？\n你好，我是{STR_VAR_1}！\l我听说了！\p你在{STR_VAR_2}里\n登上了{STR_VAR_3}层对吧？\p真是厉害啊！\n我也该试着挑战一下。$"
 
 MatchCall_BattlePyramidText2::
-    .string "你好，我是{STR_VAR_1}！\n我听说你了！\p他们说你在{STR_VAR_2}里\n一共登上了{STR_VAR_3}层？\p真不可思议！\n我也要去训练我的宝可梦了！$"
+    .string "你好，我是{STR_VAR_1}！\n听说你的消息了！\p他们说你在{STR_VAR_2}里\n一共登上了{STR_VAR_3}层？\p真不可思议！\n我也要去训练我的宝可梦了！$"
 
 MatchCall_BattlePyramidText3::
-    .string "为你好，{PLAYER}！\n是我，{STR_VAR_1}。\l还好吗？\p我听说你在{STR_VAR_2}里\n登上了{STR_VAR_3}层？\p下次更要努力啊！\n再见！$"
+    .string "嘿你好，{PLAYER}！\n是我，{STR_VAR_1}。\l最近怎么样？\p我听说你在{STR_VAR_2}里\n登上了{STR_VAR_3}层？\p下次争取做得更好啊！\n再见！$"
 
 MatchCall_BattlePyramidText4::
-    .string "嘿，{PLAYER}{KUN}。\n{STR_VAR_1}在此。\p说你在{STR_VAR_2}里\n到达了第{STR_VAR_3}层？\p我也要努力\n赶上你啊！$"
+    .string "嘿，{PLAYER}{KUN}。\n是我{STR_VAR_1}。\p说你在{STR_VAR_2}里\n征服了{STR_VAR_3}层？\p我也得努力训练\n才能跟上你的步伐！$"
 
 MatchCall_BattlePyramidText5::
-    .string "喂，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p听说你在{STR_VAR_2}里\n登上了第{STR_VAR_3}层？\p我也要努力了！\n再见！$"
+    .string "喂，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p听说你在{STR_VAR_2}里\n登上了{STR_VAR_3}层？\p我也得加把劲了！\n再见！$"
 
 MatchCall_BattlePyramidText6::
-    .string "喂，{PLAYER}{KUN}？\n{STR_VAR_1}在此。你好吗？\p顺便说下，听说你在{STR_VAR_2}里\n到达了第{STR_VAR_3}层。\p我也要去训练宝可梦，\n否则要被你甩开了。$"
+    .string "喂，{PLAYER}{KUN}？\n是我{STR_VAR_1}。最近好吗？\p对了，听说你在{STR_VAR_2}里\n征服了{STR_VAR_3}层。\p我也要去训练宝可梦，\n否则要被你甩开了。$"
 
 MatchCall_BattlePyramidText7::
-    .string "{PLAYER}{KUN}？\n{STR_VAR_1}在此。\p你在{STR_VAR_2}里\n到达了第{STR_VAR_3}层？\p厉害。那里有稀有的\n宝可梦吗？\p哦，没有吗？\n好的，再见。$"
+    .string "{PLAYER}{KUN}？\n是我{STR_VAR_1}。\p你在{STR_VAR_2}里\n征服了{STR_VAR_3}层？\p厉害啊！那里有稀有的\n宝可梦吗？\p哦，没有吗？\n好的，再见。$"
 
 MatchCall_BattlePyramidText8::
-    .string "哦，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l我希望你一切都好。\l嗯，那个，那个啥。\p你在{STR_VAR_2}里\n通过了第{STR_VAR_3}层？\p真是不得了啊！\n我也要像你一样培育我的宝可梦。\l再见。$"
+    .string "哦，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l希望你一切顺利。\l噢，看来你确实很顺利啊。\p听说你在{STR_VAR_2}里\n通过了{STR_VAR_3}层？\p真是不得了啊！\n我也要像你一样培育我的宝可梦。\l再见。$"
 
 MatchCall_BattlePyramidText9::
-    .string "哦，{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}！\p我听说了！你在{STR_VAR_2}里\n到达了第{STR_VAR_3}层！\p太酷了！\n我也要努力！$"
+    .string "哦，{PLAYER}{KUN}，你好！\n我是{STR_VAR_1}！\p我听说了！你在{STR_VAR_2}里\n闯过了{STR_VAR_3}层！\p太酷了！\n我也要努力！$"
 
 MatchCall_BattlePyramidText10::
-    .string "哦，{PLAYER}{KUN}，你好。\n我是{STR_VAR_1}。\p你在{STR_VAR_2}里\n到达了第{STR_VAR_3}层？\p真是了不起。\n我也要加油了。$"
+    .string "哦，{PLAYER}{KUN}，你好。\n我是{STR_VAR_1}。\p你在{STR_VAR_2}里\n征服了{STR_VAR_3}层？\p真是了不起。\n我也要加油了。$"
 
 MatchCall_BattlePyramidText11::
-    .string "喂，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n名震一方？\p你登上了，多少来着，第{STR_VAR_3}层？\n那真是很有点了不起呀。\p我在想我能成为\n冠军吗？\p……基本不可能？\n好，再见！$"
+    .string "喂，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p听说你在{STR_VAR_2}所向披靡？\p你登上了，多少，{STR_VAR_3}层？\n这真是了不起啊。\p不知道我能不能\n也成为冠军？\p……基本不可能？\n好，再见！$"
 
 MatchCall_BattlePyramidText12::
-    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还好吗？\p你在{STR_VAR_2}里\n到达了第{STR_VAR_3}层？\p真是难以置信。\n再见！$"
+    .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l你还好吗？\p你在{STR_VAR_2}里\n闯过了{STR_VAR_3}层？\p真是个精彩的故事。\n再见！$"
 
 MatchCall_BattlePyramidText13::
-    .string "喂，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l我希望你一切都好。\p你在{STR_VAR_2}里\n到达了第{STR_VAR_3}层？\p你真是活力充沛啊！\n再见了。$"
+    .string "喂，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l希望你一切都好。\p你在{STR_VAR_2}里\n征服了{STR_VAR_3}层？\p真佩服你的精力！\n再见了。$"
 
 MatchCall_BattlePyramidText14::
-    .string "喂，你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l我听说你了！\p你在{STR_VAR_2}里\n到达了第{STR_VAR_3}层？\p你真是我的偶像！\n再见了！$"
+    .string "喂，你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l听说你的事了！\p你不是在{STR_VAR_2}里\n征服了{STR_VAR_3}层吗？\p你真是我的偶像！\n再见了！$"
 
 MatchCall_Text_Mom1::
     .string "妈妈：你们父子两个……\n大家都被宝可梦迷住了。\p宝可梦到底有什么魅力呢？\p我吗？\n我喜欢那些能帮忙\l做家务的宝可梦。$"
@@ -692,10 +692,10 @@ MatchCall_Text_TateLiza3::
     .string "小枫：{PLAYER}！\n小南：{PLAYER}！\p小枫：我们的道馆已经好了！\n小南：我们的道馆已经好了！\p小枫：请随时来……\n小南：绿岭市看看！$"
 
 MatchCall_Text_TateLiza4::
-    .string "小枫：{PLAYER}，我们之间的战斗……\n小南：真是无比珍贵的经历。\p小枫：真期待能和你……\n小南：再战一场！$"
+    .string "小枫：{PLAYER}，我们之间的对战……\n小南：真是无比珍贵的经历。\p小枫：真期待能和你……\n小南：再战一场！$"
 
 MatchCall_Text_Juan1::
-    .string "亚当：嗯……\n{PLAYER}{KUN}……是你吗？\p我们的战斗——\n这让我想起了第一次\l遇到米可利时候的情景。\p或许你真的是一位能够超越\n米可利的天才训练家呢！$"
+    .string "亚当：嗯……\n{PLAYER}{KUN}……是你吗？\p我们的对战——\n这让我想起了第一次\l遇到米可利时候的情景。\p或许你真的是一位能够超越\n米可利的天才训练家呢！$"
 
 MatchCall_Text_Juan2::
     .string "亚当：呵呵……{PLAYER}{KUN}……\n你终于达成了目标。\p我的识人眼光\n果然没错……\p如今的你已登顶荣耀之巅，\n我期待与你重逢的时刻。$"
