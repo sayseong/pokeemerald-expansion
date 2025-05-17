@@ -984,7 +984,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
     .string "有谁能够击败\n这位训练家？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer:
-    .string "难道一切战斗都只为\n这位训练家而存在吗？\p$"
+    .string "难道一切对战都只为\n这位训练家而存在吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CurrentChampAimingToRetainTitle:
     .string "现任冠军\n正力争卫冕！\p$"

@@ -630,7 +630,7 @@ MtChimney_Text_Bushaa:
     .string "扑沙！$"
 
 MtChimney_Text_LavaCookiesJust200:
-    .string "釜炎仙贝是\n烟囱山的特产。\p吃吃看吧，一个只卖¥200。$"
+    .string "釜炎仙贝是\n烟囱山的特产。\p吃吃看吧，1个只卖¥200。$"
 
 MtChimney_Text_ThankYouDear:
     .string "谢谢惠顾，孩子！$"
@@ -669,7 +669,7 @@ MtChimney_Text_ShelbyPostBattle:
     .string "好吧，好吧，我输了，\n现在不能自称高手了。$"
 
 MtChimney_Text_ShelbyRegister:
-    .string "谢谢你，孩子，我很高兴，这就像\n我在和自己的孙子战斗一样。\p以后一定要再回来\n和我战斗啊。$"
+    .string "谢谢你，孩子，我很高兴，这就像\n我在和自己的孙子对战一样。\p以后一定要再回来\n和我对战啊。$"
 
 MtChimney_Text_ShelbyRematchIntro:
     .string "如果你能够把自己的心\n与你的宝可梦融合在一起，\l一定会有非凡的成就。$"
@@ -696,7 +696,7 @@ MtChimney_Text_SheilaDefeat:
     .string "你战斗的方式……\n好像烟囱山的喷发一般！$"
 
 MtChimney_Text_SheilaPostBattle:
-    .string "正如我说的，我终于到达了\n烟囱山，如果只是看看风景\l就真是太可惜了……\p我想来几场战斗，再买些\n煎饼当作纪念品。$"
+    .string "正如我说的，我终于到达了\n烟囱山，如果只是看看风景\l就真是太可惜了……\p我想来几场对战，再买些\n煎饼当作纪念品。$"
 
 MtChimney_Text_ShirleyIntro:
     .string "在温泉泡过后，\n感觉好极了！\l我一定能赢！$"

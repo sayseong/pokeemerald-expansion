@@ -166,7 +166,7 @@ SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideRight:
 	step_end
 
 SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles:
-    .string "我年轻的时候也是一个\n环游世界的宝可梦训练家，\p但现在我已经日薄西山，\n唯一的乐趣只有\l看年轻训练家战斗了。$"
+    .string "我年轻的时候也是一个\n环游世界的宝可梦训练家，\p但现在我已经日薄西山，\n唯一的乐趣只有\l看年轻训练家对战了。$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked:
     .string "这扇门上了锁。$"
@@ -175,23 +175,23 @@ SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer:
     .string "一个叫{STR_VAR_1}的训练家\n到我家来了，\p你想挑战\n{STR_VAR_1}吗？$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle:
-    .string "你不想战斗？好失望，\n我真的很想看你们的战斗……$"
+    .string "你不想对战？好失望，\n我真的很想看你们的对战……$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_KeepItTo3On3:
-    .string "啊，好，太好了！\p不过我的房子不是特别坚固，\p能请你们进行一场\n三对三的战斗吗？$"
+    .string "啊，好，太好了！\p不过我的房子不是特别坚固，\p能请你们进行一场\n3对3的对战吗？$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_SaveProgressBeforeBattle:
-    .string "在你们两个战斗前\n要先写入记录。$"
+    .string "在你们2个对战前\n要先写入记录。$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_HopeToSeeGoodMatch:
-    .string "我想要看到一场精彩的战斗！$"
+    .string "我想要看到一场精彩的对战！$"
 
 @ Unused
 SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Tie:
     .string "{STR_VAR_1}$"
 
 SootopolisCity_MysteryEventsHouse_B1F_Text_MatchEndedUpDraw:
-    .string "战斗以平局结束。$"
+    .string "对战以平局结束。$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_BrilliantStandoff:
     .string "是平局哦。\p双方都没有让步\n真是场精彩的比赛！$"
@@ -208,5 +208,5 @@ SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Lost:
     .string "{STR_VAR_1}$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_TooBadForYou:
-    .string "啊，太糟糕了！\p但是确实是场不错的战斗。\n希望下次你可以赢。$"
+    .string "啊，太糟糕了！\p但是确实是场不错的对战。\n希望下次你可以赢。$"
 

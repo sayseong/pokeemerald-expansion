@@ -720,7 +720,7 @@ PetalburgCity_Text_WaterReflection:
     .string "我的脸倒映在水面上。\p那也许是张充满希望的笑脸……\p又或是在恐惧中挣扎的\n一张忧郁而沉默的脸……\p你的脸在水里会是什么样？$"
 
 PetalburgCity_Text_FullPartyExplanation:
-    .string "假如你已经带了六只宝可梦，\n那么再捕捉一只的话……\p就会通过电脑传送到\n仓库盒子里。$"
+    .string "假如你已经带了6只宝可梦，\n那么再捕捉1只的话……\p就会通过电脑传送到盒子里。$"
 
 PetalburgCity_Text_GymSign:
     .string "橙华市宝可梦道馆\n馆主：千里\l“追求强大力量的男人！”$"

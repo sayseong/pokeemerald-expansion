@@ -936,11 +936,11 @@ BattleFrontier_BattleTowerLobby_Text_DidntSaveBeforeQuitting:
     .string "抱歉！\p您在上次结束时\n没有写入记录。\p非常遗憾，没有写入记录的\n挑战我们将视其为无效。$"
 
 BattleFrontier_BattleTowerLobby_Text_CongratsBeatenSeven:
-    .string "恭喜您！\n七位训练家都被您打败了！\p$"
+    .string "恭喜您！\n您已击败全部7位训练家！\p$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_EarnedFabulousPrize:
-    .string "作为打败七位训练家的奖励，\n您会获得精美的奖品！\p$"
+    .string "作为连续击败7位训练家的奖励，\n您将获得精美的奖品！\p$"
 
 BattleFrontier_BattleTowerLobby_Text_ReceivedPrize:
     .string "{PLAYER}得到奖品\n{STR_VAR_1}。$"
@@ -953,7 +953,7 @@ BattleFrontier_BattleTowerLobby_Text_ThankYouForPlaying:
     .string "感谢您的光临！\p$"
 
 BattleFrontier_BattleTowerLobby_Text_RecordWillBeSaved:
-    .string "准备写入记录，\n请稍等。$"
+    .string "正在写入记录，\n请稍等。$"
 
 BattleFrontier_BattleTowerLobby_Text_WeveBeenWaitingForYou:
     .string "我们已经恭候多时了！\p$"
@@ -962,10 +962,10 @@ BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved:
     .string "进入对战间之前需要\n写入记录，请稍等。$"
 
 BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer:
-    .string "下面您将面对的是\n第五十位训练家了，\p现在开始，您每次连续打败\n七位训练家，我们会给您的宝可梦\l授予纪念奖章。\p祝您好运！$"
+    .string "下面您即将迎战的是\n第50位训练家了，\p现在开始，您每次连续打败\n7位训练家，我们都将给您的宝可梦\l授予纪念奖章。\p祝您好运！$"
 
 BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons:
-    .string "这是连续打败七位\n强大的训练家的奖励。\p{PLAYER}得到奖章！$"
+    .string "这是连续打败7位\n强大的训练家的奖励。\p{PLAYER}得到奖章！$"
 
 BattleFrontier_BattleTowerLobby_Text_PutRibbonOnMons:
     .string "{PLAYER}给挑战的宝可梦\n戴上了奖章。$"
@@ -995,7 +995,7 @@ BattleFrontier_BattleTowerLobby_Text_WinsInRowRecorded:
     .string "连胜的次数都会\n被记录下来。\p我可不想输得太难堪啊！$"
 
 BattleFrontier_BattleTowerLobby_Text_CanLeaveUntilLossOrSevenWins:
-    .string "进入对战塔之后，\n除非被打败或者连胜七人，\l否则是不可以离开的。\p开始挑战之前你最好估计一下\n自己有没有挑战的实力。$"
+    .string "进入对战塔后，\n只有被打败或者连胜7名\n训练家才能离开。\p开始挑战之前你最好\n做好充分的准备。$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_DoubleBattleRoomConstruction:
@@ -1006,10 +1006,10 @@ BattleFrontier_BattleTowerLobby_Text_MultiBattleRoomConstruction:
     .string "欢迎来到对战塔\n多人对战区！\p很不幸，对战间\n还在建设之中。\p当建筑完成后\n再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge:
-    .string "希望还能在下次挑战中\n遇到您！$"
+    .string "期待您的再次挑战！$"
 
 BattleFrontier_BattleTowerLobby_Text_WhichLevelMode:
-    .string "对战间有两种挑战等级，\nLv. 50级和自由等级。\l您想选哪种？$"
+    .string "对战间有2种挑战等级，\nLv. 50级和自由等级。\l您想选哪种？$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectMons:
@@ -1019,91 +1019,91 @@ BattleFrontier_BattleTowerLobby_Text_OkayToSaveBeforeEntering:
     .string "进入对战间之前需要\n先写入记录，可以吗？$"
 
 BattleFrontier_BattleTowerLobby_Text_ShowYouToBattleRoom:
-    .string "现在请进入\n{STR_VAR_1}对战间。$"
+    .string "现在我将带您前往\n{STR_VAR_1}对战间。$"
 
 BattleFrontier_BattleTowerLobby_Text_RecordLastMatch:
     .string "要把对战塔的对战成绩\n记录在开拓通行证上吗？$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50:
-    .string "对不起，\p您符合条件的宝可梦不足{STR_VAR_2}只。\p必须有{STR_VAR_2}只不同的等级50以内的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p您符合条件的宝可梦不足{STR_VAR_2}只。\p需要有{STR_VAR_2}只不同的等级50以内的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也需要各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "对不起，\p您符合条件的宝可梦不足{STR_VAR_2}只。\p必须有{STR_VAR_2}只不同的宝可梦\n才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p您符合条件的宝可梦不足{STR_VAR_2}只。\p需要有{STR_VAR_2}只不同的宝可梦\n才可以参加比赛，\p同时这些宝可梦携带的道具\n也需要各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles:
-    .string "对不起，\p您符合条件的宝可梦不足三只。\p必须有三只不同的等级50以内的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenSingles:
-    .string "对不起，\p您符合条件的宝可梦不足三只。\p必须有三只不同的宝可梦\n才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Doubles:
-    .string "对不起，\p您符合条件的宝可梦不足四只。\p必须有四只不同的等级50以内的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p您能够参加对战的\n宝可梦不满4只。\p您需要准备4只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenDoubles:
-    .string "对不起，\p您符合条件的宝可梦不足四只。\p必须有四只不同的宝可梦\n才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p您能够参加对战的\n宝可梦不满4只。\p您需要准备4只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Multis:
-    .string "对不起，\p您符合条件的宝可梦不足两只。\p必须有两只不同的等级50以内的\n宝可梦才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p您能够参加对战的\n宝可梦不满2只。\p您需要准备2只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis:
-    .string "对不起，\p您符合条件的宝可梦不足两只。\p必须有两只不同的宝可梦\n才可以参加比赛，\p同时这些宝可梦携带的道具\n也必须各不相同。\p蛋{STR_VAR_1}不能参加。\p准备好之后再来吧。$"
+    .string "对不起，\p您能够参加对战的\n宝可梦不满2只。\p您需要准备2只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle:
-    .string "这里是检验训练家的\n才能的地方！\p欢迎来到对战塔！\p我将领您进入\n单人对战间。$"
+    .string "训练家的才能\n将在此接受考验！\p欢迎来到对战塔！\p我是您的单打对战间向导。$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeSinglesChallenge:
-    .string "想要挑战\n单人对战间吗？$"
+    .string "要挑战单打对战间吗？$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainSinglesChallenge:
-    .string "对战塔的单人对战间\n是用三只宝可梦进行\l单人对战的设施，\p对战塔里有很多\n单人对战间，\l可以进行团体对战。\p在单人对战间中，\n会有七位训练家等待挑战，\p如果顺利打败了七人，\n就可以获得对战点数。\p暂停挑战请先写入记录，\n否则我们将视挑战为无效。$"
+    .string "对战塔的单打对战间\n是用3只宝可梦进行单打对战的设施，\p对战塔内有很多单打对战间，\n供团队对战使用。\p在单打对战间中，\n会有7位训练家等待挑战，\p如果顺利战胜7人，\n我们会向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在暂停前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattleTowerLobby_Text_SelectThreeMons:
-    .string "现在请选择参加挑战的\n三只宝可梦。$"
+    .string "请选择要参加挑战的\n3只宝可梦。$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomeDoubleBattle:
-    .string "这里是检验训练家的\n才能的地方！\p欢迎来到对战塔！\p我将领您进入\n双打对战间。$"
+    .string "训练家的才能\n将在此接受考验！\p欢迎来到对战塔！\p我是您的双打对战间向导。$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeDoublesChallenge:
-    .string "想要挑战\n双打对战间吗？$"
+    .string "要挑战双打对战间吗？$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainDoublesChallenge:
-    .string "对战塔的双打对战间\n是用四只宝可梦进行\l双打对战的设施，\p对战塔里有很多\n双打对战间，\l可以进行团体对战。\p在双打对战间中，\n会有七位训练家等待挑战，\p如果顺利打败了七人，\n就可以获得对战点数。\p暂停挑战请先写入记录，\n否则我们将视挑战为无效。$"
+    .string "对战塔的双打对战间\n是用4只宝可梦进行双打对战的设施，\p对战塔内有很多双打对战间，\n供团队对战使用。\p在双打对战间中，\n会有7位训练家等待挑战，\p如果顺利战胜7人，\n我们会向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在暂停前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectFourMons:
-    .string "现在请选择参加挑战的\n四只宝可梦。$"
+    .string "请选择要参加挑战的\n4只宝可梦。$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomeMultiBattle:
-    .string "这里是检验训练家的\n才能的地方！\p欢迎来到对战塔！\p我将领您进入\n多人对战间。$"
+    .string "训练家的才能\n将在此接受考验！\p欢迎来到对战塔！\p我是您的多人对战间向导。$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeMultisChallenge:
-    .string "想要挑战\n多人对战间吗？$"
+    .string "要挑战多人对战间吗？$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainMultisChallenge:
-    .string "对战塔的多人对战间\n是进行多人对战的设施。\p要参加多人对战，您需要在塔里\n选择一名训练家作为搭档，\l每人携带两只宝可梦进行比赛。\p塔里有一个叫做\n对战塔的房间，可以\l在那里找到别的训练家。\p然后您选定一起进行\n多人对战挑战的搭档。\p决定搭档后，就可以进入\n多人对战间了。\p在多人对战间中，\n会有七组训练家等待挑战，\p如果顺利打败七组，\n就可以获得对战点数。\p暂停挑战请先写入记录，\n否则我们将视挑战为无效。$"
+    .string "对战塔的多人对战间\n是进行多人对战的设施。\p要参加多人对战，您需要在塔内\n选择1名训练家作为搭档，\l每人派出2只宝可梦进行比赛。\p塔内有个叫对战沙龙的房间，\n可以在那里遇到其他训练家。\p在那里，你需要选择1名训练家\n作为多人对战的搭档。\p组队成功后，\n将被引导至多人对战间。\p在多人对战间中，\n会有7组训练家等待挑战，\p如果顺利战胜7组，\n我们会向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在暂停前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons:
-    .string "现在请选择参加挑战的\n两只宝可梦。$"
+    .string "请选择要参加挑战的\n2只宝可梦。$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomeLinkMultiBattle:
-    .string "这里是检验训练家的\n才能的地方！\p欢迎来到对战塔！\p我将领您进入\n多人连线对战间。$"
+    .string "训练家的才能\n将在此接受考验！\p欢迎来到对战塔！\p我是您的多人连线对战间向导。$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeLinkMultisChallenge:
-    .string "想要挑战\n多人连线对战间吗？$"
+    .string "要挑战多人连线对战间吗？$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge:
-    .string "对战塔的多人对战间\n是和朋友一起进行\l多人对战的设施。\p您需要先使用无线适配器\n或GBA连接线\l与朋友连接，\p携带两只宝可梦和朋友\n组队进行挑战。\p对战塔里有很多\n多人对战间，\p可以进行团体对战。\n在多人对战间中，\l会有七组训练家等待\p您和您朋友的组队挑战。\n如果顺利打败七组，\p就可以获得对战点数。\n请注意这里与其他房间不同，\p您不能暂停挑战。一旦挑战开始，\n就必须不间断地进行七次多人对战。$"
+    .string "对战塔的多人对战间\n是和朋友一起进行\l多人对战的设施。\p您需要先使用无线适配器\n或GBA连接线与朋友连接，\p携带2只宝可梦和朋友\n组队进行挑战。\p对战塔内有很多\n多人对战间，\p供团队对战使用。\n在多人对战间中，\l会有7组训练家等待\p您和您朋友的组队挑战。\n如果顺利战胜7组，\p我们会向您呈上对战点数。\n请注意这里与其他房间不同，\p您不能暂停挑战。一旦挑战开始，\n就需要不间断地进行7次多人对战。$"
 
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons2:
-    .string "现在请选择参加挑战的\n两只宝可梦。$"
+    .string "请选择要参加挑战的\n2只宝可梦。$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_ChoseSameMonAsFriend:
     .string "您和您的朋友选择了\n同一种宝可梦。\p请选择与您朋友不同\n的宝可梦，确认您们选择的是同样的\l挑战等级，然后重新申请挑战。$"
 
 BattleFrontier_BattleTowerLobby_Text_LinkMultiOnlyForTwoPlayers:
-    .string "多人连线对战间的挑战\n只对两位连接上的玩家开放。$"
+    .string "多人连线对战间的挑战\n只对2位连接上的玩家开放。$"
 
 BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMon:
     .string "您的朋友也选择了\n宝可梦{STR_VAR_1}。$"
@@ -1123,13 +1123,13 @@ BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMons:
     .string "您的朋友选择了不同的\n挑战等级。\p您的朋友也选择了\n宝可梦{STR_VAR_1}和{STR_VAR_2}。$"
 
 BattleFrontier_BattleTowerLobby_Text_ChooseDifferentMonsMatchLvlMode:
-    .string "请选择两只与您的朋友不同的宝可梦，\n确认您们选择的是同样的挑战等级，\l然后重新申请挑战。$"
+    .string "请选择2只与您的朋友不同的宝可梦，\n确认您们选择的是同样的挑战等级，\l然后重新申请挑战。$"
 
 BattleFrontier_BattleTowerLobby_Text_SaveGameBeforeShowingIn:
     .string "开始挑战之前需要先写入记录，\n请稍等。$"
 
 BattleFrontier_BattleTowerLobby_Text_CongratsDefeatedMaiden:
-    .string "恭喜！\n您打败了对战塔大君，并且\l与七位训练家的战斗中取得了全胜！$"
+    .string "恭喜！\n您打败了对战塔大君，并且\l与7位训练家的对战中取得了全胜！$"
 
 BattleFrontier_BattleTowerLobby_Text_AwardYouTheseBattlePoints:
     .string "为了表彰您无限的才能，\n我们授予您这些对战点数。$"
@@ -1144,13 +1144,13 @@ BattleFrontier_BattleTowerLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules:
-    .string "对战塔中\n有四种类型的战斗——\l单人对战，双打对战，\l多人对战和多人连线对战。\p每种战斗都有不同的\n对战间，\p请到相应的向导处\n申请参加挑战。$"
+    .string "对战塔中\n有4种类型的对战——\l单打对战，双打对战，\l多人对战和多人连线对战。\p每种对战都有不同的\n对战间，\p请到相应的向导处\n申请参加挑战。$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainMonRules:
-    .string "根据进入的对战间的不同，\n需要携带的宝可梦的数量\l也各不同。\p单人对战模式\n需要三只宝可梦，\p双打对战需要四只，\n而多人模式需要两只。$"
+    .string "根据进入的对战间的不同，\n需要携带的宝可梦的数量\l也各不同。\p单打对战模式\n需要3只宝可梦，\p双打对战需要4只，\n而多人模式需要2只。$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainSalonRules:
-    .string "在对战塔里\n您可以找到一同组队挑战\l多人对战间的训练家。\p仔细对比每个训练家的\n宝可梦和它们所会的招式，\l然后选择最适合您的搭档。\p连续打败七组训练家后\n您可以更换搭档。$"
+    .string "您需要在对战沙龙内找到一同组队\n挑战多人对战间的训练家。\p仔细查看每个训练家的宝可梦和\n招式来选择您的最佳搭档。\p连续打败7组训练家后，\n您可以选择新的搭档。$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
-    .string "通过多人连线对战模式\n可以和朋友一起挑战。\p必须先和朋友通过\n无线适配器或\lGBA连接线进行连接，\p并在挑战申请处选好\n您要携带的宝可梦，\p这些宝可梦必须\n与您朋友的不同。\p同时，与其他模式不同，\n在这里您不可以暂停挑战。$"
+    .string "通过多人连线对战模式\n可以和朋友一起挑战。\p需要先和朋友通过无线适配器\n或GBA连接线进行连接，\p并在挑战申请处选好\n您要携带的宝可梦，\p这些宝可梦的种类要\n与您朋友的不同。\p同时，与其他模式不同，\n在这里您不可以暂停挑战。$"

@@ -332,7 +332,7 @@ TrainerHill_Entrance_Text_ExplainTrainerHill:
 
 @ Unused
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
-    .string "哦，对不起，但是\n您只有一只宝可梦。\p您最少需要两只宝可梦\n来参加这个活动。$"
+    .string "哦，对不起，但是\n您只有1只宝可梦。\p您最少需要2只宝可梦\n来参加这个活动。$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo:
     .string "嗯，嗯！\p你终于来了！\n是啊，你来了！\p等！不要说话！\n我知道你为什么会\l一个人单独走到这里来！\p你要来见我这个\n训练家之丘的老板，因为……\p你希望和我组队！\n呀——呵！\p……呃？\n不是吗？\p不管怎样，我一路看着你上来。\n完美的战斗！勇气可嘉！$"

@@ -298,7 +298,7 @@ RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
     .string "是吗？\p告诉你，得文的技术知识\n是最优秀的。$"
 
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
-    .string "啊，真令人吃惊！\n你不是有一个，而是有两个化石？\p但我的机器一次\n只能复活一只宝可梦，\p你想复活\n其中一只吗？$"
+    .string "啊，真令人吃惊！\n你不是有1个，而是有2个化石？\p但我的机器一次\n只能复活1只宝可梦，\p你想复活\n其中1只吗？$"
 
 RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
     .string "太好了！\n我们这就开始。\p{PLAYER}把{STR_VAR_1}\n交给了得文研究员。$"

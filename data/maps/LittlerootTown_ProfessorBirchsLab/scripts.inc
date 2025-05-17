@@ -673,7 +673,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
     .string "小田卷博士正在研究\n宝可梦的栖息分布，\p他喜欢让{RIVAL}帮忙。\n两人感情很好。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
-    .string "小田卷博士：……{PLAYER}{KUN}，\p我从你爸爸那儿听说了\n很多关于你的事。\p听说你还没有\n自己的宝可梦？\p但你刚才战斗的样子\n真是镇静自若！\p果然是遗传了\n你父亲的才能！\p对了，作为谢礼，\n你刚才用的那只宝可梦\l就送给你吧！\p{PLAYER}得到{STR_VAR_1}！$"
+    .string "小田卷博士：……{PLAYER}{KUN}，\p我从你爸爸那儿听说了\n很多关于你的事。\p听说你还没有\n自己的宝可梦？\p但你刚才对战的样子\n真是镇静自若！\p果然是遗传了\n你父亲的才能！\p对了，作为谢礼，\n你刚才用的那只宝可梦\l就送给你吧！\p{PLAYER}得到{STR_VAR_1}！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
     .string "小田卷博士：要不要顺便给这只{STR_VAR_1}\n起个昵称呢？$"
@@ -763,10 +763,10 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
     .string "小悠：从现在起，\n我打算暂停实地调查，\p就留在这里帮博士的忙。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
-    .string "小田卷博士：哦，{PLAYER}{KUN}！\n我看看你的宝可梦图鉴。\p…… …… ……\n…… …… ……\p毫无疑问，\p你真的完成了丰缘地区的\n宝可梦图鉴，\p真是太了不起了！\p我有礼物要送给你，\p就当作是我对你\n出色工作的感谢。\p这是只有在其它地区\n才能找到的稀有宝可梦！\p从这三只中\n选择一只吧！$"
+    .string "小田卷博士：哦，{PLAYER}{KUN}！\n我看看你的宝可梦图鉴。\p…… …… ……\n…… …… ……\p毫无疑问，\p你真的完成了丰缘地区的\n宝可梦图鉴，\p真是太了不起了！\p我有礼物要送给你，\p就当作是我对你\n出色工作的感谢。\p这是只有在其它地区\n才能找到的稀有宝可梦！\p从这3只中\n选择1只吧！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon:
-    .string "小田卷博士：这是只有在其它地区\n才能找到的稀有宝可梦！\p从这三只中\n挑一只吧！$"
+    .string "小田卷博士：这是只有在其它地区\n才能找到的稀有宝可梦！\p从这3只中\n挑1只吧！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil:
     .string "小田卷博士：你看中了\n火属性宝可梦火球鼠！\p你还是那么地眼尖啊！\p那么，你要选择火球鼠？$"
@@ -802,7 +802,7 @@ LittlerootTown_ProfessorBirchsLab_Text_DontHaveAnyRoomForPokemon:
     .string "噢，你没有放下这只\n宝可梦的地方了。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
-    .string "小遥：{PLAYER}{KUN}，这以后……\n你打算怎么做？\p继续战斗提升\n自己的实力吗？\p还是试着完成\n全国宝可梦图鉴？\p我要留在这儿给博士帮忙。$"
+    .string "小遥：{PLAYER}{KUN}，这以后……\n你打算怎么做？\p继续对战提升\n自己的实力吗？\p还是试着完成\n全国宝可梦图鉴？\p我要留在这儿给博士帮忙。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
     .string "小悠：比起收集\n宝可梦，我更喜欢一步步慢慢培育\l我自己选择的那一只。$"

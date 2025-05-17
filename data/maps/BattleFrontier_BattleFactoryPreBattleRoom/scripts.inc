@@ -455,10 +455,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Movement_AttendantReturnToPlayer:
 	step_end
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection:
-    .string "首先，我们会把您的宝可梦\n好好保管的。\p您可以从我们挑选的宝可梦\n进行选择。$"
+    .string "我们将先暂时保管\n您的宝可梦。\p您可以稍后从我们提供的\n宝可梦中进行选择。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons:
-    .string "感谢您参赛！\n让我们帮您的宝可梦进行回复！$"
+    .string "感谢您的精彩对战！\n让我们帮您的宝可梦进行回复！$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent:
     .string "接下来是第2场比赛！\n准备好了吗？$"
@@ -482,10 +482,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame:
     .string "要写入记录\n并退出游戏吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge:
-    .string "您要暂停您的\n交换式对战挑战吗？$"
+    .string "要退出交换式对战挑战吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
-    .string "我对您即将来临的对手\n进行了一些调查。$"
+    .string "我对您的下一位对手\n进行了一些调查。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType:
     .string "这个训练家显然很善于\n操纵一般属性。$"
@@ -572,7 +572,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained:
     .string "最喜欢的战斗风格好像是\n自由奔放、无拘无束的那种。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon:
-    .string "再开始战斗之前，您要\n交换一只宝可梦吗？$"
+    .string "在对战开始前，\n需要交换1只宝可梦吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete:
     .string "谢谢！\n宝可梦交换已完成。$"

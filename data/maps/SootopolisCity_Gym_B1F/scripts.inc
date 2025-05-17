@@ -70,16 +70,16 @@ SootopolisCity_Gym_B1F_Text_CrissyPostBattle:
     .string "你也许能够躲过\n被亚当一击打倒的命运。$"
 
 SootopolisCity_Gym_B1F_Text_DaphneIntro:
-    .string "亚当战斗时的\n样子……\p我被那令人心醉的美丽吸引，\n才决定成为训练家。$"
+    .string "亚当对战时的\n样子……\p我被那令人心醉的美丽吸引，\n才决定成为训练家。$"
 
 SootopolisCity_Gym_B1F_Text_DaphneDefeat:
-    .string "你的战斗比我\n更加美丽……$"
+    .string "你的对战比我\n更加美丽……$"
 
 SootopolisCity_Gym_B1F_Text_DaphnePostBattle:
-    .string "你的战斗\n非常优雅。\p啊……跟宝可梦在一起\n真幸运。$"
+    .string "你的对战\n非常优雅。\p啊……跟宝可梦在一起\n真幸运。$"
 
 SootopolisCity_Gym_B1F_Text_ConnieIntro:
-    .string "让我告诉你\n战斗的严酷吧。$"
+    .string "让我告诉你\n对战的严酷吧。$"
 
 SootopolisCity_Gym_B1F_Text_ConnieDefeat:
     .string "啊，\n你很强。$"

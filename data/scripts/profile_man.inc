@@ -102,10 +102,10 @@ ProfileMan_Text_MayISeeYourProfile:
 	.string "我可以看看你的档案吗？$"
 
 ProfileMan_Text_EasyChatExplanation:
-	.string "你可以用四个单词或短语\n"
+	.string "你可以用4个单词或短语\n"
 	.string "组合起来创建自己的个人资料。\p"
 	.string "我先在这里给你展示一个\n"
-	.string "用四个文本组成的档案的例子。\p"
+	.string "用4个文本组成的档案的例子。\p"
 	.string "你可以把里面的文本换成\n"
 	.string "你自己喜欢的文本\l"
 	.string "来构成你自己的档案。\p"

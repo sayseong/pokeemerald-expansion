@@ -160,9 +160,9 @@ LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
 
 @ Unused
 LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun:
-    .string "无线通信很有趣\n不是吗？\p我认为它把以前很多的不可能\n变成了可能。\p例如，你现在可以和不同的人\n进行交换。\p我认为它太有趣了！$"
+    .string "无线连接很有趣\n不是吗？\p我认为它把以前很多的不可能\n变成了可能。\p例如，你现在可以和不同的人\n进行交换。\p我认为它太有趣了！$"
 
 @ Unused
 LilycoveCity_DepartmentStore_1F_Text_SpreadWordAboutWirelessComm:
-    .string "我想把无线通信的乐趣\n传播出去。$"
+    .string "我想把无线连接的乐趣\n传播出去。$"
 

@@ -351,7 +351,7 @@ LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
     .string "主持：好了，聪明宝可梦和\n训练家们，准备好了吗？！\p努力吧！\n开始！$"
 
 LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
-    .string "评委：你喜欢这华丽大赛吗？\p和三个朋友一起来，\n大家可以一起参加大赛！$"
+    .string "评委：你喜欢这华丽大赛吗？\p和3个朋友一起来，\n大家可以一起参加大赛！$"
 
 LilycoveCity_ContestHall_Text_EnteredWrongContest:
     .string "啊呀啊呀啊呀……\n我参加错了，\p我让我强大的宝可梦\n参加了聪明大赛……\p好吧，用你聪慧的碎岩\n让他们大吃一惊吧。$"
@@ -369,7 +369,7 @@ LilycoveCity_ContestHall_Text_YoureBeautifulGrandpa:
     .string "呀啊啊啊！爷爷，你真棒！$"
 
 LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves:
-    .string "即使训练家使用相同的宝可梦，\n他们用来吸引人的招式\l也会不一样，\p这和大家的战斗方式不同\n是同样的道理。$"
+    .string "即使训练家使用相同的宝可梦，\n他们用来吸引人的招式\l也会不一样，\p这和大家的对战方式不同\n是同样的道理。$"
 
 LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers:
     .string "我想宝可梦看上去\n比它们的训练家还要聪明。$"
@@ -414,7 +414,7 @@ LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
     .string "哦，不……我的小露力丽\n被忽视了。$"
 
 LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
-    .string "我的宝可梦战斗从未赢过，\n但看看它在华丽大赛的表现吧！$"
+    .string "我的宝可梦对战从未赢过，\n但看看它在华丽大赛的表现吧！$"
 
 LilycoveCity_ContestHall_Text_PetalDanceIsMarvel:
     .string "我的宝可梦的花之舞\n奇妙而优美，\p我不会让任何人\n打扰它的表演。$"

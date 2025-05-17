@@ -237,7 +237,7 @@ BattleFrontier_OutsideEast_Text_BattleTowerSign:
     .string "这里是对战塔！\n保持您的不败纪录，\l成为最强的训练家吧！$"
 
 BattleFrontier_OutsideEast_Text_BattlePalaceSign:
-    .string "这里是对战宫殿！\n关注您的宝可梦的战斗吧！$"
+    .string "这里是对战宫殿！\n关注您的宝可梦的对战吧！$"
 
 BattleFrontier_OutsideEast_Text_BattleArenaSign:
     .string "这里是对战竞技场！\n最强的队伍在这里集结！$"
@@ -258,7 +258,7 @@ BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier:
     .string "我的目标是征服整个\n对战开拓区和\l宝可梦联盟。\p如果成功了的话……\p我……我就去求我家隔壁\n的咪咪跟我做朋友！$"
 
 BattleFrontier_OutsideEast_Text_PyramidTooHarsh:
-    .string "对战金字塔的战斗非常严酷！\n我想我是走不到最上层了。\p实在没有其他办法的话，\n也许我可以试试从外面爬上去……$"
+    .string "对战金字塔实在是太难了！\n我想我是走不到最上层了。\p实在没有其他办法的话，\n也许我可以试试从外面爬上去……$"
 
 BattleFrontier_OutsideEast_Text_ThriveInDarkness:
     .string "我是在黑暗中长大的……\n是的……哪里最适合我？\l必然是对战金字塔……\p在黑暗中探索的时候\n你是不是也会陷入完全的绝望？$"
@@ -267,7 +267,7 @@ BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
     .string "我一个星期没有睡觉了，\n但我已经找到了最强组合！\p我是绝对不会输的，我没开玩笑，\n我们的风暴会席卷对战竞技场！$"
 
 BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
-    .string "你也是亚希达带来的吗？\n那家伙到底是什么人？\p他好像总能发现\n天才训练家，不过……\p我从来没见过\n他跟别人战斗。$"
+    .string "你也是亚希达带来的吗？\n那家伙到底是什么人？\p他好像总能发现\n天才训练家，不过……\p我从来没见过\n他跟别人对战。$"
 
 BattleFrontier_OutsideEast_Text_BelieveInYouBuddy:
     .string "兹格！\n我相信你能行的，伙计！\p我的小兹格赢了的话\n什么好东西都买给你！$"
@@ -276,19 +276,19 @@ BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant:
     .string "蛇纹熊看起来挺清闲……$"
 
 BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
-    .string "大家都说我爱管闲事，\n但我总是忍不住啊。\p你的帽子歪了！\n啊，天哪，地上有垃圾！\l哎呀，到晚饭时间了！\p真不知道我究竟能不能\n安静地看对战宫殿里的战斗……$"
+    .string "大家都说我爱管闲事，\n但我总是忍不住啊。\p你的帽子歪了！\n啊，天哪，地上有垃圾！\l哎呀，到晚饭时间了！\p真不知道我究竟能不能\n安静地看对战宫殿里的对战……$"
 
 BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
     .string "也许我看起来不像那种人，\n但我确实打败过道馆馆主。\p哎，我是不是应该再做一些什么\n来保持我的荣誉？$"
 
 BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles:
-    .string "我骑自行车很快，\n战斗的时候也一样快。\p眨眼之间我就可以\n赢得战斗！$"
+    .string "我骑自行车很快，\n对战的时候也一样快。\p眨眼之间我就可以\n赢得对战！$"
 
 BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon:
     .string "对于宝可梦，我比爸爸\n还要更胜一筹。$"
 
 BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy:
-    .string "去吧，小甜心！\n为了爸爸取得胜利吧！\p你和你妈妈一样，\n绝对能够主导战斗！$"
+    .string "去吧，小甜心！\n为了爸爸取得胜利吧！\p你和你妈妈一样，\n绝对能够主导对战！$"
 
 BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena:
     .string "这一路过来可真不容易！\n但我可是听说对战竞技场的\l有个无比漂亮的女孩。\p除了她，你知道我还\n找到了什么？\p一大群满身汗臭的\n粗野的武术家！$"

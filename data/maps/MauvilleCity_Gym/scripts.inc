@@ -347,5 +347,5 @@ MauvilleCity_Gym_Text_WattsonPostRematch:
     .string "铁旋：我们又要给我们的\n电池充电了。\p等我们充好电，\n我们会很高兴接受你的挑战。\p所以，有时间的话再来吧，\n好吗？$"
 
 MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
-    .string "铁旋：啊哈！你终于来了！\n我知道你想要什么。\l你想和我的宝可梦对战！\p哇哈哈哈哈！\p哎，等等！\n你只带了一只宝可梦！\p带两只以上宝可梦\n再来吧，好吗？$"
+    .string "铁旋：啊哈！你终于来了！\n我知道你想要什么。\l你想和我的宝可梦对战！\p哇哈哈哈哈！\p哎，等等！\n你只带了1只宝可梦！\p带2只以上宝可梦\n再来吧，好吗？$"
 

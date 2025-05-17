@@ -48,12 +48,12 @@ static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("{COLOR DARK_GRAY}{SH
                                                            "插有宝可梦红蓝宝石卡带的GBA电源。\n"
                                                            "完成以上步骤后，请确认该GBA上\n"
                                                            "是否已经出现上面的开机画面。");
-static const u8 sText_TransmittingPleaseWait[] = _("正在建立通信连接\n"
+static const u8 sText_TransmittingPleaseWait[] = _("正在连接\n"
                                                    "请稍等……\n"
-                                                   "\n{COLOR RED}{SHADOW LIGHT_RED}{CLEAR_TO 24}请勿拔插通信数据线！");
+                                                   "\n{COLOR RED}{SHADOW LIGHT_RED}{CLEAR_TO 24}请勿拔插连接数据线！");
 static const u8 sText_PleaseFollowInstructionsOnScreen[] = _("请根据红宝石·蓝宝石\n"
                                                              "游戏画面操作。");
-static const u8 sText_TransmissionFailureTryAgain[] = _("\n{CLEAR_TO 12}通信连接失败！\n"
+static const u8 sText_TransmissionFailureTryAgain[] = _("\n{CLEAR_TO 12}连接失败！\n"
                                                         "\n{COLOR RED}{SHADOW LIGHT_RED}{CLEAR_TO 12}请关机并重新再试一次。");
 
 static const struct BgTemplate sBerryFixBgTemplates[] = {

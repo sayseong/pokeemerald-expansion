@@ -335,4 +335,4 @@ RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
     .string "小悠：嗨，{PLAYER}，\p我在检查我的宝可梦图鉴。\p我还有不少宝可梦要捕捉，\n但现在这样\l进展也不错。\p看着这宝可梦图鉴就觉得它好像\n在催我回草丛里去。$"
 
 RivalsHouse_2F_Text_BrendanWhereShouldIGoNext:
-    .string "小悠：我正在头疼下面\n要去哪儿捉宝可梦。\p喂，{PLAYER}，我如果能在找\n宝可梦时碰见你，\l可以和你来场小小的战斗。$"
+    .string "小悠：我正在头疼下面\n要去哪儿捉宝可梦。\p喂，{PLAYER}，我如果能在找\n宝可梦时碰见你，\l可以和你来场小小的对战。$"

@@ -91,7 +91,7 @@ MeteorFalls_1F_2R_Text_JohnPostBattle:
     .string "源：我们结婚\n50年了。\p想想看，我都没有击败过\n我亲爱的老婆。$"
 
 MeteorFalls_1F_2R_Text_JohnNotEnoughMons:
-    .string "源：多么年轻的训练家！\p想和我们战斗吗？想的话就\n带来更多的宝可梦。$"
+    .string "源：多么年轻的训练家！\p想和我们对战吗？想的话就\n带来更多的宝可梦。$"
 
 MeteorFalls_1F_2R_Text_JohnRegister:
     .string "源：年轻的训练家，如果有机会\n的话，你还会和我们对战吗？$"
@@ -106,7 +106,7 @@ MeteorFalls_1F_2R_Text_JayPostBattle:
     .string "初：结婚50年了……\p每当我们吵架，我们都是通过\n宝可梦对战来解决……$"
 
 MeteorFalls_1F_2R_Text_JayNotEnoughMons:
-    .string "初：好啦，好啦，你难道不是\n年轻的训练家？\p如果你想和我们战斗，就得\n拿来更多的宝可梦。$"
+    .string "初：好啦，好啦，你难道不是\n年轻的训练家？\p如果你想和我们对战，就得\n拿来更多的宝可梦。$"
 
 MeteorFalls_1F_2R_Text_JohnRematchIntro:
     .string "源：我们一直是\n两人一起战斗的。\l我们对自己充满信心。$"

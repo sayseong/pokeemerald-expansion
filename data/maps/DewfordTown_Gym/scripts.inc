@@ -376,7 +376,7 @@ DewfordTown_Gym_Text_BrawlyRematchDefeat:
     .string "喔！\n又让我湿透了！$"
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
-    .string "藤树：战斗是浩瀚无边，\n深不见底的。\l就像是丰缘的大海一样！$"
+    .string "藤树：对战是浩瀚无边，\n深不见底的。\l就像是丰缘的大海一样！$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
-    .string "藤树：海浪终会回到海滨。\p像你这样有天赋的巨浪………\n我知道你会回来！\p哦？你只有一只可以\n战斗的宝可梦。\p但我希望你至少\n带两只宝可梦来。$"
+    .string "藤树：海浪终会回到海滨。\p像你这样有天赋的巨浪………\n我知道你会回来！\p哦？你只有1只可以\n对战的宝可梦。\p但我希望你至少\n带2只宝可梦来。$"

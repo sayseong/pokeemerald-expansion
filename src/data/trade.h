@@ -51,7 +51,7 @@ static const u8 sText_Summary2[] = _("查看能力");
 static const u8 sText_Trade2[] = _("交换");
 static const u8 sText_CommunicationStandby[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}正在等待连接……\n请稍等片刻。");
 static const u8 sText_TheTradeHasBeenCanceled[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}宝可梦交换\n已中止。");
-static const u8 sText_OnlyPkmnForBattle[] = _("最后一只同行的宝可梦\n不能用来交换。");
+static const u8 sText_OnlyPkmnForBattle[] = _("最后1只同行的宝可梦\n不能用来交换。");
 static const u8 sText_WaitingForYourFriend[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}正在等待对方的回复……\n请稍等片刻。");
 static const u8 sText_YourFriendWantsToTrade[] = _("对方想要\n交换宝可梦。");
 

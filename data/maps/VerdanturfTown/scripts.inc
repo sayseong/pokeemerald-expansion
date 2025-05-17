@@ -88,7 +88,7 @@ VerdanturfTown_Text_WandasHouse:
     .string "满盈的家$"
 
 VerdanturfTown_Text_BattleTentSign:
-    .string "对战帐篷绿茵镇分址\n“来看看这里的战斗，一饱眼福吧！”$"
+    .string "对战帐篷绿茵镇分址\n“来看看这里的对战，一饱眼福吧！”$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
     .string "卡绿隧道\n“连接卡那兹市和绿茵镇\p隧道工程\n已被取消。”$"

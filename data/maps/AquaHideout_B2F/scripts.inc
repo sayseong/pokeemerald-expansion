@@ -102,7 +102,7 @@ AquaHideout_B2F_Text_MattPostBattle:
     .string "嘿嘿嘿！\p我们的老大已经在去\n海底洞窟的路上了！\p要是你想追的话，\n就去水静市那边宽广的\l大海来慢慢找吧。\p不过你能找到吗？\n嘿嘿嘿！$"
 
 AquaHideout_B2F_Text_Grunt4Intro:
-    .string "哇哈哈，我已经等烦了！\n你也欠我一场战斗！$"
+    .string "哇哈哈，我已经等烦了！\n你也欠我一场对战！$"
 
 AquaHideout_B2F_Text_Grunt4Defeat:
     .string "等烦了……\n也败得一塌糊涂……$"
@@ -126,4 +126,4 @@ AquaHideout_B2F_Text_Grunt8Defeat:
     .string "脑子里全都是\n传送地板的事情了……$"
 
 AquaHideout_B2F_Text_Grunt8PostBattle:
-    .string "我想我必须学学\n战斗的要诀了……$"
+    .string "我想我必须学学\n对战的要诀了……$"

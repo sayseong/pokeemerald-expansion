@@ -425,7 +425,7 @@ LilycoveCity_Text_MayWontBeBeaten:
     .string "小遥：我培育的宝可梦才不会\n输给你呢，{PLAYER}{KUN}！$"
 
 LilycoveCity_Text_MayDefeat:
-    .string "…… …… …… ……\p想起我们之前\n在103号道路的对战了，{PLAYER}{KUN}。\p那场战斗让你变得这么强了，\n是吗，{PLAYER}{KUN}？$"
+    .string "…… …… …… ……\p想起我们之前\n在103号道路的对战了，{PLAYER}{KUN}。\p那场对战让你变得这么强了，\n是吗，{PLAYER}{KUN}？$"
 
 LilycoveCity_Text_MayGoingBackToLittleroot:
     .string "小遥：我打算不久后\n回未白镇了。\p我已经捕捉了不少宝可梦，\n宝可梦图鉴也进展顺利，\l我想回家给爸爸看。$"

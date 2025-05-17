@@ -1190,7 +1190,7 @@ PetalburgCity_Gym_Text_YouHaveGottenStronger:
     .string "爸爸：嗯……{PLAYER}，\n你变强了，\p从你获得的徽章数量\n就能看得出。$"
 
 PetalburgCity_Gym_Text_NormanIntro:
-    .string "爸爸：嗯……\n看来，你已经赢得四枚徽章了。\p很好，那就按我所承诺的\n那样，让我们来战斗吧。\p{PLAYER}……\p我真高兴能和自己的孩子\n来一场真真正正的战斗。\p但是，\n战斗就是战斗！\p身为道馆馆主，\n我会尽我所能赢取胜利。\p{PLAYER}，\n你也要用尽全力啊！$"
+    .string "爸爸：嗯……\n看来，你已经赢得四枚徽章了。\p很好，那就按我所承诺的\n那样，让我们来对战吧。\p{PLAYER}……\p我真高兴能和自己的孩子\n来一场真真正正的对战。\p但是，\n对战就是对战！\p身为道馆馆主，\n我会尽我所能赢取胜利。\p{PLAYER}，\n你也要用尽全力啊！$"
 
 PetalburgCity_Gym_Text_NormanDefeat:
     .string "这……\p我……\p难以置信。\n{PLAYER}……\p我输给了{PLAYER}？\p但规则就是规则！\n来，收下这个。$"
@@ -1226,7 +1226,7 @@ PetalburgCity_Gym_Text_GymGuidePostVictory:
     .string "哇！{PLAYER}！你甚至打败了\n自己的父亲！\p哇！\n多么令人吃惊的结局！$"
 
 PetalburgCity_Gym_Text_RandallIntro:
-    .string "比对手先一步发动攻击的\n能力……\p正因如此，才会在战斗中\n占尽先机，你说呢？$"
+    .string "比对手先一步发动攻击的\n能力……\p正因如此，才会在对战中\n占尽先机，你说呢？$"
 
 PetalburgCity_Gym_Text_RandallDefeat:
     .string "一场出色的战斗！$"
@@ -1356,5 +1356,5 @@ PetalburgCity_Gym_Text_NormanPostRematch:
     .string "爸爸：{PLAYER}……\n你的梦想是什么？\p我的梦想……\n哈哈哈……\l其实已经实现了。$"
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
-    .string "爸爸：{PLAYER}……\n我就知道你会来。\p我永远也不会拒绝\n你的挑战的。\p你明白的，对吧？\p在道馆里，\n无关我们是不是父子。\p嗯？等等，{PLAYER}，\p你只有一只\n能战斗的宝可梦吗？\p你得带至少两只\n宝可梦来才行。$"
+    .string "爸爸：{PLAYER}……\n我就知道你会来。\p我永远也不会拒绝\n你的挑战的。\p你明白的，对吧？\p在道馆里，\n无关我们是不是父子。\p嗯？等等，{PLAYER}，\p你只有1只\n能对战的宝可梦吗？\p你得带至少2只\n宝可梦来才行。$"
 

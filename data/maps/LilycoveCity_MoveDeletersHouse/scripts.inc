@@ -78,7 +78,7 @@ LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
     .string "忘记哪个招式？$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
-    .string "{STR_VAR_1}只会一个招式，\n不能忘记……$"
+    .string "{STR_VAR_1}只会1个招式，\n不能忘记……$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
     .string "嗯，{STR_VAR_1}的{STR_VAR_2}？\n忘掉它吗？$"

@@ -3,8 +3,8 @@ ALIGNED(4) static const u8 sText_Colon[] = _(":");
 ALIGNED(4) static const u8 sText_ID[] = _("{ID}");
 ALIGNED(4) static const u8 sText_PleaseStartOver[] = _("请从起始的地方开始。");
 ALIGNED(4) static const u8 sText_WirelessSearchCanceled[] = _("无线通讯\n系统搜索被取消了。");
-ALIGNED(4) static const u8 sText_AwaitingCommunucation2[] = _("等待其他\n选手的通信。"); // Unused
-ALIGNED(4) static const u8 sText_AwaitingCommunication[] = _("{STR_VAR_1}！等待\n其他选手的通信。");
+ALIGNED(4) static const u8 sText_AwaitingCommunucation2[] = _("等待其他\n选手的连接。"); // Unused
+ALIGNED(4) static const u8 sText_AwaitingCommunication[] = _("{STR_VAR_1}！等待\n其他选手的连接。");
 ALIGNED(4) static const u8 sText_AwaitingLinkPressStart[] = _("{STR_VAR_1}！等待连接！\n当所有人准备完毕后按开始键。");
 ALIGNED(4) static const u8 sJPText_SingleBattle[] = _("シングルバトルを かいさいする");
 ALIGNED(4) static const u8 sJPText_DoubleBattle[] = _("ダブルバトルを かいさいする");
@@ -94,7 +94,7 @@ ALIGNED(4) static const u8 sText_AreTheseMembersOK[] = _("{STR_VAR_1}！\n这些
 ALIGNED(4) static const u8 sText_CancelModeWithTheseMembers[] = _("取消和其他成员的\n{STR_VAR_1}模式");
 ALIGNED(4) static const u8 sText_AnOKWasSentToPlayer[] = _("已向\n{STR_VAR_1}提交确认。"); // 待定
 ALIGNED(4) static const u8 sText_OtherTrainerUnavailableNow[] = _("其他训练师好像\n现在不可见……\p");
-ALIGNED(4) static const u8 sText_CantTransmitTrainerTooFar[] = _(" 您不能和一个太远的\n训练师进行通信。\p");
+ALIGNED(4) static const u8 sText_CantTransmitTrainerTooFar[] = _(" 您不能和一个太远的\n训练师进行连接。\p");
 ALIGNED(4) static const u8 sText_TrainersNotReadyYet[] = _("其他训练师没有\n准备好。\p");
 
 static const u8 *const sCantTransmitToTrainerTexts[] = {
@@ -308,8 +308,8 @@ static const u8 *const sStartActivityTexts[][GENDER_COUNT][3] = {
     }
 };
 
-ALIGNED(4) static const u8 sText_BattleDeclinedMale[] = _("对不起！我的宝可梦看\n起来好像不太好。\l下次再战斗吧。\p");
-ALIGNED(4) static const u8 sText_BattleDeclinedFemale[] = _("非常抱歉，但是我的\n宝可梦现在很不好……\p下次再战斗吧。\p");
+ALIGNED(4) static const u8 sText_BattleDeclinedMale[] = _("对不起！我的宝可梦看\n起来好像不太好。\l下次再对战吧。\p");
+ALIGNED(4) static const u8 sText_BattleDeclinedFemale[] = _("非常抱歉，但是我的\n宝可梦现在很不好……\p下次再对战吧。\p");
 
 static const u8 *const sBattleDeclinedTexts[GENDER_COUNT] = {
     sText_BattleDeclinedMale,
@@ -333,7 +333,7 @@ static const u8 *const sIfYouWantToDoSomethingTexts[GENDER_COUNT] = {
 };
 
 ALIGNED(4) static const u8 sText_TrainerBattleBusy[] = _("哎呦！抱歉，但是我有事\n要做。\l下次吧，好吧？\p");
-ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower1[] = _("如果想要宝可梦对战，你\n需要两只宝可梦必须是\l等级30以内的。\p");
+ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower1[] = _("如果想要宝可梦对战，你\n需要2只宝可梦必须是\l等级30以内的。\p");
 ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower2[] = _("如果想要宝可梦对战，你\n需要宝可梦必须是\l等级30以内的。\p");
 
 ALIGNED(4) static const u8 sText_DeclineChatMale[] = _("好吧。\n随时可以来看我，好吧？\p");
@@ -360,7 +360,7 @@ ALIGNED(4) static const u8 sText_BattleSurpriseMale[] = _("就这么做！\n真�
 ALIGNED(4) static const u8 sText_SwitchedMonsMale[] = _("你竟然可以在那种情况下\n使用那只宝可梦？\p");
 ALIGNED(4) static const u8 sText_YoureToughFemale[] = _("那只宝可梦……\n培育的真好！\p\p");
 ALIGNED(4) static const u8 sText_UsedGoodMoveFemale[] = _("就是这样！\n现在就是适当的技能！\p");
-ALIGNED(4) static const u8 sText_BattleSurpriseFemale[] = _("太可怕了！\n你竟然以这种方式战斗？\p");
+ALIGNED(4) static const u8 sText_BattleSurpriseFemale[] = _("太可怕了！\n你竟然以这种方式对战？\p");
 ALIGNED(4) static const u8 sText_SwitchedMonsFemale[] = _("你真有\n选择宝可梦的天赋！\p");
 
 static const u8 *const sBattleReactionTexts[GENDER_COUNT][4] = {
@@ -522,7 +522,7 @@ static const u8 *const sChooseTrainerTexts[NUM_LINK_GROUP_TYPES] =
 };
 
 ALIGNED(4) static const u8 sText_SearchingForWirelessSystemWait[] = _("搜索一个无线通讯系统。\n等待……");
-ALIGNED(4) static const u8 sText_MustHaveTwoMonsForDoubleBattle[] = _("参加双打对战，您至少要有\n两只宝可梦。\p"); // Unused
+ALIGNED(4) static const u8 sText_MustHaveTwoMonsForDoubleBattle[] = _("参加双打对战，您至少要有\n2只宝可梦。\p"); // Unused
 ALIGNED(4) static const u8 sText_AwaitingPlayersResponse[] = _("等待{STR_VAR_1}的回复……");
 ALIGNED(4) static const u8 sText_PlayerHasBeenAskedToRegisterYouPleaseWait[] = _("{STR_VAR_1}想要登记您\n为成员。请稍后。");
 ALIGNED(4) static const u8 sText_AwaitingResponseFromWirelessSystem[] = _("等待\n从无线通讯系统来的回复。");

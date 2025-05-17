@@ -275,38 +275,38 @@ EventScript_EggHatch::
 
 Route117_Text_SeeWifeIfYoudLikeMeToRaiseMon:
 	.string "我是培育屋的培育爷爷。\p"
-	.string "我会帮忙照顾训练家的那些\n"
+	.string "我会帮忙照看训练家的那些\n"
 	.string "珍贵的宝可梦。\p"
-	.string "如果你想我照顾你的宝可梦，\n"
-	.string "去和我老婆说吧。$"
+	.string "如果想要培育你的宝可梦，\n"
+	.string "去和我老伴说吧。$"
 
 Route117_Text_DoYouWantEgg:
-	.string "啊，是你呀！\p"
-	.string "我们一直在照顾你的宝可梦，\n"
-	.string "我的女神呀，太让我们惊喜了！\p"
+	.string "是你啊！\p"
+	.string "我们正在培育你的宝可梦，\n"
+	.string "天哪，真是大吃一惊！\p"
 	.string "你的宝可梦有了一个蛋！\p"
-	.string "我们并不知道详细情况，但是\n"
-	.string "你的宝可梦的确给了我们一个惊喜。\p"
-	.string "你很感兴趣，是吧？$"
+	.string "虽然不清楚它是怎么来的，\n"
+	.string "但确实是你的宝可梦的。\p"
+	.string "你想要这颗蛋对吧？$"
 
 Route117_Text_YourMonIsDoingFine:
-	.string "啊，是你呀！很高兴看到你。\n"
-	.string "你的{STR_VAR_1}一直做的很好。$"
+	.string "啊，是你呀！很高兴见到你。\n"
+	.string "你的{STR_VAR_1}状态很好。$"
 
 Route117_Text_IllKeepIt:
-	.string "好的，我会照顾它的。\n"
+	.string "那好吧，我会留着它。\n"
 	.string "谢谢！$"
 
 Route117_Text_YouHaveNoRoomForIt:
 	.string "你没有地方放它了……\n"
-	.string "等你有空间的时候再来吧。$"
+	.string "请整理宝可梦后再来吧。$"
 
 Route117_Text_ReceivedEgg:
 	.string "{PLAYER}从培育爷爷\n"
-	.string "手里得到了蛋。$"
+	.string "那里得到了蛋。$"
 
 Route117_Text_TakeGoodCareOfIt:
-	.string "好好照顾它。$"
+	.string "请好好照顾它。$"
 
 Route117_Text_FriendlyWithOtherTrainersMon:
 	.string "顺便一提，关于你的{STR_VAR_1}，\n"
@@ -322,96 +322,95 @@ Route117_Text_SeeWifeIfYouWantToPickUpMon:
 
 Route117_Text_YourMonsAreDoingFine:
 	.string "啊，是你呀！你的{STR_VAR_1}和\n"
-	.string "{STR_VAR_2}都做的很好。$"
+	.string "{STR_VAR_2}状态都很好。$"
 
 Route117_Text_IWillKeepDoYouWantIt:
-	.string "我会照顾它的。\n"
-	.string "你想要，是不是？$"
+	.string "我真的会好好保管它的。\n"
+	.string "你确定想要这个吗？$"
 
 Route117_PokemonDayCare_Text_WouldYouLikeUsToRaiseAMon:
 	.string "我是培育婆婆。\p"
-	.string "我们可以为你照顾宝可梦。\p"
-	.string "想让我们照顾一只吗？$"
+	.string "我们可以为你培育宝可梦。\p"
+	.string "想让我们培育1只吗？$"
 
 Route117_PokemonDayCare_Text_WhichMonShouldWeRaise:
-	.string "想让我们照顾\n"
-	.string "哪一只宝可梦呢？$"
+	.string "请选择想要我来帮你\n"
+	.string "培育的宝可梦。$"
 
 Route117_PokemonDayCare_Text_WellRaiseYourMon:
-	.string "好的，我们会暂时\n"
-	.string "照顾你的{STR_VAR_1}的。\p"
-	.string "记得之后回来带走它。$"
+	.string "那么，我会照顾好\n"
+	.string "{STR_VAR_1}的。\p"
+	.string "你什么时候有时间了再过来吧。$"
 
 Route117_PokemonDayCare_Text_WeCanRaiseOneMore:
-	.string "我们可以照顾你的两只宝可梦。\n"
-	.string "想再托管一只吗？$"
+	.string "我们可以培育你的2只宝可梦。\n"
+	.string "想再托管1只吗？$"
 
 Route117_PokemonDayCare_Text_HusbandWasLookingForYou:
-	.string "我的丈夫一直在找你。$"
+	.string "我老伴正在找你。$"
 
 Route117_PokemonDayCare_Text_FineThenComeAgain:
-	.string "啊，这太好了。\n"
-	.string "欢迎再次光临。$"
+	.string "哦，那好吧。\n"
+	.string "欢迎随时过来。$"
 
 Route117_PokemonDayCare_Text_NotEnoughMoney:
-	.string "你没有足够的钱了……$"
+	.string "哎呀，你的钱好像不够呢……$"
 
 Route117_PokemonDayCare_Text_TakeOtherOneBackToo:
-	.string "你想把另一只\n"
-	.string "也带走吗？$"
+	.string "要带走另一只吗？$"
 
 Route117_PokemonDayCare_Text_ComeAgain:
-	.string "好。\n"
-	.string "欢迎再次光临。$"
+	.string "好的。\n"
+	.string "欢迎随时过来。$"
 
 Route117_PokemonDayCare_Text_GoodToSeeYou:
 	.string "啊，是你呀！很高兴见到你。\n"
-	.string "你的宝可梦是做的最好的！$"
+	.string "你的宝可梦成长得很好！$"
 
 Route117_PokemonDayCare_Text_YourMonHasGrownXLevels:
-	.string "因为等级足够，你的{STR_VAR_1}已经\n"
-	.string "进化成{STR_VAR_2}。$"
+	.string "{STR_VAR_1}的等级\n"
+	.string "差不多提高了{STR_VAR_2}级。$"
 
 Route117_PokemonDayCare_Text_YourTeamIsFull:
-	.string "你的宝可梦小队满了。\n"
-	.string "去腾出些空间再来找我。$"
+	.string "哎呀，你的同行宝可梦队伍满了。\n"
+	.string "请整理宝可梦后再来吧。$"
 
 @ Unused
 Route117_PokemonDayCare_Text_TakeBackWhichMon:
-	.string "你想取回哪只宝可梦？$"
+	.string "你想领回哪只宝可梦？$"
 
 Route117_PokemonDayCare_Text_ItWillCostX:
-	.string "如果你想让你的{STR_VAR_1}回来，\n"
-	.string "那要花费{STR_VAR_2}¥。$"
+	.string "如果领回{STR_VAR_1}，\n"
+	.string "需要支付费用¥{STR_VAR_2}哦。$"
 
 Route117_PokemonDayCare_Text_HeresYourMon:
-	.string "成交！\n"
+	.string "好的！\n"
 	.string "这是你的宝可梦。$"
 
 Route117_PokemonDayCare_Text_TookBackMon:
 	.string "{PLAYER}把{STR_VAR_1}从\n"
-	.string "培育婆婆那里拿回来了。$"
+	.string "培育婆婆那里领回来了。$"
 
 Route117_PokemonDayCare_Text_YouHaveJustOneMon:
-	.string "咦？你只有一只\n"
+	.string "咦？你只有1只\n"
 	.string "宝可梦呀。\p"
 	.string "下次再来吧。$"
 
 Route117_PokemonDayCare_Text_TakeYourMonBack:
-	.string "想把你的宝可梦带回去吗？$"
+	.string "要领回你的宝可梦吗？$"
 
 Route117_PokemonDayCare_Text_WhatWillYouBattleWith:
-	.string "如果你把这些宝可梦都留给我，\n"
-	.string "那之后你用什么战斗？\p"
+	.string "你要是把那宝可梦寄放的话，\n"
+	.string "接下来就无法战斗了！\p"
 	.string "下次再来吧。$"
 
 Text_EggHatchHuh:
-	.string "哼？$"
+	.string "哦……？$"
 
 Route117_PokemonDayCare_Text_YoullBeLeftWithJustOne:
-	.string "哼？\n"
-	.string "……是啊。\p"
-	.string "如果你留下那只宝可梦给\n"
-	.string "我，你就只剩下一只了。\p"
-	.string "你最好离开的时候再\n"
-	.string "多捕捉些，我想说。$"
+	.string "哦……？\n"
+	.string "哎呀呀……\p"
+	.string "你要是把那宝可梦寄放的话，\n"
+	.string "你就只剩下1只了。\p"
+	.string "去多捉一点宝可梦，\n"
+	.string "增加自己的伙伴吧。$"

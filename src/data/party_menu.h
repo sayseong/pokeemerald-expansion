@@ -709,7 +709,7 @@ struct
     [MENU_SHIFT] = {COMPOUND_STRING("替换宝可梦"), CursorCb_SendMon},
     [MENU_SEND_OUT] = {COMPOUND_STRING("派出"), CursorCb_SendMon},
     [MENU_ENTER] = {COMPOUND_STRING("报名"), CursorCb_Enter},
-    [MENU_NO_ENTRY] = {COMPOUND_STRING("无法参加"), CursorCb_NoEntry},
+    [MENU_NO_ENTRY] = {COMPOUND_STRING("取消报名"), CursorCb_NoEntry},
     [MENU_STORE] = {COMPOUND_STRING("存放"), CursorCb_Store},
     [MENU_REGISTER] = {gText_Register, CursorCb_Register},
     [MENU_TRADE1] = {sText_Trade4, CursorCb_Trade1},

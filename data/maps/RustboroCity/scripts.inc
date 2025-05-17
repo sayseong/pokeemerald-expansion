@@ -1052,7 +1052,7 @@ RustboroCity_Text_CatchRarePokemonIfIGoToSchool:
     .string "宝可梦训练家学校！\p如果我进这所学校的话，\n捕捉稀有宝可梦会更容易吗？$"
 
 RustboroCity_Text_PokemonCanChangeLookFromExp:
-    .string "宝可梦在战斗中获得经验后，\n到某时有可能会改变形态。$"
+    .string "宝可梦在对战中获得经验后，\n到某时有可能会改变形态。$"
 
 RustboroCity_Text_PokemonChangeShape:
     .string "宝可梦会改变形态？\n如果真是那样，我会大吃一惊的！$"
@@ -1163,4 +1163,4 @@ RustboroCity_Text_IdBetterGetBackToWork:
     .string "好了，我该回去工作了。\n祝一路顺风，{PLAYER}！$"
 
 RustboroCity_Text_YouCanHave2On2Battle:
-    .string "知道吗？\p即使你并未和其他训练家同行，\n也可以进行2对2战斗。\p如果你拥有两只以上宝可梦时\n被两个训练家看到，\l他们会同时向你挑战。\p你不觉得能独自打败\n两个训练家很好很强大吗？$"
+    .string "知道吗？\p即使你并未和其他训练家同行，\n也可以进行2对2战斗。\p如果你拥有2只以上宝可梦时\n被2个训练家看到，\l他们会同时向你挑战。\p你不觉得能独自打败\n2个训练家很厉害吗？$"

@@ -571,7 +571,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_OhWowItsPlayer:
     .string "哇！\n是{PLAYER}！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan:
-    .string "我听说了！\n你真强！\p我们一直在这儿争论\n谁是最强的训练家，\p当我听说你的时候，\n我就准备做你的粉丝！\p我想看你继续跟其他\n强大的训练家战斗，\p这样我们就能看到\n你战斗的英姿，\p然后大家都能\n了解你有多么强大。\p我会一直支持你的，\n{PLAYER}！$"
+    .string "我听说了！\n你真强！\p我们一直在这儿争论\n谁是最强的训练家，\p当我听说你的时候，\n我就准备做你的粉丝！\p我想看你继续跟其他\n强大的训练家对战，\p这样我们就能看到\n你对战的英姿，\p然后大家都能\n了解你有多么强大。\p我会一直支持你的，\n{PLAYER}！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureOneWeWantToWin:
     .string "嗨，{PLAYER}！\n我们一直想要胜过你！$"
@@ -610,13 +610,13 @@ LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattling:
     .string "即使遇到挫折，\n你的父亲也不会放弃，\p我相信这点。\p就算你输了，也不要气馁！\n坚持战斗下去！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman:
-    .string "尽管人们都说\n你比较强，\p但千里的战斗更有活力，\n更有激情，更富于表现力……\p要赶上你父亲，你还有\n很长的路要走。$"
+    .string "尽管人们都说\n你比较强，\p但千里的对战更有活力，\n更有激情，更富于表现力……\p要赶上你父亲，你还有\n很长的路要走。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent:
     .string "你所散发出来的气息\n和千里越发相似了，\p但你和千里之间\n还有决定性的不同。\p我还不能告诉你这不同是什么，\n你得自己去发掘。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WeDiscussStrongestTrainers:
-    .string "这里的所有人都非常喜欢\n宝可梦战斗，\p我们互相讨论\n所有训练家之中谁比较强。\p如果你出名了，我们也可能\n成为你的粉丝！$"
+    .string "这里的所有人都非常喜欢\n宝可梦对战，\p我们互相讨论\n所有训练家之中谁比较强。\p如果你出名了，我们也可能\n成为你的粉丝！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OhWoweeItsPlayer:
     .string "呀，哇啊！是{PLAYER}！\n是本人！\p跟我握握手吧，握握手吧！$"
@@ -649,7 +649,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_YoureAmazingAfterAll:
     .string "{PLAYER}！\n还是你最出色！\p我已看到你就知道\n你会是最棒的，\p我的眼光没错。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ImInYourCorner:
-    .string "我站在你这一边，\n谁去管别人呢！\p不用担心，\n你放心出去努力战斗吧。$"
+    .string "我站在你这一边，\n谁去管别人呢！\p不用担心，\n你放心出去努力对战吧。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThinkTrainerIsNumberOne:
     .string "我想，你是个\n非常优秀的训练家，\p但我觉得{STR_VAR_1}\n现在是第一人。\p这只是我的想法，\n别太在意。$"
@@ -661,7 +661,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_YouChangedMyMind:
     .string "你让我改主意了！\n你真的很强，不是吗？\p告诉我你是怎么变得这么强的，\n好吗？$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouBattleAttractivelyInToughSituation:
-    .string "情况越严重，\n你的战斗就越吸引人。\p我等不及想看你下一场战斗了！$"
+    .string "情况越严重，\n你的对战就越吸引人。\p我等不及想看你下一场对战了！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsStandout:
     .string "最近当红的训练家之中，\n{STR_VAR_1}最最突出，\p那种强大不是别人能做到的。\p你做得也不错，但你\n和{STR_VAR_1}不可同日而语。$"

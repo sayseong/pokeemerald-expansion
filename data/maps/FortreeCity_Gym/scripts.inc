@@ -177,7 +177,7 @@ FortreeCity_Gym_Text_AshleyPostBattle:
     .string "多亏了娜琪，住在茵郁市的人们\n不必心惊胆战了。$"
 
 FortreeCity_Gym_Text_HumbertoIntro:
-    .string "当娜琪战斗的时候，她的脸上\n闪耀着坚定的决心……\p我不会让你看到\n她那可爱的一幕！$"
+    .string "当娜琪对战的时候，她的脸上\n闪耀着坚定的决心……\p我不会让你看到\n她那可爱的一幕！$"
 
 FortreeCity_Gym_Text_HumbertoDefeat:
     .string "哎！\n我阻止不了你。$"
@@ -195,7 +195,7 @@ FortreeCity_Gym_Text_DariusPostBattle:
     .string "你确实打败了我，\n但你最好小心点！我们的馆主\l娜琪的宝可梦都不好对付。$"
 
 FortreeCity_Gym_Text_WinonaIntro:
-    .string "我是娜琪，茵郁道馆的\n道馆馆主。\p我和鸟宝可梦\n一起翱翔天际……\p无论战斗多么艰辛，\n我们都会优雅地赢得胜利……\p见证我和鸟宝可梦的\n优美舞步吧！$"
+    .string "我是娜琪，茵郁道馆的\n道馆馆主。\p我和鸟宝可梦\n一起翱翔天际……\p无论对战多么艰辛，\n我们都会优雅地赢得胜利……\p见证我和鸟宝可梦的\n优美舞步吧！$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
     .string "我从没见过能比我\n更优雅地指挥宝可梦的训练家……\p为了表示对你那非凡才能的认可，\n我颁发这枚道馆徽章给你。$"
@@ -204,7 +204,7 @@ FortreeCity_Gym_Text_ReceivedFeatherBadge:
     .string "{PLAYER}从娜琪那里\n得到白羽徽章。$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
-    .string "有了白羽徽章，\n所有等级70以内的宝可梦，\p即使是那些通过交换得到的\n也会服从你的每个指示。\p你也将能够在战斗之外\n使用秘传招式飞翔。\p还有这个……\n这是我的礼物。$"
+    .string "有了白羽徽章，\n所有等级70以内的宝可梦，\p即使是那些通过交换得到的\n也会服从你的每个指示。\p你也将能够在对战之外\n使用秘传招式飞翔。\p还有这个……\n这是我的礼物。$"
 
 FortreeCity_Gym_Text_ExplainAerialAce:
     .string "招式学习器40的里面\n是燕返，\p它的速度……\n没有任何宝可梦能侥幸躲过。\p…… …… ……$"
@@ -231,4 +231,4 @@ FortreeCity_Gym_Text_WinonaPostRematch:
     .string "娜琪：虽然我输了，\n但我的心仍未折翼。\p我依然能够一次次地升腾翱翔，我坚信这一点！$"
 
 FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
-    .string "娜琪：我们人类永远无法逃离\n地心引力的束缚，\p但通过不断地完善自我，\n我们能拥有展翅高飞的力量！\p身为现任冠军，\n你已经拥有训练家中最顶尖的实力。\p拜托你，请允许我见识一下\n你那登峰造极的实力吧！\p哎，不……你只\n带了一只宝可梦吗？\p至少带两只宝可梦\n再回来吧。$"
+    .string "娜琪：我们人类永远无法逃离\n地心引力的束缚，\p但通过不断地完善自我，\n我们能拥有展翅高飞的力量！\p身为现任冠军，\n你已经拥有训练家中最顶尖的实力。\p拜托你，请允许我见识一下\n你那登峰造极的实力吧！\p哎，不……你只\n带了1只宝可梦吗？\p至少带2只宝可梦\n再回来吧。$"

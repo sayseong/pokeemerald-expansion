@@ -74,7 +74,7 @@ Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers:
     .string "妈妈比爸爸厉害。\p我比妈妈厉害。\p奶奶比我厉害！\p但是我的哥哥\n比奶奶还要厉害哟。$"
 
 Route111_WinstrateFamilysHouse_Text_GrandsonStrong:
-    .string "显然你很厉害。\p但是如果你和我的孙子战斗\n你一定会输到哭泣的。\p他比我们所知道的训练家\n都要厉害。\p他现在一定在挑战\n联盟冠军吧。\p你会认识我的孙子的，他应该\n已经是冠军了！$"
+    .string "显然你很厉害。\p但是如果你和我的孙子对战\n你一定会输到哭泣的。\p他比我们所知道的训练家\n都要厉害。\p他现在一定在挑战\n联盟冠军吧。\p你会认识我的孙子的，他应该\n已经是冠军了！$"
 
 Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort:
     .string "我的孙子现在一定\n在挑战联盟冠军。\p你会认识我的孙子的，他应该\n已经是冠军了！$"

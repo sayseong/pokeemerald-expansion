@@ -255,7 +255,7 @@ SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
     .string "我没带够¥50，从接待员那儿\n混进来花了不少时间。$"
 
 SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling:
-    .string "我想了解大海，\n把那些知识融入我的战斗中。$"
+    .string "我想了解大海，\n把那些知识融入我的对战中。$"
 
 SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel:
     .string "一看到大海\n我就会感到头晕！\p对我来说，楠木馆长\n是最大的榜样！$"

@@ -846,7 +846,7 @@ Route110_Text_MauvilleCitySign:
     .string "110号道路\n{UP_ARROW}紫堇市$"
 
 Route110_Text_TrainerTipsPrlzSleep:
-    .string "训练家小技巧\p敌人被麻痹或催眠后\n会变得束手无策。\p这类招式在战斗中很重要。$"
+    .string "训练家小技巧\p敌人被麻痹或催眠后\n会变得束手无策。\p这类招式在对战中很重要。$"
 
 Route110_Text_TrainerTipsRegisterItems:
     .string "训练家小技巧\p包包里的道具可以\n按SELECT键来整理。$"

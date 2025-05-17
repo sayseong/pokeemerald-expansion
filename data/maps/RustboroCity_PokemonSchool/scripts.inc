@@ -242,7 +242,7 @@ RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
     .string "带着树果的宝可梦\n能够自我治疗……\p许多道具都可以\n让宝可梦携带……\p唉，及时记下笔记\n太难了……$"
 
 RustboroCity_PokemonSchool_Text_StudentsNotes:
-    .string "这是这个学生的笔记本……\p用精灵球\n可以捕捉宝可梦。\p一个训练家最多可以\n同时携带六只宝可梦。\p训练家就是捕捉宝可梦，\n并养育它们，与它们\l共同战斗的人。\p训练家的任务是\n打败在宝可梦道馆中\l等待着的强大训练家。$"
+    .string "这是这个学生的笔记本……\p用精灵球\n可以捕捉宝可梦。\p一个训练家最多可以\n同时携带6只宝可梦。\p训练家就是捕捉宝可梦，\n并养育它们，与它们\l共同战斗的人。\p训练家的任务是\n打败在宝可梦道馆中\l等待着的强大训练家。$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
     .string "你好，我们以前见过面吧？\n我想是在橙华市见过。\p我来自我介绍一下。\n我叫亚希达，\p正为了寻找出类拔萃的\n训练家而四处旅行，\p具体地说，就是寻找宝可梦对战专家。\p你为什么会来这所学校呢？\n你也是训练家吗？\p那你首先要做的就是\n拥有一只会居合劈的宝可梦。\p如果我没记错的话，\n这镇上就有人拥有居合劈。$"

@@ -284,7 +284,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals:
     .string "决赛即将开始。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons:
-    .string "请选择两只即将在战斗中\n登场的宝可梦。$"
+    .string "请选择2只即将在对战中\n登场的宝可梦。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay:
     .string "这边请。$"
@@ -303,11 +303,11 @@ BattleFrontier_BattleDomePreBattleRoom_Text_SemifinalsComplete:
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForRound2:
-    .string "恭喜通过第一回合\n比赛。\p接下来是第二回合。\n准备好了吗？$"
+    .string "恭喜通过第1回合\n比赛。\p接下来是第2回合。\n准备好了吗？$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForSemifinals:
-    .string "恭喜进入\n半决赛。\p四个强队在此相遇。\n准备好了吗？$"
+    .string "恭喜进入\n半决赛。\p4个强队在此相遇。\n准备好了吗？$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals:
@@ -317,10 +317,10 @@ BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer:
     .string "{PLAYER}的下一位对手是\n这位训练家。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound1:
-    .string "锦标赛进入第一回合！$"
+    .string "锦标赛进入第1回合！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound2:
-    .string "锦标赛进入第二回合！$"
+    .string "锦标赛进入第2回合！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInSemifinals:
     .string "锦标赛进入半决赛！$"
@@ -332,7 +332,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_SaveAndQuitGame:
     .string "要写入记录\n并退出游戏吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RetireYourChallenge:
-    .string "是否要退出\n对战锦标赛？$"
+    .string "要退出对战锦标赛吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait:
     .string "正在写入记录……\n请稍候。$"

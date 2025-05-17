@@ -206,7 +206,7 @@ BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon:
     .string "哦，年轻人！你对你的\n宝可梦的能力很有兴趣吗？\p来，来！\n让我们来看一下你的宝可梦！$"
 
 BattleFrontier_Lounge1_Text_EvenICantTell:
-    .string "虽然我是专家，但对于还没有\n孵化出的宝可梦我也不能说什么！\p给我看一只宝可梦！\n一只宝可梦才是我要看的！$"
+    .string "虽然我是专家，但对于还没有\n孵化出的宝可梦我也不能说什么！\p给我看只宝可梦！\n宝可梦才是我要看的！$"
 
 BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding:
     .string "他说我的宝可梦很出色！\n我很高兴我能精心培育它！$"

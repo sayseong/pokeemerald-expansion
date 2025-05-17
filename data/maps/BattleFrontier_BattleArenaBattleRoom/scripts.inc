@@ -494,10 +494,10 @@ BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter:
 	step_end
 
 BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward:
-    .string "裁判：训练家{PLAYER}！\n请向前！$"
+    .string "裁判：训练家{PLAYER}！\n请上前一步！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward:
-    .string "裁判：训练家{STR_VAR_1}！\n请向前！$"
+    .string "裁判：训练家{STR_VAR_1}！\n请上前一步！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin:
     .string "裁判：三回合定胜负锦标赛！\n开始！$"
@@ -512,40 +512,40 @@ BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored:
     .string "您的宝可梦的体力\n将会全部回复。$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent:
-    .string "接下来，您的第二个对手！\n您准备好开始了吗？$"
+    .string "接下来是您的第2个对手！\n准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent:
-    .string "接下来，您的第三个对手！\n您准备好开始了吗？$"
+    .string "接下来是您的第3个对手！\n准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor4thOpponent:
-    .string "接下来，您的第四个对手！\n您准备好开始了吗？$"
+    .string "接下来是您的第4个对手！\n准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor5thOpponent:
-    .string "接下来，您的第五个对手！\n您准备好开始了吗？$"
+    .string "接下来是您的第5个对手！\n准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor6thOpponent:
-    .string "接下来，您的第六个对手！\n您准备好开始了吗？$"
+    .string "接下来是您的第6个对手！\n准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent:
-    .string "接下来，您的第七个对手！\n您准备好开始了吗？$"
+    .string "接下来是您的第7个对手！\n准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown:
     .string "您要写入记录并\n关机吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge:
-    .string "您要离开三回合定胜负锦标赛\n挑战了吗？$"
+    .string "要退出三回合定胜负锦标赛吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
     .string "正在写入记录……\n请稍等。$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
-    .string "您要把您上次的战斗记录在您的\n开拓通行证吗？$"
+    .string "您要把您上次的对战记录在您的\n开拓通行证吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:
-    .string "亲爱的挑战者！\p您的实力十分惊人！\p我们想要您见识一下\n我们的头儿，竞技场主将！$"
+    .string "尊敬的挑战者！\p您的实力十分惊人！\p希望您能见见我们的首领，\n竞技场主将！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_PreparedForTycoon:
-    .string "同竞技场主将的战斗！\n准备好了吗？$"
+    .string "同竞技场主将的对战！\n准备好了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta:
     .string "裁判：竞技场主将！\n给黄瓜香让路！$"
@@ -557,7 +557,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight:
     .string "没有搞错吗？哈……\n哈哈……$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy:
-    .string "我不知道该怎么说，不过……\n说实在的，你看起来实在是太弱了。\l你确信要接受我的考验吗？\p哈……\p那么，好吧！\n我们慢慢来！$"
+    .string "我不知道该怎么说，不过……\n说真的，你看起来也实在太弱了。\l你确定你招架得住吗？\p哈……\p那么，好吧！\n我们慢慢来！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle:
     .string "好！看你能不能点燃我的\n战斗激情！$"

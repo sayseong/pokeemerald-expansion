@@ -479,7 +479,7 @@ MauvilleCity_Text_WallyWillYouBattleMe:
     .string "满充：啊，{PLAYER}！\p我比之前见面时\n要强多了。\p{PLAYER}，\n我想让你和叔叔看看！\p{PLAYER}，拜托了，\n和我对战吧！$"
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
-    .string "满充：唔……{PLAYER}，如果你不跟我战斗，\n叔叔就不会知道\l我真的变强了……$"
+    .string "满充：唔……{PLAYER}，如果你不跟我对战，\n叔叔就不会知道\l我真的变强了……$"
 
 MauvilleCity_Text_UncleCanYouBattleWally:
     .string "叔叔：你是{PLAYER}{KUN}吧？\n为了满充，\l能请你和来一场对战吗？\p我想他现在这样\n是没法听得进劝的。$"
@@ -497,7 +497,7 @@ MauvilleCity_Text_WallyIllGoBackToVerdanturf:
     .string "满充：叔叔……\n我会回绿茵镇的……$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
-    .string "{PLAYER}，谢谢你。\n果然做训练家真的\n很不容易啊……\p光是拥有自己的宝可梦\n让它们战斗还不够，\l还算不上是真正的训练家……$"
+    .string "{PLAYER}，谢谢你。\n果然做训练家真的\n很不容易啊……\p光是拥有自己的宝可梦\n让它们对战还不够，\l还算不上是真正的训练家……$"
 
 MauvilleCity_Text_UncleNoNeedToBeDown:
     .string "叔叔：满充，\n别这么沮丧。\p想想是什么激励着你\n要变得越来越强的？\p好了，我们回家吧，\n大家都在等你呢。$"
@@ -528,7 +528,7 @@ MauvilleCity_Text_WattsonYoungTakeCharge:
     .string "铁旋：啊哈哈哈哈！\p我最喜欢看到年轻人\n挑起重担，引领这个时代！$"
 
 MauvilleCity_Text_NurseHurtMonBackToHealth:
-    .string "你知道吗，看着宝可梦去战斗\n真是太棒了……\p但如果你的宝可梦受了伤，\n就得赶快帮它治疗。$"
+    .string "你知道吗，看着宝可梦对战\n真是太棒了……\p但如果你的宝可梦受了伤，\n就得赶快帮它治疗。$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough:
     .string "这个镇子的道路\n通向四面八方，\p因此在这里\n能见到各式各样的人。$"

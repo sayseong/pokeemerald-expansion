@@ -36,5 +36,5 @@ FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
     .string "你去过\n联机中心吗？\p那里很方便，可以\n混合训练家的记录。\p我不知道它的原理如何，\n但它很棒，甚至令人吃惊！$"
 
 FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
-    .string "哇，你有宝可导航！\n就和我的一样！\p你知道宝可导航的\n对战寻呼系统吗？\p用它能随时跟\n登记的训练家联系，\p同时也能显示出\n哪个训练家想跟你战斗。\p这太方便了！得文的人\n真的很优秀！$"
+    .string "哇，你有宝可导航！\n就和我的一样！\p你知道宝可导航的\n对战寻呼系统吗？\p用它能随时跟\n登记的训练家联系，\p同时也能显示出\n哪个训练家想跟你对战。\p这太方便了！得文的人\n真的很优秀！$"
 

@@ -1481,7 +1481,7 @@ SootopolisCity_Text_LeadSuperiorTrainerToCave:
     .string "米可利告诉我，\n当一个拥有着坚定的意志\p与非凡的天赋的人，\n一个了解多种\p宝可梦的训练家出现时……\n我将带他进入神殿。$"
 
 SootopolisCity_Text_AwakenedPokemonClash:
-    .string "哦，偶滴天……\p两只觉醒的宝可梦的争斗\n被第三只觉醒的宝可梦\l平息了……$"
+    .string "哦，偶滴天……\p2只觉醒的宝可梦的争斗\n被第3只觉醒的宝可梦\l平息了……$"
 
 SootopolisCity_Text_CaveOfOriginSleepsToo:
     .string "这里是觉醒神殿……\p现在危机过去了，\n这里也该沉睡了……$"
@@ -1490,10 +1490,10 @@ SootopolisCity_Text_SootopolisSkyBeautiful:
     .string "琉璃市是在火山口中\n建起的城市。\p只要你抬头望天，\n你就能看到火山的顶端。\l瞧，你看到头顶上的圆形天空了吗？\p不过正因如此，琉璃市的天空\n才如此美丽。$"
 
 SootopolisCity_Text_GiganticPokemonFight:
-    .string "当那两只巨大的宝可梦\n战斗时，我们却\l只能眼睁睁地看着。$"
+    .string "当那2只巨大的宝可梦\n战斗时，我们却\l只能眼睁睁地看着。$"
 
 SootopolisCity_Text_FearedWorstWhenPokemonFlewDown:
-    .string "当第三只宝可梦飞来时，\n我觉得好像世界末日到了。$"
+    .string "当第3只宝可梦飞来时，\n我觉得好像世界末日到了。$"
 
 SootopolisCity_Text_NightSkyFavoriteScenery:
     .string "火山口框出了一块\n圆圆的夜色……\p在那个圆里，星星们\n灵动地闪烁着……\l这是我最喜欢的景色。$"
@@ -1550,4 +1550,4 @@ SootopolisCity_Text_ExplainWaterfallGoToGym:
     .string "这个秘传学习器的内容是\n攀瀑。\p如果你有雨滴徽章的话，\n学会这个秘传招式\l的宝可梦就能爬上瀑布。\p至于哪儿能得到雨滴徽章，\n你应该很清楚吧？\p没错！\n你要打败琉璃市道馆馆主。\p如果你准备好了的话，\n就进入到那扇门里去吧。$"
 
 SootopolisCity_Text_DazzledByMentor:
-    .string "米可利：我想你会由衷地赞叹老师那\n令人目眩神驰的战斗技巧的。$"
+    .string "米可利：我想你会由衷地赞叹老师那\n令人目眩神驰的对战技巧的。$"

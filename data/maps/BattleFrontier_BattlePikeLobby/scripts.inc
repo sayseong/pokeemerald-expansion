@@ -272,43 +272,43 @@ BattleFrontier_BattlePike_EventScript_CloseCurtain::
 	return
 
 BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
-    .string "在这里，训练家的运气将\n受到考验……\p欢迎来到对战管道……\p我是您对战管道的向导……$"
+    .string "训练家的运气\n将在此接受考验……\p欢迎来到对战管道……\p我是您对战管道的向导……$"
 
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
-    .string "您要进行对战管道\n的挑战吗？$"
+    .string "要挑战对战管道吗？$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
-    .string "我们在这里进行名叫\n选择式对战的比赛。\p选择式对战的规则\n很简单……\p在三条道路中选择一条\n在对战管道的最后\l要到达目的地房间。这很简单。\p然而，在选择的道路上会\n发生什么事完全取决于\l挑战者的运气……\p如果您达到了目标，您会被\n授予对战点数。\p如果您要暂停挑战，\n请和路上大房间里的\l人员谈话。\p如果在暂停之前没有写入记录，\n我们将视挑战为无效。$"
+    .string "这里举办名为\n选择式对战的比赛。\p选择式对战的规则\n很简单……\p在3条道路中选择一条\n抵达对战管道最后的终点房间。\l仅此而已。\p然而，在选择的道路上会\n发生什么事完全取决于\l挑战者的运气……\p如果您达到了终点，\n您会被授予对战点数。\p如果您在挑战中想要暂停的话，\n请与途中大房间中的工作人员沟通。\p如果在暂停之前没有写入记录，\n我们将视挑战为无效。$"
 
 BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou:
-    .string "我们期待下一次\n见到您……$"
+    .string "期待您再次光临……$"
 
 BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode:
-    .string "您有两个选择，\nLv. 50级和自由等级。\l您要挑战哪个？$"
+    .string "您有2个选择，\nLv. 50级和自由等级。\l要挑战哪个？$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
-    .string "请原谅，但……\p您没有三只符合选择式对战\n条件的宝可梦。\p您要参加必须要有\n三只不同的等级50以内的宝可梦。\p他们还不能携带相同\n的道具。\p蛋{STR_VAR_1}无法参加对战！\p请您准备好了\n来见我……$"
+    .string "请原谅，但……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧……$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "请原谅，但……\p您没有三只符合选择式对战\n条件的宝可梦。\p您要参加必须要有\n三只不同的宝可梦。\p他们还不能携带相同\n的道具。\p蛋{STR_VAR_1}无法参加对战！\p请您准备好了\n来见我……$"
+    .string "请原谅，但……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧……$"
 
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
-    .string "请选择三只您要参加\n挑战的宝可梦……$"
+    .string "请选择3只要参加\n挑战的宝可梦……$"
 
 BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge:
-    .string "在您开始战斗之前，\n我必须先写入记录。\l可以吗？$"
+    .string "在开始对战之前，\n需要先写入记录。\l可以吗？$"
 
 BattleFrontier_BattlePikeLobby_Text_StepThisWay:
     .string "这边请……$"
 
 BattleFrontier_BattlePikeLobby_Text_ChallengeEndedRecordResults:
-    .string "您的挑战结束了……\p我将记录您的结果。\n请稍等……$"
+    .string "您的挑战已结束……\p正在记录结果。\n请稍等……$"
 
 BattleFrontier_BattlePikeLobby_Text_PossessLuckInAbundance:
-    .string "您完成了挑战……\p我必须说……您好像拥有\n相当的运气……$"
+    .string "您完成了挑战……\p不得不说……您好像拥有\n非凡的运气……$"
 
 BattleFrontier_BattlePikeLobby_Text_ShallRecordResults:
-    .string "我将记录您的结果。\n请稍等……$"
+    .string "正在记录结果。\n请稍等……$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
@@ -328,10 +328,10 @@ BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints:
     .string "为了对您非凡的运气表示认可，\n我们授予您这些对战点数……$"
 
 BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal:
-    .string "啊！我错失了良机！\n我离终点只差一个房间了！\p在这里，你最好要留意毒，冰冻\n之类的异常状态。$"
+    .string "啊！功亏一篑！\n我离终点只差一个房间了！\p在这里，你最好要留意毒，冰冻\n之类的异常状态。$"
 
 BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer:
-    .string "我已经完成了10次挑战，\n但我没有和任何一个\l训练家战斗过。$"
+    .string "我已经完成了10次挑战，\n但我没有和任何一个\l训练家对战过。$"
 
 BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere:
     .string "听着！听着！\p你难道不认为宝可梦的\n某些特性在这里\l会很有用吗？$"
@@ -350,8 +350,8 @@ BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
     .string "在选择式对战的挑战中\n包包和宝可导航不能使用。$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
-    .string "在一次选择式对战的挑战中，\n宝可梦携带的任何树果或者香草\l只能一次有效。$"
+    .string "在一次选择式对战的挑战中，\n宝可梦携带的任何树果或者香草\l只能生效1次。$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules:
-    .string "在一次选择式对战的挑战中，\n宝可梦的顺序不能改变。\p顺序必须在您挑战之前\n就确定好。$"
+    .string "在一次选择式对战的挑战中，\n宝可梦的顺序不能改变。\p顺序需要在您挑战之前\n就确定好。$"
 

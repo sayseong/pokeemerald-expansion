@@ -385,7 +385,7 @@ BattleFrontier_Lounge7_Text_IcyWindDesc::
     .string "能降低对手\n速度的\n冷气攻击。$"
 
 BattleFrontier_Lounge7_Text_EndureDesc::
-    .string "在一回合中\n抵挡住任何攻击，\n总是剩下1点体力。$"
+    .string "在1回合中\n抵挡住任何攻击，\n总是剩下1点体力。$"
 
 BattleFrontier_Lounge7_Text_PsychUpDesc::
     .string "使自己\n获得对手的\n辅助效果。$"

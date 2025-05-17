@@ -279,16 +279,16 @@ BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner8::
 	end
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner::
-    .string "请在这里的训练家中\n选择一个搭档。$"
+    .string "请从聚集在此的训练家中\n选择一位搭档。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_QuitLookingForPartner::
-    .string "{PLAYER}，您还没找到\n组队的搭档，\p现在您想回\n入口接待处吗？$"
+    .string "{PLAYER}，\n您尚未找到组队的搭档，\p要放弃寻找搭档\n返回接待柜台吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner2::
-    .string "那么，请在这里的训练家中\n选择一个搭档。$"
+    .string "那么，请从聚集在此的训练家中\n选择一位搭档。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ThankYouForChoosingPartner::
-    .string "选择好搭档以后就跟我来吧，\p我带您们去\n多人对战间。$"
+    .string "感谢您完成组队，\p现在将带您前往\n多人对战间。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Intro::
     .string "我是{STR_VAR_1}的第{STR_VAR_2}个徒弟。\n你可以叫我{STR_VAR_3}！$"

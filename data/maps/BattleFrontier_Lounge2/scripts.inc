@@ -150,10 +150,10 @@ BattleFrontier_Lounge2_Text_FactoryHeadIsThere::
     .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那里就是由那个名叫工厂头目的\n奇怪的训练家所掌管的。$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadSilverMons::
-    .string "你跟工厂头目\n交过手了吗？\p我想想……他开始战斗的时候，\n通常只是借三只宝可梦用。\p他和你在非常相似的\n条件下战斗。$"
+    .string "你跟工厂头目\n交过手了吗？\p我想想……他对战时，\n只是使用3只租借宝可梦。\p他和你在非常相似的\n条件下对战。$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadGoldMons::
-    .string "你跟认真起来的工厂头目\n交过手了吗？\p就算他认真起来了，\n他还是用借来的宝可梦战斗。\p他是和你在完全\n相同的条件下战斗。$"
+    .string "你跟认真起来的工厂头目\n交过手了吗？\p当他认真起来时，\n仍然是使用3只租借宝可梦。\p他是和你在完全\n相同的条件下对战。$"
 
 BattleFrontier_Lounge2_Text_PikeQueenIsThere::
     .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那里就是由那个名叫管道皇后的\n可怕的训练家所掌管的。$"
@@ -180,7 +180,7 @@ BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
     .string "你跟宫殿守护者\n交过手了吗？\p据说他测试对手的心灵的时候，\n通常会用这些宝可梦：\p毒和飞行属性的蝙蝠宝可梦，\n一般属性的怕麻烦宝可梦，还有\l水和冰属性的乘载宝可梦。$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
-    .string "你跟认真起来的宫殿守护者\n交过手了吗？\p据说他把精力全部集中到战斗的时候，\n通常会使用这些宝可梦：\p火属性的传说宝可梦，\n一般属性的怕麻烦宝可梦，\l还有水属性的极光宝可梦。$"
+    .string "你跟认真起来的宫殿守护者\n交过手了吗？\p据说他把精力全部集中到对战的时候，\n通常会使用这些宝可梦：\p火属性的传说宝可梦，\n一般属性的怕麻烦宝可梦，\l还有水属性的极光宝可梦。$"
 
 BattleFrontier_Lounge2_Text_PyramidKingIsThere::
     .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那里就是由那个名叫金字塔法老的\n火热的训练家所掌管的。$"
@@ -192,10 +192,10 @@ BattleFrontier_Lounge2_Text_PyramidKingGoldMons::
     .string "你跟认真起来的金字塔法老\n交过手了吗？\p他的热情燃烧起来的时候，\n通常都会用这些宝可梦：\p冰和飞行属性的冰冻宝可梦，\n电和飞行属性的电击宝可梦，\l还有火和飞行属性的火焰宝可梦。$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice1::
-    .string "确实，有些地方也可以\n进行双打对战，\p不过在对战塔的双人\n对战间里，这可是最基本的！\p你可以在那里学习\n如何在对战开拓区\l进行双打对战。$"
+    .string "确实，有些地方也可以\n进行双打对战，\p不过在对战塔的双打\n对战间里，这可是最基本的！\p你可以在那里学习\n如何在对战开拓区\l进行双打对战。$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice2::
-    .string "在这里战斗不要大意。\p听说有些训练家\n可是专门为了双打对战\l而培育宝可梦的。$"
+    .string "在这里对战不要大意。\p听说有些训练家\n可是专门为了双打对战\l而培育宝可梦的。$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice3::
     .string "当你熟悉了这里的\n双打对战之后，\l就去试着挑战其他地方的\l双打对战吧。$"

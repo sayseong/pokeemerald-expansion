@@ -487,7 +487,7 @@ BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext:
     .string "接下来是第7对手。\n加油！$"
 
 gText_LinkStandby3::
-    .string "等待连接……$"
+    .string "正在等待连接……$"
 
 gText_YourPartnerHasRetired::
     .string "您的搭档已退出。\p对战间挑战\n将取消。$"

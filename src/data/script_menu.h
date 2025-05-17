@@ -625,7 +625,7 @@ static const struct MenuAction MultichoiceList_FrontierPassInfo[] =
 {
     {COMPOUND_STRING("象征")},
     {COMPOUND_STRING("记录")},
-    {COMPOUND_STRING("战斗点数")},
+    {COMPOUND_STRING("对战点数")},
     {gText_Exit},
 };
 

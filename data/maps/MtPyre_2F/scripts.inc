@@ -67,7 +67,7 @@ MtPyre_2F_Text_LukePostBattle:
     .string "辉：好吧，我们输了，但是没关系！\n我就在这里，就算是试胆子，\l也没什么可害怕的！$"
 
 MtPyre_2F_Text_LukeNotEnoughMons:
-    .string "辉：想跟我战斗的话\n就多带些宝可梦来，\p否则我就不能让我的她知道\n我有多帅了！$"
+    .string "辉：想跟我对战的话\n就多带些宝可梦来，\p否则我就不能让我的她知道\n我有多帅了！$"
 
 MtPyre_2F_Text_DezIntro:
     .string "真子：我与男友一起\n来这儿试胆子。\p虽然确实很害怕，但只要有他\n在我身边就都没什么。\p没错！我要打败你，\n让他看起来更帅！$"
@@ -79,7 +79,7 @@ MtPyre_2F_Text_DezPostBattle:
     .string "真子：我们之间感情这么好，\n输了也不介意！$"
 
 MtPyre_2F_Text_DezNotEnoughMons:
-    .string "真子：如果想挑战我们，你至少\n得带两只宝可梦。\p我的男友很强，\n仅仅一只宝可梦没用的喔。$"
+    .string "真子：如果想挑战我们，你至少\n得带2只宝可梦。\p我的男友很强，\n仅仅1只宝可梦没用的喔。$"
 
 MtPyre_2F_Text_LeahIntro:
     .string "生面孔呢……\n在什么都没发生前快离开！$"

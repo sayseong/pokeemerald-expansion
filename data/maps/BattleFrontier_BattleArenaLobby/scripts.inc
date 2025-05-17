@@ -356,43 +356,43 @@ BattleFrontier_BattleArenaLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
-    .string "在这里，训练家的战斗意志将\n受到考验！\p欢迎来到对战竞技场！\p我是您的三回合定胜负锦标赛的向导！$"
+    .string "训练家的斗志\n将在此接受考验！\p欢迎来到对战竞技场！\p我是您的三回合定胜负\n锦标赛的向导！$"
 
 BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
-    .string "那么，您想要进行\n对战竞技场挑战吗？$"
+    .string "要挑战对战竞技场吗？$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
-    .string "我们将在另外的场合下\n等待您的挑战！$"
+    .string "期待您的再次挑战！$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
-    .string "在对战竞技场中，我们开展\n三回定胜负锦标赛\p所有的参赛者以三只宝可梦\n组成的一个队参加。\p这三只宝可梦必须要以他们\n出现的顺序安排好先后次序。\p在战斗中，宝可梦会以事先\n安排好的顺序每次出现一只。\p一旦一只宝可梦加入了战斗，\n他就必须一直持续到比赛结束。\p如果一场比赛经过三个回合还无结果，\n那就要进行判定。\p如果您要暂停挑战，\n请先写入记录。\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。\p如果您能成功击败七个\n训练家的话，\l我们会给您对战点数。$"
+    .string "在对战竞技场中，\n我们将举办三回合定胜负锦标赛。\p所有的参赛者用3只宝可梦\n组成的队伍参加比赛。\p这3只宝可梦需要按照\n想要出场的顺序排列好。\p对战时，宝可梦会按照事先\n安排好的顺序依次出场。\p一旦宝可梦进入到战斗，\n就需要持续战斗至比赛结束。\p如果比赛在3回合内未能决出胜负，\n将由裁判进行判定。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。\p如果您能成功击败7个训练家的话，\n我们会授予您对战点数。$"
 
 BattleFrontier_BattleArenaLobby_Text_OkayToSave:
-    .string "在带您进入对战竞技场之前需要先写入记录。\n可以吗？$"
+    .string "在带您进入对战竞技场之前\n需要先写入记录。可以吗？$"
 
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
-    .string "对战竞技场提供两个等级的\n挑战，Lv. 50级和自由等级。\l您要选择哪个？$"
+    .string "对战竞技场提供2个等级的挑战，\nLv. 50级和自由等级。\l您要选择哪个？$"
 
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
-    .string "好的，现在请选三只\n宝可梦。$"
+    .string "好的，现在请选3只\n宝可梦。$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "亲爱的挑战者！\p您没有三只能参加比赛的\n宝可梦。\p要有参赛资格，您要带有三只不同\n种类的宝可梦。\p他们还不能携带相同\n的道具。\p蛋{STR_VAR_1}无法参加对战！\p当您都准备好了，\n请再回来。$"
+    .string "尊敬的挑战者！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
-    .string "亲爱的挑战者！\p您没有三只能参加比赛的\n宝可梦。\p要有参赛资格，您要带有三只不同\n种类的宝可梦。\p三只不同种类的宝可梦必须\n都在等级50以内。\p他们还不能携带相同\n的道具。\p蛋{STR_VAR_1}无法参加对战！\p当您都准备好了，\n请再回来。$"
+    .string "尊敬的挑战者！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
 
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
-    .string "我会为您做对战竞技场的向导。$"
+    .string "现在我将带您前往对战竞技场。$"
 
 BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
     .string "这位客人！\p您在上次结束时\n没有写入记录吧？\p非常遗憾，没有写入记录的\n挑战我们将视其为无效。\p当然，您随时可以开始\n一次新的挑战。$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
-    .string "我们恭喜您漂亮地一连战胜了\n七个训练家！$"
+    .string "祝贺您完成7连胜壮举！$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
-    .string "您的成绩将被记录。\n在写入记录时请稍等。$"
+    .string "您的成绩将被写入记录。\n在写入记录时请稍等。$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
@@ -410,13 +410,13 @@ BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave:
     .string "非常感谢您的参与！\p在写入记录时请稍等。$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge2:
-    .string "我们期待着您的再次挑战！$"
+    .string "期待您的再次挑战！$"
 
 BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
-    .string "我们一直期待着\n您的到来。\p在带您去战斗大厅之前，\n我必须先写入记录，\l请稍候。$"
+    .string "我们一直恭候您的到来。\p在带您去战斗大厅之前，\n我需要先写入记录，\l请稍候。$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
-    .string "要我把您上次的对战竞技场比赛\n记录在您的开拓通行证上吗？$"
+    .string "要将您上次的对战竞技场的对战\n记录在您的开拓通行证上吗？$"
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
     .string "我被裁判判负了……\p看来只防守而不进攻是\n行不通的……$"
@@ -431,25 +431,25 @@ BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
     .string "在对战竞技场中，宝可梦的顺序\n十分重要。\p比如说，如果你的第一只宝可梦\n有某种弱点，\l那你就该安排让你的\l第二只宝可梦能非常有效地\l对付第一只。\p我认为这会是组成一支有效队伍的\n好方法。$"
 
 BattleFrontier_BattleArenaLobby_Text_RulesAreListed:
-    .string "上面列出了三回合定胜负锦标赛的规则。$"
+    .string "上面列出了三回合定胜负\n锦标赛的规则。$"
 
 BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
-    .string "三回合定胜负锦标赛有特殊规则，\n而不像常规战斗。\p第一，每场战斗只进行\n三个回合。\p如果在三个回合之后还未分胜负，\n就要进行判定。\p裁判会根据宝可梦的战斗情况\n判出胜者。\p同样，宝可梦在得出比赛结果之前\n是不能替换的。$"
+    .string "三回合定胜负锦标赛采用特殊规则，\n与常规的对战不同。\p第一，每场战斗只进行3个回合。\p如果比赛在3回合内未能决出胜负，\n将由裁判进行判定。\p裁判会根据宝可梦的\n战斗情况判出胜者。\p此外，对战期间不可更换宝可梦，\n直至当前对战分出结果。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
-    .string "第一个判定准则是“心”。\n这个因素评价战斗者的\l进攻意识。\p判定依据的是训练家\n下达攻击招式的命令的\l频繁程度。$"
+    .string "第1个判定准则是“心”。\n这个因素评价战斗者的\l进攻意识。\p判定依据的是训练家下达\n攻击招式的命令的频率。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
-    .string "第二个判定准则是“技”。\n这个因素评价宝可梦的\l招式命中。\p如果一次招式成功了，\n技的评价就会上升。\p如果一次招式失败了，\n技的评价就会下降。\p对于攻击招式，如果招式是“效果绝佳”\n技的评价就会上升\l如果是“没有效果”\l技的评价就会下降。\p对于像保护和看穿的招式\n技的评价是不会上升的。\p如果对手采取了保护或是看穿\n的招式，并且您的宝可梦没能\l成功命中，技的评价也\l不会下降。$"
+    .string "第2个判定准则是“技”。\n这个因素评价宝可梦的\l招式命中。\p如果一次招式成功了，\n技的评价就会上升。\p如果一次招式失败了，\n技的评价就会下降。\p对于攻击招式，\n如果招式“效果绝佳”的话，\l技的评价就会上升。\l如果“没有效果”的话，\l技的评价就会下降。\p对于像保护和看穿的招式，\n技的评价是不会上升的。\p如果对手采取了保护或是看穿\n的招式，并且您的宝可梦没能\l成功命中，技的评价也不会下降。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
-    .string "第三个判定准则是“体”。\n这个因素评价在战斗结束后的\l剩余体力。\p这个准则把宝可梦\n战斗开始时的体力\l和战斗结束后还剩下的\l体力都加以考虑。$"
+    .string "第3个判定准则是“体”。\n这个因素评价宝可梦在\l战斗结束后的剩余体力比例。\p这个准则会同时参考宝可梦\n战斗开始时的体力和\l战斗结束后剩余的体力。$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
-    .string "从竞技场主将手里得到了胜利，\n并且横扫了七个训练家！\p恭喜您的挑战，\n干得漂亮！$"
+    .string "从竞技场主将手里得到了胜利，\n并且完成了7连胜壮举！\p我们为您的卓越的\n挑战献上祝贺！$"
 
 BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:
-    .string "亲爱的挑战者，为了对您那不屈的\n意志表示认可，请接受这些\l对战点数吧。$"
+    .string "尊敬的挑战者，\n为了表彰您那不屈的意志，\l请收下这些对战点数。$"

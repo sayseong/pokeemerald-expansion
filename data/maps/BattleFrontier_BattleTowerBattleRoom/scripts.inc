@@ -475,7 +475,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
     .string "正在写入记录……\n请稍等。$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
-    .string "要暂停对战间的\n挑战吗？$"
+    .string "要退出对战间的挑战吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
     .string "发生了某些错误，\n记录无法保存。$"
@@ -499,10 +499,10 @@ BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol:
     .string "能力象征浮现在\n开拓通行证上面！$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
-    .string "…… …… ……\p你对自己在宝可梦战斗方面的\n才能充满自信，对吗？\p那就继续战斗，\n继续取胜吧。\p我在这里等着你，\n等着下一次见面……$"
+    .string "…… …… ……\p你对自己在宝可梦对战方面的\n才能充满自信，对吗？\p那就继续战斗，\n继续取胜吧。\p我在这里等着你，\n等着下一次见面……$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
-    .string "莉拉：你果然回来\n见我了……\p…… …… ……\p不断连续取得胜利来到我面前……\n与你战斗我不必手下留情……\p已经太久了……\p太久不曾有人能让我\n心无旁骛地对战了……$"
+    .string "莉拉：你果然回来\n见我了……\p…… …… ……\p不断连续取得胜利来到我面前……\n与你对战我不必手下留情……\p已经太久了……\p太久不曾有人能让我\n心无旁骛地对战了……$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe:
     .string "让我们开始吧？$"
@@ -514,5 +514,5 @@ BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine:
     .string "能力象征闪着\n金黄色的光辉！$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain:
-    .string "真是令人愉悦啊……\p以前从来没有\n这么酣畅淋漓地战斗过……\p希望以后还能和你战斗……$"
+    .string "真是令人愉悦啊……\p以前从来没有\n这么酣畅淋漓地对战过……\p希望以后还能和你对战……$"
 

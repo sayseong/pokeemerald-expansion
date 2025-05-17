@@ -1,7 +1,7 @@
 SecretBase_Text_Trainer0Intro::
 	.string "你已经做了秘密基地了吗？\p"
 	.string "在选定这个地方之前，\n我已经走了不知多少地方。\p"
-	.string "既然你来了，\n我们战斗怎么样？$"
+	.string "既然你来了，\n我们对战怎么样？$"
 
 SecretBase_Text_Trainer0AcceptBattle::
 	.string "好！\n来吧！$"
@@ -23,7 +23,7 @@ SecretBase_Text_Trainer0PreChampion::
 SecretBase_Text_Trainer5Intro::
 	.string "很多地方都可以\n制造秘密基地，\p"
 	.string "但这个是我最喜欢的地方。\n你也认为这地方不错吧？\p"
-	.string "哦，要来一次战斗吗？$"
+	.string "哦，要来一次对战吗？$"
 
 SecretBase_Text_Trainer5AcceptBattle::
 	.string "好了，来吧！$"
@@ -64,7 +64,7 @@ SecretBase_Text_Trainer1PreChampion::
 
 SecretBase_Text_Trainer6Intro::
 	.string "欢迎来到我的精灵研究所，\p"
-	.string "我在调查\n秘密的战斗。\p"
+	.string "我在调查\n秘密的对战。\p"
 	.string "想试试我有多么强吗？$"
 
 SecretBase_Text_Trainer6AcceptBattle::
@@ -77,16 +77,16 @@ SecretBase_Text_Trainer6Defeated::
     .string "嗯……我还有很多不足，\n还得继续学习啊。$"
 
 SecretBase_Text_Trainer6PostBattle::
-	.string "谢谢你和我战斗，\n明天也来玩吧。$"
+	.string "谢谢你和我对战，\n明天也来玩吧。$"
 
 SecretBase_Text_Trainer6PreChampion::
 	.string "欢迎来到我的宝可梦研究所，\p"
-	.string "我在暗中\n进行战斗研究。$"
+	.string "我在暗中\n进行对战研究。$"
 
 SecretBase_Text_Trainer2Intro::
 	.string "拥有一座宅邸当然好，\n但我更喜欢这样的地方，\p"
 	.string "因为各种各样的人\n都会来我这里做客。\p"
-	.string "那么，来场战斗怎么样？$"
+	.string "那么，来场对战怎么样？$"
 
 SecretBase_Text_Trainer2AcceptBattle::
 	.string "就是这样！$"
@@ -95,7 +95,7 @@ SecretBase_Text_Trainer2DeclineBattle::
 	.string "准备好的话就叫我吧！$"
 
 SecretBase_Text_Trainer2Defeated::
-    .string "啊噢！挂了！\n但我还是喜欢战斗！$"
+    .string "啊噢！挂了！\n但我还是喜欢对战！$"
 
 SecretBase_Text_Trainer2PostBattle::
 	.string "哎，不管怎么说，我还得\n去买些家具和装饰物品。\p"
@@ -108,7 +108,7 @@ SecretBase_Text_Trainer2PreChampion::
 SecretBase_Text_Trainer7Intro::
 	.string "我非常喜欢逛商店\n买家具和装饰物品，\p"
 	.string "也同样喜欢\n培育宝可梦。\p"
-	.string "如果你愿意的话，\n跟我的宝可梦战斗怎么样？$"
+	.string "如果你愿意的话，\n跟我的宝可梦对战怎么样？$"
 
 SecretBase_Text_Trainer7AcceptBattle::
 	.string "谢谢，\n开始吧？$"
@@ -129,7 +129,7 @@ SecretBase_Text_Trainer7PreChampion::
 SecretBase_Text_Trainer3Intro::
 	.string "有些人把秘密基地\n建在别人很难找到的地方，\l"
 	.string "是因为想低调行事吗？\p"
-	.string "不过你找到了我这里，\n来战斗如何？$"
+	.string "不过你找到了我这里，\n来对战如何？$"
 
 SecretBase_Text_Trainer3AcceptBattle::
 	.string "我不会被你轻易打败的！$"
@@ -151,13 +151,13 @@ SecretBase_Text_Trainer3PreChampion::
 SecretBase_Text_Trainer8Intro::
 	.string "人们说有很多得到\n装饰物品的方式，\p"
 	.string "我们来比赛谁能得到\n更好的家具和装饰吧！\p"
-	.string "不过同时，想战斗吗？$"
+	.string "不过同时，想对战吗？$"
 
 SecretBase_Text_Trainer8AcceptBattle::
 	.string "这里是我的秘密基地，\n我是不会输的！$"
 
 SecretBase_Text_Trainer8DeclineBattle::
-	.string "我随时愿意跟你战斗。$"
+	.string "我随时愿意跟你对战。$"
 
 SecretBase_Text_Trainer8Defeated::
     .string "哎？\n我刚刚输掉了？$"
@@ -172,7 +172,7 @@ SecretBase_Text_Trainer8PreChampion::
 SecretBase_Text_Trainer4Intro::
 	.string "我寻找一个中意的地点，\n然后用喜欢的装饰物品来装点它。\p"
 	.string "我培育自己喜欢的宝可梦，\n并与它一同成长。\p"
-	.string "这是我的生活。\n要和我战斗吗？$"
+	.string "这是我的生活。\n要和我对战吗？$"
 
 SecretBase_Text_Trainer4AcceptBattle::
 	.string "让我看看你的本事吧！$"
@@ -196,7 +196,7 @@ SecretBase_Text_Trainer9Intro::
 	.string "就可以了解到很多关于\l"
 	.string "这个人的个性和品位的事情。\p"
 	.string "你看出我的品味如何了吗？\n无话可说了吗？\p"
-	.string "要不要再看看我的战斗品味？$"
+	.string "要不要再看看我的对战品味？$"
 
 SecretBase_Text_Trainer9AcceptBattle::
 	.string "不能退缩！$"

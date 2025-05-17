@@ -1011,7 +1011,7 @@ Route104_Text_OnlyThrowBallAtWildPokemon:
     .string "你不能偷\n别人的宝可梦，\p你只能向野生的宝可梦\n投掷精灵球。$"
 
 Route104_Text_ImNotATrainer:
-    .string "哦，不，我不是训练家，\p但要是被训练家看见的话，\n他们就会向你挑战。\p如果你不想战斗，\n最好躲着他们的视线。$"
+    .string "哦，不，我不是训练家，\p但要是被训练家看见的话，\n他们就会向你挑战。\p如果你不想对战，\n最好躲着他们的视线。$"
 
 Route104_Text_LikeFillingMouthWithSeedsTakeThis:
     .string "我喜欢在嘴里塞满种子，\n然后飞速射出去！\p这个给你，你也可以试试！\p把它给宝可梦使用，宝可梦就能\n学会快速射出种子的招式。$"
@@ -1038,7 +1038,7 @@ Route104_Text_PrettyPetalFlowShop:
     .string "圣橙华花店$"
 
 Route104_Text_TrainerTipsDoubleBattles:
-    .string "训练家小技巧\p在丰缘地区中，一些\n结伴的训练家会向别人发起\l2对2的挑战，\l称作双打对战。\p在双打对战中，训练家要派出\n两只宝可梦，即列表\l左边的和最上边的。\l一定要注意宝可梦的队列顺序。$"
+    .string "训练家小技巧\p在丰缘地区中，一些\n结伴的训练家会向别人发起\l2对2的挑战，\l称作双打对战。\p在双打对战中，训练家要派出\n2只宝可梦，即列表\l左边的和最上边的。\l一定要注意宝可梦的队列顺序。$"
 
 Route104_Text_MayWeShouldRegister:
     .string "小遥：啊，{PLAYER}{KUN}！\p得文给你的宝可导航装了\n对战寻呼系统对吧？\p我们互相登记一下信息吧，\n这样就能随时联系了。$"

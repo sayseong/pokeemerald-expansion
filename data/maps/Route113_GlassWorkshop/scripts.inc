@@ -329,7 +329,7 @@ Route113_GlassWorkshop_Text_NoRoomInBag:
     .string "哦？\n你的包包里面没有地方了，呼呼。\p我先替你保管着，以后再来吧，\n呼呼。$"
 
 Route113_GlassWorkshop_Text_NoRoomInPC:
-    .string "哦？\n你的电脑里面没有地方了，呼呼。\p我先替你保管者，以后再来吧，\n呼呼。$"
+    .string "哦？\n你的电脑里面没有地方了，呼呼。\p我先替你保管着，以后再来吧，\n呼呼。$"
 
 Route113_GlassWorkshop_Text_HaventGotYourSootSack:
     .string "哎？你没带你的集灰袋啊，\n呼呼。\p要收集火山灰就一定\n要带上它，呼呼。$"

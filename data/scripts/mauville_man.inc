@@ -357,7 +357,7 @@ MauvilleCity_PokemonCenter_1F_Text_InterviewsStory::
 	.string "备受瞩目的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesTitle::
-	.string "战斗狂$"
+	.string "对战狂$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesAction::
 	.string "对战$"
@@ -365,9 +365,9 @@ MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesAction::
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "他参加了{STR_VAR_1}次战斗！\p"
+	.string "他参加了{STR_VAR_1}次对战！\p"
 	.string "{STR_VAR_3}不会错过任何\n"
-	.string "战斗的机会！$"
+	.string "对战的机会！$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtTitle::
 	.string "捕捉专家$"

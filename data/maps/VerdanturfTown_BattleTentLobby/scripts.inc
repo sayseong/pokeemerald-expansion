@@ -337,7 +337,7 @@ VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep:
     .string "我对宝可梦感到……\n它那么地迷人……\p啊，你好，你没看见吧？\n啊，算了，没关系，\p你想给你的宝可梦用\n这个招式学习器吗？$"
 
 VerdanturfTown_BattleTentLobby_Text_AttractionMutual:
-    .string "我对宝可梦感到……\n我想这吸引力一定是相互的！\p它们战斗时完全按照\n我想的那样做！$"
+    .string "我对宝可梦感到……\n我想这吸引力一定是相互的！\p它们对战时完全按照\n我想的那样做！$"
 
 VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves:
     .string "你给你的宝可梦\n教了些什么招式？\p我想如果它们自己\n会疗伤的话，\l你会很轻松的。$"

@@ -500,7 +500,7 @@ MossdeepCity_Gym_Text_TateAndLizaPostBattle:
     .string "小枫：看起来你和你的宝可梦之间的\n牵绊比我们双胞胎之间的\l牵绊还要强。\p小南：你们会变得更强！我们和你\n对战过，所以我们知道。$"
 
 MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
-    .string "小枫：嘿嘿嘿……你惊讶吗？\p小南：这里有两个道馆馆主？\p小枫：哎，你只有一只……\n小南：能战斗的宝可梦。\p小枫：我们不能这样战斗！\p小南：要和我们战斗，\n再多带几只宝可梦来吧。$"
+    .string "小枫：嘿嘿嘿……你惊讶吗？\p小南：这里有两个道馆馆主？\p小枫：哎，你只有1只……\n小南：能对战的宝可梦。\p小枫：我们不能这样对战！\p小南：要和我们对战，\n再多带几只宝可梦来吧。$"
 
 MossdeepCity_Gym_Text_GymStatue:
     .string "绿岭市宝可梦道馆$"
@@ -518,4 +518,4 @@ MossdeepCity_Gym_Text_TateAndLizaPostRematch:
     .string "小枫：你可以将我们击倒，\n但我们不会停滞不前！\p小南：因为我们两个，\n会永远互相支持！$"
 
 MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons:
-    .string "小枫：你又回来……\n小南：你又回来……\p小枫：跟我们再次战斗。\n小南：跟我们再次战斗。\p小枫：但是……\n小南：向我们挑战……\p小枫：你却只带来了一只宝可梦！\n小南：你却只带来了一只宝可梦！\p小枫：你再来时要带来……\n小南：至少两只宝可梦。$"
+    .string "小枫：你又回来……\n小南：你又回来……\p小枫：跟我们再次对战。\n小南：跟我们再次对战。\p小枫：但是……\n小南：向我们挑战……\p小枫：你却只带来了1只宝可梦！\n小南：你却只带来了1只宝可梦！\p小枫：你再来时要带来……\n小南：至少2只宝可梦。$"

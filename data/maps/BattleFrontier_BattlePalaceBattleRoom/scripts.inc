@@ -472,7 +472,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame:
     .string "要写入记录\n并退出游戏吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge:
-    .string "要放弃挑战吗？$"
+    .string "要退出挑战吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
     .string "正在写入记录，\n请耐心等候……$"

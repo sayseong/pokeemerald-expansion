@@ -291,7 +291,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_SaveChallengeAndQuit:
     .string "要写入记录\n并退出游戏吗？$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge:
-    .string "您要离开\n选择式对战挑战吗？$"
+    .string "要退出选择式对战挑战吗？$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume:
     .string "我们已经恭候多时……\p在继续您的选择式对战\n挑战前，请让我先写入记录……$"

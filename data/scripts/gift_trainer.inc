@@ -32,7 +32,7 @@ sText_MysteryGiftVisitingTrainerInstructions:
 	.string "“GIVE ME\n"
 	.string "AWESOME TRAINER”\p"
 	.string "把这个写在调查上并发送到\n"
-	.string "无线通信系统。$"
+	.string "无线连接系统。$"
 
 sText_MysteryGiftVisitingTrainerArrived:
 	.string "感谢使用\n"
@@ -40,7 +40,7 @@ sText_MysteryGiftVisitingTrainerArrived:
 	.string "一位训练家已经来到\n"
 	.string "琉璃市寻找您。\p"
 	.string "系统您可以享受\n"
-	.string "与训练家的战斗。\p"
+	.string "与训练家的对战。\p"
 	.string "您可以邀请其他训练家\n"
 	.string "通过填写密码。\p"
 	.string "试着找寻其他\n"

@@ -189,7 +189,7 @@ LavaridgeTown_Gym_1F_Text_GymGuideAdvice:
     .string "嗨，怎么样，向冠军目标\n冲刺的{PLAYER}？\p釜炎镇的道馆馆主亚莎\n使用火属性宝可梦，\p她对宝可梦的激情\n比火山还要炙热。\p别太接近她——你会被烧焦的！\n用水浇灭她的火焰，\l加油吧！$"
 
 LavaridgeTown_Gym_1F_Text_GymGuidePostVictory:
-    .string "异常火热的战斗啊！$"
+    .string "异常火热的对战啊！$"
 
 LavaridgeTown_Gym_1F_Text_ColeIntro:
     .string "啊啊啊啊！\n呀，好烫！$"
@@ -228,7 +228,7 @@ LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
     .string "岩浆的温度\n是392度。\p你的宝可梦打败了我，那么\n在岩浆中也应该能比较容易生存下来。$"
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro:
-    .string "呃……\n好吧，我就和你战斗吧。$"
+    .string "呃……\n好吧，我就和你对战吧。$"
 
 LavaridgeTown_Gym_1F_Text_DanielleDefeat:
     .string "呀，你太强了。$"
@@ -237,7 +237,7 @@ LavaridgeTown_Gym_1F_Text_DaniellePostBattle:
     .string "我要成为亚莎那样\n漂亮又强大的训练家。$"
 
 LavaridgeTown_Gym_B1F_Text_JaceIntro:
-    .string "来战斗吧！\n别让我的热情冷却！$"
+    .string "来对战吧！\n别让我的热情冷却！$"
 
 LavaridgeTown_Gym_B1F_Text_JaceDefeat:
     .string "周围那么热，\n我的心却好像掉进了冰窟……$"
@@ -291,13 +291,13 @@ LavaridgeTown_Gym_1F_Text_GymStatueCertified:
     .string "釜炎镇宝可梦道馆\p亚莎认可的训练家：\n{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
-    .string "亚莎：打输一次不会\n让我泄气。\p我爱宝可梦，\n我爱战斗，\l而且……我爱这间道馆！\p让我们用炙热的招式\n开战吧！$"
+    .string "亚莎：打输一次不会\n让我泄气。\p我爱宝可梦，\n我爱对战，\l而且……我爱这间道馆！\p让我们用炙热的招式\n开战吧！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
     .string "哇！\n火山喷发也不过如此吧！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
-    .string "亚莎：我输了，\n但是我很满足。\p像这样激烈的战斗\n可不是每天都有的。\p有空的话\n再来一场吧！$"
+    .string "亚莎：我输了，\n但是我很满足。\p像这样激烈的对战\n可不是每天都有的。\p有空的话\n再来一场吧！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
-    .string "亚莎：打输一次不会\n让我泄气。\p我爱宝可梦，\n我爱战斗，\l而且……我爱这间道馆！\p让我们用炙热的招式\n开战吧！\p啊，慢着，你只带了一只\n可以战斗的宝可梦？\p你来找我时至少得\n带两只宝可梦吧。$"
+    .string "亚莎：打输一次不会\n让我泄气。\p我爱宝可梦，\n我爱对战，\l而且……我爱这间道馆！\p让我们用炙热的招式\n开战吧！\p啊，慢着，你只带了1只\n可以对战的宝可梦？\p你来找我时至少得\n带2只宝可梦吧。$"

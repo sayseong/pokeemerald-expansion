@@ -102,13 +102,13 @@ Route109_SeashoreHouse_EventScript_TrainersNotCompleted::
 	end
 
 Route109_SeashoreHouse_Text_SeashoreHouseIntro:
-    .string "我是大海之家的老板，\n你可以叫我大海先生！\p我最为喜欢的事情\n是观看激烈的宝可梦战斗。\p给我看看你的激情吧！\p如果你能打败这里的所有训练家，\n我这里有奖励送给你。$"
+    .string "我是大海之家的老板，\n你可以叫我大海先生！\p我最为喜欢的事情\n是观看激烈的宝可梦对战。\p给我看看你的激情吧！\p如果你能打败这里的所有训练家，\n我这里有奖励送给你。$"
 
 Route109_SeashoreHouse_Text_ShowMeSomeHotMatches:
-    .string "让我看看激烈的战斗吧！\p我开这大海之家的\n目的就在于此！$"
+    .string "让我看看激烈的对战吧！\p我开这大海之家的\n目的就在于此！$"
 
 Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
-    .string "火热的战斗把人\n都要烧焦了！\l我已经无法描述我的兴奋了！\p这些送给你，当作是我\n对你的热情的谢礼，\p总共六瓶劲爽汽水！$"
+    .string "火热的对战把人\n都要烧焦了！\l我已经无法描述我的兴奋了！\p这些送给你，当作是我\n对你的热情的谢礼，\p总共六瓶劲爽汽水！$"
 
 Route109_SeashoreHouse_Text_BagFull:
     .string "哎，但是你的包包已经满了，\n我会暂时替你保管的。$"
@@ -129,13 +129,13 @@ Route109_SeashoreHouse_Text_DwayneIntro:
     .string "伙计，知道吗，在大海之家的\n训练家之中，没有人比我\l更充满激情了！$"
 
 Route109_SeashoreHouse_Text_DwayneDefeated:
-    .string "火热的战斗！\n我心服口服了，伙计！$"
+    .string "火热的对战！\n我心服口服了，伙计！$"
 
 Route109_SeashoreHouse_Text_DwaynePostBattle:
-    .string "在凯那市就是要享受\n火热的战斗和冰爽的劲爽汽水！$"
+    .string "在凯那市就是要享受\n火热的对战和冰爽的劲爽汽水！$"
 
 Route109_SeashoreHouse_Text_JohannaIntro:
-    .string "无聊的战斗不值得为之付出努力。\p只有火一般的战斗才能使\n训练家和宝可梦成长起来！$"
+    .string "无聊的对战不值得为之付出努力。\p只有火一般的对战才能使\n训练家和宝可梦成长起来！$"
 
 Route109_SeashoreHouse_Text_JohannaDefeated:
     .string "好热！$"

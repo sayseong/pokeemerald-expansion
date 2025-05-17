@@ -195,7 +195,7 @@ JaggedPass_Text_EthanRematchIntro:
     .string "我已经习惯这里凹凸的路，\n能一边唱歌一边攀登了。$"
 
 JaggedPass_Text_EthanRematchDefeat:
-    .string "在这么高低不平的地面上战斗\n还是不容易啊……$"
+    .string "在这么高低不平的地面上对战\n还是不容易啊……$"
 
 JaggedPass_Text_EthanPostRematch:
     .string "我真该先去紫堇市的风野那儿\n弄台越野自行车……$"

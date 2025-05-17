@@ -907,7 +907,7 @@ gText_PokemonTrainerSchoolEmail::
 	.string "有一封宝可梦训练家\n"
 	.string "学校来的电子邮件。\p"
 	.string "…… …… ……\p"
-	.string "一只宝可梦最多可以学4个招式，\p"
+	.string "1只宝可梦最多可以学4个招式，\p"
 	.string "训练家的专业程度就可以从其\n"
 	.string "为宝可梦所选择的招式中看出来。\p"
 	.string "…… …… ……$"

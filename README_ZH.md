@@ -225,7 +225,7 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
     - 默认情况下，在大地图中按`R + Start`键访问。
     - ‌**附加功能**‌：
       - *清空盒子*：清空所有盒子中的宝可梦。
-      - *孵化蛋*：选择队伍中的一颗蛋并立即孵化。
+      - *孵化蛋*：选择队伍中的一个蛋并立即孵化。
   - [HGSS风格宝可梦图鉴](https://github.com/TheXaman/pokeemerald/tree/tx_pokedexPlus_hgss)由@TheXaman制作
     - 可禁用。
     - ‌**附加功能**‌：

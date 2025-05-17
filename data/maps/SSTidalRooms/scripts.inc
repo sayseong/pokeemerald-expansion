@@ -102,7 +102,7 @@ SSTidalRooms_Text_JedPostBattle:
     .string "阿新：我们爱情的力量\n头一回没能取胜！\l你肯定是一名很强的训练家！$"
 
 SSTidalRooms_Text_JedNotEnoughMons:
-    .string "阿新: 你只有一只宝可梦？\n这是不是也太孤单了？$"
+    .string "阿新: 你只有1只宝可梦？\n这是不是也太孤单了？$"
 
 SSTidalRooms_Text_LeaIntro:
     .string "佳穗：说起来真有些傻……\n我们会展示给你爱情的力量！$"
@@ -114,7 +114,7 @@ SSTidalRooms_Text_LeaPostBattle:
     .string "佳穗：真是难以置信！\n我们爱情的力量输了……\l你肯定是一名很强的训练家！$"
 
 SSTidalRooms_Text_LeaNotEnoughMons:
-    .string "佳穗：我也想对战……\n但你连两只宝可梦都没有……$"
+    .string "佳穗：我也想对战……\n但你连2只宝可梦都没有……$"
 
 SSTidalRooms_Text_GarretIntro:
     .string "啊，你来的正好。\p我无聊死了，\n一块玩玩吧。$"

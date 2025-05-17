@@ -195,7 +195,7 @@ SootopolisCity_Gym_1F_Text_ReceivedRainBadge:
     .string "{PLAYER}从亚当那里\n得到了雨滴徽章。$"
 
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
-    .string "有了雨滴徽章，\n你所有的宝可梦都会完全\l服从你的每个指示。\p你也能使用秘传招式攀瀑\n攀登瀑布了。\p然后，为了不让你\n忘记这场战斗，收下这个……$"
+    .string "有了雨滴徽章，\n你所有的宝可梦都会完全\l服从你的每个指示。\p你也能使用秘传招式攀瀑\n攀登瀑布了。\p然后，为了不让你\n忘记这场对战，收下这个……$"
 
 SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
     .string "我交给你的这个招式学习器\n里面是水之波动。\p使用它时偶尔会因为超声波\n使目标陷入混乱。\p…… …… ……$"
@@ -225,5 +225,5 @@ SootopolisCity_Gym_1F_Text_JuanPostRematch:
     .string "亚当：如果我说要收你做徒弟，\n我想你绝对会拒绝。\p我想要把我的外衣\n作礼物送给你，\p但如果我没想错的话，\n你肯定也会拒绝。\p我的朋友，\n这正是你的高贵的表现啊！$"
 
 SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons:
-    .string "亚当：啊，这间道馆终于恢复了\n它往日的风和日丽……\p但我们年轻的台风又再度袭来\n考验我们了！\p好的，我的朋友，\n当然！\p只要你想，\n我随时愿意与你共舞一曲！\p啊，不不不，\n你只带了一只宝可梦。\p我希望你能至少\n带两只宝可梦来。$"
+    .string "亚当：啊，这间道馆终于恢复了\n它往日的风和日丽……\p但我们年轻的台风又再度袭来\n考验我们了！\p好的，我的朋友，\n当然！\p只要你想，\n我随时愿意与你共舞一曲！\p啊，不不不，\n你只带了1只宝可梦。\p我希望你能至少\n带2只宝可梦来。$"
 

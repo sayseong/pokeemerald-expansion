@@ -1407,7 +1407,7 @@ LilycoveCity_ContestLobby_Text_WhichTopic1:
 	.string "哪方面的比赛呢？$"
 
 LilycoveCity_ContestLobby_Text_ExplainContests:
-	.string "4位参赛选手拿出一只\n"
+	.string "4位参赛选手拿出1只\n"
 	.string "宝可梦进行评比。\p"
 	.string "华丽大赛分为\n"
 	.string "第一场和第二场展示。\p"
@@ -1435,7 +1435,7 @@ LilycoveCity_ContestLobby_Text_ExplainContestRanks:
 	.string "不同的组别\p"
 	.string "普通，超级，专家和大师\n"
 	.string "4个组别。\p"
-	.string "在普通组的比赛中任何一只\n"
+	.string "在普通组的比赛中任何\n"
 	.string "宝可梦都可以参加。\p"
 	.string "获得普通组胜利的宝可梦\n"
 	.string "就获得了参加同一类型的\l"
@@ -1611,7 +1611,7 @@ LilycoveCity_ContestLobby_Text_EnterContest2:
 @ Unused
 LilycoveCity_ContestLobby_Text_Explain4PlayerContest:
 	.string "当4个选手准备完毕，通过\n"
-	.string "通信线进行连接，\l"
+	.string "连接线进行连接，\l"
 	.string "然后在我这里进行登记。\p"
 	.string "请叫您的对手们\n"
 	.string "选择同一个比赛。\p"
@@ -1666,7 +1666,7 @@ LilycoveCity_ContestLobby_Text_ContestBeginShortly:
 
 LilycoveCity_ContestLobby_Text_LinkContestReception:
 	.string "欢迎！这里是宝可梦华丽大赛\n"
-	.string "通信服务前台。\p"
+	.string "连接服务前台。\p"
 	.string "您可以和您的朋友们\n"
 	.string "进行联机比赛。$"
 
@@ -1697,23 +1697,23 @@ LilycoveCity_ContestLobby_Text_PleaseDecideLinkLeader:
 	.string "“加入小组。”$"
 
 LilycoveCity_ContestLobby_Text_PlayerAt4PCounterUseGMode:
-	.string "最少有一个人参加\n"
+	.string "最少有1个人参加\n"
 	.string "这次的联机比赛。\p"
-	.string "必须四个人使用\n"
-	.string "GBA通信线。\p"
+	.string "必须4个人使用\n"
+	.string "GBA连接线。\p"
 	.string "当4个人都已经准备好的时候，\n"
 	.string "选择G-模式 (全球模式)，\l"
 	.string "接着就开始了。$"
 
 LilycoveCity_ContestLobby_Text_ExplainLinkContest:
 	.string "这次的比赛是\n"
-	.string "供两到四个人使用无线通信器\l"
+	.string "供2到4个人使用无线适配器\l"
 	.string "或GBA连接线进行的。\p"
 	.string "参加者先要选择他们所\n"
 	.string "想要参加的模式。\p"
 	.string "这有两种不同的模式。\p"
 	.string "E模式(绿宝石模式)是对于\n"
-	.string "两到四个人都使用了 \l"
+	.string "2到4个人都使用了 \l"
 	.string "宝可梦绿宝石卡带。\p"
 	.string "G-模式(全球模式)只能使用于\n"
 	.string "4个人同时都有绿宝石\l"
@@ -1728,10 +1728,10 @@ LilycoveCity_ContestLobby_Text_ExplainLinkContest:
 
 LilycoveCity_ContestLobby_Text_ExplainEMode:
 	.string "在E模式(绿宝石模式)，\n"
-	.string "两到四个人可以进行联机的\l"
+	.string "2到4个人可以进行联机的\l"
 	.string "华丽大赛，而且每个人都需要\l"
 	.string "一张绿宝石的卡带。\p"
-	.string "玩家们必须使用无线通信器\n"
+	.string "玩家们必须使用无线适配器\n"
 	.string "或者是GBA联机\l"
 	.string "线进行联机。\p"
 	.string "如果人数少于四人，\n"
@@ -1741,7 +1741,7 @@ LilycoveCity_ContestLobby_Text_ExplainEMode:
 	.string "和蓝宝石的人不能使用E模式。$"
 
 LilycoveCity_ContestLobby_Text_ExplainGMode:
-	.string "G模式(全球模式)只有四个\n"
+	.string "G模式(全球模式)只有4个\n"
 	.string "使用GBA连机线的人\l"
 	.string "才能使用。\p"
 	.string "每个人都必须要有\n"
@@ -1754,9 +1754,9 @@ LilycoveCity_ContestLobby_Text_ExplainGMode:
 LilycoveCity_ContestLobby_Text_NoWirelessAdapterInGMode:
 	.string "非常抱歉。\p"
 	.string "G模式不能通过无线\n"
-	.string "通信器连接。\p"
+	.string "适配器连接。\p"
 	.string "请选择E模式或\n"
-	.string "使用GBA通信线一次。$"
+	.string "使用GBA连接线重试。$"
 
 LilycoveCity_ContestLobby_Text_WhichContestMode:
 	.string "您想参加哪个\n"

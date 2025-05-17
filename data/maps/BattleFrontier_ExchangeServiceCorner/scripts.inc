@@ -616,7 +616,7 @@ BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc::
     .string "提升宝可梦的体力。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc::
-    .string "一件能在战斗中逐渐\n回复体力的道具。$"
+    .string "一件能在对战中逐渐\n回复体力的道具。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc::
     .string "一件能回复所有能力\n的道具。$"

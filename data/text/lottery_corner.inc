@@ -23,16 +23,16 @@ LilycoveCity_DepartmentStore_1F_Text_NoNumbersMatched::
     .string "很遗憾，\n没有找到相符的号码。$"
 
 LilycoveCity_DepartmentStore_1F_Text_TwoDigitsMatched::
-    .string "有两个数字相同，\n恭喜您获得三等奖！\l奖品是{STR_VAR_1}！$"
+    .string "有2个数字相同，\n恭喜您获得三等奖！\l奖品是{STR_VAR_1}！$"
 
 LilycoveCity_DepartmentStore_1F_Text_ThreeDigitsMatched::
-    .string "有三个数字相同，\n恭喜您获得二等奖！\l奖品是{STR_VAR_1}！$"
+    .string "有3个数字相同，\n恭喜您获得二等奖！\l奖品是{STR_VAR_1}！$"
 
 LilycoveCity_DepartmentStore_1F_Text_FourDigitsMatched::
-    .string "有四个数字相同，\n恭喜您获得一等奖！\l奖品是{STR_VAR_1}！$"
+    .string "有4个数字相同，\n恭喜您获得一等奖！\l奖品是{STR_VAR_1}！$"
 
 LilycoveCity_DepartmentStore_1F_Text_AllFiveDigitsMatched::
-    .string "啊，天哪，五个数字\n完全相同！\p恭喜您获得特等奖！\n奖品是{STR_VAR_1}！$"
+    .string "啊，天哪，5个数字\n完全相同！\p恭喜您获得特等奖！\n奖品是{STR_VAR_1}！$"
 
 LilycoveCity_DepartmentStore_1F_Text_NoRoomForThis::
     .string "哎？\n好像您没有放奖品的地方了，\p等您的包包里腾出空间之后，\n请再来找我。$"

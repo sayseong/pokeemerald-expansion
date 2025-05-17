@@ -110,7 +110,7 @@ LilycoveCity_House3_Text_HappyToHaveQuadruplets:
     .string "妻子生下四胞胎的时候，\n我真的大吃一惊，\p但现在看着他们一起玩耍，\n我觉得很幸福。$"
 
 LilycoveCity_House3_Text_GoingToWinMultiBattles:
-    .string "我们在进行多人战斗，\n我肯定会赢的。$"
+    .string "我们在进行多人对战，\n我肯定会赢的。$"
 
 LilycoveCity_House3_Text_LikeMixingAtRecordCorner:
     .string "我们喜欢在联机中心\n混合东西，\p但究竟是什么混合起来了？$"

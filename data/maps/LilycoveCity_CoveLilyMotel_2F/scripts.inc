@@ -79,7 +79,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
     .string "我是美术设计师！\n丰缘地区的宝可梦很有趣吧？$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
-    .string "泳圈女孩很可爱，不是吗？\n跟这么可爱的泳圈女孩战斗……\p哇，太棒了！\p还有双胞胎！也很可爱不是吗？\n跟双胞胎二对二战斗……\p哇，那是难以形容的快乐！$"
+    .string "泳圈女孩很可爱，不是吗？\n跟这么可爱的泳圈女孩对战……\p哇，太棒了！\p还有双胞胎！也很可爱不是吗？\n跟双胞胎二对二对战……\p哇，那是难以形容的快乐！$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_SeaBreezeTicklesHeart:
     .string "海风轻轻地挑逗着我的心。\n在这里的感觉真好！$"

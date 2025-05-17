@@ -230,13 +230,13 @@ BattleFrontier_ScottsHouse_Text_ExpectingGreatThings:
     .string "期待你的更加精彩的表现！$"
 
 BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
-    .string "亚希达：每个训练家都是一个独特的人，\n他们都过着自己的生活。\p但当他们进行战斗的时候，\n他们是谁并不重要。\p他们都是一样的！\p我喜欢这样纯粹的战斗，\n大家都是平等的。\p因此我环游各地，\n寻找重视对战的训练家，\l邀请他们来到这个地方。$"
+    .string "亚希达：每个训练家都是一个独特的人，\n他们都过着自己的生活。\p但当他们进行对战的时候，\n他们是谁并不重要。\p他们都是一样的！\p我喜欢这样纯粹的对战，\n大家都是平等的。\p因此我环游各地，\n寻找重视对战的训练家，\l邀请他们来到这个地方。$"
 
 BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain:
     .string "亚希达：你与开拓之脑\n交过手了吗？\p还是说，你已经得到\n他们的象征了？\p开拓之脑是我从世界各地\n精挑细选出来的最强训练家，\p但我能肯定他们看到你的能力，\n也会大吃一惊！$"
 
 BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
-    .string "亚希达：你的目标不只是战斗吧？\n对吗？\p我好像还记得你也在\n收集宝可梦图鉴。\p猜猜怎么着？\p在对战开拓区的某些地方\n你也能遇到野生宝可梦……\l呼呼呼！$"
+    .string "亚希达：你的目标不只是对战吧？\n对吗？\p我好像还记得你也在\n收集宝可梦图鉴。\p猜猜怎么着？\p在对战开拓区的某些地方\n你也能遇到野生宝可梦……\l呼呼呼！$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
     .string "亚希达：在对战开拓区\n玩得开心吗？\p……等等……\n啊！\p你的开拓通行证！\n你已经收集到了\l所有的银色象征！\p简直超乎想象！\n如我所料，你真的强大无比！\p虽说通常我不会这样，\n不过这次就让我破例一回！\p相信你一定\n能妥善使用。$"

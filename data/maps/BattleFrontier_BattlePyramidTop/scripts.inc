@@ -243,10 +243,10 @@ BattleFrontier_BattlePyramidTop_Text_ReceivedBraveSymbol:
     .string "英勇象征浮现在\n开拓通行证上。$"
 
 BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
-    .string "年轻的冒险者！\n期待我们的下一次再会！$"
+    .string "年轻的探险家！\n期待我们的下一次再会！$"
 
 BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
-    .string "神代：……你终于回来了，\n年轻的冒险者……\p你对冒险的热情似乎源于\n你的内心深处……\p对……你简直就像是\n年轻时期的我自己\p…… ……啊……\p激情！\p危机！\p绝境！\p那些在生死边缘探寻生命意义的\n日子又在此重现了……$"
+    .string "神代：……你终于回来了，\n年轻的探险家……\p你对冒险的热情似乎源于\n你的内心深处……\p对……你简直就像是\n年轻时期的我自己\p…… ……啊……\p激情！\p危机！\p绝境！\p那些在生死边缘探寻生命意义的\n日子又在此重现了……$"
 
 BattleFrontier_BattlePyramidTop_Text_MyCourageIsOffMeter:
     .string "现在！\p我已感受到澎湃的勇气\n即将满溢！$"
@@ -255,13 +255,13 @@ BattleFrontier_BattlePyramidTop_Text_EverythingYouHave:
     .string "倾尽你的一切吧！\n我已做好万全准备！$"
 
 BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis:
-    .string "神代：哈哈哈！\n精彩绝伦！\l壮阔至极！\p年轻的冒险者！\p你完全超越了我！\n来！我希望你收下这个！$"
+    .string "神代：哈哈哈！\n精彩绝伦！\l壮阔至极！\p年轻的探险家！\p你完全超越了我！\n来！我希望你收下这个！$"
 
 BattleFrontier_BattlePyramidTop_Text_BraveSymbolTookGoldenShine:
     .string "英勇象征闪耀着\n金色的光芒！$"
 
 BattleFrontier_BattlePyramidTop_Text_FarewellForNow:
-    .string "啊，没错！\n看来我要学东西还有很多！\p愿我们再次相逢！\n让我们暂别吧，年轻的冒险者！$"
+    .string "啊，没错！\n看来我要学东西还有很多！\p愿我们再次相逢！\n让我们暂别吧，年轻的探险家！$"
 
 BattleFrontier_BattlePyramidTop_Text_StepForwardWhenReady:
     .string "当你准备好时，\n请带着勇气向前迈进吧！$"

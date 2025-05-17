@@ -492,7 +492,7 @@ Route119_Text_MayExplainFly:
     .string "小遥：使用飞翔的话，\n宝可梦会瞬间带你飞回\l曾经去过的城镇，\p但必须先拿到茵郁市的\n道馆徽章才能够使用，\l这很重要，不要忘了哦！\p偶尔也该飞回未白镇\n回家里看看，\p你妈妈会担心你的，\n{PLAYER}{KUN}。\p好了，下次再见！$"
 
 Route119_Text_BrendanIntro:
-    .string "小悠：{PLAYER}！\n来这里找宝可梦吗？\p让我检验下你的实力\n成长得如何了！\p现在！\n来战斗吧！$"
+    .string "小悠：{PLAYER}！\n来这里找宝可梦吗？\p让我检验下你的实力\n成长得如何了！\p现在！\n来对战吧！$"
 
 Route119_Text_BrendanDefeat:
     .string "唔……\n你进步得真快啊。$"
