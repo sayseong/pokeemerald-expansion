@@ -15,7 +15,7 @@ static const struct MenuAction MultichoiceList_EnterInfo[] =
 
 static const struct MenuAction MultichoiceList_ContestInfo[] =
 {
-    {COMPOUND_STRING("华丽大赛是什么?")},
+    {COMPOUND_STRING("华丽大赛是什么？")},
     {COMPOUND_STRING("华丽大赛的类型")},
     {COMPOUND_STRING("级别")},
     {gText_Cancel2},
@@ -642,16 +642,16 @@ static const struct MenuAction MultichoiceList_BattleTowerRules[] =
 {
     {COMPOUND_STRING("对战塔信息")},
     {COMPOUND_STRING("对战宝可梦")},
-    {COMPOUND_STRING("对战塔")},
+    {COMPOUND_STRING("对战沙龙")},
     {COMPOUND_STRING("多人连线")},
     {gText_Exit},
 };
 
 static const struct MenuAction MultichoiceList_BattleDomeRules[] =
 {
-    {COMPOUND_STRING("匹配对手")},
+    {COMPOUND_STRING("匹配规则")},
     {COMPOUND_STRING("比赛进程表")},
-    {COMPOUND_STRING("同时被击倒")},
+    {COMPOUND_STRING("同时倒下")},
     {gText_Exit},
 };
 
@@ -728,10 +728,10 @@ static const struct MenuAction MultichoiceList_TVLati[] =
 
 static const struct MenuAction MultichoiceList_BattleTowerFeelings[] =
 {
-    {COMPOUND_STRING("我现在要对战了!")},
-    {COMPOUND_STRING("赢了!")},
-    {COMPOUND_STRING("输了!")},
-    {COMPOUND_STRING("我不想说。")},
+    {COMPOUND_STRING("准备对战了！")},
+    {COMPOUND_STRING("赢了！")},
+    {COMPOUND_STRING("输了！")},
+    {COMPOUND_STRING("不想说。")},
 };
 
 static const struct MenuAction MultichoiceList_WheresRayquaza[] =

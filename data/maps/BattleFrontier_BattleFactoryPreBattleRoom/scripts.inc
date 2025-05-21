@@ -458,7 +458,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection:
     .string "我们将先暂时保管\n您的宝可梦。\p您可以稍后从我们提供的\n宝可梦中进行选择。$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons:
-    .string "感谢您的精彩对战！\n让我们帮您的宝可梦进行回复！$"
+    .string "辛苦了！\n我来帮您的宝可梦回复体力！$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent:
     .string "接下来是第2场比赛！\n准备好了吗？$"
@@ -479,10 +479,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor7thOpponent:
     .string "接下来是第7场比赛！\n准备好了吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame:
-    .string "要写入记录\n并退出游戏吗？$"
+    .string "要写入记录\n并且暂停吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge:
-    .string "要退出交换式对战挑战吗？$"
+    .string "要结束交换式对战的挑战吗？$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
     .string "我对您的下一位对手\n进行了一些调查。$"

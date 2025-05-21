@@ -620,7 +620,7 @@ BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
     .string "真遗憾……\p这是我们为您\n保管的包包。\p{PLAYER}取回了包包。$"
 
 BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge:
-    .string "期待您的再次挑战！$"
+    .string "随时恭候您再次挑战！$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
@@ -705,7 +705,7 @@ BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing:
     .string "欢迎回来！\n您完成了不可思议的壮举！\p您打败了金字塔法老，\n并征服了对战金字塔！$"
 
 BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints:
-    .string "年轻的探险家啊！\n为了表彰您的勇气，\l我们授予您这些对战点数！$"
+    .string "年轻的探险家啊！\n为了表彰您的勇气，\l我们将向您呈上对战点数！$"
 
 BattleFrontier_BattlePyramidLobby_Text_RulesAreListed:
     .string "上面列出了探索式对战的规则。$"
@@ -720,7 +720,7 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules:
     .string "在金字塔内会有训练家\n等着向您挑战。\p每层最多会有\n8个训练家。\p您每打败1个训练家，就会\n得到1条对探索有用的提示。$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
-    .string "每次进入金字塔后迷宫\n都会重新组合，\p迷宫里很暗，\n必须小心探索。\p每打败1个训练家或1只野生\n宝可梦，里面都会稍微变亮一些。$"
+    .string "每次进入金字塔后迷宫\n都会重新组合，\p迷宫里很暗，\n必须小心探索。\p每打败1个训练家或是1只野生宝可梦\n，里面都会稍微变亮一些。$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
     .string "在金字塔中，您可以像使用\n您的包包一样使用战斗包包。\p有2种不同的战斗包包——\n分别是为Lv. 50级和\l自由等级的冒险而准备的。\p2种包包都可以携带10种道具，\n每种道具99个。\p如果在探索中失败的话，\n战斗包包里的东西都会丢失。$"

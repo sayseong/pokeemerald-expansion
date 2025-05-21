@@ -273,7 +273,7 @@ LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
     .string "{PLAYER}从亚莎那里\n得到了烈焰徽章。$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
-    .string "有了烈焰徽章，\n所有50级以下的宝可梦，\l即使是从别人那儿交换得来的\l也会完全听你的。\p另外，宝可梦也能在对战外\n使用秘传招式怪力了。\p这是我的小小谢礼，\n请别客气,收下吧！$"
+    .string "有了烈焰徽章，\n所有50级以下的宝可梦，\l即使是从别人那儿交换得来的\l也会完全听你的。\p另外，宝可梦也能在对战外\n使用秘传招式怪力了。\p这是我的小小谢礼，\n请别客气，收下吧！$"
 
 LavaridgeTown_Gym_1F_Text_ExplainOverheat:
     .string "那个招式学习器50里\n装着的是过热，\p能对对手造成\n巨大的伤害。\p但同时，使用它的宝可梦\n特攻会急剧下降。\l这个招式不太适合持久战。$"

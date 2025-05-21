@@ -288,10 +288,10 @@ BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge:
     .string "您要继续\n您的挑战吗？$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SaveChallengeAndQuit:
-    .string "要写入记录\n并退出游戏吗？$"
+    .string "要写入记录\n并且暂停吗？$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge:
-    .string "要退出选择式对战挑战吗？$"
+    .string "要结束选择式对战的挑战吗？$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume:
     .string "我们已经恭候多时……\p在继续您的选择式对战\n挑战前，请让我先写入记录……$"
@@ -303,13 +303,13 @@ BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData:
     .string "正在写入记录……\n请稍等……$"
 
 BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack:
-    .string "道路被阻断了！\n并且没有退路了……$"
+    .string "道路被阻断了！\n没有退路了……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose:
-    .string "请原谅，但……\p您是否觉得选择\n道路很困难？$"
+    .string "冒昧打扰，但……\p您是否觉得有些难以\n选择道路？$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence:
-    .string "知道了……\n我对我的唐突表示道歉……$"
+    .string "原来如此……\n抱歉失礼了……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath:
     .string "哦，让我看看……有一些关于\n右边道路的事……$"

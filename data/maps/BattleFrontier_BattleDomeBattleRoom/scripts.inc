@@ -930,13 +930,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome:
     .string "{PLAYER}进入了对战巨蛋！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer:
-    .string "{STR_VAR_1}\n比赛\p{PLAYER} VS {STR_VAR_2}！\p比赛开始！$"
+    .string "{STR_VAR_1}！\p{PLAYER} VS {STR_VAR_2}！\p比赛开始！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsWinner:
-    .string "{PLAYER}获胜！\n恭喜恭喜！$"
+    .string "{PLAYER}获胜！\n恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner:
-    .string "{STR_VAR_2}获胜！\n恭喜恭喜！$"
+    .string "{STR_VAR_2}获胜！\n恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ:
     .string "{PLAYER}是Lv. 50级\n对战锦标赛的冠军！\p恭喜！$"
@@ -948,10 +948,10 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
     .string "真是让人意外的结果！\n两方宝可梦同时倒地！\p按照比赛规则，出现这种情况时\n我们需要请裁判员进行评判。\p请耐心等待\n最终结果。$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
-    .string "裁判做出了\n最后的决定！\p胜利者是……\n天啊！\l胜利者是{STR_VAR_1}！\l祝贺{STR_VAR_1}！$"
+    .string "裁判做出了\n最终判决！\p冠军是……\n天啊！\l冠军是{STR_VAR_1}！\l祝贺{STR_VAR_1}！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer:
-    .string "裁判做出了\n最后的决定！\p胜利者是……\n天啊！\l胜利者是{PLAYER}！\l祝贺{PLAYER}！$"
+    .string "裁判做出了\n最终判决！\p冠军是……\n天啊！\l冠军是{PLAYER}！\l祝贺{PLAYER}！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_BrightNewHope:
     .string "新的希望来了！\p$"
@@ -1064,4 +1064,4 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
     .string "现在进行决赛！\p{PLAYER}对巨蛋超级巨星，石南！\p比赛开始！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
-    .string "裁判做出了\n最后的决定！\p胜利者是……\n天啊！\l胜利者是我们的巨蛋超级巨星——\l石南！\p恭喜你！还有，谢谢！\n我们的巨蛋超级巨星，石南！$"
+    .string "裁判做出了\n最后的决定！\p冠军是……\n天啊！\l冠军是我们的巨蛋超级巨星——\l石南！\p恭喜你！还有，谢谢！\n我们的巨蛋超级巨星，石南！$"

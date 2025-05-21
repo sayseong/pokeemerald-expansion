@@ -297,7 +297,7 @@ BattleFrontier_Lounge3_Text_HelloChampHeresYourPoints::
     .string "啊，太棒了！\n我在这儿！\p我就知道你可以的！\n我就知道你会成功！\l今天我们两个是大赢家！\p你的对战点数还给你，\n还有，这是额外的奖品！$"
 
 BattleFrontier_Lounge3_Text_ObtainedBattlePoints::
-    .string "{PLAYER}得到\n{STR_VAR_1}对战点数。$"
+    .string "{PLAYER}获得了\n{STR_VAR_1}BP的对战点数。$"
 
 BattleFrontier_Lounge3_Text_ThinkOfMeForAnotherChallenge::
     .string "你还准备挑战什么的话\n别忘了叫上我！$"

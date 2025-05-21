@@ -513,7 +513,7 @@ MauvilleCity_Text_RegisteredWally:
     .string "把满充\n登记到宝可导航里了。$"
 
 MauvilleCity_Text_ScottYouDidntHoldBack:
-    .string "亚希达：嘿嘿……\n刚才的对战我都看到了！\p那个叫满充的男孩\n是你的朋友吧？\p即便如此你还是全力以赴\n漂亮地取胜了!\p没错！这才是\n真正的宝可梦对战！\p我所欣赏的就是这样的训练家！\p…… …… ……\n我会继续为你加油的！$"
+    .string "亚希达：嘿嘿……\n刚才的对战我都看到了！\p那个叫满充的男孩\n是你的朋友吧？\p即便如此你还是全力以赴\n漂亮地取胜了！\p没错！这才是\n真正的宝可梦对战！\p我所欣赏的就是这样的训练家！\p…… …… ……\n我会继续为你加油的！$"
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
     .string "铁旋：嗨，{PLAYER}{KUN}！\n你看起来挺精神嘛！\l不错，不错，啊哈哈哈哈！\p好！我决定了！\n{PLAYER}{KUN}，我需要帮助！\p紫堇市这里有一个\n叫做新紫堇的地下区域。\p{PLAYER}{KUN}，希望你能\n去那里关掉发电器。\p最近发电器的运转有些失控，\n现在那里不是很安全。\p给，这是\n进入新紫堇的钥匙。$"

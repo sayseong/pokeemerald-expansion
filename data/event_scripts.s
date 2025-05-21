@@ -1012,7 +1012,7 @@ gText_SorryTradeCenterInspections::
 
 @ Unused
 gText_SorryRecordCornerPreparation::
-	.string "非常抱歉。联机中心\n"
+	.string "非常抱歉。联机俱乐部\n"
 	.string "正在筹备中。$"
 
 gText_PlayerHandedOverTheItem::

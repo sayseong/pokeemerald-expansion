@@ -260,7 +260,7 @@ MatchCall_PersonalizedText16::
     .string "在下是{STR_VAR_1}！听着，我一直在传授空手道\n给我的宝可梦。\p它们现在已经比我厉害了！\n我一直在输给它们！\p但就算输给了宝可梦，\n我也绝不会输给训练家的！\p我们再战一场吧！\n呜哇！$"
 
 MatchCall_PersonalizedText17::
-    .string "是我，{STR_VAR_1}。\n旅行还顺利吗？\p……哇，真的？\n听起来超刺激啊！\p我想我都能把你\n的故事写成歌了。\p……哦，灵感来了。\n我的脑海里已经有旋律了。\p我得赶紧把曲子记下来,\n嗯，得走了！下次见！$"
+    .string "是我，{STR_VAR_1}。\n旅行还顺利吗？\p……哇，真的？\n听起来超刺激啊！\p我想我都能把你\n的故事写成歌了。\p……哦，灵感来了。\n我的脑海里已经有旋律了。\p我得赶紧把曲子记下来，\n嗯，得走了！下次见！$"
 
 MatchCall_PersonalizedText18::
     .string "我是{STR_VAR_1}……\n听听我的新歌吧。\p啦啦啦，{STR_VAR_2}，{STR_VAR_2}！\n为什么你是{STR_VAR_2}？\l为什么我不能成为你，{STR_VAR_2}？\l啦啦，{STR_VAR_2}和{STR_VAR_1}，\l{STR_VAR_1}和{STR_VAR_2}……\p重复副歌，淡出……$"
@@ -677,7 +677,7 @@ MatchCall_Text_Winona2::
     .string "娜琪：你做到了，{PLAYER}！\p关于你成为新冠军的消息\n已经传到了茵郁市！\p不过……下一次你我再战，\n结果一定会有所不同。$"
 
 MatchCall_Text_Winona3::
-    .string "娜琪：是{PLAYER}吗？\n我们的道馆重新开放了！\p我们在茵郁市等你！$"
+    .string "娜琪：是{PLAYER}吗？\n我们的道馆重新开张了！\p我们在茵郁市等你！$"
 
 MatchCall_Text_Winona4::
     .string "娜琪：{PLAYER}……\n虽然我输了，\l但我的羽翼永远不会折断。\p对，就像你从未放弃追逐\n你的梦想一样。$"

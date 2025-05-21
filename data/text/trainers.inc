@@ -402,7 +402,7 @@ Route106_Text_NedIntro::
     .string "当人们想去厕所的\n时候该怎么办？\p如果我在厕所时鱼竿钓到了大鱼\n该怎么办？我根本去不了……$"
 
 Route106_Text_NedDefeated::
-    .string "我输了,因为我在努力忍着\n不去厕所……$"
+    .string "我输了，因为我在努力忍着\n不去厕所……$"
 
 Route106_Text_NedPostBattle::
     .string "哦，不！我有种感觉，\n我会钓到一条大鱼！$"

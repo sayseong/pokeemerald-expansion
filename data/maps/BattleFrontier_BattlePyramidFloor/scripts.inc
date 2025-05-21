@@ -129,7 +129,7 @@ BattleFacility_TrainerBattle_PlaceholderText::
     .string "测试信息。$"
 
 gText_BattlePyramidConfirmRest::
-    .string "要暂停对战金字塔的探索\n需要先写入记录,\l可以吗？$"
+    .string "要暂停对战金字塔的探索\n需要先写入记录，\l可以吗？$"
 
 gText_BattlePyramidConfirmRetire::
     .string "您确定要退出\n金字塔的探索吗？$"

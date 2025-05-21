@@ -1410,15 +1410,15 @@ LilycoveCity_ContestLobby_Text_ExplainContests:
 	.string "4位参赛选手拿出1只\n"
 	.string "宝可梦进行评比。\p"
 	.string "华丽大赛分为\n"
-	.string "第一场和第二场展示。\p"
-	.string "第一场评判是\n"
-	.string "由观众的喜爱程度决定的。\p"
-	.string "第二场评判的成绩是取决于\n"
-	.string "宝可梦的动作的。\p"
-	.string "您就应该计划好\n"
-	.string "您的宝可梦的动作\l"
+	.string "第1次和第2次评审。\p"
+	.string "第1次评审是通过观众人气\n"
+	.string "投票进行评选的。\p"
+	.string "第2次评审是宝可梦通过\n"
+	.string "招式展示进行表演。\p"
+	.string "您就应该精心选择\n"
+	.string "您的宝可梦的招式\l"
 	.string "以获得更高的评价。\l"
-	.string "第一场和第二场的成绩最后\n"
+	.string "第1次和第2次的成绩最后\n"
 	.string "加起来成为总成绩。\p"
 	.string "总成绩最高的宝可梦\n"
 	.string "就是比赛的优胜者。$"
@@ -1786,11 +1786,11 @@ ContestHall_Text_LetVotingBegin:
 
 ContestHall_Text_VotingComplete:
 	.string "投票结束了！\p"
-	.string "让我们开始中级评判吧！$"
+	.string "让我们开始中级评审吧！$"
 
 ContestHall_Text_SecondStageOfJudging:
 	.string "接下来开始的就是\n"
-	.string "大家期待已久的中级评判了！\p"
+	.string "大家期待已久的中级评审了！\p"
 	.string "那些另人眼花缭乱的\n"
 	.string "动作总是震惊着我们！$"
 

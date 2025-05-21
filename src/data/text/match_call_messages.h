@@ -94,7 +94,7 @@ const u8 gText_MatchCallGuitarist_Fernando_Intro1[] = _("我的作品");
 const u8 gText_MatchCallGuitarist_Fernando_Intro2[] = _("会让你震撼！");
 
 const u8 gText_MatchCallGuitarist_Dalton_Strategy[] = _("让我电电你吧！");
-const u8 gText_MatchCallGuitarist_Dalton_Pokemon[] = _("它们是电属性的!");
+const u8 gText_MatchCallGuitarist_Dalton_Pokemon[] = _("它们是电属性的！");
 const u8 gText_MatchCallGuitarist_Dalton_Intro1[] = _("我想用发自内心的歌声");
 const u8 gText_MatchCallGuitarist_Dalton_Intro2[] = _("让人们感动落泪。");
 

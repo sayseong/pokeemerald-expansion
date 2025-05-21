@@ -332,7 +332,7 @@ BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge:
     .string "要挑战交换式对战\n单打锦标赛吗？$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge:
-    .string "交换式对战单打锦标赛\n是一种只能使用租借的宝可梦\l进行单打对战的比赛。\p首先，您将获得3只专门为本次比赛\n提供的租借宝可梦。\p您需要用这些提供的租借宝可梦，\n进行一场单打对战。\p如果获胜，您可以将其中1只\n租借宝可梦交换掉。\p如此反复进行对战与交换——\n如果您能连续获胜7次，\l您会被授予对战点数。\p如果您要暂停挑战，\n请先写入记录。\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
+    .string "交换式对战单打锦标赛\n是一种只能使用租借的宝可梦\l进行单打对战的比赛。\p首先，您将获得3只专门为本次比赛\n提供的租借宝可梦。\p您需要用这些提供的租借宝可梦，\n进行一场单打对战。\p如果获胜，您可以将其中1只\n租借宝可梦交换掉。\p如此反复进行对战与交换——\n如果您能连续获胜7次，\l我们将向您呈上对战点数。\p如果您要暂停挑战，\n请先写入记录。\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattleFactoryLobby_Text_LookForwardToNextVisit:
     .string "我们期待您的再次光临。$"
@@ -351,7 +351,7 @@ BattleFrontier_BattleFactoryLobby_Text_StepThisWay:
     .string "这边请。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ReturnMonsSaveResults:
-    .string "感谢您的参与！\p我将把您的宝可梦还给您\n并换回租借宝可梦。\p并且需要写入对战记录。\n请稍等。$"
+    .string "辛苦了！\p我将把您的宝可梦还给您\n并换回租借宝可梦。\p并且需要写入对战记录。\n请稍等。$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_ReturnMons:
@@ -362,7 +362,7 @@ BattleFrontier_BattleFactoryLobby_Text_CongratsSevenWins:
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePointsForStreak:
-    .string "作为7连胜的奖励，\n特此授予对战点数。$"
+    .string "作为7连胜的奖励，\n我们将向您呈上对战点数。$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_MaxBattlePoints:
@@ -389,19 +389,19 @@ BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge:
     .string "要挑战交换式对战\n双打锦标赛吗？$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
-    .string "交换式对战双打锦标赛\n是一种只能使用租借的宝可梦\l进行双打对战的比赛。\p首先，您将获得3只专门为本次比赛\n提供的租借宝可梦。\p您需要用这些提供的租借宝可梦，\n进行一场双打对战。\p如果获胜，您可以将其中1只\n租借宝可梦交换掉。\p如此反复进行对战与交换——\n如果您能连续获胜7次，\l您会被授予对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
+    .string "交换式对战双打锦标赛\n是一种只能使用租借的宝可梦\l进行双打对战的比赛。\p首先，您将获得3只专门为本次比赛\n提供的租借宝可梦。\p您需要用这些提供的租借宝可梦，\n进行一场双打对战。\p如果获胜，您可以将其中1只\n租借宝可梦交换掉。\p如此反复进行对战与交换——\n如果您能连续获胜7次，\l我们将向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead:
     .string "恭喜您击败了\n工厂头目并\l连续赢得了7场比赛！$"
 
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints:
-    .string "为了对您拥有的知识财富\n及非凡的智慧表示认可，\l我们授予您这些对战点数。$"
+    .string "为了表彰您拥有的知识财富\n以及非凡的智慧，\l我们将向您呈上对战点数。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
     .string "我将把您的宝可梦还给您\n并换回租借宝可梦。\p我需要先写入对战记录，\n请稍等。$"
 
 BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch:
-    .string "您要把您上次的\n对战工厂比赛记录到您的\l开拓通行证吗？$"
+    .string "要将您在对战工厂的最后一场比赛\n记录到开拓通行证上吗？$"
 
 BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
     .string "喂！\n那边的，你！\p你在想既然不必去\n培育一组宝可梦\l那么对战就会很容易是吗？\p我认为要赢并不是那么\n简单的。\p如果你不具备对宝可梦及\n他们的招式的透彻的知识的话，\l想要赢是很难的。$"

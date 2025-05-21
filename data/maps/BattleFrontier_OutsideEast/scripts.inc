@@ -234,22 +234,22 @@ BattleFrontier_OutsideEast_EventScript_Camper::
 	end
 
 BattleFrontier_OutsideEast_Text_BattleTowerSign:
-    .string "这里是对战塔！\n保持您的不败纪录，\l成为最强的训练家吧！$"
+    .string "这里是对战塔！\n不断连胜！最强训练家！$"
 
 BattleFrontier_OutsideEast_Text_BattlePalaceSign:
-    .string "这里是对战宫殿！\n关注您的宝可梦的对战吧！$"
+    .string "这里是对战宫殿！\n好好注视！宝可梦对战！$"
 
 BattleFrontier_OutsideEast_Text_BattleArenaSign:
-    .string "这里是对战竞技场！\n最强的队伍在这里集结！$"
+    .string "这里是对战竞技场！\n聚集吧！最强队伍！$"
 
 BattleFrontier_OutsideEast_Text_BattlePyramidSign:
-    .string "这里是对战金字塔！\n升华您的对战之道！$"
+    .string "这里是对战金字塔！\n前进吧！探索式对战！$"
 
 BattleFrontier_OutsideEast_Text_RankingHallSign:
     .string "对战开拓区排名大厅\n关注最新的纪录！$"
 
 BattleFrontier_OutsideEast_Text_ExchangeCornerSign:
-    .string "对战点数兑换服务区\n兑换对战点数！$"
+    .string "对战点数兑换服务区\n兑换你的对战点数！$"
 
 BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
     .string "哇！\n好大！\p对战塔看起来很特别，\n和别的建筑都不同。$"

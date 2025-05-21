@@ -340,10 +340,10 @@ VerdanturfTown_BattleTentLobby_Text_AttractionMutual:
     .string "我对宝可梦感到……\n我想这吸引力一定是相互的！\p它们对战时完全按照\n我想的那样做！$"
 
 VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves:
-    .string "你给你的宝可梦\n教了些什么招式？\p我想如果它们自己\n会疗伤的话，\l你会很轻松的。$"
+    .string "你给你的宝可梦\n教了些什么招式？\p我想如果它们会回复或者\n保护自己的话，\l会让你在战斗中更有优势。$"
 
 VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
-    .string "亚希达：嗨，{PLAYER}{KUN}！\n我就知道能在这儿遇到你，\p因为，无论规则如何，\n无论战斗怎样，\p你总能在对战帐篷里\n碰见强大的训练家。\p{PLAYER}{KUN}，\n我希望你能全力以赴！$"
+    .string "亚希达：嗨，{PLAYER}{KUN}！\n我就知道能在这儿遇到你，\p因为，无论规则如何，\n无论战斗怎样，\p你总能在对战帐篷中\n碰见强大的训练家。\p{PLAYER}{KUN}，\n我希望你能全力以赴！$"
 
 VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
     .string "亚希达：我经常来这儿，\n为了能观摩强大的训练家\l在不同的处境下如何战斗。$"

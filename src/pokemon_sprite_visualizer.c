@@ -452,10 +452,10 @@ static void PrintInstructionsOnWindow(struct PokemonSpriteVisualizer *data)
 #endif
 
 
-    u8 textBottom[] = _("背面:\n正面:\n背景:$");
-    u8 textBottomForms[] = _("背面:\n正面:\n背景:\n形态:$");
-    u8 textBottomSubmenuTwo[] = _("背面坐标:\n正面坐标:\n正面高度:");
-    u8 textBottomSubmenuThree[] = _("横坐标:\n纵坐标:\n大小:");
+    u8 textBottom[] = _("背面：\n正面：\n背景：$");
+    u8 textBottomForms[] = _("背面：\n正面：\n背景：\n形态：$");
+    u8 textBottomSubmenuTwo[] = _("背面坐标：\n正面坐标：\n正面高度：");
+    u8 textBottomSubmenuThree[] = _("横坐标：\n纵坐标：\n大小：");
     u16 species = data->modifyArrows.currValue;
 
     u8 textL[] = _("{L_BUTTON}");
@@ -1097,8 +1097,8 @@ static void UpdateYPosOffsetText(struct PokemonSpriteVisualizer *data)
 {
     u8 text[34];
     u8 fontId = 0;
-    u8 textConst[] = _("原数值:");
-    u8 textNew[] = _("新数值:");
+    u8 textConst[] = _("原数值：");
+    u8 textNew[] = _("新数值：");
     u8 x_const_val = 50;
     u8 x_new_text = 70;
     u8 x_new_val = 110;
@@ -1158,8 +1158,8 @@ static void UpdateShadowSettingsText(struct PokemonSpriteVisualizer *data)
 
     u8 text[16];
     u8 fontId = 0;
-    u8 textConst[] = _("原数值:");
-    u8 textNew[] = _("新数值:");
+    u8 textConst[] = _("原数值：");
+    u8 textNew[] = _("新数值：");
     u8 x_const_val = 50;
     u8 x_new_text = 70;
     u8 x_new_val = 110;

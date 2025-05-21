@@ -1759,9 +1759,9 @@ static void MoveSelectionDisplayMoveDescription(u32 battler)
     u16 acc = GetMoveAccuracy(move);
 
     u8 pwr_num[3], acc_num[3];
-    u8 cat_desc[] = _("分类: ");
-    u8 pwr_desc[] = _("威力: ");
-    u8 acc_desc[] = _("命中: ");
+    u8 cat_desc[] = _("分类：");
+    u8 pwr_desc[] = _("威力：");
+    u8 acc_desc[] = _("命中：");
     u8 cat_start[] = _("{CLEAR_TO 0x00}");
     u8 pwr_start[] = _("{CLEAR_TO 0x30}");
     u8 acc_start[] = _("{CLEAR_TO 0x62}");
@@ -2048,7 +2048,7 @@ static void PlayerHandleChooseAction(u32 battler)
 
     if (B_SHOW_PARTNER_TARGET && gBattleTypeFlags & BATTLE_TYPE_INGAME_PARTNER && IsBattlerAlive(B_POSITION_PLAYER_RIGHT))
     {
-        StringCopy(gStringVar1, COMPOUND_STRING("Partner will use:\n"));
+        StringCopy(gStringVar1, COMPOUND_STRING("我方同伴将使用：\n"));
         u32 move = gBattleMons[B_POSITION_PLAYER_RIGHT].moves[gBattleStruct->chosenMovePositions[B_POSITION_PLAYER_RIGHT]];
         StringAppend(gStringVar1, GetMoveName(move));
         u32 moveTarget = GetBattlerMoveTargetType(B_POSITION_PLAYER_RIGHT, move);

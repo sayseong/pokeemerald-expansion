@@ -448,7 +448,7 @@ BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter:
 	step_end
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons:
-    .string "太精彩了……\n让我为您的宝可梦进行回复。$"
+    .string "太精彩了……\n让我帮您的宝可梦回复体力。$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent:
     .string "下面是第2个对手，\n准备好了吗？$"
@@ -469,7 +469,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor7thOpponent:
     .string "下面是第7个对手，\n准备好了吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame:
-    .string "要写入记录\n并退出游戏吗？$"
+    .string "要写入记录\n并且暂停吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge:
     .string "要退出挑战吗？$"
@@ -478,7 +478,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
     .string "正在写入记录，\n请耐心等候……$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
-    .string "要把最近的比赛记录在\n开拓通行证上吗？$"
+    .string "要将您的最后一场对战\n记录到开拓通行证上吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
     .string "现在……\p由于您连胜的战绩，\n您获得了挑战大师——\n宫殿守护者的资格……$"

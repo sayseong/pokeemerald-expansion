@@ -362,10 +362,10 @@ BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
     .string "要挑战对战竞技场吗？$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
-    .string "期待您的再次挑战！$"
+    .string "随时恭候您再次挑战！$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
-    .string "在对战竞技场中，\n我们将举办三回合定胜负锦标赛。\p所有的参赛者用3只宝可梦\n组成的队伍参加比赛。\p这3只宝可梦需要按照\n想要出场的顺序排列好。\p对战时，宝可梦会按照事先\n安排好的顺序依次出场。\p一旦宝可梦进入到战斗，\n就需要持续战斗至比赛结束。\p如果比赛在3回合内未能决出胜负，\n将由裁判进行判定。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。\p如果您能成功击败7个训练家的话，\n我们会授予您对战点数。$"
+    .string "在对战竞技场中，\n我们将举办三回合定胜负锦标赛。\p所有的参赛者用3只宝可梦\n组成的队伍参加比赛。\p这3只宝可梦需要按照\n想要出场的顺序排列好。\p对战时，宝可梦会按照事先\n安排好的顺序依次出场。\p一旦宝可梦进入到战斗，\n就需要持续战斗至比赛结束。\p如果比赛在3回合内未能决出胜负，\n将由裁判进行判定。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。\p如果您能成功击败7个训练家的话，\n我们将向您呈上对战点数。$"
 
 BattleFrontier_BattleArenaLobby_Text_OkayToSave:
     .string "在带您进入对战竞技场之前\n需要先写入记录。可以吗？$"
@@ -392,11 +392,11 @@ BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
     .string "祝贺您完成7连胜壮举！$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
-    .string "您的成绩将被写入记录。\n在写入记录时请稍等。$"
+    .string "您的成绩将被写入记录。\n正在写入记录……请稍等。$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
-    .string "作为7连胜的奖励，\n我们将这个奖品授予您。$"
+    .string "作为7连胜的奖励，\n我们将向您呈上奖品。$"
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:
@@ -407,16 +407,16 @@ BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize:
     .string "哎？\n您的包包满了。\p整理空间后\n再来拿您的奖品。$"
 
 BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave:
-    .string "非常感谢您的参与！\p在写入记录时请稍等。$"
+    .string "辛苦了！\p正在写入记录……请稍等。$"
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge2:
-    .string "期待您的再次挑战！$"
+    .string "随时恭候您再次挑战！$"
 
 BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
     .string "我们一直恭候您的到来。\p在带您去战斗大厅之前，\n我需要先写入记录，\l请稍候。$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
-    .string "要将您上次的对战竞技场的对战\n记录在您的开拓通行证上吗？$"
+    .string "要将您在对战竞技场的最后一场比赛\n记录到开拓通行证上吗？$"
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
     .string "我被裁判判负了……\p看来只防守而不进攻是\n行不通的……$"
@@ -443,10 +443,10 @@ BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
     .string "第1个判定准则是“心”。\n这个因素评价战斗者的\l进攻意识。\p判定依据的是训练家下达\n攻击招式的命令的频率。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
-    .string "第2个判定准则是“技”。\n这个因素评价宝可梦的\l招式命中。\p如果一次招式成功了，\n技的评价就会上升。\p如果一次招式失败了，\n技的评价就会下降。\p对于攻击招式，\n如果招式“效果绝佳”的话，\l技的评价就会上升。\l如果“没有效果”的话，\l技的评价就会下降。\p对于像保护和看穿的招式，\n技的评价是不会上升的。\p如果对手采取了保护或是看穿\n的招式，并且您的宝可梦没能\l成功命中，技的评价也不会下降。$"
+    .string "第2个判定准则是“技”。\n这个因素评价宝可梦的\l招式命中。\p如果招式成功生效，\n技的评价就会上升。\p如果招式使用失败，\n技的评价则会下降。\p对于攻击招式，\n如果招式“效果绝佳”的话，\l技的评价就会上升。\l如果“没有效果”的话，\l技的评价就会下降。\p对于像保护和看穿的招式，\n技的评价是不会上升的。\p如果对手使用了保护或看穿等招式，\n即使您的宝可梦没能成功命中，\l技的评价也不会下降。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
-    .string "第3个判定准则是“体”。\n这个因素评价宝可梦在\l战斗结束后的剩余体力比例。\p这个准则会同时参考宝可梦\n战斗开始时的体力和\l战斗结束后剩余的体力。$"
+    .string "第3个判定准则是“体”。\n这个因素评价宝可梦在战斗结束后\l剩余的体力比例。\p这个准则会同时参考宝可梦\n战斗开始时的体力和\l战斗结束后剩余的体力。$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
     .string "从竞技场主将手里得到了胜利，\n并且完成了7连胜壮举！\p我们为您的卓越的\n挑战献上祝贺！$"

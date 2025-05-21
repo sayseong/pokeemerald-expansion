@@ -308,13 +308,13 @@ BattleFrontier_OutsideWest_EventScript_PokefanF::
 	end
 
 BattleFrontier_OutsideWest_Text_BattleDomeSign:
-    .string "这里是对战巨蛋！\n通往超级明星的大路！$"
+    .string "这里是对战巨蛋！\n决定目标！无敌的超级巨星！$"
 
 BattleFrontier_OutsideWest_Text_BattleFactorySign:
-    .string "这里是对战工厂！\n寻找最强的宝可梦吧！$"
+    .string "这里是对战工厂！\n寻找！最强宝可梦！$"
 
 BattleFrontier_OutsideWest_Text_BattlePikeSign:
-    .string "这里是对战管道！\n在三条路中选一条吧！$"
+    .string "这里是对战管道！\n选择！三条道路！$"
 
 BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
     .string "这里是对战塔，\p训练家将他们最优秀的\n宝可梦带来进行淘汰赛。$"
@@ -395,7 +395,7 @@ BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo:
     .string "就在不久之前，这里\n还是一片荒原。\p但现在看看这里吧！简直是奇迹！\n我要带妈妈来看看。$"
 
 BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier:
-    .string "终于到达\n对战开拓区了！\p靠我的美貌和才能，\n肯定很快会成为焦点的！$"
+    .string "终于到达对战开拓区了！\p靠我的美貌和才能，\n肯定很快会成为焦点的！$"
 
 BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople:
     .string "嘎吱嘎吱……\p这广场上好像聚集了\n很多非常强的人啊。\p嘎吱嘎吱……$"

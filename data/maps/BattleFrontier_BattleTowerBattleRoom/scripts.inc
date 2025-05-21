@@ -438,44 +438,44 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge::
 	end
 
 BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth:
-    .string "现在为您的宝可梦\n回复体力。$"
+    .string "我来帮您的宝可梦\n回复体力。$"
 
 @ Unused
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent:
-    .string "下面是第{STR_VAR_1}位对手，\n准备好了吗？$"
+    .string "接下来是第{STR_VAR_1}位对手，\n准备好了吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent:
-    .string "下面是第二位对手，\n准备好了吗？$"
+    .string "接下来是第2位对手，\n准备好了吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor3rdOpponent:
-    .string "下面是第三位对手，\n准备好了吗？$"
+    .string "接下来是第3位对手，\n准备好了吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor4thOpponent:
-    .string "下面是第四位对手，\n准备好了吗？$"
+    .string "接下来是第4位对手，\n准备好了吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor5thOpponent:
-    .string "下面是第五位对手，\n准备好了吗？$"
+    .string "接下来是第5位对手，\n准备好了吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor6thOpponent:
-    .string "下面是第六位对手，\n准备好了吗？$"
+    .string "接下来是第6位对手，\n准备好了吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent:
-    .string "下面是第七位对手，\n准备好了吗？$"
+    .string "接下来是第7位对手，\n准备好了吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle:
-    .string "要在开拓通行证上\n记录下您的成绩吗？$"
+    .string "要将您的对战记录到\n开拓通行证上吗？$"
 
 BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass:
-    .string "{PLAYER}的战绩已经\n记录在了开拓通行证上。$"
+    .string "{PLAYER}的对战已被记录到\n开拓通行证上。$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame:
-    .string "要写入记录并\n退出游戏吗？$"
+    .string "要写入记录\n并且暂停吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
     .string "正在写入记录……\n请稍等。$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
-    .string "要退出对战间的挑战吗？$"
+    .string "要结束对战间的挑战吗？$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
     .string "发生了某些错误，\n记录无法保存。$"

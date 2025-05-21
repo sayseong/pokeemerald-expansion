@@ -647,13 +647,13 @@ BattleFrontier_BattlePikeRoomNormal_Movement_CameraPanDown:
 	step_end
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth:
-    .string "欢迎……\n您的运气值得赞扬……\p我们将为您的宝可梦\n回复体力……$"
+    .string "欢迎……\n您的运气值得赞扬……\p我来帮您的宝可梦回复体力……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge:
     .string "愿您享受接下来的\n选择式对战的挑战……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon:
-    .string "哦，您是个幸运的人。\n我现在心情还不错。\p我会为您的1只宝可梦\n回复体力。$"
+    .string "哦，您是个幸运的人。\n我现在心情还不错。\p我会帮您的1只宝可梦\n回复体力。$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell:
     .string "祝您好运。\n再见。$"
@@ -720,7 +720,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
     .string "一旦受到了惊吓就会\n无视警告胡乱攻击……\p您和您的宝可梦还好吗？$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine:
-    .string "我为所发生的一切表示道歉……\n我希望您的宝可梦没事。$"
+    .string "我为所发生的一切道歉……\n我希望您的宝可梦没事。$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_Silence:
     .string "…… …… ……\n…… …… ……$"
@@ -729,7 +729,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer:
     .string "欢迎……\p在此您将会迎战一名\n颇具实力的训练家……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth:
-    .string "精彩绝伦……\p为表彰您的胜利，您的宝可梦的体力\n将被完全回复……$"
+    .string "精彩绝伦……\p为了表彰您的胜利，\n我将为您的宝可梦回复体力…………$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2:
     .string "愿您享受接下来的\n选择式对战的挑战……$"
@@ -768,10 +768,10 @@ BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal:
     .string "欢迎您……\p咯咯……\n看来您运气不佳……\p如果您没有选择这个房间，\n您的宝可梦本可以得到回复……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne:
-    .string "欢迎您……\p既然您选择了这个房间，\n我会把1只宝可梦的体力完全回复……$"
+    .string "欢迎您……\p既然您选择了这个房间，\n我会帮您的1只宝可梦回复体力……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo:
-    .string "欢迎您……\p既然您选择了这个房间，\n我会把2只宝可梦的体力完全回复……$"
+    .string "欢迎您……\p既然您选择了这个房间，\n我会帮您的2只宝可梦回复体力……$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons:
@@ -781,5 +781,5 @@ BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster:
     .string "我这就去请我们的主人……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons:
-    .string "哦，您是一个幸运的人！\n我现在心情不错。\p我来帮您的2只宝可梦\n完全回复体力！$"
+    .string "哦，您是一个幸运的人！\n我现在心情不错。\p我会帮您的2只宝可梦\n回复体力。$"
 

@@ -384,7 +384,7 @@ BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
     .string "要挑战单打对战厅吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
-    .string "对战宫殿里有几个专门为\n单打对战准备的礼堂，\l我们称之为单打对战厅。\p单打对战与普通比赛的规则一致，\n但需要遵守一条关键规则——\p训练家只能替换宝可梦，\p禁止对宝可梦下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败7个训练家，\l我们将授予您对战点数。\p如果要暂停挑战的话\n需要先写入记录，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
+    .string "对战宫殿里有几个专门为\n单打对战准备的礼堂，\l我们称之为单打对战厅。\p单打对战与普通比赛的规则一致，\n但需要遵守一条关键规则——\p训练家只能替换宝可梦，\p禁止对宝可梦下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败7个训练家，\l我们将向您呈上对战点数。\p如果要暂停挑战的话\n需要先写入记录，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
     .string "当您的心灵与您的宝可梦都变得\n更强的时候，再回到这里来吧。$"
@@ -418,7 +418,7 @@ BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded:
 
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_BattlePointsFor7WinStreak:
-	.string "作为7连胜的奖励，\n特此授予对战点数。$"
+	.string "作为7连胜的奖励，\n我们将向您呈上对战点数。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
     .string "看起来您没有地方\n装我们的礼物了，\p整理好包包再\n回来这里吧。$"
@@ -455,13 +455,13 @@ BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
     .string "要挑战双打对战厅吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
-    .string "对战宫殿里有几个专门为\n双打对战准备的礼堂，\l我们称之为双打对战厅。\p双打对战与普通比赛的规则一致，\n但需要遵守一条关键规则——\p训练家只能替换宝可梦，\p禁止对宝可梦下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败7个训练家，\l我们将授予您对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
+    .string "对战宫殿里有几个专门为\n双打对战准备的礼堂，\l我们称之为双打对战厅。\p双打对战与普通比赛的规则一致，\n但需要遵守一条关键规则——\p训练家只能替换宝可梦，\p禁止对宝可梦下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败7个训练家，\l我们将向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers:
     .string "要连续打败宫殿守护者\n和7个训练家啊……$"
 
 BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
-    .string "为了表彰您和您的宝可梦\n之间密切的关系，我们将\l这些对战点数授予您。$"
+    .string "为了表彰您和宝可梦之间紧密的牵绊，\n我们将向您呈上对战点数。$"
 
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
     .string "您要在您的开拓通行证上\n记录下您在对战宫殿\l最近的对战吗？$"

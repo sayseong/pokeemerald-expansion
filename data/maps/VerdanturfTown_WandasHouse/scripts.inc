@@ -95,7 +95,7 @@ VerdanturfTown_WandasHouse_Text_WallySlippedOff:
     .string "满充不在……\n他一个人溜了出去……$"
 
 VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
-    .string "叔叔：真的吗？\n满充自己一个人\l去了那么远的地方……\p我想我该称赞他一下\n——不愧是我弟弟的儿子。$"
+    .string "叔叔：真的吗？\n满充自己一个人\l去了那么远的地方……\p我想我该称赞他一下——\n不愧是我弟弟的儿子。$"
 
 VerdanturfTown_WandasHouse_Text_MeetWanda:
     .string "满盈：你是？\n哦，我知道了！\p你就是满充常说的\n{PLAYER}。\p我是满充的堂姐，\n很高兴认识你！\p自从满充来这儿以后，\n他变得活泼开朗多了。$"
@@ -104,7 +104,7 @@ VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
     .string "满盈：别担心满充，\n他没事。\p我了解我的堂弟，\n而且还有宝可梦在他的身边。$"
 
 VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay:
-    .string "多亏了你，我可以天天\n跟我的女朋友相聚了。\l开心？那还用说！$"
+    .string "多亏了你，我可以天天\n跟我的女朋友相聚了。\l开心吗？当然！那还用说！$"
 
 VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven:
     .string "我女儿的男友是个\n充满热情和决心的人，\p他为了见我女儿\n每天都不停地挖隧道。\p女儿有些担心，\n所以经常跑到隧道去。$"

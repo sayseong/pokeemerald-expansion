@@ -325,7 +325,7 @@ TrainerHill_Entrance_Text_MovedReceptionHereForSwitch:
     .string "训练家移动的时候，\n就显得有些混乱。\p为避免这种情况，\n我们就把接待处搬到这儿来了。\p很抱歉对您造成了不便。$"
 
 TrainerHill_Entrance_Text_ThankYouForPlaying:
-    .string "感谢你来光顾！$"
+    .string "辛苦了！$"
 
 TrainerHill_Entrance_Text_ExplainTrainerHill:
     .string "我们训练家之丘这里有一种\n叫做限时进攻的活动，\p是计算您从这个\n柜台跑到顶层老板\l那里的用时的游戏。\p最快的成绩会贴在那边的\n时间板上。跟您的\l朋友比试吧。\p一路上的战斗中，\n您既不能获得经验点数，\l也不能获得金钱。$"

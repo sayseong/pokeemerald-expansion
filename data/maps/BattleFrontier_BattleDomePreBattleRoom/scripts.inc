@@ -272,16 +272,16 @@ BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnterDoor:
 	step_end
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound1:
-    .string "下面是您的第一场比赛。\n准备好了吗？$"
+    .string "接下来您将参加第1轮比赛。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound2:
-    .string "接下来是您的第二场比赛。\n准备好了吗？$"
+    .string "接下来您将参加第2轮比赛。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForSemifinals:
-    .string "下一场是半决赛。\n准备好了吗？$"
+    .string "接下来您将参加半决赛。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals:
-    .string "决赛即将开始。\n准备好了吗？$"
+    .string "接下来您将参加决赛。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons:
     .string "请选择2只即将在对战中\n登场的宝可梦。$"
@@ -290,20 +290,20 @@ BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay:
     .string "这边请。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth:
-    .string "感谢您的参与。\p现在将您的宝可梦\n的体力全部回复。$"
+    .string "辛苦了！\p我来帮您的宝可梦\n回复体力。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete:
-    .string "第一场比赛\n已经结束。\p这些是成功晋级的队伍！$"
+    .string "所有的第1轮比赛\n都已结束。\p这些是成功晋级的队伍！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round2Complete:
-    .string "第二场比赛\n已经结束。\p这些是成功晋级的队伍！$"
+    .string "所有的第2轮比赛\n都已结束。\p这些是成功晋级的队伍！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SemifinalsComplete:
-    .string "半决赛比赛\n已经结束。\p这些是成功晋级的队伍！$"
+    .string "所有的半决赛比赛\n都已结束。\p这些是成功晋级的队伍！$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForRound2:
-    .string "恭喜通过第1回合\n比赛。\p接下来是第2回合。\n准备好了吗？$"
+    .string "恭喜通过第1轮\n比赛。\p接下来是第2轮。\n准备好了吗？$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForSemifinals:
@@ -329,16 +329,16 @@ BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInFinals:
     .string "锦标赛进入决赛！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SaveAndQuitGame:
-    .string "要写入记录\n并退出游戏吗？$"
+    .string "要写入记录\n并且暂停吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RetireYourChallenge:
-    .string "要退出对战锦标赛吗？$"
+    .string "要结束对战锦标赛的挑战吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait:
     .string "正在写入记录……\n请稍候。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RecordLastMatch:
-    .string "我能记录您在开拓通行证的\n最后一次比赛吗？$"
+    .string "要将您的最后一场对战\n记录到开拓通行证上吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver:
     .string "恭喜您成功\n进入决赛！\p在决赛中，您将挑战的人是——\n巨蛋超级巨星石南。\p准备好了吗？$"

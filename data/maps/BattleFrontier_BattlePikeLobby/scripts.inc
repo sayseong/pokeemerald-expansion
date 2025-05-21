@@ -278,7 +278,7 @@ BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
     .string "要挑战对战管道吗？$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
-    .string "这里举办名为\n选择式对战的比赛。\p选择式对战的规则\n很简单……\p在3条道路中选择一条\n抵达对战管道最后的终点房间。\l仅此而已。\p然而，在选择的道路上会\n发生什么事完全取决于\l挑战者的运气……\p如果您达到了终点，\n您会被授予对战点数。\p如果您在挑战中想要暂停的话，\n请与途中大房间中的工作人员沟通。\p如果在暂停之前没有写入记录，\n我们将视挑战为无效。$"
+    .string "这里举办名为\n选择式对战的比赛。\p选择式对战的规则\n很简单……\p在3条道路中选择一条\n抵达对战管道最后的终点房间。\l仅此而已。\p然而，在选择的道路上会\n发生什么事完全取决于\l挑战者的运气……\p如果您达到了终点，\n我们将向您呈上对战点数。\p如果您在挑战中想要暂停的话，\n请与途中大房间中的工作人员沟通。\p如果在暂停之前没有写入记录，\n我们将视挑战为无效。$"
 
 BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou:
     .string "期待您再次光临……$"
@@ -287,10 +287,10 @@ BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode:
     .string "您有2个选择，\nLv. 50级和自由等级。\l要挑战哪个？$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
-    .string "请原谅，但……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧……$"
+    .string "冒昧打扰，但……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧……$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "请原谅，但……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧……$"
+    .string "冒昧打扰，但……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧……$"
 
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
     .string "请选择3只要参加\n挑战的宝可梦……$"
@@ -312,23 +312,23 @@ BattleFrontier_BattlePikeLobby_Text_ShallRecordResults:
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
-    .string "为庆祝您完成\n对战管道的挑战，我们\l授予您这些对战点数……$"
+    .string "为祝贺您完成对战管道的挑战，\n我们将向您呈上对战点数……$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:
     .string "看起来您的对战点数\n已经达到上限……\p请用对战点数\n兑换奖品后再回来……$"
 
 BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting:
-    .string "请原谅，但……\p您在上次结束时\n没有成功写入记录。\p真抱歉……没有写入记录的\n挑战我们将视其为无效。$"
+    .string "冒昧打扰，但……\p您在上次结束时\n没有成功写入记录。\p真抱歉……没有写入记录的\n挑战我们将视其为无效。$"
 
 BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
     .string "恭喜……\p您从管道皇后那获取了胜利\n并完成了挑战……$"
 
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints:
-    .string "为了对您非凡的运气表示认可，\n我们授予您这些对战点数……$"
+    .string "为了表彰您非凡的运气，\n我们将向您呈上对战点数……$"
 
 BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal:
-    .string "啊！功亏一篑！\n我离终点只差一个房间了！\p在这里，你最好要留意毒，冰冻\n之类的异常状态。$"
+    .string "啊！功亏一篑！\n我离终点只差一个房间了！\p在这里，你最好留意中毒、冰冻等等\n之类的异常状态。$"
 
 BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer:
     .string "我已经完成了10次挑战，\n但我没有和任何一个\l训练家对战过。$"

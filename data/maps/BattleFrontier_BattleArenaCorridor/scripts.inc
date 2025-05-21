@@ -87,5 +87,5 @@ BattleFrontier_BattleArenaCorridor_Movement_AttendantMoveOutOfWay:
 	step_end
 
 BattleFrontier_BattleArenaCorridor_Text_PleaseStepIn:
-    .string "你将在下个房间进行对战。\n请进！$"
+    .string "您将在下个房间进行对战。\n请进！$"
 

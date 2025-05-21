@@ -92,7 +92,7 @@ Route104_PrettyPetalFlowerShop_Text_FlowersBringHappiness::
     .string "鲜花会使人们得到幸福。$"
 
 Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis::
-    .string "欢迎！\p你越是细心地照顾花朵，\n花朵就会开放得越艳丽。\p看上去你很喜欢照顾花儿，\n这个送给你吧。$"
+    .string "欢迎！\p你越是细心地照顾花朵，\n花朵就会绽放得越艳丽。\p看上去你很喜欢照顾花儿，\n这个送给你吧。$"
 
 Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation::
     .string "树果渐渐长大的时候，\n就用吼吼鲸喷壶给它们浇水吧。\p啊，对了，\p如果一段时间里你没摘下树果，\n它们会掉进土里，\l不过很快它们又会发芽的。\p挺不错的吧？\n就好像它们自己也盼望着成长一样。$"

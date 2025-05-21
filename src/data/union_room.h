@@ -174,7 +174,7 @@ static const u8 *const sCommunicatingWaitTexts[] = {
 };
 
 ALIGNED(4) static const u8 sText_HiDoSomethingMale[] = _("嘿！有什么\n想做的吗？");
-ALIGNED(4) static const u8 sText_HiDoSomethingFemale[] = _("你好！\n想要做什么？?");
+ALIGNED(4) static const u8 sText_HiDoSomethingFemale[] = _("你好！\n想要做什么？");
 ALIGNED(4) static const u8 sText_HiDoSomethingAgainMale[] = _("{STR_VAR_1}：嘿，我们又见面了！\n最近怎么样？");
 ALIGNED(4) static const u8 sText_HiDoSomethingAgainFemale[] = _("{STR_VAR_1}：哦！{PLAYER}，你好！\n想要做什么？");
 
@@ -188,10 +188,10 @@ static const u8 *const sHiDoSomethingTexts[][GENDER_COUNT] = {
     }
 };
 
-ALIGNED(4) static const u8 sText_DoSomethingMale[] = _("想做点什么？?");
+ALIGNED(4) static const u8 sText_DoSomethingMale[] = _("想做点什么？");
 ALIGNED(4) static const u8 sText_DoSomethingFemale[] = _("想做点什么？");
-ALIGNED(4) static const u8 sText_DoSomethingAgainMale[] = _("{STR_VAR_1}：你现在想要\n做什么？?");
-ALIGNED(4) static const u8 sText_DoSomethingAgainFemale[] = _("{STR_VAR_1}：想做点其他的不？?"); // Unused
+ALIGNED(4) static const u8 sText_DoSomethingAgainMale[] = _("{STR_VAR_1}：你现在想要\n做什么？");
+ALIGNED(4) static const u8 sText_DoSomethingAgainFemale[] = _("{STR_VAR_1}：想做点其他的不？"); // Unused
 
 // Unused
 static const u8 *const sDoSomethingTexts[][GENDER_COUNT] = {
@@ -241,7 +241,7 @@ static const u8 *const sInvitationTexts[] = {
 ALIGNED(4) static const u8 sText_JoinChatMale[] = _("嘿！我们正在聊天。\n想要加入我们吗？");
 ALIGNED(4) static const u8 sText_PlayerJoinChatMale[] = _("{STR_VAR_1}：嘿，{PLAYER}！\n我们正在聊天。\l想要加入我们吗？");
 ALIGNED(4) static const u8 sText_JoinChatFemale[] = _(" 哦，你好！我们正在聊天。\n想要加入我们吗？");
-ALIGNED(4) static const u8 sText_PlayerJoinChatFemale[] = _("{STR_VAR_1}：你好，{PLAYER}！\n我们在聊天。\l想要加入我们吗？?");
+ALIGNED(4) static const u8 sText_PlayerJoinChatFemale[] = _("{STR_VAR_1}：你好，{PLAYER}！\n我们在聊天。\l想要加入我们吗？");
 
 static const u8 *const sJoinChatTexts[][GENDER_COUNT] = {
     {
@@ -453,8 +453,8 @@ ALIGNED(4) static const u8 sText_WhichMonWillYouOffer[] = _("您将会拿什么�
 ALIGNED(4) static const u8 sText_RegistrationCanceled[] = _("登记取消。\p");
 ALIGNED(4) static const u8 sText_RegistrationCompleted[] = _("登记完成。\p");
 ALIGNED(4) static const u8 sText_TradeCanceled[] = _("交换被取消了。\p");
-ALIGNED(4) static const u8 sText_CancelRegistrationOfMon[] = _("取消登记您的\n等级{STR_VAR_2}的{STR_VAR_1}?");
-ALIGNED(4) static const u8 sText_CancelRegistrationOfEgg[] = _("取消登记您的蛋？?");
+ALIGNED(4) static const u8 sText_CancelRegistrationOfMon[] = _("取消登记您的\n等级{STR_VAR_2}的{STR_VAR_1}");
+ALIGNED(4) static const u8 sText_CancelRegistrationOfEgg[] = _("取消登记您的蛋？");
 ALIGNED(4) static const u8 sText_RegistrationCanceled2[] = _("登记取消。\p");
 ALIGNED(4) static const u8 sText_TradeTrainersWillBeListed[] = _("训练师想要进行的交换\n会用表格列出来。"); // unused
 ALIGNED(4) static const u8 sText_ChooseTrainerToTradeWith2[] = _("请选择训练师\n用来交换宝可梦。"); // unused
@@ -486,14 +486,14 @@ ALIGNED(4) static const u8 sText_ChooseLeaderPokemonJump[] = _("和宝可梦一�
 ALIGNED(4) static const u8 sText_ChooseLeaderBerryCrush[] = _("混合树果！\n请选择队长。");
 ALIGNED(4) static const u8 sText_ChooseLeaderBerryPicking[] = _("嘟嘟利摘树果！\n请选择队长。");
 ALIGNED(4) static const u8 sText_ChooseLeaderBerryBlender[] = _("树果混合机！\n请选择队长。");
-ALIGNED(4) static const u8 sText_ChooseLeaderRecordCorner[] = _("联机中心！\n请选择队长。");
+ALIGNED(4) static const u8 sText_ChooseLeaderRecordCorner[] = _("记录角！\n请选择队长。");
 ALIGNED(4) static const u8 sText_ChooseLeaderCoolContest[] = _("帅气组！\n请选择队长。");
 ALIGNED(4) static const u8 sText_ChooseLeaderBeautyContest[] = _("美丽组！\n请选择队长。");
 ALIGNED(4) static const u8 sText_ChooseLeaderCuteContest[] = _("可爱组！\n请选择队长。");
 ALIGNED(4) static const u8 sText_ChooseLeaderSmartContest[] = _("聪明组！\n请选择队长。");
 ALIGNED(4) static const u8 sText_ChooseLeaderToughContest[] = _("强壮组！\n请选择队长。");
-ALIGNED(4) static const u8 sText_ChooseLeaderBattleTowerLv50[] = _("等级50对战塔！\n请选择队长。");
-ALIGNED(4) static const u8 sText_ChooseLeaderBattleTowerOpenLv[] = _("对战塔！\n请选择队长。");
+ALIGNED(4) static const u8 sText_ChooseLeaderBattleTowerLv50[] = _("Lv. 50级对战塔！\n请选择队长。");
+ALIGNED(4) static const u8 sText_ChooseLeaderBattleTowerOpenLv[] = _("自由等级对战塔！\n请选择队长。");
 
 static const u8 *const sChooseTrainerTexts[NUM_LINK_GROUP_TYPES] =
 {
@@ -555,14 +555,14 @@ ALIGNED(4) static const u8 sText_BerryCrush[] = _("树果混合");
 ALIGNED(4) static const u8 sText_BerryPicking[] = _("摘树果");
 ALIGNED(4) static const u8 sText_Search[] = _("搜索");
 ALIGNED(4) static const u8 sText_BerryBlender[] = _("树果混合机");
-ALIGNED(4) static const u8 sText_RecordCorner[] = _("联机中心");
+ALIGNED(4) static const u8 sText_RecordCorner[] = _("联机俱乐部");
 ALIGNED(4) static const u8 sText_CoolContest[] = _("帅气组");
 ALIGNED(4) static const u8 sText_BeautyContest[] = _("美丽组");
 ALIGNED(4) static const u8 sText_CuteContest[] = _("可爱组");
 ALIGNED(4) static const u8 sText_SmartContest[] = _("聪明组");
 ALIGNED(4) static const u8 sText_ToughContest[] = _("强壮组");
-ALIGNED(4) static const u8 sText_BattleTowerLv50[] = _("等级50对战塔");
-ALIGNED(4) static const u8 sText_BattleTowerOpenLv[] = _("对战塔");
+ALIGNED(4) static const u8 sText_BattleTowerLv50[] = _("Lv. 50级对战塔");
+ALIGNED(4) static const u8 sText_BattleTowerOpenLv[] = _("自由等级对战塔");
 ALIGNED(4) static const u8 sText_ItsNormalCard[] = _("这是普通卡。");
 ALIGNED(4) static const u8 sText_ItsBronzeCard[] = _("这是青铜卡！");
 ALIGNED(4) static const u8 sText_ItsCopperCard[] = _("这是黄铜卡！");
@@ -577,10 +577,10 @@ static const u8 *const sCardColorTexts[] = {
     sText_ItsGoldCard
 };
 
-ALIGNED(4) static const u8 sText_TrainerCardInfoPage1[] = _("这是{DYNAMIC 0} {DYNAMIC 1}'s\n训练师卡片……\l{DYNAMIC 2}\p图鉴：{DYNAMIC 3}\n时间：{DYNAMIC 4}:{DYNAMIC 5}\p");
+ALIGNED(4) static const u8 sText_TrainerCardInfoPage1[] = _("这是{DYNAMIC 0} {DYNAMIC 1}'s\n训练师卡片……\l{DYNAMIC 2}\p图鉴：{DYNAMIC 3}\n时间：{DYNAMIC 4}：{DYNAMIC 5}\p");
 ALIGNED(4) static const u8 sText_TrainerCardInfoPage2[] = _(" 对战：胜：{DYNAMIC 0} 负：{DYNAMIC 2}\n交换次数：{DYNAMIC 3}\p“{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}”\p");
-ALIGNED(4) static const u8 sText_GladToMeetYouMale[] = _("{DYNAMIC 1}: 很高兴认识了你！{PAUSE 60}");
-ALIGNED(4) static const u8 sText_GladToMeetYouFemale[] = _("{DYNAMIC 1}: 很高兴认识你！{PAUSE 60}");
+ALIGNED(4) static const u8 sText_GladToMeetYouMale[] = _("{DYNAMIC 1}：很高兴认识你！{PAUSE 60}");
+ALIGNED(4) static const u8 sText_GladToMeetYouFemale[] = _("{DYNAMIC 1}：很高兴认识你！{PAUSE 60}");
 
 static const u8 *const sGladToMeetYouTexts[GENDER_COUNT] = {
     sText_GladToMeetYouMale,

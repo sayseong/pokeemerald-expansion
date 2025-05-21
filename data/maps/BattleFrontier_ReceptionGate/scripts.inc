@@ -305,92 +305,92 @@ BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
     .string "这里是宝可梦对战的最前线！\n欢迎来到对战开拓区！$"
 
 BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
-    .string "每一位新的来访者都会\n得到一张开拓通行证。\p有了它就可以参加\n对战开拓区各种设施。\p给，这是您的！$"
+    .string "每位初次来访的客人都可以\n得到一张开拓通行证。\p它可以在对战开拓区的\n所有设施中使用。\p给，这是您的！$"
 
 BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
-    .string "{PLAYER}得到了\n开拓通行证。$"
+    .string "{PLAYER}获得了\n开拓通行证。$"
 
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
-    .string "{PLAYER}把训练家卡\n放进了开拓通行证里。$"
+    .string "{PLAYER}把训练家卡片\n放进了开拓通行证中。$"
 
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
-    .string "希望您喜欢\n对战开拓区的一切！$"
+    .string "希望您能尽情享受\n对战开拓区的一切！$"
 
 BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
-    .string "???：嗨，这不是{PLAYER}{KUN}吗！\n你终于来啦！$"
+    .string "？？？：嗨，这不是{PLAYER}{KUN}吗！\n你终于来啦！$"
 
 BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay:
-    .string "导游：啊，亚希达先生！\n您好！$"
+    .string "向导：啊，亚希达先生！\n您好！$"
 
 BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
     .string "亚希达：能在这里见到你真是太好了，\n真的！\p希望你慢慢探索\n这里的每个角落。\p当然，也希望你能在这里\n体验到最纯粹的对战精髓。\p我在这儿也有房间，\n有空记得随时来坐坐。$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFacilities:
-    .string "我负责向您介绍\n对战开拓区的各种设施。$"
+    .string "我是对战开拓区的\n各个设施的向导。$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich2:
-    .string "您想知道什么？$"
+    .string "您想了解哪个设施呢？$"
 
 BattleFrontier_ReceptionGate_Text_BattleTowerInfo:
-    .string "它是一座巨大的塔，被视作\n对战开拓区的标志。\p塔内有四种对战间，\n单打、双打、多人和\l多人连线对战间。$"
+    .string "这座巨大的高塔被视为\n对战开拓区的标志。\p塔内有四种类型的对战间，\n分别用于单打、双打、多人和\l多人连线对战。$"
 
 BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
-    .string "对战巨蛋是那个好像个\n巨大的蛋的建筑。\p里面会举行\n被称为对战锦标赛的活动。\p对战锦标赛有两种路线\n——单打和双打\l对战。$"
+    .string "对战巨蛋是外形像是巨大的\n蛋一样的建筑。\p这里会举办名为对战锦标赛的活动。\p对战锦标赛有两种模式——\n单打和双打对战。$"
 
 BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
-    .string "对战宫殿是对战开拓区\n右侧的红色建筑。\p里面有两种对战厅，分别\n进行单打和双打对战。$"
+    .string "对战宫殿是位于对战开拓区\n右侧的红色建筑。\p里面有两种对战厅，分别用于单打和双打对战。$"
 
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
-    .string "对战竞技场是位于\n对战开拓区中央偏右的\l道场一样的建筑。\p对战竞技场里面会举行\n名叫三回合定胜负锦标赛的活动。$"
+    .string "对战竞技场是位于对战开拓区\n中央偏右的道场式建筑。\p这里会举办名为三回合\n定胜负锦标赛的活动。$"
 
 BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
-    .string "对战工厂就是离我们\n最近的那个大型建筑。\p里面举行\n交换式对战。\p交换式对战分两种，\n分别是单打和双打\l对战。$"
+    .string "对战工厂是离我们最近的那个\n大型建筑。\p这里会举办名为交换式对战的活动。\p交换式对战分两种，\n分别是单打和双打对战。$"
 
 BattleFrontier_ReceptionGate_Text_BattlePikeInfo:
-    .string "对战管道是位于\n对战开拓区中央偏左的\l像宝可梦一样的建筑。\p里面会举行\n选择式对战。$"
+    .string "对战管道是位于对战开拓区\n中央偏左的宝可梦造型的建筑。\p这里会举办名为选择式对战的活动。$"
 
 BattleFrontier_ReceptionGate_Text_BattlePyramidInfo:
-    .string "对战金字塔就是那个\n巨大的金字塔。\p里面会举行\n探索式对战。$"
+    .string "对战金字塔是巨大的金字塔建筑。\p这里会举办名为探索式对战的活动。$"
 
 BattleFrontier_ReceptionGate_Text_RankingHallInfo:
-    .string "排名大厅位于\n对战塔附近。\p您可以在那里看到\n活跃在对战开拓区的\l训练家们所留下的\l非凡的成绩。$"
+    .string "排名大厅位于对战塔附近。\p那里可以看到挑战过对战开拓区的各个\l设施的训练家们所留下的非凡纪录。$"
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
-    .string "兑换服务区位于\n对战塔附近。\p您可以用在对战开拓区\n得到的对战点数兑换一些\l非同寻常的奖品。$"
+    .string "兑换服务区位于对战塔附近。\p可以用在对战开拓区得到的对战点数\n兑换精美的奖品。$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToRules:
-    .string "我负责向您介绍\n对战开拓区各设施里\l通用的一些\l基本规则。$"
+    .string "我是对战开拓区各个设施中\n各项通用基本规则的向导。$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
-    .string "您想知道什么？$"
+    .string "您想了解什么内容呢？$"
 
 BattleFrontier_ReceptionGate_Text_LevelModeInfo:
-    .string "对战开拓区里的\n每种挑战都分成两种——\lLv. 50级和自由等级。$"
+    .string "对战开拓区的所有挑战设施\n都提供两种模式可供选择——\lLv. 50级和自由等级。$"
 
 BattleFrontier_ReceptionGate_Text_Level50Info:
-    .string "Lv. 50级允许等级50级以内的\n宝可梦参加。\p但是请记住，您并不会遇到\n使用等级50以内宝可梦的\l训练家。\p这是对战开拓区的\n入门级对战，\p如果您是新手，\n可以先来挑战它。$"
+    .string "Lv. 50级允许等级50级以内的\n宝可梦参加。\p但是，您遇到的训练家不会\n使用等级50以内的宝可梦。\p这是对战开拓区的\n入门级对战，\p我们建议您从这个模式\n开始挑战。$"
 
 BattleFrontier_ReceptionGate_Text_OpenLevelInfo:
-    .string "自由等级对于\n参加宝可梦\l没有等级限制。\p您的对手的宝可梦等级\n会根据您自己的宝可梦等级\l而改变。\p但是，您不会遇到\n使用等级60以内宝可梦的训练家。$"
+    .string "自由等级对于参加的宝可梦\n没有等级限制。\p对手的宝可梦等级会根据\n您的宝可梦等级进行调整。\p但是，您遇到的训练家不会\n使用等级60以内的宝可梦。$"
 
 BattleFrontier_ReceptionGate_Text_MonEntryInfo:
-    .string "大部分宝可梦都可以参加\n所有设施里面的挑战，\p但蛋和某些特定的宝可梦\n不能参加。\p参加挑战的宝可梦数量\n根据挑战的不同而不同，\p但所有设施都不可以\n选择同样的2只\l或以上宝可梦参加。$"
+    .string "绝大多数种类的宝可梦都可以\n参加所有设施里面的挑战，\p但蛋和某些特定种类的宝可梦\n无法参加。\p挑战所需的宝可梦数量\n取决于具体设施。\p但在所有设施中，都无法使用两只\n或以上的相同种类的宝可梦。$"
 
 BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
-    .string "参加对战开拓区的\n挑战时，每只宝可梦\l携带的道具都不能相同。\p参加之前请先确认\n每只参加的宝可梦\l都携带了不同的道具。$"
+    .string "在对战开拓区参加挑战时，\n宝可梦不能携带相同的道具。\p请确保所有参加挑战的宝可梦\n都携带了不同的道具。$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass:
-    .string "我负责向您介绍开拓通行证。$"
+    .string "我是开拓区通行证的向导。$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
-    .string "您想知道什么？$"
+    .string "您想了解什么内容呢？$"
 
 BattleFrontier_ReceptionGate_Text_SymbolsInfo:
-    .string "对战开拓区中有\n七种设施。\p在每一设施中，训练家的能力\n如果能够被认可，\l就能够得到一枚象征作为奖励。\p要想得到象征，训练家也许\n得连续打败许多其他训练家，\l也许得在同一活动中不断胜出。\p确实，想要得到象征并不容易，\n祝您好运！$"
+    .string "对战开拓区共设有\n七个挑战设施。\p训练家若展现出卓越实力，\n就能获得各设施颁发的象征。\p要获得象征，训练家可能需要\n连续击败多位对手，\l或多次赢得赛事。\p赢得象征绝非易事，\n祝您好运！$"
 
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
-    .string "可以在您的开拓通行证上面\n记录下您的某一场对战。\p您可以记录您与您的\n朋友们的对战，\p或者记录下在对战开拓区\n进行过的一场对战，包括\l在对战管道或对战金字塔中\l进行的比赛。\p对战结束时您可以选择\n是否要记录对战。$"
+    .string "可以在您的开拓通行证上\n记录下您的一场对战。\p您可以记录您与朋友\n之间进行的对战，\p或记录下在对战开拓区进行过的对战，\n但不包括对战管道以及\l对战金字塔中的对战。\p对战结束时您可以选择\n是否要记录对战。$"
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
-    .string "对战点数是送给\n对战开拓区中对战非常出色的\l训练家的奖励。\p您可以在兑换服务区\n用您的对战点数\l兑换其他奖品。$"
+    .string "对战点数是向对战开拓区中表现出色\n的训练家给予的奖励。\p您可以在兑换服务区用\l对战点数兑换奖品。$"
 

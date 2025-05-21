@@ -47,7 +47,7 @@ BattleFrontier_BattleTowerLobby_Text_InterviewRequest::
     .string "啊！你是刚刚结束\n比赛的训练家吧？\p我正在到处收集对\n训练家的采访。\p您能跟我谈一谈\n有关对战的感想吗？$"
 
 BattleFrontier_BattleTowerLobby_Text_HowDidBattleTowerTurnOut::
-    .string "你愿意？真的？\n太感谢了！\l这个……\p今天在对战塔\n有什么收获？\p你对对战还满意吗？\n或者你不怎么开心？$"
+    .string "你愿意？真的？\n太感谢了！\l这个……\p今天在对战塔\n有什么收获？\p你对对战还满意吗？\n还是说不怎么开心？$"
 
 BattleFrontier_BattleTowerLobby_Text_SorryWeDisturbedYou::
     .string "哦……\n很抱歉打扰你了。\p希望你下次来对战塔的\n时候能给我们些采访时间。$"
@@ -490,7 +490,7 @@ gTVTodaysRivalTrainerText04::
     .string "让我看看我们的挑战者拿到了\n多少对战开拓区的奖牌。\p金色象征：{STR_VAR_1}！\n银色象征：{STR_VAR_2}！$"
 
 gTVTodaysRivalTrainerText05::
-    .string "我们的挑战者在对战开拓区\n收集了{STR_VAR_1}点对战点数。$"
+    .string "我们的挑战者在对战开拓区\n收集了{STR_VAR_1}BP的对战点数。$"
 
 gTVTodaysRivalTrainerText06::
     .string "那么，你怎样才能拥有足以\n和{STR_VAR_1}相比的实力呢？\p去冒险吧！\p去追随训练家！\p让我们去追赶我们的竞争者\n甚至是超越他吧！$"
@@ -807,7 +807,7 @@ gTVWhatsNo1InHoennTodayText06::
     .string "一天之内，{STR_VAR_1}拾了\n{STR_VAR_2}枚树果！\p{STR_VAR_1}的包包装满了\n树果，训练家真是\l举步维艰啊！$"
 
 gTVWhatsNo1InHoennTodayText07::
-    .string "一天之内，{STR_VAR_1}获得了\n{STR_VAR_2}个对战点数！\p之后发现{STR_VAR_1}正在犹豫\n是否要用对战点数兑换\l酷酷的装备或\l靓靓的装饰。\p据说训练家考虑的时候\n咧嘴直笑。$"
+    .string "一天之内，{STR_VAR_1}获得了\n{STR_VAR_2}BP的对战点数！\p之后发现{STR_VAR_1}正在犹豫\n是否要用对战点数兑换\l酷酷的装备或\l靓靓的装饰。\p据说训练家考虑的时候\n咧嘴直笑。$"
 
 gTVWhatsNo1InHoennTodayText08::
     .string "哇，这难道不值得庆贺吗！\p{STR_VAR_1}！\n你是今天的No.1训练家也！\p观众朋友们，\n让我们学习{STR_VAR_1}的勇气和信心！\l你们，也能成为每天的No.1！$"
@@ -1071,7 +1071,7 @@ ContestLiveUpdates_Text_ValiantEffortButLost::
     .string "{STR_VAR_1}显然已经付出了极大的努力\n但是……\p到了最后，却还是一无所获。\p但愿{STR_VAR_1}能从这次的失败中学到\n一些知识，今后好好地利用它们。$"
 
 ContestLiveUpdates_Text_Outro::
-    .string "在节目的最后，让我们\n像以前一样欢送胜利者吧！\p这次的胜者是\n{STR_VAR_1}和{STR_VAR_2}！\p主持：大家准备好了吗？\n好，开始！\p观众：{STR_VAR_1}！{STR_VAR_2}！\n恭喜你们！\l你们是华丽大赛的优胜者！$"
+    .string "在节目的最后，让我们\n像以前一样欢送胜者吧！\p这次的胜者是\n{STR_VAR_1}和{STR_VAR_2}！\p主持：大家准备好了吗？\n好，开始！\p观众：{STR_VAR_1}！{STR_VAR_2}！\n恭喜你们！\l你们是华丽大赛的优胜者！$"
 
 gTVPokemonBattleUpdateText00::
     .string "“宝可梦对战速递！”\p为你即时播报宝可梦\n对战的信息！$"

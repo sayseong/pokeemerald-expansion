@@ -497,32 +497,32 @@ static const u8 sDebugText_Dashes[] =        _("---");
 static const u8 sDebugText_Empty[] =         _("");
 static const u8 sDebugText_Continue[] =      _("继续…{CLEAR_TO 110}{RIGHT_ARROW}");
 // Util Menu
-static const u8 sDebugText_Util_WarpToMap_SelectMapGroup[] = _("地图组: {STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n\n{STR_VAR_3}{CLEAR_TO 90}");
-static const u8 sDebugText_Util_WarpToMap_SelectMap[] =      _("地图: {STR_VAR_1}{CLEAR_TO 90}\nMapSec:{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}\n{STR_VAR_3}{CLEAR_TO 90}");
-static const u8 sDebugText_Util_WarpToMap_SelectWarp[] =     _("出口:{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_3}{CLEAR_TO 90}");
+static const u8 sDebugText_Util_WarpToMap_SelectMapGroup[] = _("地图组：{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n\n{STR_VAR_3}{CLEAR_TO 90}");
+static const u8 sDebugText_Util_WarpToMap_SelectMap[] =      _("地图：{STR_VAR_1}{CLEAR_TO 90}\n地图名：{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}\n{STR_VAR_3}{CLEAR_TO 90}");
+static const u8 sDebugText_Util_WarpToMap_SelectWarp[] =     _("出口：{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_3}{CLEAR_TO 90}");
 static const u8 sDebugText_Util_WarpToMap_SelMax[] =         _("{STR_VAR_1} / {STR_VAR_2}");
-static const u8 sDebugText_Util_Weather_ID[] =               _("天气ID: {STR_VAR_3}\n{STR_VAR_1}\n{STR_VAR_2}");
+static const u8 sDebugText_Util_Weather_ID[] =               _("天气ID：{STR_VAR_3}\n{STR_VAR_1}\n{STR_VAR_2}");
 // Flags/Vars Menu
-static const u8 sDebugText_FlagsVars_Flag[] =                _("标志: {STR_VAR_1}{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}\n{STR_VAR_3}");
+static const u8 sDebugText_FlagsVars_Flag[] =                _("标志：{STR_VAR_1}{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}\n{STR_VAR_3}");
 static const u8 sDebugText_FlagsVars_VariableHex[] =         _("{STR_VAR_1}{CLEAR_TO 90}\n0x{STR_VAR_2}{CLEAR_TO 90}");
-static const u8 sDebugText_FlagsVars_Variable[] =            _("变量: {STR_VAR_1}{CLEAR_TO 90}\nVal: {STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_2}");
-static const u8 sDebugText_FlagsVars_VariableValueSet[] =    _("变量: {STR_VAR_1}{CLEAR_TO 90}\nVal: {STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_2}");
+static const u8 sDebugText_FlagsVars_Variable[] =            _("变量：{STR_VAR_1}{CLEAR_TO 90}\nVal：{STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_2}");
+static const u8 sDebugText_FlagsVars_VariableValueSet[] =    _("变量：{STR_VAR_1}{CLEAR_TO 90}\nVal：{STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_2}");
 // Give Menu
-static const u8 sDebugText_ItemQuantity[] =             _("数量:{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n\n{STR_VAR_2}");
-static const u8 sDebugText_ItemID[] =                   _("道具ID: {STR_VAR_3}\n{STR_VAR_1}{CLEAR_TO 90}\n\n{STR_VAR_2}");
-static const u8 sDebugText_PokemonID[] =                _("宝可梦: {STR_VAR_3}\n{STR_VAR_1}{CLEAR_TO 90}\n\n{STR_VAR_2}{CLEAR_TO 90}");
-static const u8 sDebugText_PokemonLevel[] =             _("等级:{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
-static const u8 sDebugText_PokemonShiny[] =             _("异色:{CLEAR_TO 90}\n   {STR_VAR_2}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{CLEAR_TO 90}");
-static const u8 sDebugText_PokemonNature[] =            _("性格ID: {STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
-static const u8 sDebugText_PokemonAbility[] =           _("特性编号: {STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
-static const u8 sDebugText_PokemonTeraType[] =          _("太晶属性: {STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
-static const u8 sDebugText_PokemonDynamaxLevel[] =      _("极巨化等级:{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
-static const u8 sDebugText_PokemonGmaxFactor[] =        _("超极巨化:{CLEAR_TO 90}\n   {STR_VAR_2}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{CLEAR_TO 90}");
-static const u8 sDebugText_IVs[] =                      _("个体值{STR_VAR_1}:{CLEAR_TO 90}\n    {STR_VAR_3}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
-static const u8 sDebugText_EVs[] =                      _("努力值{STR_VAR_1}:{CLEAR_TO 90}\n    {STR_VAR_3}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
+static const u8 sDebugText_ItemQuantity[] =             _("数量：{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n\n{STR_VAR_2}");
+static const u8 sDebugText_ItemID[] =                   _("道具ID：{STR_VAR_3}\n{STR_VAR_1}{CLEAR_TO 90}\n\n{STR_VAR_2}");
+static const u8 sDebugText_PokemonID[] =                _("宝可梦：{STR_VAR_3}\n{STR_VAR_1}{CLEAR_TO 90}\n\n{STR_VAR_2}{CLEAR_TO 90}");
+static const u8 sDebugText_PokemonLevel[] =             _("等级：{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
+static const u8 sDebugText_PokemonShiny[] =             _("异色：{CLEAR_TO 90}\n   {STR_VAR_2}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{CLEAR_TO 90}");
+static const u8 sDebugText_PokemonNature[] =            _("性格ID：{STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
+static const u8 sDebugText_PokemonAbility[] =           _("特性编号：{STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
+static const u8 sDebugText_PokemonTeraType[] =          _("太晶属性：{STR_VAR_3}{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
+static const u8 sDebugText_PokemonDynamaxLevel[] =      _("极巨化等级：{CLEAR_TO 90}\n{STR_VAR_1}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
+static const u8 sDebugText_PokemonGmaxFactor[] =        _("超极巨化：{CLEAR_TO 90}\n   {STR_VAR_2}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{CLEAR_TO 90}");
+static const u8 sDebugText_IVs[] =                      _("个体值{STR_VAR_1}：{CLEAR_TO 90}\n    {STR_VAR_3}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
+static const u8 sDebugText_EVs[] =                      _("努力值{STR_VAR_1}：{CLEAR_TO 90}\n    {STR_VAR_3}{CLEAR_TO 90}\n{CLEAR_TO 90}\n{STR_VAR_2}{CLEAR_TO 90}");
 // Sound Menu
-static const u8 sDebugText_Sound_SFX_ID[] =             _("音效ID: {STR_VAR_3}   {START_BUTTON} Stop\n{STR_VAR_1}    \n{STR_VAR_2}");
-static const u8 sDebugText_Sound_Music_ID[] =           _("音乐ID: {STR_VAR_3}   {START_BUTTON} Stop\n{STR_VAR_1}    \n{STR_VAR_2}");
+static const u8 sDebugText_Sound_SFX_ID[] =             _("音效ID：{STR_VAR_3}   {START_BUTTON} Stop\n{STR_VAR_1}    \n{STR_VAR_2}");
+static const u8 sDebugText_Sound_Music_ID[] =           _("音乐ID：{STR_VAR_3}   {START_BUTTON} Stop\n{STR_VAR_1}    \n{STR_VAR_2}");
 
 const u8 *const gText_DigitIndicator[] =
 {
@@ -597,7 +597,7 @@ static const struct ListMenuItem sDebugMenu_Items_PCBag[] =
 static const struct ListMenuItem sDebugMenu_Items_PCBag_Fill[] =
 {
     [DEBUG_PCBAG_MENU_ITEM_FILL_PC_BOXES_FAST]    = {COMPOUND_STRING("快速填充寄放盒子"),        DEBUG_PCBAG_MENU_ITEM_FILL_PC_BOXES_FAST},
-    [DEBUG_PCBAG_MENU_ITEM_FILL_PC_BOXES_SLOW]    = {COMPOUND_STRING("缓慢填充寄放盒子(落后!)"), DEBUG_PCBAG_MENU_ITEM_FILL_PC_BOXES_SLOW},
+    [DEBUG_PCBAG_MENU_ITEM_FILL_PC_BOXES_SLOW]    = {COMPOUND_STRING("缓慢填充寄放盒子(落后！)"), DEBUG_PCBAG_MENU_ITEM_FILL_PC_BOXES_SLOW},
     [DEBUG_PCBAG_MENU_ITEM_FILL_PC_ITEMS]         = {COMPOUND_STRING("填充电脑中道具") ,            DEBUG_PCBAG_MENU_ITEM_FILL_PC_ITEMS},
     [DEBUG_PCBAG_MENU_ITEM_FILL_POCKET_ITEMS]     = {COMPOUND_STRING("填充包包内道具"),         DEBUG_PCBAG_MENU_ITEM_FILL_POCKET_ITEMS},
     [DEBUG_PCBAG_MENU_ITEM_FILL_POCKET_BALLS]     = {COMPOUND_STRING("填充包包内精灵球"),    DEBUG_PCBAG_MENU_ITEM_FILL_POCKET_BALLS},
@@ -1983,7 +1983,7 @@ static const u8 sWeatherNames[WEATHER_COUNT][24] = {
     [WEATHER_ROUTE119_CYCLE]     = _("119号道路天气循环"),
     [WEATHER_ROUTE123_CYCLE]     = _("123号道路天气循环"),
 };
-static const u8 sDebugText_WeatherNotDefined[] = _("未定义!!!");
+static const u8 sDebugText_WeatherNotDefined[] = _("未定义！！！");
 static void DebugAction_Util_Weather(u8 taskId)
 {
     u8 windowId;
@@ -3257,7 +3257,7 @@ static void Debug_Display_MoveInfo(u32 moveId, u32 iteration, u32 digit, u8 wind
     StringCopy(gStringVar4, COMPOUND_STRING("招式"));
     ConvertIntToDecimalStringN(gStringVar3, iteration, STR_CONV_MODE_LEADING_ZEROS, 1);
     StringAppend(gStringVar4, gStringVar3);
-    StringAppend(gStringVar4, COMPOUND_STRING(": "));
+    StringAppend(gStringVar4, COMPOUND_STRING("："));
     ConvertIntToDecimalStringN(gStringVar3, moveId, STR_CONV_MODE_LEADING_ZEROS, 3);
     StringAppend(gStringVar4, gStringVar3);
     StringAppend(gStringVar4, COMPOUND_STRING("{CLEAR_TO 90}\n"));

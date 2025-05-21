@@ -1048,7 +1048,7 @@ SlateportCity_Text_CantChangeTradeMonName:
     .string "你不能更改\n交换得来的宝可梦的名字，\p因为那名字中\n包含着原先的训练家对它的情感。$"
 
 SlateportCity_Text_BattleTentBuiltRecently:
-    .string "最近凯那市\n出现了一个对战帐篷。\p虽然道馆也很有趣，\n但对战帐篷更棒。\p在对战帐篷里\n能见到很厉害的宝可梦！$"
+    .string "最近凯那市\n出现了一个对战帐篷。\p虽然道馆也很有趣，\n但对战帐篷更棒。\p在对战帐篷中\n能见到很厉害的宝可梦！$"
 
 SlateportCity_Text_CaptSternBeingInterviewed:
     .string "我本来希望记者们会去采访个明星，\n这样我就能去要签名了。\p但他们采访的是谁？\n那不是楠木馆长吗？$"
@@ -1099,7 +1099,7 @@ SlateportCity_Text_PleaseComeWithMe:
     .string "{PLAYER}{KUN}！\n快，跟我来！$"
 
 SlateportCity_Text_BattleTentSign:
-    .string "对战帐篷凯那市分址\n“得到了！究极宝可梦！”$"
+    .string "对战帐篷凯那市分址\n“寻找！究极宝可梦！”$"
 
 SlateportCity_Text_SternsShipyardWantedSign:
     .string "楠木造船厂\p“招募：在任何水流中\n都能驾船的水手。”$"

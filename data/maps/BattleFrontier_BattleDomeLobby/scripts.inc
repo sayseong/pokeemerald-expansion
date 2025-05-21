@@ -446,7 +446,7 @@ BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain:
     .string "期待您的再次光临！$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
-    .string "单打对战锦标赛\n正如其名——\l这是一项进行单打对战的锦标赛。\p所有的训练家需要选择\n3只宝可梦报名。\p每场对战中，3只宝可梦中的1只\n需要保留作为后备。\p另外2只宝可梦将\n进行1对1战斗。\p查看对手的3只宝可梦后，\n即可选择2只宝可梦出战。\p连续击败四名训练家\n即可获得胜利。\p锦标赛胜利者将会\n获得对战点数。\p如果要暂停锦标赛\n请写入记录。\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
+    .string "单打对战锦标赛\n正如其名——\l这是一项进行单打对战的锦标赛。\p所有的训练家需要选择\n3只宝可梦报名。\p每场对战中，3只宝可梦中的1只\n需要保留作为后备。\p另外2只宝可梦将\n进行1对1战斗。\p查看对手的3只宝可梦后，\n即可选择2只宝可梦出战。\p连续击败4名训练家\n即可获得胜利。\p锦标赛冠军将会\n获得对战点数。\p如果要暂停锦标赛\n请写入记录。\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge:
     .string "在带您进入对战巨蛋前，\n需要先写入记录，可以吗？$"
@@ -485,7 +485,7 @@ BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:
     .string "啊，您的包包已经满了。\p请将包包整理好之后\n再来找我。$"
 
 BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying:
-    .string "感谢您的参与。$"
+    .string "辛苦了！$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordWillBeSaved:
     .string "正在写入记录……\n请稍候。$"
@@ -503,7 +503,7 @@ BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge:
     .string "要挑战双打对战锦标赛吗？$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
-    .string "双打对战锦标赛\n正如其名——\l这是一项进行双打对战的锦标赛。\p所有的训练家需要选择\n3只宝可梦报名。\p每场对战中，3只宝可梦中的1只\n需要保留作为后备。\p另外2只宝可梦将\n进行2对2战斗。\p查看对手的3只宝可梦后，\n即可选择2只宝可梦出战。\p连续击败四名训练家\n即可获得胜利。\p锦标赛胜利者将会\n获得对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
+    .string "双打对战锦标赛\n正如其名——\l这是一项进行双打对战的锦标赛。\p所有的训练家需要选择\n3只宝可梦报名。\p每场对战中，3只宝可梦中的1只\n需要保留作为后备。\p另外2只宝可梦将\n进行2对2战斗。\p查看对手的3只宝可梦后，\n即可选择2只宝可梦出战。\p连续击败4名训练家\n即可获得胜利。\p锦标赛冠军将会\n获得对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50:
     .string "这是上一次Lv. 50级\n单打对战锦标赛的结果。$"
@@ -544,10 +544,10 @@ BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker:
     .string "恭喜您！\p您打败了巨蛋超级巨星，\n并获得了对战锦标赛的胜利。$"
 
 BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
-    .string "为了表彰您的战略——\n简直堪称美妙绝伦——\l我们将授予您这些对战点数！$"
+    .string "为了表彰您的战略——\n简直堪称美妙绝伦——\l我们将向您呈上对战点数！$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
-    .string "要将您最后的对战巨蛋的比赛\n记录到开拓通行证上吗？$"
+    .string "要将您在对战巨蛋的最后一场比赛\n记录到开拓通行证上吗？$"
 
 BattleFrontier_BattleDomeLobby_Text_RulesAreListed:
     .string "上面列出了对战锦标赛的规则。$"
@@ -556,10 +556,10 @@ BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules:
-    .string "比赛的对手是根据\n训练家培育的宝可梦的\l强弱来分配的，\p会尽量避免较强的\n训练家直接对抗。$"
+    .string "锦标赛的对战匹配是根据训练家\n持有的宝可梦强度来安排的。\p匹配规则会避免让实力强劲的\n训练家在初期就相互对战。$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
-    .string "比赛进程表——也可以说树状图\n可以在等候室中\l任一位向导处查看。\p树状图上会显示\n不同类型的数据，\p包括之前的比赛战绩，\n培育的宝可梦，\l还有训练家\l的对战方式。$"
+    .string "比赛进程表——也可以称为“树状图”\n可以在等候室中任意向导处查看。\p树状图上会显示\n不同类型的数据，\p包括之前的比赛战绩，\n所持有的宝可梦，\l还有训练家的对战方式。$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules:
-    .string "如果对战双方的宝可梦\n在比赛中同时昏厥，\l则会请裁判分析比赛过程\l并从中选出胜利者。$"
+    .string "如果对战双方的宝可梦\n在比赛中同时昏厥，\l则会请裁判重新审查比赛\l并宣布其中的获胜方。$"

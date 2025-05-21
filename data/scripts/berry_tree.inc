@@ -378,8 +378,8 @@ BerryTree_EventScript_PickBerry_Mutation::
 	end
 
 BerryTree_Text_WantToPick_Mutation:
-	.string "你找到了{STR_VAR_2} ,{STR_VAR_1}\n"
-	.string "与一个 {STR_VAR_3}!\p"
+	.string "你找到了{STR_VAR_2}、{STR_VAR_1}\n"
+	.string "与一个 {STR_VAR_3}！\p"
 	.string "你想要摘下它们吗？？$"
 
 BerryTree_Text_BerryLeftUnpicked_Mutation:

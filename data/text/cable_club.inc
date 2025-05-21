@@ -11,7 +11,7 @@ CableClub_Text_BattleUsingLinkCable::
     .string "通过GBA连接线\n与其他训练家对战。$"
 
 CableClub_Text_RecordCornerUsingLinkCable::
-    .string "通过GBA连接线\n与其他人一起使用联机中心。$"
+    .string "通过GBA连接线\n与其他人一起使用联机俱乐部。$"
 
 @ Unused
 CableClub_Text_CloseThisMenu::

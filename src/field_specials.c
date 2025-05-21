@@ -2453,7 +2453,7 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
         COMPOUND_STRING("80点"),
         COMPOUND_STRING("90点"),
         COMPOUND_STRING("100点"),
-        COMPOUND_STRING("?")
+        COMPOUND_STRING("？")
     },
     [SCROLL_MULTI_BF_EXCHANGE_CORNER_DECOR_VENDOR_1] =
     {

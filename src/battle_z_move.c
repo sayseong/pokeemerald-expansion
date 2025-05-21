@@ -102,7 +102,7 @@ static const u8 sText_CritHitsPlus[] = _("易中要害");
 static const u8 sText_FollowMe[] = _("万众瞩目");
 static const u8 sText_RecoverHP[] = _("回复自己");
 static const u8 sText_HealAllyHP[] = _("回复替换宝可梦HP");
-static const u8 sText_PowerColon[] = _("威力: ");
+static const u8 sText_PowerColon[] = _("威力：");
 
 // Functions
 bool32 IsZMove(u32 move)

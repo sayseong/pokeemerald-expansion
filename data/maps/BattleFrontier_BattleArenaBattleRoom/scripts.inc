@@ -509,7 +509,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent:
     .string "裁判：胜者是{STR_VAR_1}！$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored:
-    .string "您的宝可梦的体力\n将会全部回复。$"
+    .string "我来帮您的宝可梦\n回复体力。$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent:
     .string "接下来是您的第2个对手！\n准备好开始了吗？$"
@@ -530,10 +530,10 @@ BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent:
     .string "接下来是您的第7个对手！\n准备好开始了吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown:
-    .string "您要写入记录并\n关机吗？$"
+    .string "要写入记录\n并且暂停吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge:
-    .string "要退出三回合定胜负锦标赛吗？$"
+    .string "要结束三回合定胜负\n锦标赛的挑战吗？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
     .string "正在写入记录……\n请稍等。$"

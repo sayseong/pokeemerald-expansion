@@ -221,7 +221,7 @@ BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing:
     .string "不说这些陈年往事了！\p我只希望你能在这里\n尽情享受对战！\p{PLAYER}{KUN}，请收下这个纪念我们\n旅途中屡次相遇的礼物。$"
 
 BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
-    .string "{PLAYER}得到了\n{STR_VAR_1}对战点数。$"
+    .string "{PLAYER}获得了\n{STR_VAR_1}BP的对战点数。$"
 
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
     .string "亚希达：你可以在开拓通行证上\n查看你对战点数的数量。\p你在对战开拓区\n获得的胜利越多，收集的\l对战点数就越多。\p这些对战点数随你所用，\n比如用来兑换道具什么的。$"
