@@ -616,7 +616,7 @@ static const struct MenuAction MultichoiceList_FrontierRules[] =
     {COMPOUND_STRING("两种模式")},
     {COMPOUND_STRING("Lv. 50级")},
     {COMPOUND_STRING("自由等级")},
-    {COMPOUND_STRING("宝可梦属性&编号")},
+    {COMPOUND_STRING("宝可梦种类&数量")},
     {COMPOUND_STRING("持有物")},
     {gText_Exit},
 };

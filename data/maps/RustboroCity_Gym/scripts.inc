@@ -140,7 +140,7 @@ RustboroCity_Gym_Text_RoxanneIntro:
     .string "您好，我是卡那兹市宝可梦道馆的\n馆主杜娟。\p我想要把在宝可梦训练家学校中所学\n到的东西都运用到宝可梦对战里面，\l所以才成为了道馆馆主。\p您要使用哪种宝可梦，\n如何对战，可以告诉我吗？$"
 
 RustboroCity_Gym_Text_RoxanneDefeat:
-    .string "啊……\n是我输了……\p看来我还有\n许多东西要学……\p我知道了。\p宝可梦联盟规定\n战胜道馆馆主的训练家\n可以得到这个。\p请收下这枚宝可梦联盟\n公认的岩石徽章。$"
+    .string "啊……\n是我输了……\p看来我还有\n许多东西要学……\p我知道了。\p宝可梦联盟规定\n战胜道馆馆主的训练家\l可以得到这个。\p请收下这枚宝可梦联盟\n公认的岩石徽章。$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge:
     .string "{PLAYER}从杜娟那里\n得到了岩石徽章。$"
@@ -167,7 +167,7 @@ RustboroCity_Gym_Text_RegisteredRoxanne:
     .string "把道馆馆主杜娟\n登记到宝可导航里了。$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:
-    .string "杜娟：我真高兴能再见到您。\n我是这个道馆的\n道馆馆主杜娟。\p我相信我们可以再享受很多场\n像上次那样精彩的对战。\p我想看看我们彼此都变强了多少。\n让我们开始吧！$"
+    .string "杜娟：我真高兴能再见到您。\n我是这个道馆的馆主杜娟。\p我相信我们可以再享受很多场\n像上次那样精彩的对战。\p我想看看我们彼此都变强了多少。\n让我们开始吧！$"
 
 RustboroCity_Gym_Text_RoxanneRematchDefeat:
     .string "呃……\n我又输了……$"
@@ -176,4 +176,4 @@ RustboroCity_Gym_Text_RoxannePostRematch:
     .string "杜娟：关于宝可梦对战，\n我还有许多事要学习。\p察觉到了这一点，\n让我更喜欢宝可梦对战了！$"
 
 RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
-    .string "杜娟：我真高兴能再见到您。\n我是这个道馆的\n道馆馆主杜娟。\p我相信我们可以再享受很多场\n像上次那样精彩的对战。\p我想看看我们彼此都变强了……\p哎，不……\n您只带了1只宝可梦？\p带至少2只\n宝可梦回来吧。$"
+    .string "杜娟：我真高兴能再见到您。\n我是这个道馆的馆主杜娟。\p我相信我们可以再享受很多场\n像上次那样精彩的对战。\p我想看看我们彼此都变强了……\p哎，不……\n您只带了1只宝可梦？\p带至少2只\n宝可梦回来吧。$"

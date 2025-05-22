@@ -252,7 +252,7 @@ Route128_Text_ArchieIOnlyWanted:
     .string "我……\n我只想……$"
 
 Route128_Text_MaxieDoYouUnderstandNow:
-    .string "赤焰松：现在明白了吗，\n水梧桐？\p你总算明白你所谓的梦想\n酿成多大的灾难了吗？\p我们得抓紧时间！\n我们得在局势彻底\n失控前做些什么！$"
+    .string "赤焰松：现在明白了吗，\n水梧桐？\p你总算明白你所谓的梦想\n酿成多大的灾难了吗？\p我们得抓紧时间！\n我们得在局势彻底\l失控前做些什么！$"
 
 Route128_Text_MaxieResposibilityFallsToArchieAndMe:
     .string "赤焰松：{PLAYER}，不用说了……\p我知道自己没资格\n批评水梧桐……\p但事已至此，以我们人类的力量而言，\n恐怕已经无力回天了。\p但我们也不能只是\n束手无策地旁观。\p我和水梧桐必须承担起责任\n来终结我们造成的这一切……$"

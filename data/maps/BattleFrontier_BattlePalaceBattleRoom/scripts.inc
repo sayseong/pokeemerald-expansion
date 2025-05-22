@@ -481,7 +481,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
     .string "要将您的最后一场对战\n记录到开拓通行证上吗？$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
-    .string "现在……\p由于您连胜的战绩，\n您获得了挑战大师——\n宫殿守护者的资格……$"
+    .string "现在……\p由于您连胜的战绩，\n您获得了挑战大师——\l宫殿守护者的资格……$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven:
     .string "现在带您去见宫殿守护者，\n准备好了吗？$"

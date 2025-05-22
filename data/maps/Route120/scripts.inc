@@ -363,7 +363,7 @@ Route120_EventScript_Callie::
 	end
 
 Route120_Text_StevenGreeting:
-    .string "大吾：嗯？{PLAYER}{KUN}，\n好久不见。\p这里好像有什么看不见\n的东西，对吧？\p对着这个看不见的障碍\n使用这个道具的话……\p不，与其说明，\n不如直接使用展示\n给你看更有趣。\p{PLAYER}{KUN}，\n你的宝可梦准备好战斗了吗？$"
+    .string "大吾：嗯？{PLAYER}{KUN}，\n好久不见。\p这里好像有什么看不见\n的东西，对吧？\p对着这个看不见的障碍\n使用这个道具的话……\p不，与其说明，\n不如直接使用展示\l给你看更有趣。\p{PLAYER}{KUN}，\n你的宝可梦准备好战斗了吗？$"
 
 Route120_Text_StevenIllWaitHere:
     .string "大吾：还没有吗？\p那我在这里等着你，\n去准备吧。$"

@@ -497,7 +497,7 @@ MauvilleCity_Text_WallyIllGoBackToVerdanturf:
     .string "满充：叔叔……\n我会回绿茵镇的……$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
-    .string "{PLAYER}，谢谢你。\n果然做训练家真的\n很不容易啊……\p光是拥有自己的宝可梦\n让它们对战还不够，\l还算不上是真正的训练家……$"
+    .string "{PLAYER}，谢谢你。\n果然做训练家真的\l很不容易啊……\p光是拥有自己的宝可梦\n让它们对战还不够，\l还算不上是真正的训练家……$"
 
 MauvilleCity_Text_UncleNoNeedToBeDown:
     .string "叔叔：满充，\n别这么沮丧。\p想想是什么激励着你\n要变得越来越强的？\p好了，我们回家吧，\n大家都在等你呢。$"

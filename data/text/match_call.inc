@@ -113,7 +113,7 @@ MatchCall_PositiveBattleText9::
     .string "哦，{PLAYER}{KUN}，好啊！\n我是{STR_VAR_1}！\p你的宝可梦最近怎样？\n我刚刚赢了一场！\p不得不说我的{STR_VAR_2}\n真的是太出色了！\p我希望你也能看看！\n以后见！$"
 
 MatchCall_PositiveBattleText10::
-    .string "哦，{PLAYER}{KUN}，好啊……\n我是{STR_VAR_1}。\p最近过得好吗？\p我的宝可梦现在\n充满了力量。\p我刚刚与它们一同\n获得了胜利。\n以后见。$"
+    .string "哦，{PLAYER}{KUN}，好啊……\n我是{STR_VAR_1}。\p最近过得好吗？\p我的宝可梦现在\n充满了力量。\p我刚刚与它们一同\n获得了胜利。以后见。$"
 
 MatchCall_PositiveBattleText11::
     .string "啊，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p最近有在对战吗？\n我今天又战胜了一个！\p势不可挡！哈哈哈哈！\n好了，回见！$"
