@@ -428,7 +428,7 @@ BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
     .string "我们的比赛被判为平局。\p当时间到时，我和\n我对手的宝可梦\l都剩下等量的体力。$"
 
 BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
-    .string "在对战竞技场中，宝可梦的顺序\n十分重要。\p比如说，如果你的第一只宝可梦\n有某种弱点，\l那你就该安排让你的\l第二只宝可梦能非常有效地\l对付第一只。\p我认为这会是组成一支有效队伍的\n好方法。$"
+    .string "在对战竞技场中，\n宝可梦的出场顺序至关重要。\p举个例子，如果你的首发宝可梦\n存在属性劣势，\l不妨让第二只宝可梦配备\l能克制该劣势属性的招式。\p我认为这是组建强力队伍的\n有效策略。$"
 
 BattleFrontier_BattleArenaLobby_Text_RulesAreListed:
     .string "上面列出了三回合定胜负\n锦标赛的规则。$"

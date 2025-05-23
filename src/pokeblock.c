@@ -707,11 +707,11 @@ static void DrawPokeblockMenuTitleText(void)
     const u8 *itemName = ItemId_GetName(ITEM_POKEBLOCK_CASE);
     PrintOnPokeblockWindow(WIN_TITLE, itemName, GetStringCenterAlignXOffset(FONT_NORMAL, itemName, 0x48));
 
-    PrintOnPokeblockWindow(WIN_SPICY,  COMPOUND_STRING("SPICY"),  0);
-    PrintOnPokeblockWindow(WIN_DRY,    COMPOUND_STRING("DRY"),    0);
-    PrintOnPokeblockWindow(WIN_SWEET,  COMPOUND_STRING("SWEET"),  0);
-    PrintOnPokeblockWindow(WIN_BITTER, COMPOUND_STRING("BITTER"), 0);
-    PrintOnPokeblockWindow(WIN_SOUR,   COMPOUND_STRING("SOUR"),   0);
+    PrintOnPokeblockWindow(WIN_SPICY,  COMPOUND_STRING("辣味"),  0);
+    PrintOnPokeblockWindow(WIN_DRY,    COMPOUND_STRING("涩味"),    0);
+    PrintOnPokeblockWindow(WIN_SWEET,  COMPOUND_STRING("甜味"),  0);
+    PrintOnPokeblockWindow(WIN_BITTER, COMPOUND_STRING("苦味"), 0);
+    PrintOnPokeblockWindow(WIN_SOUR,   COMPOUND_STRING("酸味"),   0);
 
     for (i = 0; i < WIN_ACTIONS_TALL; i++)
         PutWindowTilemap(i);

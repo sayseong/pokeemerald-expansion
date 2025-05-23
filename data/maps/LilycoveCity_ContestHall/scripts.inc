@@ -396,7 +396,7 @@ LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe:
     .string "这只漂亮的宝可梦\n和我小时候很像。\p我这么说的时候，\n老公把咖啡都喷了。\p这句话很奇怪吗？$"
 
 LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy:
-    .string "如果我在美丽组取胜\n我会比平常任何时候都开心。$"
+    .string "如果我在美丽华丽大赛取胜\n我会比平常任何时候都开心。$"
 
 LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon:
     .string "啊哈哈哈哈！\p看看这些漂亮的宝可梦！\n我最喜欢这种华丽！$"

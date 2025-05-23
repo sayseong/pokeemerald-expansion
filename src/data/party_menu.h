@@ -697,7 +697,7 @@ struct
 } static const sCursorOptions[MENU_FIELD_MOVES] =
 {
     [MENU_SUMMARY] = {COMPOUND_STRING("查看能力"), CursorCb_Summary},
-    [MENU_SWITCH] = {COMPOUND_STRING("替换排序"), CursorCb_Switch},
+    [MENU_SWITCH] = {COMPOUND_STRING("替换宝可梦"), CursorCb_Switch},
     [MENU_CANCEL1] = {gText_Cancel2, CursorCb_Cancel1},
     [MENU_ITEM] = {COMPOUND_STRING("持有物"), CursorCb_Item},
     [MENU_GIVE] = {gMenuText_Give, CursorCb_Give},
@@ -707,7 +707,7 @@ struct
     [MENU_READ] = {COMPOUND_STRING("阅读"), CursorCb_Read},
     [MENU_CANCEL2] = {gText_Cancel2, CursorCb_Cancel2},
     [MENU_SHIFT] = {COMPOUND_STRING("替换宝可梦"), CursorCb_SendMon},
-    [MENU_SEND_OUT] = {COMPOUND_STRING("派出"), CursorCb_SendMon},
+    [MENU_SEND_OUT] = {COMPOUND_STRING("替换宝可梦"), CursorCb_SendMon},
     [MENU_ENTER] = {COMPOUND_STRING("参加"), CursorCb_Enter},
     [MENU_NO_ENTRY] = {COMPOUND_STRING("不参加"), CursorCb_NoEntry},
     [MENU_STORE] = {COMPOUND_STRING("存放"), CursorCb_Store},

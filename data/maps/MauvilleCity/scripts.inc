@@ -519,7 +519,7 @@ MauvilleCity_Text_WattsonNeedFavorTakeKey:
     .string "铁旋：嗨，{PLAYER}{KUN}！\n你看起来挺精神嘛！\l不错，不错，啊哈哈哈哈！\p好！我决定了！\n{PLAYER}{KUN}，我需要帮助！\p紫堇市这里有一个\n叫做新紫堇的地下区域。\p{PLAYER}{KUN}，希望你能\n去那里关掉发电器。\p最近发电器的运转有些失控，\n现在那里不是很安全。\p给，这是\n进入新紫堇的钥匙。$"
 
 MauvilleCity_Text_WattsonWontBeChallenge:
-    .string "铁旋：不用担心，\n这对你应该是小菜一碟。\p新紫堇的入口\n在110号道路近海用冲浪一下就到了。\p很简单的，我相信你！\n啊哈哈哈哈！$"
+    .string "铁旋：不用担心，\n这对你应该是小菜一碟。\p从110号道路用冲浪一小段\n就到新紫堇的入口了。\p那就这么说定了，我相信你！\n啊哈哈哈哈！$"
 
 MauvilleCity_Text_WattsonThanksTakeTM:
     .string "铁旋：啊哈哈哈哈！\p我就知道，{PLAYER}{KUN}！我就知道\n叫你去肯定没问题！\p这是我的谢礼——\n十万伏特的招式学习器！\p来，收下它吧！$"

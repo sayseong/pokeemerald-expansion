@@ -158,7 +158,7 @@ static const u8 *const sDoYouWantModeTexts[] = {
     sText_DoYouWantXMode2
 };
 
-ALIGNED(4) static const u8 sText_CommunicatingPleaseWait[] = _("连接中……\n请稍后。"); // Unused
+ALIGNED(4) static const u8 sText_CommunicatingPleaseWait[] = _("连接中……\n请稍候。"); // Unused
 ALIGNED(4) static const u8 sText_AwaitingPlayersResponseAboutTrade[] = _("等待{STR_VAR_1}的\n交换回复……");
 ALIGNED(4) static const u8 sText_Communicating[] = _("连接中{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n"
                                                      "{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.");
@@ -487,11 +487,11 @@ ALIGNED(4) static const u8 sText_ChooseLeaderBerryCrush[] = _("混合树果！\n
 ALIGNED(4) static const u8 sText_ChooseLeaderBerryPicking[] = _("嘟嘟利摘树果！\n请选择队长。");
 ALIGNED(4) static const u8 sText_ChooseLeaderBerryBlender[] = _("树果混合机！\n请选择队长。");
 ALIGNED(4) static const u8 sText_ChooseLeaderRecordCorner[] = _("记录角！\n请选择队长。");
-ALIGNED(4) static const u8 sText_ChooseLeaderCoolContest[] = _("帅气组！\n请选择队长。");
-ALIGNED(4) static const u8 sText_ChooseLeaderBeautyContest[] = _("美丽组！\n请选择队长。");
-ALIGNED(4) static const u8 sText_ChooseLeaderCuteContest[] = _("可爱组！\n请选择队长。");
-ALIGNED(4) static const u8 sText_ChooseLeaderSmartContest[] = _("聪明组！\n请选择队长。");
-ALIGNED(4) static const u8 sText_ChooseLeaderToughContest[] = _("强壮组！\n请选择队长。");
+ALIGNED(4) static const u8 sText_ChooseLeaderCoolContest[] = _("帅气华丽大赛！\n请选择队长。");
+ALIGNED(4) static const u8 sText_ChooseLeaderBeautyContest[] = _("美丽华丽大赛！\n请选择队长。");
+ALIGNED(4) static const u8 sText_ChooseLeaderCuteContest[] = _("可爱华丽大赛！\n请选择队长。");
+ALIGNED(4) static const u8 sText_ChooseLeaderSmartContest[] = _("聪明华丽大赛！\n请选择队长。");
+ALIGNED(4) static const u8 sText_ChooseLeaderToughContest[] = _("强壮华丽大赛！\n请选择队长。");
 ALIGNED(4) static const u8 sText_ChooseLeaderBattleTowerLv50[] = _("Lv. 50级对战塔！\n请选择队长。");
 ALIGNED(4) static const u8 sText_ChooseLeaderBattleTowerOpenLv[] = _("自由等级对战塔！\n请选择队长。");
 
@@ -524,7 +524,7 @@ static const u8 *const sChooseTrainerTexts[NUM_LINK_GROUP_TYPES] =
 ALIGNED(4) static const u8 sText_SearchingForWirelessSystemWait[] = _("搜索一个无线通讯系统。\n等待……");
 ALIGNED(4) static const u8 sText_MustHaveTwoMonsForDoubleBattle[] = _("参加双打对战，您至少要有\n2只宝可梦。\p"); // Unused
 ALIGNED(4) static const u8 sText_AwaitingPlayersResponse[] = _("等待{STR_VAR_1}的回复……");
-ALIGNED(4) static const u8 sText_PlayerHasBeenAskedToRegisterYouPleaseWait[] = _("{STR_VAR_1}想要登记您\n为成员。请稍后。");
+ALIGNED(4) static const u8 sText_PlayerHasBeenAskedToRegisterYouPleaseWait[] = _("{STR_VAR_1}想要登记您\n为成员。请稍候。");
 ALIGNED(4) static const u8 sText_AwaitingResponseFromWirelessSystem[] = _("等待\n从无线通讯系统来的回复。");
 ALIGNED(4) static const u8 sText_PleaseWaitForOtherTrainersToGather[] = _("请等待其他训练师\n加入并准备完毕。"); // Unused
 ALIGNED(4) static const u8 sText_NoCardsSharedRightNow[] = _("好像没有卡片\n正在共享。");
@@ -556,11 +556,11 @@ ALIGNED(4) static const u8 sText_BerryPicking[] = _("摘树果");
 ALIGNED(4) static const u8 sText_Search[] = _("搜索");
 ALIGNED(4) static const u8 sText_BerryBlender[] = _("树果混合机");
 ALIGNED(4) static const u8 sText_RecordCorner[] = _("联机俱乐部");
-ALIGNED(4) static const u8 sText_CoolContest[] = _("帅气组");
-ALIGNED(4) static const u8 sText_BeautyContest[] = _("美丽组");
-ALIGNED(4) static const u8 sText_CuteContest[] = _("可爱组");
-ALIGNED(4) static const u8 sText_SmartContest[] = _("聪明组");
-ALIGNED(4) static const u8 sText_ToughContest[] = _("强壮组");
+ALIGNED(4) static const u8 sText_CoolContest[] = _("帅气华丽大赛");
+ALIGNED(4) static const u8 sText_BeautyContest[] = _("美丽华丽大赛");
+ALIGNED(4) static const u8 sText_CuteContest[] = _("可爱华丽大赛");
+ALIGNED(4) static const u8 sText_SmartContest[] = _("聪明华丽大赛");
+ALIGNED(4) static const u8 sText_ToughContest[] = _("强壮华丽大赛");
 ALIGNED(4) static const u8 sText_BattleTowerLv50[] = _("Lv. 50级对战塔");
 ALIGNED(4) static const u8 sText_BattleTowerOpenLv[] = _("自由等级对战塔");
 ALIGNED(4) static const u8 sText_ItsNormalCard[] = _("这是普通卡。");

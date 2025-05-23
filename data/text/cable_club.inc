@@ -249,13 +249,13 @@ CableClub_Text_ExplainBattleModes::
     .string "一共有3种不同的对战模式。\p单打模式中每位选手\n至少带上1只宝可梦。\p对战开始时每位选手同时放出\n1只宝可梦。\p双打模式中2位选手各自\n至少带上2只宝可梦。\p对战开始时2位选手同时放出\n2只宝可梦。\p混战模式中4位选手各自\n至少带上1只宝可梦。\p对战开始时每位选手\n同时放出1只宝可梦。$"
 
 CableClub_Text_ChooseGroupLeaderOfTwo::
-    .string "请决定您们中的谁会成为\n队长。\p其他的人就得选择\n“加入队伍。”$"
+    .string "请决定您们中的谁会成为\n队长。\p其他的人请选择\n“加入队伍。”$"
 
 CableClub_Text_ChooseGroupLeaderOfFour::
-    .string "请决定您们中的谁会成为\n队长。\p其他的人就得选择\n“加入队伍。”$"
+    .string "请决定您们中的谁会成为\n队长。\p其他的人请选择\n“加入队伍。”$"
 
 CableClub_Text_ChooseGroupLeader::
-    .string "请决定您们中的谁会成为\n队长。\p其他的人就得选择\n“加入队伍。”$"
+    .string "请决定您们中的谁会成为\n队长。\p其他的人请选择\n“加入队伍。”$"
 
 CableClub_Text_WelcomeUnionRoomEnter::
     .string "欢迎来到宝可梦无线连接\n俱乐部联盟交谊厅。\p在这里您可以和一些\n甚至您不认识的人\l进行交流。\p您想进来吗？$"

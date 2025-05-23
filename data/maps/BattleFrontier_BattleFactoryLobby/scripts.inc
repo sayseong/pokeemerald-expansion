@@ -392,7 +392,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
     .string "交换式对战双打锦标赛\n是一种只能使用租借的宝可梦\l进行双打对战的比赛。\p首先，您将获得3只专门为本次比赛\n提供的租借宝可梦。\p您需要用这些提供的租借宝可梦，\n进行一场双打对战。\p如果获胜，您可以将其中1只\n租借宝可梦交换掉。\p如此反复进行对战与交换——\n如果您能连续获胜7次，\l我们将向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead:
-    .string "恭喜您击败了\n工厂头目并\l连续赢得了7场比赛！$"
+    .string "恭喜您击败了工厂头目\n并连续赢得了7场比赛！$"
 
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints:
     .string "为了表彰您拥有的知识财富\n以及非凡的智慧，\l我们将向您呈上对战点数。$"

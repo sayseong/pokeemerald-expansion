@@ -183,7 +183,7 @@ static EWRAM_DATA struct ItemStorageMenu *sItemStorageMenu = NULL;
 
 static const u8 sText_WithdrawItem[] = _("取出道具");
 static const u8 sText_DepositItem[] = _("存放道具");
-static const u8 sText_TossItem[] = _("丢弃道具");
+static const u8 sText_TossItem[] = _("扔掉道具");
 static const u8 sText_Mailbox[] = _("邮件箱");
 
 static const u8 sText_WithdrawHowManyItems[] = _("要取出多少个\n{STR_VAR_1}呢？");
@@ -195,7 +195,7 @@ static const u8 *const sItemStorage_OptionDescriptions[] =
 {
     [MENU_WITHDRAW] = COMPOUND_STRING("从电脑中\n取出道具。"),
     [MENU_DEPOSIT]  = COMPOUND_STRING("将道具\n放入电脑中。"),
-    [MENU_TOSS]     = COMPOUND_STRING("丢弃电脑中\n存放的道具。"),
+    [MENU_TOSS]     = COMPOUND_STRING("扔掉电脑中\n存放的道具。"),
     [MENU_EXIT]     = gText_GoBackPrevMenu,
 };
 
@@ -242,7 +242,7 @@ const struct MenuAction gMailboxMailOptions[] =
 {
     { COMPOUND_STRING("阅读"),        {Mailbox_DoMailRead} },
     { COMPOUND_STRING("放入包包"), {Mailbox_MoveToBag} },
-    { COMPOUND_STRING("给予"),        {Mailbox_Give} },
+    { COMPOUND_STRING("携带"),        {Mailbox_Give} },
     { gText_Cancel2,                  {Mailbox_Cancel} }
 };
 

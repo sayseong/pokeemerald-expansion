@@ -311,7 +311,7 @@ LittlerootTown_MaysHouse_2F_EventScript_TurnOffPlayerPC::
 	end
 
 RivalsHouse_2F_Text_MayWhoAreYou:
-    .string "哎？\n你……你是谁？\p…… …… …… ……\n…… …… …… ……\p哦，你就是{PLAYER}{KUN}吧。\n你今天刚搬过来对吧？\p我……我是小遥，\n请多关照！\p我……\n我的梦想是和全世界的\l宝可梦当朋友。\p爸爸……小田卷博士\n说过你的事，{PLAYER}{KUN}，\p我一直想着要是我们能\n成为好朋友就好了，{PLAYER}{KUN}。\p啊，明明才第一次和你说话，我居然一直在自言自语。\n。\p嘿嘿……\p糟糕！我忘了！\p我还得去帮爸爸捕捉\n野生宝可梦！\p{PLAYER}{KUN}，回头见！$"
+    .string "哎？\n你……你是谁？\p…… …… …… ……\n…… …… …… ……\p哦，你就是{PLAYER}{KUN}吧。\n你今天刚搬过来对吧？\p我……我是小遥，\n请多关照！\p我……\n我的梦想是和全世界的\l宝可梦当朋友。\p爸爸……小田卷博士\n说过你的事，{PLAYER}{KUN}，\p我一直想着要是我们能\n成为好朋友就好了，{PLAYER}{KUN}。\p啊，明明才第一次和你说话，\n我居然一直在自言自语。\n。\p嘿嘿……\p糟糕！我忘了！\p我还得去帮爸爸捕捉\n野生宝可梦！\p{PLAYER}{KUN}，回头见！$"
 
 RivalsHouse_2F_Text_MayGettingReady:
     .string "宝可梦的体力完全回复了……\n道具也都准备好了，还有……$"

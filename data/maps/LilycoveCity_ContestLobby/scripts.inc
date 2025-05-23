@@ -1025,7 +1025,7 @@ LilycoveCity_ContestLobby_Text_ContestFeastForEyes:
     .string "哇，观看华丽大赛\n简直是场视觉盛宴！\p你看过那些\n画里的宝可梦吗？$"
 
 LilycoveCity_ContestLobby_Text_ToughContestIsExtreme:
-    .string "强壮组华丽大赛的\n表演非常非常精彩！\p那摄人心魂的魅力……\n瀑布般的汗水……我要晕倒了！$"
+    .string "强壮华丽大赛的\n表演非常非常精彩！\p那摄人心魂的魅力……\n瀑布般的汗水……我要晕倒了！$"
 
 LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
     .string "我花费了大量精力\n日日夜夜照顾这只宝可梦，\p现在它的状态已经达到了巅峰。\n今天，胜利是属于我的！$"

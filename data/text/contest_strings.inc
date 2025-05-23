@@ -6,13 +6,13 @@ gText_AppealNumWhichMoveWillBePlayed::
 
 gText_AppealNumButItCantParticipate::
 	.string "第{STR_VAR_1}回合的表演！\n"
-	.string "但是不能参加！$"
+	.string "但是无法参加！$"
 @{STR_VAR_1}かいめのアピール！
 @しかしさんかできない！
 
 gText_MonAppealedWithMove::
 	.string "{STR_VAR_1}使用了\n"
-	.string "{STR_VAR_2}来表演！$"
+	.string "{STR_VAR_2}进行表演！$"
 @{STR_VAR_1}は
 @{STR_VAR_2}でアピール！
 
@@ -28,14 +28,14 @@ gText_AllOutOfAppealTime::
 
 @ Appeal result texts
 gText_BecameMoreConsciousOfOtherMons::
-    .string "其它宝可梦相比平常，\n"
+    .string "其它宝可梦比平时\n"
     .string "变得更担心了起来！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @ほかの　ポケモンが　いつもより
 @きに　なって　きた！
 
 gText_MonCantMakeAnAppealAfterThis::
-    .string "{STR_VAR_1}在这之后\n"
-    .string "就不能登台表演了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}此后\n"
+    .string "都无法再次登台表演了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}は　このあと
 @アピール　できなく　なった！
 
@@ -64,19 +64,19 @@ gText_StoppedCaringAboutOtherMons::
 @きに　しないように　なった！
 
 gText_TriedToStartleOtherMons::
-	.string "它想要把其他的\n"
+	.string "它试图把其他的\n"
 	.string "宝可梦吓一跳！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @ほかの　ポケモンを
 @びっくり　させようと　した！
 
 gText_TriedToDazzleOthers::
-    .string "它想要让大家\n"
+    .string "它试图让大家\n"
     .string "都变得眼花起来！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @みんなの　めを
 @くらませようと　した！
 
 gText_JudgeLookedAwayFromMon::
-    .string "审查员的目光\n"
+    .string "评委的目光\n"
     .string "从{STR_VAR_1}身上移开了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @しんさいんは　{STR_VAR_1}から
 @めを　そらして　しまった！
@@ -94,14 +94,14 @@ gText_MonBecameNervous::
 @きんちょう　してしまった！
 
 gText_AppealTriedToUnnerveWaitingMons::
-    .string "它想让所有没有表演的\n"
+    .string "它试图让所有之后表演的\n"
     .string "宝可梦紧张！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @アピールが　まだの　ポケモンを
 @きんちょう　させようと　した！
 
 gText_TauntedMonsDoingWell::
-    .string "它试着去嘲笑捉弄那些\n"
-    .string "气势还不错的宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它试着去捉弄那些\n"
+    .string "气势良好的宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @ちょうしが　いい　ポケモンを
 @からかってみた！
 
@@ -112,32 +112,32 @@ gText_MonRegainedItsForm::
 @もとに　もどって　しまった！
 
 gText_TriedToJamMonDoingWell::
-    .string "它想去打扰那些\n"
-    .string "气势还不错的宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它试图干扰那些\n"
+    .string "气势良好的宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @ちょうしが　いい　ポケモンの
 @じゃまを　しようと　した！
 
 gText_StandoutMonHustledEvenMore::
-	.string "本来就十分显眼的{STR_VAR_1}\n"
+	.string "本来就十分引人注目的{STR_VAR_1}\n"
 	.string "更是鼓足了干劲！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @めだっている　{STR_VAR_1}は
 @さらに　はりきった！
 
 gText_LargelyUnnoticedMonWorkedHard::
-    .string "本来不太显眼的{STR_VAR_1}\n"
+    .string "本来不太引人注目的{STR_VAR_1}\n"
     .string "加油努力了起来！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @めだっていない　{STR_VAR_1}は
 @がんばりまくった！
 
 gText_WorkedAsMuchAsMonBefore::
     .string "它鼓足了不会输给\n"
-    .string "前面宝可梦们程度的干劲！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "前面所有宝可梦程度的干劲！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @まえの　ポケモンたちに
 @まけないくらい　はりきった！
 
 gText_MonsAppealDidNotGoWell::
-    .string "{STR_VAR_1}并没有\n"
-    .string "展示表演出自己的水平！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "没能成功奏效！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}は　アピールを
 @うまく　みせられなかった！
 
@@ -148,32 +148,32 @@ gText_WorkedAsMuchAsPrecedingMon::
 @おなじくらい　はりきった！
 
 gText_MonsAppealDidNotGoWell2::
-    .string "{STR_VAR_1}并没有\n"
-    .string "展示表演出自己的水平！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "没能成功奏效！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}は　アピールを
 @うまく　みせられなかった！
 
 gText_MonsAppealDidNotGoWell3::
-    .string "{STR_VAR_1}并没有\n"
-    .string "展示表演出自己的水平！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "没能成功奏效！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}は　アピールを
 @うまく　みせられなかった！
 
 gText_MonsAppealWentSlightlyWell::
     .string "{STR_VAR_1}的表演\n"
-    .string "做得有点可以！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "做得还算可以！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}の　アピールは
 @すこし　うまく　いった！
 
 gText_MonsAppealWentPrettyWell::
     .string "{STR_VAR_1}的表演\n"
-    .string "做得还算不错！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "做得不错！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}の　アピールは
 @まあまあ　うまく　いった！
 
 gText_MonsAppealWentExcellently::
     .string "{STR_VAR_1}的表演\n"
-    .string "做得非常不错！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "做得非常出色！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}の　アピールは
 @とても　うまく　いった！
 
@@ -191,37 +191,37 @@ gText_MonsAppealDidNotWorkVeryWell::
 
 gText_MonsAppealWentSlightlyWell2::
     .string "{STR_VAR_1}的表演\n"
-    .string "做得有点可以！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "做得还算可以！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}の　アピールは
 @すこし　うまく　いった！
 
 gText_MonsAppealWentPrettyWell2::
     .string "{STR_VAR_1}的表演\n"
-    .string "做得还算不错！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "做得不错！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}の　アピールは
 @まあまあ　うまく　いった！
 
 gText_MonsAppealWentVeryWell::
     .string "{STR_VAR_1}的表演\n"
-    .string "做得相当可以！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "做得很好！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}の　アピールは
 @かなり　うまく　いった！
 
 gText_MonsAppealWentExcellently2::
     .string "{STR_VAR_1}的表演\n"
-    .string "做得非常不错！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "做得非常出色！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}の　アピールは
 @とても　うまく　いった！
 
 gText_SameTypeAsOneBeforeGood::
     .string "因为和前面的宝可梦\n"
-    .string "一样类型而受到喜欢！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "类别一致而受到喜欢！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @まえの　ポケモンと
 @おなじタイプで　きにいられた！
 
 gText_NotSameTypeAsOneBeforeGood::
     .string "因为和前面的宝可梦\n"
-    .string "类型不同而受到喜欢！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "类别不同而受到喜欢！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @まえの　ポケモンと
 @ちがうタイプで　きにいられた！
 
@@ -239,12 +239,12 @@ gText_DidntDoAsWellAsMonBefore::
 
 gText_MonsConditionRoseAboveUsual::
     .string "{STR_VAR_1}的气势\n"
-    .string "相比平常有所提升！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "比平时有所提升！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}の　ちょうしが
 @いつもより　あがった！
 
 gText_MonsHotStatusMadeGreatAppeal::
-    .string "{STR_VAR_1}气势不错\n"
+    .string "{STR_VAR_1}气势不错，\n"
     .string "表演变得棒极了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}は　ちょうしが　よくて
 @ぜっこうの　アピールに　なった！
@@ -268,7 +268,7 @@ gText_ScrambledUpOrderForNextTurn::
 @おかしく　した！
 
 gText_JudgeLookedAtMonExpectantly::
-	.string "审查员满怀期待地\n"
+	.string "评委满怀期待地\n"
 	.string "看着{STR_VAR_1}！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @しんさいんが　きたいして
 @{STR_VAR_1}を みつめた！
@@ -281,7 +281,7 @@ gText_AppealComboWentOverWell::
 
 gText_AppealComboWentOverVeryWell::
     .string "前后两场表演的组合\n"
-	.string "相当受大家喜欢！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "很受大家喜欢！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @アピールの　くみあわせが
 @かなり　きに　いられた！
 
@@ -316,7 +316,7 @@ gText_MonBecameALittleDistracted::
 @きを　とられて　しまった！
 
 gText_TriedToStartleOtherPokemon::
-	.string "它想要把其他的\n"
+	.string "它试图把其他的\n"
 	.string "宝可梦吓一跳！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @ほかの　ポケモンを
 @びっくり　させようと　した！
@@ -353,7 +353,7 @@ gText_MonTrippedOutOfDistraction::
 
 gText_MonWasTooNervousToMove::
 	.string "{STR_VAR_1}因为紧张\n"
-	.string "不能使用招式表演了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "无法使用招式表演了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}は　きんちょうして
 @アピールが　できなかった！
 
@@ -368,8 +368,8 @@ gText_ButItFailedToMakeTargetNervous::
 @させられなかった！
 
 gText_ButItFailedToMakeAnyoneNervous::
-	.string "但是场上的宝可梦们\n"
-	.string "谁都没有紧张！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "但是场上的所有宝可梦\n"
+	.string "全都没有紧张！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @でも　だれも
 @きんちょう　しなかった！
 
@@ -409,7 +409,7 @@ gText_MonsXWentOverGreat::
 
 gText_MonsXDidntGoOverWell::
 	.string "{STR_VAR_1}的{STR_VAR_3}表演\n"
-	.string "在这里不被接受……{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "在这里不受欢迎……{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}の　{STR_VAR_3}が
 @ここでは　うけなかった…
 
@@ -420,8 +420,8 @@ gText_MonsXGotTheCrowdGoing::
 @まわりが　もりあがった！
 
 gText_MonCantAppealNextTurn::
-	.string "{STR_VAR_1}不能参加\n"
-    .string "之后的表演了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}无法参加\n"
+    .string "下一次的表演了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @{STR_VAR_1}は　つぎの　アピールに
 @さんか　できなくなった！
 

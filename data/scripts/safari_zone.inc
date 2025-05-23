@@ -139,7 +139,7 @@ Route121_SafariZoneEntrance_Text_ThatWillBe500Please:
 	.string "请先付¥500。$"
 
 Route121_SafariZoneEntrance_Text_HereAreYourSafariBalls:
-	.string "请收好您的狩猎球。$"
+	.string "请拿好您的狩猎球。$"
 
 Route121_SafariZoneEntrance_Text_Received30SafariBalls:
 	.string "{PLAYER}得到30个狩猎球。$"

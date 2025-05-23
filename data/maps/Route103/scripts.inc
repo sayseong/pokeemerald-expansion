@@ -304,7 +304,7 @@ Route103_Text_BrendanRoute103Pokemon:
     .string "小悠：好，原来103号道路上\n的宝可梦有这个和这个……$"
 
 Route103_Text_BrendanLetsBattle:
-    .string "嗨，{PLAYER}！\p……这样啊，爸爸给你了一只宝可梦吗？\p这样正好，\n我们来一场对战吧？\p我来教你如何\n成为一名训练家！$"
+    .string "嗨，{PLAYER}！\p……这样啊，\n爸爸给你了一只宝可梦吗？\p这样正好，\n我们来一场对战吧？\p我来教你如何\n成为一名训练家！$"
 
 Route103_Text_BrendanDefeated:
     .string "呵，{PLAYER}，你还挺厉害的嘛。$"
