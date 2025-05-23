@@ -692,7 +692,7 @@ const u8 *const gContestEffectDescriptionPointers[] =
 {
     [CONTEST_EFFECT_HIGHLY_APPEALING]                      = COMPOUND_STRING("能够吸引人的表演。"),
     [CONTEST_EFFECT_USER_MORE_EASILY_STARTLED]             = COMPOUND_STRING("虽然能够演出很好的表演，\n但是之后会更容易受到干扰。"),
-    [CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES]        = COMPOUND_STRING("极具吸引力的表演，\n但是之后就不能再做任何事情了。"),
+    [CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES]        = COMPOUND_STRING("极具吸引力的表演，\n但是之后就做不了任何事了。"),
     [CONTEST_EFFECT_REPETITION_NOT_BORING]                 = COMPOUND_STRING("即使重复演出也不会\n让评委感到无聊。"),
     [CONTEST_EFFECT_AVOID_STARTLE_ONCE]                    = COMPOUND_STRING("即使被之后的宝可梦干扰\n也会挺住一次。"),
     [CONTEST_EFFECT_AVOID_STARTLE]                         = COMPOUND_STRING("即使被之后的宝可梦干扰\n也会挺住。"),
