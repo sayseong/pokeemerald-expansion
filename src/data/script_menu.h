@@ -92,7 +92,7 @@ static const struct MenuAction MultichoiceList_YesNoInfo2[] =
 static const struct MenuAction MultichoiceList_ChallengeInfo[] =
 {
     {COMPOUND_STRING("挑战")},
-    {COMPOUND_STRING("说明")},
+    {COMPOUND_STRING("听说明")},
     {gText_Exit},
 };
 
