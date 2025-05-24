@@ -1417,7 +1417,7 @@ LilycoveCity_ContestLobby_Text_ExplainContests:
 	.string "招式展示进行表演。\p"
 	.string "您应该精心设计您的\n"
 	.string "宝可梦的表演招式\l"
-	.string "以获得更高的评价。\l"
+	.string "以获得更高的评价。\p"
 	.string "最后将第1次和第2次的成绩\n"
 	.string "相加作为最终的总成绩。\p"
 	.string "总成绩最高的宝可梦\n"
@@ -1433,7 +1433,7 @@ LilycoveCity_ContestLobby_Text_ExplainContestTypes:
 LilycoveCity_ContestLobby_Text_ExplainContestRanks:
 	.string "在华丽大赛中共有4个\n"
 	.string "不同的级别。\p"
-	.string "分别是普通级，高手级，究极级\n"
+	.string "分别是普通级、高手级、究极级\n"
 	.string "和大师级。\p"
 	.string "任何宝可梦都可以参加\n"
 	.string "华丽大赛的普通级。\p"
@@ -1441,9 +1441,8 @@ LilycoveCity_ContestLobby_Text_ExplainContestRanks:
 	.string "就获得了参加同一类别的\l"
 	.string "华丽大赛的高手级的资格。\p"
 	.string "依此类推，获得高手级比赛胜利的\n"
-	.string "就能参加华丽大赛的究极级，\l"
-	.string "究极级比赛胜利的\l"
-	.string "就能参加华丽大赛的大师级。\p"
+	.string "就能参加究极级，究极级比赛胜利\l"
+	.string "的就能参加大师级。\p"
 	.string "而大师级比赛中获胜的宝可梦\n"
 	.string "可以随意再次参加华丽大赛的大师级。$"
 
@@ -1734,8 +1733,8 @@ LilycoveCity_ContestLobby_Text_ExplainEMode:
 	.string "如果玩家数量少于4人，\n"
 	.string "那么在会场里的训练家就会\l"
 	.string "作为补充参加到华丽大赛中。\p"
-	.string "要注意的是使用红宝石\n"
-	.string "和蓝宝石的玩家不能使用E模式。$"
+	.string "要注意的是使用红/蓝宝石卡带\n"
+	.string "的玩家不能使用E模式。$"
 
 LilycoveCity_ContestLobby_Text_ExplainGMode:
 	.string "G模式(全球模式)专供\n"
@@ -1744,8 +1743,8 @@ LilycoveCity_ContestLobby_Text_ExplainGMode:
 	.string "每名玩家都需要持有\n"
 	.string "红/蓝/绿宝石中的任意卡带。\p"
 	.string "华丽大赛将在所有玩家\n"
-	.string "选择了G模式后(绿宝石)，或是\l"
-	.string "在连接前台报名后(红/蓝宝石)\l"
+	.string "选择了G模式后(绿宝石)，\l"
+	.string "或是在连接前台报名后(红/蓝宝石)\l"
 	.string "正式开始。$"
 
 LilycoveCity_ContestLobby_Text_NoWirelessAdapterInGMode:

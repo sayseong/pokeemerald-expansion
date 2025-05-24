@@ -12201,9 +12201,9 @@ const struct Item gItemsInfo[] =
         .name = _("船票"),
         .price = 0,
         .description = COMPOUND_STRING(
-			"乘坐圣特安努号时\n"
-			"所需的船票。上面\n"
-			"绘有船的图案。"),
+			"乘坐渡船时需要用\n"
+			"到的船票。上面绘\n"
+			"有船只的图案。"),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,

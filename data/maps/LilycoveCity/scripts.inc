@@ -491,7 +491,7 @@ LilycoveCity_Text_StrangeCaveInCove:
     .string "你看到镇子边缘的海湾里\n那个可疑的洞窟了吗？$"
 
 LilycoveCity_Text_GoingToMoveDeleterForHMs:
-    .string "我打算教我的宝可梦\n一些新的招式去参加比赛，\p但我得先去遗忘爷爷那儿\n让它忘记秘传学习\l器招式。$"
+    .string "我打算教我的宝可梦\n一些新的招式去参加比赛，\p但我得先去遗忘爷爷那儿\n让它忘记秘传招式。$"
 
 LilycoveCity_Text_ImFromKanto:
     .string "我是从关都来的。\p有着青山碧水的丰缘地区\n真的很美。\p呃？等等……\p也许会有只在这片地区生活的\n稀有宝可梦吧？$"

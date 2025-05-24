@@ -6,19 +6,19 @@ gContestPaintingContest::
     .string "比赛$"
 
 gContestRankNormal::
-    .string "普通组$"
+    .string "普通级$"
 
 gContestRankSuper::
-    .string "超级组$"
+    .string "超级级$"
 
 gContestRankHyper::
-    .string "专家组$"
+    .string "专家级$"
 
 gContestRankMaster::
-    .string "大师组$"
+    .string "大师级$"
 
 gContestLink::
-    .string "联机$"
+    .string "连接$"
 
 gContestCoolness::
     .string "帅气$"
