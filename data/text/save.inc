@@ -4,8 +4,8 @@ gText_ConfirmSave::
 	.string "冒险记录吗？$"
 
 gText_AlreadySavedFile::
-	.string "要覆盖写入上次保存的\n"
-	.string "记录，可以吗？$"
+	.string "需要覆盖写入上次的\n"
+	.string "保存记录，可以吗？$"
 
 gText_SavingDontTurnOff::
 	.string "正在写入记录……\n"

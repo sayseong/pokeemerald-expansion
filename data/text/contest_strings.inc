@@ -118,14 +118,14 @@ gText_TriedToJamMonDoingWell::
 @じゃまを　しようと　した！
 
 gText_StandoutMonHustledEvenMore::
-	.string "本来就十分引人注目的{STR_VAR_1}\n"
-	.string "更是鼓足了干劲！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "本来就引人注目的\n"
+	.string "{STR_VAR_1}更加鼓足干劲了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @めだっている　{STR_VAR_1}は
 @さらに　はりきった！
 
 gText_LargelyUnnoticedMonWorkedHard::
-    .string "原本不太引人注目的{STR_VAR_1}\n"
-    .string "加油努力了起来！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "原本不太引人注目的\n"
+    .string "{STR_VAR_1}加油努力了起来！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 @めだっていない　{STR_VAR_1}は
 @がんばりまくった！
 

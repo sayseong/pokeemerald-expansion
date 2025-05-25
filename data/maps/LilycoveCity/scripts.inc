@@ -485,7 +485,7 @@ LilycoveCity_Text_GetLostMessingUpTraining:
     .string "嗯？你想干什么？\p你打扰了我们训练了，\n所以你能不能，那个，赶紧消失啊？$"
 
 LilycoveCity_Text_ContestHallInTown:
-    .string "就在这个镇子里有个\n宝可梦华丽大赛会场，\p全国的悉心培育的宝可梦\n都会在这里聚集。\p我已经激动得心跳加速了！$"
+    .string "这个城镇里就有个\n宝可梦华丽大赛会场，\p全国的悉心培育的宝可梦\n都会在这里聚集。\p我已经激动得心跳加速了！$"
 
 LilycoveCity_Text_StrangeCaveInCove:
     .string "你看到镇子边缘的海湾里\n那个可疑的洞窟了吗？$"
@@ -560,7 +560,7 @@ LilycoveCity_Text_FasterSpinBetterPokeblocks:
     .string "大家要齐心合力\n让它转得更快。\p据说它转得越快，\n得到的宝可方块就越好。$"
 
 LilycoveCity_Text_ExplainBerryBlender:
-    .string "它是用来制作一种\n叫做宝可方块的树果的。\p如果给宝可梦吃优质宝可方块，\n它的外貌会有很大成长。$"
+    .string "它是用来制作一种\n叫做宝可方块的糖果的。\p如果给宝可梦吃优质宝可方块，\n它的状态会有很大的提升。$"
 
 LilycoveCity_Text_HeardTowerCalledSkyPillar:
     .string "据说水路某处\n有座塔，\p叫做天空之柱。$"
