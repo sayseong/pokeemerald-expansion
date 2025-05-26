@@ -554,7 +554,7 @@ LilycoveCity_Text_MoveDeletersHouseSign:
     .string "遗忘爷爷的家\p“让宝可梦忘记不需要的招式。”$"
 
 LilycoveCity_Text_DoYouKnowAboutBerryBlender:
-    .string "你知道那个叫\n树果混合器的机器吗？$"
+    .string "你知道叫做树果混合器\n的机器吗？$"
 
 LilycoveCity_Text_FasterSpinBetterPokeblocks:
     .string "大家要齐心合力\n让它转得更快。\p据说它转得越快，\n得到的宝可方块就越好。$"

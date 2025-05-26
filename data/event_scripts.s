@@ -916,7 +916,7 @@ gText_PlayerHouseBootPC::
 	.string "{PLAYER}登录了电脑。$"
 
 gText_PokeblockLinkCanceled::
-	.string "连接停止了。$"
+	.string "已取消连接。$"
 
 gText_UnusedNicknameReceivedPokemon::
 	.string "要给刚收服的\n"

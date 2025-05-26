@@ -560,7 +560,7 @@ MauvilleCity_PokemonCenter_1F_Text_RouletteWinsAction::
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "他的轮盘记录是\n"
+	.string "他的轮盘纪录是\n"
 	.string "{STR_VAR_1}连胜。\p"
 	.string "滚珠在轮盘中转动时{STR_VAR_3}\n"
 	.string "是最幸运的！$"

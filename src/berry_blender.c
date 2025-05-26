@@ -286,7 +286,7 @@ static const u8 sText_Dot[] = _(".");
 static const u8 sText_NewLine[] = _("\n");
 static const u8 sText_Ranking[] = _("排名");
 static const u8 sText_TheLevelIs[] = _("等级是");
-static const u8 sText_TheFeelIs[] = _("级，光滑度是");
+static const u8 sText_TheFeelIs[] = _("级，细腻度是");
 static const u8 sText_Dot2[] = _("。");
 
 static const struct BgTemplate sBgTemplates[3] =
