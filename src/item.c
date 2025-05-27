@@ -93,20 +93,21 @@ const u8 sText_s[] =_("s");
 
 u8 *CopyItemNameHandlePlural(u16 itemId, u8 *dst, u32 quantity)
 {
+    return StringCopy(dst, GetItemName(itemId));
     //修改，删去英文中出现于词汇末尾的「s」
-    if (quantity == 1)
-    {
-        return StringCopy(dst, GetItemName(itemId));
-    }
-    else if (DoesItemHavePluralName(itemId))
-    {
-        return StringCopy(dst, GetItemPluralName(itemId));
-    }
-    else
-    {
-        u8 *end = StringCopy(dst, GetItemName(itemId));
-        return StringCopy(end, sText_s);
-    }
+    // if (quantity == 1)
+    // {
+    //     return StringCopy(dst, GetItemName(itemId));
+    // }
+    // else if (DoesItemHavePluralName(itemId))
+    // {
+    //     return StringCopy(dst, GetItemPluralName(itemId));
+    // }
+    // else
+    // {
+    //     u8 *end = StringCopy(dst, GetItemName(itemId));
+    //     return StringCopy(end, sText_s);
+    // }
 }
 
 bool8 IsBagPocketNonEmpty(u8 pocket)
