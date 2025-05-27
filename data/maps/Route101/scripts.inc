@@ -270,7 +270,7 @@ Route101_Text_DontLeaveMe:
     .string "你、你要去哪儿？！\n别丢下我啊——！$"
 
 Route101_Text_YouSavedMe:
-    .string "小田卷博士：哈啊哈啊……\p我刚想在草丛做调查，\n被野生的宝可梦袭击了……\p总之得救了，\n谢谢你！\p咦？\p你不是{PLAYER}{KUN}吗？\p这儿不是聊天的地方，\n跟我来宝可梦研究所吧？$"
+    .string "小田卷博士：哈啊哈啊……\p我刚想在草丛做调查，\n就被野生的宝可梦袭击了……\p总之得救了，\n谢谢你！\p咦？\p你不是{PLAYER}{KUN}吗？\p这儿不是聊天的地方，\n跟我来宝可梦研究所吧？$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
     .string "宝可梦累了的话，\n就要带它们去宝可梦中心。\p附近的古玫镇里\n就有个宝可梦中心。$"

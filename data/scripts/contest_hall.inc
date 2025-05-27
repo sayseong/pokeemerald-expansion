@@ -1567,7 +1567,7 @@ ContestHall_Text_CongratsPleaseCompeteAgain:
 	.string "期待您下次再参加！$"
 
 ContestHall_Text_AcceptYourPrize:
-	.string "主持：请收下\n"
+	.string "主持：请来领取\n"
 	.string "您的奖品！$"
 
 ContestHall_Text_ConferRibbonAsPrize:

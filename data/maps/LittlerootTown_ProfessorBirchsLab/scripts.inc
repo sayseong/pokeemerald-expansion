@@ -679,7 +679,7 @@ LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
     .string "小田卷博士：要不要顺便给这只{STR_VAR_1}\n起个昵称呢？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
-    .string "小田卷博士：如果你努力培育宝可梦积累经验，\n一定会成为一名优秀的训练家。\p我的孩子{RIVAL}也在一边当我的助手，\n一边研究宝可梦。\p{PLAYER}{KUN}，\n去见见{RIVAL}怎么样？$"
+    .string "小田卷博士：如果你努力培育宝可梦\n积累经验，一定会成为一名\l优秀的训练家。\p我的孩子{RIVAL}也在一边当我的助手，\n一边研究宝可梦。\p{PLAYER}{KUN}，\n去见见{RIVAL}怎么样？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
     .string "小田卷博士：太好了！\n{RIVAL}肯定会很高兴的！\p让{RIVAL}教教你\n成为训练家的意义吧。$"
