@@ -106,7 +106,7 @@ u8 *CopyItemNameHandlePlural(u16 itemId, u8 *dst, u32 quantity)
     {
         u8 *end = StringCopy(dst, GetItemName(itemId));
         return StringCopy(end, sText_s);
-    }*/
+    }
 }
 
 bool8 IsBagPocketNonEmpty(u8 pocket)
@@ -876,7 +876,7 @@ u32 GetItemPrice(u16 itemId)
     return gItemsInfo[SanitizeItemId(itemId)].price;
 }
 
-/*static bool32 DoesItemHavePluralName(u16 itemId)
+static bool32 DoesItemHavePluralName(u16 itemId)
 {
     return (gItemsInfo[SanitizeItemId(itemId)].pluralName[0] != '\0');
 }
@@ -884,7 +884,7 @@ u32 GetItemPrice(u16 itemId)
 static const u8 *GetItemPluralName(u16 itemId)
 {
     return gItemsInfo[SanitizeItemId(itemId)].pluralName;
-}*/
+}
 
 const u8 *GetItemEffect(u32 itemId)
 {
