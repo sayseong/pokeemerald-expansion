@@ -72,7 +72,7 @@ const u8 DecorDesc_FENCE_WIDTH[] = _("小型的栅栏，\n无法加以通过");
 
 const u8 DecorDesc_TIRE[] = _("老旧的大型轮胎，\n上面可放置东西");
 
-const u8 DecorDesc_STAND[] = _("踩著阶梯就可以\n爬到台上");
+const u8 DecorDesc_STAND[] = _("踩著台阶就可以\n爬到台上");
 
 const u8 DecorDesc_MUD_BALL[] = _("圆形的泥巴丸子，\n一踩上去就会破掉");
 
@@ -80,9 +80,9 @@ const u8 DecorDesc_BREAKABLE_DOOR[] = _("可以穿越通过的\n奇怪门板");
 
 const u8 DecorDesc_SAND_ORNAMENT[] = _("一碰触就会崩塌的\n摆饰物品");
 
-const u8 DecorDesc_SILVER_SHIELD[] = _("在对战塔战胜\n50人的纪念奖牌");
+const u8 DecorDesc_SILVER_SHIELD[] = _("在对战塔战胜\n50人的纪念盾牌");
 
-const u8 DecorDesc_GOLD_SHIELD[] = _("在对战塔战胜\n100人的纪念奖牌");
+const u8 DecorDesc_GOLD_SHIELD[] = _("在对战塔战胜\n100人的纪念盾牌");
 
 const u8 DecorDesc_GLASS_ORNAMENT[] = _("以玻璃依照美术馆\n里的知名雕刻模仿\n制作而成的东西");
 

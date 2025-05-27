@@ -704,10 +704,10 @@ const u8 gText_Bitter2[] = _("苦");
 const u8 gText_Sour2[] = _("酸");
 const u8 gText_Single[] = _("单打");
 const u8 gText_Double[] = _("双打");
-const u8 gText_Jackpot[] = _("赌注");
-const u8 gText_First[] = _("第一");
-const u8 gText_Second[] = _("第二");
-const u8 gText_Third[] = _("第三");
+const u8 gText_Jackpot[] = _("特等");
+const u8 gText_First[] = _("一等");
+const u8 gText_Second[] = _("二等");
+const u8 gText_Third[] = _("三等");
 #if OW_POISON_DAMAGE < GEN_4
 const u8 gText_PkmnFainted_FldPsn[] = _("{STR_VAR_1}忍住了毒素，\n毒素消退了！\p");
 #else

@@ -17,7 +17,7 @@ LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPartyMon::
     .string "恭喜！\p您携带的{STR_VAR_1}的ID与\n彩票号码相同！$"
 
 LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPCMon::
-    .string "恭喜\p您盒子里的{STR_VAR_1}的ID与\n彩票号码相同！$"
+    .string "恭喜！\p您盒子里的{STR_VAR_1}的ID与\n彩票号码相同！$"
 
 LilycoveCity_DepartmentStore_1F_Text_NoNumbersMatched::
     .string "很遗憾，\n没有找到相符的号码。$"

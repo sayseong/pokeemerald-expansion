@@ -1,95 +1,95 @@
 LilycoveCity_ContestLobby_Text_InterviewRequest::
-    .string "你好！你参加过华丽大赛\n是吗？\l你能说些华丽大赛的事吗。\p我是一个记者。我正在做\n一个华丽大赛的节目。\p如果可以的话我问你几个问题\n你能回答我吗？$"
+    .string "啊，你好！\n你刚参加过华丽大赛对吧？\l从你的宝可梦就能看出来呢。\p我是一名记者，正在做一篇关于\n宝可梦华丽大赛的报道。\p可以请你回答\n几个问题吗？？$"
 
 LilycoveCity_ContestLobby_Text_DescribeContest::
-    .string "你愿意？\n真是太感谢了。\p简单的说，认为你参加的\n比赛怎么样？$"
+    .string "啊，愿意接受采访吗？\n太感谢了。\p简单来说，你怎么看待你刚才\n参加的华丽大赛？$"
 
 LilycoveCity_ContestLobby_Text_WhatImageWhenYouHearX::
-    .string "哦我知道了。\n听起来非常的有教育意义。\p你对现在的华丽大赛\n似乎很满意。\p我还有一个问题。\p当你听到“{STR_VAR_2}，”\n你是怎么想的？$"
+    .string "原来如此。\n真是很有启发的回答。\p让我对这场华丽大赛\n有了很好的了解。\p最后还有一个问题。\p当你听到“{STR_VAR_2}”这个词时，\n脑海中会浮现什么画面？$"
 
 LilycoveCity_ContestLobby_Text_ThatsAllForInterview::
-    .string "原来是这样！\p这就是你是怎么看待\n“{STR_VAR_2}”的啊。\p谢谢了！\n你给了我一些启发。\p我想我现在能够写一篇\n关于华丽大赛的报道了。\p也许，只的也许\n节目会做到电视上。\l希望你能看到他！$"
+    .string "我明白了！\p原来你是这样理解\n“{STR_VAR_2}”的啊。\p非常感谢！\n你给了我很多灵感。\p现在我应该能写出\n一篇精彩的华丽大赛报道了。\p说不定这篇报道还能上电视呢。\n敬请期待哦！$"
 
 LilycoveCity_ContestLobby_Text_PleaseDoShareStoryWithMe::
-    .string "哦真糟糕……\p好吧，如果你能想出一篇好点的\n文章的话，请告诉我吧。$"
+    .string "啊，真遗憾……\p不过如果你遇到精彩的故事，\n请一定要告诉我呀。$"
 
 LilycoveCity_ContestLobby_Text_LookingForwardToNextContest::
-    .string "我很期待你的下一场\n华丽大赛。$"
+    .string "我会期待你下次的\n宝可梦华丽大赛表现。$"
 
 gTVBravoTrainerText00::
-    .string "太好了！\n现在是BRAVO训练家时间！\p今天我们所要介绍的\n主角就是{STR_VAR_1}。\p现在，这只宝可梦在{STR_VAR_2}\n比赛中获得{STR_VAR_3}级别为荣。$"
+    .string "太好了！\n现在是BRAVO训练家时间！\p今天我们所要介绍的\n主角就是{STR_VAR_1}。\p现在，这只宝可梦在{STR_VAR_2}\n比赛中荣获{STR_VAR_3}优胜。$"
 
 gTVBravoTrainerText01::
-    .string "现在开始介绍{STR_VAR_1}的\n{STR_VAR_2}！\p昵称是{STR_VAR_2}……\p即便昵称也在散发\n一种呼喊“{STR_VAR_3}”的气氛啊！$"
+    .string "现在开始介绍{STR_VAR_1}的\n{STR_VAR_2}！\p昵称是{STR_VAR_2}……\p光是昵称就散发着\n一种“{STR_VAR_3}”的气氛啊！$"
 
 gTVBravoTrainerText02::
-    .string "那么，当训练家{STR_VAR_1}\n参加华丽大赛的时候，\l我们获得了一些对于\l可信赖的伙伴的热情对话。$"
+    .string "那么，当训练家{STR_VAR_1}带着\n这只宝可梦参加华丽大赛的时候，\l我们记录了一些关于这位\l可靠的伙伴的热情发言。$"
 
 gTVBravoTrainerText03::
-    .string "后来被问到关于华丽大赛的事时，\n{STR_VAR_1}笑着高兴地回答道：\l“{STR_VAR_2}！”\p当然了，因为{STR_VAR_1}的宝可梦在\n华丽大赛中获得了第{STR_VAR_3}名嘛。\p现在来说，那个台词\n确实非常适合{STR_VAR_1}！$"
+    .string "赛后采访时，\n{STR_VAR_1}带着笑容高兴地答道：\l“{STR_VAR_2}！”\p当然了，因为{STR_VAR_1}的宝可梦在\n华丽大赛中获得了第{STR_VAR_3}名嘛。\p现在来说，那个台词\n确实非常适合{STR_VAR_1}！$"
 
 gTVBravoTrainerText04::
-    .string "后来被问到关于华丽大赛的事时，\n{STR_VAR_1}带着悔恨淡淡地回答道：\l“{STR_VAR_2}！”\p当然了，因为{STR_VAR_1}的宝可梦在\n华丽大赛中获得了第{STR_VAR_3}名嘛。\p{STR_VAR_1}的失望之情\n完全表现其中了！$"
+    .string "赛后采访时，\n{STR_VAR_1}带着苦涩淡淡地答道：\l“{STR_VAR_2}！”\p当然了，因为{STR_VAR_1}的宝可梦在\n华丽大赛中获得了第{STR_VAR_3}名嘛。\p{STR_VAR_1}的失望之情\n完全表现其中了！$"
 
 gTVBravoTrainerText05::
-    .string "你不想知道{STR_VAR_1}\n希望{STR_VAR_2}会变成什么样吗？\p很想知道吧！\n当然，我们问了！\p答案完美地用一句话概括：\n“{STR_VAR_3}！”\p这就是{STR_VAR_1}印象中的\n{STR_VAR_2}的概念！$"
+    .string "你不想知道{STR_VAR_1}\n想象中的{STR_VAR_2}是什么样子吗？\p很想知道吧！\n当然，我们问了！\p答案完美地用一句话概括：\n“{STR_VAR_3}！”\p这就是{STR_VAR_1}心目中\n{STR_VAR_2}代表的意义！$"
 
 gTVBravoTrainerText06::
-    .string "最后{STR_VAR_1}所使用的\n{STR_VAR_2}也全都是\l“{STR_VAR_3}”！$"
+    .string "最后{STR_VAR_1}所使用的\n{STR_VAR_2}完全体现了\l“{STR_VAR_3}”！$"
 
 gTVBravoTrainerText07::
     .string "好啊，{STR_VAR_1}！\n妙啊，{STR_VAR_2}！\p希望我们能看到{STR_VAR_1}\n达到一个更高的水平！\p那么这次就到此为止了！\n我们下次再见！$"
 
 gTVBravoTrainerText08::
-    .string "下面是{STR_VAR_1}的介绍！$"
+    .string "隆重介绍训练家的{STR_VAR_1}！$"
 
 BattleFrontier_BattleTowerLobby_Text_InterviewRequest::
-    .string "啊！你是刚刚结束\n比赛的训练家吧？\p我正在到处收集对\n训练家的采访。\p您能跟我谈一谈\n有关对战的感想吗？$"
+    .string "啊！你是刚刚结束\n比赛的训练家吧？\p我正在到处收集面向\n训练家的采访。\p您能跟我谈一谈\n有关对战的感想吗？$"
 
 BattleFrontier_BattleTowerLobby_Text_HowDidBattleTowerTurnOut::
-    .string "你愿意？真的？\n太感谢了！\l这个……\p今天在对战塔\n有什么收获？\p你对对战还满意吗？\n还是说不怎么开心？$"
+    .string "你愿意？真的？\n太感谢了！\l这个……\p今天在对战塔的\n战况如何？\p你对对战结果满意吗？\n还是不太开心？$"
 
 BattleFrontier_BattleTowerLobby_Text_SorryWeDisturbedYou::
-    .string "哦……\n很抱歉打扰你了。\p希望你下次来对战塔的\n时候能给我们些采访时间。$"
+    .string "哦……\n很抱歉打扰你了。\p下次来对战塔时\n请接受我们的采访吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_ObviousYouHadGreatBattle::
-    .string "好的当然！\p你的脸上流露出了一\n副满意的表情……\p很明显你经历了一场\n奋战。$"
+    .string "啊，当然啦！\p你脸上那显而易见的\n满意的表情……\p很明显你经历了一场\n精彩的对战。$"
 
 BattleFrontier_BattleTowerLobby_Text_DifficultToMakeBattleTurnOutAsPlanned::
-    .string "哦，我知道了……\p想让对战完全按计划\n进行并不是一件容易的事。$"
+    .string "哦，我知道了……\p想让对战完全按计划进行\n并不是件容易的事。$"
 
 BattleFrontier_BattleTowerLobby_Text_DescribeYourBattle::
-    .string "哦我能问你几个问题吗？\p如果你要描述下你\n对于一场对战的看法的\l话你会说些什么？$"
+    .string "哦，能再问你个问题吗？\p如果用一句话描述\n你对这场对战的印象，\l你会说些什么？$"
 
 BattleFrontier_BattleTowerLobby_Text_ThatsGreatLine::
-    .string "太帅了！\p你说得太好了！\n真期待你下一次的对战。\p那么再见了！$"
+    .string "哇，太酷了！\p这句话说得真棒！\n希望你下次也能表现精彩。\p期待再次见到你！$"
 
 BattleFrontier_BattleTowerLobby_Text_SilentType::
-    .string "原来是这样啊……\p不过，即使什么都不说\n也还是很帅啊？\p那么，期待下次能再\n跟你分享你的想法了！$"
+    .string "哦，这样啊……\p不过沉默寡言\n也很酷，对吧？\p希望下次还有机会\n听到你的想法！$"
 
 BattleFrontier_BattleTowerLobby_Text_LookingForwardToNextBattle::
-    .string "我很期待你的下一次\n对战！$"
+    .string "我会期待你的\n下一场战斗！$"
 
 BravoTrainerBattleTower_Text_Intro::
-    .string "太棒了！\n这里是加油训练家时间！\p今天我们将给大家介绍{STR_VAR_1}，\n一位对战塔的挑战者！\p{STR_VAR_1}将要挑战\n实力强劲的{STR_VAR_2}。$"
+    .string "耶！\n这里是Bravo训练家时间！\p今天我们将给大家介绍{STR_VAR_1}，\n一位对战塔的挑战者！\p这次挑战中，{STR_VAR_1}\n使用了一只厉害的{STR_VAR_2}。$"
 
 BravoTrainerBattleTower_Text_NewRecord::
-    .string "在{STR_VAR_1}的比赛中，这对组合\n创造了连胜{STR_VAR_2}的新记录！\l做得真好啊！$"
+    .string "在{STR_VAR_1}的比赛中，这对组合\n创造了{STR_VAR_2}连胜的新纪录！\lBravo，训练家！$"
 
 BravoTrainerBattleTower_Text_Lost::
-    .string "这对组合最终还是屈服在\n{STR_VAR_1}是手上了。\l好样的！\p不过，在挑战赛中这么早\n遇上{STR_VAR_1}还真是倒霉啊。\p我们询问了下关于他们\n和{STR_VAR_1}之间的比赛的感受。$"
+    .string "这对组合最终还是败在\n{STR_VAR_1}手上了。\l虽败犹荣，训练家！\p不过，在挑战赛中这么早\n就遇上{STR_VAR_1}还真是运气不太好。\p我们采访了训练家\n和{STR_VAR_1}之间的比赛的感受。$"
 
 BravoTrainerBattleTower_Text_Won::
-    .string "这对组合彻底地击败了{STR_VAR_1}\n{STR_VAR_2}，获得了完胜。\l厉害啊！\p连{STR_VAR_1}都被击败了……\n这是对信心的挑战！完全的震惊！\p我们询问了下关于他们\n获胜那一瞬间的感受。$"
+    .string "这对组合彻底地击败了{STR_VAR_1}的\n{STR_VAR_2}赢得胜利。\lBravo，训练家！\p居然连{STR_VAR_1}都打败了……\n难以置信！令人震惊！\p我们采访了训练家\n对荣耀时刻的感想。$"
 
 BravoTrainerBattleTower_Text_LostFinal::
-    .string "比赛结束后，这对组合终于\n向{STR_VAR_1}的{STR_VAR_2}屈服了，\l这就是他们最终的决定。\p好样的！\p你们的发挥非常好。\n我们从来就没有见到过像\l{STR_VAR_1}和{STR_VAR_2}一样出色的搭档。\p我们询问了关于打败那对组合\n后他们的感想。$"
+    .string "连胜之后，这对组合终于还是\n败给了{STR_VAR_1}的{STR_VAR_2}，\l止步于此。\p虽败犹荣，训练家！\p不过还是要给予肯定。\n我们很少能见到像{STR_VAR_1}\l和{STR_VAR_2}一样知名的组合。\p我们采访了训练家\n对战知名组合的感想。$"
 
 BravoTrainerBattleTower_Text_Satisfied::
-    .string "他们的回答是：\n“我很满足！”\p这是不是个很爽快的回答呢？\n不愧是训练家！\p能对战到完全满足\n不是非常厉害吗？\p训练家的这些话让我\n完全明白了这种满足感：$"
+    .string "他们的回答是：\n“我很满意！”\p多么令人振奋的回答！\nBravo，训练家！\p能对战到完全满意\n不是非常厉害吗？\p训练家的这些话让我完全\n明白了这种满意的感觉：$"
 
 BravoTrainerBattleTower_Text_Unsatisfied::
-    .string "训练家应该是这么说的：\n“我还没满足……”\p我们的训练家在那发表后\n明显心情有些低落。\p不过，想要在完全满意的\n状态下对战也没那么容易吧？\p不管怎么说，我们的训练家\n总是会以这样一句话来表达懊恼：$"
+    .string "训练家应该是这么说的：\n“我不满意……”\p说这话时我们的训练家\n明显心情有些低落。\p不过，想要在完全满意的\n状态下对战也没那么容易吧？\p总之，训练家的这些话让我\n明白了这种不满意的感觉：$"
 
 BravoTrainerBattleTower_Text_None1::
 	.string "无$"
@@ -107,1100 +107,1098 @@ BravoTrainerBattleTower_Text_Response::
     .string "“{STR_VAR_1}。”$"
 
 BravoTrainerBattleTower_Text_ResponseSatisfied::
-    .string "“{STR_VAR_1}。”\n这不是很棒吗？\p这就是{STR_VAR_2}的那些心得。\n我这样认为。\p和{STR_VAR_3}的那场对战\n……你把他称作\l“{STR_VAR_1}”！$"
+    .string "“{STR_VAR_1}。”\n这不是很棒吗？\p完美表达了{STR_VAR_2}\n此刻的喜悦心情。\p最后和{STR_VAR_3}的那场对战\n……确实配得上\l“{STR_VAR_1}”这个评价！$"
 
 BravoTrainerBattleTower_Text_ResponseUnsatisfied::
-    .string "“{STR_VAR_1}。”\n现在合适了吗？\p和{STR_VAR_3}的那场对战\n……你只能够使用{STR_VAR_1}”\l来描述他吗！\p{STR_VAR_2}看起来越来越失望了\n我想是这样的！$"
+    .string "“{STR_VAR_1}。”\n这也太贴切了吧？\p最后和{STR_VAR_3}的那场对战\n……除了{STR_VAR_1}”之外简直\l找不到更合适的描述了！\p{STR_VAR_2}的失落感\n简直扑面而来呢！$"
 
 BravoTrainerBattleTower_Text_Outro::
-    .string "厉害啊，{STR_VAR_1}！\n厉害啊，{STR_VAR_2}！\p希望下次我们能见识到\n达到更高水平的{STR_VAR_1}！\p这就是我们今天的全部内容！\n下次再见！$"
+    .string "Bravo，{STR_VAR_1}！\nBravo，{STR_VAR_2}！\p期待看到{STR_VAR_1}\n未来再创佳绩！\p本期节目就到这里！\n下次再见！$"
 
 SlateportCity_PokemonFanClub_Text_InterviewRequestHasName::
-    .string "哇哦！\p很显然你在{STR_VAR_1}上。灌注了很多的爱\p嗯……他叫{STR_VAR_2}。\p能问你一个问题吗？\p我是电视台的，我正在做一个\n宝可梦的专题。\p你能够回答我几个简单的\n问题吗？$"
+    .string "哇哦！\p看得出你在你的{STR_VAR_1}\n身上倾注了很多的爱。\p它叫{STR_VAR_2}对吧？\p能帮个忙吗？\p我是电视台记者，\n关于宝可梦的专题采访。\p愿意回答几个\n简单的问题吗？$"
 
 SlateportCity_PokemonFanClub_Text_HereGoesQuickAnswers::
-    .string "太棒了谢谢你！\p好吧走这边吧。\n来做个快速问答怎么样？$"
+    .string "太好了！谢谢！\p那么我们现在开始吧。\n只需要简短回答就行，好吗？$"
 
 SlateportCity_PokemonFanClub_Text_DescribeFeelingsFirstMetMon::
-    .string "当你第一次遇到{STR_VAR_1}，\n你是什么感觉？\p那时你是怎么描述这种\n感觉的？$"
+    .string "第一次遇到{STR_VAR_1}时，\n你是什么感觉？\p当时的心情该\n怎么形容呢？$"
 
 SlateportCity_PokemonFanClub_Text_LikenMonToSomethingYouLike::
-    .string "你的{STR_VAR_1}被你照料得很好啊。\p你如果想把他比喻做\n一样东西的话会是什么呢？$"
+    .string "你的{STR_VAR_1}\n被照顾得很好呢。\p如果要把它比作你喜欢的东西，\n会是什么给出的评分呢？$"
 
 SlateportCity_PokemonFanClub_Text_WhatAttractedYouAboutMon::
-    .string "这个问题同样关系到你\n的{STR_VAR_1}。\p{STR_VAR_1}的哪一点\n吸引了你？$"
+    .string "这个问题也是关于\n你心爱的{STR_VAR_1}。\p{STR_VAR_1}最吸引你的\n是哪一点呢？$"
 
 SlateportCity_PokemonFanClub_Text_WhatDoPokemonMeanToYou::
-    .string "OK是这样的。\p下一个问题呢\n会有一点难。\p这样的话……\p宝可梦对于你来说有什么样的意义呢？$"
+    .string "原来如此。\p下一个问题可能\n会有一点难。\p那么请问……\p宝可梦对你来说意味着什么？$"
 
 SlateportCity_PokemonFanClub_Text_ThatsAllForInterview::
-    .string "我知道了！\p嗯……\p好的！\n谢谢你帮我解决了问题。\p和你谈话真是一件\n令人赏心悦目的事情啊。\p有可能的话我们的节目\n会上演的。一定要收看啊\p就这样了。\n再见！$"
+    .string "明白了！\p嗯……\p好的！\n感谢配合采访。\p和你聊天既愉快\n又让我受益匪浅。\p这次采访可能会在电视台播出，\n记得收看哦！\p那就这样啦。\n再见！$"
 
 SlateportCity_PokemonFanClub_Text_HereIfYouGetUrgeToTellMe::
-    .string "哦好的……\p如果你想要说些关于宝可梦\n的事情的话，我会在这里的！$"
+    .string "哦好吧……\p如果想和我分享宝可梦的故事，\n随时欢迎！$"
 
 SlateportCity_PokemonFanClub_Text_EnjoyDoingInterviews::
-    .string "我非常喜欢和你一起做\n关于宝可梦的采访。$"
+    .string "我超爱这份工作——\n通过采访了解训练家和宝可梦的故事。$"
 
 SlateportCity_PokemonFanClub_Text_InterviewRequest::
-    .string "嗨，你看起来和你的\n{STR_VAR_1}已经很要好了。\p你知道吗？\n我是一个记者。\p我到处寻找采访者做\n关于宝可梦的采访。\p我想知道你能够分享一些\n关于{STR_VAR_1}的事吗？$"
+    .string "你好，你和你的{STR_VAR_1}\n看起来很亲密呢。\p你知道吗？\n我是电视台记者。\p专门采访训练家\n和宝可梦的故事。\p能和我聊聊关于\n你的{STR_VAR_1}的事吗？$"
 
 SlateportCity_PokemonFanClub_Text_TellMeAnythingAboutYourMon::
-    .string "谢谢你了！\p好的，那么，请告诉我任何\n关于{STR_VAR_1}的事吧。$"
+    .string "太感谢了！\p那么请畅所欲言地\n谈谈你的{STR_VAR_1}吧。$"
 
 SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2::
-    .string "哦……\n这看起来很有趣。\p你的确非常的离不开{STR_VAR_1}，\n是吗？\p现在对于你的想法\n有些了解了应该可以做节目了。\p我保证这将会是我们的下\n一期的节目。\l期待你的关注。\p就这样了l。\n再见！$"
+    .string "哇……\n真是精彩的分享。\p你和{STR_VAR_1}\n感情真的很好呢。\p这段采访一定能做成\n很棒的电视节目。\p我保证会把它制作成\n精彩的专题报道。\l记得关注收看哦！\p就这样啦。\n再见！$"
 
 gTVFanClubOpinionsText00::
-    .string "我们是宝可梦发烧友俱乐部！\p现在正在直播！\p这期的节目，我们将会听你们的想法，\n我将会从你们的那选一些出来播！\l听起来是不是很奇妙啊？\p今天我们来带的报道是\n在宝可梦发烧友俱乐部遇到\l的。\p所以让我们来看看\n今天宝可梦粉丝？\p…… …… …… ……\p{STR_VAR_1}！\p让我们看看{STR_VAR_1}都是\n怎么谈论{STR_VAR_3} {STR_VAR_2}。\p同时，我将会把这些爱的呼唤\n大声的在电视中播放给大家！\p啊！\p让我们喊出来吧！$"
+    .string "我们是宝可梦发烧友俱乐部！\p现在正在直播！\p本节目将收集你们大家的心声，\n并替你们大声喊出来！\l是不是超棒的节目创意？\p今天带来的是派驻记者在\n宝可梦发烧友俱乐部的报道。\p那么今天的主角是？\p…… …… …… ……\p{STR_VAR_1}！\p现在来听听{STR_VAR_1}\n想对{STR_VAR_2}{STR_VAR_3}所说的话吧！\p我会把这些传达喜爱的话语\n通过电视大声传播！\p呼哈！\p让我们喊出来吧！$"
 
 gTVFanClubOpinionsText01::
-    .string "我们问{STR_VAR_1}，“当你第\n一次看到{STR_VAR_2}，你的\l第一感觉是什么？”\p“{STR_VAR_3}！”\p耶！这一声多么强有力的呼喊啊！\p这是不是让你想起了你的\n从前呢？$"
+    .string "我们问{STR_VAR_1}：\n“当你第一次看到{STR_VAR_2}时，\l脑海中冒出的第一个念头是什么？”\p“{STR_VAR_3}！”\p哇哦！\n这呐喊太带劲了！\p是不是能让你回想起\n那些美好的往日时光呢？$"
 
 gTVFanClubOpinionsText02::
-    .string "我们问了{STR_VAR_1}，“如果用一个词\n来形容{STR_VAR_2}你想会是\l什么呢……”\p…… …… …… ……\p“{STR_VAR_3}！”\p这就是最初了答案了！\p你确定你能感觉到\n训练家们对于\l{STR_VAR_2}的感觉吗。$"
+    .string "我们问{STR_VAR_1}：\n“如果把你的{STR_VAR_2}\l比作一样东西，会是什么呢……”\p…… …… …… ……\p“{STR_VAR_3}！”\p天呐！\n这比喻太新颖了！\p能真切感受到训练家对\n{STR_VAR_2}的真情实感！$"
 
 gTVFanClubOpinionsText03::
-    .string "让我看看……\n{STR_VAR_2}是怎么\l吸引{STR_VAR_1}的呢？\p…… …… …… ……\p“{STR_VAR_3}！”\p哇！如此惊人的回答！\p训练家对于{STR_VAR_2}\n的喜爱是越来越强烈了！$"
+    .string "接下来……\n究竟{STR_VAR_2}的身上最吸引\l{STR_VAR_1}的一点是什么呢？\p…… …… …… ……\p“{STR_VAR_3}！”\p哇！多么震撼的宣言！\p训练家对于{STR_VAR_2}的喜爱\n简直要冲破屏幕了！$"
 
 gTVFanClubOpinionsText04::
-    .string "应该还有呢。\n我查一下吧！\p让我看看……\p我们这样问{STR_VAR_1}，\n“宝可梦对于你来说有什么意义呢？”\p…… …… ……\p“{STR_VAR_3}！”\p好极了！\p这是我今天听到最棒的呐喊！\p“{STR_VAR_3}！”\p他让你一遍一遍的\n重复着！\p既然我们得到了这么棒的呐喊，\n又到了我们说再见的时候了！\p所以我们最后再次把它大声喊出来吧！\n现在就一起……\p“{STR_VAR_3}！”$"
+    .string "嗯？还有更多精彩内容！\n来一起看看！\p让我瞧瞧……\p我们问{STR_VAR_1}：\n“宝可梦对你来说意味着什么？”\p…… …… ……\p“{STR_VAR_3}！”\p太棒了！\p这是今天最动人的呐喊！\p“{STR_VAR_3}！”\p让人忍不住想反复呐喊！\p没想到能收集到这么棒的呐喊，\n不过又到了我们说再见的时候了！\p在节目结束前，\n让我们齐声高呼最后一次！\l大家一起——\p“{STR_VAR_3}！”$"
 
 gTVFanClubText00::
-    .string "我们是宝可梦发烧友俱乐部！\p现在正在直播！\p今天我们将连线到\n宝可梦服务中心。\p除了那些关于训练家和宝可梦的\n花边新闻，今天什么东西会吸引\l我们的眼球呢？\p让我看看……\p这个！\p我们将从这封信来开始！\p这是一封来自{STR_VAR_1}关于\n受人喜爱的{STR_VAR_2}的。\p让我们看看作者是怎样激情的\n表达了对于{STR_VAR_2}的喜爱！\l嗯……$"
+    .string "我们是宝可梦发烧友俱乐部！\p现在正在直播！\p今天我们的节目首先从\n宝可梦调查角开始。\p在训练家与宝可梦编织的无数故事中，\n今天又有什么精彩内容等着我们呢？\p让我看看……\p就这封吧！\p让我们从这封信开始读起！\p这是{STR_VAR_1}写给心爱的\n{STR_VAR_2}的信。\p来看看作者如何热情地\n表达对{STR_VAR_2}的喜爱吧！\l嗯哼……$"
 
 gTVFanClubText01::
-    .string "哇！\n多么令人惊奇的信啊！$"
+    .string "哇！\n这封信太棒了！$"
 
 gTVFanClubText02::
-    .string "我很喜欢他所以再来一遍！$"
+    .string "我太喜欢了，再读一遍！$"
 
 gTVFanClubText03::
-    .string "一封很棒的信是值得\n细细的体会的！$"
+    .string "好信值得反复品味！$"
 
 gTVFanClubText04::
-    .string "那句“{STR_VAR_3}”确实\n有着强烈的情感冲击啊！\p这是一封非常真实\n且很有深度的信！$"
+    .string "那句“{STR_VAR_3}”的确有着\n很强的感染力啊！\p这封信充满了真挚的\n而深切的情感！$"
 
 gTVFanClubText05::
-    .string "特别是那句“{STR_VAR_3}”！\p我特别的喜欢“{STR_VAR_3}”的使用！$"
+    .string "特别是这个“{STR_VAR_3}”！\p我觉得这个“{STR_VAR_3}”\n真是用得妙极了！$"
 
 gTVFanClubText06::
-    .string "顺便说，这并不是很重要，\n但是“{STR_VAR_3}”是这么说的。\p我经常使用“{STR_VAR_3}”\n在最近的交谈中。$"
+    .string "顺便说句题外话，\n“{STR_VAR_3}”真是句经典台词。\p我最近聊天常常提到\n“{STR_VAR_3}”这个词呢。$"
 
 gTVFanClubText07::
-    .string "如果要为这封信评分的话，\n我将会给他{STR_VAR_3}分。\p我非常期待一封更好\n的信，{STR_VAR_1}！\p这次你会看吗？\n是时间说下次再见了！$"
+    .string "如果要给这封信打分，\n我将会给它{STR_VAR_3}分。\p{STR_VAR_1}，\n期待你下次的信更加精彩！\p哎呀，时间过得真快，\n我们下期节目再见！$"
 
 SlateportCity_OceanicMuseum_1F_Text_InterviewRequest::
-    .string "哦？\n你看起来很喜欢宝可梦\p我是负责电视台的网络的。\p我在收集一些有关宝可梦和\n训练家的材料。\p如果你不介意的话\n能谈谈自己的看法吗？$"
+    .string "哦？\n你喜欢宝可梦吗？\p我是电视台的外派记者。\p正在收集最近发生的\n关于宝可梦和训练家的故事。\p如果不介意的话\n能聊聊你自己吗？$"
 
 SlateportCity_OceanicMuseum_1F_Text_InterviewRequestShort::
-    .string "我在收集一些有关宝可梦和\n训练家的材料。\p如果你不介意的话\n能谈谈自己的看法吗？$"
+    .string "正在收集最近发生的\n关于宝可梦和训练家的故事。\p如果不介意的话\n能聊聊你自己吗？$"
 
 SlateportCity_OceanicMuseum_1F_Text_TellMeExperienceInvolvingPokemon::
-    .string "你愿意？\n谢谢你！\p那么请你谈谈最近你和\n宝可梦们相处的\l经历。$"
+    .string "啊，愿意接受采访吗？\n太感谢了！\p那么请告诉我你最近经历的\n关于宝可梦的有趣事情吧。$"
 
 SlateportCity_OceanicMuseum_1F_Text_LetMeKnowIfYouHaveStory::
-    .string "哦，我知道了……\p如果你有个有趣的事情的\n话请告诉我们吧。$"
+    .string "这样啊……\p如果你想起什么有趣的故事\n请随时告诉我。$"
 
 SlateportCity_OceanicMuseum_1F_Text_ThatsAllForInterview::
-    .string "哦多么令人振奋的故事啊！\p我肯定会把你的故事\n播到电视上的。\p有些时候是需要快奖的，我想，\n请大家密切关注后续的报道。$"
+    .string "真是振奋人心的故事！\p我一定会把你的故事\n做成电视节目。\p应该会在近期播出，\n敬请期待哦。$"
 
 SlateportCity_OceanicMuseum_1F_Text_BetterWriteUpStory::
-    .string "嗯……\n我想我的电视节目已经有内容了。\p我得赶快去写了！$"
+    .string "嗯……\n这个素材足够做期好节目了。\p得赶快把稿子写出来！$"
 
 gTVRecentHappeningsText00::
-    .string "你好，又到了丰缘写真的时间。\p对于训练家来说，每一天都是\n一个故事片。\p我们想要做的就是给大家\n介绍一些宝可梦的奇闻异事。\p今天带给你们故事的是\n{STR_VAR_1}。\p{STR_VAR_1}的故事是什么呢？\n让我查一下。\p让我看看……$"
+    .string "观众朋友们好！\n欢迎收看《近期见闻》。\p对于宝可梦训练家来说，\n每天都是崭新的故事篇章。\p我们想为您呈现这些\n精彩的宝可梦故事。\p今天带来的是\n训练家{STR_VAR_1}的故事。\p{STR_VAR_1}最近经历了什么？\n让我们一探究竟。\p请看……$"
 
 gTVRecentHappeningsText01::
-    .string "这不是很有趣吗？\p这个故事有没有让\n{STR_VAR_1}觉得似曾相识呢。\l就好像我们亲眼目睹了一样！$"
+    .string "这段故事是否让您有所感悟？\p通过这个故事，\n我们清晰了解到\l{STR_VAR_1}最近的经历。\p仿佛亲眼见证一般！$"
 
 gTVRecentHappeningsText02::
-    .string "“{STR_VAR_3}。”\n强调了这点。$"
+    .string "“{STR_VAR_3}。”\n为故事增添了深度和层次感。$"
 
 gTVRecentHappeningsText03::
-    .string "“{STR_VAR_3}。”\n那就想一个真实的故事。\l让我们想想这个故事是在哪发生的。$"
+    .string "“{STR_VAR_3}。”\n让故事场景跃然眼前，\l使我们能清晰想象故事发生的环境。$"
 
 gTVRecentHappeningsText04::
-    .string "“{STR_VAR_3}”\n这件事的传说有很多种。$"
+    .string "在这其中“{STR_VAR_3}”的部分\n表现得尤为生动传神。$"
 
 gTVRecentHappeningsText05::
-    .string "{STR_VAR_1}讲述了一个关于\n宝可梦的奇妙故事。\p而现在，{STR_VAR_1}的故事\n也已经深深地刻进了你们心底了吧。\p这就是今天的全部报道。\n下次也要收看哦。$"
+    .string "{STR_VAR_1}讲述了一个精彩绝伦的\n宝可梦冒险故事。\p而现在，{STR_VAR_1}的故事\n也已经深深地刻进您心底了吧。\p今天的节目就到这里，\n我们下期再见。$"
 
 gTVMassOutbreakText00::
-    .string "大家好！\n这里是宝可梦新闻中心。\p我们今天了解到了一个非常\n罕见的消息。\p根据相关报道称\n在{STR_VAR_1}附近引发了一场\l{STR_VAR_2}的大面积暴乱。\p正如你所知道的\n{STR_VAR_2}是一种非常罕见\l而且很难捕捉的宝可梦。\p听起来这是一个很难得的机会\n让大家了解神秘的\l{STR_VAR_2}的失控事件。\p这就是今天的报道。$"
+    .string "大家好！\n现在是《宝可梦新闻》时间。\p我们刚刚收到一则\n关于罕见现象的报道。\p据报告显示在{STR_VAR_1}附近发生了\n{STR_VAR_2}的大量出现现象。\p{STR_VAR_2}这种宝可梦\n以稀有和难以遇到而著称。\p这将是见证{STR_VAR_2}在野外\n神秘出现的难得机会。\p以上就是本期《宝可梦新闻》的全部内容。$"
 
 gTV3CheersForPokeblocksText00::
-    .string "主持：希望你今天能够愉快，\n“为宝可方块3声加油” ！\p今天，我们来检验一下{STR_VAR_1}\n与其伙伴之间的宝可方块吧。\p快点吧，让我喂喂我的，\n美食家宝可梦古平吧。\p…… …… ……\n…… …… ……$"
+    .string "主持：希望大家干劲满满，\n《为宝可方块喝彩》现在开始！\p今天我们要评测的是{STR_VAR_1}\n等人制作的宝可方块。\p事不宜迟，\n现在就喂给我的美食家宝可梦——\n溶食兽吧。\p…… …… ……\n…… …… ……$"
 
 gTV3CheersForPokeblocksText01::
-    .string "古平：古比！古比比！\p主持：这个判决也非常的{STR_VAR_1}！\n古平这么称赞“{STR_VAR_2}！”\p太感谢你了，{STR_VAR_3}！$"
+    .string "溶食兽：咕比！咕比比！\p主持：评价结果是\n它非常{STR_VAR_1}！\n溶食兽说味道“{STR_VAR_2}！”\p非常感谢你，{STR_VAR_3}！$"
 
 gTV3CheersForPokeblocksText02::
-    .string "{STR_VAR_1}的混合式表演\n仍然有很多值得回味的。\p如果训练家安排得更好，\n宝可方块是不是会更棒呢。$"
+    .string "{STR_VAR_1}的混合水平\n仍然有提升的空间。\p如果这位训练家能更熟练些，\n宝可方块的味道会更好。$"
 
 gTV3CheersForPokeblocksText03::
-    .string "古平：古比！古比比！\p主持：嗯……太{STR_VAR_1}。\n古平这么称赞 “{STR_VAR_2}！”\p看起来{STR_VAR_3}的努力\n不是很有用……$"
+    .string "溶食兽：咕比！咕比比！\p主持：嗯……太{STR_VAR_1}了。\n溶食兽说味道“{STR_VAR_2}！”\p看起来{STR_VAR_3}的操作失误\n影响了混合质量……$"
 
 gTV3CheersForPokeblocksText04::
-    .string "真是太糟糕了 {STR_VAR_1}的\n努力付诸东流了。\p我们希望{STR_VAR_2}下次能\n带给我们一个更加精彩的表演！$"
+    .string "真遗憾，{STR_VAR_1}的\n努力付诸东流了。\p我们希望{STR_VAR_2}下次\n能够表现得更好！$"
 
 gTV3CheersForPokeblocksText05::
-    .string "下次要来哦！我们的标语是\n “全心全意为宝可方块！”$"
+    .string "下次节目再见！我们的口号是\n “为宝可方块喝彩！”$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer::
-    .string "这边！\p我是{STR_VAR_1}的超级粉丝。\n你是怎么看待{STR_VAR_1}？$"
+    .string "嗨，你好啊！\p我是{STR_VAR_1}的超级粉丝。\n你觉得{STR_VAR_1}怎么样？$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThatsWhatYouThink::
-    .string "我知道了我想这就是你对于\n训练家的看法吧。$"
+    .string "原来如此，原来如此。\n这就是你对那位训练家的看法啊。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer::
-    .string "你完全不记得\n{STR_VAR_1}？$"
+    .string "你该不会已经完全忘记\n{STR_VAR_1}了吧？$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer2::
-    .string "我是{STR_VAR_1}的超级粉丝。\n你是怎么看待{STR_VAR_1}？$"
+    .string "我是{STR_VAR_1}的忠实粉丝。\n你觉得{STR_VAR_1}怎么样？$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HowStrongRateTrainer::
-    .string "你对{STR_VAR_1}\n的迅速强大有什么看法？$"
+    .string "如果满分是一百分的话，\n你觉得{STR_VAR_1}有多强？$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer2::
-    .string "你完全不记得\n{STR_VAR_1}？$"
+    .string "你该不会已经完全忘记\n{STR_VAR_1}了吧？$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouShouldMeetTrainer::
-    .string "哦我知道了\n你在什么时候见过{STR_VAR_1}。\l我相信你也会成为一名粉丝的！$"
+    .string "哦，这样啊！\n你真该找机会见见{STR_VAR_1}。\l我相信你也会成为粉丝的！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThankYouIllShareThisInfo::
-    .string "我知道，我知道了。\p谢谢你了！\n这对于我们来说太有用了。\p我将会把这个信息和\n{STR_VAR_1}的其他粉丝一起分享的。$"
+    .string "原来如此，原来如此。\p谢谢你！\n这些信息非常有用。\p我会把这些消息分享给其他\n{STR_VAR_1}的粉丝们一起讨论的。$"
 
 LilycoveCity_PokemonTrainerFanClub_HopeYouCatchTVSpecial::
-    .string "这个节目关于\n{STR_VAR_1}的节目很快就播了。\p希望你能准时收看！$"
+    .string "很快就会有关于{STR_VAR_1}\n的电视特别节目播出。\p希望你能收看哦！$"
 
 gTVTrainerFanClubSpecialText00::
-    .string "训练家迷俱乐部\n{STR_VAR_1}特别版！\p这是赠给{STR_VAR_1}的粉丝的\n一个特别的礼物！\p今天让我们来进行这个话题大家是\n怎样看待{STR_VAR_1}？”\p让我们连线{STR_VAR_2}\n一位训练家代表。\p我们问，“总的来说你要怎么\n来描述{STR_VAR_1}？”\p回答是：“{STR_VAR_3}。”\p对{STR_VAR_2}的称赞！\n多么富有灵气的回答啊！\p“{STR_VAR_3} {STR_VAR_1}。”\n他是多么的令人羡慕啊！\p{STR_VAR_2}也将{STR_VAR_1}的\n视做完美。$"
+    .string "训练家粉丝俱乐部\n{STR_VAR_1}特别节目！\p这是为丰缘地区所有\n{STR_VAR_1}粉丝准备的特别企划！\p今天我们要探讨的问题是：\n“人们如何看待{STR_VAR_1}？”\p我们邀请了{STR_VAR_2}\n作为训练家代表接受采访。\p提问：“用一个词来形容\n{STR_VAR_1}，你会选择什么？”\p得到的回答是：“{STR_VAR_3}”。\p感谢{STR_VAR_2}！\n真是极具洞察力的评价！\p“{STR_VAR_3}的{STR_VAR_1}”。\n这个称呼多么朗朗上口！\p{STR_VAR_2}还为{STR_VAR_1}的\n实力打出了百分制的评分。$"
 
 gTVTrainerFanClubSpecialText01::
-    .string "得分是{STR_VAR_3}点！\n得分相当的高啊！\p{STR_VAR_2}对\n{STR_VAR_1}很敬重啊。$"
+    .string "给出的评分是{STR_VAR_3}分！\n这确实是极高的评价！\p看来{STR_VAR_2}\n对{STR_VAR_1}抱有极高的敬意。$"
 
 gTVTrainerFanClubSpecialText02::
-    .string "得分是{STR_VAR_3}点！\n分数相当的高啊。\p{STR_VAR_2}一定把\n{STR_VAR_1}看成了对手。$"
+    .string "给出的评分是{STR_VAR_3}分！\n这是个相当不错的分数。\p{STR_VAR_2}想必将\n{STR_VAR_1}视为劲敌。$"
 
 gTVTrainerFanClubSpecialText03::
-    .string "得分是{STR_VAR_3}点！\n得分太低了。\p{STR_VAR_2}一定把\n{STR_VAR_1}看成了伙伴。$"
+    .string "给出的评分是{STR_VAR_3}分！\n这个分数略显不足。\p{STR_VAR_2}可能只把\n{STR_VAR_1}当作陪衬角色。$"
 
 gTVTrainerFanClubSpecialText04::
-    .string "得分是{STR_VAR_3}点！\n分数真糟糕。\p{STR_VAR_2}一定把\n{STR_VAR_1}看成自己的属下。$"
+    .string "给出的评分是{STR_VAR_3}分！\n这个分数实在糟糕。\p{STR_VAR_2}大概认为\n{STR_VAR_1}只是个跟班。$"
 
 gTVTrainerFanClubSpecialText05::
-    .string "你们得到了，朋友们！\p我想我们会学到一些\n关于{STR_VAR_1}的新知识。\p在结束时，我会给你\n{STR_VAR_2}的剑。\p{STR_VAR_3} {STR_VAR_1}！$"
+    .string "以上就是本期全部内容！\p相信大家都对{STR_VAR_1}\n有了新的认识。\p最后，请允许我用{STR_VAR_2}的\n评价作为结束语——\p{STR_VAR_3}的{STR_VAR_1}！$"
 
 gTVNameRaterText00::
-    .string "那么现在，到时间……\n姓名鉴定师。\p通过你给它的昵称，\n我会告诉你关于你宝可梦的未来。\p我给你的建议会对你\n非常有帮助。\p今天，我就读一读\n{STR_VAR_1}的{STR_VAR_3}昵称\l宝可梦{STR_VAR_2}。\p嗯……\p嗯……\n昵称就是……$"
+    .string "那么现在，让我们开始……\n姓名鉴定师秀！\p我将通过您为宝可梦取的\n昵称来预测它的命运。\p我会给出建议，\n而且都是实用的好建议。\p今天要解读的是{STR_VAR_1}的宝可梦\n{STR_VAR_2}的昵称{STR_VAR_3}。\p嗯哼……\p嗯……\n这个昵称……$"
 
 gTVNameRaterText01::
-    .string "一个昵称用许多不同的方式\n来提示天赋。\p我力劝这个训练家打起勇气\n多多接受挑战。$"
+    .string "是个暗示多方面的\n才能的昵称。\p我建议这位训练家鼓起勇气\n接受更多挑战。$"
 
 gTVNameRaterText02::
-    .string "一个昵称配上训练家的名字\n{STR_VAR_1}，就完美无缺了。\p我建议你在适当的时候\n打造一个好的伙伴关系。$"
+    .string "是个与训练家{STR_VAR_1}这个名字\n完美互补的昵称。\p预示着你们将以精准的配合\n缔造出色的搭档关系。$"
 
 gTVNameRaterText03::
-    .string "一个昵称很适合\n一个独一无二的宝可梦！\p如果培育得当的话，这只宝可梦\n的独特性就很会快体现起来！$"
+    .string "是个专为独一无二的宝可梦\n量身打造的昵称！\p如果培养得当，\n这只宝可梦的独特性将绽放异彩！$"
 
 gTVNameRaterText04::
-    .string "一个昵称会培育出宝可梦的\n人道心和同情心。\p如果培育得当的话，这只宝可梦将会\n觉醒和展示出真正的热情！$"
+    .string "是个能培养宝可梦关怀\n与同情心的昵称。\p如果培养得当，\n这只宝可梦将展现出真正的温情！$"
 
 gTVNameRaterText05::
-    .string "一个好的昵称会暗示\n有好事发生。\p我很有兴趣想知道这只宝可梦\n的将来会是什么样。$"
+    .string "是个预示未来成就的\n出色昵称。\p我很期待这只宝可梦\n未来的发展前景。$"
 
 gTVNameRaterText06::
-    .string "一个好的昵称应该会让\n宝可梦精神充沛！\p那只宝可梦应该会长时间的保持健康\n和精神充沛。$"
+    .string "是个能让宝可梦健康\n强壮的昵称。\p这只宝可梦应该能长期保持\n强健的体魄。$"
 
 gTVNameRaterText07::
-    .string "一个好的昵称应该会让\n宝可梦非常活跃的！\p我会认为这只宝可梦将会\n在战场上有强有力的表现。$"
+    .string "是个让宝可梦活力四射\n的昵称。\p我认为这只宝可梦在战斗中\n会有出色表现。$"
 
 gTVNameRaterText08::
-    .string "一个吸引人的昵称应该会让\n宝可梦魅力十足！\p我肯定这只宝可梦\n在宝可梦华丽大赛上人见人爱。$"
+    .string "是个能让宝可梦魅力十足\n的昵称。\p相信这只宝可梦在华丽大赛中\n肯定能大放异彩。$"
 
 gTVNameRaterText09::
-    .string "昵称{STR_VAR_1}源于\n这个字“{STR_VAR_3}。”\p这个字依托于第一个\n字“{STR_VAR_2}，”，\l这个字赋予了它实际意义。$"
+    .string "昵称{STR_VAR_1}的根基\n在于“{STR_VAR_3}”这个字。\p它依托于第一个字“{STR_VAR_2}”，\l构成了极具存在感的昵称。$"
 
 gTVNameRaterText10::
-    .string "一个昵称{STR_VAR_1}在令人愉快的意义上是\n非常有条理的。\p字“{STR_VAR_2}”和“{STR_VAR_3}”的存在\n——现在那是非常的好！$"
+    .string "昵称{STR_VAR_1}的形态\n非常优美悦目。\p“{STR_VAR_2}”和“{STR_VAR_3}”两个字相得益彰\n——堪称绝妙！$"
 
 gTVNameRaterText11::
-    .string "这个昵称{STR_VAR_1}——它让人有\n一种连贯，流畅的感觉。\p从第一个字“{STR_VAR_2}”到\n“{STR_VAR_3}”一气呵成，妙不可言。$"
+    .string "昵称{STR_VAR_1}蕴含着\n流畅优雅的韵律。\p从第一个字“{STR_VAR_2}”到\n“{STR_VAR_3}”一气呵成，妙不可言。$"
 
 gTVNameRaterText12::
-    .string "让我们看看别的好昵称的\n例子，好不好？$"
+    .string "让我们再看看其他优秀的\n昵称范例吧？$"
 
 gTVNameRaterText13::
-    .string "试试这个例子。\n用训练家名字{STR_VAR_1}的一部分，\l然后再以好的昵称{STR_VAR_2}{STR_VAR_3}结尾。$"
+    .string "试试这个例子。\n取训练家名字{STR_VAR_1}中的一部分，\l就能得到{STR_VAR_2}{STR_VAR_3}这个好昵称。$"
 
 gTVNameRaterText14::
-    .string "昵称{STR_VAR_2}{STR_VAR_3}也会\n很有效果。$"
+    .string "{STR_VAR_2}{STR_VAR_3}也是个\n相当不错的昵称。$"
 
 gTVNameRaterText15::
-    .string "宝可梦的特别名字\n{STR_VAR_2}能用来作为昵称\l{STR_VAR_1}{STR_VAR_3}的基础。$"
+    .string "可以用宝可梦种类名{STR_VAR_2}\n作为基础，组合出{STR_VAR_1}{STR_VAR_3}\l这样的昵称。$"
 
 gTVNameRaterText16::
-    .string "{STR_VAR_1}{STR_VAR_3}也会是一个有效的\n昵称。$"
+    .string "{STR_VAR_1}{STR_VAR_3}也是个\n有效的昵称选择。$"
 
 gTVNameRaterText17::
-    .string "要尽量避免用\n别的宝可梦的种类名称。\p比如说，避免用{STR_VAR_1}{STR_VAR_2}\n的名字来做这个昵称{STR_VAR_1}{STR_VAR_3}。\l这是行不通的。$"
+    .string "绝对要避免使用其他\n宝可梦种类名。\p例如，不要用{STR_VAR_2}的名字来组合\n{STR_VAR_1}{STR_VAR_3}这样的昵称。\l这是不可取的。$"
 
 gTVNameRaterText18::
-    .string "我得说{STR_VAR_1}是非常\n好的昵称。\p我希望那个训练家会继续\n用爱来对待{STR_VAR_1}。\p今天的表演就到此为止了。\n我们也许会再见面的。$"
+    .string "我必须说{STR_VAR_1}\n是个相当好的昵称。\p希望训练家能继续\n用爱心对待{STR_VAR_1}。\p今天的节目就到这里。\n期待下次再见。$"
 
 gTVPokemonAnglerText00::
-    .string "{STR_VAR_2}钓鱼\p主持：你好！今天，我们会得到提示\n在寻找{STR_VAR_2}。\p努力家，你可以给点什么建议来\n捕捉{STR_VAR_2}？\p努力家：嗯？捕捉{STR_VAR_2}？\n好吧，告诉你，要有耐心\l并会等待。那是底线。\p你有没有看见{STR_VAR_1}在那里？\n那个训练家做了个好榜样。\p那个训练家已经把\n{STR_VAR_3}只宝可梦送走了。\p但是那个{STR_VAR_1}还等着。没放弃。\n这就是捕捉{STR_VAR_2}的不二法则。\p主持人：了解……\p哦！{STR_VAR_1}终于到达了一个\n难于定义的{STR_VAR_2}！\p这个训练家看起来就要\n流出喜悦的眼泪了！\p看着这样快乐的表情，我也越发\n的渴望去钓鱼了！\p观众们，为什么不把这个当作是个契机\n试试用一些{STR_VAR_2}来钓鱼？\p那么在我们下一次的广播前先再见了，\n祝大家都钓到好东西！$"
+    .string "{STR_VAR_2}垂钓特辑\p主持人：大家好！今天我们请专家\n分享钓到{STR_VAR_2}的秘诀。\p专家，您对捕捉{STR_VAR_2}\n有什么建议吗？\p专家：嗯？钓{STR_VAR_2}？\n记住要耐心等待，\l这是最重要的。\p看到那边的{STR_VAR_1}了吗？\n这位训练家就是好榜样。\p虽然已经有{STR_VAR_3}只宝可梦\n从手中逃脱。\p但{STR_VAR_1}仍在坚持等待，\n这就是钓{STR_VAR_2}的法则。\p主持人：原来如此……\p啊！{STR_VAR_1}终于钓到了\n稀有的{STR_VAR_2}！\p这位训练家激动得\n都快哭出来了！\p看到这么兴奋的表情，\n我也想去垂钓了！\p观众朋友们，何不趁此机会\n也试试钓{STR_VAR_2}呢？\p下次节目再见，\n祝大家垂钓愉快！$"
 
 gTVPokemonAnglerText01::
-    .string "{STR_VAR_2}钓鱼\p主持人：嗨！今天，我们会得都一些提示\n来钓{STR_VAR_2}。\p努力家，你会给大家什么样的建议来\n捕捉{STR_VAR_2}？\p努力家：哦？想捕捉{STR_VAR_2}？\n好吧，让我告诉你，用你的钓鱼\l竿和精力！\p你看到{STR_VAR_1}在那边了吗？\n看看这个鱼竿是怎样用的？\p那个训练家已经连续地捕捉了\n{STR_VAR_3}。\p主持人：真是不可思议！\n看起来就像一个风暴……\p看这卓越的技巧，我也\n越发的渴望去钓鱼了。\p观众们，为什么不把这个当作是个契机\n试试用一些{STR_VAR_2}来钓鱼？\p那么在我们下次的广播前先再见了！\n祝大家都钓到好东西！$"
+    .string "{STR_VAR_2}垂钓特辑\p主持人：大家好！今天我们请专家\n分享钓到{STR_VAR_2}的秘诀。\p专家，您对捕捉{STR_VAR_2}\n有什么建议吗？\p专家：嗯？钓{STR_VAR_2}？\n关键是要用力挥动钓竿！\p看到那边的{STR_VAR_1}了吗？\n注意看挥竿技巧。\p这位训练家已经连续钓到\n{STR_VAR_3}只了。\p主持人：太厉害了！\n简直像狂风暴雨一样……\p看到这么高超的技术，\n我也想去垂钓了。\p观众朋友们，何不趁此机会\n也试试钓{STR_VAR_2}呢？\p下次节目再见，\n祝大家垂钓愉快！$"
 
 gTVPokemonTodayFailedText00::
-    .string "哈喽！\p是今天的宝可梦的时间了！\p大姐姐：嗨！大家今天过的\n都好吗？\p今天，我们要关注下{STR_VAR_1}的\n宝可梦{STR_VAR_2}！\p大哥哥：是的！这就是我们打算\n去做的！$"
+    .string "大家好！\p欢迎收看《今日宝可梦》！\p大姐姐：嗨！今天大家都\n精神饱满吗？\p今天我们要关注的是{STR_VAR_1}的\n宝可梦{STR_VAR_2}！\p大哥哥：没错！\n这就是今天的主题！$"
 
 gTVPokemonTodayFailedText01::
-    .string "哦！\n说到{STR_VAR_1}……\p大姐姐，我是亲眼见过\n那个训练家！\p大姐姐：哦，你都看到了什么了？\p大哥哥：好吧，我只好旅行到\n{STR_VAR_2}。\p那时我碰巧要穿越\n{STR_VAR_1}，他正在努力去捕捉那个\l宝可梦{STR_VAR_3}，可是……$"
+    .string "哦！\n说到{STR_VAR_1}……\p大姐姐，我亲眼见到\n这位训练家了！\p大姐姐：哦？看到什么了？\p大哥哥：我去{STR_VAR_2}\n旅行的时候，\p正好遇见{STR_VAR_1}\n在试图捕捉{STR_VAR_3}，但是……$"
 
 gTVPokemonTodayFailedText02::
-    .string "那只宝可梦却逃掉了！\p结果浪费了很多\n精灵球：{STR_VAR_2}！\p你应该看见过挫败的\n表情在{STR_VAR_1}的脸上当\l宝可梦逃掉的时候！$"
+    .string "结果宝可梦逃走了！\p白白浪费了这么多精灵球\n——{STR_VAR_2}个！\p你真该看看{STR_VAR_1}\n当时那懊恼的表情！$"
 
 gTVPokemonTodayFailedText03::
-    .string "可是{STR_VAR_1}弄错的话会让\n宝可梦昏厥的！\p结果就是浪费钱\n精灵球：{STR_VAR_2}！\p你应该见过\n惊吓了的又沮丧表情在{STR_VAR_1}的脸上\l当宝可梦昏厥时！$"
+	.string "但{STR_VAR_1}失手让宝可梦\n昏厥了！\p白白浪费了这么多精灵球\n——{STR_VAR_2}个！\p你真该看看{STR_VAR_1}\n那目瞪口呆的表情！$"
 
 gTVPokemonTodayFailedText04::
-    .string "大姐姐：嘿，那的！\n这可不友好！\p你不应该笑话别人的\n不幸！\p哦，可怜的{STR_VAR_1}。\n真是可耻！\p大哥哥：说的没错！\n真诚的道歉。$"
+	.string "大姐姐：喂！\n这样可不好！\p不该嘲笑别人的\n不幸遭遇！\p可怜的{STR_VAR_1}，\n真是太遗憾了！\p大哥哥：说得对！\n抱歉我不该笑。$"
 
 gTVPokemonTodayFailedText05::
-    .string "大姐姐：呃呃……\p大哥哥：嗨！\n你刚刚也笑了！\p大姐姐：哼？！\p我没有！\n说真的，我没有！\p哦，可怜的{STR_VAR_1}。\n真是可耻！\p大哥哥：……$"
+	.string "大姐姐：噗呼呼……\p大哥哥：喂！\n你刚才也笑了！\p大姐姐：啊？！\p我才没笑！\n真的没有！\p可怜的{STR_VAR_1}，\n真是太遗憾了！\p大哥哥：……$"
 
 gTVPokemonTodayFailedText06::
-    .string "大姐姐：真是有够傻的！\n我们看看今天的宝可梦……\p嗯？\n已经没时间了？\p啊！\n今天我们不能继续分析了！\p大哥哥：下一次再见！\p大姐姐：嘿，结束节目的时候\n别丢下我！$"
+	.string "大姐姐：别闹了！\n来看看今天的宝可梦……\p咦？\n已经没时间了？\p啊！\n今天没能介绍宝可梦！\p大哥哥：下次节目再见！\p大姐姐：喂！\n别擅自结束节目啊！$"
 
 gTVPokemonTodaySuccessfulText00::
-    .string "大家好！\p是今天的宝可梦的时间了！\p大姐姐：嗨！大家今天过的\n都好吗？\p今天，我们要关注的是{STR_VAR_1}的\n宝可梦{STR_VAR_2}！\p大哥哥：是的！这就是我们打算\n去做的！$"
+	.string "大家好！\p欢迎收看《今日宝可梦》！\p大姐姐：嗨！今天大家都\n精神饱满吗？\p今天我们要关注{STR_VAR_1}的\n宝可梦{STR_VAR_2}！\p大哥哥：没错！\n这就是今天的主题！$"
 
 gTVPokemonTodaySuccessfulText01::
-    .string "大姐姐：{STR_VAR_1}给{STR_VAR_2}取了昵称\n{STR_VAR_3}！\p听起来{STR_VAR_3}被照顾的\n非常的好！$"
+	.string "大姐姐：{STR_VAR_1}给{STR_VAR_2}\n取名叫{STR_VAR_3}！\p看来{STR_VAR_3}得到了\n精心的照料呢！$"
 
 gTVPokemonTodaySuccessfulText02::
-    .string "大哥哥：那个训练家不得不丢\n许多精灵球来捕捉它：{STR_VAR_3}！\p终于用了一个{STR_VAR_2}\n捕捉到它了！$"
+	.string "大哥哥：这位训练家用了\n{STR_VAR_3}个精灵球才抓到它！\p最后是用{STR_VAR_2}\n成功收服的！$"
 
 gTVPokemonTodaySuccessfulText03::
-    .string "大姐姐：如果很容易就捕捉到的话，\n那一定是命运把\l{STR_VAR_1}和{STR_VAR_2}带到了一起！$"
+	.string "大姐姐：能这么轻松抓到，\n一定是命运让{STR_VAR_1}\l和{STR_VAR_2}相遇的！$"
 
 gTVPokemonTodaySuccessfulText04::
-    .string "大姐姐：哇！那可真简洁！\p但是你知道人们都说，一个需要花上\n很多努力才可以捕捉到的宝可梦\l才会得到它的训练家的爱！$"
+	.string "大姐姐：哇！太棒了！\p不过俗话说，越是难抓的宝可梦，\n训练家就会越珍惜！$"
 
 gTVPokemonTodaySuccessfulText05::
-    .string "大姐姐：{STR_VAR_1}的{STR_VAR_2}是一个\n值得纪念的宝可梦因为它需要一个\l无价的大师球才可以捕捉！\p大哥哥：哇！真是帅呆了！\p大姐姐：{STR_VAR_1}一定想\n那个{STR_VAR_2}想疯了，一定的！$"
+	.string "大姐姐：{STR_VAR_1}的{STR_VAR_2}\n是用珍贵的大师球抓到的，\l真是令人难忘！\p大哥哥：哇！太厉害了！\p大姐姐：{STR_VAR_1}一定\n非常想要这只{STR_VAR_2}！$"
 
 gTVPokemonTodaySuccessfulText06::
-    .string "大哥哥：那么来把这个昵称\n{STR_VAR_3}给{STR_VAR_2}……\p你的确有个好主意\n对{STR_VAR_1}的训练家判断力。\p大姐姐：我赞成这个观点！$"
+	.string "大哥哥：给{STR_VAR_2}\n取名叫{STR_VAR_3}……\p能看出{STR_VAR_1}\n作为训练家的品味。\p大姐姐：我完全同意！$"
 
 gTVPokemonTodaySuccessfulText07::
-    .string "如果是我的话，我会把那个昵称\n给像{STR_VAR_3}这样的！\p大哥哥：唔哇！那可能是一个新事物的\n开端！$"
+	.string "要是我，会给{STR_VAR_3}这样的\n宝可梦取这个名字！\p大哥哥：哇！说不定会\n开启新的潮流呢！$"
 
 gTVPokemonTodaySuccessfulText08::
-    .string "{STR_VAR_2}那个{STR_VAR_1}？\n听起来很完美吧？\p这个字母还有一切——它们\n听起起来很配宝可梦\l{STR_VAR_1}！\p大哥哥：是啊，没错，那个！$"
+	.string "把{STR_VAR_1}叫做{STR_VAR_2}？\n不是很完美吗？\p文字组合什么的——\n和{STR_VAR_1}超级配！\p大哥哥：没错，确实如此！$"
 
 gTVPokemonTodaySuccessfulText09::
-    .string "就居我所知，没有一个训练家\n把昵称{STR_VAR_2}给过他们的\l{STR_VAR_1}！\p大哥哥：那展示了那个\n训练家在选昵称上有很\l好的品味！$"
+	.string "据我所知，从没有训练家\n给{STR_VAR_1}取名叫{STR_VAR_2}！\p大哥哥：这说明这位训练家\n在取名方面很有品味！$"
 
 gTVPokemonTodaySuccessfulText10::
-    .string "下一次我再捕捉宝可梦，\n我会给它命名{STR_VAR_2}。\p大哥哥：哈？我也是！\n我也会用这个昵称{STR_VAR_2}！$"
+	.string "下次我抓到宝可梦，\n也要取名叫{STR_VAR_2}。\p大哥哥：啊？我也是！\n我也要用{STR_VAR_2}这个名字！$"
 
 gTVPokemonTodaySuccessfulText11::
-    .string "大姐姐：哦，不！\n看看时间！\p好吧，那么，今天就到这了。\n下次再见！\p大哥哥：记住，下一次就有可能是你的\n宝可梦在这聚光灯下！$"
+	.string "大姐姐：啊呀！\n时间到了！\p那么各位，今天就到这里。\n下次节目再见！\p大哥哥：记住，下次可能\n就会介绍你的宝可梦哦！$"
 
 SmartShopper_Text_Intro::
-    .string "大家好！\p又到了今日购物导航的时间了。\p访问记者：你们好吗，电视机前的朋友们？\p今天我们访问了\n{STR_VAR_2}的一家商店。\p让我们调查一下最近\n商店里的热销产品。$"
+	.string "大家好！\p欢迎收看《精明购物达人》！\p记者：观众朋友们好！\p今天我们来到{STR_VAR_2}的商店，\p看看最近的热销商品\n都有哪些。$"
 
 SmartShopper_Text_ClerkNormal::
-    .string "让我们采访一下\n了解情况的职员。\p嘿，你们的工作进度如何？\p营业员：啊，我们做的非常好。\p最近，尤其是{STR_VAR_2}的\n销售情况非常可观。\p为什么，只是因为有一次一个叫{STR_VAR_1}\n的训练家买了{STR_VAR_3}。$"
+	.string "让我们采访店员\n了解一下情况。\p您好，生意怎么样？\p店员：哦，相当不错。\p最近{STR_VAR_2}卖得特别好。\p前几天有位叫{STR_VAR_1}的训练家\n一口气买了{STR_VAR_3}个呢。$"
 
 SmartShopper_Text_RandomComment1::
-    .string "访问记者：一个训练家买了\n{STR_VAR_3}个{STR_VAR_2}？这太有鼓动性了！\p我是否可以这样判断，{STR_VAR_1}一定\n是在为一个遥远而长久的旅程\l积攒一些东西。\p对于旅行来说，{STR_VAR_2}实在是\n太重要了！$"
+	.string "记者：买了{STR_VAR_3}个{STR_VAR_2}？\n真是大手笔！\p我想{STR_VAR_1}一定是在为\n长途旅行做准备吧。\p出门在外，\n{STR_VAR_2}可是必需品！$"
 
 SmartShopper_Text_RandomComment2::
-    .string "访问记者：说到{STR_VAR_2}\n这件道具，我最近只买了\l其中的{STR_VAR_3}。\p毕竟，{STR_VAR_2}是个好东西呀！$"
+	.string "记者：说到{STR_VAR_2}，\n我最近也买了{STR_VAR_3}个。\p毕竟{STR_VAR_2}确实是个好东西！$"
 
 SmartShopper_Text_RandomComment3::
-    .string "访问记者：{STR_VAR_2}？！\n是其中的{STR_VAR_3}？！\p我不相信有人能买\n那么多。\p我的女神啊，我只能支付的起\n一到两个啊……$"
+	.string "记者：{STR_VAR_2}？！\n买了{STR_VAR_3}个？！\p没想到会有人买这么多。\p天哪，\n我一次只能买一两个……$"
 
 SmartShopper_Text_RandomComment4::
-    .string "访问记者：有一次，我买下了\n{STR_VAR_2}的全部款式。\p但是它却出了更多。\n我只能放弃这个目标了……\p从那时起，我只买\n我确实必须的东西……\p哎呀！\p和我说话是没有什么好处的！$"
+	.string "记者：有次我买了\n一大堆{STR_VAR_2}。\p结果买太多了，\n最后很后悔……\p从那以后我只买必需品……\p啊！\p不该说我的事！$"
 
 SmartShopper_Text_SecondItem::
-    .string "营业员：{STR_VAR_1}也大批量的购买了\n{STR_VAR_2}，取得了{STR_VAR_3}。\p访问记者：干的实在是太漂亮了。\n{STR_VAR_2}也是一个非常好的东西。$"
+	.string "店员：{STR_VAR_1}还批量购买了\n{STR_VAR_2}，有{STR_VAR_3}个。\p记者：真精明，\n{STR_VAR_2}也是好东西。$"
 
 SmartShopper_Text_ThirdItem::
-    .string "营业员：而且，那个训练家也买了\n{STR_VAR_2}中的{STR_VAR_3}。$"
+	.string "店员：而且，这位训练家还买了\n{STR_VAR_3}个{STR_VAR_2}。$"
 
 SmartShopper_Text_DuringSale::
-    .string "营业员：再加上，他还在热卖中。\n那是一个明智的选购。$"
+	.string "店员：还是在促销期间买的，\n真是一次精明的购物。$"
 
 SmartShopper_Text_OutroNormal::
-    .string "访问记者：嗯……{STR_VAR_1}听起来\n很像一个精明的生意人！\p那么，{STR_VAR_1}的消费总额是……\p{STR_VAR_2}$？！\n多么另人惊讶的数字！\p哎呀！时间又到了！\n我们下次见吧！$"
+	.string "记者：嗯……{STR_VAR_1}听起来\n是个精明的买家！\p总共花了……\p¥{STR_VAR_2}？！\n真是惊人的金额！\p啊！时间到了！\n下期节目再见！$"
 
 SmartShopper_Text_IsVIP::
-    .string "营业员：{STR_VAR_1}是一个VIP客人，\n没什么好怀疑的。$"
+	.string "店员：{STR_VAR_1}绝对是\n我们的VIP客户。$"
 
 SmartShopper_Text_ClerkMax::
-    .string "让我们采访一下店员\n来获取一些消息。\p嘿，你们的过工作何了？\p营业员：啊，我们的工作情况简直\n另人难以置信。实在是压倒性的顺利。\p最近，一个叫做{STR_VAR_1}的训练家\n大批量的购买了{STR_VAR_2}。\p那个训练家几乎买空了\n我们的{STR_VAR_2}库存。\p我从没想过会有一个客人\n需要这么多的{STR_VAR_2}。\l这是闻所未闻的！\p访问记者：就像卖出去了\n一两百个那么多？\p营业员：啊？不！比那多的多！\p访问记者：啊，我的天那！\n{STR_VAR_1}一定是个很特别的客人！\p营业员：{STR_VAR_1}是一个VIP客人，\n无须怀疑。$"
+	.string "让我们采访店员\n了解一下情况。\p您好，生意怎么样？\p店员：哦，生意好得难以置信，\n都快忙不过来了。\p最近有位叫{STR_VAR_1}的训练家\n大批量购买了{STR_VAR_2}。\p几乎把我们的{STR_VAR_2}\n库存都清空了。\p从没想过会有顾客\n需要这么多{STR_VAR_2}。\l简直闻所未闻！\p记者：大概卖出了100或200个？\p店员：哦不，\n比这还要多得多！\p记者：天哪！\n{STR_VAR_1}一定是位特别的顾客！\p店员：{STR_VAR_1}绝对是\n我们的VIP客户。$"
 
 SmartShopper_Text_OutroMax::
-    .string "访问记者：嗯……\n太另人惊讶了。\p但是为什么一个训练家\n需要这么多？\p……\p越来越神秘了，但是我们节目\n结束的时间又到了。\l我们下次节目再见！\p然而，{STR_VAR_1}一定是个不可思议的人……$"
+	.string "记者：嗯……\n真是惊人。\p但为什么要买这么多呢？\p…… ……\p谜团越来越深，但今天的节目\n就到这里了。\l下期节目再见！\p不过，\n{STR_VAR_1}确实是个谜……$"
 
 gTVWorldOfMastersText00::
-    .string "大师的世界\p你们好，观众朋友。\p也许你们已经听到过\n那个叫{STR_VAR_1}的训练家。\p{STR_VAR_1}是一个出了名的\n宝可梦捕捉大师。\p{STR_VAR_1}对宝可梦的寻求完全依靠\n凭借双脚仔细的寻找。\p在那些值得纪念的日子里，那个训练家\n走过了{STR_VAR_2}的足迹。\p他捕捉的宝可梦总数\n达到了让人难忘的{STR_VAR_3}！$"
+	.string "《大师的世界》\p观众朋友们好！\p想必大家都认识训练家\n{STR_VAR_1}吧。\p{STR_VAR_1}以捕捉宝可梦的\n大师级技巧而闻名。\p{STR_VAR_1}寻找宝可梦的方式是\n完全靠徒步仔细搜寻。\p在某天，这位训练家\n步行了{STR_VAR_2}步。\p当天捕获的宝可梦总数\n达到了惊人的{STR_VAR_3}只！$"
 
 gTVWorldOfMastersText01::
-    .string "这不平凡的功绩绝对不是虚假的，\n因为在那个训练家和{STR_VAR_1}之间，\l是完全的相互信赖。$"
+	.string "这项非凡成就的实现，\n必定源于训练家和{STR_VAR_1}\l之间的深厚信任。$"
 
 gTVWorldOfMastersText02::
-    .string "那个人最后在\n{STR_VAR_2}附近捕捉了{STR_VAR_3}。\p那只宝可梦显然很喜欢\n作为记录保持者的地位。\p有经验的训练家应该被鼓励\n去挑战这个记录。\p这就是今天的全部内容。\n请下次再关注本节目。$"
+	.string "大师在{STR_VAR_2}附近\n捕获了当天的最后一只{STR_VAR_3}。\p这只宝可梦显然享有\n作为纪录保持者的特殊地位。\p鼓励各位训练家高手\n来挑战这项优秀纪录。\p今天的节目就到这里。\n下次节目再见！$"
 
 gTVTodaysRivalTrainerText00::
-    .string "今天的对手训练家！\p大家好，宝可梦训练家们！\n我们今天要干什么呢？\p今天，象平时一样，\n我们要调查一个对手！$"
+	.string "今日《劲敌训练家》！\p各位宝可梦训练家好！\n大家今天过得怎么样？\p今天和往常一样，\n我们要介绍一位劲敌！$"
 
 gTVTodaysRivalTrainerText07::
-    .string "今天的训练家是{STR_VAR_1}，\n现在他在{STR_VAR_3}附近。\p{STR_VAR_1}迄今为止已经在宝可梦图鉴\n注册了{STR_VAR_2}的宝可梦。$"
+	.string "今天的劲敌训练家是{STR_VAR_1}，\n目前正在{STR_VAR_3}附近。\p{STR_VAR_1}已在宝可梦图鉴中\n登记了{STR_VAR_2}种宝可梦。$"
 
 gTVTodaysRivalTrainerText08::
-    .string "今天的训练家是{STR_VAR_1}，\n他现在还是一个秘密基地。\p{STR_VAR_1}迄今为止已经在宝可梦图鉴\n注册了{STR_VAR_2}只宝可梦。$"
+	.string "今天的劲敌训练家是{STR_VAR_1}，\n目前正在秘密基地中。\p{STR_VAR_1}已在宝可梦图鉴中\n登记了{STR_VAR_2}种宝可梦。$"
 
 gTVTodaysRivalTrainerText09::
-    .string "今天的训练家是{STR_VAR_1}。\p迄今为止，{STR_VAR_1}已经在宝可梦图鉴\n注册了{STR_VAR_2}只宝可梦。$"
+	.string "今天的劲敌训练家是{STR_VAR_1}。\p{STR_VAR_1}已在宝可梦图鉴中\n登记了{STR_VAR_2}种宝可梦。$"
 
 gTVTodaysRivalTrainerText10::
-    .string "今天的训练家是{STR_VAR_1}，\n他现在在码头。\p{STR_VAR_1}迄今为止已经在宝可梦图鉴\n注册了{STR_VAR_2}只宝可梦。$"
-
-	.string "$"
+	.string "今天的劲敌训练家是{STR_VAR_1}，\n目前正在渡轮上。\p{STR_VAR_1}已在宝可梦图鉴中\n登记了{STR_VAR_2}种宝可梦。$"
 
 gTVTodaysRivalTrainerText01::
-    .string "那么我们的竞争者有多少徽章呢？\n他有{STR_VAR_1}个！$"
+	.string "我们的劲敌获得了多少徽章呢？\n数量是{STR_VAR_1}枚！$"
 
 gTVTodaysRivalTrainerText02::
-    .string "但是我们的竞争者\n还有一个徽章没有拿到！$"
+	.string "但我们的劲敌还没有\n获得任何徽章！$"
 
 gTVTodaysRivalTrainerText03::
-    .string "我们的竞争着没有拿到\n对战开拓区的奖牌。$"
+	.string "我们的劲敌还没有获得\n任何对战开拓区象征。$"
 
 gTVTodaysRivalTrainerText04::
-    .string "让我看看我们的挑战者拿到了\n多少对战开拓区的奖牌。\p金色象征：{STR_VAR_1}！\n银色象征：{STR_VAR_2}！$"
+	.string "来看看劲敌获得了多少\n对战开拓区象征吧。\p金色象征：{STR_VAR_1}枚！\n银色象征：{STR_VAR_2}枚！$"
 
 gTVTodaysRivalTrainerText05::
-    .string "我们的挑战者在对战开拓区\n收集了{STR_VAR_1}BP的对战点数。$"
+	.string "我们的劲敌在对战开拓区\n收集了{STR_VAR_1}BP的对战点数。$"
 
 gTVTodaysRivalTrainerText06::
-    .string "那么，你怎样才能拥有足以\n和{STR_VAR_1}相比的实力呢？\p去冒险吧！\p去追随训练家！\p让我们去追赶我们的竞争者\n甚至是超越他吧！$"
+	.string "那么，你和{STR_VAR_1}相比\n表现如何呢？\p冒险仍在继续！\p各位训练家！\p让我们继续前进，\n超越我们的劲敌吧！$"
 
 TrendWatcher_Text_Intro::
-    .string "武斗镇流行调查员联络网！\p主持：怎么了？\n我们需要了解那些\l发生在武斗镇的的一些趣闻。\p我们今天的客人就是这位\n被称做武斗镇一切事物\l的权威人士的老家伙。\p老人：很高兴来到这里。\p主持：好的，让我们转入正题吧。\p您觉得目前在武斗镇的\n居民中最流行的是什么？\p老人：{STR_VAR_1}{STR_VAR_2}。\p主持：你说{STR_VAR_1}\n{STR_VAR_2}？\p老人：不。\p{STR_VAR_1}{STR_VAR_2}从来\n就没有出名过。\p你想听听他们的故事吗？\p主持：嗯，不了。我们想知道的是\n一些当下流行的……$"
+	.string "武斗流行观察网！\p主持人：最近咋样？\n我们将为您带来武斗镇\l最潮最in的流行资讯！\p今天的嘉宾是位老前辈，\n号称武斗镇百事通。\p老人：很高兴来参加节目。\p主持人：咱们直奔主题吧。\n武斗镇居民最近都在流行啥？\p老人：{STR_VAR_1}{STR_VAR_2}。\p主持人：{STR_VAR_1}{STR_VAR_2}？\n真的吗？\p老人：不。\n{STR_VAR_1}{STR_VAR_2}压根就没流行过。\p想听听关于它的事吗？\p主持人：呃不用，我们想知道的是\n现在正流行什么……$"
 
 @ Identical to below, may have been different in other languages
 TrendWatcher_Text_MaleTaughtMePhrase::
-    .string "老人：{STR_VAR_1}{STR_VAR_2}\n是一个从未白镇来的{STR_VAR_3}\l告诉我的一件新鲜事物……$"
+	.string "老人：{STR_VAR_1}{STR_VAR_2}\n是未白镇的{STR_VAR_3}教我的\l所谓流行词……$"
 
 TrendWatcher_Text_FemaleTaughtMePhrase::
-    .string "老人：{STR_VAR_1}{STR_VAR_2}\n是一个从未白镇来的{STR_VAR_3}\l告诉我的一件新鲜事物……$"
+	.string "老人：{STR_VAR_1}{STR_VAR_2}\n是未白镇的{STR_VAR_3}教我的\l所谓流行词……$"
 
 TrendWatcher_Text_PhraseWasHopeless::
-    .string "但是我绝望了。\p{STR_VAR_1}{STR_VAR_2}节！\p{STR_VAR_1}{STR_VAR_2}比赛！\p我试着尽全力去把它\n教给每一个人，但是……\p或许{STR_VAR_1}部分\n并不是正确的……\p主持：嗯，打扰一下，先生，我需要\n听一些当下流行的……$"
+	.string "但完全没希望流行。\p{STR_VAR_1}{STR_VAR_2}庆典！\n{STR_VAR_1}{STR_VAR_2}大赛！\p我尽力宣传了，但是……\n可能{STR_VAR_1}这个词有问题……\p主持人：呃打断下，老伙计\n我们想知道现在流行什么……$"
 
 @ Identical to below, may have been different in other languages
 TrendWatcher_Text_MaleTellMeBigger::
-    .string "老人：{STR_VAR_3}！\n那么，请你告诉我一些\l比{STR_VAR_1}{STR_VAR_2}更重要的事吧！$"
+	.string "老人：{STR_VAR_3}！\n快告诉我比{STR_VAR_1}{STR_VAR_2}\l更带劲的流行语！$"
 
 TrendWatcher_Text_FemaleTellMeBigger::
-    .string "老人：{STR_VAR_3}！\n那么，请你告诉我一些\l比{STR_VAR_1}{STR_VAR_2}更重要的事吧！$"
+	.string "老人：{STR_VAR_3}！\n快告诉我比{STR_VAR_1}{STR_VAR_2}\l更带劲的流行语！$"
 
 TrendWatcher_Text_Outro::
-    .string "主持：……嗯……这样，那都是你的想法，\n你的兴趣，别在这里说！\p{STR_VAR_1}{STR_VAR_2}……嗯……\n我们没有得到关于武斗镇的趣闻啊！\p我可没时间去理解你的胡言乱语！\p老人：{STR_VAR_1}{STR_VAR_2}！$"
+	.string "主持人：呃……总之各位潮人们，\n{STR_VAR_1}{STR_VAR_2}……\l在武斗镇完全没火起来！\p节目时间到了，下次见！\p老人：{STR_VAR_1}{STR_VAR_2}！$"
 
 gTVHoennTreasureInvestigatorsText00::
-    .string "丰缘宝藏挖掘者！\p嗨，大家！\n最近记下什么秘密了吗？\p一直以来，我们都在从各地的\n目击者报告里找寻各种秘密！\p让我们从这封信开始。\n信中说道，“发现{STR_VAR_1}！”$"
+	.string "丰缘寻宝调查团！\p嗨伙计们！\n最近找到什么秘密道具了吗？\p我们将继续调查来自各地\n关于秘密道具的目击报告！\p先看这封信：\n“发现{STR_VAR_1}！”$"
 
 gTVHoennTreasureInvestigatorsText01::
-    .string "喔，我们必须要仔细看看这封信！\n我来为你们读一下。\p……尊敬的挖掘者，\n我希望你很好。\p我最近在{STR_VAR_3}附近的一些地方\n看到了{STR_VAR_2}。\p那个训练家找到了\n{STR_VAR_1}。这让我很嫉妒。\p……好的，这很不错，{STR_VAR_2}！\p观众们，就让这件事激发你们的\n探索欲望吧！\p我会一直等待你们\n给我激动人心的消息的！$"
+	.string "哇，我们得好好看看这封信！\p……亲爱的调查团：\n祝你们好。\p我最近在{STR_VAR_3}附近\n看到{STR_VAR_2}。\p这位训练家找到了{STR_VAR_1}\n让我好羡慕。\p……干得漂亮，{STR_VAR_2}！\p观众们，快打开探宝器\n开始寻宝吧！\p期待收到你们的精彩发现！$"
 
 gTVHoennTreasureInvestigatorsText02::
-    .string "喔，我们必须要仔细看看这封信！\n我来为你们读一下。\p……尊敬的挖掘者，\n我希望你很好。\p我最近再码头看到{STR_VAR_2}了。\p那个训练家找到了\n{STR_VAR_1}。那让我很嫉妒。\p……好的，这很不错，{STR_VAR_2}！\p观众们，就让这件事激发你们的\n探索欲望吧！\p我会一直等待你们\n给我激动人心的消息的！$"
+	.string "哇，我们得好好看看这封信！\p……亲爱的调查团：\n祝你们好。\p我最近在渡轮上\n看到{STR_VAR_2}。\p这位训练家找到了{STR_VAR_1}\n让我好羡慕。\p……干得漂亮，{STR_VAR_2}！\p观众们，快打开探宝器\n开始寻宝吧！\p期待收到你们的精彩发现！$"
 
 gTVFindThatGamerText00::
-    .string "寻找玩家！\p嘿，玩家们！\n你们的{STR_VAR_2}转的如何？\p象往常一样，我们会关注\n那个稀有的训练家，也就是第一个\l访问游戏中心的人！\p今天，我们的No.1玩家是……\n{STR_VAR_1}！$"
+	.string "寻找游戏高手！\p嗨，各位玩家！\n你的{STR_VAR_2}转得怎么样啦？\p和往常一样，我们将聚焦\n光顾游戏中心的稀有训练家！\p今天的头号玩家是……\n{STR_VAR_1}！$"
 
 gTVFindThatGamerText01::
-    .string "{STR_VAR_1}玩过{STR_VAR_2}游戏\n并赢得了珍贵的{STR_VAR_3}代币。\p“当{STR_VAR_1}来到时，我们要确定\n我们有足够的代币。”\p这就是游戏中心的职员\n在我们的玩家玩游戏时的碎碎念！\p观众们，你们最好像{STR_VAR_1}一样看一看\n你们的代币，如果你去了游戏\l中心并且玩了{STR_VAR_2}游戏。\p这就是游戏中心里的生活——\n一个你能随时感到刺激的地方！\p今天的节目到此为止！$"
+	.string "{STR_VAR_1}玩了{STR_VAR_2}游戏\n赢得了稀有的{STR_VAR_3}枚代币。\p“当{STR_VAR_1}来时，我们得确保\n准备足够的代币。”\p这是游戏中心员工在高手\n玩游戏时的窃窃私语！\p观众们，如果你们去游戏中心\n玩{STR_VAR_2}游戏，最好像{STR_VAR_1}\l一样看好自己的代币。\p这里是游戏中心现场报道——\n让你感受这里的激情！\p今天的节目就到这里！$"
 
 gTVFindThatGamerText02::
-    .string "{STR_VAR_1}玩了{STR_VAR_2}游戏\n并输了{STR_VAR_3}的代币。\p“当{STR_VAR_1}来的时候，我们的代币\n销售看起来增大了。”\p这就是游戏中心的职员\n在我们的玩家玩游戏时的碎碎念！$"
+	.string "{STR_VAR_1}玩了{STR_VAR_2}游戏\n输掉了{STR_VAR_3}枚代币。\p“当{STR_VAR_1}来时，我们的代币\n销量似乎会增加。”\p这是游戏中心员工在高手\n玩游戏时的评价！$"
 
 gTVFindThatGamerText03::
-    .string "观众们，你们最好像{STR_VAR_1}一样看一看\n你们的代币，如果你去了游戏\l中心并且玩了{STR_VAR_2}游戏。\p这就是游戏中心里的生活——\n一个你能随时感到刺激的地方！\p今天的节目到此为止！$"
+	.string "观众们，如果你们去游戏中心\n玩{STR_VAR_2}游戏，最好像{STR_VAR_1}\l一样看好自己的代币。\p这里是游戏中心现场报道——\n让你感受这里的激情！\p今天的节目就到这里！$"
 
 gTVBreakingNewsText00::
-    .string "重大新闻！$"
+	.string "突发新闻TV！$"
 
 gTVBreakingNewsText01::
-    .string "珍奇的{STR_VAR_2}被\n{STR_VAR_1}捉住了！\p我们住在\n{STR_VAR_3}的附近！\p{STR_VAR_1}再这里成功的\n捕捉了稀有的{STR_VAR_2}！$"
+	.string "{STR_VAR_1}捕获了稀有的\n{STR_VAR_2}！\p我们在{STR_VAR_3}附近\n进行现场报道！\p{STR_VAR_1}刚刚在这里成功\n捕获了稀有的{STR_VAR_2}！$"
 
 gTVBreakingNewsText02::
-    .string "当{STR_VAR_1}遭遇了稀有的\n{STR_VAR_2}，训练家把那只\l宝可梦送给了{STR_VAR_3}。$"
+	.string "当{STR_VAR_1}遇到稀有的\n{STR_VAR_2}时，训练家派出了\l宝可梦{STR_VAR_3}。$"
 
 gTVBreakingNewsText03::
-    .string "在对战中，被训练家扔出的\n精灵球的数量是{STR_VAR_1}。\p稀有的宝可梦被捕捉\n最后用了{STR_VAR_2}个。$"
+	.string "战斗中，训练家共投掷了\n{STR_VAR_1}个精灵球。\p最终，这只稀有宝可梦被\n最后使用的{STR_VAR_2}捕获。$"
 
 gTVBreakingNewsText04::
-    .string "很直接的，{STR_VAR_2}用\n{STR_VAR_1}成功的欢快叫声\l进行了回击。\p我不能否认我有些嫉妒\n{STR_VAR_1}。我也想大叫。\p……这种喜悦\n感染了全场！$"
+	.string "那一刻，{STR_VAR_2}\n回荡着{STR_VAR_1}胜利的\l欢呼声。\p我得承认有点羡慕{STR_VAR_1}。\n我也想这样欢呼。\p……现场直播就在这样欢快\n的一幕中到此结束！$"
 
 gTVBreakingNewsText05::
-    .string "{STR_VAR_1}没有捕捉到\n{STR_VAR_2}！\p我们住在\n{STR_VAR_3}附近！\p这是{STR_VAR_1}捕捉珍奇的{STR_VAR_2}\n失败的地方！$"
+	.string "{STR_VAR_1}未能捕获稀有的\n{STR_VAR_2}！\p我们在{STR_VAR_3}附近\n进行现场报道！\p{STR_VAR_1}就是在这里\n未能捕获稀有的{STR_VAR_2}！$"
 
 gTVBreakingNewsText06::
-    .string "当{STR_VAR_1}遭遇了稀有的\n{STR_VAR_2}，训练家把那只\l宝可梦送给了{STR_VAR_3}。$"
+	.string "当{STR_VAR_1}遇到稀有的\n{STR_VAR_2}时，训练家派出了\l宝可梦{STR_VAR_3}。$"
 
 gTVBreakingNewsText07::
-    .string "训练家让{STR_VAR_2}\n使用了{STR_VAR_1}。\p没有任何犹豫，那个训练家\n另那稀有宝可梦晕倒了……$"
+	.string "训练家让{STR_VAR_2}\n使用了招式{STR_VAR_1}。\p一不小心，训练家\n使稀有宝可梦昏厥了……$"
 
 gTVBreakingNewsText12::
-    .string "但是，{STR_VAR_1}被稀有的{STR_VAR_2}\n的眼神吓坏了。\p混乱中，训练家又安排\n{STR_VAR_3}来攻击。\p没有丝毫犹豫，训练家\n另稀有的宝可梦眩晕了。$"
+	.string "然而，{STR_VAR_1}看到稀有的\n{STR_VAR_2}时慌了神。\p慌乱中，训练家命令\n{STR_VAR_3}发动攻击。\p一不小心，训练家\n使稀有宝可梦昏厥了。$"
 
 gTVBreakingNewsText08::
-    .string "刻不容缓，{STR_VAR_2}\n又用{STR_VAR_1}的尖叫声\l进行回击……$"
+	.string "那一刻，{STR_VAR_2}\n回荡着{STR_VAR_1}沮丧的\l尖叫声……$"
 
 gTVBreakingNewsText09::
-    .string "但是，{STR_VAR_1}似乎又从\n精灵球里跑出来了。\p训练家必须中断\n和{STR_VAR_2}的对战。\p接下来，{STR_VAR_3}\n又用{STR_VAR_1}的尖叫声\l进行回击……$"
+	.string "然而，{STR_VAR_1}似乎\n用光了精灵球。\p训练家不得不中断\n与稀有{STR_VAR_2}的战斗。\p那一刻，{STR_VAR_3}\n回荡着{STR_VAR_1}沮丧的\l尖叫声……$"
 
 gTVBreakingNewsText10::
-    .string "但是，{STR_VAR_2}毫无预兆的\n逃跑了。\p接下来，{STR_VAR_3}\n又用{STR_VAR_1}的尖叫声\l进行回击……$"
+	.string "然而，{STR_VAR_2}突然\n逃走了。\p那一刻，{STR_VAR_3}\n回荡着{STR_VAR_1}沮丧的\l尖叫声……$"
 
 gTVBreakingNewsText11::
-    .string "我必须说我很同情{STR_VAR_1}。\n为什么，那让我也想尖叫了。\p……这忧郁的气氛\n渲染了全场！$"
+	.string "我得说我为{STR_VAR_1}感到难过。\n这让我也想尖叫。\p……现场直播就在这样忧郁\n的一幕中到此结束！$"
 
 gTVSecretBaseVisitText00::
-    .string "嘿，大家好！\n又是参观秘密基地的\l时间了。\p今天，我们要参观的秘密基地\n是{STR_VAR_1}的！\p{STR_VAR_1}如何将自己的秘密基地\n个性化设计的？\p让我们拭目以待！\n…… …… ……$"
+	.string "观众朋友们好！\n又到了我们的\l秘密基地探访时间！\p今天我们要参观的是\n{STR_VAR_1}的秘密基地。\p{STR_VAR_1}是如何打造\n这个秘密基地的呢？\p让我们一探究竟！\n…… …… ……$"
 
 gTVSecretBaseVisitText01::
-    .string "哦！\n多么不可思议啊！\p这是{STR_VAR_2}……\n这种东西，任何人也想不到，\l会在这里发现吧！$"
+	.string "哇！\n太惊艳了！\p这个{STR_VAR_2}……\n完全出乎意料！$"
 
 gTVSecretBaseVisitText02::
-    .string "哇！\n多么值得称赞！\p这不仅仅是\n单纯的家具或者内饰！\p凡人是不敢奢望\n模仿这么大胆的设计的！\p多么简单，却多么令人冲动\n是啊，令人心中充满了野性的冲动！\p我要对你脱帽致敬了，{STR_VAR_1}。\n只有你才能做得这么好！$"
+	.string "哇！\n太特别了！\p这里竟然一件家具\n和装饰物品都没有！\p普通人可不敢\n做这么大胆的设计！\p看似简单，却充满野性，\n是的，狂野十足！\p向您致敬，{STR_VAR_1}。\n只有您能做到这样！$"
 
 gTVSecretBaseVisitText03::
-    .string "哦，原来如此！\n我清楚地看见了\p这里的{STR_VAR_2}\n多么有效！$"
+	.string "哦！我明白了！\n完全明白了！\p这个{STR_VAR_2}放在这里……\n传达出强烈的信息！$"
 
 gTVSecretBaseVisitText04::
-    .string "哦，原来如此！\n我清楚地看见了！\p这里故意没有摆放\n装饰物品！\p多么有效！$"
+	.string "哦！我明白了！\n完全明白了！\p这个空间故意保持\n没有任何装饰物品！\p传达出强烈的信息！$"
 
 gTVSecretBaseVisitText05::
-    .string "哇呼！\p这里有一对{STR_VAR_2}\n和{STR_VAR_3}！\p相对于只有一个，\n这简直是梦幻的结合！$"
+	.string "哇哦！\p{STR_VAR_2}和{STR_VAR_3}\n的搭配！\p简直是梦幻组合！$"
 
 gTVSecretBaseVisitText06::
-    .string "哇塞！\p在这里摆放的{STR_VAR_2}……\p它的存在感充满了\n整个秘密基地！$"
+	.string "哇哦！\p这个{STR_VAR_2}放在这里……\p它的存在感充满\n整个秘密基地！$"
 
 gTVSecretBaseVisitText07::
-    .string "呵呵！\p这里什么都没有……\p但是这里的空白\n却为整个秘密基地填上了有用的一笔。$"
+	.string "哇哦！\p这里什么都没有。\p这片空白区域对整个\n秘密基地产生了特别效果。$"
 
 gTVSecretBaseVisitText08::
-    .string "哦！\n{STR_VAR_1}来了！\l让我们赶快开始对战！\p…… …… ……\n…… …… ……$"
+	.string "哦！\n{STR_VAR_1}来了！\l让我们挑战这位训练家吧！\p…… …… ……\n…… …… ……$"
 
 gTVSecretBaseVisitText09::
-    .string "唉……\n我要把它给{STR_VAR_1}。\p这个训练家的宝可梦实在\n值得授予冠军头衔。\p它们足够证明{STR_VAR_1}\n作为训练家的实力之强。\p这{STR_VAR_2}会\n{STR_VAR_3}这个招式……\p他显示了你是如何一个训练家\n{STR_VAR_1}。\p我实在是学到了很多！$"
+	.string "呼……\n不得不佩服{STR_VAR_1}。\p这位训练家的宝可梦\n完全配得上冠军称号。\p充分证明了{STR_VAR_1}\n作为训练家的实力。\p那只{STR_VAR_2}会使用\n招式{STR_VAR_3}……\p这展示了{STR_VAR_1}\n是什么样的训练家。\p真是受益匪浅！$"
 
 gTVSecretBaseVisitText10::
-    .string "哎呀！\n我要把它给{STR_VAR_1}。\p这个训练家的宝可梦\n像怪物一样强！\p它们充分地证明了{STR_VAR_1}\n作为训练家的顽强。\p那个{STR_VAR_2}竟然会\n{STR_VAR_3}这个招式……\p它说明了你到底是个什么样\n的训练家，{STR_VAR_1}。\p我实在学到了很多！$"
+	.string "哎呀！\n不得不佩服{STR_VAR_1}。\p这位训练家的宝可梦\n强得可怕！\p充分证明了{STR_VAR_1}\n作为训练家的坚韧。\p那只{STR_VAR_2}会使用\n招式{STR_VAR_3}……\p这展示了{STR_VAR_1}\n是什么样的训练家。\p真是受益匪浅！$"
 
 gTVSecretBaseVisitText11::
-    .string "哎呀！\n我要把它给{STR_VAR_1}。\p这个训练家的宝可梦很明显地\n是被培育成了具有很平均的风度。\p它们充分地证明了{STR_VAR_1}的\n作为训练家的思维缜密。\p那个{STR_VAR_2}竟然会\n{STR_VAR_3}这个招式……\p它说明了你到底是个什么样的训练家\n，{STR_VAR_1}。\p我实在学到了很多！$"
+	.string "哇哦！\n不得不佩服{STR_VAR_1}。\p这位训练家的宝可梦\n培养得非常均衡。\p充分证明了{STR_VAR_1}\n作为训练家的用心。\p那只{STR_VAR_2}会使用\n招式{STR_VAR_3}……\p这展示了{STR_VAR_1}\n是什么样的训练家。\p真是受益匪浅！$"
 
 gTVSecretBaseVisitText12::
-    .string "好啊，好啊！\n我要把它给{STR_VAR_1}。\p这个训练家的宝可梦展现了\n对未来成长的决心。\p它们代表了{STR_VAR_1}的\n希望和梦想。\p那个{STR_VAR_2}竟然会\n{STR_VAR_3}这个招式……\p它说明了你到底是个什么样的训练家\n，{STR_VAR_1}。\p我实在学到了很多！$"
+	.string "哎呀呀！\n不得不佩服{STR_VAR_1}。\p这位训练家的宝可梦\n展现出巨大的成长潜力。\p它们代表着{STR_VAR_1}\n的希望和梦想。\p那只{STR_VAR_2}会使用\n招式{STR_VAR_3}……\p这展示了{STR_VAR_1}\n是什么样的训练家。\p真是受益匪浅！$"
 
 gTVSecretBaseVisitText13::
-    .string "我必须说，超级的秘密基地\n就是这样的！\p参观者们，如果你有机会，\n一定要参观一下{STR_VAR_1}的秘密基地。\p希望还能再见！$"
+	.string "不得不说，这真是个\n超棒的秘密基地！\p观众们，如果有机会，\n一定要参观{STR_VAR_1}的秘密基地。\p下次节目再见！$"
 
 gTVPokemonLotteryWinnerFlashReportText00::
-    .string "多么令人激动！\n多么具有戏剧性！\p这是宝可梦彩票\n赢家快速报导！\p大家好！这是在水静百货一楼的宝可梦\n彩票中心的现场直播！\p就像以前一样，\n今天出现了幸运的训练家！\p这个训练家是……\n{STR_VAR_1}！\p{STR_VAR_1}得了{STR_VAR_2}等奖\n他获得了{STR_VAR_3}！\p{STR_VAR_1}！\n恭喜！\p观众们，不要只是在电视机前观看，\n加入我们吧！\p水静百货的我们\n期待着你的下次来访！\p这是来自水静百货\n的现场直播，\l给你提供，在丰缘能买到的\l最好的商品！$"
+	.string "激动人心！\n精彩纷呈！\p这里是宝可梦抽奖\n中奖快报！\p大家好！我们正在水静百货\n一楼的宝可梦抽奖中心\l为您现场直播！\p今天又有一位幸运训练家\n诞生了！\p这位训练家的名字是…\n{STR_VAR_1}！\p{STR_VAR_1}赢得了{STR_VAR_2}奖\n并带走了{STR_VAR_3}！\p{STR_VAR_1}！\n恭喜你！\p观众朋友们，别光看着，\n快来参与吧！\p水静百货全体员工\n期待您的下次光临！\p这里是水静百货现场直播，\n为您提供丰缘地区\l最丰富的商品选择！$"
 
 gTVThePokemonBattleSeminarText00::
-    .string "这里是宝可梦对战研讨会！\p我们研究对战，来发现\n我们能从别人那里学到什么。\p今天我们来研究一下{STR_VAR_1}的\n对战。\p{STR_VAR_1}的{STR_VAR_2}正在\n与{STR_VAR_3}对战……$"
+	.string "宝可梦对战研讨会！\p我们通过分析对战\n来学习他人的经验。\p今天的研究案例是\n{STR_VAR_1}的对战。\p{STR_VAR_1}的{STR_VAR_2}\n正在与{STR_VAR_3}对战…$"
 
 gTVThePokemonBattleSeminarText01::
-    .string "然后它对{STR_VAR_2}\n使用了{STR_VAR_3}这个招式……\p哼哼……{STR_VAR_1}！\n你不能这样做！$"
+	.string "它使用了招式{STR_VAR_3}\n攻击{STR_VAR_2}…\p嗯…{STR_VAR_1}！\n这样做是不对的！$"
 
 gTVThePokemonBattleSeminarText02::
-    .string "{STR_VAR_1}也会这个……$"
+	.string "除了这个注定失败的招式外，\n训练家的{STR_VAR_1}还会$"
 
 gTVThePokemonBattleSeminarText03::
-    .string "{STR_VAR_1}，{STR_VAR_2}，\n和{STR_VAR_3}这几个招式。$"
+	.string "招式{STR_VAR_1}、{STR_VAR_2}\n和{STR_VAR_3}。$"
 
 gTVThePokemonBattleSeminarText04::
-    .string "{STR_VAR_1}和\n{STR_VAR_2}这两个招式。$"
+	.string "招式{STR_VAR_1}和\n{STR_VAR_2}。$"
 
 gTVThePokemonBattleSeminarText05::
-    .string "{STR_VAR_2}这个招式。$"
+	.string "招式{STR_VAR_2}。$"
 
 gTVThePokemonBattleSeminarText06::
-    .string "在这个状况下，\n这训练家用了什么招式呢？\p…… …… ……\n{STR_VAR_1}！\p{STR_VAR_1}这招式一定会\n比{STR_VAR_2}好。\p观众们，我很希望你能从这学到什么，\n下次要更聪明的对战哦！\p下次再见，拜拜！$"
+	.string "那么在这种情况下，\n训练家应该使用什么招式呢？\p…… …… ……\n招式{STR_VAR_1}！\p招式{STR_VAR_1}绝对比\n{STR_VAR_2}要好得多。\p观众们，我强烈建议你们从这个案例中\n学习，用智慧对战！\p下次节目再见！$"
 
 gTVTrainerFanClubText00::
-    .string "大家注意了！\n这里是训练家迷俱乐部！\p主持：大家状态都好吗？\n今天，我们聚集了众所周知\l的训练家，{STR_VAR_1}的支持者！\p粉丝们：哦！\p粉丝们：{STR_VAR_1}！\p主持：大家！\n你们觉得{STR_VAR_1}怎么样？！\p粉丝们：我们爱{STR_VAR_1}！\p主持：你们喜欢{STR_VAR_1}的\n哪一点？！$"
+	.string "大家一起来！\n训练家粉丝俱乐部！\p主持人：大家嗨起来了吗？\n今天我们聚集了超人气训练家\l{STR_VAR_1}的粉丝们！\p粉丝：哇啊啊啊啊啊！\p粉丝：{STR_VAR_1}！\p主持人：大家！\n你们有多喜欢{STR_VAR_1}？！\p粉丝：我们超爱{STR_VAR_1}！\p主持人：你们喜欢{STR_VAR_1}\n的哪些方面？！$"
 
 gTVTrainerFanClubText01::
-    .string "粉丝们：他们扔精灵球时帅气的样子！$"
+	.string "粉丝：那投掷精灵球的\n帅气姿势！$"
 
 gTVTrainerFanClubText02::
-    .string "粉丝们：他们跑步时那美丽的样子！$"
+	.string "粉丝：那跑步时可爱的样子！$"
 
 gTVTrainerFanClubText03::
-    .string "粉丝们：这些训练家在他们想要变强时，\n他们就变强了！$"
+	.string "粉丝：当情况变得艰难时，\n训练家展现出的坚韧！$"
 
 gTVTrainerFanClubText04::
-    .string "粉丝们：这个训练家对宝可梦的渊博知识！$"
+	.string "粉丝：训练家对宝可梦的\n渊博知识！$"
 
 gTVTrainerFanClubText05::
-    .string "粉丝们：这个训练家对所有宝可梦的温柔！$"
+	.string "粉丝：训练家对所有宝可梦\n的温柔态度！$"
 
 gTVTrainerFanClubText06::
-    .string "粉丝们：这个训练家那\n令人惊异的骑车技术。$"
+	.string "粉丝：训练家骑自行车时\n惊人的技巧！$"
 
 gTVTrainerFanClubText07::
-    .string "粉丝们：这个训练家那\n令人印象深刻的购物方式！$"
+	.string "粉丝：训练家购买物品时\n令人印象深刻的风格！$"
 
 gTVTrainerFanClubText08::
-    .string "粉丝们：这个训练家给宝可梦起的\n那些迷人的名字！$"
+	.string "粉丝：训练家给宝可梦取昵称时\n迷人的方式！$"
 
 gTVTrainerFanClubText09::
-    .string "粉丝们：这个训练家那漂亮的\n装饰秘密基地的方式！$"
+	.string "粉丝：训练家装饰秘密基地时\n的巧妙风格！$"
 
 gTVTrainerFanClubText10::
-    .string "粉丝们：这个训练家大胆地\n使用招式学习器！$"
+	.string "粉丝：训练家使用技能学习器时\n的大胆方式！$"
 
 gTVTrainerFanClubText11::
-    .string "主持：就像你们看见的那样，{STR_VAR_1}\n真流行！可以说是炙手可热！\p在{STR_VAR_1}的粉丝们中\n有一个特别的口号！\p主持：我说{STR_VAR_1}，\n你们说……\p粉丝们：{STR_VAR_2}！\p粉丝们：{STR_VAR_3}！\p粉丝们：{STR_VAR_2}！\p粉丝们：{STR_VAR_3}！\p主持：就是这样。当一个人对你说\n“{STR_VAR_1}”时……\p一定要回应， “{STR_VAR_2}\n{STR_VAR_3}！”\p这是独一无二的环！\n我能理解为什么人们成为了\l{STR_VAR_1}的粉丝们！\p电视机前的观众们，加入我们吧！\n大家注意！\p主持：我说{STR_VAR_1}，\n你说……\p粉丝们：{STR_VAR_2}！\p粉丝们：{STR_VAR_3}！\p粉丝们：{STR_VAR_2}！\p粉丝们：{STR_VAR_3}！\p主持：感谢大家的参与，\n狂野的{STR_VAR_1}的粉丝们！\l节目结束！下次再见！\p主持：我说{STR_VAR_1}，\n你就说……\p粉丝们：{STR_VAR_2}！\p粉丝们：{STR_VAR_3}！$"
+	.string "主持人：正如大家所见，{STR_VAR_1}\n简直炙手可热！\p{STR_VAR_1}的粉丝们\n有个特别的口号！\p主持人：当我说{STR_VAR_1}\n你们喊……\p粉丝：{STR_VAR_2}！\p粉丝：{STR_VAR_3}！\p粉丝：{STR_VAR_2}！\p粉丝：{STR_VAR_3}！\p主持人：没错，当有人说\n“{STR_VAR_1}”……\p就要回应“{STR_VAR_2}\n{STR_VAR_3}！”\p这口号多么独特啊！\n难怪大家都成了{STR_VAR_1}的粉丝！\p电视机前的你也一起来！\n预备——起！\p主持人：当我说{STR_VAR_1}\n你们喊……\p粉丝：{STR_VAR_2}！\p粉丝：{STR_VAR_3}！\p粉丝：{STR_VAR_2}！\p粉丝：{STR_VAR_3}！\p主持人：感谢所有热情的{STR_VAR_1}粉丝！\n本期节目就到这里！下次见！\p主持人：当我说{STR_VAR_1}\n你们喊……\p粉丝：{STR_VAR_2}！\p粉丝：{STR_VAR_3}！$"
 
 TVSpotTheCuties_Text_Intro::
-    .string "捕捉可爱的一瞬！\n宝可梦戴奖章！\p我亲爱的观众们，你们好！\p我知道你们都同意，形容戴着奖章\n的宝可梦就只有一个词：美丽！\p今天，我想和观众们分享\n一个当我在城里散步时看见的宝可梦。\p今天的可爱的宝可梦\n是{STR_VAR_1}的{STR_VAR_2}。$"
+	.string "寻找宝贝特辑！\n戴着奖章的宝可梦！\p亲爱的观众朋友们好！\p相信你们也会同意，戴着奖章的\n宝可梦简直太惊艳了！\p今天我要分享在城镇中散步时\n遇到的可爱宝可梦。\p本期主角是{STR_VAR_1}的\n{STR_VAR_2}。$"
 
 TVSpotTheCuties_Text_RibbonsLow::
-    .string "由{STR_VAR_2}戴着的\n奖章数是{STR_VAR_3}。\p这告诉了我们\n{STR_VAR_1}有多么爱他的宝可梦。$"
+	.string "{STR_VAR_2}戴着\n{STR_VAR_3}个奖章。\p这充分展现了{STR_VAR_1}\n对宝可梦的宠爱。$"
 
 TVSpotTheCuties_Text_RibbonsMid::
-    .string "{STR_VAR_2}带着令人惊讶的\n{STR_VAR_3}奖章！\p它清楚地展现了{STR_VAR_1}\n对于宝可梦的执著！$"
+	.string "{STR_VAR_2}戴着惊人的\n{STR_VAR_3}个奖章！\p这彰显了{STR_VAR_1}对\n宝可梦的用心培育！$"
 
 TVSpotTheCuties_Text_RibbonsHigh::
-    .string "{STR_VAR_2}戴着令人难以置信的\n{STR_VAR_3}奖章！\p它们展现了{STR_VAR_1}\n作为收集者的奉献！$"
+	.string "{STR_VAR_2}戴着不可思议的\n{STR_VAR_3}个奖章！\p这展现了{STR_VAR_1}作为\n收藏家的极致追求！$"
 
 TVSpotTheCuties_Text_RibbonIntro::
-    .string "让我们仔细地看看这些\n由{STR_VAR_2}戴着的奖章。$"
+	.string "让我们仔细看看{STR_VAR_2}\n佩戴的各式奖章。$"
 
 TVSpotTheCuties_Text_RibbonChampion::
-    .string "冠军奖章真是\n太漂亮啦。\p{STR_VAR_2}在进入名人纪念馆时\n获得了这款奖章。\p它见证了\n{STR_VAR_2}的勇敢。\p{STR_VAR_2}和冠军奖章！\n多么契合的组合啊！$"
+	.string "冠军奖章格外耀眼。\p{STR_VAR_2}因登入名人堂\n获此殊荣。\p完美衬托出{STR_VAR_2}\n的英勇气质。\p{STR_VAR_2}与冠军奖章！\n这搭配效果绝佳！$"
 
 TVSpotTheCuties_Text_RibbonCool::
-    .string "帅气奖章真是\n太漂亮啦。\p{STR_VAR_2}因赢得了帅气华丽大赛\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的帅气。\p{STR_VAR_2}和帅气奖章！\n多么契合的组合啊！$"
+	.string "帅气奖章格外耀眼。\p{STR_VAR_2}因赢得帅气华丽大赛\n获此殊荣。\p完美衬托出{STR_VAR_2}\n的酷炫气质。\p{STR_VAR_2}与帅气奖章！\n这组合效果绝佳！$"
 
 TVSpotTheCuties_Text_RibbonBeauty::
-    .string "漂亮奖章真是\n太漂亮啦。\p{STR_VAR_2}因赢得了漂亮华丽大赛\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的漂亮。\p{STR_VAR_2}和漂亮奖章！\n多么契合的组合啊！$"
+	.string "美丽奖章格外耀眼。\p{STR_VAR_2}因赢得美丽华丽大赛\n获此殊荣。\p完美衬托出{STR_VAR_2}\n的优雅气质。\p{STR_VAR_2}与美丽奖章！\n这组合效果绝佳！$"
 
 TVSpotTheCuties_Text_RibbonCute::
-    .string "可爱奖章真是\n太漂亮啦。\p{STR_VAR_2}因赢得了可爱华丽大赛\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的可爱。\p{STR_VAR_2}和可爱奖章！\n多么契合的组合啊！$"
+	.string "可爱奖章格外耀眼。\p{STR_VAR_2}因赢得可爱华丽大赛\n获此殊荣。\p完美衬托出{STR_VAR_2}\n的甜美特质。\p{STR_VAR_2}与可爱奖章！\n这组合效果绝佳！$"
 
 TVSpotTheCuties_Text_RibbonSmart::
-    .string "聪明奖章真是\n太漂亮啦。\p{STR_VAR_2}因赢得了聪明华丽大赛\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的聪明。\p{STR_VAR_2}和聪明奖章！\n多么契合的组合啊！$"
+	.string "聪明奖章格外耀眼。\p{STR_VAR_2}因赢得聪明华丽大赛\n获此殊荣。\p完美衬托出{STR_VAR_2}\n的机智特质。\p{STR_VAR_2}与聪明奖章！\n这组合效果绝佳！$"
 
 TVSpotTheCuties_Text_RibbonTough::
-    .string "强壮奖章真是\n太漂亮啦。\p{STR_VAR_2}因赢得了强壮华丽大赛\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的强壮。\p{STR_VAR_2}和强壮奖章！\n多么契合的组合啊！$"
+	.string "强壮奖章格外耀眼。\p{STR_VAR_2}因赢得强壮华丽大赛\n获此殊荣。\p完美衬托出{STR_VAR_2}\n的刚毅气质。\p{STR_VAR_2}与强壮奖章！\n这组合效果绝佳！$"
 
 TVSpotTheCuties_Text_RibbonWinning::
-    .string "胜利奖章真是\n太漂亮啦。\p{STR_VAR_2}因其在作战大厦的杰出表现\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的力量。\p{STR_VAR_2}和胜利奖章！\n多么契合的组合啊！$"
+	.string "成功奖章格外耀眼。\p{STR_VAR_2}因在对战塔的\n出色表现获此殊荣。\p完美衬托出{STR_VAR_2}\n的王者风范。\p{STR_VAR_2}与成功奖章！\n这组合效果绝佳！$"
 
 TVSpotTheCuties_Text_RibbonVictory::
-    .string "优胜奖章真是\n太漂亮啦。\p{STR_VAR_2}因其在对战塔的杰出表现\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的惊人力量。\p{STR_VAR_2}和优胜奖章！\n多么契合的组合啊！$"
+	.string "胜利奖章格外耀眼。\p{STR_VAR_2}因在对战塔的\n卓越战绩获此殊荣。\p完美衬托出{STR_VAR_2}\n的无敌气势。\p{STR_VAR_2}与胜利奖章！\n这组合效果绝佳！$"
 
 TVSpotTheCuties_Text_RibbonArtist::
-    .string "艺术奖章真是\n太漂亮啦。\p{STR_VAR_2}因给艺术家做模特\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的明星气质。\p{STR_VAR_2}和艺术奖章！\n多么契合的组合啊！$"
+	.string "肖像奖章格外耀眼。\p{STR_VAR_2}因担任肖像\n模特获此殊荣。\p完美衬托出{STR_VAR_2}\n的明星魅力。\p{STR_VAR_2}与肖像奖章！\n这组合效果绝佳！$"
 
 TVSpotTheCuties_Text_RibbonEffort::
-    .string "勤勉奖章真是\n太漂亮啦。\p{STR_VAR_2}因其投入的工作态度\n而获得了这款奖章。\p它见证了\n{STR_VAR_2}的决心。\p{STR_VAR_2}和勤勉奖章！\n多么契合的组合啊！$"
+	.string "努力奖章格外耀眼。\p{STR_VAR_2}因其特别\n努力的表现获此殊荣。\p完美衬托出{STR_VAR_2}\n的坚韧品质。\p{STR_VAR_2}与努力奖章！\n这组合效果绝佳！$"
 
 TVSpotTheCuties_Text_Outro::
-    .string "……唉……\p奖章和宝可梦……\n真是太相称了！\p在我陶醉得晕倒之前，\n先向各位道声再会！$"
+	.string "……呼……\p奖章与宝可梦……\n简直是天作之合！\p在我彻底陶醉之前，\n先和大家说再见啦！$"
 
 gTVPokemonNewsBattleFrontierText00::
-    .string "大家好！\n现在是宝可梦新闻时间。\p我们将为大家带来对战开拓区中\n最令人振奋的消息。$"
+    .string "大家好！\n现在是宝可梦新闻时间。\p我们收到来自对战开拓区的\n振奋人心的消息！$"
 
 gTVPokemonNewsBattleFrontierText01::
-    .string "训练家{STR_VAR_1}在\n对战塔单打对战间的挑战中\l创造了{STR_VAR_2}连胜的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n对战塔单打对战间挑战中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText02::
-    .string "训练家{STR_VAR_1}在\n对战塔双打对战间的挑战中\l创造了{STR_VAR_2}连胜的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n对战塔双打对战间挑战中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText03::
-    .string "训练家{STR_VAR_1}在\n对战塔多人对战间的挑战中\l创造了{STR_VAR_2}连胜的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n对战塔多人对战间挑战中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText04::
-    .string "训练家{STR_VAR_1}在\n对战塔多人连线对战间的挑战中\l创造了{STR_VAR_2}连胜的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n对战塔多人连线对战间挑战中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText05::
-    .string "训练家{STR_VAR_1}在\n在对战巨蛋单打对战锦标赛中\l创造了{STR_VAR_2}连冠的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n在对战巨蛋单打对战锦标赛中\l创造了{STR_VAR_2}连冠的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText06::
-    .string "训练家{STR_VAR_1}在\n在对战巨蛋双打对战锦标赛中\l创造了{STR_VAR_2}连冠的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n在对战巨蛋双打对战锦标赛中\l创造了{STR_VAR_2}连冠的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText07::
-    .string "训练家{STR_VAR_1}在\n对战工厂交换式对战单打锦标赛中\l创造了{STR_VAR_2}连胜的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n对战工厂交换式对战单打锦标赛中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText08::
-    .string "训练家{STR_VAR_1}在\n对战工厂交换式对战双打锦标赛中\l创造了{STR_VAR_2}连胜的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n对战工厂交换式对战双打锦标赛中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText09::
-    .string "训练家{STR_VAR_1}在\n对战管道选择式对战中\l创造了{STR_VAR_2}间连续通关的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n对战管道选择式对战中\l创造了{STR_VAR_2}间连续通关的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText10::
-    .string "训练家{STR_VAR_1}在\n对战竞技场三回合定胜负锦标赛中\l创造了{STR_VAR_2}连胜的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n对战竞技场三回合定胜负锦标赛中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText11::
-    .string "训练家{STR_VAR_1}在\n在对战宫殿单打对战厅中\l创造了{STR_VAR_2}连胜的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n在对战宫殿单打对战厅中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText12::
-    .string "训练家{STR_VAR_1}在\n在对战宫殿双打对战厅中\l创造了{STR_VAR_2}连胜的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n在对战宫殿双打对战厅中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText13::
-    .string "训练家{STR_VAR_1}在\n对战金字塔探索式对战中\l创造了{STR_VAR_2}层连续通关的记录。\p让我们祝贺{STR_VAR_1}的胜利！$"
+    .string "训练家{STR_VAR_1}在\n对战金字塔探索式对战中\l创造了{STR_VAR_2}层连续通关的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText14::
-    .string "对于这3只宝可梦，{STR_VAR_1}，\n{STR_VAR_2}和{STR_VAR_3}！\p向你们卓越的表现\n表示祝贺！$"
+    .string "还有这3只宝可梦，{STR_VAR_1}、\n{STR_VAR_2}和{STR_VAR_3}！\p恭喜你们创造了\n破纪录的精彩表现！$"
 
 gTVPokemonNewsBattleFrontierText15::
-    .string "对于这2只宝可梦，\n{STR_VAR_1}和{STR_VAR_2}！\p向你们卓越的表现\n表示祝贺！$"
+    .string "还有这2只宝可梦，\n{STR_VAR_1}和{STR_VAR_2}！\p恭喜你们创造了\n破纪录的精彩表现！$"
 
 gTVPokemonNewsBattleFrontierText16::
     .string "{STR_VAR_1}！\p{STR_VAR_2}！\p{STR_VAR_3}！$"
 
 gTVPokemonNewsBattleFrontierText17::
-    .string "{STR_VAR_1}！\p向你卓越的表现\n表示祝贺！$"
+    .string "{STR_VAR_1}！\p恭喜你创造了\n破纪录的精彩表现！$"
 
 gTVPokemonNewsBattleFrontierText18::
-    .string "让我们期待{STR_VAR_1}及其忠心耿耿的宝可梦\n创下更多永垂青史的\l壮举吧！\p宝可梦新闻到此结束！$"
+    .string "让我们期待{STR_VAR_1}与忠实的\n宝可梦创造更多的纪录吧！\p以上就是本期宝可梦新闻\n的全部内容！$"
 
 gTVWhatsNo1InHoennTodayText00::
-    .string "今天丰缘的No.1是谁呢？\n对啦，又到这个时间啦！\p观众们，大家好！各位平时不论做什么\n是否都会倾注全力呢？\p让我们来看看\n今天最最努力的训练家吧！\p今天的No.1训练家\n非{STR_VAR_1}莫属啦！$"
+	.string "今日丰缘No.1！\n又到了这个激动人心的时刻！\p观众朋友们大家好！\n今天的你全力以赴了吗？\p让我们看看今天表现最出色的\n训练家是谁！\p今日的No.1训练家正是\n{STR_VAR_1}！$"
 
 gTVWhatsNo1InHoennTodayText01::
-    .string "一天之内，{STR_VAR_1}在游戏中心转了\n{STR_VAR_2}次角子。\p玩的时候，{STR_VAR_1}自言自语道：\n“怎么轮到我的时候，\l转也不转呢……”\l哈，他多有趣啊！$"
+	.string "{STR_VAR_1}今天在游戏厅\n玩了{STR_VAR_2}次老虎机！\p玩的时候还喃喃自语：\n“对我来说转盘就像没在转……”\l是不是很有趣呢？$"
 
 gTVWhatsNo1InHoennTodayText02::
-    .string "一天之内，{STR_VAR_1}在游戏中心\n玩了{STR_VAR_2}次\l轮盘赌。\p玩的时候，{STR_VAR_1}大喊道：\n“就让彩球来决定吧！”\p训练家目不转睛，\n脸上写满了专注。$"
+	.string "{STR_VAR_1}今天在游戏厅\n玩了{STR_VAR_2}次轮盘游戏！\p玩的时候大喊：\n“交给小球吧！”\p训练家目不转睛，\n表情全神贯注。$"
 
 gTVWhatsNo1InHoennTodayText03::
-    .string "一天之内，{STR_VAR_1}同\n野生宝可梦对战了{STR_VAR_2}次！\p很显然，{STR_VAR_1}的宝可梦\n已经成长得无比强大。\p它们看起来渴望\n随时随地投入对战！$"
+	.string "{STR_VAR_1}今天与野生宝可梦\n对战了{STR_VAR_2}次！\p显然{STR_VAR_1}的宝可梦\n已经变得无比强大。\p它们渴望随时随地\n都能进行战斗！$"
 
 gTVWhatsNo1InHoennTodayText04::
-    .string "一天之内，{STR_VAR_1}开动了\n{STR_VAR_2}次树果搅拌机！\p到最后，{STR_VAR_1}自己\n都有点晕晕乎乎的。\p训练家走路踉踉跄跄\n就像个搅拌机！$"
+	.string "{STR_VAR_1}今天摇了\n{STR_VAR_2}次树果混合器！\p到最后连{STR_VAR_1}\n自己都开始头晕了。\p训练家走路摇摇晃晃，\n活像只晃晃斑！$"
 
 gTVWhatsNo1InHoennTodayText05::
-    .string "一天之内，{STR_VAR_1}种了\n{STR_VAR_2}棵果树！\p结果搞得{STR_VAR_1}\n满身灰土。\p训练家种上树的地方，\n无数花朵竞相绽放。\p据说这种花朵\n有平复情绪的效果。$"
+	.string "{STR_VAR_1}今天种下了\n{STR_VAR_2}颗树果！\p结果{STR_VAR_1}的衣服\n都沾满了泥土。\p在训练家种植的地方，\n无数花朵竞相绽放。\p据说这些花朵能\n抚慰人们的心灵。$"
 
 gTVWhatsNo1InHoennTodayText06::
-    .string "一天之内，{STR_VAR_1}拾了\n{STR_VAR_2}枚树果！\p{STR_VAR_1}的包包装满了\n树果，训练家真是\l举步维艰啊！$"
+	.string "{STR_VAR_1}今天采摘了\n{STR_VAR_2}颗树果！\p背包塞满树果后，\n训练家连走路都困难了！$"
 
 gTVWhatsNo1InHoennTodayText07::
-    .string "一天之内，{STR_VAR_1}获得了\n{STR_VAR_2}BP的对战点数！\p之后发现{STR_VAR_1}正在犹豫\n是否要用对战点数兑换\l酷酷的装备或\l靓靓的装饰。\p据说训练家考虑的时候\n咧嘴直笑。$"
+	.string "{STR_VAR_1}今天获得了\n{STR_VAR_2}BP的对战点数！\p后来看到{STR_VAR_1}纠结于\n该兑换给力的道具还是\l精美的装饰物品。\p据说训练家边思考\n边露出傻笑呢。$"
 
 gTVWhatsNo1InHoennTodayText08::
-    .string "哇，这难道不值得庆贺吗！\p{STR_VAR_1}！\n你是今天的No.1训练家也！\p观众朋友们，\n让我们学习{STR_VAR_1}的勇气和信心！\l你们，也能成为每天的No.1！$"
+	.string "真是太厉害了！\p{STR_VAR_1}！\n你就是今日的No.1训练家！\p观众们，向{STR_VAR_1}学习吧！\n你们也能成为每日No.1！$"
 
 TVSecretBaseSecrets_Text_Intro::
-    .string "秘密基地大揭秘！\p训练家在秘密基地\n都做些什么呢？\p今天，让我们来调查一下{STR_VAR_1}的\n秘密基地吧。\p哦？看起来{STR_VAR_2}已经\n捷足先登啦。\p让我们来瞧一眼！\p{STR_VAR_2}会做些什么？$"
+	.string "秘密基地探秘！\p训练家们在秘密基地里\n都做些什么呢？\p今天我们要探访{STR_VAR_1}的\n秘密基地。\p哦？{STR_VAR_2}好像\n来拜访了。\p让我们偷偷看看！\p{STR_VAR_2}会做什么呢？$"
 
 TVSecretBaseSecrets_Text_WhatWillPlayerDoNext1::
-    .string "{STR_VAR_2}接下来会做什么？$"
+	.string "{STR_VAR_2}接下来会做什么？$"
 
 TVSecretBaseSecrets_Text_WhatWillPlayerDoNext2::
-    .string "现在，{STR_VAR_2}又会干什么呢？$"
+	.string "现在，{STR_VAR_2}会做什么呢？$"
 
 TVSecretBaseSecrets_Text_TookXStepsBeforeLeaving::
-    .string "最后，离开之前，{STR_VAR_2}\n在{STR_VAR_1}的秘密基地里\l逛了{STR_VAR_3}步。$"
+	.string "最后，{STR_VAR_2}在{STR_VAR_1}的\n秘密基地里走了{STR_VAR_3}步\l才离开。$"
 
 TVSecretBaseSecrets_Text_BaseFailedToInterestPlayer::
-    .string "嗯……\p看起来{STR_VAR_1}的秘密基地\n并没有引起{STR_VAR_2}的兴趣……$"
+	.string "嗯……\p看来{STR_VAR_1}的秘密基地\n没能引起{STR_VAR_2}的兴趣……$"
 
 TVSecretBaseSecrets_Text_PlayerEnjoyedBase::
-    .string "{STR_VAR_2}看起来对{STR_VAR_1}的\n秘密基地非常喜爱。$"
+	.string "{STR_VAR_2}似乎非常享受\n{STR_VAR_1}的秘密基地。$"
 
 TVSecretBaseSecrets_Text_PlayerHugeFanOfBase::
-    .string "{STR_VAR_2}看起来成了\n{STR_VAR_1}秘密基地的\l骨灰级粉丝啦。$"
+	.string "{STR_VAR_2}似乎已经成为了\n{STR_VAR_1}秘密基地的\l狂热粉丝。$"
 
 TVSecretBaseSecrets_Text_Outro::
-    .string "观众们是不是对\n{STR_VAR_1}的秘密基地也有兴趣呢？\p请继续锁定这个频道，和我们一同参观\n其他秘密基地！非常感谢您的收看！$"
+	.string "观众们可能也想看看\n{STR_VAR_1}的秘密基地。\p下次我们将探访另一个\n秘密基地！感谢收看！$"
 
 TVSecretBaseSecrets_Text_StoppedMoving1::
-    .string "游客停下了脚步！\p完全不想离开！\p{STR_VAR_1}的秘密基地\n真的这么吸引人吗？$"
+	.string "访客停下了！\p访客完全不动了！\p难道{STR_VAR_1}的秘密基地\n这么无趣吗？$"
 
 TVSecretBaseSecrets_Text_StoppedMoving2::
-    .string "游客停了下来！\p完全不能动弹！\p他累了吗？\n会越来越累吗？$"
+	.string "访客停下了！\p访客完全不动了！\p是累了吗？\n访客已经疲倦了吗？$"
 
 TVSecretBaseSecrets_Text_UsedChair::
-    .string "他在椅子上坐了下来！\n确实坐下了！\p他看起来很高兴！\p那把椅子坐起来\n一定很舒服！$"
+	.string "访客坐在了椅子上！\n访客坐下了！\p看那开心的表情！\p这把椅子一定非常舒服\n才会有这种反应！$"
 
 TVSecretBaseSecrets_Text_UsedBalloon::
-    .string "他向气球冲去！\p气球爆了！\n啪的一声，噢，天呐！\p吓了他一跳！$"
+	.string "访客冲向了一个气球！\p气球爆了！\n天啊，它炸开了！\p访客似乎被这突然的\n声响吓了一跳！$"
 
 TVSecretBaseSecrets_Text_UsedTent::
-    .string "游客走进了帐篷！\p他四处奔跑！\p噢，我的天，他竟然胡跑乱闹！\p他对帐篷的巨大\n还真是感到吃惊呢！$"
+	.string "访客进入了一个帐篷！\p访客在四处奔跑！\p哦，天哪，访客在嬉戏！\p访客似乎对帐篷的\n大小感到惊讶！$"
 
 TVSecretBaseSecrets_Text_UsedPlant::
-    .string "游客在\n观赏盆栽！\p原来他还有这么\n高雅的情趣啊！$"
+	.string "访客正在观察\n一盆盆栽植物！\p访客的品味出人意料地\n成熟呢！$"
 
 TVSecretBaseSecrets_Text_UsedGoldShield::
-    .string "游客在金色的盾前\n观赏起来！\p他的眼睛散发出\n闪耀的光芒！$"
+	.string "访客正在观察\n一个金盾！\p访客的眼睛里\n闪烁着惊奇的光芒！$"
 
 TVSecretBaseSecrets_Text_UsedSilverShield::
-    .string "游客在银色的盾前\n观赏起来！\p他把眼睛睁得大大的！$"
+	.string "访客正在观察\n一个银盾！\p访客睁大了眼睛！$"
 
 TVSecretBaseSecrets_Text_UsedGlassOrnament::
-    .string "游客在玻璃装饰物品前\n观赏起来！\p噢，不！\p他上去摸了！\p那样会在上面\n粘满指纹的……$"
+	.string "访客正在观察\n一个玻璃工艺品！\p哦，不！\p访客在摸它！\p上面都是指纹了……\p"
 
 TVSecretBaseSecrets_Text_UsedTV::
-    .string "游客在看电视！\p看来我们有个狂热的电视迷！$"
+	.string "访客正在看电视！\p看来是个电视迷呢！$"
 
 TVSecretBaseSecrets_Text_UsedMudBall::
-    .string "游客在泥球上跳舞！\p他看起来挺开心的！$"
+	.string "访客踩了个泥巴丸子！\p看起来很开心！$"
 
 TVSecretBaseSecrets_Text_UsedBag::
-    .string "……哦？\p游客将手伸进包包\n找呀找呀！\p拿出了\n{STR_VAR_2}！\p看他举着{STR_VAR_2}\n笑的样子！\p活像在做电视广告！$"
+	.string "……哦？\p访客正翻找自己的包包！\p掏出了{STR_VAR_2}！\p看访客举着{STR_VAR_2}\n笑得多开心！\p简直像电视广告一样！$"
 
 TVSecretBaseSecrets_Text_UsedCushion::
-    .string "游客抓起一个垫子并且……$"
+	.string "访客抓起一个垫子……$"
 
 TVSecretBaseSecrets_Text_HitCushion::
-    .string "……开始摔打！\p他有非常大的压力吗？$"
+	.string "……开始捶打它！\p访客压力很大吗？$"
 
 TVSecretBaseSecrets_Text_HuggedCushion::
-    .string "……紧紧地抱着它！\p难道他有什么值得\n高兴的事？$"
+	.string "……紧紧抱住它！\p访客是不是遇到什么\n开心事了？$"
 
 TVSecretBaseSecrets_Text_BattledWon::
-    .string "游客在和{STR_VAR_1}\n说些什么！\p他们好像要\n进行对战了！\p接下来……\p游客胜利了！\n他在客场赢得了比赛！\p游客跳起了\n胜利之舞！$"
+	.string "访客正在和{STR_VAR_1}聊天！\p看起来要开始对战了！\p然后……\p是访客赢了！\n客场作战获胜！\p访客跳起了胜利之舞！$"
 
 TVSecretBaseSecrets_Text_BattledLost::
-    .string "游客在和{STR_VAR_1}\n说些什么！\p他们好像要\n进行对战了！\p接下来……\p胜者是{STR_VAR_1}！\n游客输掉了！\p他显得十分沮丧！$"
+	.string "访客正在和{STR_VAR_1}聊天！\p看起来要开始对战了！\p然后……\p{STR_VAR_1}赢了！\n访客输了！\p访客看起来很沮丧！$"
 
 TVSecretBaseSecrets_Text_DeclinedBattle::
-    .string "游客在和{STR_VAR_1}\n说些什么！\p他们好像要\n进行对战了！\p接下来……\p噢，游客拒绝了！\p他们并没有对战！\p他认为{STR_VAR_1}没有\n吸引力了吗？$"
+	.string "访客正在和{STR_VAR_1}聊天！\p看起来要开始对战了！\p然后……\p不，访客拒绝了！\p最终没有对战！\p访客觉得{STR_VAR_1}\n不够吸引人吗？$"
 
 TVSecretBaseSecrets_Text_UsedPoster::
-    .string "游客正聚精会神地\n盯着一张海报！\p那是他喜欢的\n海报吗？\p……但是……他的眼神中\n带着一丝不安。$"
+	.string "访客正盯着海报看！\p很喜欢这张海报吗？\p……但是……\n访客的眼神有点吓人……$"
 
 TVSecretBaseSecrets_Text_UsedNoteMat::
-    .string "游客站在了音符地毯上！\p……唔……\n他谱写出了一段不可思议的乐章！$"
+	.string "访客踩上了音符地毯！\p……嗯…\n编了首搞笑的曲子！$"
 
 TVSecretBaseSecrets_Text_BattledDraw::
-    .string "游客在和{STR_VAR_1}\n说些什么！\p他们好像要\n进行对战了！\p接下来……\p是个平局！\n什么都没解决！\p两个训练家\n似乎都很懊悔！$"
+	.string "访客正在和{STR_VAR_1}聊天！\p看起来要开始对战了！\p然后……\p平局！\n没分出胜负！\p两位训练家都显得\n非常失望！$"
 
 TVSecretBaseSecrets_Text_UsedSpinMat::
-    .string "游客登上了\n旋转铺垫！\p看起来晕晕乎乎的！\p他在那摇摇晃晃的！\n当心！$"
+	.string "访客踩上了旋转地毯！\p看起来头晕目眩！\p访客摇摇晃晃的！\n小心！$"
 
 TVSecretBaseSecrets_Text_UsedSandOrnament::
-    .string "游客拿出来\n一个沙制装饰物品！\p噢！\p它碎掉了！\n已经散架了！\p游客觉得\n很羞愧！$"
+	.string "访客伸手去拿沙制装饰品！\p啊！\p碎了！\n散架了！\p访客露出尴尬\n又愧疚的表情！$"
 
 TVSecretBaseSecrets_Text_UsedDesk::
-    .string "游客用手来\n擦桌子！\p显然，他不允许\n有灰尘存在！\p他还真是出人意料的\n爱干净呢！$"
+	.string "访客用手指擦桌面！\p显然不喜欢灰尘！\p没想到访客\n这么爱干净！$"
 
 TVSecretBaseSecrets_Text_UsedBrick::
-    .string "游客正盯着砖块看呢！\p也许他正在考虑\n与这个砖块相配的物品呢。$"
+	.string "访客盯着砖块看！\p可能在思考\n砖块上的东西。$"
 
 TVSecretBaseSecrets_Text_UsedSolidBoard::
-    .string "游客直接穿过\n了固体板。\p他一直低着头。\p他还真是出人意料地\n害羞和谨慎啊！$"
+	.string "访客走过结实木板！\p一直低头看。\p没想到访客\n这么胆小谨慎！$"
 
 TVSecretBaseSecrets_Text_UsedFence::
-    .string "游客聚精会神地\n看着围栏！\p突然闪现了\n制作陷阱的灵感？$"
+	.string "访客专注地看着栅栏！\p是不是想到了\n新的陷阱点子？$"
 
 TVSecretBaseSecrets_Text_UsedGlitterMat::
-    .string "游客登上了\n闪烁的铺垫！\p他摆出了各种各样\n的姿势！\p他在幻想着\n自己是个偶像吧！$"
+	.string "访客踩上闪亮地毯！\p摆出各种姿势！\p访客似乎在幻想\n自己是个偶像！$"
 
 TVSecretBaseSecrets_Text_UsedTire::
-    .string "游客紧紧\n凝视着轮胎！\p他是在考虑那是\n用于何种汽车的吗？$"
+	.string "访客盯着轮胎看！\p是不是在想\n什么车会用这种轮胎？$"
 
 TVSecretBaseSecrets_Text_UsedStand::
-    .string "游客爬上了高台！\p他从上面纵览着\n{STR_VAR_1}的BASE！\p而且……\p朝下面喊了起来！$"
+	.string "访客爬上了大平台！\p从高处俯瞰\n{STR_VAR_1}的基地！\p然后……\p发出吼叫！\n访客在咆哮！$"
 
 TVSecretBaseSecrets_Text_BrokeDoor::
-    .string "游客面向\n一扇易碎门！\p大声地笑着！$"
+	.string "访客一头撞上了\n可以打破的门！\p正笑得前仰后合呢！$"
 
 TVSecretBaseSecrets_Text_UsedDoll::
-    .string "游客在和玩偶说话！\p……稍微有点恐怖……$"
+	.string "访客正在和玩偶说话！\p……有点吓人……$"
 
 TVSecretBaseSecrets_Text_UsedSlide::
-    .string "游客爬上了\n滑梯！\p并且……\p滑了下来！\p看来他度过了\n快乐的时光！$"
+	.string "访客正在爬滑梯的\n台阶！\p然后……\p滑下来啦！\p看起来玩得\n超开心呢！$"
 
 TVSecretBaseSecrets_Text_UsedSlideButDidntGoDown::
-    .string "游客爬上了\n滑梯！\p而且……\p顺着梯子\n又回来了！\p他害怕了吗？$"
+	.string "访客正在爬滑梯的\n台阶！\p然后……\p又原路返回了！\p是突然害怕了吗？$"
 
 TVSecretBaseSecrets_Text_UsedJumpMat::
-    .string "游客登上了\n跳床！\p跳一下！\p两下！\p完美着陆！\p为他鼓掌！\n多棒的个人演出！$"
+	.string "访客踩上了\n跳跃地毯！\p跳了一下！\p又跳了一下！\p完美落地！\p访客在为自己鼓掌！\n真是精彩的个人秀！$"
 
 gTVSafariFanClubText00::
-    .string "狩猎地带爱好者俱乐部！\p采访者：怎么，\n开始扔狩猎球了？\p我现在就在充满了\n珍稀宝可梦的狩猎地带里！\p来吧，\n一起去找培育员谈谈！\p你觉得狩猎地带的\n训练家都怎么样啊？$"
+	.string "狩猎地带粉丝俱乐部！\p记者：嗨，伙计们！\n正在投掷狩猎球对吧？\p我正身处满是宝可梦的\n狩猎地带！\p让我们来采访一下\n这位亲切的狩猎地带向导！\p嘿老兄，来访的训练家们\n表现如何？$"
 
 gTVSafariFanClubText01::
-    .string "导游：大家都十分\n努力。\p特别是{STR_VAR_1}。\p为什么？因为{STR_VAR_1}捕捉了\n{STR_VAR_2}只宝可梦。$"
+	.string "向导：大家都很努力呢。\p{STR_VAR_1}表现特别出色。\p要知道，之前{STR_VAR_1}\n抓到了{STR_VAR_2}只宝可梦呢！$"
 
 gTVSafariFanClubText02::
-    .string "在那时用{STR_VAR_2}，我觉得\n那个训练家对宝可方块很精通。$"
+	.string "这位训练家很擅长用宝可方块。\n那次用了{STR_VAR_2}个呢。$"
 
 gTVSafariFanClubText03::
-    .string "连一个宝可方块\n都没有用！\p真是太厉害了。$"
+	.string "这位训练家一个宝可方块\n都没用！一个都没！\p这才是真正的专家啊。$"
 
 gTVSafariFanClubText04::
-    .string "采访记者：这样啊\p听起来{STR_VAR_1}是个\n非常稳重的捕捉专家呢！\p导游：我希望训练家能够回来\n让我们欣赏到强大的招式。$"
+	.string "记者：真的吗？\p看来我们的朋友{STR_VAR_1}\n是位厉害的狩猎大师呢！\p向导：希望这位训练家再来\n展示下那高超的技巧。$"
 
 gTVSafariFanClubText05::
-    .string "导游：这次各位的表现\n不是很好。\p尤其是{STR_VAR_1}，相当糟糕。\p为什么，因为他仅仅\n捕捉到了{STR_VAR_2} 只宝可梦。$"
+	.string "向导：大家似乎都不太顺利。\p{STR_VAR_1}尤其糟糕。\p要知道，之前这位训练家\n只抓到{STR_VAR_2}只宝可梦。$"
 
 gTVSafariFanClubText06::
-    .string "导游：这次各位的表现\n不是很好。\p尤其是{STR_VAR_1}，相当糟糕。\p为什么？因为他没有捕捉到\n宝可梦。一只也没有！$"
+	.string "向导：大家似乎都不太顺利。\p{STR_VAR_1}尤其糟糕。\p要知道，之前这位训练家\n一只宝可梦都没抓到呢！$"
 
 gTVSafariFanClubText07::
-    .string "那个训练家确实有使用宝可方块。\n我想那时是用了{STR_VAR_2}。\p不过，我倒是希望那个训练家\n变得更擅长这个。$"
+	.string "这位训练家的确用了宝可方块。\n那次用了{STR_VAR_2}个。\p不过真希望这位训练家\n做得更好一些啊。$"
 
 gTVSafariFanClubText08::
-    .string "我想那个训练家用宝可方块\n的话运气会好些，可惜\l那时他完全不用。$"
+	.string "我觉得这位训练家要是用些\n宝可方块会更好，但那次\l一个都没用呢。$"
 
 gTVSafariFanClubText09::
-    .string "采访者：是吗？\p似乎我们的{STR_VAR_1}\n想要狩猎地带特训啊。\p导游：希望那个训练家能\n多来几次，慢慢掌握窍门。$"
+	.string "记者：是这样吗？\p看来我们的朋友{STR_VAR_1}\n还需要多磨练狩猎技巧呢。\p向导：希望这位训练家多来\n练习掌握诀窍。$"
 
 gTVSafariFanClubText10::
-    .string "采访者：没错！\n勇敢面对挑战是最重要的！\p电视机前的观众们，\n快来挑战狩猎活动吧！\p下次节目同一时间，再会！$"
+	.string "记者：说得对！\n勇于挑战很重要！\p观众朋友们，快来狩猎地带\n亲自挑战吧！\p下次见，拜拜！$"
 
 ContestLiveUpdates_Text_Intro::
-    .string "“宝可梦华丽大赛结果速报！”\p主持：好的！\p{STR_VAR_1}华丽大赛的会场报告，\l结果刚刚出来了。会场似乎还有\l很多观众还不想离开的样子。\p观众：{STR_VAR_2}！\p观众：{STR_VAR_3}！\p主持：正如你们所听到的，\n获胜的是{STR_VAR_3}的宝可梦\l{STR_VAR_2}。\p观众：{STR_VAR_2}！\n你是最棒的！\p观众：{STR_VAR_3}！\n了不起！\p主持：好的，现在我们来听听看\n观众们对这场华丽大赛的感想。$"
+	.string "“华丽大赛现场直击！”\p主持人：感谢收看！\p我们正在刚刚结束的\n{STR_VAR_1}现场。\p会场仍挤满舍不得离开的观众。\p观众：{STR_VAR_2}！\p观众：{STR_VAR_3}！\p主持人：如您所闻，本次华丽大赛\n由{STR_VAR_3}的{STR_VAR_2}夺冠！\p观众：{STR_VAR_2}！\n你是最棒的！\p观众：{STR_VAR_3}！\n干得漂亮！\p主持人：来听听粉丝们的\n赛后感想吧！$"
 
 ContestLiveUpdates_Text_WonBothRounds::
-    .string "观众：{STR_VAR_2}在第一和第二阶段\n的审查都是第一！\p{STR_VAR_2}获得了胜利！$"
+	.string "观众：{STR_VAR_2}在第1轮评审和第2轮评审\n都拿了最高分！\p它一定会继续赢下去！$"
 
 ContestLiveUpdates_Text_BetterRound2::
-    .string "观众：{STR_VAR_2}在第一阶段\n表现的不是很好，但是\l在第二阶段又扳了回来！\p奇迹降临在了\n{STR_VAR_2}的身上。好耶！$"
+	.string "观众：{STR_VAR_2}第1轮评审表现平平，\n却在第2轮评审大放异彩！\p这简直是奇迹般的\n逆转取胜！太棒了！$"
 
 ContestLiveUpdates_Text_EqualRounds::
-    .string "观众：{STR_VAR_2}在第一和\n第二阶段\l始终都表现得很好。\p{STR_VAR_3}和{STR_VAR_2}，\n真是一对好搭档！$"
+	.string "观众：{STR_VAR_2}从第1轮评审到第2轮评审\n都保持稳定发挥。\p{STR_VAR_3}和{STR_VAR_2}，\n这组合可不简单！$"
 
 ContestLiveUpdates_Text_BetterRound1::
-    .string "观众：从{STR_VAR_1}的角度来看，\n{STR_VAR_2}很杰出。\p我希望下次它能\n更有吸引力。$"
+	.string "观众：就{STR_VAR_1}类别而言，\n{STR_VAR_2}的表现堪称完美。\p不过下次表演\n可以更有创意些。$"
 
 ContestLiveUpdates_Text_GotNervous::
-    .string "观众：当{STR_VAR_2}紧张时，\n我就会不停的\l呐喊，鼓励它。\p我会向{STR_VAR_2}\n说，“恭喜了！”$"
+	.string "观众：看到{STR_VAR_2}紧张时，\n我忍不住大喊加油。\p现在只想对它说：\n恭喜你！$"
 
 ContestLiveUpdates_Text_StartledFoes::
-    .string "观众：{STR_VAR_2}的吸引力\n真让人吃惊！\p{STR_VAR_2}，你真棒！$"
+	.string "观众：{STR_VAR_2}的表演\n连我都吓到了！\p你太厉害了！$"
 
 ContestLiveUpdates_Text_UsedCombo::
-    .string "观众：{STR_VAR_2}的连续技\n有着极为出色的吸引力！\p它震动了我的心！$"
+	.string "观众：{STR_VAR_2}的组合招式\n表演令人震撼！\p看得我热血沸腾！$"
 
 ContestLiveUpdates_Text_ExcitingAppeal::
-    .string "观众：{STR_VAR_2}的吸引力\n大幅度上升啦！$"
+	.string "观众：冠军{STR_VAR_2}的表演\n让我心跳加速！$"
 
 ContestLiveUpdates_Text_WasCool::
-    .string "{STR_VAR_2}！\n太帅了！$"
+	.string "{STR_VAR_2}！\n你好帅气！$"
 
 ContestLiveUpdates_Text_WasBeautiful::
-    .string "{STR_VAR_2}！\n好漂亮啊！$"
+	.string "{STR_VAR_2}！\n你好美丽！$"
 
 ContestLiveUpdates_Text_WasCute::
-    .string "{STR_VAR_2}！\n真可爱！$"
+	.string "{STR_VAR_2}！\n你好可爱！$"
 
 ContestLiveUpdates_Text_WasSmart::
-    .string "{STR_VAR_2}！\n真聪明！$"
+	.string "{STR_VAR_2}！\n你好聪明！$"
 
 ContestLiveUpdates_Text_WasTough::
-    .string "{STR_VAR_2}！\n好强壮啊！$"
+	.string "{STR_VAR_2}！\n你好强壮！$"
 
 ContestLiveUpdates_Text_VeryExcitingAppeal::
-    .string "观众：{STR_VAR_2}让我的心\n到现在还怦怦直跳！$"
+	.string "观众：冠军{STR_VAR_2}的表演\n到现在还让我心跳不已！$"
 
 ContestLiveUpdates_Text_VeryCool::
-    .string "{STR_VAR_2}！\n你是最帅气的！$"
+	.string "{STR_VAR_2}！\n你就是帅气的代名词！$"
 
 ContestLiveUpdates_Text_VeryBeautiful::
-    .string "{STR_VAR_2}！\n你是最漂亮的！$"
+	.string "{STR_VAR_2}！\n你是最美的存在！$"
 
 ContestLiveUpdates_Text_VeryCute::
-    .string "{STR_VAR_2}！\n你是最可爱的！$"
+	.string "{STR_VAR_2}！\n你简直可爱到爆！$"
 
 ContestLiveUpdates_Text_VerySmart::
-    .string "{STR_VAR_2}！\n你是最聪明的！$"
+	.string "{STR_VAR_2}！\n你是智者中的智者！$"
 
 ContestLiveUpdates_Text_VeryTough::
-    .string "{STR_VAR_2}！\n你是最强壮的！$"
+	.string "{STR_VAR_2}！\n你是强者中的强者！$"
 
 ContestLiveUpdates_Text_TookBreak::
-    .string "观众：就算在{STR_VAR_2}\n表演结束后休息的时候，\l我也忍不住一直看着它。\p我完全被{STR_VAR_2}吸引住了。$"
+	.string "观众：即使{STR_VAR_2}\n暂停表演时，\l我的视线也无法移开。\p完全被{STR_VAR_2}迷住了！$"
 
 ContestLiveUpdates_Text_GotStartled::
-    .string "观众：看到{STR_VAR_2}被\n别的宝可梦吓到，\l我都快要哭了。\p{STR_VAR_2}，你没问题的！\n打起精神来！$"
+	.string "观众：当{STR_VAR_2}被其他\l宝可梦的表演吓到时，\l我差点哭出来。\p{STR_VAR_2}你太坚强了！\n好样的！$"
 
 ContestLiveUpdates_Text_MoveWonderful::
-    .string "观众：啊……\n是{STR_VAR_2}的{STR_VAR_3}！\l{STR_VAR_2}的{STR_VAR_3}！\l{STR_VAR_2}的{STR_VAR_3}！\l多么完美的表演啊！$"
+	.string "观众：天啊……\n{STR_VAR_2}的{STR_VAR_3}！\l{STR_VAR_2}的{STR_VAR_3}！\l{STR_VAR_2}的{STR_VAR_3}！\l怎么会这么精彩？$"
 
 ContestLiveUpdates_Text_TalkAboutAnotherMon::
-    .string "主持人：看啊，观众席上\n到处都是{STR_VAR_1}的支持者！\p另外还有另一只宝可梦\n{STR_VAR_2}的{STR_VAR_3}，\l给我留下了不错的印象。\p{STR_VAR_2}的{STR_VAR_3}……$"
+	.string "主持人：如您所见，现场满是\n{STR_VAR_1}的粉丝！\p不过我还想特别提到\n{STR_VAR_2}的{STR_VAR_3}，\l它同样令人印象深刻。\p{STR_VAR_2}的{STR_VAR_3}……$"
 
 ContestLiveUpdates_Text_FailedToAppeal::
-    .string "在比赛的第二阶段，由于它\n过于紧张，什么也没有做出来。\p希望下回能看到\n{STR_VAR_1}的表现。$"
+	.string "由于紧张，它在第2轮评审阶段\n一次表演都没能完成。\p希望下次至少能看到\n{STR_VAR_1}完成一次表演。$"
 
 ContestLiveUpdates_Text_LastInBothRounds::
-    .string "在比赛的第一和第二阶段\n它都成为了最后一名，\p希望{STR_VAR_1}能够再练习一下\n{STR_VAR_2}，下回能够一雪前耻，\l取得佳绩。$"
+	.string "它在第1轮评审和第2轮评审中\n都排名垫底。\p希望{STR_VAR_1}能重新训练\n{STR_VAR_2}，洗刷这次\l惨败的耻辱。$"
 
 ContestLiveUpdates_Text_NotExcitingEnough::
-    .string "它没能作出合适的表演，\n抓住观众的心。\p希望下回{STR_VAR_1}能够学会\n如何抓住观众，\l点燃他们的热情。$"
+	.string "它没能抓住观众情绪\n做出恰当的表演。\p希望{STR_VAR_1}学会把握\n观众心理，下次能\l点燃全场热情。$"
 
 ContestLiveUpdates_Text_LostAfterWinningRound1::
-    .string "虽然它在第一阶段取得了\n第一名，但第二阶段的表演\l却并不顺利。\p看来这对它自己来说\n也是一种屈辱。\p我想{STR_VAR_1}也正在学习\n如何能作出更加吸引人的表演吧。$"
+	.string "虽然第1轮评审获得第1，\n但第2轮评审表演完全失败。\p遭遇了耻辱性的\n逆转败北。\p相信{STR_VAR_1}正在研究\n如何提升表演效果。$"
 
 ContestLiveUpdates_Text_NeverExciting::
-    .string "在第二阶段中，观众在它表演时\n从未表现出激动的情绪。\p希望它能不再担心\n其它宝可梦的演出，并\l学习一下如何能使自己更加吸引观众。$"
+	.string "它的表演始终未能\n在第2轮评审阶段让观众沸腾。\p希望它能专注自身，\n学会如何向观众\l展现更好的表演。$"
 
 ContestLiveUpdates_Text_LostBySmallMargin::
-    .string "虽然只差一点，但它还是\n输给了{STR_VAR_1}的{STR_VAR_2}。\p在距成功如此近的地方\n跌倒，一定很不甘心。\p就算{STR_VAR_3}现在哭了，\n我想也是情理之中吧。$"
+	.string "仅以微弱差距\n输给了{STR_VAR_1}的{STR_VAR_2}。\p距离胜利仅一步之遥，\n这种失败最令人心碎。\p{STR_VAR_3}现在可能\n正在为此哭泣吧。$"
 
 ContestLiveUpdates_Text_RepeatedAppeals::
-    .string "它一遍遍地重复同样的表演，\n令裁判很失望。\p无论在什么华丽大赛中，这样的错误\n都是不可原谅的。\l而现在，它已经付出了代价。\p对这样拙劣的表演，\n{STR_VAR_1}自己也感觉罪孽深重吧。$"
+	.string "因重复相同表演\n让评委大失所望。\p这在任何华丽大赛中\n都是不可原谅的失误。\p{STR_VAR_1}该为这次\n糟糕表现感到愧疚。$"
 
 ContestLiveUpdates_Text_ValiantEffortButLost::
-    .string "{STR_VAR_1}显然已经付出了极大的努力\n但是……\p到了最后，却还是一无所获。\p但愿{STR_VAR_1}能从这次的失败中学到\n一些知识，今后好好地利用它们。$"
+	.string "{STR_VAR_1}虽然奋力拼搏，\n但……\p最终仍以垫底收场。\p希望{STR_VAR_1}能吸取教训，\n将经验化为成长动力。$"
 
 ContestLiveUpdates_Text_Outro::
-    .string "在节目的最后，让我们\n像以前一样欢送胜者吧！\p这次的胜者是\n{STR_VAR_1}和{STR_VAR_2}！\p主持：大家准备好了吗？\n好，开始！\p观众：{STR_VAR_1}！{STR_VAR_2}！\n恭喜你们！\l你们是华丽大赛的优胜者！$"
+	.string "节目最后，按惯例\n向冠军致以祝福。\p本次的冠军是{STR_VAR_1}\n和{STR_VAR_2}！\p主持人：准备好了吗？\n大家一起！\p观众：{STR_VAR_1}！{STR_VAR_2}！\n恭喜夺冠！\l你们是最棒的！$"
 
 gTVPokemonBattleUpdateText00::
-    .string "“宝可梦对战速递！”\p为你即时播报宝可梦\n对战的信息！$"
+	.string "《宝可梦对战快报》！\p为您带来最新最热的\n宝可梦对战实况！$"
 
 gTVPokemonBattleUpdateText01::
-    .string "训练家{STR_VAR_1}和{STR_VAR_2}\n在{STR_VAR_3}对战中相遇了，\p比赛以{STR_VAR_1}的胜利而结束！$"
+	.string "训练家{STR_VAR_1}与\n{STR_VAR_2}展开了\l{STR_VAR_3}对战。\p最终由{STR_VAR_1}\n赢得胜利！$"
 
 gTVPokemonBattleUpdateText02::
-    .string "对战中，{STR_VAR_1}的{STR_VAR_2}使用{STR_VAR_3}时\l发挥出了可怕的力量！$"
+	.string "对战中{STR_VAR_1}的\n{STR_VAR_2}表现抢眼，\l凭借{STR_VAR_3}技惊四座！$"
 
 gTVPokemonBattleUpdateText03::
-    .string "{STR_VAR_1}的{STR_VAR_2}表现得\n不尽人意。$"
+	.string "{STR_VAR_1}的{STR_VAR_2}\n状态不佳，拖累了整体表现。$"
 
 gTVPokemonBattleUpdateText04::
-    .string "恭喜你取得了胜利，\n{STR_VAR_1}！\p这次打败了{STR_VAR_2}，\n希望下次你还能取得更好的成绩！\p我们“宝可梦对战速递！”的\n篇章到此结束！$"
+	.string "恭喜{STR_VAR_1}\n获得胜利！\p落败的{STR_VAR_2}也请\n下次继续加油！\p本期《宝可梦对战快报》\n到此结束！$"
 
 gTVPokemonBattleUpdateText05::
-    .string "{STR_VAR_1}队和{STR_VAR_2}队\n在多人对战中相遇了。\p这场比赛以{STR_VAR_1}队的胜利结束。$"
+	.string "训练家{STR_VAR_1}与\n{STR_VAR_2}组队进行了多人对战。\p最终由{STR_VAR_1}的队伍\n取得胜利！$"
 
 gTVPokemonBattleUpdateText06::
-    .string "在对战中，{STR_VAR_1}队的{STR_VAR_2}\n使用{STR_VAR_3}时\l发挥出了可怕的力量。$"
+	.string "对战中{STR_VAR_1}队伍的\n{STR_VAR_2}表现出色，\l凭借{STR_VAR_3}大放异彩！$"
 
 gTVPokemonBattleUpdateText07::
-    .string "{STR_VAR_2}队的{STR_VAR_3}不尽人意的表现\n导致了队伍的失败。\p恭喜你的队伍取得胜利，\n{STR_VAR_1}！\p而对于{STR_VAR_2}队，虽然这次失败了，\n但希望下次你们能取得更好的成绩！\p我们“宝可梦对战速递！”的\n环节到此结束！$"
+	.string "{STR_VAR_2}队伍的{STR_VAR_3}\n状态低迷，影响了整体发挥。\p恭喜{STR_VAR_1}的队伍\n获得胜利！\p落败的{STR_VAR_2}队伍也请\n下次再接再厉！\p本期《宝可梦对战快报》\n到此结束！$"
 
 GabbyAndTy_Text_GabbyPreFirstBattle::
-    .string "玛莉：啊！我们在这里发现了\n一名看上去非常强大的训练家！\p好的，镜头转过来！\n采访开始。$"
+	.string "玛莉：哇！我们在这个地方\n发现了一位实力强劲的训练家！\p好，摄像机准备！\n让我们开始采访吧！$"
 
 GabbyAndTy_Text_GabbyIntro::
-    .string "玛莉：啊！你是{PLAYER}！你好啊！\n还记得我们吧？\p能告诉我们你已经成长到\n多么强了吗？好的，说几句吧！$"
+	.string "玛莉：啊！是{PLAYER}！你好！\n还记得我们上次见面吗？\p能让我们看看你变得\n多强了吗？好，采访开始！$"
 
 GabbyAndTy_Text_GabbyDefeatFirstTime::
-    .string "玛莉：我的眼睛并没有说谎！\n我的确发现了一位惊人的训练家！$"
+	.string "玛莉：我的眼光没错！\n真的发现了一位惊人的训练家！$"
 
 GabbyAndTy_Text_WhoAreYouInterview::
-    .string "玛莉：真厉害！真厉害！\n能告诉我你是谁吗？\p一看到你我就知道\n我们发现了一位非凡的人！\p啊，我解释一下。\n我们四处旅行，采访\l各式各样的训练家。\p能占用你一些时间\n做一次采访吗？$"
+	.string "玛莉：太棒了！太棒了！\n你到底是谁？！\p我就知道发现你的时候\n一定会有什么惊喜！\p哦，让我解释一下。我们四处旅行\n采访各种各样的训练家。\p那么，你愿意抽点时间\n接受我们的采访吗？$"
 
 GabbyAndTy_Text_QuoteFromLastInterview::
-    .string "玛莉：“{STR_VAR_1}！”\p记得吗？上次的对战结果揭晓的时候\n你就是这么说的。\p我永远、永远都不会忘记的！$"
+	.string "玛莉：“{STR_VAR_1}！”\p记得吗？这是你上次对战结束时\n给我们的经典台词。\p我永远不会忘记这种精彩瞬间！$"
 
 GabbyAndTy_Text_YouStompedUsInterviewAgain::
-    .string "上次我们对战的时候，还没等我们\n整好攻势就被你打败了……\p不管怎样，你今天愿意\n再接受我们的采访吗？$"
+	.string "上次对战你直接碾压了我们\n让我们措手不及……\p那么，你觉得怎么样？\n要再接受一次采访吗？$"
 
 GabbyAndTy_Text_YouThrewABallAtUsInterviewAgain::
-    .string "记不记得上次我们对战的时候\n你对我们扔精灵球？\p我们吓了一跳！那之后我们就\n把这都告诉了大家！\p不管怎样，你今天愿意\n再接受我们的采访吗？$"
+	.string "上次对战时，你是不是\n朝我们扔了精灵球？\p我们太震惊了！所以逢人就说！\p那么，你觉得怎么样？\n要再接受一次采访吗？$"
 
 GabbyAndTy_Text_CleverItemSkillsInterviewAgain::
-    .string "上次我们对战的时候，你使用道具\n得心应手的感觉给了我们很深的印象。\p不管怎样，你今天愿意\n再接受我们的采访吗？$"
+	.string "上次对战，你巧妙地使用道具\n击败了我们。\p那么，你觉得怎么样？\n要再接受一次采访吗？$"
 
 GabbyAndTy_Text_WeLookedRespectableInterviewAgain::
-    .string "上次我们对战的时候，\n我们干得似乎还不错。\p不管怎样，你今天愿意\n再接受我们的采访吗？$"
+	.string "上次对战我们好歹\n还保住了颜面。\p那么，你觉得怎么样？\n要再接受一次采访吗？$"
 
 GabbyAndTy_Text_InterviewAgain::
-    .string "不管怎样，你今天愿意\n再接受我们的采访吗？$"
+	.string "那么，你觉得怎么样？\n要再接受一次采访吗？$"
 
 GabbyAndTy_Text_DescribeYourFeelings::
-    .string "真的可以吗？\n谢谢！\p好的，那就讲讲对我们对战的\n感想吧。请尽量简短一点。\l开始吧！$"
+	.string "你愿意？\n太感谢了！\p好，现在请你简短地描述\n对这场对战的感受！开始！$"
 
 GabbyAndTy_Text_PerfectWellBeSeeingYou::
-    .string "玛莉：嗯，好！\n完美的总结啊！\p我直觉地感到这次的节目\n会非常成功。\p肯定有机会让电视台\n播放它的，注意一下吧！\p好了！\n下回再见！$"
+	.string "玛莉：嗯，没错！\n这句话作为结尾太完美了！\p我有预感这期节目\n一定会很精彩。\p说不定会在电视上播出，\n记得关注我们哦！\p好！\n下次见！$"
 
 GabbyAndTy_Text_DontGiveUpKeepingEyeOut::
-    .string "玛莉：唔……\p那好吧，不过别放弃！\n我们会一直看着你的！$"
+	.string "玛莉：哦……\p别放弃！\n我们会继续关注你的！$"
 
 GabbyAndTy_Text_KeepingAnEyeOutForYou::
-    .string "玛莉：我们会\n一直看着你的！$"
+	.string "玛莉：我们会继续\n关注你的！$"
 
 GabbyAndTy_Text_GabbyNotEnoughMons::
-    .string "玛莉：哪里有带着很多宝可梦的\n强大的训练家呢？$"
+	.string "玛莉：这附近有没有带着很多宝可梦\n的强大训练家啊？$"
 
 GabbyAndTy_Text_GiveUsAnInterviewThisTime::
-    .string "玛莉：哇，你果然不一般啊！\p自从上次我们对战以来，你\n成长了不少——确实不少。\p看来我们选中你的时候\n并没有看错。\p那，不管怎样，\n这一回你愿意接受\l我们的采访吗？$"
+	.string "玛莉：哇，你真是太厉害了！\p比起上次见面，\n你变得强多了！\p我们当初发现你是个\n潜力股果然没错！\p那么这次你愿意\n接受我们的采访吗？$"
 
 GabbyAndTy_Text_GabbyDefeat::
-    .string "玛莉：真是激烈的对战啊！\n都拍下来了吧？$"
+	.string "玛莉：真是场激烈的对战！\n都拍下来了吗？$"
 
 GabbyAndTy_Text_TyPreFirstBattle::
-    .string "达伊：嘿，看！看上去是个\n很强的训练家！\l镜头转过去了！$"
+	.string "达伊：嘿，快看！在这个地方\n发现了个厉害的训练家！\l摄像机就位！$"
 
 GabbyAndTy_Text_TyIntro::
-    .string "达伊：嘿，这儿！\n我记得你！\p我会把这里的对战\n用这台相机记录下来的！$"
+	.string "达伊：嘿，快看！\n我记得你！\p我要把这场对战\n全都拍下来！$"
 
 GabbyAndTy_Text_TyPostBattle::
-    .string "达伊：你是个天才！\n这肯定是最棒的镜头了！$"
+	.string "达伊：你真是个天才！\n这下拍到好素材了！$"
 
 GabbyAndTy_Text_TyNotEnoughMons::
-    .string "达伊：你只带了这一只宝可梦吗？\p要是有更多宝可梦的话，\n就能拍出好镜头了……$"
+	.string "达伊：你就只有\n1只宝可梦吗？\p要是有更多宝可梦的话，\n拍摄效果会更好……$"
 
 GabbyAndTy_Text_TyDefeatFirstTime::
-    .string "达伊：哈，我们发现了厉害的训练家！\n这样我们又有头条了！$"
+	.string "达伊：没错，我们发现了个\n超厉害的训练家！大新闻啊！$"
 
 GabbyAndTy_Text_TyDefeat::
-    .string "达伊：哈，成了！\n整场对战都拍下来了！$"
+	.string "达伊：都拍下来了，\n整场对战都在这里。$"
 
 gTVInSearchOfTrainersText00::
-    .string "搜寻训练家……\p玛莉：大家好！现在我们\n正在{STR_VAR_1}周边地区，\p我们正在寻找拥有天分\n和发展潜力的人。\p今天，我们的镜头将指向\n训练家{PLAYER}。\p这位训练家\n引发了我们的好奇心。$"
+	.string "《训练家追踪报道》\p玛莉：大家好！今天我们来到\n{STR_VAR_1}附近地区。\p正在野外尝试寻找\n冉冉升起的新星。\p今天我们的镜头聚焦在\n训练家{PLAYER}身上。\p这位训练家身上有种特质\n深深吸引了我们！$"
 
 gTVInSearchOfTrainersText01::
-    .string "我们以前也跟{PLAYER}进行过对战，\n可以明显地看出这位训练家\l较之前有了极大的进步。\p当我们发现这位训练家的时候，\n我们就确定这一定会是一位不凡的人！$"
+	.string "虽然之前与{PLAYER}对战过，\n但可以确定这位训练家的实力\l比之前进步显著。\p当初发现这位训练家时\n我就知道是特别的存在！$"
 
 gTVInSearchOfTrainersText02::
-    .string "要看出一个训练家有多么强大，\n最好的办法就是……\p啊，也是最快的办法，就是对战。\n于是我们就开始了调查！\p……\p就这样，我们在对战中\n输给了{PLAYER}。\p在那决定性的一击中，\n我们被打得体无完肤！\p毫无疑问，{PLAYER}非常强……\p下面是我们跟这位训练家\n对战后的感想。$"
+	.string "判断训练家实力的最佳方式……\p最快的方法当然是对战。\n于是我们开始了调查！\p…… ……\p就这样我们与{PLAYER}\n展开了对战。\p结果被完全压制，\n毫无还手之力！\p{PLAYER}强得可怕……\p以下是与本期焦点训练家\n对战后的感想。$"
 
 gTVInSearchOfTrainersText03::
-    .string "{STR_VAR_1}和{STR_VAR_3}的组合\n可以用完美来形容！\p看看他们吧——{STR_VAR_1}和\n{STR_VAR_3}——在激烈的对战中\l无私地互相支持着对方……\p这是多么完美的一幕！\p{STR_VAR_2}是这位训练家\n在对战中最后使用的一个招式，\p{STR_VAR_2}就是{STR_VAR_1}\n和{STR_VAR_3}的友谊的证明！$"
+	.string "{STR_VAR_1}与{STR_VAR_3}\n的配合天衣无缝！\p看着它们——{STR_VAR_1}和\n{STR_VAR_3}——在激战中无私地\l互相支援……\p真是令人叹为观止的景象！\p{STR_VAR_2}是训练家最后\n使用的招式。\p{STR_VAR_2}这招正是\n{STR_VAR_1}与{STR_VAR_3}友谊的见证！$"
 
 gTVInSearchOfTrainersText04::
-    .string "……经过那一战，我对自己\n都没什么信心了，\p我们还没展开进攻\n就已经被打败了。\l啊……呜呜……\p无论如何，{PLAYER}的对战\n是非常值得一看的，\p希望能有勇敢的训练家\n向{PLAYER}发起挑战。$"
+	.string "……这次遭遇让我\n失去了自信。\p我们连一次攻击都没使出\n就被击败了……\l呜呜……抽泣……\p尽管如此，{PLAYER}的对战\n仍然值得一看。\p我推荐有信心的训练家\n来挑战{PLAYER}。$"
 
 gTVInSearchOfTrainersText05::
-    .string "在这里我只有一句话要说\n不要在训练家对战中\l扔精灵球！\p{PLAYER}确实很强，但却好像\n没有理解对战的基本规则。\p在此，我要向我的观众们请求一件事情：\p如果你们见到{PLAYER}，请一定要\n告诫一下这位训练家！$"
+	.string "只有一件事必须说明。\n训练家对战中禁止投掷精灵球！\p{PLAYER}确实很强，\n但对基本规则毫无概念。\p想对电视观众们说：\p如果见到{PLAYER}，\n请提醒这位训练家！$"
 
 gTVInSearchOfTrainersText06::
-    .string "{PLAYER}非常擅长阅读\n对手的行动。\p使用道具的时机\n非常合理有效！$"
+	.string "{PLAYER}擅长预判\n对手的行动。\p道具使用的时机\n精准得惊人！$"
 
 gTVInSearchOfTrainersText07::
-    .string "老实说，我觉得\n其实我也挺强的。\p虽然最后输了，\n也不失为一场精彩的比赛。\p不过对我都要陷入苦战的话，\n{PLAYER}，你要走的路还很长呢！$"
+	.string "说实话，我原本以为\n自己还算厉害。\p虽然最终落败，但确实\n进行了势均力敌的战斗。\p不过如果连和我对战都吃力，\n{PLAYER}你还要继续努力啊！$"
 
 gTVInSearchOfTrainersText08::
-    .string "对战结束后，我们请{PLAYER}\n做了简短的感想。\p训练家答道：“{STR_VAR_1}。”\p{PLAYER}的宝可梦{STR_VAR_2}和\n{STR_VAR_3}……\l还有“{STR_VAR_1}”……\p嗯，真是意味深长\n的发言啊！\p确实好的训练家\n就能作出好的发言！\p今天就到这里为止了！\n下次同一时间，再见！$"
+	.string "对战结束后，我们请{PLAYER}\n用一句话总结。\p训练家回答：“{STR_VAR_1}”。\p{PLAYER}的宝可梦{STR_VAR_2}与\n{STR_VAR_3}……\l还有“{STR_VAR_1}”……\p嗯！意味深长！\n这句话蕴含深刻意义！\p不愧是优秀训练家，\n说的话也充满智慧。\p今天节目就到这里！\n下期再见！$"
 
 ContestLadyShow_Text_Intro::
-    .string "“宝可梦华丽大赛结果速报！”\p主持：现在插播一则消息！\p我们从会场现场为你带来\n刚刚结束的{STR_VAR_1}大赛的结果！\p观众：？！！！！\p主持：华丽大赛参与者\n似乎正往这边走过来了！\p电视机前的朋友们，现在我就\n为你们进行即时的采访！\p观众：？！！！！\n？！！！！$"
+	.string "《宝可梦华丽大赛实况速递！》\p主持人：抱歉打断常规节目，\n感谢各位收看！\p我们正在刚刚结束的\n{STR_VAR_1}现场\l为您带来直播报道！\p观众：？！\p主持人：啊！参赛选手们\n正朝这边走来！\p我将为各位观众\n进行即兴采访！\p观众：？！\n？！$"
 
 ContestLadyShow_Text_Won::
-    .string "主持：打扰了！\p恭喜您获得了优胜！\n今天您获胜的决定性因素是什么呢？\p美女：我们今天尽了最大努力，\n我，还有我的{STR_VAR_2}！\p但若不是有选美前大家\n对我们的协助，我们也无法\l走到现在这一步！\p主持：您最想与之分享\n您的快乐的人是谁呢？\l请在这里大声说出来吧！\p美女：喂！\p{STR_VAR_3}！你在看吗？\n我们做到了！\l谢谢你！$"
+	.string "主持人：打扰了！\n感谢接受电视直播采访！\p恭喜您获得本次大赛冠军！\p今天取得辉煌胜利的\n关键因素是什么？\p大姐姐：我和{STR_VAR_2}\n今天已经全力以赴！\p但如果没有赛前得到的各种帮助，\n我们肯定无法取得这样的成绩！\p主持人：有什么特别的人\n想分享这份喜悦吗？\l让我们现场连线！\p大姐姐：嘿，你在看吗？\p{STR_VAR_3}！看到了吗？\n我们做到了！\l谢谢你！$"
 
 ContestLadyShow_Text_Lost::
-    .string "主持：打扰了！\p这次真是遗憾呢！\n您有什么评论要说吗？\p美女：真的非常可惜……\n我和我的{STR_VAR_2}都已经尽力了……\p但我还是觉得我们辜负了\n期待着我们的人。\p主持：嗯，确实着色上\n是有些不理想。\p美女：{STR_VAR_3}，对不起……\n下次我一定会更努力的……\l呜……呜呜……哇啊……\p观众：(议论纷纷)\p主持：啊，哦……惨了……\p那么今天的节目到此结束！\n感谢您的收看，再见！$"
+	.string "主持人：打扰一下！\n感谢接受我们的现场采访！\p对于这样的结果\n您有什么想说的吗？\p大姐姐：太让人心碎了……\n我和{STR_VAR_2}明明已经竭尽全力……\p但感觉辜负了所有\n支持我们的人……\p主持人：恕我直言，这只宝可梦的\n毛色似乎还不够完美。\p大姐姐：{STR_VAR_3}，对不起……\n下次我一定会做得更好……\l……抽泣……哇啊啊！\p观众：快看！\n那女孩好可怜！\p主持人：呃……糟糕……\p呃……今天的节目就到这里！\n感谢您的收看！$"
 
 ContestLadyShow_Text_LostBadly::
-    .string "主持：打扰了！\n欢迎收看电视直播！\p你认为今天华丽大赛的表现怎样呢？\p美女：什么都不顺利啊……\n因为某种原因，我的{STR_VAR_2}\l完全吸引不到任何人的目光。\p主持：抱歉这么说，不过你的宝可梦\n好像还缺少些特色。\p美女：…… …… ……\n呜……呜呜……哇啊……\p观众：(议论纷纷)\p主持：啊，哦……惨了……\p那么今天的节目到此结束！\n感谢您的收看，再见！$"
+	.string "主持人：打扰一下！\n感谢接受我们的现场采访！\p您对本次华丽大赛的表现\n有何评价？\p大姐姐：全都搞砸了……\n不知道为什么{STR_VAR_2}\l完全吸引不到人气……\p主持人：恕我直言，这只宝可梦的\n毛色确实有所欠缺。\p大姐姐：…… …… …… ……\n……抽泣……哇啊啊！\p观众：快看！\n那女孩哭得好伤心！\p主持人：呃……不妙……\p呃……今天的节目时间到了！\n感谢您的收看！$"

@@ -245,7 +245,7 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
     .string "亚希达：希望你享受\n对战开拓区的一切。\p……等等……\n难以置信！\p你的开拓通行证！\n你已经收集到了\l所有的金色象征！\p简直神乎其技！\n如我所料，你真的无与伦比！\p…… …… ……\p{PLAYER}，请务必收下这个！\p相信你一定能理解\n这份礼物的价值！$"
 
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
-    .string "不得不说我有着与生俱来的\n鉴别优秀训练师的眼光。\p我当初能邀请你来\n真是有先见之明！$"
+    .string "不得不说我有着与生俱来的\n鉴别优秀训练家的眼光。\p我当初能邀请你来\n真是有先见之明！$"
 
 BattleFrontier_ScottsHouse_Text_BerryPocketStuffed:
     .string "你的树果口袋好像\n已经塞满了。$"

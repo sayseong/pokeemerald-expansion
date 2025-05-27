@@ -1409,19 +1409,19 @@ LilycoveCity_ContestLobby_Text_WhichTopic1:
 LilycoveCity_ContestLobby_Text_ExplainContests:
 	.string "华丽大赛需要4位参赛选手各自派出\n"
 	.string "1只宝可梦参加评审比赛。\p"
-	.string "华丽大赛分为第1次和\n"
-	.string "第2次评审两个阶段。\p"
-	.string "第1次评审是通过观众人气\n"
+	.string "华丽大赛分为第1轮和\n"
+	.string "第2轮评审两个阶段。\p"
+	.string "第1轮评审是通过观众人气\n"
 	.string "投票来评选的。\p"
-	.string "第2次评审是宝可梦通过\n"
+	.string "第2轮评审是宝可梦通过\n"
 	.string "招式展示进行表演。\p"
 	.string "您应该精心设计您的\n"
 	.string "宝可梦的表演招式\l"
 	.string "以获得更高的评价。\p"
-	.string "最后将第1次和第2次的成绩\n"
+	.string "最后将第1轮和第2轮的成绩\n"
 	.string "相加作为最终的总成绩。\p"
 	.string "总成绩最高的宝可梦\n"
-	.string "就是华丽大赛的优胜者。$"
+	.string "就是华丽大赛的冠军。$"
 
 LilycoveCity_ContestLobby_Text_ExplainContestTypes:
 	.string "一共有5个类别的比赛。\p"
@@ -1550,12 +1550,12 @@ ContestHall_Text_ThankYouForAppeals:
 
 ContestHall_Text_JudgeLooksReady:
 	.string "现在只剩下最激动人心的环节——\n"
-	.string "优胜者的最终揭晓！\p"
+	.string "冠军的最终揭晓！\p"
 	.string "评委已准备好\n"
 	.string "宣布最终结果！$"
 
 ContestHall_Text_WeWillNowDeclareWinner:
-	.string "评委：现在公布本次大赛的优胜者！$"
+	.string "评委：现在公布本次大赛的冠军！$"
 
 ContestHall_Text_CongratsTrainerXandMon:
 	.string "主持：{STR_VAR_2}号！\p"
