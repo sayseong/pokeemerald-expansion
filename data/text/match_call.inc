@@ -668,7 +668,7 @@ MatchCall_Text_Flannery3::
     .string "亚莎：哦，{PLAYER}？\n我们的道馆已经准备好了！\p来釜炎镇泡泡温泉\n顺便挑战一下道馆吧！$"
 
 MatchCall_Text_Flannery4::
-    .string "亚莎：{PLAYER}……\n我相信你每次都能在训练中\n不断变得更强。$"
+    .string "亚莎：{PLAYER}……\n我相信你每次都能在训练中\l不断变得更强。$"
 
 MatchCall_Text_Winona1::
     .string "娜琪：你好，{PLAYER}！\p多亏了我们的那次对战，\n我认识到了自己的弱点所在！\p当我重新开张道馆之后，\n我不会再输了！$"

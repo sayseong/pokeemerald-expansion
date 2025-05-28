@@ -230,7 +230,7 @@ gTVMassOutbreakText00::
     .string "大家好！\n现在是《宝可梦新闻》时间。\p我们刚刚收到一则\n关于罕见现象的报道。\p据报告显示在{STR_VAR_1}附近发生了\n{STR_VAR_2}的大量出现现象。\p{STR_VAR_2}这种宝可梦\n以稀有和难以遇到而著称。\p这将是见证{STR_VAR_2}在野外\n神秘出现的难得机会。\p以上就是本期《宝可梦新闻》的全部内容。$"
 
 gTV3CheersForPokeblocksText00::
-    .string "主持：希望大家干劲满满，\n《为宝可方块喝彩》现在开始！\p今天我们要评测的是{STR_VAR_1}\n等人制作的宝可方块。\p事不宜迟，\n现在就喂给我的美食家宝可梦——\n溶食兽吧。\p…… …… ……\n…… …… ……$"
+    .string "主持：希望大家干劲满满，\n《为宝可方块喝彩》现在开始！\p今天我们要评测的是{STR_VAR_1}\n等人制作的宝可方块。\p事不宜迟，现在就喂给我的\n美食家宝可梦——溶食兽吧。\p…… …… ……\n…… …… ……$"
 
 gTV3CheersForPokeblocksText01::
     .string "溶食兽：咕比！咕比比！\p主持：评价结果是\n它非常{STR_VAR_1}！\n溶食兽说味道“{STR_VAR_2}！”\p非常感谢你，{STR_VAR_3}！$"
@@ -526,16 +526,16 @@ gTVHoennTreasureInvestigatorsText02::
 	.string "哇，我们得好好看看这封信！\p……亲爱的调查团：\n祝你们好。\p我最近在渡轮上\n看到{STR_VAR_2}。\p这位训练家找到了{STR_VAR_1}\n让我好羡慕。\p……干得漂亮，{STR_VAR_2}！\p观众们，快打开探宝器\n开始寻宝吧！\p期待收到你们的精彩发现！$"
 
 gTVFindThatGamerText00::
-	.string "寻找游戏高手！\p嗨，各位玩家！\n你的{STR_VAR_2}转得怎么样啦？\p和往常一样，我们将聚焦\n光顾游戏中心的稀有训练家！\p今天的头号玩家是……\n{STR_VAR_1}！$"
+	.string "寻找游戏高手！\p嗨，各位玩家！\n你的{STR_VAR_2}转得怎么样啦？\p和往常一样，我们将聚焦\n光顾游戏城的稀有训练家！\p今天的头号玩家是……\n{STR_VAR_1}！$"
 
 gTVFindThatGamerText01::
-	.string "{STR_VAR_1}玩了{STR_VAR_2}游戏\n赢得了稀有的{STR_VAR_3}枚代币。\p“当{STR_VAR_1}来时，我们得确保\n准备足够的代币。”\p这是游戏中心员工在高手\n玩游戏时的窃窃私语！\p观众们，如果你们去游戏中心\n玩{STR_VAR_2}游戏，最好像{STR_VAR_1}\l一样看好自己的代币。\p这里是游戏中心现场报道——\n让你感受这里的激情！\p今天的节目就到这里！$"
+	.string "{STR_VAR_1}玩了{STR_VAR_2}游戏\n赢得了稀有的{STR_VAR_3}枚代币。\p“当{STR_VAR_1}来时，我们得确保\n准备足够的代币。”\p这是游戏城员工在高手\n玩游戏时的窃窃私语！\p观众们，如果你们去游戏城\n玩{STR_VAR_2}游戏，最好像{STR_VAR_1}\l一样看好自己的代币。\p这里是游戏城现场报道——\n让你感受这里的激情！\p今天的节目就到这里！$"
 
 gTVFindThatGamerText02::
-	.string "{STR_VAR_1}玩了{STR_VAR_2}游戏\n输掉了{STR_VAR_3}枚代币。\p“当{STR_VAR_1}来时，我们的代币\n销量似乎会增加。”\p这是游戏中心员工在高手\n玩游戏时的评价！$"
+	.string "{STR_VAR_1}玩了{STR_VAR_2}游戏\n输掉了{STR_VAR_3}枚代币。\p“当{STR_VAR_1}来时，我们的代币\n销量似乎会增加。”\p这是游戏城员工在高手\n玩游戏时的评价！$"
 
 gTVFindThatGamerText03::
-	.string "观众们，如果你们去游戏中心\n玩{STR_VAR_2}游戏，最好像{STR_VAR_1}\l一样看好自己的代币。\p这里是游戏中心现场报道——\n让你感受这里的激情！\p今天的节目就到这里！$"
+	.string "观众们，如果你们去游戏城\n玩{STR_VAR_2}游戏，最好像{STR_VAR_1}\l一样看好自己的代币。\p这里是游戏城现场报道——\n让你感受这里的激情！\p今天的节目就到这里！$"
 
 gTVBreakingNewsText00::
 	.string "突发新闻TV！$"
@@ -619,13 +619,13 @@ gTVSecretBaseVisitText13::
 	.string "不得不说，这真是个\n超棒的秘密基地！\p观众们，如果有机会，\n一定要参观{STR_VAR_1}的秘密基地。\p下次节目再见！$"
 
 gTVPokemonLotteryWinnerFlashReportText00::
-	.string "激动人心！\n精彩纷呈！\p这里是宝可梦抽奖\n中奖快报！\p大家好！我们正在水静百货\n一楼的宝可梦抽奖中心\l为您现场直播！\p今天又有一位幸运训练家\n诞生了！\p这位训练家的名字是…\n{STR_VAR_1}！\p{STR_VAR_1}赢得了{STR_VAR_2}奖\n并带走了{STR_VAR_3}！\p{STR_VAR_1}！\n恭喜你！\p观众朋友们，别光看着，\n快来参与吧！\p水静百货全体员工\n期待您的下次光临！\p这里是水静百货现场直播，\n为您提供丰缘地区\l最丰富的商品选择！$"
+	.string "激动人心！\n精彩纷呈！\p这里是宝可梦抽奖\n中奖快报！\p大家好！我们正在水静百货\n一楼的宝可梦抽奖中心\l为您现场直播！\p今天又有一位幸运训练家\n诞生了！\p这位训练家的名字是……\n{STR_VAR_1}！\p{STR_VAR_1}赢得了{STR_VAR_2}奖\n并带走了{STR_VAR_3}！\p{STR_VAR_1}！\n恭喜你！\p观众朋友们，别光看着，\n快来参与吧！\p水静百货全体员工\n期待您的下次光临！\p这里是水静百货现场直播，\n为您提供丰缘地区\l最丰富的商品选择！$"
 
 gTVThePokemonBattleSeminarText00::
-	.string "宝可梦对战研讨会！\p我们通过分析对战\n来学习他人的经验。\p今天的研究案例是\n{STR_VAR_1}的对战。\p{STR_VAR_1}的{STR_VAR_2}\n正在与{STR_VAR_3}对战…$"
+	.string "宝可梦对战研讨会！\p我们通过分析对战\n来学习他人的经验。\p今天的研究案例是\n{STR_VAR_1}的对战。\p{STR_VAR_1}的{STR_VAR_2}\n正在与{STR_VAR_3}对战……$"
 
 gTVThePokemonBattleSeminarText01::
-	.string "它使用了招式{STR_VAR_3}\n攻击{STR_VAR_2}…\p嗯…{STR_VAR_1}！\n这样做是不对的！$"
+	.string "它使用了招式{STR_VAR_3}\n攻击{STR_VAR_2}……\p嗯……{STR_VAR_1}！\n这样做是不对的！$"
 
 gTVThePokemonBattleSeminarText02::
 	.string "除了这个注定失败的招式外，\n训练家的{STR_VAR_1}还会$"
@@ -892,7 +892,7 @@ TVSecretBaseSecrets_Text_UsedPoster::
 	.string "访客正盯着海报看！\p很喜欢这张海报吗？\p……但是……\n访客的眼神有点吓人……$"
 
 TVSecretBaseSecrets_Text_UsedNoteMat::
-	.string "访客踩上了音符地毯！\p……嗯…\n编了首搞笑的曲子！$"
+	.string "访客踩上了音符地毯！\p……嗯……\n编了首搞笑的曲子！$"
 
 TVSecretBaseSecrets_Text_BattledDraw::
 	.string "访客正在和{STR_VAR_1}聊天！\p看起来要开始对战了！\p然后……\p平局！\n没分出胜负！\p两位训练家都显得\n非常失望！$"

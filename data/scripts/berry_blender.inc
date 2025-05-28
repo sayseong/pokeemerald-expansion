@@ -83,7 +83,7 @@ BerryBlender_Text_OhDear:
 	.string "哎呀！$"
 
 BerryBlender_Text_LeftUsInShock:
-	.string "哎呀呀…\p你让我们大吃一惊呢！$"
+	.string "哎呀呀……\p你让我们大吃一惊呢！$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks3:
 	.string "你当然知道怎么制作\n宝可方块，对吧？$"

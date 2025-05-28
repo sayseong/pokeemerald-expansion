@@ -51,8 +51,8 @@ MauvilleCity_House2_Text_IllTradeYouCoinCase:
     .string "哈哈，太高兴了！\n好，我用代币盒跟你交换！$"
 
 MauvilleCity_House2_Text_UseCoinCaseAtGameCorner:
-    .string "你可以在游戏中心里\n使用代币盒。$"
+    .string "你可以在游戏城里\n使用代币盒。$"
 
 MauvilleCity_House2_Text_ThatsDisappointing:
-    .string "哎，真失望。\p要在游戏中心玩游戏\n必须有代币盒。$"
+    .string "哎，真失望。\p要在游戏城玩游戏\n必须有代币盒。$"
 

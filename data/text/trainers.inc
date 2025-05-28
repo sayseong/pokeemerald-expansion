@@ -2421,7 +2421,7 @@ Route123_Text_VioletDefeat::
     .string "哦……\n我闻到了痛苦的苦涩气味……$"
 
 Route123_Text_VioletPostBattle::
-    .string "树果大师的花园充满了\n振奋人心的香气。$"
+    .string "树果名人的花园充满了\n振奋人心的香气。$"
 
 Route123_Text_CameronIntro::
     .string "要做超能力者需要有意志力。\p我的意志力已经不会输给任何人了。\n这让我十分强大！$"
@@ -2448,7 +2448,7 @@ Route123_Text_JackiIntro::
     .string "如果你的宝可梦获得了超能力，\n不要太高兴。\p要让它们派上用场，\n你还得精心培育。$"
 
 Route123_Text_JackiDefeat::
-    .string "打败了！$"
+    .string "一败涂地！$"
 
 Route123_Text_JackiPostBattle::
     .string "我们都有超能力。\n我们只是忘了要怎么使用。$"
@@ -2496,7 +2496,7 @@ Route123_Text_KindraDefeat::
     .string "活力十足……$"
 
 Route123_Text_KindraPostBattle::
-    .string "送神山……\n宝可梦的灵魂休眠的地方……\l它一定充满着\n安抚灵魂的力量……$"
+    .string "送神山……\n宝可梦的灵魂休眠的地方……\l它一定充满着安抚灵魂的力量……$"
 
 Route123_Text_FernandoIntro::
     .string "当我奏起这首曲子的时候，\n你的希望就全部落空了！$"

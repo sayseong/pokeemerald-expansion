@@ -1,8 +1,8 @@
 Questionnaire_Text_FillOut::
-	.string "这里一张问卷调查，\n要填一下吗？$"
+	.string "这里有张问卷调查，\n要填一下吗？$"
 
 Questionnaire_Text_ThankYou::
-	.string "谢谢您抽出时间来\n填写我们的调查表，\p您的反馈将成为\n我们的参考。$"
+	.string "谢谢您抽出时间来\n填写我们的调查问卷，\p您的反馈将成为\n我们的参考。$"
 
 Questionnaire_Text_YouKnowThoseWordsGift::
 	.string "啊，您好！\n您知道这些短语吗？\p那么说您一定知道\n关于神秘礼物的事情了。\p从现在起，您将会\n收到神秘礼物！$"

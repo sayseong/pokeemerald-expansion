@@ -627,7 +627,7 @@ MauvilleCity_GameCorner_EventScript_NoCoinCase::
 	end
 
 MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner:
-    .string "这里是紫堇市游戏中心。$"
+    .string "这里是紫堇游戏城。$"
 
 MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins:
     .string "您想要些代币\n玩游戏吗？\p但您还没有\n装代币的代币盒。$"
@@ -701,7 +701,7 @@ MauvilleCity_GameCorner_Text_LuckOnlyLastSoLongTakeCoins:
     .string "我的运气大概到此为止了，\n已经得到太多东西了。\l给你一些代币吧！$"
 
 MauvilleCity_GameCorner_Text_MauvilleSomethingForEveryone:
-    .string "每个人都能在紫堇市\n找到快乐，\p对我来说，快乐就是游戏中心。$"
+    .string "每个人都能在紫堇市\n找到快乐，\p对我来说，快乐就是游戏城。$"
 
 MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates:
     .string "轮盘机那边有不同的\n赔率，\p决定选择哪张桌之前先\n看看你剩下多少代币吧。$"
@@ -710,7 +710,7 @@ MauvilleCity_GameCorner_Text_EasyToLoseTrackOfTime:
     .string "在这儿很快就消磨了大把的时间，\n我该回去工作了。$"
 
 MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay:
-    .string "在游戏中心这儿玩\n要使用代币。$"
+    .string "在游戏城这儿玩\n要使用代币。$"
 
 MauvilleCity_GameCorner_Text_RouletteOnlyLuck:
     .string "这种轮盘机……\n要求太高了，\p胜负全凭运气。$"

@@ -38,7 +38,7 @@ Route120_Text_BerryIsRareRaiseItWithCare::
     .string "这可是个很少见的树果，\n希望你能用你的爱去照顾它成长。$"
 
 Route120_Text_IllGetMoreBerriesFromBerryMaster::
-    .string "我会从树果大师那儿\n得到更多树果。$"
+    .string "我会从树果名人那儿\n得到更多树果。$"
 
 LilycoveCity_Text_BerrySuitsYou::
     .string "要怎么说呢……\p就像我适合穿套装，\n海风适合在海边吹一样，\p你适合拥有树果……\p为什么呢？$"
@@ -50,7 +50,7 @@ LilycoveCity_Text_PokeblocksSuitPokemon::
     .string "要怎么说呢……\p就像简单对我的胃口一样，\n宝可方块也要对宝可梦胃口。$"
 
 Route123_BerryMastersHouse_Text_YoureDeservingOfBerry::
-    .string "你可以叫我树果大师，\p我始终梦想着让鲜花开满\n世界各地，所以我种植树果\l并把它们交托给遇见的每一个人。\p收下这个吧！$"
+    .string "你可以叫我树果名人，\p我始终梦想着让鲜花开满\n世界各地，所以我种植树果\l并把它们交托给遇见的每一个人。\p收下这个吧！$"
 
 Route123_BerryMastersHouse_Text_WhyBeStingyTakeAnother::
     .string "不用客气，\n这个也给你！$"

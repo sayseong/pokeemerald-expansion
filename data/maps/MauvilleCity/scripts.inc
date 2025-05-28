@@ -549,7 +549,7 @@ MauvilleCity_Text_BikeShopSign:
     .string "“骑车到砂石路上去，\n晃动爱车的灵魂！”\l风野自行车店$"
 
 MauvilleCity_Text_GameCornerSign:
-    .string "“大家的游乐场！”\n紫堇市游戏中心$"
+    .string "“大家的游乐场！”\n紫堇游戏城$"
 
 MauvilleCity_Text_ExplainTV:
     .string "嗨，你看电视了吗？\p最近电视台\n设立了很多新节目。\p电视太棒了，有一次\n我意外地发现我朋友上电视了。\p而且有时候电视台根本不告诉你\n你就会出现在荧屏上了。\p希望哪天我也能上电视，\p所以你要\n经常看电视哦。$"
