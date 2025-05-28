@@ -87,5 +87,5 @@ EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions:
     .string "米可利：这个房间……\p这是我们记载那些在严峻的战斗中\n脱颖而出的宝可梦。\p这里也是赞誉联盟冠军的地方。$"
 
 EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames:
-    .string "米可利：来吧，作为称霸宝可梦联盟的训练家，\n让我们记录下你以及和你一同\l作战的伙伴们的名字吧。$"
+    .string "米可利：来吧，作为称霸宝可梦联盟的\n训练家，让我们记录下你和与你一同\l作战的伙伴们的名字吧。$"
 

@@ -892,7 +892,7 @@ gText_MomOrDadMightLikeThisProgram::
 	.string "该走了！$"
 
 gText_WhichFloorWouldYouLike::
-	.string "欢迎来到水静百货，\p"
+	.string "欢迎来到水静百货。\p"
 	.string "要去几层？$"
 
 gText_SandstormIsVicious::
@@ -907,7 +907,7 @@ gText_PokemonTrainerSchoolEmail::
 	.string "有一封宝可梦训练家\n"
 	.string "学校来的电子邮件。\p"
 	.string "…… …… ……\p"
-	.string "1只宝可梦最多可以学4个招式，\p"
+	.string "1只宝可梦最多可以学4个招式。\p"
 	.string "训练家的专业程度就可以从其\n"
 	.string "为宝可梦所选择的招式中看出来。\p"
 	.string "…… …… ……$"
@@ -974,7 +974,7 @@ gText_ComeBackWithSecretPower::
 	.string "我们这些人都喜欢\n"
 	.string "招式学习器秘密之力。\p"
 	.string "我们的成员之一会把它送给你，\n"
-	.string "拿到之后就回来给我看看吧，\p"
+	.string "拿到之后就回来给我看看吧。\p"
 	.string "我们会让你成为我们之中的一员，\n"
 	.string "还可以秘密卖给你些道具。$"
 
@@ -1024,8 +1024,8 @@ gText_ThankYouForAccessingMysteryGift::
 	.string "神秘礼物系统。$"
 
 gText_PlayerFoundOneTMHM::
-	.string "{PLAYER}找到了一个{STR_VAR_1}\n"
-	.string "{STR_VAR_2}！$"
+	.string "{PLAYER}找到了\n"
+	.string "1个{STR_VAR_1}{STR_VAR_2}！$"
 
 gText_PlayerFoundTMHMs::
 	.string "{PLAYER}找到了{STR_VAR_3}、{STR_VAR_1}\n"

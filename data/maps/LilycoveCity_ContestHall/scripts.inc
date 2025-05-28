@@ -420,7 +420,7 @@ LilycoveCity_ContestHall_Text_PetalDanceIsMarvel:
     .string "我的宝可梦的花之舞\n奇妙而优美，\p我不会让任何人\n打扰它的表演。$"
 
 LilycoveCity_ContestHall_Text_MyMonAppealSoMuchCuter:
-    .string "大家的宝可梦都很可爱，\p但是，如果我的宝可梦\n想表现的可爱一些……\p我相信它会\n比其他的更可爱。$"
+    .string "大家的宝可梦\n都很可爱，\p但是，如果我的宝可梦\n想表现的可爱一些……\p我相信它会\n比其他的更可爱。$"
 
 LilycoveCity_ContestHall_Text_MyChildIsInContest:
     .string "我孩子正在参加华丽大赛。$"

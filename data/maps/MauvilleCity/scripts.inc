@@ -467,10 +467,10 @@ MauvilleCity_Text_UncleHesTooPeppy:
     .string "叔叔：我想是宝可梦\n让那孩子打起精神来的……\l但他好像有点兴奋过头了……$"
 
 MauvilleCity_Text_WallyWantToChallengeGym:
-    .string "满充：叔叔，拜托你了，\p我想挑战这个道馆，\n我想试试我变得多强了。\p可以吗？$"
+    .string "满充：叔叔，拜托你了。\p我想挑战这个道馆，\n我想试试我变得多强了。\p可以吗？$"
 
 MauvilleCity_Text_UncleYourePushingIt:
-    .string "叔叔：等等，满充，\p自从你开始和宝可梦旅行以来，\n确实成长了不少，\p但你不觉得现在就挑战道馆\n也太勉强了吗？$"
+    .string "叔叔：等等，满充。\p自从你开始和宝可梦旅行以来，\n确实成长了不少。\p但你不觉得现在就挑战道馆\n也太勉强了吗？$"
 
 MauvilleCity_Text_WallyWeCanBeatAnyone:
     .string "满充：才不勉强！\p只要和拉鲁拉丝齐心协力的话，\n我们不会输给任何人！$"
@@ -531,7 +531,7 @@ MauvilleCity_Text_NurseHurtMonBackToHealth:
     .string "你知道吗，看着宝可梦对战\n真是太棒了……\p但如果你的宝可梦受了伤，\n就得赶快帮它治疗。$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough:
-    .string "这个镇子的道路\n通向四面八方，\p因此在这里\n能见到各式各样的人。$"
+    .string "这个镇子的道路\n通向四面八方。\p因此在这里\n能见到各式各样的人。$"
 
 MauvilleCity_Text_RydelVeryGenerous:
     .string "你去过风野的自行车行了吗？\p那里的主人风野\n是个很大方的人。$"
@@ -552,7 +552,7 @@ MauvilleCity_Text_GameCornerSign:
     .string "“大家的游乐场！”\n紫堇游戏城$"
 
 MauvilleCity_Text_ExplainTV:
-    .string "嗨，你看电视了吗？\p最近电视台\n设立了很多新节目。\p电视太棒了，有一次\n我意外地发现我朋友上电视了。\p而且有时候电视台根本不告诉你\n你就会出现在荧屏上了。\p希望哪天我也能上电视，\p所以你要\n经常看电视哦。$"
+    .string "嗨，你看电视了吗？\p最近电视台\n设立了很多新节目。\p电视太棒了，有一次\n我意外地发现我朋友上电视了。\p而且有时候电视台根本不告诉你\n你就会出现在荧屏上了。\p希望哪天我也\n能上电视，\p所以你要\n经常看电视哦。$"
 
 MauvilleCity_Text_BeenCheckingOutTV:
     .string "嗨，你看过电视了吗？$"

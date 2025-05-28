@@ -59,7 +59,7 @@ FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale::
 	end
 
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
-    .string "我是招式导师，\p我知道宝可梦的\n每一个招式，也能教\l宝可梦学会这些招式。\p如果你愿意，我可以教你的\n宝可梦1个招式，\p条件是我要1个心之鳞片。\n我现在正在收集这些东西。$"
+    .string "我是招式导师。\p我知道宝可梦的\n每一个招式，也能教\l宝可梦学会这些招式。\p如果你愿意，我可以教你的\n宝可梦1个招式，\p条件是我要1个心之鳞片。\n我现在正在收集这些东西。$"
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
     .string "那个！那是真真正正的\n心之鳞片！\p我猜，你是想让我\n教授招式吧？$"

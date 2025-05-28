@@ -143,7 +143,7 @@ SkyPillar_Outside_Text_DoorIsClosed:
     .string "门关上了。$"
 
 SkyPillar_Outside_Text_OpenedDoorToSkyPillar:
-    .string "米可利：哎呀，\p真是抱歉！\n我太着急，竟没注意到你被落下了！\p我已经打开了天空之柱的大门。\p{PLAYER}{KUN}，我们走吧！$"
+    .string "米可利：哎呀，\n真是抱歉！\p我太着急，\n竟没注意到你被落下了！\p我已经打开了天空之柱的大门。\p{PLAYER}{KUN}，我们走吧！$"
 
 SkyPillar_Outside_Text_EarthquakeNotMomentToWaste:
     .string "米可利：是地震！\p不能再耽搁了！\n我们必须抓紧时间！$"

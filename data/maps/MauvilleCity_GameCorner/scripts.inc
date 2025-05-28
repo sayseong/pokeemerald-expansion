@@ -630,10 +630,10 @@ MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner:
     .string "这里是紫堇游戏城。$"
 
 MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins:
-    .string "您想要些代币\n玩游戏吗？\p但您还没有\n装代币的代币盒。$"
+    .string "您想要些代币\n玩游戏吗？\p但您还没有装代币的\n代币盒。$"
 
 MauvilleCity_GameCorner_Text_WereYouLookingForCoins:
-    .string "您要买代币吗？\p¥1000可以买50枚。\n要买一些吗？$"
+    .string "您要买代币吗？\p¥1000可以买50枚。\n您要买一些吗？$"
 
 MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins:
     .string "谢谢惠顾！\n这是您的代币！$"
@@ -648,16 +648,16 @@ MauvilleCity_GameCorner_Text_DontNeedCoinsThen:
     .string "哦……您现在不需要代币吗？\n那么，祝您旅途愉快！$"
 
 MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes:
-    .string "欢迎，\p您可以在这里\n把代币换成奖品。$"
+    .string "欢迎！\p您可以在这里\n把代币换成奖品。$"
 
 MauvilleCity_GameCorner_Text_WhichPrize:
     .string "您想换什么奖品？$"
 
 MauvilleCity_GameCorner_Text_SoYourChoiceIsTheTMX:
-    .string "您想换\n{STR_VAR_1}{STR_VAR_2}？$"
+    .string "您要换\n{STR_VAR_1}{STR_VAR_2}吗？$"
 
 MauvilleCity_GameCorner_Text_SendToYourHomePC:
-    .string "谢谢惠顾！您的物品\n已经送到家里的电脑里面了。$"
+    .string "谢谢惠顾！您的物品\n已经送到您家的电脑中了。$"
 
 MauvilleCity_GameCorner_Text_NotEnoughCoins:
     .string "您的代币不够。$"

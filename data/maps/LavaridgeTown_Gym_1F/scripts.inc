@@ -252,7 +252,7 @@ LavaridgeTown_Gym_B1F_Text_JeffDefeat:
     .string "有什么事搞错了。$"
 
 LavaridgeTown_Gym_B1F_Text_JeffPostBattle:
-    .string "那又怎么样？我说那又怎么样\n我能光着脚在热炭上走！\p……不用试也知道你是不可能做到的！$"
+    .string "那又怎么样？我说那又怎么样！\n我能光着脚在热炭上走！\p……不用试也知道你是不可能做到的！$"
 
 LavaridgeTown_Gym_B1F_Text_EliIntro:
     .string "我喜欢高山，\n尤其喜欢火山。$"
@@ -267,13 +267,13 @@ LavaridgeTown_Gym_1F_Text_FlanneryIntro:
     .string "欢迎……\n哦不，\p微不足道的挑战者啊，\n真高兴能看见你坚持到这里！\p爷爷托付我……\n我是说，\p我是亚莎，\n是这个道馆的馆主！\p那个……\n虽然我不久前才刚上任，\l但你可别小看我！\p我有爷爷传授给我的技巧，\n我会，那个……让你见识一下我们\l在这片土地上磨砺而出的火辣招式！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
-    .string "哦……\n也许我做得太过了……\p我……\n我最近才刚成为道馆馆主，\l我试着要装出道馆馆主的样子。\p我的宝可梦一定都被我搞糊涂了吧。\n也许我只要按自己的想法来做就好了。\p谢谢你让我明白这点，\n你配得上这枚徽章。$"
+    .string "哦……\n也许我做得太过了……\p我……\n我最近才刚成为道馆馆主，\l我试着要装出道馆馆主的样子。\p我的宝可梦一定都被我搞糊涂了吧。\n也许我只要按自己的想法做就好。\p谢谢你让我明白这点，\n你配得上这枚徽章。$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
     .string "{PLAYER}从亚莎那里\n得到了烈焰徽章。$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
-    .string "有了烈焰徽章，\n所有50级以下的宝可梦，\l即使是从别人那儿交换得来的\l也会完全听你的。\p另外，宝可梦也能在对战外\n使用秘传招式怪力了。\p这是我的小小谢礼，\n请别客气，收下吧！$"
+    .string "有了烈焰徽章，\n所有等级50以内的宝可梦，\l即使是从别人那儿交换得来的\l也会完全听你的。\p另外，宝可梦也能在对战外\n使用秘传招式怪力了。\p这是我的小小谢礼，\n请别客气，收下吧！$"
 
 LavaridgeTown_Gym_1F_Text_ExplainOverheat:
     .string "那个招式学习器50里\n装着的是过热，\p能对对手造成\n巨大的伤害。\p但同时，使用它的宝可梦\n特攻会急剧下降。\l这个招式不太适合持久战。$"

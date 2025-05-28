@@ -345,7 +345,7 @@ PlayersHouse_1F_Text_ReportFromPetalburgGym:
     .string "访问记者：……以上就是\n关于橙华市道馆的报道。$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
-    .string "上演着一部电影，\p两个人在巨大的\n琴键上跳舞。\p该走了！$"
+    .string "上演着一部电影。\p两个人在巨大的\n琴键上跳舞。\p该走了！$"
 
 PlayersHouse_1F_Text_RunningShoesManual:
     .string "这是\n跑步鞋的说明书。\p“穿上跑步鞋，\n按B键奔跑。\p系好你的鞋带，在\n踏地的节奏中飞奔吧！”$"
@@ -357,7 +357,7 @@ PlayersHouse_1F_Text_PortsInSlateportLilycove:
     .string "爸爸：唔，是乘坐游船的船票吧？\p记得没错的话，\n凯那市和水静市都有游船的码头。$"
 
 PlayersHouse_1F_Text_BetterGetBackToGym:
-    .string "我该回橙华市道馆去了，\p老婆，谢谢你在我\n不在的时候看家。$"
+    .string "我该回橙华市道馆去了。\p老婆，谢谢你在我\n不在的时候看家。$"
 
 PlayersHouse_1F_Text_DadShouldStayLonger:
     .string "妈妈：毕竟是你的爸爸……\p已经很久没回家了，\n一回来就滔滔不绝地讲宝可梦的事。\p他该在家多休息几天的。$"

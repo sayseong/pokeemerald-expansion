@@ -288,7 +288,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner2::
     .string "那么，请从聚集在此的训练家中\n选择一位搭档。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ThankYouForChoosingPartner::
-    .string "感谢您完成组队，\p现在将带您前往\n多人对战间。$"
+    .string "感谢您完成组队。\p现在将带您前往\n多人对战间。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Intro::
     .string "我是{STR_VAR_1}的第{STR_VAR_2}个徒弟。\n你可以叫我{STR_VAR_3}！$"

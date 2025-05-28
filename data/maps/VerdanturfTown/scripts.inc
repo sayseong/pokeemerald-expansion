@@ -64,7 +64,7 @@ VerdanturfTown_EventScript_RusturfTunnelSign::
 	end
 
 VerdanturfTown_Text_ManTryingToDigTunnel:
-    .string "爸爸说过，\p这条隧道里\n满是胆小的宝可梦，\p它们会被巨响或大骚动\n吓到，\p所以人们只有停止\n这浩大的隧道工程。\p但还是有一个人\n试图独自打通隧道！$"
+    .string "爸爸说过，\n这条隧道里住满了\l胆小的宝可梦，\p它们会被巨响或大骚动\n吓到，\p所以人们只有停止\n这浩大的隧道工程。\p但还是有一个人\n试图独自打通隧道！$"
 
 VerdanturfTown_Text_ManDugTunnelForLove:
     .string "有个人为了他心爱的女人\n誓要挖通隧道。\p我不是很理解，但我很佩服他！$"

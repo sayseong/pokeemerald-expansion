@@ -174,7 +174,7 @@ FortreeCity_Gym_Text_AshleyDefeat:
     .string "我败了……$"
 
 FortreeCity_Gym_Text_AshleyPostBattle:
-    .string "多亏了娜琪，住在茵郁市的人们\n不必心惊胆战了。$"
+    .string "多亏了娜琪，住在茵郁市的人们\n才能安居乐业。$"
 
 FortreeCity_Gym_Text_HumbertoIntro:
     .string "当娜琪对战的时候，她的脸上\n闪耀着坚定的决心……\p我不会让你看到\n她那可爱的一幕！$"

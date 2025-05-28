@@ -276,7 +276,7 @@ PlayersHouse_2F_Text_ClockIsStopped:
     .string "时钟停着……\p把时间调好吧！$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
-    .string "妈妈：{PLAYER}，喜欢你的\n新房间吗？\p太好了！房间收拾得很整洁呢！\p楼下的行李也都\n整理完毕了，\p宝可梦搬家服务真方便啊！\p对了，记得检查一下你桌子上\n的东西是不是都齐了。$"
+    .string "妈妈：{PLAYER}，喜欢你的\n新房间吗？\p太好了！房间收拾得很整洁呢！\p楼下的行李也都\n整理完毕了。\p宝可梦搬家服务真方便啊！\p对了，记得检查一下你桌子上\n的东西是不是都齐了。$"
 
 PlayersHouse_2F_Text_Notebook:
     .string "{PLAYER}翻开笔记。\p冒险须知第一条\n用START键打开菜单。\p冒险须知第二条\n记录选项可以写下记录。\p后面是空白……$"
@@ -285,4 +285,4 @@ Common_Text_LookCloserAtMap:
     .string "{PLAYER}仔细察看\n丰缘地区的地图。$"
 
 PlayersHouse_2F_Text_ItsAGameCube:
-    .string "这是NGC，\p上面连着个GBA\n当做手柄。$"
+    .string "这是NGC。\p上面连着个GBA\n当做手柄。$"

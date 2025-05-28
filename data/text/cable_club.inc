@@ -106,7 +106,7 @@ CableClub_Text_HopeToSeeYouAgain::
     .string "下回再见！$"
 
 CableClub_Text_NotSetUpForFarAwayRegion::
-    .string "非常抱歉，\p我们现在无法与\n远在其它地区的训练家\l进行连接……$"
+    .string "非常抱歉！\p我们目前尚未开放\n与其它地区的训练家\l进行连接的功能……$"
 
 CableClub_Text_OtherTrainerNotReady::
     .string "其他训练家还未准备好。$"

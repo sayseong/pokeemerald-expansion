@@ -93,5 +93,5 @@ LilycoveCity_MoveDeletersHouse_Text_EggCantForgetMoves:
     .string "什么？\n蛋可不会什么招式。$"
 
 LilycoveCity_MoveDeletersHouse_Text_CantForgetSurf:
-    .string "嗯，\p你的{STR_VAR_1}好像不想\n忘记冲浪。$"
+    .string "嗯。\p你的{STR_VAR_1}好像不想\n忘记冲浪。$"
 

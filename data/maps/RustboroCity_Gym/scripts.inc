@@ -125,10 +125,10 @@ RustboroCity_Gym_Text_TommyDefeat:
     .string "哇！你的潜力很大！$"
 
 RustboroCity_Gym_Text_TommyPostBattle:
-    .string "杜娟比我\n强大多了，\p你最好提高警惕！$"
+    .string "杜娟可比我厉害好几倍。\p你最好提高警惕！$"
 
 RustboroCity_Gym_Text_MarcIntro:
-    .string "我们也许确实在城镇中央，\n但那又如何？\p我的岩石宝可梦需要\n爆发的空间！$"
+    .string "虽然这里是城镇中心，\n但那又如何？\p我的岩石宝可梦可需要\n大闹一场的空间！$"
 
 RustboroCity_Gym_Text_MarcDefeat:
     .string "哦，天哪！\n我们的挑战者这么强大！$"
@@ -137,7 +137,7 @@ RustboroCity_Gym_Text_MarcPostBattle:
     .string "只有交给我们的馆主了。\p这么年轻就培育岩石属性，\n真是辛苦她了。$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
-    .string "您好，我是卡那兹市宝可梦道馆的\n馆主杜娟。\p我想要把在宝可梦训练家学校中所学\n到的东西都运用到宝可梦对战里面，\l所以才成为了道馆馆主。\p您要使用哪种宝可梦，\n如何对战，可以告诉我吗？$"
+    .string "您好，我是卡那兹市宝可梦道馆的\n馆主杜娟。\p我想要把在宝可梦训练家学校中\n所学到的东西都运用到宝可梦对战\l里面，所以才成为了道馆馆主。\p您要使用哪种宝可梦，\n如何对战，可以告诉我吗？$"
 
 RustboroCity_Gym_Text_RoxanneDefeat:
     .string "啊……\n是我输了……\p看来我还有\n许多东西要学……\p我知道了。\p宝可梦联盟规定\n战胜道馆馆主的训练家\l可以得到这个。\p请收下这枚宝可梦联盟\n公认的岩石徽章。$"

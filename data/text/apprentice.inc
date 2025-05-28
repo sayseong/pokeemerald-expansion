@@ -515,7 +515,7 @@ gText_ApprenticeMonFirstThanks5::
     .string "明白了。\n把我的{STR_VAR_1}放在队首\l这个时间我还是有的！\p哎呀，我的女朋友在等我呢！\n谢谢你！回见！$"
 
 gText_ApprenticeWhichMonFirst6::
-    .string "呀呵！嘿，{PLAYER}！\n你总是这样威风凛凛！\p听我说，我这次又要有求\n于你！还是那些事！\p来点鼓声！！\n我的问题是关于我的队伍的。\p我的宝可梦中哪一个\n应该打头阵？$"
+    .string "呀呵！嘿，{PLAYER}！\n你总是这样威风凛凛！\p听我说，我这次又要有求\n于你！还是那些事！\p掌声有请——！\n我的问题是关于我的队伍的。\p我的宝可梦中哪一个\n应该打头阵？$"
 
 gText_ApprenticeMonFirstThanks6::
     .string "嗯！\n你是说我的{STR_VAR_1}！\l真是精彩的回答，谢谢！\p我今天想问你的\n就这么多。\p以后再见吧？\n谢谢你！$"

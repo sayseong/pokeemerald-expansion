@@ -678,55 +678,55 @@ SecretBase_Text_AllDecorationsWillBeReturned:
 	.string "确定吗？$"
 
 SecretBase_Text_WantToRegisterSecretBase:
-	.string "想要设置\n"
+	.string "想要登记\n"
 	.string "{STR_VAR_1}的秘密基地吗？$"
 
 SecretBase_Text_AlreadyRegisteredDelete:
-	.string "数据已经设置，\n"
+	.string "该条目已经登记，\n"
 	.string "要删除吗？$"
 
 SecretBase_Text_TooManyBasesDeleteSome:
-	.string "最多能够设置10件物品，\p"
-	.string "要设置其它物品必须\n"
-	.string "先删除原有物品。$"
+	.string "最多只能登记10个地点。\p"
+	.string "如果要登记新地点必须\n"
+	.string "先删除已有的登记地点。$"
 
 SecretBase_Text_RegistrationCompleted:
-	.string "登录完成。$"
+	.string "登记完成。$"
 
 SecretBase_Text_DataUnregistered:
-	.string "数据已删除。$"
+	.string "条目已删除。$"
 
 SecretBase_Text_BootUpPC:
-	.string "{PLAYER}登录了电脑。$"
+	.string "{PLAYER}启动了电脑。$"
 
 SecretBase_Text_WhatWouldYouLikeToDo:
 	.string "想要做什么？$"
 
 SecretBase_Text_RegistryInfo:
-	.string "一旦登录成功，除非训练家\n"
-	.string "将其移动到其它地方，\l"
-	.string "否则物品不会消失。\p"
-	.string "如果将一件物品从登录列表中\n"
-	.string "删除，那么另一件物品就\l"
-	.string "可以取代它的位置。\p"
-	.string "秘密基地最多可\n"
-	.string "登录10件物品。$"
+	.string "一旦登记成功，除非训练家\n"
+	.string "搬家到其它地点，\l"
+	.string "否则秘密基地不会消失。\p"
+	.string "如果从登记列表中删除，\n"
+	.string "那么另一个秘密基地\l"
+	.string "可能会取代它的位置。\p"
+	.string "秘密基地最多可以\n"
+	.string "登记10个地点。$"
 
 SecretBase_Text_BattleTowerShield:
-	.string "一个记录在对战塔中连续\n"
-	.string "胜利{STR_VAR_1}次的盾形{STR_VAR_2}。$"
+	.string "一个纪念在对战塔中\n"
+	.string "{STR_VAR_1}连胜的{STR_VAR_2}盾。$"
 
 SecretBase_Text_ToyTV:
 	.string "一个仿真玩具电视，\n"
-	.string "很容易与真品混淆。$"
+	.string "很容易被误认为是真品。$"
 
 SecretBase_Text_SeedotTV:
 	.string "一个橡实果形状的玩具电视，\n"
-	.string "好像就要滚动着离开一样……$"
+	.string "看起来随时会自己滚走……$"
 
 SecretBase_Text_SkittyTV:
 	.string "一个向尾喵形状的玩具电视，\n"
-	.string "好像就要溜走一样……$"
+	.string "看起来随时会自己溜走……$"
 
 SecretBase_Text_WouldYouLikeToMoveBases:
 	.string "只能拥有一个秘密基地，\p"

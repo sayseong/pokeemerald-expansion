@@ -603,23 +603,23 @@ MauvilleCity_PokemonCenter_1F_Text_EnteredContestsStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
 	.string "至今为止他已参加{STR_VAR_1}次\n"
-	.string "选美！\p"
+	.string "华丽大赛！\p"
 	.string "{STR_VAR_3}喜欢向他人炫耀\n"
 	.string "自己的宝可梦！$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsTitle::
-	.string "选美专家$"
+	.string "华丽大赛专家$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsAction::
-	.string "获得选美冠军$"
+	.string "获得华丽大赛冠军$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "他已{STR_VAR_1}次获得了选美\n"
-	.string "冠军！\p"
+	.string "他已获得了{STR_VAR_1}次\n"
+	.string "华丽大赛冠军！\p"
 	.string "{STR_VAR_3}是个令人难以置信的\n"
-	.string "选美大师！$"
+	.string "华丽大赛大师！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedTitle::
 	.string "购物爱好者$"
@@ -639,12 +639,12 @@ MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderTitle::
 	.string "搜索专家$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderAction::
-	.string "使用探测器$"
+	.string "使用探宝器$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "他用探测器找出道具\n"
+	.string "他用探宝器找出道具\n"
 	.string "{STR_VAR_1}次！\p"
 	.string "{STR_VAR_3}一定想找出\n"
 	.string "所有隐藏道具！$"

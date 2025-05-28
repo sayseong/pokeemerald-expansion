@@ -317,7 +317,7 @@ BattleFrontier_OutsideWest_Text_BattlePikeSign:
     .string "这里是对战管道！\n选择！3条道路！$"
 
 BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
-    .string "这里是对战塔，\p训练家将他们最优秀的\n宝可梦带来进行淘汰赛。$"
+    .string "这里是对战塔！\p训练家将他们最优秀的\n宝可梦带来进行淘汰赛。$"
 
 BattleFrontier_OutsideWest_Text_MayISeeYourTicket:
     .string "您好，您想登船？\n可以让我看一下您的船票吗？$"

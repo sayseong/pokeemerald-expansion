@@ -958,7 +958,7 @@ SlateportCity_Text_PutEffortRibbonOnMon:
     .string "{PLAYER}给{STR_VAR_1}\n戴上努力奖章。$"
 
 SlateportCity_Text_GoForItLittleHarder:
-    .string "你要更努力些才行，\p我会给你的宝可梦\n好东西的。$"
+    .string "你要更努力些才行。\p我会给你的宝可梦\n好东西的。$"
 
 SlateportCity_Text_EffortRibbonLooksGoodOnIt:
     .string "啊！你的{STR_VAR_1}，戴着\n努力奖章很合适嘛！$"
@@ -970,13 +970,13 @@ SlateportCity_Text_SeaweedFullOfLife:
     .string "嗨，看这里！\p这周围的海草\n都那么新鲜灵动。\p呀，它看上去好像\n会跳出来攻击我们！$"
 
 SlateportCity_Text_HowTownIsBornAndGrows:
-    .string "有洁净水源的地方\n就会长出富足的果园，\p然后人们聚集在这里，\n就出现了集市。\p一个镇子就是这样诞生和发展下去的。$"
+    .string "有洁净水源的地方\n就会长出富足的果园。\p然后人们聚集在这里，\n就出现了集市。\p一个镇子就是这样诞生和发展下去的。$"
 
 SlateportCity_Text_SlateportWonderfulPlace:
     .string "在可以闻到海风的地方\n购物……\p凯那市简直就是天堂！$"
 
 SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
-    .string "把玩偶和坐垫\n直接放在地上会把它们弄脏，\p所以我准备买几块地砖来\n放玩偶和坐垫，这样\l它们就不会脏了。$"
+    .string "把玩偶和坐垫直接放在地上\n的话，会把它们弄脏的，\p所以我准备买几块地砖来\n放玩偶和坐垫，这样\l它们就不会脏了。$"
 
 SlateportCity_Text_GoingToCompeteInBattleTent:
     .string "啊啊啊！我也要参加\n对战帐篷！\p但在那之前，我得先去\n捕捉几只宝可梦！$"
@@ -1000,7 +1000,7 @@ SlateportCity_Text_AquaHasPolicy:
     .string "海洋队在办事的时候\n有专业的集合和撤退手段。$"
 
 SlateportCity_Text_BossIsBrilliant:
-    .string "我们老大很聪明，\p但我还没明白\n他为什么要占领博物馆。$"
+    .string "我们老大很聪明。\p但我还没明白\n他为什么要占领博物馆。$"
 
 SlateportCity_Text_WhatsNewSchemeIWonder:
     .string "不知道下面的计划是什么？\p老大发起火来太可怕了，\n我得小心别把事情搞砸……$"
@@ -1012,7 +1012,7 @@ SlateportCity_Text_DontButtIn:
     .string "喂，那边的！\n别插队！$"
 
 SlateportCity_Text_RemindsMeOfLongLineForGames:
-    .string "这么长的队，嗯，\p让我想起了以前\n排队买游戏大作的时候……$"
+    .string "这么长的队，\n嗯，\p让我想起了以前\n排队买游戏大作的时候……$"
 
 SlateportCity_Text_WhyAreWeLiningUp:
     .string "我们干嘛非得排队买票？\n直接闯进去不就得了！$"

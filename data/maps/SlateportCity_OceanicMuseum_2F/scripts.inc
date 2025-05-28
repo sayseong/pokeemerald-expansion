@@ -301,7 +301,7 @@ SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:
     .string "怎么办？不拿到部件的话，\n我们会有大麻烦的！\p啊，想不到竟会被个麻烦的\n小毛孩子妨碍了！$"
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
-    .string "我来看看你们抢个部件怎么\n用了那么久，结果你们几个废物\l被个小鬼头给拦住了？。$"
+    .string "我来看看你们抢个部件怎么\n用了那么久，结果你们几个废物\l被个小鬼头给拦住了？$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
     .string "我们是热爱大海的\n海洋队！\p而我就是海洋队的首领\n水梧桐！\p你为什么妨碍我们？\p……难，难道说！\n你是熔岩队的人？\p等等，不对，\n你穿得和他们不一样。\p…… …… ……\n…… …… ……\p宝可梦、人类……所有的生命\n都源自海洋，\p因此我们海洋队\n致力于扩张海洋。\p你不觉得吗？\n我们在进行着一项崇高的事业。\p算了……\n以你这个年纪还没法理解\l我们的伟大理想。\p但我警告你，\n如果敢再妨碍我们的计划，\p我决不会轻易放过你！\p给我好好记住！$"
@@ -313,7 +313,7 @@ SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
     .string "楠木馆长：糟糕！\n没时间耽搁了！\p我们得赶快开始\n我们的海底勘探了。\p再次谢谢你，不过\n我得先失陪了！\p随便参观一下\n我们的展品吧。$"
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
-    .string "我在这儿看到了一艘模型船，\p这让我想起了武斗镇附近的\n那艘被遗弃的海船……$"
+    .string "我在这儿看到了\n一艘模型船，\p这让我想起了武斗镇附近的\n那艘被遗弃的海船……$"
 
 SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum:
     .string "别在博物馆里面\n到处乱跑！$"

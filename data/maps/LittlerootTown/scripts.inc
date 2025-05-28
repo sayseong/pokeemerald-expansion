@@ -922,7 +922,7 @@ LittlerootTown_Text_SwitchShoesWithRunningShoes:
     .string "{PLAYER}换上了\n跑步鞋。$"
 
 LittlerootTown_Text_ExplainRunningShoes:
-    .string "妈妈：{PLAYER}，这是\n这双鞋的说明：\p“穿着跑步鞋时，\n按B键可以跑得更快！\p穿上跑步鞋，\n在野外尽情奔跑吧！”$"
+    .string "妈妈：{PLAYER}，\n这是这双鞋的说明：\p“穿着跑步鞋时，\n按B键可以跑得更快！\p穿上跑步鞋，\n在野外尽情奔跑吧！”$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
     .string "…… …… …… ……\n…… …… …… ……\p要是知道你有了\n自己的宝可梦……\l爸爸也一定会很高兴的。\p……但是，路上小心，无论发生了\n什么，家门永远为你敞开着。\p去吧，向着自己的目标努力吧，宝贝！$"
@@ -931,16 +931,16 @@ LittlerootTown_Text_CanUsePCToStoreItems:
     .string "打开电脑就可以存取\n道具和宝可梦了。\p科学的力量真伟大！$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-    .string "小田卷博士整天\n就待在研究所里作研究，\l然后突然出门去实地调查……\p小田卷博士什么时候\n才能在家里待上几天呢？$"
+    .string "小田卷博士整天都泡在研究所\n里做研究，然后又会突然跑到野外\l去实地调查……\p他到底什么时候能在\n家里待上几天呢？$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
-    .string "呃，呃，呃，\p如果你走进草丛里，\n野生的宝可梦可能会跳出来袭击的！$"
+    .string "呃，呃，呃！\p如果走到野外的草丛里，\n野生的宝可梦可能会跳出来袭击的！$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
-    .string "不带着自己的宝可梦的话\n会很危险的。$"
+    .string "如果没有自己的宝可梦的话，\n可是很危险的！$"
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
-    .string "呃，你好！\p外面有很可怕的宝可梦！\n我听到了它们的叫声！\p我本来想去看看发生了什么，\n但却没有宝可梦……\p你能替我去\n看看吗？$"
+    .string "呃，你好！\p外面有可怕的宝可梦！\n我都听到它们的叫声了！\p我好想去看看到底怎么了，\n但是我没有宝可梦……\p能帮我去看看情况吗？$"
 
 LittlerootTown_Text_YouSavedBirch:
     .string "你救了小田卷博士！\n太好了！$"

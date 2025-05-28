@@ -509,7 +509,7 @@ LilycoveCity_Text_MissingPokemonCameBack:
     .string "我那失踪的宝可梦……\n在我没注意时自己回来了！$"
 
 LilycoveCity_Text_ImArtDealer:
-    .string "我是一名艺术品商人，\p我的工作是买卖艺术品，\n尤其是绘画。\p我听说这里的美术馆\n正在展出美妙绝伦的艺术品……$"
+    .string "我是一名艺术品商人。\p我的工作是买卖艺术品，\n尤其是绘画。\p我听说这里的美术馆\n正在展出美妙绝伦的艺术品……$"
 
 LilycoveCity_Text_SeaRemainsForeverYoung:
     .string "时间在我们的脸上刻下了皱纹，\n而大海却还是一如既往地年轻，\l充满了生命的活力……\p呼呵呵呵呵……$"

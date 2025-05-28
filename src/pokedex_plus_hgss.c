@@ -4967,7 +4967,7 @@ static void Task_HandleStatsScreenInput(u8 taskId)
 
         FillWindowPixelBuffer(WIN_STATS_MOVES_DESCRIPTION, PIXEL_FILL(0));
         PrintStatsScreen_Moves_Description(taskId);
-        PrintStatsScreen_Moves_Top(taskId);//修正a键切换时属性图标没有变成选美的问题
+        PrintStatsScreen_Moves_Top(taskId);//修正a键切换时属性图标没有变成华丽大赛的问题
         FillWindowPixelBuffer(WIN_STATS_MOVES_BOTTOM, PIXEL_FILL(0));
         PrintStatsScreen_Moves_BottomText(taskId);
         PrintStatsScreen_Moves_Bottom(taskId);

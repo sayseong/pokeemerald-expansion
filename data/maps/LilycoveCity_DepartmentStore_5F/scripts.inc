@@ -151,7 +151,7 @@ LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon:
     .string "我还没到能训练宝可梦的年龄，\n所以还是买个玩偶吧。$"
 
 LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere:
-    .string "这里出售很多可爱的垫子，\p我该买哪个？\n也许可以都买下来……$"
+    .string "这里有很多可爱的\n垫子出售，\p我该买哪个？\n也许可以都买下来……$"
 
 LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather:
     .string "我想他们因为天气异常\n而关闭了顶楼。$"

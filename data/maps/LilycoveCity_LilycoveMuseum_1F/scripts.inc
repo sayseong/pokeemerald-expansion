@@ -162,7 +162,7 @@ LilycoveCity_LilycoveMuseum_1F_EventScript_FatMan::
 	end
 
 LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
-    .string "欢迎来到水静市美术馆，\p请随意观赏\n我们这里优秀的\l宝可梦艺术品。$"
+    .string "欢迎来到水静市美术馆。\p请随意观赏\n我们这里优秀的\l宝可梦艺术品。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings:
     .string "我是这个美术馆的\n馆长，\p很高兴能在这里\n看到你这样的年轻人。\p你看过我们的\n展品了吗？$"
@@ -198,7 +198,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries:
     .string "画着诱人的树果。\p看着这幅画，口水都流下来了！$"
 
 LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica:
-    .string "是一件著名雕塑的仿制品，\p描绘了一只古代鸟类宝可梦。$"
+    .string "是一件著名雕塑\n的仿制品，\p描绘了一只古代鸟类宝可梦。$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone:
     .string "用一块黑色石头雕刻成的\n巨大精灵球，\p显然是过去\n节庆时使用的。$"

@@ -253,61 +253,61 @@ SlateportCity_PokemonFanClub_EventScript_Azumarill::
 	end
 
 SlateportCity_PokemonFanClub_Text_MeetChairman:
-    .string "咳咳！我是宝可梦发烧友俱乐部的\n会长！\p当然，作为会长，\n我是这里最重要的人！\p说到抚养宝可梦，没人能\n做得比我更好，一个也没有！\p我告诉你些关于\n宝可梦华丽大赛的事情吧。\p这是把自己的宝可梦\n展示给全世界的比赛，\p但这些比赛都在很远的\n城镇举行，我没法经常参加。\p正因如此，我们才会\n聚集到这个地方\l互相展示我们的宝可梦。$"
+    .string "咳咳！我是宝可梦发烧友俱乐部的\n会长！\p当然，作为会长，\n我是这里最重要的人！\p说到培育宝可梦，\n没人能做得比我更好，\l一个也没有！\p我告诉你一些关于\n宝可梦华丽大赛的事吧。\p这是向全世界展示自己的\n宝可梦魅力的盛大比赛！\p可惜比赛都在很远的城镇举行，\n我没法经常参加。\p正因如此，我们才会聚集到这里\n互相展示我们的宝可梦。$"
 
 SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon:
-    .string "参加了宝可梦华丽大赛的\n训练家的宝可梦……\l我真想去看看。$"
+    .string "参加了宝可梦华丽大赛的\n训练家培育的宝可梦……\l真想亲眼看看啊。$"
 
 SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
-    .string "咳咳！你参加了\n宝可梦华丽大赛！\p拜托你！让我看看\n你的宝可梦！\p我总是禁不住想看看\n其他训练家养的宝可梦。\p被悉心照顾的宝可梦\n那快乐的表情……\p养育宝可梦的训练家\n那温柔的眼神……\p每当想起这些，\n我心中就充满了极大的快乐。\p啊！对不起！\n原谅我的喋喋不休吧！\p拜托你！让我看看\n你的宝可梦！$"
+    .string "咳咳！看来你参加过\n宝可梦华丽大赛！\p请务必让我看看\n你的培育成果！\p看到其他训练家培育的宝可梦\n总让我欣喜若狂！\p被悉心照顾的宝可梦\n那幸福的表情……\p培育宝可梦的训练家\n那温柔的眼神……\p光是想象就让我\n心潮澎湃！\p啊！抱歉！\n请原谅我的喋喋不休！\p请让我看看你的\n培育成果吧！$"
 
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing:
-    .string "你的宝可梦长得怎么样？\n让我看看吧。$"
+    .string "你的宝可梦培育得如何？\n让我看看吧。$"
 
 SlateportCity_PokemonFanClub_Text_HmHmISee:
     .string "唔，嗯……\n看来……$"
 
 SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks:
-    .string "唔……说不上\n是好是坏……\p你作为训练家，应该\n更努力地照顾好这只宝可梦！\p比如，你可以再给它\n一些树果。$"
+    .string "唔……不算差……\n但也不算好……\p作为训练家，你必须\n更用心地培育这只宝可梦！\p比如，我建议你可以再\n喂它一些宝可方块。$"
 
 SlateportCity_PokemonFanClub_Text_NoSpaceForReward:
-    .string "啊，天哪……\p你的宝可梦真不错。\n给你些奖励吧。\p很遗憾，你的包包\n已经满了。$"
+    .string "哎呀呀……\p你的宝可梦培育得很不错，\n本该给你奖励的。\p但很遗憾，你的包包\n已经满了。$"
 
 SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis:
-    .string "你的{STR_VAR_1}\n长得真不错！\l这是我们的模范！\p但你如果把这给它的话，\n它会长得更好的！真的！$"
+    .string "你的{STR_VAR_1}\n培育得相当出色！\l堪称模范！\p但如果戴上这个，\n它还能变得更好！真的！$"
 
 SlateportCity_PokemonFanClub_Text_ExplainRedScarf:
-    .string "给宝可梦戴上这红色头巾，\p所有人都会注意到\n这只帅气的宝可梦！$"
+    .string "给宝可梦戴上\n这红色头巾，\p大家都会认可它的帅气！$"
 
 SlateportCity_PokemonFanClub_Text_ExplainBlueScarf:
-    .string "给宝可梦戴上这蓝色头巾，\p它的漂亮会\n更加引人注目！$"
+    .string "给宝可梦戴上\n这蓝色头巾，\p能更好地衬托它的美丽！$"
 
 SlateportCity_PokemonFanClub_Text_ExplainPinkScarf:
-    .string "给宝可梦戴上这粉红头巾，\p这会更加突出\n它的可爱！$"
+    .string "给宝可梦戴上\n这粉红头巾，\p会更加凸显它的可爱！$"
 
 SlateportCity_PokemonFanClub_Text_ExplainGreenScarf:
-    .string "给宝可梦戴上这绿色头巾，\p会让宝可梦\n显得更加聪明！$"
+    .string "给宝可梦戴上\n这绿色头巾，\p能增强它的聪明气质！$"
 
 SlateportCity_PokemonFanClub_Text_ExplainYellowScarf:
-    .string "给宝可梦戴上这黄色头巾，\p它会激励你的宝可梦\n变得强壮！$"
+    .string "给宝可梦戴上\n这黄色头巾，\p会让它看起来更加强壮！$"
 
 SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou:
-    .string "很遗憾，我已经没有可以\n给你的东西了！没有了！\p不过，你有那种不依靠\n任何道具就能培育出\l非常优秀的宝可梦的天赋！$"
+    .string "很遗憾，我已经没有可以\n给你的东西了！没有了！\p不过，你有那种不依靠任何道具\n就能培育出非常优秀的\l宝可梦的天赋！$"
 
 SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou:
     .string "我喜欢看到爱它们的\n训练家的宝可梦。\p宝可梦对训练家的\n感情非常敏感，\p如果你用爱与细心照料你的宝可梦，\n它们也会回报你的爱。\p当你的宝可梦开始喜欢你了，\n就来给我看看吧。$"
 
 SlateportCity_PokemonFanClub_Text_PokemonAdoresYou:
-    .string "你的宝可梦非常敬仰你，\p这是发烧友俱乐部送给你这样\n最富爱心的训练家的礼物！$"
+    .string "你的宝可梦真的\n很喜欢你。\p这是发烧友俱乐部送给你这样\n充满爱心的训练家的礼物！$"
 
 SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove:
     .string "宝可梦对训练家的\n感情非常敏感，\p如果你用爱与细心照料你的宝可梦，\n它们也会回报你的爱。$"
 
 SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting:
-    .string "如果宝可梦在战斗中昏厥，\n它会感到不满，\p慢慢开始不信任\n它的训练家。\p换句话说，它不会\n非常喜欢你。$"
+    .string "如果宝可梦总是在战斗中昏厥，\n它会感到不满，\p慢慢开始不信任\n它的训练家。\p换句话说，\n它们当然不会很喜欢你。$"
 
 SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
-    .string "宝可梦喜欢训练家对它们\n使用道具吗？\p我把攻击增强剂给我的宝可梦时\n它显得很高兴。$"
+    .string "宝可梦喜欢训练家对它们\n使用道具吗？\p我把攻击增强剂给我的宝可梦时，\n它显得相当开心。$"
 
 SlateportCity_PokemonFanClub_Text_Skitty:
     .string "向尾喵：喵呀呀呀……$"

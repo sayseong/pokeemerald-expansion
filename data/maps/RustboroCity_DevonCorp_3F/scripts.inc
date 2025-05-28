@@ -198,7 +198,7 @@ RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay::
 	end
 
 RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
-    .string "我是兹伏奇，\n得文公司的社长。\p刚刚听说了你的事迹！\p你不止一次，而是两次\n救了我们公司的员工！\p我有件事想拜托给\n你这样出色的人。\p我知道你要送包裹到\n凯那市的船厂去，\p唔，在那之前，\n能不能顺路去武斗镇一趟？\p我希望你能把这封信交给\n武斗镇里一个叫大吾的人。$"
+    .string "我是兹伏奇，\n得文公司的社长。\p刚刚听说了你的事迹！\p你不止一次，而是两次\n救了我们公司的员工！\p我有件事想拜托给\n你这样出色的人。\p我知道你要送包裹到\n凯那市的船厂去。\p唔，在那之前，\n能不能顺路去武斗镇一趟？\p我希望你能把这封信交给\n武斗镇里一个叫大吾的人。$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
     .string "兹伏奇：你知道，\n作为一位优秀的社长，\p我绝不会吝啬到\n让人白白帮忙。\p因此我把这个送给你！$"
@@ -225,7 +225,7 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
     .string "兹伏奇：我从年轻时起，\n就一直全身心投入工作，\p所以我也不怎么了解\n流行趋势之类的东西。\p现在的年轻人们都想成为\n宝可梦联盟的训练家吗？$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
-    .string "这里是得文公司3楼，\p社长办公室的\n所在地。\p无论如何，我无法表明\n我对你所做的事情的感谢。\p呃……另外，你帮我们\n取回来的那个包裹……\p能再请你帮忙\n送到凯那市的船厂吗？\p如果再让那些强盗\n抢走就糟了。\p呃……哈哈哈，那，呃，\n能帮我这个忙吗？\p啊，对了，\n请在此稍等一下。$"
+    .string "这里是得文公司的3楼。\p社长办公室的\n所在地。\p无论如何，我无法表明\n我对你所做的事情的感谢。\p呃……另外，你帮我们\n取回来的那个包裹……\p能再请你帮忙\n送到凯那市的船厂吗？\p如果再让那些强盗\n抢走就糟了。\p呃……哈哈哈，那，呃，\n能帮我这个忙吗？\p啊，对了，\n请在此稍等一下。$"
 
 RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe:
     .string "我们的社长有话\n想跟你说。\p跟我来。$"

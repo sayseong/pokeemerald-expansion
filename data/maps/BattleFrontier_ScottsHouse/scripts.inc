@@ -254,7 +254,7 @@ BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow:
     .string "亚希达：啊，我听说过你的战绩了！\n称霸对战塔，取得50连胜？\p太精彩了！\n把这个拿去吧！$"
 
 BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow:
-    .string "亚希达：啊，天哪，我听说过你的战绩了！\n横扫对战塔，取得100连胜？\p简直精彩绝伦！\n这是属于你的！$"
+    .string "亚希达：啊天哪，我听说你的战绩了！\n横扫对战塔，取得100连胜？\p简直精彩绝伦！\n这是属于你的！$"
 
 BattleFrontier_ScottsHouse_Text_ExpectingToHearEvenGreaterThings:
     .string "期待你更精彩的表现！$"

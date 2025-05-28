@@ -74,7 +74,7 @@ SlateportCity_SternsShipyard_1F_Text_CouldYouFindStern:
     .string "津贺：楠木馆长\n去哪儿了呢？\p可以请你帮忙找找楠木馆长，\n把包裹交给他吗？$"
 
 SlateportCity_SternsShipyard_1F_Text_CouldUseAdviceFromVeteran:
-    .string "津贺：造船是一门艺术，\p很多东西并不是\n只靠计算就能够知道的。\p真希望能向哪位熟悉大海的\n资深老水手请教一下……$"
+    .string "津贺：造船是一门艺术。\p很多东西并不是\n只靠计算就能够知道的。\p真希望能向哪位熟悉大海的\n资深老水手请教一下……$"
 
 SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs:
     .string "津贺：嗨！哈奇老人\n也来帮我们的忙了。\p多亏了这位资深老水手，\n游船的组装正在顺利进行中。$"

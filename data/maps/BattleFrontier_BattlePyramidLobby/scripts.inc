@@ -580,7 +580,7 @@ BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid:
     .string "欢迎回来！\p您征服了金字塔！\n太了不起了！$"
 
 BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake:
-    .string "啊，有点小问题，\p有的宝可梦\n携带了道具。\p抱歉，您不能带走金字塔中\n得到的道具。$"
+    .string "啊，有点小问题。\p有的宝可梦\n携带了道具。\p抱歉，您不能带走金字塔中\n得到的道具。$"
 
 BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
     .string "您的宝可梦携带的所有道具\n都会放回到战斗包包中，{PLAYER}。$"

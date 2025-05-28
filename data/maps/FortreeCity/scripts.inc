@@ -103,7 +103,7 @@ FortreeCity_Text_EveryoneHealthyAndLively:
     .string "城市中的房子\n都建在树上。\p也许正因这种生活方式，\n大家都很健康，充满活力。\p哈，我也一样——我感觉\n好像年轻了30岁。$"
 
 FortreeCity_Text_BugPokemonComeThroughWindow:
-    .string "住在树顶上没什么问题，\p但有时虫属性宝可梦会\n从窗户爬进来，\l经常吓人一跳。$"
+    .string "住在树顶上\n没什么问题，\p但有时虫属性宝可梦会\n从窗户爬进来，\l经常吓人一跳。$"
 
 FortreeCity_Text_PokemonThatEvolveWhenTraded:
     .string "我听说，有些宝可梦\n会在交换中进化！$"

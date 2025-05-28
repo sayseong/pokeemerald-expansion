@@ -52,7 +52,7 @@ Text_MonUsedFieldMove:
 	.string "{STR_VAR_1}使用了{STR_VAR_2}！$"
 
 Text_CantCut:
-	.string "这棵树好像可以用\n\n"
+	.string "这棵树好像可以用\n"
 	.string "秘传招式砍断！$"
 
 @ Use rock smash from party menu

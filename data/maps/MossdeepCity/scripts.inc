@@ -344,7 +344,7 @@ MossdeepCity_Text_LifeNeedsSeaToLive:
     .string "所有的生命都要依靠大海才能生存，\n即使是生活在陆地上的生命也一样。\p当一个生命走完了它的旅程，\n它又变成泥土回归大地。\p而大地总是和海洋\n紧密相连的。\p没错，就像这里的海岸线一样。$"
 
 MossdeepCity_Text_SurfExhilarating:
-    .string "虽然乘船航行还算不错，\p但乘着宝可梦\n渡海的话……\p那简直是太美妙了！\n你不这么想吗，年轻人？$"
+    .string "虽然乘船航行\n还算不错，\p但乘着宝可梦\n渡海的话……\p那简直是太美妙了！\n你不这么想吗，年轻人？$"
 
 MossdeepCity_Text_SpecialSpaceCenterRock:
     .string "这块石头对宇宙中心的人来说\n意义非凡，\p他们把它放在这里，\n祈祷火箭能安全上天。\p你许愿的时候会怎么做？\n你会向流星许愿吗？\p我会把愿望写在纸签上，\n祈祷它能实现。$"

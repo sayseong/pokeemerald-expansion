@@ -486,7 +486,7 @@ Route107_Text_LisaNotEnoughPokemon::
     .string "由美：如果你想和我们对战的话，\n多带点宝可梦来。$"
 
 Route107_Text_RayIntro::
-    .string "真：我和姐姐总是进行宝可梦对战，\p我总是输，但是我们可以一起\n2对2打败你！$"
+    .string "真：我和姐姐经常进行\n宝可梦对战，\p我老是输，但是我们可以一起\n2对2打败你！$"
 
 Route107_Text_RayDefeated::
     .string "真：喔，你的水平\n比我们要高！$"
@@ -1698,7 +1698,7 @@ Route117_Text_IsaacRematchDefeat::
     .string "你知道怎么样才是正确的培育方法。\n说不定你有开培育屋的本领……$"
 
 Route117_Text_IsaacPostRematch::
-    .string "你的宝可梦长得真不错！\n你应让他们去参加选美。$"
+    .string "你的宝可梦长得真不错！\n你应让他们去参加华丽大赛。$"
 
 Route117_Text_LydiaIntro::
     .string "请让我看看\n你培育宝可梦的方式是否合适。$"
@@ -3150,7 +3150,7 @@ Route131_Text_HermanDefeat::
     .string "呀啊！$"
 
 Route131_Text_HermanPostBattle::
-    .string "我受够了海，但我还得继续游下去，\p我是为了游泳而生的！\n这就是我！$"
+    .string "我受够了海，但我还得继续游下去。\p我是为了游泳而生的！\n这就是我！$"
 
 Route131_Text_SusieIntro::
     .string "嗨，亲，稍等一下！\n来对战吧，你我两人！$"
@@ -3204,7 +3204,7 @@ Route131_Text_TaliaPostBattle::
     .string "这附近有一个奇怪的地方，\n那里有一座巨大的塔。\l不想去看看吗？$"
 
 Route131_Text_KevinIntro::
-    .string "暮水镇居民\n是爱好和平的，\p他们从来不生气。\n我也一样。$"
+    .string "暮水镇居民\n是爱好和平的。\p他们从来不生气。\n我也一样。$"
 
 Route131_Text_KevinDefeat::
     .string "呀啊！$"
@@ -3390,7 +3390,7 @@ Route134_Text_AaronDefeat::
     .string "我认输。$"
 
 Route134_Text_AaronPostBattle::
-    .string "我们要回流星瀑布\n加强训练了，\p有时间的话，你也该去那里，\n肯定能让你的实力大大提升！$"
+    .string "我们要回流星瀑布\n加强训练了。\p有时间的话，你也该去那里，\n肯定能让你的实力大大提升！$"
 
 Route134_Text_KelvinIntro::
     .string "我——我们的船！\n浪把它卷走了！$"
@@ -3426,4 +3426,4 @@ Route134_Text_HudsonDefeat::
     .string "啊，真厉害！$"
 
 Route134_Text_HudsonPostBattle::
-    .string "我们的船漂到海里去了，\p我的搭档比较胆小，\n现在我很担心他。$"
+    .string "我们的船漂到海里去了。\p我的搭档比较胆小，\n现在我很担心他。$"

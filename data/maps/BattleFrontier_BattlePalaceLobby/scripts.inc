@@ -443,7 +443,7 @@ BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere:
     .string "唔……\p看起来宝可梦的性格\n和它们所学会的招式\l是在这里对战的关键。\p准确地说，是取决于\n招式与宝可梦的性格的\l契合度。\p如果你的宝可梦陷入危机，\n不能依靠它自己的潜能获胜，\l你就得检查一下\l它的招式是否符合它的性格。$"
 
 BattleFrontier_BattlePalaceLobby_Text_MonDocileButTransforms:
-    .string "我的宝可梦通常比较温顺，\p但进了对战厅后，\n一下子就突然变得\l非常凶猛强悍！\p那架势简直吓人！\n我都震惊了！$"
+    .string "我的宝可梦通常\n比较温顺，\p但进了对战厅后，\n一下子就突然变得\l非常凶猛强悍！\p那架势简直吓人！\n我都震惊了！$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway:
     .string "不知道一只喜欢削弱，\n然后慢慢消耗对手的宝可梦\l该算是什么性格，\p它要是乐天性格的话，\n我可真是惊了。\p但，呃，应该没可能吧。$"

@@ -289,7 +289,7 @@ LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
     .string "小悠：如果要去111号道路上\n的沙漠就带上它吧。\p那里应该也有一些\n沙漠特有的宝可梦，\l你可以去找找看。\p至于我……\n我打算去挑战橙华市的\l道馆馆主千里。\p{PLAYER}，你爸爸和你不一样，\n他看上去相当厉害！\p再见啦！$"
 
 LavaridgeTown_Text_HaveEggWillYouTakeIt:
-    .string "我这儿有个蛋，\p我本来指望用温泉边温暖的沙子\n盖起它来会孵化的，\l但看来这样还不够……\p听说最好能\n让它跟宝可梦\l在一起。\p你是个训练家对吗？\n而且你的宝可梦看上去活力十足。\p怎么样？\n你愿意带上这个蛋孵化它吗？$"
+    .string "我这儿有个蛋。\p我本来指望用温泉边温暖的沙子\n盖起它来会孵化的，\l但看来这样还不够……\p听说最好能\n让它跟宝可梦\l在一起。\p你是个训练家对吗？\n而且你的宝可梦看上去活力十足。\p怎么样？\n你愿意带上这个蛋孵化它吗？$"
 
 LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg:
     .string "好！希望你能带上\n这个蛋一起旅行！$"
