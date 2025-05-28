@@ -633,7 +633,7 @@ MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins:
     .string "您想要些代币\n玩游戏吗？\p但您还没有\n装代币的代币盒。$"
 
 MauvilleCity_GameCorner_Text_WereYouLookingForCoins:
-    .string "您要买代币吗？\p¥1000可以买50枚。\n要一些吗？$"
+    .string "您要买代币吗？\p¥1000可以买50枚。\n要买一些吗？$"
 
 MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins:
     .string "谢谢惠顾！\n这是您的代币！$"
@@ -716,13 +716,13 @@ MauvilleCity_GameCorner_Text_RouletteOnlyLuck:
     .string "这种轮盘机……\n要求太高了，\p胜负全凭运气。$"
 
 MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed:
-    .string "玩老虎机最多\n可以用三枚代币。$"
+    .string "玩老虎机最多\n可以用3枚代币。$"
 
 MauvilleCity_GameCorner_Text_DifficultToStopOn7:
     .string "要让它正好停在“7”上\n实在太难了。\p如果转盘时正好停在“7”上，\n就能得到额外的代币奖励。$"
 
 MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo:
-    .string "给你些关于\n老虎机的建议吧。\p储存的闪电次数越多，\n转盘的机会就越多\p一回最多可以有五次\n转盘的机会……\p有可能得到四次小奖\n和一次大奖，\p这样总共660枚代币，\n但那太难了。$"
+    .string "给你些关于\n老虎机的建议吧。\p储存的闪电次数越多，\n转盘的机会就越多\p1回最多可以有5次\n转盘的机会……\p有可能得到4次小奖\n和1次大奖，\p这样总共660枚代币，\n但那太难了。$"
 
 MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase:
     .string "如果没有代币盒\n就没法在这儿玩。$"

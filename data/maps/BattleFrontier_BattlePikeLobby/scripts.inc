@@ -278,7 +278,7 @@ BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
     .string "要挑战对战管道吗？$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
-    .string "这里举办名为\n选择式对战的比赛。\p选择式对战的规则\n很简单……\p在3条道路中选择一条\n抵达对战管道最后的终点房间。\l仅此而已。\p然而，在选择的道路上会\n发生什么事完全取决于\l挑战者的运气……\p如果您达到了终点，\n我们将向您呈上对战点数。\p如果您在挑战中想要暂停的话，\n请与途中大房间中的工作人员沟通。\p如果在暂停之前没有写入记录，\n我们将视挑战为无效。$"
+    .string "这里举办名为\n选择式对战的比赛。\p选择式对战的规则\n很简单……\p在3条道路中选择1条\n抵达对战管道最后的终点房间。\l仅此而已。\p然而，在选择的道路上会\n发生什么事完全取决于\l挑战者的运气……\p如果您达到了终点，\n我们将向您呈上对战点数。\p如果您在挑战中想要暂停的话，\n请与途中大房间中的工作人员沟通。\p如果在暂停之前没有写入记录，\n我们将视挑战为无效。$"
 
 BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou:
     .string "期待您再次光临……$"

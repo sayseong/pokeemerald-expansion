@@ -371,7 +371,7 @@ MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace:
     .string "熔岩队……\n他们也想去宇宙吗？$"
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn:
-    .string "你怎么了？\p即使是三对一，\n你也想跟我们较量一番吗？$"
+    .string "你怎么了？\p即使是3对1，\n你也想跟我们较量一番吗？$"
 
 MossdeepCity_SpaceCenter_2F_Text_GoodAnswer:
     .string "说得好！\n这才是聪明人！$"

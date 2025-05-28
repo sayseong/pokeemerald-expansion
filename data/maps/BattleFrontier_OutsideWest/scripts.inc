@@ -314,7 +314,7 @@ BattleFrontier_OutsideWest_Text_BattleFactorySign:
     .string "这里是对战工厂！\n寻找！最强宝可梦！$"
 
 BattleFrontier_OutsideWest_Text_BattlePikeSign:
-    .string "这里是对战管道！\n选择！三条道路！$"
+    .string "这里是对战管道！\n选择！3条道路！$"
 
 BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
     .string "这里是对战塔，\p训练家将他们最优秀的\n宝可梦带来进行淘汰赛。$"
@@ -368,7 +368,7 @@ BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
     .string "我不敢进对战管道，\n我怕饭匙蛇……\p但——但我既然已经到这儿来了\n我要努力战胜一切！\l……哆嗦……$"
 
 BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
-    .string "来，石头剪子布！\n一～二～三！\p…… …… ……$"
+    .string "来，石头剪子布！\n1～2～3！\p…… …… ……$"
 
 BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge:
     .string "耶！赢了！\n去挑战对战管道咯！$"

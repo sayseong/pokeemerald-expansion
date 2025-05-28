@@ -298,7 +298,7 @@ TrainerHill_Entrance_Text_WelcomeToTrainerHill:
     .string "欢迎！\p这里是训练家之丘，\n在这里您可以与其他的\l训练家进行对战！$"
 
 TrainerHill_Entrance_Text_SaveGameBeforeEnter:
-    .string "您是第一次来这儿吗？\p在进入之前，请先\n写入记录。$"
+    .string "您是第一次来这儿吗？\p在进入之前，\n请先写入记录。$"
 
 TrainerHill_Entrance_Text_TrainersUpToFloorX:
     .string "唔，我看看……\n现在这儿的训练家正在……\p{STR_VAR_1}楼。$"
@@ -328,7 +328,7 @@ TrainerHill_Entrance_Text_ThankYouForPlaying:
     .string "辛苦了！$"
 
 TrainerHill_Entrance_Text_ExplainTrainerHill:
-    .string "我们训练家之丘这里有一种\n叫做限时进攻的活动，\p是计算您从这个\n柜台跑到顶层老板\l那里的用时的游戏。\p最快的成绩会贴在那边的\n时间板上。跟您的\l朋友比试吧。\p一路上的战斗中，\n您既不能获得经验点数，\l也不能获得金钱。$"
+    .string "我们训练家之丘这里有一种\n叫做计时挑战的活动，\p是计算您从这个\n柜台跑到顶层老板\l那里的用时的游戏。\p最快的成绩会贴在那边的\n时间板上。跟您的朋友比试吧。\p一路上的战斗中，\n您既不能获得经验点数，\l也不能获得金钱。$"
 
 @ Unused
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:

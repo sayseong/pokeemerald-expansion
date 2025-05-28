@@ -574,7 +574,7 @@ Route111_EventScript_TrainerHillSign::
 	end
 
 Route111_Text_BattleOurFamily:
-    .string "嗨！我想你是个旅行者吧？\p怎么样？跟我们家\n四个人来几场\l宝可梦对战吧？$"
+    .string "嗨！我想你是个旅行者吧？\p怎么样？跟我们家\n4个人来几场\l宝可梦对战吧？$"
 
 Route111_Text_IsThatSo:
     .string "是吗？\n你改变主意的话再来吧！$"
@@ -619,7 +619,7 @@ Route111_Text_ToughToKeepWinningUpTheRanks:
     .string "如果你不继续训练宝可梦，\n在水平越来越高的对战中\l将会难以持续获胜下去。\p我听说宝可梦联盟的\n四天王的实力\l比道馆馆主强多了。$"
 
 Route111_Text_WinstrateFamilyDestroyedMe:
-    .string "我挑战过连胜家族，\n但一连四场的对战太困难了……\l他们打败了我。$"
+    .string "我挑战过连胜家族，\n但一连4场的对战太困难了……\l他们打败了我。$"
 
 Route111_Text_RouteSignMauville:
     .string "111号道路\n{DOWN_ARROW}紫堇市$"

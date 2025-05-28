@@ -225,10 +225,10 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
     .string "兹伏奇：我从年轻时起，\n就一直全身心投入工作，\p所以我也不怎么了解\n流行趋势之类的东西。\p现在的年轻人们都想成为\n宝可梦联盟的训练家吗？$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
-    .string "这里是得文公司\n三楼，\p社长办公室的\n所在地。\p无论如何，我无法表明\n我对你所做的事情的感谢。\p呃……另外，你帮我们\n取回来的那个包裹……\p能再请你帮忙\n送到凯那市的船厂吗？\p如果再让那些强盗\n抢走就糟了。\p呃……哈哈哈，那，呃，\n能帮我这个忙吗？\p啊，对了，\n请在此稍等一下。$"
+    .string "这里是得文公司3楼，\p社长办公室的\n所在地。\p无论如何，我无法表明\n我对你所做的事情的感谢。\p呃……另外，你帮我们\n取回来的那个包裹……\p能再请你帮忙\n送到凯那市的船厂吗？\p如果再让那些强盗\n抢走就糟了。\p呃……哈哈哈，那，呃，\n能帮我这个忙吗？\p啊，对了，\n请在此稍等一下。$"
 
 RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe:
-    .string "我们的社长\n有话想跟你说，\p跟我来。$"
+    .string "我们的社长有话\n想跟你说。\p跟我来。$"
 
 RustboroCity_DevonCorp_3F_Text_PleaseGoAhead:
     .string "过来吧。$"

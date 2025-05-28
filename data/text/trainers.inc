@@ -336,7 +336,7 @@ Route105_Text_BeverlyDefeated::
     .string "我在漂……$"
 
 Route105_Text_PostBattle::
-    .string "你的体重在水里\n就只有平时的十分之一。\p那么我的体重是……\n哎哟！我不会告诉你的！$"
+    .string "你的体重在水里\n就只有平时的10分之1。\p那么我的体重是……\n哎哟！我不会告诉你的！$"
 
 Route105_Text_ImaniIntro::
     .string "蓝蓝的天空……\n辽阔的的大海……\l好宁静……$"
@@ -939,25 +939,25 @@ Route111_Text_BeckyPostBattle::
     .string "如果他们能在沙漠找到化石，\n那从前那里一定是个大海。$"
 
 Route111_Text_DustyIntro::
-    .string "我已经找了三十年的遗迹！\n要向这样的我挑战吗？$"
+    .string "我已经找了30年的遗迹！\n要向这样的我挑战吗？$"
 
 Route111_Text_DustyDefeat::
     .string "虽然我找过遗迹，\n却从没找过强大的宝可梦。$"
 
 Route111_Text_DustyPostBattle::
-    .string "我已经找了三十年的遗迹！\p等等，是已经找了四十年了吗？\n现在是哪一年？$"
+    .string "我已经找了30年的遗迹！\p等等，是已经找了40年了吗？\n现在是哪一年？$"
 
 Route111_Text_DustyRegister::
     .string "我从没找过任何强力的\n宝可梦。\p不过不知道为什么，\n我真的很喜欢宝可导航。$"
 
 Route111_Text_DustyRematchIntro::
-    .string "我已经找了三十年的遗迹！\p等等，是已经找了四十年了吗？\n总之要向这样的我挑战吗？$"
+    .string "我已经找了30年的遗迹！\p等等，是已经找了40年了吗？\n总之要向这样的我挑战吗？$"
 
 Route111_Text_DustyRematchDefeat::
     .string "我还没找到过任何遗迹，\n也没找到过强大的宝可梦……$"
 
 Route111_Text_DustyPostRematch::
-    .string "我已经找了三十年的遗迹！\n等等，是已经找了四十年了吗？\p嗯……肯定还没五十年……\n我到底找了多久了？$"
+    .string "我已经找了30年的遗迹！\n等等，是已经找了40年了吗？\p嗯……肯定还没到50年……\n我到底找了多久了？$"
 
 Route111_Text_TravisIntro::
     .string "我现在很有活力！\n我的宝可梦也跟我一样！$"
@@ -2574,10 +2574,10 @@ Route123_Text_JonasPostBattle::
     .string "下次我一定会埋伏一个\n看起来比较弱的训练家。$"
 
 Route123_Text_KayleyIntro::
-    .string "我刚刚买了这把阳伞。\n我的可爱也能上升三分之一了吧。$"
+    .string "我刚刚买了这把阳伞。\n我的可爱也能上升3分之1了吧。$"
 
 Route123_Text_KayleyDefeat::
-    .string "你比我厉害五倍！$"
+    .string "你比我厉害5倍！$"
 
 Route123_Text_KayleyPostBattle::
     .string "巧妙搭配是流行\n时尚背后的秘密。$"
@@ -2751,7 +2751,7 @@ Route125_Text_ErnestDefeat::
     .string "哇啊啊啊！\n我赢不了！$"
 
 Route125_Text_ErnestPostBattle::
-    .string "在浅滩洞穴中的\n潮水时涨时退。\p顺便说一句，从涨潮到退潮要经过\n六小时的时间。你知道吗？$"
+    .string "在浅滩洞穴中的\n潮水时涨时退。\p顺便说一句，从涨潮到退潮要经过\n6小时的时间。你知道吗？$"
 
 Route125_Text_ErnestRegister::
     .string "把我存入你的宝可导航，\n我会跟你讲些有趣的事。$"
@@ -2763,7 +2763,7 @@ Route125_Text_ErnestRematchDefeat::
     .string "我赢不了！\n根本就赢不了！$"
 
 Route125_Text_ErnestRematchPostBattle::
-    .string "浅滩洞穴……\p根据潮水的涨退\n你可以到达不同的地方。\p顺便说一句，从涨潮到退潮要经过\n六小时的时间。可别忘了！$"
+    .string "浅滩洞穴……\p根据潮水的涨退\n你可以到达不同的地方。\p顺便说一句，从涨潮到退潮要经过\n6小时的时间。可别忘了！$"
 
 Route125_Text_KimIntro::
     .string "真穗：听说有一个\n怪老头住在浅滩洞穴里。\l你也想去见他吗？$"

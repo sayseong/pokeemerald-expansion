@@ -945,7 +945,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp:
     .string "{PLAYER}是自由等级\n对战锦标赛的冠军！\p恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
-    .string "真是让人意外的结果！\n两方宝可梦同时倒地！\p按照比赛规则，出现这种情况时\n我们需要请裁判员进行评判。\p请耐心等待\n最终结果。$"
+    .string "真是让人意外的结果！\n双方宝可梦同时倒地！\p按照比赛规则，出现这种情况时\n我们需要请裁判员进行评判。\p请耐心等待\n最终结果。$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
     .string "裁判做出了\n最终判决！\p冠军是……\n天啊！\l冠军是{STR_VAR_1}！\l祝贺{STR_VAR_1}！$"

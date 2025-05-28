@@ -1,5 +1,5 @@
 MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce::
-    .string "这个招式只能教你一次，\n这样可以吗？$"
+    .string "这个招式只能教你1次，\n这样可以吗？$"
 
 MoveTutor_Text_SwaggerTeach::
     .string "嗨！看我的宝可梦多完美！\n它比所有其它宝可梦都酷！\p我总是像这样虚张声势，\n结果被会长训了一顿。\p现在我没法虚张声势了。\p如果你愿意，我会教你的1只宝可梦\n学习虚张声势。$"

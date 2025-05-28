@@ -2,7 +2,7 @@ ShoalCave_LowTideEntranceRoom_Text_AreYouPlanningOnGoingInThere::
     .string "你要向深处去吗？\p那么帮我收集一些浅滩海盐\n和浅滩贝壳怎么样？\p如果有足够的材料的话，\n我可以帮你制作点好东西。$"
 
 ShoalCave_LowTideEntranceRoom_Text_BringMe4ShoalSaltAndShells::
-    .string "如果浅滩海盐和\n浅滩贝壳各有四个的话，\l我就能制作贝壳之铃……\p原材料每天都可以采到。$"
+    .string "如果浅滩海盐和\n浅滩贝壳各有4个的话，\l我就能制作贝壳之铃……\p原材料每天都可以采到。$"
 
 ShoalCave_LowTideEntranceRoom_Text_WouldYouLikeShellBell::
     .string "啊，是浅滩海盐和浅滩贝壳！\n数量足够了！\p想要把它们\n做成贝壳之铃吗？$"

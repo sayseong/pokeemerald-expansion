@@ -852,7 +852,7 @@ Route110_Text_TrainerTipsRegisterItems:
     .string "训练家小技巧\p包包里的道具可以\n按SELECT键来整理。$"
 
 Route110_Text_TrickHouseSign:
-    .string "“{RIGHT_ARROW}三步，{UP_ARROW}两步，\n进入奇妙的戏法屋。”$"
+    .string "“{RIGHT_ARROW}3步，{UP_ARROW}2步，\n进入奇妙的戏法屋。”$"
 
 Route110_Text_BestRecord:
     .string "至今为止最好的纪录……\p碰撞次数：{STR_VAR_1}\p用时：{STR_VAR_2}$"

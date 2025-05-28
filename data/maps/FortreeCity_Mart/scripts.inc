@@ -44,5 +44,5 @@ FortreeCity_Mart_Text_StockUpOnItems:
     .string "我总是比计划中\n多存一些道具，\p因为没人知道什么时候会发生灾难，\n提前准备总比事后后悔要好！$"
 
 FortreeCity_Mart_Text_RareCandyMakesMonGrow:
-    .string "神奇糖果可以使宝可梦\n立即提升一级。$"
+    .string "神奇糖果可以使宝可梦\n立即提升1级。$"
 

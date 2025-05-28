@@ -207,7 +207,7 @@ SootopolisCity_Gym_1F_Text_JuanPostBattle:
     .string "收集了丰缘地区所有的\n道馆徽章的训练家应该\l朝向最后的目的地前进，\p那就是宝可梦联盟。\p向着丰缘的最东方，\n前往那名为彩悠的岛屿吧。\p那里便是\n宝可梦联盟之所在。$"
 
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
-    .string "丰缘地区中还剩下\n一枚徽章，\p如果你想挑战宝可梦\n联盟，你必须先获得\l茵郁市的道馆的徽章。$"
+    .string "在丰缘地区仅剩\n最后1枚徽章了。\p如果你想挑战宝可梦联盟，\n你必须先获得茵郁市道馆的徽章。$"
 
 SootopolisCity_Gym_1F_Text_GymStatue:
     .string "琉璃市宝可梦道馆$"

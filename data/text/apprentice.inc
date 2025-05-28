@@ -539,7 +539,7 @@ gText_ApprenticeMonFirstThanks9::
     .string "啊——嗯，我的{STR_VAR_1}做领队！\n好的，好的！\l我会重新组队的！\p谢谢你再次帮忙！\n再见！$"
 
 gText_ApprenticeWhichMonFirst10::
-    .string "{PLAYER}{KUN}，听着！\n我遇到危机了！\p我的那三只宝可梦同时\n加入了对战！\p这当然是不可能的！\n哇哈哈！\p说正事吧。\n我不擅长决定\l宝可梦的出场顺序。\p不如你替我决定\n哪一只宝可梦先出场吧，师傅？$"
+    .string "{PLAYER}{KUN}，听着！\n我遇到危机了！\p我的那3只宝可梦同时\n加入了对战！\p这当然是不可能的！\n哇哈哈！\p说正事吧。\n我不擅长决定\l宝可梦的出场顺序。\p不如你替我决定\n哪一只宝可梦先出场吧，师傅？$"
 
 gText_ApprenticeMonFirstThanks10::
     .string "哦，你选的是{STR_VAR_1}？\n那我绝不选它！\p开玩笑啦！\n我会听从你的教导的，师傅！\p谢谢你，师傅！\n希望你以后还能教导我！$"

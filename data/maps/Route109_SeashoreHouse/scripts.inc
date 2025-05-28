@@ -108,7 +108,7 @@ Route109_SeashoreHouse_Text_ShowMeSomeHotMatches:
     .string "让我看看激烈的对战吧！\p我开这大海之家的\n目的就在于此！$"
 
 Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
-    .string "火热的对战把人\n都要烧焦了！\l我已经无法描述我的兴奋了！\p这些送给你，当作是我\n对你的热情的谢礼，\p总共六瓶劲爽汽水！$"
+    .string "火热的对战把人\n都要烧焦了！\l我已经无法描述我的兴奋了！\p这些送给你，当作是我\n对你的热情的谢礼，\p总共6瓶劲爽汽水！$"
 
 Route109_SeashoreHouse_Text_BagFull:
     .string "哎，但是你的包包已经满了，\n我会暂时替你保管的。$"

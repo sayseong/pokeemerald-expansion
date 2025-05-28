@@ -196,7 +196,7 @@ VerdanturfTown_BattleTentLobby_Text_ExplainNatureRules::
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainMoveRules::
-    .string "有攻击招式可以\n对敌人造成直接伤害。\p有防守招式\n用来防御敌人的攻击\l或用来恢复HP等等。\p也有一些有点怪异的招式\n可以使得敌人变得无力和带来\l其他问题，例如中毒和麻痹。\p宝可梦可能会考虑在\n这三种招式中选择使用。$"
+    .string "有攻击招式可以\n对敌人造成直接伤害。\p有防守招式\n用来防御敌人的攻击\l或用来恢复HP等等。\p也有一些有点怪异的招式\n可以使得敌人变得无力和带来\l其他问题，例如中毒和麻痹。\p宝可梦可能会考虑在\n这3种招式中选择使用。$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules::

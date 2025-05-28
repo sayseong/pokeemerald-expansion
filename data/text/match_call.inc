@@ -374,7 +374,7 @@ MatchCall_PersonalizedText54::
     .string "嗨，我是时刻准备的\n训练家{STR_VAR_1}！\p{PLAYER}{KUN}，带够道具了吗？\n宝可梦状态如何？\p随时保持万全准备才是\n保持长久冒险的秘诀！\p我也得去检查行李了，\n时刻留意！$"
 
 MatchCall_PersonalizedText55::
-    .string "我是{STR_VAR_1}！\n我是{STR_VAR_1}！\p{STR_VAR_2}是交通要道，\n所以我每天都能挑战\l到各种训练家。\p我今天五胜三败！\p你的战绩呢？\n下次告诉我吧，好吗？$"
+    .string "我是{STR_VAR_1}！\n我是{STR_VAR_1}！\p{STR_VAR_2}是交通要道，\n所以我每天都能挑战\l到各种训练家。\p我今天5胜3败！\p你的战绩呢？\n下次告诉我吧，好吗？$"
 
 MatchCall_PersonalizedText56::
     .string "是我，{STR_VAR_1}。\p我是因为虫系宝可梦多\n才受关注的对吧？\p今天我带了一堆最爱的\n虫宝可梦去学校。\p结果我喜欢的女孩子被吓哭了！\n你想笑就笑吧。\p我得想办法让她明白\n虫系宝可梦的魅力！\p呜呜……\n再见！$"
@@ -764,7 +764,7 @@ MatchCall_Text_May12::
     .string "小遥：嗨，{PLAYER}{KUN}！\n希望一切顺利！\p你在海上时有没有遇到过\n被挡住去路的情况？\p试试潜到水下深处，\n沿着海沟前进。\p到达另一边后再浮上来。\n很简单吧！$"
 
 MatchCall_Text_May13::
-    .string "小遥：嗨，{PLAYER}{KUN}！\p最近怎么样？\n还在完成宝可梦图鉴吗？\p我听说了超古代宝可梦的传闻。\l而且一共有三只呢！\p要是能亲眼见到\n哪怕就一只也好啊……$"
+    .string "小遥：嗨，{PLAYER}{KUN}！\p最近怎么样？\n还在完成宝可梦图鉴吗？\p我听说了超古代宝可梦的传闻。\l而且一共有3只呢！\p要是能亲眼见到\n哪怕就1只也好啊……$"
 
 MatchCall_Text_May14::
     .string "小遥：{PLAYER}{KUN}！\n我听说了！\p你击败了琉璃市的\n道馆馆主？\p也就是说，\n你的目标已经近在咫尺了？$"
@@ -809,7 +809,7 @@ MatchCall_Text_Brendan12::
     .string "小悠：嗨，{PLAYER}！\n最近还好吗？\p在海上有遇到过被挡住\n去路的情况吗？\p试试看潜到水下深处，\n沿着海底的沟壑前进。\p到达另一边后，\n再浮上水面。简单吧！$"
 
 MatchCall_Text_Brendan13::
-    .string "小悠：你好啊，{PLAYER}！\p最近怎么样？\n还在完成宝可梦图鉴吗？\p我听说有关于超古代、n宝可梦的传闻。\l而且不止一只——是三只！\p我好想捕获哪怕一只……$"
+    .string "小悠：你好啊，{PLAYER}！\p最近怎么样？\n还在完成宝可梦图鉴吗？\p我听说有关于超古代、n宝可梦的传闻。\l而且不止1只——是3只！\p我好想捕获哪怕1只……$"
 
 MatchCall_Text_Brendan14::
     .string "小悠：{PLAYER}！\n我听说了！\p你打倒了琉璃市道馆的\n馆主？真厉害！\p只有一步之遥了！$"

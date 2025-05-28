@@ -1410,7 +1410,7 @@ LilycoveCity_ContestLobby_Text_ExplainContests:
 	.string "华丽大赛需要4位参赛选手各自派出\n"
 	.string "1只宝可梦参加评审比赛。\p"
 	.string "华丽大赛分为第1轮和\n"
-	.string "第2轮评审两个阶段。\p"
+	.string "第2轮评审2个阶段。\p"
 	.string "第1轮评审是通过观众人气\n"
 	.string "投票来评选的。\p"
 	.string "第2轮评审是宝可梦通过\n"

@@ -344,7 +344,7 @@ OldaleTown_Movement_ReturnToOriginalPosition:
 	step_end
 
 OldaleTown_Text_SavingMyProgress:
-    .string "我想休息一下，\n所以得赶一赶进度。$"
+    .string "我想休息一下，\n所以正在写下记录。$"
 
 OldaleTown_Text_IWorkAtPokemonMart:
     .string "嗨！\n我在友好商店工作，\p可以跟我来吗？$"

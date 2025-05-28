@@ -198,7 +198,7 @@ MauvilleCity_BikeShop_Text_ComeBackToSwitchBikes:
     .string "风野：如果你想换一辆自行车，\n再回来找我！$"
 
 MauvilleCity_BikeShop_Text_WantToSwitchBikes:
-    .string "风野：哦？你想\n换一辆车吗？$"
+    .string "风野：哦？\n你想换一辆车吗？$"
 
 MauvilleCity_BikeShop_Text_IllSwitchBikes:
     .string "风野：好，没问题！\n我给你换一辆车！$"

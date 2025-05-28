@@ -515,7 +515,7 @@ LilycoveCity_Text_SeaRemainsForeverYoung:
     .string "时间在我们的脸上刻下了皱纹，\n而大海却还是一如既往地年轻，\l充满了生命的活力……\p呼呵呵呵呵……$"
 
 LilycoveCity_Text_SixtyYearsAgoHusbandProposed:
-    .string "丈夫提议到这儿来居住\n已经是六十年前的事了，\l而大海却依旧那样年轻美丽。\p呼呵呵呵呵……$"
+    .string "老伴提议到这儿来居住\n已经是六十年前的事了，\l而大海却依旧那样年轻美丽。\p呼呵呵呵呵……$"
 
 LilycoveCity_Text_TeamAquaRenovatedCavern:
     .string "你知道这个海湾那里\n奇怪的山洞吗？\p那里原来是个天然洞窟，\n后来海洋队来到这里，\l整修了那个山洞。\p他们自称\n“热爱自然的海洋队”！\p但他们说的跟做的\n完全背道而驰！$"

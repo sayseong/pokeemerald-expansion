@@ -619,7 +619,7 @@ gTVSecretBaseVisitText13::
 	.string "不得不说，这真是个\n超棒的秘密基地！\p观众们，如果有机会，\n一定要参观{STR_VAR_1}的秘密基地。\p下次节目再见！$"
 
 gTVPokemonLotteryWinnerFlashReportText00::
-	.string "激动人心！\n精彩纷呈！\p这里是宝可梦抽奖\n中奖快报！\p大家好！我们正在水静百货\n一楼的宝可梦抽奖中心\l为您现场直播！\p今天又有一位幸运训练家\n诞生了！\p这位训练家的名字是……\n{STR_VAR_1}！\p{STR_VAR_1}赢得了{STR_VAR_2}奖\n并带走了{STR_VAR_3}！\p{STR_VAR_1}！\n恭喜你！\p观众朋友们，别光看着，\n快来参与吧！\p水静百货全体员工\n期待您的下次光临！\p这里是水静百货现场直播，\n为您提供丰缘地区\l最丰富的商品选择！$"
+	.string "激动人心！\n精彩纷呈！\p这里是宝可梦抽奖\n中奖快报！\p大家好！我们正在水静百货\n1楼的宝可梦抽奖中心\l为您现场直播！\p今天又有一位幸运训练家\n诞生了！\p这位训练家的名字是……\n{STR_VAR_1}！\p{STR_VAR_1}赢得了{STR_VAR_2}奖\n并带走了{STR_VAR_3}！\p{STR_VAR_1}！\n恭喜你！\p观众朋友们，别光看着，\n快来参与吧！\p水静百货全体员工\n期待您的下次光临！\p这里是水静百货现场直播，\n为您提供丰缘地区\l最丰富的商品选择！$"
 
 gTVThePokemonBattleSeminarText00::
 	.string "宝可梦对战研讨会！\p我们通过分析对战\n来学习他人的经验。\p今天的研究案例是\n{STR_VAR_1}的对战。\p{STR_VAR_1}的{STR_VAR_2}\n正在与{STR_VAR_3}对战……$"

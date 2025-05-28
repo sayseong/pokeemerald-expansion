@@ -1181,7 +1181,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
     .string "爸爸：好了……\p{PLAYER}，如果你想成为一个\n强大的训练家，我有几条建议。\p首先去距此不远的\n卡那兹市，\p挑战那里的\n道馆馆主，杜娟，\p然后再去其他宝可梦道馆，\n打败那里的馆主，\p收集他们的徽章，\n明白了吗？\p当然，我也是道馆馆主，\n所以我们总有一天会对战，{PLAYER}，\p但那之前，你得先\n变得更强大才行。$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
-    .string "爸爸：嗯？你还没去\n卡那兹市的宝可梦道馆？\p一个新手训练家\n是没法打败我的。\p{PLAYER}，等你变强了\n再向我挑战吧，\p当你收集四个道馆徽章后，\n我再接受你的挑战，{PLAYER}。$"
+    .string "爸爸：嗯？你还没去\n卡那兹市的宝可梦道馆？\p一个新手训练家\n是没法打败我的。\p{PLAYER}，等你变强了\n再向我挑战吧，\p当你收集4个道馆徽章后，\n我再接受你的挑战，{PLAYER}。$"
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
     .string "爸爸：嗯……看来你打败了\n卡那兹市的宝可梦道馆馆主。\p但还有很多比你更强的\n训练家，{PLAYER}。\p在海对岸的武斗镇里\n有个叫做藤树的道馆馆主，\p你应该试试去挑战他。$"
@@ -1190,7 +1190,7 @@ PetalburgCity_Gym_Text_YouHaveGottenStronger:
     .string "爸爸：嗯……{PLAYER}，\n你变强了，\p从你获得的徽章数量\n就能看得出。$"
 
 PetalburgCity_Gym_Text_NormanIntro:
-    .string "爸爸：嗯……\n看来，你已经赢得四枚徽章了。\p很好，那就按我所承诺的\n那样，让我们来对战吧。\p{PLAYER}……\p我真高兴能和自己的孩子\n来一场真真正正的对战。\p但是，\n对战就是对战！\p身为道馆馆主，\n我会尽我所能赢取胜利。\p{PLAYER}，\n你也要用尽全力啊！$"
+    .string "爸爸：嗯……\n看来，你已经赢得4枚徽章了。\p很好，那就按我所承诺的\n那样，让我们来对战吧。\p{PLAYER}……\p我真高兴能和自己的孩子\n来一场真真正正的对战。\p但是，\n对战就是对战！\p身为道馆馆主，\n我会尽我所能赢取胜利。\p{PLAYER}，\n你也要用尽全力啊！$"
 
 PetalburgCity_Gym_Text_NormanDefeat:
     .string "这……\p我……\p难以置信。\n{PLAYER}……\p我输给了{PLAYER}？\p但规则就是规则！\n来，收下这个。$"
