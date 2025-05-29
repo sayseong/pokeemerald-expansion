@@ -676,7 +676,7 @@ LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
     .string "小田卷博士：……{PLAYER}{KUN}，\p我从你爸爸那儿听说了\n很多关于你的事。\p听说你还没有\n自己的宝可梦？\p但你刚才对战的样子\n真是镇静自若！\p果然是遗传了\n你父亲的才能！\p对了，作为谢礼，\n你刚才用的那只宝可梦\l就送给你吧！\p{PLAYER}得到{STR_VAR_1}！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
-    .string "小田卷博士：要不要顺便给这只{STR_VAR_1}\n起个昵称呢？$"
+    .string "小田卷博士：要顺便给这只{STR_VAR_1}\n起昵称吗？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
     .string "小田卷博士：如果你努力培育宝可梦\n积累经验，一定会成为一名\l优秀的训练家。\p我的孩子{RIVAL}也在一边当我的助手，\n一边研究宝可梦。\p{PLAYER}{KUN}，\n去见见{RIVAL}怎么样？$"
@@ -763,7 +763,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
     .string "小悠：从现在起，\n我打算暂停实地调查，\p就留在这里帮博士的忙。$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
-    .string "小田卷博士：哦，{PLAYER}{KUN}！\n我看看你的宝可梦图鉴。\p…… …… ……\n…… …… ……\p毫无疑问，\p你真的完成了丰缘地区的\n宝可梦图鉴，\p真是太了不起了！\p我有礼物要送给你，\p就当作是我对你\n出色工作的感谢。\p这是只有在其它地区\n才能找到的稀有宝可梦！\p从这3只中\n选择1只吧！$"
+    .string "小田卷博士：哦，{PLAYER}{KUN}！\n我看看你的宝可梦图鉴。\p…… …… ……\n…… …… ……\p没错，\n毫无疑问，\p你真的完成了丰缘地区的\n宝可梦图鉴，\p真是太了不起了！\p我有礼物要送给你，\n就当作是我对你\l出色工作的感谢。\p这是只有在其它地区\n才能找到的稀有宝可梦！\p从这3只中\n选择1只吧！$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon:
     .string "小田卷博士：这是只有在其它地区\n才能找到的稀有宝可梦！\p从这3只中\n挑1只吧！$"
@@ -778,7 +778,7 @@ LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita:
     .string "小田卷博士：你选的是\n草属性宝可梦菊草叶！\p你很清楚自己想要什么。\p那么，你要选择菊草叶？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable:
-    .string "小田卷博士：决定前\n好好考虑一下吧，\p它们都是很珍贵的宝可梦。$"
+    .string "小田卷博士：决定前好好\n考虑一下吧，\p它们都是很珍贵的宝可梦。$"
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_PickedFinePokemon:
@@ -789,7 +789,7 @@ LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter:
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
-    .string "要给刚得到的\n{STR_VAR_1}起个昵称吗？$"
+    .string "要给刚得到的\n{STR_VAR_1}起昵称吗？$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
     .string "小田卷博士：记住，{PLAYER}{KUN}，\n即使完成了丰缘地区的宝可梦图鉴，\l你的宝可梦之旅也仍未结束，\p这条名为宝可梦的道路\n永无止境，\p总有一片未曾踏足的草丛\n在等待着你去探索！$"

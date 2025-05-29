@@ -37,5 +37,5 @@ LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate:
     .string "在温泉中坐一会儿就会再次\n充满活力，好像魔术一样。\p如果能让宝可梦也\n泡泡多好。$"
 
 LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
-    .string "呵呵呵！喂，孩子，从这里\n你可以进温泉里去。\p宝可梦休息的时候，它们的\n训练家也该放松一下。$"
+    .string "呵呵呵！喂，孩子，\n你可以从这里进入温泉。\p宝可梦休息的时候，\n训练家也该放松一下。$"
 

@@ -71,7 +71,7 @@ Route119_WeatherInstitute_1F_EventScript_Grunt4::
 	end
 
 Route119_WeatherInstitute_1F_Text_Grunt1Intro:
-    .string "老大对这儿的调查\n很感兴趣，所以\l派我们来这里。\p你别来碍事！$"
+    .string "老大对这儿的调查很感兴趣，\n所以派我们来这里。\p你别来碍事！$"
 
 Route119_WeatherInstitute_1F_Text_Grunt1Defeat:
     .string "毁灭了……\n被一个孩子毁灭了……$"

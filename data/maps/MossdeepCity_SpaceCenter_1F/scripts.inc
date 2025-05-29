@@ -325,7 +325,7 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
     .string "一块巨大的金属冲破云霄，\n然后飞向宇宙……\p但熔岩队想打破\n我的那场梦！\p我不能让他们肆意妄为！$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
-    .string "大吾：{PLAYER}{KUN}，\n看到那封预告信了吗？\p熔岩队正在打这座岛上的\n火箭燃料的主意！\p虽然不知道他们的目的何在，\n但绝不能让他们得逞。\p我会在这里继续留意一阵子，\p你趁这段时间去\n城镇里逛逛如何？$"
+    .string "大吾：{PLAYER}{KUN}，\n看到那封预告信了吗？\p熔岩队正在打这座岛上的\n火箭燃料的主意！\p虽然不知道他们的目的何在，\n但绝不能让他们得逞。\p我会在这里继续\n留意一阵子，\p你趁这段时间去\n城镇里逛逛如何？$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
     .string "就像说好的，\n我们来拿火箭燃料了！$"

@@ -269,7 +269,7 @@ MauvilleCity_Gym_Text_KirkDefeat:
     .string "插上了电源，\n但电流过载了！$"
 
 MauvilleCity_Gym_Text_KirkPostBattle:
-    .string "宝可梦和摇滚，都要\n用心来表现，哦——耶！$"
+    .string "宝可梦和摇滚，\n都要用心来表现，哦——耶！$"
 
 MauvilleCity_Gym_Text_ShawnIntro:
     .string "我跟着铁旋训练，\n不会轻易输给你的！$"

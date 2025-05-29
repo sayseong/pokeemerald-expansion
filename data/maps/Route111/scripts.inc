@@ -637,7 +637,7 @@ Route111_Text_OldLadysRestStopSign:
     .string "简康奶奶的家\n“欢迎进来歇脚。”$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
-    .string "有用的公告牌！\p表示宝可梦的数值之一\n是特攻，全称\l“特殊招式攻击力。”\p相似地，还有特防，全称“特殊招式\n防御力”。$"
+    .string "有用的公告牌！\p表示宝可梦的数值之一是特攻，\n全称“特殊招式攻击力。”\p相似地，还有特防，\n全称“特殊招式防御力”。$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
     .string "这附近什么地方\n有座沙形成的塔，\p但由于某种原因，\n它却时隐时现。\p因此我叫它幻影之塔。$"

@@ -173,7 +173,7 @@ MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas:
     .string "{PLAYER}把精灵球\n放回了原处。$"
 
 MossdeepCity_StevensHouse_Text_LetterFromSteven:
-    .string "是一封信。\p…… …… ……\p致{PLAYER}{KUN}……\p已我决定踏上自我\n探索与修行之旅。\p短时间内不打算回家，\p我想拜托你收下\n桌上的精灵球，\p里面是我最喜欢的宝可梦——\n铁哑铃，\p拜托你照顾好它。\p愿你我终有相逢之日。\p大吾·兹伏奇$"
+    .string "是一封信。\p…… …… ……\p致{PLAYER}{KUN}……\p已我决定踏上自我\n探索与修行之旅。\p短时间内不\n打算回家，\p我想拜托你收下\n桌上的精灵球，\p里面是我最喜欢的宝可梦——\n铁哑铃，\p拜托你照顾好它。\p愿你我终有相逢之日。\p大吾·兹伏奇$"
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
     .string "是大吾收集的\n稀有石头。$"

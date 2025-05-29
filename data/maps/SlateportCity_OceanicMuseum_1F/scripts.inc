@@ -288,7 +288,7 @@ SlateportCity_OceanicMuseum_1F_Text_BeachSandDisplay:
     .string "海滩沙子的样品。\p“河流冲下\n高山上的石块，在颠簸中\l粉碎成小石子，\p最后成为海滩上\n松散的沙粒”。$"
 
 SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact1:
-    .string "“海洋小常识 1\n为什么海水是蓝的？\p光分成多种颜色，\p穿过海水时，\n大部分光失去了颜色。\p但蓝色光能留住颜色，\n所以海水看上去就成了蓝色。”$"
+    .string "“海洋小常识 1\n为什么海水是蓝的？\p光分成多种颜色。\p穿过海水时，\n大部分光失去了颜色。\p但蓝色光能留住颜色，\n所以海水看上去就成了蓝色。”$"
 
 SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact2:
     .string "“海洋小常识 2\n为什么海水是咸的？\p“海水中溶解的盐\n以钠离子和氯离子的形式存在。\p这些离子由礁石分离，\n被雨水冲进大海。\p溶解的盐慢慢聚集，\n使海水变咸。”$"

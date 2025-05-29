@@ -316,7 +316,7 @@ LavaridgeTown_Text_OhYouLikeHotSprings:
     .string "你喜欢温泉吗？\p对像你这样的年轻人来说\n还真是少见。$"
 
 LavaridgeTown_Text_BatheInHotSpringsEveryDay:
-    .string "我每天都来泡温泉，因为\p我也想成为一个亚莎那样\n既漂亮又强大的道馆馆主。$"
+    .string "我每天都来泡温泉，因为我也想成为\n亚莎那样既漂亮又强大的道馆馆主。$"
 
 LavaridgeTown_Text_IfPokemonInHotSprings:
     .string "如果把宝可梦放进温泉，\n它就会变得很奇怪。\p哈，有时候可能变成电气浴，\n或者泡沫浴，甚至岩浆浴……$"

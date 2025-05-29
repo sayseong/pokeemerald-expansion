@@ -36,5 +36,5 @@ PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
     .string "暮水镇浮在\n大群太阳珊瑚上。\p我这么说的话，\n你会相信吗？$"
 
 PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats:
-    .string "据说暮水镇人的\n祖先在船上出生，\l在船上生活，\l在船上死亡。\p我想，他们过着那种\n生活的目的，是为了\l寻找什么。$"
+    .string "据说暮水镇人的祖先\n一生都与船只相伴——\l在船上生活，在船上终老。\p我想他们选择这样的生活，\n是为了追寻什么重要的东西吧。$"
 

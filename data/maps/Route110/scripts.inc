@@ -798,7 +798,7 @@ Route110_Text_BikeTechniques:
     .string "学些车技不只是\n为了好玩，\p有些地方只有\n用车技才能到达。$"
 
 Route110_Text_WhichShouldIChoose:
-    .string "我该选哪条路？\p上自行车道走捷径\n去紫堇市，还是走\l下面的路找宝可梦？$"
+    .string "我该选哪条路？\p上自行车道走捷径去紫堇市，\n还是走下面的路找宝可梦？$"
 
 Route110_Text_CyclingChallengeResultSummary:
     .string "碰撞次数：\n……{STR_VAR_1}次！\p总时间：\n……{STR_VAR_2}！$"
@@ -825,13 +825,13 @@ Route110_Text_AlwaysAimHigher:
     .string "不管结果如何，\n我想看看你挑战纪录的样子。\l向更高目标冲刺吧！$"
 
 Route110_Text_AcroBikesDoNotQualify:
-    .string "这条自行车道上，骑音速自行车的人\n通过整条路所用的时间\l和碰撞次数都会被记录下来。\p越野自行车的成绩不值得记录，\n因为它们控制起来很容易。$"
+    .string "这条自行车道上，骑音速自行车的人\n通过整条路所用的时间\l和碰撞次数都会被记录下来。\p越野自行车的成绩不会被记录，\n它们很好操控，直接比较有失公平。$"
 
 Route110_Text_SlateportCitySign:
     .string "110号道路\n{DOWN_ARROW}凯那市$"
 
 Route110_Text_CyclingRoadSign:
-    .string "海边自行车道$"
+    .string "海滨自行车道$"
 
 Route110_Text_AquaWasHere:
     .string "“海洋队到此一游！”\p牌子上有人涂了这样的文字，\n但后来有什么人涂掉了那些字。\p“熔岩队最高！”\n现在上面是这么写的。$"

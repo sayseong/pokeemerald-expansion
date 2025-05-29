@@ -910,13 +910,13 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	return
 
 LittlerootTown_Text_OurNewHomeLetsGoInside:
-    .string "妈妈：{PLAYER}，我们到了，宝贝！\p跟我们的行李一起待在\n搬家卡车里一定累了吧？\p这里就是未白镇了，\p喜欢吗？\n这是我们的新家！\p虽然看起来有些古典，\n但你不觉得住起来应该很舒适吗？\p而且这次你也有自己的房间了，{PLAYER}！\n快进来看看吧。$"
+    .string "妈妈：{PLAYER}，我们到了，宝贝！\p跟我们的行李一起待在\n搬家卡车里一定累了吧？\p这里就是未白镇了。\p喜欢吗？\n这是我们的新家！\p虽然看起来有些古旧，\n但你不觉得住起来应该很舒适吗？\p而且这次你也有自己的房间了，\n{PLAYER}！快进来看看吧。$"
 
 LittlerootTown_Text_WaitPlayer:
     .string "妈妈：等等，{PLAYER}！$"
 
 LittlerootTown_Text_WearTheseRunningShoes:
-    .string "妈妈：{PLAYER}！{PLAYER}！你\n跟小田卷博士打过招呼了吗？\p哇，好可爱的宝可梦！\n是小田卷博士给你的吧？真不错！\p果然是爸爸的孩子，\n和宝可梦很合得来嘛！\p来，宝贝！你要出去旅行的话，\n换上这双跑步鞋吧，\p可以让你跑得很快的！$"
+    .string "妈妈：{PLAYER}！{PLAYER}！\n你跟小田卷博士打过招呼了吗？\p哇，好可爱的宝可梦！\n是小田卷博士给你的吧？真不错！\p果然是爸爸的孩子，\n和宝可梦很合得来嘛！\p来，宝贝！你要出去旅行的话，\n换上这双跑步鞋吧，\p可以让你跑得很快的！$"
 
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
     .string "{PLAYER}换上了\n跑步鞋。$"
@@ -931,7 +931,7 @@ LittlerootTown_Text_CanUsePCToStoreItems:
     .string "打开电脑就可以存取\n道具和宝可梦了。\p科学的力量真伟大！$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-    .string "小田卷博士整天都泡在研究所\n里做研究，然后又会突然跑到野外\l去实地调查……\p他到底什么时候能在\n家里待上几天呢？$"
+    .string "小田卷博士整天都泡在研究所里\n做研究，然后又会突然跑到野外\l去实地调查……\p他到底什么时候能在\n家里待上几天呢？$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
     .string "呃，呃，呃！\p如果走到野外的草丛里，\n野生的宝可梦可能会跳出来袭击的！$"

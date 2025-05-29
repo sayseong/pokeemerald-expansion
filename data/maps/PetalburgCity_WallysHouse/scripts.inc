@@ -68,7 +68,7 @@ PetalburgCity_WallysHouse_EventScript_ReceivedHMSurf::
 	end
 
 PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
-    .string "你是……\n啊，你一定就是{PLAYER}{KUN}吧？\p谢谢你刚才能\n和满充一起玩。\p他从小体弱多病，\p我们打算送他到\n绿茵镇的亲戚家去，\p那里的空气\n比这儿洁净。\p什么？满充在哪儿？\n我们家满充已经出发了。\p不知道现在\n该到哪儿了呢？$"
+    .string "你是……\n啊，你一定就是{PLAYER}{KUN}吧？\p谢谢你刚才能\n和满充一起玩。\p他从小就体弱多病。\p我们打算送他到\n绿茵镇的亲戚家去，\p那里的空气\n比这儿洁净。\p什么？满充在哪儿？\n我们家满充已经出发了。\p不知道现在\n该到哪儿了呢？$"
 
 PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing:
     .string "不知道我家满充在做什么？$"

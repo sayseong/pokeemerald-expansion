@@ -37,8 +37,8 @@ Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad::
 	end
 
 Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad:
-    .string "在自行车道上，你可以\n全力以赴骑出你最快的速度，\p追风的感觉非常爽快，\n但千万不要撞到人！$"
+    .string "在自行车道上，你可以全力以赴骑出\n你最快的速度，\p追风的感觉非常爽快，\n但千万不要撞到人！$"
 
 Route110_SeasideCyclingRoadSouthEntrance_Text_TooDangerousToWalk:
-    .string "对不起，自行车\n道路上不能走路，太危险了。\p骑上自行车再回来吧。$"
+    .string "对不起，自行车道上不能走路，\n太危险了。\p骑上自行车再回来吧。$"
 

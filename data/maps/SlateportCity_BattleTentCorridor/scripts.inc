@@ -168,7 +168,7 @@ SlateportCity_ContestHall_Text_ImLikeMajorlyCheesed:
 
 @ Unused
 SlateportCity_ContestHall_Text_ExplainTorment:
-    .string "拿着，TM41，\n嘿，就是无理取闹，你在听我说吗？\p就像是，它不允许同一场中\n使用2次同样的的招式，了解？\p嘿，现在，听好，就像是\n希望我并没有给你带来麻烦！$"
+    .string "拿着，TM41，\n嘿，就是无理取闹，你在听我说吗？\p就像是，它不允许同一场中\n使用2次同样的的招式，了解？\p嘿，现在，听好，就像是希望我\n并没有给你带来麻烦！$"
 
 @ Unused
 SlateportCity_ContestHall_Text_MCStepUpTakePartInContest:
@@ -184,7 +184,7 @@ SlateportCity_ContestHall_Text_ItsAppealTime:
 
 @ Unused
 SlateportCity_ContestHall_Text_DidntPayAttentionToAppeal:
-    .string "他们没有太注意\n我的宝可梦的吸引力……\p哼，那个裁判，他根本\n就不懂得欣赏。$"
+    .string "他们没有太注意\n我的宝可梦的吸引力……\p哼，那个裁判，\n他根本就不懂得欣赏。$"
 
 @ Unused
 SlateportCity_ContestHall_Text_RewardWithSageAdvice:

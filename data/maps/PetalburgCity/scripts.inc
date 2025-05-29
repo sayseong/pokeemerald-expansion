@@ -708,7 +708,7 @@ PetalburgCity_Text_WhereIsWally:
     .string "我家满充去哪儿了？\p我们得马上出发\n去绿茵镇了……$"
 
 PetalburgCity_Text_AreYouRookieTrainer:
-    .string "嗨！莫非你是……\n新人训练家？\p你知道一名训练家来到\n新城镇时首先要做什么吗？\p他们会去看看那里\n有什么样的道馆。$"
+    .string "嗨！莫非你是……\n新人训练家？\p你知道一位训练家来到\n新城镇时首先要做什么吗？\p他们会去看看那里\n有什么样的道馆。$"
 
 PetalburgCity_Text_ThisIsPetalburgGym:
     .string "看到了吗？这就是橙华市的道馆。$"

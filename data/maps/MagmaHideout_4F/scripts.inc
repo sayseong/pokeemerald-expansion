@@ -134,7 +134,7 @@ MagmaHideout_4F_EventScript_Tabitha::
 	end
 
 MagmaHideout_4F_Text_Grunt11Intro:
-    .string "我也想见固拉多，但它们\n连尾巴都不让我看……\p真让我难受。\p哦，不好！\n我怎么说出固拉多的事了！$"
+    .string "我也想见固拉多，\n但他们连尾巴都不让我看……\p真让我难受。\p哦，不好！\n我怎么说出固拉多的事了！$"
 
 MagmaHideout_4F_Text_Grunt11Defeat:
     .string "我想头脑不够冷静的话\n是不可能赢的……$"

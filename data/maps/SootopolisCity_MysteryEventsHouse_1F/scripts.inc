@@ -178,7 +178,7 @@ SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle:
     .string "你不想对战？好失望，\n我真的很想看你们的对战……$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_KeepItTo3On3:
-    .string "啊，好，太好了！\p不过我的房子不是特别坚固，\p能请你们进行一场\n3对3的对战吗？$"
+    .string "啊，好，太好了！\p不过我的房子不是\n特别坚固，\p能请你们进行一场\n3对3的对战吗？$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_SaveProgressBeforeBattle:
     .string "在你们2个对战前\n要先写入记录。$"

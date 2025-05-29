@@ -480,7 +480,7 @@ DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
     .string "哈奇：好了！\n我们到凯那市了！\p我想你是要去找\n楠木馆长送得文的物品吧？$"
 
 Route109_Text_BrineySailToDewfordQuestion:
-    .string "哈奇：我以为你要\n去送得文的物品。\p那么，你想\n回武斗镇去吗？$"
+    .string "哈奇：我以为你要\n去送得文的物品。\p那么，\n你想回武斗镇去吗？$"
 
 Route109_Text_BrineyDewfordItIs:
     .string "哈奇：武斗镇是吗？\p起锚咯！\n小皮，亲爱的，我们出海了！$"

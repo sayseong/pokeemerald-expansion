@@ -511,13 +511,13 @@ Route119_Text_ScottYouWonAtFortreeGym:
     .string "…… …… ……\n…… …… ……哔！\p亚希达：嗨，{PLAYER}{KUN}，是我！\p你果然如我所料，\n赢下了茵郁市道馆。\p你的实力……\n或许正是我一直在找的训练家。\p记住我是你的头号粉丝，\n我会一直默默为你加油的。\l继续加油！\p…… …… ……\n…… …… ……咔哒！$"
 
 Route119_Text_StayAwayFromWeatherInstitute:
-    .string "我们在这里放哨。\p喂，你！别接近\n天气研究所，那儿不安全。$"
+    .string "我们在这里放哨。\p喂，你！别接近天气研究所，\n那儿不安全。$"
 
 Route119_Text_DontGoNearWeatherInstitute:
-    .string "放哨的任务实在太无聊了。\p喂，你！别跑到\n天气研究所附近去。$"
+    .string "放哨的任务实在太无聊了。\p喂，你！\n别跑到天气研究所附近去。$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
-    .string "我本以为所谓飞翔是指\n捉一大群鸟宝可梦，然后\l不知怎么挂在它们身上，\p但实际上飞翔是\n一种秘传招式！\p我要是早点知道\n就好了……$"
+    .string "我本以为所谓飞翔是指\n捉一大群鸟宝可梦，\l然后想办法挂在它们身上。\p但实际上飞翔是\n一种秘传招式！\p我要是早点知道\n就好了……$"
 
 Route119_Text_TallGrassSnaresBikeTires:
     .string "切……\n过不去……\p长草会卷进自行车的轮胎里，\n不可能骑车过去。$"

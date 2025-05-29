@@ -225,7 +225,7 @@ LavaridgeTown_Gym_1F_Text_GeraldDefeat:
     .string "火还不够热……$"
 
 LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
-    .string "岩浆的温度\n是392度。\p你的宝可梦打败了我，那么\n在岩浆中也应该能比较容易生存下来。$"
+    .string "岩浆的温度\n是392度。\p你的宝可梦打败了我，那么在岩浆中\n也应该能比较容易生存下来。$"
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro:
     .string "呃……\n好吧，我就和你对战吧。$"

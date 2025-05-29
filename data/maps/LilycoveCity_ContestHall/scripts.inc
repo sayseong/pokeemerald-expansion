@@ -429,7 +429,7 @@ LilycoveCity_ContestHall_Text_ComeOnDear:
     .string "来吧，加油！\n你的宝可梦是最棒的！$"
 
 LilycoveCity_ContestHall_Text_ThatGirlThereIsCutest:
-    .string "我想那边的女孩\n是人群中最可爱的。\p你说什么？他们在\n评判宝可梦的外貌？$"
+    .string "我想那边的女孩\n是人群中最可爱的。\p你说什么？\n他们是在评判宝可梦的外貌？$"
 
 LilycoveCity_ContestHall_Text_WantCuteMonOfMyOwn:
     .string "看着这些可爱的宝可梦，\n让我也想自己拥有一只！\p我要去捕捉一只来！$"

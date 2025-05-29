@@ -53,7 +53,7 @@ VerdanturfTown_ContestHall_Text_RaisedMonToBeCute:
 
 @ Unused
 VerdanturfTown_ContestHall_Text_MyMonRules:
-    .string "我的宝可梦法则！\p它帅气，强壮还漂亮，可爱\n并且聪明。完美！\p我不妨赢得各项\n华丽大赛。$"
+    .string "我的宝可梦法则！\p它帅气、强壮、漂亮、可爱\n并且聪明。完美！\p我不妨赢得各项\n华丽大赛。$"
 
 @ Unused
 VerdanturfTown_ContestHall_Text_NormalRankStage:

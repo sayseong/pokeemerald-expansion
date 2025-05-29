@@ -962,7 +962,7 @@ BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved:
     .string "进入对战间之前需要\n写入记录，请稍等。$"
 
 BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer:
-    .string "下面您即将迎战的是\n第50位训练家了，\p现在起，您每次连续打败7名训练家，\n我们将会把奖章送给您参战的宝可梦。\p祝您好运！$"
+    .string "下面您即将迎战的是\n第50位训练家了，\p现在起，您每次连续打败7位训练家，\n我们将会把奖章送给您参战的宝可梦。\p祝您好运！$"
 
 BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons:
     .string "这是连续打败7位\n强大的训练家的奖励。\p{PLAYER}得到奖章！$"
@@ -971,7 +971,7 @@ BattleFrontier_BattleTowerLobby_Text_PutRibbonOnMons:
     .string "{PLAYER}给挑战的宝可梦\n戴上了奖章。$"
 
 BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower:
-    .string "打扰了，能占用你一点时间吗？\p请说说你在对战塔比赛\n开始之前的想法，也可以\l谈谈赢了或输了比赛\l之后的感受。$"
+    .string "打扰了，\n能占用你一点时间吗？\p请说说你在对战塔比赛开始之前的\n想法，也可以谈谈赢了或输了比赛\l之后的感受。$"
 
 BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouBegin:
     .string "那么，你在比赛之前\n有什么想法呢？$"
@@ -995,15 +995,15 @@ BattleFrontier_BattleTowerLobby_Text_WinsInRowRecorded:
     .string "连胜的次数都会\n被记录下来。\p我可不想输得太难堪啊！$"
 
 BattleFrontier_BattleTowerLobby_Text_CanLeaveUntilLossOrSevenWins:
-    .string "进入对战塔后，只有被打败或者\n连续战胜7名训练家才能离开。\p开始挑战之前你最好\n做好充分的准备。$"
+    .string "进入对战塔后，只有被打败或者\n连续战胜7位训练家才能离开。\p开始挑战之前你最好\n做好充分的准备。$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_DoubleBattleRoomConstruction:
-    .string "欢迎来到对战塔\n双打对战区！\p很不幸，对战间\n还在建设之中。\p当建筑完成后\n再来吧。$"
+    .string "欢迎来到对战塔\n双打对战区！\p很不幸，\n对战间还在建设之中。\p当建筑完成后\n再来吧。$"
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_MultiBattleRoomConstruction:
-    .string "欢迎来到对战塔\n多人对战区！\p很不幸，对战间\n还在建设之中。\p当建筑完成后\n再来吧。$"
+    .string "欢迎来到对战塔\n多人对战区！\p很不幸，\n对战间还在建设之中。\p当建筑完成后\n再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge:
     .string "随时恭候您再次挑战！$"
@@ -1081,7 +1081,7 @@ BattleFrontier_BattleTowerLobby_Text_TakeMultisChallenge:
     .string "要挑战多人对战间吗？$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainMultisChallenge:
-    .string "对战塔的多人对战间\n是进行多人对战的设施。\p要参加多人对战，您需要在塔内\n选择1名训练家作为搭档，\l每人派出2只宝可梦进行比赛。\p塔内有个叫对战沙龙的房间，\n可以在那里遇到其他训练家。\p在那里，你需要选择1名训练家\n作为多人对战的搭档。\p组队成功后，\n将被引导至多人对战间。\p在多人对战间中，\n会有7组训练家等待挑战，\p如果顺利战胜7组，\n我们会向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在暂停前完好地写下了记录。\n否则我们将视挑战为无效。$"
+    .string "对战塔的多人对战间\n是进行多人对战的设施。\p要参加多人对战，您需要在塔内\n选择1位训练家作为搭档，\l每人派出2只宝可梦进行比赛。\p塔内有个叫对战沙龙的房间，\n可以在那里遇到其他训练家。\p在那里，你需要选择1位训练家\n作为多人对战的搭档。\p组队成功后，\n将被引导至多人对战间。\p在多人对战间中，\n会有7组训练家等待挑战，\p如果顺利战胜7组，\n我们会向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在暂停前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons:
     .string "请选择要参加挑战的\n2只宝可梦。$"
@@ -1129,7 +1129,7 @@ BattleFrontier_BattleTowerLobby_Text_SaveGameBeforeShowingIn:
     .string "开始挑战之前需要先写入记录，\n请稍等。$"
 
 BattleFrontier_BattleTowerLobby_Text_CongratsDefeatedMaiden:
-    .string "恭喜！\n您打败了对战塔大君，并且\l与7位训练家的对战中取得了全胜！$"
+    .string "恭喜！\n您打败了对战塔大君，\l并且在与7位训练家的对战中全胜！$"
 
 BattleFrontier_BattleTowerLobby_Text_AwardYouTheseBattlePoints:
     .string "为了表彰您无限的才能，\n我们将向您呈上对战点数。$"

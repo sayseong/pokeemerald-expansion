@@ -1142,7 +1142,7 @@ PetalburgCity_Gym_EventScript_GymStatue::
 	end
 
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
-    .string "爸爸：嗯？\p这不是{PLAYER}吗！\n搬完家了吗？\p没想到你能自己\n一个人跑过来。\p啊，原来如此，\n你是和宝可梦一起来的啊。\p那么……你是想像我一样成为\n一名训练家吗，{PLAYER}？\p这真是个好消息！\n我很期待！$"
+    .string "爸爸：嗯？\p这不是{PLAYER}吗！\n搬完家了吗？\p没想到你能自己\n一个人跑过来。\p啊，原来如此，\n你是和宝可梦一起来的啊。\p那么……你是想像我一样成为\n一位训练家吗，{PLAYER}？\p这真是个好消息！\n我很期待！$"
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
     .string "那个……我……\n想要一只宝可梦，拜托了……$"
@@ -1178,7 +1178,7 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
     .string "满充：谢谢叔叔，我成功了。\n这只宝可梦还给您。\p{PLAYER}，\n谢谢你陪我……\p多亏了你们，\n我才能捕捉到自己的宝可梦。\p我一定会好好照顾它的……\p啊！妈妈还在等我，\n我得走了！\p再见，{PLAYER}！$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
-    .string "爸爸：好了……\p{PLAYER}，如果你想成为一个\n强大的训练家，我有几条建议。\p首先去距此不远的\n卡那兹市，\p挑战那里的\n道馆馆主，杜娟。\p然后再去其他宝可梦道馆，\n打败那里的馆主，\p收集他们的徽章，\n明白了吗？\p当然，我也是道馆馆主，\n所以我们总有一天会对战，{PLAYER}，\p但那之前，你得先\n变得更强大才行。$"
+    .string "爸爸：好了……\p{PLAYER}，如果你想成为一个\n强大的训练家，我有几条建议。\p首先去距此不远的\n卡那兹市，\p挑战那里的\n道馆馆主，杜娟。\p然后再去其他宝可梦道馆，\n打败那里的馆主，\p收集他们的徽章，\n明白了吗？\p当然，我也是道馆馆主，所以我们\n总有一天会对战，{PLAYER}，\p但那之前，你得先变得\n更强大才行。$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
     .string "爸爸：嗯？你还没去\n卡那兹市的宝可梦道馆？\p一个新手训练家\n是没法打败我的。\p{PLAYER}，等你变强了\n再向我挑战吧。\p当你收集4个道馆徽章后，\n我再接受你的挑战，{PLAYER}。$"
@@ -1232,10 +1232,10 @@ PetalburgCity_Gym_Text_RandallDefeat:
     .string "一场出色的战斗！$"
 
 PetalburgCity_Gym_Text_RandallPostBattle:
-    .string "在下面的房间中\n还有新的挑战等着你。\p左边是混乱房间，\p右边则通向防御房间。$"
+    .string "在下面的房间中\n还有新的挑战等着你。\p左边是\n混乱房间，\p右边则通向\n防御房间。$"
 
 PetalburgCity_Gym_Text_RandallPostBadge:
-    .string "无论赢了谁，无论\n输给谁，永远不能逃避\l训练自己和宝可梦的责任。\p我想作为道馆馆主，\n就应当如此。$"
+    .string "无论赢了谁，无论输给谁，\n都永远不能逃避训练自己\l和宝可梦的责任。\p我想作为道馆馆主，\n就应当如此。$"
 
 PetalburgCity_Gym_Text_ParkerIntro:
     .string "这里是混乱房间。\p让我看看你和宝可梦之间\n有多么强的羁绊！$"

@@ -329,7 +329,7 @@ RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
     .string "小遥：{PLAYER}{KUN}！\p我在看我的宝可梦图鉴呢。\p有很多我看见却\n没捕捉的宝可梦，\p还有些我想\n可能会进化。\p不知道下面该\n去哪儿捕捉宝可梦呢？$"
 
 RivalsHouse_2F_Text_MayWhereShouldIGoNext:
-    .string "小遥：不知道下面该\n去哪儿捕捉宝可梦呢？\p如果我们能偶然遇上，那会\n很有趣吧，{PLAYER}{KUN}？$"
+    .string "小遥：不知道下面该\n去哪儿捕捉宝可梦呢？\p如果我们能偶然遇上，\n那会很有趣吧，{PLAYER}{KUN}？$"
 
 RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
     .string "小悠：嗨，{PLAYER}，\p我在检查我的宝可梦图鉴。\p我还有不少宝可梦要捕捉，\n但现在这样\l进展也不错。\p看着这宝可梦图鉴就觉得它好像\n在催我回草丛里去。$"

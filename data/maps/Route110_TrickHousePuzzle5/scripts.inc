@@ -971,7 +971,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
     .string "机械娃娃5问答。\p在凯那市的宝可梦发烧友俱乐部里，\n一共有多少只宝可梦？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
-    .string "机械娃娃5问答。\p茵郁市里\n一共有多少树屋？$"
+    .string "机械娃娃5问答。\p茵郁市里一共有\n多少间树屋？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
     .string "机械娃娃5问答。\p在自行车道上\n一共有多少铁人三项选手？$"

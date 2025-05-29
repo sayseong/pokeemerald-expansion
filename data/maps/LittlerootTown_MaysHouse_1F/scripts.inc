@@ -333,7 +333,7 @@ RivalsHouse_1F_Text_WentOutToRoute103:
     .string "啊，{RIVAL}刚刚\n去了103号道路。\p孩子和老公一个样，\n{RIVAL}也在家里呆不住。$"
 
 RivalsHouse_1F_Text_ShouldGoHomeEverySoOften:
-    .string "我想，和宝可梦\n一起旅行感觉一定不错，\p但你也得经常回家一趟\n让你妈妈看看你怎么样了。\p她虽然不说，但肯定\n很担心你，{PLAYER}{KUN}。$"
+    .string "我想，和宝可梦\n一起旅行感觉一定不错，\p但你也得经常回家一趟\n让你妈妈看看你怎么样了。\p她虽然不说，但肯定很担心你，\n{PLAYER}{KUN}。$"
 
 RivalsHouse_1F_Text_MayWhoAreYou:
     .string "哎？\n你……你是谁？\p…… …… …… ……\n…… …… …… ……\p哦，你就是{PLAYER}{KUN}吧。\n你今天刚搬过来对吧？\p我……我叫小遥，\n请多指教！\p我……\n我的梦想是和全世界的\l宝可梦当朋友。\p爸爸……小田卷博士\n说过你的事，{PLAYER}{KUN}，\p我一直想着要是我们能\n成为好朋友就好了，{PLAYER}{KUN}。\p啊，明明才第一次和你说话，\n我居然一直在自言自语。\p嘿嘿……\p糟糕！我忘了！\p我还得去帮爸爸捕捉\n野生宝可梦！\p{PLAYER}{KUN}，回头见！$"

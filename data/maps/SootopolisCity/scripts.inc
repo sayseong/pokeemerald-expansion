@@ -1415,7 +1415,7 @@ SootopolisCity_Text_DoorIsClosed:
     .string "这扇门上着锁。$"
 
 SootopolisCity_Text_PhysicallyFitLivingHere:
-    .string "在大海中潜水，上上下下\n不停地爬楼梯……\p如果你住在这个镇上，\n你一定能保持健康的。$"
+    .string "在大海中潜水，上上下下\n不停地爬楼梯……\p如果你住在这个城镇，\n你一定能保持健康的。$"
 
 SootopolisCity_Text_GiantPokemonSuddenlyAppeared:
     .string "那两只巨大的宝可梦\n突然出现在城市中央！\p我从没见过它们！\p它们为什么\n打得那么激烈？\p那两只宝可梦\n就不能做好朋友吗？$"
@@ -1475,7 +1475,7 @@ SootopolisCity_Text_CityRegainedCalm:
     .string "城市又恢复了平静……$"
 
 SootopolisCity_Text_CaveOfOriginPleaseLeave:
-    .string "你是什么人？\p这里是觉醒神殿，\p据说在送神山沉睡的\n宝可梦会在此重生。\p请你离开吧。$"
+    .string "你是什么人？\p这里是觉醒神殿。\p据说在送神山沉睡的\n宝可梦会在此重生。\p请你离开吧。$"
 
 SootopolisCity_Text_LeadSuperiorTrainerToCave:
     .string "米可利告诉我，\n当一个拥有着坚定的意志\p与非凡的天赋的人，\n一个了解多种\p宝可梦的训练家出现时……\n我将带他进入神殿。$"
@@ -1496,10 +1496,10 @@ SootopolisCity_Text_FearedWorstWhenPokemonFlewDown:
     .string "当第三只宝可梦飞来时，\n我觉得好像世界末日到了。$"
 
 SootopolisCity_Text_NightSkyFavoriteScenery:
-    .string "火山口框出了一块\n圆圆的夜色……\p在那个圆里，星星们\n灵动地闪烁着……\l这是我最喜欢的景色。$"
+    .string "火山口框出了一块\n圆圆的夜空……\p星星仿佛具有生命一般，\n在其中闪烁明灭……\l这是我最喜欢的景色。$"
 
 SootopolisCity_Text_WeatherWentWild:
-    .string "今天早上天空十分晴朗，\n但是……\p突然间，乌云群聚，\n暴雨倾盆而下，\l还伴着电闪雷鸣，\p原先晴朗的明日\n转瞬之间就变成了暴风雨！\p这一切都是因为那两只\n宝可梦吗？$"
+    .string "今天早上天空十分晴朗，\n但是……\p突然间，乌云群聚，\n暴雨倾盆而下，\l还伴着电闪雷鸣。\p原先晴朗的明日\n转瞬之间就变成了暴风雨！\p这一切都是因为那两只\n宝可梦吗？$"
 
 SootopolisCity_Text_YouBroughtFlyingMon:
     .string "哦？\p是你把天空中\n的那只宝可梦召来的？\p哇，你好厉害耶！$"
@@ -1517,10 +1517,10 @@ SootopolisCity_Text_TryingMeaninglessToPokemon:
     .string "水梧桐：盖欧卡和固拉多都不知道\n去了什么地方，\p丰缘地区的天气也\n已经恢复正常了……\p哈哈……\n哈哈哈……\p也许我们拼命所做的一切\n对宝可梦而言什么都不算，\l根本渺小得不值一提……$"
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
-    .string "大吾：那两只战斗的宝可梦……\n固拉多……还有盖欧卡……\p那两只超古代宝可梦\n从长眠中觉醒……\p现在正宣泄着它们那\n失控的能量互相攻击……\p……{PLAYER}{KUN}，\p我想你既然来到这里，\n应该已经有了被卷入\l这次危机的觉悟了。\p那么，\n我有个人想让你见见。\p跟我来吧。$"
+    .string "大吾：那两只战斗的宝可梦……\n固拉多……还有盖欧卡……\p那两只超古代宝可梦\n从长眠中觉醒……\p现在正宣泄着它们那\n失控的能量互相攻击……\p……{PLAYER}{KUN}。\p我想你既然来到这里，\n应该已经有了被卷入\l这次危机的觉悟了。\p那么，\n我有个人想让你见见。\p跟我来吧。$"
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
-    .string "大吾：听着，{PLAYER}{KUN}。\p看到固拉多和盖欧卡，\n让你觉得宝可梦很可怕吗？\p但事实绝非如此，\n宝可梦其实是更……\p……我何必多此一问？\n你早已心中有数。$"
+    .string "大吾：听着，{PLAYER}{KUN}。\p看到固拉多和盖欧卡，\n让你觉得宝可梦很可怕吗？\p但事实绝非如此，\n宝可梦其实是更……\p……我何必多此一问？\n你早就心中有数了。$"
 
 SootopolisCity_Text_HereWereAreHelpWallace:
     .string "大吾：到了！\p在这里面你能找到一个\n叫米可利的人，\p我相信你一定能\n成为他的助力……$"

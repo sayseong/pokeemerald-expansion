@@ -177,7 +177,7 @@ JaggedPass_Text_DianaRematchDefeat:
     .string "我只是因为地面太颠簸\n才输的！$"
 
 JaggedPass_Text_DianaPostRematch:
-    .string "我会忘记这次失败，享受\n在这凹凸的山中远足的乐趣。$"
+    .string "我会忘记这次失败，\n享受在这凹凸的山中远足的乐趣。$"
 
 JaggedPass_Text_EthanIntro:
     .string "凹凸山道很难走，\n这是个训练的好地方。$"

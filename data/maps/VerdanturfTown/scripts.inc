@@ -91,5 +91,5 @@ VerdanturfTown_Text_BattleTentSign:
     .string "对战帐篷绿茵镇分址\n“精彩对战，尽收眼底！”$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
-    .string "卡绿隧道\n“连接卡那兹市和绿茵镇\p隧道工程\n已被取消。”$"
+    .string "卡绿隧道\n“连接卡那兹市和绿茵镇\p隧道工程现已\n终止施工。”$"
 

@@ -310,7 +310,7 @@ SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
     .string "楠木馆长：你是……\n啊，对了，你是{PLAYER}{KUN}……\p刚才真是千钧一发！\n多亏你救了我！\p噢，对了，我差点忘了\n你还带着得文送来的零件！$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
-    .string "楠木馆长：糟糕！\n没时间耽搁了！\p我们得赶快开始\n我们的海底勘探了。\p再次谢谢你，不过\n我得先失陪了！\p随便参观一下\n我们的展品吧。$"
+    .string "楠木馆长：糟糕！\n没时间耽搁了！\p我们得赶快开始\n我们的海底勘探了。\p再次谢谢你，\n不过我得先失陪了！\p随便参观一下\n我们的展品吧。$"
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
     .string "我在这儿看到了\n一艘模型船，\p这让我想起了武斗镇附近的\n那艘被遗弃的海船……$"
@@ -328,7 +328,7 @@ SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample2:
     .string "牌子上写着\n“水质样本 2”。\p不同地域的海水\n含盐量也不同吗？$"
 
 SlateportCity_OceanicMuseum_2F_Text_PressureExperiment:
-    .string "一个橡皮球不断地\n收缩，扩张。\p“在大海中，水由于\n自身重量形成内部的压力。\p浅水中这一压力\n并不明显，\p但在非常深的水里，\n一小片地方的水压\l甚至可以达到上万吨。”$"
+    .string "一个橡皮球不断地\n收缩，扩张。\p“在大海中，水由于自身重量形成\n内部的压力。\p浅水中这一压力\n并不明显，\p但在非常深的水里，\n一小片地方的水压\l甚至可以达到上万吨。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_HoennModel:
     .string "“丰缘地区模型”\p是丰缘地区的\n微缩景观。\p未白镇在哪儿呢？$"
@@ -337,10 +337,10 @@ SlateportCity_OceanicMuseum_2F_Text_DeepSeawaterDisplay:
     .string "海水循环的演示。\p“在海地附近，海水由于\n温度和含盐量的不同，\l形成了环流。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SurfaceSeawaterDisplay:
-    .string "海水循环的演示。\p“在洋面上，海水\n被风吹动，形成洋流。”$"
+    .string "海水循环的演示。\p“在洋面上，海水被风吹动，\n形成洋流。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica:
-    .string "“正在楠木造船厂建造的\p破浪号游船的\n等比例模型。”$"
+    .string "“正在楠木造船厂建造的\p破浪号渡轮的\n等比例模型。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica:
     .string "“潜艇海渊1号\p洋底勘探用\n高级潜水艇的模型。”$"

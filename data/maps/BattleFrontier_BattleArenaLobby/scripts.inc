@@ -374,7 +374,7 @@ BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
     .string "对战竞技场提供2个等级的挑战，\nLv. 50级和自由等级。\l您要选择哪个？$"
 
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
-    .string "好的，现在请选3只\n宝可梦。$"
+    .string "好的，\n请选择参加的3只宝可梦。$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
     .string "尊敬的挑战者！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
@@ -425,7 +425,7 @@ BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked:
     .string "我被判定获胜了！\p持续攻击对手的宝可梦\n这招果然行得通！$"
 
 BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
-    .string "我们的比赛被判为平局。\p当时间到时，我和\n我对手的宝可梦\l都剩下等量的体力。$"
+    .string "我们的比赛被判为平局。\p时间到的时候，我和我对手的宝可梦\n剩下了相同的体力。$"
 
 BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
     .string "在对战竞技场中，\n宝可梦的出场顺序至关重要。\p举个例子，如果你的首发宝可梦\n存在属性劣势，\l不妨让第二只宝可梦配备\l能克制该劣势属性的招式。\p我认为这是组建强力队伍的\n有效策略。$"

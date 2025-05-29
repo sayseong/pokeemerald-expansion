@@ -1061,7 +1061,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2:
     .string "{PLAYER}是自由等级\n对战锦标赛的冠军！\p恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
-    .string "现在进行决赛！\p{PLAYER}对巨蛋超级巨星，石南！\p比赛开始！$"
+    .string "现在进行决赛！\p{PLAYER}对巨蛋超级巨星，\n石南！\p比赛开始！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
     .string "裁判做出了\n最后的决定！\p冠军是……\n天啊！\l冠军是我们的巨蛋超级巨星——\l石南！\p恭喜你！还有，谢谢！\n我们的巨蛋超级巨星，石南！$"

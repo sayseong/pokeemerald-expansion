@@ -1038,7 +1038,7 @@ Route104_Text_PrettyPetalFlowShop:
     .string "圣橙华花店$"
 
 Route104_Text_TrainerTipsDoubleBattles:
-    .string "有用的公告牌！\p在丰缘地区中，一些\n结伴的训练家会向别人发起\l2对2的挑战，\l称作双打对战。\p在双打对战中，训练家要派出\n2只宝可梦，即列表\l左边的和最上边的。\l一定要注意宝可梦的队列顺序。$"
+    .string "有用的公告牌！\p在丰缘地区中，一些结伴的训练家会向\n别人发起2对2的挑战，称作双打对战。\p在双打对战中，\n训练家要派出2只宝可梦，\l即列表左边的和最上边的。\l一定要注意宝可梦的排列顺序。$"
 
 Route104_Text_MayWeShouldRegister:
     .string "小遥：啊，{PLAYER}{KUN}！\p得文给你的宝可导航装了\n对战寻呼系统对吧？\p我们互相登记一下信息吧，\n这样就能随时联系了。$"
@@ -1092,4 +1092,4 @@ Route104_Text_BrendanDefeat:
     .string "嘿……\n挺能干的嘛。$"
 
 Route104_Text_BrendanPostBattle:
-    .string "小悠：你在培育宝可梦方面\n很有天赋啊，\p但要知道，你不能\n只顾着让宝可梦战斗。\p像哈奇老人那样，\n和宝可梦做朋友也很重要。$"
+    .string "小悠：你在培育宝可梦方面\n很有天赋啊，\p但要知道，\n你不能只顾着让宝可梦战斗。\p像哈奇老人那样，\n和宝可梦做朋友也很重要。$"

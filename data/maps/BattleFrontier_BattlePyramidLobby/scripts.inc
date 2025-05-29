@@ -544,7 +544,7 @@ BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode:
     .string "金字塔挑战有2种等级，\nLv. 50级和自由等级，\l要参加哪一种？$"
 
 BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons:
-    .string "好的，请选择3只要参加\n挑战的宝可梦。$"
+    .string "好的，请选择要参加挑战的\n3只宝可梦。$"
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen:
     .string "探险家啊，有点小问题！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p并且记得要取下它们携带的道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p准备就绪后，\n请告诉我一声。$"
@@ -562,10 +562,10 @@ BattleFrontier_BattlePyramidLobby_Text_WeWillHoldBagForSafekeeping:
     .string "{PLAYER}，在探索期间，\n我们会暂时替您保管包包。$"
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag:
-    .string "同时，请带上您之前用过的\n这个战斗包包。$"
+    .string "作为交换，\n请带上您之前用过的这个战斗包包。$"
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag:
-    .string "同时，请带上\n这个战斗包包。$"
+    .string "作为交换，\n请带上这个战斗包包。$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag:
     .string "{PLAYER}把包包换成了\n战斗包包。$"
@@ -714,10 +714,10 @@ BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules:
-    .string "当征服金字塔后，\n里面的野生宝可梦会\l替换成其他的种类，\p仔细探索，仔细观察，尽量去\n了解您可能遇到什么样的宝可梦。$"
+    .string "当征服金字塔后，\n里面的野生宝可梦会\l替换成其他的种类，\p仔细探索，仔细观察，尽量去了解\n您可能遇到什么样的宝可梦。$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules:
-    .string "在金字塔内会有训练家\n等着向您挑战。\p每层最多会有\n8个训练家。\p您每打败1个训练家，就会\n得到1条对探索有用的提示。$"
+    .string "在金字塔内会有训练家\n等着向您挑战。\p每层最多会有\n8个训练家。\p您每打败1个训练家，就会得到1条\n对探索有用的提示。$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
     .string "每次进入金字塔后迷宫\n都会重新组合，\p迷宫里很暗，\n必须小心探索。\p每打败1个训练家或是1只野生宝可梦\n，里面都会稍微变亮一些。$"

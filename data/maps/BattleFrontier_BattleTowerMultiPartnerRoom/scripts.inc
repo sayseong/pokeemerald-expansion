@@ -294,7 +294,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Intro::
     .string "我是{STR_VAR_1}的第{STR_VAR_2}个徒弟。\n你可以叫我{STR_VAR_3}！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Mon1::
-    .string "按照{STR_VAR_1}的指点，我带了\n一只携带了{STR_VAR_2}的{STR_VAR_3}和$"
+    .string "按照{STR_VAR_1}的指点，我带了一只\n携带了{STR_VAR_2}的{STR_VAR_3}和$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Mon2Ask::
     .string "一只携带了{STR_VAR_1}的{STR_VAR_2}。\p请和我一起组队吧。$"
@@ -402,7 +402,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Mon1::
     .string "我用的是{STR_VAR_3}推荐的\n用{STR_VAR_1}的{STR_VAR_2}$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Mon2Ask::
-    .string "和用{STR_VAR_1}\n的{STR_VAR_2}。\p无论我有多忙，我都会\n尽最大的努力去培育他们。\p让我们组队\n横扫一切对手吧！$"
+    .string "和用{STR_VAR_1}\n的{STR_VAR_2}。\p无论我有多忙，我都会尽最大的\n努力去培育他们。\p让我们组队横扫\n一切对手吧！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Accept::
     .string "好极了，要的就是这种精神！\n我去登记，你就在这儿等一下吧。$"
@@ -474,13 +474,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Intro::
     .string "嘿！我们有大麻烦了！\n明天对战塔就要关门了！\p…… …… ……\n只是开个玩笑！\p人们都叫我{STR_VAR_3}！\n{STR_VAR_1}的第一千个徒弟！\l但实际上，我是第{STR_VAR_2}个！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon1::
-    .string "{STR_VAR_3}给过我一些建议，让我用\n会{STR_VAR_1}的{STR_VAR_2}$"
+    .string "{STR_VAR_3}给过我一些建议，让我使用\n会{STR_VAR_1}的{STR_VAR_2}$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon2Ask::
     .string "和会{STR_VAR_1}的{STR_VAR_2}。\n每种我都有十只！\l呃，实际上，只是每种一只！\p如何？\n想和我组队吗？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Accept::
-    .string "哈哈哈！\n作为感谢，我送你一只宝可梦！\p当然，是开玩笑的！那么我\n这就去登记，可以吧？$"
+    .string "哈哈哈！\n作为感谢，我送你一只宝可梦！\p当然，是开玩笑的！\n那么我这就去登记，可以吧？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Reject::
     .string "啊，你真绝情！那就让我\n破坏掉对战塔吧！\p当然，我不是说真的！$"
@@ -993,7 +993,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacAccept::
     .string "好极了！\n了解！\p我不会用太多时间去登记的！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacReject::
-    .string "和我找到的宝可梦一起，我们\n不可能输的……$"
+    .string "和我找到的宝可梦一起，\n我们不可能输的……$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorIntro::
     .string "喂，这里呀！\n我是水手{STR_VAR_1}！$"
@@ -1044,7 +1044,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFIntro::
     .string "我的名字是{STR_VAR_1}。\n一个宝可梦巡护员！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon1::
-    .string "让你了解一下我的队伍。我有\n一只带着{STR_VAR_1}的{STR_VAR_2}和$"
+    .string "让你了解一下我的队伍。我有一只\n带着{STR_VAR_1}的{STR_VAR_2}和$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon2Ask::
     .string "一只带着{STR_VAR_1}的{STR_VAR_2}！\p那么，你想不想\n加入我的小组？$"
@@ -1188,7 +1188,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMAccept::
     .string "理所当然！\n我会马上去登记的！$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMReject::
-    .string "如果我们下次还能见面，我依然\n希望加入你。$"
+    .string "如果我们下次还能见面，\n我依然希望加入你。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFIntro::
     .string "我是{STR_VAR_1}。\n一个超能力者。$"

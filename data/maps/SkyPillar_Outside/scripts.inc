@@ -152,4 +152,4 @@ SkyPillar_Outside_Text_SituationGettingWorse:
     .string "米可利：嗯……\n情况越来越糟糕了……$"
 
 SkyPillar_Outside_Text_GotToGoBackForSootopolis:
-    .string "米可利：不妙……\p天气异常居然已经\n蔓延到这一带了……\p{PLAYER}{KUN}，\p烈空坐应该还在\n上面的更高处。\p我担心琉璃市的安危，\n得先赶回去。\p一切就托付给你了，\n拜托了！$"
+    .string "米可利：不妙……\p天气异常居然已经\n蔓延到这一带了……\p{PLAYER}{KUN}。\p烈空坐应该还在\n上面的更高处。\p我担心琉璃市的安危，\n得先赶回去。\p一切就托付给你了，\n拜托了！$"

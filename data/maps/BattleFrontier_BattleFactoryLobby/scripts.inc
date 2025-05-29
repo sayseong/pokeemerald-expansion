@@ -438,4 +438,4 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
     .string "在交换宝可梦时有2个\n需要注意的地方。\p第一，交换时您无法查看目标\n宝可梦的具体能力。\p第二，队伍中的宝可梦的排列顺序\n按租用时的顺序固定。\p交换后该顺序仍保持不变。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
-    .string "在自由等级中，所有租借宝可梦\n和对手训练家的宝可梦等级均为100。$"
+    .string "在自由等级中，所有租借宝可梦和\n对手训练家的宝可梦等级均为100。$"

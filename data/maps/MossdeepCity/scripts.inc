@@ -365,5 +365,5 @@ MossdeepCity_Text_ScottSomethingWrongWithTown:
     .string "亚希达：{PLAYER}{KUN}，还好吗？\n我这儿很顺利！\p我听说绿岭市的道馆馆主\n实力很强，所以我打算\l过来亲眼见识一下。\p但这镇子上好像\n不太对劲，\p人们都在谈论什么宇宙中心\n和一封警告信……\p虽然我觉得这事跟我\n没啥关系就是了。$"
 
 MossdeepCity_Text_SootopolisNewGymLeader:
-    .string "啊……海浪冲刷在脚上的感觉\n真好……\p说到海浪，你知道\n那个海岛城市琉璃市吗？\p那儿的道馆来了个\n新馆主，\p据说他\n曾教导过米可利。$"
+    .string "啊……海浪冲刷双脚的感觉……\n真好……\p说到海浪，\n你知道那个水上城市琉璃市吗？\p那儿的道馆来了个\n新馆主，\p据说他曾教导过\n米可利。$"
 

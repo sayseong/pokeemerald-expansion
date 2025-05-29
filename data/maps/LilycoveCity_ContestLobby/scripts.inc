@@ -995,7 +995,7 @@ LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum:
     .string "你看怎么样？我对自己的作品\n很有自信，你喜欢吗？\p这种画作绝对能够\n挂到美术馆中的。\p嗯？真的有美术馆\n想寻找画作？\p你说我要把这拿过去吗？$"
 
 LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum:
-    .string "什么？真的？那么，\n我现在就把这送过去。\p我还要给它取个好名字，\p希望他们能考虑一下\n展出这幅画。\p如果他们同意了，一定要去参观啊！\n谢谢！$"
+    .string "什么？真的？那么，\n我现在就把这送过去。\p我还要给它取个好名字。\p希望他们能考虑一下\n展出这幅画。\p如果他们同意了，一定要去参观啊！\n谢谢！$"
 
 LilycoveCity_ContestLobby_Text_TakeMementoOfPainting:
     .string "哦，对了！\p这个给你吧，就当作是\n我为你的宝可梦作画的纪念。$"
@@ -1019,7 +1019,7 @@ LilycoveCity_ContestLobby_Text_MasterRankHereICome:
     .string "哈哈……大师组华丽大赛，\n我来了。\p终于到此刻了，\n世界将会认识到我亲爱的宝可梦\l是所有生物中最可爱的存在！\l哇哈哈哈。$"
 
 LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere:
-    .string "在这儿能看到\n很多宝可梦，\p因此我每天闲逛\n都会到这儿来。$"
+    .string "在这儿能看到\n很多宝可梦。\p因此我每天闲逛\n都会到这儿来。$"
 
 LilycoveCity_ContestLobby_Text_ContestFeastForEyes:
     .string "哇，观看华丽大赛\n简直是场视觉盛宴！\p你看过那些\n画里的宝可梦吗？$"
@@ -1031,5 +1031,5 @@ LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
     .string "我花费了大量精力\n日日夜夜照顾这只宝可梦，\p现在它的状态已经达到了巅峰。\n今天，胜利是属于我的！$"
 
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily:
-    .string "我和爸爸，妈妈，姐姐一起\n制作宝可方块！\p我想如果人多的话，就能\n做出更光滑更好的宝可方块。$"
+    .string "我和爸爸，妈妈，姐姐一起\n制作宝可方块！\p我想如果人多的话，\n就能做出更光滑更好的宝可方块。$"
 

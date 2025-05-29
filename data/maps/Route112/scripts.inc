@@ -116,7 +116,7 @@ Route112_Text_YeahWeNeedMeteorite:
     .string "嗯，听上去是这样，\n但据说我们还需要一块陨石。$"
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor:
-    .string "哦，我明白了，所以\n大家才会去秋叶镇。$"
+    .string "哦，我明白了，\n所以大家才会去秋叶镇。$"
 
 Route112_Text_CantLetAnyonePassUntilTheyreBack:
     .string "说得没错。而且在他们回来前，\n我们不能让任何人通过这里。$"

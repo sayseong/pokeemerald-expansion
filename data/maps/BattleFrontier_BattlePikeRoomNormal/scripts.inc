@@ -674,7 +674,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou:
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised:
-    .string "太漂亮了……\p就像承诺好的，我来让\n你的宝可梦恢复健康。$"
+    .string "太漂亮了……\p就像承诺好的，\n我来让你的宝可梦恢复健康。$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2:

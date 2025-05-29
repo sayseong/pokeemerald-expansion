@@ -207,7 +207,7 @@ RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
     .string "{PLAYER}得到了宝可导航。$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
-    .string "兹伏奇：那个装置……\p那是宝可梦导航器，\n简称宝可导航，\p对冒险中的训练家来说\n是不可或缺的工具。\p那里面有丰缘地区的地图，\p你可以很方便地查看\n武斗镇和凯那市的地点！\p对了，我听说一些邪恶的犯罪组织\n——我想是熔岩队和海洋队——\l在到处惹是生非，\p建议你出发前最好\n先好好休息一下。$"
+    .string "兹伏奇：那个装置……\p那是宝可梦导航器，\n简称宝可导航，\p对冒险中的训练家来说\n是不可或缺的工具。\p那里面有丰缘地区\n的地图，\p你可以很方便地查看\n武斗镇和凯那市的地点！\p对了，我听说一些邪恶的犯罪组织\n——我想是熔岩队和海洋队——\l在到处惹是生非，\p建议你出发前最好\n先好好休息一下。$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare:
     .string "兹伏奇：好了，{PLAYER}{KUN}，\n路上小心！$"

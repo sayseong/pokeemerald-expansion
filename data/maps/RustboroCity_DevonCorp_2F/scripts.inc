@@ -320,5 +320,5 @@ RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
     .string "我在为宝可导航\n开发新功能……\p但还没什么进展。$"
 
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
-    .string "唔，下面我\n该开发什么？\p我们公司允许我们\n将自己的灵感变成现实。\p作为工程师，再也找不到\n更好的工作环境了。$"
+    .string "唔，\n下面我该开发什么？\p我们公司允许我们\n将自己的灵感变成现实。\p作为工程师，再也找不到\n更好的工作环境了。$"
 

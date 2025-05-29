@@ -943,7 +943,7 @@ SlateportCity_EventScript_BerryCrushRankingsSign::
 	end
 
 SlateportCity_Text_EnergyGuruSellWhatYouNeed:
-    .string "我是努力家！我会\n为你寻找需要的东西！$"
+    .string "我是努力家！\n我会为你寻找需要的东西！$"
 
 SlateportCity_Text_OhYourPokemon:
     .string "哦？\n你的{STR_VAR_1}……$"
@@ -961,7 +961,7 @@ SlateportCity_Text_GoForItLittleHarder:
     .string "你要更努力些才行。\p我会给你的宝可梦\n好东西的。$"
 
 SlateportCity_Text_EffortRibbonLooksGoodOnIt:
-    .string "啊！你的{STR_VAR_1}，戴着\n努力奖章很合适嘛！$"
+    .string "啊！你的{STR_VAR_1}，\n戴着努力奖章很合适嘛！$"
 
 SlateportCity_Text_WonderIfLighthouseStartlesPokemon:
     .string "灯塔的光能照到\n数百里外的地方。\p不知道这样会不会\n吓到海里的宝可梦。$"
@@ -973,10 +973,10 @@ SlateportCity_Text_HowTownIsBornAndGrows:
     .string "有洁净水源的地方\n就会长出富足的果园。\p然后人们聚集在这里，\n就出现了集市。\p一个镇子就是这样诞生和发展下去的。$"
 
 SlateportCity_Text_SlateportWonderfulPlace:
-    .string "在可以闻到海风的地方\n购物……\p凯那市简直就是天堂！$"
+    .string "在可以闻到海风的\n地方购物……\p凯那市简直就是天堂！$"
 
 SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
-    .string "把玩偶和坐垫直接放在地上\n的话，会把它们弄脏的，\p所以我准备买几块地砖来\n放玩偶和坐垫，这样\l它们就不会脏了。$"
+    .string "把玩偶和坐垫直接放在地上的话，\n会把它们弄脏的，\p所以我准备买几块砖块\n来放玩偶和坐垫，\l这样它们就不会脏了。$"
 
 SlateportCity_Text_GoingToCompeteInBattleTent:
     .string "啊啊啊！我也要参加\n对战帐篷！\p但在那之前，我得先去\n捕捉几只宝可梦！$"
@@ -1024,10 +1024,10 @@ SlateportCity_Text_IllReadSignForYou:
     .string "想看看这块标牌？\n我帮你读吧！$"
 
 SlateportCity_Text_SaysSomethingLikeSeaIsEndless:
-    .string "我看看……\p呃……上面写的大概是\n“大海中的生命是无穷的”。\p嗯，我肯定\n上面就是这么写的。$"
+    .string "我看看……\p呃……上面写的大概是\n“大海中的生命是无穷的”。\p嗯，\n我肯定上面就是这么写的。$"
 
 SlateportCity_Text_ShouldveBroughtMyGameBoy:
-    .string "唔嗯……\p我真该把我的GBA带来的，那样就\n不用在这儿等得这么无聊了……\p唔嗯……$"
+    .string "唔嗯……\p我真该把我的GBA带来的，那样就不用\n在这儿等得这么无聊了……\p唔嗯……$"
 
 SlateportCity_Text_HotSpringsAfterOperation:
     .string "“这次工作完毕之后\n我就带你们去泡温泉！”\p老大这么说的。\n我都等不及了！$"
@@ -1060,7 +1060,7 @@ SlateportCity_Text_SternSaysDiscoveredSomething:
     .string "楠木馆长说\n他们在海底找到了什么东西。\p那到底是什么？\n会是什么东西呢？$"
 
 SlateportCity_Text_CaptainComeBackWithBigFish:
-    .string "发生什么了？\p馆长带着\n从海底找到的大鱼回来了？$"
+    .string "发生什么了？\p馆长带着从海底找到的\n大鱼回来了？$"
 
 SlateportCity_Text_AmIOnTV:
     .string "喂！你看了吗？\n我在电视上亮相了吗？$"
@@ -1105,10 +1105,10 @@ SlateportCity_Text_SternsShipyardWantedSign:
     .string "楠木造船厂\p“招募：在任何水流中\n都能驾船的水手。”$"
 
 SlateportCity_Text_SternsShipyardNearsCompletion:
-    .string "楠木造船厂\p“由凯那市到水静市的\n破浪号游船\l将在近期完工。”$"
+    .string "楠木造船厂\p“由凯那市到水静市的\n破浪号渡轮\l将在近期完工。”$"
 
 SlateportCity_Text_SternsShipyardFerryComplete:
-    .string "楠木造船厂\p“凯那市-水静市的\n破浪号游船的下水仪式\l将在港口举行。”$"
+    .string "楠木造船厂\p“凯那市—水静市的\n破浪号渡轮的下水仪式\l将在港口举行。”$"
 
 SlateportCity_Text_PokemonFanClubSign:
     .string "宝可梦发烧友俱乐部\n“聚集着所有喜爱宝可梦的人！”$"
@@ -1123,10 +1123,10 @@ SlateportCity_Text_MarketSign:
     .string "凯那市市场\n“我们有其他地方买不到的商品！”$"
 
 SlateportCity_Text_HarborFerryUnderConstruction:
-    .string "凯那市港口\p“破浪号游船\n正在船厂加工建造，\p预计近期\n即可通航。”$"
+    .string "凯那市港口\p“破浪号渡轮\n正在船厂加工建造，\p预计近期\n即可通航。”$"
 
 SlateportCity_Text_HarborSign:
-    .string "凯那市港口\p“愿破浪号游船\n为您带来最快乐的旅行体验。”$"
+    .string "凯那市港口\p“愿破浪号渡轮\n为您带来最快乐的旅行体验。”$"
 
 SlateportCity_Text_NameRatersHouseSign:
     .string "姓名鉴定师\n“鉴定宝可梦名字的好坏。”$"
@@ -1144,7 +1144,7 @@ SlateportCity_Text_ExchangeWhatWithIt:
     .string "你想用它\n换什么？$"
 
 SlateportCity_Text_ExchangeBerryPowderForItem:
-    .string "那么，你是想\n用树果粉末换{STR_VAR_1}是吗？$"
+    .string "那么，你是想用树果粉末\n换{STR_VAR_1}是吗？$"
 
 SlateportCity_Text_DontHaveEnoughBerryPowder:
     .string "真可惜，\n你没有足够的树果粉末。$"

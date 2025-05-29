@@ -172,7 +172,7 @@ VictoryRoad_1F_Text_QuincyDefeat:
     .string "嘿！\n干得漂亮！$"
 
 VictoryRoad_1F_Text_QuincyPostBattle:
-    .string "顺利地通过这里——这是\n对所有想成为宝可梦冠军\l的训练家们的最终考验。\p这也是它被称作\n冠军之路的原因。$"
+    .string "顺利地通过这里——这是对所有想成为\n宝可梦冠军的训练家们的最终考验。\p这也是它被称作\n冠军之路的原因。$"
 
 VictoryRoad_1F_Text_KatelynnIntro:
     .string "我对来到这里的人\n没有什么话可说。上吧！$"

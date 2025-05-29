@@ -59,26 +59,26 @@ FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale::
 	end
 
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
-    .string "我是招式导师。\p我知道宝可梦的\n每一个招式，也能教\l宝可梦学会这些招式。\p如果你愿意，我可以教你的\n宝可梦1个招式，\p条件是我要1个心之鳞片。\n我现在正在收集这些东西。$"
+    .string "我是招式导师。\p我知道宝可梦的每一个招式，\n也能教宝可梦学会这些招式。\p如果你需要的话，\n我可以教你的宝可梦招式。\p每次教学需要1个心之鳞片。\n我现在正在收集这个。$"
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
-    .string "那个！那是真真正正的\n心之鳞片！\p我猜，你是想让我\n教授招式吧？$"
+    .string "噢！就是这个！\n货真价实的心之鳞片！\p我猜，\n你是想让我教授招式吧？$"
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
     .string "要教哪只宝可梦？$"
 
 FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove:
-    .string "教什么招式？$"
+    .string "要教哪个招式？$"
 
 FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
-    .string "抱歉……\p似乎我没法再教\n这只宝可梦什么招式了。$"
+    .string "抱歉……\p看起来我没有能教给\n这只宝可梦的招式。$"
 
 FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale:
-    .string "{PLAYER}拿出1个心之鳞片\n作为交换。$"
+    .string "{PLAYER}交出了1个心之鳞片\n作为交换。$"
 
 FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
-    .string "如果你想要你的宝可梦学习招式，\n带1个心之鳞片来吧。$"
+    .string "如果你的宝可梦需要学习招式，\n就带着心之鳞片再来吧。$"
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
-    .string "呃？我可没法教一个蛋\n什么招式。$"
+    .string "嗯？\n我可没法教一个蛋什么招式。$"
 

@@ -394,8 +394,8 @@ EventScript_UseCutGrass::
 	goto EventScript_CutGrassCommon
 
 Text_CantDive:
-	.string "这里的水很深。好像\n"
-	.string "可以用秘传招式潜下去。$"
+	.string "这里的水很深。\n"
+	.string "好像可以用秘传招式潜下去。$"
 
 Text_WantToDive:
 	.string "这里的水很深。\n"

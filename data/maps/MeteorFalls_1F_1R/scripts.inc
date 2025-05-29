@@ -238,7 +238,7 @@ MeteorFalls_1F_1R_EventScript_MetCozmo::
 	end
 
 MeteorFalls_1F_1R_Text_WithThisMeteorite:
-    .string "呵呵呵！\p有了这陨石，烟囱山\n的那个就会……$"
+    .string "呵呵呵！\p有了这陨石，\n烟囱山的那个就会……$"
 
 MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma:
     .string "哎？\p我不知道你是谁，\n但是胆敢妨碍熔岩队的话，\l别怪我不客气！$"

@@ -558,7 +558,7 @@ MtChimney_Text_MaxieDefeat:
     .string "什么？！\p我，赤焰松，居然大意了？！$"
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
-    .string "赤焰松：哼，罢了。\n这次暂且撤退。\p但别以为我们熔岩队\n会就此罢休。\p呵呵呵……\p哪怕没有陨石，\n只要能得到那个宝玉……哼哼哼……$"
+    .string "赤焰松：哼，罢了。\n这次暂且撤退。\p但别以为我们熔岩队\n会就此罢休。\p呵呵呵……\p哪怕没有陨石，\n只要能得到那个宝珠……哼哼哼……$"
 
 MtChimney_Text_TabithaIntro:
     .string "嘿嘿嘿！\p你总算是来了！\p可惜太迟了！\n我已经把流星瀑布的\l陨石交给老大了！$"
@@ -579,13 +579,13 @@ MtChimney_Text_Grunt2PostBattle:
     .string "我们的老大说过，\n“这会让所有人都幸福。”\p可是为什么每个人都在\n阻碍我们？$"
 
 MtChimney_Text_Grunt1Intro:
-    .string "如果有更多的土地，我就能\n有一所自己的大房子了！\p我要把它建在凝固的岩浆上！$"
+    .string "如果有更多的土地，\n我就能有一所自己的大房子了！\p我要把它建在凝固的岩浆上！$"
 
 MtChimney_Text_Grunt1Defeat:
     .string "我大房子的梦想啊……$"
 
 MtChimney_Text_Grunt1PostBattle:
-    .string "像你这样的孩子，应该\n去海里玩水才对！$"
+    .string "像你这样的孩子，\n应该去海里玩水才对！$"
 
 MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
     .string "可恶的海洋队……\n总是妨碍我们的计划！$"
@@ -621,7 +621,7 @@ MtChimney_Text_MagmaOutnumbersUs:
     .string "可恶……熔岩队比我们人多！\n我们阻止不了他们！$"
 
 MtChimney_Text_LessHabitatForWaterPokemon:
-    .string "如果任他们拓展陆地，水属性\n宝可梦们的生存空间就会减少了！$"
+    .string "如果任他们拓展陆地，水属性宝可梦们\n的生存空间就会减少了！$"
 
 MtChimney_Text_MagmasNameSimilar:
     .string "我们是海洋队！\p他们是熔岩队！\p这种容易混淆的名字\n真气死我了！$"
@@ -636,7 +636,7 @@ MtChimney_Text_ThankYouDear:
     .string "谢谢惠顾，孩子！$"
 
 MtChimney_Text_YouveNotGotTheMoney:
-    .string "天啊，没钱的话\n可是买不了东西的。$"
+    .string "哎呀，没钱的话可是\n买不了东西的。$"
 
 MtChimney_Text_OhFineThen:
     .string "啊，那就算了。$"
@@ -645,7 +645,7 @@ MtChimney_Text_MetoriteFittedOnMachine:
     .string "一个奇异的机器上面\n安装了一块陨石……\p这台机器似乎能储存\n陨石的能量。$"
 
 MtChimney_Text_RemoveTheMeteorite:
-    .string "一个奇异的机器上面\n安装了一块陨石……\p你想拿走陨石吗？$"
+    .string "一个奇异的机器上面\n安装了一块陨石……\p要拿走陨石吗？$"
 
 MtChimney_Text_PlayerRemovedMeteorite:
     .string "{PLAYER}把陨石从\n奇异的机器上拿了下来。$"
@@ -669,7 +669,7 @@ MtChimney_Text_ShelbyPostBattle:
     .string "好吧，好吧，我输了，\n现在不能自称高手了。$"
 
 MtChimney_Text_ShelbyRegister:
-    .string "谢谢你，孩子，我很高兴，这就像\n我在和自己的孙子对战一样。\p以后一定要再回来\n和我对战啊。$"
+    .string "谢谢你，孩子，我很高兴，\n好像我在和自己的孙子对战一样。\p以后一定要再回来\n和我对战啊。$"
 
 MtChimney_Text_ShelbyRematchIntro:
     .string "如果你能够把自己的心\n与你的宝可梦融合在一起，\l一定会有非凡的成就。$"
@@ -696,7 +696,7 @@ MtChimney_Text_SheilaDefeat:
     .string "你战斗的方式……\n好像烟囱山的喷发一般！$"
 
 MtChimney_Text_SheilaPostBattle:
-    .string "正如我说的，我终于到达了\n烟囱山，如果只是看看风景\l就真是太可惜了……\p我想来几场对战，再买些\n煎饼当作纪念品。$"
+    .string "正如我说的，我终于到达了\n烟囱山，如果只是看看风景\l就真是太可惜了……\p我想来几场对战，\n再买些煎饼当作纪念品。$"
 
 MtChimney_Text_ShirleyIntro:
     .string "在温泉泡过后，\n感觉好极了！\l我一定能赢！$"
@@ -708,7 +708,7 @@ MtChimney_Text_ShirleyPostBattle:
     .string "我要去温泉里再泡一下。\n一起来吗？\p开玩笑啦！$"
 
 MtChimney_Text_SawyerIntro:
-    .string "真是座好山啊！有许多\n热情的人呢！$"
+    .string "真是座好山啊！\n有许多热情的人呢！$"
 
 MtChimney_Text_SawyerDefeat:
     .string "哦，你的激情也很火热啊！$"

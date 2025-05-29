@@ -47,7 +47,7 @@ BattleFrontier_Mart_EventScript_Boy::
 	end
 
 BattleFrontier_Mart_Text_ChaperonGrandson:
-    .string "我们是来陪我们的\n孙子的。\p但既然来这儿了，我们\n觉得至少该带些纪念品回去。$"
+    .string "我们是来陪我们的\n孙子的。\p但既然来这儿了，\n我们觉得至少该带些纪念品回去。$"
 
 BattleFrontier_Mart_Text_ProteinMakeNiceGift:
     .string "亲爱的，你觉得这个怎么样？\n这应该是个不错的礼物吧？\p这是……攻击……增强……剂？\n听上去挺好吃的，不是吗？$"

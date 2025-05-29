@@ -294,7 +294,7 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock:
     .string "搬家公司的宝可梦帮我们把东西\n都搬进来，并且整理打扫好了。\l真是太方便了！\p{PLAYER}，你的房间在楼上，\n去看看吧，宝贝！\p爸爸特意买了新的时钟\n来庆祝我们搬家。\l记得调好时间哦！$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
-    .string "妈妈：怎么了，{PLAYER}？\p不去看看\n自己的新房间吗？$"
+    .string "妈妈：怎么了，{PLAYER}？\p不去看看自己的\n新房间吗？$"
 
 PlayersHouse_1F_Text_GoSetTheClock:
     .string "妈妈：{PLAYER}，\p记得先去房间调好时钟哦。$"
@@ -309,7 +309,7 @@ PlayersHouse_1F_Text_ItsOverWeMissedHim:
     .string "妈妈：哎呀……节目结束了。\p刚才爸爸好像出镜了呢，\n可惜我们错过了。$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
-    .string "对了，\n爸爸的朋友也住在镇上，\p他叫小田卷博士，\p家就住在隔壁，\n记得去打个招呼哦！$"
+    .string "对了，\n爸爸的朋友也住在镇上，\p他叫小田卷博士。\p家就住在隔壁，\n记得去打个招呼哦！$"
 
 PlayersHouse_1F_Text_SeeYouHoney:
     .string "妈妈：再见，宝贝！$"
@@ -330,46 +330,46 @@ PlayersHouse_1F_Text_DontPushYourselfTooHard:
     .string "别太勉强自己，宝贝，\n累了的话就回家来歇歇。\p加油吧！$"
 
 PlayersHouse_1F_Text_IsThatAPokenav:
-    .string "妈妈：这是什么？宝可导航？\n得文公司的人送你的吗？\p那么，登记一下妈妈的信息\n怎么样？\p…… ……$"
+    .string "妈妈：这是什么，宝贝？宝可导航？\n得文公司的人送你的吗？\p那不如把妈妈也\n登记一下吧？\p…… ……$"
 
 PlayersHouse_1F_Text_RegisteredMom:
     .string "把妈妈\n登记到宝可导航里了。$"
 
 PlayersHouse_1F_Text_Vigoroth1:
-    .string "喵呀呀呀！$"
+    .string "呜叽——！$"
 
 PlayersHouse_1F_Text_Vigoroth2:
-    .string "嗯，嗯嗯……$"
+    .string "呼咕，呜咕呜咕……$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
-    .string "访问记者：……以上就是\n关于橙华市道馆的报道。$"
+    .string "记者：……以上就是我们在橙华市道馆\n为您带来的现场报道。$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
-    .string "上演着一部电影。\p两个人在巨大的\n琴键上跳舞。\p该走了！$"
+    .string "电视正在播放电影。\p两个人在巨大的\n琴键上跳舞。\p该走了！$"
 
 PlayersHouse_1F_Text_RunningShoesManual:
-    .string "这是\n跑步鞋的说明书。\p“穿上跑步鞋，\n按B键奔跑。\p系好你的鞋带，在\n踏地的节奏中飞奔吧！”$"
+    .string "这是跑步鞋的\n使用说明书。\p“穿上跑步鞋，\n按B键即可奔跑。\p系好鞋带，\n尽情奔跑吧！”$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
-    .string "爸爸：嗯？\p嗨，{PLAYER}！\p有段时间没见了，\n让我看看……好像变强了嘛。\p但你爸爸我也不会放弃，\n不会输给你的！\p啊，对了，有东西要给你，\n这是一个叫哈奇的人\l托我带给你的。$"
+    .string "爸爸：嗯？\p哟，{PLAYER}！\p有段时间没见了，\n不过你看起来……变强了呢。\p至少我是这么觉得的，\n不过爸爸可还没认输呢！\p啊，对了，有东西要给你，\n这是一个叫哈奇的人\l寄过来的。$"
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove:
-    .string "爸爸：唔，是乘坐游船的船票吧？\p记得没错的话，\n凯那市和水静市都有游船的码头。$"
+    .string "爸爸：唔，乘坐渡轮的船票？\p我记得凯那市和水静市\n都有渡轮码头。$"
 
 PlayersHouse_1F_Text_BetterGetBackToGym:
-    .string "我该回橙华市道馆去了。\p老婆，谢谢你在我\n不在的时候看家。$"
+    .string "我该回橙华市道馆去了。\p孩子妈，谢谢你在我不在的\n时候照顾家里。$"
 
 PlayersHouse_1F_Text_DadShouldStayLonger:
-    .string "妈妈：毕竟是你的爸爸……\p已经很久没回家了，\n一回来就滔滔不绝地讲宝可梦的事。\p他该在家多休息几天的。$"
+    .string "妈妈：你那个爸爸啊……\p好不容易回趟家，\n张口闭口都是宝可梦。\p他应该多待几天\n好好歇一歇的。$"
 
 PlayersHouse_1F_Text_IsThatABreakingStory:
-    .string "妈妈：那是突发新闻吗？$"
+    .string "妈妈：是突发新闻吗？$"
 
 PlayersHouse_1F_Text_LatiEmergencyNewsFlash:
-    .string "插播一条\n紧急新闻！\p在丰缘地区许多地方\n送来的目击报告称，有人看到\l天空中有彩色宝可梦飞过，\p现在这只宝可梦\n身份依然不明。\p下面继续播放\n正常节目。$"
+    .string "紧急插播\n一条快讯！\p丰缘地区多处地点有目击报告称空中\n有——嗡沙沙——色的宝可梦飞过，\p现在这只宝可梦\n身份依然不明。\p下面继续播放\n正常节目。$"
 
 PlayersHouse_1F_Text_WhatColorDidTheySay:
-    .string "妈妈：{PLAYER}，你听到了吗？\p刚才新闻里说的\n宝可梦是什么颜色的来着？$"
+    .string "妈妈：{PLAYER}，你听到了吗？\p刚才新闻里说的\n宝可梦是什么颜色的？$"
 
 PlayersHouse_1F_Text_StillUnknownPokemon:
-    .string "妈妈：真了不起！\n世界上还有未被发现的宝可梦呢！$"
+    .string "妈妈：哎呀，这可真稀奇！\n居然还有未知的宝可梦呢！$"

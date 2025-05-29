@@ -384,7 +384,7 @@ BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
     .string "要挑战单打对战厅吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
-    .string "对战宫殿里有几个专门为\n单打对战准备的礼堂，\l我们称之为单打对战厅。\p单打对战与普通比赛的规则一致，\n但需要遵守一条关键规则——\p训练家只能替换宝可梦，\p禁止对宝可梦下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败7个训练家，\l我们将向您呈上对战点数。\p如果要暂停挑战的话\n需要先写入记录，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
+    .string "对战宫殿里有几个专门为\n单打对战准备的礼堂，\l我们称之为单打对战厅。\p单打对战与普通比赛的规则一致，\n但需要遵守一条关键规则——\p训练家只能替换\n自己的宝可梦，\p禁止对它们下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败7个训练家，\l我们将向您呈上对战点数。\p如果要暂停挑战的话\n需要先写入记录，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
     .string "当您的心灵与您的宝可梦都变得\n更强的时候，再回到这里来吧。$"
@@ -399,7 +399,7 @@ BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
     .string "哎……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NowSelectThreeMons:
-    .string "好的。现在，请选择\n要参加的3只宝可梦。$"
+    .string "好的。那么请选择要参加的\n3只宝可梦。$"
 
 BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge2:
     .string "带您去对战厅之前\n需要先写入记录，可以吗？$"
@@ -455,7 +455,7 @@ BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
     .string "要挑战双打对战厅吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
-    .string "对战宫殿里有几个专门为\n双打对战准备的礼堂，\l我们称之为双打对战厅。\p双打对战与普通比赛的规则一致，\n但需要遵守一条关键规则——\p训练家只能替换宝可梦，\p禁止对宝可梦下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败7个训练家，\l我们将向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
+    .string "对战宫殿里有几个专门为\n双打对战准备的礼堂，\l我们称之为双打对战厅。\p双打对战与普通比赛的规则一致，\n但需要遵守一条关键规则——\p训练家只能替换\n自己的宝可梦，\p禁止对它们下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败7个训练家，\l我们将向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers:
     .string "要连续打败宫殿守护者\n和7个训练家啊……$"
@@ -473,7 +473,7 @@ BattleFrontier_BattlePalaceLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesBasics:
-    .string "在这里，宝可梦需要\n凭借自己的思考来战斗。\p与野生宝可梦不同，和人们\n一同生活的宝可梦会依据\l它们的性格选择不同的战斗方式。$"
+    .string "在这里，宝可梦需要凭借\n自己的思考来战斗。\p与野生宝可梦不同，\n和人们一同生活的宝可梦会依据它们的\l性格选择不同的战斗方式。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesNature:
     .string "由于性格的差别，有的宝可梦\n喜欢不计后果的攻击，\p有的喜欢尽量保护自己\n不受任何伤害，\p还有一些喜欢干扰\n消耗它的对手。\p不同性格的宝可梦\n都会有各自喜欢的\l并且擅长的招式，\p当然也会有不喜欢\n并且不擅长的招式。$"

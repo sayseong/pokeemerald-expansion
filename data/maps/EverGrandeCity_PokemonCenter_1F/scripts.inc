@@ -77,7 +77,7 @@ EverGrandeCity_PokemonCenter_1F_Movement_ScottExit:
 	step_end
 
 EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad:
-    .string "穿过冠军之路，\n宝可梦联盟就在眼前。\p已经走了这么远，到底\n是什么让你坚持到现在？$"
+    .string "穿过冠军之路，\n宝可梦联盟就在眼前。\p已经走了这么远，\n到底是什么让你坚持到现在？$"
 
 EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon:
     .string "漫长而艰苦的冠军之路……\p它就像是你人生中\n所经历的小路……\p相信自己的宝可梦并且\n给予它你的信心！$"

@@ -387,31 +387,31 @@ SlateportCity_Harbor_EventScript_TradedScanner::
 	end
 
 SlateportCity_Harbor_Text_FerryServiceUnavailable:
-    .string "您说什么？\n在找船吗？\p对不起，现在游船\n还未通航……$"
+    .string "您说什么？\n想要乘船吗？\p对不起，目前渡轮\n还未通航……$"
 
 SlateportCity_Harbor_Text_MayISeeYourTicket:
-    .string "您好，您来乘坐游船吗？\n可以看看您的船票吗？$"
+    .string "您好，是来乘渡轮吗？\n可以出示您的船票吗？$"
 
 SlateportCity_Harbor_Text_YouMustHaveTicket:
-    .string "{PLAYER}没有船票……\p非常抱歉，\p要乘船的话\n必须要有船票。$"
+    .string "{PLAYER}没有船票……\p非常抱歉。\p必须要持有船票\n才能登船。$"
 
 SlateportCity_Harbor_Text_FlashedTicketWhereTo:
-    .string "{PLAYER}出示了船票。\p好！有它就够了！\p您想去哪儿？$"
+    .string "{PLAYER}出示了船票。\p好的，没问题了！\p您想去哪里？$"
 
 SlateportCity_Harbor_Text_SailAnotherTime:
     .string "欢迎下次再来！$"
 
 SlateportCity_Harbor_Text_LilycoveItIs:
-    .string "那么，是水静市！$"
+    .string "那就前往水静市吧！$"
 
 SlateportCity_Harbor_Text_BattleFrontierItIs:
-    .string "那么，是对战开拓区！$"
+    .string "那就前往对战开拓区吧！$"
 
 SlateportCity_Harbor_Text_PleaseBoardFerry:
-    .string "请先上船，\n等候启程。$"
+    .string "请登船等候出发。$"
 
 SlateportCity_Harbor_Text_WhereWouldYouLikeToGo:
-    .string "那么，您想去哪儿？$"
+    .string "那么您想去哪里？$"
 
 SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday:
     .string "去海底旅行……\n不知道会是什么样？\p希望哪天我也\n能到海底去。$"
@@ -438,10 +438,10 @@ SlateportCity_Harbor_Text_NeedDiveToCatchSub:
     .string "楠木馆长：要追上一艘潜艇……\n对普通人来说几乎不可能。\p你或许需要一只\n会潜水的宝可梦……\p也许你去\n绿岭市的话……\p那儿住着很多潜水员，\n也许有人能教会你……$"
 
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
-    .string "楠木馆长：啊，没错，\n哈奇老人到我们船厂来了。\p这样游船\n很快就会完工了！$"
+    .string "楠木馆长：啊，没错，\n哈奇老人到我们船厂来了。\p这样渡轮很快\n就会完工了！$"
 
 SlateportCity_Harbor_Text_FinishedMakingFerry:
-    .string "楠木馆长：{PLAYER}{KUN}！\p我们终于造好\n破浪号游船了！\p多亏了你朋友哈奇老人的帮忙，\n我们才能这么快完工。\p来坐船体验下\n短途航行吧！$"
+    .string "楠木馆长：{PLAYER}{KUN}！\p我们终于造好\n破浪号渡轮了！\p多亏了你朋友哈奇老人的帮忙，\n我们才能这么快完工。\p来坐船体验下\n短途航行吧！$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
     .string "楠木馆长：嗯？\n{PLAYER}{KUN}，你拿的是……\p那是探测器！这会在我们的勘探中\n派上大用场的。\p{PLAYER}{KUN}，你愿意用你的\n探测器换点东西吗？\p比如，嗯，深海之牙\n或者深海鳞片？$"
