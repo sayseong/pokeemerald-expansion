@@ -33,7 +33,7 @@ Route102_Text_AllenDefeated::
     .string "我喊你过来，\n是因为我想要打败你……$"
 
 Route102_Text_AllenPostBattle::
-    .string "我还一次都没有赢过……\n真希望我能快点赢……$"
+    .string "我还一次都没有赢过……\n真希望我能早点赢……$"
 
 Route102_Text_RickIntro::
     .string "哈哈！四目相对！\n我要用虫宝可梦打败你！$"

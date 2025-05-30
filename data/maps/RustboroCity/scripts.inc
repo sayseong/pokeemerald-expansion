@@ -1121,13 +1121,13 @@ RustboroCity_Text_BrendanWantToBattle:
     .string "小悠：怎样？\n想和我来场对战吗？$"
 
 RustboroCity_Text_BrendanIWontGoEasy:
-    .string "小悠：虽然你刚成为\n训练家，但我不会手下留情哦！$"
+    .string "小悠：虽然你刚成为训练家，\n但我不会手下留情哦！$"
 
 RustboroCity_Text_BrendanDefeat:
     .string "嘿……\n挺有两下子嘛。$"
 
 RustboroCity_Text_BrendanMrBrineyHint:
-    .string "小悠：对了，你知道我刚刚遇到的\n那个哈奇老人吗？\p我想你刚搬来\n还不知道，{PLAYER}，\l哈奇老人以前可是超级有名的水手！$"
+    .string "小悠：对了，你知道我刚刚遇到的\n那个哈奇老人吗？\p我想你刚搬来不久所以还不知道，\n{PLAYER}，\l哈奇老人以前可是超级有名的水手！$"
 
 RustboroCity_Text_TunnelNearingCompletion:
     .string "“便利隧道\n即将完工！”\p……牌子上这么写着，\n但上面还有个用红漆\l画了的大大的“X”……$"

@@ -355,13 +355,13 @@ Route116_Text_ScoundrelMadeOffWithPeeko:
     .string "啊啊啊，我该怎么办？\p我和小皮散步的时候\n被一个奇怪的强盗袭击了……\p那混蛋抢走了\n我亲爱的小皮！\p哇啊啊啊啊啊啊！小皮！$"
 
 Route116_Text_WantToDigTunnel:
-    .string "呜……吼！\p我想要挖那条隧道！$"
+    .string "呜……吼！\p我一定要挖通那条隧道！$"
 
 Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
-    .string "呜……吼！\n发生了什么？\p我刚才在徒手挖隧道，\n突然过来个蠢货把我赶了出来！\p那隧道里到处是\n容易受惊的宝可梦，\l它们会引起大骚动的。\p所以我们才会停止\n使用大型机械挖隧道的工程……\p我担心那蠢货\n会做出些什么吓到\l宝可梦的蠢事。$"
+    .string "呜……吼！\n发生什么事了？\p我正徒手挖隧道呢，\n突然有个混混把我赶出来了！\p那隧道里的宝可梦\n对噪音特别敏感，\l可能会引发骚乱。\p所以我们才停用了重型机械……\p就怕那混混干蠢事，\n惊动宝可梦们暴动。$"
 
 Route116_Text_GoonHightailedItOutOfTunnel:
-    .string "呜……吼！\p那个蠢货夹着尾巴逃跑了！\n我可以回去挖隧道了！$"
+    .string "呜……吼！\p那混混慌慌张张\n逃出隧道了！\l我又能继续挖啦！$"
 
 Route116_Text_ThankYouTokenOfAppreciation:
     .string "啊，是你！\p你就是那个在\n橙华森林里帮过我，\l又替我追回了被偷的包裹，\l然后好心地把它送到凯那市去的人！\p楠木馆长告诉我们\n包裹已经平安到达了！\p非常非常感谢！\p在下对您的感谢如同滔滔江水连绵不绝\n又如黄河泛滥一发不可收拾……\l大英雄啊！\p我给你这最优秀的训练家\n带来了个好消息！\p最近我们公司开发出\n一种新的精灵球，\p我们把它送给你，就当作我们对一个\n杰出的训练家的感谢！$"
@@ -373,7 +373,7 @@ Route116_Text_BagIsJamPacked:
     .string "你的包包满了，\n装不下这重复球。$"
 
 Route116_Text_TokenOfAppreciation:
-    .string "我把这种新的精灵球\n送给你，我们最优秀的训练家，\l就当作是我们对你\l为我们递送包裹的谢礼！$"
+    .string "我把这种新的精灵球\n送给你，我们最优秀的训练家，\l就当作是我们对你\l为我们送包裹的谢礼！$"
 
 Route116_Text_CanYouHelpMeFindGlasses:
     .string "我的眼镜丢了……\n能帮我找找吗？$"
@@ -404,4 +404,3 @@ Route116_Text_TrainerTipsBToStopEvolution:
 
 Route116_Text_TrainerTipsBagHasPockets:
     .string "有用的公告牌！\p包包由数个\n口袋组成，\p得到的道具会\n自动放入合适的口袋中。\p每个训练家都应\n有一个自己的包包。$"
-

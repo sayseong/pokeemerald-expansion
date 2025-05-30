@@ -925,7 +925,7 @@ LittlerootTown_Text_ExplainRunningShoes:
     .string "妈妈：{PLAYER}，\n这是这双鞋的说明：\p“穿着跑步鞋时，\n按B键可以跑得更快！\p穿上跑步鞋，\n在野外尽情奔跑吧！”$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
-    .string "…… …… …… ……\n…… …… …… ……\p要是知道你有了\n自己的宝可梦……\l爸爸也一定会很高兴的。\p……但是，路上小心，无论发生了\n什么，家门永远为你敞开着。\p去吧，向着自己的目标努力吧，宝贝！$"
+    .string "…… …… …… ……\n…… …… …… ……\p要是知道你有了\n自己的宝可梦……\l爸爸也一定会很高兴的。\p……但是，路上小心，无论发生了什么，\n家门永远为你敞开着。\p去吧，向着自己的目标努力吧，\n宝贝！$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
     .string "打开电脑就可以存取\n道具和宝可梦了。\p科学的力量真伟大！$"

@@ -1086,7 +1086,7 @@ Route104_Text_BrendanLetsBattle:
     .string "小悠：怎样？\n想和我来场对战吗？$"
 
 Route104_Text_BrendanIntro:
-    .string "小悠：虽然你刚成为\n训练家，但我不会手下留情哦！$"
+    .string "小悠：虽然你刚成为训练家，\n但我不会手下留情哦！$"
 
 Route104_Text_BrendanDefeat:
     .string "嘿……\n挺能干的嘛。$"
