@@ -1016,20 +1016,20 @@ gText_SorryRecordCornerPreparation::
 	.string "正在筹备中。$"
 
 gText_PlayerHandedOverTheItem::
-	.string "{PLAYER}交出了\n"
-	.string "{STR_VAR_1}。$"
+	.string "{PLAYER}\n"
+	.string "交出了{STR_VAR_1}。$"
 
 gText_ThankYouForAccessingMysteryGift::
 	.string "感谢连接\n"
 	.string "神秘礼物系统。$"
 
 gText_PlayerFoundOneTMHM::
-	.string "{PLAYER}找到了\n"
-	.string "1个{STR_VAR_1}{STR_VAR_2}！$"
+	.string "{PLAYER}找到了{STR_VAR_1}\n"
+	.string "“{STR_VAR_2}”！$"
 
 gText_PlayerFoundTMHMs::
-	.string "{PLAYER}找到了{STR_VAR_3}、{STR_VAR_1}\n"
-	.string "与{STR_VAR_2}！$"
+	.string "{PLAYER}找到了{STR_VAR_3}个{STR_VAR_1}\n"
+	.string "“{STR_VAR_2}”！$"
 
 gText_Sudowoodo_Attacked::
 	.string "奇怪的树不喜欢\n"
@@ -1037,7 +1037,7 @@ gText_Sudowoodo_Attacked::
 	.string "奇怪的树攻击了过来！$"
 
 gText_LegendaryFlewAway::
-	.string "{STR_VAR_1}不知道飞到哪里去了！$"
+	.string "{STR_VAR_1}消失不见了……$"
 
 	.include "data/text/pc_transfer.inc"
 	.include "data/text/questionnaire.inc"

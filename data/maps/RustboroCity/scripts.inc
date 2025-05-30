@@ -1151,16 +1151,16 @@ RustboroCity_Text_CuttersHouse:
     .string "居合劈大叔的家$"
 
 RustboroCity_Text_DevelopedNewPokenavFeature:
-    .string "我正在开发宝可导航的\n其他功能……\p这是个非常棒的功能！\p{PLAYER}，能让我看看社长\n给你的宝可导航吗？$"
+    .string "我最近一直在为宝可导航的\n开发新功能……\p结果非常成功！\p{PLAYER}，能让我看看社长\n给你的宝可导航吗？$"
 
 RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
-    .string "好了，{PLAYER}！\p我给你的宝可导航\n加了个对战寻呼。\p你现在可以用对战寻呼\n与登记到你宝可导航里的人\l聊天了。\p{PLAYER}，我们的社长兹伏奇\n已经登记到你的宝可导航里了，\p试试吧，\n给我们社长打个电话。$"
+    .string "好了，{PLAYER}！\p我给你的宝可导航\n加了个对战寻呼的功能。\p你现在可以用对战寻呼与登记到你\n宝可导航里的人聊天了。\p{PLAYER}，我们的社长兹伏奇已经\n登记到你的宝可导航里了，\p试试看吧，\n给我们社长打个电话。$"
 
 RustboroCity_Text_PleaseSelectPokenav:
     .string "请选择宝可导航。$"
 
 RustboroCity_Text_IdBetterGetBackToWork:
-    .string "好了，我该回去工作了。\n祝一路顺风，{PLAYER}！$"
+    .string "好了，我得继续工作了。\n一路顺风，{PLAYER}！$"
 
 RustboroCity_Text_YouCanHave2On2Battle:
     .string "知道吗？\p即使你并未和其他训练家同行，\n也可以进行2对2战斗。\p如果你拥有2只以上宝可梦时\n被2个训练家看到，\l他们会同时向你挑战。\p你不觉得能独自打败\n2个训练家很厉害吗？$"

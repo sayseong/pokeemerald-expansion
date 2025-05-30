@@ -210,7 +210,7 @@ JaggedPass_Text_GoWhereverYouWant:
     .string "好吧好吧！\n我承认——你很强！\p别管我在干什么，\n赶紧去你想去的地方吧！$"
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
-    .string "喔！这块大石头对熔岩标志\n有反应！石头晃动起来了！$"
+    .string "喔！这块巨石对熔岩标志\n有反应！它晃动起来了！$"
 
 JaggedPass_Text_JulioIntro:
     .string "哎呀！一下子从山顶冲下来\n真的好可怕！$"

@@ -455,7 +455,7 @@ LilycoveCity_Text_BrendanDefeat:
     .string "唔……\n你的宝可梦培育得不错。\p明明我才是前辈训练家……\n有点不甘心啊。$"
 
 LilycoveCity_Text_BrendanGoingBackToLittleroot:
-    .string "小悠：我……\n我打算回未白镇了。\p你也知道我在帮爸爸收集\n宝可梦图鉴，现在进展得还挺不错，\l我要回去给他看看。$"
+    .string "小悠：我……\n我打算回未白镇了。\p你也知道我在帮爸爸收集宝可梦图鉴，\n现在进展得还挺不错，\l我要回去给他看看。$"
 
 LilycoveCity_Text_BrendanYouGoingToCollectBadges:
     .string "{PLAYER}，你接下来打算做什么？\p收集所有的道馆徽章，\n然后去挑战宝可梦联盟吗？\p也许我也会试试……\p好了，无论如何，加油吧！$"

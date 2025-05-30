@@ -2292,7 +2292,7 @@ Route121_Text_TammyDefeat::
     .string "我输了……$"
 
 Route121_Text_TammyPostBattle::
-    .string "送神山……\n那里有一股神秘的力量\l在进行着……$"
+    .string "送神山……\n那里有一股神秘的力量\l在运作着……$"
 
 Route121_Text_KateIntro::
     .string "真奈：只要我们在一起，就没有什么\n可怕的！我们会证明我们有多强！$"
@@ -2367,7 +2367,7 @@ Route121_Text_CaleDefeat::
     .string "当然是我输了！\n毕竟我两只手都在拿东西！$"
 
 Route121_Text_CalePostBattle::
-    .string "我在水静百货买了太多东西了。\p那家店就是这条路上面。\n真想有一个像你的那样的包包。$"
+    .string "我在水静百货买了太多东西了。\p那家店就在这条路前面。\n真想有一个像你的那样的包包。$"
 
 Route121_Text_MylesIntro::
     .string "我最喜欢的事情莫过于\n看看别人的宝可梦了！$"
@@ -3150,7 +3150,7 @@ Route131_Text_HermanDefeat::
     .string "呀啊！$"
 
 Route131_Text_HermanPostBattle::
-    .string "我受够了海，但我还得继续游下去。\p我是为了游泳而生的！\n这就是我！$"
+    .string "我受够了海，\n但我还会继续游下去。\p我是为了游泳而生的！\n这就是我！$"
 
 Route131_Text_SusieIntro::
     .string "嗨，亲，稍等一下！\n来对战吧，你我两人！$"

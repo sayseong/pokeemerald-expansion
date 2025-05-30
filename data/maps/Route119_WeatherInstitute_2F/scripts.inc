@@ -223,10 +223,10 @@ Route119_WeatherInstitute_2F_Text_Grunt3Intro:
     .string "我们是海洋队！\n稀有的东西出现的地方，\l就会有我们！$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3Defeat:
-    .string "你赢了我了！$"
+    .string "你赢了！$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3PostBattle:
-    .string "你根本不可能了解我们\n海洋队的理想！\l不要挡住我们前进的道路！$"
+    .string "你根本不了解我们\n海洋队的理想！\l少来碍事！$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5Intro:
     .string "别告诉我你也想\n要那只天气宝可梦，\p绝对不可能！\n先得到的一定是我们！$"
@@ -235,7 +235,7 @@ Route119_WeatherInstitute_2F_Text_Grunt5Defeat:
     .string "啊，看看我的宝可梦怎么样？$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
-    .string "哼，那又怎么样？\n我们想要的……\p我们真正想要的并不在这里……\n咿哈哈哈哈……$"
+    .string "哼，那又怎么样？\n我们想要的……\p我们真正想要的并不在这里……\n咿嘻嘻嘻嘻……$"
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro:
     .string "啊哈哈哈哈！\p竟敢插手我们\n海洋队的行动吗？\p你是无畏，还是无知，\n或是两者兼有呢？\p太可爱了，太可恨了！\n我这就打倒你，小家伙！$"
@@ -253,7 +253,7 @@ Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
     .string "什么？！\p我们不能再在这里浪费时间了！\n我们也得赶紧去送神山了！\p啊哈哈哈哈！\n熔岩队，你们给我等着！$"
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon:
-    .string "谢谢！\n多亏你救了我们！\p也许作为谢礼有点奇怪，\n不过，收下这只宝可梦吧。$"
+    .string "谢谢！\n多亏你救了我们！\p也许作为谢礼有点特别，\n不过，收下这只宝可梦吧。$"
 
 @ Unused
 Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:

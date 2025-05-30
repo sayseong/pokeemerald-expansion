@@ -239,7 +239,7 @@ EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver:
     .string "小遥：咦？\n什么？\p{PLAYER}{KUN}……\n难道说……\l已经结束了？$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanAdvice:
-    .string "小悠：{PLAYER}！\p挑战冠军前\n需要建议吗？……$"
+    .string "小悠：{PLAYER}！\p挑战冠军前\n需要建议吗……？$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
     .string "小悠：{PLAYER}……\p你该不会……\n已经打败冠军了？$"

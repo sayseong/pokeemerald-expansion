@@ -351,7 +351,7 @@ PlayersHouse_1F_Text_RunningShoesManual:
     .string "这是跑步鞋的\n使用说明书。\p“穿上跑步鞋，\n按B键即可奔跑。\p系好鞋带，\n尽情奔跑吧！”$"
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
-    .string "爸爸：嗯？\p哟，{PLAYER}！\p有段时间没见了，\n不过你看起来……变强了呢。\p至少我是这么觉得的，\n不过爸爸可还没认输呢！\p啊，对了，有东西要给你，\n这是一个叫哈奇的人\l寄过来的。$"
+    .string "爸爸：嗯？\p哟，{PLAYER}！\p有段时间没见了，\n不过你看起来……变强了呢。\p至少我是这么觉得的，\n不过爸爸可还没认输呢！\p啊，对了，有东西要给你，\n这是一个叫哈奇的人寄过来的。$"
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove:
     .string "爸爸：唔，乘坐渡轮的船票？\p我记得凯那市和水静市\n都有渡轮码头。$"

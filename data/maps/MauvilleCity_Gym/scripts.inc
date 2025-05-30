@@ -320,7 +320,7 @@ MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
     .string "有了这个电力徽章，\n宝可梦就可以在对战外使用碎岩了，\p而且你的宝可梦的速度也会\n变得稍微快一点。\p嗯……\n你也收下这个吧！$"
 
 MauvilleCity_Gym_Text_ExplainShockWave:
-    .string "那是招式学习器34电击波，\n是永远不会打偏的可靠招式！\l你可以信赖它！\p…… …… ……$"
+    .string "那是招式学习器34电击波，\n是永远不会打偏的可靠招式！\l值得你信赖！\p…… …… ……$"
 
 MauvilleCity_Gym_Text_RegisteredWattson:
     .string "把道馆馆主铁旋\n登记到宝可导航里了。$"
