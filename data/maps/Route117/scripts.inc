@@ -1,4 +1,3 @@
-.set LOCALID_DAYCARE_MAN, 3
 .set LOCALID_DAYCARE_MON_0, 25
 .set LOCALID_DAYCARE_MON_1, 26
 
@@ -217,7 +216,7 @@ Route117_EventScript_Aisha::
 	end
 
 Route117_Text_DayCarePokemonHadNewMove:
-    .string "我把宝可梦寄存在培育屋，\p但当我取回它时，它学会了一个\n我从未教过的招式。\l真的，我非常吃惊。$"
+    .string "我把宝可梦寄存\n在培育屋里，\p但当我取回它时，它学会了一个\n我从未教过的招式。\l真的，我非常吃惊。$"
 
 Route117_Text_ArentTheseFlowersPretty:
     .string "你怎么想？\n这些花很漂亮吧？\p都是我种的！$"

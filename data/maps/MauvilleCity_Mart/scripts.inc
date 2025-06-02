@@ -38,8 +38,8 @@ MauvilleCity_Mart_EventScript_Man::
 	end
 
 MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats:
-    .string "有些道具可以\n暂时提升宝可梦的能力，\p我所知道的可以在战斗中使用的\n有攻击强化和防御强化……\p我肯定还有其它\n这样的道具。$"
+    .string "有些道具可以\n暂时提升宝可梦的能力，\p我所知道的可以在对战中使用的\n有攻击强化和防御强化……\p我肯定还有其它\n这样的道具。$"
 
 MauvilleCity_Mart_Text_DecisionsDetermineBattle:
-    .string "使用某种招式，\n或者改用道具……\p我想，是训练家的选择\n决定了战斗的走向。$"
+    .string "使用某种招式，\n或者改用道具……\p我想，是训练家的选择\n决定了对战的走向。$"
 

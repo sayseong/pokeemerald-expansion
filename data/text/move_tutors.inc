@@ -1,5 +1,5 @@
 MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce::
-    .string "这个招式只能教你一次，\n这样可以吗？$"
+    .string "这个招式只能教你1次，\n这样可以吗？$"
 
 MoveTutor_Text_SwaggerTeach::
     .string "嗨！看我的宝可梦多完美！\n它比所有其它宝可梦都酷！\p我总是像这样虚张声势，\n结果被会长训了一顿。\p现在我没法虚张声势了。\p如果你愿意，我会教你的1只宝可梦\n学习虚张声势。$"
@@ -26,7 +26,7 @@ MoveTutor_Text_RolloutTaught::
     .string "在草里打滚使我\n非常快乐。来吧，让我们滚起来！$"
 
 MoveTutor_Text_FuryCutterTeach::
-    .string "这是一个你连续使用\n就会变得更强大的招式。\p这是一个虫属性的招式，并且\n是很酷的招式。\p这个招式叫做连续切。\n想让我教你的宝可梦吗？$"
+    .string "这是一个你连续使用\n就会变得更强大的招式。\p这是一个虫属性的招式，\n并且是很酷的招式。\p这个招式叫做连斩。\n想让我教你的宝可梦吗？$"
 
 MoveTutor_Text_FuryCutterDeclined::
     .string "我们合不来。$"
@@ -50,7 +50,7 @@ MoveTutor_Text_MimicTaught::
     .string "模仿是个伟大而深奥的招式。\p你能像我一样\n运用自如吗……？$"
 
 MoveTutor_Text_MetronomeTeach::
-    .string "我什么东西都想要！\n但是我把钱都花光了……\p如果要是有个能够让你\n一摇手指就会出现钱的\l魔法岂不美哉？\p如果你想，我能让你的宝可梦\n学会摇手指。\p钱不会出现，但你的宝可梦\n将会摇动手指。好吗？$"
+    .string "我什么东西都想要！\n但是我把钱都花光了……\p如果要是有个能够让你\n一挥指就会出现钱的\l魔法岂不美哉？\p如果你想，我能让你的宝可梦\n学会挥指。\p钱不会出现，但你的宝可梦\n将会摇动手指。好吗？$"
 
 MoveTutor_Text_MetronomeDeclined::
     .string "好的。等你改变主意了\n再来找我。$"
@@ -59,25 +59,25 @@ MoveTutor_Text_MetronomeWhichMon::
     .string "好的！我来教你！\n想让哪只宝可梦学习？$"
 
 MoveTutor_Text_MetronomeTaught::
-    .string "当宝可梦使用\n摇手指时，各种各样的好事情\l都会发生。\p我们使用它不是也很棒吗？$"
+    .string "当宝可梦使用\n挥指时，各种各样的好事情\l都会发生。\p我们使用它不是也很棒吗？$"
 
 MoveTutor_Text_SleepTalkTeach::
-    .string "嗯！我的妻子依靠觉醒\n力量来保持清醒。\p她明明可以像我一样打个盹，\n然后说梦话。\p我能让你的宝可梦\n学会梦话。有兴趣吗？$"
+    .string "嗯！我老伴依靠觉醒力量\n来保持清醒。\p她明明可以像我一样打个盹，\n然后说梦话的。\p我能让你的宝可梦学会梦话。\n有兴趣吗？$"
 
 MoveTutor_Text_SleepTalkDeclined::
-    .string "噢，好，好。你也想用\n觉醒力量来保持清醒……$"
+    .string "哦，好吧……\n你也想用觉醒力量来保持清醒……$"
 
 MoveTutor_Text_SleepTalkWhichMon::
     .string "啊，多有眼光的孩子呀！\n你想让我教哪只宝可梦？$"
 
 MoveTutor_Text_SleepTalkTaught::
-    .string "我从来都猜不对我老婆的\n硬币把戏。\p要是我能在梦话里说中了\n感觉也挺不错的。$"
+    .string "我从来都猜不对我老伴的\n硬币把戏。\p要是我能在梦话里说中了\n感觉也挺不错的。$"
 
 MoveTutor_Text_SubstituteTeach::
-    .string "当我在屋顶上看着\n这广阔的世界时……\p我在想如果这个世界如果\n有不止一个自己该多有趣啊，\l那样我就能体验各种各样的人生了。\p当然这是不可能的。\n嘿嘿……\p我明白了！\n你想让你的宝可梦学习替身吗？$"
+    .string "当我在屋顶上看着\n这广阔的世界时……\p我在想如果这个世界如果\n有不止一个自己该多有趣啊，\l那样我就能体验各种各样的人生了。\p当然这是不可能的。\n嘿嘿……\p明白了！\n不如让你的宝可梦学习替身吧？$"
 
 MoveTutor_Text_SubstituteDeclined::
-    .string "噢，不？\p宝可梦能将自己本身\n复制出来，你知道的。$"
+    .string "噢，不？\p宝可梦可是能用这个招式\n再复制出一个自己的。$"
 
 MoveTutor_Text_SubstituteWhichMon::
     .string "嘿嘿……\n你想让哪只宝可梦\l学会替身？$"
@@ -98,13 +98,13 @@ MoveTutor_Text_DynamicPunchTaught::
     .string "我希望你能用爆裂拳\n在绿岭市道馆获胜！$"
 
 MoveTutor_Text_DoubleEdgeTeach::
-    .string "唉……\p琉璃市道馆馆主可真是\n太让人敬爱不已了。\p但这也意味着会有很多同样被\n他吸引的人做我的竞争对手。\p他的魅力就像舍身一击\n一样有利有弊。\l他根本都注意不到我。\p那么，让我教你的宝可梦\n学习舍身一击！$"
+    .string "唉……\p琉璃市道馆馆主可真是\n太让人敬爱不已了。\p但这也意味着会有很多同样被\n他吸引的人做我的竞争对手。\p他的魅力就像舍身冲撞\n一样有利有弊。\l他根本都注意不到我。\p那么，让我教你的宝可梦\n学习舍身冲撞！$"
 
 MoveTutor_Text_DoubleEdgeDeclined::
     .string "噢……\n连你都拒绝我……$"
 
 MoveTutor_Text_DoubleEdgeWhichMon::
-    .string "好的，你希望哪只宝可梦\n能学会舍身一击？$"
+    .string "好的，你希望哪只宝可梦\n能学会舍身冲撞？$"
 
 MoveTutor_Text_DoubleEdgeTaught::
     .string "我不再为爱而活着！\n我要更加坚强！$"

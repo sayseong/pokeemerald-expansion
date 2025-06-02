@@ -69,5 +69,5 @@ VictoryRoad_B1F_Text_HalleDefeat:
     .string "哇啊！\n漂亮！$"
 
 VictoryRoad_B1F_Text_HallePostBattle:
-    .string "虽然这里确实是冠军之路，\p但它与你之前所经过的道路\n并无太大不同。\p试着去享受你之后\n将会遇到的一切吧！$"
+    .string "尽管这里的确是\n冠军之路，\p但它与你之前所经过的道路\n并无太大不同。\p试着去享受你之后\n将会遇到的一切吧！$"
 

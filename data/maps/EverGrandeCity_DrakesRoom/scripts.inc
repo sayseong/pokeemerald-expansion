@@ -10,7 +10,7 @@ EverGrandeCity_DrakesRoom_OnWarp:
 	.2byte 0
 
 EverGrandeCity_DrakesRoom_EventScript_PlayerTurnNorth::
-	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	turnobject LOCALID_PLAYER, DIR_NORTH
 	end
 
 EverGrandeCity_DrakesRoom_OnFrame:
@@ -62,11 +62,11 @@ EverGrandeCity_DrakesRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_DrakesRoom_Text_IntroSpeech:
-    .string "我是联盟最后的四天王，\n龙属性大师——源治！\p在自然情况下，宝可梦是生来就具有\n野性的生物。它们自由，不受束缚。\p有时候，它们会妨碍人类。\n有时候，它们会帮助人类。\p当我们使用宝可梦作为伙伴战斗时，\n你知道如何才能获胜吗？\p你知道需要什么条件吗？\p如果你不知道，那么你永远\n不可能战胜我！$"
+    .string "我是宝可梦联盟四天王的最后一员，\n龙属性大师源治！\p在天然的环境中生活的\n宝可梦是具有野性的生物。\l它们不受任何约束。\p有时会妨碍到我们，\n有时也会帮助我们。\p对于我们这些将宝可梦视为同伴\n一同战斗的训练家来说，\l你知道怎样才能赢得胜利吗？\p你知道获得胜利所需的条件吗？\p如果你不知道，\n那么你永远也无法战胜我！$"
 
 EverGrandeCity_DrakesRoom_Text_Defeat:
-    .string "漂亮，果然不是浪得虚名。$"
+    .string "干得漂亮，\n就是这样。$"
 
 EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
-    .string "你能走这么远已经证明了你自己\n作为宝可梦训练家的实力！\p看起来你知道战斗胜利所需的条件。\p是的，训练家所需要的就是\n一颗善良的心。\p宝可梦感受到训练家的心\n并学会着分辨善恶。\p它们感受到训练家的心\n并成长得无可匹敌。\p走吧！继续前进！\n冠军正在等待你！$"
+    .string "身为宝可梦训练家，\n你的确具备能走到这一步的能力。\p看起来你知道获胜\n所需的条件是什么。\p没错。训练家需要的\n正是一颗善良的心。\p宝可梦感受到训练家的善心\n才会学着分辨对错，\p感受到训练家的善心\n才会变得更加强大。\p走吧！前进吧！\n冠军在等着你！$"
 

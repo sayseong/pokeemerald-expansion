@@ -26,7 +26,7 @@ struct {
     u8 curScene;
     u16 timer;
     struct MultiBootParam mb;
-} static * sBerryFix;
+} static *sBerryFix;
 
 static void BerryFix_Main(void);
 static void BerryFix_GpuSet(void);
@@ -40,7 +40,7 @@ static const u8 sText_Emerald[] = _("绿宝石");
 static const u8 sText_BerryProgramWillBeUpdatedPressA[] = _("{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}{CLEAR_TO 24}针对精灵宝可梦：红宝石·蓝宝石\n"
                                                             "{CLEAR_TO 12}树果问题进行修复的补丁程序已就绪\n"
                                                             "\n{COLOR RED}{SHADOW LIGHT_RED}{CLEAR_TO 8}请按下A键继续。");
-static const u8 sText_EnsureGBAConnectionMatches[] = _("{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}请确认两台GBA游戏机\n"
+static const u8 sText_EnsureGBAConnectionMatches[] = _("{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}请确认2台GBA游戏机\n"
                                                        "是否已经按照上图所示的方式连接。\n"
                                                        "{COLOR RED}{SHADOW LIGHT_RED}确认，没有问题{CLEAR_TO 12} ▶按下A键\n"
                                                        "不是{CLEAR_TO 12} ▶关机重启再试一次");
@@ -48,12 +48,12 @@ static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("{COLOR DARK_GRAY}{SH
                                                            "插有宝可梦红蓝宝石卡带的GBA电源。\n"
                                                            "完成以上步骤后，请确认该GBA上\n"
                                                            "是否已经出现上面的开机画面。");
-static const u8 sText_TransmittingPleaseWait[] = _("正在建立通信连接\n"
+static const u8 sText_TransmittingPleaseWait[] = _("正在连接\n"
                                                    "请稍等……\n"
-                                                   "\n{COLOR RED}{SHADOW LIGHT_RED}{CLEAR_TO 24}请勿拔插通信数据线！");
+                                                   "\n{COLOR RED}{SHADOW LIGHT_RED}{CLEAR_TO 24}请勿拔插连接数据线！");
 static const u8 sText_PleaseFollowInstructionsOnScreen[] = _("请根据红宝石·蓝宝石\n"
                                                              "游戏画面操作。");
-static const u8 sText_TransmissionFailureTryAgain[] = _("\n{CLEAR_TO 12}通信连接失败！\n"
+static const u8 sText_TransmissionFailureTryAgain[] = _("\n{CLEAR_TO 12}连接失败！\n"
                                                         "\n{COLOR RED}{SHADOW LIGHT_RED}{CLEAR_TO 12}请关机并重新再试一次。");
 
 static const struct BgTemplate sBerryFixBgTemplates[] = {

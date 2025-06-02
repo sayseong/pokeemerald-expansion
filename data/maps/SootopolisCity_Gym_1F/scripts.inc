@@ -67,7 +67,7 @@ SootopolisCity_Gym_1F_EventScript_UnlockThirdStairs::
 SootopolisCity_Gym_1F_EventScript_FallThroughIce::
 	lockall
 	delay 20
-	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Gym_1F_Movement_FallThroughIce
+	applymovement LOCALID_PLAYER, SootopolisCity_Gym_1F_Movement_FallThroughIce
 	waitmovement 0
 	playse SE_FALL
 	delay 60
@@ -176,38 +176,38 @@ SootopolisCity_Gym_1F_EventScript_GymStatue::
 	end
 
 SootopolisCity_Gym_1F_Text_GymGuideAdvice:
-    .string "嗨，怎么样，向冠军目标\n冲刺的{PLAYER}？\p琉璃市的道馆馆主亚当\n是使用水属性宝可梦的大师，\p但要走到他面前，还要\n先通过冰结成的地面……\p很抱歉，我只能\n给你这一点建议。\p这条路，你要凭\n自己的智慧通过！$"
+    .string "嗨，怎么样，向冠军目标\n冲刺的{PLAYER}？\p琉璃市的道馆馆主亚当\n是使用水属性宝可梦的大师，\p但要走到他面前，\n还要先通过冰结成的地面……\p很抱歉，\n我只能给你这一点建议。\p这条路，\n你要凭自己的智慧通过！$"
 
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
-    .string "哟，被誉为丰缘第一的亚当\n都输给你了！\p好了！看看你的训练家卡，\p如果你得到了所有徽章，\n就向宝可梦联盟出发吧！$"
+    .string "哟，被誉为丰缘第一的亚当\n都输给你了！\p好了！\n检查一下你的训练家卡，\p如果你集齐了所有徽章，\n就向宝可梦联盟出发吧！$"
 
 SootopolisCity_Gym_1F_Text_JuanIntro:
-    .string "我问你，\n你知道吗？\l啊，我没必要这样。\p是我教给了米可利\n关于宝可梦的一切。\p我曾经放弃了\n道馆馆主的职位，\p而把道馆交托给\n米可利。\p但是，由于某种原因，\n我不得不回来。\p好了，话说得够多了，\n开始战斗吧，\p你将会看到\n我们的艺术，\p由我和宝可梦\n共同塑造的水之幻影！$"
+    .string "让我来考考你。\n你知道吗？\l啊，\n我不必如此拐弯抹角。\p是我教给了米可利\n关于宝可梦的一切。\p我曾经放弃了道馆馆主的职位，\n将道馆托付给了米可利\p但是现在我又\n不得不回来。\p啊，闲话说得够多了。\n让我们开始比试吧？\p请你见证我们的艺术。\p由我和宝可梦塑造的\n华丽的水之幻影！$"
 
 @ NOTE: This defeat text actually causes a buffer overflow. It's about 50 bytes too long for
 @ the gDisplayedStringBattle buffer that it's put into, and it stomps all over the gBattleTextBuffs
 @ after, as well as the otherwise unused array after that. One wonders if that's the reason for
 @ the existence of that unused array of ints.
 SootopolisCity_Gym_1F_Text_JuanDefeat:
-    .string "啊哈哈哈哈，不错！\n很好，你赢了。\p从你身上我感觉到了\n能战胜一切的耀目光芒。\p但是，比起我，甚至比起米可利，\n你还缺少一种优雅。\p也许我可以暂且\n借给你一套衣服？\p…… …… ……\n…… …… ……\p哈哈哈，玩笑而已！\p比起衣服，我该给你的\n是这个，雨滴徽章！$"
+    .string "啊哈哈哈，好，好极了！\n你是赢家！\p在你身上，我看到了能\n克服一切的技巧的华丽光耀。\p然而，与我甚至米可利相比，\n你还欠缺优雅。\p也许我该借你\n一套衣服？\p…… …… ……\n…… …… ……\p哈哈哈，\n我只是在说笑！\p比起我的衣服，\n我更该给你这个，雨滴徽章。$"
 
 SootopolisCity_Gym_1F_Text_ReceivedRainBadge:
-    .string "{PLAYER}从亚当处\n得到了雨滴徽章。$"
+    .string "{PLAYER}从亚当那里\n得到了雨滴徽章。$"
 
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
-    .string "有了雨滴徽章，\n所有宝可梦都会听从\l你的命令，\p同时你可以使用\n秘传学习器攀瀑\l攀登瀑布。\p这个给你，不要忘了\n我们这次战斗……$"
+    .string "有了雨滴徽章，\n你所有的宝可梦都会完全\l服从你的每个指示。\p你也能使用秘传招式攀瀑\n攀登瀑布了。\p然后，为了不让你\n忘记这场对战，收下这个……$"
 
 SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
-    .string "我给你的这个招式学习器\n里面是水之波动。\p使用时偶尔会因它的超音波\n使目标陷入混乱。\p…… …… ……$"
+    .string "我交给你的这个招式学习器\n里面是水之波动。\p使用它时偶尔会因为超声波\n使目标陷入混乱。\p…… …… ……$"
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan:
-    .string "把道馆馆主亚当的信息\n登记进宝可导航里。$"
+    .string "把道馆馆主亚当\n登记到宝可导航里了。$"
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
-    .string "收集了丰缘地区所有\n道馆徽章之后，就该\l向最后的目的地出发了，\p那就是宝可梦联盟。\p向丰缘地区最东方的\n彩悠市前进吧，\p宝可梦联盟\n就在彼方。$"
+    .string "收集了丰缘地区所有的\n道馆徽章的训练家应该\l朝向最后的目的地前进，\p那就是宝可梦联盟。\p向着丰缘的最东方，\n前往那名为彩悠的岛屿吧。\p那里便是\n宝可梦联盟之所在。$"
 
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
-    .string "丰缘地区中还剩下\n一枚徽章，\p如果你想挑战宝可梦\n联盟，你必须先获得\l茵郁市的道馆的徽章。$"
+    .string "在丰缘地区仅剩\n最后1枚徽章了。\p如果你想挑战宝可梦联盟，\n你必须先获得茵郁市道馆的徽章。$"
 
 SootopolisCity_Gym_1F_Text_GymStatue:
     .string "琉璃市宝可梦道馆$"
@@ -216,14 +216,14 @@ SootopolisCity_Gym_1F_Text_GymStatueCertified:
     .string "琉璃市宝可梦道馆\p亚当认可的训练家：\n{PLAYER}$"
 
 SootopolisCity_Gym_1F_Text_JuanPreRematch:
-    .string "亚当：啊，这道馆\n本已回归了平静……\p但我们年轻的台风又卷回来，\n给予我们再一次试炼！\p来吧，朋友！\p只要你喜欢，\n我随时可以与你一同起舞！$"
+    .string "亚当：啊，这间道馆终于恢复了\n它往日的风和日丽……\p但我们年轻的台风又再度袭来\n考验我们了！\p好的，我的朋友，\n当然！\p只要你想，\n我随时愿意与你共舞一曲！$"
 
 SootopolisCity_Gym_1F_Text_JuanRematchDefeat:
-    .string "啊哈哈，你赢了！\n你又打败了我！$"
+    .string "啊哈哈哈，你是赢家！\n你又一次打败我了！$"
 
 SootopolisCity_Gym_1F_Text_JuanPostRematch:
-    .string "亚当：如果我请你成为\n我的学生，你肯定会拒绝。\p我想做一件衣服\n送给你，\p但我想\n你同样会拒绝。\p但是，我的朋友，这本就是\n一种高贵的标志！$"
+    .string "亚当：如果我说要收你做徒弟，\n我想你绝对会拒绝。\p我想要把我的外衣\n作礼物送给你，\p但如果我没想错的话，\n你肯定也会拒绝。\p我的朋友，\n这正是你的高贵的表现啊！$"
 
 SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons:
-    .string "亚当：啊，这道馆\n本已回归了平静……\p但我们年轻的台风又卷回来，\n给予我们再一次试炼！\p来吧，朋友！\p我随时可以与你一同起舞……\p啊，不不不，\n你只带了一只宝可梦。\p我希望你能至少\n带两只宝可梦来。$"
+    .string "亚当：啊，这间道馆终于恢复了\n它往日的风和日丽……\p但我们年轻的台风又再度袭来\n考验我们了！\p好的，我的朋友，\n当然！\p只要你想，\n我随时愿意与你共舞一曲！\p啊，不不不，\n你只带了1只宝可梦。\p我希望你能至少\n带2只宝可梦来。$"
 

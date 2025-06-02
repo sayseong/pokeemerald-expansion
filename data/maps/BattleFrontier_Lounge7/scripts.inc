@@ -304,7 +304,7 @@ BattleFrontier_Lounge7_EventScript_Gentleman::
 	end
 
 BattleFrontier_Lounge7_Text_LeftTutorIntro::
-    .string "哇哈哈哈！\p也许现在这样你看不出来，\n不过我过去可是个非常强的训练家。\p告诉你，以前大家可都称我是\n最强的大姐姐！\p…… …… ……\p怎么了？\n你好像不相信？\p我可不是那边那个爱吹牛的女人，\n我真正拥有着才能！\p证明给你看吧，\n我可以教你的宝可梦\l学习特别而又可爱的招式。\p不过这可不是免费的，\n每学一次招式\l你支付一些对战点数如何？$"
+    .string "哇哈哈哈！\p也许现在这样你看不出来，\n不过我过去可是个非常强的训练家。\p告诉你，以前大家可都称我是\n最强的大姐姐！\p…… …… ……\p怎么了？\n你好像不相信？\p我可不是那边那个爱吹牛的女人，\n我真正拥有着才能！\p证明给你看吧，\n我可以教你的宝可梦\l学习特别而又可爱的招式。\p不过这可不是免费的，\n你每学一次招式\l支付一些对战点数如何？$"
 
 BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack::
     .string "哇哈哈哈！\p你是回来学特别而又可爱的\n宝可梦招式的吗？$"
@@ -313,7 +313,7 @@ BattleFrontier_Lounge7_Text_TeachWhichMove::
     .string "好，好，看这儿！\n要我教什么招式？$"
 
 BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints::
-    .string "教{STR_VAR_1}是吗？\n那么支付{STR_VAR_2}对战点数吧，怎样？$"
+    .string "{STR_VAR_1}，是吗？\n那要付给我{STR_VAR_2}BP的对战点数，如何？$"
 
 BattleFrontier_Lounge7_Text_TeachMoveToWhichMon::
     .string "好，好，现在告诉我\n要教给哪只宝可梦。$"
@@ -328,16 +328,16 @@ BattleFrontier_Lounge7_Text_YouDontWantTo::
     .string "什么啊？\n你不想……\p好吧，想看看我的本事的话\n随时可以过来！$"
 
 BattleFrontier_Lounge7_Text_RightTutorIntro::
-    .string "嘻嘻嘻！\p我知道也许现在看不大出来，\n不过我以前可是个非凡的训练家。\p告诉你，以前大家可都称我是\n战无不胜的比基尼姐姐！\p…… …… ……\p怎么了？\n你好像不相信？\p我可不是那边那个小丑一样的女人，\n我可经历过很多！\p证明给你看吧，\n我可以教你的宝可梦学习\l强大而又漂亮的招式。\p不过这可不是免费的，\n每学一次招式你\l支付一些对战点数如何？$"
+    .string "嘻嘻嘻！\p我知道也许现在看不大出来，\n不过我以前可是个非凡的训练家。\p告诉你，以前大家可都称我是\n战无不胜的比基尼姐姐！\p…… …… ……\p怎么了？\n你好像不相信？\p我可不是那边那个小丑一样的女人，\n我可经历过很多！\p证明给你看吧，\n我可以教你的宝可梦学习\l强大而又漂亮的招式。\p不过这可不是免费的，\n你每学一次招式\l支付一些对战点数如何？$"
 
 BattleFrontier_Lounge7_Text_RightTutorWelcomeBack::
     .string "嘻嘻嘻！\p你是回来学习强大而又漂亮的\n宝可梦招式的吗？$"
 
 BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong::
-    .string "那边两位女士总是不停地\n说对方的坏话，也许会让你\l以为她们俩关系并不好吧？\p但如果真是那样，她们\n就不会一块儿呆在那边了，不是吗？$"
+    .string "那边两位女士总是不停地\n说对方的坏话，也许会让你\l以为她们俩关系并不好吧？\p但如果真是那样，她们就不会\n一块儿呆在那边了，不是吗？$"
 
 BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful::
-    .string "我还仅仅是个少年的时候，\n那两位可是非常强大又美丽。\p她们是我们这些训练家的偶像。\p就算现在，时间也不曾掩盖\n她们的能力。\p实际上，她们的宝可梦招式\n在时间的淘洗中愈趋完美。\p但是……在某些方面，我却\n难以抑制地感受到……\p时间太残酷了……$"
+    .string "我还仅仅是个少年的时候，\n那两位可是非常强大又美丽。\p她们是我们这些训练家的偶像。\p就算现在，时间也不曾掩盖\n她们的能力。\p实际上，她们的宝可梦招式\n在时间的淘洗中愈趋完美。\p但是……在某些方面，\n我却难以抑制地感受到……\p时间太残酷了……$"
 
 BattleFrontier_Lounge7_Text_SoftboiledDesc::
     .string "最多可以恢复\n使用者最大体力的\n一半。$"
@@ -385,7 +385,7 @@ BattleFrontier_Lounge7_Text_IcyWindDesc::
     .string "能降低对手\n速度的\n冷气攻击。$"
 
 BattleFrontier_Lounge7_Text_EndureDesc::
-    .string "在一回合中\n抵挡住任何攻击，\n总是剩下1点体力。$"
+    .string "在1回合中\n抵挡住任何攻击，\n总是剩下1点体力。$"
 
 BattleFrontier_Lounge7_Text_PsychUpDesc::
     .string "使自己\n获得对手的\n辅助效果。$"

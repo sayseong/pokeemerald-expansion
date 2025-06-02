@@ -104,6 +104,14 @@ static const u8 sFeintDescription[] = _(
     "能够攻击使用守住类招式的\n"
     "对手。解除其守护效果。");
 
+static const u8 sProtectDescription[] = _(
+    "完全抵挡对手的攻击。\n"
+	"连续使出则容易失败。");
+
+static const u8 sGMaxOneBlowDescription[] = _(
+    "超极巨化武道熊师的攻击，\n"
+    "是能无视极巨防壁的一击。");
+
 const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 {
     [MOVE_NONE] =
@@ -1012,15 +1020,15 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"以惊人的气势撞向对手攻击。\n"
 			"自己也会受到少许伤害。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_RECOIL,
         .power = 90,
         .type = TYPE_NORMAL,
         .accuracy = 85,
-        .recoil = 25,
         .pp = 20,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
+        .argument = { .recoilPercentage = 25 },
         .makesContact = TRUE,
         .contestEffect = CONTEST_EFFECT_USER_MORE_EASILY_STARTLED,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
@@ -1064,15 +1072,15 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"拼命地猛撞向对手攻击。\n"
 			"自己也会受到不小的伤害。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_RECOIL,
         .power = 120,
         .type = TYPE_NORMAL,
         .accuracy = 100,
-        .recoil = 33,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
+        .argument = { .recoilPercentage = 33 },
         .makesContact = TRUE,
         .contestEffect = CONTEST_EFFECT_USER_MORE_EASILY_STARTLED,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
@@ -1290,7 +1298,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"让对手听舒适、美妙的歌声，\n"
 			"从而陷入睡眠状态。"),
-        .effect = EFFECT_SLEEP,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 55,
@@ -1298,6 +1306,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_SLEEP },
         .zMove = { .effect = Z_EFFECT_SPD_UP_1 },
         .ignoresSubstitute = B_UPDATED_MOVE_FLAGS >= GEN_6,
         .magicCoatAffected = TRUE,
@@ -1593,7 +1602,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"将猛烈的暴风雪刮向对手攻击。\n"
 			"有时会让对手陷入冰冻状态。"),
-        .effect = B_BLIZZARD_HAIL >= GEN_4 ? EFFECT_BLIZZARD : EFFECT_HIT,
+        .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 110 : 120,
         .type = TYPE_ICE,
         .accuracy = 70,
@@ -1602,6 +1611,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
         .windMove = TRUE,
+        .alwaysHitsInHailSnow = B_BLIZZARD_HAIL >= GEN_4,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FREEZE_OR_FROSTBITE,
             .chance = 10,
@@ -1766,16 +1776,16 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"将对手同自己一起摔向地面。\n"
 			"自己也会受到少许伤害。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_RECOIL,
         .power = 80,
         .type = TYPE_FIGHTING,
         .accuracy = 80,
         .pp = B_UPDATED_MOVE_DATA >= GEN_6 ? 20 : 25,
-        .recoil = 25,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .makesContact = TRUE,
+        .argument = { .recoilPercentage = 25 },
         .contestEffect = CONTEST_EFFECT_USER_MORE_EASILY_STARTLED,
         .contestCategory = CONTEST_CATEGORY_COOL,
         .contestComboStarterId = 0,
@@ -2034,7 +2044,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"撒出毒粉，\n"
 			"从而让对手陷入中毒状态。"),
-        .effect = EFFECT_POISON,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_POISON,
         .accuracy = 75,
@@ -2042,6 +2052,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_POISON },
         .zMove = { .effect = Z_EFFECT_DEF_UP_1 },
         .magicCoatAffected = TRUE,
         .powderMove = TRUE,
@@ -2059,7 +2070,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"撒出麻痹粉，\n"
 			"从而让对手陷入麻痹状态。"),
-        .effect = EFFECT_PARALYZE,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_GRASS,
         .accuracy = 75,
@@ -2069,6 +2080,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .category = DAMAGE_CATEGORY_STATUS,
         .zMove = { .effect = Z_EFFECT_SPDEF_UP_1 },
         .magicCoatAffected = TRUE,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_PARALYSIS },
         .powderMove = TRUE,
         .contestEffect = CONTEST_EFFECT_BADLY_STARTLE_MONS_WITH_GOOD_APPEALS,
         .contestCategory = CONTEST_CATEGORY_SMART,
@@ -2084,7 +2096,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"撒出催眠粉，\n"
 			"从而让对手陷入睡眠状态。"),
-        .effect = EFFECT_SLEEP,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_GRASS,
         .accuracy = 75,
@@ -2092,6 +2104,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_SLEEP },
         .zMove = { .effect = Z_EFFECT_SPD_UP_1 },
         .magicCoatAffected = TRUE,
         .powderMove = TRUE,
@@ -2268,7 +2281,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"向对手发出微弱的电击，\n"
 			"从而让对手陷入麻痹状态。"),
-        .effect = EFFECT_PARALYZE,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_ELECTRIC,
         .accuracy = B_UPDATED_MOVE_DATA >= GEN_7 ? 90 : 100,
@@ -2276,6 +2289,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_PARALYSIS },
         .zMove = { .effect = Z_EFFECT_SPDEF_UP_1 },
         .magicCoatAffected = TRUE,
         .contestEffect = CONTEST_EFFECT_BADLY_STARTLE_MONS_WITH_GOOD_APPEALS,
@@ -2292,7 +2306,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"向对手劈下暴雷攻击。\n"
 			"有时会让对手陷入麻痹状态。"),
-        .effect = EFFECT_THUNDER,
+        .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 110 : 120,
         .type = TYPE_ELECTRIC,
         .accuracy = 70,
@@ -2301,6 +2315,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
         .damagesAirborne = TRUE,
+        .alwaysHitsInRain = TRUE,
+        .accuracy50InSun = TRUE,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PARALYSIS,
             .chance = 30,
@@ -2417,7 +2433,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"让对手陷入剧毒状态。\n"
 			"中毒伤害会逐渐增加。"),
-        .effect = EFFECT_TOXIC,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_POISON,
         .accuracy = B_UPDATED_MOVE_DATA >= GEN_5 ? 90 : 85,
@@ -2425,6 +2441,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_TOXIC },
         .zMove = { .effect = Z_EFFECT_DEF_UP_1 },
         .magicCoatAffected = TRUE,
         .contestEffect = CONTEST_EFFECT_WORSEN_CONDITION_OF_PREV_MONS,
@@ -2492,7 +2509,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"施以诱导睡意的暗示，\n"
 			"让对手陷入睡眠状态。"),
-        .effect = EFFECT_SLEEP,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_PSYCHIC,
         .accuracy = 60,
@@ -2500,6 +2517,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_SLEEP },
         .zMove = { .effect = Z_EFFECT_SPD_UP_1 },
         .magicCoatAffected = TRUE,
         .contestEffect = CONTEST_EFFECT_BADLY_STARTLE_PREV_MONS,
@@ -3587,13 +3605,14 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         #else
             .accuracy = 75,
         #endif
-        .effect = EFFECT_PARALYZE,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_NORMAL,
         .pp = 30,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_PARALYSIS },
         .zMove = { .effect = Z_EFFECT_SPDEF_UP_1 },
         .magicCoatAffected = TRUE,
         .contestEffect = CONTEST_EFFECT_BADLY_STARTLE_PREV_MONS,
@@ -3641,13 +3660,14 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         #else
             .accuracy = 55,
         #endif
-        .effect = EFFECT_POISON,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_POISON,
         .pp = 40,
         .target = B_UPDATED_MOVE_DATA >= GEN_5 ? MOVE_TARGET_BOTH : MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_POISON },
         .zMove = { .effect = Z_EFFECT_DEF_UP_1 },
         .magicCoatAffected = TRUE,
         .contestEffect = CONTEST_EFFECT_WORSEN_CONDITION_OF_PREV_MONS,
@@ -3710,7 +3730,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"用恐怖的脸强吻对手。\n"
 			"让对手陷入睡眠状态。"),
-        .effect = EFFECT_SLEEP,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 75,
@@ -3718,6 +3738,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_SLEEP },
         .zMove = { .effect = Z_EFFECT_SPD_UP_1 },
         .magicCoatAffected = TRUE,
         .contestEffect = CONTEST_EFFECT_BADLY_STARTLE_PREV_MONS,
@@ -3850,7 +3871,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"撒满具有催眠效果的孢子，\n"
 			"从而让对手陷入睡眠状态。"),
-        .effect = EFFECT_SLEEP,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_GRASS,
         .accuracy = 100,
@@ -3858,6 +3879,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_SLEEP },
         .zMove = { .effect = Z_EFFECT_RESET_STATS },
         .magicCoatAffected = TRUE,
         .powderMove = TRUE,
@@ -4301,7 +4323,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 			"当PP耗尽时，努力挣扎攻击\n"
 			"对手。自己也会受到伤害。"),
         #if B_UPDATED_MOVE_DATA >= GEN_4
-            .effect = EFFECT_RECOIL_HP_25,
+            .effect = EFFECT_STRUGGLE,
             .accuracy = 0,
             .mirrorMoveBanned = TRUE,
             .additionalEffects = ADDITIONAL_EFFECTS({
@@ -4309,9 +4331,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
                 .self = TRUE,
             }),
         #else
-            .effect = EFFECT_HIT,
+            .effect = EFFECT_RECOIL,
             .accuracy = 100,
-            .recoil = 25,
+            .argument = { .recoilPercentage = 25 },
         #endif
         .power = 50,
         .type = TYPE_NORMAL,
@@ -4406,14 +4428,14 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .makesContact = TRUE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_STEAL_ITEM,
+        }),
         .ignoresKingsRock = (B_UPDATED_MOVE_FLAGS == GEN_3 || B_UPDATED_MOVE_FLAGS == GEN_4),
         .meFirstBanned = TRUE,
         .metronomeBanned = TRUE,
         .copycatBanned = TRUE,
         .assistBanned = TRUE,
-        .additionalEffects = ADDITIONAL_EFFECTS({
-            .moveEffect = MOVE_EFFECT_STEAL_ITEM,
-        }),
         .contestEffect = CONTEST_EFFECT_APPEAL_AS_GOOD_AS_PREV_ONES,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
         .contestComboStarterId = 0,
@@ -4750,9 +4772,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_PROTECT] =
     {
         .name = COMPOUND_STRING("守住"),
-        .description = COMPOUND_STRING(
-			"完全抵挡对手的攻击。\n"
-			"连续使出则容易失败。"),
+        .description = sProtectDescription,
         .effect = EFFECT_PROTECT,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -4761,6 +4781,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = B_UPDATED_MOVE_DATA >= GEN_5 ? 4 : 3,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .protectMethod = PROTECT_NORMAL },
         .zMove = { .effect = Z_EFFECT_RESET_STATS },
         .metronomeBanned = TRUE,
         .copycatBanned = TRUE,
@@ -5140,9 +5161,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_DETECT] =
     {
         .name = COMPOUND_STRING("看穿"),
-        .description = COMPOUND_STRING(
-			"完全抵挡对手的攻击。\n"
-			"连续使出则容易失败。"),
+        .description = sProtectDescription,
         .effect = EFFECT_PROTECT,
         .power = 0,
         .type = TYPE_FIGHTING,
@@ -5151,6 +5170,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = B_UPDATED_MOVE_DATA >= GEN_5 ? 4 : 3,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .protectMethod = PROTECT_NORMAL },
         .zMove = { .effect = Z_EFFECT_EVSN_UP_1 },
         .ignoresProtect = TRUE,
         .mirrorMoveBanned = TRUE,
@@ -6738,7 +6758,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
         .contestComboStarterId = COMBO_STARTER_HAIL,
         .contestComboMoves = {0},
-        .battleAnimScript = gBattleAnimMove_Hail,
+        .battleAnimScript = (B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_SNOW) ? gBattleAnimMove_Snowscape : gBattleAnimMove_Hail,
         .validApprenticeMove = TRUE,
     },
 
@@ -6796,7 +6816,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"放出怪异的火焰，\n"
 			"从而让对手陷入灼伤状态。"),
-        .effect = EFFECT_WILL_O_WISP,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_FIRE,
         .accuracy = B_UPDATED_MOVE_DATA >= GEN_6 ? 85 : 75,
@@ -6804,6 +6824,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_BURN },
         .zMove = { .effect = Z_EFFECT_ATK_UP_1 },
         .magicCoatAffected = TRUE,
         .contestEffect = CONTEST_EFFECT_BADLY_STARTLE_FRONT_MON,
@@ -7328,6 +7349,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_SLEEP },
         .zMove = { .effect = Z_EFFECT_SPD_UP_1 },
         .magicCoatAffected = TRUE,
         .contestEffect = CONTEST_EFFECT_MAKE_FOLLOWING_MONS_NERVOUS,
@@ -7353,9 +7375,6 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .makesContact = TRUE,
-        .additionalEffects = ADDITIONAL_EFFECTS({
-            .moveEffect = MOVE_EFFECT_KNOCK_OFF,
-        }),
         .contestEffect = CONTEST_EFFECT_BADLY_STARTLE_FRONT_MON,
         .contestCategory = CONTEST_CATEGORY_SMART,
         .contestComboStarterId = 0,
@@ -8331,7 +8350,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"让对手听舒适的笛声，\n"
 			"从而陷入睡眠状态。"),
-        .effect = EFFECT_SLEEP,
+        .effect = EFFECT_NON_VOLATILE_STATUS,
         .power = 0,
         .type = TYPE_GRASS,
         .accuracy = 55,
@@ -8339,6 +8358,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_SLEEP },
         .zMove = { .effect = Z_EFFECT_SPD_UP_1 },
         .ignoresSubstitute = B_UPDATED_MOVE_FLAGS >= GEN_6,
         .magicCoatAffected = TRUE,
@@ -8945,11 +8965,11 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .power = 120,
         .type = TYPE_ELECTRIC,
         .accuracy = 100,
-        .recoil = 33,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
+        .argument = { .recoilPercentage = 33 },
         .makesContact = TRUE,
         #if B_UPDATED_MOVE_DATA >= GEN_4
             .additionalEffects = ADDITIONAL_EFFECTS({
@@ -10147,15 +10167,15 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"让火焰覆盖全身猛撞。自己\n"
 			"也会受伤。有时让对手灼伤。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_RECOIL,
         .power = 120,
         .type = TYPE_FIRE,
         .accuracy = 100,
-        .recoil = 33,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
+        .argument = { .recoilPercentage = 33 },
         .makesContact = TRUE,
         .thawsUser = TRUE,
         .additionalEffects = ADDITIONAL_EFFECTS({
@@ -10611,15 +10631,15 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"收拢翅膀低空飞行突击对手。\n"
 			"自己也会受到不小的伤害。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_RECOIL,
         .power = 120,
         .type = TYPE_FLYING,
         .accuracy = 100,
-        .recoil = 33,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
+        .argument = { .recoilPercentage = 33 },
         .makesContact = TRUE,
         .contestEffect = CONTEST_EFFECT_USER_MORE_EASILY_STARTLED,
         .contestCategory = CONTEST_CATEGORY_CUTE,
@@ -11584,15 +11604,15 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"用坚硬的躯体撞击对手攻击。\n"
 			"自己也会受到不小的伤害。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_RECOIL,
         .power = 120,
         .type = TYPE_GRASS,
         .accuracy = 100,
-        .recoil = 33,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
+        .argument = { .recoilPercentage = 33 },
         .makesContact = TRUE,
         .contestEffect = CONTEST_EFFECT_USER_MORE_EASILY_STARTLED,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
@@ -11702,15 +11722,15 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"拼命向对手进行头锤攻击。\n"
 			"自己也会受到非常大的伤害。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_RECOIL,
         .power = 150,
         .type = TYPE_ROCK,
         .accuracy = 80,
-        .recoil = 50,
         .pp = 5,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
+        .argument = { .recoilPercentage = 50 },
         .makesContact = TRUE,
         .contestEffect = CONTEST_EFFECT_USER_MORE_EASILY_STARTLED,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
@@ -11871,6 +11891,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_BOTH,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .nonVolatileStatus = MOVE_EFFECT_SLEEP },
         .zMove = { .effect = Z_EFFECT_RESET_STATS },
         .magicCoatAffected = TRUE,
         .sketchBanned = (B_SKETCH_BANS >= GEN_9),
@@ -12001,7 +12022,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = 3,
         .category = DAMAGE_CATEGORY_STATUS,
-        .argument = { .protect.side = TRUE, },
+        .argument = { .protectMethod = PROTECT_WIDE_GUARD },
         .zMove = { .effect = Z_EFFECT_DEF_UP_1 },
         .snatchAffected = TRUE,
         .ignoresProtect = TRUE,
@@ -12230,7 +12251,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"扔石头或炮弹，击落飞行的\n"
 			"对手，使其掉到地面。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_SMACK_DOWN,
         .power = 50,
         .type = TYPE_ROCK,
         .accuracy = 100,
@@ -12240,9 +12261,6 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .damagesAirborne = TRUE,
         .skyBattleBanned = TRUE,
-        .additionalEffects = ADDITIONAL_EFFECTS({
-            .moveEffect = MOVE_EFFECT_SMACK_DOWN,
-        }),
         .contestEffect = CONTEST_EFFECT_BADLY_STARTLE_FRONT_MON,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
         .contestComboStarterId = 0,
@@ -12762,7 +12780,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = 3,
         .category = DAMAGE_CATEGORY_STATUS,
-        .argument = { .protect.side = TRUE, },
+        .argument = { .protectMethod = PROTECT_QUICK_GUARD, },
         .zMove = { .effect = Z_EFFECT_DEF_UP_1 },
         .snatchAffected = TRUE,
         .ignoresProtect = TRUE,
@@ -13127,7 +13145,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .category = DAMAGE_CATEGORY_STATUS,
         .zMove = { .effect = Z_EFFECT_SPD_UP_2 },
         .ignoresProtect = B_UPDATED_MOVE_FLAGS >= GEN_6,
-        .ignoresSubstitute = TRUE,
+        .ignoresSubstitute = B_UPDATED_MOVE_FLAGS >= GEN_6,
         .metronomeBanned = TRUE,
         .copycatBanned = TRUE,
         .assistBanned = TRUE,
@@ -13397,15 +13415,15 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"让电流覆盖全身，撞向对手\n"
 			"攻击。自己也会受少许伤害。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_RECOIL,
         .power = 90,
         .type = TYPE_ELECTRIC,
         .accuracy = 100,
-        .recoil = 25,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
+        .argument = { .recoilPercentage = 25 },
         .makesContact = TRUE,
         .contestEffect = CONTEST_EFFECT_USER_MORE_EASILY_STARTLED,
         .contestCategory = CONTEST_CATEGORY_COOL,
@@ -13727,7 +13745,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"用强烈的风席卷对手攻击。\n"
 			"有时会使对手混乱。"),
-        .effect = EFFECT_THUNDER,
+        .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 110 : 120,
         .type = TYPE_FLYING,
         .accuracy = 70,
@@ -13737,6 +13755,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .category = DAMAGE_CATEGORY_SPECIAL,
         .windMove = TRUE,
         .damagesAirborne = TRUE,
+        .alwaysHitsInRain = TRUE,
+        .accuracy50InSun = TRUE,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_CONFUSION,
             .chance = 30,
@@ -13754,15 +13774,15 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"用厉害的爆炸头猛撞向对手。\n"
 			"自己也会受到少许伤害。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_RECOIL,
         .power = 120,
         .type = TYPE_NORMAL,
         .accuracy = 100,
-        .recoil = 25,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
+        .argument = { .recoilPercentage = 25 },
         .makesContact = TRUE,
         .contestEffect = CONTEST_EFFECT_USER_MORE_EASILY_STARTLED,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
@@ -14220,7 +14240,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
-        .argument = { .protect.side = TRUE },
+        .argument = { .protectMethod = PROTECT_MAT_BLOCK, },
         .zMove = { .effect = Z_EFFECT_DEF_UP_1 },
         .snatchAffected = TRUE,
         .ignoresProtect = TRUE,
@@ -14642,7 +14662,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = 3,
         .category = DAMAGE_CATEGORY_STATUS,
-        .argument = { .protect.side = TRUE, },
+        .argument = { .protectMethod = PROTECT_CRAFTY_SHIELD },
         .zMove = { .effect = Z_EFFECT_SPDEF_UP_1 },
         .ignoresProtect = TRUE,
         .mirrorMoveBanned = TRUE,
@@ -14884,6 +14904,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = 4,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .protectMethod = PROTECT_KINGS_SHIELD },
         .zMove = { .effect = Z_EFFECT_RESET_STATS },
         .ignoresProtect = TRUE,
         .mirrorMoveBanned = TRUE,
@@ -15088,6 +15109,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = 4,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .protectMethod = PROTECT_SPIKY_SHIELD },
         .zMove = { .effect = Z_EFFECT_DEF_UP_1 },
         .ignoresProtect = TRUE,
         .mirrorMoveBanned = TRUE,
@@ -15527,7 +15549,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"可以击中浮在空中的宝可梦。\n"
 			"被击落后对手会掉到地面。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_SMACK_DOWN,
         .power = 90,
         .type = TYPE_GROUND,
         .accuracy = 100,
@@ -15539,9 +15561,6 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .ignoreTypeIfFlyingAndUngrounded = TRUE,
         .metronomeBanned = TRUE,
         .skyBattleBanned = TRUE,
-        .additionalEffects = ADDITIONAL_EFFECTS({
-            .moveEffect = MOVE_EFFECT_SMACK_DOWN,
-        }),
         .contestEffect = CONTEST_EFFECT_HIGHLY_APPEALING,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
         .contestComboStarterId = COMBO_STARTER_THOUSAND_ARROWS,
@@ -15603,15 +15622,15 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"借用永恒之花的力量，发射\n"
 			"强力光线。自己也会受伤害。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_RECOIL,
         .power = 140,
         .type = TYPE_FAIRY,
         .accuracy = 90,
-        .recoil = 50,
         .pp = 5,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
+        .argument = { .recoilPercentage = 50 },
         .metronomeBanned = TRUE,
         .battleAnimScript = gBattleAnimMove_LightOfRuin,
     },
@@ -15777,6 +15796,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = 4,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .protectMethod = PROTECT_BANEFUL_BUNKER },
         .zMove = { .effect = Z_EFFECT_DEF_UP_1 },
         .ignoresProtect = TRUE,
         .mirrorMoveBanned = TRUE,
@@ -15857,7 +15877,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .soundMove = TRUE,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_REMOVE_STATUS,
-            .chance = 100,
+            .sheerForceBoost = SHEER_FORCE_BOOST,
         }),
         .contestEffect = CONTEST_EFFECT_HIGHLY_APPEALING,
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
@@ -17024,7 +17044,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("光子喷涌"),
         .description = COMPOUND_STRING(
-			"用光柱来攻击。用物攻特攻\n"
+			"用光柱来攻击。用攻击特攻\n"
 			"数值更高的一项造成伤害。"),
         .effect = EFFECT_PHOTON_GEYSER,
         .power = 100,
@@ -18144,6 +18164,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = 4,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .protectMethod = PROTECT_OBSTRUCT },
         .ignoresProtect = TRUE,
         .mirrorMoveBanned = TRUE,
         .metronomeBanned = TRUE,
@@ -18352,7 +18373,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("臂贝武器"),
         .description = COMPOUND_STRING(
-			"用物攻特攻数值更高的一项\n"
+			"用攻击特攻数值更高的一项\n"
 			"攻击。有时会让对手中毒。"),
         .effect = EFFECT_SHELL_SIDE_ARM,
         .power = 90,
@@ -19131,15 +19152,15 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"让水覆盖全身后撞向对手。\n"
 			"自己也会受到不少伤害。"),
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_RECOIL,
         .power = B_UPDATED_MOVE_DATA >= GEN_9 ? 120 : 75,
         .type = TYPE_WATER,
         .accuracy = 100,
-        .recoil = 33,
         .pp = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
+        .argument = { .recoilPercentage = 33 },
         .makesContact = TRUE,
         .skyBattleBanned = B_EXTRAPOLATED_MOVE_FLAGS,
         .battleAnimScript = gBattleAnimMove_WaveCrash,
@@ -19390,7 +19411,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"用令人颤抖的冰冷狂风攻击。\n"
 			"有时会降低对手的速度。"),
-        .effect = EFFECT_RAIN_ALWAYS_HIT,
+        .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_9 ? 100 : 95,
         .type = TYPE_FLYING,
         .accuracy = 80,
@@ -19399,6 +19420,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
         .windMove = TRUE,
+        .alwaysHitsInRain = TRUE,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SPD_MINUS_1,
             .chance = 30,
@@ -19412,7 +19434,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"呼唤雷云风暴，进行激烈的\n"
 			"攻击。有时会让对手麻痹。"),
-        .effect = EFFECT_RAIN_ALWAYS_HIT,
+        .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_9 ? 100 : 95,
         .type = TYPE_ELECTRIC,
         .accuracy = 80,
@@ -19421,6 +19443,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
         .windMove = TRUE,
+        .alwaysHitsInRain = TRUE,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PARALYSIS,
             .chance = 20,
@@ -19434,7 +19457,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"用灼热的沙和强烈的风席卷\n"
 			"对手。有时会让对手灼伤。"),
-        .effect = EFFECT_RAIN_ALWAYS_HIT,
+        .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_9 ? 100 : 95,
         .type = TYPE_GROUND,
         .accuracy = 80,
@@ -19443,6 +19466,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
         .windMove = TRUE,
+        .alwaysHitsInRain = TRUE,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN,
             .chance = 20,
@@ -19527,6 +19551,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = 4,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .protectMethod = PROTECT_SILK_TRAP },
         .ignoresProtect = TRUE,
         .mirrorMoveBanned = TRUE,
         .metronomeBanned = TRUE,
@@ -20132,7 +20157,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .ignoresProtect = TRUE,
         .mirrorMoveBanned = TRUE,
         .metronomeBanned = TRUE,
-        .battleAnimScript = gBattleAnimMove_Snowscape,
+        .battleAnimScript = (B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_HAIL) ? gBattleAnimMove_Hail : gBattleAnimMove_Snowscape,
     },
 
     [MOVE_POUNCE] =
@@ -20740,6 +20765,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = 4,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .protectMethod = PROTECT_BURNING_BULWARK },
         .zMove = { .effect = Z_EFFECT_RESET_STATS },
         .ignoresProtect = TRUE,
         .mirrorMoveBanned = TRUE,
@@ -20967,7 +20993,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_BREAKNECK_BLITZ] =
     {
         .name = COMPOUND_STRING("究极无敌大冲撞"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量猛烈地全力撞击。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_NORMAL,
@@ -20981,7 +21009,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_ALL_OUT_PUMMELING] =
     {
         .name = COMPOUND_STRING("全力无双激烈拳"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量制造能量弹撞击。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_FIGHTING,
@@ -20995,7 +21025,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_SUPERSONIC_SKYSTRIKE] =
     {
         .name = COMPOUND_STRING("极速俯冲轰烈撞"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量飞向天空后落下。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_FLYING,
@@ -21009,7 +21041,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_ACID_DOWNPOUR] =
     {
         .name = COMPOUND_STRING("强酸剧毒灭绝雨"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量涌起毒沼淹没对手。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_POISON,
@@ -21023,7 +21057,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_TECTONIC_RAGE] =
     {
         .name = COMPOUND_STRING("地隆啸天大终结"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量潜入地下后撞击。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_GROUND,
@@ -21038,7 +21074,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_CONTINENTAL_CRUSH] =
     {
         .name = COMPOUND_STRING("毁天灭地巨岩坠"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量召唤出岩山撞击。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_ROCK,
@@ -21052,7 +21090,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_SAVAGE_SPIN_OUT] =
     {
         .name = COMPOUND_STRING("绝对捕食回旋斩"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量用丝线束缚对手。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_BUG,
@@ -21066,7 +21106,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_NEVER_ENDING_NIGHTMARE] =
     {
         .name = COMPOUND_STRING("无尽暗夜之诱惑"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量召唤强烈怨念降临。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_GHOST,
@@ -21080,7 +21122,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_CORKSCREW_CRASH] =
     {
         .name = COMPOUND_STRING("超绝螺旋连击"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量高速旋转撞向对手。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_STEEL,
@@ -21094,7 +21138,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_INFERNO_OVERDRIVE] =
     {
         .name = COMPOUND_STRING("超强极限爆焰弹"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量喷出熊熊烈火撞击。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_FIRE,
@@ -21108,7 +21154,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_HYDRO_VORTEX] =
     {
         .name = COMPOUND_STRING("超级水流大漩涡"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量制造潮旋吞没对手。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_WATER,
@@ -21122,7 +21170,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_BLOOM_DOOM] =
     {
         .name = COMPOUND_STRING("绚烂缤纷花怒放"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量借助花草力量攻击。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_GRASS,
@@ -21136,7 +21186,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_GIGAVOLT_HAVOC] =
     {
         .name = COMPOUND_STRING("终极伏特狂雷闪"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量积蓄强大电流撞击。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_ELECTRIC,
@@ -21150,7 +21202,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_SHATTERED_PSYCHE] =
     {
         .name = COMPOUND_STRING("至高精神破坏波"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量操纵对手使其痛苦。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_PSYCHIC,
@@ -21164,7 +21218,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_SUBZERO_SLAMMER] =
     {
         .name = COMPOUND_STRING("激狂大地万里冰"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量急速降温冰冻对手。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_ICE,
@@ -21178,7 +21234,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_DEVASTATING_DRAKE] =
     {
         .name = COMPOUND_STRING("究极巨龙震天地"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量将气场实体化袭击。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_DRAGON,
@@ -21192,7 +21250,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_BLACK_HOLE_ECLIPSE] =
     {
         .name = COMPOUND_STRING("黑洞吞噬万物灭"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量收集能量吸入对手。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_DARK,
@@ -21206,7 +21266,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_TWINKLE_TACKLE] =
     {
         .name = COMPOUND_STRING("可爱星星飞天撞"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量制造魅惑空间魅惑。\n"
+            "威力会根据原本招式而改变。"),
         .effect = EFFECT_HIT,
         .power = 1,
         .type = TYPE_FAIRY,
@@ -21220,7 +21282,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_CATASTROPIKA] =
     {
         .name = COMPOUND_STRING("皮卡皮卡必杀击"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "皮卡丘以Z力量覆盖最强\n"
+            "电力全力扑向对手。"),
         .effect = EFFECT_HIT,
         .power = 210,
         .type = TYPE_ELECTRIC,
@@ -21234,7 +21298,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_10000000_VOLT_THUNDERBOLT] =
     {
         .name = COMPOUND_STRING("千万伏特"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "戴帽子的皮卡丘以Z力量增强\n"
+            "电击后释放。容易击中要害。"),
         .effect = EFFECT_HIT,
         .power = 195,
         .type = TYPE_ELECTRIC,
@@ -21249,7 +21315,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_STOKED_SPARKSURFER] =
     {
         .name = COMPOUND_STRING("驾雷驭电戏冲浪"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "阿罗拉雷丘以Z力量全力攻击\n"
+            "并让对手陷入麻痹状态。"),
         .effect = EFFECT_HIT,
         .power = 175,
         .type = TYPE_ELECTRIC,
@@ -21267,7 +21335,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_EXTREME_EVOBOOST] =
     {
         .name = COMPOUND_STRING("九彩升华齐聚顶"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "伊布通过Z力量借助进化后\n"
+            "伙伴的力量，大幅提高能力。"),
         .effect = EFFECT_EXTREME_EVOBOOST,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -21281,7 +21351,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_PULVERIZING_PANCAKE] =
     {
         .name = COMPOUND_STRING("认真起来大爆击"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "以Z力量使认真起来的卡比兽\n"
+            "跃动巨大身躯全力袭击对手。"),
         .effect = EFFECT_HIT,
         .power = 210,
         .type = TYPE_NORMAL,
@@ -21295,7 +21367,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_GENESIS_SUPERNOVA] =
     {
         .name = COMPOUND_STRING("起源超新星大爆炸"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "梦幻以Z力量全力攻击对手，\n"
+            "脚下会变成精神场地。"),
         .effect = EFFECT_HIT_SET_REMOVE_TERRAIN,
         .power = 185,
         .type = TYPE_PSYCHIC,
@@ -21310,7 +21384,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_SINISTER_ARROW_RAID] =
     {
         .name = COMPOUND_STRING("遮天蔽日暗影箭"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "狙射树枭以Z力量制造出无数\n"
+            "箭射穿对手进行攻击。"),
         .effect = EFFECT_HIT,
         .power = 180,
         .type = TYPE_GHOST,
@@ -21324,7 +21400,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MALICIOUS_MOONSAULT] =
     {
         .name = COMPOUND_STRING("极恶飞跃粉碎击"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "炽焰咆哮虎以Z力量强化肉体\n"
+            "全力撞向对手进行攻击。"),
         .effect = EFFECT_HIT,
         .power = 180,
         .type = TYPE_DARK,
@@ -21338,7 +21416,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_OCEANIC_OPERETTA] =
     {
         .name = COMPOUND_STRING("海神庄严交响乐"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "西狮海壬召唤出大量水\n"
+            "全力攻击对手。"),
         .effect = EFFECT_HIT,
         .power = 195,
         .type = TYPE_WATER,
@@ -21352,7 +21432,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_SPLINTERED_STORMSHARDS] =
     {
         .name = COMPOUND_STRING("狼啸石牙飓风暴"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "鬃岩狼人以Z力量全力进行\n"
+            "攻击。而且会消除场地状态。"),
         .effect = EFFECT_HIT_SET_REMOVE_TERRAIN,
         .power = 190,
         .type = TYPE_ROCK,
@@ -21367,7 +21449,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_LETS_SNUGGLE_FOREVER] =
     {
         .name = COMPOUND_STRING("亲密无间大乱揍"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "谜拟丘以Z力量全力\n"
+            "进行乱揍攻击。"),
         .effect = EFFECT_HIT,
         .power = 190,
         .type = TYPE_FAIRY,
@@ -21381,7 +21465,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_CLANGOROUS_SOULBLAZE] =
     {
         .name = COMPOUND_STRING("炽魂热舞烈音爆"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "杖尾鳞甲龙以Z力量全力攻击\n"
+            "对手。并会提高自身的能力。"),
         .effect = EFFECT_HIT,
         .power = 185,
         .type = TYPE_DRAGON,
@@ -21402,7 +21488,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_GUARDIAN_OF_ALOLA] =
     {
         .name = COMPOUND_STRING("巨人卫士阿罗拉"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "土地神宝可梦以Z力量攻击。\n"
+            "对手的剩余HP会减少很多。"),
         .effect = EFFECT_GUARDIAN_OF_ALOLA,
         .power = 1,
         .type = TYPE_FAIRY,
@@ -21416,7 +21504,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_SEARING_SUNRAZE_SMASH] =
     {
         .name = COMPOUND_STRING("日光回旋下苍穹"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "索尔迦雷欧以Z力量全力攻击\n"
+            "可以无视对手的特性效果。"),
         .effect = EFFECT_HIT,
         .power = 200,
         .type = TYPE_STEEL,
@@ -21431,7 +21521,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MENACING_MOONRAZE_MAELSTROM] =
     {
         .name = COMPOUND_STRING("月华飞溅落灵霄"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "露奈雅拉以Z力量全力攻击，\n"
+            "可以无视对手的特性效果。"),
         .effect = EFFECT_HIT,
         .power = 200,
         .type = TYPE_GHOST,
@@ -21446,7 +21538,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_LIGHT_THAT_BURNS_THE_SKY] =
     {
         .name = COMPOUND_STRING("焚天灭世炽光爆"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "奈克洛兹玛会无视对手特性\n"
+            "以攻击特攻中更高项攻击。"),
         .effect = EFFECT_PHOTON_GEYSER,
         .power = 200,
         .type = TYPE_PSYCHIC,
@@ -21461,7 +21555,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_SOUL_STEALING_7_STAR_STRIKE] =
     {
         .name = COMPOUND_STRING("七星夺魂腿"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "玛夏多以Z力量全力使用拳脚\n"
+            "的连续招式叩打对手。"),
         .effect = EFFECT_HIT,
         .power = 195,
         .type = TYPE_GHOST,
@@ -21476,7 +21572,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_GUARD] =
     {
         .name = COMPOUND_STRING("极巨防壁"),
-        .description = sNullDescription,
+        .description = sProtectDescription,
         .effect = EFFECT_PROTECT,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -21485,13 +21581,16 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_USER,
         .priority = 4,
         .category = DAMAGE_CATEGORY_STATUS,
+        .argument = { .protectMethod = PROTECT_MAX_GUARD },
         .battleAnimScript = gBattleAnimMove_MaxGuard,
     },
 
     [MOVE_MAX_FLARE] =
     {
         .name = COMPOUND_STRING("极巨火爆"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的火属性攻击。\n"
+            "在5回合内让日照变得强烈。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_FIRE,
@@ -21511,7 +21610,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_FLUTTERBY] =
     {
         .name = COMPOUND_STRING("极巨虫蛊"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的虫属性攻击。\n"
+            "会降低对手的特攻。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_BUG,
@@ -21531,7 +21632,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_LIGHTNING] =
     {
         .name = COMPOUND_STRING("极巨闪电"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的电属性攻击。\n"
+            "在5回合内生成电气场地。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_ELECTRIC,
@@ -21551,7 +21654,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_STRIKE] =
     {
         .name = COMPOUND_STRING("极巨攻击"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的一般属性攻\n"
+            "击。会降低对手的特攻。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_NORMAL,
@@ -21571,7 +21676,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_KNUCKLE] =
     {
         .name = COMPOUND_STRING("极巨拳斗"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的格斗属性攻\n"
+            "击。会提高我方的攻击。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_FIGHTING,
@@ -21591,7 +21698,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_PHANTASM] =
     {
         .name = COMPOUND_STRING("极巨幽魂"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的幽灵属性攻\n"
+            "击。会降低对手的特攻。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_GHOST,
@@ -21611,7 +21720,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_HAILSTORM] =
     {
         .name = COMPOUND_STRING("极巨寒冰"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的冰属性攻击。\n"
+            "在5回合内会下雪。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_ICE,
@@ -21631,7 +21742,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_OOZE] =
     {
         .name = COMPOUND_STRING("极巨酸毒"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的毒属性攻击。\n"
+            "会提高我方的特攻。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_POISON,
@@ -21651,7 +21764,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_GEYSER] =
     {
         .name = COMPOUND_STRING("极巨水流"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的水属性攻击。\n"
+            "在5回合内降下大雨。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_WATER,
@@ -21671,7 +21786,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_AIRSTREAM] =
     {
         .name = COMPOUND_STRING("极巨飞冲"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的飞行属性攻\n"
+            "击。会提高我方的速度。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_FLYING,
@@ -21691,7 +21808,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_STARFALL] =
     {
         .name = COMPOUND_STRING("极巨妖精"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的妖精属性攻\n"
+            "击。5回合内生成薄雾场地。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_FAIRY,
@@ -21711,7 +21830,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_WYRMWIND] =
     {
         .name = COMPOUND_STRING("极巨龙骑"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的龙属性攻击。\n"
+            "会降低对手的攻击。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_DRAGON,
@@ -21731,7 +21852,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_MINDSTORM] =
     {
         .name = COMPOUND_STRING("极巨超能"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦超能力属性攻\n"
+            "击。5回合内生成超能场地。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_PSYCHIC,
@@ -21751,7 +21874,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_ROCKFALL] =
     {
         .name = COMPOUND_STRING("极巨岩石"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的岩石属性攻\n"
+            "击。在5回合内卷起沙暴。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_ROCK,
@@ -21771,7 +21896,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_QUAKE] =
     {
         .name = COMPOUND_STRING("极巨大地"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的地面属性攻\n"
+            "击。会提高我方的特防。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_GROUND,
@@ -21792,7 +21919,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_DARKNESS] =
     {
         .name = COMPOUND_STRING("极巨恶霸"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的恶属性攻击。\n"
+            "会降低对手的特防。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 1,
         .type = TYPE_DARK,
@@ -21812,7 +21941,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_OVERGROWTH] =
     {
         .name = COMPOUND_STRING("极巨草原"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的草属性攻击。\n"
+            "在5回合内生成青草场地。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_GRASS,
@@ -21832,7 +21963,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MAX_STEELSPIKE] =
     {
         .name = COMPOUND_STRING("极巨钢铁"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "极巨化宝可梦的钢属性攻击。\n"
+            "会提高我方的防御。"),
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_STEEL,
@@ -21852,7 +21985,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_VINE_LASH] =
     {
         .name = COMPOUND_STRING("超极巨灰飞鞭灭"),
-        .description = sNullDescription,    //ANIM TODO
+        .description = COMPOUND_STRING(
+            "超极巨化妙蛙花的攻击。\n"
+            "可在4回合内给予对手伤害。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_GRASS,
@@ -21872,7 +22007,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_WILDFIRE] =
     {
         .name = COMPOUND_STRING("超极巨深渊灭焰"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化喷火龙的攻击。\n"
+            "可在4回合内给予对手伤害。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_FIRE,
@@ -21892,7 +22029,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_CANNONADE] =
     {
         .name = COMPOUND_STRING("超极巨水炮轰灭"),
-        .description = sNullDescription,    //ANIM TODO
+        .description = COMPOUND_STRING(
+            "超极巨化水箭龟的攻击。\n"
+            "可在4回合内给予对手伤害。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_WATER,
@@ -21912,7 +22051,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_BEFUDDLE] =
     {
         .name = COMPOUND_STRING("超极巨蝶影蛊惑"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化巴大蝶的攻击。\n"
+            "会让对手中毒、麻痹或睡眠。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_BUG,
@@ -21932,7 +22073,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_VOLT_CRASH] =
     {
         .name = COMPOUND_STRING("超极巨万雷轰顶"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化皮卡丘的攻击。\n"
+            "会让对手陷入麻痹状态。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_ELECTRIC,
@@ -21952,7 +22095,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_GOLD_RUSH] =
     {
         .name = COMPOUND_STRING("超极巨特大金币"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化喵喵的攻击。\n"
+            "会让对手混乱，并获得金钱。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_NORMAL,
@@ -21972,7 +22117,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_CHI_STRIKE] =
     {
         .name = COMPOUND_STRING("超极巨会心一击"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化怪力的攻击。\n"
+            "会变得容易击中要害。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_FIGHTING,
@@ -21992,7 +22139,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_TERROR] =
     {
         .name = COMPOUND_STRING("超极巨幻影幽魂"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化耿鬼的攻击。\n"
+            "踩住对手影子让其无法替换。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_GHOST,
@@ -22012,7 +22161,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_FOAM_BURST] =
     {
         .name = COMPOUND_STRING("超极巨激漩泡涡"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化巨钳蟹的攻击。\n"
+            "会大幅降低对手速度。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_WATER,
@@ -22032,7 +22183,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_RESONANCE] =
     {
         .name = COMPOUND_STRING("超极巨极光旋律"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化拉普拉斯的攻击。\n"
+            "可在5回合内减弱受到伤害。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_ICE,
@@ -22052,7 +22205,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_CUDDLE] =
     {
         .name = COMPOUND_STRING("超极巨热情拥抱"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化伊布的攻击。\n"
+            "会让对手陷入着迷状态。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_NORMAL,
@@ -22072,7 +22227,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_REPLENISH] =
     {
         .name = COMPOUND_STRING("超极巨资源再生"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化卡比兽的攻击。\n"
+            "会让吃掉的树果再生。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_NORMAL,
@@ -22092,7 +22249,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_MALODOR] =
     {
         .name = COMPOUND_STRING("超极巨臭气冲天"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化灰尘山的攻击。\n"
+            "会让对手陷入中毒状态。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_POISON,
@@ -22112,7 +22271,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_MELTDOWN] =
     {
         .name = COMPOUND_STRING("超极巨液金熔击"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化美录梅塔的攻击。\n"
+            "让对手无法连续用相同招式。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_STEEL,
@@ -22132,7 +22293,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_DRUM_SOLO] =
     {
         .name = COMPOUND_STRING("超极巨狂擂乱打"),
-        .description = sNullDescription,    //ANIM TODO
+        .description = COMPOUND_STRING(
+            "超极巨化轰擂金刚猩的攻击。\n"
+            "不会受到对手特性干扰。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_GRASS,
@@ -22153,7 +22316,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_FIREBALL] =
     {
         .name = COMPOUND_STRING("超极巨破阵火球"),
-        .description = sNullDescription,    //ANIM TODO
+        .description = COMPOUND_STRING(
+            "超极巨化闪焰王牌的攻击。\n"
+            "不会受到对手特性干扰。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_FIRE,
@@ -22174,7 +22339,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_HYDROSNIPE] =
     {
         .name = COMPOUND_STRING("超极巨狙击神射"),
-        .description = sNullDescription,    //ANIM TODO
+        .description = COMPOUND_STRING(
+            "超极巨化千面避役的攻击。\n"
+            "不会受到对手特性干扰。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_WATER,
@@ -22195,7 +22362,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_WIND_RAGE] =
     {
         .name = COMPOUND_STRING("超极巨旋风袭卷"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化钢铠鸦的攻击。\n"
+            "可消除反射壁和光墙。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_FLYING,
@@ -22215,7 +22384,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_GRAVITAS] =
     {
         .name = COMPOUND_STRING("超极巨天道七星"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化以欧路普的攻击。\n"
+            "在5回合内重力会产生变化。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_PSYCHIC,
@@ -22235,7 +22406,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_STONESURGE] =
     {
         .name = COMPOUND_STRING("超极巨岩阵以待"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化暴噬龟的攻击。\n"
+            "会发射无数锐利岩石。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_WATER,
@@ -22255,7 +22428,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_VOLCALITH] =
     {
         .name = COMPOUND_STRING("超极巨炎石喷发"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化巨炭山的攻击。\n"
+            "可在4回合内给予对手伤害。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_ROCK,
@@ -22275,7 +22450,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_TARTNESS] =
     {
         .name = COMPOUND_STRING("超极巨酸不溜丢"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化苹裹龙的攻击。\n"
+            "会降低对手闪避率。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_GRASS,
@@ -22295,7 +22472,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_SWEETNESS] =
     {
         .name = COMPOUND_STRING("超极巨琼浆玉液"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化丰蜜龙的攻击。\n"
+            "会治愈我方异常状态。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_GRASS,
@@ -22315,7 +22494,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_SANDBLAST] =
     {
         .name = COMPOUND_STRING("超极巨沙尘漫天"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化沙螺蟒的攻击。\n"
+            "在4~5回合内会狂刮沙暴。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_GROUND,
@@ -22335,7 +22516,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_STUN_SHOCK] =
     {
         .name = COMPOUND_STRING("超极巨异毒电场"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化颤弦蝾螈的攻击。\n"
+            "会让对手陷入中毒或麻痹。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_ELECTRIC,
@@ -22355,7 +22538,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_CENTIFERNO] =
     {
         .name = COMPOUND_STRING("超极巨百火焚野"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化焚焰蚣的攻击。\n"
+            "4~5回合用火焰困住对手。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_FIRE,
@@ -22375,7 +22560,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_SMITE] =
     {
         .name = COMPOUND_STRING("超极巨天谴雷诛"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化布莉姆温的攻击。\n"
+            "会让对手陷入混乱状态。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_FAIRY,
@@ -22396,7 +22583,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_SNOOZE] =
     {
         .name = COMPOUND_STRING("超极巨睡魔降临"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化长毛巨魔的攻击。\n"
+            "通过哈欠让对手产生睡意。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_DARK,
@@ -22416,7 +22605,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_FINALE] =
     {
         .name = COMPOUND_STRING("超极巨幸福圆满"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化霜奶仙的攻击。\n"
+            "可回复我方HP。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_FAIRY,
@@ -22436,7 +22627,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_STEELSURGE] =
     {
         .name = COMPOUND_STRING("超极巨钢铁阵法"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化大王铜象的攻击。\n"
+            "会发射无数锐利刺。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_STEEL,
@@ -22456,7 +22649,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_DEPLETION] =
     {
         .name = COMPOUND_STRING("超极巨劣化衰变"),
-        .description = sNullDescription,
+        .description = COMPOUND_STRING(
+            "超极巨化铝钢龙的攻击。\n"
+            "可减少对手最后使用招式PP。"),    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_DRAGON,
@@ -22476,7 +22671,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_ONE_BLOW] =
     {
         .name = COMPOUND_STRING("超极巨夺命一击"),
-        .description = sNullDescription,
+        .description = sGMaxOneBlowDescription,    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_DARK,
@@ -22492,7 +22687,6 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_G_MAX_RAPID_FLOW] =
     {
         .name = COMPOUND_STRING("超极巨流水连击"),
-        .description = sNullDescription,
         .effect = EFFECT_MAX_MOVE,
         .power = 10,
         .type = TYPE_WATER,

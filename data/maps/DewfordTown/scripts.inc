@@ -1,15 +1,3 @@
-@ Sailing to and from Dewford uses local IDs from different maps
-@ e.g. Route 104's sail to Dewford script references local IDs from Dewford's map
-@ All of these local IDs are labeled here
-.equ LOCALID_BRINEY_DEWFORD, 2
-.equ LOCALID_BOAT_DEWFORD, 4
-
-.equ LOCALID_BOAT_R109, 1
-.equ LOCALID_BRINEY_R109, 2
-
-.equ LOCALID_BOAT_R104, 7
-.equ LOCALID_BRINEY_R104, 8
-
 DewfordTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, DewfordTown_OnTransition
 	.byte 0
@@ -124,30 +112,30 @@ DewfordTown_EventScript_FishingNotSoGood::
 
 DewfordTown_EventScript_SailToPetalburg::
 	call EventScript_BackupMrBrineyLocation
-	setobjectsubpriority LOCALID_BRINEY_DEWFORD, MAP_DEWFORD_TOWN, 0
-	setobjectsubpriority OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN, 0
-	applymovement LOCALID_BRINEY_DEWFORD, DewfordTown_Movement_BrineyBoardBoat
+	setobjectsubpriority LOCALID_DEWFORD_BRINEY, MAP_DEWFORD_TOWN, 0
+	setobjectsubpriority LOCALID_PLAYER, MAP_DEWFORD_TOWN, 0
+	applymovement LOCALID_DEWFORD_BRINEY, DewfordTown_Movement_BrineyBoardBoat
 	waitmovement 0
-	removeobject LOCALID_BRINEY_DEWFORD
-	applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Movement_PlayerBoardBoat
+	removeobject LOCALID_DEWFORD_BRINEY
+	applymovement LOCALID_PLAYER, DewfordTown_Movement_PlayerBoardBoat
 	waitmovement 0
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
+	hideobjectat LOCALID_PLAYER, MAP_DEWFORD_TOWN
 	call Common_EventScript_PlayBrineysBoatMusic
-	applymovement LOCALID_BOAT_DEWFORD, DewfordTown_Movement_SailToPetalburg
-	applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Movement_SailToPetalburg
+	applymovement LOCALID_DEWFORD_BOAT, DewfordTown_Movement_SailToPetalburg
+	applymovement LOCALID_PLAYER, DewfordTown_Movement_SailToPetalburg
 	waitmovement 0
-	showobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE104
+	showobjectat LOCALID_PLAYER, MAP_ROUTE104
 	call Common_EventScript_StopBrineysBoatMusic
-	applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Movement_ExitBoatPetalburg
+	applymovement LOCALID_PLAYER, DewfordTown_Movement_ExitBoatPetalburg
 	waitmovement 0
-	showobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE104
+	showobjectat LOCALID_PLAYER, MAP_ROUTE104
 	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
 	clearflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
 	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
-	hideobjectat LOCALID_BOAT_DEWFORD, MAP_DEWFORD_TOWN
+	hideobjectat LOCALID_DEWFORD_BOAT, MAP_DEWFORD_TOWN
 	setvar VAR_BOARD_BRINEY_BOAT_STATE, 2
-	resetobjectsubpriority OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
+	resetobjectsubpriority LOCALID_PLAYER, MAP_DEWFORD_TOWN
 	warp MAP_ROUTE104_MR_BRINEYS_HOUSE, 5, 4
 	copyvar VAR_BRINEY_LOCATION, VAR_0x8008
 	waitstate
@@ -156,39 +144,39 @@ DewfordTown_EventScript_SailToPetalburg::
 
 DewfordTown_EventScript_SailToSlateport::
 	call EventScript_BackupMrBrineyLocation
-	setobjectsubpriority LOCALID_BRINEY_DEWFORD, MAP_DEWFORD_TOWN, 0
-	setobjectsubpriority OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN, 1
-	applymovement LOCALID_BRINEY_DEWFORD, DewfordTown_Movement_BrineyBoardBoat
+	setobjectsubpriority LOCALID_DEWFORD_BRINEY, MAP_DEWFORD_TOWN, 0
+	setobjectsubpriority LOCALID_PLAYER, MAP_DEWFORD_TOWN, 1
+	applymovement LOCALID_DEWFORD_BRINEY, DewfordTown_Movement_BrineyBoardBoat
 	waitmovement 0
-	removeobject LOCALID_BRINEY_DEWFORD
-	applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Movement_PlayerBoardBoat
+	removeobject LOCALID_DEWFORD_BRINEY
+	applymovement LOCALID_PLAYER, DewfordTown_Movement_PlayerBoardBoat
 	waitmovement 0
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
+	hideobjectat LOCALID_PLAYER, MAP_DEWFORD_TOWN
 	call Common_EventScript_PlayBrineysBoatMusic
-	applymovement LOCALID_BOAT_DEWFORD, DewfordTown_Movement_SailToSlateport
-	applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Movement_SailToSlateport
+	applymovement LOCALID_DEWFORD_BOAT, DewfordTown_Movement_SailToSlateport
+	applymovement LOCALID_PLAYER, DewfordTown_Movement_SailToSlateport
 	waitmovement 0
 	call Common_EventScript_StopBrineysBoatMusic
-	showobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE109
-	applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Movement_ExitBoatSlateport
+	showobjectat LOCALID_PLAYER, MAP_ROUTE109
+	applymovement LOCALID_PLAYER, DewfordTown_Movement_ExitBoatSlateport
 	waitmovement 0
-	setobjectxyperm LOCALID_BRINEY_R109, 21, 26
-	addobject LOCALID_BRINEY_R109
-	setobjectsubpriority LOCALID_BRINEY_R109, MAP_ROUTE109, 0
-	applymovement LOCALID_BRINEY_R109, DewfordTown_Movement_BrineyExitBoat
+	setobjectxyperm LOCALID_ROUTE109_BRINEY, 21, 26
+	addobject LOCALID_ROUTE109_BRINEY
+	setobjectsubpriority LOCALID_ROUTE109_BRINEY, MAP_ROUTE109, 0
+	applymovement LOCALID_ROUTE109_BRINEY, DewfordTown_Movement_BrineyExitBoat
 	waitmovement 0
 	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY
-	addobject LOCALID_BOAT_R109
+	addobject LOCALID_ROUTE109_BOAT
 	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
 	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
-	hideobjectat LOCALID_BOAT_DEWFORD, MAP_DEWFORD_TOWN
+	hideobjectat LOCALID_DEWFORD_BOAT, MAP_DEWFORD_TOWN
 	call_if_unset FLAG_DELIVERED_DEVON_GOODS, DewfordTown_EventScript_LandedSlateportDeliverGoods
 	call_if_set FLAG_DELIVERED_DEVON_GOODS, DewfordTown_EventScript_LandedSlateport
 	closemessage
 	copyvar VAR_BRINEY_LOCATION, VAR_0x8008
-	resetobjectsubpriority OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
-	resetobjectsubpriority LOCALID_BRINEY_R109, MAP_ROUTE109
-	copyobjectxytoperm LOCALID_BRINEY_R109
+	resetobjectsubpriority LOCALID_PLAYER, MAP_DEWFORD_TOWN
+	resetobjectsubpriority LOCALID_ROUTE109_BRINEY, MAP_ROUTE109
+	copyobjectxytoperm LOCALID_ROUTE109_BRINEY
 	release
 	end
 
@@ -643,31 +631,31 @@ DewfordTown_Text_TinyIslandCommunity:
     .string "武斗镇是个很小的岛镇，\n如果什么在这儿流行起来，\l很快所有人都会开始谈论。$"
 
 DewfordTown_Text_TownSign:
-    .string "武斗镇\n“蓝色大海中的小岛。”$"
+    .string "这里是武斗镇。\n“漂浮在蓝海上的小岛。”$"
 
 DewfordTown_Text_GymSign:
-    .string "武斗镇宝可梦道馆\n馆主：藤树\l“战斗中的巨浪！”$"
+    .string "武斗镇宝可梦道馆\n馆主：藤树\l“格斗浪潮！”$"
 
 DewfordTown_Text_HallSign:
     .string "武斗镇大厅\n“信息交换处！”$"
 
 Route104_Text_LandedInDewfordDeliverLetter:
-    .string "哈奇：喂！\n我们到武斗镇了。\p我想你要去给那个，大吾，\n送信是吧！$"
+    .string "哈奇：喂！\n我们到武斗镇啦！\p我想你要去给那个……大吾，\n送信是吧！$"
 
 DewfordTown_Text_SetSailBackToPetalburg:
-    .string "哈奇：\n你已经送完信了吗？\p还是你想\n回橙华市去？$"
+    .string "哈奇：你已经送完信了吗？\p还是你想回橙华市去？$"
 
 DewfordTown_Text_PetalburgWereSettingSail2:
     .string "哈奇：目标，橙华市！\p起锚！\n小皮，亲爱的，出海了！$"
 
 DewfordTown_Text_GoDeliverIllBeWaiting:
-    .string "哈奇：你去送信吧，\n我就在这儿等着。$"
+    .string "哈奇：那你去送信吧，\n我就在这儿等着。$"
 
 DewfordTown_Text_BrineyLandedInDewford:
-    .string "哈奇：喂！\n我们到武斗镇了！\p想再出海的话，\n随时来找我吧！$"
+    .string "哈奇：喂！\n我们到武斗镇了！\p想再出海随时叫我！$"
 
 DewfordTown_Text_WhereAreWeBound:
-    .string "哈奇：喂！\n只要你愿意，我随时可以出发！\p好了，朋友，想去哪儿？$"
+    .string "哈奇：喂！\n为了你我随时都能出海！\p说吧朋友，\n这次想去哪儿？$"
 
 DewfordTown_Text_PetalburgWereSettingSail:
     .string "哈奇：橙华市是吗？\p起锚！\n小皮，亲爱的，出海了！$"
@@ -676,7 +664,7 @@ DewfordTown_Text_SlateportWereSettingSail:
     .string "哈奇：凯那市是吗？\p起锚！\n小皮，亲爱的，出海了！$"
 
 DewfordTown_Text_JustTellMeWhenYouNeedToSetSail:
-    .string "哈奇：想再出海的话，\n随时来找我！$"
+    .string "哈奇：想再出海随时叫我！$"
 
 DewfordTown_Text_GettingItchToFish:
     .string "这里是著名的钓场。\n你渴望钓鱼吗？$"

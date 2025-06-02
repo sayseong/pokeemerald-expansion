@@ -4,8 +4,8 @@ gText_ConfirmSave::
 	.string "冒险记录吗？$"
 
 gText_AlreadySavedFile::
-	.string "将原来保存的记录，\n"
-	.string "覆盖掉可以吗？$"
+	.string "需要覆盖写入上次的\n"
+	.string "保存记录，可以吗？$"
 
 gText_SavingDontTurnOff::
 	.string "正在写入记录……\n"
@@ -20,8 +20,8 @@ gText_DifferentSaveFile::
 	.string "在“从记录继续”的选项里\n"
 	.string "已经有了一个先前保存的\l"
 	.string "冒险进度了！\p"
-	.string "这样做，先前的冒险进度，\n"
-	.string "以及已经得到的所有宝可梦和道具\l"
+	.string "这样做的话，先前的冒险进度\n"
+	.string "及所有已得到的宝可梦和道具\l"
 	.string "全部都会消失……\p"
 	.string "确定要将原来的记录\n"
 	.string "从头覆盖掉吗？$"

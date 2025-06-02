@@ -28,14 +28,14 @@ Route116_TunnelersRestHouse_EventScript_TunnelOpened::
 	end
 
 Route116_TunnelersRestHouse_Text_WeHadToStopBoring:
-    .string "卡绿隧道……\p我们用先进的机器在石头上\n做了好多庞大无聊的工作。\l但是，我们不得不停止了。\p看来我们所做的\n对这里的野生宝可梦\l产生了不好的影响。\p因此，我们要做的\n就是什么都不做。$"
+    .string "那边的卡绿隧道啊……\p起初我们动用大型机械组织了\n庞大的施工队开凿岩层。\l但后来不得不停工了。\p因为发现这样会严重影响到\n野生宝可梦的栖息环境。\p所以现在我们只能\n无所事事地闲逛了。$"
 
 Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf:
-    .string "有人为见女友而\n要挖洞去绿茵镇。\l他不顾一切挖通了。\p他说如果不使用机器\n一点一点的挖\l就不会影响到宝可梦\l也就避免了影响自然环境。\p我怀疑他现在是否完成了。$"
+    .string "有个男人正独自向\n绿茵镇方向挖掘。\l他急着想打通隧道。\p说是只要不用机械慢慢挖\n就不会惊扰宝可梦\l也能保护自然环境。\p不知道他现在挖通了没有？$"
 
 Route116_TunnelersRestHouse_Text_GetToVerdanturfWithoutTunnel:
-    .string "不通过隧道要到达绿茵镇\n的话，你不得不穿越\l大海到武斗镇，航行到凯那市\l最后穿过紫堇市。$"
+    .string "要绕开隧道去绿茵镇的话，\n得先渡海到武斗镇，\l再坐船到凯那市，\l最后穿过紫堇市才行。$"
 
 Route116_TunnelersRestHouse_Text_TunnelHasGoneThrough:
-    .string "听到了吗？到绿茵镇的隧道\n已经打通了！\p有时，当你的愿望很强烈时，\n美梦就会成真。$"
+    .string "听到了吗？到绿茵镇的隧道\n已经打通了！\p看来只要怀抱足够强烈的愿望，\n梦想就真的能实现呢。$"
 

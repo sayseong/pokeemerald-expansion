@@ -113,11 +113,11 @@ BattleFrontier_RankingHall_Text_IsYourNameOnThisList:
     .string "嘿，你的名字在上面吗？$"
 
 BattleFrontier_RankingHall_Text_WowThatsSuper:
-    .string "哇，太过分了！\n我必须更加努力了！$"
+    .string "哇，太厉害了！\n我也得更加努力了！$"
 
 BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName:
-    .string "哦，你说是不是这样？\p如果你看到你朋友的名字在上面，\n我打赌你会变得更加努力的！$"
+    .string "如果你看到你朋友的名字在上面，\n我猜你肯定会变得更加努力的！\p你说是不是？$"
 
 BattleFrontier_RankingHall_Text_MyNamesNotUpThere:
-    .string "嗯……\n我的名字不在上面……\p没错，这很正常，因为我\n从没参加过任何挑战。$"
+    .string "嗯……\n我的名字不在上面……\p没错，这很正常，\n因为我从没参加过任何挑战。$"
 

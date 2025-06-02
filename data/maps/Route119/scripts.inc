@@ -1,7 +1,3 @@
-.set LOCALID_RIVAL, 16
-.set LOCALID_RIVAL_ON_BIKE, 25
-.set LOCALID_SCOTT, 43
-
 Route119_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, Route119_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, Route119_OnTransition
@@ -42,20 +38,20 @@ Route119_EventScript_RivalTrigger2::
 
 Route119_EventScript_RivalEncounter::
 	lockall
-	addobject LOCALID_RIVAL_ON_BIKE
+	addobject LOCALID_ROUTE119_RIVAL_ON_BIKE
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, Route119_EventScript_PlayMayMusic
 	call_if_eq VAR_RESULT, FEMALE, Route119_EventScript_PlayBrendanMusic
 	delay 65
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_RivalEnter1
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_RivalEnter2
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	delay 30
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_SetRivalPos1
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_SetRivalPos2
-	removeobject LOCALID_RIVAL_ON_BIKE
-	addobject LOCALID_RIVAL
+	removeobject LOCALID_ROUTE119_RIVAL_ON_BIKE
+	addobject LOCALID_ROUTE119_RIVAL
 	delay 30
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, Route119_EventScript_BattleMay
@@ -140,78 +136,78 @@ Route119_EventScript_RivalExitScottArrive::
 	closemessage
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_SetRivalPos1
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_SetRivalPos2
-	removeobject LOCALID_RIVAL
-	addobject LOCALID_RIVAL_ON_BIKE
+	removeobject LOCALID_ROUTE119_RIVAL
+	addobject LOCALID_ROUTE119_RIVAL_ON_BIKE
 	delay 30
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_RivalExit1
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_RivalExit2
-	removeobject LOCALID_RIVAL_ON_BIKE
+	removeobject LOCALID_ROUTE119_RIVAL_ON_BIKE
 	setvar VAR_ROUTE119_STATE, 1
 	savebgm MUS_DUMMY
 	fadedefaultbgm
 	delay 60
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_SetScottPos1
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_SetScottPos2
-	addobject LOCALID_SCOTT
-	applymovement LOCALID_SCOTT, Route119_Movement_ScottEnter
+	addobject LOCALID_ROUTE119_SCOTT
+	applymovement LOCALID_ROUTE119_SCOTT, Route119_Movement_ScottEnter
 	waitmovement 0
 	addvar VAR_SCOTT_STATE, 1
 	msgbox Route119_Text_ScottWayToGoBeSeeingYou, MSGBOX_DEFAULT
 	closemessage
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_ScottExit1
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_ScottExit2
-	removeobject LOCALID_SCOTT
+	removeobject LOCALID_ROUTE119_SCOTT
 	releaseall
 	end
 
 Route119_EventScript_SetScottPos1::
-	setobjectxyperm LOCALID_SCOTT, 27, 25
+	setobjectxyperm LOCALID_ROUTE119_SCOTT, 27, 25
 	return
 
 Route119_EventScript_SetScottPos2::
-	setobjectxyperm LOCALID_SCOTT, 28, 25
+	setobjectxyperm LOCALID_ROUTE119_SCOTT, 28, 25
 	return
 
 Route119_EventScript_ScottExit1::
-	applymovement LOCALID_SCOTT, Route119_Movement_ScottExit1
+	applymovement LOCALID_ROUTE119_SCOTT, Route119_Movement_ScottExit1
 	waitmovement 0
 	return
 
 Route119_EventScript_ScottExit2::
-	applymovement LOCALID_SCOTT, Route119_Movement_ScottExit2
+	applymovement LOCALID_ROUTE119_SCOTT, Route119_Movement_ScottExit2
 	waitmovement 0
 	return
 
 Route119_EventScript_RivalEnter1::
-	applymovement LOCALID_RIVAL_ON_BIKE, Route119_Movement_RivalEnter1
+	applymovement LOCALID_ROUTE119_RIVAL_ON_BIKE, Route119_Movement_RivalEnter1
 	waitmovement 0
 	return
 
 Route119_EventScript_RivalEnter2::
-	applymovement LOCALID_RIVAL_ON_BIKE, Route119_Movement_RivalEnter2
+	applymovement LOCALID_ROUTE119_RIVAL_ON_BIKE, Route119_Movement_RivalEnter2
 	waitmovement 0
 	return
 
 Route119_EventScript_RivalExit1::
-	applymovement OBJ_EVENT_ID_PLAYER, Route119_Movement_PlayerWatchRivalExit1
-	applymovement LOCALID_RIVAL_ON_BIKE, Route119_Movement_RivalExit1
+	applymovement LOCALID_PLAYER, Route119_Movement_PlayerWatchRivalExit1
+	applymovement LOCALID_ROUTE119_RIVAL_ON_BIKE, Route119_Movement_RivalExit1
 	waitmovement 0
 	return
 
 Route119_EventScript_RivalExit2::
-	applymovement OBJ_EVENT_ID_PLAYER, Route119_Movement_PlayerWatchRivalExit2
-	applymovement LOCALID_RIVAL_ON_BIKE, Route119_Movement_RivalExit2
+	applymovement LOCALID_PLAYER, Route119_Movement_PlayerWatchRivalExit2
+	applymovement LOCALID_ROUTE119_RIVAL_ON_BIKE, Route119_Movement_RivalExit2
 	waitmovement 0
 	return
 
 Route119_EventScript_SetRivalPos1::
-	setobjectxyperm LOCALID_RIVAL, 25, 32
-	setobjectxyperm LOCALID_RIVAL_ON_BIKE, 25, 32
+	setobjectxyperm LOCALID_ROUTE119_RIVAL, 25, 32
+	setobjectxyperm LOCALID_ROUTE119_RIVAL_ON_BIKE, 25, 32
 	return
 
 Route119_EventScript_SetRivalPos2::
-	setobjectxyperm LOCALID_RIVAL, 26, 32
-	setobjectxyperm LOCALID_RIVAL_ON_BIKE, 26, 32
+	setobjectxyperm LOCALID_ROUTE119_RIVAL, 26, 32
+	setobjectxyperm LOCALID_ROUTE119_RIVAL_ON_BIKE, 26, 32
 	return
 
 Route119_Movement_PlayerWatchRivalExit1:
@@ -480,44 +476,44 @@ Route119_EventScript_ScottWonAtFortreeGymCall::
 	end
 
 Route119_Text_MayIntro:
-    .string "小遥：{PLAYER}{KUN}！\n你去哪儿了？我一直在找你！\p你现在怎么样了？\n让我来看看吧！\p准备好你的宝可梦了吗？\n当然你会准备好的，开始了！$"
+    .string "小遥：{PLAYER}{KUN}！\n你去哪儿了？我找你很久了！\p让我来看看你\n变强了多少！\p准备好宝可梦了吗？\n你肯定没问题的，接招吧！$"
 
 Route119_Text_MayDefeat:
-    .string "呀啊！\n{PLAYER}{KUN}，你很强嘛！\p我一直担心你\n在训练中会碰上困难。$"
+    .string "呜哇！\n{PLAYER}{KUN}变得好强！\p我之前还担心你会不会\n训练得不够呢。$"
 
 Route119_Text_MayPresentForYou:
-    .string "小遥：但看来我是白担心了！\n继续加油吧！\p还有，这是我给你的礼物。$"
+    .string "小遥：看来完全不用担心嘛！\n保持这个势头吧！\p来！\n这个送给你。$"
 
 Route119_Text_MayExplainFly:
-    .string "小遥：使用飞翔的话，你的\n宝可梦会马上把你送到\l曾经去过的城镇，\p但你必须先拿到\n茵郁市的道馆徽章，\l这很重要，不要忘了。\p你最好先回\n未白镇的家里一趟，\p你妈妈一直在担心你，\n{PLAYER}{KUN}。\p好了，下次再见！$"
+    .string "小遥：使用飞翔的话，\n宝可梦会瞬间带你飞回\l曾经去过的城镇，\p但必须先拿到茵郁市的\n道馆徽章才能够使用，\l这很重要，不要忘了哦！\p偶尔也该飞回未白镇\n回家里看看，\p你妈妈会担心你的，\n{PLAYER}{KUN}。\p好了，下次再见！$"
 
 Route119_Text_BrendanIntro:
-    .string "小悠：{PLAYER}！\n你在这儿找宝可梦吗？\p你成长得如何了，\n就让我来看看吧！\p来吧！\n来战斗吧！$"
+    .string "小悠：{PLAYER}！\n来这里找宝可梦吗？\p让我检验下你的实力\n成长得如何了！\p现在！\n来对战吧！$"
 
 Route119_Text_BrendanDefeat:
-    .string "嗯……\n干得不错。$"
+    .string "唔……\n你进步得真快啊。$"
 
 Route119_Text_BrendanIllGiveYouThis:
-    .string "小悠：我想你无论去哪儿找宝可梦\n都不会有问题。\p这个给你，\n试试吧。$"
+    .string "小悠：我想你无论去哪儿\n找宝可梦都没问题。\p这个给你，\n试试吧。$"
 
 Route119_Text_BrendanExplainFly:
-    .string "小悠：使用飞翔的话，你的\n宝可梦会马上把你送到\l曾经去过的城镇，\p但你得先拿到\n茵郁市道馆徽章才行。\p好了，我该走了。$"
+    .string "小悠：使用飞翔的话，\n宝可梦会瞬间带你飞回\l曾经去过的城镇，\p但必须先拿到茵郁市的\n道馆徽章才能用。\p好了，\n我先走一步啦！$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
-    .string "亚希达：哈哈哈哈！\n又见面了，{PLAYER}{KUN}！\p我刚刚碰到了个\n骑着自行车的训练家。\p你刚刚打败了那个训练家是吗？\n很明显是你干的。\p那孩子气得脸红红的，\n好像很失望。\p那时我就肯定很快能碰上你。\n你现在要去茵郁市道馆是吗？\p我想你会顺利胜出的。\n好了，回头见！$"
+    .string "亚希达：哈哈哈哈！\n干得漂亮，{PLAYER}{KUN}！\p我刚刚遇到了个\n骑着自行车的训练家。\p你刚刚打败了那个训练家对吧？\n不用想都知道是你。\p那孩子气得脸红红的，\n好像很不甘心。\p我们看起来很有缘呢。\n你现在要去茵郁市道馆是吗？\p相信你一定会表现出色。\n好了，回头见！$"
 
 
 Route119_Text_ScottYouWonAtFortreeGym:
-    .string "…… …… ……\n…… …… ……哔！\p亚希达：嗨，{PLAYER}{KUN}，是我！\p就像我说过的，\n你果然赢了茵郁市道馆了。\p你这么强……\n也许真的是\l我一直在寻找的训练家。\p你现在是我的明星，\n我会在场外为你加油的。\l继续努力吧！\p…… …… ……\n…… …… ……咔哒！$"
+    .string "…… …… ……\n…… …… ……哔！\p亚希达：嗨，{PLAYER}{KUN}，是我！\p你果然如我所料，\n赢下了茵郁市道馆。\p你的实力……\n或许正是我一直在找的训练家。\p记住我是你的头号粉丝，\n我会一直默默为你加油的。\l继续加油！\p…… …… ……\n…… …… ……咔哒！$"
 
 Route119_Text_StayAwayFromWeatherInstitute:
-    .string "我们在这里放哨。\p喂，你！别接近\n天气研究所，那儿不安全。$"
+    .string "我们在这里放哨。\p喂，你！别接近天气研究所，\n那儿不安全。$"
 
 Route119_Text_DontGoNearWeatherInstitute:
-    .string "放哨的任务实在太无聊了。\p喂，你！别跑到\n天气研究所附近去。$"
+    .string "放哨的任务实在太无聊了。\p喂，你！\n别跑到天气研究所附近去。$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
-    .string "我本以为所谓飞翔是指\n捉一大群鸟宝可梦，然后\l不知怎么挂在它们身上，\p但实际上飞翔是\n一种秘传学习器招式！\p我要是早点知道\n就好了……$"
+    .string "我本以为所谓飞翔是指\n捉一大群鸟宝可梦，\l然后想办法挂在它们身上。\p但实际上飞翔是\n一种秘传招式！\p我要是早点知道\n就好了……$"
 
 Route119_Text_TallGrassSnaresBikeTires:
     .string "切……\n过不去……\p长草会卷进自行车的轮胎里，\n不可能骑车过去。$"
@@ -532,4 +528,4 @@ Route119_Text_WeatherInstitute:
     .string "天气研究所$"
 
 Route119_Text_TrainerTipsDecoration:
-    .string "训练家小技巧\p秘密基地里面\n最多只能放16个\l装饰物品和家具。\p用你最喜欢的\n物品装扮出你自己的\l秘密基地吧。$"
+    .string "有用的公告牌！\p秘密基地里面\n最多只能放16个\l装饰物品和家具。\p用你最喜欢的\n物品装扮出你自己的\l秘密基地吧。$"

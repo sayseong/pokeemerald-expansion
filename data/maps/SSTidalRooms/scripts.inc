@@ -72,7 +72,7 @@ SSTidalRooms_Text_ColtonDefeat:
     .string "真是一场痛快的对战！$"
 
 SSTidalRooms_Text_ColtonPostBattle:
-    .string "只要想像一下在下次的华丽大赛中\n能看见什么样的宝可梦，我就会\l兴奋起来。真是无比期待啊！$"
+    .string "只要想想在下次的华丽大赛中能看见\n什么样的宝可梦，我就会兴奋起来。\l真是无比期待啊！$"
 
 SSTidalRooms_Text_MicahIntro:
     .string "你的朋友很强吗？$"
@@ -102,7 +102,7 @@ SSTidalRooms_Text_JedPostBattle:
     .string "阿新：我们爱情的力量\n头一回没能取胜！\l你肯定是一名很强的训练家！$"
 
 SSTidalRooms_Text_JedNotEnoughMons:
-    .string "阿新: 你只有一只宝可梦？\n这是不是也太孤单了？$"
+    .string "阿新：你只有1只宝可梦？\n这是不是也太孤单了？$"
 
 SSTidalRooms_Text_LeaIntro:
     .string "佳穗：说起来真有些傻……\n我们会展示给你爱情的力量！$"
@@ -114,7 +114,7 @@ SSTidalRooms_Text_LeaPostBattle:
     .string "佳穗：真是难以置信！\n我们爱情的力量输了……\l你肯定是一名很强的训练家！$"
 
 SSTidalRooms_Text_LeaNotEnoughMons:
-    .string "佳穗：我也想对战……\n但你连两只宝可梦都没有……$"
+    .string "佳穗：我也想对战……\n但你连2只宝可梦都没有……$"
 
 SSTidalRooms_Text_GarretIntro:
     .string "啊，你来的正好。\p我无聊死了，\n一块玩玩吧。$"
@@ -135,8 +135,8 @@ SSTidalRooms_Text_NaomiPostBattle:
     .string "坐着豪华客轮周游世界\n确实很吸引人……\p但必须承认，坐着渡轮\n周游丰缘也别有一番风味。$"
 
 SSTidalRooms_Text_NotSuspiciousTakeThis:
-    .string "嗯……你好！\n我……我不是什么可疑的人！\l嗯……这个给你！免费的！\p这……真的，这不是我\n偷来的！我绝不会干这种事！\l这不是赃物！你放心用吧！$"
+    .string "嗯……你好！\n我……我不是什么可疑的人！\l嗯……这个给你！免费的！\p这……真的，这不是我\n抢夺来的！我绝不会干这种事！\l这不是赃物！你放心用吧！$"
 
 SSTidalRooms_Text_ExplainSnatch:
-    .string "抢夺可以把对手或盟友\n即将使用的某些招式\l据为己有。$"
+    .string "化为己用可以把对手或我方\n即将使用的某些招式\l抢夺过来化为己用。$"
 

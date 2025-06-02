@@ -53,8 +53,8 @@ LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM:
     .string "唔……\p攻击招式……\n防御招式……\p决定教给宝可梦\n什么招式真是困难……$"
 
 LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs:
-    .string "有许多不同的\n招式学习器，\p我读过一本目录上说\n一共有50种。$"
+    .string "有许多不同种类的\n招式学习器呢，\p我读过的图鉴上说\n一共有50种不同的类型。$"
 
 LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves:
-    .string "我想要所有的招式学习器，\n但一只宝可梦只能学四种招式。$"
+    .string "我想要所有的招式学习器，\n但1只宝可梦只能学4种招式。$"
 

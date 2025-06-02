@@ -1061,6 +1061,7 @@ ROUND_RIGHT_PAREN = F9 14
 CIRCLE_DOT = F9 15
 TRIANGLE = F9 16
 BIG_MULT_X = F9 17
+CIRCLE_HOLLOW = F9 18
 
 EMOJI_UNDERSCORE = F9 D0
 EMOJI_PIPE = F9 D1
@@ -7876,6 +7877,13 @@ EMOJI_BIGANGER = F9 FE
 '鼹' = 1E59
 '鼷' = 1E5A
 '鼽' = 1E5B
+
+'『' = 1E62
+'』' = 1E63
+
+'《' = 1E66
+'》' = 1E67
+
 '鼾' = 1E6B
 '齄' = 1E6C
 '椪' = 1E6D
@@ -7889,5 +7897,5 @@ EMOJI_BIGANGER = F9 FE
 '，' = 3B
 '、' = 3A
 '。' = 37
-'—'  = 38
+'—'  = 3F
 '～' = 39

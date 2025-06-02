@@ -1,6 +1,3 @@
-.set LOCALID_MATT, 1
-.set LOCALID_SUBMARINE, 4
-
 AquaHideout_B2F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, AquaHideout_B2F_OnTransition
 	.byte 0
@@ -15,7 +12,7 @@ AquaHideout_B2F_EventScript_PreventMattNoticing::
 
 AquaHideout_B2F_EventScript_MattNoticePlayer::
 	lockall
-	setvar VAR_0x8008, LOCALID_MATT
+	setvar VAR_0x8008, LOCALID_AQUA_HIDEOUT_MATT
 	playse SE_PIN
 	applymovement VAR_0x8008, Common_Movement_ExclamationMark
 	waitmovement 0
@@ -32,8 +29,8 @@ AquaHideout_B2F_EventScript_Matt::
 	end
 
 AquaHideout_B2F_EventScript_SubmarineEscape::
-	setvar VAR_0x8008, LOCALID_MATT
-	setvar VAR_0x8009, LOCALID_SUBMARINE
+	setvar VAR_0x8008, LOCALID_AQUA_HIDEOUT_MATT
+	setvar VAR_0x8009, LOCALID_AQUA_HIDEOUT_SUBMARINE
 	applymovement VAR_0x8008, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	delay 20
@@ -90,19 +87,19 @@ AquaHideout_B2F_EventScript_Grunt8::
 	end
 
 AquaHideout_B2F_Text_MattIntro:
-    .string "嘿嘿嘿……\p居然能走到这儿来啊，\n看来我们低估了你！\p但是到此为止了！\p我可比前面那些家伙\n都要强得多。\p我可不是仅仅拖延时间的，\n我会将你捏成粉末的！$"
+    .string "嘿嘿嘿……\p都已经到这儿了啊？\n真是小瞧你了！\p但是到此为止了！\p我可比前面那些杂兵们\n都要强得多。\p我可不是拖延时间的，\n我会将你捏成粉末的！$"
 
 AquaHideout_B2F_Text_MattDefeat:
     .string "嘿嘿嘿……\n看来我也输了……$"
 
 AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
-    .string "嘿嘿嘿！\p我陪你玩的时候，我们的老大\n就可以做好准备了！$"
+    .string "嘿嘿嘿！\p我陪你玩的时候，我们的老大\n已经完成准备了！$"
 
 AquaHideout_B2F_Text_MattPostBattle:
-    .string "嘿嘿嘿！\p我们的老大已经在去\n海底洞窟的路上了！\p要是你想追的话，\n就去水静市那边宽广的海域\l慢慢找吧。\p但是你能找到吗？\n嘿嘿嘿！$"
+    .string "嘿嘿嘿！\p我们的老大已经在去\n海底洞窟的路上了！\p要是你想追的话，\n就去水静市那边宽广的\l大海来慢慢找吧。\p不过你能找到吗？\n嘿嘿嘿！$"
 
 AquaHideout_B2F_Text_Grunt4Intro:
-    .string "哇哈哈，我已经等烦了！\n你也欠我一场战斗！$"
+    .string "哇哈哈，我已经等烦了！\n你也欠我一场对战！$"
 
 AquaHideout_B2F_Text_Grunt4Defeat:
     .string "等烦了……\n也败得一塌糊涂……$"
@@ -117,7 +114,7 @@ AquaHideout_B2F_Text_Grunt6Defeat:
     .string "怎么回事？\n你一点都不累！$"
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
-    .string "说起来……我忘了\n把大师球放在哪里了。\p如果我没有保护好它，\n会被老大骂死的……$"
+    .string "说起来……\n我忘了把大师球放在哪里了。\p如果我没有保护好它，\n会被老大骂死的……$"
 
 AquaHideout_B2F_Text_Grunt8Intro:
     .string "我加入海洋队的时候，第一件事\n就是记住这些传送地板\l都通向什么地方。$"
@@ -126,4 +123,4 @@ AquaHideout_B2F_Text_Grunt8Defeat:
     .string "脑子里全都是\n传送地板的事情了……$"
 
 AquaHideout_B2F_Text_Grunt8PostBattle:
-    .string "我想我必须学学\n战斗的要诀了……$"
+    .string "我想我必须学学\n对战的要诀了……$"

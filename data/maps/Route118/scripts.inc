@@ -1,5 +1,3 @@
-.set LOCALID_STEVEN, 19
-
 Route118_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route118_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, Route118_OnLoad
@@ -65,9 +63,9 @@ Route118_EventScript_RouteSign119::
 Route118_EventScript_StevenTrigger0::
 	lockall
 	setvar VAR_0x8008, 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
+	applymovement LOCALID_PLAYER, Common_Movement_FaceUp
 	waitmovement 0
-	applymovement LOCALID_STEVEN, Route118_Movement_StevenApproachLedge0
+	applymovement LOCALID_ROUTE118_STEVEN, Route118_Movement_StevenApproachLedge0
 	waitmovement 0
 	goto Route118_EventScript_StevenTrigger
 	end
@@ -75,7 +73,7 @@ Route118_EventScript_StevenTrigger0::
 Route118_EventScript_StevenTrigger1::
 	lockall
 	setvar VAR_0x8008, 1
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
+	applymovement LOCALID_PLAYER, Common_Movement_FaceUp
 	waitmovement 0
 	goto Route118_EventScript_StevenTrigger
 	end
@@ -83,16 +81,16 @@ Route118_EventScript_StevenTrigger1::
 Route118_EventScript_StevenTrigger2::
 	lockall
 	setvar VAR_0x8008, 2
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
+	applymovement LOCALID_PLAYER, Common_Movement_FaceUp
 	waitmovement 0
-	applymovement LOCALID_STEVEN, Route118_Movement_StevenApproachLedge2
+	applymovement LOCALID_ROUTE118_STEVEN, Route118_Movement_StevenApproachLedge2
 	waitmovement 0
 	goto Route118_EventScript_StevenTrigger
 	end
 
 Route118_EventScript_StevenTrigger::
 	playse SE_LEDGE
-	applymovement LOCALID_STEVEN, Route118_Movement_StevenJumpLedge
+	applymovement LOCALID_ROUTE118_STEVEN, Route118_Movement_StevenJumpLedge
 	waitmovement 0
 	delay 30
 	msgbox Route118_Text_StevenQuestions, MSGBOX_DEFAULT
@@ -101,25 +99,25 @@ Route118_EventScript_StevenTrigger::
 	call_if_eq VAR_0x8008, 1, Route118_EventScript_StevenExit1
 	call_if_eq VAR_0x8008, 2, Route118_EventScript_StevenExit2
 	setvar VAR_ROUTE118_STATE, 1
-	removeobject LOCALID_STEVEN
+	removeobject LOCALID_ROUTE118_STEVEN
 	releaseall
 	end
 
 Route118_EventScript_StevenExit0::
-	applymovement OBJ_EVENT_ID_PLAYER, Route118_Movement_PlayerWatchStevenExit
-	applymovement LOCALID_STEVEN, Route118_Movement_StevenExit0
+	applymovement LOCALID_PLAYER, Route118_Movement_PlayerWatchStevenExit
+	applymovement LOCALID_ROUTE118_STEVEN, Route118_Movement_StevenExit0
 	waitmovement 0
 	return
 
 Route118_EventScript_StevenExit1::
-	applymovement OBJ_EVENT_ID_PLAYER, Route118_Movement_PlayerWatchStevenExit
-	applymovement LOCALID_STEVEN, Route118_Movement_StevenExit1
+	applymovement LOCALID_PLAYER, Route118_Movement_PlayerWatchStevenExit
+	applymovement LOCALID_ROUTE118_STEVEN, Route118_Movement_StevenExit1
 	waitmovement 0
 	return
 
 Route118_EventScript_StevenExit2::
-	applymovement OBJ_EVENT_ID_PLAYER, Route118_Movement_PlayerWatchStevenExit
-	applymovement LOCALID_STEVEN, Route118_Movement_StevenExit2
+	applymovement LOCALID_PLAYER, Route118_Movement_PlayerWatchStevenExit
+	applymovement LOCALID_ROUTE118_STEVEN, Route118_Movement_StevenExit2
 	waitmovement 0
 	return
 
@@ -246,7 +244,7 @@ Route118_EventScript_Deandre::
 	end
 
 Route118_Text_StevenQuestions:
-    .string "大吾：嗨，{PLAYER}{KUN}！\p是我，大吾！\n我们在武斗镇见过面。\p自上次以来你是不是\n见过很多宝可梦了？\p在这广阔的世界中\n有着非常多的宝可梦，\p你可能想训练自己\n喜欢的几种，那也无妨，\p但你也许会觉得\n训练多种多样的宝可梦会更有趣。\p因为你是个宝可梦训练家，\n不是吗？\p当然，这与我没什么关系。\p希望我们还能\n再次见面。$"
+    .string "大吾：嗨，{PLAYER}{KUN}！\p是我，大吾！\n我们在武斗镇的洞窟里见过。\p这段时间你又遇到了\n多少宝可梦呢？\p在这广阔的世界中\n栖息着多种多样的宝可梦，\p专注于培养自己喜欢的\n几种也不错，\p不过尝试培养各种不同的\n宝可梦也许会更有趣呢。\p作为训练家，\n你是怎么想的呢？\p当然，\n这只是我的一己之见。\p希望我们还能再见。$"
 
 Route118_Text_YouAgreeGoodRodIsGood:
     .string "嗯！\n好钓竿非常好用！\p你也这么想吧？$"

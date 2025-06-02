@@ -114,3 +114,39 @@ mkdir decomps
 ```bash
 cd ~/decomps
 ```
+
+## WSL更新或安装依赖时错误解决
+
+<b>更新WSL</b>或<b>安装依赖项</b>时如果出现以下错误提示
+
+```console
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+```
+
+可先执行以下命令
+
+```bash
+sudo mv /var/lib/dpkg/info /var/lib/dpkg/info_old
+sudo mkdir /var/lib/dpkg/info
+```
+
+<b>等待命令执行完毕</b>后再次运行<b>更新WSL</b>或<b>安装依赖项</b>命令。<b>更新或安装完毕后</b>运行以下命令以恢复pkg信息
+
+```bash
+sudo mv /var/lib/dpkg/info_old/* /var/lib/dpkg/info/
+sudo rmdir /var/lib/dpkg/info_old
+```
+
+如果出现以下提示，并列出可移除的包名（以libllvm17t64为例）
+
+```console
+The following package was automatically installed and is no longer required:
+	libllvm17t64
+```
+
+可执行以下命令解决该提示
+
+```bash
+sudo apt autoremove
+sudo apt install libllvm17t64
+```

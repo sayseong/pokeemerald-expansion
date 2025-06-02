@@ -1,10 +1,3 @@
-.set LOCALID_GRUNT_1, 10
-.set LOCALID_GRUNT_2, 11
-.set LOCALID_GRUNT_3, 12
-.set LOCALID_GRUNT_4, 13
-.set LOCALID_MAXIE, 14
-.set LOCALID_SCOTT, 16
-
 MossdeepCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_OnTransition
 	.byte 0
@@ -82,24 +75,24 @@ MossdeepCity_EventScript_VisitedMossdeep::
 
 MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter::
 	lockall
-	applymovement LOCALID_MAXIE, MossdeepCity_Movement_MaxieGestureToSpaceCenter
+	applymovement LOCALID_MOSSDEEP_MAXIE, MossdeepCity_Movement_MaxieGestureToSpaceCenter
 	waitmovement 0
-	applymovement LOCALID_GRUNT_1, MossdeepCity_Movement_GruntFaceSpaceCenter
-	applymovement LOCALID_GRUNT_2, MossdeepCity_Movement_GruntFaceSpaceCenter
-	applymovement LOCALID_GRUNT_3, MossdeepCity_Movement_GruntFaceSpaceCenter
-	applymovement LOCALID_GRUNT_4, MossdeepCity_Movement_GruntFaceSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_1, MossdeepCity_Movement_GruntFaceSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_2, MossdeepCity_Movement_GruntFaceSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_3, MossdeepCity_Movement_GruntFaceSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_4, MossdeepCity_Movement_GruntFaceSpaceCenter
 	waitmovement 0
-	applymovement LOCALID_MAXIE, MossdeepCity_Movement_MaxieEnterSpaceCenter
-	applymovement LOCALID_GRUNT_1, MossdeepCity_Movement_Grunt1EnterSpaceCenter
-	applymovement LOCALID_GRUNT_2, MossdeepCity_Movement_Grunt2EnterSpaceCenter
-	applymovement LOCALID_GRUNT_3, MossdeepCity_Movement_Grunt3EnterSpaceCenter
-	applymovement LOCALID_GRUNT_4, MossdeepCity_Movement_Grunt4EnterSpaceCenter
+	applymovement LOCALID_MOSSDEEP_MAXIE, MossdeepCity_Movement_MaxieEnterSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_1, MossdeepCity_Movement_Grunt1EnterSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_2, MossdeepCity_Movement_Grunt2EnterSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_3, MossdeepCity_Movement_Grunt3EnterSpaceCenter
+	applymovement LOCALID_MOSSDEEP_GRUNT_4, MossdeepCity_Movement_Grunt4EnterSpaceCenter
 	waitmovement 0
-	removeobject LOCALID_MAXIE
-	removeobject LOCALID_GRUNT_1
-	removeobject LOCALID_GRUNT_2
-	removeobject LOCALID_GRUNT_3
-	removeobject LOCALID_GRUNT_4
+	removeobject LOCALID_MOSSDEEP_MAXIE
+	removeobject LOCALID_MOSSDEEP_GRUNT_1
+	removeobject LOCALID_MOSSDEEP_GRUNT_2
+	removeobject LOCALID_MOSSDEEP_GRUNT_3
+	removeobject LOCALID_MOSSDEEP_GRUNT_4
 	delay 30
 	setvar VAR_MOSSDEEP_CITY_STATE, 2
 	setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
@@ -263,19 +256,19 @@ MossdeepCity_EventScript_Scott::
 	call_if_eq VAR_FACING, DIR_NORTH, MossdeepCity_EventScript_ScottExitNorth
 	call_if_eq VAR_FACING, DIR_EAST, MossdeepCity_EventScript_ScottExitEast
 	addvar VAR_SCOTT_STATE, 1
-	removeobject LOCALID_SCOTT
+	removeobject LOCALID_MOSSDEEP_SCOTT
 	release
 	end
 
 MossdeepCity_EventScript_ScottExitNorth::
-	applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Movement_PlayerWatchScottExit
-	applymovement LOCALID_SCOTT, MossdeepCity_Movement_ScottExitNorth
+	applymovement LOCALID_PLAYER, MossdeepCity_Movement_PlayerWatchScottExit
+	applymovement LOCALID_MOSSDEEP_SCOTT, MossdeepCity_Movement_ScottExitNorth
 	waitmovement 0
 	return
 
 MossdeepCity_EventScript_ScottExitEast::
-	applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_Movement_PlayerWatchScottExit
-	applymovement LOCALID_SCOTT, MossdeepCity_Movement_ScottExitEast
+	applymovement LOCALID_PLAYER, MossdeepCity_Movement_PlayerWatchScottExit
+	applymovement LOCALID_MOSSDEEP_SCOTT, MossdeepCity_Movement_ScottExitEast
 	waitmovement 0
 	return
 
@@ -344,7 +337,7 @@ MossdeepCity_Text_LifeNeedsSeaToLive:
     .string "所有的生命都要依靠大海才能生存，\n即使是生活在陆地上的生命也一样。\p当一个生命走完了它的旅程，\n它又变成泥土回归大地。\p而大地总是和海洋\n紧密相连的。\p没错，就像这里的海岸线一样。$"
 
 MossdeepCity_Text_SurfExhilarating:
-    .string "虽然乘船航行还算不错，\p但乘着宝可梦\n渡海的话……\p那简直是太美妙了！\n你不这么想吗，年轻人？$"
+    .string "虽然乘船航行\n还算不错，\p但乘着宝可梦\n渡海的话……\p那简直是太美妙了！\n你不这么想吗，年轻人？$"
 
 MossdeepCity_Text_SpecialSpaceCenterRock:
     .string "这块石头对宇宙中心的人来说\n意义非凡，\p他们把它放在这里，\n祈祷火箭能安全上天。\p你许愿的时候会怎么做？\n你会向流星许愿吗？\p我会把愿望写在纸签上，\n祈祷它能实现。$"
@@ -353,17 +346,17 @@ MossdeepCity_Text_ItsAWhiteRock:
     .string "这是一块白色石头。$"
 
 MossdeepCity_Text_GymSign:
-    .string "绿岭市宝可梦道馆\n馆主：小枫和小南\p“神秘的组合！”$"
+    .string "绿岭市宝可梦道馆\n馆主：小枫与小南\p“神秘的组合！！”$"
 
 MossdeepCity_Text_CitySign:
-    .string "绿岭市\n“我们的口号是：珍爱宝可梦！”$"
+    .string "这里是绿岭市。\n“我们的口号：珍爱宝可梦！”$"
 
 MossdeepCity_Text_SpaceCenterSign:
     .string "绿岭市宇宙中心\n“最接近宇宙的地方。”$"
 
 MossdeepCity_Text_ScottSomethingWrongWithTown:
-    .string "亚希达：{PLAYER}{KUN}，还好吗？\n我这儿很顺利！\p我听说绿岭市的道馆馆主\n实力很强，所以我打算\l来这调查一下。\p但这镇子上好像\n出了什么事，\p人们都在谈论宇宙中心\n和一封警告信……\p不过，我认为那与我\n一毛钱的关系也没有。$"
+    .string "亚希达：{PLAYER}{KUN}，还好吗？\n我这儿很顺利！\p我听说绿岭市的道馆馆主\n实力很强，所以我打算\l过来亲眼见识一下。\p但这镇子上好像\n不太对劲，\p人们都在谈论什么宇宙中心\n和一封警告信……\p虽然我觉得这事跟我\n没啥关系就是了。$"
 
 MossdeepCity_Text_SootopolisNewGymLeader:
-    .string "啊……海浪冲刷在脚上的感觉\n真好……\p说到海浪，你知道\n那个海岛城市琉璃市吗？\p那儿的道馆来了个\n新馆主，\p据说他\n曾教导过米可利。$"
+    .string "啊……海浪冲刷双脚的感觉……\n真好……\p说到海浪，\n你知道那个水上城市琉璃市吗？\p那儿的道馆来了个\n新馆主，\p据说他曾教导过\n米可利。$"
 

@@ -79,15 +79,15 @@ static const u8 sText_WildFled[] = _("{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME}�
 static const u8 sText_TwoWildFled[] = _("{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME}和\n{B_LINK_OPPONENT2_NAME}逃走了！"); //not in gen 5+, replaced with match was forfeited text
 static const u8 sText_PlayerDefeatedLinkTrainerTrainer1[] = _("战胜了\n{B_TRAINER1_NAME_WITH_CLASS}！\p");
 static const u8 sText_OpponentMon1Appeared[] = _("{B_OPPONENT_MON1_NAME}出现了！\p");
-static const u8 sText_WildPkmnAppeared[] = _("{B_OPPONENT_MON1_NAME}扑过来了！\p");
+static const u8 sText_WildPkmnAppeared[] = _("啊！野生的\n{B_OPPONENT_MON1_NAME}扑过来了！\p");
 static const u8 sText_LegendaryPkmnAppeared[] = _("{B_OPPONENT_MON1_NAME}出现了！\p");
-static const u8 sText_WildPkmnAppearedPause[] = _("{B_OPPONENT_MON1_NAME}扑过来了！{PAUSE 127}");
-static const u8 sText_TwoWildPkmnAppeared[] = _("{B_OPPONENT_MON1_NAME}和{B_OPPONENT_MON2_NAME}\n扑过来了！\p");
+static const u8 sText_WildPkmnAppearedPause[] = _("啊！野生的\n{B_OPPONENT_MON1_NAME}扑过来了！{PAUSE 127}");
+static const u8 sText_TwoWildPkmnAppeared[] = _("啊！野生的\n{B_OPPONENT_MON1_NAME}和{B_OPPONENT_MON2_NAME}扑过来了！\p");
 static const u8 sText_Trainer1WantsToBattle[] = _("{B_TRAINER1_NAME_WITH_CLASS}\n前来挑战了！\p");
 static const u8 sText_LinkTrainerWantsToBattle[] = _("{B_LINK_OPPONENT1_NAME}\n前来挑战了！");
 static const u8 sText_TwoLinkTrainersWantToBattle[] = _("{B_LINK_OPPONENT1_NAME}和{B_LINK_OPPONENT2_NAME}\n前来挑战了！");
 static const u8 sText_Trainer1SentOutPkmn[] = _("{B_TRAINER1_NAME_WITH_CLASS}\n派出了{B_OPPONENT_MON1_NAME}！");
-static const u8 sText_Trainer1SentOutTwoPkmn[] = _("{B_TRAINER1_NAME_WITH_CLASS}\n派出了{B_OPPONENT_MON1_NAME}和{B_OPPONENT_MON2_NAME}!");
+static const u8 sText_Trainer1SentOutTwoPkmn[] = _("{B_TRAINER1_NAME_WITH_CLASS}\n派出了{B_OPPONENT_MON1_NAME}和{B_OPPONENT_MON2_NAME}！");
 static const u8 sText_Trainer1SentOutPkmn2[] = _("{B_TRAINER1_NAME_WITH_CLASS}\n派出了{B_BUFF1}！");
 static const u8 sText_LinkTrainerSentOutPkmn[] = _("{B_LINK_OPPONENT1_NAME}派出了\n{B_OPPONENT_MON1_NAME}！");
 static const u8 sText_LinkTrainerSentOutTwoPkmn[] = _("{B_LINK_OPPONENT1_NAME}派出了\n{B_OPPONENT_MON1_NAME}和{B_OPPONENT_MON2_NAME}！");
@@ -100,7 +100,7 @@ static const u8 sText_GoPkmn2[] = _("上吧！{B_BUFF1}！");
 static const u8 sText_DoItPkmn[] = _("交给你了！{B_BUFF1}！");
 static const u8 sText_GoForItPkmn[] = _("加油！{B_BUFF1}！");
 static const u8 sText_JustALittleMorePkmn[] = _("只差一点了！\n加油！{B_BUFF1}！"); //currently unused, will require code changes
-static const u8 sText_YourFoesWeakGetEmPkmn[] = _("对手变弱了！\n机会来了！{B_BUFF1}!");
+static const u8 sText_YourFoesWeakGetEmPkmn[] = _("对手变弱了！\n机会来了！{B_BUFF1}！");
 static const u8 sText_LinkPartnerSentOutPkmnGoPkmn[] = _("{B_LINK_PARTNER_NAME}派出了{B_LINK_PLAYER_MON2_NAME}！\n上吧！{B_LINK_PLAYER_MON1_NAME}！");
 static const u8 sText_PkmnSwitchOut[] = _("{B_BUFF1}，替换！\n回来！"); //currently unused, I believe its used for when you switch on a pokemon in shift mode
 static const u8 sText_PkmnThatsEnough[] = _("{B_BUFF1}，好了！\n回来！");
@@ -122,11 +122,11 @@ static const u8 sText_AllyPkmnPrefix2[] = _("我方");
 static const u8 sText_FoePkmnPrefix4[] = _("对手");
 static const u8 sText_AllyPkmnPrefix3[] = _("我方");
 static const u8 sText_AttackerUsedX[] = _("{B_ATK_NAME_WITH_PREFIX}使出了\n{B_BUFF3}！");
-static const u8 sText_ExclamationMark[] = _("!");
-static const u8 sText_ExclamationMark2[] = _("!");
-static const u8 sText_ExclamationMark3[] = _("!");
-static const u8 sText_ExclamationMark4[] = _("!");
-static const u8 sText_ExclamationMark5[] = _("!");
+static const u8 sText_ExclamationMark[] = _("！");
+static const u8 sText_ExclamationMark2[] = _("！");
+static const u8 sText_ExclamationMark3[] = _("！");
+static const u8 sText_ExclamationMark4[] = _("！");
+static const u8 sText_ExclamationMark5[] = _("！");
 static const u8 sText_HP[] = _("HP");
 static const u8 sText_Attack[] = _("攻击");
 static const u8 sText_Defense[] = _("防御");
@@ -169,7 +169,7 @@ const u8 gText_drastically[] = _("巨幅");
 const u8 gText_severely[] = _("巨幅");
 static const u8 sText_TerrainReturnedToNormal[] = _("场地恢复了正常！"); // Unused
 
-const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
+const u8 *const gBattleStringsTable[STRINGID_COUNT] =
 {
     [STRINGID_TRAINER1LOSETEXT]                     = COMPOUND_STRING("{B_TRAINER1_LOSE_TEXT}"),
     [STRINGID_PKMNGAINEDEXP]                        = COMPOUND_STRING("{B_BUFF1}获得了{B_BUFF2}\n{B_BUFF3}经验值！\p"),
@@ -279,14 +279,14 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_PKMNCALMEDDOWN]                       = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n平静了下来！"),
     [STRINGID_PKMNCANTSLEEPINUPROAR]                = COMPOUND_STRING("但是，{B_DEF_NAME_WITH_PREFIX2}\n吵闹个不停，无法入睡！"),
     [STRINGID_PKMNSTOCKPILED]                       = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n蓄力了{B_BUFF1}次！"),
-    [STRINGID_PKMNCANTSTOCKPILE]                    = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n无法再蓄力了！"), //I think this was replaced with just "But it failed!"
+    [STRINGID_PKMNCANTSTOCKPILE]                    = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n无法再蓄力了！"), //I think this was replaced with just "But it failed！"
     [STRINGID_PKMNCANTSLEEPINUPROAR2]               = COMPOUND_STRING("但是，{B_DEF_NAME_WITH_PREFIX2}\n吵闹个不停，无法入睡！"),
     [STRINGID_UPROARKEPTPKMNAWAKE]                  = COMPOUND_STRING("但是，{B_DEF_NAME_WITH_PREFIX2}\n被吵得无法入睡！"),
     [STRINGID_PKMNSTAYEDAWAKEUSING]                 = COMPOUND_STRING("因为{B_DEF_ABILITY}，\n{B_DEF_NAME_WITH_PREFIX}不会睡着！"), //not in gen 5+, ability popup
     [STRINGID_PKMNSTORINGENERGY]                    = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n正在忍耐。"),
     [STRINGID_PKMNUNLEASHEDENERGY]                  = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}的\n忍耐被解除了！"),
     [STRINGID_PKMNFATIGUECONFUSION]                 = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n因精疲力尽而混乱了！"),
-    [STRINGID_PLAYERPICKEDUPMONEY]                  = COMPOUND_STRING("{B_PLAYER_NAME}捡到了\n¥{B_BUFF1}!\p"),
+    [STRINGID_PLAYERPICKEDUPMONEY]                  = COMPOUND_STRING("{B_PLAYER_NAME}捡到了\n¥{B_BUFF1}！\p"),
     [STRINGID_PKMNUNAFFECTED]                       = COMPOUND_STRING("对于{B_DEF_NAME_WITH_PREFIX}，\n完全没有效果！"),
     [STRINGID_PKMNTRANSFORMEDINTO]                  = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n变身成了{B_BUFF1}！"),
     [STRINGID_PKMNMADESUBSTITUTE]                   = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}的\n替身出现了！"),
@@ -362,9 +362,9 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_PKMNPREVENTSUSAGE]                    = COMPOUND_STRING("因{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}，\n{B_ATK_NAME_WITH_PREFIX2}不能使用\l{B_CURRENT_MOVE}！"), //I don't see this in SV text
     [STRINGID_PKMNRESTOREDHPUSING]                  = COMPOUND_STRING("因{B_DEF_ABILITY}，{B_DEF_NAME_WITH_PREFIX}的\n体力回复了！"), //not in gen 5+, ability popup
     [STRINGID_PKMNCHANGEDTYPEWITH]                  = COMPOUND_STRING("因为{B_DEF_ABILITY}，{B_DEF_NAME_WITH_PREFIX}\n变成了{B_BUFF1}属性！"), //not in gen 5+, ability popup
-    [STRINGID_PKMNPREVENTSPARALYSISWITH]            = COMPOUND_STRING("因为{B_DEF_ABILITY}，{B_EFF_NAME_WITH_PREFIX}\n不会麻痹！"), //not in gen 5+, ability popup
+    [STRINGID_PKMNPREVENTSPARALYSISWITH]            = COMPOUND_STRING("因为{B_LAST_ABILITY}，{B_DEF_NAME_WITH_PREFIX}\n不会麻痹！"), //not in gen 5+, ability popup
     [STRINGID_PKMNPREVENTSROMANCEWITH]              = COMPOUND_STRING("因为{B_DEF_ABILITY}，{B_DEF_NAME_WITH_PREFIX}\n不会着迷！"), //not in gen 5+, ability popup
-    [STRINGID_PKMNPREVENTSPOISONINGWITH]            = COMPOUND_STRING("因为{B_DEF_ABILITY}，{B_EFF_NAME_WITH_PREFIX}\n不会中毒！"), //not in gen 5+, ability popup
+    [STRINGID_PKMNPREVENTSPOISONINGWITH]            = COMPOUND_STRING("因为{B_LAST_ABILITY}，{B_DEF_NAME_WITH_PREFIX}\n不会中毒！"), //not in gen 5+, ability popup
     [STRINGID_PKMNPREVENTSCONFUSIONWITH]            = COMPOUND_STRING("因为{B_DEF_ABILITY}，{B_DEF_NAME_WITH_PREFIX}\n不会混乱！"), //not in gen 5+, ability popup
     [STRINGID_PKMNRAISEDFIREPOWERWITH]              = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}因{B_DEF_ABILITY}\n提高了火属性招式的威力！"), //not in gen 5+, ability popup
     [STRINGID_PKMNANCHORSITSELFWITH]                = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}\n用吸盘吸住了！"), //not in gen 5+, ability popup
@@ -468,8 +468,8 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_ITEMALLOWSONLYYMOVE]                  = COMPOUND_STRING("因为{B_LAST_ITEM}的效果，\n只能使出{B_CURRENT_MOVE}！\p"),
     [STRINGID_PKMNHUNGONWITHX]                      = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}\n用{B_LAST_ITEM}撑住了！"),
     [STRINGID_EMPTYSTRING3]                         = gText_EmptyString3,
-    [STRINGID_PKMNSXPREVENTSBURNS]                  = COMPOUND_STRING("因为{B_EFF_ABILITY}，{B_EFF_NAME_WITH_PREFIX}\n不会灼伤！"), //not in gen 5+, ability popup
-    [STRINGID_PKMNSXBLOCKSY]                        = COMPOUND_STRING("因为{B_DEF_ABILITY}，{B_DEF_NAME_WITH_PREFIX}\n抵御了{B_CURRENT_MOVE}!"), //not in gen 5+, ability popup
+    [STRINGID_PKMNSXPREVENTSBURNS]                  = COMPOUND_STRING("因为{B_LAST_ABILITY}，{B_DEF_NAME_WITH_PREFIX}\n不会灼伤！"), //not in gen 5+, ability popup
+    [STRINGID_PKMNSXBLOCKSY]                        = COMPOUND_STRING("因为{B_DEF_ABILITY}，{B_DEF_NAME_WITH_PREFIX}\n抵御了{B_CURRENT_MOVE}！"), //not in gen 5+, ability popup
     [STRINGID_PKMNSXRESTOREDHPALITTLE2]             = COMPOUND_STRING("因为{B_ATK_ABILITY}，{B_ATK_NAME_WITH_PREFIX}\n回复了少许HP。"), //not in gen 5+, ability popup
     [STRINGID_PKMNSXWHIPPEDUPSANDSTORM]             = COMPOUND_STRING("因{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}，\n开始刮沙暴了！"), //not in gen 5+, ability popup
     [STRINGID_PKMNSXPREVENTSYLOSS]                  = COMPOUND_STRING("因为{B_SCR_ACTIVE_ABILITY}，{B_SCR_NAME_WITH_PREFIX}的\n{B_BUFF1}不会降低！"), //not in gen 5+, ability popup
@@ -513,7 +513,7 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_PKMNSXPREVENTSFLINCHING]              = COMPOUND_STRING("因为{B_EFF_ABILITY}，{B_EFF_NAME_WITH_PREFIX}\n不会畏缩！"), //not in gen 5+, ability popup
     [STRINGID_PKMNALREADYHASBURN]                   = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}\n已经被灼伤了。"),
     [STRINGID_STATSWONTDECREASE2]                   = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}的\n能力已经无法再降低了！"),
-    [STRINGID_PKMNSXBLOCKSY2]                       = COMPOUND_STRING("因为{B_SCR_ACTIVE_ABILITY}，{B_SCR_NAME_WITH_PREFIX}\n抵御了{B_CURRENT_MOVE}!"), //not in gen 5+, ability popup
+    [STRINGID_PKMNSXBLOCKSY2]                       = COMPOUND_STRING("因为{B_SCR_ACTIVE_ABILITY}，{B_SCR_NAME_WITH_PREFIX}\n抵御了{B_CURRENT_MOVE}！"), //not in gen 5+, ability popup
     [STRINGID_PKMNSXWOREOFF]                        = COMPOUND_STRING("{B_ATK_TEAM1}的{B_BUFF1}消失了！"),
     [STRINGID_PKMNRAISEDDEFALITTLE]                 = COMPOUND_STRING("{B_CURRENT_MOVE}使{B_ATK_PREFIX1}的\n物理抗性略微提高了！"), //expansion doesn't use anymore
     [STRINGID_PKMNRAISEDSPDEFALITTLE]               = COMPOUND_STRING("{B_CURRENT_MOVE}使{B_ATK_PREFIX1}的\n特殊抗性略微提高了！"), //expansion doesn't use anymore
@@ -525,11 +525,11 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_PKMNOBTAINEDX2]                       = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}\n获得了{B_BUFF2}！"),
     [STRINGID_PKMNOBTAINEDXYOBTAINEDZ]              = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n获得了{B_BUFF1}！\p{B_DEF_NAME_WITH_PREFIX}\n获得了{B_BUFF2}！"),
     [STRINGID_BUTNOEFFECT]                          = COMPOUND_STRING("但是，没有效果！"),
-    [STRINGID_PKMNSXHADNOEFFECTONY]                 = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}\n对{B_EFF_NAME_WITH_PREFIX2}没有效果！"), //not in gen 5+, ability popup
+    [STRINGID_PKMNSXHADNOEFFECTONY]                 = COMPOUND_STRING("目标正受到{B_LAST_ABILITY}的保护！"), //not in gen 5+, ability popup 个人汉化
     [STRINGID_TWOENEMIESDEFEATED]                   = sText_TwoInGameTrainersDefeated,
     [STRINGID_TRAINER2LOSETEXT]                     = COMPOUND_STRING("{B_TRAINER2_LOSE_TEXT}"),
     [STRINGID_PKMNINCAPABLEOFPOWER]                 = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n似乎无法发挥自身的力量！"),
-    [STRINGID_GLINTAPPEARSINEYE]                    = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX2}的眼中\n闪过光芒!"),
+    [STRINGID_GLINTAPPEARSINEYE]                    = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX2}的眼中\n闪过光芒！"),
     [STRINGID_PKMNGETTINGINTOPOSITION]              = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}正在就位！"),
     [STRINGID_PKMNBEGANGROWLINGDEEPLY]              = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}开始低吼！"),
     [STRINGID_PKMNEAGERFORMORE]                     = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}意犹未尽！"),
@@ -631,13 +631,13 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_FRISKACTIVATES]                       = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}察觉到了\n{B_DEF_NAME_WITH_PREFIX2}的{B_LAST_ITEM}！"),
     [STRINGID_UNNERVEENTERS]                        = COMPOUND_STRING("{B_DEF_TEAM1}因太紧张\n而无法食用树果！"),
     [STRINGID_HARVESTBERRY]                         = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n收获了{B_LAST_ITEM}！"),
-    [STRINGID_LASTABILITYRAISEDSTAT]                = COMPOUND_STRING("因{B_LAST_ABILITY}，{B_ATK_NAME_WITH_PREFIX}的\n{B_BUFF1}提高了！"),
     [STRINGID_MAGICBOUNCEACTIVATES]                 = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}\n将{B_ATK_NAME_WITH_PREFIX2}反射了回去！"),
     [STRINGID_PROTEANTYPECHANGE]                    = COMPOUND_STRING("因为{B_ATK_ABILITY}，\n{B_ATK_NAME_WITH_PREFIX}变成了{B_BUFF1}属性！"),
     [STRINGID_SYMBIOSISITEMPASS]                    = COMPOUND_STRING("因{B_LAST_ABILITY}，{B_SCR_NAME_WITH_PREFIX}\n将{B_LAST_ITEM}传给了{B_EFF_NAME_WITH_PREFIX2}！"),
     [STRINGID_STEALTHROCKDMG]                       = COMPOUND_STRING("尖锐的岩石扎进了\n{B_SCR_NAME_WITH_PREFIX2}的体内！"),
     [STRINGID_TOXICSPIKESABSORBED]                  = COMPOUND_STRING("{B_SCR_TEAM2}脚下的\n毒菱消失不见了！"),
     [STRINGID_TOXICSPIKESPOISONED]                  = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}中毒了！"),
+    [STRINGID_TOXICSPIKESBADLYPOISONED]             = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}中剧毒了！"),
     [STRINGID_STICKYWEBSWITCHIN]                    = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}\n被黏黏网粘住了！"),
     [STRINGID_HEALINGWISHCAMETRUE]                  = COMPOUND_STRING("治愈之愿\n在{B_ATK_NAME_WITH_PREFIX2}身上实现了！"),
     [STRINGID_HEALINGWISHHEALED]                    = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}的\n体力回复了！"),
@@ -674,7 +674,7 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_BESTOWITEMGIVING]                     = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}从{B_ATK_NAME_WITH_PREFIX2}\n那里获得了{B_LAST_ITEM}！"),
     [STRINGID_THIRDTYPEADDED]                       = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX2}\n增加了{B_BUFF1}属性！"),
     [STRINGID_FELLFORFEINT]                         = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}\n中了佯攻！"),
-    [STRINGID_POKEMONCANNOTUSEMOVE]                 = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n无法使用{B_CURRENT_MOVE}!"),
+    [STRINGID_POKEMONCANNOTUSEMOVE]                 = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n无法使用{B_CURRENT_MOVE}！"),
     [STRINGID_COVEREDINPOWDER]                      = COMPOUND_STRING("向{B_DEF_NAME_WITH_PREFIX}\n抛洒了粉尘！"),
     [STRINGID_POWDEREXPLODES]                       = COMPOUND_STRING("和火焰起了反应，\n粉尘爆炸了！"),
     [STRINGID_BELCHCANTSELECT]                      = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n因没有吃树果而无法使出招式！\p"),
@@ -688,7 +688,7 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_FLOWERVEILPROTECTED]                  = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}\n正受到花幕的保护！"),
     [STRINGID_SWEETVEILPROTECTED]                   = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}\n因甜幕而不会睡着！"),
     [STRINGID_AROMAVEILPROTECTED]                   = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}\n正受到芳香幕的保护！"),
-    [STRINGID_CELEBRATEMESSAGE]                     = COMPOUND_STRING("恭喜恭喜！\n{B_PLAYER_NAME}!"),
+    [STRINGID_CELEBRATEMESSAGE]                     = COMPOUND_STRING("恭喜恭喜！\n{B_PLAYER_NAME}！"),
     [STRINGID_USEDINSTRUCTEDMOVE]                   = COMPOUND_STRING("根据{B_BUFF1}的指示，\n{B_ATK_NAME_WITH_PREFIX}使出了招式！"),
     [STRINGID_THROATCHOPENDS]                       = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n变得可以使出声音的招式了！"),
     [STRINGID_PKMNCANTUSEMOVETHROATCHOP]            = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX2}\n因深渊突刺的效果无法使出招式！\p"),
@@ -893,6 +893,14 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_ITDOESNTAFFECTTWOFOES]                = COMPOUND_STRING("对于{B_DEF_NAME_WITH_PREFIX2}和\n{B_DEF_PARTNER_NAME}，好像没有效果……"),
     [STRINGID_SENDCAUGHTMONPARTYORBOX]              = COMPOUND_STRING("要将{B_DEF_NAME}加入到同行宝可梦里吗？"),
     [STRINGID_PKMNSENTTOPCAFTERCATCH]               = gText_PkmnSentToPCAfterCatch,
+    [STRINGID_PKMNDYNAMAXED]                        = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}极巨化了！\n变得巨大无比！"),//原作无对应文本，个人翻译
+    [STRINGID_PKMNGIGANTAMAXED]                     = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}超极巨化了！\n变得巨大无比！"),
+    [STRINGID_TIMETODYNAMAX]                        = COMPOUND_STRING("极巨化吧！"),
+    [STRINGID_TIMETOGIGANTAMAX]                     = COMPOUND_STRING("超极巨化吧！"),
+    [STRINGID_QUESTIONFORFEITBATTLE]                = COMPOUND_STRING("即将放弃对战直接投降。\n这将被判为输掉对战，可以吗？"),
+    [STRINGID_FORFEITBATTLEGAVEMONEY]               = COMPOUND_STRING("{B_PLAYER_NAME}支付了¥{B_BUFF1}\n作为奖金……{PAUSE_UNTIL_PRESS}"),
+    [STRINGID_POWERCONSTRUCTPRESENCEOFMANY]         = COMPOUND_STRING("你感受到了大量的气息……！"),
+    [STRINGID_POWERCONSTRUCTTRANSFORM]              = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}\n变成了完全体形态！"),
 };
 
 const u16 gTrainerUsedItemStringIds[] =
@@ -957,7 +965,8 @@ const u16 gTerrainPreventsStringIds[] =
 
 const u16 gHealingWishStringIds[] =
 {
-    STRINGID_HEALINGWISHCAMETRUE, STRINGID_LUNARDANCECAMETRUE
+    STRINGID_HEALINGWISHCAMETRUE,
+    STRINGID_LUNARDANCECAMETRUE
 };
 
 const u16 gDmgHazardsStringIds[] =
@@ -1327,25 +1336,14 @@ const u16 gBerryEffectStringIds[] =
     [B_MSG_NORMALIZED_STATUS] = STRINGID_PKMNSITEMNORMALIZEDSTATUS
 };
 
-const u16 gBRNPreventionStringIds[] =
+const u16 gStatusPreventionStringIds[] =
 {
-    [B_MSG_ABILITY_PREVENTS_MOVE_STATUS]    = STRINGID_PKMNSXPREVENTSBURNS,
+    [B_MSG_ABILITY_PREVENTS_MOVE_BURN]      = STRINGID_PKMNSXPREVENTSBURNS,
+    [B_MSG_ABILITY_PREVENTS_MOVE_PARALYSIS] = STRINGID_PKMNPREVENTSPARALYSISWITH,
+    [B_MSG_ABILITY_PREVENTS_MOVE_POISON]    = STRINGID_PKMNPREVENTSPOISONINGWITH,
     [B_MSG_ABILITY_PREVENTS_ABILITY_STATUS] = STRINGID_PKMNSXPREVENTSYSZ,
-    [B_MSG_STATUS_HAD_NO_EFFECT]            = STRINGID_PKMNSXHADNOEFFECTONY
-};
-
-const u16 gPRLZPreventionStringIds[] =
-{
-    [B_MSG_ABILITY_PREVENTS_MOVE_STATUS]    = STRINGID_PKMNPREVENTSPARALYSISWITH,
-    [B_MSG_ABILITY_PREVENTS_ABILITY_STATUS] = STRINGID_PKMNSXPREVENTSYSZ,
-    [B_MSG_STATUS_HAD_NO_EFFECT]            = STRINGID_PKMNSXHADNOEFFECTONY
-};
-
-const u16 gPSNPreventionStringIds[] =
-{
-    [B_MSG_ABILITY_PREVENTS_MOVE_STATUS]    = STRINGID_PKMNPREVENTSPOISONINGWITH,
-    [B_MSG_ABILITY_PREVENTS_ABILITY_STATUS] = STRINGID_PKMNSXPREVENTSYSZ,
-    [B_MSG_STATUS_HAD_NO_EFFECT]            = STRINGID_PKMNSXHADNOEFFECTONY
+    [B_MSG_STATUS_HAD_NO_EFFECT]            = STRINGID_PKMNSXHADNOEFFECTONY,
+    [B_MSG_ABILITY_PASTEL_VEIL]             = STRINGID_PASTELVEILPROTECTED
 };
 
 const u16 gItemSwapStringIds[] =
@@ -1407,7 +1405,7 @@ const u16 gDamageNonTypesDmgStringIds[] =
 const u8 gText_PkmnIsEvolving[] = _("……哦！？\n{STR_VAR_1}的样子……！");
 const u8 gText_CongratsPkmnEvolved[] = _("恭喜！{STR_VAR_1}\n进化为{STR_VAR_2}了！{WAIT_SE}\p");
 const u8 gText_PkmnStoppedEvolving[] = _("什么……？{STR_VAR_1}的\n变化停止了！\p");
-const u8 gText_EllipsisQuestionMark[] = _("……?\p");
+const u8 gText_EllipsisQuestionMark[] = _("……？\p");
 const u8 gText_WhatWillPkmnDo[] = _("{B_BUFF1}\n要做什么呢？");
 const u8 gText_WhatWillPkmnDo2[] = _("{B_PLAYER_NAME}\n要做什么呢？");
 const u8 gText_WhatWillWallyDo[] = _("满充\n要做什么呢？");
@@ -1426,7 +1424,7 @@ const u8 gText_BattleSwitchWhich3[] = _("{UP_ARROW}");
 const u8 gText_BattleSwitchWhich4[] = _("{ESCAPE 4}");
 const u8 gText_BattleSwitchWhich5[] = _("-");
 const u8 gText_SafariBalls[] = _("{HIGHLIGHT DARK_GRAY}狩猎球");
-const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT DARK_GRAY}Left: $" "{HIGHLIGHT DARK_GRAY}");
+const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT DARK_GRAY}剩余：$" "{HIGHLIGHT DARK_GRAY}");
 const u8 gText_Sleep[] = _("睡眠");
 const u8 gText_Poison[] = _("中毒");
 const u8 gText_Burn[] = _("灼伤");
@@ -1435,7 +1433,7 @@ const u8 gText_Ice[] = _("冰冻");
 const u8 gText_Confusion[] = _("混乱");
 const u8 gText_Love[] = _("着迷");
 const u8 gText_SpaceAndSpace[] = _("和");
-const u8 gText_CommaSpace[] = _("，");
+const u8 gText_CommaSpace[] = _("、");
 const u8 gText_Space2[] = _(" ");
 const u8 gText_LineBreak[] = _("\l");
 const u8 gText_NewLine[] = _("\n");
@@ -1452,8 +1450,8 @@ const u8 gText_BattleTourney[] = _("赛程");
 
 const u8 *const gRoundsStringTable[DOME_ROUNDS_COUNT] =
 {
-    [DOME_ROUND1]    = COMPOUND_STRING("第1回合"),
-    [DOME_ROUND2]    = COMPOUND_STRING("第2回合"),
+    [DOME_ROUND1]    = COMPOUND_STRING("第1轮比赛"),
+    [DOME_ROUND2]    = COMPOUND_STRING("第2轮比赛"),
     [DOME_SEMIFINAL] = COMPOUND_STRING("半决赛"),
     [DOME_FINAL]     = COMPOUND_STRING("决赛"),
 };
@@ -1473,7 +1471,7 @@ const u8 gText_Judgment[] = _("{B_BUFF1}{CLEAR 13}判定{CLEAR 13}{B_BUFF2}");
 static const u8 sText_TwoTrainersSentPkmn[] = _("{B_TRAINER1_NAME_WITH_CLASS}\n派出了{B_OPPONENT_MON1_NAME}！\p{B_TRAINER2_NAME_WITH_CLASS}\n派出了{B_OPPONENT_MON2_NAME}！");
 static const u8 sText_Trainer2SentOutPkmn[] = _("{B_TRAINER2_NAME_WITH_CLASS}\n派出了{B_BUFF1}！");
 static const u8 sText_TwoTrainersWantToBattle[] = _("{B_TRAINER1_NAME_WITH_CLASS}和\n{B_TRAINER2_NAME_WITH_CLASS}\l前来挑战了！\p");
-static const u8 sText_InGamePartnerSentOutZGoN[] = _("{B_PARTNER_NAME_WITH_CLASS}\n派出了{B_PLAYER_MON2_NAME}!\l上吧！{B_PLAYER_MON1_NAME}！");
+static const u8 sText_InGamePartnerSentOutZGoN[] = _("{B_PARTNER_NAME_WITH_CLASS}\n派出了{B_PLAYER_MON2_NAME}！\l上吧！{B_PLAYER_MON1_NAME}！");
 
 const u16 gBattlePalaceFlavorTextTable[] =
 {
@@ -1492,15 +1490,15 @@ const u8 *const gRefereeStringsTable[] =
     [B_MSG_REF_JUDGE_BODY]         = COMPOUND_STRING("裁判：判定准则其三，体！\n是否保留了足够的体力！\p"),
     [B_MSG_REF_PLAYER_WON]         = COMPOUND_STRING("裁判：判定结果：{B_BUFF1}比{B_BUFF2}！\n胜者是{B_PLAYER_NAME}的{B_PLAYER_MON1_NAME}！\p"),
     [B_MSG_REF_OPPONENT_WON]       = COMPOUND_STRING("裁判：判定结果：{B_BUFF1}比{B_BUFF2}！\n胜者是{B_TRAINER1_NAME}的{B_OPPONENT_MON1_NAME}！\p"),
-    [B_MSG_REF_DRAW]               = COMPOUND_STRING("裁判：判定结果：3比3！双方打成了平手！"),
+    [B_MSG_REF_DRAW]               = COMPOUND_STRING("裁判：判定结果：3比3！\n双方打成了平手！"),
     [B_MSG_REF_COMMENCE_BATTLE]    = COMPOUND_STRING("裁判：{B_PLAYER_MON1_NAME} VS {B_OPPONENT_MON1_NAME}！\n战斗开始！"),
 };
 
-static const u8 sText_Trainer1Fled[] = _( "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS}逃走了!");
+static const u8 sText_Trainer1Fled[] = _( "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS}逃走了！");
 static const u8 sText_PlayerLostAgainstTrainer1[] = _("被{B_TRAINER1_NAME_WITH_CLASS}打败了！");
 static const u8 sText_PlayerBattledToDrawTrainer1[] = _("和{B_TRAINER1_NAME_WITH_CLASS}打成了平局！");
-const u8 gText_RecordBattleToPass[] = _("要把你本次的战斗\n保存到开拓通行证上吗？");
-const u8 gText_BattleRecordedOnPass[] = _("{B_PLAYER_NAME}本次的战斗\n保存到了开拓通行证中！");
+const u8 gText_RecordBattleToPass[] = _("要把你本次的对战\n保存到开拓通行证上吗？");
+const u8 gText_BattleRecordedOnPass[] = _("{B_PLAYER_NAME}本次的对战\n保存到了开拓通行证中！");
 static const u8 sText_LinkTrainerWantsToBattlePause[] = _("{B_LINK_OPPONENT1_NAME}\n前来挑战了！{PAUSE 49}");
 static const u8 sText_TwoLinkTrainersWantToBattlePause[] = _("{B_LINK_OPPONENT1_NAME}和{B_LINK_OPPONENT2_NAME}\n前来挑战了！{PAUSE 49}");
 static const u8 sText_Your1[] = _("我方");
@@ -1630,9 +1628,9 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
         .x = 0,
         .y = 1,
         .speed = 0,
-        .fgColor = 12,
+        .fgColor = B_SHOW_EFFECTIVENESS != SHOW_EFFECTIVENESS_NEVER ? 13 : 12,
         .bgColor = 14,
-        .shadowColor = 11,
+        .shadowColor = B_SHOW_EFFECTIVENESS != SHOW_EFFECTIVENESS_NEVER ? 15 : 11,
     },
     [B_WIN_DUMMY] = {
         .fillValue = PIXEL_FILL(0xE),
@@ -1882,9 +1880,9 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
         .x = 0,
         .y = 1,
         .speed = 0,
-        .fgColor = 12,
+        .fgColor = B_SHOW_EFFECTIVENESS != SHOW_EFFECTIVENESS_NEVER ? 13 : 12,
         .bgColor = 14,
-        .shadowColor = 11,
+        .shadowColor = B_SHOW_EFFECTIVENESS != SHOW_EFFECTIVENESS_NEVER ? 15 : 11,
     },
     [B_WIN_DUMMY] = {
         .fillValue = PIXEL_FILL(0xE),
@@ -2057,7 +2055,7 @@ static const struct BattleWindowText *const sBattleTextOnWindowsInfo[] =
 
 static const u8 sRecordedBattleTextSpeeds[] = {8, 4, 1, 0};
 
-void BufferStringBattle(u16 stringID, u32 battler)
+void BufferStringBattle(enum StringID stringID, u32 battler)
 {
     s32 i;
     const u8 *stringPtr = NULL;
@@ -2126,7 +2124,7 @@ void BufferStringBattle(u16 stringID, u32 battler)
         {
             if (gBattleTypeFlags & BATTLE_TYPE_LEGENDARY)
                 stringPtr = sText_LegendaryPkmnAppeared;
-            else if (IsDoubleBattle() && IsValidForBattle(&gEnemyParty[gBattlerPartyIndexes[GetBattlerAtPosition(B_POSITION_OPPONENT_RIGHT)]]))
+            else if (IsDoubleBattle() && IsValidForBattle(GetBattlerMon(GetBattlerAtPosition(B_POSITION_OPPONENT_RIGHT))))
                 stringPtr = sText_TwoWildPkmnAppeared;
             else if (gBattleTypeFlags & BATTLE_TYPE_WALLY_TUTORIAL)
                 stringPtr = sText_WildPkmnAppearedPause;
@@ -2135,9 +2133,9 @@ void BufferStringBattle(u16 stringID, u32 battler)
         }
         break;
     case STRINGID_INTROSENDOUT: // poke first send-out
-        if (GetBattlerSide(battler) == B_SIDE_PLAYER)
+        if (IsOnPlayerSide(battler))
         {
-            if (IsDoubleBattle() && IsValidForBattle(&gPlayerParty[gBattlerPartyIndexes[BATTLE_PARTNER(battler)]]))
+            if (IsDoubleBattle() && IsValidForBattle(GetBattlerMon(BATTLE_PARTNER(battler))))
             {
                 if (gBattleTypeFlags & BATTLE_TYPE_INGAME_PARTNER)
                     stringPtr = sText_InGamePartnerSentOutZGoN;
@@ -2155,7 +2153,7 @@ void BufferStringBattle(u16 stringID, u32 battler)
         }
         else
         {
-            if (IsDoubleBattle() && IsValidForBattle(&gEnemyParty[gBattlerPartyIndexes[BATTLE_PARTNER(battler)]]))
+            if (IsDoubleBattle() && IsValidForBattle(GetBattlerMon(BATTLE_PARTNER(battler))))
             {
                 if (BATTLE_TWO_VS_ONE_OPPONENT)
                     stringPtr = sText_Trainer1SentOutTwoPkmn;
@@ -2182,7 +2180,7 @@ void BufferStringBattle(u16 stringID, u32 battler)
         }
         break;
     case STRINGID_RETURNMON: // sending poke to ball msg
-        if (GetBattlerSide(battler) == B_SIDE_PLAYER)
+        if (IsOnPlayerSide(battler))
         {
             if (*(&gBattleStruct->hpScale) == 0)
                 stringPtr = sText_PkmnThatsEnough;
@@ -2209,7 +2207,7 @@ void BufferStringBattle(u16 stringID, u32 battler)
         }
         break;
     case STRINGID_SWITCHINMON: // switch-in msg
-        if (GetBattlerSide(gBattleScripting.battler) == B_SIDE_PLAYER)
+        if (IsOnPlayerSide(gBattleScripting.battler))
         {
             if (*(&gBattleStruct->hpScale) == 0 || IsDoubleBattle())
                 stringPtr = sText_GoPkmn2;
@@ -2270,7 +2268,7 @@ void BufferStringBattle(u16 stringID, u32 battler)
         if (gBattleTextBuff1[0] & B_OUTCOME_LINK_BATTLE_RAN)
         {
             gBattleTextBuff1[0] &= ~(B_OUTCOME_LINK_BATTLE_RAN);
-            if (GetBattlerSide(battler) == B_SIDE_OPPONENT && gBattleTextBuff1[0] != B_OUTCOME_DREW)
+            if (!IsOnPlayerSide(battler) && gBattleTextBuff1[0] != B_OUTCOME_DREW)
                 gBattleTextBuff1[0] ^= (B_OUTCOME_LOST | B_OUTCOME_WON);
 
             if (gBattleTextBuff1[0] == B_OUTCOME_LOST || gBattleTextBuff1[0] == B_OUTCOME_DREW)
@@ -2282,7 +2280,7 @@ void BufferStringBattle(u16 stringID, u32 battler)
         }
         else
         {
-            if (GetBattlerSide(battler) == B_SIDE_OPPONENT && gBattleTextBuff1[0] != B_OUTCOME_DREW)
+            if (!IsOnPlayerSide(battler) && gBattleTextBuff1[0] != B_OUTCOME_DREW)
                 gBattleTextBuff1[0] ^= (B_OUTCOME_LOST | B_OUTCOME_WON);
 
             if (gBattleTypeFlags & BATTLE_TYPE_MULTI)
@@ -2339,7 +2337,7 @@ void BufferStringBattle(u16 stringID, u32 battler)
         stringPtr = gBattleStruct->trainerSlideMsg;
         break;
     default: // load a string from the table
-        if (stringID >= BATTLESTRINGS_COUNT)
+        if (stringID >= STRINGID_COUNT)
         {
             gDisplayedStringBattle[0] = EOS;
             return;
@@ -2404,7 +2402,7 @@ static const u8 *TryGetStatusString(u8 *src)
 static void GetBattlerNick(u32 battler, u8 *dst)
 {
     struct Pokemon *illusionMon = GetIllusionMonPtr(battler);
-    struct Pokemon *mon = GetPartyBattlerData(battler);
+    struct Pokemon *mon = GetBattlerMon(battler);
 
     if (illusionMon != NULL)
         mon = illusionMon;
@@ -2413,7 +2411,7 @@ static void GetBattlerNick(u32 battler, u8 *dst)
 }
 
 #define HANDLE_NICKNAME_STRING_CASE(battler)                            \
-    if (GetBattlerSide(battler) != B_SIDE_PLAYER)                       \
+    if (!IsOnPlayerSide(battler))                       \
     {                                                                   \
         if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)                     \
             toCpy = sText_FoePkmnPrefix;                                \
@@ -2430,7 +2428,7 @@ static void GetBattlerNick(u32 battler, u8 *dst)
     toCpy = text;
 
 #define HANDLE_NICKNAME_STRING_LOWERCASE(battler)                       \
-    if (GetBattlerSide(battler) != B_SIDE_PLAYER)                       \
+    if (!IsOnPlayerSide(battler))                       \
     {                                                                   \
         if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)                     \
             toCpy = sText_FoePkmnPrefixLower;                           \
@@ -2557,7 +2555,7 @@ static const u8 *BattleStringGetPlayerName(u8 *text, u8 battler)
 
 static const u8 *BattleStringGetTrainerName(u8 *text, u8 multiplayerId, u8 battler)
 {
-    if (GetBattlerSide(battler) == B_SIDE_PLAYER)
+    if (IsOnPlayerSide(battler))
         return BattleStringGetPlayerName(text, battler);
     else
         return BattleStringGetOpponentName(text, multiplayerId, battler);
@@ -2876,7 +2874,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
                 }
                 break;
             case B_TXT_26: // ?
-                if (GetBattlerSide(gBattleScripting.battler) != B_SIDE_PLAYER)
+                if (!IsOnPlayerSide(gBattleScripting.battler))
                 {
                     if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
                         toCpy = sText_FoePkmnPrefix;
@@ -2904,37 +2902,37 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
                     toCpy = sText_Someones;
                 break;
             case B_TXT_ATK_PREFIX2:
-                if (GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(gBattlerAttacker))
                     toCpy = sText_AllyPkmnPrefix2;
                 else
                     toCpy = sText_FoePkmnPrefix3;
                 break;
             case B_TXT_DEF_PREFIX2:
-                if (GetBattlerSide(gBattlerTarget) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(gBattlerTarget))
                     toCpy = sText_AllyPkmnPrefix2;
                 else
                     toCpy = sText_FoePkmnPrefix3;
                 break;
             case B_TXT_ATK_PREFIX1:
-                if (GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(gBattlerAttacker))
                     toCpy = sText_AllyPkmnPrefix;
                 else
                     toCpy = sText_FoePkmnPrefix2;
                 break;
             case B_TXT_DEF_PREFIX1:
-                if (GetBattlerSide(gBattlerTarget) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(gBattlerTarget))
                     toCpy = sText_AllyPkmnPrefix;
                 else
                     toCpy = sText_FoePkmnPrefix2;
                 break;
             case B_TXT_ATK_PREFIX3:
-                if (GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(gBattlerAttacker))
                     toCpy = sText_AllyPkmnPrefix3;
                 else
                     toCpy = sText_FoePkmnPrefix4;
                 break;
             case B_TXT_DEF_PREFIX3:
-                if (GetBattlerSide(gBattlerTarget) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(gBattlerTarget))
                     toCpy = sText_AllyPkmnPrefix3;
                 else
                     toCpy = sText_FoePkmnPrefix4;
@@ -3089,37 +3087,37 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
                 }
                 break;
             case B_TXT_ATK_TEAM1:
-                if (GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(gBattlerAttacker))
                     toCpy = sText_Your1;
                 else
                     toCpy = sText_Opposing1;
                 break;
             case B_TXT_ATK_TEAM2:
-                if (GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(gBattlerAttacker))
                     toCpy = sText_Your2;
                 else
                     toCpy = sText_Opposing2;
                 break;
             case B_TXT_DEF_TEAM1:
-                if (GetBattlerSide(gBattlerTarget) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(gBattlerTarget))
                     toCpy = sText_Your1;
                 else
                     toCpy = sText_Opposing1;
                 break;
             case B_TXT_DEF_TEAM2:
-                if (GetBattlerSide(gBattlerTarget) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(gBattlerTarget))
                     toCpy = sText_Your2;
                 else
                     toCpy = sText_Opposing2;
                 break;
             case B_TXT_SCR_TEAM1:
-                if (GetBattlerSide(gBattleScripting.battler) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(gBattleScripting.battler))
                     toCpy = sText_Your1;
                 else
                     toCpy = sText_Opposing1;
                 break;
             case B_TXT_SCR_TEAM2:
-                if (GetBattlerSide(gBattleScripting.battler) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(gBattleScripting.battler))
                     toCpy = sText_Your2;
                 else
                     toCpy = sText_Opposing2;
@@ -3168,40 +3166,31 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
     dst[dstID] = *src;
     dstID++;
 
-    BreakStringAutomatic(dst, BATTLE_MSG_MAX_WIDTH, BATTLE_MSG_MAX_LINES, fontId);
+    BreakStringAutomatic(dst, BATTLE_MSG_MAX_WIDTH, BATTLE_MSG_MAX_LINES, fontId, SHOW_SCROLL_PROMPT);
 
     return dstID;
 }
 
 static void IllusionNickHack(u32 battler, u32 partyId, u8 *dst)
 {
-    s32 id, i;
+    u32 id = PARTY_SIZE;
     // we know it's gEnemyParty
     struct Pokemon *mon = &gEnemyParty[partyId], *partnerMon;
 
     if (GetMonAbility(mon) == ABILITY_ILLUSION)
     {
         if (IsBattlerAlive(BATTLE_PARTNER(battler)))
-            partnerMon = &gEnemyParty[gBattlerPartyIndexes[BATTLE_PARTNER(battler)]];
+            partnerMon = GetBattlerMon(BATTLE_PARTNER(battler));
         else
             partnerMon = mon;
 
-        // Find last alive non-egg pokemon.
-        for (i = PARTY_SIZE - 1; i >= 0; i--)
-        {
-            id = i;
-            if (GetMonData(&gEnemyParty[id], MON_DATA_SANITY_HAS_SPECIES)
-                && GetMonData(&gEnemyParty[id], MON_DATA_HP)
-                && &gEnemyParty[id] != mon
-                && &gEnemyParty[id] != partnerMon)
-            {
-                GetMonData(&gEnemyParty[id], MON_DATA_NICKNAME, dst);
-                return;
-            }
-        }
+        id = GetIllusionMonPartyId(gEnemyParty, mon, partnerMon);
     }
 
-    GetMonData(mon, MON_DATA_NICKNAME, dst);
+    if (id != PARTY_SIZE)
+        GetMonData(&gEnemyParty[id], MON_DATA_NICKNAME, dst);
+    else
+        GetMonData(mon, MON_DATA_NICKNAME, dst);
 }
 
 void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
@@ -3247,7 +3236,7 @@ void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
             break;
         case B_BUFF_MON_NICK_WITH_PREFIX: // poke nick with prefix
         case B_BUFF_MON_NICK_WITH_PREFIX_LOWER: // poke nick with lowercase prefix
-            if (GetBattlerSide(src[srcID + 1]) == B_SIDE_PLAYER)
+            if (IsOnPlayerSide(src[srcID + 1]))
             {
                 GetMonData(&gPlayerParty[src[srcID + 2]], MON_DATA_NICKNAME, nickname);
             }
@@ -3295,7 +3284,7 @@ void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
             }
             else
             {
-                if (GetBattlerSide(src[srcID + 1]) == B_SIDE_PLAYER)
+                if (IsOnPlayerSide(src[srcID + 1]))
                     GetMonData(&gPlayerParty[src[srcID + 2]], MON_DATA_NICKNAME, dst);
                 else
                     GetMonData(&gEnemyParty[src[srcID + 2]], MON_DATA_NICKNAME, dst);

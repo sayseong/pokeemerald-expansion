@@ -103,7 +103,7 @@ PacifidlogTown_House2_Text_PutInSomeMoreEffort:
     .string "唔……\n不怎么样，但也差不到哪儿去。\p作为一个训练家，\n你要更努力啊。$"
 
 PacifidlogTown_House2_Text_ViciousPokemonTakeThis:
-    .string "它似乎充满了恶意。\p这样可怕的宝可梦，\n给它这个招式学习器吧。$"
+    .string "它似乎充满了敌意。\p这样可怕的宝可梦，\n给它这个招式学习器吧。$"
 
 PacifidlogTown_House2_Text_ExplainReturnFrustration:
     .string "如果宝可梦非常喜欢你，\n报恩的威力就会增强。\p如果它不喜欢你，\n迁怒的威力则会提升。$"

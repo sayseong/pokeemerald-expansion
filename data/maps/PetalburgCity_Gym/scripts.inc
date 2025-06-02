@@ -1,7 +1,3 @@
-.set LOCALID_NORMAN, 1
-.set LOCALID_WALLY, 10
-.set LOCALID_WALLYS_DAD, 11
-
 PetalburgCity_Gym_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, PetalburgCity_Gym_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, PetalburgCity_Gym_OnTransition
@@ -46,11 +42,11 @@ PetalburgCity_Gym_OnTransition:
 	end
 
 PetalburgCity_Gym_EventScript_MoveWallyToEntrance::
-	setobjectxyperm LOCALID_WALLY, 5, 108
+	setobjectxyperm LOCALID_PETALBURG_GYM_WALLY, 5, 108
 	return
 
 PetalburgCity_Gym_EventScript_MoveNormanToEntrance::
-	setobjectxyperm LOCALID_NORMAN, 4, 107
+	setobjectxyperm LOCALID_PETALBURG_GYM_NORMAN, 4, 107
 	return
 
 PetalburgCity_Gym_EventScript_CheckNormanForRematch::
@@ -58,7 +54,7 @@ PetalburgCity_Gym_EventScript_CheckNormanForRematch::
 	specialvar VAR_RESULT, IsTrainerReadyForRematch
 	goto_if_eq VAR_RESULT, TRUE, PetalburgCity_Gym_EventScript_DontMoveNormanToFront
 	goto_if_eq VAR_PETALBURG_GYM_STATE, 8, PetalburgCity_Gym_EventScript_DontMoveNormanToFront
-	setobjectxyperm LOCALID_NORMAN, 4, 107
+	setobjectxyperm LOCALID_PETALBURG_GYM_NORMAN, 4, 107
 	return
 
 PetalburgCity_Gym_EventScript_DontMoveNormanToFront::
@@ -70,7 +66,7 @@ PetalburgCity_Gym_OnWarp:
 	.2byte 0
 
 PetalburgCity_Gym_EventScript_TurnPlayerNorth::
-	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	turnobject LOCALID_PLAYER, DIR_NORTH
 	end
 
 PetalburgCity_Gym_OnFrame:
@@ -82,14 +78,14 @@ PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	msgbox PetalburgCity_Gym_Text_DadSoDidItWorkOut, MSGBOX_DEFAULT
 	msgbox PetalburgCity_Gym_Text_WallyThankYouBye, MSGBOX_DEFAULT
 	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
-	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyExitGym
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PETALBURG_GYM_WALLY, PetalburgCity_Gym_Movement_WallyExitGym
 	waitmovement 0
 	playse SE_EXIT
-	removeobject LOCALID_WALLY
+	removeobject LOCALID_PETALBURG_GYM_WALLY
 	setflag FLAG_HIDE_PETALBURG_CITY_WALLY
 	delay 30
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox PetalburgCity_Gym_Text_DadGoCollectBadges, MSGBOX_DEFAULT
 	setvar VAR_PETALBURG_GYM_STATE, 2
@@ -144,7 +140,7 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorialEast::
 	end
 
 PetalburgCity_Gym_EventScript_BeginWallyTutorial::
-	addobject LOCALID_WALLY
+	addobject LOCALID_PETALBURG_GYM_WALLY
 	playse SE_DOOR
 	call_if_eq VAR_0x8008, 0, PetalburgCity_Gym_EventScript_WallyArriveSouth
 	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_WallyArriveNorth
@@ -182,7 +178,7 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_ExitGymWithWallyNorth
 	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_ExitGymWithWallyWest
 	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_ExitGymWithWallyEast
-	removeobject LOCALID_WALLY
+	removeobject LOCALID_PETALBURG_GYM_WALLY
 	setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM
 	setvar VAR_PETALBURG_GYM_STATE, 1
 	setvar VAR_PETALBURG_CITY_STATE, 2
@@ -196,101 +192,101 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	end
 
 PetalburgCity_Gym_EventScript_WallyArriveSouth::
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
-	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyArrive
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PETALBURG_GYM_WALLY, PetalburgCity_Gym_Movement_WallyArrive
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_WallyArriveNorth::
-	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyArriveNorth
+	applymovement LOCALID_PETALBURG_GYM_WALLY, PetalburgCity_Gym_Movement_WallyArriveNorth
 	waitmovement 0
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterRight
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_WallyArriveWestEast::
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
-	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyArrive
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PETALBURG_GYM_WALLY, PetalburgCity_Gym_Movement_WallyArrive
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_ExitGymWithWallySouth::
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
-	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyExitSouthWest
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallySouth
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PETALBURG_GYM_WALLY, PetalburgCity_Gym_Movement_WallyExitSouthWest
+	applymovement LOCALID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallySouth
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_ExitGymWithWallyNorth::
-	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyExitNorth
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallyNorth
+	applymovement LOCALID_PETALBURG_GYM_WALLY, PetalburgCity_Gym_Movement_WallyExitNorth
+	applymovement LOCALID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallyNorth
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_ExitGymWithWallyWest::
-	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyExitSouthWest
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallyWest
+	applymovement LOCALID_PETALBURG_GYM_WALLY, PetalburgCity_Gym_Movement_WallyExitSouthWest
+	applymovement LOCALID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallyWest
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_ExitGymWithWallyEast::
-	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyExitEast
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallyEast
+	applymovement LOCALID_PETALBURG_GYM_WALLY, PetalburgCity_Gym_Movement_WallyExitEast
+	applymovement LOCALID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallyEast
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_NormanAddressPlayerSouth::
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_NormanAddressPlayerNorth::
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_NormanAddressPlayerWest::
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterRight
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_NormanAddressPlayerEast::
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterLeft
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_NormanAddressWallySouth::
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_NormanAddressWallyNorth::
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_NormanAddressWallyWest::
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_NormanAddressWallyEast::
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_WallyFacePlayer::
-	applymovement LOCALID_WALLY, Common_Movement_FacePlayer
+	applymovement LOCALID_PETALBURG_GYM_WALLY, Common_Movement_FacePlayer
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_WallyFaceDown::
-	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PETALBURG_GYM_WALLY, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
@@ -319,7 +315,7 @@ PetalburgCity_Gym_EventScript_NormanFaceDoorSouth::
 
 @ For all other NormanFaceDoorX, Norman is already facing the door from NormanAddressWallyX
 PetalburgCity_Gym_EventScript_NormanFaceDoorNorth::
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
@@ -397,7 +393,7 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	delay 40
 	playse SE_DOOR
 	delay 10
-	addobject LOCALID_WALLYS_DAD
+	addobject LOCALID_PETALBURG_GYM_WALLYS_DAD
 	switch VAR_FACING
 	case DIR_NORTH, PetalburgCity_Gym_EventScript_WallysDadArrivesNorth
 	case DIR_WEST, PetalburgCity_Gym_EventScript_WallysDadArrivesWest
@@ -424,12 +420,12 @@ PetalburgCity_Gym_EventScript_WallysDadArrivesWest::
 	goto PetalburgCity_Gym_EventScript_WallysDadArrives
 
 PetalburgCity_Gym_EventScript_WallysDadArrives::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadEnterGym
+	applymovement LOCALID_PETALBURG_GYM_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadEnterGym
 	waitmovement 0
 	playse SE_PIN
-	applymovement LOCALID_WALLYS_DAD, Common_Movement_ExclamationMark
+	applymovement LOCALID_PETALBURG_GYM_WALLYS_DAD, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_WALLYS_DAD, Common_Movement_Delay48
+	applymovement LOCALID_PETALBURG_GYM_WALLYS_DAD, Common_Movement_Delay48
 	waitmovement 0
 	delay 10
 	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_WallysDadApproachPlayerNorth
@@ -448,7 +444,7 @@ PetalburgCity_Gym_EventScript_WallysDadArrives::
 	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_ExitGymWithWallysDadNorth
 	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_ExitGymWithWallysDadEast
 	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_ExitGymWithWallysDadWest
-	removeobject LOCALID_WALLYS_DAD
+	removeobject LOCALID_PETALBURG_GYM_WALLYS_DAD
 	setvar VAR_PETALBURG_CITY_STATE, 4
 	clearflag FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD
 	warp MAP_PETALBURG_CITY, 15, 8
@@ -457,60 +453,60 @@ PetalburgCity_Gym_EventScript_WallysDadArrives::
 	end
 
 PetalburgCity_Gym_EventScript_WallysDadFaceNormanNorth::
-	applymovement LOCALID_WALLYS_DAD, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_PETALBURG_GYM_WALLYS_DAD, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_WallysDadFaceNormanEast::
-	applymovement LOCALID_WALLYS_DAD, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_PETALBURG_GYM_WALLYS_DAD, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_WallysDadFaceNormanWest::
-	applymovement LOCALID_WALLYS_DAD, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PETALBURG_GYM_WALLYS_DAD, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_WallysDadApproachPlayerNorth::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadApproachPlayerNorth
+	applymovement LOCALID_PETALBURG_GYM_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadApproachPlayerNorth
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_WallysDadApproachPlayerEast::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadApproachPlayerEast
+	applymovement LOCALID_PETALBURG_GYM_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadApproachPlayerEast
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_WallysDadApproachPlayerWest::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadApproachPlayerWest
+	applymovement LOCALID_PETALBURG_GYM_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadApproachPlayerWest
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_ExitGymWithWallysDadNorth::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadExitNorth
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallysDadNorth
+	applymovement LOCALID_PETALBURG_GYM_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadExitNorth
+	applymovement LOCALID_PETALBURG_GYM_NORMAN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallysDadNorth
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_ExitGymWithWallysDadEast::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadExitEast
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallysDadEast
+	applymovement LOCALID_PETALBURG_GYM_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadExitEast
+	applymovement LOCALID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallysDadEast
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_ExitGymWithWallysDadWest::
-	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadExitWest
-	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallysDadWest
+	applymovement LOCALID_PETALBURG_GYM_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadExitWest
+	applymovement LOCALID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallysDadWest
 	waitmovement 0
 	return
 
@@ -1142,70 +1138,70 @@ PetalburgCity_Gym_EventScript_GymStatue::
 	end
 
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
-    .string "爸爸：嗯？\p哟，{PLAYER}，你来了！\n搬完家了吗？\p你怎么一个人\n跑过来了？\p啊，我明白了，\n你是跟宝可梦一起来的。\p唔……你是想成为像我一样的\n训练家吧，{PLAYER}？\p努力干吧！\n老爸支持你！$"
+    .string "爸爸：嗯？\p这不是{PLAYER}吗！\n搬完家了吗？\p没想到你能自己\n一个人跑过来。\p啊，原来如此，\n你是和宝可梦一起来的啊。\p那么……你是想像我一样成为\n一位训练家吗，{PLAYER}？\p这真是个好消息！\n我很期待！$"
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
-    .string "呃……我……\n我想要一只宝可梦，拜托了……$"
+    .string "那个……我……\n想要一只宝可梦，拜托了……$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
-    .string "爸爸：嗯？你是……呃……啊，对了，\n你是满充吧？$"
+    .string "爸爸：嗯？你是……对了，\n记得是叫满充对吧？$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
-    .string "满充：我很快就要搬到\n绿茵镇去跟亲戚一起住了，\p我觉得一个人会很孤单，\n所以我想带只宝可梦一起去，\p但我以前从未捕捉过宝可梦，\n我不知道该怎么……$"
+    .string "满充：我马上就要搬到绿茵镇\n去跟亲戚家那里住了。\p我一个人可能会寂寞，\n所以我想带只宝可梦一起去，\p但我以前从未捕捉过宝可梦，\n我不知道该怎么……$"
 
 PetalburgCity_Gym_Text_DadHmISee:
-    .string "爸爸：嗯，明白了。$"
+    .string "爸爸：……原来如此。$"
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
-    .string "爸爸：{PLAYER}，\n你听到了吧？\p和满充一起去\n教教他怎么捕捉宝可梦吧。$"
+    .string "爸爸：{PLAYER}，\n你都听到了吧？\p陪满充一起去吧，\n要确保他安全地捕捉到宝可梦。$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
-    .string "满充，过来，我先把我自己的\n宝可梦借给你。\p满充得到蛇纹熊！$"
+    .string "满充，我先把我自己的\n宝可梦借给你。\p满充得到了蛇纹熊！$"
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
-    .string "满充：哇！\n一只宝可梦！\p爸爸：唔，再给你只精灵球吧。\n加油！\p满充得到精灵球！$"
+    .string "满充：哇！\n一只宝可梦！\p爸爸：嗯，再给你个精灵球吧。\n加油吧！\p满充得到精灵球！$"
 
 PetalburgCity_Gym_Text_WallyOhWowThankYou:
-    .string "满充：哇！\n谢谢！$"
+    .string "满充：哇！\n谢谢叔叔！$"
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
-    .string "{PLAYER}……你真的能\n和我一起来吗？$"
+    .string "{PLAYER}……\n你会陪我一起去的对吧？$"
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
-    .string "爸爸：那么，成功了吗？$"
+    .string "爸爸：那么，还顺利吗？$"
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
-    .string "满充：谢谢您，我做到了。\n这只宝可梦还给您。\p{PLAYER}，谢谢你\n和我一起去。\p多亏了你们，我才\n捕捉了到我的宝可梦。\p我保证我会\n好好照顾它的。\p啊！妈妈该等急了，\n我走了！\p再见，{PLAYER}！$"
+    .string "满充：谢谢叔叔，我成功了。\n这只宝可梦还给您。\p{PLAYER}，\n谢谢你陪我……\p多亏了你们，\n我才能捕捉到自己的宝可梦。\p我一定会好好照顾它的……\p啊！妈妈还在等我，\n我得走了！\p再见，{PLAYER}！$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
-    .string "爸爸：好了……\p{PLAYER}，如果你想成为一个\n强大的训练家，我有几条建议。\p首先去距此不远的\n卡那兹市，\p挑战那儿的\n道馆馆主，杜娟，\p然后再去其他宝可梦道馆，\n打败那里的馆主，\p收集他们的徽章，\n明白了吗？\p当然，我也是道馆馆主，\n所以我们总有一天会战斗的，{PLAYER}，\p但那之前，你得先\n变得更强些才行。$"
+    .string "爸爸：好了……\p{PLAYER}，如果你想成为一个\n强大的训练家，我有几条建议。\p首先去距此不远的\n卡那兹市，\p挑战那里的\n道馆馆主，杜娟。\p然后再去其他宝可梦道馆，\n打败那里的馆主，\p收集他们的徽章，\n明白了吗？\p当然，我也是道馆馆主，所以我们\n总有一天会对战，{PLAYER}，\p但那之前，你得先变得\n更强大才行。$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
-    .string "爸爸：嗯？你还没去\n卡那兹市的宝可梦道馆？\p一个新手训练家\n是没法打败我的。\p{PLAYER}，等你变强了\n再向我挑战吧，\p当你收集四个道馆徽章后，\n我再接受你的挑战，{PLAYER}。$"
+    .string "爸爸：嗯？你还没去\n卡那兹市的宝可梦道馆？\p一个新手训练家\n是没法打败我的。\p{PLAYER}，等你变强了\n再向我挑战吧。\p当你收集4个道馆徽章后，\n我再接受你的挑战，{PLAYER}。$"
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
-    .string "爸爸：嗯……看来你打败了\n卡那兹市的宝可梦道馆馆主。\p但还有很多比你更强的\n训练家，{PLAYER}。\p海对岸的武斗镇里\n有个叫做藤树的道馆馆主，\p去挑战他吧。$"
+    .string "爸爸：嗯……看来你打败了\n卡那兹市的宝可梦道馆馆主。\p但还有很多比你更强的\n训练家，{PLAYER}。\p在海对岸的武斗镇里\n有个叫做藤树的道馆馆主，\p你应该试试去挑战他。$"
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger:
-    .string "爸爸：嗯……{PLAYER}，\n你变强了，\p看你得到的那些徽章\n就可以知道。$"
+    .string "爸爸：嗯……{PLAYER}，\n你变强了，\p从你获得的徽章数量\n就能看得出。$"
 
 PetalburgCity_Gym_Text_NormanIntro:
-    .string "爸爸：嗯……\n你得到四个道馆徽章了。\p那好，就像我答应你的，\n我们来战斗吧。\p{PLAYER}……\p我很高兴能和自己的孩子\n来一场真真正正的战斗，\p然而，战斗就是战斗！\p作为一个道馆馆主，\n我会尽我全力取胜的。\p{PLAYER}，你也要\n全力出战！$"
+    .string "爸爸：嗯……\n看来，你已经赢得4枚徽章了。\p很好，那就按我所承诺的\n那样，让我们来对战吧。\p{PLAYER}……\p我真高兴能和自己的孩子\n来一场真真正正的对战。\p但是，\n对战就是对战！\p身为道馆馆主，\n我会尽我所能赢取胜利。\p{PLAYER}，\n你也要用尽全力啊！$"
 
 PetalburgCity_Gym_Text_NormanDefeat:
-    .string "……\p我……我不……\p我不相信。{PLAYER}……\p我输给了{PLAYER}？\p不过，输就是输！\n好，拿上这个吧。$"
+    .string "这……\p我……\p难以置信。\n{PLAYER}……\p我输给了{PLAYER}？\p但规则就是规则！\n来，收下这个。$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
-    .string "{PLAYER}从爸爸那儿\n得到了天秤徽章！$"
+    .string "{PLAYER}从爸爸那里\n得到了天秤徽章！$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
-    .string "爸爸：有了这个徽章，你所有\n宝可梦的防御都会提升，\p学会秘传招式冲浪\n的宝可梦也可以渡水。\p这是我的礼物，{PLAYER}，\n我想你知道该怎么使用它。$"
+    .string "爸爸：有了这枚徽章，\n你所有宝可梦的防御力都会得到提升。\p学会秘传招式冲浪\n的宝可梦也可以渡水了。\p这是我给你的礼物，{PLAYER}，\n我相信你可以用好它。$"
 
 PetalburgCity_Gym_Text_ExplainFacade:
-    .string "爸爸：招式学习器42里面是硬撑，\p如果宝可梦中毒，\n麻痹，或者灼伤，\l招式的威力会提升。\p用这可以在处于不利时\n逆转形势。$"
+    .string "爸爸：招式学习器42里面是硬撑。\p如果宝可梦中毒、\n麻痹或者灼伤，\l招式的威力就会翻倍。\p用这招可以逆转\n不利形势。$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
-    .string "爸爸：作为道馆馆主，\n我觉得很沮丧……\p但作为父亲，我在失望的同时，\n又很高兴。这可真怪……$"
+    .string "爸爸：作为道馆馆主，\n我不知道有多失落……\p但作为一个父亲，\n我高兴的同时又有点难过。\l真是奇怪……$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
     .string "啊，你来了，{PLAYER}{KUN}！\p跟我来，\n我有些东西要给你。$"
@@ -1214,31 +1210,31 @@ PetalburgCity_Gym_Text_LetMeBorrowPlayer:
     .string "千里，你不介意吧？\p我想把你的{PLAYER}{KUN}\n借去一小会儿。$"
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining:
-    .string "爸爸：{PLAYER}，你该经常\n去看看妈妈，\p我要在这儿继续训练\n让自己变强。\p作为一个训练家，如果就这么甘心\n输给你，我会很苦恼的，{PLAYER}！$"
+    .string "爸爸：{PLAYER}，你该常回家\n看看妈妈。\p我要在这儿继续锻炼\n让自己变强。\p作为一个训练家，如果就这么甘心\n输给你，我会很苦恼的，{PLAYER}！$"
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
-    .string "爸爸：{PLAYER}，怎么样了？\p宝可梦的世界非常广大，\p我想，无论怎样的训练\n都不会足够。$"
+    .string "爸爸：{PLAYER}，最近如何？\p宝可梦的世界广阔无比。\p老实说，我觉得再多的\n训练也不够。$"
 
 PetalburgCity_Gym_Text_GymGuideAdvice:
-    .string "嗨，怎么样，向冠军的目标\n冲刺的{PLAYER}？\p在这个道馆里，\n你打败房间里的训练家后，\l通向下一个房间的门就会开启。\p哇呀！这个房间的门\n已经打开了，别打我！\p橙华市道馆的训练家\n会使用各种各样的道具，\p左边的门通向\n速度房间，\p右边的门通向\n命中房间。\p房间的名称就写在门上，\n你要谨慎选择。\p选好房间之后……\n哎，好了，加油吧！$"
+    .string "嗨，怎么样，向冠军的目标\n冲刺的{PLAYER}？\p在这个道馆里，\n你打败房间里的训练家后，\l通向下一个房间的门就会开启。\p哇呀！这个房间的门\n已经打开了，别打我！\p橙华市道馆的训练家\n会使用各种各样的道具。\p左边的门通向\n速度房间，\p右边的门通向\n命中房间。\p房间的名称就写在门上，\n你要谨慎选择。\p选好房间之后……\n哎，好了，加油吧！$"
 
 PetalburgCity_Gym_Text_GymGuidePostVictory:
     .string "哇！{PLAYER}！你甚至打败了\n自己的父亲！\p哇！\n多么令人吃惊的结局！$"
 
 PetalburgCity_Gym_Text_RandallIntro:
-    .string "比对手先一步发动攻击的\n能力……\p正因如此，才会在战斗中\n占尽先机，你说呢？$"
+    .string "比对手先一步发动攻击的\n能力……\p正因如此，才会在对战中\n占尽先机，你说呢？$"
 
 PetalburgCity_Gym_Text_RandallDefeat:
     .string "一场出色的战斗！$"
 
 PetalburgCity_Gym_Text_RandallPostBattle:
-    .string "在下面的房间中\n还有新的挑战等着你。\p左边是混乱房间，\p右边则通向防御房间。$"
+    .string "在下面的房间中\n还有新的挑战等着你。\p左边是\n混乱房间，\p右边则通向\n防御房间。$"
 
 PetalburgCity_Gym_Text_RandallPostBadge:
-    .string "无论赢了谁，无论\n输给谁，永远不能逃避\l训练自己和宝可梦的责任。\p我想作为道馆馆主，\n就应当如此。$"
+    .string "无论赢了谁，无论输给谁，\n都永远不能逃避训练自己\l和宝可梦的责任。\p我想作为道馆馆主，\n就应当如此。$"
 
 PetalburgCity_Gym_Text_ParkerIntro:
-    .string "这里是混乱房间，\p让我看看你和宝可梦之间\n有多么强的羁绊！$"
+    .string "这里是混乱房间。\p让我看看你和宝可梦之间\n有多么强的羁绊！$"
 
 PetalburgCity_Gym_Text_ParkerDefeat:
     .string "我还不足以让你们的组合陷入混乱……\n你们间的信任真的很强。$"
@@ -1256,7 +1252,7 @@ PetalburgCity_Gym_Text_GeorgeDefeat:
     .string "我来不及恢复体力……\n这么强大的攻击……$"
 
 PetalburgCity_Gym_Text_GeorgePostBattle:
-    .string "我不该小看\n我们馆主的孩子。\p不，等等！训练家的力量\n全是靠自己的努力得来的，\p我的努力还不够，\n所以才会输。\p加油吧！下面是一击必杀房间。$"
+    .string "我不该小看\n我们馆主的孩子。\p不，等等！训练家的力量\n全是靠自己的努力得来的。\p我的努力还不够，\n所以才会输。\p加油吧！下面是一击必杀房间。$"
 
 PetalburgCity_Gym_Text_GeorgePostBadge:
     .string "我还要在道馆继续训练。\n总有一天，我要成为馆主。$"
@@ -1292,13 +1288,13 @@ PetalburgCity_Gym_Text_AlexiaDefeat:
     .string "我们的防御还不够……$"
 
 PetalburgCity_Gym_Text_AlexiaPostBattle:
-    .string "你给我上了\n重要的一课。\p好了，加油吧！左边的门\n通向力量房间，\p右边的门通向\n一击必杀房间，\p两边的训练家都\n十分善于进攻。$"
+    .string "你给我上了\n重要的一课。\p好了，加油吧！左边的门\n通向力量房间，\p右边的门通向\n一击必杀房间。\p两边的训练家都\n十分善于进攻。$"
 
 PetalburgCity_Gym_Text_AlexiaPostBadge:
     .string "喂，你尝试过冲浪吗？$"
 
 PetalburgCity_Gym_Text_JodyIntro:
-    .string "我们的道馆馆主要我们\n尽最大努力打败你，\p就算你是馆主的孩子，\n我们也不能放水！$"
+    .string "我们的道馆馆主要我们\n尽全力打败你。\p就算你是馆主的孩子，\n我们也不能放水！$"
 
 PetalburgCity_Gym_Text_JodyDefeat:
     .string "但……我已经尽力了！$"
@@ -1307,7 +1303,7 @@ PetalburgCity_Gym_Text_JodyPostBattle:
     .string "你使用宝可梦的方法……\n和你父亲很像。\p去吧，你的父亲，道馆馆主，\n正在等着你！$"
 
 PetalburgCity_Gym_Text_JodyPostBadge:
-    .string "当然，让宝可梦变强\n并没有错，\p但是，是什么决定了胜负？\p正是训练家对他们\n宝可梦的感情。$"
+    .string "当然，让宝可梦变强\n并没有错。\p但是，是什么决定了胜负？\p正是训练家对他们\n宝可梦的感情。$"
 
 PetalburgCity_Gym_Text_DoorAppearsLocked:
     .string "这扇门现在\n锁着……$"
@@ -1347,14 +1343,14 @@ PetalburgCity_Gym_Text_GymStatueCertified:
     .string "橙华市宝可梦道馆\p千里认可的训练家：\n{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanPreRematch:
-    .string "爸爸：{PLAYER}……\n我就知道你会来。\p我是不会拒绝\n你的挑战的，\p你明白这点，对吗？\p在道馆之中，我们\n父亲与孩子的关系并不重要。\p……不，正因为我们的这种关系，\n我们才会尽自己的全力战斗。\l你说对吗，{PLAYER}？$"
+    .string "爸爸：{PLAYER}……\n我就知道你会来。\p我永远也不会拒绝\n你的挑战的。\p你明白的，对吧？\p在道馆里，\n无关我们是不是父子。\p不，正因为我们是父子，\n我们才更要在对方面前用上全力。\l对吧，{PLAYER}？$"
 
 PetalburgCity_Gym_Text_NormanRematchDefeat:
-    .string "呃……哈哈……\n也许太勉强了……$"
+    .string "啊……哈哈……\n也许我们太过认真了……$"
 
 PetalburgCity_Gym_Text_NormanPostRematch:
-    .string "爸爸：{PLAYER}……\n你的梦想是什么？\p我的梦想……\n哈哈哈……\l实际上，它已经成真了。$"
+    .string "爸爸：{PLAYER}……\n你的梦想是什么？\p我的梦想……\n哈哈哈……\l其实已经实现了。$"
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
-    .string "爸爸：{PLAYER}……\n我就知道你会来。\p我是不会拒绝\n你的挑战的，\p你明白这点，对吗？\p在道馆之中，我们\n父亲与孩子的关系并不重要。\p嗯？等等，{PLAYER}，\p你只有一只\n能战斗的宝可梦吗？\p你得带至少两只\n宝可梦来才行。$"
+    .string "爸爸：{PLAYER}……\n我就知道你会来。\p我永远也不会拒绝\n你的挑战的。\p你明白的，对吧？\p在道馆里，\n无关我们是不是父子。\p嗯？\n等等，{PLAYER}，\p你只有1只\n能对战的宝可梦吗？\p你得带至少2只\n宝可梦来才行。$"
 

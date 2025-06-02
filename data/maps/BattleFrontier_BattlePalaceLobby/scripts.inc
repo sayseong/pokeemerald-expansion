@@ -1,6 +1,3 @@
-.set LOCALID_ATTENDANT_SINGLES, 1
-.set LOCALID_ATTENDANT_DOUBLES, 6
-
 BattleFrontier_BattlePalaceLobby_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePalaceLobby_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattlePalaceLobby_OnWarp
@@ -12,7 +9,7 @@ BattleFrontier_BattlePalaceLobby_OnWarp:
 
 BattleFrontier_BattlePalaceLobby_EventScript_TurnPlayerNorth::
 	setvar VAR_TEMP_1, 1
-	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	turnobject LOCALID_PLAYER, DIR_NORTH
 	end
 
 BattleFrontier_BattlePalaceLobby_OnFrame:
@@ -244,13 +241,13 @@ BattleFrontier_BattlePalaceLobby_EventScript_WalkToDoor::
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattlePalaceLobby_EventScript_TalkedToSinglesAttendant
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES, BattleFrontier_BattlePalaceLobby_EventScript_TalkedToDoublesAttendant
 	applymovement VAR_LAST_TALKED, BattleFrontier_BattlePalaceLobby_Movement_WalkToDoor
-	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattlePalaceLobby_Movement_WalkToDoor
+	applymovement LOCALID_PLAYER, BattleFrontier_BattlePalaceLobby_Movement_WalkToDoor
 	waitmovement 0
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattlePalaceLobby_EventScript_OpenSinglesHallDoor
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES, BattleFrontier_BattlePalaceLobby_EventScript_OpenDoublesHallDoor
 	waitdooranim
 	applymovement VAR_LAST_TALKED, BattleFrontier_BattlePalaceLobby_Movement_AttendantEnterDoor
-	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattlePalaceLobby_Movement_PlayerEnterDoor
+	applymovement LOCALID_PLAYER, BattleFrontier_BattlePalaceLobby_Movement_PlayerEnterDoor
 	waitmovement 0
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattlePalaceLobby_EventScript_CloseSinglesHallDoor
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES, BattleFrontier_BattlePalaceLobby_EventScript_CloseDoublesHallDoor
@@ -258,11 +255,11 @@ BattleFrontier_BattlePalaceLobby_EventScript_WalkToDoor::
 	return
 
 BattleFrontier_BattlePalaceLobby_EventScript_TalkedToSinglesAttendant::
-	setvar VAR_LAST_TALKED, LOCALID_ATTENDANT_SINGLES
+	setvar VAR_LAST_TALKED, LOCALID_PALACE_ATTENDANT_SINGLES
 	return
 
 BattleFrontier_BattlePalaceLobby_EventScript_TalkedToDoublesAttendant::
-	setvar VAR_LAST_TALKED, LOCALID_ATTENDANT_DOUBLES
+	setvar VAR_LAST_TALKED, LOCALID_PALACE_ATTENDANT_DOUBLES
 	return
 
 BattleFrontier_BattlePalaceLobby_EventScript_OpenSinglesHallDoor::
@@ -378,59 +375,59 @@ BattleFrontier_BattlePalaceLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
-    .string "欢迎来到对战宫殿，\n这里是对训练家的心灵的测试，\p这里接受单人对战大厅\n的挑战。$"
+    .string "训练家的心灵\n将在此接受考验。\p欢迎来到对战宫殿。\p我在此受理单打对战厅\n的挑战申请。$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
-    .string "你想要挑战\n单人对战大厅吗？$"
+    .string "要挑战单打对战厅吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
-    .string "对战宫殿里有几个\n专门为单人对战准备的礼堂，\l被称作单人对战大厅。\p单人对战与普通比赛的规则\n相同，但增加了一条\l非常重要的规则，\p训练家只能选择\n进行战斗的宝可梦，\p不可以对宝可梦\n下达任何战斗指令。\p宝可梦要\n依靠自己的本能战斗，\p你必须完全信赖你的宝可梦，\n在一边观看它们的比赛。\p如果你能成功地连续打败\n七个训练家，\l就可以得到对战点数。\p需要中断挑战的话\n必须进行存档，\p假如没有存档\n则视为放弃参赛权。$"
+    .string "对战宫殿里有几个专门为\n单打对战准备的礼堂，\l我们称之为单打对战厅。\p单打对战与普通比赛的规则一致，\n但需要遵守一条关键规则——\p训练家只能替换\n自己的宝可梦，\p禁止对它们下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败7个训练家，\l我们将向您呈上对战点数。\p如果要暂停挑战的话\n需要先写入记录，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
-    .string "当你的心灵与你的宝可梦都变得\n更强的时候，再回到这里来吧。$"
+    .string "当您的心灵与您的宝可梦都变得\n更强的时候，再回到这里来吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
-    .string "有两种对战大厅，\n50级和自由级，\l你要挑战哪一种？$"
+    .string "对战厅有2种，\nLv. 50级和自由等级，\l您要挑战哪种？$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50:
-    .string "哎……\p你没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，你必须\n带着三只不同种类的宝可梦，\p而且它们必须都在\n50级以下。\p而且，也不能让它们携带\n相同种类的道具。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"
+    .string "哎……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "哎……\p你没带足三只能够\n参加挑战的宝可梦，\p要进行挑战，你必须\n带着三只不同种类的宝可梦。\p而且，也不能让它们携带\n相同种类的道具。\p蛋{STR_VAR_1}也不能参加。\p准备好之后\n再回来吧。$"
+    .string "哎……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NowSelectThreeMons:
-    .string "好的。现在，请选择\n要参加的三只宝可梦。$"
+    .string "好的。那么请选择要参加的\n3只宝可梦。$"
 
 BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge2:
-    .string "带你去对战大厅之前\n需要先存档，可以吗？$"
+    .string "带您去对战厅之前\n需要先写入记录，可以吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_FollowMe:
-    .string "好的。\n跟我来。$"
+    .string "好的。\n请随我来。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ResultsWillBeRecorded:
-    .string "很荣幸能观赏到\n你的宝可梦的英姿。\p正在记录你的结果中，\n请稍候。$"
+    .string "很荣幸能观赏到\n您的宝可梦的英姿。\p正在记录您的成绩，\n请稍候。$"
 
 BattleFrontier_BattlePalaceLobby_Text_FirmTrueBondsFor7WinStreak:
-    .string "你达到了七连胜……\p看起来你的心灵与宝可梦之间的\n牵绊已经坚不可摧。$"
+    .string "您达成了7连胜……\p看来您的心灵与宝可梦之间的\n牵绊已经坚不可摧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded:
-    .string "正在记录你的成绩，\n请稍候。$"
+    .string "正在记录您的成绩，\n请稍候。$"
 
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_BattlePointsFor7WinStreak:
-	.string "作为7连胜的奖励，\n特此授予对战点数。$"
+	.string "作为7连胜的奖励，\n我们将向您呈上对战点数。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
-    .string "看起来你没有地方\n装我们的礼品了，\p整理好包包再\n回来这里吧。$"
+    .string "看起来您没有地方\n装我们的礼物了，\p整理好包包再\n回来这里吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_WeHaveBeenWaiting:
-    .string "我们一直在等你……$"
+    .string "我们已经恭候多时……$"
 
 BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge:
-    .string "带你去对战大厅之前\n需要先存档，可以吗？$"
+    .string "带您去对战厅之前\n需要先写入记录，可以吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_FailedToSaveBeforeEndingChallenge:
-    .string "哎……\p上次结束挑战时\n你没有成功存档，\p因此你的挑战资格\n被取消了。真是太可惜了。$"
+    .string "唉……\p您在上次结束时\n没有完好地写入记录。\p很不幸，没有写入记录的\n挑战我们将视其为无效。$"
 
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize:
@@ -440,46 +437,46 @@ BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:
     .string "对于我这样努力的人，\n还是努力的宝可梦更适合我。\p攻击就是最好的防御！\n不断的攻击最为重要！\p不过我想说的并不是\n这些。\p我经常能看到一个可爱的\n女孩在这附近玩，\p她说她能得知\n宝可梦们的想法，\p那一点我不是很清楚，\n不过她真的非常可爱啊。\p嗯？\n你干吗用那种眼神看着我？$"
 
 BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere:
-    .string "唔……\p看起来宝可梦的性格\n和它们所学会的招式\l是在这里战斗的关键。\p准确地说，是取决于\n招式与宝可梦的性格的\l契合度。\p如果你的宝可梦陷入危机，\n不能依靠它自己的潜能获胜，\l你就得检查一下\l它的招式是否符合它的性格。$"
+    .string "唔……\p看起来宝可梦的性格\n和它们所学会的招式\l是在这里对战的关键。\p准确地说，是取决于\n招式与宝可梦的性格的\l契合度。\p如果你的宝可梦陷入危机，\n不能依靠它自己的潜能获胜，\l你就得检查一下\l它的招式是否符合它的性格。$"
 
 BattleFrontier_BattlePalaceLobby_Text_MonDocileButTransforms:
-    .string "我的宝可梦通常比较温顺，\p但进了对战大厅后，\n一下子就突然变得\l非常凶猛强悍！\p那架势简直吓人！\n我都震惊了！$"
+    .string "我的宝可梦通常\n比较温顺，\p但进了对战厅后，\n一下子就突然变得\l非常凶猛强悍！\p那架势简直吓人！\n我都震惊了！$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway:
     .string "不知道一只喜欢削弱，\n然后慢慢消耗对手的宝可梦\l该算是什么性格，\p它要是乐天性格的话，\n我可真是惊了。\p但，呃，应该没可能吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
-    .string "欢迎来到对战宫殿，\n这里是对训练家的心灵的测试，\p这里接受双打对战大厅\n的挑战。$"
+    .string "训练家的心灵\n将在此接受考验。\p欢迎来到对战宫殿。\p我在此受理双打对战厅\n的挑战申请。$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
-    .string "你想要挑战\n双打对战大厅吗？$"
+    .string "要挑战双打对战厅吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
-    .string "对战宫殿里有几个\n专门为双打对战准备的礼堂，\l被称作双打对战大厅。\p双打对战与普通比赛的规则\n相同，但增加了一条\l非常重要的规则，\p训练家只能选择\n进行战斗的宝可梦，\p不可以对宝可梦\n下达任何战斗指令。\p宝可梦要\n依靠自己的本能战斗，\p你必须完全信赖你的宝可梦，\n在一边观看它们的比赛。\p如果你能成功地连续打败\n七个训练家，\l就可以得到对战点数。\p需要中断挑战的话\n必须进行存档，\p假如没有存档\n则视为放弃参赛权。$"
+    .string "对战宫殿里有几个专门为\n双打对战准备的礼堂，\l我们称之为双打对战厅。\p双打对战与普通比赛的规则一致，\n但需要遵守一条关键规则——\p训练家只能替换\n自己的宝可梦，\p禁止对它们下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败7个训练家，\l我们将向您呈上对战点数。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers:
-    .string "要连续打败宫殿守护者\n和七个训练家啊……$"
+    .string "要连续打败宫殿守护者\n和7个训练家啊……$"
 
 BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
-    .string "为了表彰你和你的宝可梦\n之间密切的关系，我们将\l这些对战点数授予你。$"
+    .string "为了表彰您和宝可梦之间紧密的牵绊，\n我们将向您呈上对战点数。$"
 
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
-    .string "你要在你的开拓通行证上\n记录下你在对战宫殿\l最近的比赛吗？$"
+    .string "您要在您的开拓通行证上\n记录下您在对战宫殿\l最近的对战吗？$"
 
 BattleFrontier_BattlePalaceLobby_Text_RulesAreListed:
-    .string "上面列出了对战大厅的规则。$"
+    .string "上面列出了对战厅的规则。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReadWhichHeading:
     .string "要读哪一部分的说明？$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesBasics:
-    .string "在这里，宝可梦需要\n凭借自己的思考来战斗。\p与野生宝可梦不同，和人们\n一同生活的宝可梦会依据\l它们的性格选择不同的战斗方式。$"
+    .string "在这里，宝可梦需要凭借\n自己的思考来战斗。\p与野生宝可梦不同，\n和人们一同生活的宝可梦会依据它们的\l性格选择不同的战斗方式。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesNature:
     .string "由于性格的差别，有的宝可梦\n喜欢不计后果的攻击，\p有的喜欢尽量保护自己\n不受任何伤害，\p还有一些喜欢干扰\n消耗它的对手。\p不同性格的宝可梦\n都会有各自喜欢的\l并且擅长的招式，\p当然也会有不喜欢\n并且不擅长的招式。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves:
-    .string "招式分为三类：有直接给予对手伤害的\n攻击型招式，\p有防御敌人攻击或\n回复体力之类的\l防御型招式，\p还有能让对手陷入\n中毒或麻痹等\l种种异常状态的\l干扰型的招式。\p宝可梦会自行决定\n使用三种招式中的哪一种。$"
+    .string "招式分为3类：有直接给予对手伤害的\n攻击型招式，\p有防御敌人攻击或\n回复体力之类的\l防御型招式，\p还有能让对手陷入\n中毒或麻痹等\l种种异常状态的\l干扰型的招式。\p宝可梦会自行决定\n使用3种招式中的哪一种。$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered:
     .string "没有了训练家的命令，\n宝可梦有可能无法\l有效使用某些招式。\p尤其会不擅长使用\n自己不喜欢的招式。\p如果宝可梦只学会了\n与它的性格不相符的招式，\l那么就很难凭自己的潜能获得胜利。$"

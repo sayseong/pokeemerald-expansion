@@ -1,28 +1,21 @@
-.set LOCALID_KYOGRE, 1
-.set LOCALID_ARCHIE, 2
-.set LOCALID_MAXIE, 3
-.set LOCALID_GRUNT_1, 4
-.set LOCALID_GRUNT_2, 5
-.set LOCALID_KYOGRE_SLEEPING, 7
-
 SeafloorCavern_Room9_MapScripts::
 	.byte 0
 
 SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	lockall
-	setvar VAR_0x8004, LOCALID_ARCHIE
-	setvar VAR_0x8005, LOCALID_MAXIE
-	setvar VAR_0x8006, LOCALID_GRUNT_1
-	setvar VAR_0x8007, LOCALID_GRUNT_2
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	setvar VAR_0x8004, LOCALID_SEAFLOOR_CAVERN_ARCHIE
+	setvar VAR_0x8005, LOCALID_SEAFLOOR_CAVERN_MAXIE
+	setvar VAR_0x8006, LOCALID_SEAFLOOR_CAVERN_GRUNT_1
+	setvar VAR_0x8007, LOCALID_SEAFLOOR_CAVERN_GRUNT_2
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, SeafloorCavern_Room9_Movement_Delay32
+	applymovement LOCALID_PLAYER, SeafloorCavern_Room9_Movement_Delay32
 	waitmovement 0
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
 	msgbox SeafloorCavern_Room9_Text_ArchieHoldItRightThere, MSGBOX_DEFAULT
 	closemessage
 	addobject VAR_0x8004
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	applymovement VAR_0x8004, SeafloorCavern_Room9_Movement_ArchieApproachPlayer
 	waitmovement 0
@@ -52,14 +45,14 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	playse SE_ORB
 	special DoOrbEffect
 	applymovement VAR_0x8004, Common_Movement_WalkInPlaceFasterUp
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 150
-	removeobject LOCALID_KYOGRE_SLEEPING
-	addobject LOCALID_KYOGRE
+	removeobject LOCALID_SEAFLOOR_CAVERN_KYOGRE_SLEEPING
+	addobject LOCALID_SEAFLOOR_CAVERN_KYOGRE
 	waitstate
 	delay 60
-	applymovement LOCALID_KYOGRE, SeafloorCavern_Room9_Movement_KyogreApproach
+	applymovement LOCALID_SEAFLOOR_CAVERN_KYOGRE, SeafloorCavern_Room9_Movement_KyogreApproach
 	waitmovement 0
 	special FadeOutOrbEffect
 	waitstate
@@ -69,9 +62,9 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SeafloorCavern_Room9_Movement_KyogreExit
+	applymovement LOCALID_SEAFLOOR_CAVERN_KYOGRE, SeafloorCavern_Room9_Movement_KyogreExit
 	waitmovement 0
-	removeobject LOCALID_KYOGRE
+	removeobject LOCALID_SEAFLOOR_CAVERN_KYOGRE
 	delay 4
 	setvar VAR_0x8004, 2  @ vertical pan
 	setvar VAR_0x8005, 2  @ horizontal pan
@@ -80,13 +73,13 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	special ShakeCamera
 	waitstate
 	delay 30
-	setvar VAR_0x8004, LOCALID_ARCHIE
-	setvar VAR_0x8005, LOCALID_MAXIE
-	setvar VAR_0x8006, LOCALID_GRUNT_1
-	setvar VAR_0x8007, LOCALID_GRUNT_2
+	setvar VAR_0x8004, LOCALID_SEAFLOOR_CAVERN_ARCHIE
+	setvar VAR_0x8005, LOCALID_SEAFLOOR_CAVERN_MAXIE
+	setvar VAR_0x8006, LOCALID_SEAFLOOR_CAVERN_GRUNT_1
+	setvar VAR_0x8007, LOCALID_SEAFLOOR_CAVERN_GRUNT_2
 	msgbox SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo, MSGBOX_DEFAULT
 	playse SE_PC_LOGIN
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	msgbox SeafloorCavern_Room9_Text_ArchieAMessageFromOutside, MSGBOX_DEFAULT
 	closemessage
@@ -226,46 +219,46 @@ SeafloorCavern_Room9_Movement_Delay32:
 	step_end
 
 SeafloorCavern_Room9_Text_ArchieHoldItRightThere:
-    .string "水梧桐：站住。$"
+    .string "水梧桐：给我站住。$"
 
 SeafloorCavern_Room9_Text_ArchieSoItWasYou:
-    .string "水梧桐：呼呼呼……\n真的是你啊。$"
+    .string "水梧桐：呵呵呵……\n真的是你啊。$"
 
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre:
-    .string "水梧桐：看吧！\p看看这沉睡的超古代宝可梦，\n盖欧卡，它是多么美丽！\p我等这一天等了\n很久了……$"
+    .string "水梧桐：看吧！\p这超古代宝可梦——盖欧卡，\n它沉睡的姿态是多么美丽！\p我等这一天等了\n太久了……$"
 
 SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
-    .string "水梧桐：真让我吃惊，你是怎么\n追到这儿来的？\p不过这已经无所谓了，\p为了实现我的梦想，\n你必须消失！$"
+    .string "水梧桐：你能追到这里来\n确实让我惊讶。\p但一切都结束了。\p为了实现我的梦想，\n你必须在此消失！$"
 
 SeafloorCavern_Room9_Text_ArchieDefeat:
-    .string "什么？！\n我输给了你这种小孩？！$"
+    .string "什么？！\n居然输给区区一个小鬼？！$"
 
 SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
-    .string "水梧桐：呼呼呼……\p我真得赞扬你。我承认\n你确实很有天赋。\p但是！\n我拥有这件东西！\p有了朱红色宝珠，我可以让盖欧卡……$"
+    .string "水梧桐：呵呵呵……\p该说真不愧是你吗……\n我承认你确实有两下子。\p但是！\n我拥有这个！\p只要用朱红色宝珠，\n我可以让盖欧卡……$"
 
 SeafloorCavern_Room9_Text_RedOrbShinesByItself:
-    .string "朱红色宝珠意外地\n开始射出了光芒！$"
+    .string "朱红色宝珠\n开始自己发出光芒了！$"
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
-    .string "水梧桐：什么？！\p我什么都没做！\n朱红色宝珠怎么会……\p盖欧卡上哪儿去了？$"
+    .string "水梧桐：什么？！\p我什么都没做！\n朱红色宝珠怎么会……\p盖欧卡去哪了？$"
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
-    .string "水梧桐：嗯？这是留在外面的人\n发来的信息……$"
+    .string "水梧桐：嗯？是留在外面的\n队员的联络……$"
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
-    .string "水梧桐：是我。出什么事了？\p嗯……\n下暴雨了？\p好……那是应该的。\n这就是唤醒盖欧卡的目的，\l为实现海洋队\l拓展海洋的梦想。\p什么？！\p雨比我们预计的还要\n大得多？你们遇上危险了？\p那不可能……\n那绝不可能……\p呆在那儿不要动，\n看清楚发生了什么事！$"
+    .string "水梧桐：是我，怎么了？\p嗯……\n下暴雨了？\p很好……意料之中。\n这就是我们唤醒盖欧卡的目的，\l为实现海洋队扩张大海的愿景。\p什么？！\p雨量远远超出预期？\n你们也陷入危险了？\p怎么会……\n绝不可能……\p你们原地待命，\n继续监测情况！$"
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
-    .string "水梧桐：一定是哪里出错了……\p不是说朱红色宝珠可以唤醒\n并控制盖欧卡吗……\p但是……为什么？\n为什么盖欧卡不见了？\p为什么？！$"
+    .string "水梧桐：一定是哪里不对……\p朱红色宝珠明明应该能够\n唤醒并控制盖欧卡才对……\p可是……为什么？\n为什么盖欧卡不见了？\p为什么？！$"
 
 SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought:
-    .string "赤焰松：你都干了些什么？\p水梧桐……你还是唤醒盖欧卡了，\n是不是？\p这场倾盆大雨一直下个不停的话，\n我们的世界会变成什么样？\p所有的大陆都会被海水\n所淹没……$"
+    .string "赤焰松：你都干了些什么？\p水梧桐……你终于还是\n唤醒盖欧卡了吗？\p这场倾盆大雨一直下个不停的话，\n世界会变成什么样子？\p所有的陆地都将\n被海水淹没……$"
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
-    .string "水梧桐：什——什么？！\n别把责任都推到我身上！\p你不也一样吗，熔岩队，\n那只狂怒的固拉多怎么说？\p既然我有朱红色宝珠，\n我应该能控制盖欧卡……\p我应该能控制它的……$"
+    .string "水梧桐：什——什么？！\n少在这里装腔作势！\p难道不是你们熔岩队\n激怒了固拉多吗？\p只要我有朱红色宝珠，\n我应该还能控制盖欧卡……\p我应该能的……$"
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
-    .string "赤焰松：我们没时间\n继续在这儿吵了！\p出去自己看看吧！\p去看看那个由我们制造的\n梦想中的世界！$"
+    .string "赤焰松：我们没时间继续\n在这儿争吵了！\p出去亲眼看看吧！\p看看你造成的那一切是不是\n我们一直所期望的世界的样子！$"
 
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
-    .string "赤焰松：{PLAYER}，快，\n你也得离开这儿！$"
+    .string "赤焰松：{PLAYER}，\n你也得赶紧离开这儿！$"

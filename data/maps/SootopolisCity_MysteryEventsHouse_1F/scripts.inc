@@ -1,5 +1,3 @@
-.set LOCALID_OLD_MAN, 1
-
 SootopolisCity_MysteryEventsHouse_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, SootopolisCity_MysteryEventsHouse_1F_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, SootopolisCity_MysteryEventsHouse_1F_OnFrame
@@ -13,14 +11,14 @@ SootopolisCity_MysteryEventsHouse_1F_OnTransition:
 
 SootopolisCity_MysteryEventsHouse_1F_EventScript_SetTrainerVisitingLayout::
 	setvar VAR_TEMP_1, 1
-	setobjectxyperm LOCALID_OLD_MAN, 3, 2
-	setobjectmovementtype LOCALID_OLD_MAN, MOVEMENT_TYPE_FACE_DOWN
+	setobjectxyperm LOCALID_MYSTERY_EVENTS_OLD_MAN, 3, 2
+	setobjectmovementtype LOCALID_MYSTERY_EVENTS_OLD_MAN, MOVEMENT_TYPE_FACE_DOWN
 	setmaplayoutindex LAYOUT_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F_STAIRS_UNBLOCKED
 	return
 
 SootopolisCity_MysteryEventsHouse_1F_EventScript_MoveOldManToDoor::
-	setobjectxyperm LOCALID_OLD_MAN, 2, 2
-	setobjectmovementtype LOCALID_OLD_MAN, MOVEMENT_TYPE_FACE_RIGHT
+	setobjectxyperm LOCALID_MYSTERY_EVENTS_OLD_MAN, 2, 2
+	setobjectmovementtype LOCALID_MYSTERY_EVENTS_OLD_MAN, MOVEMENT_TYPE_FACE_RIGHT
 	return
 
 SootopolisCity_MysteryEventsHouse_1F_OnFrame:
@@ -31,12 +29,12 @@ SootopolisCity_MysteryEventsHouse_1F_OnFrame:
 
 SootopolisCity_MysteryEventsHouse_1F_EventScript_OldManCommentOnBattle::
 	lockall
-	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_MysteryEventsHouse_1F_Movement_PlayerExitStairs
+	applymovement LOCALID_PLAYER, SootopolisCity_MysteryEventsHouse_1F_Movement_PlayerExitStairs
 	waitmovement 0
-	applymovement LOCALID_OLD_MAN, SootopolisCity_MysteryEventsHouse_1F_Movement_OldManWalkBehindPlayer
+	applymovement LOCALID_MYSTERY_EVENTS_OLD_MAN, SootopolisCity_MysteryEventsHouse_1F_Movement_OldManWalkBehindPlayer
 	waitmovement 0
-	copyobjectxytoperm LOCALID_OLD_MAN
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	copyobjectxytoperm LOCALID_MYSTERY_EVENTS_OLD_MAN
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	call_if_eq VAR_SOOTOPOLIS_MYSTERY_EVENTS_STATE, 1, SootopolisCity_MysteryEventsHouse_1F_EventScript_BattleWonComment
 	call_if_eq VAR_SOOTOPOLIS_MYSTERY_EVENTS_STATE, 2, SootopolisCity_MysteryEventsHouse_1F_EventScript_BattleLostComment
@@ -121,19 +119,19 @@ SootopolisCity_MysteryEventsHouse_1F_EventScript_ChooseParty::
 
 SootopolisCity_MysteryEventsHouse_1F_EventScript_EnterBasementNorth::
 	applymovement VAR_LAST_TALKED, SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideLeft
-	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_MysteryEventsHouse_1F_Movement_PlayerEnterBasementNorth
+	applymovement LOCALID_PLAYER, SootopolisCity_MysteryEventsHouse_1F_Movement_PlayerEnterBasementNorth
 	waitmovement 0
 	return
 
 SootopolisCity_MysteryEventsHouse_1F_EventScript_EnterBasementEast::
 	applymovement VAR_LAST_TALKED, SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideRight
-	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_MysteryEventsHouse_1F_Movement_PlayerEnterBasementEast
+	applymovement LOCALID_PLAYER, SootopolisCity_MysteryEventsHouse_1F_Movement_PlayerEnterBasementEast
 	waitmovement 0
 	return
 
 SootopolisCity_MysteryEventsHouse_1F_EventScript_EnterBasementWest::
 	applymovement VAR_LAST_TALKED, SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideLeft
-	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_MysteryEventsHouse_1F_Movement_PlayerEnterBasementWest
+	applymovement LOCALID_PLAYER, SootopolisCity_MysteryEventsHouse_1F_Movement_PlayerEnterBasementWest
 	waitmovement 0
 	return
 
@@ -166,7 +164,7 @@ SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideRight:
 	step_end
 
 SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles:
-    .string "我年轻的时候也是一个\n环游世界的宝可梦训练家，\p但现在我已经日薄西山，\n唯一的乐趣只有\l看年轻训练家战斗了。$"
+    .string "我年轻的时候也是一个\n环游世界的宝可梦训练家，\p但现在我已经日薄西山，\n唯一的乐趣只有\l看年轻训练家对战了。$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked:
     .string "这扇门上了锁。$"
@@ -175,23 +173,23 @@ SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer:
     .string "一个叫{STR_VAR_1}的训练家\n到我家来了，\p你想挑战\n{STR_VAR_1}吗？$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle:
-    .string "你不想战斗？好失望，\n我真的很想看你们的战斗……$"
+    .string "你不想对战？好失望，\n我真的很想看你们的对战……$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_KeepItTo3On3:
-    .string "啊，好，太好了！\p不过我的房子不是特别坚固，\p能请你们进行一场\n三对三的战斗吗？$"
+    .string "啊，好，太好了！\p不过我的房子不是\n特别坚固，\p能请你们进行一场\n3对3的对战吗？$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_SaveProgressBeforeBattle:
-    .string "在你们两个战斗前\n要先保存下进度。$"
+    .string "在你们2个对战前\n要先写入记录。$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_HopeToSeeGoodMatch:
-    .string "我想要看到一场精彩的战斗！$"
+    .string "我想要看到一场精彩的对战！$"
 
 @ Unused
 SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Tie:
     .string "{STR_VAR_1}$"
 
 SootopolisCity_MysteryEventsHouse_B1F_Text_MatchEndedUpDraw:
-    .string "战斗以平局结束。$"
+    .string "对战以平局结束。$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_BrilliantStandoff:
     .string "是平局哦。\p双方都没有让步\n真是场精彩的比赛！$"
@@ -208,5 +206,5 @@ SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Lost:
     .string "{STR_VAR_1}$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_TooBadForYou:
-    .string "啊，太糟糕了！\p但是确实是场不错的战斗。\n希望下次你可以赢。$"
+    .string "啊，太糟糕了！\p但是确实是场不错的对战。\n希望下次你可以赢。$"
 

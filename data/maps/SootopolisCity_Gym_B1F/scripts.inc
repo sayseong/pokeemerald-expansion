@@ -70,16 +70,16 @@ SootopolisCity_Gym_B1F_Text_CrissyPostBattle:
     .string "你也许能够躲过\n被亚当一击打倒的命运。$"
 
 SootopolisCity_Gym_B1F_Text_DaphneIntro:
-    .string "亚当战斗时的\n样子……\p我被那令人心醉的美丽吸引，\n才决定成为训练家。$"
+    .string "亚当对战时的\n样子……\p我被那令人心醉的美丽吸引，\n才决定成为训练家。$"
 
 SootopolisCity_Gym_B1F_Text_DaphneDefeat:
-    .string "你的战斗比我\n更加美丽……$"
+    .string "你的对战比我\n更加美丽……$"
 
 SootopolisCity_Gym_B1F_Text_DaphnePostBattle:
-    .string "你的战斗\n非常优雅。\p啊……跟宝可梦在一起\n真幸运。$"
+    .string "你的对战\n非常优雅。\p啊……跟宝可梦在一起\n真幸运。$"
 
 SootopolisCity_Gym_B1F_Text_ConnieIntro:
-    .string "让我告诉你\n战斗的严酷吧。$"
+    .string "让我告诉你\n对战的严酷吧。$"
 
 SootopolisCity_Gym_B1F_Text_ConnieDefeat:
     .string "啊，\n你很强。$"
@@ -115,13 +115,13 @@ SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
     .string "很明显，\n一个训练家有多强\l与年龄并无关系。$"
 
 SootopolisCity_Gym_B1F_Text_BethanyIntro:
-    .string "我和宝可梦在一起的时候，\n时光在“呀”地意识到之前已经飞逝！$"
+    .string "当我和宝可梦在一起时，\n时光飞逝得连说声“呀”都来不及！$"
 
 SootopolisCity_Gym_B1F_Text_BethanyDefeat:
     .string "呀！$"
 
 SootopolisCity_Gym_B1F_Text_BethanyPostBattle:
-    .string "真想忘掉这次\n连“呀”也来不及喊出来的失败！$"
+    .string "真希望我能在说“呀”之前\n就忘记这场注定的失败！$"
 
 SootopolisCity_Gym_B1F_Text_AnnikaIntro:
     .string "我的稀有宝可梦\n也会和我一起战斗。$"
@@ -130,7 +130,7 @@ SootopolisCity_Gym_B1F_Text_AnnikaDefeat:
     .string "哎呀！你仔细看过\n我的宝可梦了吗？$"
 
 SootopolisCity_Gym_B1F_Text_AnnikaPostBattle:
-    .string "我来到这道馆只因\n亚当会欣赏我亲爱的宝可梦。\p啊，如果我还年轻的时候\n就碰到了亚当多好……$"
+    .string "我来到这道馆只因\n亚当会欣赏我亲爱的宝可梦。\p啊，如果我还年轻的时候\n就遇到了亚当多好……$"
 
 SootopolisCity_Gym_B1F_Text_BriannaIntro:
     .string "嘻嘻……\n你那严肃的面孔真迷人。$"
@@ -139,5 +139,5 @@ SootopolisCity_Gym_B1F_Text_BriannaDefeat:
     .string "呀，天啊，\n我太小看你了。$"
 
 SootopolisCity_Gym_B1F_Text_BriannaPostBattle:
-    .string "你根本不可能擦到亚当，\n嘻嘻，我肯定……$"
+    .string "你根本碰不到亚当分毫，\n嘻嘻，我肯定……$"
 

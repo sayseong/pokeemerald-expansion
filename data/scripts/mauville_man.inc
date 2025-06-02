@@ -267,8 +267,8 @@ MauvilleCity_PokemonCenter_1F_Text_CouldThereBeOtherLegends:
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouAnyLegendaryTales:
 	.string "你是训练家吗？\p"
-	.string "那么告诉我吧，你听说\n"
-	.string "过更遥远的传说吗？$"
+	.string "那么告诉我吧，\n"
+	.string "你听说过更遥远的传说吗？$"
 
 @ Unused
 MauvilleCity_PokemonCenter_1F_Text_HearAnotherLegendaryTale:
@@ -290,7 +290,7 @@ MauvilleCity_PokemonCenter_1F_Text_SavedGameTitle::
 	.string "谨慎的训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameAction::
-	.string "保存游戏进度$"
+	.string "写入记录$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
@@ -357,7 +357,7 @@ MauvilleCity_PokemonCenter_1F_Text_InterviewsStory::
 	.string "备受瞩目的训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesTitle::
-	.string "战斗狂$"
+	.string "对战狂$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesAction::
 	.string "对战$"
@@ -365,9 +365,9 @@ MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesAction::
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "他参加了{STR_VAR_1}次战斗！\p"
+	.string "他参加了{STR_VAR_1}次对战！\p"
 	.string "{STR_VAR_3}不会错过任何\n"
-	.string "战斗的机会！$"
+	.string "对战的机会！$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtTitle::
 	.string "捕捉专家$"
@@ -560,7 +560,7 @@ MauvilleCity_PokemonCenter_1F_Text_RouletteWinsAction::
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "他的轮盘记录是\n"
+	.string "他的轮盘纪录是\n"
 	.string "{STR_VAR_1}连胜。\p"
 	.string "滚珠在轮盘中转动时{STR_VAR_3}\n"
 	.string "是最幸运的！$"
@@ -603,23 +603,23 @@ MauvilleCity_PokemonCenter_1F_Text_EnteredContestsStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
 	.string "至今为止他已参加{STR_VAR_1}次\n"
-	.string "选美！\p"
+	.string "华丽大赛！\p"
 	.string "{STR_VAR_3}喜欢向他人炫耀\n"
 	.string "自己的宝可梦！$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsTitle::
-	.string "选美专家$"
+	.string "华丽大赛专家$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsAction::
-	.string "获得选美冠军$"
+	.string "获得华丽大赛冠军$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "他已{STR_VAR_1}次获得了选美\n"
-	.string "冠军！\p"
+	.string "他已获得了{STR_VAR_1}次\n"
+	.string "华丽大赛冠军！\p"
 	.string "{STR_VAR_3}是个令人难以置信的\n"
-	.string "选美大师！$"
+	.string "华丽大赛大师！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedTitle::
 	.string "购物爱好者$"
@@ -639,12 +639,12 @@ MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderTitle::
 	.string "搜索专家$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderAction::
-	.string "使用探测器$"
+	.string "使用探宝器$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderStory::
 	.string "关于{STR_VAR_3}是这样流传\n"
 	.string "的。\p"
-	.string "他用探测器找出道具\n"
+	.string "他用探宝器找出道具\n"
 	.string "{STR_VAR_1}次！\p"
 	.string "{STR_VAR_3}一定想找出\n"
 	.string "所有隐藏道具！$"
@@ -965,8 +965,8 @@ MauvilleCity_PokemonCenter_1F_Text_IAlreadyTaughtYou:
 	.string "美妙的话语。$"
 
 MauvilleCity_PokemonCenter_1F_Text_IveGotNothingNewToTeach:
-	.string "但是，嘿，你已经\n"
-	.string "能抓住最新潮流的去向了。\p"
+	.string "但是，嘿，你已经能抓住\n"
+	.string "最新潮流的去向了。\p"
 	.string "我没什么新东西可以交给你了！$"
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouHeardOfWord:

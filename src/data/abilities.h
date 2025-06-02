@@ -2212,7 +2212,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_ORICHALCUM_PULSE] =
     {
         .name = _("绯红脉动"),
-        .description = COMPOUND_STRING("造成晴天，在晴天下提升物攻"),
+        .description = COMPOUND_STRING("造成晴天，在晴天下提升攻击"),
         .aiRating = 8,
     },
 

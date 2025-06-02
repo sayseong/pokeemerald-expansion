@@ -1,123 +1,70 @@
-@ Note: local IDs shared with scripts.inc for LilycoveCity_ContestLobby
-.set LOCALID_MAN, 3
-.set LOCALID_BOY, 9
-.set LOCALID_TWIN, 10
-.set LOCALID_POKEFAN_F, 15
-.set LOCALID_EXPERT_M, 16
-.set LOCALID_GIRL, 17
-
 .set NUM_OPPONENTS, VAR_0x8009
 
 BerryBlender_Text_WantToMakePokeblocks:
-	.string "哦？你是不是和这个老前辈\n"
-	.string "想做点宝可方块？$"
+	.string "哦？想和我这个老头子\n一起制作些宝可方块吗？$"
 
 BerryBlender_Text_Excellent:
 	.string "非常好！$"
 
 BerryBlender_Text_MadeOldTimerSad:
-	.string "哦……\n"
-	.string "你让这个老前辈很难过……$"
+	.string "哎呀……\n你让老头子伤心了……$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks:
-	.string "你知道怎么做宝可方块？$"
+	.string "你知道怎么做宝可方块吧？$"
 
 BerryBlender_Text_LetsBerryBlender:
-	.string "那么让我们开始吧！\p"
-	.string "让我们混合树果！$"
+	.string "那么我们就开始吧！\p让我们混合树果！$"
 
 BerryBlender_Text_ExplainBerryBlending:
-	.string "好吧，那么小小解释一下。\p"
-	.string "噢，别担心，很简单的。\p"
-	.string "当那个混合机的箭头到达\n"
-	.string "你的标志时，就按下A键。\p"
-	.string "这就是你要做的。\n"
-	.string "当你自己试的时候就知道有多简单了。$"
+	.string "好吧，\n我来简单说明下。\p别担心，\n很简单的。\p当混合器的箭头转到你的标记时，\n按下A键就行。\p就这么简单。\n你试试就知道有多容易了。$"
 
 BerryBlender_Text_DontHaveAnyBerries:
-	.string "哦？\n"
-	.string "你没有树果？\p"
-	.string "如果你没有树果，\n"
-	.string "你就不能做任何宝可方块。$"
+	.string "咦？\n你没有树果吗？\p没有树果的话，\n就做不了宝可方块啦。$"
 
 BerryBlender_Text_CanHaveOneOfMyBerries:
-	.string "好吧，那个什么都做不了，是吧。\p"
-	.string "你可以用我的树果，\n"
-	.string "如果不介意我剩下的话。\p"
-	.string "这样的话，我们就可以一起用\n"
-	.string "树果混合器做一些宝可方块。$"
+	.string "哎呀，这可不行啊。\p如果你不介意是剩下的，\n我可以给你一个我的树果。\p这样我们就能用树果混合器\n一起制作宝可方块了。$"
 
 BerryBlender_Text_DontHaveAnyBerriesToSpare:
-	.string "如果我还有一些树果留下的话，\n"
-	.string "我很乐意给你一个……\p"
-	.string "可是，今天我一个多余的都没有。\n"
-	.string "我们得以后再做了。$"
+	.string "要是我有剩下的树果，\n肯定会乐意给你一个……\p但今天实在没有多余的。\n我们改天再试吧。$"
 
 BerryBlender_Text_PokeblockCaseIsFull:
-	.string "可是你的宝可方块盒满了。\p"
-	.string "你应该用掉些宝可方块\n"
-	.string "再来见我。$"
+	.string "但你的宝可方块盒已经满了。\p下次来找我之前，\n先用掉一些宝可方块吧。$"
 
 BerryBlender_Text_DontHavePokeblockCase:
-	.string "可是你都没有宝可方块盒。\p"
-	.string "你应该先有一个宝可方块盒，\n"
-	.string "然后再来见我。$"
+	.string "但你还没有宝可方块盒。\p先有个宝可方块盒\n再来找我吧。$"
 
 BerryBlender_Text_LetsGetBlendingAlready:
-	.string "让我们混合吧！$"
+	.string "我们赶快开始混合吧！$"
 
 BerryBlender_Text_WhatKindOfPokeblockWillIGet:
-	.string "我想知道会得到什么样的能量块。\n"
-	.string "真是让人激动！$"
+	.string "我会得到什么样的宝可方块呢？\n真让人期待啊！$"
 
 BerryBlender_Text_WantToBlendPokeblocksWithUs:
-	.string "你好啊！\n"
-	.string "你是想和我们混合一些树果？$"
+	.string "嗨！想和我们一起\n制作宝可方块吗？$"
 
 BerryBlender_Text_Okay:
-	.string "好啊！$"
+	.string "好的！$"
 
 BerryBlender_Text_ThatsTooBad:
-	.string "真是太糟糕了……\p"
-	.string "不过我们总是在这附近，\n"
-	.string "无论什么时候你都可以找我们混合！$"
+	.string "真遗憾……\p不过只要你想要混合，\n我们随时都在这里哦！$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks2:
-	.string "你一定知道如何\n"
-	.string "混合树果的是吧？$"
+	.string "你肯定知道怎么制作\n宝可方块，对吧？$"
 
 BerryBlender_Text_LetsBerryBlender2:
-	.string "那么让我们开始吧！\p"
-	.string "让我们树果混合器！$"
+	.string "那就开始吧！\p让我们来树果混合吧！$"
 
 BerryBlender_Text_ExplainBerryBlending2:
-	.string "好的！\n"
-	.string "让我解释给你听！\p"
-	.string "当混合机的箭头转\n"
-	.string "到你的标志时，\l"
-	.string "就按下A键。\p"
-	.string "就是这样。\n"
-	.string "很简单吧，你说呢？$"
+	.string "好的！\n让我来为你说明！\p当旋转的搅拌器箭头\n到达你的标记时，\l按下A键即可。\p就这么简单。\n很容易理解吧？$"
 
 BerryBlender_Text_DontHaveAnyBerries2:
-	.string "哦，但是等一下……\n"
-	.string "你都没有树果。\p"
-	.string "要是没有树果的话，\n"
-	.string "你可做不了宝可方块……\p"
-	.string "我们一直在这附近，只要你有\n"
-	.string "树果就可以找我们混合。$"
+	.string "啊，请稍等一下……\n你没有树果呢。\p没有树果的话就做不了\n宝可方块了……\p我们随时都在这里，\n等你找到树果再来混合吧。$"
 
 BerryBlender_Text_PokeblockCaseIsFull2:
-	.string "哦，但是等一下……\n"
-	.string "你的宝可方块盒满了。\p"
-	.string "你应该用掉一些\n"
-	.string "宝可方块再回来。$"
+	.string "啊，请稍等一下……\n你的宝可方块盒已经满了。\p你应该先用掉些宝可方块\n然后再回来。$"
 
 BerryBlender_Text_DontHavePokeblockCase2:
-	.string "哦，但是等一下……\n"
-	.string "可是你都没有宝可方块盒。\p"
-	.string "你应该先有一个宝可方块盒\n"
-	.string "然后再回来。$"
+	.string "啊，请稍等一下……\n你还没有宝可方块盒呢。\p你应该先获得一个宝可方块盒\n然后再回来。$"
 
 @ Unused
 BerryBlender_Text_MakePokeblocksWithOurGroup:
@@ -125,128 +72,84 @@ BerryBlender_Text_MakePokeblocksWithOurGroup:
 	.string "一起做宝可方块吗？$"
 
 BerryBlender_Text_OhDear:
-	.string "哦，天哪！$"
+	.string "哎呀！$"
 
 BerryBlender_Text_LeftUsInShock:
-	.string "哦，天哪……\p"
-	.string "你真让我们震惊！$"
+	.string "哎呀呀……\p你让我们大吃一惊呢！$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks3:
-	.string "你应该知道怎么做\n"
-	.string "宝可方块的吧？$"
+	.string "你当然知道怎么制作\n宝可方块，对吧？$"
 
 BerryBlender_Text_LetsBerryBlender3:
-	.string "哦，天哪！\n"
-	.string "那么让我们开始吧！\p"
-	.string "让我们树果混合器！$"
+	.string "好呀，亲爱的！\n我们开始吧！\p让我们来树果混合吧！$"
 
 BerryBlender_Text_ExplainBerryBlending3:
-	.string "哦，天哪！\p"
-	.string "那么我会好好地解释给你听。\p"
-	.string "当混合机的箭头转\n"
-	.string "到你的标志时，就按下A键。\p"
-	.string "就是这样。\n"
-	.string "很简单吧？$"
+	.string "哎呀！\p那我好好给你解释下。\p当搅拌器的箭头转到\n你的标记时，按下A键。\p就这么简单。\n是不是很容易？$"
 
 BerryBlender_Text_DontHaveAnyBerries3:
-	.string "你没有树果，\n"
-	.string "是吗？\p"
-	.string "要是没有树果的话，\n"
-	.string "你可做不了宝可方块。\p"
-	.string "我们会一直在这里做宝可方块，\n"
-	.string "所以当你有树果时\l"
-	.string "我们一起做一些吧。$"
+	.string "你没有树果，\n对吧？\p如果没有树果，\n就做不了宝可方块。\p我们一直在这里制作宝可方块，\n等你找到一两颗树果后\l我们再一起制作吧。$"
 
 BerryBlender_Text_PokeblockCaseIsFull3:
-	.string "看起来你的宝可方块盒\n"
-	.string "满了。\p"
-	.string "你应该用掉一些\n"
-	.string "宝可方块再回来。$"
+	.string "看起来你的宝可方块盒\n已经满了。\p你应该先用掉些宝可方块\n然后再回来。$"
 
 BerryBlender_Text_DontHavePokeblockCase3:
-	.string "看起来你都没有\n"
-	.string "宝可方块盒。\p"
-	.string "你应该先有一个宝可方块盒然后\n"
-	.string "再回来。$"
+	.string "看起来你还没有\n获得宝可方块盒呢。\p你需要先有个宝可方块盒\n再回来。$"
 
 BerryBlender_Text_SetNewBlenderRecord:
-	.string "好吧！今天将是\n"
-	.string "我创造新的混合机速度的记录！$"
+	.string "好吧！今天我要创造混合器\n速度的新纪录！$"
 
 BerryBlender_Text_LookGoodAtBlendingJoinUs:
-	.string "哦，天哪！\n"
-	.string "你好像对混合很在行。\l"
-	.string "愿意加入我们吗？$"
+	.string "哎呀！\n你看起来很擅长混合呢。\l要加入我们吗？$"
 
 BerryBlender_Text_MakeDeliciousPokeblocks:
-	.string "我将做美味的宝可方块\n"
-	.string "让我的宝可梦变得更加可爱。$"
+	.string "我要制作美味的宝可方块\n让我的宝可梦更可爱。$"
 
 BerryBlender_Text_SaveGameBeforeBerryBlenderLink:
-	.string "将会和你的朋友一起把树果\n"
-	.string "放入树果混合器中做出宝可方块。\p"
-	.string "要不要先记录然后\n"
-	.string "再和你的朋友连线？$"
+	.string "宝可方块将和朋友们一起\n用树果在树果混合器中制作。\p在和朋友连接前需要先写入记录，\n可以吗？$"
 
 BerryBlender_Text_SearchingForFriends:
-	.string "搜索你的朋友中……\n"
+	.string "正在寻找你的朋友……\n"
 	.string "…… B键：取消$"
 
 BerryBlender_Text_Player1Arrived:
-	.string "{STR_VAR_1}到达。$"
+	.string "{STR_VAR_1}到了。$"
 
 BerryBlender_Text_Player1And2Arrived:
-	.string "{STR_VAR_1}和{STR_VAR_2}到达。$"
+	.string "{STR_VAR_1}和{STR_VAR_2}到了。$"
 
 BerryBlender_Text_AllPlayersArrived:
-	.string "{STR_VAR_1}，{STR_VAR_2}，和\n"
-	.string "{STR_VAR_3}到达。$"
+	.string "{STR_VAR_1}、{STR_VAR_2}和\n"
+	.string "{STR_VAR_3}到了。$"
 
 BerryBlender_Text_NoBerriesLink:
-	.string "你没有树果。\n"
-	.string "不能用树果混合器。$"
+	.string "你没有树果。\n无法使用树果混合器。$"
 
 BerryBlender_Text_PokeblockCaseIsFullLink:
-	.string "你的宝可方块盒满了。\n"
-	.string "不能用树果混合器。$"
+	.string "你的宝可方块盒已满。\n无法使用树果混合器。$"
 
 BerryBlender_Text_DontHavePokeblockCaseLink:
-	.string "你没有宝可方块盒。\n"
-	.string "不能用树果混合器。$"
+	.string "你没有宝可方块盒。\n无法使用树果混合器。$"
 
 BerryBlender_Text_LoveMakingPokeblocks:
-	.string "我爱上做宝可方块了。\p"
-	.string "我总是在身上带着一些树果。$"
+	.string "我超喜欢制作宝可方块。\p总是随身带着树果。$"
 
 BerryBlender_Text_MakePokeblocksUsingBerryBlender:
-	.string "如果你喜欢的话，\n"
-	.string "我们可以一起用树果混合器\l"
-	.string "做一些宝可方块。$"
+	.string "如果你愿意，我们可以用树果混合器\n一起制作宝可方块。$"
 
 BerryBlender_Text_DontHaveAnyBerriesHaveOne:
-	.string "哦？\n"
-	.string "你还没有树果？\p"
-	.string "那就什么都做不了。\p"
-	.string "如果你不介意我剩下的，你可以\n"
-	.string "从我这里选一个树果。$"
+	.string "哦？\n你没有树果吗？\p哎呀，这可不行啊。\p如果你不介意是剩下的，\n我可以给你一个我的树果。$"
 
 BerryBlender_Text_UseItToMakePokeblocksTogether:
-	.string "我们一起用树果混合器\n"
-	.string "加上它做宝可方块。$"
+	.string "我们可以用它在树果混合器里\n一起制作宝可方块。$"
 
 BerryBlender_Text_DontHaveAnyBerriesNoneToSpare:
-	.string "哦？\n"
-	.string "你没有树果？\p"
-	.string "如果我还有一些留下的话，\n"
-	.string "我很乐意给你一个……\p"
-	.string "可是，今天我一个多余的都没有。\n"
-	.string "不好意思。$"
+	.string "哎呀？\n你身上没有树果吗？\p要是我有剩下的，\n一定乐意分你一颗……\p可惜今天我也没多余的。\n实在不好意思啊。$"
 
 BerryBlender_EventScript_BerryBlender1::
 	lockall
 	goto_if_unset FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER, BerryBlender_EventScript_BlendMasterPresent
 	setvar NUM_OPPONENTS, 1
-	applymovement LOCALID_EXPERT_M, BerryBlender_Movement_BlendLeaderWalkInPlace
+	applymovement LOCALID_BLEND_MASTER, BerryBlender_Movement_BlendLeaderWalkInPlace
 	waitmovement 0
 	msgbox BerryBlender_Text_WantToMakePokeblocks, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, BerryBlender_EventScript_TryUseBerryBlender1
@@ -325,8 +228,8 @@ BerryBlender_EventScript_Blender1NoCase:
 BerryBlender_EventScript_BerryBlender2::
 	lockall
 	setvar NUM_OPPONENTS, 2
-	applymovement LOCALID_TWIN, Common_Movement_FaceOriginalDirection
-	applymovement LOCALID_MAN, BerryBlender_Movement_BlendLeaderWalkInPlace
+	applymovement LOCALID_CONTEST_LOBBY_BLENDER_2_PARTICIPANT, Common_Movement_FaceOriginalDirection
+	applymovement LOCALID_CONTEST_LOBBY_BLENDER_2_LEADER, BerryBlender_Movement_BlendLeaderWalkInPlace
 	waitmovement 0
 	msgbox BerryBlender_Text_WantToBlendPokeblocksWithUs, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, BerryBlender_EventScript_TryUseBerryBlender2
@@ -382,10 +285,10 @@ BerryBlender_EventScript_Blender2NoCase:
 
 BerryBlender_EventScript_BerryBlender3::
 	lockall
-	setvar VAR_0x8008, LOCALID_POKEFAN_F
+	setvar VAR_0x8008, LOCALID_CONTEST_LOBBY_BLENDER_3_LEADER
 	setvar NUM_OPPONENTS, 3
-	applymovement LOCALID_BOY, Common_Movement_FaceOriginalDirection
-	applymovement LOCALID_GIRL, Common_Movement_FaceOriginalDirection
+	applymovement LOCALID_CONTEST_LOBBY_BLENDER_3_PARTICIPANT_1, Common_Movement_FaceOriginalDirection
+	applymovement LOCALID_CONTEST_LOBBY_BLENDER_3_PARTICIPANT_2, Common_Movement_FaceOriginalDirection
 	applymovement VAR_0x8008, BerryBlender_Movement_BlendLeaderWalkInPlace
 	waitmovement 0
 	msgbox BerryBlender_Text_LookGoodAtBlendingJoinUs, MSGBOX_YESNO

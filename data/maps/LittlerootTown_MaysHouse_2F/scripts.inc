@@ -1,5 +1,3 @@
-.set LOCALID_RIVAL, 1
-
 LittlerootTown_MaysHouse_2F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_MaysHouse_2F_OnTransition
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LittlerootTown_MaysHouse_2F_OnWarp
@@ -22,8 +20,8 @@ LittlerootTown_MaysHouse_2F_EventScript_TryUpdateMayPos::
 	checkplayergender
 	goto_if_eq VAR_RESULT, FEMALE, LittlerootTown_MaysHouse_2F_EventScript_Ret
 	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2, LittlerootTown_MaysHouse_2F_EventScript_Ret
-	setobjectxyperm LOCALID_RIVAL, 8, 2
-	setobjectmovementtype LOCALID_RIVAL, MOVEMENT_TYPE_FACE_UP
+	setobjectxyperm LOCALID_RIVALS_HOUSE_2F_RIVAL, 8, 2
+	setobjectmovementtype LOCALID_RIVALS_HOUSE_2F_RIVAL, MOVEMENT_TYPE_FACE_UP
 	return
 
 LittlerootTown_MaysHouse_2F_EventScript_Ret::
@@ -56,13 +54,13 @@ LittlerootTown_MaysHouse_2F_EventScript_RivalsPokeBall::
 
 LittlerootTown_MaysHouse_2F_EventScript_MeetMay::
 	delay 10
-	addobject LOCALID_RIVAL
-	applymovement LOCALID_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayEnters
+	addobject LOCALID_RIVALS_HOUSE_2F_RIVAL
+	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayEnters
 	waitmovement 0
 	playse SE_PIN
-	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, Common_Movement_Delay48
 	waitmovement 0
 	delay 10
 	playbgm MUS_ENCOUNTER_MAY, TRUE
@@ -80,49 +78,49 @@ LittlerootTown_MaysHouse_2F_EventScript_MeetMay::
 	end
 
 LittlerootTown_MaysHouse_2F_EventScript_MeetMayNorth::
-	applymovement LOCALID_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayApproachPlayerNorth
+	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayApproachPlayerNorth
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	msgbox RivalsHouse_2F_Text_MayWhoAreYou, MSGBOX_DEFAULT
 	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_MaysHouse_2F_Movement_PlayerWatchMayNorth
-	applymovement LOCALID_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCNorth
+	applymovement LOCALID_PLAYER, LittlerootTown_MaysHouse_2F_Movement_PlayerWatchMayNorth
+	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCNorth
 	waitmovement 0
 	return
 
 LittlerootTown_MaysHouse_2F_EventScript_MeetMaySouth::
-	applymovement LOCALID_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayApproachPlayerSouth
+	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayApproachPlayerSouth
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	msgbox RivalsHouse_2F_Text_MayWhoAreYou, MSGBOX_DEFAULT
 	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_MaysHouse_2F_Movement_PlayerWatchMaySouth
-	applymovement LOCALID_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCSouth
+	applymovement LOCALID_PLAYER, LittlerootTown_MaysHouse_2F_Movement_PlayerWatchMaySouth
+	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCSouth
 	waitmovement 0
 	return
 
 LittlerootTown_MaysHouse_2F_EventScript_MeetMayWest::
-	applymovement LOCALID_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayApproachPlayerWest
+	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayApproachPlayerWest
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox RivalsHouse_2F_Text_MayWhoAreYou, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCWest
+	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCWest
 	waitmovement 0
 	return
 
 LittlerootTown_MaysHouse_2F_EventScript_MeetMayEast::
-	applymovement LOCALID_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayApproachPlayerEast
+	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayApproachPlayerEast
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	msgbox RivalsHouse_2F_Text_MayWhoAreYou, MSGBOX_DEFAULT
 	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_MaysHouse_2F_Movement_PlayerWatchMayEast
-	applymovement LOCALID_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCEast
+	applymovement LOCALID_PLAYER, LittlerootTown_MaysHouse_2F_Movement_PlayerWatchMayEast
+	applymovement LOCALID_RIVALS_HOUSE_2F_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCEast
 	waitmovement 0
 	return
 
@@ -311,16 +309,16 @@ LittlerootTown_MaysHouse_2F_EventScript_TurnOffPlayerPC::
 	end
 
 RivalsHouse_2F_Text_MayWhoAreYou:
-    .string "嗯？\n你……你是谁？\p…… …… …… ……\n…… …… …… ……\p噢，是{PLAYER}{KUN}啊。\n这么说你搬家就是今天。\p呃……我叫小遥，\n很高兴见到你！\p我……\n我梦想要和世界上\l每一只宝可梦做朋友。\p我从爸爸……小田卷博士\n那儿听说过你，{PLAYER}{KUN}，\p我一直希望我们能\n成为好朋友，{PLAYER}{KUN}。\p呵呵，有点傻，是吗？\n我……我还刚刚认识你呢{PLAYER}{KUN}。\p啊哈哈……\p呀，坏了！我忘了！\p我还得去帮爸爸捕捉\n野生宝可梦！\p{PLAYER}{KUN}，回头见！$"
+    .string "哎？\n你……你是谁？\p…… …… …… ……\n…… …… …… ……\p哦，你就是{PLAYER}{KUN}吧。\n你今天刚搬过来对吧？\p我……我是小遥，\n请多关照！\p我……\n我的梦想是和全世界的\l宝可梦当朋友。\p爸爸……小田卷博士\n说过你的事，{PLAYER}{KUN}，\p我一直想着要是我们能\n成为好朋友就好了，{PLAYER}{KUN}。\p啊，明明才第一次和你说话，\n我居然一直在自言自语。\p嘿嘿……\p糟糕！我忘了！\p我还得去帮爸爸捕捉\n野生宝可梦！\p{PLAYER}{KUN}，回头见！$"
 
 RivalsHouse_2F_Text_MayGettingReady:
-    .string "宝可梦完全恢复了！\n东西都准备好了，还有……$"
+    .string "宝可梦的体力完全回复了……\n道具也都准备好了，还有……$"
 
 RivalsHouse_2F_Text_BrendanWhoAreYou:
-    .string "嗨！\n你……\p你是谁？\p啊，是{PLAYER}吧？\n刚搬到隔壁的？\p没想到会是个女孩。\p老爸小田卷博士说\n新邻居是个道馆馆主的孩子，\l我还以为是男孩呢。\p我叫小悠，\n今天起我们就是邻居了！\p嗯？喂，{PLAYER}你还没有\n宝可梦吗？\p要我替你捉一只吗？\p啊，可恶，忘记了……\p我得去帮老爸\n捉野生宝可梦了。\p以后再聊，好吗？$"
+    .string "嗨！\n你……\p你是谁？\p哦，你是刚搬到隔壁的\n{PLAYER}吧？\p想不到原来是个女孩。\p爸爸……小田卷博士说\n新来的邻居是道馆馆主的孩子，\l我还以为是男孩呢。\p我是小悠，\n今天起就是邻居了，请多关照！\p啊？{PLAYER}你还没有\n宝可梦吗？\p要我替你捉一只吗？\p啊，可恶，差点忘了……\p我还得去帮爸爸\n捉野生宝可梦。\p得准备出发了，\n{PLAYER}{KUN}，下次再聊吧！$"
 
 RivalsHouse_2F_Text_BrendanGettingReady:
-    .string "宝可梦完全恢复了……\n东西都打包好了，还有……$"
+    .string "宝可梦的体力完全回复了……\n道具也都打包好了，还有……$"
 
 RivalsHouse_2F_Text_ItsRivalsPokeBall:
     .string "是{RIVAL}的精灵球！\p最好不要乱动。$"
@@ -329,10 +327,10 @@ RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
     .string "小遥：{PLAYER}{KUN}！\p我在看我的宝可梦图鉴呢。\p有很多我看见却\n没捕捉的宝可梦，\p还有些我想\n可能会进化。\p不知道下面该\n去哪儿捕捉宝可梦呢？$"
 
 RivalsHouse_2F_Text_MayWhereShouldIGoNext:
-    .string "小遥：不知道下面该\n去哪儿捕捉宝可梦呢？\p如果我们能偶然遇上，那会\n很有趣吧，{PLAYER}{KUN}？$"
+    .string "小遥：不知道下面该\n去哪儿捕捉宝可梦呢？\p如果我们能偶然遇上，\n那会很有趣吧，{PLAYER}{KUN}？$"
 
 RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
     .string "小悠：嗨，{PLAYER}，\p我在检查我的宝可梦图鉴。\p我还有不少宝可梦要捕捉，\n但现在这样\l进展也不错。\p看着这宝可梦图鉴就觉得它好像\n在催我回草丛里去。$"
 
 RivalsHouse_2F_Text_BrendanWhereShouldIGoNext:
-    .string "小悠：我正在头疼下面\n要去哪儿捉宝可梦。\p喂，{PLAYER}，我如果能在找\n宝可梦时碰见你，\l可以和你来场小小的战斗。$"
+    .string "小悠：我正在头疼下面\n要去哪儿捉宝可梦。\p喂，{PLAYER}，我如果能在找\n宝可梦时碰见你，\l可以和你来场小小的对战。$"

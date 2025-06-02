@@ -1,5 +1,3 @@
-.set LOCALID_ATTENDANT, 1
-
 SlateportCity_BattleTentLobby_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_BattleTentLobby_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, SlateportCity_BattleTentLobby_OnWarp
@@ -11,7 +9,7 @@ SlateportCity_BattleTentLobby_OnWarp:
 
 SlateportCity_BattleTentLobby_EventScript_TurnPlayerNorth::
 	setvar VAR_TEMP_1, 1
-	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	turnobject LOCALID_PLAYER, DIR_NORTH
 	end
 
 SlateportCity_BattleTentLobby_OnFrame:
@@ -138,13 +136,13 @@ SlateportCity_BattleTentLobby_EventScript_EnterChallenge::
 	end
 
 SlateportCity_BattleTentLobby_EventScript_WalkToDoor::
-	applymovement LOCALID_ATTENDANT, SlateportCity_BattleTentLobby_Movement_AttendantWalkToDoor
-	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_BattleTentLobby_Movement_PlayerWalkToDoor
+	applymovement LOCALID_SLATEPORT_TENT_ATTENDANT, SlateportCity_BattleTentLobby_Movement_AttendantWalkToDoor
+	applymovement LOCALID_PLAYER, SlateportCity_BattleTentLobby_Movement_PlayerWalkToDoor
 	waitmovement 0
 	opendoor 6, 1
 	waitdooranim
-	applymovement LOCALID_ATTENDANT, SlateportCity_BattleTentLobby_Movement_AttendantEnterDoor
-	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_BattleTentLobby_Movement_PlayerEnterDoor
+	applymovement LOCALID_SLATEPORT_TENT_ATTENDANT, SlateportCity_BattleTentLobby_Movement_AttendantEnterDoor
+	applymovement LOCALID_PLAYER, SlateportCity_BattleTentLobby_Movement_PlayerEnterDoor
 	waitmovement 0
 	closedoor 6, 1
 	waitdooranim
@@ -278,7 +276,7 @@ SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
     .string "那个，呃，我没有，呃，\n自己的宝可梦，\p所以，我觉得，呃，那个，\n我应该向那边那人抱怨一下。\p但他，呃，根本就不听我的，啊！\n那个，呃，真讨厌，对吗？\p啊，呃，你，过来！\n这个，呃，给你！$"
 
 SlateportCity_BattleTentLobby_Text_ExplainTorment:
-    .string "那个是，嗯，招式学习器41，\n知道吗？\p嘿，里面是无理取闹，\n懂吗？\p就，这样其他人就不能\n连续使用相同的招式，明白？\p嘿，你听好，\n就，我可没在无理取闹！$"
+    .string "那个是，嗯，招式学习器41，\n知道吗？\p嘿，里面装着无理取闹，\n懂吗？\p就，这样其他人就不能\n连续使用相同的招式，明白？\p嘿，你听好，\n就，我可没在无理取闹！$"
 
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
     .string "我并不很喜欢虫属性宝可梦，\n但也许我可以用用试试，\l做些改变。\p谁知道我最终会不会\n喜欢上它们呢！$"

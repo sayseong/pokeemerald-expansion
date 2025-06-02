@@ -1,8 +1,3 @@
-.set LOCALID_CHALLENGE_BIKER, 21
-.set LOCALID_RIVAL, 28
-.set LOCALID_RIVAL_ON_BIKE, 29
-.set LOCALID_BIRCH, 36
-
 Route110_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, Route110_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, Route110_OnTransition
@@ -378,11 +373,11 @@ Route110_EventScript_RivalScene::
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, Route110_EventScript_PlayMayMusic
 	call_if_eq VAR_RESULT, FEMALE, Route110_EventScript_PlayBrendanMusic
-	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_ROUTE110_RIVAL, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	applymovement LOCALID_ROUTE110_RIVAL, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	applymovement LOCALID_ROUTE110_RIVAL, Common_Movement_Delay48
 	waitmovement 0
 	delay 30
 	call_if_eq VAR_0x8008, 1, Route110_EventScript_RivalApproachPlayer1
@@ -471,15 +466,15 @@ Route110_EventScript_RivalExit::
 	call_if_eq VAR_0x8008, 1, Route110_EventScript_MoveRival1
 	call_if_eq VAR_0x8008, 2, Route110_EventScript_MoveRival2
 	call_if_eq VAR_0x8008, 3, Route110_EventScript_MoveRival3
-	setobjectmovementtype LOCALID_RIVAL, MOVEMENT_TYPE_FACE_RIGHT
-	setobjectmovementtype LOCALID_RIVAL_ON_BIKE, MOVEMENT_TYPE_FACE_RIGHT
-	removeobject LOCALID_RIVAL
-	addobject LOCALID_RIVAL_ON_BIKE
+	setobjectmovementtype LOCALID_ROUTE110_RIVAL, MOVEMENT_TYPE_FACE_RIGHT
+	setobjectmovementtype LOCALID_ROUTE110_RIVAL_ON_BIKE, MOVEMENT_TYPE_FACE_RIGHT
+	removeobject LOCALID_ROUTE110_RIVAL
+	addobject LOCALID_ROUTE110_RIVAL_ON_BIKE
 	delay 45
 	call_if_eq VAR_0x8008, 1, Route110_EventScript_RivalExit1
 	call_if_eq VAR_0x8008, 2, Route110_EventScript_RivalExit2
 	call_if_eq VAR_0x8008, 3, Route110_EventScript_RivalExit3
-	removeobject LOCALID_RIVAL_ON_BIKE
+	removeobject LOCALID_ROUTE110_RIVAL_ON_BIKE
 	setvar VAR_ROUTE110_STATE, 1
 	savebgm MUS_DUMMY
 	fadedefaultbgm
@@ -487,45 +482,45 @@ Route110_EventScript_RivalExit::
 	end
 
 Route110_EventScript_RivalApproachPlayer1::
-	applymovement LOCALID_RIVAL, Route110_Movement_RivalApproachPlayer1
+	applymovement LOCALID_ROUTE110_RIVAL, Route110_Movement_RivalApproachPlayer1
 	waitmovement 0
 	return
 
 Route110_EventScript_RivalApproachPlayer2::
-	applymovement LOCALID_RIVAL, Route110_Movement_RivalApproachPlayer2
+	applymovement LOCALID_ROUTE110_RIVAL, Route110_Movement_RivalApproachPlayer2
 	waitmovement 0
 	return
 
 Route110_EventScript_RivalApproachPlayer3::
-	applymovement LOCALID_RIVAL, Route110_Movement_RivalApproachPlayer3
+	applymovement LOCALID_ROUTE110_RIVAL, Route110_Movement_RivalApproachPlayer3
 	waitmovement 0
 	return
 
 Route110_EventScript_RivalExit1::
-	applymovement LOCALID_RIVAL_ON_BIKE, Route110_Movement_RivalExit1
+	applymovement LOCALID_ROUTE110_RIVAL_ON_BIKE, Route110_Movement_RivalExit1
 	waitmovement 0
 	return
 
 Route110_EventScript_RivalExit2::
-	applymovement LOCALID_RIVAL_ON_BIKE, Route110_Movement_RivalExit2
+	applymovement LOCALID_ROUTE110_RIVAL_ON_BIKE, Route110_Movement_RivalExit2
 	waitmovement 0
 	return
 
 Route110_EventScript_RivalExit3::
-	applymovement LOCALID_RIVAL_ON_BIKE, Route110_Movement_RivalExit3
+	applymovement LOCALID_ROUTE110_RIVAL_ON_BIKE, Route110_Movement_RivalExit3
 	waitmovement 0
 	return
 
 Route110_EventScript_MoveRival1::
-	setobjectxyperm LOCALID_RIVAL_ON_BIKE, 33, 55
+	setobjectxyperm LOCALID_ROUTE110_RIVAL_ON_BIKE, 33, 55
 	return
 
 Route110_EventScript_MoveRival2::
-	setobjectxyperm LOCALID_RIVAL_ON_BIKE, 34, 55
+	setobjectxyperm LOCALID_ROUTE110_RIVAL_ON_BIKE, 34, 55
 	return
 
 Route110_EventScript_MoveRival3::
-	setobjectxyperm LOCALID_RIVAL_ON_BIKE, 35, 55
+	setobjectxyperm LOCALID_ROUTE110_RIVAL_ON_BIKE, 35, 55
 	return
 
 Route110_Movement_RivalApproachPlayer1:
@@ -596,13 +591,13 @@ Route110_EventScript_BirchScene4::
 	goto Route110_EventScript_BirchScene
 
 Route110_EventScript_BirchScene::
-	addobject LOCALID_BIRCH
-	applymovement LOCALID_BIRCH, Route110_Movement_BirchEntrance
+	addobject LOCALID_ROUTE110_BIRCH
+	applymovement LOCALID_ROUTE110_BIRCH, Route110_Movement_BirchEntrance
 	waitmovement 0
 	playse SE_PIN
-	applymovement LOCALID_BIRCH, Common_Movement_ExclamationMark
+	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_BIRCH, Common_Movement_Delay48
+	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_Delay48
 	waitmovement 0
 	call_if_eq VAR_0x8008, 1, Route110_EventScript_BirchApproachPlayer1
 	call_if_eq VAR_0x8008, 2, Route110_EventScript_BirchApproachPlayer2
@@ -611,13 +606,13 @@ Route110_EventScript_BirchScene::
 	msgbox Route110_Text_ImagineSeeingYouHere, MSGBOX_DEFAULT
 	closemessage
 	delay 20
-	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	delay 10
-	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	delay 20
-	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_ROUTE110_BIRCH, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	delay 30
 	msgbox Route110_Text_HeardYouInstallMatchCall, MSGBOX_DEFAULT
@@ -635,48 +630,48 @@ Route110_EventScript_BirchScene::
 	call_if_eq VAR_0x8008, 2, Route110_EventScript_BirchExit2
 	call_if_eq VAR_0x8008, 3, Route110_EventScript_BirchExit3
 	call_if_eq VAR_0x8008, 4, Route110_EventScript_BirchExit4
-	removeobject LOCALID_BIRCH
+	removeobject LOCALID_ROUTE110_BIRCH
 	setvar VAR_REGISTER_BIRCH_STATE, 2
 	releaseall
 	end
 
 Route110_EventScript_BirchApproachPlayer1::
-	applymovement LOCALID_BIRCH, Route110_Movement_BirchApproachPlayer1
+	applymovement LOCALID_ROUTE110_BIRCH, Route110_Movement_BirchApproachPlayer1
 	waitmovement 0
 	return
 
 Route110_EventScript_BirchApproachPlayer2::
-	applymovement LOCALID_BIRCH, Route110_Movement_BirchApproachPlayer2
+	applymovement LOCALID_ROUTE110_BIRCH, Route110_Movement_BirchApproachPlayer2
 	waitmovement 0
 	return
 
 Route110_EventScript_BirchApproachPlayer3::
-	applymovement LOCALID_BIRCH, Route110_Movement_BirchApproachPlayer3
+	applymovement LOCALID_ROUTE110_BIRCH, Route110_Movement_BirchApproachPlayer3
 	waitmovement 0
 	return
 
 Route110_EventScript_BirchApproachPlayer4::
-	applymovement LOCALID_BIRCH, Route110_Movement_BirchApproachPlayer4
+	applymovement LOCALID_ROUTE110_BIRCH, Route110_Movement_BirchApproachPlayer4
 	waitmovement 0
 	return
 
 Route110_EventScript_BirchExit1::
-	applymovement LOCALID_BIRCH, Route110_Movement_BirchExit1
+	applymovement LOCALID_ROUTE110_BIRCH, Route110_Movement_BirchExit1
 	waitmovement 0
 	return
 
 Route110_EventScript_BirchExit2::
-	applymovement LOCALID_BIRCH, Route110_Movement_BirchExit2
+	applymovement LOCALID_ROUTE110_BIRCH, Route110_Movement_BirchExit2
 	waitmovement 0
 	return
 
 Route110_EventScript_BirchExit3::
-	applymovement LOCALID_BIRCH, Route110_Movement_BirchExit3
+	applymovement LOCALID_ROUTE110_BIRCH, Route110_Movement_BirchExit3
 	waitmovement 0
 	return
 
 Route110_EventScript_BirchExit4::
-	applymovement LOCALID_BIRCH, Route110_Movement_BirchExit4
+	applymovement LOCALID_ROUTE110_BIRCH, Route110_Movement_BirchExit4
 	waitmovement 0
 	return
 
@@ -744,40 +739,40 @@ Route110_Movement_BirchExit4:
 	step_end
 
 Route110_Text_WeCantTalkAboutAquaActivities:
-    .string "海洋队的活动……\n我们还不能多说。$"
+    .string "海洋队的行动……\n我们还不能多说。$"
 
 Route110_Text_KickUpARuckus:
-    .string "我想去凯那市\n搞出大飞机来！$"
+    .string "我想去凯那市\n搞出大名堂来！$"
 
 Route110_Text_MyFirstJobInAqua:
     .string "这是我加入海洋队后的\n第一件工作。我有点害怕。$"
 
 Route110_Text_AquaActionsBringSmiles:
-    .string "海洋队的活动应该让\n所有人都欣慰地笑起来！$"
+    .string "海洋队的行动应会为\n所有人带来笑容！$"
 
 Route110_Text_MayLetsBattle:
-    .string "小遥：嗨，{PLAYER}{KUN}，好久不见了！\p我寻找宝可梦的时候，\n自己的宝可梦也变强了。\p那么……\n来战斗一场吧？$"
+    .string "小遥：{PLAYER}{KUN}，好久不见了！\p我寻找新宝可梦的同时，\n自己的宝可梦也变强了！\p所以……\n要不要来场对战？$"
 
 Route110_Text_MayDefeated:
-    .string "呀！\n你比我想象中更强！$"
+    .string "哎呀！\n比想象得更强！$"
 
 Route110_Text_MayTakeThis:
-    .string "小遥：{PLAYER}{KUN}，你\n也在努力训练是吧？\p我想你应该得到些奖励！\n这是给你的！$"
+    .string "小遥：{PLAYER}{KUN}，\n你也有在努力训练吧？\p这个奖励是你应得的，\n送给你！$"
 
 Route110_Text_MayExplainItemfinder:
-    .string "小遥：这是探宝器。\p试试，如果附近有看不见的\n道具，它就会响起来。\p好了，{PLAYER}{KUN}，下次再见！\p虽然我这么说你可能会不以为然\n但我想下次见面前你得\l更努力训练才是。$"
+    .string "小遥：这是探宝器。\p使用时如果附近有隐藏的\n道具，它就会发出声音。\p{PLAYER}{KUN}，下次见！\p虽然由我来说有点怪，\n但我希望下次见面时你变得更强呢！$"
 
 Route110_Text_BrendanLetsBattle:
-    .string "小悠：嗨，{PLAYER}，\n你到这儿来了。\l还顺利吗？\p你的宝可梦训练得如何？\n向我展示一下吧。$"
+    .string "小悠：嘿，{PLAYER}，\n原来你也在这里。\l还顺利吗？\p你的宝可梦训练得如何？\n让我来检查看看！$"
 
 Route110_Text_BrendanDefeated:
-    .string "唔……\n你很厉害。$"
+    .string "唔……\n挺能干的嘛。$"
 
 Route110_Text_BrendanTakeThis:
-    .string "小悠：{PLAYER}，在我不注意时\n你已经变得这么强了……\p干得不错！\n来，这个给你。$"
+    .string "小悠：{PLAYER}，不知不觉地\n你已经变得这么强了……\p干得不错！\n这个给你。$"
 
 Route110_Text_BrendanExplainItemfinder:
-    .string "小悠：这是探宝器。\p用它可以寻找附近\n看不见的道具。\p如果它探测到什么，\n就会发出声响。\p好了，我去找\n新的宝可梦了。$"
+    .string "小悠：这是探宝器。\p用它可以寻找附近\n隐藏的道具。\p如果它探测到东西，\n就会发出声音。\p我要继续去找新的\n宝可梦了，回见！$"
 
 Route110_Text_RideBikeAtFullSpeed:
     .string "在自行车道上\n风驰电掣的感觉很好吧？$"
@@ -798,7 +793,7 @@ Route110_Text_BikeTechniques:
     .string "学些车技不只是\n为了好玩，\p有些地方只有\n用车技才能到达。$"
 
 Route110_Text_WhichShouldIChoose:
-    .string "我该选哪条路？\p上自行车道走捷径\n去紫堇市，还是走\l下面的路找宝可梦？$"
+    .string "我该选哪条路？\p上自行车道走捷径去紫堇市，\n还是走下面的路找宝可梦？$"
 
 Route110_Text_CyclingChallengeResultSummary:
     .string "碰撞次数：\n……{STR_VAR_1}次！\p总时间：\n……{STR_VAR_2}！$"
@@ -819,19 +814,19 @@ Route110_Text_ChallengeReactionWorst:
     .string "……我很无奈……\p你也许并不\n适合骑车。\p你该考虑考虑\n把车还给风野。$"
 
 Route110_Text_RatedForNumberOfCollisions:
-    .string "这里是自行车道。\p如果你骑着风速自行车\n从紫堇市到凯那市去，\l你的碰撞次数和\l总时间都会被记录下来。$"
+    .string "这里是自行车道。\p如果你骑着音速自行车\n从紫堇市到凯那市去，\l你的碰撞次数和\l总时间都会被记录下来。$"
 
 Route110_Text_AlwaysAimHigher:
     .string "不管结果如何，\n我想看看你挑战纪录的样子。\l向更高目标冲刺吧！$"
 
 Route110_Text_AcroBikesDoNotQualify:
-    .string "这条自行车道上，骑风速自行车的人\n通过整条路所用的时间\l和碰撞次数都会被记录下来。\p越野自行车的成绩不值得记录，\n因为它们控制起来很容易。$"
+    .string "这条自行车道上，骑音速自行车的人\n通过整条路所用的时间\l和碰撞次数都会被记录下来。\p越野自行车的成绩不会被记录，\n它们很好操控，直接比较有失公平。$"
 
 Route110_Text_SlateportCitySign:
     .string "110号道路\n{DOWN_ARROW}凯那市$"
 
 Route110_Text_CyclingRoadSign:
-    .string "海边自行车道$"
+    .string "海滨自行车道$"
 
 Route110_Text_AquaWasHere:
     .string "“海洋队到此一游！”\p牌子上有人涂了这样的文字，\n但后来有什么人涂掉了那些字。\p“熔岩队最高！”\n现在上面是这么写的。$"
@@ -846,29 +841,29 @@ Route110_Text_MauvilleCitySign:
     .string "110号道路\n{UP_ARROW}紫堇市$"
 
 Route110_Text_TrainerTipsPrlzSleep:
-    .string "训练家小技巧\p敌人被麻痹或催眠后\n会变得束手无策。\p这类招式在战斗中很重要。$"
+    .string "有用的公告牌！\p敌人被麻痹或催眠后\n会变得束手无策。\p这类招式在对战中很重要。$"
 
 Route110_Text_TrainerTipsRegisterItems:
-    .string "训练家小技巧\p包包里的道具可以\n按SELECT键来整理。$"
+    .string "有用的公告牌！\p包包里的道具可以\n按SELECT键来整理。$"
 
 Route110_Text_TrickHouseSign:
-    .string "“{RIGHT_ARROW}三步，{UP_ARROW}两步，\n进入奇妙的戏法屋。”$"
+    .string "“{RIGHT_ARROW}3步，{UP_ARROW}2步，\n进入奇妙的戏法屋。”$"
 
 Route110_Text_BestRecord:
     .string "至今为止最好的纪录……\p碰撞次数：{STR_VAR_1}\p用时：{STR_VAR_2}$"
 
 Route110_Text_ThereIsNoRecord:
-    .string "至今为止最好的纪录……\p还未出现挑战者。\n没记录……$"
+    .string "至今为止最好的纪录……\p还未出现挑战者。\n没有纪录……$"
 
 Route110_Text_ImagineSeeingYouHere:
-    .string "小田卷博士：嗨，{PLAYER}{KUN}！\n想不到在这儿见到你！\p我家{RIVAL}呢？$"
+    .string "小田卷博士：哦，{PLAYER}{KUN}！\n没想到会在这儿遇见你！\p我家{RIVAL}呢？$"
 
 Route110_Text_HeardYouInstallMatchCall:
-    .string "哦，明白了！\n你们两个不是一起行动的，\l嗯，也罢。\p啊，对了，听说你的宝可导航里\n装了对战寻呼系统，\p那么，我们也互相\n登记信息吧。\p那样的话，就算我们不在一起，\n我也能对你的宝可梦图鉴作出评价了。\p…… …… ……$"
+    .string "哦，原来如此！\n你们两个是分开行动的。\l嗯，这样也好。\p对了，听说你的宝可导航里\n装了对战寻呼系统，\p那么，我们也互相\n登记信息吧。\p这样一来，即使不在一起，\n我也能评估你的宝可梦图鉴进度了。\p…… …… ……$"
 
 Route110_Text_RegisteredBirchInPokenav:
-    .string "把小田卷博士的信息\n登记进宝可导航里。$"
+    .string "把小田卷博士\n登记到宝可导航里了。$"
 
 Route110_Text_KeepAnEyeOutForRival:
-    .string "小田卷博士：{PLAYER}{KUN}……\p帮我看着我家{RIVAL}。\n…… …… ……\p好了，我该走了，\n再见，{PLAYER}{KUN}！$"
+    .string "小田卷博士：{PLAYER}{KUN}……\p请替我多关照{RIVAL}！\n…… …… ……\p好了，我得先走啦！\n再见，{PLAYER}{KUN}！$"
 

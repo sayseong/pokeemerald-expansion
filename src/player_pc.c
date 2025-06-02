@@ -183,7 +183,7 @@ static EWRAM_DATA struct ItemStorageMenu *sItemStorageMenu = NULL;
 
 static const u8 sText_WithdrawItem[] = _("取出道具");
 static const u8 sText_DepositItem[] = _("存放道具");
-static const u8 sText_TossItem[] = _("丢弃道具");
+static const u8 sText_TossItem[] = _("扔掉道具");
 static const u8 sText_Mailbox[] = _("邮件箱");
 
 static const u8 sText_WithdrawHowManyItems[] = _("要取出多少个\n{STR_VAR_1}呢？");
@@ -195,7 +195,7 @@ static const u8 *const sItemStorage_OptionDescriptions[] =
 {
     [MENU_WITHDRAW] = COMPOUND_STRING("从电脑中\n取出道具。"),
     [MENU_DEPOSIT]  = COMPOUND_STRING("将道具\n放入电脑中。"),
-    [MENU_TOSS]     = COMPOUND_STRING("丢弃电脑中\n存放的道具。"),
+    [MENU_TOSS]     = COMPOUND_STRING("扔掉电脑中\n存放的道具。"),
     [MENU_EXIT]     = gText_GoBackPrevMenu,
 };
 
@@ -242,7 +242,7 @@ const struct MenuAction gMailboxMailOptions[] =
 {
     { COMPOUND_STRING("阅读"),        {Mailbox_DoMailRead} },
     { COMPOUND_STRING("放入包包"), {Mailbox_MoveToBag} },
-    { COMPOUND_STRING("给予"),        {Mailbox_Give} },
+    { COMPOUND_STRING("携带"),        {Mailbox_Give} },
     { gText_Cancel2,                  {Mailbox_Cancel} }
 };
 
@@ -1062,7 +1062,7 @@ static void ItemStorage_PrintDescription(s32 id)
 
     // Get item description (or Cancel text)
     if (id != LIST_CANCEL)
-        description = (u8 *)ItemId_GetDescription(gSaveBlock1Ptr->pcItems[id].itemId);
+        description = (u8 *)GetItemDescription(gSaveBlock1Ptr->pcItems[id].itemId);
     else
         description = ItemStorage_GetMessage(MSG_GO_BACK_TO_PREV);
 
@@ -1206,7 +1206,7 @@ static const u8 *ItemStorage_GetMessage(u16 itemId)
         string = gText_MoveVar1Where;
         break;
     default:
-        string = ItemId_GetDescription(itemId);
+        string = GetItemDescription(itemId);
         break;
     }
     return string;
@@ -1462,7 +1462,7 @@ static void ItemStorage_DoItemToss(u8 taskId)
     s16 *data = gTasks[taskId].data;
     u16 pos = gPlayerPCItemPageInfo.cursorPos + gPlayerPCItemPageInfo.itemsAbove;
 
-    if (!ItemId_GetImportance(gSaveBlock1Ptr->pcItems[pos].itemId))
+    if (!GetItemImportance(gSaveBlock1Ptr->pcItems[pos].itemId))
     {
         // Show toss confirmation prompt
         u8 *end = CopyItemNameHandlePlural(gSaveBlock1Ptr->pcItems[pos].itemId, gStringVar1, tQuantity);

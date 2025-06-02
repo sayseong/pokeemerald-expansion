@@ -25,7 +25,7 @@ MagmaHideout_2F_1R_Text_Grunt14Intro:
     .string "什么，什么，什么？\p只有熔岩队\n才准进来！\p但你没穿熔岩队的\n制服……\p你很可疑！\n和我对战吧！$"
 
 MagmaHideout_2F_1R_Text_Grunt14Defeat:
-    .string "哎呀呀……\n我做为熔岩队成员的荣誉啊……$"
+    .string "哎呀呀……\n我作为熔岩队手下的荣誉啊……$"
 
 MagmaHideout_2F_1R_Text_Grunt14PostBattle:
     .string "如果你怕冷，那就加入\n熔岩队吧。$"

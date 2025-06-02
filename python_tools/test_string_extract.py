@@ -1,8 +1,16 @@
+#!/usr/bin/python python3
+import os
 import re
 
+# 获取py文件所在文件夹绝对路径
+pydir = os.path.dirname(os.path.realpath(__file__))
+
+# 获取C文件所在文件夹相对py文件路径
+cdir = os.path.join(os.path.dirname(pydir), "src")
+
 # 文件路径
-input_file = r"c:\Users\Nox\Documents\GitHub\pokeemerald-expansion-Chinese\src\strings.c"
-output_file = r"c:\Users\Nox\Documents\GitHub\pokeemerald-expansion-Chinese\extracted_strings.txt"
+input_file = os.path.join(cdir, "strings.c")
+output_file = os.path.join(os.path.dirname(pydir), "extracted_strings.txt")
 
 # 正则表达式匹配变量名和 _("...") 之间的内容
 pattern = re.compile(r'const\s+u8\s+(\w+)\[\]\s*=\s*_\("([^"]*)"\)')

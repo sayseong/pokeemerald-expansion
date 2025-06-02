@@ -67,4 +67,3 @@ Roulette_Text_YouDontHaveACoinCase::
 Roulette_Text_CoinCaseIsFull::
 	.string "代币盒满了！\n"
 	.string "请去兑换奖品！$"
-//TODO 汉化

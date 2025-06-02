@@ -272,7 +272,7 @@ BattleDome_Text_NeglectsSpDef::
     .string "无视特防。$"
 
 BattleDome_Text_RaisesMonsWellBalanced::
-    .string "使用恰当方法养育宝可梦。$"
+    .string "使用恰当方法培育宝可梦。$"
 
 BattleDome_Text_LetTheBattleBegin::
     .string "开战吧！$"
@@ -284,58 +284,58 @@ BattleDome_Text_TrainerBecameChamp::
     .string "{STR_VAR_1}成为冠军！$"
 
 BattleDome_Text_TrainerWonByDefault::
-    .string "{STR_VAR_1}自动获胜！$"
+    .string "{STR_VAR_1}因对手弃权而获胜！$"
 
 BattleDome_Text_TrainerWonOutrightByDefault::
-    .string "{STR_VAR_1}全部自动获胜！$"
+    .string "{STR_VAR_1}因对手彻底弃权而获胜！$"
 
 BattleDome_Text_TrainerWonNoMoves::
-    .string "{STR_VAR_1}未使用招式获胜！$"
+    .string "{STR_VAR_1}未使用任何招式就获胜了！$"
 
 BattleDome_Text_TrainerWonOutrightNoMoves::
-    .string "{STR_VAR_1}全部未使用招式获胜！$"
+    .string "{STR_VAR_1}未使用任何招式完胜对手！$"
 
 BattleDome_Text_Round1Match1::
-    .string "第1轮，第1局$"
+    .string "第1轮，第1场$"
 
 BattleDome_Text_Round1Match2::
-    .string "第2轮，第1局$"
+    .string "第1轮，第2场$"
 
 BattleDome_Text_Round1Match3::
-    .string "第3轮，第1局$"
+    .string "第1轮，第3场$"
 
 BattleDome_Text_Round1Match4::
-    .string "第4轮，第1局$"
+    .string "第1轮，第4场$"
 
 BattleDome_Text_Round1Match5::
-    .string "第5轮，第1局$"
+    .string "第1轮，第5场$"
 
 BattleDome_Text_Round1Match6::
-    .string "第6轮，第1局$"
+    .string "第1轮，第6场$"
 
 BattleDome_Text_Round1Match7::
-    .string "第7轮，第1局$"
+    .string "第1轮，第7场$"
 
 BattleDome_Text_Round1Match8::
-    .string "第8轮，第1局$"
+    .string "第1轮，第8场$"
 
 BattleDome_Text_Round2Match1::
-    .string "第1轮，第2局$"
+    .string "第2轮，第1场$"
 
 BattleDome_Text_Round2Match2::
-    .string "第2轮，第2局$"
+    .string "第2轮，第2场$"
 
 BattleDome_Text_Round2Match3::
-    .string "第3轮，第2局$"
+    .string "第2轮，第3场$"
 
 BattleDome_Text_Round2Match4::
-    .string "第4轮，第2局$"
+    .string "第2轮，第4场$"
 
 BattleDome_Text_SemifinalMatch1::
-    .string "第1场半决赛$"
+    .string "半决赛 第1场$"
 
 BattleDome_Text_SemifinalMatch2::
-    .string "第2场半决赛$"
+    .string "半决赛 第2场$"
 
 BattleDome_Text_FinalMatch::
     .string "决赛$"
