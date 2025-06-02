@@ -119,9 +119,7 @@
       "flag": "FLAG_DEXNAV_GET"
     }
   ],
-  "warp_events": [
-
-  ],
+  "warp_events": [],
   "coord_events": [
     {
       "type": "trigger",
