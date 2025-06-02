@@ -145,6 +145,8 @@ static const u8 sText_Stats_EV_Plus3[] = _("{UP_ARROW_2}{UP_ARROW_2}{UP_ARROW_2}
 static const u8 sText_Stats_EvStr1Str2[] = _("{STR_VAR_1}{STR_VAR_2}");
 static const u8 sText_Stats_MoveSelectedMax[] = _("{STR_VAR_1} / {STR_VAR_2}");
 static const u8 sText_Stats_MoveLevel[] = _("等级");
+static const u8 sText_Stats_MoveTM[] = _("TM");
+static const u8 sText_Stats_MoveHM[] = _("HM");
 static const u8 sText_Stats_Gender_0[] = _("♂");
 static const u8 sText_Stats_Gender_12_5[] = _("♀ 1/7 ♂"); //_("♀ 12.5 / 87.5 ♂");
 static const u8 sText_Stats_Gender_25[] = _("♀ 1/3 ♂");     //_("♀ 25 / 75 ♂");
@@ -5232,7 +5234,15 @@ static void PrintStatsScreen_Moves_Top(u8 taskId)
     else if (selected < (numEggMoves + numLevelUpMoves + numTMHMMoves))
     {
         CopyItemName(sStatsMovesTMHM_ID[(selected-numEggMoves-numLevelUpMoves)], gStringVar1); //TM name
-        PrintStatsScreenTextSmall(WIN_STATS_MOVES_TOP, gStringVar1, moves_x + 113, moves_y + 9);
+        if (StringCompareN(gStringVar1, COMPOUND_STRING("招式学习器"), 10))//判断道具名称前五个汉字
+        {
+            PrintStatsScreenTextSmall(WIN_STATS_MOVES_TOP, sText_Stats_MoveHM, moves_x + 113, moves_y + 3);
+        }
+        else
+        {
+            PrintStatsScreenTextSmall(WIN_STATS_MOVES_TOP, sText_Stats_MoveTM, moves_x + 113, moves_y + 3);
+        }
+        PrintStatsScreenTextSmall(WIN_STATS_MOVES_TOP, gStringVar1 + 10, moves_x + 113, moves_y + 14);//截掉道具名称前五个汉字
         item = sStatsMovesTMHM_ID[(selected-numEggMoves-numLevelUpMoves)];
     }
     else if (selected < (numEggMoves + numLevelUpMoves + numTMHMMoves + numTutorMoves))
