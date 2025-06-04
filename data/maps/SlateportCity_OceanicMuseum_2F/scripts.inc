@@ -293,7 +293,7 @@ SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat:
     .string "什么？！\n我也输了！$"
 
 SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:
-    .string "怎么办？不拿到部件的话，\n我们会有大麻烦的！\p啊，想不到竟会被个麻烦的\n小毛孩子妨碍了！$"
+    .string "怎么办？不拿到部件的话，\n我们会有大麻烦的！\p啊，想不到竟会被个麻烦的\n小鬼给妨碍了！$"
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
     .string "我来看看你们抢个部件怎么\n用了那么久，结果你们几个废物\l被个小鬼头给拦住了？$"

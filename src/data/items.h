@@ -10782,7 +10782,7 @@ const struct Item gItemsInfo[] =
         .name = _("招式学习器43"),
         .price = 3000,
         .description = COMPOUND_STRING(
-			"根据使用场所不同，\n"
+			"使用时场所不同，\n"
 			"招式的追加效果\n"
 			"也会改变。"),
         .importance = I_REUSABLE_TMS,
@@ -12230,7 +12230,7 @@ const struct Item gItemsInfo[] =
         .name = _("船票"),
         .price = 0,
         .description = COMPOUND_STRING(
-			"乘坐渡船时需要用\n"
+			"乘坐渡轮时需要用\n"
 			"到的船票。上面绘\n"
 			"有船只的图案。"),
         .importance = 1,
@@ -12628,7 +12628,7 @@ const struct Item gItemsInfo[] =
         .price = 0,
         .description = COMPOUND_STRING(
 			"能够在第1、2、\n"
-			"3岛之间用渡船移\n"
+			"3岛之间用渡轮移\n"
 			"动的通行证。"),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
@@ -12644,7 +12644,7 @@ const struct Item gItemsInfo[] =
         .price = 0,
         .description = COMPOUND_STRING(
 			"能够在枯叶市和七\n"
-			"之岛之间用渡船移\n"
+			"之岛之间用渡轮移\n"
 			"动的通行证。"),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,

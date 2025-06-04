@@ -62,29 +62,29 @@ SlateportCity_NameRatersHouse_EventScript_NewNameDifferent::
 	end
 
 SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname:
-    .string "你好，你好！\n我是姓名鉴定师！\p我可以为你鉴定\n宝可梦的名字的好坏。$"
+    .string "看一看瞧一瞧啊！\n老夫乃姓名鉴定师。\l也就是看名字算命的。\p来，让老夫来算算\n你宝可梦的昵称吧。$"
 
 SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname:
-    .string "要我看看哪只\n宝可梦的名字？$"
+    .string "你想算哪只\n宝可梦的昵称啊？$"
 
 SlateportCity_NameRatersHouse_Text_FineNameSuggestBetterOne:
-    .string "唔……{STR_VAR_1}是吗？\n你给它起了个好名字，\p但是，我能给它起个\n更好的名字，怎么样？$"
+    .string "唔嗯……\n{STR_VAR_1}啊……\p这个昵称很有你的风范，\n取得不错嘛。\p不过～\n要不要老夫帮你\l取个更好的名字啊？$"
 
 SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe:
-    .string "啊，好，那么，\n该叫什么呢？$"
+    .string "是吗，那……\n取个什么昵称好呢？$"
 
 SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName:
-    .string "好了！现在开始，这只宝可梦\n就叫{STR_VAR_1}了！\p这个名字比以前更好！\n你真幸运！$"
+    .string "好！从今天起\n这只宝可梦就叫{STR_VAR_1}啦！\p比之前的名字好听太多了，\n太好了太好了！$"
 
 SlateportCity_NameRatersHouse_Text_DoVisitAgain:
-    .string "知道了。\n欢迎再来。$"
+    .string "这样啊。\n知道了，你有空再来吧。$"
 
 SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior:
-    .string "好了！现在开始，这只宝可梦\n就叫{STR_VAR_1}了！\p虽然跟以前没什么不同，\n但这是个绝佳的名字！\p你真幸运！$"
+    .string "好！从今天起\n这只宝可梦就叫{STR_VAR_1}啦！\p虽然听起来和之前的差不多，\n但这个更棒哦！\l太好了太好了！$"
 
 SlateportCity_NameRatersHouse_Text_MagnificentName:
-    .string "唔……是{STR_VAR_1}！\p绝妙的名字！\n没什么可以修正的地方！\p你一定要好好珍惜\n你的{STR_VAR_1}。$"
+    .string "唔嗯……\n{STR_VAR_1}啊！\p这昵称好听到\n无可挑剔！\p今后你也要\n好好爱护{STR_VAR_1}哦！$"
 
 SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
-    .string "哎呀哎呀，\n这只是个蛋而已！$"
+    .string "喂喂……\n这不是颗蛋吗！$"
 

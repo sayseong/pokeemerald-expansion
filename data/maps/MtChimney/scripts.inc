@@ -563,22 +563,22 @@ MtChimney_Text_TabithaPostBattle:
     .string "老大，快！\n把陨石的能量输送给它！\p嘿嘿嘿……$"
 
 MtChimney_Text_Grunt2Intro:
-    .string "我们熔岩队\n是为了大家而努力着。\p比如说，如果那家伙的力量能制造更多\n土地，人们生活的空间会越来越多。\p大家都会很高兴的！$"
+    .string "我们熔岩队可是为了大家\n而努力工作的！\p比如，如果那家伙的力量能造出更多的\n陆地，人们就有更多地方可住。\p大家都会很高兴的！$"
 
 MtChimney_Text_Grunt2Defeat:
-    .string "哎？\n我输了？$"
+    .string "哎？\n你说我输了是什么意思？$"
 
 MtChimney_Text_Grunt2PostBattle:
-    .string "我们的老大说过，\n“这会让所有人都幸福。”\p可是为什么每个人都在\n阻碍我们？$"
+    .string "我们的老大说过，\n“这会让所有人都幸福。”\p但为什么大家总是要\n来妨碍我们呢？$"
 
 MtChimney_Text_Grunt1Intro:
-    .string "如果有更多的土地，\n我就能有一所自己的大房子了！\p我要把它建在凝固的岩浆上！$"
+    .string "如果有更多陆地，\n我就能有一栋自己的大房子了！\p我要把它建在凝固的岩浆上！$"
 
 MtChimney_Text_Grunt1Defeat:
     .string "我大房子的梦想啊……$"
 
 MtChimney_Text_Grunt1PostBattle:
-    .string "像你这样的孩子，\n应该去海里玩水才对！$"
+    .string "像你这样的孩子，\n应该去海边玩水才对！$"
 
 MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
     .string "可恶的海洋队……\n总是妨碍我们的计划！$"
@@ -614,16 +614,16 @@ MtChimney_Text_MagmaOutnumbersUs:
     .string "可恶……熔岩队比我们人多！\n我们阻止不了他们！$"
 
 MtChimney_Text_LessHabitatForWaterPokemon:
-    .string "如果任他们拓展陆地，水属性宝可梦们\n的生存空间就会减少了！$"
+    .string "如果任他们拓展陆地，\n水属性宝可梦的生存空间就会减少了！$"
 
 MtChimney_Text_MagmasNameSimilar:
-    .string "我们是海洋队！\p他们是熔岩队！\p这种容易混淆的名字\n真气死我了！$"
+    .string "我们是海洋队！\p他们是熔岩队！\p他们居然用这么容易混淆的名字，\n真气死我了！$"
 
 MtChimney_Text_Bushaa:
     .string "扑沙！$"
 
 MtChimney_Text_LavaCookiesJust200:
-    .string "釜炎仙贝是\n烟囱山的特产。\p吃吃看吧，1个只卖¥200。$"
+    .string "釜炎仙贝是\n烟囱山的特产。\p尝尝看吧，只卖¥200。$"
 
 MtChimney_Text_ThankYouDear:
     .string "谢谢惠顾，孩子！$"
@@ -644,7 +644,7 @@ MtChimney_Text_PlayerRemovedMeteorite:
     .string "{PLAYER}把陨石从\n奇异的机器上拿了下来。$"
 
 MtChimney_Text_PlayerLeftMeteorite:
-    .string "{PLAYER}把陨石\n留在原地。$"
+    .string "{PLAYER}把陨石\n留在了原处。$"
 
 MtChimney_Text_MachineMakesNoResponse:
     .string "是一台奇异的机器……\n什么反应也没有。$"
@@ -671,10 +671,10 @@ MtChimney_Text_ShelbyRematchDefeat:
     .string "哦，我的天啊，\n你可不是一般人！$"
 
 MtChimney_Text_ShelbyPostRematch:
-    .string "也许你的心已经与宝可梦\n合为一体了。$"
+    .string "也许你的心已经与宝可梦的\n合为一体了。$"
 
 MtChimney_Text_MelissaIntro:
-    .string "我的热血在沸腾！\n不能忍受了！我要战斗！$"
+    .string "我的热血在沸腾！\n忍不住了！我要战斗！$"
 
 MtChimney_Text_MelissaDefeat:
     .string "喔喔，真是场激烈的比赛！$"
