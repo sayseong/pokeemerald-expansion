@@ -603,7 +603,7 @@ Debug_EventScript_FakeRTCNotEnabled::
 	return
 
 Debug_EventScript_FakeRTCNotEnabled_Text_0:
-	.string "您当前未启用FakeRTC功能。\n请在include/config/overworld.h文件中\l启用该功能。‌$"
+	.string "您当前未启用FakeRTC功能。\n请在include/config/overworld.h文件中\l启用该功能。$"
 
 
 Debug_EventScript_TellTheTime_Text_0:
