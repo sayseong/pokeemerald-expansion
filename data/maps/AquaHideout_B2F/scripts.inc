@@ -105,19 +105,19 @@ AquaHideout_B2F_Text_Grunt4Defeat:
     .string "等烦了……\n也败得一塌糊涂……$"
 
 AquaHideout_B2F_Text_Grunt4PostBattle:
-    .string "老大……\n这样可以了吗？$"
+    .string "老大……\n这样算合格了吗？$"
 
 AquaHideout_B2F_Text_Grunt6Intro:
-    .string "这里的传送地板可是\n基地的骄傲！\p你完全不知道你身在何处了吧，\n不是吗？\p等敌人变得慌乱又疲劳，突然给他\n致命一击！这就是我们的作战计划！$"
+    .string "这里的传送地板可是\n基地的骄傲！\p你完全不知道自己\n身在何处了吧？\p先扰乱敌人再突袭——\n这就是我们的作战计划！$"
 
 AquaHideout_B2F_Text_Grunt6Defeat:
-    .string "怎么回事？\n你一点都不累！$"
+    .string "怎么回事？\n你居然一点都不累！$"
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
-    .string "说起来……\n我忘了把大师球放在哪里了。\p如果我没有保护好它，\n会被老大骂死的……$"
+    .string "说起来……\n我忘了把大师球放在哪里了。\p要是弄丢了，\n会被老大骂死的……$"
 
 AquaHideout_B2F_Text_Grunt8Intro:
-    .string "我加入海洋队的时候，第一件事\n就是记住这些传送地板\l都通向什么地方。$"
+    .string "我加入海洋队后，\n第一堂课就是记住这些\l传送地板都通向哪里。$"
 
 AquaHideout_B2F_Text_Grunt8Defeat:
     .string "脑子里全都是\n传送地板的事情了……$"

@@ -10161,8 +10161,8 @@ const struct Item gItemsInfo[] =
         .name = _("招式学习器02"),
         .price = 3000,
         .description = COMPOUND_STRING(
-			"用尖锐的巨爪\n"
-			"劈开对手进行攻击。"),
+			"用尖锐的巨爪劈开\n"
+			"对手进行攻击。"),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10241,8 +10241,8 @@ const struct Item gItemsInfo[] =
 			"防御会提高。"),
         #else
         .description = COMPOUND_STRING(
-			"在5回合内降下冰雹\n"
-			"，冰属性以外的宝\n"
+			"在5回合内降下冰\n"
+			"雹，非冰属性的宝\n"
 			"可梦会受到伤害。"),
         #endif
         .importance = I_REUSABLE_TMS,
@@ -10557,9 +10557,9 @@ const struct Item gItemsInfo[] =
         .name = _("招式学习器28"),
         .price = 2000,
         .description = COMPOUND_STRING(
-			"第1回合钻入\n"
-			"地底，第2回合\n"
-			"攻击对手。"),
+			"第1回合钻入地底\n"
+			"，第2回合攻击\n"
+			"对手。"),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10767,9 +10767,9 @@ const struct Item gItemsInfo[] =
         .name = _("招式学习器42"),
         .price = 3000,
         .description = COMPOUND_STRING(
-			"当处于中毒、麻痹、\n"
-			"灼伤时，招式威力\n"
-			"会变成2倍。"),
+			"当处于中毒、麻痹\n"
+			"或灼伤时，招式威\n"
+			"力会变成2倍。"),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -11516,9 +11516,9 @@ const struct Item gItemsInfo[] =
         .name = _("秘传学习器02"),
         .price = 0,
         .description = COMPOUND_STRING(
-			"第1回合飞上\n"
-			"天空，第2回合\n"
-			"攻击对手。"),
+			"第1回合飞上天空\n"
+			"，第2回合攻击\n"
+			"对手。"),
         .importance = 1,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -11605,9 +11605,9 @@ const struct Item gItemsInfo[] =
         .name = _("秘传学习器08"),
         .price = 0,
         .description = COMPOUND_STRING(
-			"第1回合潜入\n"
-			"水中，第2回合\n"
-			"浮上来攻击。"),
+			"第1回合潜入水中\n"
+			"，第2回合浮上来\n"
+			"攻击。"),
         .importance = 1,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,

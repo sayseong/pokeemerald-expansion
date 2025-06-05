@@ -836,7 +836,7 @@ gText_ApprenticePickWinSpeech11::
 	.string "A——H——O——Y！\n就是Ahoy，嗨的拼法！\p我就是那个说唱水手！\n这将是我最后的问题，\l你可别哭！\p这是个寻求你建议的\n台词问题！\p如果我赢了比赛，\n该怎么说才显得超酷？$"
 
 gText_ApprenticeWinSpeechThanks11::
-	.string "{STR_VAR_1}\p完美！我就用这句了。\n让你选果然是对的！\p那么现在，我想是时候\n让我展翅高飞了！\p谢谢你教会我的一切。\n我要出发去大干一场了！\pB——O——N——V——O——Y——A——G——E！\n就是Bon voyage的拼法，\l以此向你致敬！$"
+	.string "{STR_VAR_1}\p完美！我就用这句了。\n让你选果然是对的！\p那么现在，我想是时候\n让我展翅高飞了！\p谢谢你教会我的一切。\n我要出发去大干一场了！\pB——O——N——V——O——Y——\nA——G——E！\l就是Bon voyage的拼法，\l以此向你致敬！$"
 
 gText_ApprenticePickWinSpeech12::
 	.string "哦，耶，{PLAYER}！\n今天又找到你了！\p我该怎么办？再问你一次？\n为什么不呢？反正我都在问了！\p总之，{PLAYER}……\n你收到我的信号了吗？\l你收到了！\l我需要再要点建议！\p是关于我该喊什么的。\n战斗顺利结束时\l该喊点什么酷酷的话。\p来吧，我想听你说出来！$"

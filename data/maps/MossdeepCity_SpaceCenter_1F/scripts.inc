@@ -279,13 +279,13 @@ MossdeepCity_SpaceCenter_1F_Text_RocketLaunchImminent:
     .string "火箭就要发射了！$"
 
 MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber:
-    .string "火箭发射成功！\n成功脱离。{STR_VAR_1}！$"
+    .string "火箭发射成功！\n这是第{STR_VAR_1}次成功发射！$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent:
-    .string "我知道现在一切\n有点混乱，但是……\p火箭就要发射了！$"
+    .string "我知道现在一切有些混乱，\n但是……\p火箭发射程序不会停止！$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber:
-    .string "我知道现在一切\n有点混乱，但是……\p火箭发射成功！\n成功脱离。{STR_VAR_1}！$"
+    .string "我知道现在一切有些混乱，\n但是……\p火箭仍然成功发射了！\n这是第{STR_VAR_1}次成功发射！$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
     .string "火箭的发射必须十全十美，\n即使是1%的差错也不容许存在。\p就算99%的程序都没错，\n一切也会毁在那1%上。\p但即使这样，我们也不会停止尝试。\n为什么？因为这是个无尽的梦。$"
@@ -339,7 +339,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle:
     .string "好了，我已经明白了！\n下一次我们不会再发通知了。$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro:
-    .string "宇宙中心储存的\n火箭燃料——正是我们要找的。\p我们要拿得一点不剩！$"
+    .string "宇宙中心储存的火箭燃料——\n那正是我们要找的。\p我们要拿得一点不剩！$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat:
     .string "求你了，能给我些火箭燃料吗？\n就算一点点也行！$"
@@ -348,13 +348,13 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle:
     .string "我们要火箭燃料\n做什么？\p我怎么知道？\n去楼上问老大吧！$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro:
-    .string "老大说\n不能让任何人通过这里！$"
+    .string "老大有令：任何人——\n都绝对不准通过这里！$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat:
-    .string "啊！啊！啊啊啊！$"
+    .string "呃！呃啊！啊啊啊！$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
-    .string "拜托告诉老大\n我没忘记我的职责，\l但我还是尝到了苦果……$"
+    .string "拜托告诉老大\n我没忘记我的职责，\l战斗到了最后一刻……$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
-    .string "这是……\n盗窃预告？\p“致宇宙中心的成员们：\n大家好吗？我们很好。\p我们很快会来你们这里\n带走火箭燃料。\p请不要妄图阻止我们，\n我们必定会带走燃料。\p愿大地更加广阔！\n                熔岩队”$"
+    .string "这是……\n盗窃预告？\p“致宇宙中心的成员们：\n大家好吗？我们很好。\p我们很快会来你们这里\n拿走火箭燃料。\p请不要妄图阻止我们，\n我们必定会带走燃料。\p愿大地更加广阔！\n                熔岩队”$"

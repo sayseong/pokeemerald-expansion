@@ -72,8 +72,8 @@ AquaHideout_1F_Text_Grunt1Intro:
     .string "哎咦咦咦！\n发现可疑人物！$"
 
 AquaHideout_1F_Text_Grunt1Defeat:
-    .string "见鬼……\n我竟然输了！$"
+    .string "咕啊啊啊……\n我输了！$"
 
 AquaHideout_1F_Text_Grunt1PostBattle:
-    .string "虽说输了，\n不过我的任务已经完成了……$"
+    .string "虽然为组织吃了败仗，\n但我的任务完成了……$"
 
