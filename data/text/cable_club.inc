@@ -205,7 +205,7 @@ MossdeepCity_GameCorner_1F_Text_AdapterNotConnected::
     .string "无线适配器没有连接。\n连接好之后再回来吧！$"
 
 MossdeepCity_GameCorner_1F_Text_PlayWhichGame::
-    .string "好，您想玩\n哪个游戏？$"
+    .string "好的，\n要玩哪个游戏？$"
 
 MossdeepCity_GameCorner_1F_Text_EnterWhichPokemon::
     .string "要让哪只宝可梦\n参加？$"
@@ -234,16 +234,16 @@ CableClub_Text_WelcomeWhichDirectCornerRoom::
     .string "欢迎来到宝可梦无线俱乐部\n连接中心，\p在这里您可以与\n您的朋友直接进行连接。\p您要进入\n哪个房间？$"
 
 CableClub_Text_TradePokemon::
-    .string "您想要交换宝可梦吗？$"
+    .string "要交换宝可梦吗？$"
 
 CableClub_Text_PlayWhichBattleMode::
-    .string "您想参加哪个对战模式？$"
+    .string "要参加哪个对战模式？$"
 
 CableClub_Text_AccessRecordCorner::
-    .string "您想进入记录角吗？$"
+    .string "要进入记录角吗？$"
 
 CableClub_Text_UseBerryCrush::
-    .string "您想使用树果粉碎系统吗？$"
+    .string "要使用树果粉碎系统吗？$"
 
 CableClub_Text_ExplainBattleModes::
     .string "一共有3种不同的对战模式。\p单打模式中每位选手\n至少带上1只宝可梦。\p对战开始时每位选手同时放出\n1只宝可梦。\p双打模式中2位选手各自\n至少带上2只宝可梦。\p对战开始时2位选手同时放出\n2只宝可梦。\p混战模式中4位选手各自\n至少带上1只宝可梦。\p对战开始时每位选手\n同时放出1只宝可梦。$"
@@ -258,10 +258,10 @@ CableClub_Text_ChooseGroupLeader::
     .string "请决定您们中的谁会成为\n队长。\p其他的人请选择\n“加入队伍。”$"
 
 CableClub_Text_WelcomeUnionRoomEnter::
-    .string "欢迎来到宝可梦无线连接\n俱乐部联盟交谊厅。\p在这里您可以和一些\n甚至您不认识的人\l进行交流。\p您想进来吗？$"
+    .string "欢迎来到宝可梦无线连接\n俱乐部联盟交谊厅。\p在这里您可以和一些\n甚至您不认识的人\l进行交流。\p要进入吗？$"
 
 CableClub_Text_UnionRoomInfo::
-    .string "在这里的人都是在您的周围\n而且都进入了联盟交谊厅的\l选手。\p在这里您可以和他做一些\n交换或聊天之类的事。\p您可以拿出2只等级30的\n宝可梦进行1对1的对战。\p您也可以和2到5个人\n在这里进行聊天。\p或者您可以进行宝可梦\n之前的交换。\p您想进来吗？$"
+    .string "在这里的人都是在您的周围\n而且都进入了联盟交谊厅的\l选手。\p在这里您可以和他做一些\n交换或聊天之类的事。\p您可以拿出2只等级30的\n宝可梦进行1对1的对战。\p您也可以和2到5个人\n在这里进行聊天。\p或者您可以进行宝可梦\n之前的交换。\p要进入吗？$"
 
 CableClub_Text_EnjoyUnionRoom::
     .string "希望您能在联盟交谊厅过的愉快。$"

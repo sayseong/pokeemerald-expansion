@@ -17,10 +17,10 @@ Route111_Text_WhatColorBerriesToLookForToday::
     .string "今天去找什么颜色的树果呢？$"
 
 Route114_Text_LoveUsingBerryCrushShareBerry::
-    .string "我喜欢树果混合，\n所以我收集了各种各样的树果。\p这个给你怎么样？$"
+    .string "我喜欢玩树果粉碎，\n所以我收集了各种各样的树果。\p这个给你怎么样？$"
 
 Route114_Text_TryBerryCrushWithFriends::
-    .string "我建议你和你的朋友\n一起玩树果混合。$"
+    .string "我建议你和你的朋友\n一起玩树果粉碎。$"
 
 Route114_Text_FunToThinkAboutBerries::
     .string "该种什么树果？得到的树果\n是使用还是收藏起来？\p考虑这些事情也是乐趣啊。$"

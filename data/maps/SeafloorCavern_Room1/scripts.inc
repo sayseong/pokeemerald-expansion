@@ -21,7 +21,7 @@ SeafloorCavern_Room1_Text_Grunt1PostBattle:
     .string "好想升职当干部，\n那样就能使唤小卒们了……$"
 
 SeafloorCavern_Room1_Text_Grunt2Intro:
-    .string "那潜水艇……里面太窄了！\n挤得真难受！$"
+    .string "那潜水艇……里面也太窄了！\n挤得真难受！$"
 
 SeafloorCavern_Room1_Text_Grunt2Defeat:
     .string "失败让我更难受！$"

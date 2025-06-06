@@ -14,7 +14,7 @@ BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks::
     .string "当然！\n这还用说！\p顺便问一句……\n你知道怎么用树果制作\l宝可方块吧？$"
 
 BerryBlender_Text_BlendMasterExplainBerryBlending::
-    .string "嗯！\p其实过程很简单！\p当混合机的箭头转到\n你的标记时，按下A键就行。\p就这么简单。\p等你见识到我精准按下A键的功力，\n就会明白其中奥妙了。$"
+    .string "嗯！\p其实过程很简单！\p当混合器的箭头转到\n你的标记时，按下A键就行。\p就这么简单。\p等你见识到我精准按下A键的功力，\n就会明白其中奥妙了。$"
 
 BerryBlender_Text_BlendMasterLetsBerryBlender::
     .string "很好！\p那我们就开始吧！\p与混合名人一起，\n开始树果混合吧！$"

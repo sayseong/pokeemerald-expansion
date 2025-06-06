@@ -307,7 +307,7 @@ BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
     .string "{PLAYER}获得了\n开拓通行证。$"
 
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
-    .string "{PLAYER}把训练家卡\n放进了开拓通行证中。$"
+    .string "{PLAYER}把训练家卡\n收入了开拓通行证中。$"
 
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
     .string "希望您能尽情享受\n对战开拓区的一切！$"

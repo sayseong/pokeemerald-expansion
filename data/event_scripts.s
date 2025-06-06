@@ -987,8 +987,8 @@ gText_PokerusExplanation::
 	.string "详细情况不太清楚，\n"
 	.string "不过据说，所谓宝可病毒是一种\l"
 	.string "附着在宝可梦身上的微小生命体。\p"
-	.string "据说被它们影响的宝可梦的\n"
-	.string "成长会非常好。$"
+	.string "而且在病毒附着期间\n"
+	.string "宝可梦好像会成长得特别快。$"
 
 	.include "data/text/surf.inc"
 
