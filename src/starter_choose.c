@@ -36,6 +36,7 @@
 static void CB2_StarterChoose(void);
 static void ClearStarterLabel(void);
 static void Task_StarterChoose(u8 taskId);
+static void Task_StarterChoose_Gen(u8 taskId);
 static void Task_HandleStarterChooseInput(u8 taskId);
 static void Task_WaitForStarterSprite(u8 taskId);
 static void Task_AskConfirmStarter(u8 taskId);
@@ -48,6 +49,8 @@ static u8 CreatePokemonFrontSprite(u16 species, u8 x, u8 y);
 static void SpriteCB_SelectionHand(struct Sprite *sprite);
 static void SpriteCB_Pokeball(struct Sprite *sprite);
 static void SpriteCB_StarterPokemon(struct Sprite *sprite);
+u8 startermon_gen = 0;
+u8 check = 0;
 
 static u16 sStarterLabelWindowId;
 
@@ -115,6 +118,13 @@ static const u16 sStarterMon[STARTER_MON_COUNT] =
     SPECIES_TREECKO,
     SPECIES_TORCHIC,
     SPECIES_MUDKIP,
+};
+
+static const u16 sStarterMon1[STARTER_MON_COUNT] =
+{
+    SPECIES_PICHU,
+    SPECIES_EEVEE,
+    SPECIES_PIKACHU,
 };
 
 static const struct BgTemplate sBgTemplates[3] =
@@ -352,7 +362,13 @@ u16 GetStarterPokemon(u16 chosenStarterId)
 {
     if (chosenStarterId > STARTER_MON_COUNT)
         chosenStarterId = 0;
-    return sStarterMon[chosenStarterId];
+    if (startermon_gen>=1)
+    {
+        return sStarterMon1[chosenStarterId];
+    }
+    else{
+        return sStarterMon[chosenStarterId];
+    }
 }
 
 static void VblankCB_StarterChoose(void)
@@ -481,10 +497,36 @@ static void Task_StarterChoose(u8 taskId)
     gTasks[taskId].func = Task_HandleStarterChooseInput;
 }
 
+static void Task_StarterChoose_Gen(u8 taskId)
+{
+    CreateStarterPokemonLabel(gTasks[taskId].tStarterSelection);
+    DrawStdFrameWithCustomTileAndPalette(0, FALSE, 0x2A8, 0xD);
+    if (startermon_gen>=1)
+    {
+        AddTextPrinterParameterized(0, FONT_NORMAL, gText_关都地区, 0, 1, 0, NULL);
+    }
+    else if (startermon_gen == 0)
+    {
+        AddTextPrinterParameterized(0, FONT_NORMAL, gText_丰源地区, 0, 1, 0, NULL);
+    }
+    PutWindowTilemap(0);
+    ScheduleBgCopyTilemapToVram(0);
+    gTasks[taskId].func = Task_HandleStarterChooseInput;
+}
+
 static void Task_HandleStarterChooseInput(u8 taskId)
 {
     u8 selection = gTasks[taskId].tStarterSelection;
-
+    if (gMain.newKeys ==  R_BUTTON)
+    {
+        startermon_gen ++;
+        check = 0;
+    }
+    else if (gMain.newKeys==  L_BUTTON && startermon_gen != 0)
+    {
+        startermon_gen --;
+        check = 0;
+    }
     if (JOY_NEW(A_BUTTON))
     {
         u8 spriteId;
@@ -576,6 +618,11 @@ static void CreateStarterPokemonLabel(u8 selection)
     u8 labelLeft, labelRight, labelTop, labelBottom;
 
     u16 species = GetStarterPokemon(selection);
+    if (check == 0)
+    {
+        check = 1;
+        CreateTask(Task_StarterChoose_Gen, 0);
+    }
     CopyMonCategoryText(species, categoryText);
     speciesName = GetSpeciesName(species);
 

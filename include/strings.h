@@ -287,10 +287,11 @@ extern const u8 gText_Birch_WhatsYourName[];
 extern const u8 gText_Birch_SoItsPlayer[];
 extern const u8 gText_Birch_YourePlayer[];
 extern const u8 gText_Birch_AreYouReady[];
-
+// 选择御三家
 extern const u8 gText_BirchInTrouble[];
 extern const u8 gText_ConfirmStarterChoice[];
-
+extern const u8 gText_关都地区[];
+extern const u8 gText_丰源地区[];
 // mystery event menu text
 extern const u8 gText_EventSafelyLoaded[];
 extern const u8 gText_LoadErrorEndingSession[];

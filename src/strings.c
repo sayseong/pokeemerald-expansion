@@ -1300,3 +1300,5 @@ const u8 gText_PM[] = _("PM");
 const u8 gText_Relearn[] = _("{START_BUTTON} 回忆"); // future note: don't decap this, because it mimics the summary screen BG graphics which will not get decapped
 const u8 gText_Rename[] = _("更改昵称");
 const u8 gText_CannotSendMonToBoxHM[] = _("不能把那只宝可梦送回电脑，\n因为它学会了秘传招式。{PAUSE_UNTIL_PRESS}");
+const u8 gText_关都地区[]= _("关都地区");
+const u8 gText_丰源地区[]= _("丰源地区");
