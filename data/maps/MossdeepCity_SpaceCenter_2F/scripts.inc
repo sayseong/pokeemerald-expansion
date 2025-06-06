@@ -393,7 +393,7 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle:
     .string "对老大来说，\n我们真的有用吗？$"
 
 MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou:
-    .string "哼哼哼！\p我们一路到了这里想要\n抢些燃料，却又有人来碍事！\p你如果也想卷进来，\n我们还足以对付你！$"
+    .string "哼哼哼！\p我们大老远跑过来抢点燃料，\n又有人来碍事！\p既然你也来搅局，\n那就一起收拾掉！$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
     .string "赤焰松：让开！\n别多管闲事！$"
@@ -414,7 +414,7 @@ MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand:
     .string "我只是想……\n拓展大地而已……$"
 
 MossdeepCity_SpaceCenter_Text_TabithaDefeat:
-    .string "我和我们的老大……$"
+    .string "我和老大同在……$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
     .string "赤焰松：我们没能\n让火山爆发……\p也没能在固拉多觉醒后\n控制它……\p难道我们拓展大地的\n目标错了吗？\p…… …… ……\n…… …… ……\p如果……\n如果我们熔岩队错了……\l…… …… ……\p那么，海洋队扩张海洋的\n目标也同样……$"

@@ -12,20 +12,20 @@ SeafloorCavern_Room1_EventScript_Grunt2::
 	end
 
 SeafloorCavern_Room1_Text_Grunt1Intro:
-    .string "小孩子可不要在这儿乱逛！\n快回家去吧！$"
+    .string "小鬼别在这里碍事！\n赶紧回家去！$"
 
 SeafloorCavern_Room1_Text_Grunt1Defeat:
-    .string "该回家的是我……$"
+    .string "我想回家了……$"
 
 SeafloorCavern_Room1_Text_Grunt1PostBattle:
-    .string "真希望能晋升，这样就可以\n指挥小杂鱼们了……$"
+    .string "好想升职当干部，\n那样就能使唤小卒们了……$"
 
 SeafloorCavern_Room1_Text_Grunt2Intro:
-    .string "那潜水艇……里面太小了。\n挤得真难受！$"
+    .string "那潜水艇……里面太窄了！\n挤得真难受！$"
 
 SeafloorCavern_Room1_Text_Grunt2Defeat:
     .string "失败让我更难受！$"
 
 SeafloorCavern_Room1_Text_Grunt2PostBattle:
-    .string "我们抢来的那潜水艇，天哪，\n坐起来太难受了。\l所有人都挤在一起！$"
+    .string "我们抢来的那潜水艇\n坐起来简直折磨人！\l里面挤得要命！$"
 
