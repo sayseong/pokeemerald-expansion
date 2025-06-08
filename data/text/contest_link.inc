@@ -4,7 +4,7 @@ gTest_MissedTurn::
     .string "错过回合$"
 
 gText_LinkStandby4::
-    .string "等待连接中！$"
+    .string "正在等待连接！$"
 
 gText_WinnerIsPlayersMonCongrats::
     .string "冠军是{STR_VAR_1}的{STR_VAR_2}！\n恭喜！$"

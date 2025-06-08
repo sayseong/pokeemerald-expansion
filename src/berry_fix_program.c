@@ -44,7 +44,7 @@ static const u8 sText_EnsureGBAConnectionMatches[] = _("{COLOR DARK_GRAY}{SHADOW
                                                        "是否已经按照上图所示的方式连接。\n"
                                                        "{COLOR RED}{SHADOW LIGHT_RED}确认，没有问题{CLEAR_TO 12} ▶按下A键\n"
                                                        "不是{CLEAR_TO 12} ▶关机重启再试一次");
-static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}请一边按住开始键和选择键，一边打开\n"
+static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}请一边按住START键和SELECT键，一边打开\n"
                                                            "插有宝可梦红蓝宝石卡带的GBA电源。\n"
                                                            "完成以上步骤后，请确认该GBA上\n"
                                                            "是否已经出现上面的开机画面。");

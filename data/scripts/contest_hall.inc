@@ -1624,7 +1624,7 @@ LilycoveCity_ContestLobby_Text_PlayersMadeDifferentChoice:
 	.string "选择不一致。$"
 
 LilycoveCity_ContestLobby_Text_PleaseWaitBButtonCancel:
-	.string "请等待。\n"
+	.string "请稍候。\n"
 	.string "…… B键：取消$"
 
 @ Unused
@@ -1673,9 +1673,9 @@ LilycoveCity_ContestLobby_Text_EnterWhichPokemon3:
 
 LilycoveCity_ContestLobby_Text_PleaseDecideLinkLeader:
 	.string "请先确定由哪一位\n"
-	.string "担任队长。\p"
+	.string "担任组长。\p"
 	.string "其他成员请选择\n"
-	.string "“加入队伍。”$"
+	.string "“加入群组。”$"
 
 LilycoveCity_ContestLobby_Text_PlayerAt4PCounterUseGMode:
 	.string "有1名或以上的玩家在连接前台\n"

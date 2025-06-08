@@ -513,8 +513,8 @@ static const struct MenuAction MultichoiceList_WirelessMinigame[] =
 
 static const struct MenuAction MultichoiceList_LinkLeader[] =
 {
-    {COMPOUND_STRING("加入队伍")},
-    {COMPOUND_STRING("成为队长")},
+    {COMPOUND_STRING("加入群组")},
+    {COMPOUND_STRING("成为组长")},
     {gText_Exit},
 };
 
