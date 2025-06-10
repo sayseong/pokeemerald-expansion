@@ -6,7 +6,7 @@
 
 ## 配置编译环境
 
-### Termux命令部分
+### Termux安装Ubuntu
 
 ```bash
 pkg update && pkg upgrade
@@ -15,11 +15,12 @@ termux-chroot
 pkg install proot-distro
 ```
 
-重启Termux
+**重启Termux**
 
 ```bash
 proot-distro install ubuntu
 ```
+
 
 ### 启动Ubuntu
 
@@ -34,7 +35,31 @@ apt update && apt upgrade
 apt install build-essential binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi git libpng-dev libfreeimage-dev python3
 ```
 
-### 可选
+## 与手机存储交互
+
+### Termux申请存储权限
+
+- 安卓13及更低版本
+
+```bash
+termux-setup-storage
+```
+
+- 安卓14起
+
+```bash
+pkg install termux-am
+termux-setup-storage
+```
+
+### 手机存储目录
+
+- /sdcard
+- /storage/emulated/\<userid>
+
+在\<userid>为当前user时两者等价
+
+## 可选
 
 在termux中输入
 
