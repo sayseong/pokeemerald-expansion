@@ -2679,8 +2679,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .weight = 33,
         .description = COMPOUND_STRING(
 			"在阳光下会渐渐变红。\n"
-			"吸收养分，\n"
-			"小球瘪掉的话，\n"
+			"吸收养分，小球瘪掉的话，\n"
 			"就是说快要进化了。"),
         .pokemonScale = 491,
         .pokemonOffset = 12,
@@ -3494,8 +3493,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .height = 5,
         .weight = 39,
         .description = COMPOUND_STRING(
-			"一不称心，\n"
-			"就会竖起爪子。\n"
+			"一不称心，就会竖起爪子。\n"
 			"但偶尔会从喉咙里发出声响来撒娇，\n"
 			"这样的性格很受部分人喜爱。"),
         .pokemonScale = 432,
@@ -3706,9 +3704,8 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .weight = 380,
         .description = COMPOUND_STRING(
 			"会从尾巴尖端喷出奇臭无比的\n"
-			"液体进行攻击，\n"
-			"然而面对来自上方的攻击时\n"
-			"会不知所措。"),
+			"液体进行攻击，然而面对来自\n"
+			"上方的攻击时会不知所措。"),
         .pokemonScale = 305,
         .pokemonOffset = 9,
         .trainerScale = 257,
@@ -6345,9 +6342,8 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .weight = 8500,
         .description = COMPOUND_STRING(
 			"光明乃是促使形态变化的导火线。\n"
-			"此形态所能发挥的强大力量，\n"
-			"令人不得不认为如此酷似\n"
-			"创造神的姿态才是其真身。"),
+			"其强大力量令人不得不认为\n"
+			"如此酷似创造神的姿态才是其真身。"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 721,
@@ -6492,9 +6488,8 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .weight = 6600,
         .description = COMPOUND_STRING(
 			"翱翔天际的姿态令人联想起\n"
-			"万物的创造主。有古人推测，\n"
-			"模仿创造主的模样正是\n"
-			"将其力化为己有的方法。"),
+			"万物的创造主。据推测，模仿创造主\n"
+			"的模样正是将其力化为己有的方法。"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 650,
@@ -6791,9 +6786,8 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .weight = 6500,
         .description = COMPOUND_STRING(
 			"脚部随着形态变化而消失。\n"
-			"据推测，\n"
-			"此宝可梦栖息于没有天地之分的世界，\n"
-			"然而没有手段能加以证明。"),
+			"据推测，此宝可梦栖息于没有天地\n"
+			"之分的世界，然而没有手段能证明。"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 614,
@@ -7190,9 +7184,8 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .weight = 21,
         .description = COMPOUND_STRING(
 			"当人们欣喜于严冬随季节更替终结，\n"
-			"向上天奉献感谢之意时，\n"
-			"此宝可梦就会现身，\n"
-			"令荒寂的大地开满鲜花。"),
+			"向上天奉献感谢之意时，此宝可梦\n"
+			"就会现身，令荒寂的大地开满鲜花。"),
         .pokemonScale = 682,
         .pokemonOffset = 24,
         .trainerScale = 256,

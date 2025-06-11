@@ -2271,9 +2271,8 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .weight = 3105,
         .description = COMPOUND_STRING(
 			"性情温厚，发怒时却十分可怕。\n"
-			"它会用燃烧到1500度的\n"
-			"躯体压住对手，\n"
-			"将其烧成灰烬。"),
+			"它会用燃烧到1500度的躯体压住\n"
+			"对手，将其烧成灰烬。"),
         .pokemonScale = 275,
         .pokemonOffset = 7,
         .trainerScale = 256,
@@ -2396,9 +2395,8 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .weight = 5,
         .description = COMPOUND_STRING(
 			"平时生活在苹果中。\n"
-			"如果失去了苹果，\n"
-			"身体的水分就会流失，\n"
-			"从而逐渐虚弱。"),
+			"如果失去了苹果，身体的水分\n"
+			"就会流失，从而逐渐虚弱。"),
         .pokemonScale = 682,
         .pokemonOffset = 24,
         .trainerScale = 256,
@@ -3831,8 +3829,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .weight = 40,
         .description = COMPOUND_STRING(
 			"智商大致相当于3岁的儿童。\n"
-			"虽然触手经常断掉，\n"
-			"但因为能再生，\n"
+			"虽然触手经常断掉，但因为能再生，\n"
 			"所以它并不在意。"),
         .pokemonScale = 422,
         .pokemonOffset = 12,
@@ -7987,10 +7984,9 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .height = 16,
         .weight = 480,
         .description = COMPOUND_STRING(
-			"当它越过大海飞来，\n"
-			"便代表严寒的冬季即将终结。\n"
-			"传说中其慈爱将使新的生命\n"
-			"在洗翠大地上萌芽。"),
+			"当它越过大海飞来，便代表严寒\n"
+			"的冬季即将终结。传说中其慈爱将\n"
+			"使新的生命在洗翠大地上萌芽。"),
         .pokemonScale = 259,
         .pokemonOffset = 1,
         .trainerScale = 296,
@@ -8055,9 +8051,8 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .height = 16,
         .weight = 480,
         .description = COMPOUND_STRING(
-			"自女人的姿态变化而成。\n"
-			"若有谁做出糟蹋生命之事，\n"
-			"便会从云海中现身，\n"
+			"自女人的姿态变化而成。若有谁做出\n"
+			"糟蹋生命之事，便会从云海中现身，\n"
 			"愤怒地降下无情的惩罚。"),
         .pokemonScale = 259,
         .pokemonOffset = 1,

@@ -233,8 +233,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .weight = 370,
         .description = COMPOUND_STRING(
 			"为抵抗洗翠的严寒气候，\n"
-			"羽毛的芯中含有空气，\n"
-			"因而能够防寒。\n"
+			"羽毛的芯中含有空气，因而能够防寒。\n"
 			"由此可见环境会对进化产生影响。"),
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -301,8 +300,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .weight = 43,
         .description = COMPOUND_STRING(
 			"通过理毛然后将积在腹中的落毛燃烧，\n"
-			"喷出火焰。\n"
-			"根据吐毛的方式不同，\n"
+			"喷出火焰。根据吐毛的方式不同，\n"
 			"火焰也会变化。"),
         .pokemonScale = 491,
         .pokemonOffset = 12,
@@ -365,8 +363,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .height = 7,
         .weight = 250,
         .description = COMPOUND_STRING(
-			"如果亲近了，\n"
-			"也会对训练家撒娇，\n"
+			"如果亲近了，也会对训练家撒娇，\n"
 			"但是力量很强且爪子也很锋利，\n"
 			"所以会被弄得全身是伤。"),
         .pokemonScale = 365,
@@ -2553,8 +2550,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .height = 10,
         .weight = 1100,
         .description = COMPOUND_STRING(
-			"走路虽慢，\n"
-			"力气却很大。\n"
+			"走路虽慢，力气却很大。\n"
 			"即使背着比自己重50倍的行李，\n"
 			"走路速度也不会有变化。"),
         .pokemonScale = 305,
@@ -4604,10 +4600,9 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .height = 20,
         .weight = 2120,
         .description = COMPOUND_STRING(
-			"在火山上生活，\n"
-			"吃下的硫磺就是甲壳上炸药的原料。\n"
-			"连粪便也会爆炸，\n"
-			"十分危险。"),
+			"在火山上生活，吃下的硫磺就是\n"
+			"甲壳上炸药的原料。\n"
+			"连粪便也会爆炸，十分危险。"),
         .pokemonScale = 261,
         .pokemonOffset = 1,
         .trainerScale = 334,
@@ -5177,8 +5172,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .height = 39,
         .weight = 2100,
         .description = COMPOUND_STRING(
-			"把锚抛到海里，\n"
-			"伏击猎物。\n"
+			"把锚抛到海里，伏击猎物。\n"
 			"会去捕捉巨大的吼鲸王，\n"
 			"吸取它们的精气。"),
         .pokemonScale = 256,
@@ -5655,8 +5649,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .height = 19,
         .weight = 455,
         .description = COMPOUND_STRING(
-			"会鸣响尾巴，\n"
-			"告知自己的居所，\n"
+			"会鸣响尾巴，告知自己的居所，\n"
 			"以避免不必要的战争。\n"
 			"是操纵草木的乌拉乌拉的守护神。"),
         .pokemonScale = 256,
@@ -6070,8 +6063,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .height = 12,
         .weight = 555,
         .description = COMPOUND_STRING(
-			"从究极之洞出现，\n"
-			"来到这个世界。\n"
+			"从究极之洞出现，来到这个世界。\n"
 			"好像会寄生在宝可梦\n"
 			"或人类的身上生存下去。"),
         .pokemonScale = 282,
@@ -6678,8 +6670,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .weight = 3500,
         .description = COMPOUND_STRING(
 			"附在露奈雅拉身上的样子。\n"
-			"变得更加凶暴，\n"
-			"将万物视为敌人，\n"
+			"变得更加凶暴，将万物视为敌人，\n"
 			"会用激光烧尽一切。"),
         .pokemonScale = 256,
         .pokemonOffset = 3,
@@ -7365,8 +7356,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .weight = 80,
         .description = COMPOUND_STRING(
 			"美录坦们虽然聚在一起生活，\n"
-			"但当时机到来，\n"
-			"会由最强的那1只\n"
+			"但当时机到来，会由最强的那1只\n"
 			"吸收其他的伙伴来进化。"),
         .pokemonScale = 682,
         .pokemonOffset = 24,
