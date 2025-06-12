@@ -28,5 +28,5 @@ RustboroCity_CuttersHouse_Text_ExplainCut:
     .string "那个秘传学习器\n的内容是居合劈。\p秘传招式是可以让宝可梦\n在战斗外也能使用的招式。\p如果训练家得到了\n岩石徽章，那么学会居合劈的\l宝可梦就能砍倒小树。\p而且，和招式学习器不同的是，\n秘传学习器可以使用很多次。$"
 
 RustboroCity_CuttersHouse_Text_DadHelpedClearLandOfTrees:
-    .string "卡那兹市扩建的时候，\n爸爸也去帮忙了。\p他让宝可梦用居合劈\n砍倒了树林。$"
+    .string "当初扩建卡那兹市时，\n我爸爸也帮了忙。\p他让宝可梦使用居合劈砍掉树木，\n清出了土地。$"
 
