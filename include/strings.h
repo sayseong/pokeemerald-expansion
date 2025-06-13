@@ -291,7 +291,14 @@ extern const u8 gText_Birch_AreYouReady[];
 extern const u8 gText_BirchInTrouble[];
 extern const u8 gText_ConfirmStarterChoice[];
 extern const u8 gText_关都地区[];
+extern const u8 gText_城都地区[];
 extern const u8 gText_丰源地区[];
+extern const u8 gText_神奥地区[];
+extern const u8 gText_合众地区[];
+extern const u8 gText_卡洛斯地区[];
+extern const u8 gText_阿罗拉地区[];
+extern const u8 gText_伽勒尔地区[];
+extern const u8 gText_帕底亚地区[];
 // mystery event menu text
 extern const u8 gText_EventSafelyLoaded[];
 extern const u8 gText_LoadErrorEndingSession[];
