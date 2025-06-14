@@ -468,10 +468,36 @@ static void VblankCB_StarterChoose(void)
 #define sTaskId data[0]
 #define sBallId data[1]
 
+static void ClearStarterChooseScene(void)
+{
+    u8 i;
+
+    // 清所有 Task（避免 CreateTask 残留）
+    for (i = 0; i < NUM_TASKS; i++)
+        DestroyTask(i);
+
+    // 清所有 Sprite
+    for (i = 0; i < MAX_SPRITES; i++)
+        DestroySprite(&gSprites[i]);
+
+    // 清所有 Window
+    for (i = 0; i < WINDOWS_MAX; i++)
+        RemoveWindow(i);
+
+    // Reset 所有内部状态
+    ResetTasks();
+    ResetSpriteData();
+    FreeAllSpritePalettes();
+    ResetPaletteFade();
+    ClearScheduledBgCopiesToVram();
+    sStarterLabelWindowId = WINDOW_NONE;
+}
+
 void CB2_ChooseStarter(void)
 {
     u8 taskId;
     u8 spriteId;
+    ClearStarterChooseScene();
     DmaFill32(3, 0, VRAM, VRAM_SIZE);
 
     SetVBlankCallback(NULL);
