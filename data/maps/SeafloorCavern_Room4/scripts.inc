@@ -12,20 +12,20 @@ SeafloorCavern_Room4_EventScript_Grunt4::
 	end
 
 SeafloorCavern_Room4_Text_Grunt3Intro:
-    .string "你是谁？\n从哪儿进来的？$"
+    .string "什么人？\n从哪儿进来的？$"
 
 SeafloorCavern_Room4_Text_Grunt3Defeat:
     .string "输了……$"
 
 SeafloorCavern_Room4_Text_Grunt3PostBattle:
-    .string "我找不到出去的路了！\p别误会，我不是害怕！$"
+    .string "根本找不到出口！\p先说好——我才没害怕！$"
 
 SeafloorCavern_Room4_Text_Grunt4Intro:
-    .string "你是谁？\n想上哪儿去？$"
+    .string "什么人？\n想上哪儿去？$"
 
 SeafloorCavern_Room4_Text_Grunt4Defeat:
-    .string "我赢不了！$"
+    .string "任务失败！$"
 
 SeafloorCavern_Room4_Text_Grunt4PostBattle:
-    .string "我的搭档把地图忘在\n潜水艇上了！\p这人怎么那么没用啊？$"
+    .string "我那废物搭档\n把地图忘潜艇里了！\p你说这货有什么用？$"
 

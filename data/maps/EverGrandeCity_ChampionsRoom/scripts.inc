@@ -226,7 +226,7 @@ EverGrandeCity_ChampionsRoom_Text_Defeat:
     .string "我，冠军，输了……\p美妙得令人赞叹！\n优雅得令人眼红！\l这实在是太～辉煌耀眼了！！\p光荣属于你，{PLAYER}{KUN}！\p你是一名真正高贵的\n宝可梦训练家！$"
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
-    .string "米可利：你的宝可梦在对战中……\p时而轻柔如风，\n时而又迅猛如雷。\p还带着一丝，\n无疑是从你那里耳濡目染所得的，\l轻盈而坚定的优雅。\p甚至连我都为你\n出色的表现而深深地着迷！\p此刻你已站上宝可梦联盟\n光荣的顶峰，\p我宣布你已成为\n丰缘地区的新……$"
+    .string "米可利：你的宝可梦\n在对战中……\p时而轻柔如风，\n时而又迅猛如雷。\p还带着一丝，\n无疑是从你那里耳濡目染所得的，\l轻盈而坚定的优雅。\p甚至连我都为你\n出色的表现而深深地着迷！\p此刻你已站上宝可梦联盟\n光荣的顶峰，\p我宣布你已成为\n丰缘地区的新……$"
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
     .string "小遥：{PLAYER}{KUN}！\p挑战冠军前\n给你几个建议……$"

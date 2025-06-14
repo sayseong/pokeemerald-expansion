@@ -1490,13 +1490,13 @@ SootopolisCity_Text_GroudonPleaseStop:
     .string "赤焰松：固……固拉多……\n求求你住手！\p我见识到你的强大力量了！\p再这样下去的话，不只是琉璃市，\n整个丰缘地区都会被毁灭的！$"
 
 SootopolisCity_Text_AfterAllOurScheming:
-    .string "赤焰松：原来超古代宝可梦\n不止固拉多和盖欧卡……\p我们费尽心机，拼命挣扎也徒劳无功，\n而那只宝可梦\l轻描淡写地让一切都重回正轨，\l仿佛什么都不曾发生……\p呵……\n呵～哈哈哈哈……$"
+    .string "赤焰松：原来超古代宝可梦\n不止固拉多和盖欧卡……\p我们费尽心机，拼命挣扎也徒劳无功，\n而那只宝可梦轻描淡写地\l就让一切都重回正轨，\l仿佛什么都不曾发生……\p呵……\n呵～哈哈哈哈……$"
 
 SootopolisCity_Text_KyogreCalmDown:
     .string "水梧桐：盖欧卡！怎么了？！\n看这里！朱红色宝珠！\l冷静下来！盖欧卡！\p…… …… ……\n…… …… ……\p不行……\n一点反应也没有！$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
-    .string "水梧桐：盖欧卡和固拉多都不知道\n去了什么地方，\p丰缘地区的天气也\n已经恢复正常了……\p哈哈……\n哈哈哈……\p也许我们拼命所做的一切\n对宝可梦而言什么都不算，\l根本渺小得不值一提……$"
+    .string "水梧桐：盖欧卡和固拉多\n都消失得无影无踪，\p丰缘地区的天气也\n已经恢复正常了……\p哈哈……\n哈哈哈……\p也许我们拼命追求的一切\n对宝可梦而言什么都不算，\l根本渺小得不值一提……$"
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
     .string "大吾：那两只战斗的宝可梦……\n固拉多……还有盖欧卡……\p那两只超古代宝可梦\n从长眠中觉醒……\p现在正宣泄着它们那\n失控的能量互相攻击……\p……{PLAYER}{KUN}。\p我想你既然来到这里，\n应该已经有了被卷入\l这次危机的觉悟了。\p那么，\n我有个人想让你见见。\p跟我来吧。$"

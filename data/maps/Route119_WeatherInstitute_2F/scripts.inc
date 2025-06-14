@@ -210,34 +210,34 @@ Route119_WeatherInstitute_2F_Text_Grunt2Defeat:
     .string "难道我们的计划被一个孩子打破了？$"
 
 Route119_WeatherInstitute_2F_Text_Grunt2PostBattle:
-    .string "如果这里制造出的宝可梦\n能自由控制天气，那么我们\l海洋队肯定需要它！$"
+    .string "如果这里制造出的宝可梦\n真能自由控制天气，\l那我们海洋队肯定需要它！$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3Intro:
-    .string "我们是海洋队！\n稀有的东西出现的地方，\l就会有我们！$"
+    .string "我们是海洋队！\n哪里有稀有的东西，\l哪里就有我们！$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3Defeat:
-    .string "你赢了！$"
+    .string "我认输！$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3PostBattle:
     .string "你根本不了解我们\n海洋队的理想！\l少来碍事！$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5Intro:
-    .string "别告诉我你也想\n要那只天气宝可梦，\p绝对不可能！\n先得到的一定是我们！$"
+    .string "别告诉我你也想\n要那只天气宝可梦，\p想都别想！\n是我们先盯上的！$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5Defeat:
-    .string "啊，看看我的宝可梦怎么样？$"
+    .string "唉……看看我的宝可梦？$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
     .string "哼，那又怎么样？\n我们想要的……\p我们真正想要的并不在这里……\n咿嘻嘻嘻嘻……$"
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro:
-    .string "啊哈哈哈哈！\p竟敢插手我们\n海洋队的行动吗？\p你是无畏，还是无知，\n或是两者兼有呢？\p太可爱了，太可恨了！\n我这就打倒你，小家伙！$"
+    .string "啊哈哈哈哈！\p竟敢插手我们\n海洋队的行动吗？\p你是无畏，还是无知，\n或是两者兼有呢？\p太可爱了，太可恶了！\n我这就打倒你，小家伙！$"
 
 Route119_WeatherInstitute_2F_Text_ShellyDefeat:
-    .string "啊哈哈哈哈！\n你强大得真是讨厌！$"
+    .string "啊哈哈哈哈！\n你强得让人反胃！$"
 
 Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
-    .string "有熔岩队在周围没头苍蝇似的\n乱晃就够讨厌了，现在又多了个你！\p你究竟为什么要\n插手我们的事情？$"
+    .string "有熔岩队在周围瞎捣乱就够烦了，\n现在又多了个你！\p你到底为什么非要\n追着我们不放？$"
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
     .string "紧急情况！\p有一批熔岩队的家伙刚刚\n经过天气研究所，\p他们好像是朝着\n送神山去了！$"
@@ -259,14 +259,14 @@ Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
     .string "这种宝可梦能根据\n天气状况改变形态。\p研究所里面还有不少，\n这只就给你了。$"
 
 Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:
-    .string "数年来我一直在研究雨，\n但要说到让人类自由地控制\l天气，是不是很可笑呢？$"
+    .string "我研究降雨数十年，\n但如果说想要随心操控天气，\n简直荒谬至极！$"
 
 Route119_WeatherInstitute_2F_Text_GroudonWeather:
-    .string "我在跟踪观察丰缘\n地区的气候状况，\p最近，我们发现{STR_VAR_1}地区\n气候比较干燥，\p这是不是就意味着，\n{STR_VAR_1}附近某处……$"
+    .string "我在追踪监测丰缘地区的\n气候状况，\p最近，我们发现{STR_VAR_1}地区\n持续异常干旱，\p难道说，\n在{STR_VAR_1}附近……$"
 
 Route119_WeatherInstitute_2F_Text_KyogreWeather:
-    .string "我在跟踪观察丰缘\n地区的气候状况，\p最近，我们发现{STR_VAR_1}地区\n出现大量降雨，\p这是不是就意味着，\n{STR_VAR_1}附近某处……$"
+    .string "我在追踪监测丰缘地区的\n气候状况，\p最近，我们发现{STR_VAR_1}地区\n正遭遇特大暴雨，\p难道说，\n在{STR_VAR_1}附近……$"
 
 Route119_WeatherInstitute_2F_Text_NoAbnormalWeather:
-    .string "最近没有反常的\n气候现象出现，\p偶然的降雨对人们来说\n应该是幸事吧。$"
+    .string "最近没再收到异常的\n气候报告了。\p偶然下一场雨才算是\n自然的恩惠吧。$"
 

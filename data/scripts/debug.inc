@@ -603,12 +603,12 @@ Debug_EventScript_FakeRTCNotEnabled::
 	return
 
 Debug_EventScript_FakeRTCNotEnabled_Text_0:
-	.string "You currently do not have Fake RTC\nenabled. Please enable it in include/\lconfig/overworld.h$"
+	.string "您当前未启用FakeRTC功能。\n请在include/config/overworld.h文件中\l启用该功能。$"
 
 
 Debug_EventScript_TellTheTime_Text_0:
-	.string "Time and date:\n"
+	.string "时间与日期：\n"
 	.string "{STR_VAR_1}, {STR_VAR_2}:{STR_VAR_3}$"
 
 DebugEventScript_PrintWeekday_Text_0:
-	.string "Time of day: {STR_VAR_1}$"
+	.string "时间段： {STR_VAR_1}$"

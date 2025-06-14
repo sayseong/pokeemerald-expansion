@@ -708,7 +708,7 @@ PetalburgCity_Text_ThisIsPetalburgGym:
     .string "看到了吗？这就是橙华市的道馆。$"
 
 PetalburgCity_Text_ThisIsGymSign:
-    .string "这是道馆的标记。\n想要去道馆，找它就对了。$"
+    .string "这是道馆的标志。\n想要去道馆，找它就对了。$"
 
 PetalburgCity_Text_WaterReflection:
     .string "我的脸倒映在水面上。\p那也许是张充满希望的笑脸……\p又或是在恐惧中挣扎的\n一张忧郁而沉默的脸……\p你的脸在水里会是什么样？$"

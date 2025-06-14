@@ -4428,7 +4428,7 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
         description = GetSpeciesPokedexDescription(species);
     else
         description = sExpandedPlaceholder_PokedexDescription;
-    PrintInfoScreenText(description, GetStringCenterAlignXOffset(FONT_NORMAL, description, 0xF0), 94);
+    PrintInfoScreenText(description, GetStringCenterAlignXOffset(FONT_NORMAL, description, 0xF0), 102);
 
     //Type Icon(s)
     if (owned)
@@ -6467,7 +6467,7 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
 {
     int i;
     u32 depth_x = 4;
-    u32 depth_offset = 8 * (depth + 1);
+    u32 depth_offset = 4 * (depth + 1);
     int fontId;
     u16 targetSpecies = 0;
     bool8 left = TRUE;
@@ -6545,45 +6545,47 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
         {
         case EVO_SCRIPT_TRIGGER:
         case EVO_NONE:
-            StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("Unknown"));
+            StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("未知"));
             break;
         case EVO_LEVEL:
         case EVO_LEVEL_BATTLE_ONLY:
-            StringCopy(gStringVar4, COMPOUND_STRING("{LV}{UP_ARROW}"));
+            StringCopy(gStringVar4, COMPOUND_STRING("升级"));
             if (evolutions[i].param > 1)
             {
+                StringAppend(gStringVar4, COMPOUND_STRING("至"));
                 ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEFT_ALIGN, EVO_SCREEN_LVL_DIGITS); //level
                 StringAppend(gStringVar4, gStringVar2);
+                StringAppend(gStringVar4, COMPOUND_STRING("以上"));
             }
             if ((enum EvolutionMethods)evolutions[i].method == EVO_LEVEL_BATTLE_ONLY)
-                StringAppend(gStringVar4, COMPOUND_STRING(", in battle"));
+                StringAppend(gStringVar4, COMPOUND_STRING("，对战中"));
             break;
         case EVO_TRADE:
-            StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("Trading"));
+            StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("连接交换"));
             break;
         case EVO_ITEM:
             CopyItemName(evolutions[i].param, gStringVar2);
-            StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("{STR_VAR_2} is used"));
+            StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("使用{STR_VAR_2}"));
             break;
         case EVO_SPLIT_FROM_EVO:
-            StringCopy(gStringVar4, COMPOUND_STRING("Splits from "));
-            StringAppend(gStringVar4, GetSpeciesName(evolutions[i].param)); //mon name
+            StringCopy(gStringVar4, GetSpeciesName(evolutions[i].param)); //mon name
+            StringAppend(gStringVar4, COMPOUND_STRING("分裂进化产生"));
             break;
         case EVO_BATTLE_END:
-            StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("End battle"));
+            StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("对战结束时"));
             break;
         case EVO_SPIN:
-                StringCopy(gStringVar4, COMPOUND_STRING("Spin "));
+                StringCopy(gStringVar4, COMPOUND_STRING(""));
                 if (evolutions[i].param == SPIN_CW_SHORT)
-                    StringAppend(gStringVar4, COMPOUND_STRING("CW <5s"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("顺时针旋转5秒以内"));
                 else if (evolutions[i].param == SPIN_CW_LONG)
-                    StringAppend(gStringVar4, COMPOUND_STRING("CW >5s"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("顺时针旋转5秒以上"));
                 else if (evolutions[i].param == SPIN_CCW_SHORT)
-                    StringAppend(gStringVar4, COMPOUND_STRING("CCW <5s"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("逆时针旋转5秒以内"));
                 else if (evolutions[i].param == SPIN_CCW_LONG)
-                    StringAppend(gStringVar4, COMPOUND_STRING("CCW >5s"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("逆时针旋转5秒以上"));
                 else
-                    StringAppend(gStringVar4, COMPOUND_STRING("CW/CCW >10s"));
+                    StringAppend(gStringVar4, COMPOUND_STRING("顺/逆时旋转10秒以上"));
             break;
         }//Switch end
 
@@ -6592,7 +6594,7 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
         {
             if (j == 0)
             {
-                StringAppend(gStringVar4, COMPOUND_STRING(", "));
+                StringAppend(gStringVar4, COMPOUND_STRING("，"));
             }
 
             switch((enum EvolutionConditions)evolutions[i].params[j].condition)
@@ -6601,45 +6603,45 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
             case IF_GENDER:
                 switch(evolutions[i].params[j].arg1)
                 {
-                    case MON_MALE:   StringAppend(gStringVar4, COMPOUND_STRING("Male"));   break;
-                    case MON_FEMALE: StringAppend(gStringVar4, COMPOUND_STRING("Female")); break;
+                    case MON_MALE:   StringAppend(gStringVar4, COMPOUND_STRING("雄性"));   break;
+                    case MON_FEMALE: StringAppend(gStringVar4, COMPOUND_STRING("雌性")); break;
                 }
                 break;
             case IF_MIN_FRIENDSHIP:
-                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}friendship"));
+                StringAppend(gStringVar4, COMPOUND_STRING("亲密度"));
                 break;
             case IF_ATK_GT_DEF:
-                StringAppend(gStringVar4, COMPOUND_STRING("Atk > Def"));
+                StringAppend(gStringVar4, COMPOUND_STRING("攻击 > 防御"));
                 break;
             case IF_ATK_EQ_DEF:
-                StringAppend(gStringVar4, COMPOUND_STRING("Atk = Def"));
+                StringAppend(gStringVar4, COMPOUND_STRING("攻击 = 防御"));
                 break;
             case IF_ATK_LT_DEF:
-                StringAppend(gStringVar4, COMPOUND_STRING("Atk < Def"));
+                StringAppend(gStringVar4, COMPOUND_STRING("攻击 < 防御"));
                 break;
             case IF_TIME:
                 switch(evolutions[i].params[j].arg1)
                 {
-                case TIME_MORNING: StringAppend(gStringVar4, COMPOUND_STRING("Morning")); break;
-                case TIME_DAY:     StringAppend(gStringVar4, COMPOUND_STRING("Day"));     break;
-                case TIME_EVENING: StringAppend(gStringVar4, COMPOUND_STRING("Evening")); break;
-                case TIME_NIGHT:   StringAppend(gStringVar4, COMPOUND_STRING("Night"));   break;
+                case TIME_MORNING: StringAppend(gStringVar4, COMPOUND_STRING("清晨")); break;
+                case TIME_DAY:     StringAppend(gStringVar4, COMPOUND_STRING("白天"));     break;
+                case TIME_EVENING: StringAppend(gStringVar4, COMPOUND_STRING("黄昏")); break;
+                case TIME_NIGHT:   StringAppend(gStringVar4, COMPOUND_STRING("夜晚"));   break;
                 }
                 break;
             case IF_NOT_TIME:
                 switch(evolutions[i].params[j].arg1)
                 {
-                case TIME_MORNING: StringAppend(gStringVar4, COMPOUND_STRING("NOT Morning")); break;
-                case TIME_DAY:     StringAppend(gStringVar4, COMPOUND_STRING("NOT Day"));     break;
-                case TIME_EVENING: StringAppend(gStringVar4, COMPOUND_STRING("NOT Evening")); break;
-                case TIME_NIGHT:   StringAppend(gStringVar4, COMPOUND_STRING("Day"));         break; // More intuitive than "NOT Night"
+                case TIME_MORNING: StringAppend(gStringVar4, COMPOUND_STRING("除清晨外")); break;
+                case TIME_DAY:     StringAppend(gStringVar4, COMPOUND_STRING("除白天外"));     break;
+                case TIME_EVENING: StringAppend(gStringVar4, COMPOUND_STRING("除黄昏外")); break;
+                case TIME_NIGHT:   StringAppend(gStringVar4, COMPOUND_STRING("白天"));         break; // More intuitive than "NOT Night"
                 }
                 break;
             case IF_HOLD_ITEM:
-                StringAppend(gStringVar4, COMPOUND_STRING("holds "));
+                StringAppend(gStringVar4, COMPOUND_STRING("携带"));
                 if (isAlcremie && IsItemSweet(evolutions[i].params[j].arg1))
                 {
-                    StringAppend(gStringVar4, COMPOUND_STRING("Sweet")); //item
+                    StringAppend(gStringVar4, COMPOUND_STRING("糖饰")); //item
                 }
                 else
                 {
@@ -6659,107 +6661,111 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
                              && arg < 10 && arg >= 0)
                         arg = 1;
                 ConvertIntToDecimalStringN(gStringVar2, arg * 10, STR_CONV_MODE_LEFT_ALIGN, 3);
-                StringAppend(gStringVar4, COMPOUND_STRING("random %"));
+                StringAppend(gStringVar4, COMPOUND_STRING("随机 %"));
                 StringAppend(gStringVar4, gStringVar2);
                 break;
             case IF_MIN_BEAUTY:
-                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}beauty"));
+                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}美丽"));
                 break;
             case IF_MIN_COOLNESS:
-                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}coolness"));
+                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}帅气"));
                 break;
             case IF_MIN_SMARTNESS:
-                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}smartness"));
+                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}聪明"));
                 break;
             case IF_MIN_TOUGHNESS:
-                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}toughness"));
+                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}强壮"));
                 break;
             case IF_MIN_CUTENESS:
-                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}cuteness"));
+                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}可爱"));
                 break;
             // Gen 4
             case IF_SPECIES_IN_PARTY:
                 StringAppend(gStringVar4, GetSpeciesName(evolutions[i].params[j].arg1)); //mon name
-                StringAppend(gStringVar4, COMPOUND_STRING(" in party"));
+                StringAppend(gStringVar4, COMPOUND_STRING("同行时"));
                 break;
             case IF_IN_MAPSEC:
-                StringAppend(gStringVar4, COMPOUND_STRING("in "));
+                StringAppend(gStringVar4, COMPOUND_STRING("位于"));
                 StringCopy(gStringVar2, gRegionMapEntries[evolutions[i].params[j].arg1].name);
                 StringAppend(gStringVar4, gStringVar2);
                 break;
             case IF_IN_MAP:
-                StringAppend(gStringVar4, COMPOUND_STRING("in "));
+                StringAppend(gStringVar4, COMPOUND_STRING("位于"));
                 GetMapName(gStringVar2, Overworld_GetMapHeaderByGroupAndId(evolutions[i].params[j].arg1 >> 8, evolutions[i].params[j].arg1 & 0xFF)->regionMapSectionId, 0);
                 StringAppend(gStringVar4, gStringVar2);
                 break;
             case IF_KNOWS_MOVE:
-                StringAppend(gStringVar4, COMPOUND_STRING("knows "));
+                StringAppend(gStringVar4, COMPOUND_STRING("学会"));
                 StringAppend(gStringVar4, GetMoveName(evolutions[i].params[j].arg1));
                 break;
             // Gen 5
             case IF_TRADE_PARTNER_SPECIES:
-                StringAppend(gStringVar4, COMPOUND_STRING("traded with "));
+                StringAppend(gStringVar4, COMPOUND_STRING("与"));
                 StringAppend(gStringVar4, GetSpeciesName(evolutions[i].params[j].arg1));
+                StringAppend(gStringVar4, COMPOUND_STRING("连接交换"));
                 break;
             // Gen 6
             case IF_TYPE_IN_PARTY:
                 StringAppend(gStringVar4, gTypesInfo[evolutions[i].params[j].arg1].name); //type name
-                StringAppend(gStringVar4, COMPOUND_STRING("-type in party"));
+                StringAppend(gStringVar4, COMPOUND_STRING("属性宝可梦同行时"));
                 break;
             case IF_WEATHER:
-                StringAppend(gStringVar4, COMPOUND_STRING("weather "));
+                StringAppend(gStringVar4, COMPOUND_STRING("天气为"));
                 StringAppend(gStringVar4, GetWeatherName(evolutions[i].params[j].arg1));
+                StringAppend(gStringVar4, COMPOUND_STRING("时"));
                 break;
             case IF_KNOWS_MOVE_TYPE:
+                StringAppend(gStringVar4, COMPOUND_STRING("学会"));
                 StringAppend(gStringVar4, gTypesInfo[evolutions[i].params[j].arg1].name);
-                StringAppend(gStringVar4, COMPOUND_STRING(" move"));
+                StringAppend(gStringVar4, COMPOUND_STRING("招式"));
                 break;
             // Gen 8
             case IF_NATURE:
                 StringCopy(gStringVar2, gNaturesInfo[evolutions[i].params[j].arg1].name);
                 StringAppend(gStringVar4, gStringVar2);
-                StringAppend(gStringVar4, COMPOUND_STRING(" nature"));
+                StringAppend(gStringVar4, COMPOUND_STRING("性格"));
                 break;
             case IF_AMPED_NATURE:
-                StringAppend(gStringVar4, COMPOUND_STRING("amped natures"));
+                StringAppend(gStringVar4, COMPOUND_STRING("高调性格"));
                 break;
             case IF_LOW_KEY_NATURE:
-                StringAppend(gStringVar4, COMPOUND_STRING("low-Key natures"));
+                StringAppend(gStringVar4, COMPOUND_STRING("低调性格"));
                 break;
             case IF_RECOIL_DAMAGE_GE:
-                StringAppend(gStringVar4, COMPOUND_STRING("takes >= "));
+                StringAppend(gStringVar4, COMPOUND_STRING("累计受到至少"));
                 ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg1, STR_CONV_MODE_LEFT_ALIGN, 3);
                 StringAppend(gStringVar4, gStringVar2);
-                StringAppend(gStringVar4, COMPOUND_STRING(" recoil dmg"));
+                StringAppend(gStringVar4, COMPOUND_STRING("反作用力伤害"));
                 break;
             case IF_CURRENT_DAMAGE_GE:
+                StringAppend(gStringVar4, COMPOUND_STRING("当前受到至少"));
                 ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg1, STR_CONV_MODE_LEFT_ALIGN, 3);
                 StringAppend(gStringVar4, gStringVar2);
-                StringAppend(gStringVar4, COMPOUND_STRING(" current dmg"));
+                StringAppend(gStringVar4, COMPOUND_STRING("伤害"));
                 break;
             case IF_CRITICAL_HITS_GE:
+                StringAppend(gStringVar4, COMPOUND_STRING("击中要害达到"));
                 ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg1, STR_CONV_MODE_LEFT_ALIGN, 2);
                 StringAppend(gStringVar4, gStringVar2);
-                StringAppend(gStringVar4, COMPOUND_STRING(" critical hits"));
+                StringAppend(gStringVar4, COMPOUND_STRING("次"));
                 break;
             case IF_USED_MOVE_X_TIMES:
-                StringAppend(gStringVar4, COMPOUND_STRING("use move "));
+                StringAppend(gStringVar4, COMPOUND_STRING("使用招式"));
                 StringAppend(gStringVar4, GetMoveName(evolutions[i].params[j].arg1));
-                StringAppend(gStringVar4, COMPOUND_STRING(" "));
                 ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg2, STR_CONV_MODE_LEFT_ALIGN, 3);
                 StringAppend(gStringVar4, gStringVar2);
-                StringAppend(gStringVar4, COMPOUND_STRING(" times"));
+                StringAppend(gStringVar4, COMPOUND_STRING("次"));
                 break;
             // Gen 9
             case IF_DEFEAT_X_WITH_ITEMS:
-                StringAppend(gStringVar4, COMPOUND_STRING("defeat "));
+                StringAppend(gStringVar4, COMPOUND_STRING("击败"));
                 ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg3, STR_CONV_MODE_LEFT_ALIGN, 3);
                 StringAppend(gStringVar4, gStringVar2);
-                StringAppend(gStringVar4, COMPOUND_STRING(" "));
-                StringAppend(gStringVar4, GetSpeciesName(evolutions[i].params[j].arg1));
-                StringAppend(gStringVar4, COMPOUND_STRING(" that hold "));
+                StringAppend(gStringVar4, COMPOUND_STRING("只带"));
                 CopyItemName(evolutions[i].params[j].arg2, gStringVar2);
                 StringAppend(gStringVar4, gStringVar2);
+                StringAppend(gStringVar4, COMPOUND_STRING("的"));
+                StringAppend(gStringVar4, GetSpeciesName(evolutions[i].params[j].arg1));
                 break;
             case IF_PID_MODULO_100_GT:
             case IF_PID_MODULO_100_EQ:
@@ -6776,18 +6782,18 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
                     StringAppend(gStringVar4, gStringVar2);
                 break;
             case IF_MIN_OVERWORLD_STEPS:
-                StringAppend(gStringVar4, COMPOUND_STRING("after "));
+                StringAppend(gStringVar4, COMPOUND_STRING("行走"));
                 ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg1, STR_CONV_MODE_LEFT_ALIGN, 4);
                 StringAppend(gStringVar4, gStringVar2);
-                StringAppend(gStringVar4, COMPOUND_STRING(" steps"));
+                StringAppend(gStringVar4, COMPOUND_STRING("步后"));
                 break;
             case IF_BAG_ITEM_COUNT:
+                StringAppend(gStringVar4, COMPOUND_STRING("包包中有"));
                 ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg2, STR_CONV_MODE_LEFT_ALIGN, 3);
                 StringAppend(gStringVar4, gStringVar2);
-                StringAppend(gStringVar4, COMPOUND_STRING(" "));
+                StringAppend(gStringVar4, COMPOUND_STRING("个"));
                 CopyItemNameHandlePlural(evolutions[i].params[j].arg1, gStringVar2, evolutions[i].params[j].arg2);
                 StringAppend(gStringVar4, gStringVar2);
-                StringAppend(gStringVar4, COMPOUND_STRING(" in bag"));
                 break;
             case CONDITIONS_END:
                 break;
@@ -6795,7 +6801,7 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
 
             if (evolutions[i].params[j+1].condition != CONDITIONS_END)
             {
-                StringAppend(gStringVar4, COMPOUND_STRING(", "));
+                StringAppend(gStringVar4, COMPOUND_STRING("，"));
             }
         }
 
@@ -6803,10 +6809,11 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
             fontId = FONT_SMALL_NARROWER;
         else
             fontId = GetFontIdToFit(gStringVar4, FONT_SMALL, 0, maxScreenWidth);
+        fontId = FONT_SMALL; //汉字统一字体
 
         u32 fontHeight = GetFontAttribute(fontId, FONTATTR_MAX_LETTER_HEIGHT);
 
-        StringAppend(gStringVar4, COMPOUND_STRING("."));
+        StringAppend(gStringVar4, COMPOUND_STRING("。"));
         BreakStringAutomatic(gStringVar4, maxScreenWidth, MAX_EVO_METHOD_LINES, fontId, HIDE_SCROLL_PROMPT);
 
         PrintInfoScreenTextSmall(gStringVar4, fontId, base_x_offset, base_y + base_y_offset*(*depth_i) + numLines); //Print actual instructions

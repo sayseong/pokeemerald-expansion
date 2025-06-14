@@ -13,7 +13,7 @@ const u8 gPikachuPokedexText[] = _(
     "据说当好几只聚在一起时，\n那里就会凝聚强烈的电力，\n还可能会落下闪电。");
 
 const u8 gMarowakAlolaPokedexText[] = _(
-    "据说，它手中的骨头上\n燃烧的诅咒之火，\n会给它的身心留下\n永远无法治愈的痛楚。");
+    "据说，它手中的骨头上\n燃烧的诅咒之火，会给它的身心留下\n永远无法治愈的痛楚。");
 
 const u8 gEeveePokedexText[] = _(
     "拥有不规则的基因。\n石头散发出的射线\n会让它的身体发生突变。");
@@ -88,7 +88,7 @@ const u8 gSilvallyMemoryPokedexText[] = _(
     "有着依所装备的存储碟\n改变自身属性的能力。\n这是它装备了属性存储碟的样子。");
 
 const u8 gMiniorMeteorPokedexText[] = _(
-    "摸它叫它，\n它都会作出些什么反应，\n但并不清楚这些反应是否\n出自它自身的意志。");
+    "摸它叫它，它都会作出些什么反应，\n但并不清楚这些反应是否\n出自它自身的意志。");
 
 const u8 gMiniorCorePokedexText[] = _(
     "以大气中的尘埃为食物。\n据说核心的颜色是根据\n尘埃含有的成分而定。");
@@ -134,7 +134,7 @@ const u8 gAlcremieRainbowSwirlPokedexText[] = _(
     "一旦遭到敌人袭击，\n就会投掷突出了复杂风味的\n鲜奶油进行反击。");
 
 const u8 gToxtricityGigantamaxPokedexText[] = _(
-    "因毒素蔓延到了大脑\n而失去控制。\n发狂的时候会排泄出\n毒汗污染大地。");
+    "因毒素蔓延到了大脑\n而失去控制。发狂的时候会排泄出\n毒汗污染大地。");
 
 // Gen 9 families
 const u8 gOgerponTealMaskPokedexText[] = _(

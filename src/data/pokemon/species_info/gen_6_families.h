@@ -168,8 +168,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .height = 16,
         .weight = 900,
         .description = COMPOUND_STRING(
-			"性格温和，\n"
-			"不爱争斗，\n"
+			"性格温和，不爱争斗，\n"
 			"但只要到了紧要关头，\n"
 			"就会用带刺的拳头击溃对手。"),
         .pokemonScale = 259,
@@ -449,8 +448,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .weight = 70,
         .description = COMPOUND_STRING(
 			"用细腻的泡泡包住身体，\n"
-			"保护皮肤。\n"
-			"装得无忧无虑的，\n"
+			"保护皮肤。装得无忧无虑的，\n"
 			"实则很精明地窥视着四周。"),
         .pokemonScale = 530,
         .pokemonOffset = 13,
@@ -840,8 +838,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .description = COMPOUND_STRING(
 			"耳朵的力量可以媲美铲车，\n"
 			"连坚硬的岩盘也能被它粉碎。\n"
-			"挖洞结束后，\n"
-			"就会悠哉地生活。"),
+			"挖洞结束后，就会悠哉地生活。"),
         .pokemonScale = 305,
         .pokemonOffset = 7,
         .trainerScale = 257,
@@ -1510,8 +1507,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .description = COMPOUND_STRING(
 			"为了变强而开始离开群体，\n"
 			"独自生活。\n"
-			"血气旺盛，\n"
-			"很冲动。"),
+			"血气旺盛，很冲动。"),
         .pokemonScale = 422,
         .pokemonOffset = 12,
         .trainerScale = 256,
@@ -2759,10 +2755,9 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .height = 17,
         .weight = 530,
         .description = COMPOUND_STRING(
-			"虽然带着坚盾剑怪的国王\n"
-			"曾经支配了整个国家，\n"
-			"最后却被它吸走了精气，\n"
-			"国家也灭亡了。"),
+			"虽然带着坚盾剑怪的国王曾经\n"
+			"支配了整个国家，最后却被它吸走了\n"
+			"精气，国家也灭亡了。"),
         .pokemonScale = 259,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -4579,9 +4574,8 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .weight = 3341,
         .description = COMPOUND_STRING(
 			"能自在操纵可刚可柔的金属外壳。\n"
-			"性情执着且厌恶孤独，\n"
-			"一旦喜爱的对象离开\n"
-			"自己便会怒不可遏。"),
+			"性情执着且厌恶孤独，一旦喜爱的\n"
+			"对象离开自己便会怒不可遏。"),
         .pokemonScale = 261,
         .pokemonOffset = 1,
         .trainerScale = 334,
@@ -5527,9 +5521,8 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .weight = 2624,
         .description = COMPOUND_STRING(
 			"包覆下颚的冰块装甲硬度更胜钢铁，\n"
-			"能轻易地击碎岩石。\n"
-			"冰岩怪借此铲开厚重积雪，\n"
-			"在险峻的山路上猛冲。"),
+			"能轻易地击碎岩石。它会借此铲开\n"
+			"厚重积雪，在险峻的山路上猛冲。"),
         .pokemonScale = 261,
         .pokemonOffset = 1,
         .trainerScale = 334,
@@ -6502,9 +6495,8 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .weight = 490,
         .description = COMPOUND_STRING(
 			"拥有着巨大的力量的真正的样子。\n"
-			"传说，因为对财宝的欲望，\n"
-			"曾将藏着财宝的整个城堡\n"
-			"连根拔起夺走。"),
+			"传说，因为对财宝的欲望，曾将藏着\n"
+			"财宝的整个城堡连根拔起夺走。"),
         .pokemonScale = 432,
         .pokemonOffset = 13,
         .trainerScale = 256,

@@ -223,12 +223,12 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
   - [大地图调试](https://github.com/TheXaman/pokeemerald/tree/tx_debug_system)由@TheXaman制作
     - 可禁用。
     - 默认情况下，在大地图中按`R + Start`键访问。
-    - ‌**附加功能**‌：
+    - **附加功能**：
       - *清空盒子*：清空所有盒子中的宝可梦。
       - *孵化蛋*：选择队伍中的一颗蛋并立即孵化。
   - [HGSS风格宝可梦图鉴](https://github.com/TheXaman/pokeemerald/tree/tx_pokedexPlus_hgss)由@TheXaman制作
     - 可禁用。
-    - ‌**附加功能**‌：
+    - **附加功能**：
       - *支持新的进化方式*。
       - *暗色模式*。
   - [特性颜色](https://github.com/DizzyEggg/pokeemerald/tree/nature_color)摘要屏幕由@DizzyEggg制作
@@ -237,9 +237,9 @@ pokeemerald-expansion是基于pret的[pokeemerald](https://github.com/pret/pokee
   - [宝可梦跟随&扩展ID](https://github.com/aarant/pokeemerald/tree/followers-expanded-id)由@aarant制作
     - 可禁用。
     - 包括《心金/魂银》中的宝可梦跟随，包括互动功能。
-    - ‌**扩展了可能的物体事件ID数量，超出255个**‌。
-    - ‌**包含了动态调色板（DOWP）的实现**‌。
-    - ‌**附加功能**‌：
+    - **扩展了可能的物体事件ID数量，超出255个**。
+    - **包含了动态调色板（DOWP）的实现**。
+    - **附加功能**：
       - *宝可梦跟随行走图更新至第八世代*。
       - *与我们的宝可梦宝可梦图像可视化工具集成，允许用户浏览宝可梦跟随及战斗图像*。
   

@@ -120,11 +120,11 @@ EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
 	step_end
 
 EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
-    .string "这前面只有拥有所有\n道馆徽章的训练家\l才允许进入。\p训练家，请让我们确认下\n你是否获得了所有的道馆徽章。$"
+    .string "这前面只允许得到了所有道馆徽章的\n训练家进入。\p训练家，请让我们确认一下\n你是否拥有所有的道馆徽章。$"
 
 EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
-    .string "你并没有获得所有的徽章。\p如果你的目标是宝可梦联盟，\n那你必须等收集全再回来。$"
+    .string "你还没有获得所有的徽章。\p如果你的目标是宝可梦联盟，\n那你必须全部集齐后再回来。$"
 
 EverGrandeCity_PokemonLeague_1F_Text_GoForth:
-    .string "训练家！相信自己\n和你的宝可梦，前进吧！$"
+    .string "训练家！相信自己和你的宝可梦，\n前进吧！$"
 

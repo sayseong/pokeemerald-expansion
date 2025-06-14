@@ -1158,13 +1158,13 @@ Route112_Text_ShaylaPostBattle::
     .string "你现在很忙吗？\n我在想我们现在能不能再\l来一场对战……\l如果你忙的话就算了。$"
 
 Route113_Text_JaylenIntro::
-    .string "你知道为什么这儿\n那么的凉快吗？$"
+    .string "你知道这儿为什么\n这么凉快吗？$"
 
 Route113_Text_JaylenDefeat::
-    .string "呜！真臭！$"
+    .string "呜！好臭！$"
 
 Route113_Text_JaylenPostBattle::
-    .string "火山灰遮住了阳光，\n所以这里不太热。\p对于我来说太棒了\n——我受不了热！$"
+    .string "火山灰遮住了阳光，\n所以这里不怎么热。\p对于我来说太棒了\n——我可受不了热！$"
 
 Route113_Text_DillonIntro::
     .string "火山的爆发证明了\n大地是活着的。$"

@@ -272,7 +272,7 @@ SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
     .string "嗯，你找楠木吗？\n我就是。\p啊！那就是我向得文的\n兹伏奇社长订购的部件吧？\p非常感谢！\n这样我们就能开始为勘探做准备了。$"
 
 SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts:
-    .string "嘿嘿嘿，别急！\n那些部件是我们的！$"
+    .string "嘿嘿嘿，别急！\n那些部件归我们了！$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou:
     .string "楠木馆长：什——什么？\n你们是什么人？$"
@@ -284,19 +284,19 @@ SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat:
     .string "啊啊！\n竟然被小孩打败了！$"
 
 SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious:
-    .string "天啊，灾难啊……\n老大会暴走的……$"
+    .string "完了，惨了……\n老大会大发雷霆的……$"
 
 SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis:
-    .string "哼，为自己的无能哭泣吧！\n我来应付这家伙！$"
+    .string "哼，没用的家伙！\n放着我来！$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat:
-    .string "什么？！\n我也输了！$"
+    .string "什么？！\n连我也输了！$"
 
 SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:
-    .string "怎么办？不拿到部件的话，\n我们会有大麻烦的！\p啊，想不到竟会被个麻烦的\n小毛孩子妨碍了！$"
+    .string "这下怎么办？要是不拿到部件，\n我们可就麻烦大了！\p可恶，想不到会栽在多管闲事的\n小鬼手里！$"
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
-    .string "我来看看你们抢个部件怎么\n用了那么久，结果你们几个废物\l被个小鬼头给拦住了？$"
+    .string "我来看看你们抢个部件怎么能磨蹭\n那么久——结果你们几个废物被个\l小鬼头给拦住了？$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
     .string "我们是热爱大海的\n海洋队！\p而我就是海洋队的首领\n水梧桐！\p你为什么妨碍我们？\p……难，难道说！\n你是熔岩队的人？\p等等，不对，\n你穿得和他们不一样。\p…… …… ……\n…… …… ……\p宝可梦、人类……所有的生命\n都源自海洋，\p因此我们海洋队\n致力于扩张海洋。\p你不觉得吗？\n我们在进行着一项崇高的事业。\p算了……\n以你这个年纪还没法理解\l我们的伟大理想。\p但我警告你，\n如果敢再妨碍我们的计划，\p我决不会轻易放过你！\p给我好好记住！$"

@@ -1222,10 +1222,10 @@ PetalburgCity_Gym_Text_GymGuidePostVictory:
     .string "哇！{PLAYER}！你甚至打败了\n自己的父亲！\p哇！\n多么令人吃惊的结局！$"
 
 PetalburgCity_Gym_Text_RandallIntro:
-    .string "比对手先一步发动攻击的\n能力……\p正因如此，才会在对战中\n占尽先机，你说呢？$"
+    .string "比对手先一步发动攻击的\n能力……\p光是这点，就足以让我在对战中\n占尽先机，不是吗？$"
 
 PetalburgCity_Gym_Text_RandallDefeat:
-    .string "一场出色的战斗！$"
+    .string "真是一场精彩的战斗！$"
 
 PetalburgCity_Gym_Text_RandallPostBattle:
     .string "在下面的房间中\n还有新的挑战等着你。\p左边是\n混乱房间，\p右边则通向\n防御房间。$"
@@ -1234,25 +1234,25 @@ PetalburgCity_Gym_Text_RandallPostBadge:
     .string "无论赢了谁，无论输给谁，\n都永远不能逃避训练自己\l和宝可梦的责任。\p我想作为道馆馆主，\n就应当如此。$"
 
 PetalburgCity_Gym_Text_ParkerIntro:
-    .string "这里是混乱房间。\p让我看看你和宝可梦之间\n有多么强的羁绊！$"
+    .string "这里是混乱房间。\p让我看看你和宝可梦之间\n有多强的牵绊！$"
 
 PetalburgCity_Gym_Text_ParkerDefeat:
-    .string "我还不足以让你们的组合陷入混乱……\n你们间的信任真的很强。$"
+    .string "我还不足以让你们的组合陷入混乱……\n你们间的牵绊真的很强。$"
 
 PetalburgCity_Gym_Text_ParkerPostBattle:
     .string "下面是力量房间，\n你能抵挡住那强大的威力吗？$"
 
 PetalburgCity_Gym_Text_ParkerPostBadge:
-    .string "你打败了我们的馆主，\n我们必须更加努力训练了。$"
+    .string "自从你击败馆主，\n我们的训练强度提升了不少。$"
 
 PetalburgCity_Gym_Text_GeorgeIntro:
-    .string "当你以为自己就要赢了时，\n对手的体力恢复了……\p你了解那种\n沮丧的感觉吗？\p就让你体会一下\n这种沮丧吧！$"
+    .string "当你以为自己就要赢了时，\n对手的体力回复了……\p你了解那种\n绝望的感觉吗？\p就让你亲身体会一下吧！$"
 
 PetalburgCity_Gym_Text_GeorgeDefeat:
-    .string "我来不及恢复体力……\n这么强大的攻击……$"
+    .string "我来不及回复体力……\n何等强大的攻击……$"
 
 PetalburgCity_Gym_Text_GeorgePostBattle:
-    .string "我不该小看\n我们馆主的孩子。\p不，等等！训练家的力量\n全是靠自己的努力得来的。\p我的努力还不够，\n所以才会输。\p加油吧！下面是一击必杀房间。$"
+    .string "我该说真不愧是\n我们馆主的孩子。\p不，等等！训练家的力量\n全是靠自己的努力得来的。\p我的努力还不够，\n所以才会输。\p加油吧！下面是一击必杀房间。$"
 
 PetalburgCity_Gym_Text_GeorgePostBadge:
     .string "我还要在道馆继续训练。\n总有一天，我要成为馆主。$"
@@ -1261,25 +1261,25 @@ PetalburgCity_Gym_Text_BerkeIntro:
     .string "就算你是我们馆主的孩子，\n我也不会放水的。\p体会一下宝可梦被\n击中要害的恐惧吧！$"
 
 PetalburgCity_Gym_Text_BerkeDefeat:
-    .string "你的力量……\n这是真正的力量。$"
+    .string "你的力量……\n果然名不虚传。$"
 
 PetalburgCity_Gym_Text_BerkePostBattle:
-    .string "你的父亲很强，\n大家都很尊敬他。\p而且，我感到你身上也\n散发着同他一样的热情。\p希望能看到你和你父亲之间\n一场激烈的战斗！$"
+    .string "你的父亲很强，\n大家都很尊敬他。\p而且，我感到你身上也\n散发着同他一样的光芒。\p希望你和你父亲之间\n能有一场精彩的对战！$"
 
 PetalburgCity_Gym_Text_BerkePostBadge:
-    .string "自从你爸爸成为馆主以来，\n橙华市的训练家\l已经变得很强了。$"
+    .string "自从你爸爸成为馆主以来，\n橙华市的训练家\l都变强了不少。$"
 
 PetalburgCity_Gym_Text_MaryIntro:
     .string "嘻嘻……\n这里是命中房间。\p当所有攻击全部命中时，\n你会应付不过来的。$"
 
 PetalburgCity_Gym_Text_MaryDefeat:
-    .string "你的命中比我更强……$"
+    .string "你技高一筹啊……$"
 
 PetalburgCity_Gym_Text_MaryPostBattle:
     .string "前面有更强的\n训练家在等着你。\p左边是防御房间，\n右边是回复房间。\p你的宝可梦的攻击\n会在前方受到挑战。$"
 
 PetalburgCity_Gym_Text_MaryPostBadge:
-    .string "知道我们是怎么\n成为训练家的吗？\p我们努力和我们的宝可梦\n成为朋友。$"
+    .string "知道我们作为训练家的\n终极追求吗？\p就是能与我们的\n宝可梦心意相通。$"
 
 PetalburgCity_Gym_Text_AlexiaIntro:
     .string "防御越高，\n攻击时越没有后顾之忧。$"

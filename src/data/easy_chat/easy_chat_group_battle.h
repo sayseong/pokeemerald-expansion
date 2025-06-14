@@ -58,7 +58,7 @@ const u8 gEasyChatWord_Easy[] = _("过");
 const u8 gEasyChatWord_Weak[] = _("弱");
 const u8 gEasyChatWord_TooWeak[] = _("太弱了");
 const u8 gEasyChatWord_Pushover[] = _("轻而易举");
-const u8 gEasyChatWord_Leader[] = _("队长");
+const u8 gEasyChatWord_Leader[] = _("组长");
 const u8 gEasyChatWord_Rule[] = _("规则");
 const u8 gEasyChatWord_Move[] = _("招式");
 

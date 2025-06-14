@@ -386,7 +386,7 @@ MossdeepCity_Gym_Text_VirgilDefeat:
     .string "你拥有非凡的天赋！$"
 
 MossdeepCity_Gym_Text_VirgilPostBattle:
-    .string "如果世上真的有天才，\n那么就是我们的道馆馆主！\p但你也许比她们拥有\n更高的天赋……$"
+    .string "如果世上真的有天才，\n那么就是我们的道馆馆主！\p但你说不定拥有比他们\n更高的天赋……$"
 
 MossdeepCity_Gym_Text_BlakeIntro:
     .string "嘿嘿嘿……看我用心灵感应\n让精灵球浮起来！\p呜啊啊啊啊啊啊啊！\n…… …… …… ……\p有时我还是不能同步……$"
@@ -458,25 +458,25 @@ MossdeepCity_Gym_Text_CliffordDefeat:
     .string "啊，你身上散发着\n年轻的活力！$"
 
 MossdeepCity_Gym_Text_CliffordPostBattle:
-    .string "看来我无法\n胜过你的活力。$"
+    .string "看来我无法胜过\n你的活力。$"
 
 MossdeepCity_Gym_Text_MaceyIntro:
-    .string "你不会走到最后的！\n如果我出手，这就毫无疑问了！$"
+    .string "休想走到最后！\n只要我在就绝无可能！$"
 
 MossdeepCity_Gym_Text_MaceyDefeat:
-    .string "你怎么会变得\n这么强的？$"
+    .string "怎么可能强得\n这么离谱？$"
 
 MossdeepCity_Gym_Text_MaceyPostBattle:
-    .string "哼！你也许很强，\n但你不适合超能力属性！\p你的对战方式实在太野蛮了！$"
+    .string "哼！就算你实力不错，\n也根本不适合超能力属性！\p你的对战方式实在\n太粗暴了！$"
 
 MossdeepCity_Gym_Text_NicholasIntro:
-    .string "呜啊啊啊！尝尝我的宝可梦\n那超凡脱俗的力量吧！$"
+    .string "呜啊啊啊！尝尝我的宝可梦\n超级对战力量吧！$"
 
 MossdeepCity_Gym_Text_NicholasDefeat:
-    .string "啊\n被打败了！$"
+    .string "啊！\n完了！$"
 
 MossdeepCity_Gym_Text_NicholasPostBattle:
-    .string "好吧！下次我要找到一种\n绝对不可战胜的力量。$"
+    .string "好吧！接下来我要修炼出一种\n无敌的宝可梦力量！$"
 
 MossdeepCity_Gym_Text_TateAndLizaIntro:
     .string "小枫：嘿嘿嘿……你惊讶吗？\p小南：呵呵呵……你惊讶吧？\p小枫：这里有两个道馆馆主？\n小南：这里有两个道馆馆主？\p小枫：我们是双胞胎！\n小南：我们是双胞胎！\p小枫：我们无需言语，因为……\n小南：我们可以感知……\p小枫：彼此心中所想……\n小南：仅凭意念相通！\p小枫：这样的组合……\n小南：你能战胜吗？$"

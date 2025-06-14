@@ -241,10 +241,9 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .height = 19,
         .weight = 552,
         .description = COMPOUND_STRING(
-			"由于其敏捷的腿部力量，\n"
-			"它可以在一瞬间攻击对手。\n"
-			"它可以切断尾巴的一部分，\n"
-			"然后像导弹一样向对手发射。"),
+			"会运用高速的脚力快速接近对手。\n"
+			"切断巨大的尾巴，\n"
+			"可以像导弹一般发射攻击对手。"),
         .pokemonScale = 256,
         .pokemonOffset = -1,
         .trainerScale = 275,
@@ -564,10 +563,9 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .height = 19,
         .weight = 520,
         .description = COMPOUND_STRING(
-			"超级进化后进一步磨练踢击力量，\n"
-			"这始终是它引以为豪的源泉。\n"
-			"当它释放出一阵野蛮的踢腿时，\n"
-			"腿会因为周围大气的摩擦而开始燃烧。"),
+			"引以为傲的飞脚变得更强。\n"
+			"当它重复使出飞脚时，\n"
+			"脚会因为和空气的磨擦燃烧。"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 301,
@@ -2861,10 +2859,9 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .height = 16,
         .weight = 484,
         .description = COMPOUND_STRING(
-			"通过打开心扉，超级沙奈朵\n"
-			"能够使用巨大的精神力量。\n"
-			"据说其胸口的红色结构\n"
-			"是它实体化的内心。"),
+			"解放了自己的心之后，\n"
+			"就可以释放出强大的超能力。据说其\n"
+			"胸口的红色结构是它实体化的内心。"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -4732,8 +4729,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .description = COMPOUND_STRING(
 			"2个颚部像是有意识一样，\n"
 			"猛烈地大闹着。\n"
-			"只要咬一口，\n"
-			"连岩石都能粉碎。"),
+			"只要咬一口，连岩石都能粉碎。"),
         .pokemonScale = 466,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -6336,8 +6332,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .weight = 888,
         .description = COMPOUND_STRING(
 			"有着连铁板都能咬碎的牙齿，\n"
-			"游动时，\n"
-			"时速可达120公里。\n"
+			"游动时，时速可达120公里。\n"
 			"它的别名是大海恶霸。"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
@@ -6629,8 +6624,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .weight = 240,
         .description = COMPOUND_STRING(
 			"会把灼热的熔岩储存在背上的驼峰里。\n"
-			"一旦淋了雨，\n"
-			"熔岩就会冷却，\n"
+			"一旦淋了雨，熔岩就会冷却，\n"
 			"动作也会变得迟缓。"),
         .pokemonScale = 342,
         .pokemonOffset = 17,
@@ -6805,9 +6799,8 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .weight = 3205,
         .description = COMPOUND_STRING(
 			"它背上的驼峰已经变成了一座\n"
-			"巨大且非常活跃的火山。 \n"
-			"十分厌恶水分和潮湿，\n"
-			"性格十分火爆。"),
+			"巨大且非常活跃的火山。 十分厌恶\n"
+			"水分和潮湿，性格十分火爆。"),
         .pokemonScale = 256,
         .pokemonOffset = 7,
         .trainerScale = 345,
@@ -8704,8 +8697,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .description = COMPOUND_STRING(
 			"从化石中复活的，\n"
 			"宝可梦的某个先祖。\n"
-			"在海中生活，\n"
-			"会用爪子捕捉猎物。"),
+			"在海中生活，会用爪子捕捉猎物。"),
         .pokemonScale = 296,
         .pokemonOffset = 4,
         .trainerScale = 256,
@@ -9094,9 +9086,8 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .weight = 8,
         .description = COMPOUND_STRING(
 			"如果在烈日下暴晒，\n"
-			"就会变成这个样子。\n"
-			"如果碰到它热烘烘的身体，\n"
-			"会感觉干巴巴的。"),
+			"就会变成这个样子。如果碰到它\n"
+			"热烘烘的身体，会感觉干巴巴的。"),
         .pokemonScale = 435,
         .pokemonOffset = -5,
         .trainerScale = 256,
@@ -9246,8 +9237,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .description = COMPOUND_STRING(
 			"如果被冰雹打到，\n"
 			"就会变成这个样子。\n"
-			"全身冷冷的，\n"
-			"皮肤有点儿冻住。"),
+			"全身冷冷的，皮肤有点儿冻住。"),
         .pokemonScale = 435,
         .pokemonOffset = -5,
         .trainerScale = 256,
@@ -11368,8 +11358,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .weight = 1126,
         .description = COMPOUND_STRING(
 			"会将前脚收拢在外壳的间隙中，\n"
-			"变为飞行的姿势。\n"
-			"即使是复杂的地形\n"
+			"变为飞行的姿势。即使是复杂的地形\n"
 			"也能以高速飞来飞去。"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
@@ -12043,9 +12032,8 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .weight = 520,
         .description = COMPOUND_STRING(
 			"超级进化后更加善于旋转，\n"
-			"能迅速紧急进行地回旋转弯。\n"
-			"它会用高速向敌人突击，\n"
-			"利用增强了力量的翅膀压倒对手。"),
+			"能迅速紧急进行地回旋转弯，\n"
+			"在宝可梦里拥有最高级别的速度。"),
         .pokemonScale = 304,
         .pokemonOffset = 3,
         .trainerScale = 256,
@@ -12197,9 +12185,8 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .weight = 700,
         .description = COMPOUND_STRING(
 			"超级进化后更加善于飞行，\n"
-			"它能以 4马赫的速度在天空飞行。\n"
-			"它会用高速向敌人突击，\n"
-			"利用增强了力量的翅膀压倒对手。"),
+			"它能以 4马赫的速度在天空飞，\n"
+			"在宝可梦里拥有最高级别的速度。"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 294,

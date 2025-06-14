@@ -425,37 +425,37 @@ MtPyre_Summit_Text_Grunt1Intro:
     .string "不！熔岩队的家伙们\n赶在我们前头了！\p我们不能落后！$"
 
 MtPyre_Summit_Text_Grunt1Defeat:
-    .string "我还以为是熔岩队的人\n偶然折返回来了……$"
+    .string "我还以为是熔岩队的人\n折回来找事……$"
 
 MtPyre_Summit_Text_Grunt1PostBattle:
-    .string "是的，你很强……\n但是我们可不止一个人！$"
+    .string "哼，算你厉害……\n可我们人多势众！$"
 
 MtPyre_Summit_Text_Grunt2Intro:
-    .string "哈！\n你来得真不巧！\p要是早点来，你只需要对付熔岩队那群\n软脚虾就行了！\p但现在，\n你遇到的可是我们精英部队！$"
+    .string "哈！\n你来得真不巧！\p要是早点来，你只要对付熔岩队那群\n软脚虾就行了！\p但现在，\n你遇到的可是我们精英部队！$"
 
 MtPyre_Summit_Text_Grunt2Defeat:
     .string "呃……我应该等你先对付\n熔岩队的……$"
 
 MtPyre_Summit_Text_Grunt2PostBattle:
-    .string "你明明什么也不知道！\n那么你为什么总是要来阻挠我们？$"
+    .string "你明明什么也不知道！\n为什么总是要来阻挠我们？$"
 
 MtPyre_Summit_Text_Grunt3Intro:
     .string "你……\n我们在烟囱山见过你。\p你不属于任何一个组织，\n那你为什么会在这里？$"
 
 MtPyre_Summit_Text_Grunt3Defeat:
-    .string "如果你想阻挠谁的话，\n去找熔岩队吧……$"
+    .string "如果你想阻挠谁的话，\n找熔岩队去啊……$"
 
 MtPyre_Summit_Text_Grunt3PostBattle:
-    .string "嘿，没关系！\n至少我们争取到了时间！\p老大肯定能得到\n他想要的东西！$"
+    .string "呵，无所谓！\n至少我们争取到了时间！\p老大肯定已经拿到\n想要的东西了！$"
 
 MtPyre_Summit_Text_Grunt4Intro:
-    .string "啊，我明白了！\n你想加入熔岩队，\l但是他们不要你！\p哼，也别以为我们会让你\n加入我们的海洋队！$"
+    .string "啊，我明白了！\n你想加入熔岩队，\l但是他们不要你！\p哼，也别以为我们会让你\n加入我们海洋队！$"
 
 MtPyre_Summit_Text_Grunt4Defeat:
-    .string "如果你那么想加入海洋队，\n我会考虑一下的……$"
+    .string "要是你那么想加入海洋队，\n我们也可以考虑考虑……$"
 
 MtPyre_Summit_Text_Grunt4PostBattle:
-    .string "头儿和我们手下之间\n是紧紧联合在一起的。$"
+    .string "老大和我们手下之间\n可是紧密相连的。$"
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
     .string "水梧桐：虽然被熔岩队的赤焰松抢先了\n一步，但我们想要的东西也到手了！\p在送神山上所供奉的朱红色宝珠……\n如今已在我水梧桐手中！\p呵呵呵……如今我们可以实现\n我们的最终目标了！\p好了，伙计们！\n我们撤！$"

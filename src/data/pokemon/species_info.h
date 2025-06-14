@@ -99,10 +99,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
 {
     [SPECIES_NONE] =
     {
-        .speciesName = _("??????????"),
+        .speciesName = _("？？？？？"),
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_NONE,
-        .categoryName = _("Unknown"),
+        .categoryName = _("未知"),
         .height = 0,
         .weight = 0,
         .description = gFallbackPokedexText,
@@ -199,17 +199,16 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
         .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP },
         .bodyColor = BODY_COLOR_BLACK,
-        .speciesName = _("??????????"),
+        .speciesName = _("？？？？？"),
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_NONE,
-        .categoryName = _("Unknown"),
+        .categoryName = _("未知"),
         .height = 0,
         .weight = 0,
         .description = COMPOUND_STRING(
-            "This is a newly discovered Pokémon.\n"
-            "It is currently under investigation.\n"
-            "No detailed information is available\n"
-            "at this time."),
+            "这是一只新发现的宝可梦。\n"
+            "目前正在调查中。\n"
+            "目前尚无详细信息。"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,

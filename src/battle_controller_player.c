@@ -2039,8 +2039,8 @@ static void HandleChooseActionAfterDma3(u32 battler)
             gBattleStruct->aiDelayTimer = 0;
             if (DEBUG_AI_DELAY_TIMER)
             {
-                static const u8 sFramesText[] = _(" frames thinking\n");
-                static const u8 sCyclesText[] = _(" cycles");
+                static const u8 sFramesText[] = _("帧思考\n");
+                static const u8 sCyclesText[] = _("个周期");
                 ConvertIntToDecimalStringN(gDisplayedStringBattle, gBattleStruct->aiDelayFrames, STR_CONV_MODE_RIGHT_ALIGN, 3);
                 u8* end = StringAppend(gDisplayedStringBattle, sFramesText);
                 ConvertIntToDecimalStringN(end, gBattleStruct->aiDelayCycles, STR_CONV_MODE_RIGHT_ALIGN, 8);

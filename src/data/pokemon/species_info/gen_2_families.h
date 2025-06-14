@@ -602,8 +602,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .height = 11,
         .weight = 250,
         .description = COMPOUND_STRING(
-			"一旦咬住，\n"
-			"除非牙齿脱落，\n"
+			"一旦咬住，除非牙齿脱落，\n"
 			"否则绝不会松口。\n"
 			"脱落的牙齿马上就能再长出来。"),
         .pokemonScale = 378,
@@ -4119,9 +4118,8 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .weight = 415,
         .description = COMPOUND_STRING(
 			"尾巴上也有着小小的大脑。\n"
-			"如果有谁靠近的话，\n"
-			"它就会对其气味产生反应\n"
-			"并一口咬过来，需要注意。"),
+			"如果有谁靠近的话，它就会对其气味\n"
+			"产生反应并一口咬过来，需要注意。"),
         .pokemonScale = 281,
         .pokemonOffset = 1,
         .trainerScale = 256,
@@ -4846,8 +4844,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .height = 14,
         .weight = 487,
         .description = COMPOUND_STRING(
-			"面相虽凶，\n"
-			"内心却很胆小。\n"
+			"面相虽凶，内心却很胆小。\n"
 			"然而一旦开始发怒，\n"
 			"就会用大牙齿来反击。"),
         .pokemonScale = 256,
@@ -4926,8 +4923,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .description = COMPOUND_STRING(
 			"全身上下的小针都是\n"
 			"由鳞片变化而来的。\n"
-			"如果被刺中的话，\n"
-			"就会因中毒而昏迷。"),
+			"如果被刺中的话，就会因中毒而昏迷。"),
         .pokemonScale = 430,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -5065,8 +5061,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .height = 25,
         .weight = 605,
         .description = COMPOUND_STRING(
-			"个性凶悍，\n"
-			"性情粗暴。\n"
+			"个性凶悍，性情粗暴。\n"
 			"毒针尖端呈锯齿状，\n"
 			"被刺中时无法轻易拔出。"),
         .pokemonScale = 257,
@@ -5535,9 +5530,8 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .height = 9,
         .weight = 270,
         .description = COMPOUND_STRING(
-			"强健的爪子形状有助于\n"
-			"在断崖绝壁上行动自如。\n"
-			"爪子尖端滴出的毒液\n"
+			"强健的爪子形状有助于在断崖绝壁\n"
+			"上行动自如。爪子尖端滴出的毒液\n"
 			"会在捉住猎物时侵袭其神经。"),
         .pokemonScale = 413,
         .pokemonOffset = -3,
@@ -5615,9 +5609,8 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .height = 13,
         .weight = 430,
         .description = COMPOUND_STRING(
-			"拥有凌驾其他物种\n"
-			"之上的身体能力以及剧毒。\n"
-			"在寒冷的高地上所向无敌。\n"
+			"拥有凌驾其他物种之上的身体能力\n"
+			"以及剧毒。在寒冷的高地上所向无敌。\n"
 			"偏好独自行动而不会集结成群。"),
         .pokemonScale = 272,
         .pokemonOffset = 3,
@@ -5838,10 +5831,9 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .height = 24,
         .weight = 2900,
         .description = COMPOUND_STRING(
-			"考察结果显示，\n"
-			"正是遍布在洗翠大地上的湿地土壤，\n"
-			"造就了它坚实的躯体和\n"
-			"自在运用泥炭的新能力。"),
+			"考察结果显示，正是遍布在洗翠大地\n"
+			"上的湿地土壤，造就了它坚实的躯体\n"
+			"和自在运用泥炭的新能力。"),
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 369,
@@ -7452,10 +7444,9 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .height = 18,
         .weight = 951,
         .description = COMPOUND_STRING(
-			"制造肉眼不可见的障壁时，\n"
-			"黑珠会发出妖异的光辉。\n"
-			"从它身上脱落的胡须是\n"
-			"用来制作温暖冬衣的实用原料。"),
+			"制造肉眼不可见的障壁时，黑珠会\n"
+			"发出妖异的光辉。从它身上脱落的胡须\n"
+			"是用来制作温暖冬衣的实用原料。"),
         .pokemonScale = 267,
         .pokemonOffset = 2,
         .trainerScale = 286,

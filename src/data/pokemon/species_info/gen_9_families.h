@@ -986,10 +986,9 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .height = 10,
         .weight = 175,
         .description = COMPOUND_STRING(
-			"进入决战模式时会使用\n"
-			"折叠起来的第3双脚，\n"
-			"这会给它身体造成很大的负担，\n"
-			"因此无法久战。"),
+			"进入决战模式时会使用折叠起来的\n"
+			"第3双脚，这会给它身体造成很大的\n"
+			"负担，因此无法久战。"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3030,9 +3029,8 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .height = 9,
         .weight = 330,
         .description = COMPOUND_STRING(
-			"看起来像玛瑙水母，\n"
-			"其实是截然不同的种类。\n"
-			"虽然脚很细，\n"
+			"看起来像玛瑙水母，其实是\n"
+			"截然不同的种类。虽然脚很细，\n"
 			"但是跑起来能达到时速50公里。"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
@@ -3420,8 +3418,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .description = COMPOUND_STRING(
 			"为了能让睡在球里面的\n"
 			"宝宝睡得更香甜，\n"
-			"会用脚转动球，\n"
-			"让宝宝感到安心。"),
+			"会用脚转动球，让宝宝感到安心。"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -3802,8 +3799,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .height = 12,
         .weight = 18,
         .description = COMPOUND_STRING(
-			"虽与地鼠相似，\n"
-			"却是完全不同的种类。\n"
+			"虽与地鼠相似，却是完全不同的种类。\n"
 			"据说是为了适应生活环境，\n"
 			"才偶然变得相似。"),
         .pokemonScale = 356,
@@ -6077,8 +6073,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .height = 8,
         .weight = 300,
         .description = COMPOUND_STRING(
-			"冻住背鳍，\n"
-			"并使其形成剑，\n"
+			"冻住背鳍，并使其形成剑，\n"
 			"再使出前空翻来攻击对手。\n"
 			"完成此举需要强健的腰腿。"),
         .pokemonScale = 356,
@@ -6586,9 +6581,8 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .weight = 49,
         .description = COMPOUND_STRING(
 			"曾引起无数斗争的勾玉\n"
-			"聚集了嫉妒之情。\n"
-			"这些嫉妒缠绕了火焰，\n"
-			"变成了宝可梦。"),
+			"聚集了嫉妒之情。这些嫉妒\n"
+			"缠绕了火焰，变成了宝可梦。"),
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,

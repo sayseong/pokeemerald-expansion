@@ -266,7 +266,7 @@ static const u8 *const sBlenderOpponentsNames[] =
     [BLENDER_MISS]   = COMPOUND_STRING("小姐"),
 };
 
-static const u8 sText_CommunicationStandby[] = _("等待连接中……");
+static const u8 sText_CommunicationStandby[] = _("正在等待连接……");
 static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("要再混合一个树果吗？");
 static const u8 sText_RunOutOfBerriesForBlending[] = _("没有能够继续放入\n树果混合器的树果了。\p");
 static const u8 sText_YourPokeblockCaseIsFull[] = _("你的宝可方块盒满了。\p");
