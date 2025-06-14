@@ -472,6 +472,7 @@ static void ClearStarterChooseScene(void)
 {
     u8 i;
 
+    DmaFill32(3, 0, VRAM, VRAM_SIZE);
     // 清所有 Task（避免 CreateTask 残留）
     for (i = 0; i < NUM_TASKS; i++)
         DestroyTask(i);
@@ -491,6 +492,7 @@ static void ClearStarterChooseScene(void)
     ResetPaletteFade();
     ClearScheduledBgCopiesToVram();
     sStarterLabelWindowId = WINDOW_NONE;
+    
 }
 
 void CB2_ChooseStarter(void)
@@ -498,7 +500,6 @@ void CB2_ChooseStarter(void)
     u8 taskId;
     u8 spriteId;
     ClearStarterChooseScene();
-    DmaFill32(3, 0, VRAM, VRAM_SIZE);
 
     SetVBlankCallback(NULL);
 
@@ -656,12 +657,18 @@ static void Task_HandleStarterChooseInput(u8 taskId)
     if (gMain.newKeys ==  R_BUTTON && startermon_gen < 8 )
     {
         startermon_gen ++;
+        BeginNormalPaletteFade(PALETTES_ALL, 8, 0, 0x10, RGB_BLACK);
+        PlaySE(SE_SELECT);
         CB2_ChooseStarter();
+        BeginNormalPaletteFade(PALETTES_ALL, 8, 0x10, 0, RGB_BLACK);
     }
     else if (gMain.newKeys==  L_BUTTON && startermon_gen > 0)
     {
         startermon_gen --;
+        BeginNormalPaletteFade(PALETTES_ALL, 8, 0, 0x10, RGB_BLACK);
+        PlaySE(SE_SELECT);
         CB2_ChooseStarter();
+        BeginNormalPaletteFade(PALETTES_ALL, 8, 0x10, 0, RGB_BLACK);
     }
     if (JOY_NEW(A_BUTTON))
     {
