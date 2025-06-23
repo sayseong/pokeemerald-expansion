@@ -19172,7 +19172,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
 			"将叶绿素凝聚后释放攻击。\n"
 			"自己也会受到伤害。"),
-        .effect = EFFECT_MAX_HP_50_RECOIL,
+        .effect = EFFECT_CHLOROBLAST,
         .power = B_UPDATED_MOVE_DATA >= GEN_9 ? 150 : 120,
         .type = TYPE_GRASS,
         .accuracy = 95,
