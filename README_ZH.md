@@ -33,7 +33,7 @@
 如果你是git和GitHub的新手，[Team Aqua的资源仓库](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/)提供了一个[关于fork和clone仓库的指南](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub)。然后，你可以按照以下指南之一进行操作：
 
 ## 📥 [安装**`pokeemerald-expansion`**](INSTALL_ZH.md)
-## 🏗️ [构建**`pokeemerald-expansion`**](INSTALL_ZH.md#%E6%9E%84%E5%BB%BA pokeemerald-expansion)
+## 🏗️ [构建**`pokeemerald-expansion`**](INSTALL_ZH.md#%E6%9E%84%E5%BB%BA%20pokeemerald-expansion)
 ## 🚚 [从**`pokeemerald`**迁移](INSTALL_ZH.md#%E4%BB%8E%20pokeemerald%20%E8%BF%81%E7%A7%BB)
 
 ## 🚀 [升级**`pokeemerald-expansion`**](INSTALL_ZH.md#%E6%9B%B4%E6%96%B0%20pokeemerald-expansion)
