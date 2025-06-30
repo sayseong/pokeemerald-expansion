@@ -29,6 +29,9 @@
 #include "main.h"
 #include "constants/event_objects.h"
 #include "constants/rgb.h"
+#define LETTER_WIDTH 16   // 固定字宽（不管字母本身实际宽度）
+#define LETTER_PAD   1
+#define START_X      0
 
 enum {
     INPUT_NONE,
@@ -262,7 +265,7 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
         .bg = 2,
         .tilemapLeft = 3,
         .tilemapTop = 9,
-        .width = 22,
+        .width = 24,
         .height = 8,
         .paletteNum = 10,
         .baseBlock = 0x0C8
@@ -301,7 +304,7 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
         .width = 26,
         .height = 2,
         .paletteNum = 10,
-        .baseBlock = 392
+        .baseBlock = 394
     },
     [WIN_PINYIN] = {
         .bg = 2,
@@ -310,20 +313,20 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
         .width = 6,
         .height = 2,
         .paletteNum = 10,
-        .baseBlock = 450
+        .baseBlock = 452
     },
     DUMMY_WIN_TEMPLATE
 };
 
-static const u8 gText_NamingScreenKeyboard_Upper0[] = _("QWERTYUIOP");
-static const u8 gText_NamingScreenKeyboard_Upper1[] = _("ASDFGHJKL");
-static const u8 gText_NamingScreenKeyboard_Upper2[] = _("ZXCVBNM");
-static const u8 gText_NamingScreenKeyboard_Lower0[] = _("qwertyuiop");
-static const u8 gText_NamingScreenKeyboard_Lower1[] = _("asdfghjkl");
-static const u8 gText_NamingScreenKeyboard_Lower2[] = _("zxcvbnm");
-static const u8 gText_NamingScreenKeyboard_Symbol0[] = _("0123456789");
-static const u8 gText_NamingScreenKeyboard_Symbol1[] = _("!?♂♀/+-{PKMN}");
-static const u8 gText_NamingScreenKeyboard_Symbol2[] = _("…“”‘'");
+static const u8 gText_NamingScreenKeyboard_Upper0[] = _(" QWERTYUIOP ");
+static const u8 gText_NamingScreenKeyboard_Upper1[] = _(" ASDFGHJKL  ");
+static const u8 gText_NamingScreenKeyboard_Upper2[] = _("  ZXCVBNM   ");
+static const u8 gText_NamingScreenKeyboard_Lower0[] = _(" qwertyuiop ");
+static const u8 gText_NamingScreenKeyboard_Lower1[] = _(" asdfghjkl  ");
+static const u8 gText_NamingScreenKeyboard_Lower2[] = _("  zxcvbnm   ");
+static const u8 gText_NamingScreenKeyboard_Symbol0[] = _(" 0123456789 ");
+static const u8 gText_NamingScreenKeyboard_Symbol1[] = _(" !?♂♀/+-{PKMN} ");
+static const u8 gText_NamingScreenKeyboard_Symbol2[] = _("   …“”‘''   ");
 
 
 static const u8* const gText_NamingScreenKeyboard_Words[][3] =
@@ -2094,14 +2097,20 @@ static void CopyStrClear(const u8* src, u8* dest, u8 pad)
 
 static void PrintKeyboardKeys(u8 window, u8 page)
 {
-    u16 i;
-	u8 *buffer = gStringVar4;
-    
     FillWindowPixelBuffer(window, 0);
-    for (i = 0; i < KBROW_COUNT - 1; i++)
+    for (u8 i = 0; i < KBROW_COUNT - 1; i++) // 每一行
     {
-        CopyStrClear(gText_NamingScreenKeyboard_Words[page][i], buffer, COLOUM_PAD);
-        AddTextPrinterParameterized3(window, 1, 0, i * ROW_HEIGHT, sKeyboardTextColors, 0, buffer);
+        const u8 *row = gText_NamingScreenKeyboard_Words[page][i];
+        u8 x = START_X;
+
+        for (u8 j = 0; row[j] != EOS; j++)
+        {
+            u8 buffer[2] = { row[j], EOS };
+            AddTextPrinterParameterized3(
+                window, 1, x, i * ROW_HEIGHT,
+                sKeyboardTextColors, 0, buffer);
+            x += LETTER_WIDTH + LETTER_PAD;
+        }
     }
     PutWindowTilemap(window);
 }
