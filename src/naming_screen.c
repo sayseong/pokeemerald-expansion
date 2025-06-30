@@ -2207,7 +2207,7 @@ static const struct NamingScreenTemplate sWaldaWordsScreenTemplate =
     .title = gText_TellHimTheWords,
 };
 
-static const u8 sText_EnterCode[] = _("Enter code:");
+static const u8 sText_EnterCode[] = _("请输入代码：");
 static const struct NamingScreenTemplate sCodeScreenTemplate = 
 {
     .copyExistingString = FALSE,
