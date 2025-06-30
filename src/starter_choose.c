@@ -128,9 +128,9 @@ static const u16 sStarterMon1[STARTER_MON_COUNT] =
 
 static const u16 sStarterMon2[STARTER_MON_COUNT] =
 {
-    SPECIES_EEVEE,
-    SPECIES_PIKACHU,
-    SPECIES_MEOWTH,
+    SPECIES_TREECKO,
+    SPECIES_TORCHIC,
+    SPECIES_MUDKIP,
 };
 
 static const u16 sStarterMon3[STARTER_MON_COUNT] =
