@@ -34,10 +34,10 @@ PacifidlogTown_House4_Text_SkyPokemon:
     .string "空中的宝可梦！\n空中的宝可梦！$"
 
 PacifidlogTown_House4_Text_WhereDidYouComeFrom:
-    .string "什么？你来自叫”是”的小镇？$"
+    .string "你从哪个城镇来？$"
 
 PacifidlogTown_House4_Text_YesTown:
-    .string "什么？\n噎死镇？\p我从没听说过那种地方。$"
+    .string "什么？\n“是”镇？\p我从没听说过那种地方。$"
 
 PacifidlogTown_House4_Text_YouHaveToComeFromSomewhere:
     .string "什么？我可不信，\n你肯定是从什么地方来的。\p哎！等等！你不会说\n你是生在海底的吧？$"

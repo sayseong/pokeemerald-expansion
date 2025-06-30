@@ -201,43 +201,43 @@ BattleFrontier_Lounge3_Text_CantYouSeeWereBusyHere::
     .string "……你想干什么？\p没看见我们很忙吗？\n你就不能一边去等等？$"
 
 BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
-    .string "……嗯？\n我觉得你是个挺强的训练家。\p呵呵呵……\n听着，我有个小提议。\p现在我们在对战开拓区\n有一组人，\l我们正在做一个小游戏。\p规则很简单，\p首先，我们选择一种\n对战开拓区的设施，\p然后我们各自选择一个\n正在挑战的训练家，\l赌上自己的对战点数，\p选的训练家获得成绩最好\n的人就可以得到所有的\l对战点数。\p很简单是吧？\n然后……$"
+    .string "……嗯？\n我觉得你是个挺强的训练家。\p呵呵呵……\n听着，我有个小提议。\p现在我们在对战开拓区\n有一组人，\l我们正在做一个小游戏。\p规则很简单。\p首先，我们选择一种\n对战开拓区的设施，\p然后我们各自选择一个\n正在挑战的训练家，\l赌上自己的对战点数，\p选的训练家获得成绩最好\n的人就可以得到所有的\l对战点数。\p很简单是吧？\n然后……$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle::
-    .string "我正在找想要挑战\n对战塔里单人对战\l房间的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要挑战\n对战塔单打对战间\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerDouble::
-    .string "我正在找想要挑战\n对战塔里双打对战\l房间的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要挑战\n对战塔双打对战间\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerMulti::
-    .string "我正在找想要挑战\n对战塔里多人对战\l房间的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要挑战\n对战塔多人对战间\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleDomeSingle::
-    .string "我正在找想要挑战\n对战巨蛋里单人对战\l锦标赛的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要挑战\n对战巨蛋单打对战\l锦标赛的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleDomeDouble::
-    .string "我正在找想要挑战\n对战巨蛋里双打对战\l锦标赛的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要挑战\n对战巨蛋双打对战\l锦标赛的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleFactorySingle::
-    .string "我正在找想要挑战\n对战工厂里交换式对战\l单人锦标赛的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要挑战\n对战工厂交换式对战\l单打锦标赛的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleFactoryDouble::
-    .string "我正在找想要挑战\n对战工厂里交换式对战\l双人锦标赛的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要挑战\n对战工厂交换式对战\l双打锦标赛的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePalaceSingle::
-    .string "我正在找想要挑战\n对战宫殿里单人对战\l大厅的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要挑战\n对战宫殿单打对战\l大厅的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePalaceDouble::
-    .string "我正在找想要挑战\n对战宫殿里双打对战\l大厅的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要挑战\n对战宫殿双打对战\l大厅的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleArena::
-    .string "我正在找想要参加\n对战竞技场里三回合定胜负\l锦标赛的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要参加\n对战竞技场三回合定胜负\l锦标赛的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePike::
-    .string "我正在找想要参加\n对战管道里选择式对战\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要参加\n对战管道选择式对战\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePyramid::
-    .string "我正在找想要参加\n对战金字塔里追寻式战斗\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
+    .string "我正在找想要参加\n对战金字塔探索式对战\l的训练家，\p但到现在我还没看到\n有能力胜出的训练家。$"
 
 BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe::
     .string "我觉得也许你值得一试，\n怎么样？\l能替我参加吗？$"
@@ -255,31 +255,31 @@ BattleFrontier_Lounge3_Text_ThanksOffYouGo::
     .string "呵呵呵！谢谢！\n好了，去吧！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerSingle::
-    .string "马上就去对战塔的\n单人对战房间吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战塔的\n单打对战间吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerDouble::
-    .string "马上就去对战塔的\n双打对战房间吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战塔的\n双打对战间吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerMulti::
-    .string "马上就去对战塔的\n多人对战房间吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战塔的\n多人对战间吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeSingle::
-    .string "马上就去对战巨蛋的\n单人对战锦标赛吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战巨蛋的\n单打对战锦标赛吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeDouble::
     .string "马上就去对战巨蛋的\n双打对战锦标赛吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleFactorySingle::
-    .string "马上就去对战工厂的\n单人交换式对战锦标赛吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战工厂的\n交换式对战单打锦标赛吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble::
-    .string "马上就去对战工厂的\n双人交换式对战锦标赛吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战工厂的\n交换式对战双打锦标赛吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle::
-    .string "马上就去对战宫殿的\n单人对战大厅吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战宫殿的\n单打对战厅吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble::
-    .string "马上就去对战宫殿的\n双打对战大厅吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战宫殿的\n双打对战厅吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattleArena::
     .string "马上就去对战竞技场的\n三回合定胜负锦标赛吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
@@ -288,7 +288,7 @@ BattleFrontier_Lounge3_Text_GetToBattlePike::
     .string "马上就去对战管道的\n选择式对战吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePyramid::
-    .string "马上就去对战金字塔的\n追寻式战斗吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
+    .string "马上就去对战金字塔的\n探索式对战吧！\p决不能输！\n别放过这个机会！\l我们的未来就全靠你了！$"
 
 BattleFrontier_Lounge3_Text_NiceTryCantReturnPoints::
     .string "啊，你来了……\n你很努力了……\p不过抱歉，我没法把\n对战点数还给你了……\p就让我们下一回\n更加努力一些吧！$"
@@ -297,7 +297,7 @@ BattleFrontier_Lounge3_Text_HelloChampHeresYourPoints::
     .string "啊，太棒了！\n我在这儿！\p我就知道你可以的！\n我就知道你会成功！\l今天我们两个是大赢家！\p你的对战点数还给你，\n还有，这是额外的奖品！$"
 
 BattleFrontier_Lounge3_Text_ObtainedBattlePoints::
-    .string "{PLAYER}得到\n{STR_VAR_1}对战点数。$"
+    .string "{PLAYER}获得了\n{STR_VAR_1}BP的对战点数。$"
 
 BattleFrontier_Lounge3_Text_ThinkOfMeForAnotherChallenge::
     .string "你还准备挑战什么的话\n别忘了叫上我！$"
@@ -309,7 +309,7 @@ BattleFrontier_Lounge3_Text_Oh::
     .string "啊……$"
 
 BattleFrontier_Lounge3_Text_BackedWrongTrainer::
-    .string "我又押错了训练家！\p也许我还是老老实实\n像别人那样去战斗比较好……$"
+    .string "我又押错了训练家！\p也许我还是老老实实\n像别人那样去对战比较好……$"
 
 BattleFrontier_Lounge3_Text_TrainerGoodButRattled::
     .string "那边的训练家……\p他的实力其实不错，可惜太容易紧张，\n总是通不过对战巨蛋……$"

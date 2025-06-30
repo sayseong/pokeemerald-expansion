@@ -1,5 +1,3 @@
-.set LOCALID_ATTENDANT, 1
-
 FallarborTown_BattleTentCorridor_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, FallarborTown_BattleTentCorridor_OnFrame
 	.byte 0
@@ -11,13 +9,13 @@ FallarborTown_BattleTentCorridor_OnFrame:
 FallarborTown_BattleTentCorridor_EventScript_EnterCorridor::
 	lockall
 	setvar VAR_TEMP_0, 1
-	applymovement LOCALID_ATTENDANT, FallarborTown_BattleTentCorridor_Movement_WalkToDoor
-	applymovement OBJ_EVENT_ID_PLAYER, FallarborTown_BattleTentCorridor_Movement_WalkToDoor
+	applymovement LOCALID_FALLARBOR_TENT_CORRIDOR_ATTENDANT, FallarborTown_BattleTentCorridor_Movement_WalkToDoor
+	applymovement LOCALID_PLAYER, FallarborTown_BattleTentCorridor_Movement_WalkToDoor
 	waitmovement 0
 	opendoor 2, 1
 	waitdooranim
-	applymovement LOCALID_ATTENDANT, FallarborTown_BattleTentCorridor_Movement_AttendantEnterDoor
-	applymovement OBJ_EVENT_ID_PLAYER, FallarborTown_BattleTentCorridor_Movement_PlayerEnterDoor
+	applymovement LOCALID_FALLARBOR_TENT_CORRIDOR_ATTENDANT, FallarborTown_BattleTentCorridor_Movement_AttendantEnterDoor
+	applymovement LOCALID_PLAYER, FallarborTown_BattleTentCorridor_Movement_PlayerEnterDoor
 	waitmovement 0
 	closedoor 2, 1
 	waitdooranim
@@ -48,7 +46,7 @@ FallarborTown_ContestHall_Text_DoAllRightInPreliminary:
 
 @ Unused
 FallarborTown_ContestHall_Text_MonAllTheseRibbons:
-    .string "看吧！\n我的宝可梦赢得了所有的缎带！\p你的宝可梦赢到过缎带吗？\n你可以在你的宝可梦导航仪中查看。$"
+    .string "看吧！\n我的宝可梦赢得了所有的奖章！\p你的宝可梦赢到过奖章吗？\n你可以在你的宝可导航中查看。$"
 
 @ Unused
 FallarborTown_ContestHall_Text_CantWinEverywhere:

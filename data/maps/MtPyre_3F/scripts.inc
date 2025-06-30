@@ -60,7 +60,7 @@ MtPyre_3F_Text_GabriellePostBattle:
     .string "已经不再属于这世界的宝可梦，\n现在正与你共度时光的宝可梦，\p还有未来将与你相会的\n宝可梦……\p它们都需要我们同等的珍爱。\n请记住这一点。$"
 
 MtPyre_3F_Text_GabrielleRegister:
-    .string "当你的宝可梦稍微成长时\n请让我看看……\p拿出你的宝可梦导航仪来吧。$"
+    .string "当你的宝可梦稍微成长时\n请让我看看……\p拿出你的宝可导航来吧。$"
 
 MtPyre_3F_Text_GabrielleRematchIntro:
     .string "喔，是你……\p是来让我看看你长大的\n宝可梦吗？$"

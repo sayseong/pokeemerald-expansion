@@ -17,5 +17,5 @@ MysteryGiftScript_StampCard::
 sText_MysteryGiftStampCard:
 	.string "感谢使用\n"
 	.string "图章卡片系统。\p"
-	.string "你需要收集更多{STR_VAR_1}\n"
+	.string "您需要收集更多{STR_VAR_1}\n"
 	.string "来填满图章卡片。$"

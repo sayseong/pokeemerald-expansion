@@ -1,9 +1,7 @@
-.set LOCALID_ANNOUNCER, 1
-.set LOCALID_AUDIENCE_TWIN, 2
-.set LOCALID_AUDIENCE_WALKING, 6
-.set LOCALID_REFEREE, 9
-.set LOCALID_PLAYER, 13
-.set LOCALID_OPPONENT, 15
+@ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
+@ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_DOME_PLAYER).
+@ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_1.
+@ The graphics of the opponent are represented with VAR_OBJ_GFX_ID_0, which will ultimately be set by dome_setopponentgfx.
 
 .set NO_DRAW,       0
 .set DRAW_TRAINER,  1
@@ -47,20 +45,20 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_EnterRoom::
 	lockall
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_GetRoundNum
 	call_if_eq VAR_RESULT, DOME_ROUND1, BattleFrontier_BattleDomeBattleRoom_EventScript_TryDoAudienceMemberWalkToSeat
-	applymovement LOCALID_ANNOUNCER, Common_Movement_WalkInPlaceDown
+	applymovement LOCALID_DOME_ANNOUNCER, Common_Movement_WalkInPlaceDown
 	waitmovement 0
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_AnnouncePlayer
 	msgbox BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome, MSGBOX_DEFAULT
 	closemessage
-	showobjectat LOCALID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_DOME_BATTLE_ROOM
+	showobjectat LOCALID_DOME_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_DOME_BATTLE_ROOM
 	goto_if_ne VAR_TEMP_F, DOME_FINAL, BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerEnter
 	goto_if_ne VAR_TEMP_E, FRONTIER_BRAIN_NOT_READY, BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerEnterForTucker
 BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerEnter::
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_PlayerEnter
+	applymovement LOCALID_DOME_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_PlayerEnter
 	goto BattleFrontier_BattleDomeBattleRoom_EventScript_AudienceReactToPlayer
 
 BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerEnterForTucker::
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_PlayerEnterForTucker
+	applymovement LOCALID_DOME_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_PlayerEnterForTucker
 BattleFrontier_BattleDomeBattleRoom_EventScript_AudienceReactToPlayer::
 	playse SE_M_ENCORE2
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_AudienceLookAround
@@ -71,8 +69,8 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_BattleOpponent::
 	dome_getopponentname
 	msgbox BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_PlayerStepForward
-	applymovement LOCALID_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_OpponentStepForward
+	applymovement LOCALID_DOME_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_PlayerStepForward
+	applymovement LOCALID_DOME_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_OpponentStepForward
 	waitmovement 0
 	tower_getopponentintro 0
 	msgbox gStringVar4, MSGBOX_DEFAULT
@@ -91,19 +89,19 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_Draw::
 	playse SE_M_ENCORE2
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_AudienceLookAround
 	delay 60
-	applymovement LOCALID_REFEREE, BattleFrontier_BattleDomeBattleRoom_Movement_RefereeEnter
+	applymovement LOCALID_DOME_REFEREE, BattleFrontier_BattleDomeBattleRoom_Movement_RefereeEnter
 	waitmovement 0
-	applymovement LOCALID_ANNOUNCER, BattleFrontier_BattleDomeBattleRoom_Movement_AnnouncerFaceLeft
+	applymovement LOCALID_DOME_ANNOUNCER, BattleFrontier_BattleDomeBattleRoom_Movement_AnnouncerFaceLeft
 	waitmovement 0
 	delay 180
-	applymovement LOCALID_REFEREE, BattleFrontier_BattleDomeBattleRoom_Movement_RefereeExit
+	applymovement LOCALID_DOME_REFEREE, BattleFrontier_BattleDomeBattleRoom_Movement_RefereeExit
 	waitmovement 0
 	goto_if_eq VAR_TEMP_2, DRAW_TUCKER, BattleFrontier_BattleDomeBattleRoom_EventScript_LostToOpponent @ Tucker always wins on a draw
 	dome_compareseeds
 	switch VAR_RESULT
 	case 1, BattleFrontier_BattleDomeBattleRoom_EventScript_DefeatedOpponent
 BattleFrontier_BattleDomeBattleRoom_EventScript_LostToOpponent::
-	applymovement LOCALID_ANNOUNCER, Common_Movement_WalkInPlaceDown
+	applymovement LOCALID_DOME_ANNOUNCER, Common_Movement_WalkInPlaceDown
 	waitmovement 0
 	dome_getopponentname
 	call_if_eq VAR_TEMP_2, NO_DRAW, BattleFrontier_BattleDomeBattleRoom_EventScript_OpponentWon
@@ -136,7 +134,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_TuckerWonDraw::
 	return
 
 BattleFrontier_BattleDomeBattleRoom_EventScript_DefeatedOpponent::
-	applymovement LOCALID_ANNOUNCER, Common_Movement_WalkInPlaceDown
+	applymovement LOCALID_DOME_ANNOUNCER, Common_Movement_WalkInPlaceDown
 	waitmovement 0
 	call_if_eq VAR_TEMP_2, NO_DRAW, BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerWon
 	call_if_eq VAR_TEMP_2, DRAW_TRAINER, BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerWonDraw
@@ -155,7 +153,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_DefeatedOpponent::
 	waitstate
 
 BattleFrontier_BattleDomeBattleRoom_EventScript_WonTourney::
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_PlayerApproachAudience
+	applymovement LOCALID_DOME_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_PlayerApproachAudience
 	waitmovement 0
 	frontier_get FRONTIER_DATA_LVL_MODE
 	switch VAR_RESULT
@@ -341,9 +339,9 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_AnnounceTuckerGold::
 	msgbox BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker, MSGBOX_DEFAULT
 BattleFrontier_BattleDomeBattleRoom_EventScript_TuckerEnter::
 	closemessage
-	applymovement LOCALID_AUDIENCE_TWIN, BattleFrontier_BattleDomeBattleRoom_Movement_AudienceTwinJump
-	applymovement LOCALID_ANNOUNCER, BattleFrontier_BattleDomeBattleRoom_Movement_AnnouncerMoveForTuckerEntrance
-	applymovement LOCALID_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_TuckerEnterAndDance
+	applymovement LOCALID_DOME_AUDIENCE_TWIN, BattleFrontier_BattleDomeBattleRoom_Movement_AudienceTwinJump
+	applymovement LOCALID_DOME_ANNOUNCER, BattleFrontier_BattleDomeBattleRoom_Movement_AnnouncerMoveForTuckerEntrance
+	applymovement LOCALID_DOME_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_TuckerEnterAndDance
 	playse SE_M_ENCORE2
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_AudienceLookAround
 	waitse
@@ -385,7 +383,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_BattleTuckerSilver::
 	frontier_getsymbols
 	goto_if_ne VAR_RESULT, 0, BattleFrontier_BattleDomeBattleRoom_EventScript_WonTourney
 	closemessage
-	applymovement LOCALID_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_TuckerApproachPlayer
+	applymovement LOCALID_DOME_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_TuckerApproachPlayer
 	waitmovement 0
 	msgbox BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass, MSGBOX_DEFAULT
 	playfanfare MUS_OBTAIN_SYMBOL
@@ -413,7 +411,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_BattleTuckerGold::
 	frontier_getsymbols
 	goto_if_eq VAR_RESULT, 2, BattleFrontier_BattleDomeBattleRoom_EventScript_WonTourney
 	closemessage
-	applymovement LOCALID_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_TuckerApproachPlayer
+	applymovement LOCALID_DOME_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_TuckerApproachPlayer
 	waitmovement 0
 	msgbox BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed, MSGBOX_DEFAULT
 	playfanfare MUS_OBTAIN_SYMBOL
@@ -427,8 +425,8 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_BattleTuckerGold::
 BattleFrontier_BattleDomeBattleRoom_EventScript_DoTuckerBattle::
 	msgbox BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_PlayerStepForward2
-	applymovement LOCALID_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_TuckerStepForward
+	applymovement LOCALID_DOME_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_PlayerStepForward2
+	applymovement LOCALID_DOME_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_TuckerStepForward
 	waitmovement 0
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_DoDomeBattle
 	return
@@ -463,21 +461,22 @@ BattleFrontier_BattleDomeBattleRoom_OnWarp:
 	.2byte 0
 
 BattleFrontier_BattleDomeBattleRoom_EventScript_SetUpObjects::
-	hideobjectat LOCALID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_DOME_BATTLE_ROOM
+	hideobjectat LOCALID_DOME_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_DOME_BATTLE_ROOM
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_AddAudience
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_SetPlayerGfx
 	setvar VAR_TEMP_1, 1
-	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_SetInvisible
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_SetInvisible
 	frontier_get FRONTIER_DATA_BATTLE_NUM
 	goto_if_ne VAR_RESULT, DOME_FINAL, BattleFrontier_BattleDomeBattleRoom_EventScript_EndSetUpObjects
 	frontier_getbrainstatus
 	copyvar VAR_TEMP_E, VAR_RESULT
 	goto_if_eq VAR_RESULT, FRONTIER_BRAIN_NOT_READY, BattleFrontier_BattleDomeBattleRoom_EventScript_EndSetUpObjects
 	call BattleFrontier_EventScript_SetBrainObjectGfx
-	setobjectxyperm LOCALID_OPPONENT, 13, 9
-	removeobject LOCALID_OPPONENT
-	addobject LOCALID_OPPONENT
-	applymovement LOCALID_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_SetInvisibleFacingUp
+	setobjectxyperm LOCALID_DOME_OPPONENT, 13, 9
+	removeobject LOCALID_DOME_OPPONENT
+	delay 1
+	addobject LOCALID_DOME_OPPONENT
+	applymovement LOCALID_DOME_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_SetInvisibleFacingUp
 BattleFrontier_BattleDomeBattleRoom_EventScript_EndSetUpObjects::
 	end
 
@@ -870,13 +869,13 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_SetWalkingAudienceMemberPos::
 	random 2
 	copyvar VAR_TEMP_D, VAR_RESULT
 	goto_if_eq VAR_TEMP_D, 0, Common_EventScript_NopReturn
-	setobjectxyperm LOCALID_AUDIENCE_WALKING, 2, 0
-	setobjectmovementtype LOCALID_AUDIENCE_WALKING, MOVEMENT_TYPE_FACE_RIGHT
+	setobjectxyperm LOCALID_DOME_AUDIENCE_WALKING, 2, 0
+	setobjectmovementtype LOCALID_DOME_AUDIENCE_WALKING, MOVEMENT_TYPE_FACE_RIGHT
 	return
 
 BattleFrontier_BattleDomeBattleRoom_EventScript_TryDoAudienceMemberWalkToSeat::
 	goto_if_eq VAR_TEMP_D, 0, Common_EventScript_NopReturn
-	applymovement LOCALID_AUDIENCE_WALKING, BattleFrontier_BattleDomeBattleRoom_Movement_AudienceMemberWalkToSeat
+	applymovement LOCALID_DOME_AUDIENCE_WALKING, BattleFrontier_BattleDomeBattleRoom_Movement_AudienceMemberWalkToSeat
 	return
 
 BattleFrontier_BattleDomeBattleRoom_Movement_AudienceTwinJump:
@@ -930,28 +929,28 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome:
     .string "{PLAYER}进入了对战巨蛋！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer:
-    .string "{STR_VAR_1}\n比赛\p{PLAYER} VS {STR_VAR_2}！\p比赛开始！$"
+    .string "{STR_VAR_1}！\p{PLAYER} VS {STR_VAR_2}！\p比赛开始！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsWinner:
-    .string "{PLAYER}获胜！\n恭喜恭喜！$"
+    .string "{PLAYER}获胜！\n恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner:
-    .string "{STR_VAR_2}获胜！\n恭喜恭喜！$"
+    .string "{STR_VAR_2}获胜！\n恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ:
-    .string "{PLAYER}是50级\n对战锦标赛的冠军！\p恭喜！$"
+    .string "{PLAYER}是Lv. 50级\n对战锦标赛的冠军！\p恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp:
-    .string "{PLAYER}是自由级\n对战锦标赛的冠军！\p恭喜！$"
+    .string "{PLAYER}是自由等级\n对战锦标赛的冠军！\p恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
-    .string "真是让人意外的结果！\n两方宝可梦同时倒地！\p按照比赛规则，出现这种情况时\n我们需要请裁判员进行评判。\p请耐心等待\n最终结果。$"
+    .string "真是让人意外的结果！\n双方宝可梦同时倒地！\p按照比赛规则，出现这种情况时\n我们需要请裁判员进行评判。\p请耐心等待\n最终结果。$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
-    .string "裁判做出了\n最后的决定！\p胜利者是……\n天啊！\l胜利者是{STR_VAR_1}！\l祝贺{STR_VAR_1}！$"
+    .string "裁判做出了\n最终判决！\p冠军是……\n天啊！\l冠军是{STR_VAR_1}！\l祝贺{STR_VAR_1}！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer:
-    .string "裁判做出了\n最后的决定！\p胜利者是……\n天啊！\l胜利者是{PLAYER}！\l祝贺{PLAYER}！$"
+    .string "裁判做出了\n最终判决！\p冠军是……\n天啊！\l冠军是{PLAYER}！\l祝贺{PLAYER}！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_BrightNewHope:
     .string "新的希望来了！\p$"
@@ -963,46 +962,46 @@ BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
     .string "哪一位训练家进入\n冠军赛了呢？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAchieveChampionFirstTry:
-    .string "第一次的冠军赛才艺试练\n能完成吗？\p$"
+    .string "首次挑战就能获得冠军的壮举\n能够实现吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
-    .string "要重复上次失败的\n挑战吗？\p$"
+    .string "上一场比赛的失利\n会被一雪前耻吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
-    .string "训练家为了第一场冠军赛的\n试练发火了。\p$"
+    .string "训练家为了首场冠军赛\n将会全力以赴！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
-    .string "胜利代表着训练家\n靠近了决赛。\p$"
+    .string "这场的胜利将意味着训练家\n能够晋级决赛！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillLongHeldDreamComeTrue:
-    .string "渴望以久的冠军赛\n真的来临了吗？\p$"
+    .string "渴望以久的冠军梦\n最终能够实现吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
     .string "无敌的冠军！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
-    .string "哪位想打败\n这位训练家？\p$"
+    .string "有谁能够击败\n这位训练家？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer:
-    .string "现在还有独自打败\n这位训练家的训练家吗？\p$"
+    .string "难道一切对战都只为\n这位训练家而存在吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CurrentChampAimingToRetainTitle:
-    .string "上届冠军\n卫冕成功！\p$"
+    .string "现任冠军\n正力争卫冕！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerChampHasReturned:
-    .string "上一位冠军已经被送回。\p$"
+    .string "前任冠军\n再次归来！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
-    .string "上一位勇士已经被送回。\p$"
+    .string "昔日强悍\n再次重现！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
-    .string "这位训练家会像预期\n那样进入总决赛吗？\p$"
+    .string "这位训练家会如期\n晋级决赛吗？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory:
-    .string "上届冠军会赢回\n失去的荣誉吗？\p$"
+    .string "前任冠军能否成功\n东山再起？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
-    .string "感受正在大师的光芒！$"
+    .string "感受真正王者的耀眼光芒吧！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
     .string "下面……{PLAYER}将要\n面对的训练家是……\p当然！就是他！\n对战巨蛋理事！\l我们的巨蛋超级巨星！\l用你们的热情来欢迎石南吧！$"
@@ -1011,7 +1010,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
     .string "观众：石南！石南！\n石南！石南！石南！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
-    .string "石南：哈哈哈！\p听到没？观众的呼唤\n他们都想看到我们的比赛呢\p哈哈哈！\p你现在应该害怕得\n全身发抖了吧！\p别紧张，别紧张。\p我是对战巨蛋的明星，第一明星！\n我，石南，巨蛋超级巨星，\l要在我的光芒下与你战斗！$"
+    .string "石南：哈哈哈！\p听到没？观众的呼唤\n他们期待着我们的比赛呢！\p哈哈哈！\p你现在应该害怕得\n全身发抖了吧！\p别紧张，别紧张。\p我是对战巨蛋的明星，第一明星！\n我，石南，巨蛋超级巨星，\l要在我的光芒下与你战斗！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LetsSeeYourStrategy:
     .string "让我来看看\n你的战术吧！$"
@@ -1023,7 +1022,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
     .string "冠军是——石南！\n巨蛋超级巨星还是胜利了！\p祝贺他！祝贺石南！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass:
-    .string "石南：规矩就是规矩！\n拿出你的开拓通行证让我看看吧。$"
+    .string "石南：规矩就是规矩！\n拿出你的开拓通行证吧。$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol:
     .string "开拓通行证上竟然\n浮现出战术象征！$"
@@ -1032,36 +1031,36 @@ BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
     .string "…… …… ……\p我太过低估你了，\n下一次我不会犯同样的错误……$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
-    .string "我们的冠军还会继续制霸吗？\n让我们期待比赛的结果吧！$"
+    .string "我们的冠军还会继续称霸吗？\n让我们期待比赛的结果吧！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
     .string "女士们，先生们，\n男孩们，女孩们，还有宝可梦们！\p最后，\n最后的最后，我们的传说回归了！\p是的，就是那个传说中的名字！\n我们的巨蛋超级巨星！\l他就是——石南！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
-    .string "石南：啊……\n观众们那一浪高过一浪的欢呼声……\l还有他们那如熔炉一般火热的激情……\l这里真是个美妙的地方……\p对观众们来说，\n我就是巨蛋超级巨星……\l我代表了他们的希望与梦想……\l我不能在他们的眼前枯萎……\p我必须重生！\n我必须达到更高、更强！\l我必须点燃这里的一切！$"
+    .string "石南：啊……\n观众们那一浪高过一浪的欢呼声……\l还有他们那如熔炉般火热的激情……\l这里真是个美妙的地方……\p对观众们来说，\n我就是巨蛋超级巨星……\l我承载着他们的希望与梦想……\l我决不能从他们的视野中消失……\p我必须燃烧！\n燃烧得更加明亮、更加耀眼！\l我必须点亮这里的所有人！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
-    .string "就在此时，就在此地，\n我要释放我所有的力量！$"
+    .string "就在此时，就在此地，\n我要释放我所拥有的全部实力！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
-    .string "石南：你是一个非凡的人！\p我从未碰见过在我释放出全力之后\n还能打败我的人，从来没有过！\p是的，你拥有非凡的力量！\n好了，把你的开拓通行证给我吧。$"
+    .string "石南：你是一个非凡的人！\p我从未遇到在我释放出全部实力后\n还能打败我的人，从来没有过！\p是的，你拥有非凡的实力！\n好了，把你的开拓通行证给我吧。$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
     .string "战术象征\n亮起了金光！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
-    .string "你真的很强。但最重要的是，\n你拥有独一无二的魅力！\p我可以看到你的身体中\n隐藏着成为我这样的明星的潜力。\p我很期待我们\n下一次的相遇！$"
+    .string "你真的很强。但最重要的是，\n你拥有独一无二的魅力！\p我可以看到你的身体中\n蕴藏着成为我这样的明星的潜力。\p我很期待我们\n下一次的相遇！$"
 
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2:
-    .string "{PLAYER}是50级\n对战锦标赛的冠军！\p恭喜！$"
+    .string "{PLAYER}是Lv. 50级\n对战锦标赛的冠军！\p恭喜！$"
 
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2:
-    .string "{PLAYER}是自由级\n对战锦标赛的冠军！\p恭喜！$"
+    .string "{PLAYER}是自由等级\n对战锦标赛的冠军！\p恭喜！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
-    .string "现在进行决赛！\p{PLAYER}对巨蛋超级巨星，石南！\p比赛开始！$"
+    .string "现在进行决赛！\p{PLAYER}对巨蛋超级巨星，\n石南！\p比赛开始！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
-    .string "裁判做出了\n最后的决定！\p胜利者是……\n天啊！\l胜利者是我们的巨蛋超级巨星——\l石南！\p恭喜你！还有，谢谢！\n我们的巨蛋超级巨星，石南！$"
+    .string "裁判做出了\n最后的决定！\p冠军是……\n天啊！\l冠军是我们的巨蛋超级巨星——\l石南！\p恭喜你！还有，谢谢！\n我们的巨蛋超级巨星，石南！$"

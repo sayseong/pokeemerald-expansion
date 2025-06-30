@@ -1,6 +1,6 @@
 #include "global.h"
 
-const u8 gText_MysteryEventBerry[] = _("获得了{STR_VAR_2}！\n爸爸在橙华市道馆持有它。");
+const u8 gText_MysteryEventBerry[] = _("获得了{STR_VAR_2}！\n爸爸在橙华市道馆拿着它。");
 const u8 gText_MysteryEventBerryTransform[] = _("{STR_VAR_1}变成了\n一颗{STR_VAR_2}。");
 const u8 gText_MysteryEventBerryObtained[] = _("{STR_VAR_1}已经被\n获取过了。");
 const u8 gText_MysteryEventSpecialRibbon[] = _("你的同行宝可梦被授予了\n特殊奖章。");

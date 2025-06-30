@@ -144,5 +144,5 @@ AbandonedShip_HiddenFloorCorridors_Text_Rm6DoorIsLocked:
     .string "门锁上了。\p门上写着“6号房”。$"
 
 AbandonedShip_HiddenFloorCorridors_Text_InsertedKey:
-    .string "{PLAYER}插入了\n钥匙。\p插入的钥匙很快卡住了，\n不过门被打开了。$"
+    .string "{PLAYER}插入了钥匙。\p插入的钥匙很快卡住了，\n不过门被打开了。$"
 

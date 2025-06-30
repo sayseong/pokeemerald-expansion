@@ -20,5 +20,5 @@ BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains:
     .string "你知道\n开拓之脑吗？\p亚希达是这么称呼\n管理对战开拓区七大设施的\l那七位特别的训练家的。$"
 
 BattleFrontier_Lounge8_Text_ToldMeIHaveTalentForBattling:
-    .string "对战塔里有一位大姐姐\n告诉我我在战斗方面的才能\l非常出色！\p不过我更喜欢宝可梦华丽大赛！\p但我在华丽大赛上完全不行！\p我想也许喜欢和天赋\n是两码事吧。$"
+    .string "对战塔里有一位大姐姐\n告诉我我在对战方面的才能\l非常出色！\p不过我更喜欢宝可梦华丽大赛！\p但我在华丽大赛上完全不行！\p我想也许喜欢和天赋\n是两码事吧。$"
 

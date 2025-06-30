@@ -183,8 +183,8 @@ Route123_Text_RouteSign:
     .string "{RIGHT_ARROW}123号道路\n{LEFT_ARROW}118号道路$"
 
 Route123_Text_RouteSignMtPyre:
-    .string "{UP_ARROW}送神山码头\n“胆小者禁止进入。”$"
+    .string "{UP_ARROW}送神山\n“胆小者禁止进入。”$"
 
 Route123_Text_BerryMastersHouse:
-    .string "树果大师的家$"
+    .string "树果名人的家$"
 

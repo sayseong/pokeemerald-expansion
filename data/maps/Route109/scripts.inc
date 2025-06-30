@@ -6,11 +6,11 @@ Route109_MapScripts::
 
 Route109_EventScript_StartDepartForDewford::
 	call EventScript_BackupMrBrineyLocation
-	setobjectsubpriority LOCALID_BRINEY_R109, MAP_ROUTE109, 0
-	setobjectsubpriority OBJ_EVENT_ID_PLAYER, MAP_ROUTE109, 0
-	applymovement LOCALID_BRINEY_R109, Route109_Movement_BrineyEnterBoat
+	setobjectsubpriority LOCALID_ROUTE109_BRINEY, MAP_ROUTE109, 0
+	setobjectsubpriority LOCALID_PLAYER, MAP_ROUTE109, 0
+	applymovement LOCALID_ROUTE109_BRINEY, Route109_Movement_BrineyEnterBoat
 	waitmovement 0
-	removeobject LOCALID_BRINEY_R109
+	removeobject LOCALID_ROUTE109_BRINEY
 	switch VAR_FACING
 	case DIR_SOUTH, Route109_EventScript_EnterBoatSouth
 	case DIR_WEST, Route109_EventScript_EnterBoatWest
@@ -18,50 +18,50 @@ Route109_EventScript_StartDepartForDewford::
 	end
 
 Route109_EventScript_EnterBoatSouth::
-	applymovement OBJ_EVENT_ID_PLAYER, Route109_Movement_PlayerEnterBoatSouth
+	applymovement LOCALID_PLAYER, Route109_Movement_PlayerEnterBoatSouth
 	waitmovement 0
 	goto Route109_EventScript_DoSailToDewford
 	end
 
 Route109_EventScript_EnterBoatEast::
-	applymovement OBJ_EVENT_ID_PLAYER, Route109_Movement_PlayerEnterBoatEast
+	applymovement LOCALID_PLAYER, Route109_Movement_PlayerEnterBoatEast
 	waitmovement 0
 	goto Route109_EventScript_DoSailToDewford
 	end
 
 Route109_EventScript_EnterBoatWest::
-	applymovement OBJ_EVENT_ID_PLAYER, Route109_Movement_PlayerEnterBoatWest
+	applymovement LOCALID_PLAYER, Route109_Movement_PlayerEnterBoatWest
 	waitmovement 0
 	goto Route109_EventScript_DoSailToDewford
 	end
 
 Route109_EventScript_DoSailToDewford::
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE109
+	hideobjectat LOCALID_PLAYER, MAP_ROUTE109
 	call Common_EventScript_PlayBrineysBoatMusic
-	applymovement LOCALID_BOAT_R109, Route109_Movement_SailToDewford
-	applymovement OBJ_EVENT_ID_PLAYER, Route109_Movement_SailToDewford
+	applymovement LOCALID_ROUTE109_BOAT, Route109_Movement_SailToDewford
+	applymovement LOCALID_PLAYER, Route109_Movement_SailToDewford
 	waitmovement 0
 	delay 50
 	call Common_EventScript_StopBrineysBoatMusic
-	showobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
-	applymovement OBJ_EVENT_ID_PLAYER, Route109_Movement_PlayerExitBoat
+	showobjectat LOCALID_PLAYER, MAP_DEWFORD_TOWN
+	applymovement LOCALID_PLAYER, Route109_Movement_PlayerExitBoat
 	waitmovement 0
-	addobject LOCALID_BOAT_DEWFORD
+	addobject LOCALID_DEWFORD_BOAT
 	clearflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
-	setobjectxyperm LOCALID_BRINEY_DEWFORD, 12, 8
-	addobject LOCALID_BRINEY_DEWFORD
-	setobjectsubpriority LOCALID_BRINEY_DEWFORD, MAP_DEWFORD_TOWN, 0
-	applymovement LOCALID_BRINEY_DEWFORD, Route109_Movement_BrineyExitBoat
+	setobjectxyperm LOCALID_DEWFORD_BRINEY, 12, 8
+	addobject LOCALID_DEWFORD_BRINEY
+	setobjectsubpriority LOCALID_DEWFORD_BRINEY, MAP_DEWFORD_TOWN, 0
+	applymovement LOCALID_DEWFORD_BRINEY, Route109_Movement_BrineyExitBoat
 	waitmovement 0
 	clearflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
 	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
-	hideobjectat LOCALID_BOAT_R109, MAP_ROUTE109
+	hideobjectat LOCALID_ROUTE109_BOAT, MAP_ROUTE109
 	msgbox DewfordTown_Text_BrineyLandedInDewford, MSGBOX_DEFAULT
 	closemessage
 	copyvar VAR_BRINEY_LOCATION, VAR_0x8008
-	resetobjectsubpriority OBJ_EVENT_ID_PLAYER, MAP_ROUTE109
-	resetobjectsubpriority LOCALID_BRINEY_DEWFORD, MAP_DEWFORD_TOWN
-	copyobjectxytoperm LOCALID_BRINEY_DEWFORD
+	resetobjectsubpriority LOCALID_PLAYER, MAP_ROUTE109
+	resetobjectsubpriority LOCALID_DEWFORD_BRINEY, MAP_DEWFORD_TOWN
+	copyobjectxytoperm LOCALID_DEWFORD_BRINEY
 	release
 	end
 
@@ -480,10 +480,10 @@ DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
     .string "哈奇：好了！\n我们到凯那市了！\p我想你是要去找\n楠木馆长送得文的物品吧？$"
 
 Route109_Text_BrineySailToDewfordQuestion:
-    .string "哈奇：我以为你要\n去送得文的物品。\p那么，你想\n回武斗镇去吗？$"
+    .string "哈奇：我以为你要\n去送得文的物品。\p那么，\n你想回武斗镇去吗？$"
 
 Route109_Text_BrineyDewfordItIs:
-    .string "哈奇：那么，向武斗镇出发！\p起锚！\n小皮，宝贝儿，出海了！$"
+    .string "哈奇：武斗镇是吗？\p起锚咯！\n小皮，亲爱的，我们出海了！$"
 
 Route109_Text_BrineyDeliverDevonGoods:
     .string "哈奇：那么你去送得文的物品吧，\n我就在这儿等着。$"
@@ -513,13 +513,13 @@ Route109_Text_WereGoingToMakeBigCastle:
     .string "我们要把沙滩上的沙都\n收集起来，堆一个大大的沙堡！\p我们就是城堡里的\n国王和王后。\p你可以做我们的卫兵。$"
 
 Route109_Text_ZigzagoonPicksUpLitter:
-    .string "这里的水很清澈，\p但我仍会带着我的蛇纹熊\n来海岸捡垃圾。\p污水会升到空中形成雨，\n然后落到我们汲水的小河里……\p如果我们污染了海洋，\n最终受害的还是我们自己。$"
+    .string "尽管这附近的水\n很清澈，\p但我仍会带着我的蛇纹熊\n来海岸捡垃圾。\p污水会升到空中形成雨，\n然后落到我们汲水的小河里……\p如果我们污染了海洋，\n最终受害的还是我们自己。$"
 
 Route109_Text_ZigzagoonCry:
     .string "蛇纹熊：咕呜？$"
 
 Route109_Text_SeashoreHouseSign:
-    .string "大海之家\p“火热的沙滩上火热的战斗！\n欢迎火热的训练家！”$"
+    .string "大海之家\p“火热的沙滩上火热的对战！\n欢迎火热的训练家！”$"
 
 Route109_Text_TrainerTipsSign:
-    .string "训练家小技巧\p同样等级的宝可梦实力\n并不完全相同。\p据说训练家训练出的宝可梦\n比野生宝可梦更强。$"
+    .string "有用的公告牌！\p同样等级的宝可梦实力\n并不完全相同。\p据说训练家训练出的宝可梦\n比野生宝可梦更强。$"

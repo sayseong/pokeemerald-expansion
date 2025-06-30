@@ -1,5 +1,3 @@
-.set LOCALID_ATTENDANT, 1
-
 BattleFrontier_BattleDomePreBattleRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleDomePreBattleRoom_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BattleFrontier_BattleDomePreBattleRoom_OnWarp
@@ -11,7 +9,7 @@ BattleFrontier_BattleDomePreBattleRoom_OnWarp:
 
 BattleFrontier_BattleDomePreBattleRoom_EventScript_TurnPlayerNorth::
 	setvar VAR_TEMP_1, 1
-	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	turnobject LOCALID_PLAYER, DIR_NORTH
 	end
 
 BattleFrontier_BattleDomePreBattleRoom_OnFrame:
@@ -22,7 +20,7 @@ BattleFrontier_BattleDomePreBattleRoom_EventScript_EnterRoom::
 	goto_if_eq VAR_0x8006, 1, BattleFrontier_BattleDomePreBattleRoom_EventScript_ReturnFromBattle
 	frontier_set FRONTIER_DATA_RECORD_DISABLED, TRUE
 	setvar VAR_TEMP_0, 1
-	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnter
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnter
 	waitmovement 0
 	lockall
 BattleFrontier_BattleDomePreBattleRoom_EventScript_AskReadyForNextRound::
@@ -150,13 +148,13 @@ BattleFrontier_BattleDomePreBattleRoom_EventScript_ContinueChallenge::
 	dome_setopponent
 	msgbox BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_ATTENDANT, BattleFrontier_BattleDomePreBattleRoom_Movement_AttendantMoveAside
+	applymovement LOCALID_DOME_PRE_BATTLE_ATTENDANT, BattleFrontier_BattleDomePreBattleRoom_Movement_AttendantMoveAside
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerWalkToDoor
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerWalkToDoor
 	waitmovement 0
 	opendoor 5, 1
 	waitdooranim
-	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnterDoor
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnterDoor
 	waitmovement 0
 	closedoor 5, 1
 	waitdooranim
@@ -272,55 +270,55 @@ BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnterDoor:
 	step_end
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound1:
-    .string "下面是你的第一场比赛。\n准备好了吗？$"
+    .string "接下来您将参加第1轮比赛。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound2:
-    .string "接下来是你的第二场比赛。\n准备好了吗？$"
+    .string "接下来您将参加第2轮比赛。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForSemifinals:
-    .string "下一场是半决赛。\n准备好了吗？$"
+    .string "接下来您将参加半决赛。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals:
-    .string "决赛即将开始。\n准备好了吗？$"
+    .string "接下来您将参加决赛。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons:
-    .string "请选择两只\n参赛的宝可梦$"
+    .string "请选择2只即将在对战中\n登场的宝可梦。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay:
     .string "这边请。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth:
-    .string "感谢你的参与。\p现在帮你全面恢复\n你的宝可梦。$"
+    .string "辛苦了！\p我来帮您的宝可梦\n回复体力。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete:
-    .string "第一场比赛\n已经结束。\p这一队都是优秀的宝可梦！$"
+    .string "所有的第1轮比赛\n都已结束。\p这些是成功晋级的队伍！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round2Complete:
-    .string "第二场比赛\n已经结束。\p这一队都是优秀的宝可梦！$"
+    .string "所有的第2轮比赛\n都已结束。\p这些是成功晋级的队伍！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SemifinalsComplete:
-    .string "半决赛比赛\n已经结束。\p这一队都是优秀的宝可梦！$"
+    .string "所有的半决赛比赛\n都已结束。\p这些是成功晋级的队伍！$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForRound2:
-    .string "恭喜通过第一回合\n比赛。\p接下来是第二回合。\n准备好了吗？$"
+    .string "恭喜通过第1轮\n比赛。\p接下来是第2轮。\n准备好了吗？$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForSemifinals:
-    .string "恭喜进入\n半决赛。\p四个强队在此相遇。\n准备好了吗？$"
+    .string "恭喜进入\n半决赛。\p4个强队在此相遇。\n准备好了吗？$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals:
-    .string "恭喜进入\n决赛。\p你是冠军候选之一。\n准备好了吗？$"
+    .string "恭喜进入\n决赛。\p您是冠军候选之一。\n准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer:
     .string "{PLAYER}的下一位对手是\n这位训练家。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound1:
-    .string "锦标赛进入第一回合！$"
+    .string "锦标赛进入第1回合！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound2:
-    .string "锦标赛进入第二回合！$"
+    .string "锦标赛进入第2回合！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInSemifinals:
     .string "锦标赛进入半决赛！$"
@@ -329,28 +327,28 @@ BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInFinals:
     .string "锦标赛进入决赛！$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SaveAndQuitGame:
-    .string "是否要存档并\n退出游戏？$"
+    .string "要写入记录\n并且暂停吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RetireYourChallenge:
-    .string "是否要退出\n对战锦标赛？$"
+    .string "要结束对战锦标赛的挑战吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait:
-    .string "正在记录存档。\n请稍候。$"
+    .string "正在写入记录……\n请稍候。$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RecordLastMatch:
-    .string "我能记录你在开拓通行证的\n最后一次比赛吗？$"
+    .string "要将您的最后一场对战\n记录到开拓通行证上吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver:
-    .string "恭喜你成功\n进入决赛！\p在决赛中，你将挑战的人是——\n巨蛋超级巨星石南。\p准备好了吗？$"
+    .string "恭喜您成功\n进入决赛！\p在决赛中，您将挑战的人是——\n巨蛋超级巨星石南。\p准备好了吗？$"
 
 @ Identical to ReadyForTuckerSilver
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold:
-    .string "恭喜你成功\n进入决赛！\p在决赛中，你将挑战的人是——\n巨蛋超级巨星石南。\p准备好了吗？$"
+    .string "恭喜您成功\n进入决赛！\p在决赛中，您将挑战的人是——\n巨蛋超级巨星石南。\p准备好了吗？$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilverShort:
-    .string "接下来的是你最后的对手石南。\n准备好了吗？$"
+    .string "接下来的是您最后的对手石南。\n准备好了吗？$"
 
 @ Identical again
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGoldShort:
-    .string "接下来的是你最后的对手石南。\n准备好了吗？$"
+    .string "接下来的是您最后的对手石南。\n准备好了吗？$"
 

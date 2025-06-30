@@ -339,7 +339,7 @@ static const struct MatchCallWally sWallyMatchCallHeader =
     .mapSec = 0,
     .flag = FLAG_ENABLE_WALLY_MATCH_CALL,
     .rematchTableIdx = REMATCH_WALLY_VR,
-    .desc = COMPOUND_STRING("宝可梦发烧友"),
+    .desc = COMPOUND_STRING("宝可梦爱好者"),
     .textData = sWallyTextScripts,
     .locationData = sWallyLocationData
 };
@@ -494,7 +494,7 @@ static const struct MatchCallStructTrainer sJuanMatchCallHeader =
     .mapSec = MAPSEC_SOOTOPOLIS_CITY,
     .flag = FLAG_ENABLE_JUAN_MATCH_CALL,
     .rematchTableIdx = REMATCH_JUAN,
-    .desc = COMPOUND_STRING("迷人的花花公子"),
+    .desc = COMPOUND_STRING("迷人花花公子"),
     .name = NULL,
     .textData = sJuanTextScripts
 };

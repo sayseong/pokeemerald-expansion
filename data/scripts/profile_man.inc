@@ -93,67 +93,67 @@ ProfileMan_EventScript_Ret::
 
 ProfileMan_Text_CollectTrainerProfiles:
 	.string "嘿，训练家！\n"
-	.string "你有一个很灿烂的微笑。\p"
-	.string "我有一个爱好--收集宝可梦训练家\n"
-	.string "的各种信息档案。$"
+	.string "你的笑容很灿烂。\p"
+	.string "我有个爱好——收集宝可梦训练家\n"
+	.string "的个人信息档案。$"
 
 ProfileMan_Text_MayISeeYourProfile:
-	.string "那么，这个怎么样？\n"
-	.string "我能看看你的档案么？$"
+	.string "怎么样？\n"
+	.string "我可以看看你的档案吗？$"
 
 ProfileMan_Text_EasyChatExplanation:
-	.string "你要确定一个由四个\n"
-	.string "单词或短语构成的信息。\p"
-	.string "这里，我会给你一个由四个词构成\n"
-	.string "的档案的例子。\p"
-	.string "你可以把里面的词换成\n"
-	.string "你自己喜欢的词\l"
+	.string "你可以用4个单词或短语\n"
+	.string "组合起来创建自己的个人资料。\p"
+	.string "我先在这里给你展示一个\n"
+	.string "用4个文本组成的档案的例子。\p"
+	.string "你可以把里面的文本换成\n"
+	.string "你自己喜欢的文本\l"
 	.string "来构成你自己的档案。\p"
-	.string "这里有很多的档案可以\n"
-	.string "供你使用。\p"
-	.string "那些词可以代表你的\n"
-	.string "宝可梦，生活方式，或是爱好，\l"
-	.string "所以他们相当直观。\p"
-	.string "那么，首先，选上一些信息\n"
-	.string "来列一个选择表。\p"
-	.string "然后，从中选出你想要的。\p"
-	.string "再继续选选剩下的，之后你就会\n"
-	.string "有一个真正属于自己的档案了。$"
+	.string "这里有很多的文本可以\n"
+	.string "供你选择使用。\p"
+	.string "它们根据类型分组排列，\n"
+	.string "例如宝可梦，生活方式，或是爱好，\l"
+	.string "以便你查找。\p"
+	.string "所以你可以先选择分组\n"
+	.string "来显示其中的文本选项。\p"
+	.string "然后再从中选出你要的文本。\p"
+	.string "如此反复选择好所有文本，这样\n"
+	.string "你就拥有一个你自己的个人档案了。$"
 
 ProfileMan_Text_LetsSeeItThen:
 	.string "好的！谢谢！\n"
-	.string "那么接下来，让我看看。$"
+	.string "那么，我们来看看吧。$"
 
 ProfileMan_Text_ImagineYouWouldHaveWonderfulProfile:
-	.string "啊，不，确定吗？\p"
-	.string "我认为像你这样的人应该\n"
-	.string "有一份华丽的档案的……$"
+	.string "哦，真的不要吗？\p"
+	.string "我认为像你这样的人\n"
+	.string "个人档案肯定会很棒……$"
 
 ProfileMan_Text_NotIntoItRightNow:
 	.string "啊？你现在还不想编辑？\p"
-	.string "那随时都可以来找我！$"
+	.string "好吧，那随时来找我！$"
 
 ProfileMan_Text_YouHaveWonderfulSmile:
 	.string "你好呀，训练家！\n"
-	.string "你有一个很灿烂的微笑啊。$"
+	.string "你的笑容很灿烂。$"
 
 ProfileMan_Text_MayISeeYourNewProfile:
-	.string "我能看看你的新档案么？$"
+	.string "我能看看你的新档案吗？$"
 
 ProfileMan_Text_EvenBetterThanLastProfile:
 	.string "好的！谢谢！\p"
-	.string "我希望这分档案一定比之前\n"
-	.string "那份要强的多。$"
+	.string "我希望这份档案比之前\n"
+	.string "那份还要更好。$"
 
 ProfileMan_Text_LikeProfileWayItIs:
-	.string "啊，你喜欢这种形式的档案呀。\p"
-	.string "我没有看错你--现在它是一份\n"
-	.string "非常棒的档案了。$"
+	.string "啊，你喜欢现在的个人档案呀。\p"
+	.string "不怪你——现在的个人档案\n"
+	.string "已经非常棒了。$"
 
 ProfileMan_Text_FantasticProfile:
-	.string "太，太强了！\p"
+	.string "太，太棒了！\p"
 	.string "你的档案，太棒了！\n"
-	.string "你完美的表现了自己的想法。\p"
+	.string "它完美地展现了你的个性。\p"
 	.string "任何看到这份档案的人\n"
 	.string "都会被你迷住的！\p"
 	.string "谢谢！$"

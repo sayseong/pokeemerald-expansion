@@ -1,11 +1,3 @@
-.set LOCALID_VICTOR, 1
-.set LOCALID_VICTORIA, 2
-.set LOCALID_VIVI, 3
-.set LOCALID_VICKY, 4
-.set LOCALID_ROCK_SMASH_MAN, 46
-
-@ Note: LOCALID_ROUTE111_PLAYER_FALLING is a local id for this map used elsewhere. It's defined in event_objects.h
-
 Route111_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, Route111_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, Route111_OnTransition
@@ -105,7 +97,7 @@ Route111_OnWarp:
 	.2byte 0
 
 Route111_EventScript_HidePlayerForMirageTower::
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_LITTLEROOT_TOWN
+	hideobjectat LOCALID_PLAYER, MAP_LITTLEROOT_TOWN
 	end
 
 Route111_OnFrame:
@@ -121,10 +113,10 @@ Route111_EventScript_MirageTowerDisappear::
 	addobject LOCALID_ROUTE111_PLAYER_FALLING
 	special StartPlayerDescendMirageTower
 	waitstate
-	showobjectat OBJ_EVENT_ID_PLAYER, MAP_LITTLEROOT_TOWN
+	showobjectat LOCALID_PLAYER, MAP_LITTLEROOT_TOWN
 	removeobject LOCALID_ROUTE111_PLAYER_FALLING
 	delay 16
-	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	turnobject LOCALID_PLAYER, DIR_NORTH
 	delay 16
 	special StartMirageTowerDisintegration
 	waitstate
@@ -216,22 +208,22 @@ Route111_EventScript_PreventRouteAccess::
 	end
 
 Route111_EventScript_PushUpFromRoute::
-	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_PushUpFromRoute
+	applymovement LOCALID_PLAYER, Route111_Movement_PushUpFromRoute
 	waitmovement 0
 	return
 
 Route111_EventScript_PushDownFromRoute::
-	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_PushDownFromRoute
+	applymovement LOCALID_PLAYER, Route111_Movement_PushDownFromRoute
 	waitmovement 0
 	return
 
 Route111_EventScript_PushLeftFromRoute::
-	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_PushLeftFromRoute
+	applymovement LOCALID_PLAYER, Route111_Movement_PushLeftFromRoute
 	waitmovement 0
 	return
 
 Route111_EventScript_PushRightFromRoute::
-	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_PushRightFromRoute
+	applymovement LOCALID_PLAYER, Route111_Movement_PushRightFromRoute
 	waitmovement 0
 	return
 
@@ -277,68 +269,68 @@ Route111_EventScript_Victor::
 Route111_EventScript_BattleWinstrates::
 	msgbox Route111_Text_VictorIntro, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_VICTOR, Route111_Text_VictorDefeat
-	applymovement LOCALID_VICTOR, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_ROUTE111_VICTOR, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
 	msgbox Route111_Text_VictorPostBattle, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_VICTOR, Route111_Movement_WinstrateEnterHouse
+	applymovement LOCALID_ROUTE111_VICTOR, Route111_Movement_WinstrateEnterHouse
 	waitmovement 0
-	removeobject LOCALID_VICTOR
+	removeobject LOCALID_ROUTE111_VICTOR
 	call Route111_EventScript_CloseWinstrateDoor
-	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_WaitForNextWinstrate
+	applymovement LOCALID_PLAYER, Route111_Movement_WaitForNextWinstrate
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
-	addobject LOCALID_VICTORIA
-	applymovement LOCALID_VICTORIA, Route111_Movement_WinstrateExitHouse
+	addobject LOCALID_ROUTE111_VICTORIA
+	applymovement LOCALID_ROUTE111_VICTORIA, Route111_Movement_WinstrateExitHouse
 	waitmovement 0
 	call Route111_EventScript_CloseWinstrateDoor
 	msgbox Route111_Text_VictoriaIntro, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_VICTORIA, Route111_Text_VictoriaDefeat
-	applymovement LOCALID_VICTORIA, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_ROUTE111_VICTORIA, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
 	msgbox Route111_Text_VictoriaPostBattle, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_VICTORIA, Route111_Movement_WinstrateEnterHouse
+	applymovement LOCALID_ROUTE111_VICTORIA, Route111_Movement_WinstrateEnterHouse
 	waitmovement 0
-	removeobject LOCALID_VICTORIA
+	removeobject LOCALID_ROUTE111_VICTORIA
 	call Route111_EventScript_CloseWinstrateDoor
-	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_WaitForNextWinstrate
+	applymovement LOCALID_PLAYER, Route111_Movement_WaitForNextWinstrate
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
-	addobject LOCALID_VIVI
-	applymovement LOCALID_VIVI, Route111_Movement_WinstrateExitHouse
+	addobject LOCALID_ROUTE111_VIVI
+	applymovement LOCALID_ROUTE111_VIVI, Route111_Movement_WinstrateExitHouse
 	waitmovement 0
 	call Route111_EventScript_CloseWinstrateDoor
 	msgbox Route111_Text_ViviIntro, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_VIVI, Route111_Text_ViviDefeat
-	applymovement LOCALID_VIVI, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_ROUTE111_VIVI, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
 	msgbox Route111_Text_ViviPostBattle, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_VIVI, Route111_Movement_WinstrateEnterHouse
+	applymovement LOCALID_ROUTE111_VIVI, Route111_Movement_WinstrateEnterHouse
 	waitmovement 0
-	removeobject LOCALID_VIVI
+	removeobject LOCALID_ROUTE111_VIVI
 	call Route111_EventScript_CloseWinstrateDoor
-	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_WaitForNextWinstrate
+	applymovement LOCALID_PLAYER, Route111_Movement_WaitForNextWinstrate
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
-	addobject LOCALID_VICKY
-	applymovement LOCALID_VICKY, Route111_Movement_WinstrateExitHouse
+	addobject LOCALID_ROUTE111_VICKY
+	applymovement LOCALID_ROUTE111_VICKY, Route111_Movement_WinstrateExitHouse
 	waitmovement 0
 	call Route111_EventScript_CloseWinstrateDoor
 	msgbox Route111_Text_VickyIntro, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_VICKY, Route111_Text_VickyDefeat
 	msgbox Route111_Text_VickyPostBattle, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_VICKY, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_ROUTE111_VICKY, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	call Route111_EventScript_OpenWinstrateDoor
-	applymovement LOCALID_VICKY, Route111_Movement_WinstrateEnterHouse
+	applymovement LOCALID_ROUTE111_VICKY, Route111_Movement_WinstrateEnterHouse
 	waitmovement 0
-	removeobject LOCALID_VICKY
+	removeobject LOCALID_ROUTE111_VICKY
 	call Route111_EventScript_CloseWinstrateDoor
 	release
 	end
@@ -427,11 +419,11 @@ Route111_EventScript_HikerMirageTowerVisible::
 
 Route111_EventScript_RockSmashTipFatMan::
 	lockall
-	applymovement LOCALID_ROCK_SMASH_MAN, Common_Movement_FacePlayer
+	applymovement LOCALID_ROUTE111_ROCK_SMASH_MAN, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox Route111_Text_MauvilleUncleToldMeToTakeRockSmash, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_ROCK_SMASH_MAN, Common_Movement_FaceOriginalDirection
+	applymovement LOCALID_ROUTE111_ROCK_SMASH_MAN, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	releaseall
 	end
@@ -574,7 +566,7 @@ Route111_EventScript_TrainerHillSign::
 	end
 
 Route111_Text_BattleOurFamily:
-    .string "嗨！我想你是个旅行者吧？\p怎么样？跟我们家\n四个人来几场\l宝可梦战斗吧？$"
+    .string "嗨！我想你是个旅行者吧？\p怎么样？跟我们家\n4个人来几场\l宝可梦对战吧？$"
 
 Route111_Text_IsThatSo:
     .string "是吗？\n你改变主意的话再来吧！$"
@@ -589,7 +581,7 @@ Route111_Text_VictorPostBattle:
     .string "喂，大家出来！\n我碰到了个很强的训练家！$"
 
 Route111_Text_VictoriaIntro:
-    .string "哦，天啊，这么年轻！\p你就是那个打败了我丈夫的\n训练家吧，\p轮到我跟你战斗了！$"
+    .string "哦，天啊，这么年轻！\p你就是那个打败了我丈夫的\n训练家吧，\p轮到我跟你对战了！$"
 
 Route111_Text_VictoriaDefeat:
     .string "啊呀！\n你太厉害了！$"
@@ -616,10 +608,10 @@ Route111_Text_VickyPostBattle:
     .string "如果你不是很忙，\n就进来坐会儿吧。$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks:
-    .string "如果你不继续训练宝可梦，\n在水平越来越高的战斗中\l将会难以持续获胜下去。\p我听说宝可梦联盟的\n四天王的实力\l比道馆馆主强多了。$"
+    .string "如果你不继续训练宝可梦，\n在水平越来越高的对战中\l将会难以持续获胜下去。\p我听说宝可梦联盟的\n四天王的实力\l比道馆馆主强多了。$"
 
 Route111_Text_WinstrateFamilyDestroyedMe:
-    .string "我挑战过连胜家族，\n但一连四场的战斗太困难了……\l他们打败了我。$"
+    .string "我挑战过连胜家族，\n但一连4场的对战太困难了……\l他们打败了我。$"
 
 Route111_Text_RouteSignMauville:
     .string "111号道路\n{DOWN_ARROW}紫堇市$"
@@ -637,7 +629,7 @@ Route111_Text_OldLadysRestStopSign:
     .string "简康奶奶的家\n“欢迎进来歇脚。”$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
-    .string "训练家小技巧\p表示宝可梦的数值之一\n是特攻，全称\l“特殊招式攻击力。”\p相似地，还有特防，全称“特殊招式\n防御力”。$"
+    .string "有用的公告牌！\p表示宝可梦的数值之一是特攻，\n全称“特殊招式攻击力。”\p相似地，还有特防，\n全称“特殊招式防御力”。$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
     .string "这附近什么地方\n有座沙形成的塔，\p但由于某种原因，\n它却时隐时现。\p因此我叫它幻影之塔。$"
@@ -658,8 +650,8 @@ Route111_Text_RootFossilDisappeared:
     .string "根状化石沉进了\n沙里……$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
-    .string "呀，糟糕！\p叔叔在紫堇市嘱咐过我\n去111号道路\l要带上碎岩！\p我叔叔在哪？\n他就住在紫堇市的车店对面。$"
+    .string "呀，糟糕！\p叔叔在紫堇市嘱咐过我\n去111号道路要带上碎岩！\p我叔叔在哪？\n他就住在紫堇市的车店对面。$"
 
 Route111_Text_TrainerHillSign:
-    .string "{RIGHT_ARROW}训练家之山入口\p“努力向上攀登吧，\n充满热血的训练家！”$"
+    .string "{RIGHT_ARROW}训练家之丘入口\p“努力向上攀登吧，\n充满热血的训练家！”$"
 

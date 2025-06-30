@@ -5,6 +5,7 @@
 #include "contest_effect.h"
 #include "data.h"
 #include "daycare.h"
+#include "debug.h"
 #include "decompress.h"
 #include "event_data.h"
 #include "gpu_regs.h"
@@ -12,6 +13,7 @@
 #include "international_string_util.h"
 #include "item.h"
 #include "item_icon.h"
+#include "line_break.h"
 #include "main.h"
 #include "malloc.h"
 #include "menu.h"
@@ -28,6 +30,7 @@
 #include "region_map.h"
 #include "pokemon.h"
 #include "reset_rtc_screen.h"
+#include "rtc.h"
 #include "scanline_effect.h"
 #include "shop.h"
 #include "sound.h"
@@ -46,7 +49,7 @@
 #include "constants/party_menu.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
-
+#include "config/pokedex_plus_hgss.h"
 
 enum
 {
@@ -128,20 +131,22 @@ static const u8 sText_TenDashes[] = _("----------");
 ALIGNED(4) static const u8 sExpandedPlaceholder_PokedexDescription[] = _("");
 static const u16 sSizeScreenSilhouette_Pal[] = INCBIN_U16("graphics/pokedex/size_silhouette.gbapal");
 
-static const u8 sText_Stats_Buttons[] = _("{A_BUTTON}TOGGLE   {DPAD_UPDOWN}MOVES");
-static const u8 sText_Stats_Buttons_Decapped[] = _("{A_BUTTON}Toggle   {DPAD_UPDOWN}Moves");
+static const u8 sText_Stats_Buttons[] = _("{A_BUTTON}切换   {DPAD_UPDOWN}招式");
+static const u8 sText_Stats_Buttons_Decapped[] = _("{A_BUTTON}切换   {DPAD_UPDOWN}招式");
 static const u8 sText_Stats_HP[] = _("HP");
-static const u8 sText_Stats_Attack[] = _("ATK");
-static const u8 sText_Stats_Defense[] = _("DEF");
-static const u8 sText_Stats_Speed[] = _("SPE");
-static const u8 sText_Stats_SpAttack[] = _("SP.A");
-static const u8 sText_Stats_SpDefense[] = _("SP.D");
+static const u8 sText_Stats_Attack[] = _("攻击");
+static const u8 sText_Stats_Defense[] = _("防御");
+static const u8 sText_Stats_Speed[] = _("速度");
+static const u8 sText_Stats_SpAttack[] = _("特攻");
+static const u8 sText_Stats_SpDefense[] = _("特防");
 static const u8 sText_Stats_EV_Plus1[] = _("{UP_ARROW_2}");
 static const u8 sText_Stats_EV_Plus2[] = _("{UP_ARROW_2}{UP_ARROW_2}");
 static const u8 sText_Stats_EV_Plus3[] = _("{UP_ARROW_2}{UP_ARROW_2}{UP_ARROW_2}");
 static const u8 sText_Stats_EvStr1Str2[] = _("{STR_VAR_1}{STR_VAR_2}");
 static const u8 sText_Stats_MoveSelectedMax[] = _("{STR_VAR_1} / {STR_VAR_2}");
-static const u8 sText_Stats_MoveLevel[] = _("LVL");
+static const u8 sText_Stats_MoveLevel[] = _("等级");
+static const u8 sText_Stats_MoveTM[] = _("TM");
+static const u8 sText_Stats_MoveHM[] = _("HM");
 static const u8 sText_Stats_Gender_0[] = _("♂");
 static const u8 sText_Stats_Gender_12_5[] = _("♀ 1/7 ♂"); //_("♀ 12.5 / 87.5 ♂");
 static const u8 sText_Stats_Gender_25[] = _("♀ 1/3 ♂");     //_("♀ 25 / 75 ♂");
@@ -149,116 +154,81 @@ static const u8 sText_Stats_Gender_50[] = _("♀ 1/1 ♂");     //_("♀ 50 / 50
 static const u8 sText_Stats_Gender_75[] = _("♀ 3/1 ♂");     //_("♀ 75 / 25 ♂");
 static const u8 sText_Stats_Gender_87_5[] = _("♀ 7/1 ♂");
 static const u8 sText_Stats_Gender_100[] = _("♀");
-static const u8 sText_Stats_CatchRate[] = _("CATCH{0x5B}: ");
-static const u8 sText_Stats_CatchRate_Legend[] = _("LEGENDARY");
-static const u8 sText_Stats_CatchRate_VeryHard[] = _("VERY HARD");
-static const u8 sText_Stats_CatchRate_Difficult[] = _("DIFFICULT");
-static const u8 sText_Stats_CatchRate_Medium[] = _("MEDIUM");
-static const u8 sText_Stats_CatchRate_Relaxed[] = _("RELAXED");
-static const u8 sText_Stats_CatchRate_Easy[] = _("EASY");
-static const u8 sText_Stats_ExpYield[] = _("EXP YIELD: ");
-static const u8 sText_Stats_EggCycles[] = _("HATCH STEPS:");
-static const u8 sText_Stats_EggCycles_VeryFast[] = _("{EMOJI_BOLT}{EMOJI_DIZZYEGG}");
-static const u8 sText_Stats_EggCycles_Fast[] = _("{EMOJI_DIZZYEGG}");
-static const u8 sText_Stats_EggCycles_Normal[] = _("{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}");
-static const u8 sText_Stats_EggCycles_Slow[] = _("{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}");
-static const u8 sText_Stats_Growthrate[] = _("GROW: ");
-static const u8 sText_Stats_Friendship[] = _("FRIENDSHIP:");
-static const u8 sText_Stats_Friendship_BigAnger[] = _("{EMOJI_BIGANGER}");
-static const u8 sText_Stats_Friendship_Neutral[] = _("{EMOJI_NEUTRAL}");
-static const u8 sText_Stats_Friendship_Happy[] = _("{EMOJI_HAPPY}");
-static const u8 sText_Stats_Friendship_BigSmile[] = _("{EMOJI_BIGSMILE}");
-static const u8 sText_Stats_MEDIUM_FAST[] = _("MED. FAST");
-static const u8 sText_Stats_ERRATIC[] = _("ERRATIC");
-static const u8 sText_Stats_FLUCTUATING[] = _("FLUCTUATING");
-static const u8 sText_Stats_MEDIUM_SLOW[] = _("MED. SLOW");
-static const u8 sText_Stats_FAST[] = _("FAST");
-static const u8 sText_Stats_SLOW[] = _("SLOW");
+static const u8 sText_Stats_CatchRate[] = _("捕获率：");
+static const u8 sText_Stats_CatchRate_Legend[] = _("传说");
+static const u8 sText_Stats_CatchRate_VeryHard[] = _("非常难");
+static const u8 sText_Stats_CatchRate_Difficult[] = _("难");
+static const u8 sText_Stats_CatchRate_Medium[] = _("普通");
+static const u8 sText_Stats_CatchRate_Relaxed[] = _("容易");
+static const u8 sText_Stats_CatchRate_Easy[] = _("很容易");
+static const u8 sText_Stats_ExpYield[] = _("基础经验：");
+static const u8 sText_Stats_EggCycles[] = _("孵化周期：");
+static const u8 sText_Stats_EggCycles_VeryFast[] = _("很短");
+static const u8 sText_Stats_EggCycles_Fast[] = _("短");
+static const u8 sText_Stats_EggCycles_Normal[] = _("普通");
+static const u8 sText_Stats_EggCycles_Slow[] = _("慢");
+static const u8 sText_Stats_Growthrate[] = _("升级速度：");
+static const u8 sText_Stats_Friendship[] = _("亲密度：");
+static const u8 sText_Stats_Friendship_BigAnger[] = _("低");
+static const u8 sText_Stats_Friendship_Neutral[] = _("普通");
+static const u8 sText_Stats_Friendship_Happy[] = _("高");
+static const u8 sText_Stats_Friendship_BigSmile[] = _("很高");
+static const u8 sText_Stats_MEDIUM_FAST[] = _("较快");
+static const u8 sText_Stats_ERRATIC[] = _("最快");
+static const u8 sText_Stats_FLUCTUATING[] = _("最慢");
+static const u8 sText_Stats_MEDIUM_SLOW[] = _("较慢");
+static const u8 sText_Stats_FAST[] = _("快");
+static const u8 sText_Stats_SLOW[] = _("慢");
 static const u8 sText_Stats_ContestHeart[] = _("H");
 static const u8 sText_Stats_Minus[] = _("-");
-static const u8 sText_Stats_eggGroup[] = _("EGG G1:");
+static const u8 sText_Stats_eggGroup[] = _("蛋组：");
 static const u8 sText_Stats_eggGroup_Groups[] = _("{STR_VAR_1}/{STR_VAR_2}");
-static const u8 sText_Stats_eggGroup_MONSTER[] = _("MONSTER");
-static const u8 sText_Stats_eggGroup_WATER_1[] = _("WATER {CIRCLE_1}");
-static const u8 sText_Stats_eggGroup_BUG[] = _("BUG");
-static const u8 sText_Stats_eggGroup_FLYING[] = _("FLYING");
-static const u8 sText_Stats_eggGroup_FIELD[] = _("FIELD");
-static const u8 sText_Stats_eggGroup_FAIRY[] = _("FAIRY");
-static const u8 sText_Stats_eggGroup_GRASS[] = _("GRASS");
-static const u8 sText_Stats_eggGroup_HUMAN_LIKE[] = _("HUMANE");
-static const u8 sText_Stats_eggGroup_WATER_3[] = _("WATER {CIRCLE_3}");
-static const u8 sText_Stats_eggGroup_MINERAL[] = _("MINERAL");
-static const u8 sText_Stats_eggGroup_AMORPHOUS[] = _("AMORPHOUS");
-static const u8 sText_Stats_eggGroup_WATER_2[] = _("WATER {CIRCLE_2}");
-static const u8 sText_Stats_eggGroup_DITTO[] = _("DITTO");
-static const u8 sText_Stats_eggGroup_DRAGON[] = _("DRAGON");
+static const u8 sText_Stats_eggGroup_MONSTER[] = _("怪兽");
+static const u8 sText_Stats_eggGroup_WATER_1[] = _("水中{CIRCLE_1}");
+static const u8 sText_Stats_eggGroup_BUG[] = _("虫");
+static const u8 sText_Stats_eggGroup_FLYING[] = _("飞行");
+static const u8 sText_Stats_eggGroup_FIELD[] = _("陆上");
+static const u8 sText_Stats_eggGroup_FAIRY[] = _("妖精");
+static const u8 sText_Stats_eggGroup_GRASS[] = _("植物");
+static const u8 sText_Stats_eggGroup_HUMAN_LIKE[] = _("人型");
+static const u8 sText_Stats_eggGroup_WATER_3[] = _("水中{CIRCLE_3}");
+static const u8 sText_Stats_eggGroup_MINERAL[] = _("矿物");
+static const u8 sText_Stats_eggGroup_AMORPHOUS[] = _("不定形");
+static const u8 sText_Stats_eggGroup_WATER_2[] = _("水中{CIRCLE_2}");
+static const u8 sText_Stats_eggGroup_DITTO[] = _("百变怪");
+static const u8 sText_Stats_eggGroup_DRAGON[] = _("龙");
 static const u8 sText_Stats_eggGroup_NO_EGGS_DISCOVERED[] = _("---");
 static const u8 sText_Stats_eggGroup_UNKNOWN[] = _("???");
-static const u8 sText_Dex_SEEN[] = _("SEEN");
-static const u8 sText_Dex_OWN[] = _("OWN");
+static const u8 sText_Dex_SEEN[] = _("遇到");
+static const u8 sText_Dex_OWN[] = _("捕捉");
 
-static const u8 sText_EVO_Buttons[] = _("{DPAD_UPDOWN}EVOs  {A_BUTTON}CHECK");
-static const u8 sText_EVO_Buttons_Decapped[] = _("{DPAD_UPDOWN}Evos  {A_BUTTON}Check");
-static const u8 sText_EVO_Buttons_PE[] = _("{DPAD_UPDOWN}EVOs  {A_BUTTON}CHECK  {START_BUTTON}FORMs");
-static const u8 sText_EVO_Buttons_Decapped_PE[] = _("{DPAD_UPDOWN}Evos  {A_BUTTON}Check  {START_BUTTON}Forms");
-static const u8 sText_EVO_Name[] = _("{STR_VAR_3}:");
-static const u8 sText_EVO_PreEvo[] = _("{STR_VAR_1} evolves from {STR_VAR_2}");
-static const u8 sText_EVO_PreEvo_PE_Mega[] = _("{STR_VAR_1} Mega Evolves with {STR_VAR_2}");
-static const u8 sText_EVO_FRIENDSHIP[] = _("{LV}{UP_ARROW}, high friendship");
-static const u8 sText_EVO_FRIENDSHIP_DAY[] = _("{LV}{UP_ARROW}, high friendship, day");
-static const u8 sText_EVO_FRIENDSHIP_NIGHT[] = _("{LV}{UP_ARROW}, high friendship, night");
-static const u8 sText_EVO_FRIENDSHIP_MOVE_TYPE[] = _("{LV}{UP_ARROW}, high friendship, {STR_VAR_2} move");
-static const u8 sText_EVO_LEVEL[] = _("{LV}{UP_ARROW} to {STR_VAR_2}");
-static const u8 sText_EVO_TRADE[] = _("Trading");
-static const u8 sText_EVO_TRADE_ITEM[] = _("Trading, holding {STR_VAR_2}");
-static const u8 sText_EVO_ITEM[] = _("{STR_VAR_2} is used");
-static const u8 sText_EVO_LEVEL_ATK_GT_DEF[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, Atk > Def");
-static const u8 sText_EVO_LEVEL_ATK_EQ_DEF[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, Atk = Def");
-static const u8 sText_EVO_LEVEL_ATK_LT_DEF[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, Atk < Def");
-static const u8 sText_EVO_LEVEL_SILCOON[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, Silcoon persona");
-static const u8 sText_EVO_LEVEL_CASCOON[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, Cascoon persona");
-static const u8 sText_EVO_LEVEL_NINJASK[] = _("{LV}{UP_ARROW} to {STR_VAR_2}");
-static const u8 sText_EVO_LEVEL_SHEDINJA[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, party<6, 1x POKéBALL");
-static const u8 sText_EVO_BEAUTY[] = _("{LV}{UP_ARROW}, high beauty");
-static const u8 sText_EVO_LEVEL_FEMALE[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, is female");
-static const u8 sText_EVO_LEVEL_MALE[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, is male");
-static const u8 sText_EVO_LEVEL_NIGHT[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, night");
-static const u8 sText_EVO_LEVEL_DAY[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, day");
-static const u8 sText_EVO_LEVEL_DUSK[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, dusk (5-6PM)");
-static const u8 sText_EVO_ITEM_HOLD_DAY[] = _("{LV}{UP_ARROW}, holds {STR_VAR_2}, day");
-static const u8 sText_EVO_ITEM_HOLD_NIGHT[] = _("{LV}{UP_ARROW}, holds {STR_VAR_2}, night");
-static const u8 sText_EVO_MOVE[] = _("{LV}{UP_ARROW}, knows {STR_VAR_2}");
-static const u8 sText_EVO_MAPSEC[] = _("{LV}{UP_ARROW} on {STR_VAR_2}");
-static const u8 sText_EVO_ITEM_MALE[] = _("{STR_VAR_2} used on male");
-static const u8 sText_EVO_ITEM_FEMALE[] = _("{STR_VAR_2} used on female");
-static const u8 sText_EVO_LEVEL_RAIN[] = _("{LV}{UP_ARROW} to {STR_VAR_2} while raining");
-static const u8 sText_EVO_SPECIFIC_MON_IN_PARTY[] = _("{LV}{UP_ARROW} with {STR_VAR_2} in party");
-static const u8 sText_EVO_LEVEL_DARK_TYPE_MON_IN_PARTY[] = _("{LV}{UP_ARROW} with dark type in party");
-static const u8 sText_EVO_TRADE_SPECIFIC_MON[] = _("Traded for {STR_VAR_2}");
-static const u8 sText_EVO_SPECIFIC_MAP[] = _("{LV}{UP_ARROW} on {STR_VAR_2}");
-static const u8 sText_EVO_LEVEL_NATURE_AMPED[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, Amped natures");
-static const u8 sText_EVO_LEVEL_NATURE_LOW_KEY[] = _("{LV}{UP_ARROW} to {STR_VAR_2}, Low Key natures");
-static const u8 sText_EVO_CRITICAL_HITS[] = _("Land {STR_VAR_2} critical hits in\nsingle battle");
-static const u8 sText_EVO_SCRIPT_TRIGGER_DMG[] = _("Takes at least {STR_VAR_2} HP in damage");
-static const u8 sText_EVO_DARK_SCROLL[] = _("ScrllOfDrknss is used");
-static const u8 sText_EVO_WATER_SCROLL[] = _("ScrollOfWatrs is used");
-static const u8 sText_EVO_ITEM_NIGHT[] = _("{STR_VAR_2} is used, night");
-static const u8 sText_EVO_ITEM_DAY[] = _("{STR_VAR_2} is used, day");
-static const u8 sText_EVO_ITEM_HOLD[] = _("{LV}{UP_ARROW}, holds {STR_VAR_2}");
-static const u8 sText_EVO_USE_MOVE_TWENTY_TIMES[] = _("{LV}{UP_ARROW} after 20x {STR_VAR_2}");
-static const u8 sText_EVO_RECOIL_DAMAGE_MALE[] = _("{LV}{UP_ARROW} with {STR_VAR_2} recoil, male");
-static const u8 sText_EVO_RECOIL_DAMAGE_FEMALE[] = _("{LV}{UP_ARROW} with {STR_VAR_2} recoil, female");
-static const u8 sText_EVO_ITEM_COUNT_999[] = _("{LV}{UP_ARROW} with 999 {STR_VAR_2} in bag");
-static const u8 sText_EVO_DEFEAT_THREE_WITH_ITEM[] = _("{LV}{UP_ARROW} defeating 3 {STR_VAR_3} holding {STR_VAR_2}");
-static const u8 sText_EVO_OVERWORLD_STEPS[] = _("{LV}{UP_ARROW} after {STR_VAR_2} steps");
-static const u8 sText_EVO_UNKNOWN[] = _("Method unknown");
-static const u8 sText_EVO_NONE[] = _("{STR_VAR_1} has no evolution.");
+static const u8 sText_EVO_Buttons[] = _("{DPAD_UPDOWN}进化  {A_BUTTON}确认");
+static const u8 sText_EVO_Buttons_Decapped[] = _("{DPAD_UPDOWN}进化  {A_BUTTON}确认");
+static const u8 sText_EVO_Buttons_PE[] = _("{DPAD_UPDOWN}进化  {A_BUTTON}确认  {START_BUTTON}形态");
+static const u8 sText_EVO_Buttons_Decapped_PE[] = _("{DPAD_UPDOWN}进化  {A_BUTTON}确认  {START_BUTTON}形态");
+static const u8 sText_EVO_Name[] = _("{STR_VAR_3}：");
+static const u8 sText_EVO_PreEvo[] = _("{STR_VAR_1}由{STR_VAR_2}进化而来");
+static const u8 sText_EVO_PreEvo_PE_Mega[] = _("由{STR_VAR_1}携带{STR_VAR_2}超级进化而来");
+static const u8 sText_EVO_LEVEL_SILCOON[] = _("等级{STR_VAR_2}以上，特定性格值");
+static const u8 sText_EVO_LEVEL_CASCOON[] = _("等级{STR_VAR_2}以上，特定性格值");
+static const u8 sText_EVO_MOVE[] = _("，学会{STR_VAR_2}");
+static const u8 sText_EVO_LEVEL_RAIN[] = _("等级{STR_VAR_2}以上(雨天)");
+static const u8 sText_EVO_TRADE_SPECIFIC_MON[] = _("与{STR_VAR_2}连接交换");
+static const u8 sText_EVO_CRITICAL_HITS[] = _("一次对战中击中要害{STR_VAR_2}次");
+static const u8 sText_EVO_SCRIPT_TRIGGER_DMG[] = _("受到至少{STR_VAR_2}点以上的伤害");
+static const u8 sText_EVO_DARK_SCROLL[] = _("使用恶之挂轴");
+static const u8 sText_EVO_WATER_SCROLL[] = _("使用水之挂轴");
+static const u8 sText_EVO_USE_MOVE_TWENTY_TIMES[] = _("使用{STR_VAR_2}20次后升级");
+static const u8 sText_EVO_RECOIL_DAMAGE_MALE[] = _("累计受到{STR_VAR_2}点反作用力升级(雄性)");
+static const u8 sText_EVO_RECOIL_DAMAGE_FEMALE[] = _("累计受到{STR_VAR_2}点反作用力升级(雌性)");
+static const u8 sText_EVO_DEFEAT_THREE_WITH_ITEM[] = _("击败3只携带{STR_VAR_2}的{STR_VAR_3}");
+static const u8 sText_EVO_NONE[] = _("{STR_VAR_1}没有进化形态。");
 
-static const u8 sText_FORMS_Buttons_PE[] = _("{A_BUTTON}FORM MODE  {START_BUTTON}EVOs");
-static const u8 sText_FORMS_Buttons_Decapped_PE[] = _("{START_BUTTON}Evos");
-static const u8 sText_FORMS_Buttons_Submenu_PE[] = _("{DPAD_NONE}FORMs {A_BUTTON}CHECK {START_BUTTON}EVOs");
-static const u8 sText_FORMS_Buttons_Submenu_Decapped_PE[] = _("{START_BUTTON}Evos");
-static const u8 sText_FORMS_NONE[] = _("{STR_VAR_1} has no alternate forms.");
+static const u8 sText_FORMS_Buttons_PE[] = _("{A_BUTTON}形态模式  {START_BUTTON}进化模式");
+static const u8 sText_FORMS_Buttons_Decapped_PE[] = _("{START_BUTTON}进化");
+static const u8 sText_FORMS_Buttons_Submenu_PE[] = _("{DPAD_NONE}形态   {A_BUTTON}确认   {START_BUTTON}进化");
+static const u8 sText_FORMS_Buttons_Submenu_Decapped_PE[] = _("{START_BUTTON}进化");
+static const u8 sText_FORMS_NONE[] = _("{STR_VAR_1}没有其他形态。");
 static const u8 sText_PlusSymbol[] = _("+");
 
 // static .rodata graphics
@@ -297,9 +267,6 @@ static const u32 sPokedexPlusHGSS_ScreenSearchHoenn_Tilemap[] = INCBIN_U32("grap
 static const u32 sPokedexPlusHGSS_ScreenSearchNational_Tilemap[] = INCBIN_U32("graphics/pokedex/hgss/tilemap_search_screen_national.bin.lz");
 
 #define SCROLLING_MON_X 146
-#define HGSS_DECAPPED FALSE
-#define HGSS_DARK_MODE FALSE
-#define HGSS_HIDE_UNSEEN_EVOLUTION_NAMES FALSE
 
 // For scrolling search parameter
 #define MAX_SEARCH_PARAM_ON_SCREEN   6
@@ -312,6 +279,9 @@ static const u32 sPokedexPlusHGSS_ScreenSearchNational_Tilemap[] = INCBIN_U32("g
 
 #define POKEBALL_ROTATION_TOP    64
 #define POKEBALL_ROTATION_BOTTOM (POKEBALL_ROTATION_TOP - 16)
+
+// for evolution method listings
+#define MAX_EVO_METHOD_LINES 10
 
 // Coordinates of the Pokémon sprite on its page (info/cry screens)
 #define MON_PAGE_X 48
@@ -407,6 +377,7 @@ struct EvoScreenData
     u8 menuPos;
     u8 arrowSpriteId;
     bool8 isMega;
+    u32 arrowSpriteDist[10];
 };
 
 struct FromScreenData
@@ -433,7 +404,7 @@ struct PokedexView
     u16 monSpriteIds[MAX_MONS_ON_SCREEN];
     u8 typeIconSpriteIds[2];
     u16 moveSelected;
-    u8 movesTotal;
+    u16 movesTotal;
     u8 statBarsSpriteId;
     u8 statBarsBgSpriteId;
     bool8 justScrolled;
@@ -526,7 +497,8 @@ static void Task_HandleInfoScreenInput(u8);
 static void Task_SwitchScreensFromInfoScreen(u8);
 static void Task_LoadInfoScreenWaitForFade(u8);
 static void Task_ExitInfoScreen(u8);
-static void Task_LoadAreaScreen(u8);
+static void Task_LoadAreaScreen(u8 taskId);
+static void Task_ReloadAreaScreen(u8 taskId);
 static void Task_WaitForAreaScreenInput(u8 taskId);
 static void Task_SwitchScreensFromAreaScreen(u8);
 static void Task_LoadCryScreen(u8);
@@ -596,13 +568,13 @@ static void PrintStatsScreen_Moves_Bottom(u8 taskId);
 static void PrintStatsScreen_Left(u8 taskId);
 static void PrintStatsScreen_Abilities(u8 taskId);
 static void PrintInfoScreenTextWhite(const u8* str, u8 left, u8 top);
-static void PrintInfoScreenTextSmall(const u8* str, u8 left, u8 top);
+static void PrintInfoScreenTextSmall(const u8* str, u8 fontId, u8 left, u8 top);
 static void PrintInfoScreenTextSmallWhite(const u8* str, u8 left, u8 top);
 static void Task_LoadEvolutionScreen(u8 taskId);
 static void Task_HandleEvolutionScreenInput(u8 taskId);
 static void Task_SwitchScreensFromEvolutionScreen(u8 taskId);
 static void Task_ExitEvolutionScreen(u8 taskId);
-static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 depth, u32 *depth_i, u32 alreadyPrintedIcons[], u32 *icon_depth_i);
+static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 depth, u32 *depth_i, u32 alreadyPrintedIcons[], u32 *icon_depth_i, u32 numLines);
 static u8 PrintPreEvolutions(u8 taskId, u16 species);
 //Stat bars on scrolling screens
 static void TryDestroyStatBars(void);
@@ -624,6 +596,12 @@ static u8 ShowCategoryIcon(u32 category);
 static void DestroyCategoryIcon(void);
 
 static u16 NationalPokedexNumToSpeciesHGSS(u16 nationalNum);
+
+//Evo screen
+u32 GetSpeciesNameFontId(u32 nameWidth);
+u32 GetSpeciesNameWidthInChars(const u8 *speciesName);
+bool32 IsSpeciesAlcremie(u32 targetSpecies);
+bool32 IsItemSweet(u32 item);
 
 //Stat bars by DizzyEgg
 #define TAG_STAT_BAR 4097
@@ -2656,7 +2634,7 @@ static void PrintMonDexNumAndName_2(u8 windowId, u8 fontId, const u8* str, u8 le
     color[0] = TEXT_COLOR_TRANSPARENT;
     color[1] = TEXT_DYNAMIC_COLOR_6;
     color[2] = TEXT_COLOR_LIGHT_GRAY;
-    AddTextPrinterParameterized4(windowId, fontId, left * 8 - 13, (top * 8) + 1, 0, 0, color, -1, str);
+    AddTextPrinterParameterized4(windowId, fontId, left * 8 - 13, (top * 8) + 1, 0, 0, color, TEXT_SKIP_DRAW, str);
 }
 
 // u16 ignored is passed but never used
@@ -3736,6 +3714,7 @@ static u8 LoadInfoScreen(struct PokedexListItem *item, u8 monSpriteId)
     u8 taskId;
 
     sPokedexListItem = item;
+    gAreaTimeOfDay = GetTimeOfDayForDex();
     taskId = CreateTask(Task_LoadInfoScreen, 0);
     gTasks[taskId].tScrolling = FALSE;
     gTasks[taskId].tMonSpriteDone = TRUE; // Already has sprite from list view
@@ -3994,9 +3973,31 @@ static void Task_LoadAreaScreen(u8 taskId)
         gMain.state++;
         break;
     case 2:
-        ShowPokedexAreaScreen(NationalPokedexNumToSpeciesHGSS(sPokedexListItem->dexNum), &sPokedexView->screenSwitchState);
+        DisplayPokedexAreaScreen(NationalPokedexNumToSpeciesHGSS(sPokedexListItem->dexNum), &sPokedexView->screenSwitchState, gAreaTimeOfDay, DEX_SHOW_AREA_SCREEN);
         SetVBlankCallback(gPokedexVBlankCB);
         sPokedexView->screenSwitchState = 0;
+        gMain.state = 0;
+        gTasks[taskId].func = Task_WaitForAreaScreenInput;
+        break;
+    }
+}
+
+static void Task_ReloadAreaScreen(u8 taskId)
+{
+    switch (gMain.state)
+    {
+    case 0:
+    default:
+        sPokedexView->currentPage = PAGE_AREA;
+        gMain.state = 1;
+        break;
+    case 1:
+        LoadPokedexBgPalette(sPokedexView->isSearchResults);
+        SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_PRIORITY(0) | BGCNT_CHARBASE(0) | BGCNT_SCREENBASE(13) | BGCNT_16COLOR | BGCNT_TXT256x256);
+        gMain.state++;
+        break;
+    case 2:
+        DisplayPokedexAreaScreen(NationalPokedexNumToSpeciesHGSS(sPokedexListItem->dexNum), &sPokedexView->screenSwitchState, gAreaTimeOfDay, DEX_UPDATE_AREA_SCREEN);
         gMain.state = 0;
         gTasks[taskId].func = Task_WaitForAreaScreenInput;
         break;
@@ -4025,6 +4026,9 @@ static void Task_SwitchScreensFromAreaScreen(u8 taskId)
                 PlaySE(SE_FAILURE);
             else
                 gTasks[taskId].func = Task_LoadStatsScreen;
+            break;
+        case 3:
+            gTasks[taskId].func = Task_ReloadAreaScreen;
             break;
         }
     }
@@ -4208,7 +4212,7 @@ static void Task_ExitCaughtMonPage(u8 taskId)
         u32 otId;
         u32 personality;
         u8 paletteNum;
-        const u32 *lzPaletteData;
+        const u16 *paletteData;
         void *buffer;
 
         SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
@@ -4224,8 +4228,8 @@ static void Task_ExitCaughtMonPage(u8 taskId)
         otId = ((u16)gTasks[taskId].tOtIdHi << 16) | (u16)gTasks[taskId].tOtIdLo;
         personality = ((u16)gTasks[taskId].tPersonalityHi << 16) | (u16)gTasks[taskId].tPersonalityLo;
         paletteNum = gSprites[gTasks[taskId].tMonSpriteId].oam.paletteNum;
-        lzPaletteData = GetMonSpritePalFromSpeciesAndPersonality(species, otId, personality);
-        LoadCompressedPalette(lzPaletteData, OBJ_PLTT_ID(paletteNum), PLTT_SIZE_4BPP);
+        paletteData = GetMonSpritePalFromSpeciesAndPersonality(species, otId, personality);
+        LoadPalette(paletteData, OBJ_PLTT_ID(paletteNum), PLTT_SIZE_4BPP);
         DestroyTask(taskId);
     }
 }
@@ -4252,12 +4256,6 @@ static void SpriteCB_SlideCaughtMonToCenter(struct Sprite *sprite)
 #undef tPersonalityLo
 #undef tPersonalityHi
 
-
-
-
-
-
-
 //************************************
 //*                                  *
 //*        Print data                *
@@ -4281,14 +4279,14 @@ static void PrintInfoScreenTextWhite(const u8* str, u8 left, u8 top)
 
     AddTextPrinterParameterized4(0, FONT_NORMAL, left, top, 0, 0, color, TEXT_SKIP_DRAW, str);
 }
-static void PrintInfoScreenTextSmall(const u8* str, u8 left, u8 top)
+static void PrintInfoScreenTextSmall(const u8* str, u8 fontId, u8 left, u8 top)
 {
     u8 color[3];
     color[0] = TEXT_COLOR_TRANSPARENT;
     color[1] = TEXT_DYNAMIC_COLOR_6;
     color[2] = TEXT_COLOR_LIGHT_GRAY;
 
-    AddTextPrinterParameterized4(0, 0, left, top, 0, 0, color, 0, str);
+    AddTextPrinterParameterized4(0, fontId, left, top, 0, 0, color, 0, str);
 }
 static void UNUSED PrintInfoScreenTextSmallWhite(const u8* str, u8 left, u8 top)
 {
@@ -4382,7 +4380,7 @@ static void CreateTypeIconSprites(void)
     u8 i;
 
     LoadCompressedSpriteSheet(&gSpriteSheet_MoveTypes);
-    LoadCompressedPalette(gMoveTypes_Pal, 0x1D0, 0x60);
+    LoadPalette(gMoveTypes_Pal, 0x1D0, 0x60);
     for (i = 0; i < 2; i++)
     {
         if (sPokedexView->typeIconSpriteIds[i] == 0xFF)
@@ -4408,13 +4406,13 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     else
         value = num;
     ConvertIntToDecimalStringN(StringCopy(str, gText_NumberClear01), value, STR_CONV_MODE_LEADING_ZEROS, digitCount);
-    PrintInfoScreenTextWhite(str, 123, 17);
+    PrintInfoScreenTextWhite(str, 123, 18);
     species = NationalPokedexNumToSpeciesHGSS(num);
     if (species)
         name = GetSpeciesName(species);
     else
         name = sText_TenDashes;
-    PrintInfoScreenTextWhite(name, 139 + (6 * digitCount), 17);
+    PrintInfoScreenTextWhite(name, 139 + (6 * digitCount), 18);
     if (owned)
     {
         CopyMonCategoryText(species, str2);
@@ -4424,13 +4422,13 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     {
         category = gText_5MarksPokemon;
     }
-    PrintInfoScreenText(category, 123, 31);
+    PrintInfoScreenText(category, 123, 32);
     PrintMonMeasurements(species,owned);
     if (owned)
         description = GetSpeciesPokedexDescription(species);
     else
         description = sExpandedPlaceholder_PokedexDescription;
-    PrintInfoScreenText(description, GetStringCenterAlignXOffset(FONT_NORMAL, description, 0xF0), 93);
+    PrintInfoScreenText(description, GetStringCenterAlignXOffset(FONT_NORMAL, description, 0xF0), 102);
 
     //Type Icon(s)
     if (owned)
@@ -4678,45 +4676,27 @@ static void LoadTilesetTilemapHGSS(u8 page)
     switch (page)
     {
     case INFO_SCREEN:
-        if (!HGSS_DECAPPED)
-            DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_1_Gfx, 0x2000, 0, 0);
-        else
-            DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_1_Gfx, 0x2000, 0, 0);
+        DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_1_Gfx, 0x2000, 0, 0);
         CopyToBgTilemapBuffer(3, sPokedexPlusHGSS_ScreenInfo_Tilemap, 0, 0);
         break;
     case STATS_SCREEN:
-        if (!HGSS_DECAPPED)
-            DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_1_Gfx, 0x2000, 0, 0);
-        else
-            DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_1_Gfx, 0x2000, 0, 0);
+        DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_1_Gfx, 0x2000, 0, 0);
         CopyToBgTilemapBuffer(3, sPokedexPlusHGSS_ScreenStats_Tilemap, 0, 0);
         break;
     case EVO_SCREEN:
-        if (!HGSS_DECAPPED)
-            DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_2_Gfx, 0x2000, 0, 0);
-        else
-            DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_2_Gfx, 0x2000, 0, 0);
-            CopyToBgTilemapBuffer(3, sPokedexPlusHGSS_ScreenEvolution_Tilemap_PE, 0, 0);
+        DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_2_Gfx, 0x2000, 0, 0);
+        CopyToBgTilemapBuffer(3, sPokedexPlusHGSS_ScreenEvolution_Tilemap_PE, 0, 0);
         break;
     case FORMS_SCREEN:
-        if (!HGSS_DECAPPED)
-            DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_2_Gfx, 0x2000, 0, 0);
-        else
-            DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_2_Gfx, 0x2000, 0, 0);
+        DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_2_Gfx, 0x2000, 0, 0);
         CopyToBgTilemapBuffer(3, sPokedexPlusHGSS_ScreenForms_Tilemap, 0, 0);
         break;
     case CRY_SCREEN:
-        if (!HGSS_DECAPPED)
-            DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_3_Gfx, 0x2000, 0, 0);
-        else
-            DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_3_Gfx, 0x2000, 0, 0);
+        DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_3_Gfx, 0x2000, 0, 0);
         CopyToBgTilemapBuffer(3, sPokedexPlusHGSS_ScreenCry_Tilemap, 0, 0);
         break;
     case SIZE_SCREEN:
-        if (!HGSS_DECAPPED)
-            DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_3_Gfx, 0x2000, 0, 0);
-        else
-            DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_3_Gfx, 0x2000, 0, 0);
+        DecompressAndLoadBgGfxUsingHeap(3, sPokedexPlusHGSS_Menu_3_Gfx, 0x2000, 0, 0);
         CopyToBgTilemapBuffer(3, sPokedexPlusHGSS_ScreenSize_Tilemap, 0, 0);
         break;
     }
@@ -4868,7 +4848,7 @@ static void Task_LoadStatsScreen(u8 taskId)
         sPokedexView->typeIconSpriteIds[1] = 0xFF;
         CreateTypeIconSprites();
         sPokedexView->categoryIconSpriteId = 0xFF;
-        LoadCompressedPalette(gMoveTypes_Pal, 0x1D0, 0x60);
+        LoadPalette(gMoveTypes_Pal, 0x1D0, 0x60);
         LoadCompressedSpriteSheet(&gSpriteSheet_CategoryIcons);
         LoadSpritePalette(&gSpritePal_CategoryIcons);
         gMain.state++;
@@ -4985,7 +4965,7 @@ static void Task_HandleStatsScreenInput(u8 taskId)
 
         FillWindowPixelBuffer(WIN_STATS_MOVES_DESCRIPTION, PIXEL_FILL(0));
         PrintStatsScreen_Moves_Description(taskId);
-
+        PrintStatsScreen_Moves_Top(taskId);//修正a键切换时属性图标没有变成华丽大赛的问题
         FillWindowPixelBuffer(WIN_STATS_MOVES_BOTTOM, PIXEL_FILL(0));
         PrintStatsScreen_Moves_BottomText(taskId);
         PrintStatsScreen_Moves_Bottom(taskId);
@@ -5067,78 +5047,124 @@ static void PrintStatsScreen_DestroyMoveItemIcon(u8 taskId)
     DestroySprite(&gSprites[gTasks[taskId].data[3]]);       //Destroy item icon
 }
 
+static u16 AddTMTutorMoves(u16 species, u16 movesTotal, u8 *numTMHMMoves, u8 *numTutorMoves)
+{
+    u16 i, move;
+    bool8 isTMMove[MOVES_COUNT] = {0};
+    const u16 *teachableLearnset = GetSpeciesTeachableLearnset(species);
+
+    // TM Moves
+    if (HGSS_SORT_TMS_BY_NUM)
+    {
+        for (i = 0; i < NUM_TECHNICAL_MACHINES + NUM_HIDDEN_MACHINES; i++)
+        {
+            move = ItemIdToBattleMoveId(ITEM_TM01 + i);
+            if (move != MOVE_NONE && CanLearnTeachableMove(species, move))
+            {
+                isTMMove[move] = TRUE;
+                sStatsMovesTMHM_ID[*numTMHMMoves] = ITEM_TM01 + i;
+                (*numTMHMMoves)++;
+                sStatsMoves[movesTotal] = move;
+                movesTotal++;
+            }
+        }
+    }
+    else
+    {
+        for (i = 0; teachableLearnset[i] != MOVE_UNAVAILABLE; i++)
+        {
+            move = teachableLearnset[i];
+            for (u16 j = 0; j < NUM_TECHNICAL_MACHINES + NUM_HIDDEN_MACHINES; j++)
+            {
+                if (ItemIdToBattleMoveId(ITEM_TM01 + j) == move)
+                {
+                    isTMMove[move] = TRUE;
+                    sStatsMovesTMHM_ID[*numTMHMMoves] = ITEM_TM01 + j;
+                    (*numTMHMMoves)++;
+                    sStatsMoves[movesTotal] = move;
+                    movesTotal++;
+                    break;
+                }
+            }
+        }
+    }
+
+    // Tutor Moves
+#if P_TUTOR_MOVES_ARRAY
+    for (i = 0; gTutorMoves[i] != MOVE_UNAVAILABLE; i++)
+    {
+        move = gTutorMoves[i];
+        if (!isTMMove[move] && CanLearnTeachableMove(species, move))
+        {
+            sStatsMoves[movesTotal] = move;
+            movesTotal++;
+            (*numTutorMoves)++;
+        }
+    }
+#else
+    for (i = 0; teachableLearnset[i] != MOVE_UNAVAILABLE; i++)
+    {
+        move = teachableLearnset[i];
+        if (!isTMMove[move] && CanLearnTeachableMove(species, move))
+        {
+            sStatsMoves[movesTotal] = move;
+            movesTotal++;
+            (*numTutorMoves)++;
+        }
+    }
+#endif
+    return movesTotal;
+}
+
 static bool8 CalculateMoves(void)
 {
     u16 species = NationalPokedexNumToSpeciesHGSS(sPokedexListItem->dexNum);
-    const u16 *teachableLearnset = GetSpeciesTeachableLearnset(species);
 
     u16 statsMovesEgg[EGG_MOVES_ARRAY_COUNT] = {0};
     u16 statsMovesLevelUp[MAX_LEVEL_UP_MOVES] = {0};
-    u16 move;
 
     u8 numEggMoves = 0;
     u8 numLevelUpMoves = 0;
     u8 numTMHMMoves = 0;
     u8 numTutorMoves = 0;
     u16 movesTotal = 0;
-    u8 i,j;
+    u8 i;
 
-    // Mega pokemon don't have distinct learnsets from their base form; so use base species for calculation
-    if (species >= SPECIES_VENUSAUR_MEGA && species <= SPECIES_GROUDON_PRIMAL)
+    // Mega and Gmax Pokémon don't have distinct learnsets from their base form; so use base species for calculation
+    if (gSpeciesInfo[species].isMegaEvolution || gSpeciesInfo[species].isGigantamax)
         species = GetFormSpeciesId(species, 0);
 
-    //Calculate amount of Egg and LevelUp moves
-    numEggMoves = GetEggMovesBySpecies(species, statsMovesEgg);
-    numLevelUpMoves = GetLevelUpMovesBySpecies(species, statsMovesLevelUp);
+    // Egg moves
+    if (HGSS_SHOW_EGG_MOVES_FOR_EVOS)
+    {
+        u16 preSpecies = species;
+        while (preSpecies != SPECIES_NONE)
+        {
+            numEggMoves = GetEggMovesBySpecies(preSpecies, statsMovesEgg);
+            preSpecies = GetSpeciesPreEvolution(preSpecies);
+        }
+    }
+    else
+    {
+        numEggMoves = GetEggMovesBySpecies(species, statsMovesEgg);
+    }
 
-    //Egg moves
-    for (i=0; i < numEggMoves; i++)
+    for (i = 0; i < numEggMoves; i++)
     {
         sStatsMoves[movesTotal] = statsMovesEgg[i];
         movesTotal++;
     }
 
-    //Level up moves
-    for (i=0; i < numLevelUpMoves; i++)
+    // Level up moves
+    numLevelUpMoves = GetLevelUpMovesBySpecies(species, statsMovesLevelUp);
+    for (i = 0; i < numLevelUpMoves; i++)
     {
         sStatsMoves[movesTotal] = statsMovesLevelUp[i];
         movesTotal++;
     }
 
-    for (i = 0; teachableLearnset[i] != MOVE_UNAVAILABLE; i++)
-    {
-        move = teachableLearnset[i];
-        for (j = 0; j < NUM_TECHNICAL_MACHINES + NUM_HIDDEN_MACHINES; j++)
-        {
-            if (ItemIdToBattleMoveId(ITEM_TM01 + j) == move)
-            {
-                sStatsMovesTMHM_ID[numTMHMMoves] = (ITEM_TM01 + j);
-                numTMHMMoves++;
-
-                sStatsMoves[movesTotal] = move;
-                movesTotal++;
-                break;
-            }
-        }
-    }
-
-    for (i = 0; teachableLearnset[i] != MOVE_UNAVAILABLE; i++)
-    {
-        move = teachableLearnset[i];
-        for (j = 0; j < NUM_TECHNICAL_MACHINES + NUM_HIDDEN_MACHINES; j++)
-        {
-            if (ItemIdToBattleMoveId(ITEM_TM01 + j) == move)
-                break;
-        }
-
-        if (j >= NUM_TECHNICAL_MACHINES + NUM_HIDDEN_MACHINES)
-        {
-            numTutorMoves++;
-
-            sStatsMoves[movesTotal] = move;
-            movesTotal++;
-        }
-    }
+    // TM and Tutor moves
+    movesTotal = AddTMTutorMoves(species, movesTotal, &numTMHMMoves, &numTutorMoves);
 
     sPokedexView->numEggMoves = numEggMoves;
     sPokedexView->numLevelUpMoves = numLevelUpMoves;
@@ -5155,8 +5181,8 @@ static void PrintStatsScreen_Moves_Top(u8 taskId)
     u8 numLevelUpMoves  = sPokedexView->numLevelUpMoves;
     u8 numTMHMMoves     = sPokedexView->numTMHMMoves;
     u8 numTutorMoves    = sPokedexView->numTutorMoves;
-    u8 movesTotal       = sPokedexView->movesTotal;
-    u8 selected         = sPokedexView->moveSelected;
+    u16 movesTotal      = sPokedexView->movesTotal;
+    u16 selected        = sPokedexView->moveSelected;
     u8 level;
     u8 moves_x = 5;
     u8 moves_y = 3;
@@ -5208,7 +5234,15 @@ static void PrintStatsScreen_Moves_Top(u8 taskId)
     else if (selected < (numEggMoves + numLevelUpMoves + numTMHMMoves))
     {
         CopyItemName(sStatsMovesTMHM_ID[(selected-numEggMoves-numLevelUpMoves)], gStringVar1); //TM name
-        PrintStatsScreenTextSmall(WIN_STATS_MOVES_TOP, gStringVar1, moves_x + 113, moves_y + 9);
+        if (StringCompareN(gStringVar1, COMPOUND_STRING("招式学习器"), 10))//判断道具名称前五个汉字
+        {
+            PrintStatsScreenTextSmall(WIN_STATS_MOVES_TOP, sText_Stats_MoveHM, moves_x + 113, moves_y + 3);
+        }
+        else
+        {
+            PrintStatsScreenTextSmall(WIN_STATS_MOVES_TOP, sText_Stats_MoveTM, moves_x + 113, moves_y + 3);
+        }
+        PrintStatsScreenTextSmall(WIN_STATS_MOVES_TOP, gStringVar1 + 10, moves_x + 113, moves_y + 14);//截掉道具名称前五个汉字
         item = sStatsMovesTMHM_ID[(selected-numEggMoves-numLevelUpMoves)];
     }
     else if (selected < (numEggMoves + numLevelUpMoves + numTMHMMoves + numTutorMoves))
@@ -5232,7 +5266,7 @@ static void PrintStatsScreen_Moves_Top(u8 taskId)
 
 static void PrintStatsScreen_Moves_Description(u8 taskId)
 {
-    u8 selected = sPokedexView->moveSelected;
+    u16 selected = sPokedexView->moveSelected;
     u16 move;
     u8 moves_x = 5;
     u8 moves_y = 5;
@@ -5295,7 +5329,7 @@ static void PrintStatsScreen_Moves_Bottom(u8 taskId)
         PrintStatsScreenTextSmall(WIN_STATS_MOVES_BOTTOM, gStringVar1, moves_x + 45, moves_y);
         //Physical/Special/Status Category
         DestroyCategoryIcon();
-        ShowCategoryIcon(GetBattleMoveCategory(move));
+        ShowCategoryIcon(GetMoveCategory(move));
         //Accuracy
         u32 accuracy = GetMoveAccuracy(move);
         if (accuracy == 0)
@@ -5602,18 +5636,34 @@ static void PrintStatsScreen_Left(u8 taskId)
 
         //Catch rate
         PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate, base_x, base_y + base_y_offset*base_i);
-        if (catchRate <= 10)
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Legend, base_x + x_offset_column, base_y + base_y_offset*base_i);
+        // if (catchRate <= 10)
+        //     PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Legend, base_x + x_offset_column, base_y + base_y_offset*base_i);
+        // else if (catchRate <= 70)
+        //     PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_VeryHard, base_x + x_offset_column, base_y + base_y_offset*base_i);
+        // else if (catchRate <= 100)
+        //     PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Difficult, base_x + x_offset_column, base_y + base_y_offset*base_i);
+        // else if (catchRate <= 150)
+        //     PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Medium, base_x + x_offset_column, base_y + base_y_offset*base_i);
+        // else if (catchRate <= 200)
+        //     PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Relaxed, base_x + x_offset_column, base_y + base_y_offset*base_i);
+        // else
+        //     PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Easy, base_x + x_offset_column, base_y + base_y_offset*base_i);
+
+        if (catchRate <= 10)//修改为右对齐
+            StringCopy(strEV, sText_Stats_CatchRate_Legend);
         else if (catchRate <= 70)
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_VeryHard, base_x + x_offset_column, base_y + base_y_offset*base_i);
+            StringCopy(strEV, sText_Stats_CatchRate_VeryHard);
         else if (catchRate <= 100)
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Difficult, base_x + x_offset_column, base_y + base_y_offset*base_i);
+            StringCopy(strEV, sText_Stats_CatchRate_Difficult);
         else if (catchRate <= 150)
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Medium, base_x + x_offset_column, base_y + base_y_offset*base_i);
+            StringCopy(strEV, sText_Stats_CatchRate_Medium);
         else if (catchRate <= 200)
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Relaxed, base_x + x_offset_column, base_y + base_y_offset*base_i);
+            StringCopy(strEV, sText_Stats_CatchRate_Relaxed);
         else
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_CatchRate_Easy, base_x + x_offset_column, base_y + base_y_offset*base_i);
+            StringCopy(strEV, sText_Stats_CatchRate_Easy);
+
+        align_x = GetStringRightAlignXOffset(0, strEV, total_x);
+        PrintStatsScreenTextSmall(WIN_STATS_LEFT, strEV, align_x, base_y + base_y_offset*base_i);
         base_i++;
 
         //Growth rate
@@ -5691,27 +5741,25 @@ static void PrintStatsScreen_Left(u8 taskId)
             if (sPokedexView->sPokemonStats.eggCycles <= 10)
             {
                 StringCopy(strEV, sText_Stats_EggCycles_VeryFast);
-                align_x = 76;
             }
             else if (sPokedexView->sPokemonStats.eggCycles <= 20)
             {
                 StringCopy(strEV, sText_Stats_EggCycles_Fast);
-                align_x = 85;
             }
             else if (sPokedexView->sPokemonStats.eggCycles <= 30)
             {
                 StringCopy(strEV, sText_Stats_EggCycles_Normal);
-                align_x = 76;
             }
             else
             {
                 StringCopy(strEV, sText_Stats_EggCycles_Slow);
-                align_x = 67;
             }
+            align_x = GetStringRightAlignXOffset(0, strEV, total_x);
             PrintStatsScreenTextSmall(WIN_STATS_LEFT, strEV, align_x, base_y + base_y_offset*base_i);
         }
         base_i++;
 
+        PrintStatsScreenTextSmall(WIN_STATS_LEFT, sText_Stats_eggGroup, base_x, base_y + base_y_offset*base_i);//修改蛋组文本展示方式
         //Egg group 1
         switch (sPokedexView->sPokemonStats.eggGroup1)
         {
@@ -5820,12 +5868,12 @@ static void PrintStatsScreen_Left(u8 taskId)
             }
             StringExpandPlaceholders(gStringVar3, sText_Stats_eggGroup_Groups);
             align_x = GetStringRightAlignXOffset(0, gStringVar3, total_x);
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, gStringVar3, base_x, base_y + base_y_offset*base_i);
+            PrintStatsScreenTextSmall(WIN_STATS_LEFT, gStringVar3, align_x, base_y + base_y_offset*base_i);//修改蛋组文本展示方式
         }
         else
         {
             align_x = GetStringRightAlignXOffset(0, gStringVar1, total_x);
-            PrintStatsScreenTextSmall(WIN_STATS_LEFT, gStringVar1, base_x, base_y + base_y_offset*base_i);
+            PrintStatsScreenTextSmall(WIN_STATS_LEFT, gStringVar1, align_x, base_y + base_y_offset*base_i);//修改蛋组文本展示方式
         }
         base_i++;
     }
@@ -6051,7 +6099,7 @@ static void Task_LoadEvolutionScreen(u8 taskId)
         u32 iconDepth = depth;
         //Print evo info and icons
         gTasks[taskId].data[3] = 0;
-        PrintEvolutionTargetSpeciesAndMethod(taskId, NationalPokedexNumToSpeciesHGSS(sPokedexListItem->dexNum), 0, &depth, alreadyPrintedIcons, &iconDepth);
+        PrintEvolutionTargetSpeciesAndMethod(taskId, NationalPokedexNumToSpeciesHGSS(sPokedexListItem->dexNum), 0, &depth, alreadyPrintedIcons, &iconDepth, 0);
         LoadSpritePalette(&gSpritePalette_Arrow);
         GetSeenFlagTargetSpecies();
         if (sPokedexView->sEvoScreenData.numAllEvolutions > 0 && sPokedexView->sEvoScreenData.numSeen > 0)
@@ -6135,7 +6183,7 @@ static void Task_HandleEvolutionScreenInput(u8 taskId)
                 else
                     pos = 0;
             } while (!sPokedexView->sEvoScreenData.seen[pos]);
-            gSprites[sPokedexView->sEvoScreenData.arrowSpriteId].y = base_y + base_y_offset * pos;
+            gSprites[sPokedexView->sEvoScreenData.arrowSpriteId].y = sPokedexView->sEvoScreenData.arrowSpriteDist[pos] + base_y + base_y_offset * pos;
             sPokedexView->sEvoScreenData.menuPos = pos;
         }
         else if (JOY_NEW(DPAD_UP))
@@ -6148,7 +6196,7 @@ static void Task_HandleEvolutionScreenInput(u8 taskId)
                     pos = max;
             } while (!sPokedexView->sEvoScreenData.seen[pos]);
 
-            gSprites[sPokedexView->sEvoScreenData.arrowSpriteId].y = base_y + base_y_offset * pos;
+            gSprites[sPokedexView->sEvoScreenData.arrowSpriteId].y = sPokedexView->sEvoScreenData.arrowSpriteDist[pos] + base_y + base_y_offset * pos;
             sPokedexView->sEvoScreenData.menuPos = pos;
         }
 
@@ -6158,7 +6206,7 @@ static void Task_HandleEvolutionScreenInput(u8 taskId)
             u16 dexNum          = SpeciesToNationalPokedexNum(targetSpecies);
             if (sPokedexView->isSearchResults && sPokedexView->originalSearchSelectionNum == 0)
                 sPokedexView->originalSearchSelectionNum = sPokedexListItem->dexNum;
-                
+
             sPokedexListItem->dexNum = dexNum;
             sPokedexListItem->seen   = GetSetPokedexFlag(dexNum, FLAG_GET_SEEN);
             sPokedexListItem->owned  = GetSetPokedexFlag(dexNum, FLAG_GET_CAUGHT);
@@ -6211,13 +6259,14 @@ static void Task_HandleEvolutionScreenInput(u8 taskId)
 static void HandleTargetSpeciesPrintText(u32 targetSpecies, u32 base_x, u32 base_y, u32 base_y_offset, u32 base_i)
 {
     bool32 seen = GetSetPokedexFlag(SpeciesToNationalPokedexNum(targetSpecies), FLAG_GET_SEEN);
+    u32 fontId = GetSpeciesNameFontId(GetSpeciesNameWidthInChars(GetSpeciesName(targetSpecies)));
 
     if (seen || !HGSS_HIDE_UNSEEN_EVOLUTION_NAMES)
         StringCopy(gStringVar3, GetSpeciesName(targetSpecies)); //evolution mon name
     else
         StringCopy(gStringVar3, gText_ThreeQuestionMarks); //show questionmarks instead of name
     StringExpandPlaceholders(gStringVar3, sText_EVO_Name); //evolution mon name
-    PrintInfoScreenTextSmall(gStringVar3, base_x, base_y + base_y_offset*base_i); //evolution mon name
+    PrintInfoScreenTextSmall(gStringVar3, fontId, base_x, base_y + base_y_offset*base_i); //evolution mon name
 }
 
 static void HandleTargetSpeciesPrintIcon(u8 taskId, u16 targetSpecies, u8 base_i, u8 iterations)
@@ -6239,7 +6288,7 @@ static void CreateCaughtBallEvolutionScreen(u16 targetSpecies, u8 x, u8 y, u16 u
     else
     {
         //FillWindowPixelRect(0, PIXEL_FILL(0), x, y, 8, 16); //not sure why this was even here
-        PrintInfoScreenTextSmall(gText_OneDash, x+1, y-1);
+        PrintInfoScreenTextSmall(gText_OneDash, FONT_SMALL, x+1, y-1);
     }
 }
 
@@ -6263,7 +6312,7 @@ static void HandlePreEvolutionSpeciesPrint(u8 taskId, u16 preSpecies, u16 specie
 
     }
 
-    PrintInfoScreenTextSmall(gStringVar3, base_x, base_y + base_y_offset*base_i); //evolution mon name
+    PrintInfoScreenTextSmall(gStringVar3, FONT_SMALL, base_x, base_y + base_y_offset*base_i); //evolution mon name
 
     if (base_i < 3)
     {
@@ -6385,21 +6434,48 @@ static u8 PrintPreEvolutions(u8 taskId, u16 species)
 #define EVO_SCREEN_CRITS_DIGITS 1
 #define EVO_SCREEN_DMG_DIGITS 2
 
-static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 depth, u32 *depth_i, u32 alreadyPrintedIcons[], u32 *icon_depth_i)
+u32 GetSpeciesNameFontId(u32 nameWidth)
+{
+    if (nameWidth <= 8)
+        return FONT_SMALL;
+    else if (nameWidth > 7 && nameWidth < 11)
+        return FONT_SMALL;//_NARROW;
+    else
+        return FONT_SMALL;//_NARROWER;
+}
+
+u32 GetSpeciesNameWidthInChars(const u8 *speciesName)
+{
+    u32 i = 0;
+
+    while (speciesName[i] != EOS) i++;
+
+    return i;
+}
+
+bool32 IsSpeciesAlcremie(u32 targetSpecies)
+{
+    return GET_BASE_SPECIES_ID(targetSpecies) == SPECIES_ALCREMIE;
+}
+
+bool32 IsItemSweet(u32 item)
+{
+    return item >= ITEM_STRAWBERRY_SWEET && item <= ITEM_RIBBON_SWEET;
+}
+
+static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 depth, u32 *depth_i, u32 alreadyPrintedIcons[], u32 *icon_depth_i, u32 numLines)
 {
     int i;
-    const struct MapHeader *mapHeader;
+    u32 depth_x = 4;
+    u32 depth_offset = 4 * (depth + 1);
+    int fontId;
     u16 targetSpecies = 0;
-
-    u16 item;
-
     bool8 left = TRUE;
-    u8 base_x = 13+8;
-    u8 base_x_offset = 54+8;
-    u8 base_y = 51;
-    u8 base_y_offset = 9;
-    u8 times = 0;
-    u8 depth_x = 16;
+    u32 base_x = 21;
+    u32 base_y = 51;
+    u32 base_y_offset = 9;
+    u32 times = 0;
+    u32 arg; // shorthand for some of the more mathy evolutions
     const struct Evolution *evolutions = GetSpeciesEvolutions(species);
 
     if (sPokedexView->sEvoScreenData.isMega)
@@ -6407,23 +6483,28 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
 
     StringCopy(gStringVar1, GetSpeciesName(species));
 
+    sPokedexView->sEvoScreenData.arrowSpriteDist[depth] = numLines;
+
     //If there are no evolutions print text and return
     if (evolutions == NULL)
     {
         if (depth == 0)
         {
             StringExpandPlaceholders(gStringVar4, sText_EVO_NONE);
-            PrintInfoScreenTextSmall(gStringVar4, base_x-7-7, base_y + base_y_offset*(*depth_i));
+            PrintInfoScreenTextSmall(gStringVar4, FONT_SMALL, base_x-7-7, base_y + base_y_offset*(*depth_i) + numLines);
         }
         return;
     }
 
     //Calculate number of possible direct evolutions (e.g. Eevee has 5 but torchic has 1)
     for (i = 0; evolutions[i].method != EVOLUTIONS_END; i++)
-    {
-        if (evolutions[i].method != 0)
-            times += 1;
-    }
+        times += 1;
+
+    if (times > 9 && species == SPECIES_MILCERY)
+        times = 9;
+    else if (times > 10)
+        times = 10;
+
     gTasks[taskId].data[3] = times;
     sPokedexView->sEvoScreenData.numAllEvolutions += times;
 
@@ -6434,9 +6515,18 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
         left = !left;
 
         targetSpecies = evolutions[i].targetSpecies;
+        bool32 isAlcremie = IsSpeciesAlcremie(targetSpecies);
+
+        u32 speciesNameWidthInChars = GetSpeciesNameWidthInChars(GetSpeciesName(targetSpecies));
+        u32 speciesNameCharWidth = GetFontAttribute(GetSpeciesNameFontId(speciesNameWidthInChars), FONTATTR_MAX_LETTER_WIDTH);
+
+        u32 speciesNameWidth = (speciesNameWidthInChars * speciesNameCharWidth);
+        u32 base_x_offset = speciesNameWidth + base_x + depth_offset; // for evo method info
+        u32 maxScreenWidth = 230 - base_x_offset;
+
         sPokedexView->sEvoScreenData.targetSpecies[*depth_i] = targetSpecies;
-        CreateCaughtBallEvolutionScreen(targetSpecies, base_x + depth_x*depth-9, base_y + base_y_offset*(*depth_i), 0);
-        HandleTargetSpeciesPrintText(targetSpecies, base_x + depth_x*depth, base_y, base_y_offset, *depth_i); //evolution mon name
+        CreateCaughtBallEvolutionScreen(targetSpecies, base_x + depth_x*depth-9, base_y + base_y_offset*(*depth_i) + numLines, 0);
+        HandleTargetSpeciesPrintText(targetSpecies, base_x + depth_x*depth, base_y, base_y_offset + numLines, *depth_i); //evolution mon name
 
         for (j = 0; j < MAX_EVOLUTION_ICONS; j++)
         {
@@ -6451,215 +6541,289 @@ static void PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 dept
             }
         }
 
-        switch (evolutions[i].method)
+        switch ((enum EvolutionMethods)evolutions[i].method)
         {
-        case EVO_FRIENDSHIP:
-            ConvertIntToDecimalStringN(gStringVar2, 220, STR_CONV_MODE_LEADING_ZEROS, 3); //friendship value
-            StringExpandPlaceholders(gStringVar4, sText_EVO_FRIENDSHIP );
-            break;
-        case EVO_FRIENDSHIP_DAY:
-            StringExpandPlaceholders(gStringVar4, sText_EVO_FRIENDSHIP_DAY );
-            break;
-        case EVO_FRIENDSHIP_NIGHT:
-            StringExpandPlaceholders(gStringVar4, sText_EVO_FRIENDSHIP_NIGHT );
+        case EVO_SCRIPT_TRIGGER:
+        case EVO_NONE:
+            StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("未知"));
             break;
         case EVO_LEVEL:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL );
+        case EVO_LEVEL_BATTLE_ONLY:
+            StringCopy(gStringVar4, COMPOUND_STRING("升级"));
+            if (evolutions[i].param > 1)
+            {
+                StringAppend(gStringVar4, COMPOUND_STRING("至"));
+                ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEFT_ALIGN, EVO_SCREEN_LVL_DIGITS); //level
+                StringAppend(gStringVar4, gStringVar2);
+                StringAppend(gStringVar4, COMPOUND_STRING("以上"));
+            }
+            if ((enum EvolutionMethods)evolutions[i].method == EVO_LEVEL_BATTLE_ONLY)
+                StringAppend(gStringVar4, COMPOUND_STRING("，对战中"));
             break;
         case EVO_TRADE:
-            StringExpandPlaceholders(gStringVar4, sText_EVO_TRADE );
-            break;
-        case EVO_TRADE_ITEM:
-            item = evolutions[i].param; //item
-            CopyItemName(item, gStringVar2); //item
-            StringExpandPlaceholders(gStringVar4, sText_EVO_TRADE_ITEM );
+            StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("连接交换"));
             break;
         case EVO_ITEM:
-            item = evolutions[i].param;
-            CopyItemName(item, gStringVar2);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_ITEM );
+            CopyItemName(evolutions[i].param, gStringVar2);
+            StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("使用{STR_VAR_2}"));
             break;
-        case EVO_LEVEL_ATK_GT_DEF:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_ATK_GT_DEF );
+        case EVO_SPLIT_FROM_EVO:
+            StringCopy(gStringVar4, GetSpeciesName(evolutions[i].param)); //mon name
+            StringAppend(gStringVar4, COMPOUND_STRING("分裂进化产生"));
             break;
-        case EVO_LEVEL_ATK_EQ_DEF:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_ATK_EQ_DEF );
+        case EVO_BATTLE_END:
+            StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("对战结束时"));
             break;
-        case EVO_LEVEL_ATK_LT_DEF:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_ATK_LT_DEF );
-            break;
-        case EVO_LEVEL_SILCOON:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_SILCOON );
-            break;
-        case EVO_LEVEL_CASCOON:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_CASCOON );
-            break;
-        case EVO_LEVEL_NINJASK:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_NINJASK );
-            break;
-        case EVO_LEVEL_SHEDINJA:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_SHEDINJA );
-            break;
-        case EVO_BEAUTY:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, 3); //beauty
-            StringExpandPlaceholders(gStringVar4, sText_EVO_BEAUTY );
-            break;
-        case EVO_LEVEL_FEMALE:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_FEMALE );
-            break;
-        case EVO_LEVEL_MALE:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_MALE );
-            break;
-        case EVO_LEVEL_NIGHT:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_NIGHT );
-            break;
-        case EVO_LEVEL_DAY:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_DAY );
-            break;
-        case EVO_LEVEL_DUSK:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_DUSK );
-            break;
-        case EVO_ITEM_HOLD_DAY:
-            item = evolutions[i].param; //item
-            CopyItemName(item, gStringVar2); //item
-            StringExpandPlaceholders(gStringVar4, sText_EVO_ITEM_HOLD_DAY );
-            break;
-        case EVO_ITEM_HOLD_NIGHT:
-            item = evolutions[i].param; //item
-            CopyItemName(item, gStringVar2); //item
-            StringExpandPlaceholders(gStringVar4, sText_EVO_ITEM_HOLD_NIGHT );
-            break;
-        case EVO_MOVE:
-            StringCopy(gStringVar2, GetMoveName(evolutions[i].param));
-            StringExpandPlaceholders(gStringVar4, sText_EVO_MOVE );
-            break;
-        case EVO_FRIENDSHIP_MOVE_TYPE:
-            StringCopy(gStringVar2, gTypesInfo[evolutions[i].param].name);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_FRIENDSHIP_MOVE_TYPE );
-            break;
-        case EVO_MAPSEC:
-            StringCopy(gStringVar2, gRegionMapEntries[evolutions[i].param].name);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_MAPSEC );
-            break;
-        case EVO_ITEM_MALE:
-            item = evolutions[i].param; //item
-            CopyItemName(item, gStringVar2); //item
-            StringExpandPlaceholders(gStringVar4, sText_EVO_ITEM_MALE );
-            break;
-        case EVO_ITEM_FEMALE:
-            item = evolutions[i].param; //item
-            CopyItemName(item, gStringVar2); //item
-            StringExpandPlaceholders(gStringVar4, sText_EVO_ITEM_FEMALE );
-            break;
-        case EVO_LEVEL_RAIN:
-            //if (j == WEATHER_RAIN || j == WEATHER_RAIN_THUNDERSTORM || j == WEATHER_DOWNPOUR)
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_RAIN );
-            break;
-        case EVO_SPECIFIC_MON_IN_PARTY:
-            StringCopy(gStringVar2, GetSpeciesName(evolutions[i].param)); //mon name
-            StringExpandPlaceholders(gStringVar4, sText_EVO_SPECIFIC_MON_IN_PARTY );
-            break;
-        case EVO_LEVEL_DARK_TYPE_MON_IN_PARTY:
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_DARK_TYPE_MON_IN_PARTY );
-            break;
-        case EVO_TRADE_SPECIFIC_MON:
-            StringCopy(gStringVar2, GetSpeciesName(evolutions[i].param)); //mon name
-            StringExpandPlaceholders(gStringVar4, sText_EVO_TRADE_SPECIFIC_MON );
-            break;
-        case EVO_SPECIFIC_MAP:
-            mapHeader = Overworld_GetMapHeaderByGroupAndId(evolutions[i].param >> 8, evolutions[i].param & 0xFF);
-            GetMapName(gStringVar2, mapHeader->regionMapSectionId, 0);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_SPECIFIC_MAP );
-            break;
-        case EVO_LEVEL_NATURE_AMPED:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_NATURE_AMPED);
-            break;
-        case EVO_LEVEL_NATURE_LOW_KEY:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_LVL_DIGITS); //level
-            StringExpandPlaceholders(gStringVar4, sText_EVO_LEVEL_NATURE_LOW_KEY);
-            break;
-        case EVO_CRITICAL_HITS:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_CRITS_DIGITS); //crits
-            StringExpandPlaceholders(gStringVar4, sText_EVO_CRITICAL_HITS);
-            break;
-        case EVO_SCRIPT_TRIGGER_DMG:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, EVO_SCREEN_DMG_DIGITS); //damage
-            StringExpandPlaceholders(gStringVar4, sText_EVO_SCRIPT_TRIGGER_DMG);
-            break;
-        case EVO_DARK_SCROLL:
-            item = evolutions[i].param;
-            CopyItemName(item, gStringVar2);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_DARK_SCROLL );
-            break;
-        case EVO_WATER_SCROLL:
-            item = evolutions[i].param;
-            CopyItemName(item, gStringVar2);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_WATER_SCROLL );
-            break;
-        case EVO_ITEM_NIGHT:
-            item = evolutions[i].param;
-            CopyItemName(item, gStringVar2);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_ITEM_NIGHT );
-            break;
-        case EVO_ITEM_DAY:
-            item = evolutions[i].param;
-            CopyItemName(item, gStringVar2);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_ITEM_DAY );
-            break;
-        case EVO_ITEM_HOLD:
-            item = evolutions[i].param;
-            CopyItemName(item, gStringVar2);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_ITEM_HOLD );
-            break;
-        case EVO_USE_MOVE_TWENTY_TIMES:
-            StringCopy(gStringVar2, GetMoveName(evolutions[i].param));
-            StringExpandPlaceholders(gStringVar4, sText_EVO_USE_MOVE_TWENTY_TIMES );
-            break;
-        case EVO_RECOIL_DAMAGE_MALE:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, 3);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_RECOIL_DAMAGE_MALE);
-            break;
-        case EVO_RECOIL_DAMAGE_FEMALE:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, 3);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_RECOIL_DAMAGE_FEMALE);
-            break;
-        case EVO_ITEM_COUNT_999:
-            item = evolutions[i].param;
-            CopyItemName(item, gStringVar2);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_ITEM_COUNT_999);
-            break;
-         case EVO_DEFEAT_THREE_WITH_ITEM:
-            item = evolutions[i].param;
-            CopyItemName(item, gStringVar2);
-            StringCopy(gStringVar3, GetSpeciesName(species));
-            StringExpandPlaceholders(gStringVar4, sText_EVO_DEFEAT_THREE_WITH_ITEM);
-            break;
-        case EVO_OVERWORLD_STEPS:
-            ConvertIntToDecimalStringN(gStringVar2, evolutions[i].param, STR_CONV_MODE_LEADING_ZEROS, 4);
-            StringExpandPlaceholders(gStringVar4, sText_EVO_OVERWORLD_STEPS);
-            break;
-        default:
-            StringExpandPlaceholders(gStringVar4, sText_EVO_UNKNOWN);
+        case EVO_SPIN:
+                StringCopy(gStringVar4, COMPOUND_STRING(""));
+                if (evolutions[i].param == SPIN_CW_SHORT)
+                    StringAppend(gStringVar4, COMPOUND_STRING("顺时针旋转5秒以内"));
+                else if (evolutions[i].param == SPIN_CW_LONG)
+                    StringAppend(gStringVar4, COMPOUND_STRING("顺时针旋转5秒以上"));
+                else if (evolutions[i].param == SPIN_CCW_SHORT)
+                    StringAppend(gStringVar4, COMPOUND_STRING("逆时针旋转5秒以内"));
+                else if (evolutions[i].param == SPIN_CCW_LONG)
+                    StringAppend(gStringVar4, COMPOUND_STRING("逆时针旋转5秒以上"));
+                else
+                    StringAppend(gStringVar4, COMPOUND_STRING("顺/逆时旋转10秒以上"));
             break;
         }//Switch end
-        PrintInfoScreenTextSmall(gStringVar4, base_x + depth_x*depth+base_x_offset, base_y + base_y_offset*(*depth_i)); //Print actual instructions
 
+        // Check for additional conditions. Skips if there's no additional conditions.
+        for (j = 0; evolutions[i].params != NULL && evolutions[i].params[j].condition != CONDITIONS_END; j++)
+        {
+            if (j == 0)
+            {
+                StringAppend(gStringVar4, COMPOUND_STRING("，"));
+            }
+
+            switch((enum EvolutionConditions)evolutions[i].params[j].condition)
+            {
+            // Gen 2
+            case IF_GENDER:
+                switch(evolutions[i].params[j].arg1)
+                {
+                    case MON_MALE:   StringAppend(gStringVar4, COMPOUND_STRING("雄性"));   break;
+                    case MON_FEMALE: StringAppend(gStringVar4, COMPOUND_STRING("雌性")); break;
+                }
+                break;
+            case IF_MIN_FRIENDSHIP:
+                StringAppend(gStringVar4, COMPOUND_STRING("亲密度"));
+                break;
+            case IF_ATK_GT_DEF:
+                StringAppend(gStringVar4, COMPOUND_STRING("攻击 > 防御"));
+                break;
+            case IF_ATK_EQ_DEF:
+                StringAppend(gStringVar4, COMPOUND_STRING("攻击 = 防御"));
+                break;
+            case IF_ATK_LT_DEF:
+                StringAppend(gStringVar4, COMPOUND_STRING("攻击 < 防御"));
+                break;
+            case IF_TIME:
+                switch(evolutions[i].params[j].arg1)
+                {
+                case TIME_MORNING: StringAppend(gStringVar4, COMPOUND_STRING("清晨")); break;
+                case TIME_DAY:     StringAppend(gStringVar4, COMPOUND_STRING("白天"));     break;
+                case TIME_EVENING: StringAppend(gStringVar4, COMPOUND_STRING("黄昏")); break;
+                case TIME_NIGHT:   StringAppend(gStringVar4, COMPOUND_STRING("夜晚"));   break;
+                }
+                break;
+            case IF_NOT_TIME:
+                switch(evolutions[i].params[j].arg1)
+                {
+                case TIME_MORNING: StringAppend(gStringVar4, COMPOUND_STRING("除清晨外")); break;
+                case TIME_DAY:     StringAppend(gStringVar4, COMPOUND_STRING("除白天外"));     break;
+                case TIME_EVENING: StringAppend(gStringVar4, COMPOUND_STRING("除黄昏外")); break;
+                case TIME_NIGHT:   StringAppend(gStringVar4, COMPOUND_STRING("白天"));         break; // More intuitive than "NOT Night"
+                }
+                break;
+            case IF_HOLD_ITEM:
+                StringAppend(gStringVar4, COMPOUND_STRING("携带"));
+                if (isAlcremie && IsItemSweet(evolutions[i].params[j].arg1))
+                {
+                    StringAppend(gStringVar4, COMPOUND_STRING("糖饰")); //item
+                }
+                else
+                {
+                    CopyItemName(evolutions[i].params[j].arg1, gStringVar2); //item
+                    StringAppend(gStringVar4, gStringVar2);
+                }
+                break;
+            // Gen 3
+            case IF_PID_UPPER_MODULO_10_GT:
+            case IF_PID_UPPER_MODULO_10_EQ:
+            case IF_PID_UPPER_MODULO_10_LT:
+                arg = evolutions[i].params[j].arg1;
+                    if ((enum EvolutionConditions)evolutions[i].params[j].condition == IF_PID_UPPER_MODULO_10_GT
+                        && arg < 10 && arg >= 0)
+                        arg = 9 - arg;
+                    else if ((enum EvolutionConditions)evolutions[i].params[j].condition == IF_PID_UPPER_MODULO_10_EQ
+                             && arg < 10 && arg >= 0)
+                        arg = 1;
+                ConvertIntToDecimalStringN(gStringVar2, arg * 10, STR_CONV_MODE_LEFT_ALIGN, 3);
+                StringAppend(gStringVar4, COMPOUND_STRING("随机 %"));
+                StringAppend(gStringVar4, gStringVar2);
+                break;
+            case IF_MIN_BEAUTY:
+                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}美丽"));
+                break;
+            case IF_MIN_COOLNESS:
+                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}帅气"));
+                break;
+            case IF_MIN_SMARTNESS:
+                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}聪明"));
+                break;
+            case IF_MIN_TOUGHNESS:
+                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}强壮"));
+                break;
+            case IF_MIN_CUTENESS:
+                StringAppend(gStringVar4, COMPOUND_STRING("{UP_ARROW_2}可爱"));
+                break;
+            // Gen 4
+            case IF_SPECIES_IN_PARTY:
+                StringAppend(gStringVar4, GetSpeciesName(evolutions[i].params[j].arg1)); //mon name
+                StringAppend(gStringVar4, COMPOUND_STRING("同行时"));
+                break;
+            case IF_IN_MAPSEC:
+                StringAppend(gStringVar4, COMPOUND_STRING("位于"));
+                StringCopy(gStringVar2, gRegionMapEntries[evolutions[i].params[j].arg1].name);
+                StringAppend(gStringVar4, gStringVar2);
+                break;
+            case IF_IN_MAP:
+                StringAppend(gStringVar4, COMPOUND_STRING("位于"));
+                GetMapName(gStringVar2, Overworld_GetMapHeaderByGroupAndId(evolutions[i].params[j].arg1 >> 8, evolutions[i].params[j].arg1 & 0xFF)->regionMapSectionId, 0);
+                StringAppend(gStringVar4, gStringVar2);
+                break;
+            case IF_KNOWS_MOVE:
+                StringAppend(gStringVar4, COMPOUND_STRING("学会"));
+                StringAppend(gStringVar4, GetMoveName(evolutions[i].params[j].arg1));
+                break;
+            // Gen 5
+            case IF_TRADE_PARTNER_SPECIES:
+                StringAppend(gStringVar4, COMPOUND_STRING("与"));
+                StringAppend(gStringVar4, GetSpeciesName(evolutions[i].params[j].arg1));
+                StringAppend(gStringVar4, COMPOUND_STRING("连接交换"));
+                break;
+            // Gen 6
+            case IF_TYPE_IN_PARTY:
+                StringAppend(gStringVar4, gTypesInfo[evolutions[i].params[j].arg1].name); //type name
+                StringAppend(gStringVar4, COMPOUND_STRING("属性宝可梦同行时"));
+                break;
+            case IF_WEATHER:
+                StringAppend(gStringVar4, COMPOUND_STRING("天气为"));
+                StringAppend(gStringVar4, GetWeatherName(evolutions[i].params[j].arg1));
+                StringAppend(gStringVar4, COMPOUND_STRING("时"));
+                break;
+            case IF_KNOWS_MOVE_TYPE:
+                StringAppend(gStringVar4, COMPOUND_STRING("学会"));
+                StringAppend(gStringVar4, gTypesInfo[evolutions[i].params[j].arg1].name);
+                StringAppend(gStringVar4, COMPOUND_STRING("招式"));
+                break;
+            // Gen 8
+            case IF_NATURE:
+                StringCopy(gStringVar2, gNaturesInfo[evolutions[i].params[j].arg1].name);
+                StringAppend(gStringVar4, gStringVar2);
+                StringAppend(gStringVar4, COMPOUND_STRING("性格"));
+                break;
+            case IF_AMPED_NATURE:
+                StringAppend(gStringVar4, COMPOUND_STRING("高调性格"));
+                break;
+            case IF_LOW_KEY_NATURE:
+                StringAppend(gStringVar4, COMPOUND_STRING("低调性格"));
+                break;
+            case IF_RECOIL_DAMAGE_GE:
+                StringAppend(gStringVar4, COMPOUND_STRING("累计受到至少"));
+                ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg1, STR_CONV_MODE_LEFT_ALIGN, 3);
+                StringAppend(gStringVar4, gStringVar2);
+                StringAppend(gStringVar4, COMPOUND_STRING("反作用力伤害"));
+                break;
+            case IF_CURRENT_DAMAGE_GE:
+                StringAppend(gStringVar4, COMPOUND_STRING("当前受到至少"));
+                ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg1, STR_CONV_MODE_LEFT_ALIGN, 3);
+                StringAppend(gStringVar4, gStringVar2);
+                StringAppend(gStringVar4, COMPOUND_STRING("伤害"));
+                break;
+            case IF_CRITICAL_HITS_GE:
+                StringAppend(gStringVar4, COMPOUND_STRING("击中要害达到"));
+                ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg1, STR_CONV_MODE_LEFT_ALIGN, 2);
+                StringAppend(gStringVar4, gStringVar2);
+                StringAppend(gStringVar4, COMPOUND_STRING("次"));
+                break;
+            case IF_USED_MOVE_X_TIMES:
+                StringAppend(gStringVar4, COMPOUND_STRING("使用招式"));
+                StringAppend(gStringVar4, GetMoveName(evolutions[i].params[j].arg1));
+                ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg2, STR_CONV_MODE_LEFT_ALIGN, 3);
+                StringAppend(gStringVar4, gStringVar2);
+                StringAppend(gStringVar4, COMPOUND_STRING("次"));
+                break;
+            // Gen 9
+            case IF_DEFEAT_X_WITH_ITEMS:
+                StringAppend(gStringVar4, COMPOUND_STRING("击败"));
+                ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg3, STR_CONV_MODE_LEFT_ALIGN, 3);
+                StringAppend(gStringVar4, gStringVar2);
+                StringAppend(gStringVar4, COMPOUND_STRING("只带"));
+                CopyItemName(evolutions[i].params[j].arg2, gStringVar2);
+                StringAppend(gStringVar4, gStringVar2);
+                StringAppend(gStringVar4, COMPOUND_STRING("的"));
+                StringAppend(gStringVar4, GetSpeciesName(evolutions[i].params[j].arg1));
+                break;
+            case IF_PID_MODULO_100_GT:
+            case IF_PID_MODULO_100_EQ:
+            case IF_PID_MODULO_100_LT:
+                    arg = evolutions[i].params[j].arg1;
+                        if ((enum EvolutionConditions)evolutions[i].params[j].condition == IF_PID_MODULO_100_GT
+                            && arg < 100 && arg >= 0)
+                            arg = 99 - arg;
+                        else if ((enum EvolutionConditions)evolutions[i].params[j].condition == IF_PID_MODULO_100_EQ
+                                 && arg < 100 && arg >= 0)
+                            arg = 1;
+                    ConvertIntToDecimalStringN(gStringVar2, arg, STR_CONV_MODE_LEFT_ALIGN, 3);
+                    StringAppend(gStringVar4, COMPOUND_STRING("%"));
+                    StringAppend(gStringVar4, gStringVar2);
+                break;
+            case IF_MIN_OVERWORLD_STEPS:
+                StringAppend(gStringVar4, COMPOUND_STRING("行走"));
+                ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg1, STR_CONV_MODE_LEFT_ALIGN, 4);
+                StringAppend(gStringVar4, gStringVar2);
+                StringAppend(gStringVar4, COMPOUND_STRING("步后"));
+                break;
+            case IF_BAG_ITEM_COUNT:
+                StringAppend(gStringVar4, COMPOUND_STRING("包包中有"));
+                ConvertIntToDecimalStringN(gStringVar2, evolutions[i].params[j].arg2, STR_CONV_MODE_LEFT_ALIGN, 3);
+                StringAppend(gStringVar4, gStringVar2);
+                StringAppend(gStringVar4, COMPOUND_STRING("个"));
+                CopyItemNameHandlePlural(evolutions[i].params[j].arg1, gStringVar2, evolutions[i].params[j].arg2);
+                StringAppend(gStringVar4, gStringVar2);
+                break;
+            case CONDITIONS_END:
+                break;
+            }
+
+            if (evolutions[i].params[j+1].condition != CONDITIONS_END)
+            {
+                StringAppend(gStringVar4, COMPOUND_STRING("，"));
+            }
+        }
+
+        if (isAlcremie)
+            fontId = FONT_SMALL_NARROWER;
+        else
+            fontId = GetFontIdToFit(gStringVar4, FONT_SMALL, 0, maxScreenWidth);
+        fontId = FONT_SMALL; //汉字统一字体
+
+        u32 fontHeight = GetFontAttribute(fontId, FONTATTR_MAX_LETTER_HEIGHT);
+
+        StringAppend(gStringVar4, COMPOUND_STRING("。"));
+        BreakStringAutomatic(gStringVar4, maxScreenWidth, MAX_EVO_METHOD_LINES, fontId, HIDE_SCROLL_PROMPT);
+
+        PrintInfoScreenTextSmall(gStringVar4, fontId, base_x_offset, base_y + base_y_offset*(*depth_i) + numLines); //Print actual instructions
         (*depth_i)++;
-        PrintEvolutionTargetSpeciesAndMethod(taskId, targetSpecies, depth+1, depth_i, alreadyPrintedIcons, icon_depth_i);
+
+        numLines = CountLineBreaks(gStringVar4) * fontHeight;
+
+        sPokedexView->sEvoScreenData.arrowSpriteDist[depth + 1] = numLines;
+
+        PrintEvolutionTargetSpeciesAndMethod(taskId, targetSpecies, depth+1, depth_i, alreadyPrintedIcons, icon_depth_i, numLines);
     }//For loop end
 }
 
@@ -6967,7 +7131,7 @@ static void PrintForms(u8 taskId, u16 species)
     if (times == 0)
     {
         StringExpandPlaceholders(gStringVar4, sText_FORMS_NONE);
-        PrintInfoScreenTextSmall(gStringVar4, base_x, base_y + base_y_offset*times);
+        PrintInfoScreenTextSmall(gStringVar4, FONT_SMALL, base_x, base_y + base_y_offset*times);
     }
 }
 
@@ -7064,8 +7228,8 @@ static void Task_LoadCryScreen(u8 taskId)
         gMain.state++;
         break;
     case 4:
-        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 33);
-        PrintInfoScreenText(gText_CryOf, 82, 49);
+        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 34);
+        PrintInfoScreenText(gText_CryOf, 82, 50);
         gMain.state++;
         break;
     case 5:
@@ -7256,7 +7420,7 @@ static void Task_LoadSizeScreen(u8 taskId)
         StringExpandPlaceholders(gStringVar4, gText_SizeComparedTo); //写入变量到文本
         //显示（打印），string由于多余就去除了。
         //PrintInfoScreenText(string, GetStringCenterAlignXOffset(FONT_NORMAL, string, DISPLAY_WIDTH), 121);
-        PrintInfoScreenText(gStringVar4, GetStringCenterAlignXOffset(FONT_NORMAL, gStringVar4, 0xF0), 0x79);
+        PrintInfoScreenText(gStringVar4, GetStringCenterAlignXOffset(FONT_NORMAL, gStringVar4, 0xF0), 0x7A);
         gMain.state++;
         break;
     }

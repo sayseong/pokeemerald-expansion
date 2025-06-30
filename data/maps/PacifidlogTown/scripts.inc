@@ -37,5 +37,5 @@ PacifidlogTown_Text_SkyPillarTooScary:
     .string "天空之柱？\p……哦，你是说不远处\n那座高高的塔吧。\p别问我，我不会去爬的，\n登那么高太可怕了。\p对我来说，还是住在海平面上的\n暮水镇中更安心。$"
 
 PacifidlogTown_Text_TownSign:
-    .string "暮水镇\p“早晨的太阳\n在海平面上微笑。”$"
+    .string "这里是暮水镇。\n“朝阳照耀在水边的小镇。”$"
 

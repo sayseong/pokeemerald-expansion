@@ -1,3 +1,4 @@
+#!/usr/bin/python python3
 import os
 import re
 import pandas as pd
@@ -56,14 +57,13 @@ def replace_species_info(content, df):
     return content
 
 def log(message):
-    with open(current_folder+"\log.txt", "a", encoding="utf-8") as log_file:
+    with open(os.path.join(current_folder, "log.txt"), "a", encoding="utf-8") as log_file:
         log_file.write(message + "\n")
     print(message)
 
 if __name__ == "__main__":
-
-    work_folder = current_folder +"\..\src\data\pokemon\species_info"
-    df = pd.read_excel(current_folder +r'\src\图鉴.xlsx')
+    work_folder = os.path.join(os.path.dirname(current_folder), "src", "data", "pokemon", "species_info")
+    df = pd.read_excel(os.path.join(current_folder, "src", "图鉴.xlsx"))
     df.set_index('name', inplace=True)
 
     for filename in os.listdir(work_folder):

@@ -1,155 +1,155 @@
 FallarborTown_BattleTentLobby_Text_WelcomeToBattleTent::
-    .string "欢迎来到对战帐篷\n秋叶镇分址！\p由我向你说明三回合定胜负\n锦标赛的相关内容！$"
+    .string "欢迎来到对战帐篷\n秋叶镇分址！\p我是您的三回合定胜负\n锦标赛的向导！$"
 
 FallarborTown_BattleTentLobby_Text_TakeChallenge::
-    .string "现在你有挑战三回合定胜负锦标赛\n的觉悟了吗？$"
+    .string "要挑战三回合定胜负锦标赛吗？$"
 
 FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge::
-    .string "我们期待你\n前来挑战！$"
+    .string "随时恭候您再次挑战！$"
 
 FallarborTown_BattleTentLobby_Text_ExplainFallarborTent::
-    .string "在秋叶镇对战帐篷，\n采取三回合定胜负锦标赛。\p所有参赛队伍由\n3只宝可梦组成。\p这3只宝可梦出场时\n必须排成整齐的一队。\p战斗时，宝可梦以\n事先排好的顺序顺次出场。\p宝可梦出场后，必须\n一直战斗到比赛结束。\p如果一场比赛在3回合\n未分出胜负的活，就由裁判来判定。\p如果你想发起挑战，\n请先保存游戏进度。\p如果你不保存的话，就不能\n继续挑战了。\p如果你连续击败\n3名训练家的话，\l你将获得精美的礼物。$"
+    .string "在秋叶镇对战帐篷中，\n我们将举办三回合定胜负锦标赛。\p所有的参赛者用3只宝可梦\n组成的队伍参加比赛。\p这3只宝可梦需要按照\n想要出场的顺序排列好。\p对战时，宝可梦会按照事先\n安排好的顺序依次出场。\p一旦宝可梦进入到对战，\n就需要持续战斗至比赛结束。\p如果比赛在3回合内未能决出胜负，\n将由裁判进行判定。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。\p如果您能成功击败3个训练家的话，\n我们将向您呈上精美奖品。$"
 
 FallarborTown_BattleTentLobby_Text_SaveBeforeChallenge::
-    .string "在挑战对战帐篷之前\n必须保存游戏进度，现在就记录吗？$"
+    .string "在挑战对战帐篷之前\n要先写入记录，可以吗？$"
 
 @ Unused
 FallarborTown_BattleTentLobby_Text_WhichLevelMode::
-    .string "我们提供两个级别的比赛，\n级别50和自由级\l您要参加哪个？$"
+    .string "我们提供2个级别的比赛，\nLv. 50级和自由等级\l您要参加哪个？$"
 
 FallarborTown_BattleTentLobby_Text_SelectThreeMons::
-    .string "很好，请选择\n3只宝可梦。$"
+    .string "好的，请选择\n3只宝可梦。$"
 
 FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLv50::
-    .string "噢，天哪！\p你没有3只\n能参赛的宝可梦。\p他们不能\n携带相同的道具。\p蛋{STR_VAR_1}不能参加比赛。\p做好准备\n再来吧。$"
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
 
 FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen::
-    .string "噢，天哪！\p你没有3只\n能参赛的宝可梦。\p按照规则，你必须带来\n3只不同的宝可梦。\p他们不能\n携带相同的道具。\p蛋{STR_VAR_1}不能参加比赛。\p做好准备\n再来吧。$"
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
 
 FallarborTown_BattleTentLobby_Text_GuideYouToBattleTent::
-    .string "我现在带你\n进入对战帐篷。$"
+    .string "我现在带您\n进入对战帐篷。$"
 
 FallarborTown_BattleTentLobby_Text_DidntSaveBeforeQuitting::
-    .string "噢，天哪！\p你到现在还没保存\n游戏进度，不是吗？\p很不幸，这样会使你\n失去挑战\l资格。\p你可能，不，一定是一个\n冒失的挑战者。$"
+    .string "这位客人！\p您在上次结束时\n没有写入记录吧？\p非常遗憾，没有写入记录的\n挑战我们将视其为无效。\p当然，您可以随时开始\n一次新的挑战。$"
 
 FallarborTown_BattleTentLobby_Text_BeatThreeTrainers::
-    .string "太棒了！你连续打败了\n3名训练家！$"
+    .string "太棒了！您连续打败了\n3位训练家！$"
 
 FallarborTown_BattleTentLobby_Text_WaitWhileSaveGame::
-    .string "正在保存，请稍候。$"
+    .string "正在写入记录……请稍候。$"
 
 FallarborTown_BattleTentLobby_Text_PresentYouWithPrize::
-    .string "祝贺你取得了3连胜，\n这是我们送你的奖品。$"
+    .string "为纪念您取得3连胜，\n特此为您颁发这份奖品。$"
 
 FallarborTown_BattleTentLobby_Text_ReceivedPrize::
     .string "{PLAYER}得到了\n{STR_VAR_1}。$"
 
 FallarborTown_BattleTentLobby_Text_BagFullReturnForPrize::
-    .string "哎？\n你的包包已经满了。\p你还是把包包整理\n好后再来领奖吧。$"
+    .string "哎？\n包包已经满了。\p请把包包整理好之后\n再来领取吧。$"
 
 FallarborTown_BattleTentLobby_Text_ThankYouWaitWhileSaving::
-    .string "非常感谢你的参与！\p正在保存，请稍候。$"
+    .string "辛苦了！\p正在写入记录……请稍候。$"
 
 FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge2::
-    .string "我们期待你的\n下次挑战！$"
+    .string "随时恭候您再次挑战！$"
 
 FallarborTown_BattleTentLobby_Text_LookingForwardToArrival::
-    .string "我们一直期待\n你的到来。\p在带你进入对战帐篷之前，\n必须保存游戏进度。请稍候。$"
+    .string "我们一直恭候\n您的到来。\p在带您进入对战帐篷之前，\n需要先写入记录。请稍候。$"
 
 VerdanturfTown_BattleTentLobby_Text_WelcomeToBattleTent::
-    .string "欢迎来到对战帐篷\n绿茵镇分址！\p在这里，将考验训练家\n与宝可梦之间的默契。$"
+    .string "欢迎来到对战帐篷\n绿茵镇分址！\p训练家对宝可梦的信赖\n将在此接受考验。$"
 
 VerdanturfTown_BattleTentLobby_Text_TakeChallenge::
-    .string "你要向绿茵镇\n对战帐篷挑战吗？$"
+    .string "要挑战绿茵镇对战帐篷吗？$"
 
 VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent::
-    .string "在绿茵镇对战帐篷里，\n有一条至关重要的规则\l是必须服从的。\p训练家只允许放出和收回\n他们的宝可梦。\p训练家不能对他们的宝可梦\n下任何指令。\p而宝可梦会根据自己的本性行动\n并且凭自己的力量战斗。\p你必须十分信任你的宝可梦\n并在一旁守护着它们。\p如果你能获得连续打败3位\n训练家的荣誉的话，\l我们会送给你礼物作为奖励。\p如果你想停止挑战，\n请保存游戏进度。\p如果你在保存之前中断的话，\n你将失去这场比赛的资格。$"
+    .string "在绿茵镇对战帐篷中，\n需要遵守一条关键规则——\p训练家只能替换\n自己的宝可梦，\p禁止对它们下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败7个训练家，\l我们将向您呈上精美奖品。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 VerdanturfTown_BattleTentLobby_Text_ReturnFortified::
-    .string "当你有勇气想让自己的\n宝可梦变强时再来吧。$"
+    .string "当您的心灵与您的宝可梦都变得\n更强的时候，再回到这里来吧。$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_WhichLevelMode::
-    .string "有两个级别，\n级别50和自由级。\l你要挑战哪个？$"
+    .string "有2个级别，\nLv. 50级和自由等级。\l您要挑战哪个？$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50::
-    .string "唉……\p你没有符合挑战要求\n的3只宝可梦。\p要想参加，你必须准备\n3只不同的宝可梦。\p而且它们不能携带\n同样的道具。\p蛋{STR_VAR_1}不能参加比赛。\p请你准备好了之后\n再来挑战。$"
+    .string "唉……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen::
-    .string "唉……\p你没有符合挑战要求\n的3只宝可梦。\p要想参加，你必须准备\n3只不同的宝可梦。\p而且它们不能携带\n同样的道具。\p蛋{STR_VAR_1}不能参加比赛。\p请你准备好了之后\n再来挑战。$"
+    .string "唉……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
 
 VerdanturfTown_BattleTentLobby_Text_SelectThreeMons::
-    .string "好。现在请你选择\n3只宝可梦。$"
+    .string "好的。现在请您选择\n3只宝可梦。$"
 
 VerdanturfTown_BattleTentLobby_Text_SaveBeforeChallenge::
-    .string "在进入对战帐篷之前必须\n保存游戏进度。现在就保存吗？$"
+    .string "在进入对战帐篷之前需要\n先写入记录，可以吗？$"
 
 VerdanturfTown_BattleTentLobby_Text_NowFollowMe::
-    .string "很好。\n那么，请跟我来。$"
+    .string "很好。\n那么，请随我来。$"
 
 VerdanturfTown_BattleTentLobby_Text_ResultsWillBeRecorded::
-    .string "我十分欣赏\n你的宝可梦取得的成绩。\p比赛结果正在记录。\n请稍候。$"
+    .string "很荣幸能观赏到\n您的宝可梦的英姿。\p正在记录比赛成绩，\n请稍候。$"
 
 VerdanturfTown_BattleTentLobby_Text_AchievedThreeWinStreak::
-    .string "能够达成3连胜就证明……\p你与你的宝可梦之间的羁绊\n是真诚的并且坚不可摧。$"
+    .string "您达成了3连胜……\p看来您的心灵与宝可梦之间的\n牵绊已经坚不可摧。$"
 
 VerdanturfTown_BattleTentLobby_Text_FeatWillBeRecorded::
-    .string "比赛结果正在记录。\n请稍候。$"
+    .string "正在记录比赛成绩，\n请稍候。$"
 
 VerdanturfTown_BattleTentLobby_Text_PresentYouWithPrize::
-    .string "作为你取得3连胜的奖励，\n我们送你精美的礼品。$"
+    .string "为纪念您取得3连胜，\n特此为您颁发这份奖品。$"
 
 SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent::
-    .string "欢迎来到对战帐篷\n凯那市分址！\p由我把你带领到选择式对战\n锦标赛。$"
+    .string "欢迎来到对战帐篷\n凯那市分址！\p我是您的交换式对战\n锦标赛的向导。$"
 
 SlateportCity_BattleTentLobby_Text_TakeChallenge::
-    .string "你要向交换式\n对战挑战吗？？$"
+    .string "要挑战交换式对战\n锦标赛吗？$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSlateportTent::
-    .string "这里是凯那市对战帐篷，\n在这里我们要用租借的\l宝可梦进行选择式对战。\p首先，你要租用3只特定的\n宝可梦来参加比赛。\p你要带着那些租借的宝可梦，\n进行单人对战。\p如果你获胜了，你可以交换其中1只\n1只租借的宝可梦。\p重复循环战斗和交换--\n如果取得3连胜\l你将获得精美的奖品。\p如果你想停止挑战，\n请保存游戏进度。\p如果你在保存之前中断的话，\n你将失去这场比赛的资格。$"
+    .string "这里是凯那市对战帐篷，\n这里举办的比赛是只能使用租借的\l宝可梦进行的交换式对战。\p首先，您将获得3只专门为本次比赛\n提供的租借宝可梦。\p您需要用这些提供的租借宝可梦，\n进行一场单打对战。\p如果获胜，您可以将其中1只\n租借宝可梦交换掉。\p如此反复进行战斗与交换——\n如果您能连续获胜3次，\l我们将向您呈上精美奖品。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit::
-    .string "我们期待你的再次来临。$"
+    .string "我们期待您的再次光临。$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_WhichLevelMode::
-    .string "你要挑战哪个等级？\n50级还是100级？$"
+    .string "您要挑战哪个等级？\nLv. 50级还是100级？$"
 
 SlateportCity_BattleTentLobby_Text_SaveBeforeChallenge::
-    .string "在你挑战之前，\n需要进行存档，要存档吗？$"
+    .string "在挑战前需要先写入记录，\n可以吗？$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_HoldMonsForSafekeeping::
-    .string "好的，我会替你保管\n宝可梦。$"
+    .string "好的，我会替您保管\n宝可梦。$"
 
 SlateportCity_BattleTentLobby_Text_StepThisWay::
-    .string "请跟我来。$"
+    .string "这边请。$"
 
 SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults::
-    .string "十分感谢你的配合！\p我要将你的宝可梦还给你\n并且收回我们借给你的宝可梦。\p正在保存你的战斗结果。\n请稍候。$"
+    .string "辛苦了！\p我将把您的宝可梦还给您\n并换回租借宝可梦。\p并且需要写入对战记录。\n请稍等。$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReturnMonsExchangeRentals::
-    .string "我要将你的宝可梦还给你\n并且收回我们借给你的宝可梦。$"
+    .string "我要将您的宝可梦还给您\n并且收回我们借给您的宝可梦。$"
 
 SlateportCity_BattleTentLobby_Text_WonThreeMatchesReturnMons::
-    .string "祝贺你！\n你获得了3连胜！\p我要将你的宝可梦还给你\n并且收回我们借给你的宝可梦。\p正在保存你的战斗结果。\n请稍候。$"
+    .string "恭喜您！\n您获得了3连胜！\p我将把您的宝可梦还给您\n并换回租借宝可梦。\p并且需要写入对战记录。\n请稍等。$"
 
 SlateportCity_BattleTentLobby_Text_AwardYouThisPrize::
-    .string "为了祝贺你取得了3连胜，\n我们送给你精美的礼品。$"
+    .string "为纪念您取得3连胜，\n特此为您颁发这份奖品。$"
 
 SlateportCity_BattleTentLobby_Text_NoRoomInBagMakeRoom::
-    .string "哎？\n你的包包没有空间放奖品。\p请整理好包包之后\n再来找我。$"
+    .string "哎？\n包包已经满了。\p请把包包整理好之后\n再来领取吧。$"
 
 SlateportCity_BattleTentLobby_Text_BeenWaitingForYou::
-    .string "我们会等着你！\p在你继续战斗之前，\n你必须保存游戏进度。$"
+    .string "我们已经恭候多时了！\p在您继续战斗之前，\n需要先写入记录。$"
 
 SlateportCity_BattleTentLobby_Text_DidntSaveBeforeQuitting::
-    .string "非常抱歉，但是你上次退出游戏\n之前没有保存游戏进度。\p因此，你不能继续\n上次的进度进行比赛。$"
+    .string "很抱歉地告诉您。\p由于您在上次结束时\n没有写入记录，\p因此您本次的挑战\n我们将视其为无效。$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReturnPersonalMons::
-    .string "我们将归还你的宝可梦。$"
+    .string "我们将归还您的宝可梦。$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReceivedPrize::
@@ -157,26 +157,26 @@ SlateportCity_BattleTentLobby_Text_ReceivedPrize::
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_RulesAreListed::
-    .string "选择式对战规则已经列出。$"
+    .string "交换式对战规则已经列出。$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReadWhichHeading::
-    .string "你要读哪条？$"
+    .string "要读哪一部分的说明？$"
 
 SlateportCity_BattleTentLobby_Text_ExplainBasicRules::
-    .string "在选择式对战的比赛中，\n你只可以使用3只宝可梦。\p无论你是租借还是交换，\n你的队伍里不能有\l2只相同的宝可梦。$"
+    .string "在交换式对战中，\n您只能用3只宝可梦。\p无论是租借还是交换得到的，\n您的队伍中里不能出现2只\l或以上相同种类的宝可梦。$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapPartnerRules::
-    .string "你仅可以和刚刚被你\n打败的训练家交换宝可梦。\p你只能交换那些刚刚被你\n打败的训练家使用的宝可梦。$"
+    .string "您只能与刚击败过的训练家\n交换宝可梦。\p您只能交换到该训练家\n所使用的宝可梦。$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapNumberRules::
-    .string "你每次胜利后，你可以\n和对手的1只宝可梦\l进行交换。\p你不能与其他训练家\n进行宝可梦的交换。$"
+    .string "每获胜1场战斗后，\n您可以选择交换对手的1只宝可梦。\p第3位训练家\n不可进行交换。$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapNotes::
-    .string "对于什么时候交换宝可梦\n有2个要点。\p首先，交换时，你不能检查\n你收到的宝可梦\l的状态。\p其次，你队伍中的宝可梦\n是如何排列的，取决于\l你租借时的顺序。\p这个顺序不会因为\n进行交换而改变。$"
+    .string "在交换宝可梦时有2个\n需要注意的地方。\p第一，交换时您无法查看目标\n宝可梦的具体能力。\p第二，队伍中的宝可梦的排列顺序\n按租用时的顺序固定。\p交换后该顺序仍保持不变。$"
 
 SlateportCity_BattleTentLobby_Text_ExplainMonRules::
-    .string "在凯那市对战帐篷中\n使用的宝可梦都是租借的。\p所有租借的宝可梦\n等级都保持在30。$"
+    .string "在凯那市对战帐篷中\n使用的宝可梦都是租借的。\p所有租借的宝可梦\n等级均为30。$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed2::
@@ -184,7 +184,7 @@ VerdanturfTown_BattleTentLobby_Text_RulesAreListed2::
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ReadWhichHeading::
-    .string "你要读哪条？$"
+    .string "要读哪一部分的说明？$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules::
@@ -192,11 +192,11 @@ VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules::
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainNatureRules::
-    .string "由于它所处自然环境，宝可梦\n可能会不知原因的攻击。\p另外的宝可梦可能会\n保护自己免受伤害。\p有的还喜欢干扰\n和迷惑自己的敌人。\p由于它所处的自然环境，宝可梦\n可能有它所最喜欢的招式\l并且可以熟练使用。\p它也有可能存在不喜欢的招式\n于是不擅长使用。$"
+    .string "由于它所处自然环境，宝可梦可能\n会不知原因的攻击。\p另外的宝可梦可能会\n保护自己免受伤害。\p有的还喜欢干扰\n和迷惑自己的敌人。\p由于它所处的自然环境，宝可梦可能\n有它所最喜欢的招式\l并且可以熟练使用。\p它也有可能存在不喜欢的招式\n于是不擅长使用。$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainMoveRules::
-    .string "有攻击招式可以\n对敌人造成直接伤害。\p有防守招式\n用来防御敌人的攻击\l或用来恢复HP等等。\p也有一些有点怪异的招式\n可以使得敌人变得无力和带来\l其他问题，例如中毒和麻痹。\p宝可梦可能会考虑在\n这三种招式中选择使用。$"
+    .string "有攻击招式可以\n对敌人造成直接伤害。\p有防守招式\n用来防御敌人的攻击\l或用来恢复HP等等。\p也有一些有点怪异的招式\n可以使得敌人变得无力和带来\l其他问题，例如中毒和麻痹。\p宝可梦可能会考虑在\n这3种招式中选择使用。$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules::
@@ -204,10 +204,10 @@ VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules::
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules::
-    .string "根据其性格，\n当陷入麻烦时，宝可梦可能会开始\l使用一些并不符合性格的招式。\p如果宝可梦开始变得行为怪异\n你就有必要仔细查查看了。$"
+    .string "根据其性格，\n当陷入麻烦时，宝可梦可能会开始\l使用一些并不符合性格的招式。\p如果宝可梦开始变得行为怪异，\n您就有必要仔细查看了。$"
 
 BattleTentLobby_Text_ExplainLevelRules::
-    .string "在对战帐篷里，你对手的\n的等级会与你参赛的\l宝可梦的等级相适应。\p不管怎样，你不会碰到带着\n低于30级宝可梦的训练家。$"
+    .string "在对战帐篷中，对手的宝可梦等级会\n根据您的宝可梦等级进行调整。\p但是，训练家所持有的宝可梦\n最低不会低于等级30。$"
 
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed::
-    .string "绿茵镇对战帐篷\n的规则已列出。$"
+    .string "上面列出了绿茵镇对战帐篷的规则。$"

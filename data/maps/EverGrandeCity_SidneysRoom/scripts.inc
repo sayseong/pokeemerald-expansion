@@ -28,7 +28,7 @@ EverGrandeCity_SidneysRoom_OnWarp:
 	.2byte 0
 
 EverGrandeCity_SidneysRoom_EventScript_PlayerTurnNorth::
-	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	turnobject LOCALID_PLAYER, DIR_NORTH
 	end
 
 EverGrandeCity_SidneysRoom_OnFrame:
@@ -65,11 +65,11 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_SidneysRoom_Text_IntroSpeech:
-    .string "欢迎你，挑战者！\n我是四天王中的花月。\p我喜欢你的神情。\n我想这会是一场精彩的战斗吧。\l漂亮！实在精彩！\p好的！让我们进行\n一场只有在宝可梦联盟\l才能具有的精彩战斗吧！$"
+    .string "欢迎你，挑战者！\n我是四天王中的花月。\p我喜欢你的神情。\n我猜这会是一场精彩的战斗吧。\l很好！看起来很棒！\p好！让我们还有你们，来一起好好享受\n只有在宝可梦联盟才能体验的对战吧！$"
 
 EverGrandeCity_SidneysRoom_Text_Defeat:
-    .string "呃，你做了什么？我输了！\n嗯，很有趣，我没什么的。$"
+    .string "嗯，你觉得如何？我输了！\n嗯，不过这很有趣，所以也无所谓。$"
 
 EverGrandeCity_SidneysRoom_Text_PostBattleSpeech:
-    .string "那么，\n听一下我这个失败者所说的吧。\p你已经得到了要扬名所需要的一切。\n现在，继续去下一个房间\l进行下一场战斗吧！$"
+    .string "好，\n听听我这个失败者的话。\p你已经具备了前进所需的一切。\n现在，继续去下一个房间\l享受你的下一场战斗吧！$"
 

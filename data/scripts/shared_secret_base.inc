@@ -206,7 +206,7 @@ SecretBase_Text_SmallIndentInWall::
 
 SecretBase_Text_IndentUseSecretPower::
 	.string "墙上有个凹洞。\p"
-	.string "使用神秘力量吗？$"
+	.string "使用秘密之力吗？$"
 
 SecretBase_Text_DiscoveredSmallCavern::
 	.string "发现一个小洞穴！$"

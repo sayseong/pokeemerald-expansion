@@ -1,6 +1,3 @@
-.set LOCALID_RIVAL_ON_BIKE, 7
-.set LOCALID_RIVAL, 8
-
 LavaridgeTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LavaridgeTown_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, LavaridgeTown_OnFrame
@@ -26,9 +23,9 @@ LavaridgeTown_EventScript_CheckSetRivalPos::
 	return
 
 LavaridgeTown_EventScript_SetRivalPos::
-	setobjectxyperm LOCALID_RIVAL, 11, 9
-	setobjectxyperm LOCALID_RIVAL_ON_BIKE, 9, 8
-	setobjectmovementtype LOCALID_RIVAL_ON_BIKE, MOVEMENT_TYPE_FACE_UP
+	setobjectxyperm LOCALID_LAVARIDGE_RIVAL, 11, 9
+	setobjectxyperm LOCALID_LAVARIDGE_RIVAL_ON_BIKE, 9, 8
+	setobjectmovementtype LOCALID_LAVARIDGE_RIVAL_ON_BIKE, MOVEMENT_TYPE_FACE_UP
 	clearflag FLAG_HIDE_LAVARIDGE_TOWN_RIVAL
 	return
 
@@ -78,12 +75,12 @@ LavaridgeTown_EventScript_BrendanGiveGoGoggles::
 
 LavaridgeTown_EventScript_RivalExit::
 	closemessage
-	removeobject LOCALID_RIVAL
-	addobject LOCALID_RIVAL_ON_BIKE
+	removeobject LOCALID_LAVARIDGE_RIVAL
+	addobject LOCALID_LAVARIDGE_RIVAL_ON_BIKE
 	delay 30
 	call_if_eq VAR_0x8008, 9, LavaridgeTown_EventScript_RivalExit1
 	call_if_ne VAR_0x8008, 9, LavaridgeTown_EventScript_RivalExit2
-	removeobject LOCALID_RIVAL_ON_BIKE
+	removeobject LOCALID_LAVARIDGE_RIVAL_ON_BIKE
 	setvar VAR_LAVARIDGE_TOWN_STATE, 2
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	savebgm MUS_DUMMY
@@ -100,52 +97,52 @@ LavaridgeTown_EventScript_PlayBrendanMusic::
 	return
 
 LavaridgeTown_EventScript_RivalNoticePlayer::
-	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_LAVARIDGE_RIVAL, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	playse SE_PIN
-	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	applymovement LOCALID_LAVARIDGE_RIVAL, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	applymovement LOCALID_LAVARIDGE_RIVAL, Common_Movement_Delay48
 	waitmovement 0
 	return
 
 LavaridgeTown_EventScript_RivalExitHerbShop::
 	opendoor 12, 15
 	waitdooranim
-	addobject LOCALID_RIVAL
-	applymovement LOCALID_RIVAL, LavaridgeTown_Movement_RivalExitHerbShop
+	addobject LOCALID_LAVARIDGE_RIVAL
+	applymovement LOCALID_LAVARIDGE_RIVAL, LavaridgeTown_Movement_RivalExitHerbShop
 	waitmovement 0
 	closedoor 12, 15
 	waitdooranim
-	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_LAVARIDGE_RIVAL, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	playse SE_PIN
-	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	applymovement LOCALID_LAVARIDGE_RIVAL, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	applymovement LOCALID_LAVARIDGE_RIVAL, Common_Movement_Delay48
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return
 
 LavaridgeTown_EventScript_RivalApproachPlayer1::
-	applymovement LOCALID_RIVAL, LavaridgeTown_Movement_RivalApproachPlayer1
+	applymovement LOCALID_LAVARIDGE_RIVAL, LavaridgeTown_Movement_RivalApproachPlayer1
 	waitmovement 0
 	return
 
 LavaridgeTown_EventScript_RivalApproachPlayer2::
-	applymovement LOCALID_RIVAL, LavaridgeTown_Movement_RivalApproachPlayer2
+	applymovement LOCALID_LAVARIDGE_RIVAL, LavaridgeTown_Movement_RivalApproachPlayer2
 	waitmovement 0
 	return
 
 LavaridgeTown_EventScript_RivalExit1::
-	applymovement OBJ_EVENT_ID_PLAYER, LavaridgeTown_Movement_PlayerWatchRivalExit
-	applymovement LOCALID_RIVAL_ON_BIKE, LavaridgeTown_Movement_RivalExit1
+	applymovement LOCALID_PLAYER, LavaridgeTown_Movement_PlayerWatchRivalExit
+	applymovement LOCALID_LAVARIDGE_RIVAL_ON_BIKE, LavaridgeTown_Movement_RivalExit1
 	waitmovement 0
 	return
 
 LavaridgeTown_EventScript_RivalExit2::
-	applymovement LOCALID_RIVAL_ON_BIKE, LavaridgeTown_Movement_RivalExit2
+	applymovement LOCALID_LAVARIDGE_RIVAL_ON_BIKE, LavaridgeTown_Movement_RivalExit2
 	waitmovement 0
 	return
 
@@ -277,19 +274,19 @@ LavaridgeTown_EventScript_HerbShopSign::
 	end
 
 LavaridgeTown_Text_MayNiceBadgesTakeThis:
-    .string "小遥：{PLAYER}{KUN}！好久不见了！\p哦？看来我去温泉的时候\n你已经拿到釜炎镇道馆徽章了。\p你一定收集了不少\n优秀的宝可梦……\l不，我想是你训练得好的缘故。\p我想把这个给你\n没什么问题。$"
+    .string "小遥：{PLAYER}{KUN}！好久不见！\p哦？看来我去温泉的时候\n你已经拿到釜炎镇道馆徽章了。\p你一定得到了不少\n优秀的宝可梦……\l不，我想还是因为你培育得好。\p我想我可以把这个给你。$"
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
-    .string "小遥：有这个GOGO护目镜的话，\n穿过111号道路上的沙漠\l就很轻松了。\p但，真的，{PLAYER}{KUN}在\n挑战道馆……\p为了不输给我，\n你真的很努力呢！\p{PLAYER}{KUN}，我现在打算\n去橙华市道馆挑战你爸爸。\p回头见！$"
+    .string "小遥：有这个GOGO护目镜的话，\n就能穿越111号道路上的沙漠了。\p不过，{PLAYER}{KUN}居然在\n挑战道馆……\p是不想输给我吧？\n你为此真的很努力呢！\p{PLAYER}{KUN}，我现在打算\n去橙华市道馆挑战你爸爸了！\p回头见！$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
-    .string "小悠：{PLAYER}，嗨，又见面了，\n还顺利吗？\p唔……\n你收集了不少徽章了啊。\p那好，\n这个也给你吧。$"
+    .string "小悠：{PLAYER}，好久不见了，\n还顺利吗？\p唔……\n你收集了不少徽章了啊。\p那好，\n这个也给你吧。$"
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
-    .string "小悠：打算\n过111号道路上的沙漠的话\l就用它吧。\p沙漠里应该也有一些\n不怕风沙的宝可梦，\l你可以去找找。\p至于我……\n我打算去挑战橙华市的\l道馆馆主千里。\p{PLAYER}，你老爸和你不一样，\n他看上去相当强。\p下次见了！$"
+    .string "小悠：如果要去111号道路上\n的沙漠就带上它吧。\p那里应该也有一些\n沙漠特有的宝可梦，\l你可以去找找看。\p至于我……\n我打算去挑战橙华市的\l道馆馆主千里。\p{PLAYER}，你爸爸和你不一样，\n他看上去相当厉害！\p再见啦！$"
 
 LavaridgeTown_Text_HaveEggWillYouTakeIt:
-    .string "我这儿有个蛋，\p我本来指望用温泉边温暖的沙子\n盖起它来会孵化的，\l但看来这样还不够……\p听说最好能\n让它跟宝可梦\l在一起。\p你是个训练家对吗？\n而且你的宝可梦看上去活力十足。\p怎么样？\n你愿意带上这个蛋孵化它吗？$"
+    .string "我这儿有个蛋。\p我本来指望用温泉边温暖的沙子\n盖起它来会孵化的，\l但看来这样还不够……\p听说最好能\n让它跟宝可梦\l在一起。\p你是个训练家对吗？\n而且你的宝可梦看上去活力十足。\p怎么样？\n你愿意带上这个蛋孵化它吗？$"
 
 LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg:
     .string "好！希望你能带上\n这个蛋一起旅行！$"
@@ -304,7 +301,7 @@ LavaridgeTown_Text_AsYouWishThen:
     .string "那么请便吧……\p如果你改变主意了，\n再来这儿找我。$"
 
 LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
-    .string "有时宝可梦饲养园里\n会发现蛋，\p至少传闻中是这样。$"
+    .string "有时宝可梦培育屋里\n会发现蛋，\p至少传闻中是这样。$"
 
 LavaridgeTown_Text_HotSpringsNeverRunDry:
     .string "我们不断地汲取热水，\n但温泉却从未干涸，\p很神奇不是吗？\p这些温泉都很接近活火山，\n地下水脉被岩浆加热，\l从地表冒出来，\l就形成了温泉。$"
@@ -316,20 +313,20 @@ LavaridgeTown_Text_OhYouLikeHotSprings:
     .string "你喜欢温泉吗？\p对像你这样的年轻人来说\n还真是少见。$"
 
 LavaridgeTown_Text_BatheInHotSpringsEveryDay:
-    .string "我每天都来泡温泉，因为\p我也想成为一个亚莎那样\n既漂亮又强大的道馆馆主。$"
+    .string "我每天都来泡温泉，因为我也想成为\n亚莎那样既漂亮又强大的道馆馆主。$"
 
 LavaridgeTown_Text_IfPokemonInHotSprings:
     .string "如果把宝可梦放进温泉，\n它就会变得很奇怪。\p哈，有时候可能变成电气浴，\n或者泡沫浴，甚至岩浆浴……$"
 
 LavaridgeTown_Text_HotSpringsClaims:
-    .string "据说温泉可以放松\n紧张的神经，\l减轻身体的疲劳，解决\l爱情问题，还有\l增加收入……$"
+    .string "据说温泉可以放松\n紧张的神经，\l减轻身体的疲劳，\l解决感情问题，\l还能增加财运……$"
 
 LavaridgeTown_Text_TownSign:
-    .string "釜炎镇\p“宝可梦中心温泉\n最佳的放松地！”$"
+    .string "这里是釜炎镇。\n“宝可梦中心、温泉、绝妙的场所。”$"
 
 LavaridgeTown_Text_GymSign:
-    .string "釜炎镇宝可梦道馆\n馆主：亚莎\l“拥有火焰般燃烧的激情的人！”$"
+    .string "釜炎镇宝可梦道馆\n馆主：亚莎\l“热情似火的女性！”$"
 
 LavaridgeTown_Text_HerbShopSign:
-    .string "宝可梦药草商店\n“良药苦口。”$"
+    .string "宝可梦中药店\n“良药苦口。”$"
 

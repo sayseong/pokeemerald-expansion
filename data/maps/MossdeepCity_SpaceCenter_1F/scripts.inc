@@ -1,10 +1,3 @@
-.set LOCALID_SCIENTIST_1, 1
-.set LOCALID_SCIENTIST_2, 2
-.set LOCALID_SAILOR, 3
-.set LOCALID_OLD_MAN, 4
-.set LOCALID_WOMAN, 5
-.set LOCALID_STAIR_GRUNT, 9
-
 MossdeepCity_SpaceCenter_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, MossdeepCity_SpaceCenter_1F_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_SpaceCenter_1F_OnTransition
@@ -15,31 +8,31 @@ MossdeepCity_SpaceCenter_1F_OnTransition:
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_MoveObjectsForTeamMagma::
-	setobjectxyperm LOCALID_SAILOR, 1, 9
-	setobjectmovementtype LOCALID_SAILOR, MOVEMENT_TYPE_FACE_RIGHT
-	setobjectxyperm LOCALID_WOMAN, 0, 8
-	setobjectmovementtype LOCALID_WOMAN, MOVEMENT_TYPE_FACE_RIGHT
-	setobjectxyperm LOCALID_OLD_MAN, 1, 6
-	setobjectmovementtype LOCALID_OLD_MAN, MOVEMENT_TYPE_FACE_RIGHT
-	setobjectxyperm LOCALID_SCIENTIST_1, 3, 4
-	setobjectmovementtype LOCALID_SCIENTIST_1, MOVEMENT_TYPE_FACE_RIGHT
-	setobjectmovementtype LOCALID_SCIENTIST_2, MOVEMENT_TYPE_FACE_RIGHT
+	setobjectxyperm LOCALID_SPACE_CENTER_1F_SAILOR, 1, 9
+	setobjectmovementtype LOCALID_SPACE_CENTER_1F_SAILOR, MOVEMENT_TYPE_FACE_RIGHT
+	setobjectxyperm LOCALID_SPACE_CENTER_1F_WOMAN, 0, 8
+	setobjectmovementtype LOCALID_SPACE_CENTER_1F_WOMAN, MOVEMENT_TYPE_FACE_RIGHT
+	setobjectxyperm LOCALID_SPACE_CENTER_1F_OLD_MAN, 1, 6
+	setobjectmovementtype LOCALID_SPACE_CENTER_1F_OLD_MAN, MOVEMENT_TYPE_FACE_RIGHT
+	setobjectxyperm LOCALID_SPACE_CENTER_1F_SCIENTIST_1, 3, 4
+	setobjectmovementtype LOCALID_SPACE_CENTER_1F_SCIENTIST_1, MOVEMENT_TYPE_FACE_RIGHT
+	setobjectmovementtype LOCALID_SPACE_CENTER_1F_SCIENTIST_2, MOVEMENT_TYPE_FACE_RIGHT
 	goto_if_eq VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE, 1, MossdeepCity_SpaceCenter_1F_EventScript_MoveStairGuardLeft
 	goto_if_eq VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE, 2, MossdeepCity_SpaceCenter_1F_EventScript_MoveStairGuardDown
 	goto_if_eq VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE, 3, MossdeepCity_SpaceCenter_1F_EventScript_MoveStairGuardRight
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_MoveStairGuardLeft::
-	setobjectxyperm LOCALID_STAIR_GRUNT, 12, 2
+	setobjectxyperm LOCALID_SPACE_CENTER_1F_STAIR_GRUNT, 12, 2
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_MoveStairGuardDown::
-	setobjectxyperm LOCALID_STAIR_GRUNT, 13, 3
+	setobjectxyperm LOCALID_SPACE_CENTER_1F_STAIR_GRUNT, 13, 3
 	end
 
 @ Functionally unused. See comment on MossdeepCity_SpaceCenter_1F_EventScript_MoveGruntFromStairsEast
 MossdeepCity_SpaceCenter_1F_EventScript_MoveStairGuardRight::
-	setobjectxyperm LOCALID_STAIR_GRUNT, 14, 2
+	setobjectxyperm LOCALID_SPACE_CENTER_1F_STAIR_GRUNT, 14, 2
 	end
 
 MossdeepCity_SpaceCenter_1F_OnLoad:
@@ -226,7 +219,7 @@ MossdeepCity_SpaceCenter_1F_EventScript_Grunt2::
 	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_GRUNT_SPACE_CENTER_2, MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat
 	setflag FLAG_DEFEATED_GRUNT_SPACE_CENTER_1F
-	copyobjectxytoperm LOCALID_STAIR_GRUNT
+	copyobjectxytoperm LOCALID_SPACE_CENTER_1F_STAIR_GRUNT
 	switch VAR_FACING
 	case DIR_WEST, MossdeepCity_SpaceCenter_1F_EventScript_MoveGruntFromStairsWest
 #ifdef BUGFIX
@@ -234,7 +227,7 @@ MossdeepCity_SpaceCenter_1F_EventScript_Grunt2::
 #else
 	case DIR_WEST, MossdeepCity_SpaceCenter_1F_EventScript_MoveGruntFromStairsEast
 #endif
-	applymovement LOCALID_STAIR_GRUNT, MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairs
+	applymovement LOCALID_SPACE_CENTER_1F_STAIR_GRUNT, MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairs
 	waitmovement 0
 	setvar VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE, 2
 	release
@@ -246,7 +239,7 @@ MossdeepCity_SpaceCenter_1F_EventScript_Grunt2Defeated::
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_MoveGruntFromStairsWest::
-	applymovement LOCALID_STAIR_GRUNT, MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairsWest
+	applymovement LOCALID_SPACE_CENTER_1F_STAIR_GRUNT, MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairsWest
 	waitmovement 0
 	setvar VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE, 1
 	release
@@ -255,7 +248,7 @@ MossdeepCity_SpaceCenter_1F_EventScript_MoveGruntFromStairsWest::
 @ Functionally unused by mistake. The movement is handled anyway after the switch (see above)
 @ This also means VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE can never be 3
 MossdeepCity_SpaceCenter_1F_EventScript_MoveGruntFromStairsEast::
-	applymovement LOCALID_STAIR_GRUNT, MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairsEast
+	applymovement LOCALID_SPACE_CENTER_1F_STAIR_GRUNT, MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairsEast
 	waitmovement 0
 	setvar VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE, 3
 	release
@@ -286,13 +279,13 @@ MossdeepCity_SpaceCenter_1F_Text_RocketLaunchImminent:
     .string "火箭就要发射了！$"
 
 MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber:
-    .string "火箭发射成功！\n成功脱离。{STR_VAR_1}！$"
+    .string "火箭发射成功！\n这是第{STR_VAR_1}次成功发射！$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent:
-    .string "我知道现在一切\n有点混乱，但是……\p火箭就要发射了！$"
+    .string "我知道现在一切有些混乱，\n但是……\p火箭发射程序不会停止！$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber:
-    .string "我知道现在一切\n有点混乱，但是……\p火箭发射成功！\n成功脱离。{STR_VAR_1}！$"
+    .string "我知道现在一切有些混乱，\n但是……\p火箭仍然成功发射了！\n这是第{STR_VAR_1}次成功发射！$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
     .string "火箭的发射必须十全十美，\n即使是1%的差错也不容许存在。\p就算99%的程序都没错，\n一切也会毁在那1%上。\p但即使这样，我们也不会停止尝试。\n为什么？因为这是个无尽的梦。$"
@@ -316,7 +309,7 @@ MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:
     .string "有人宣称宝可梦是从宇宙来的。\n这是真的吗？$"
 
 MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
-    .string "海洋队得当心一下\n熔岩队！\p但如果他们真的敢那样，\n海洋队不就太过胆大妄为了吗？$"
+    .string "海洋队应该解决掉\n熔岩队！\p但如果他们真的做到了，\n胆大妄为的不就会是海洋队了吗？$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
     .string "一块巨大的金属冲破云霄，\n然后飞向宇宙……\p简直匪夷所思！$"
@@ -325,7 +318,7 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
     .string "一块巨大的金属冲破云霄，\n然后飞向宇宙……\p但熔岩队想打破\n我的那场梦！\p我不能让他们肆意妄为！$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
-    .string "大吾：{PLAYER}{KUN}，\n你读过他们的声明了吗？\p熔岩队想要的是\n这岛上的火箭燃料。\p虽然不知他们的目的何在，\n但我们不会让他们得逞的。\p我得在这儿\n盯着事情的发展，\p你趁此去镇上看看\n怎么样？$"
+    .string "大吾：{PLAYER}{KUN}，\n看到那封预告信了吗？\p熔岩队正在打这座岛上的\n火箭燃料的主意！\p虽然不知道他们的目的何在，\n但绝不能让他们得逞。\p我会在这里继续\n留意一阵子，\p你趁这段时间去\n城镇里逛逛如何？$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
     .string "就像说好的，\n我们来拿火箭燃料了！$"
@@ -346,7 +339,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle:
     .string "好了，我已经明白了！\n下一次我们不会再发通知了。$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro:
-    .string "宇宙中心储存的\n火箭燃料——正是我们要找的。\p我们要拿得一点不剩！$"
+    .string "宇宙中心储存的火箭燃料——\n那正是我们要找的。\p我们要拿得一点不剩！$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat:
     .string "求你了，能给我些火箭燃料吗？\n就算一点点也行！$"
@@ -355,13 +348,13 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle:
     .string "我们要火箭燃料\n做什么？\p我怎么知道？\n去楼上问老大吧！$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro:
-    .string "老大说\n不能让任何人通过这里！$"
+    .string "老大有令：任何人——\n都绝对不准通过这里！$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat:
-    .string "啊！啊！啊啊啊！$"
+    .string "呃！呃啊！啊啊啊！$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
-    .string "拜托告诉老大\n我没忘记我的职责，\l但我还是尝到了苦果……$"
+    .string "拜托告诉老大\n我没忘记我的职责，\l战斗到了最后一刻……$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
-    .string "这是……\n盗窃预告？\p“致宇宙中心的成员们：\n大家好吗？我们很好。\p我们很快会来你们这里\n带走火箭燃料。\p请不要妄图阻止我们，\n我们必定会带走燃料。\p愿大地更加广阔！\n                熔岩队”$"
+    .string "这是……\n盗窃预告？\p“致宇宙中心的成员们：\n大家好吗？我们很好。\p我们很快会来你们这里\n拿走火箭燃料。\p请不要妄图阻止我们，\n我们必定会带走燃料。\p愿大地更加广阔！\n                熔岩队”$"

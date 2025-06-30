@@ -257,45 +257,45 @@ BerryTree_EventScript_PlantBerry::
 	return
 
 BerryTree_Text_ItsSoftLoamySoil:
-    .string "这是柔软的土壤。$"
+    .string "这是松软的土地。$"
 
 BerryTree_Text_WantToPlant:
-    .string "这是柔软的土壤。\n"
+    .string "这是松软的土地。\n"
     .string "想要种植一个树果吗？$"
 
 BerryTree_Text_PlantedOneBerry:
-    .string "{PLAYER}在柔软的土壤里种下了\n一个{STR_VAR_1}。$"
+    .string "{PLAYER}在松软的土地上\n种植了{STR_VAR_1}。$"
 
 BerryTree_Text_BerryGrowthStage1:
 .if OW_BERRY_SIX_STAGES == TRUE
-	.string "这里是你种下{STR_VAR_1}的地方\n!$"
+	.string "种有{STR_VAR_1}的地方！$"
 .else
-	.string "这里种植了一个{STR_VAR_1}。$"
+	.string "种有{STR_VAR_1}的地方！$"
 .endif
 
 BerryTree_Text_BerryGrowthStage2:
 .if OW_BERRY_SIX_STAGES == TRUE
-	.string "{STR_VAR_1}正在发芽中!$"
+	.string "{STR_VAR_1}正在发芽中！$"
 .else
 	.string "{STR_VAR_1}已经发芽了。$"
 .endif
 
 BerryTree_Text_BerryGrowthStage3:
 .if OW_BERRY_SIX_STAGES == TRUE
-	.string "{STR_VAR_1}的幼苗长得很漂亮!$"
+	.string "{STR_VAR_1}的幼苗长得很漂亮！$"
 .else
 	.string "{STR_VAR_1}正在变得更高。$"
 .endif
 
 BerryTree_Text_BerryGrowthStageTrunk:
-	.string "{STR_VAR_1}的树干越来越粗了!$"
+	.string "{STR_VAR_1}的枝干变大了！$"
 
 BerryTree_Text_BerryGrowthStageBudding:
-	.string "{STR_VAR_1}的树干上发芽了!$"
+	.string "{STR_VAR_1}发芽了！$"
 
 BerryTree_Text_BerryGrowthStage4:
 .if OW_BERRY_SIX_STAGES == TRUE
-	.string "{STR_VAR_1}的树开花了!$"
+	.string "{STR_VAR_1}开花了！$"
 .else
 	.string "{STR_VAR_1}的花正在{STR_VAR_2}盛开\n。"
 .endif
@@ -310,39 +310,38 @@ BerryTree_Text_CareAdverbGood:
     .string "漂亮地$"
 
 BerryTree_Text_WantToPick:
-    .string "你发现了{STR_VAR_2}个{STR_VAR_1}！\p"
-    .string "你想要摘取\n"
+    .string "你找到了{STR_VAR_2}个{STR_VAR_1}！\p"
+    .string "要摘下\n"
     .string "{STR_VAR_1}吗？$"
 
 BerryTree_Text_PickedTheBerry:
-    .string "{PLAYER}摘取了{STR_VAR_2}个{STR_VAR_1}。$"
+    .string "{PLAYER}摘下了{STR_VAR_2}个{STR_VAR_1}。$"
 
 BerryTree_Text_PutAwayBerry:
     .string "{PLAYER}将{STR_VAR_1}\n"
     .string "放入包包的树果口袋中。\p"
-    .string "土壤恢复到了柔软\n"
-    .string "的状态。$"
+    .string "这里变回了松软的土地。$"
 
 BerryTree_Text_BerryPocketFull:
-    .string "包包的树果口袋已满。\p"
-    .string "{STR_VAR_1}无法被摘取。$"
+    .string "因为包包的树果口袋已满。\p"
+    .string "所以放弃了摘取{STR_VAR_1}。$"
 
 BerryTree_Text_BerryLeftUnpicked:
-    .string "{PLAYER}没有摘取\n"
+    .string "{PLAYER}没有摘下\n"
     .string "{STR_VAR_1}。$"
 
 BerryTree_Text_WantToWater:
-    .string "想要用吼吼鲸喷壶给{STR_VAR_1}\n"
+    .string "要用吼吼鲸喷壶给{STR_VAR_1}\n"
     .string "浇水吗？$"
 
 BerryTree_Text_WateredTheBerry:
     .string "{PLAYER}给{STR_VAR_1}浇了水。$"
 
 BerryTree_Text_PlantIsDelighted:
-    .string "植物似乎感到很高兴。$"
+    .string "它好像挺开心的！$"
 
 BerryTree_Text_ExclamationPoint:
-	.string "!$"
+	.string "！$"
 
 .if OW_BERRY_MUTATIONS == TRUE
 BerryTree_EventScript_CheckBerryFullyGrown_Mutation:
@@ -379,9 +378,9 @@ BerryTree_EventScript_PickBerry_Mutation::
 	end
 
 BerryTree_Text_WantToPick_Mutation:
-	.string "你找到了{STR_VAR_2} ,{STR_VAR_1}\n"
-	.string "与一个 {STR_VAR_3}!\p"
-	.string "你想要摘下它们吗？?$"
+	.string "你找到了{STR_VAR_2}、{STR_VAR_1}\n"
+	.string "与一个 {STR_VAR_3}！\p"
+	.string "你想要摘下它们吗？？$"
 
 BerryTree_Text_BerryLeftUnpicked_Mutation:
     .string "{PLAYER} 离开了 {STR_VAR_1}\n"
@@ -460,5 +459,5 @@ BerryTree_EventScript_EncounterPests::
 	return
 
 BerryTree_Text_APokemonAppeared:
-	.string "一只宝可梦跳出来了!$"
+	.string "一只宝可梦跳出来了！$"
 .endif

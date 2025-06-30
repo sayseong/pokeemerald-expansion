@@ -471,7 +471,7 @@ struct PokemonStorageSystemData
     u8 cursorPrevHorizPos;
     u8 cursorFlipTimer;
     u8 cursorPalNums[2];
-    const u32 *displayMonPalette;
+    const u16 *displayMonPalette;
     u32 displayMonPersonality;
     u16 displayMonSpecies;
     u16 displayMonItemId;
@@ -524,7 +524,6 @@ struct PokemonStorageSystemData
     u16 displayMonPalOffset;
     u16 *displayMonTilePtr;
     struct Sprite *displayMonSprite;
-    u16 displayMonPalBuffer[0x40];
     u8 ALIGNED(4) tileBuffer[MON_PIC_SIZE * MAX_MON_PIC_FRAMES];
     u8 ALIGNED(4) itemIconBuffer[0x800];
     u8 wallpaperBgTilemapBuffer[0x1000];
@@ -692,7 +691,7 @@ static void MultiMove_DeselectColumn(u8, u8, u8);
 static bool32 IsItemIconAtPosition(u8, u8);
 static u8 GetNewItemIconIdx(void);
 static void SetItemIconPosition(u8, u8, u8);
-static void LoadItemIconGfx(u8, const u32 *, const u32 *);
+static void LoadItemIconGfx(u8 id, const u32 *itemTiles, const u16 *itemPal);
 static void SetItemIconAffineAnim(u8, u8);
 static void SetItemIconActive(u8, bool8);
 static u8 GetItemIconIdxByPosition(u8, u8);
@@ -845,7 +844,7 @@ static void TilemapUtil_DrawPrev(u8);
 static void TilemapUtil_Draw(u8);
 
 // Form changing
-void SetMonFormPSS(struct BoxPokemon *boxMon, u32 method);
+void SetMonFormPSS(struct BoxPokemon *boxMon, enum FormChanges method);
 void UpdateSpeciesSpritePSS(struct BoxPokemon *boxmon);
 
 static const u8 gText_JustOnePkmn[] = _("这样就没有可战斗的宝可梦了！");
@@ -857,10 +856,10 @@ struct {
     const u8 *desc;
 } static const sMainMenuTexts[OPTIONS_COUNT] =
 {
-    [OPTION_WITHDRAW]   = {COMPOUND_STRING("取出宝可梦"),     COMPOUND_STRING("可以将当前队伍中的宝可梦\n存放到电脑中。")},
-    [OPTION_DEPOSIT]    = {COMPOUND_STRING("存放宝可梦"),     COMPOUND_STRING("可以将存放在盒子中的宝可梦\n取出并添加到队伍中。")},
-    [OPTION_MOVE_MONS]  = {COMPOUND_STRING("整理宝可梦"),     COMPOUND_STRING("可以整理当前队伍以及\n盒子中存放的所有宝可梦。")},
-    [OPTION_MOVE_ITEMS] = {COMPOUND_STRING("整理道具"),       COMPOUND_STRING("可以整理当前所有宝可梦\n所携带的道具。")},
+    [OPTION_WITHDRAW]   = {COMPOUND_STRING("取出宝可梦"),     COMPOUND_STRING("可以将寄放在盒子中的宝可梦\n取出并添加到队伍中。")},
+    [OPTION_DEPOSIT]    = {COMPOUND_STRING("寄放宝可梦"),     COMPOUND_STRING("可以将当前队伍中的宝可梦\n寄放到电脑中。")},
+    [OPTION_MOVE_MONS]  = {COMPOUND_STRING("整理宝可梦"),     COMPOUND_STRING("可以整理当前队伍以及\n盒子中寄放的所有宝可梦。")},
+    [OPTION_MOVE_ITEMS] = {COMPOUND_STRING("整理持有物"),     COMPOUND_STRING("可以整理当前所有宝可梦\n的持有物。")},
     [OPTION_EXIT]       = {COMPOUND_STRING("再见！"),         COMPOUND_STRING("返回上一个菜单。")}
 };
 
@@ -1048,8 +1047,8 @@ static const struct StorageMessage sMessages[] =
     [MSG_PICK_A_WALLPAPER]     = {COMPOUND_STRING("要选择哪一种壁纸？"),        MSG_VAR_NONE},
     [MSG_IS_SELECTED]          = {gText_PkmnIsSelected,                          MSG_VAR_MON_NAME_1},
     [MSG_JUMP_TO_WHICH_BOX]    = {COMPOUND_STRING("要跳转到哪个盒子？"),         MSG_VAR_NONE},
-    [MSG_DEPOSIT_IN_WHICH_BOX] = {COMPOUND_STRING("要存放到哪个盒子中？"),      MSG_VAR_NONE},
-    [MSG_WAS_DEPOSITED]        = {COMPOUND_STRING("存放了{DYNAMIC 0}！"), MSG_VAR_MON_NAME_1},
+    [MSG_DEPOSIT_IN_WHICH_BOX] = {COMPOUND_STRING("要寄放到哪个盒子中？"),      MSG_VAR_NONE},
+    [MSG_WAS_DEPOSITED]        = {COMPOUND_STRING("寄放了{DYNAMIC 0}！"), MSG_VAR_MON_NAME_1},
     [MSG_BOX_IS_FULL]          = {COMPOUND_STRING("这个盒子已经满了！"),           MSG_VAR_NONE},
     [MSG_RELEASE_POKE]         = {COMPOUND_STRING("真的要放生吗？"),      MSG_VAR_NONE},
     [MSG_WAS_RELEASED]         = {COMPOUND_STRING("已将{DYNAMIC 0}放生了！"),  MSG_VAR_RELEASE_MON_1},
@@ -1058,21 +1057,21 @@ static const struct StorageMessage sMessages[] =
     [MSG_LAST_POKE]            = {COMPOUND_STRING("这样就没有可战斗的宝可梦了！"),  MSG_VAR_NONE},
     [MSG_PARTY_FULL]           = {gText_YourPartysFull,                          MSG_VAR_NONE},
     [MSG_HOLDING_POKE]         = {COMPOUND_STRING("正在抓着宝可梦！"),  MSG_VAR_NONE},
-    [MSG_WHICH_ONE_WILL_TAKE]  = {COMPOUND_STRING("请选择要带走的宝可梦！"),   MSG_VAR_NONE},
+    [MSG_WHICH_ONE_WILL_TAKE]  = {COMPOUND_STRING("请选择要取出的宝可梦！"),   MSG_VAR_NONE},
     [MSG_CANT_RELEASE_EGG]     = {COMPOUND_STRING("无法将蛋放生！"),  MSG_VAR_NONE},
     [MSG_CONTINUE_BOX]         = {COMPOUND_STRING("要继续对盒子的操作吗？"),   MSG_VAR_NONE},
     [MSG_CAME_BACK]            = {COMPOUND_STRING("{DYNAMIC 0}回来了！"),     MSG_VAR_MON_NAME_1},
     [MSG_WORRIED]              = {COMPOUND_STRING("它是在担心你吗？"),  MSG_VAR_NONE},
-    [MSG_SURPRISE]             = {COMPOUND_STRING("…… …… !"),                  MSG_VAR_NONE},
+    [MSG_SURPRISE]             = {COMPOUND_STRING("…… …… ！"),                  MSG_VAR_NONE},
     [MSG_PLEASE_REMOVE_MAIL]   = {COMPOUND_STRING("请取下携带的邮件！"),    MSG_VAR_NONE},
     [MSG_IS_SELECTED2]         = {gText_PkmnIsSelected,                          MSG_VAR_ITEM_NAME},
     [MSG_GIVE_TO_MON]          = {COMPOUND_STRING("要给宝可梦携带吗？"),         MSG_VAR_NONE},
     [MSG_PLACED_IN_BAG]        = {COMPOUND_STRING("将{DYNAMIC 0}放入了包包。"),    MSG_VAR_ITEM_NAME},
     [MSG_BAG_FULL]             = {COMPOUND_STRING("包包已经满了！"),           MSG_VAR_NONE},
     [MSG_PUT_IN_BAG]           = {COMPOUND_STRING("要将道具放回包包吗？"),  MSG_VAR_NONE},
-    [MSG_ITEM_IS_HELD]         = {COMPOUND_STRING("让精灵持有了{DYNAMIC 0}。"),   MSG_VAR_ITEM_NAME},
+    [MSG_ITEM_IS_HELD]         = {COMPOUND_STRING("让精灵携带了{DYNAMIC 0}。"),   MSG_VAR_ITEM_NAME},
     [MSG_CHANGED_TO_ITEM]      = {COMPOUND_STRING("将{DYNAMIC 0}交换出来了！"),    MSG_VAR_ITEM_NAME},
-    [MSG_CANT_STORE_MAIL]      = {COMPOUND_STRING("不能存放邮件！"),      MSG_VAR_NONE},
+    [MSG_CANT_STORE_MAIL]      = {COMPOUND_STRING("不能寄放邮件！"),      MSG_VAR_NONE},
 };
 
 static const struct WindowTemplate sYesNoWindowTemplate =
@@ -3933,13 +3932,11 @@ static void CreateDisplayMonSprite(void)
     u8 palSlot;
     u8 spriteId;
     struct SpriteSheet sheet = {sStorage->tileBuffer, MON_PIC_SIZE, GFXTAG_DISPLAY_MON};
-    struct SpritePalette palette = {sStorage->displayMonPalBuffer, PALTAG_DISPLAY_MON};
+    struct SpritePalette palette = {sStorage->displayMonPalette, PALTAG_DISPLAY_MON};
     struct SpriteTemplate template = sSpriteTemplate_DisplayMon;
 
     for (i = 0; i < MON_PIC_SIZE; i++)
         sStorage->tileBuffer[i] = 0;
-    for (i = 0; i < 16; i++)
-        sStorage->displayMonPalBuffer[i] = 0;
 
     sStorage->displayMonSprite = NULL;
 
@@ -3977,9 +3974,8 @@ static void LoadDisplayMonGfx(u16 species, u32 pid)
     if (species != SPECIES_NONE)
     {
         LoadSpecialPokePic(sStorage->tileBuffer, species, pid, TRUE);
-        LZ77UnCompWram(sStorage->displayMonPalette, sStorage->displayMonPalBuffer);
         CpuCopy32(sStorage->tileBuffer, sStorage->displayMonTilePtr, MON_PIC_SIZE);
-        LoadPalette(sStorage->displayMonPalBuffer, sStorage->displayMonPalOffset, PLTT_SIZE_4BPP);
+        LoadPalette(sStorage->displayMonPalette, sStorage->displayMonPalOffset, PLTT_SIZE_4BPP);
         sStorage->displayMonSprite->invisible = FALSE;
     }
     else
@@ -6541,10 +6537,10 @@ struct
 {
     {MAP_GROUPS_COUNT, 0, MOVE_SURF},
     {MAP_GROUPS_COUNT, 0, MOVE_DIVE},
-    {MAP_GROUP(EVER_GRANDE_CITY_POKEMON_LEAGUE_1F), MAP_NUM(EVER_GRANDE_CITY_POKEMON_LEAGUE_1F), MOVE_STRENGTH},
-    {MAP_GROUP(EVER_GRANDE_CITY_POKEMON_LEAGUE_1F), MAP_NUM(EVER_GRANDE_CITY_POKEMON_LEAGUE_1F), MOVE_ROCK_SMASH},
-    {MAP_GROUP(EVER_GRANDE_CITY_POKEMON_LEAGUE_2F), MAP_NUM(EVER_GRANDE_CITY_POKEMON_LEAGUE_2F), MOVE_STRENGTH},
-    {MAP_GROUP(EVER_GRANDE_CITY_POKEMON_LEAGUE_2F), MAP_NUM(EVER_GRANDE_CITY_POKEMON_LEAGUE_2F), MOVE_ROCK_SMASH},
+    {MAP_GROUP(MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F), MAP_NUM(MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F), MOVE_STRENGTH},
+    {MAP_GROUP(MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F), MAP_NUM(MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F), MOVE_ROCK_SMASH},
+    {MAP_GROUP(MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_2F), MAP_NUM(MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_2F), MOVE_STRENGTH},
+    {MAP_GROUP(MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_2F), MAP_NUM(MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_2F), MOVE_ROCK_SMASH},
 };
 
 static void GetRestrictedReleaseMoves(u16 *moves)
@@ -6909,7 +6905,7 @@ static void ReshowDisplayMon(void)
         TryRefreshDisplayMon();
 }
 
-void SetMonFormPSS(struct BoxPokemon *boxMon, u32 method)
+void SetMonFormPSS(struct BoxPokemon *boxMon, enum FormChanges method)
 {
     u16 targetSpecies = GetFormChangeTargetSpeciesBoxMon(boxMon, method, 0);
     if (targetSpecies != GetBoxMonData(boxMon, MON_DATA_SPECIES, NULL))
@@ -7051,7 +7047,7 @@ static void SetDisplayMonData(void *pokemon, u8 mode)
         txtPtr[1] = EOS;
 
         if (sStorage->displayMonItemId != ITEM_NONE)
-            StringCopyPadded(sStorage->displayMonItemName, ItemId_GetName(sStorage->displayMonItemId), CHAR_SPACE, 8);
+            StringCopyPadded(sStorage->displayMonItemName, GetItemName(sStorage->displayMonItemId), CHAR_SPACE, 8);
         else
             StringFill(sStorage->displayMonItemName, CHAR_SPACE, 8);
     }
@@ -8004,7 +8000,7 @@ static const u8 *const sMenuTexts[] =
 {
     [MENU_CANCEL]     = COMPOUND_STRING("取消"),
     [MENU_STORE]      = COMPOUND_STRING("寄放"),
-    [MENU_WITHDRAW]   = COMPOUND_STRING("带走"),
+    [MENU_WITHDRAW]   = COMPOUND_STRING("取出"),
     [MENU_MOVE]       = COMPOUND_STRING("移动"),
     [MENU_SHIFT]      = COMPOUND_STRING("交换"),
     [MENU_PLACE]      = COMPOUND_STRING("放下"),
@@ -8070,9 +8066,12 @@ static s8 GetMenuItemTextId(u8 menuIdx)
 
 static void AddMenu(void)
 {
-    sStorage->menuWindow.width = sStorage->menuWidth;
-    //修改，修改精灵存储页面选择框宽度。
+    //修改，修改菜单宽度
+    //原版为+2，这里改成+1
+    //理论上，日版这里使用的是8x13旧字体，汉化后汉字占用两个HEX字符，所以本来为8的宽度会因为HEX字符串叠加变成16
+    //个人的改法是将后面决定len的函数「Stringlength」换成Getstringwidth之后除以8来获得实际长度
     //sStorage->menuWindow.width = sStorage->menuWidth + 2;
+    sStorage->menuWindow.width = sStorage->menuWidth + 1;
     sStorage->menuWindow.height = 2 * sStorage->menuItemsCount;
     sStorage->menuWindow.tilemapLeft = 29 - sStorage->menuWindow.width;
     sStorage->menuWindow.tilemapTop = 15 - sStorage->menuWindow.height;
@@ -8857,7 +8856,7 @@ static void TryLoadItemIconAtPos(u8 cursorArea, u8 cursorPos)
     if (heldItem != ITEM_NONE)
     {
         const u32 *tiles = GetItemIconPic(heldItem);
-        const u32 *pal = GetItemIconPalette(heldItem);
+        const u16 *pal = GetItemIconPalette(heldItem);
         u8 id = GetNewItemIconIdx();
 
         SetItemIconPosition(id, cursorArea, cursorPos);
@@ -8914,7 +8913,7 @@ static void TakeItemFromMon(u8 cursorArea, u8 cursorPos)
 static void InitItemIconInCursor(u16 itemId)
 {
     const u32 *tiles = GetItemIconPic(itemId);
-    const u32 *pal = GetItemIconPalette(itemId);
+    const u16 *pal = GetItemIconPalette(itemId);
     u8 id = GetNewItemIconIdx();
     LoadItemIconGfx(id, tiles, pal);
     SetItemIconAffineAnim(id, ITEM_ANIM_LARGE);
@@ -9079,7 +9078,7 @@ static bool8 IsMovingItem(void)
 
 static const u8 *GetMovingItemName(void)
 {
-    return ItemId_GetName(sStorage->movingItemId);
+    return GetItemName(sStorage->movingItemId);
 }
 
 static u16 GetMovingItemId(void)
@@ -9178,7 +9177,7 @@ static void SetItemIconPosition(u8 id, u8 cursorArea, u8 cursorPos)
     sStorage->itemIcons[id].pos = cursorPos;
 }
 
-static void LoadItemIconGfx(u8 id, const u32 *itemTiles, const u32 *itemPal)
+static void LoadItemIconGfx(u8 id, const u32 *itemTiles, const u16 *itemPal)
 {
     s32 i;
 
@@ -9191,8 +9190,7 @@ static void LoadItemIconGfx(u8 id, const u32 *itemTiles, const u32 *itemPal)
         CpuFastCopy(&sStorage->tileBuffer[i * 0x60], &sStorage->itemIconBuffer[i * 0x80], 0x60);
 
     CpuFastCopy(sStorage->itemIconBuffer, sStorage->itemIcons[id].tiles, 0x200);
-    LZ77UnCompWram(itemPal, sStorage->itemIconBuffer);
-    LoadPalette(sStorage->itemIconBuffer, sStorage->itemIcons[id].palIndex, PLTT_SIZE_4BPP);
+    LoadPalette(itemPal, sStorage->itemIcons[id].palIndex, PLTT_SIZE_4BPP);
 }
 
 static void SetItemIconAffineAnim(u8 id, u8 animNum)
@@ -9264,9 +9262,9 @@ static void PrintItemDescription(void)
     const u8 *description;
 
     if (IsMovingItem())
-        description = ItemId_GetDescription(sStorage->movingItemId);
+        description = GetItemDescription(sStorage->movingItemId);
     else
-        description = ItemId_GetDescription(sStorage->displayMonItemId);
+        description = GetItemDescription(sStorage->displayMonItemId);
 
     FillWindowPixelBuffer(WIN_ITEM_DESC, PIXEL_FILL(1));
     AddTextPrinterParameterized5(WIN_ITEM_DESC, FONT_NORMAL, description, 4, 0, 0, NULL, 0, 1);
@@ -9716,9 +9714,9 @@ u32 CountAllStorageMons(void)
     return count;
 }
 
-bool32 AnyStorageMonWithMove(u16 moveId)
+bool32 AnyStorageMonWithMove(u16 move)
 {
-    u16 moves[] = {moveId, MOVES_COUNT};
+    u16 moves[] = {move, MOVES_COUNT};
     s32 i, j;
 
     for (i = 0; i < TOTAL_BOXES_COUNT; i++)

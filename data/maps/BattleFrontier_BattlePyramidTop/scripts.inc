@@ -1,6 +1,3 @@
-.set LOCALID_ATTENDANT, 1
-.set LOCALID_BRANDON, 2
-
 BattleFrontier_BattlePyramidTop_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePyramidTop_OnResume
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePyramidTop_OnFrame
@@ -19,7 +16,7 @@ BattleFrontier_BattlePyramidTop_OnWarp:
 
 BattleFrontier_BattlePyramidTop_EventScript_SetUpObjects::
 	setvar VAR_TEMP_1, 1
-	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	turnobject LOCALID_PLAYER, DIR_NORTH
 	goto_if_ne VAR_TEMP_C, 0, BattleFrontier_BattlePyramidTop_EventScript_EndSetUpObjects
 	setobjectxyperm LOCALID_BRANDON, 0, 0
 BattleFrontier_BattlePyramidTop_EventScript_EndSetUpObjects::
@@ -73,11 +70,11 @@ BattleFrontier_BattlePyramidTop_EventScript_Attendant::
 	goto_if_ne VAR_TEMP_C, FRONTIER_BRAIN_NOT_READY, BattleFrontier_BattlePyramidTop_EventScript_BrandonHereMoveAside
 	msgbox BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_ATTENDANT, BattleFrontier_BattlePyramidTop_Movement_AttendantMoveAside
+	applymovement LOCALID_PYRAMID_TOP_ATTENDANT, BattleFrontier_BattlePyramidTop_Movement_AttendantMoveAside
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattlePyramidTop_Movement_PlayerClimbToTop
+	applymovement LOCALID_PLAYER, BattleFrontier_BattlePyramidTop_Movement_PlayerClimbToTop
 	waitmovement 0
-	applymovement LOCALID_ATTENDANT, BattleFrontier_BattlePyramidTop_Movement_AttendantBlockPath
+	applymovement LOCALID_PYRAMID_TOP_ATTENDANT, BattleFrontier_BattlePyramidTop_Movement_AttendantBlockPath
 	waitmovement 0
 	message BattleFrontier_BattlePyramidTop_Text_PlayerConqueredPyramid
 	waitmessage
@@ -97,7 +94,7 @@ BattleFrontier_BattlePyramidTop_EventScript_StepForwardWhenReady::
 
 BattleFrontier_BattlePyramidTop_EventScript_BrandonHereMoveAside::
 	msgbox BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere, MSGBOX_DEFAULT
-	applymovement LOCALID_ATTENDANT, BattleFrontier_BattlePyramidTop_Movement_AttendantMoveAside
+	applymovement LOCALID_PYRAMID_TOP_ATTENDANT, BattleFrontier_BattlePyramidTop_Movement_AttendantMoveAside
 	setvar VAR_TEMP_D, 1
 	closemessage
 	end
@@ -111,7 +108,7 @@ BattleFrontier_BattlePyramidTop_EventScript_BattleBrandon::
 	frontier_get FRONTIER_DATA_HEARD_BRAIN_SPEECH
 	goto_if_ne VAR_RESULT, FALSE, BattleFrontier_BattlePyramidTop_EventScript_BrandonHeardSilverSpeech
 	special SpawnCameraObject
-	applymovement OBJ_EVENT_ID_CAMERA, BattleFrontier_BattlePyramidTop_Movement_CameraPanUp
+	applymovement LOCALID_CAMERA, BattleFrontier_BattlePyramidTop_Movement_CameraPanUp
 	waitmovement 0
 	msgbox BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure, MSGBOX_DEFAULT
 	closemessage
@@ -148,7 +145,7 @@ BattleFrontier_BattlePyramidTop_EventScript_BrandonIntroGold::
 	frontier_get FRONTIER_DATA_HEARD_BRAIN_SPEECH
 	goto_if_ne VAR_RESULT, FALSE, BattleFrontier_BattlePyramidTop_EventScript_BrandonHeardGoldSpeech
 	special SpawnCameraObject
-	applymovement OBJ_EVENT_ID_CAMERA, BattleFrontier_BattlePyramidTop_Movement_CameraPanUp
+	applymovement LOCALID_CAMERA, BattleFrontier_BattlePyramidTop_Movement_CameraPanUp
 	waitmovement 0
 	msgbox BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned, MSGBOX_DEFAULT
 	closemessage
@@ -219,50 +216,50 @@ BattleFrontier_BattlePyramidTop_Movement_CameraPanUp:
 	step_end
 
 BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo:
-    .string "很高兴能在这里见到你！\n你已经来到了对战金字塔\l最顶层。\p这就是金字塔的\n观测点。\p这个地方只为征服了\n金字塔 的人开放。\p进来吧！\n随便你到处逛！$"
+    .string "很荣幸能在这里见到你！\n你已经来到了对战金字塔\l最顶层。\p这就是金字塔的\n观景台。\p这个地方只为征服了\n金字塔的人开放。\p来吧！\n继续向前吧！$"
 
 BattleFrontier_BattlePyramidTop_Text_PlayerConqueredPyramid:
-    .string "金字塔的新征服者。\n让众人记住{PLAYER}这个名字吧！$"
+    .string "金字塔的新任征服者。\n让众人铭记{PLAYER}这个名字吧！$"
 
 BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere:
-    .string "很高兴能在这里见到你！\p很可惜，\n你来晚了一点，是第二位。\p我们的法老已经被先到金字塔的\n训练家打败。\p不过呢，年轻的探险家，\n你是一位训练家！\p我们的法老说\n你的实力和荣誉都是最高的！\p这边请！\n请带上多一分的能力！$"
+    .string "很荣幸能在这里见到你！\p很可惜，\n你以分毫之差屈居第二抵达这里。\p我们的首领已经率先\n征服了金字塔。\p不过，年轻的探险家，\n你是一位训练家！\p用实力从法老手中夺取巅峰的荣耀吧！\p当你准备好时，\n请再度迈出这勇气的一步！$"
 
 BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure:
-    .string "年轻的冒险家……\p你是否认为探索\n是冒险的原动力呢？\p你的才智！\p你的实力！\p你的宝可梦！\p最重要的是，还是你的勇气，\n指引你走向未知的世界……$"
+    .string "年轻的冒险家……\p你不觉得探索才是最为\n伟大的冒险吗？\p凭借你的智慧！\p你的实力！\p你的宝可梦！\p还有最重要的，你的勇气！\n唯有它将指引你走遍未知的世界……$"
 
 BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon:
-    .string "嗯，生命的伟大的！\n真的很伟大！\p我是神代！\p我是金字塔法老，\n也就是说这里归我所管。\p人们都称我为法老！\p你能来到这里，\n说明了你对自己很有信心，\l我说得对吗？\p哈哈哈！\n真是令人兴奋啊！$"
+    .string "嗯，生命何等壮阔！\n壮阔至极！\p我是神代！\p身为金字塔法老，\n这里由我掌管。\p人们都称我为首领！\p你能来到这里，\n说明了你对自己充满信心，\l我说得对吗？\p哈哈哈！\n这必将是一场精彩对决！$"
 
 BattleFrontier_BattlePyramidTop_Text_BringCourageToOurBattle:
-    .string "现在呢，\n带上你的能力来一起对战吧！$"
+    .string "现在！\n带着你的勇气来战斗吧！$"
 
 BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease:
-    .string "神代：哈哈哈！真棒！\n你真的很棒！\p这个，你获得的荣誉：\n开拓通行证！$"
+    .string "神代：哈哈哈！壮阔！\n何等壮阔！\p做得好！这是属于你的荣耀！\n拿出你的开拓通行证吧！$"
 
 BattleFrontier_BattlePyramidTop_Text_ReceivedBraveSymbol:
     .string "英勇象征浮现在\n开拓通行证上。$"
 
 BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
-    .string "年轻的冒险者！\n我期待我们的下一次见面！$"
+    .string "年轻的探险家！\n期待我们的下一次再会！$"
 
 BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
-    .string "神代：……你终于回来了，\n年轻的冒险者……\p你对冒险的热情像源于\n你的内心深处……\p对…… 你简直就像是\n年轻时期的我自己\p…… ……啊……\p热情！\p险恶！\p不顾一切！\p对死亡毫不畏惧的那些日子，\n及一生矢志不渝的冒险者\p都成了过去……$"
+    .string "神代：……你终于回来了，\n年轻的探险家……\p你对冒险的热情似乎源于\n你的内心深处……\p对……你简直就像是\n年轻时期的我自己\p…… ……啊……\p激情！\p危机！\p绝境！\p那些在生死边缘探寻生命意义的\n日子又在此重现了……$"
 
 BattleFrontier_BattlePyramidTop_Text_MyCourageIsOffMeter:
-    .string "然而，现在\p我知道我的勇气已经\n衰退了！$"
+    .string "现在！\p我已感受到澎湃的勇气\n即将满溢！$"
 
 BattleFrontier_BattlePyramidTop_Text_EverythingYouHave:
-    .string "你拥有一切！\n我会全力支持你！$"
+    .string "倾尽你的一切吧！\n我已做好万全准备！$"
 
 BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis:
-    .string "神代：哈哈哈！\n非常出色！\l对，无须置疑！\p年轻的冒险者！\p你完全胜了我！\n给！这是我想要让你得到的！$"
+    .string "神代：哈哈哈！\n精彩绝伦！\l壮阔至极！\p年轻的探险家！\p你完全超越了我！\n来！我希望你收下这个！$"
 
 BattleFrontier_BattlePyramidTop_Text_BraveSymbolTookGoldenShine:
     .string "英勇象征闪耀着\n金色的光芒！$"
 
 BattleFrontier_BattlePyramidTop_Text_FarewellForNow:
-    .string "不错！这就表示\n我仍然有很多需要去学！\p我们还会见面的！\n现在让我们告别吧，年轻的冒险者！$"
+    .string "啊，没错！\n看来我要学东西还有很多！\p愿我们再次相逢！\n让我们暂别吧，年轻的探险家！$"
 
 BattleFrontier_BattlePyramidTop_Text_StepForwardWhenReady:
-    .string "现在起，当你做好了准备，就\n勇往直前吧！$"
+    .string "当你准备好时，\n请带着勇气向前迈进吧！$"
 

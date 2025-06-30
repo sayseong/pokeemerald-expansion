@@ -37,10 +37,10 @@ Route110_TrickHousePuzzle8_Text_VincentDefeat:
     .string "这就意味着你也非常强大……$"
 
 Route110_TrickHousePuzzle8_Text_VincentPostBattle:
-    .string "你已经打败了宝可梦联盟\n冠军？太厉害了！$"
+    .string "你已经打败了宝可梦联盟冠军？\n太厉害了！$"
 
 Route110_TrickHousePuzzle8_Text_KeiraIntro:
-    .string "跟我战斗，你应该\n感到非常幸运！$"
+    .string "跟我对战，\n你应该感到非常幸运！$"
 
 Route110_TrickHousePuzzle8_Text_KeiraDefeat:
     .string "这不可能！\n我怎么会输！$"

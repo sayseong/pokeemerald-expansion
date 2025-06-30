@@ -186,7 +186,7 @@ MauvilleCity_BikeShop_Text_GuessYouDontNeedBike:
     .string "风野：是吗？\p那么我想你\n不需要我的自行车。$"
 
 MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
-    .string "风野：唔，唔…… ……\p你说你从未白镇\n一路来到这里？\p天啊！\n那么远的地方！\p如果你骑着我的自行车，\n你可以在感受轻风拂面的同时\l轻轻松松地到任何地方去！\p我跟你说！\n我给你辆自行车！\p啊，等等！\p忘了告诉你，我这儿\n有两种自行车！\p分别是音速自行车\n和越野自行车！\p音速自行车是为\n追风的单车一族而设计，\p而越野自行车则是给\n喜爱车技的人所准备！\p我是好心人，所以\n让你随便挑一种！\p你想要哪样？$"
+    .string "风野：唔，唔…… ……\p你说你从未白镇\n一路来到这里？\p天啊！\n那么远的地方！\p如果你骑着我的自行车，\n你可以在感受轻风拂面的同时\l轻轻松松地到任何地方去！\p我跟你说！\n我给你辆自行车！\p啊，等等！\p忘了告诉你，\n我这儿有两种自行车！\p分别是音速自行车\n和越野自行车！\p音速自行车是为\n追风的单车一族而设计，\p而越野自行车则是给\n喜爱车技的人所准备！\p我是好心人，\n所以让你随便挑一种！\p你想要哪样？$"
 
 MauvilleCity_BikeShop_Text_ChoseMachBike:
     .string "{PLAYER}选择了音速自行车。$"
@@ -198,7 +198,7 @@ MauvilleCity_BikeShop_Text_ComeBackToSwitchBikes:
     .string "风野：如果你想换一辆自行车，\n再回来找我！$"
 
 MauvilleCity_BikeShop_Text_WantToSwitchBikes:
-    .string "风野：哦？你想\n换一辆车吗？$"
+    .string "风野：哦？\n你想换一辆车吗？$"
 
 MauvilleCity_BikeShop_Text_IllSwitchBikes:
     .string "风野：好，没问题！\n我给你换一辆车！$"
@@ -216,7 +216,7 @@ MauvilleCity_BikeShop_Text_OhYourBikeIsInPC:
     .string "哎？我\n给你的自行车呢？\p啊，明白了，你把它存到电脑里面了。\p把它从电脑里拿出来吧，\n我很乐意为你换一辆！\p愿你在旅行中\n体会到追风的快乐！$"
 
 MauvilleCity_BikeShop_Text_HandbooksAreInBack:
-    .string "我在这儿工作的时候\n学到了很多关于自行车的知识。\p如果你想知道\n怎么骑车，那边\l有几本说明书。$"
+    .string "我在这儿工作的时候\n学到了很多关于自行车的知识。\p如果你想知道怎么骑车，\n那边有几本说明书。$"
 
 MauvilleCity_BikeShop_Text_MachHandbookWhichPage:
     .string "是音速自行车的说明书。\p想读哪一页？$"
@@ -237,8 +237,8 @@ MauvilleCity_BikeShop_Text_Wheelies:
     .string "骑车时按住B键\n可以抬起前轮，\p此时按方向键\n能够抬着前轮移动。\p这叫做后轮特技。\p还要翻到其他页吗？$"
 
 MauvilleCity_BikeShop_Text_BunnyHops:
-    .string "一直按住B键，\n自行车会原地跳跃。\p这叫做小跳。\p跳起时也可以继续骑车。\p还要翻到其他页吗？$"
+    .string "一直按住B键，\n自行车会原地跳跃。\p这叫做弹跳。\p弹跳时也可以继续骑车。\p还要翻到其他页吗？$"
 
 MauvilleCity_BikeShop_Text_Jumps:
-    .string "同时按下方向键和\nB键能跳起来。\p按方向键\n可以向旁边跳。\p跳起时向后可以\n使自行车调头。\p还要翻到其他页吗？$"
+    .string "同时按下方向键和\nB键进行侧跳。\p按方向键\n决定向哪一边侧跳。\p跳起时按反方向可以\n使自行车调头。\p还要翻到其他页吗？$"
 

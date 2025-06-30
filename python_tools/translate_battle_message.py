@@ -1,10 +1,13 @@
+#!/usr/bin/python python3
 import re
 import os
 from openpyxl import load_workbook
 
+pydir = os.path.dirname(os.path.abspath(__file__))
+
 # 文件路径
-c_file_path = os.path.dirname(os.path.abspath(__file__))+"/../src/battle_message.c"
-xlsx_file_path = os.path.dirname(os.path.abspath(__file__))+"/src/战斗文本.xlsx"
+c_file_path = os.path.join(os.path.dirname(pydir), "src", "battle_message.c")
+xlsx_file_path = os.path.join(pydir, "src", "战斗文本.xlsx")
 
 # 读取 xlsx 文件并解析为字典
 def load_translations(xlsx_file_path):

@@ -46,7 +46,7 @@ MtPyre_2F_Text_MemoriesOfSkitty:
     .string "一想到我亲爱的向尾喵……\n眼睛里总会不知不觉地蓄满泪水。$"
 
 MtPyre_2F_Text_TumbledFromFloorAbove:
-    .string "啊噢……地上\n到处都是洞，\p我一个不小心\n从楼上掉下来了。$"
+    .string "啊哦……\n地上到处都是洞。\p我一个不小心\n从楼上掉下来了。$"
 
 MtPyre_2F_Text_MarkIntro:
     .string "嘿！你也是来找宝可梦的吗？\n一直跟着我干什么！你这无礼的家伙！$"
@@ -55,7 +55,7 @@ MtPyre_2F_Text_MarkDefeat:
     .string "啊呀呀呀！\n抱歉，请原谅我！$"
 
 MtPyre_2F_Text_MarkPostBattle:
-    .string "这儿少有人来，所以\n我想应该有珍稀宝可梦。$"
+    .string "这儿很少有人来，\n所以我想应该有珍稀宝可梦。$"
 
 MtPyre_2F_Text_LukeIntro:
     .string "辉：我们来这儿试胆子。\p呵呵，如果她看到我有多棒，\n一定会迷恋上我的！\p没错！我会让她知道\n我有多厉害！$"
@@ -67,7 +67,7 @@ MtPyre_2F_Text_LukePostBattle:
     .string "辉：好吧，我们输了，但是没关系！\n我就在这里，就算是试胆子，\l也没什么可害怕的！$"
 
 MtPyre_2F_Text_LukeNotEnoughMons:
-    .string "辉：想跟我战斗的话\n就多带些宝可梦来，\p否则我就不能让我的她知道\n我有多帅了！$"
+    .string "辉：想跟我对战的话\n就多带些宝可梦来，\p否则我就不能让我的她知道\n我有多帅了！$"
 
 MtPyre_2F_Text_DezIntro:
     .string "真子：我与男友一起\n来这儿试胆子。\p虽然确实很害怕，但只要有他\n在我身边就都没什么。\p没错！我要打败你，\n让他看起来更帅！$"
@@ -79,7 +79,7 @@ MtPyre_2F_Text_DezPostBattle:
     .string "真子：我们之间感情这么好，\n输了也不介意！$"
 
 MtPyre_2F_Text_DezNotEnoughMons:
-    .string "真子：如果想挑战我们，你至少\n得带两只宝可梦。\p我的男友很强，\n仅仅一只宝可梦没用的喔。$"
+    .string "真子：如果想挑战我们，\n你至少得带2只宝可梦。\p我的男友很强，\n仅仅1只宝可梦没用的喔。$"
 
 MtPyre_2F_Text_LeahIntro:
     .string "生面孔呢……\n在什么都没发生前快离开！$"
@@ -94,7 +94,7 @@ MtPyre_2F_Text_ZanderIntro:
     .string "呀啊啊啊！！\n我好害怕啊！$"
 
 MtPyre_2F_Text_ZanderDefeat:
-    .string "不----！\n我输了！$"
+    .string "不——！\n我输了！$"
 
 MtPyre_2F_Text_ZanderPostBattle:
     .string "每次看到什么东西活动\n我就会被吓一跳……\p我真不该来这里训练……$"

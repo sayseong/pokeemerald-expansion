@@ -237,9 +237,6 @@ static void PrintMadePokeblockString(struct Pokeblock *, u8 *);
 static bool32 TryAddContestLinkTvShow(struct Pokeblock *, struct TvBlenderStruct *);
 
 EWRAM_DATA static struct BerryBlender *sBerryBlender = NULL;
-EWRAM_DATA static s32 sDebug_PokeblockFactorFlavors[FLAVOR_COUNT] = {0};
-EWRAM_DATA static s32 sDebug_PokeblockFactorFlavorsAfterRPM[FLAVOR_COUNT] = {0};
-EWRAM_DATA static u32 sDebug_PokeblockFactorRPM = 0;
 
 static s16 sPokeblockFlavors[FLAVOR_COUNT + 1]; // + 1 for feel
 static s16 sPokeblockPresentFlavors[FLAVOR_COUNT + 1];
@@ -269,7 +266,7 @@ static const u8 *const sBlenderOpponentsNames[] =
     [BLENDER_MISS]   = COMPOUND_STRING("小姐"),
 };
 
-static const u8 sText_CommunicationStandby[] = _("等待连接中……");
+static const u8 sText_CommunicationStandby[] = _("正在等待连接……");
 static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("要再混合一个树果吗？");
 static const u8 sText_RunOutOfBerriesForBlending[] = _("没有能够继续放入\n树果混合器的树果了。\p");
 static const u8 sText_YourPokeblockCaseIsFull[] = _("你的宝可方块盒满了。\p");
@@ -277,7 +274,7 @@ static const u8 sText_HasNoBerriesToPut[] = _("没有能够继续放入\n树果�
 static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("的宝可方块盒满了。\p");
 static const u8 sText_BlendingResults[] = _("混合结果");
 static const u8 sText_SpaceBerry[] = _("");
-static const u8 sText_Time[] = _("时间:");
+static const u8 sText_Time[] = _("时间：");
 static const u8 sText_Min[] = _("分");
 static const u8 sText_Sec[] = _("秒");
 static const u8 sText_MaximumSpeed[] = _("最大速度");
@@ -286,7 +283,7 @@ static const u8 sText_Dot[] = _(".");
 static const u8 sText_NewLine[] = _("\n");
 static const u8 sText_Ranking[] = _("排名");
 static const u8 sText_TheLevelIs[] = _("等级是");
-static const u8 sText_TheFeelIs[] = _("级，光滑度是");
+static const u8 sText_TheFeelIs[] = _("级，细腻度是");
 static const u8 sText_Dot2[] = _("。");
 
 static const struct BgTemplate sBgTemplates[3] =
@@ -1206,7 +1203,7 @@ static void CreateBerrySprite(u32 itemId, u32 playerId)
                         berryId);
 }
 
-static void ConvertItemToBlenderBerry(struct BlenderBerry* berry, u16 itemId)
+static void ConvertItemToBlenderBerry(struct BlenderBerry *berry, u16 itemId)
 {
     const struct Berry *berryInfo = GetBerryInfo(ITEM_TO_BERRY(itemId));
 
@@ -1538,7 +1535,7 @@ static u8 GetArrowProximity(u16 arrowPos, u8 playerId)
     return PROXIMITY_MISS;
 }
 
-static void SetOpponentsBerryData(u16 playerBerryItemId, u8 playersNum, struct BlenderBerry* playerBerry)
+static void SetOpponentsBerryData(u16 playerBerryItemId, u8 playersNum, struct BlenderBerry *playerBerry)
 {
     u16 opponentSetId = 0;
     u16 opponentBerryId;
@@ -2243,7 +2240,7 @@ static void Blender_DummiedOutFunc(s16 bgX, s16 bgY)
 
 }
 
-static bool8 AreBlenderBerriesSame(struct BlenderBerry* berries, u8 a, u8 b)
+static bool8 AreBlenderBerriesSame(struct BlenderBerry *berries, u8 a, u8 b)
 {
     // First check to itemId is pointless (and wrong anyway?), always false when this is called
     // Only used to determine if two enigma berries are equivalent
@@ -2260,7 +2257,7 @@ static bool8 AreBlenderBerriesSame(struct BlenderBerry* berries, u8 a, u8 b)
         return FALSE;
 }
 
-static u32 CalculatePokeblockColor(struct BlenderBerry* berries, s16 *_flavors, u8 numPlayers, u8 negativeFlavors)
+static u32 CalculatePokeblockColor(struct BlenderBerry *berries, s16 *_flavors, u8 numPlayers, u8 negativeFlavors)
 {
     s16 flavors[FLAVOR_COUNT + 1];
     s32 i, j;
@@ -2434,11 +2431,7 @@ static void CalculatePokeblock(struct BlenderBerry *berries, struct Pokeblock *p
         }
     }
 
-    for (i = 0; i < FLAVOR_COUNT; i++)
-        sDebug_PokeblockFactorFlavors[i] = sPokeblockFlavors[i];
-
     // Factor in max RPM and round
-    sDebug_PokeblockFactorRPM = multiuseVar = maxRPM / 333 + 100;
     for (i = 0; i < FLAVOR_COUNT; i++)
     {
         s32 remainder;
@@ -2450,9 +2443,6 @@ static void CalculatePokeblock(struct BlenderBerry *berries, struct Pokeblock *p
             flavor++;
         sPokeblockFlavors[i] = flavor;
     }
-
-    for (i = 0; i < FLAVOR_COUNT; i++)
-        sDebug_PokeblockFactorFlavorsAfterRPM[i] = sPokeblockFlavors[i];
 
     // Calculate color and feel of pokeblock
     pokeblock->color = CalculatePokeblockColor(berries, &sPokeblockFlavors[0], numPlayers, numNegatives);
@@ -2491,7 +2481,7 @@ static void CalculatePokeblock(struct BlenderBerry *berries, struct Pokeblock *p
         flavors[i] = sPokeblockFlavors[i];
 }
 
-static void UNUSED Debug_CalculatePokeblock(struct BlenderBerry* berries, struct Pokeblock* pokeblock, u8 numPlayers, u8 *flavors, u16 maxRPM)
+static void UNUSED Debug_CalculatePokeblock(struct BlenderBerry *berries, struct Pokeblock *pokeblock, u8 numPlayers, u8 *flavors, u16 maxRPM)
 {
     CalculatePokeblock(berries, pokeblock, numPlayers, flavors, maxRPM);
 }

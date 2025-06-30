@@ -74,18 +74,18 @@ Debug_FlagsNotSetOverworldConfigMessage::
 	goto Debug_MessageEnd
 
 Debug_FlagsNotSetOverworldConfigMessage_Text:
-	.string "功能不可用!\n"
-	.string "请在这里定义该标志:\l"
-	.string "'include/config/overworld.h'!$"
+	.string "功能不可用！\n"
+	.string "请在这里定义该标志：\l"
+	.string "'include/config/overworld.h'！$"
 
 Debug_FlagsNotSetBattleConfigMessage::
 	message Debug_FlagsNotSetBattleConfigMessage_Text
 	goto Debug_MessageEnd
 
 Debug_FlagsNotSetBattleConfigMessage_Text:
-	.string "功能不可用!\n"
-	.string "请在这里定义一个可用标志:\l"
-	.string "'include/config/battle.h'!$"
+	.string "功能不可用！\n"
+	.string "请在这里定义一个可用标志：\l"
+	.string "'include/config/battle.h'！$"
 
 Debug_BoxFilledMessage::
 	message Debug_BoxFilledMessage_Text
@@ -110,10 +110,10 @@ Debug_EventScript_CheckEVs_End::
 	end
 
 Debug_EventScript_Text_OffensiveEVs:
-	.string "ATK EVs: {STR_VAR_1}, SPATK EVs: {STR_VAR_2}, SPEED EVs: {STR_VAR_3}$"
+	.string "攻击努力值：{STR_VAR_1}，特攻努力值：{STR_VAR_2}，速度努力值：{STR_VAR_3}$"
 
 Debug_EventScript_Text_DefensiveEVs:
-	.string "HP EVs: {STR_VAR_1}, DEF EVs: {STR_VAR_2}, SPDEF EVs: {STR_VAR_3}$"
+	.string "HP努力值：{STR_VAR_1}，防御努力值：{STR_VAR_2}，特防努力值：{STR_VAR_3}$"
 
 Debug_EventScript_CheckIVs::
 	lockall
@@ -131,10 +131,10 @@ Debug_EventScript_CheckIVs_End::
 	end
 
 Debug_EventScript_Text_OffensiveIVs:
-	.string "ATK IVs: {STR_VAR_1}, SPATK IVs: {STR_VAR_2}, SPEED IVs: {STR_VAR_3}$"
+	.string "攻击个体值：{STR_VAR_1}，特攻个体值：{STR_VAR_2}，速度个体值：{STR_VAR_3}$"
 
 Debug_EventScript_Text_DefensiveIVs:
-	.string "HP IVs: {STR_VAR_1}, DEF IVs: {STR_VAR_2}, SPDEF IVs: {STR_VAR_3}$"
+	.string "HP个体值：{STR_VAR_1}，防御个体值：{STR_VAR_2}，特防个体值：{STR_VAR_3}$"
 
 Debug_EventScript_Script_1::
 	release
@@ -181,20 +181,20 @@ Debug_CheckSaveBlock::
 	end
 
 Debug_SaveBlock1Size::
-	.string "SaveBlock1 大小: {STR_VAR_1}b/{STR_VAR_2}b.\n"
-	.string "剩余空间: {STR_VAR_3}b.$"
+	.string "SaveBlock1 大小：{STR_VAR_1}b/{STR_VAR_2}b。\n"
+	.string "剩余空间：{STR_VAR_3}b。$"
 
 Debug_SaveBlock2Size::
-	.string "SaveBlock2 大小: {STR_VAR_1}b/{STR_VAR_2}b.\n"
-	.string "剩余空间: {STR_VAR_3}b.$"
+	.string "SaveBlock2 大小：{STR_VAR_1}b/{STR_VAR_2}b。\n"
+	.string "剩余空间：{STR_VAR_3}b。$"
 
 Debug_SaveBlock3Size::
-	.string "SaveBlock3 大小: {STR_VAR_1}b/{STR_VAR_2}b.\n"
-	.string "剩余空间: {STR_VAR_3}b.$"
+	.string "SaveBlock3 大小：{STR_VAR_1}b/{STR_VAR_2}b。\n"
+	.string "剩余空间：{STR_VAR_3}b。$"
 
 Debug_PokemonStorageSize::
-	.string "{PKMN}Storage 大小: {STR_VAR_1}b/{STR_VAR_2}b.\n"
-	.string "剩余空间: {STR_VAR_3}b.$"
+	.string "宝可梦盒子 大小：{STR_VAR_1}b/{STR_VAR_2}b。\n"
+	.string "剩余空间：{STR_VAR_3}b。$"
 
 Debug_CheckROMSpace::
 	callnative CheckROMSize
@@ -203,8 +203,8 @@ Debug_CheckROMSpace::
 	end
 
 Debug_ROMSize::
-	.string "ROM 大小: {STR_VAR_1}MB/32MB.\n"
-	.string "剩余空间: {STR_VAR_2}MB.$"
+	.string "ROM 大小：{STR_VAR_1}MB/32MB。\n"
+	.string "剩余空间：{STR_VAR_2}MB。$"
 
 Debug_HatchAnEgg::
 	lockall
@@ -259,7 +259,7 @@ DebugText_DaycareOnePokemon:
 	.string "你仅有一个在培育屋的宝可梦。$"
 
 DebugText_DaycarePokemonNotCompatible:
-	.string "你在培育屋的宝可梦\n不能生育幼年宝可梦!$"
+	.string "你在培育屋的宝可梦\n不能生育幼年宝可梦！$"
 
 Debug_ShowExpansionVersion::
 	callnative BufferExpansionVersion
@@ -423,7 +423,7 @@ Debug_EventScript_InflictStatus1_Text_PartyWide:
     .string "全队$"
 
 Debug_EventScript_InflictStatus1_Text_Close:
-    .string "近战$"
+    .string "关闭$"
 
 Debug_EventScript_InflictStatus1_Text_Poison:
     .string "中毒$"
@@ -450,8 +450,8 @@ Debug_EventScript_EWRAMCounters::
 	end
 
 Debug_EventScript_EWRAMCounters_Text::
-	.string "跟随步数: {STR_VAR_1}.\n"
-	.string "钓鱼次数: {STR_VAR_2}.$"
+	.string "跟随步数：{STR_VAR_1}。\n"
+	.string "钓鱼次数：{STR_VAR_2}。$"
 
 Debug_EventScript_FontTest_Text_1::               @ Edit this to test your font
 	.string "{FONT_SMALL_NARROWER}"
@@ -581,3 +581,34 @@ Debug_EventScript_FontTest::
 @Debug_EventScript_InflictStatus1_Close:
 @	releaseall
 @	end
+
+Debug_EventScript_TellTheTime::
+	callnative DebugMenu_CalculateTime
+	msgbox Debug_EventScript_TellTheTime_Text_0, MSGBOX_DEFAULT
+	waitmessage
+	closemessage
+	end
+
+Debug_EventScript_PrintTimeOfDay::
+	callnative DebugMenu_CalculateTimeOfDay
+	msgbox DebugEventScript_PrintWeekday_Text_0, MSGBOX_DEFAULT
+	waitmessage
+	closemessage
+	end
+
+Debug_EventScript_FakeRTCNotEnabled::
+	msgbox Debug_EventScript_FakeRTCNotEnabled_Text_0, MSGBOX_DEFAULT
+	waitmessage
+	closemessage
+	return
+
+Debug_EventScript_FakeRTCNotEnabled_Text_0:
+	.string "您当前未启用FakeRTC功能。\n请在include/config/overworld.h文件中\l启用该功能。$"
+
+
+Debug_EventScript_TellTheTime_Text_0:
+	.string "时间与日期：\n"
+	.string "{STR_VAR_1}, {STR_VAR_2}:{STR_VAR_3}$"
+
+DebugEventScript_PrintWeekday_Text_0:
+	.string "时间段： {STR_VAR_1}$"

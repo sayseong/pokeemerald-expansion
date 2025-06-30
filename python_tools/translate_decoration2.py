@@ -1,10 +1,12 @@
+#!/usr/bin/python python3
 import openpyxl
 import re
 import os
 
 # 文件路径
-h_file_path = os.path.dirname(os.path.abspath(__file__))+"/../src/data/decoration/description.h"
-xlsx_path = os.path.dirname(os.path.abspath(__file__))+"/src/装饰物品.xlsx"
+base_dir = os.path.dirname(os.path.abspath(__file__))
+h_file_path = os.path.join(os.path.dirname(base_dir), "src", "data", "decoration", "description.h")
+xlsx_path = os.path.join(base_dir, "src", "装饰物品.xlsx")
 
 # 加载Excel文件
 wb = openpyxl.load_workbook(xlsx_path)

@@ -29,10 +29,10 @@ SootopolisCity_House1_EventScript_Kecleon::
 	end
 
 SootopolisCity_House1_Text_DevelopedThisTM:
-    .string "我在琉璃市\n磨练了三十年，\p制作出了这个强大的招式学习器。\n我传授给你吧！$"
+    .string "我在琉璃市\n磨练了30年，\p制作出了这个强大的招式学习器。\n我传授给你吧！$"
 
 SootopolisCity_House1_Text_ExplainBrickBreak:
-    .string "招式学习器31里面是劈瓦！这是一种\n无法描述的恐怖招式。$"
+    .string "招式学习器31的内容是劈瓦！这是一种\n无法描述的恐怖招式。$"
 
 SootopolisCity_House1_Text_Kecleon:
     .string "变隐龙：噗噗噗呀。$"

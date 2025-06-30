@@ -106,7 +106,7 @@ Route110_TrickHousePuzzle2_Text_TedIntro:
     .string "哪个开关能填补哪个洞？$"
 
 Route110_TrickHousePuzzle2_Text_TedDefeat:
-    .string "战斗之后，我\n更加迷茫了！$"
+    .string "对战之后，\n我更加迷茫了！$"
 
 Route110_TrickHousePuzzle2_Text_TedPostBattle:
     .string "能请你帮我按下\n所有的开关吗？$"
@@ -115,7 +115,7 @@ Route110_TrickHousePuzzle2_Text_PaulIntro:
     .string "啊，这是你第二次\n挑战戏法屋！$"
 
 Route110_TrickHousePuzzle2_Text_PaulDefeat:
-    .string "你也很擅长战斗是吗？$"
+    .string "你也很擅长对战是吗？$"
 
 Route110_TrickHousePuzzle2_Text_PaulPostBattle:
     .string "这房子里的谜题都是\n戏法大师一个人做成的。$"
@@ -124,7 +124,7 @@ Route110_TrickHousePuzzle2_Text_GeorgiaIntro:
     .string "我希望有一天能开设自己的道馆，\n所以，我要学习怎样设计谜题。$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaDefeat:
-    .string "我对战斗的学习还不足！$"
+    .string "我对对战的学习还不足！$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle:
     .string "你真强，不是吗？\n也许你已经有道馆馆主的实力了！$"

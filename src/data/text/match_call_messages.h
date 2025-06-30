@@ -29,7 +29,7 @@ const u8 gText_MatchCallSisAndBro_LilaAndRoy_Intro1[] = _("我们和宝可梦的
 const u8 gText_MatchCallSisAndBro_LilaAndRoy_Intro2[] = _("我们姐弟间感情一样。");
 
 const u8 gText_MatchCallCooltrainer_Cristin_Strategy[] = _("用强力的招式来终结。");
-const u8 gText_MatchCallCooltrainer_Cristin_Pokemon[] = _("各种不同类型的组合。");
+const u8 gText_MatchCallCooltrainer_Cristin_Pokemon[] = _("各种不同属性的组合。");
 const u8 gText_MatchCallCooltrainer_Cristin_Intro1[] = _("我渴望成为");
 const u8 gText_MatchCallCooltrainer_Cristin_Intro2[] = _("最强的训练家。");
 
@@ -94,7 +94,7 @@ const u8 gText_MatchCallGuitarist_Fernando_Intro1[] = _("我的作品");
 const u8 gText_MatchCallGuitarist_Fernando_Intro2[] = _("会让你震撼！");
 
 const u8 gText_MatchCallGuitarist_Dalton_Strategy[] = _("让我电电你吧！");
-const u8 gText_MatchCallGuitarist_Dalton_Pokemon[] = _("它们是电属性的!");
+const u8 gText_MatchCallGuitarist_Dalton_Pokemon[] = _("它们是电属性的！");
 const u8 gText_MatchCallGuitarist_Dalton_Intro1[] = _("我想用发自内心的歌声");
 const u8 gText_MatchCallGuitarist_Dalton_Intro2[] = _("让人们感动落泪。");
 
@@ -104,19 +104,19 @@ const u8 gText_MatchCallKindler_Bernie_Intro1[] = _("当你点篝火时，");
 const u8 gText_MatchCallKindler_Bernie_Intro2[] = _("旁边一定要有水。");
 
 const u8 gText_MatchCallCamper_Ethan_Strategy[] = _("坚持不懈！");
-const u8 gText_MatchCallCamper_Ethan_Pokemon[] = _("我会培养任何宝可梦。");
+const u8 gText_MatchCallCamper_Ethan_Pokemon[] = _("我会培育任何宝可梦。");
 const u8 gText_MatchCallCamper_Ethan_Intro1[] = _("在野外长大的");
 const u8 gText_MatchCallCamper_Ethan_Intro2[] = _("宝可梦更强大！");
 
 const u8 gText_MatchCallOldCouple_JohnAndJay_Strategy[] = _("爱让我们无坚不摧。");
-const u8 gText_MatchCallOldCouple_JohnAndJay_Pokemon[] = _("我们培养了好多年了。");
+const u8 gText_MatchCallOldCouple_JohnAndJay_Pokemon[] = _("我们培育了好多年了。");
 const u8 gText_MatchCallOldCouple_JohnAndJay_Intro1[] = _("结婚50年以来，我们");
-const u8 gText_MatchCallOldCouple_JohnAndJay_Intro2[] = _("一直用心培养宝可梦。");
+const u8 gText_MatchCallOldCouple_JohnAndJay_Intro2[] = _("一直用心培育宝可梦。");
 
 const u8 gText_MatchCallBugManiac_Jeffrey_Strategy[] = _("轮番攻击！");
 const u8 gText_MatchCallBugManiac_Jeffrey_Pokemon[] = _("虫属性宝可梦很酷。");
 const u8 gText_MatchCallBugManiac_Jeffrey_Intro1[] = _("我每天都到森林里");
-const u8 gText_MatchCallBugManiac_Jeffrey_Intro2[] = _("去捕获虫宝可梦。");
+const u8 gText_MatchCallBugManiac_Jeffrey_Intro2[] = _("去捕捉虫宝可梦。");
 
 const u8 gText_MatchCallPsychic_Cameron_Strategy[] = _("让对方眩晕！");
 const u8 gText_MatchCallPsychic_Cameron_Pokemon[] = _("有奇异力量的宝可梦。");
@@ -175,7 +175,7 @@ const u8 gText_MatchCallYoungster_Calvin_Intro2[] = _("直到打败道馆馆主�
 
 const u8 gText_MatchCallFisherman_Elliot_Strategy[] = _("耐心对战。");
 const u8 gText_MatchCallFisherman_Elliot_Pokemon[] = _("用水属性宝可梦对战！");
-const u8 gText_MatchCallFisherman_Elliot_Intro1[] = _("我是世界上唯一抓到");
+const u8 gText_MatchCallFisherman_Elliot_Intro1[] = _("我是世界上唯一捕捉");
 const u8 gText_MatchCallFisherman_Elliot_Intro2[] = _("过巨大宝可梦的人！");
 
 const u8 gText_MatchCallTriathlete_Isaiah_Strategy[] = _("利用环境！");
@@ -234,7 +234,7 @@ const u8 gText_MatchCallBattleGirl_Cyndy_Intro1[] = _("如果我的宝可梦输�
 const u8 gText_MatchCallBattleGirl_Cyndy_Intro2[] = _("我就会亲自上阵！");
 
 const u8 gText_MatchCallParasolLady_Madeline_Strategy[] = _("上吧，我的宝可梦！");
-const u8 gText_MatchCallParasolLady_Madeline_Pokemon[] = _("我什么都培养。");
+const u8 gText_MatchCallParasolLady_Madeline_Pokemon[] = _("我什么都培育。");
 const u8 gText_MatchCallParasolLady_Madeline_Intro1[] = _("紫外线是皮肤的敌人，");
 const u8 gText_MatchCallParasolLady_Madeline_Intro2[] = _("需要保护措施。");
 
@@ -270,16 +270,16 @@ const u8 gText_MatchCallCollector_Edwin_Intro2[] = _("全部稀有宝可梦。")
 
 const u8 gText_MatchCallPkmnBreeder_Lydia_Strategy[] = _("依赖力量。");
 const u8 gText_MatchCallPkmnBreeder_Lydia_Pokemon[] = _("宝可梦就是我的孩子。");
-const u8 gText_MatchCallPkmnBreeder_Lydia_Intro1[] = _("培养宝可梦");
+const u8 gText_MatchCallPkmnBreeder_Lydia_Intro1[] = _("培育宝可梦");
 const u8 gText_MatchCallPkmnBreeder_Lydia_Intro2[] = _("需要知识和爱。");
 
 const u8 gText_MatchCallPkmnBreeder_Isaac_Strategy[] = _("全力进攻！");
-const u8 gText_MatchCallPkmnBreeder_Isaac_Pokemon[] = _("我什么都会培养。");
+const u8 gText_MatchCallPkmnBreeder_Isaac_Pokemon[] = _("我什么都会培育。");
 const u8 gText_MatchCallPkmnBreeder_Isaac_Intro1[] = _("我给宝可梦喂宝可方块");
 const u8 gText_MatchCallPkmnBreeder_Isaac_Intro2[] = _("为赢得华丽大赛冠军。");
 
-const u8 gText_MatchCallPkmnBreeder_Gabrielle_Strategy[] = _("悉心培养宝可梦。");
-const u8 gText_MatchCallPkmnBreeder_Gabrielle_Pokemon[] = _("培养起来会很有趣的。");
+const u8 gText_MatchCallPkmnBreeder_Gabrielle_Strategy[] = _("悉心培育宝可梦。");
+const u8 gText_MatchCallPkmnBreeder_Gabrielle_Pokemon[] = _("培育起来会很有趣的。");
 const u8 gText_MatchCallPkmnBreeder_Gabrielle_Intro1[] = _("对每一只遇到的");
 const u8 gText_MatchCallPkmnBreeder_Gabrielle_Intro2[] = _("宝可梦以尊重。");
 
@@ -344,7 +344,7 @@ const u8 gText_MatchCallPassionBurn_Flannery_Intro1[] = _("用温泉冲走");
 const u8 gText_MatchCallPassionBurn_Flannery_Intro2[] = _("一天的疲惫！");
 
 const u8 gText_MatchCallReliableOne_Dad_Strategy[] = _("随机应变地对战。");
-const u8 gText_MatchCallReliableOne_Dad_Pokemon[] = _("均衡培养。");
+const u8 gText_MatchCallReliableOne_Dad_Pokemon[] = _("均衡培育。");
 const u8 gText_MatchCallReliableOne_Dad_Intro1[] = _("我每天花30分钟");
 const u8 gText_MatchCallReliableOne_Dad_Intro2[] = _("从家走到这里。");
 

@@ -1,32 +1,7 @@
-@ VAR_LAST_TALKED would have made all these direct references unnecessary
-.set LOCALID_SMART_MC, 4
-.set LOCALID_SMART_JUDGE, 5
-.set LOCALID_SMART_CONTESTANT_1, 6
-.set LOCALID_SMART_CONTESTANT_2, 7
-.set LOCALID_SMART_CONTESTANT_3, 8
-.set LOCALID_SMART_CONTESTANT_4, 9
-.set LOCALID_SMART_AUDIENCE_4, 11
-.set LOCALID_SMART_AUDIENCE_2, 12
-.set LOCALID_BEAUTY_MC, 13
-.set LOCALID_BEAUTY_JUDGE, 14
-.set LOCALID_BEAUTY_CONTESTANT_1, 15
-.set LOCALID_BEAUTY_CONTESTANT_2, 16
-.set LOCALID_BEAUTY_CONTESTANT_3, 17
-.set LOCALID_BEAUTY_CONTESTANT_4, 18
-.set LOCALID_BEAUTY_AUDIENCE_1, 19
-.set LOCALID_BEAUTY_AUDIENCE_3, 20
-.set LOCALID_BEAUTY_AUDIENCE_2, 21
-.set LOCALID_SMART_AUDIENCE_3, 22
-.set LOCALID_CUTE_MC, 23
-.set LOCALID_CUTE_JUDGE, 24
-.set LOCALID_CUTE_CONTESTANT_1, 25
-.set LOCALID_CUTE_CONTESTANT_2, 26
-.set LOCALID_CUTE_CONTESTANT_3, 27
-.set LOCALID_CUTE_CONTESTANT_4, 28
-.set LOCALID_CUTE_AUDIENCE_1, 29
-.set LOCALID_CUTE_AUDIENCE_3, 30
-.set LOCALID_CUTE_AUDIENCE_2, 31
-
+@ All the LOCALID constants used in this file are essentially redundant.
+@ They're all used to have the NPC the player talked to turn back so they're facing
+@ their original direction (because they're watching/participating in the contests).
+@ They could all be substituted for VAR_LAST_TALKED.
 LilycoveCity_ContestHall_MapScripts::
 	.byte 0
 
@@ -351,7 +326,7 @@ LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
     .string "主持：好了，聪明宝可梦和\n训练家们，准备好了吗？！\p努力吧！\n开始！$"
 
 LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
-    .string "评委：你喜欢这华丽大赛吗？\p和三个朋友一起来，\n大家可以一起参加大赛！$"
+    .string "评委：你喜欢这华丽大赛吗？\p和3个朋友一起来，\n大家可以一起参加大赛！$"
 
 LilycoveCity_ContestHall_Text_EnteredWrongContest:
     .string "啊呀啊呀啊呀……\n我参加错了，\p我让我强大的宝可梦\n参加了聪明大赛……\p好吧，用你聪慧的碎岩\n让他们大吃一惊吧。$"
@@ -369,7 +344,7 @@ LilycoveCity_ContestHall_Text_YoureBeautifulGrandpa:
     .string "呀啊啊啊！爷爷，你真棒！$"
 
 LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves:
-    .string "即使训练家使用相同的宝可梦，\n他们用来吸引人的招式\l也会不一样，\p这和大家的战斗方式不同\n是同样的道理。$"
+    .string "即使训练家使用相同的宝可梦，\n他们用来吸引人的招式\l也会不一样，\p这和大家的对战方式不同\n是同样的道理。$"
 
 LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers:
     .string "我想宝可梦看上去\n比它们的训练家还要聪明。$"
@@ -396,7 +371,7 @@ LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe:
     .string "这只漂亮的宝可梦\n和我小时候很像。\p我这么说的时候，\n老公把咖啡都喷了。\p这句话很奇怪吗？$"
 
 LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy:
-    .string "如果我在美丽组取胜\n我会比平常任何时候都开心。$"
+    .string "如果我在美丽华丽大赛取胜\n我会比平常任何时候都开心。$"
 
 LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon:
     .string "啊哈哈哈哈！\p看看这些漂亮的宝可梦！\n我最喜欢这种华丽！$"
@@ -414,13 +389,13 @@ LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
     .string "哦，不……我的小露力丽\n被忽视了。$"
 
 LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
-    .string "我的宝可梦战斗从未赢过，\n但看看它在华丽大赛的表现吧！$"
+    .string "我的宝可梦对战从未赢过，\n但看看它在华丽大赛的表现吧！$"
 
 LilycoveCity_ContestHall_Text_PetalDanceIsMarvel:
     .string "我的宝可梦的花之舞\n奇妙而优美，\p我不会让任何人\n打扰它的表演。$"
 
 LilycoveCity_ContestHall_Text_MyMonAppealSoMuchCuter:
-    .string "大家的宝可梦都很可爱，\p但是，如果我的宝可梦\n想表现的可爱一些……\p我相信它会\n比其他的更可爱。$"
+    .string "大家的宝可梦\n都很可爱，\p但是，如果我的宝可梦\n想表现的可爱一些……\p我相信它会\n比其他的更可爱。$"
 
 LilycoveCity_ContestHall_Text_MyChildIsInContest:
     .string "我孩子正在参加华丽大赛。$"
@@ -429,10 +404,10 @@ LilycoveCity_ContestHall_Text_ComeOnDear:
     .string "来吧，加油！\n你的宝可梦是最棒的！$"
 
 LilycoveCity_ContestHall_Text_ThatGirlThereIsCutest:
-    .string "我想那边的女孩\n是人群中最可爱的。\p你说什么？他们在\n评判宝可梦的外貌？$"
+    .string "我想那边的女孩\n是人群中最可爱的。\p你说什么？\n他们是在评判宝可梦的外貌？$"
 
 LilycoveCity_ContestHall_Text_WantCuteMonOfMyOwn:
-    .string "看着这些可爱的宝可梦，\n让我也想自己拥有一只！\p我要去抓一只来！$"
+    .string "看着这些可爱的宝可梦，\n让我也想自己拥有一只！\p我要去捕捉一只来！$"
 
 LilycoveCity_ContestHall_Text_BeautyContestStage:
     .string "漂亮部门会场\n美丽宝可梦的诱惑！$"

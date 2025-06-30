@@ -107,37 +107,37 @@ AquaHideout_B1F_EventScript_Grunt7::
 	end
 
 AquaHideout_B1F_Text_Grunt2Intro:
-    .string "如果想知道我们基地\n的秘密，你就要打败我！$"
+    .string "想知道我们基地的秘密的话，\n你得先打败我！$"
 
 AquaHideout_B1F_Text_Grunt2Defeat:
-    .string "我一点胜算也没有……$"
+    .string "完全不是对手……$"
 
 AquaHideout_B1F_Text_Grunt2PostBattle:
-    .string "我们基地的秘密？\p好吧，我说了……\n这儿深处有一艘潜水艇！\p但是，现在……\n嘿嘿嘿……$"
+    .string "我们基地的秘密？\p这么说吧……\n这儿深处有一艘潜水艇！\p但是，现在……\n嘿嘿嘿……$"
 
 AquaHideout_B1F_Text_Grunt3Intro:
     .string "燃料供给完成！\n巡航系统正常！\p一切正常，除了一个\n找麻烦的人！$"
 
 AquaHideout_B1F_Text_Grunt3Defeat:
-    .string "我被狠狠的修理了一顿！$"
+    .string "被打得落花流水！$"
 
 AquaHideout_B1F_Text_Grunt3PostBattle:
-    .string "哼！\n这是意料之中的！\p我的任务只是阻止你而已！$"
+    .string "哼！\n这是意料之中的！\p我的任务只是拖住你而已！$"
 
 AquaHideout_B1F_Text_Grunt5Intro:
-    .string "哼……一直看守基地已经\n令我厌烦了，就跟你玩玩吧。$"
+    .string "哈欠……一直看守基地真是\n太无聊了，就跟你玩玩吧。$"
 
 AquaHideout_B1F_Text_Grunt5Defeat:
-    .string "唔……\n见鬼，我输了……$"
+    .string "哈欠……\n呃，居然输了……$"
 
 AquaHideout_B1F_Text_Grunt5PostBattle:
-    .string "到处瞎转悠的话，你肯定会\n被其他海洋队的人看到的。$"
+    .string "到处瞎转悠的话，\n其他海洋队成员可不会放过你。$"
 
 AquaHideout_B1F_Text_Grunt7Intro:
-    .string "嘿！\n你！\p你认为海洋队的制服和熔岩队的\n哪一个更酷一点？$"
+    .string "嘿！\n那边的！\p你觉得海洋队的制服和熔岩队的\n哪一个更酷一点？$"
 
 AquaHideout_B1F_Text_Grunt7Defeat:
     .string "我很酷地输掉了……$"
 
 AquaHideout_B1F_Text_Grunt7PostBattle:
-    .string "如果你有一件够酷的制服，你就算输了\n也是依然很酷，不是吗？$"
+    .string "如果你有一件够酷的制服，\n就算输了也依然很酷，不是吗？$"

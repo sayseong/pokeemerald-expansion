@@ -284,25 +284,25 @@ Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard::
 	end
 
 Route124_DivingTreasureHuntersHouse_Text_Greeting:
-    .string "我是水下宝藏寻宝者！\p我就是那潜游在海底\n寻找埋藏的宝藏的贵公子！$"
+    .string "我是水下宝藏寻宝者！\p专门潜到深海打捞\n沉睡在海底的宝物！$"
 
 Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
-    .string "告诉我，你见过\n古代工具的碎片吗？$"
+    .string "告诉我，\n你见过古代工具的碎片吗？$"
 
 Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
-    .string "你没有找到什么宝藏啊……\p如果你发现了碎片，比如\n红色碎片，就来和我交换吧！$"
+    .string "你手头没有宝物啊……\p如果你找到了碎片，比如红色碎片\n之类的，就来和我交换吧！$"
 
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
-    .string "哦，哈！那个……\n那是碎片！我找的就是它们！\p啊，拜托，跟我交换吧！\n我有好东西！$"
+    .string "哦，哈！那个……\n那是碎片！我找的就是它们！\p啊，拜托，跟我交换吧！\n绝对给你好东西！$"
 
 Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade:
     .string "你想换什么？$"
 
 Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone:
-    .string "你要用{STR_VAR_1}换\n我的{STR_VAR_2}是吗？$"
+    .string "要用你的{STR_VAR_1}换\n我的{STR_VAR_2}吗？$"
 
 Route124_DivingTreasureHuntersHouse_Text_ItsADeal:
-    .string "好了！\n要慎用啊！$"
+    .string "成交！\n好好使用吧！$"
 
 Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse:
     .string "你还想换别的吗？$"
@@ -311,7 +311,7 @@ Route124_DivingTreasureHuntersHouse_Text_BagFull:
     .string "啊呀，你的包包满了，\n清理掉一些东西吧，朋友！$"
 
 Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind:
-    .string "不？真遗憾。\n好吧，你改变主意的话再来。$"
+    .string "不换吗？真遗憾。\n好吧，你改变主意的话再来。$"
 
 Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
-    .string "{CLEAR_TO 10}想要的物品{CLEAR_TO 124}交换物品\n{CLEAR_TO 15}红色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 123}炎之石{CLEAR_TO 200}\p{CLEAR_TO 10}想要的物品{CLEAR_TO 124}交换物品\n{CLEAR_TO 6}黄色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 115}雷之石{CLEAR_TO 200}\p{CLEAR_TO 10}想要的物品{CLEAR_TO 124}交换物品\n{CLEAR_TO 12}蓝色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 121}水之石{CLEAR_TO 200}\p{CLEAR_TO 10}想要的物品{CLEAR_TO 124}交换物品\n{CLEAR_TO 8}绿色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 123}叶之石$"
+    .string "{CLEAR_TO 10}想要的道具{CLEAR_TO 124}交换道具\n{CLEAR_TO 15}红色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 123}火之石{CLEAR_TO 200}\p{CLEAR_TO 10}想要的道具{CLEAR_TO 124}交换道具\n{CLEAR_TO 6}黄色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 115}雷之石{CLEAR_TO 200}\p{CLEAR_TO 10}想要的道具{CLEAR_TO 124}交换道具\n{CLEAR_TO 12}蓝色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 121}水之石{CLEAR_TO 200}\p{CLEAR_TO 10}想要的道具{CLEAR_TO 124}交换道具\n{CLEAR_TO 8}绿色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 123}叶之石$"

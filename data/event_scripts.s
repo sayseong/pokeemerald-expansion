@@ -30,6 +30,7 @@
 #include "constants/field_tasks.h"
 #include "constants/field_weather.h"
 #include "constants/flags.h"
+#include "constants/follower_npc.h"
 #include "constants/frontier_util.h"
 #include "constants/game_stat.h"
 #include "constants/item.h"
@@ -45,9 +46,11 @@
 #include "constants/party_menu.h"
 #include "constants/pokedex.h"
 #include "constants/pokemon.h"
+#include "constants/rtc.h"
 #include "constants/roulette.h"
 #include "constants/script_menu.h"
 #include "constants/secret_bases.h"
+#include "constants/siirtc.h"
 #include "constants/songs.h"
 #include "constants/sound.h"
 #include "constants/species.h"
@@ -612,7 +615,7 @@ EventScript_AfterWhiteOutHealMsg::
 
 EventScript_AfterWhiteOutMomHeal::
 	lockall
-	applymovement LOCALID_MOM, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PLAYERS_HOUSE_1F_MOM, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	msgbox gText_HadQuiteAnExperienceTakeRest
 	call Common_EventScript_OutOfCenterPartyHeal
@@ -760,12 +763,12 @@ Common_EventScript_PlayGymBadgeFanfare::
 	return
 
 Common_EventScript_OutOfCenterPartyHeal::
-	fadescreen FADE_TO_BLACK
+	fadescreenswapbuffers FADE_TO_BLACK
 	playfanfare MUS_HEAL
 	waitfanfare
 	special HealPlayerParty
 	callnative UpdateFollowingPokemon
-	fadescreen FADE_FROM_BLACK
+	fadescreenswapbuffers FADE_FROM_BLACK
 	return
 
 EventScript_RegionMap::
@@ -819,8 +822,8 @@ EventScript_HideMrBriney::
 	return
 
 RusturfTunnel_EventScript_SetRusturfTunnelOpen::
-	removeobject LOCALID_WANDAS_BF
-	removeobject LOCALID_WANDA
+	removeobject LOCALID_RUSTURF_TUNNEL_WANDAS_BF
+	removeobject LOCALID_RUSTURF_TUNNEL_WANDA
 	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND
 	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDA
 	setvar VAR_RUSTURF_TUNNEL_STATE, 6
@@ -829,11 +832,11 @@ RusturfTunnel_EventScript_SetRusturfTunnelOpen::
 
 EventScript_UnusedBoardFerry::
 	delay 30
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	showobjectat OBJ_EVENT_ID_PLAYER, 0
+	showobjectat LOCALID_PLAYER, 0
 	delay 30
-	applymovement OBJ_EVENT_ID_PLAYER, Movement_UnusedBoardFerry
+	applymovement LOCALID_PLAYER, Movement_UnusedBoardFerry
 	waitmovement 0
 	delay 30
 	return
@@ -846,7 +849,7 @@ Common_EventScript_FerryDepartIsland::
 	call_if_eq VAR_FACING, DIR_SOUTH, Ferry_EventScript_DepartIslandSouth
 	call_if_eq VAR_FACING, DIR_WEST, Ferry_EventScript_DepartIslandWest
 	delay 30
-	hideobjectat OBJ_EVENT_ID_PLAYER, 0
+	hideobjectat LOCALID_PLAYER, 0
 	call Common_EventScript_FerryDepart
 	return
 
@@ -879,11 +882,11 @@ Common_EventScript_PlayerHandedOverTheItem::
 
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
-	.string "“挑选一些便利的物品吧！”\n"
+	.string "“挑选一些便利的道具吧！”\n"
 	.string "友好商店$"
 
 gText_PokemonCenterSign::
-	.string "“让你疲劳的伙伴们恢复活力！”\n"
+	.string "“让您疲劳的伙伴们恢复活力！”\n"
 	.string "宝可梦中心$"
 
 gText_MomOrDadMightLikeThisProgram::
@@ -892,7 +895,7 @@ gText_MomOrDadMightLikeThisProgram::
 	.string "该走了！$"
 
 gText_WhichFloorWouldYouLike::
-	.string "欢迎来到水静百货，\p"
+	.string "欢迎来到水静百货。\p"
 	.string "要去几层？$"
 
 gText_SandstormIsVicious::
@@ -900,14 +903,14 @@ gText_SandstormIsVicious::
 	.string "走不过去。$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "包包里的物品可以\n"
+	.string "包包里的道具可以\n"
 	.string "登录到SELECT上，方便使用。$"
 
 gText_PokemonTrainerSchoolEmail::
 	.string "有一封宝可梦训练家\n"
 	.string "学校来的电子邮件。\p"
 	.string "…… …… ……\p"
-	.string "一只宝可梦最多可以学4个招式，\p"
+	.string "1只宝可梦最多可以学4个招式。\p"
 	.string "训练家的专业程度就可以从其\n"
 	.string "为宝可梦所选择的招式中看出来。\p"
 	.string "…… …… ……$"
@@ -916,7 +919,7 @@ gText_PlayerHouseBootPC::
 	.string "{PLAYER}登录了电脑。$"
 
 gText_PokeblockLinkCanceled::
-	.string "连接停止了。$"
+	.string "已取消连接。$"
 
 gText_UnusedNicknameReceivedPokemon::
 	.string "要给刚收服的\n"
@@ -967,16 +970,16 @@ gText_MomExplainHPGetPotions::
 
 gText_RegisteredTrainerinPokeNav::
 	.string "把{STR_VAR_1} {STR_VAR_2}\n"
-	.string "登录进宝可梦导航器。$"
+	.string "登记到宝可导航里了。$"
 
 gText_ComeBackWithSecretPower::
 	.string "你知道招式学习器秘密之力吗？\p"
 	.string "我们这些人都喜欢\n"
 	.string "招式学习器秘密之力。\p"
 	.string "我们的成员之一会把它送给你，\n"
-	.string "拿到之后就回来给我看看吧，\p"
+	.string "拿到之后就回来给我看看吧。\p"
 	.string "我们会让你成为我们之中的一员，\n"
-	.string "还可以秘密卖给你些物品。$"
+	.string "还可以秘密卖给你些道具。$"
 
 gText_PokerusExplanation::
 	.string "交给我的宝可梦\n"
@@ -984,8 +987,8 @@ gText_PokerusExplanation::
 	.string "详细情况不太清楚，\n"
 	.string "不过据说，所谓宝可病毒是一种\l"
 	.string "附着在宝可梦身上的微小生命体。\p"
-	.string "据说被它们影响的宝可梦的\n"
-	.string "成长会非常好。$"
+	.string "而且在病毒附着期间\n"
+	.string "宝可梦好像会成长得特别快。$"
 
 	.include "data/text/surf.inc"
 
@@ -1012,24 +1015,24 @@ gText_SorryTradeCenterInspections::
 
 @ Unused
 gText_SorryRecordCornerPreparation::
-	.string "非常抱歉。联机中心\n"
+	.string "非常抱歉。联机俱乐部\n"
 	.string "正在筹备中。$"
 
 gText_PlayerHandedOverTheItem::
-	.string "{PLAYER}交出了\n"
-	.string "{STR_VAR_1}。$"
+	.string "{PLAYER}\n"
+	.string "交出了{STR_VAR_1}。$"
 
 gText_ThankYouForAccessingMysteryGift::
 	.string "感谢连接\n"
 	.string "神秘礼物系统。$"
 
 gText_PlayerFoundOneTMHM::
-	.string "{PLAYER}发现一个{STR_VAR_1}\n"
-	.string "{STR_VAR_2}！$"
+	.string "{PLAYER}找到了{STR_VAR_1}\n"
+	.string "“{STR_VAR_2}”！$"
 
 gText_PlayerFoundTMHMs::
-	.string "{PLAYER}发现了{STR_VAR_3}、{STR_VAR_1}\n"
-	.string "与{STR_VAR_2}!$"
+	.string "{PLAYER}找到了{STR_VAR_3}个{STR_VAR_1}\n"
+	.string "“{STR_VAR_2}”！$"
 
 gText_Sudowoodo_Attacked::
 	.string "奇怪的树不喜欢\n"
@@ -1037,7 +1040,7 @@ gText_Sudowoodo_Attacked::
 	.string "奇怪的树攻击了过来！$"
 
 gText_LegendaryFlewAway::
-	.string "{STR_VAR_1}不知道飞到哪里去了！$"
+	.string "{STR_VAR_1}消失不见了……$"
 
 	.include "data/text/pc_transfer.inc"
 	.include "data/text/questionnaire.inc"

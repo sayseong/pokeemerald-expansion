@@ -1,5 +1,3 @@
-.set LOCALID_WINGULL, 3
-
 FortreeCity_House4_MapScripts::
 	.byte 0
 
@@ -16,9 +14,9 @@ FortreeCity_House4_EventScript_Boy::
 	closemessage
 	setflag FLAG_WINGULL_SENT_ON_ERRAND
 	clearflag FLAG_HIDE_MOSSDEEP_CITY_HOUSE_2_WINGULL
-	applymovement LOCALID_WINGULL, FortreeCity_House4_Movement_WingullExit
+	applymovement LOCALID_FORTREE_HOUSE_WINGULL, FortreeCity_House4_Movement_WingullExit
 	waitmovement 0
-	removeobject LOCALID_WINGULL
+	removeobject LOCALID_FORTREE_HOUSE_WINGULL
 	releaseall
 	end
 
@@ -68,7 +66,7 @@ FortreeCity_House4_Text_BringsWorldCloserTogether:
     .string "和宝可梦在一起，\n人们可以交上更多朋友，\p这让我们的世界\n变得更小。这多美妙！$"
 
 FortreeCity_House4_Text_GoBirdPokemon:
-    .string "好了！\n去吧，飞行属性宝可梦！$"
+    .string "好了！\n去吧，我的鸟宝可梦！$"
 
 FortreeCity_House4_Text_AskedWingullToRunErrand:
     .string "我让我的长翅鸥\n帮我送信。$"

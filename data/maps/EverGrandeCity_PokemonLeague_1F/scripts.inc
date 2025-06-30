@@ -1,7 +1,3 @@
-.set LOCALID_NURSE, 1
-.set LOCALID_GUARD_1, 3
-.set LOCALID_GUARD_2, 4
-
 EverGrandeCity_PokemonLeague_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_PokemonLeague_1F_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
@@ -14,12 +10,12 @@ EverGrandeCity_PokemonLeague_1F_OnTransition:
 	end
 
 EverGrandeCity_PokemonLeague_1F_EventScript_GuardsBlockDoor::
-	setobjectxyperm LOCALID_GUARD_1, 9, 2
-	setobjectxyperm LOCALID_GUARD_2, 10, 2
+	setobjectxyperm LOCALID_LEAGUE_GUARD_1, 9, 2
+	setobjectxyperm LOCALID_LEAGUE_GUARD_2, 10, 2
 	return
 
 EverGrandeCity_PokemonLeague_1F_EventScript_Nurse::
-	setvar VAR_0x800B, LOCALID_NURSE
+	setvar VAR_0x800B, LOCALID_LEAGUE_NURSE
 	call Common_EventScript_PkmnCenterNurse
 	waitmessage
 	waitbuttonpress
@@ -60,8 +56,8 @@ EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard::
 	delay 120
 	goto_if_unset FLAG_BADGE06_GET, EverGrandeCity_PokemonLeague_1F_EventScript_NotAllBadges
 	closemessage
-	applymovement LOCALID_GUARD_1, EverGrandeCity_PokemonLeague_1F_Movement_LeftGuardOutOfWay
-	applymovement LOCALID_GUARD_2, EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay
+	applymovement LOCALID_LEAGUE_GUARD_1, EverGrandeCity_PokemonLeague_1F_Movement_LeftGuardOutOfWay
+	applymovement LOCALID_LEAGUE_GUARD_2, EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay
 	waitmovement 0
 	delay 10
 	playfanfare MUS_OBTAIN_BADGE
@@ -69,19 +65,19 @@ EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard::
 	waitmessage
 	waitfanfare
 	closemessage
-	copyobjectxytoperm LOCALID_GUARD_1
-	copyobjectxytoperm LOCALID_GUARD_2
+	copyobjectxytoperm LOCALID_LEAGUE_GUARD_1
+	copyobjectxytoperm LOCALID_LEAGUE_GUARD_2
 	setflag FLAG_ENTERED_ELITE_FOUR
 	releaseall
 	end
 
 EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromRight::
-	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromRight
+	applymovement LOCALID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromRight
 	waitmovement 0
 	return
 
 EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromLeft::
-	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromLeft
+	applymovement LOCALID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromLeft
 	waitmovement 0
 	return
 
@@ -124,11 +120,11 @@ EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
 	step_end
 
 EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
-    .string "注意，只有拥有所有\n道馆徽章的训练家\l才允许进入。\p那么，让我们确认下\n你是否获得了所有的道馆徽章。$"
+    .string "这前面只允许得到了所有道馆徽章的\n训练家进入。\p训练家，请让我们确认一下\n你是否拥有所有的道馆徽章。$"
 
 EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
-    .string "你并没有获得所有的徽章。\p如果你的目标是宝可梦联盟\n那你必须等收集全再回来。$"
+    .string "你还没有获得所有的徽章。\p如果你的目标是宝可梦联盟，\n那你必须全部集齐后再回来。$"
 
 EverGrandeCity_PokemonLeague_1F_Text_GoForth:
-    .string "训练家！相信自己\n和你的宝可梦，前进吧！$"
+    .string "训练家！相信自己和你的宝可梦，\n前进吧！$"
 

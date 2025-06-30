@@ -1,5 +1,3 @@
-.set LOCALID_ATTENDANT, 1
-
 VerdanturfTown_BattleTentLobby_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, VerdanturfTown_BattleTentLobby_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, VerdanturfTown_BattleTentLobby_OnWarp
@@ -11,7 +9,7 @@ VerdanturfTown_BattleTentLobby_OnWarp:
 
 VerdanturfTown_BattleTentLobby_EventScript_TurnPlayerNorth::
 	setvar VAR_TEMP_1, 1
-	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	turnobject LOCALID_PLAYER, DIR_NORTH
 	end
 
 VerdanturfTown_BattleTentLobby_OnFrame:
@@ -193,13 +191,13 @@ VerdanturfTown_BattleTentLobby_EventScript_EndCancelChallenge::
 	end
 
 VerdanturfTown_BattleTentLobby_EventScript_WalkToDoor::
-	applymovement LOCALID_ATTENDANT, VerdanturfTown_BattleTentLobby_Movement_WalkToDoor
-	applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_BattleTentLobby_Movement_WalkToDoor
+	applymovement LOCALID_VERDANTURF_TENT_ATTENDANT, VerdanturfTown_BattleTentLobby_Movement_WalkToDoor
+	applymovement LOCALID_PLAYER, VerdanturfTown_BattleTentLobby_Movement_WalkToDoor
 	waitmovement 0
 	opendoor 6, 1
 	waitdooranim
-	applymovement LOCALID_ATTENDANT, VerdanturfTown_BattleTentLobby_Movement_AttendantEnterDoor
-	applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_BattleTentLobby_Movement_PlayerEnterDoor
+	applymovement LOCALID_VERDANTURF_TENT_ATTENDANT, VerdanturfTown_BattleTentLobby_Movement_AttendantEnterDoor
+	applymovement LOCALID_PLAYER, VerdanturfTown_BattleTentLobby_Movement_PlayerEnterDoor
 	waitmovement 0
 	closedoor 6, 1
 	waitdooranim
@@ -334,16 +332,16 @@ VerdanturfTown_BattleTentLobby_Text_GentleMonsScaryIfAngry:
     .string "我姐姐通常很温柔，\n但如果把她惹怒了，\l她会变得非常非常可怕！\p我敢说温顺性格的宝可梦\n生气的时候也会很可怕！$"
 
 VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep:
-    .string "我的宝可梦感觉上……\n那么地吸引人……\p啊，你好，你没看见吧？\n啊，算了，没关系，\p你想给你的宝可梦用\n这个招式学习器吗？$"
+    .string "我对宝可梦感到……\n它那么地迷人……\p啊，你好，你没看见吧？\n啊，算了，没关系，\p你想给你的宝可梦用\n这个招式学习器吗？$"
 
 VerdanturfTown_BattleTentLobby_Text_AttractionMutual:
-    .string "我的宝可梦感觉上……\n我们的吸引力是相互的！\p它们战斗时完全按照\n我说的做！$"
+    .string "我对宝可梦感到……\n我想这吸引力一定是相互的！\p它们对战时完全按照\n我想的那样做！$"
 
 VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves:
-    .string "你给你的宝可梦\n教了些什么招式？\p我想如果它们自己\n会疗伤的话，\l你会很轻松的。$"
+    .string "你给你的宝可梦\n教了些什么招式？\p我想如果它们会回复或者\n保护自己的话，\l会让你在战斗中更有优势。$"
 
 VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
-    .string "亚希达：嗨，{PLAYER}{KUN}！\n我就知道能在这儿碰上你，\p因为，无论规则如何，\n无论战斗怎样，\p对战帐篷里总能\n碰见强大的训练家。\p{PLAYER}{KUN}，希望你\n能尽最大的努力！$"
+    .string "亚希达：嗨，{PLAYER}{KUN}！\n我就知道能在这儿遇到你，\p因为，无论规则如何，\n无论战斗怎样，\p你总能在对战帐篷中\n碰见强大的训练家。\p{PLAYER}{KUN}，\n我希望你能全力以赴！$"
 
 VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
-    .string "亚希达：我经常来这儿，\n希望能看到强大的训练家\l战斗。$"
+    .string "亚希达：我经常来这儿，\n为了能观摩强大的训练家\l在不同的处境下如何战斗。$"

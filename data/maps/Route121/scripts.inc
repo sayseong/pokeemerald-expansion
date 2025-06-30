@@ -1,7 +1,3 @@
-.set LOCALID_GRUNT_1, 12
-.set LOCALID_GRUNT_2, 13
-.set LOCALID_GRUNT_3, 14
-
 Route121_MapScripts::
 	.byte 0
 
@@ -20,18 +16,18 @@ Route121_EventScript_SafariZoneSign::
 Route121_EventScript_AquaGruntsMoveOut::
 	lockall
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
-	applymovement LOCALID_GRUNT_2, Common_Movement_WalkInPlaceRight
+	applymovement LOCALID_ROUTE121_GRUNT_2, Common_Movement_WalkInPlaceRight
 	waitmovement 0
 	msgbox Route121_Text_OkayMoveOutToMtPyre, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_GRUNT_1, Route121_Movement_Grunt1Exit
-	applymovement LOCALID_GRUNT_2, Route121_Movement_Grunt2Exit
-	applymovement LOCALID_GRUNT_3, Route121_Movement_Grunt3Exit
+	applymovement LOCALID_ROUTE121_GRUNT_1, Route121_Movement_Grunt1Exit
+	applymovement LOCALID_ROUTE121_GRUNT_2, Route121_Movement_Grunt2Exit
+	applymovement LOCALID_ROUTE121_GRUNT_3, Route121_Movement_Grunt3Exit
 	waitmovement 0
 	fadedefaultbgm
-	removeobject LOCALID_GRUNT_1
-	removeobject LOCALID_GRUNT_2
-	removeobject LOCALID_GRUNT_3
+	removeobject LOCALID_ROUTE121_GRUNT_1
+	removeobject LOCALID_ROUTE121_GRUNT_2
+	removeobject LOCALID_ROUTE121_GRUNT_3
 	setvar VAR_ROUTE121_STATE, 1
 	releaseall
 	end
@@ -173,10 +169,10 @@ Route121_EventScript_RematchCristin::
 	end
 
 Route121_Text_OkayMoveOutToMtPyre:
-    .string "好！\n向送神山码头出发！$"
+    .string "好！\n向送神山出发！$"
 
 Route121_Text_AheadLoomsMtPyre:
-    .string "前方隐约可以看到送神山码头……\p那是自然为故去宝可梦的\n灵魂建立的坟墓……$"
+    .string "前方隐约可以看到送神山……\p那是自然为故去宝可梦的\n灵魂建立的坟墓……$"
 
 Route121_Text_MtPyrePierSign:
     .string "送神山码头\p……牌子老旧得快要坏掉了，\n上面的字迹几乎看不清楚……$"

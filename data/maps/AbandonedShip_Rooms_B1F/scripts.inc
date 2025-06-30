@@ -11,5 +11,5 @@ AbandonedShip_Rooms_B1F_EventScript_FatMan::
 	end
 
 AbandonedShip_Rooms_B1F_Text_GettingQueasy:
-    .string "啊啊……\p我一上这船\n就想吐……\p虽然船还没开……$"
+    .string "啊啊……\p我一上这船就想吐……\p虽然船还没开……$"
 

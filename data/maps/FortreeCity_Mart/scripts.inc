@@ -41,8 +41,8 @@ FortreeCity_Mart_Text_SuperRepelBetter:
     .string "白银喷雾持续时间长，\n效果也好，\p比普通除虫喷雾\n好用多了。$"
 
 FortreeCity_Mart_Text_StockUpOnItems:
-    .string "我总是比计划中\n多存一些物品，\p因为没人知道什么时候会发生灾难，\n提前准备总比事后后悔要好！$"
+    .string "我总是比计划中\n多存一些道具，\p因为没人知道什么时候会发生灾难，\n提前准备总比事后后悔要好！$"
 
 FortreeCity_Mart_Text_RareCandyMakesMonGrow:
-    .string "神奇糖果可以使宝可梦\n立即提升一级。$"
+    .string "神奇糖果可以使宝可梦\n立即提升1级。$"
 

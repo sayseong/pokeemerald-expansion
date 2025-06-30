@@ -1,6 +1,3 @@
-.set LOCALID_LILYCOVE_LADY, 4
-.set LOCALID_LADYS_MON, 5
-
 LilycoveCity_PokemonCenter_1F_EventScript_LilycoveLady::
 	special Script_GetLilycoveLadyId
 	switch VAR_RESULT
@@ -390,7 +387,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_FeedPokeblock::
 	applymovement LOCALID_LILYCOVE_LADY, LilycoveCity_PokemonCenter_1F_Movement_LadyFaceMon
 	waitmovement 0
 	delay 60
-	applymovement LOCALID_LADYS_MON, LilycoveCity_PokemonCenter_1F_Movement_MonFaceLady
+	applymovement LOCALID_LILYCOVE_LADYS_MON, LilycoveCity_PokemonCenter_1F_Movement_MonFaceLady
 	waitmovement 0
 	delay 60
 	waitse
@@ -403,7 +400,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_FeedPokeblock::
 
 @ VAR_0x8004 here is the return value from GivePokeblockToContestLady
 LilycoveCity_PokemonCenter_1F_EventScript_MonEnjoyPokeblock::
-	applymovement LOCALID_LADYS_MON, LilycoveCity_PokemonCenter_1F_Movement_MonJump
+	applymovement LOCALID_LILYCOVE_LADYS_MON, LilycoveCity_PokemonCenter_1F_Movement_MonJump
 	waitmovement 0
 	delay 60
 LilycoveCity_PokemonCenter_1F_EventScript_FinishFeedPokeblock::
@@ -530,7 +527,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_Pikachu::
 	end
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheFavorLady:
-	.string "我是喜好女士……$"
+	.string "我是赖皮姐姐……$"
 
 LilycoveCity_PokemonCenter_1F_Text_ObsessedWithThing:
 	.string "最近我一直\n"
@@ -580,7 +577,7 @@ LilycoveCity_PokemonCenter_1F_Text_IWillCherishThis:
 	.string "真的是非常{STR_VAR_1}的\n"
 	.string "{STR_VAR_2}……\p"
 	.string "真好啊，\n"
-	.string "好象做梦一样……\p"
+	.string "好像做梦一样……\p"
 	.string "谢谢你……\n"
 	.string "我会珍惜的……$"
 
@@ -595,7 +592,7 @@ LilycoveCity_PokemonCenter_1F_Text_IWillTreasureThis:
 
 LilycoveCity_PokemonCenter_1F_Text_IllGiveYouThisInReturn:
 	.string "你给了我这么好的礼物，\n"
-	.string "这个就当作我的回礼吧，\p"
+	.string "这个就当作我的回礼吧。\p"
 	.string "希望你也能好好保存……$"
 
 LilycoveCity_PokemonCenter_1F_Text_YouDontHaveSpaceForIt:
@@ -605,13 +602,13 @@ LilycoveCity_PokemonCenter_1F_Text_YouDontHaveSpaceForIt:
 	.string "再来找我吧……$"
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheQuizLady:
-	.string "我是谜题女士！\n"
+	.string "我是机智问答姐姐！\n"
 	.string "我喜欢谜题！$"
 
 LilycoveCity_PokemonCenter_1F_Text_WaitingToTakeYourQuiz:
 	.string "哦？\p"
 	.string "我正在为你出的谜题\n"
-	.string "寻找挑战者，\p"
+	.string "寻找挑战者。\p"
 	.string "下次再聊吧？$"
 
 LilycoveCity_PokemonCenter_1F_Text_WaitingForChallenger:
@@ -660,7 +657,7 @@ LilycoveCity_PokemonCenter_1F_Text_WrongTheCorrectAnswerIs:
 	.string "正确答案应该是“{STR_VAR_3}”！$"
 
 LilycoveCity_PokemonCenter_1F_Text_IGetToKeepPrize:
-	.string "真遗憾，\p"
+	.string "真遗憾。\p"
 	.string "奖品{STR_VAR_1}我只好保留了！$"
 
 LilycoveCity_PokemonCenter_1F_Text_MakeYourOwnQuiz:
@@ -680,7 +677,7 @@ LilycoveCity_PokemonCenter_1F_Text_PickYourPrize:
 
 LilycoveCity_PokemonCenter_1F_Text_QuitChoosingPrize:
 	.string "不选择奖品的话\n"
-	.string "就不能出题了，\p"
+	.string "就不能出题了。\p"
 	.string "你要放弃吗？$"
 
 LilycoveCity_PokemonCenter_1F_Text_WriteYourQuiz:
@@ -704,7 +701,7 @@ LilycoveCity_PokemonCenter_1F_Text_IllLookForAChallenger:
 	.string "愿意回答你的问题的挑战者。$"
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheContestLady:
-	.string "我是选美女士！\n"
+	.string "我是华丽大赛姐姐！\n"
 	.string "我非常喜欢华丽大赛！$"
 
 LilycoveCity_PokemonCenter_1F_Text_ThankForPokeblock:
@@ -767,10 +764,10 @@ LilycoveCity_PokemonCenter_1F_Text_Kecleon:
 	.string "{STR_VAR_1}：唧唧，唧唧！$"
 
 LilycoveCity_PokemonCenter_1F_Text_Poochyena:
-	.string "{STR_VAR_1}：汪—呜……$"
+	.string "{STR_VAR_1}：汪——呜……$"
 
 LilycoveCity_PokemonCenter_1F_Text_Pikachu:
 	.string "{STR_VAR_1}：皮～卡！$"
 
 LilycoveCity_PokemonCenter_1F_Text_Skitty:
-	.string "{STR_VAR_1}：呜—喵～$"
+	.string "{STR_VAR_1}：呜——喵～$"

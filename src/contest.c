@@ -420,7 +420,7 @@ static const union AffineAnimCmd sAffineAnim_SliderHeart_SpinAppear[] =
     AFFINEANIMCMD_END
 };
 
-static const union AffineAnimCmd* const sAffineAnims_SliderHeart[] =
+static const union AffineAnimCmd *const sAffineAnims_SliderHeart[] =
 {
     [SLIDER_HEART_ANIM_NORMAL]    = sAffineAnim_SliderHeart_Normal,
     [SLIDER_HEART_ANIM_DISAPPEAR] = sAffineAnim_SliderHeart_SpinDisappear,
@@ -667,7 +667,7 @@ static const struct CompressedSpriteSheet sSpriteSheet_JudgeSymbols =
     .tag = TAG_JUDGE_SYMBOLS_GFX
 };
 
-static const struct CompressedSpritePalette sSpritePalette_JudgeSymbols =
+static const struct SpritePalette sSpritePalette_JudgeSymbols =
 {
     .data = gContestJudgeSymbolsPal,
     .tag = TAG_CONTEST_SYMBOLS_PAL
@@ -690,54 +690,54 @@ static const u16 sText_Pal[] = INCBIN_U16("graphics/contest/text.gbapal");
 
 const u8 *const gContestEffectDescriptionPointers[] =
 {
-    [CONTEST_EFFECT_HIGHLY_APPEALING]                      = COMPOUND_STRING("能获得很多吸引力。"),
-    [CONTEST_EFFECT_USER_MORE_EASILY_STARTLED]             = COMPOUND_STRING("在表演这个招式之后\n宝可梦会变得很容易受惊。"),
-    [CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES]        = COMPOUND_STRING("这个表演会受到全场瞩目，但\n后面直到结束前什么都不能做了。"),
-    [CONTEST_EFFECT_REPETITION_NOT_BORING]                 = COMPOUND_STRING("即使在下回继续使用也不会\n被审查员厌烦并获得关注。"),
-    [CONTEST_EFFECT_AVOID_STARTLE_ONCE]                    = COMPOUND_STRING("即使受到其他宝可梦惊吓\n自己也能承受住一次。"),
-    [CONTEST_EFFECT_AVOID_STARTLE]                         = COMPOUND_STRING("即使受到其他宝可梦的惊吓\n自己也能承受住。"),
-    [CONTEST_EFFECT_AVOID_STARTLE_SLIGHTLY]                = COMPOUND_STRING("能够稍稍避免受到\n被其他宝可梦惊吓。"),
-    [CONTEST_EFFECT_USER_LESS_EASILY_STARTLED]             = COMPOUND_STRING("在表演这个招式之后\n宝可梦会变得难以受惊。"),
-    [CONTEST_EFFECT_STARTLE_FRONT_MON]                     = COMPOUND_STRING("稍稍惊吓排在自己前面的\n表演过的宝可梦。"),
-    [CONTEST_EFFECT_SLIGHTLY_STARTLE_PREV_MONS]            = COMPOUND_STRING("稍稍惊吓排在自己前面的\n所有表演过的宝可梦。"),
-    [CONTEST_EFFECT_STARTLE_PREV_MON]                      = COMPOUND_STRING("惊吓排在自己前面的\n表演过的宝可梦。"),
-    [CONTEST_EFFECT_STARTLE_PREV_MONS]                     = COMPOUND_STRING("惊吓排在自己前面的\n所有表演过的宝可梦。"),
-    [CONTEST_EFFECT_BADLY_STARTLE_FRONT_MON]               = COMPOUND_STRING("特别是能够惊吓排在\n自己前面表演过的宝可梦。"),
-    [CONTEST_EFFECT_BADLY_STARTLE_PREV_MONS]               = COMPOUND_STRING("对场上表演过的所有宝可梦\n都有相当的威吓作用。"),
-    [CONTEST_EFFECT_STARTLE_PREV_MON_2]                    = COMPOUND_STRING("惊吓排在自己前面的\n表演过的宝可梦。"),
-    [CONTEST_EFFECT_STARTLE_PREV_MONS_2]                   = COMPOUND_STRING("惊吓排在自己前面的\n所有表演过的宝可梦。"),
-    [CONTEST_EFFECT_SHIFT_JUDGE_ATTENTION]                 = COMPOUND_STRING("能够转移审查员对\n其他宝可梦的关注度。"),
-    [CONTEST_EFFECT_STARTLE_MON_WITH_JUDGES_ATTENTION]     = COMPOUND_STRING("特别是能够惊吓受到\n审查员关注的宝可梦。"),
-    [CONTEST_EFFECT_JAMS_OTHERS_BUT_MISS_ONE_TURN]         = COMPOUND_STRING("不停地在场上捣乱，\n下个回合不能参加表演。"),
-    [CONTEST_EFFECT_STARTLE_MONS_SAME_TYPE_APPEAL]         = COMPOUND_STRING("特别是能够惊吓和自己\n有着一样类型吸引力的宝可梦。"),
-    [CONTEST_EFFECT_STARTLE_MONS_COOL_APPEAL]              = COMPOUND_STRING("特别是能够惊吓表演\n帅气招式的宝可梦。"),
-    [CONTEST_EFFECT_STARTLE_MONS_BEAUTY_APPEAL]            = COMPOUND_STRING("特别是能够惊吓表演\n美丽招式的宝可梦。"),
-    [CONTEST_EFFECT_STARTLE_MONS_CUTE_APPEAL]              = COMPOUND_STRING("特别是能够惊吓表演\n可爱招式的宝可梦。"),
-    [CONTEST_EFFECT_STARTLE_MONS_SMART_APPEAL]             = COMPOUND_STRING("特别是能够惊吓表演\n聪明招式的宝可梦。"),
-    [CONTEST_EFFECT_STARTLE_MONS_TOUGH_APPEAL]             = COMPOUND_STRING("特别是能够惊吓表演\n强壮招式的宝可梦。"),
-    [CONTEST_EFFECT_MAKE_FOLLOWING_MON_NERVOUS]            = COMPOUND_STRING("会使在这之后登场的\n一只宝可梦紧张。"),
-    [CONTEST_EFFECT_MAKE_FOLLOWING_MONS_NERVOUS]           = COMPOUND_STRING("会使在这之后登场的\n所有宝可梦紧张。"),
-    [CONTEST_EFFECT_WORSEN_CONDITION_OF_PREV_MONS]         = COMPOUND_STRING("降低已经表演完的\n宝可梦们的状态。"),
-    [CONTEST_EFFECT_BADLY_STARTLES_MONS_IN_GOOD_CONDITION] = COMPOUND_STRING("特别是能够惊吓\n当前状态很好的宝可梦。"),
-    [CONTEST_EFFECT_BETTER_IF_FIRST]                       = COMPOUND_STRING("率先第一个出场表演的话\n很容易获得很高的吸引力"),
-    [CONTEST_EFFECT_BETTER_IF_LAST]                        = COMPOUND_STRING("最后一个出场表演的话\n很容易获得很高的吸引力"),
-    [CONTEST_EFFECT_APPEAL_AS_GOOD_AS_PREV_ONES]           = COMPOUND_STRING("能够表演同之前登场过的\n宝可梦们相同的吸引力。"),
-    [CONTEST_EFFECT_APPEAL_AS_GOOD_AS_PREV_ONE]            = COMPOUND_STRING("能够表演同前一只登场的\n宝可梦相同的吸引力。"),
-    [CONTEST_EFFECT_BETTER_WHEN_LATER]                     = COMPOUND_STRING("越在所有宝可梦的后面表演\n越容易获得吸引力。"),
-    [CONTEST_EFFECT_QUALITY_DEPENDS_ON_TIMING]             = COMPOUND_STRING("根据出场时间的不同，\n吸引力的状态也有所变化。"),
-    [CONTEST_EFFECT_BETTER_IF_SAME_TYPE]                   = COMPOUND_STRING("与前一只宝可梦的吸引力\n一样的话就会受到喜欢。"),
-    [CONTEST_EFFECT_BETTER_IF_DIFF_TYPE]                   = COMPOUND_STRING("与前一只宝可梦的吸引力\n不一样的话就会受到喜欢。"),
-    [CONTEST_EFFECT_AFFECTED_BY_PREV_APPEAL]               = COMPOUND_STRING("招式的吸引力会受到\n前面一只宝可梦的影响。"),
-    [CONTEST_EFFECT_IMPROVE_CONDITION_PREVENT_NERVOUSNESS] = COMPOUND_STRING("能够提升自身吸引力的状态，\n并且变得不那么容易紧张。"),
-    [CONTEST_EFFECT_BETTER_WITH_GOOD_CONDITION]            = COMPOUND_STRING("如果状态好的时候表演的话\n很容易获得很高的吸引力。"),
-    [CONTEST_EFFECT_NEXT_APPEAL_EARLIER]                   = COMPOUND_STRING("下一回合登场时自己的\n登场顺序会更靠前。"),
-    [CONTEST_EFFECT_NEXT_APPEAL_LATER]                     = COMPOUND_STRING("下一回合登场时自己的\n登场顺序会更靠后。"),
-    [CONTEST_EFFECT_MAKE_SCRAMBLING_TURN_ORDER_EASIER]     = COMPOUND_STRING("使得下一回合登场的顺序\n更容易被打乱。"),
-    [CONTEST_EFFECT_SCRAMBLE_NEXT_TURN_ORDER]              = COMPOUND_STRING("会打乱下个回合宝可梦们\n登场表演的顺序。"),
-    [CONTEST_EFFECT_EXCITE_AUDIENCE_IN_ANY_CONTEST]        = COMPOUND_STRING("无论是什么类型的华丽大赛\n表演这个招式都能获得关注度。"),
-    [CONTEST_EFFECT_BADLY_STARTLE_MONS_WITH_GOOD_APPEALS]  = COMPOUND_STRING("特别是能够惊吓场上\n吸引力很高的所有宝可梦。"),
-    [CONTEST_EFFECT_BETTER_WHEN_AUDIENCE_EXCITED]          = COMPOUND_STRING("会场上的气氛越热烈，\n越容易受到关注度与吸引力。"),
-    [CONTEST_EFFECT_DONT_EXCITE_AUDIENCE]                  = COMPOUND_STRING("在这个表演结束之后，\n会场的气氛会变得冷清一会儿。"),
+    [CONTEST_EFFECT_HIGHLY_APPEALING]                      = COMPOUND_STRING("能够吸引人的表演。"),
+    [CONTEST_EFFECT_USER_MORE_EASILY_STARTLED]             = COMPOUND_STRING("虽然能够演出很好的表演，\n但是之后会更容易受干扰。"),
+    [CONTEST_EFFECT_GREAT_APPEAL_BUT_NO_MORE_MOVES]        = COMPOUND_STRING("极具吸引力的表演，\n但是此后无法再进行表演。"),
+    [CONTEST_EFFECT_REPETITION_NOT_BORING]                 = COMPOUND_STRING("即使重复演出也不会\n让评委感到无聊。"),
+    [CONTEST_EFFECT_AVOID_STARTLE_ONCE]                    = COMPOUND_STRING("即使被之后的宝可梦干扰\n也会挺住一次。"),
+    [CONTEST_EFFECT_AVOID_STARTLE]                         = COMPOUND_STRING("即使被之后的宝可梦干扰\n也会挺住。"),
+    [CONTEST_EFFECT_AVOID_STARTLE_SLIGHTLY]                = COMPOUND_STRING("能够稍稍避免受到\n被其他宝可梦干扰。"),
+    [CONTEST_EFFECT_USER_LESS_EASILY_STARTLED]             = COMPOUND_STRING("在表演这个招式之后\n宝可梦会变得不易受干扰。"),
+    [CONTEST_EFFECT_STARTLE_FRONT_MON]                     = COMPOUND_STRING("稍稍干扰在自己之前表演的\n宝可梦。"),
+    [CONTEST_EFFECT_SLIGHTLY_STARTLE_PREV_MONS]            = COMPOUND_STRING("稍稍干扰表演完成的\n所有宝可梦。"),
+    [CONTEST_EFFECT_STARTLE_PREV_MON]                      = COMPOUND_STRING("干扰在自己之前表演的\n宝可梦。"),
+    [CONTEST_EFFECT_STARTLE_PREV_MONS]                     = COMPOUND_STRING("干扰表演完成的\n所有宝可梦。"),
+    [CONTEST_EFFECT_BADLY_STARTLE_FRONT_MON]               = COMPOUND_STRING("严重干扰在自己之前表演的\n宝可梦。"),
+    [CONTEST_EFFECT_BADLY_STARTLE_PREV_MONS]               = COMPOUND_STRING("严重干扰表演完成的\n所有宝可梦。"),
+    [CONTEST_EFFECT_STARTLE_PREV_MON_2]                    = COMPOUND_STRING("干扰在自己之前表演的\n宝可梦。"),
+    [CONTEST_EFFECT_STARTLE_PREV_MONS_2]                   = COMPOUND_STRING("干扰表演完成的\n所有宝可梦。"),
+    [CONTEST_EFFECT_SHIFT_JUDGE_ATTENTION]                 = COMPOUND_STRING("分散评委对之前宝可梦的\n注意。"),
+    [CONTEST_EFFECT_STARTLE_MON_WITH_JUDGES_ATTENTION]     = COMPOUND_STRING("特别干扰评委注意的\n宝可梦。"),
+    [CONTEST_EFFECT_JAMS_OTHERS_BUT_MISS_ONE_TURN]         = COMPOUND_STRING("激烈地干扰大家，\n但无法参加下一次表演。"),
+    [CONTEST_EFFECT_STARTLE_MONS_SAME_TYPE_APPEAL]         = COMPOUND_STRING("特别干扰演出了相同类别的\n宝可梦。"),
+    [CONTEST_EFFECT_STARTLE_MONS_COOL_APPEAL]              = COMPOUND_STRING("特别干扰演出了帅气招式的\n宝可梦。"),
+    [CONTEST_EFFECT_STARTLE_MONS_BEAUTY_APPEAL]            = COMPOUND_STRING("特别干扰演出了美丽招式的\n宝可梦。"),
+    [CONTEST_EFFECT_STARTLE_MONS_CUTE_APPEAL]              = COMPOUND_STRING("特别干扰演出了可爱招式的\n宝可梦。"),
+    [CONTEST_EFFECT_STARTLE_MONS_SMART_APPEAL]             = COMPOUND_STRING("特别干扰演出了聪明招式的\n宝可梦。"),
+    [CONTEST_EFFECT_STARTLE_MONS_TOUGH_APPEAL]             = COMPOUND_STRING("特别干扰演出了强壮招式的\n宝可梦。"),
+    [CONTEST_EFFECT_MAKE_FOLLOWING_MON_NERVOUS]            = COMPOUND_STRING("让下一只表演的宝可梦\n感到紧张。"),
+    [CONTEST_EFFECT_MAKE_FOLLOWING_MONS_NERVOUS]           = COMPOUND_STRING("让之后表演的所有宝可梦\n都感到紧张。"),
+    [CONTEST_EFFECT_WORSEN_CONDITION_OF_PREV_MONS]         = COMPOUND_STRING("降低表演完成的\n宝可梦的气势。"),
+    [CONTEST_EFFECT_BADLY_STARTLES_MONS_IN_GOOD_CONDITION] = COMPOUND_STRING("严重干扰气势良好的\n所有宝可梦。"),
+    [CONTEST_EFFECT_BETTER_IF_FIRST]                       = COMPOUND_STRING("最先演出时表演\n会更加吸引人。"),
+    [CONTEST_EFFECT_BETTER_IF_LAST]                        = COMPOUND_STRING("最后演出时表演\n会更加吸引人。"),
+    [CONTEST_EFFECT_APPEAL_AS_GOOD_AS_PREV_ONES]           = COMPOUND_STRING("演出和此前所有宝可梦表演\n吸引力程度相当的表演。"),
+    [CONTEST_EFFECT_APPEAL_AS_GOOD_AS_PREV_ONE]            = COMPOUND_STRING("和前一位宝可梦的\n表演一样吸引人。"),
+    [CONTEST_EFFECT_BETTER_WHEN_LATER]                     = COMPOUND_STRING("演出时排序越靠后，\n越能演出吸引人的表演。"),
+    [CONTEST_EFFECT_QUALITY_DEPENDS_ON_TIMING]             = COMPOUND_STRING("每次演出的结果都不同。"),
+    [CONTEST_EFFECT_BETTER_IF_SAME_TYPE]                   = COMPOUND_STRING("和前一位宝可梦的表演类别\n相同时会更吸引人。"),
+    [CONTEST_EFFECT_BETTER_IF_DIFF_TYPE]                   = COMPOUND_STRING("和前一位宝可梦的表演类别\n不同时会更吸引人。"),
+    [CONTEST_EFFECT_AFFECTED_BY_PREV_APPEAL]               = COMPOUND_STRING("演出水平受前一位宝可梦\n表演吸引程度的影响。"),
+    [CONTEST_EFFECT_IMPROVE_CONDITION_PREVENT_NERVOUSNESS] = COMPOUND_STRING("提升表演的气势，\n变得不容易感到紧张。"),
+    [CONTEST_EFFECT_BETTER_WITH_GOOD_CONDITION]            = COMPOUND_STRING("气势良好时表演\n会非常吸引人。"),
+    [CONTEST_EFFECT_NEXT_APPEAL_EARLIER]                   = COMPOUND_STRING("下一次表演时最先出场。"),
+    [CONTEST_EFFECT_NEXT_APPEAL_LATER]                     = COMPOUND_STRING("下一次表演时最后出场。"),
+    [CONTEST_EFFECT_MAKE_SCRAMBLING_TURN_ORDER_EASIER]     = COMPOUND_STRING("使下一次表演的顺序\n容易被打乱。"),
+    [CONTEST_EFFECT_SCRAMBLE_NEXT_TURN_ORDER]              = COMPOUND_STRING("打乱下一次表演的顺序。"),
+    [CONTEST_EFFECT_EXCITE_AUDIENCE_IN_ANY_CONTEST]        = COMPOUND_STRING("任何类别的华丽大赛中\n都会让会场兴奋的表演。"),
+    [CONTEST_EFFECT_BADLY_STARTLE_MONS_WITH_GOOD_APPEALS]  = COMPOUND_STRING("严重干扰表演具有吸引力的\n所有宝可梦。"),
+    [CONTEST_EFFECT_BETTER_WHEN_AUDIENCE_EXCITED]          = COMPOUND_STRING("会场越兴奋，\n表演越吸引人。"),
+    [CONTEST_EFFECT_DONT_EXCITE_AUDIENCE]                  = COMPOUND_STRING("表演后会场暂时不会\n变得更加兴奋。"),
 };
 
 const u8 *const gContestMoveTypeTextPointers[] =
@@ -751,31 +751,31 @@ const u8 *const gContestMoveTypeTextPointers[] =
 
 static const u8 *const sContestConditions[] =
 {
-    [CONTEST_CATEGORY_COOL]   = COMPOUND_STRING("帅气度"),
-    [CONTEST_CATEGORY_BEAUTY] = COMPOUND_STRING("美丽度"),
-    [CONTEST_CATEGORY_CUTE]   = COMPOUND_STRING("可爱度"),
-    [CONTEST_CATEGORY_SMART]  = COMPOUND_STRING("聪明度"),
-    [CONTEST_CATEGORY_TOUGH]  = COMPOUND_STRING("强壮度"),
+    [CONTEST_CATEGORY_COOL]   = COMPOUND_STRING("帅气"),
+    [CONTEST_CATEGORY_BEAUTY] = COMPOUND_STRING("美丽"),
+    [CONTEST_CATEGORY_CUTE]   = COMPOUND_STRING("可爱"),
+    [CONTEST_CATEGORY_SMART]  = COMPOUND_STRING("聪明"),
+    [CONTEST_CATEGORY_TOUGH]  = COMPOUND_STRING("强壮"),
 };
 
 static const u8 *const sInvalidContestMoveNames[] =
 {
-    [CONTEST_CATEGORY_COOL]    = COMPOUND_STRING("帅气技"),
-    [CONTEST_CATEGORY_BEAUTY]  = COMPOUND_STRING("美丽技"),
-    [CONTEST_CATEGORY_CUTE]    = COMPOUND_STRING("可爱技"),
-    [CONTEST_CATEGORY_SMART]   = COMPOUND_STRING("聪明技"),
-    [CONTEST_CATEGORY_TOUGH]   = COMPOUND_STRING("强壮技"),
+    [CONTEST_CATEGORY_COOL]    = COMPOUND_STRING("帅气招式"),
+    [CONTEST_CATEGORY_BEAUTY]  = COMPOUND_STRING("美丽招式"),
+    [CONTEST_CATEGORY_CUTE]    = COMPOUND_STRING("可爱招式"),
+    [CONTEST_CATEGORY_SMART]   = COMPOUND_STRING("聪明招式"),
+    [CONTEST_CATEGORY_TOUGH]   = COMPOUND_STRING("强壮招式"),
     [CONTEST_CATEGORIES_COUNT] = COMPOUND_STRING("???"),
 };
 
 // Takes the .attentionLevel of a contestant as an index.
 static const u8 *const sRoundResultTexts[] =
 {
-    COMPOUND_STRING("{STR_VAR_1}\n完全不引人注目……{PAUSE_UNTIL_PRESS}"),
-    COMPOUND_STRING("{STR_VAR_1}\n不怎么引人注目……{PAUSE_UNTIL_PRESS}"),
-    COMPOUND_STRING("{STR_VAR_1}\n稍稍有点引人注目！{PAUSE_UNTIL_PRESS}"),
-    COMPOUND_STRING("{STR_VAR_1}\n非常引人注目！{PAUSE_UNTIL_PRESS}"),
-    COMPOUND_STRING("{STR_VAR_1}\n太引人注目了！{PAUSE_UNTIL_PRESS}"),
+    COMPOUND_STRING("{STR_VAR_1}\n完全没能获得关注……{PAUSE_UNTIL_PRESS}"),
+    COMPOUND_STRING("{STR_VAR_1}\n表现平平无奇……{PAUSE_UNTIL_PRESS}"),
+    COMPOUND_STRING("{STR_VAR_1}\n稍稍吸引了些许目光。{PAUSE_UNTIL_PRESS}"),
+    COMPOUND_STRING("{STR_VAR_1}\n赢得了热烈的反响！{PAUSE_UNTIL_PRESS}"),
+    COMPOUND_STRING("{STR_VAR_1}\n彻底成为了全场焦点！{PAUSE_UNTIL_PRESS}"),
     COMPOUND_STRING("{STR_VAR_1}\n没有参加表演……{PAUSE_UNTIL_PRESS}"),
 };
 
@@ -1137,7 +1137,7 @@ void LoadContestBgAfterMoveAnim(void)
     LZDecompressVram(gContestAudienceGfx, (void *)(BG_SCREEN_ADDR(4)));
     CopyToBgTilemapBuffer(3, gContestAudienceTilemap, 0, 0);
     CopyBgTilemapBufferToVram(3);
-    LoadCompressedPalette(gContestInterfaceAudiencePalette, BG_PLTT_OFFSET, BG_PLTT_SIZE);
+    LoadPalette(gContestInterfaceAudiencePalette, BG_PLTT_OFFSET, BG_PLTT_SIZE);
     LoadContestPalettes();
     for (i = 0; i < CONTESTANT_COUNT; i++)
     {
@@ -1431,7 +1431,7 @@ static bool8 SetupContestGraphics(u8 *stateVar)
         DmaCopy32Defvars(3, gContestResources->contestBgTilemaps[2], eContestTempSave.savedJunk, sizeof(eContestTempSave.savedJunk));
         break;
     case 5:
-        LoadCompressedPalette(gContestInterfaceAudiencePalette, BG_PLTT_OFFSET, BG_PLTT_SIZE);
+        LoadPalette(gContestInterfaceAudiencePalette, BG_PLTT_OFFSET, BG_PLTT_SIZE);
         CpuCopy32(&gPlttBufferUnfaded[BG_PLTT_ID(8)], tempPalette1, PLTT_SIZE_4BPP);
         CpuCopy32(&gPlttBufferUnfaded[BG_PLTT_ID(5 + gContestPlayerMonIndex)], tempPalette2, PLTT_SIZE_4BPP);
         CpuCopy32(tempPalette2, &gPlttBufferUnfaded[BG_PLTT_ID(8)], PLTT_SIZE_4BPP);
@@ -1449,13 +1449,13 @@ static bool8 SetupContestGraphics(u8 *stateVar)
         CreateApplauseMeterSprite();
         CreateJudgeAttentionEyeTask();
         CreateUnusedBlendTask();
-        gBattlerPositions[0] = B_POSITION_PLAYER_LEFT;
-        gBattlerPositions[1] = B_POSITION_OPPONENT_LEFT;
-        gBattlerPositions[2] = B_POSITION_OPPONENT_RIGHT;
-        gBattlerPositions[3] = B_POSITION_PLAYER_RIGHT;
+        gBattlerPositions[B_BATTLER_0] = B_POSITION_PLAYER_LEFT;
+        gBattlerPositions[B_BATTLER_1] = B_POSITION_OPPONENT_LEFT;
+        gBattlerPositions[B_BATTLER_2] = B_POSITION_OPPONENT_RIGHT;
+        gBattlerPositions[B_BATTLER_3] = B_POSITION_PLAYER_RIGHT;
         gBattleTypeFlags = 0;
-        gBattlerAttacker = B_POSITION_PLAYER_RIGHT;
-        gBattlerTarget = B_POSITION_OPPONENT_RIGHT;
+        gBattlerAttacker = B_BATTLER_2;
+        gBattlerTarget = B_BATTLER_3;
         // Unclear why judge sprite is assigned here
         // Overwritten in APPEALSTATE_SLIDE_MON_IN with the attacking contest mon
         gBattlerSpriteIds[gBattlerAttacker] = CreateJudgeSprite();
@@ -3198,7 +3198,7 @@ static u8 CreateJudgeSprite(void)
     u8 spriteId;
 
     LoadCompressedSpriteSheet(&sSpriteSheet_Judge);
-    LoadCompressedPalette(gContest2Pal, OBJ_PLTT_ID(1), PLTT_SIZE_4BPP);
+    LoadPalette(gContest2Pal, OBJ_PLTT_ID(1), PLTT_SIZE_4BPP);
     spriteId = CreateSprite(&sSpriteTemplate_Judge, 112, 36, 30);
     gSprites[spriteId].oam.paletteNum = 1;
     gSprites[spriteId].callback = SpriteCallbackDummy;
@@ -3210,7 +3210,7 @@ static u8 CreateJudgeSpeechBubbleSprite(void)
     u8 spriteId;
 
     LoadCompressedSpriteSheet(&sSpriteSheet_JudgeSymbols);
-    LoadCompressedSpritePalette(&sSpritePalette_JudgeSymbols);
+    LoadSpritePalette(&sSpritePalette_JudgeSymbols);
     spriteId = CreateSprite(&sSpriteTemplate_JudgeSpeechBubble, 96, 10, 29);
     gSprites[spriteId].invisible = TRUE;
     gSprites[spriteId].data[0] = gSprites[spriteId].oam.tileNum;
@@ -3224,7 +3224,7 @@ static u8 CreateContestantSprite(u16 species, bool8 isShiny, u32 personality, u3
 
     HandleLoadSpecialPokePic(FALSE, gMonSpritesGfxPtr->spritesGfx[B_POSITION_PLAYER_LEFT], species, personality);
 
-    LoadCompressedPalette(GetMonSpritePalFromSpeciesAndPersonality(species, isShiny, personality), OBJ_PLTT_ID(2), PLTT_SIZE_4BPP);
+    LoadPalette(GetMonSpritePalFromSpeciesAndPersonality(species, isShiny, personality), OBJ_PLTT_ID(2), PLTT_SIZE_4BPP);
     SetMultiuseSpriteTemplateToPokemon(species, B_POSITION_PLAYER_LEFT);
 
     spriteId = CreateSprite(&gMultiuseSpriteTemplate, 0x70, GetBattlerSpriteFinal_Y(2, species, FALSE), 30);

@@ -1,5 +1,3 @@
-.set LOCALID_NURSE, 1
-
 LilycoveCity_PokemonCenter_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_PokemonCenter_1F_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
@@ -26,7 +24,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_ShowContestLadyMon::
 	end
 
 LilycoveCity_PokemonCenter_1F_EventScript_Nurse::
-	setvar VAR_0x800B, LOCALID_NURSE
+	setvar VAR_0x800B, LOCALID_LILYCOVE_NURSE
 	call Common_EventScript_PkmnCenterNurse
 	waitmessage
 	waitbuttonpress
@@ -54,8 +52,8 @@ LilycoveCity_PokemonCenter_1F_Text_HowManyKindsOfPokemon:
     .string "我想知道世界上\n有多少种宝可梦。\p穿越海洋和远方的人\n交换宝可梦一定不错。$"
 
 LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels:
-    .string "我听说过那些\n偷宝可梦抢陨石的\l流氓的事情。$"
+    .string "我听说过那些\n偷宝可梦抢陨石的\l恶徒的事情。$"
 
 LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels:
-    .string "那些偷宝可梦\n抢陨石的流氓……\p最近在这附近没看到他们。$"
+    .string "那些偷宝可梦\n抢陨石的恶徒……\p最近在这附近没看到他们。$"
 

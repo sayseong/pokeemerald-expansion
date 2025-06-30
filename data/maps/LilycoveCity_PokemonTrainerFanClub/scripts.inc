@@ -1,12 +1,3 @@
-.set LOCALID_LASS, 1
-.set LOCALID_MAN, 2
-.set LOCALID_POKEFAN_M, 3
-.set LOCALID_LITTLE_GIRL, 4
-.set LOCALID_NINJA_BOY, 5
-.set LOCALID_BOY, 6
-.set LOCALID_WOMAN, 7
-.set LOCALID_EXPERT_F, 8
-
 LilycoveCity_PokemonTrainerFanClub_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, LilycoveCity_PokemonTrainerFanClub_OnFrame
 	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_PokemonTrainerFanClub_OnTransition
@@ -20,20 +11,20 @@ LilycoveCity_PokemonTrainerFanClub_OnFrame:
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_MeetFirstFans::
 	lockall
-	applymovement LOCALID_LASS, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_TRAINER_FAN_CLUB_LASS, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	msgbox LilycoveCity_PokemonTrainerFanClub_Text_OhWowItsPlayer, MSGBOX_DEFAULT
-	applymovement LOCALID_LITTLE_GIRL, LilycoveCity_PokemonTrainerFanClub_Movement_LittleGirlWatchPlayer
-	applymovement LOCALID_MAN, LilycoveCity_PokemonTrainerFanClub_Movement_FanApproachPlayer
+	applymovement LOCALID_TRAINER_FAN_CLUB_LITTLE_GIRL, LilycoveCity_PokemonTrainerFanClub_Movement_LittleGirlWatchPlayer
+	applymovement LOCALID_TRAINER_FAN_CLUB_MAN, LilycoveCity_PokemonTrainerFanClub_Movement_FanApproachPlayer
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	msgbox LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan, MSGBOX_DEFAULT
-	applymovement LOCALID_LITTLE_GIRL, LilycoveCity_PokemonTrainerFanClub_Movement_LittleGirlMoveCloserToPlayer
+	applymovement LOCALID_TRAINER_FAN_CLUB_LITTLE_GIRL, LilycoveCity_PokemonTrainerFanClub_Movement_LittleGirlMoveCloserToPlayer
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
-	applymovement LOCALID_LITTLE_GIRL, LilycoveCity_PokemonTrainerFanClub_Movement_LittleGirlHideFromPlayer
+	applymovement LOCALID_TRAINER_FAN_CLUB_LITTLE_GIRL, LilycoveCity_PokemonTrainerFanClub_Movement_LittleGirlHideFromPlayer
 	waitmovement 0
 	setvar VAR_LILYCOVE_FAN_CLUB_STATE, 2
 	releaseall
@@ -157,35 +148,35 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_TrySetUpTVShow::
 	return
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_MoveMember1ToFarTable::
-	setobjectxyperm LOCALID_LASS, 7, 5
+	setobjectxyperm LOCALID_TRAINER_FAN_CLUB_LASS, 7, 5
 	return
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_MoveMember2ToFarTable::
-	setobjectxyperm LOCALID_POKEFAN_M, 3, 4
+	setobjectxyperm LOCALID_TRAINER_FAN_CLUB_POKEFAN_M, 3, 4
 	return
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_MoveMember3ToFarTable::
-	setobjectxyperm LOCALID_LITTLE_GIRL, 7, 2
+	setobjectxyperm LOCALID_TRAINER_FAN_CLUB_LITTLE_GIRL, 7, 2
 	return
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_MoveMember4ToFarTable::
-	setobjectxyperm LOCALID_NINJA_BOY, 5, 5
+	setobjectxyperm LOCALID_TRAINER_FAN_CLUB_NINJA_BOY, 5, 5
 	return
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_MoveMember5ToFarTable::
-	setobjectxyperm LOCALID_BOY, 5, 2
+	setobjectxyperm LOCALID_TRAINER_FAN_CLUB_BOY, 5, 2
 	return
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_MoveMember6ToFarTable::
-	setobjectxyperm LOCALID_MAN, 8, 4
+	setobjectxyperm LOCALID_TRAINER_FAN_CLUB_MAN, 8, 4
 	return
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_MoveMember7ToFarTable::
-	setobjectxyperm LOCALID_WOMAN, 3, 3
+	setobjectxyperm LOCALID_TRAINER_FAN_CLUB_WOMAN, 3, 3
 	return
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_MoveMember8ToFarTable::
-	setobjectxyperm LOCALID_EXPERT_F, 8, 3
+	setobjectxyperm LOCALID_TRAINER_FAN_CLUB_EXPERT_F, 8, 3
 	return
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_SetFanMemberPositionsForFirstFanMeeting::
@@ -571,7 +562,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_OhWowItsPlayer:
     .string "哇！\n是{PLAYER}！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan:
-    .string "我听说了！\n你真强！\p我们一直在这儿争论\n谁是最强的训练家，\p当我听说你的时候，\n我就准备做你的粉丝！\p我想看你继续跟其他\n强大的训练家战斗，\p这样我们就能看到\n你战斗的英姿，\p然后大家都能\n了解你有多么强大。\p我会一直支持你的，\n{PLAYER}！$"
+    .string "我听说了！\n你真强！\p我们一直在这儿争论\n谁是最强的训练家，\p当我听说你的时候，\n我就准备做你的粉丝！\p我想看你继续跟其他\n强大的训练家对战，\p这样我们就能看到\n你对战的英姿，\p然后大家都能\n了解你有多么强大。\p我会一直支持你的，\n{PLAYER}！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureOneWeWantToWin:
     .string "嗨，{PLAYER}！\n我们一直想要胜过你！$"
@@ -604,19 +595,19 @@ LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly:
     .string "无论别人怎么说，\n我最喜欢的训练家只有武斗镇的\l道馆馆主藤树！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather:
-    .string "你在方方面面都\n超过了你父亲！\p是我说的，所以\n这毫无疑问！$"
+    .string "你在方方面面都\n超过了你父亲！\p是我说的，\n所以这毫无疑问！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattling:
     .string "即使遇到挫折，\n你的父亲也不会放弃，\p我相信这点。\p就算你输了，也不要气馁！\n坚持战斗下去！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman:
-    .string "尽管人们都说\n你比较强，\p但千里的战斗更有活力，\n更有激情，更富于表现力……\p要赶上你父亲，你还有\n很长的路要走。$"
+    .string "尽管人们都说\n你比较强，\p但千里的对战更有活力，\n更有激情，更富于表现力……\p要赶上你父亲，\n你还有很长的路要走。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent:
     .string "你所散发出来的气息\n和千里越发相似了，\p但你和千里之间\n还有决定性的不同。\p我还不能告诉你这不同是什么，\n你得自己去发掘。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WeDiscussStrongestTrainers:
-    .string "这里的所有人都非常喜欢\n宝可梦战斗，\p我们互相讨论\n所有训练家之中谁比较强。\p如果你出名了，我们也可能\n成为你的粉丝！$"
+    .string "这里的所有人都非常喜欢\n宝可梦对战，\p我们互相讨论\n所有训练家之中谁比较强。\p如果你出名了，我们也可能\n成为你的粉丝！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OhWoweeItsPlayer:
     .string "呀，哇啊！是{PLAYER}！\n是本人！\p跟我握握手吧，握握手吧！$"
@@ -628,7 +619,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_EveryoneThinksTrainerIsCool:
     .string "{STR_VAR_1}真棒……\p大家都那么想的，是吗？$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsReallyCoolItsJustMe:
-    .string "{STR_VAR_1}真的很棒，\n你说呢？\p就算只有我一个，我也要\n为我最喜欢的训练家加油助威。$"
+    .string "{STR_VAR_1}真的很棒，\n你说呢？\p就算只有我一个，\n我也要为最喜欢的训练家加油助威。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WishThereWasTrainerLikeThat:
     .string "我心目中的训练家是……\p沉着……\p强大……\p而且很友善……\p不知道是不是真的有这样的训练家……$"
@@ -649,10 +640,10 @@ LilycoveCity_PokemonTrainerFanClub_Text_YoureAmazingAfterAll:
     .string "{PLAYER}！\n还是你最出色！\p我已看到你就知道\n你会是最棒的，\p我的眼光没错。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ImInYourCorner:
-    .string "我站在你这一边，\n谁去管别人呢！\p不用担心，\n你放心出去努力战斗吧。$"
+    .string "我站在你这一边，\n谁去管别人呢！\p不用担心，\n你放心出去努力对战吧。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThinkTrainerIsNumberOne:
-    .string "我想，你是个\n非常优秀的训练家，\p但我觉得{STR_VAR_1}\n现在是第一人。\p这只是我的想法，\n别太在意。$"
+    .string "我想，\n你是个非常优秀的训练家，\p但我觉得{STR_VAR_1}\n现在是第一人。\p这只是我的想法，\n别太在意。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureMaybeStrongerThanTrainer:
     .string "哇，你真的很强，\n也许比{STR_VAR_1}都强。\p但{STR_VAR_1}需要我。\p如果我都不支持{STR_VAR_1}，\n还有谁支持？$"
@@ -661,10 +652,10 @@ LilycoveCity_PokemonTrainerFanClub_Text_YouChangedMyMind:
     .string "你让我改主意了！\n你真的很强，不是吗？\p告诉我你是怎么变得这么强的，\n好吗？$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouBattleAttractivelyInToughSituation:
-    .string "情况越严重，\n你的战斗就越吸引人。\p我等不及想看你下一场战斗了！$"
+    .string "情况越严重，\n你的对战就越吸引人。\p我等不及想看你下一场对战了！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsStandout:
-    .string "最近当红的训练家之中，\n{STR_VAR_1}最最突出，\p那种强大不是别人能做到的。\p你做得也不错，但你\n和{STR_VAR_1}不可同日而语。$"
+    .string "最近当红的训练家之中，\n{STR_VAR_1}最最突出，\p那种强大不是别人能做到的。\p你做得也不错，\n但你和{STR_VAR_1}不可同日而语。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_NoOneCanKnockYouButTrainerStronger:
     .string "你现在真的很红……\p你很强大，对宝可梦\n无微不至，没人能打败你。\p但是，我还是相信{STR_VAR_1}。\p{STR_VAR_1}显然极强！\n我敢肯定！$"
@@ -676,7 +667,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth:
     .string "要是我早认识到\n你的能力多好。\p我怀疑其他人\n无法理解那内在的潜能。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaventRealizedPotential:
-    .string "是的，我在你眼中看到了力量，\p但是……\p你还未发掘出\n自己的潜力。$"
+    .string "是的，我在你眼中\n看到了力量，\p但是……\p你还未发掘出\n自己的潜力。$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YourePowerfulButNotTrueStrength:
-    .string "毫无疑问，\n你非常强大。\p但是\n我可以说……\p那力量还未成为\n真正的实力！\p真正的实力是……\n……\p实际上，我也不知道。$"
+    .string "毫无疑问，\n你非常强大。\p但是我可以说……\p那力量还未成为\n真正的实力！\p真正的实力是……\n……\p实际上，我也不知道。$"

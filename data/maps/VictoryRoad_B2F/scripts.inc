@@ -35,7 +35,7 @@ VictoryRoad_B2F_Text_VitoIntro:
     .string "我和我的家人一起训练，\n整个一个大家族啊！\l我不会输给任何人的！$"
 
 VictoryRoad_B2F_Text_VitoDefeat:
-    .string "比我的家人更强？！\n这可能么？！$"
+    .string "比我的家人更强？！\n这可能吗？！$"
 
 VictoryRoad_B2F_Text_VitoPostBattle:
     .string "我比我家里的任何一个人都强，\n我之前从没输过的……\p我失去信心了……\n回家好了……$"
@@ -44,10 +44,10 @@ VictoryRoad_B2F_Text_OwenIntro:
     .string "听说这附近来了一个很强的\n小孩，说的是你吗？$"
 
 VictoryRoad_B2F_Text_OwenDefeat:
-    .string "你这小虾米竟然这么强！$"
+    .string "你这小鬼竟然这么强！$"
 
 VictoryRoad_B2F_Text_OwenPostBattle:
-    .string "有流言说那个很强的小孩\n来自橙华市。$"
+    .string "传言说那个很强的小孩\n来自橙华市。$"
 
 VictoryRoad_B2F_Text_CarolineIntro:
     .string "你一定有点累了吧。$"
@@ -59,7 +59,7 @@ VictoryRoad_B2F_Text_CarolinePostBattle:
     .string "冠军之路和宝可梦联盟\n的挑战都会很累人的，\l作好准备吧！$"
 
 VictoryRoad_B2F_Text_JulieIntro:
-    .string "有了很多道馆徽章\n就自大起来可不行，\p没听说过\n山外有山么！$"
+    .string "有了很多道馆徽章\n就自大起来可不行，\p没听说过\n山外有山吗！$"
 
 VictoryRoad_B2F_Text_JulieDefeat:
     .string "看来你比我还强！$"
