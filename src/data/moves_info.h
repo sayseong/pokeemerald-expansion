@@ -21484,7 +21484,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_GUARDIAN_OF_ALOLA] =
     {
-        .name = COMPOUND_STRING("巨人卫士阿罗拉"),
+        .name = COMPOUND_STRING("巨人卫士・阿罗拉"),
         .description = COMPOUND_STRING(
             "土地神宝可梦以Z力量攻击。\n"
             "对手的剩余HP会减少很多。"),
