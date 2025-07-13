@@ -2271,11 +2271,12 @@ void BufferSaveMenuText(u8 textId, u8 *dest, u8 color)
                 if (FlagGet(curFlag))
                     flagCount++;
             }
-            *string = flagCount + CHAR_0;
-                    string++;
             //修改，增加徽章单位显示
-            StringAppend(string, COMPOUND_STRING("个"));
+            //*string = flagCount + CHAR_0;
             //*string++ = EOS; //修正错误
+            //*endOfString = EOS;
+            ConvertIntToDecimalStringN(string, flagCount, STR_CONV_MODE_LEADING_ZEROS, 1);
+            StringAppend(string, COMPOUND_STRING("个"));
             *endOfString = EOS;
             break;
     }
