@@ -2583,7 +2583,6 @@ static void PrintBattlerOnAbilityPopUp(u8 battler, u8 spriteId1, u8 spriteId2)
     textPtr++;
     textPtr[0] = 0x0B; //手动写入汉字第二部分
     textPtr++;
-
     textPtr[0] = EOS;
 
     PrintOnAbilityPopUp((const u8 *)monName,

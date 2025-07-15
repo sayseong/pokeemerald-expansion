@@ -2115,8 +2115,7 @@ static void PrintKeyboardKeys(u8 window, u8 page)
     PutWindowTilemap(window);
 }
 
-
-static void PrintControls(u8 page)
+static const u32 *const sNextKeyboardPageTilemaps[] =
 {
     static const ALIGNED(1) u8 gText_Banner_Upper[] = _("拼音{CLEAR 7}ABC{CLEAR 8}1/?{CLEAR 23}删除文字{CLEAR 25}完毕");
     static const ALIGNED(1) u8 gText_Banner_Lower[] = _("拼音{CLEAR 7}abc{CLEAR 8}1/?{CLEAR 23}删除文字{CLEAR 25}完毕");
