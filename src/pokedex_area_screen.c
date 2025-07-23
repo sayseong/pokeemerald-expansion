@@ -118,7 +118,7 @@ static void SetAreaHasMon(u16, u16);
 static void SetSpecialMapHasMon(u16, u16);
 static u16 GetRegionMapSectionId(u8, u8);
 static bool8 MapHasSpecies(const struct WildEncounterTypes *, u16);
-static bool8 MonListHasSpecies(const struct WildPokemonInfo *, u16, u16);
+static bool8 MonListHasSpecies(const struct WildPokemonHeader *header, u16 species, enum WildPokemonArea area);
 static void DoAreaGlow(void);
 static void Task_ShowPokedexAreaScreen(u8 taskId);
 static void Task_UpdatePokedexAreaScreen(u8 taskId);
@@ -431,8 +431,10 @@ static u16 GetRegionMapSectionId(u8 mapGroup, u8 mapNum)
 static bool8 MapHasSpecies(const struct WildEncounterTypes *info, u16 species)
 {
     u32 headerId = GetCurrentMapWildMonHeaderId();
-    u8 currentMapGroup = gWildMonHeaders[headerId].mapGroup;
-    u8 currentMapNum = gWildMonHeaders[headerId].mapNum;
+    const struct WildPokemonHeader *header = &gWildMonHeaders[headerId];
+    u8 currentMapGroup = header->mapGroup;
+    u8 currentMapNum = header->mapNum;
+
     // If this is a header for Altering Cave, skip it if it's not the current Altering Cave encounter set
     if (GetRegionMapSectionId(currentMapGroup, currentMapNum) == MAPSEC_ALTERING_CAVE)
     {
@@ -441,14 +443,19 @@ static bool8 MapHasSpecies(const struct WildEncounterTypes *info, u16 species)
             return FALSE;
     }
 
-    if (MonListHasSpecies(info, species, WILD_AREA_LAND))
+    if (MonListHasSpecies(header, species, WILD_AREA_LAND))
         return TRUE;
-    if (MonListHasSpecies(info, species, WILD_AREA_WATER))
+    if (MonListHasSpecies(header, species, WILD_AREA_WATER))
         return TRUE;
-    if (MonListHasSpecies(info, species, WILD_AREA_FISHING))
+#ifdef BUGFIX
+    if (MonListHasSpecies(header, species, WILD_AREA_FISHING))
+#else
+    if (MonListHasSpecies(header, species, WILD_AREA_LAND))  // 这个应该是 bug
+#endif
         return TRUE;
-    if (MonListHasSpecies(info, species, WILD_AREA_ROCKS))
+    if (MonListHasSpecies(header, species, WILD_AREA_ROCKS))
         return TRUE;
+
     return FALSE;
 }
 
@@ -459,20 +466,20 @@ static bool8 MonListHasSpecies(const struct WildPokemonHeader *header, u16 speci
 
     switch(area){
         case WILD_AREA_WATER:
-            info = header->waterMonsInfo;
+            info = header->encounterTypes->waterMonsInfo;
             size = WATER_WILD_COUNT;
             break;
         case WILD_AREA_ROCKS:
-            info = header->rockSmashMonsInfo;
+            info = header->encounterTypes->rockSmashMonsInfo;
             size = ROCK_WILD_COUNT;
             break;
         case WILD_AREA_FISHING:
-            info = header->fishingMonsInfo;
+            info = header->encounterTypes->fishingMonsInfo;
             size = FISH_WILD_COUNT;
             break;
         case WILD_AREA_LAND:
         default:
-            info = header->landMonsInfo;
+            info = header->encounterTypes->landMonsInfo;
             size = LAND_WILD_COUNT;
             break;
     }

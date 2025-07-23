@@ -1577,13 +1577,14 @@ static u8 GetEncounterLevelFromMapData(u16 species, enum EncounterType environme
         {
             #if RANDOMIZER_AVAILABLE == TRUE
                 speciesToCheck = RandomizeWildEncounter(
-                    waterMonsInfo->wildPokemon[i].species,
+                    hiddenMonsInfo->wildPokemon[i].species,
                     gWildMonHeaders[headerId].mapNum,
                     gWildMonHeaders[headerId].mapGroup,
-                    WILD_AREA_WATER, i);
+                    WILD_AREA_HIDDEN, i);
             #else
-                speciesToCheck = waterMonsInfo->wildPokemon[i].species;
+                speciesToCheck = hiddenMonsInfo->wildPokemon[i].species;
             #endif
+
             if (speciesToCheck == species)
             {
                 min = (min < hiddenMonsInfo->wildPokemon[i].minLevel) ? min : hiddenMonsInfo->wildPokemon[i].minLevel;
@@ -1591,7 +1592,7 @@ static u8 GetEncounterLevelFromMapData(u16 species, enum EncounterType environme
             }
         }
 
-        // use encounter rate to signify is hidden pokemon are on land or in water
+        // use encounter rate to signify if hidden Pokémon are on land or in water
         if (hiddenMonsInfo->encounterRate == 1)
             sDexNavSearchDataPtr->environment = ENCOUNTER_TYPE_WATER;
         else

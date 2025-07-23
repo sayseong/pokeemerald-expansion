@@ -415,7 +415,7 @@ u16 GetStarterPokemon(u16 chosenStarterId)
 
 #if RANDOMIZER_AVAILABLE == TRUE
     // 如果启用了随机器，就用统一数组并进行随机化
-    species = RandomizeStarterAndGiftMon(chosenStarterId, sStarterMon);
+    species = RandomizeStarterAndGiftMon(chosenStarterId, sStarterMon0);
     return species;
 #else
     // 否则根据 startermon_gen 使用不同代的 starter
