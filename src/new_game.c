@@ -48,6 +48,7 @@
 #include "constants/items.h"
 #include "difficulty.h"
 #include "follower_npc.h"
+#include "randomizer.h"
 
 extern const u8 EventScript_ResetAllMapFlags[];
 
@@ -213,6 +214,9 @@ void NewGameInitData(void)
     ResetItemFlags();
     ResetDexNav();
     ClearFollowerNPCData();
+    #if (RANDOMIZER_AVAILABLE == TRUE) && (RANDOMIZER_DYNAMIC_SPECIES == TRUE)
+        PreloadRandomizationTables();
+    #endif
 }
 
 static void ResetMiniGamesRecords(void)

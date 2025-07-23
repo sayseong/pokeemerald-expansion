@@ -70,6 +70,7 @@
 #include "rtc.h"
 #include "fake_rtc.h"
 #include "save.h"
+#include "randomizer.h"
 
 // *******************************
 enum DebugMenu
@@ -98,7 +99,10 @@ enum UtilDebugMenu
     DEBUG_UTIL_MENU_ITEM_CHEAT,
     DEBUG_UTIL_MENU_ITEM_BERRY_FUNCTIONS,
     DEBUG_UTIL_MENU_ITEM_EWRAM_COUNTERS,
-    DEBUG_UTIL_MENU_ITEM_STEVEN_MULTI // Please keep this at the bottom <3
+    #if RANDOMIZER_AVAILABLE == TRUE
+    DEBUG_UTIL_MENU_ITEM_RANDOMIZER,
+    #endif
+    DEBUG_UTIL_MENU_ITEM_STEVEN_MULTI,
 };
 
 enum TimeMenuDebugMenu
@@ -3310,8 +3314,16 @@ static void DebugAction_Give_Pokemon_SelectNature(u8 taskId)
         gTasks[taskId].tInput = 0;
         gTasks[taskId].tDigit = 0;
 
-        u32 abilityId = GetAbilityBySpecies(sDebugMonData->species, 0);
-        Debug_Display_Ability(abilityId, gTasks[taskId].tDigit, gTasks[taskId].tSubWindowId);
+        StringCopy(gStringVar2, gText_DigitIndicator[gTasks[taskId].tDigit]);
+        ConvertIntToDecimalStringN(gStringVar3, gTasks[taskId].tInput, STR_CONV_MODE_LEADING_ZEROS, 2);
+        StringCopyPadded(gStringVar3, gStringVar3, CHAR_SPACE, 15);
+
+        u32 abilityId = GetAbilityBySpecies(sDebugMonData->species, 0, FALSE); // 修改为适应随机器版本
+
+        u8 *end = StringCopy(gStringVar1, gAbilitiesInfo[abilityId].name);
+        WrapFontIdToFit(gStringVar1, end, DEBUG_MENU_FONT, WindowWidthPx(gTasks[taskId].tSubWindowId));
+        StringExpandPlaceholders(gStringVar4, sDebugText_PokemonAbility);
+        AddTextPrinterParameterized(gTasks[taskId].tSubWindowId, DEBUG_MENU_FONT, gStringVar4, 0, 0, 0, NULL);
 
         gTasks[taskId].func = DebugAction_Give_Pokemon_SelectAbility;
     }
@@ -3345,12 +3357,19 @@ static void DebugAction_Give_Pokemon_SelectAbility(u8 taskId)
                 gTasks[taskId].tInput = 0;
         }
 
-        while (GetAbilityBySpecies(sDebugMonData->species, gTasks[taskId].tInput - i) == ABILITY_NONE && gTasks[taskId].tInput - i < NUM_ABILITY_SLOTS)
+        while (GetAbilityBySpecies(sDebugMonData->species, gTasks[taskId].tInput - i, FALSE) == ABILITY_NONE && gTasks[taskId].tInput - i < NUM_ABILITY_SLOTS)
         {
             i++;
         }
         u32 abilityId = GetAbilityBySpecies(sDebugMonData->species, gTasks[taskId].tInput - i);
         Debug_Display_Ability(abilityId, gTasks[taskId].tDigit, gTasks[taskId].tSubWindowId);
+        StringCopy(gStringVar2, gText_DigitIndicator[gTasks[taskId].tDigit]);
+        ConvertIntToDecimalStringN(gStringVar3, gTasks[taskId].tInput, STR_CONV_MODE_LEADING_ZEROS, 2);
+        StringCopyPadded(gStringVar3, gStringVar3, CHAR_SPACE, 15);
+        u8 *end = StringCopy(gStringVar1, gAbilitiesInfo[abilityId].name);
+        WrapFontIdToFit(gStringVar1, end, DEBUG_MENU_FONT, WindowWidthPx(gTasks[taskId].tSubWindowId));
+        StringExpandPlaceholders(gStringVar4, sDebugText_PokemonAbility);
+        AddTextPrinterParameterized(gTasks[taskId].tSubWindowId, DEBUG_MENU_FONT, gStringVar4, 0, 0, 0, NULL);
     }
 
     if (JOY_NEW(A_BUTTON))
@@ -3741,11 +3760,11 @@ static void DebugAction_Give_Pokemon_ComplexCreateMon(u8 taskId) //https://githu
     }
 
     //Ability
-    if (abilityNum == 0xFF || GetAbilityBySpecies(species, abilityNum) == ABILITY_NONE)
+    if (abilityNum == 0xFF || GetAbilityBySpecies(species, abilityNum, FALSE) == ABILITY_NONE)
     {
         do {
             abilityNum = Random() % NUM_ABILITY_SLOTS;  // includes hidden abilities
-        } while (GetAbilityBySpecies(species, abilityNum) == ABILITY_NONE);
+        } while (GetAbilityBySpecies(species, abilityNum, FALSE) == ABILITY_NONE);
     }
 
     SetMonData(&mon, MON_DATA_ABILITY_NUM, &abilityNum);

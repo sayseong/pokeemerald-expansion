@@ -680,6 +680,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sGreninjaTeachableLearnset,
         .formSpeciesIdTable = sGreninjaFormSpeciesIdTable,
         .formChangeTable = sGreninjaBattleBondFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 
     [SPECIES_GRENINJA_ASH] =
@@ -739,6 +740,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sGreninjaTeachableLearnset,
         .formSpeciesIdTable = sGreninjaFormSpeciesIdTable,
         .formChangeTable = sGreninjaBattleBondFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FAMILY_FROAKIE
 
@@ -1089,7 +1091,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 #endif //P_FAMILY_FLETCHLING
 
 #if P_FAMILY_SCATTERBUG
-#define SCATTERBUG_SPECIES_INFO(evolution)                                                  \
+#define SCATTERBUG_SPECIES_INFO(evolution, rzMode)                                          \
     {                                                                                       \
         .baseHP        = 38,                                                                \
         .baseAttack    = 35,                                                                \
@@ -1150,30 +1152,31 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .eggMoveLearnset = sScatterbugEggMoveLearnset,                                      \
         .formSpeciesIdTable = sScatterbugFormSpeciesIdTable,                                \
         .evolutions = EVOLUTION({EVO_LEVEL, 9, SPECIES_SPEWPA_##evolution}),                \
+        .randomizerMode = rzMode,                                                           \
     }                                                                                       \
 
-    [SPECIES_SCATTERBUG_ICY_SNOW]    = SCATTERBUG_SPECIES_INFO(ICY_SNOW),
-    [SPECIES_SCATTERBUG_POLAR]       = SCATTERBUG_SPECIES_INFO(POLAR),
-    [SPECIES_SCATTERBUG_TUNDRA]      = SCATTERBUG_SPECIES_INFO(TUNDRA),
-    [SPECIES_SCATTERBUG_CONTINENTAL] = SCATTERBUG_SPECIES_INFO(CONTINENTAL),
-    [SPECIES_SCATTERBUG_GARDEN]      = SCATTERBUG_SPECIES_INFO(GARDEN),
-    [SPECIES_SCATTERBUG_ELEGANT]     = SCATTERBUG_SPECIES_INFO(ELEGANT),
-    [SPECIES_SCATTERBUG_MEADOW]      = SCATTERBUG_SPECIES_INFO(MEADOW),
-    [SPECIES_SCATTERBUG_MODERN]      = SCATTERBUG_SPECIES_INFO(MODERN),
-    [SPECIES_SCATTERBUG_MARINE]      = SCATTERBUG_SPECIES_INFO(MARINE),
-    [SPECIES_SCATTERBUG_ARCHIPELAGO] = SCATTERBUG_SPECIES_INFO(ARCHIPELAGO),
-    [SPECIES_SCATTERBUG_HIGH_PLAINS] = SCATTERBUG_SPECIES_INFO(HIGH_PLAINS),
-    [SPECIES_SCATTERBUG_SANDSTORM]   = SCATTERBUG_SPECIES_INFO(SANDSTORM),
-    [SPECIES_SCATTERBUG_RIVER]       = SCATTERBUG_SPECIES_INFO(RIVER),
-    [SPECIES_SCATTERBUG_MONSOON]     = SCATTERBUG_SPECIES_INFO(MONSOON),
-    [SPECIES_SCATTERBUG_SAVANNA]     = SCATTERBUG_SPECIES_INFO(SAVANNA),
-    [SPECIES_SCATTERBUG_SUN]         = SCATTERBUG_SPECIES_INFO(SUN),
-    [SPECIES_SCATTERBUG_OCEAN]       = SCATTERBUG_SPECIES_INFO(OCEAN),
-    [SPECIES_SCATTERBUG_JUNGLE]      = SCATTERBUG_SPECIES_INFO(JUNGLE),
-    [SPECIES_SCATTERBUG_FANCY]       = SCATTERBUG_SPECIES_INFO(FANCY),
-    [SPECIES_SCATTERBUG_POKEBALL]    = SCATTERBUG_SPECIES_INFO(POKEBALL),
+    [SPECIES_SCATTERBUG_ICY_SNOW]    = SCATTERBUG_SPECIES_INFO(ICY_SNOW, MON_RANDOMIZER_RANDOM_FORM),
+    [SPECIES_SCATTERBUG_POLAR]       = SCATTERBUG_SPECIES_INFO(POLAR, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_TUNDRA]      = SCATTERBUG_SPECIES_INFO(TUNDRA, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_CONTINENTAL] = SCATTERBUG_SPECIES_INFO(CONTINENTAL, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_GARDEN]      = SCATTERBUG_SPECIES_INFO(GARDEN, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_ELEGANT]     = SCATTERBUG_SPECIES_INFO(ELEGANT, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_MEADOW]      = SCATTERBUG_SPECIES_INFO(MEADOW, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_MODERN]      = SCATTERBUG_SPECIES_INFO(MODERN, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_MARINE]      = SCATTERBUG_SPECIES_INFO(MARINE, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_ARCHIPELAGO] = SCATTERBUG_SPECIES_INFO(ARCHIPELAGO, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_HIGH_PLAINS] = SCATTERBUG_SPECIES_INFO(HIGH_PLAINS, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_SANDSTORM]   = SCATTERBUG_SPECIES_INFO(SANDSTORM, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_RIVER]       = SCATTERBUG_SPECIES_INFO(RIVER, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_MONSOON]     = SCATTERBUG_SPECIES_INFO(MONSOON, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_SAVANNA]     = SCATTERBUG_SPECIES_INFO(SAVANNA, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_SUN]         = SCATTERBUG_SPECIES_INFO(SUN, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_OCEAN]       = SCATTERBUG_SPECIES_INFO(OCEAN, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_JUNGLE]      = SCATTERBUG_SPECIES_INFO(JUNGLE, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_FANCY]       = SCATTERBUG_SPECIES_INFO(FANCY, MON_RANDOMIZER_INVALID),
+    [SPECIES_SCATTERBUG_POKEBALL]    = SCATTERBUG_SPECIES_INFO(POKEBALL, MON_RANDOMIZER_INVALID),
 
-#define SPEWPA_SPECIES_INFO(evolution)                                          \
+#define SPEWPA_SPECIES_INFO(evolution, rzMode)                                  \
     {                                                                           \
         .baseHP        = 45,                                                    \
         .baseAttack    = 22,                                                    \
@@ -1233,28 +1236,29 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sSpewpaTeachableLearnset,                          \
         .formSpeciesIdTable = sSpewpaFormSpeciesIdTable,                        \
         .evolutions = EVOLUTION({EVO_LEVEL, 12, SPECIES_VIVILLON_##evolution}), \
+        .randomizerMode = rzMode,                                               \
     }
 
-    [SPECIES_SPEWPA_ICY_SNOW]    = SPEWPA_SPECIES_INFO(ICY_SNOW),
-    [SPECIES_SPEWPA_POLAR]       = SPEWPA_SPECIES_INFO(POLAR),
-    [SPECIES_SPEWPA_TUNDRA]      = SPEWPA_SPECIES_INFO(TUNDRA),
-    [SPECIES_SPEWPA_CONTINENTAL] = SPEWPA_SPECIES_INFO(CONTINENTAL),
-    [SPECIES_SPEWPA_GARDEN]      = SPEWPA_SPECIES_INFO(GARDEN),
-    [SPECIES_SPEWPA_ELEGANT]     = SPEWPA_SPECIES_INFO(ELEGANT),
-    [SPECIES_SPEWPA_MEADOW]      = SPEWPA_SPECIES_INFO(MEADOW),
-    [SPECIES_SPEWPA_MODERN]      = SPEWPA_SPECIES_INFO(MODERN),
-    [SPECIES_SPEWPA_MARINE]      = SPEWPA_SPECIES_INFO(MARINE),
-    [SPECIES_SPEWPA_ARCHIPELAGO] = SPEWPA_SPECIES_INFO(ARCHIPELAGO),
-    [SPECIES_SPEWPA_HIGH_PLAINS] = SPEWPA_SPECIES_INFO(HIGH_PLAINS),
-    [SPECIES_SPEWPA_SANDSTORM]   = SPEWPA_SPECIES_INFO(SANDSTORM),
-    [SPECIES_SPEWPA_RIVER]       = SPEWPA_SPECIES_INFO(RIVER),
-    [SPECIES_SPEWPA_MONSOON]     = SPEWPA_SPECIES_INFO(MONSOON),
-    [SPECIES_SPEWPA_SAVANNA]     = SPEWPA_SPECIES_INFO(SAVANNA),
-    [SPECIES_SPEWPA_SUN]         = SPEWPA_SPECIES_INFO(SUN),
-    [SPECIES_SPEWPA_OCEAN]       = SPEWPA_SPECIES_INFO(OCEAN),
-    [SPECIES_SPEWPA_JUNGLE]      = SPEWPA_SPECIES_INFO(JUNGLE),
-    [SPECIES_SPEWPA_FANCY]       = SPEWPA_SPECIES_INFO(FANCY),
-    [SPECIES_SPEWPA_POKEBALL]   = SPEWPA_SPECIES_INFO(POKEBALL),
+    [SPECIES_SPEWPA_ICY_SNOW]    = SPEWPA_SPECIES_INFO(ICY_SNOW, MON_RANDOMIZER_RANDOM_FORM),
+    [SPECIES_SPEWPA_POLAR]       = SPEWPA_SPECIES_INFO(POLAR, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_TUNDRA]      = SPEWPA_SPECIES_INFO(TUNDRA, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_CONTINENTAL] = SPEWPA_SPECIES_INFO(CONTINENTAL, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_GARDEN]      = SPEWPA_SPECIES_INFO(GARDEN, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_ELEGANT]     = SPEWPA_SPECIES_INFO(ELEGANT, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_MEADOW]      = SPEWPA_SPECIES_INFO(MEADOW, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_MODERN]      = SPEWPA_SPECIES_INFO(MODERN, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_MARINE]      = SPEWPA_SPECIES_INFO(MARINE, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_ARCHIPELAGO] = SPEWPA_SPECIES_INFO(ARCHIPELAGO, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_HIGH_PLAINS] = SPEWPA_SPECIES_INFO(HIGH_PLAINS, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_SANDSTORM]   = SPEWPA_SPECIES_INFO(SANDSTORM, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_RIVER]       = SPEWPA_SPECIES_INFO(RIVER, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_MONSOON]     = SPEWPA_SPECIES_INFO(MONSOON, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_SAVANNA]     = SPEWPA_SPECIES_INFO(SAVANNA, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_SUN]         = SPEWPA_SPECIES_INFO(SUN, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_OCEAN]       = SPEWPA_SPECIES_INFO(OCEAN, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_JUNGLE]      = SPEWPA_SPECIES_INFO(JUNGLE, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_FANCY]       = SPEWPA_SPECIES_INFO(FANCY, MON_RANDOMIZER_INVALID),
+    [SPECIES_SPEWPA_POKEBALL]    = SPEWPA_SPECIES_INFO(POKEBALL, MON_RANDOMIZER_INVALID),
 
 #define VIVILLON_MISC_INFO(form, color, iconPal)                                            \
         .baseHP        = 80,                                                                \
@@ -1323,6 +1327,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在极为寒冷的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_RANDOM_FORM,
     },
     [SPECIES_VIVILLON_POLAR] =
     {
@@ -1331,6 +1336,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在多雪的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_TUNDRA] =
     {
@@ -1339,6 +1345,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在气候严寒的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_CONTINENTAL] =
     {
@@ -1347,6 +1354,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在辽阔的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_GARDEN] =
     {
@@ -1355,6 +1363,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在绿意盎然的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_ELEGANT] =
     {
@@ -1363,6 +1372,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在四季分明的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_MEADOW] =
     {
@@ -1371,6 +1381,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在花朵盛开的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_MODERN] =
     {
@@ -1379,6 +1390,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在日照强烈的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_MARINE] =
     {
@@ -1387,6 +1399,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在海风吹拂的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_ARCHIPELAGO] =
     {
@@ -1395,6 +1408,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在岛屿群集的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_HIGH_PLAINS] =
     {
@@ -1403,6 +1417,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在少雨的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_SANDSTORM] =
     {
@@ -1411,6 +1426,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在极为干旱的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_RIVER] =
     {
@@ -1419,6 +1435,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在大河流淌的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_MONSOON] =
     {
@@ -1427,6 +1444,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在雨势激烈的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_SAVANNA] =
     {
@@ -1435,6 +1453,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在热带气候的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_SUN] =
     {
@@ -1443,6 +1462,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在光线充足的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_OCEAN] =
     {
@@ -1451,6 +1471,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在四季如夏的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_JUNGLE] =
     {
@@ -1459,6 +1480,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在热带雨林的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_FANCY] =
     {
@@ -1467,6 +1489,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在神奇的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_VIVILLON_POKEBALL] =
     {
@@ -1475,6 +1498,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"诞生在特别的地方。\n"
 			"会从翅膀撒出色彩艳丽的\n"
 			"毒鳞粉来战斗。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_FAMILY_SCATTERBUG
 
@@ -1696,6 +1720,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"乘着红花的花蓓蓓。\n"
 			"从出生那一刻起就会为了寻找\n"
 			"喜欢的花而四处飞行。"),
+        .randomizerMode = MON_RANDOMIZER_RANDOM_FORM,
     },
     [SPECIES_FLABEBE_YELLOW] =
     {
@@ -1704,6 +1729,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"激发花的力量，\n"
 			"以此来使出各种各样的招式。\n"
 			"尤其喜欢黄花。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_FLABEBE_ORANGE] =
     {
@@ -1712,6 +1738,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"由于从花那里得到力量，\n"
 			"因此相应地会分出能量给花。\n"
 			"它最喜欢的是橙花。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_FLABEBE_BLUE]   =
     {
@@ -1720,6 +1747,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"它最喜欢的是蓝花。\n"
 			"靠由花朵散发出的力量浮在空中，\n"
 			"轻轻地飘来飘去。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_FLABEBE_WHITE]  =
     {
@@ -1728,6 +1756,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"一到黄昏，\n"
 			"它就会去找和自己一样绽放着\n"
 			"白花的地方睡觉。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
 #define FLOETTE_MISC_INFO(form, FORM, iconPal)                                  \
@@ -1799,6 +1828,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"会通过红色的波长把自己的\n"
 			"能量传递给花，\n"
 			"以激发花的潜在能力。"),
+        .randomizerMode = MON_RANDOMIZER_SPECIAL_FORM,
     },
     [SPECIES_FLOETTE_YELLOW] =
     {
@@ -1806,6 +1836,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .description = COMPOUND_STRING(
 			"能够激发草属性的宝可梦的潜在能力。\n"
 			"与黄花的波长很契合。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_FLOETTE_ORANGE] =
     {
@@ -1814,6 +1845,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"单靠自己无法使出招式。\n"
 			"通过与花同步波长，\n"
 			"就能使出草属性的招式。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_FLOETTE_BLUE] =
     {
@@ -1822,6 +1854,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"能通过颜色的波长与花交换力量。\n"
 			"这个样子是能与蓝色的\n"
 			"波长结合的个体。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_FLOETTE_WHITE] =
     {
@@ -1830,6 +1863,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"如果发现有谁破坏了花坛，\n"
 			"就会毫不留情地发动攻击。\n"
 			"非常珍惜白花。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_FLOETTE_ETERNAL] =
     {
@@ -1855,6 +1889,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .backPicYOffset = 2,
         .levelUpLearnset = sFloetteEternalLevelUpLearnset,
         .teachableLearnset = sFloetteEternalTeachableLearnset,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
 #define FLORGES_MISC_INFO(Form, iconPal)                                        \
@@ -1921,6 +1956,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"据说由花洁夫人打造的花园中\n"
 			"会源源不断地倾注着\n"
 			"能够治愈身心的力量。"),
+        .randomizerMode = MON_RANDOMIZER_RANDOM_FORM,
     },
     [SPECIES_FLORGES_YELLOW] =
     {
@@ -1929,6 +1965,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"能激发出黄花的力量来战斗。\n"
 			"会狠狠地教训糟蹋花草的家伙，\n"
 			"绝不会手下留情。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_FLORGES_ORANGE] =
     {
@@ -1937,6 +1974,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"过去的城主们为了维护\n"
 			"城堡庭院的美观，\n"
 			"会精心培育花洁夫人。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_FLORGES_BLUE] =
     {
@@ -1945,6 +1983,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 			"过去蓝色的颜料价格十分昂贵，\n"
 			"因此画有蓝色个体的\n"
 			"绘画拥有极高的价值。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
     [SPECIES_FLORGES_WHITE] =
     {
@@ -1952,6 +1991,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .description = COMPOUND_STRING(
 			"由白花装饰的个体也能与各种\n"
 			"不同的颜色同步波长，激发力量。"),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_FAMILY_FLABEBE
 
@@ -4894,6 +4934,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .formSpeciesIdTable = sPumpkabooFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GOURGEIST_AVERAGE},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GOURGEIST_AVERAGE}),
+        .randomizerMode = MON_RANDOMIZER_RANDOM_FORM,
     },
 
     [SPECIES_PUMPKABOO_SMALL] =
@@ -4960,6 +5001,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .formSpeciesIdTable = sPumpkabooFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GOURGEIST_SMALL},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GOURGEIST_SMALL}),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PUMPKABOO_LARGE] =
@@ -5026,6 +5068,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .formSpeciesIdTable = sPumpkabooFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GOURGEIST_LARGE},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GOURGEIST_LARGE}),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PUMPKABOO_SUPER] =
@@ -5094,6 +5137,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .formSpeciesIdTable = sPumpkabooFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GOURGEIST_SUPER},
                                 {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GOURGEIST_SUPER}),
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_GOURGEIST_AVERAGE] =
@@ -5157,6 +5201,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sGourgeistLevelUpLearnset,
         .teachableLearnset = sGourgeistTeachableLearnset,
         .formSpeciesIdTable = sGourgeistFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_RANDOM_FORM,
     },
 
     [SPECIES_GOURGEIST_SMALL] =
@@ -5219,6 +5264,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sGourgeistLevelUpLearnset,
         .teachableLearnset = sGourgeistTeachableLearnset,
         .formSpeciesIdTable = sGourgeistFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_GOURGEIST_LARGE] =
@@ -5281,6 +5327,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sGourgeistLevelUpLearnset,
         .teachableLearnset = sGourgeistTeachableLearnset,
         .formSpeciesIdTable = sGourgeistFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_GOURGEIST_SUPER] =
@@ -5345,6 +5392,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sGourgeistLevelUpLearnset,
         .teachableLearnset = sGourgeistTeachableLearnset,
         .formSpeciesIdTable = sGourgeistFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_FAMILY_PUMPKABOO
 
@@ -6385,6 +6433,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sDiancieTeachableLearnset,
         .formSpeciesIdTable = sDiancieFormSpeciesIdTable,
         .formChangeTable = sDiancieFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_DIANCIE
@@ -6537,6 +6586,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sHoopaUnboundTeachableLearnset,
         .formSpeciesIdTable = sHoopaFormSpeciesIdTable,
         .formChangeTable = sHoopaFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_FAMILY_HOOPA
 

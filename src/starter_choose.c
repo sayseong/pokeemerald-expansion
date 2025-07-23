@@ -23,6 +23,7 @@
 #include "window.h"
 #include "constants/songs.h"
 #include "constants/rgb.h"
+#include "randomizer.h"
 
 #define STARTER_MON_COUNT   3
 
@@ -408,48 +409,37 @@ static const struct SpriteTemplate sSpriteTemplate_StarterCircle =
 // .text
 u16 GetStarterPokemon(u16 chosenStarterId)
 {
+    u16 species;
     if (chosenStarterId > STARTER_MON_COUNT)
         chosenStarterId = 0;
-    if (startermon_gen == 0)
-    {
-        return sStarterMon0[chosenStarterId];
-    }
-    else if (startermon_gen == 1)
-    {
-        return sStarterMon1[chosenStarterId];
-    }
-    else if (startermon_gen == 2)
-    {
-        return sStarterMon2[chosenStarterId];
-    }
-    else if (startermon_gen == 3)
-    {
-        return sStarterMon3[chosenStarterId];
 
-    }
-    else if (startermon_gen == 4)
-    {
-        return sStarterMon4[chosenStarterId];
-    }
-    else if (startermon_gen == 5)
-    {
-        return sStarterMon5[chosenStarterId];
-    }
-    else if (startermon_gen == 6)
-    {
-        return sStarterMon6[chosenStarterId];
-    }
-    else if (startermon_gen == 7)
-    {
-        return sStarterMon7[chosenStarterId];
-    }
-    else if (startermon_gen == 8)
-    {
-        return sStarterMon8[chosenStarterId];
-    }
-    else{
+#if RANDOMIZER_AVAILABLE == TRUE
+    // 如果启用了随机器，就用统一数组并进行随机化
+    species = RandomizeStarterAndGiftMon(chosenStarterId, sStarterMon);
+    return species;
+#else
+    // 否则根据 startermon_gen 使用不同代的 starter
+    if (startermon_gen == 0)
         return sStarterMon0[chosenStarterId];
-    }
+    else if (startermon_gen == 1)
+        return sStarterMon1[chosenStarterId];
+    else if (startermon_gen == 2)
+        return sStarterMon2[chosenStarterId];
+    else if (startermon_gen == 3)
+        return sStarterMon3[chosenStarterId];
+    else if (startermon_gen == 4)
+        return sStarterMon4[chosenStarterId];
+    else if (startermon_gen == 5)
+        return sStarterMon5[chosenStarterId];
+    else if (startermon_gen == 6)
+        return sStarterMon6[chosenStarterId];
+    else if (startermon_gen == 7)
+        return sStarterMon7[chosenStarterId];
+    else if (startermon_gen == 8)
+        return sStarterMon8[chosenStarterId];
+    else
+        return sStarterMon0[chosenStarterId];
+#endif
 }
 
 static void VblankCB_StarterChoose(void)
