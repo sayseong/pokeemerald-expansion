@@ -12,14 +12,6 @@ enum {
     NAMING_SCREEN_CODE,
 };
 
-struct PingYinSerchNode
-{
-    const u8* key;
-    const u8* val;
-};
-
-extern const struct PingYinSerchNode gPingYinSerchNode[416];
-
 extern void BattleMainCB2(void);
 
 void DoNamingScreen(u8 templateNum, u8 *destBuffer, u16 monSpecies, u16 monGender, u32 monPersonality, MainCallback returnCallback);
