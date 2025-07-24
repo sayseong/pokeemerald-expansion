@@ -635,7 +635,7 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_PROTEANTYPECHANGE]                    = COMPOUND_STRING("因为{B_ATK_ABILITY}，\n{B_ATK_NAME_WITH_PREFIX}变成了{B_BUFF1}属性！"),
     [STRINGID_SYMBIOSISITEMPASS]                    = COMPOUND_STRING("因{B_LAST_ABILITY}，{B_SCR_NAME_WITH_PREFIX}\n将{B_LAST_ITEM}传给了{B_EFF_NAME_WITH_PREFIX2}！"),
     [STRINGID_STEALTHROCKDMG]                       = COMPOUND_STRING("尖锐的岩石扎进了\n{B_SCR_NAME_WITH_PREFIX2}的体内！"),
-    [STRINGID_TOXICSPIKESABSORBED]                  = COMPOUND_STRING("{B_SCR_TEAM2}脚下的\n毒菱消失不见了！"),
+    [STRINGID_TOXICSPIKESABSORBED]                  = COMPOUND_STRING("{B_EFF_TEAM2}脚下的\n毒菱消失不见了！"),
     [STRINGID_TOXICSPIKESPOISONED]                  = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}中毒了！"),
     [STRINGID_TOXICSPIKESBADLYPOISONED]             = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}中剧毒了！"),
     [STRINGID_STICKYWEBSWITCHIN]                    = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}\n被黏黏网粘住了！"),
@@ -718,6 +718,13 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_AURABREAKENTERS]                      = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}\n压制了所有气场！"),
     [STRINGID_COMATOSEENTERS]                       = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}\n处于半梦半醒状态！"),
     [STRINGID_SCREENCLEANERENTERS]                  = COMPOUND_STRING("双方场上的反射壁、光墙\n和极光幕消失了！"),
+    [STRINGID_PKMNSHOOKOFFTHETAUNT]                 = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}的\n挑衅效果解除了！"),
+    [STRINGID_PKMNGOTOVERITSINFATUATION]            = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}的\n着迷状态治愈了！"),
+    [STRINGID_ITEMCANNOTBEREMOVED]                  = COMPOUND_STRING("无法夺取\n{B_ATK_NAME_WITH_PREFIX}的道具！"),
+    [STRINGID_STICKYBARBTRANSFER]                   = COMPOUND_STRING("{B_LAST_ITEM}附着到了\n{B_ATK_NAME_WITH_PREFIX2}的身上！"),
+    [STRINGID_PKMNBURNHEALED]                       = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}的\n灼伤治愈了！"),
+    [STRINGID_REDCARDACTIVATE]                      = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}猛地向\n{B_ATK_NAME_WITH_PREFIX2}出示了红牌！"),
+    [STRINGID_EJECTBUTTONACTIVATE]                  = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}\n要用{B_LAST_ITEM}回去了！"),
     [STRINGID_FETCHEDPOKEBALL]                      = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}\n捡来了{B_LAST_ITEM}！"),
     [STRINGID_BATTLERABILITYRAISEDSTAT]             = COMPOUND_STRING("因为{B_SCR_ACTIVE_ABILITY}，\n{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}提高了！"),
     [STRINGID_ASANDSTORMKICKEDUP]                   = COMPOUND_STRING("开始刮沙暴了！"),
@@ -728,13 +735,6 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_CURIOUSMEDICINEENTERS]                = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX}的\n能力变化消失了！"),
     [STRINGID_CANACTFASTERTHANKSTO]                 = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}用了{B_BUFF1}后，\n行动变快了！"),
     [STRINGID_MICLEBERRYACTIVATES]                  = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}用{B_LAST_ITEM}\n提高了命中率！"),
-    [STRINGID_PKMNSHOOKOFFTHETAUNT]                 = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}的\n挑衅效果解除了！"),
-    [STRINGID_PKMNGOTOVERITSINFATUATION]            = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}的\n着迷状态治愈了！"),
-    [STRINGID_ITEMCANNOTBEREMOVED]                  = COMPOUND_STRING("无法夺取\n{B_ATK_NAME_WITH_PREFIX}的道具！"),
-    [STRINGID_STICKYBARBTRANSFER]                   = COMPOUND_STRING("{B_LAST_ITEM}附着到了\n{B_ATK_NAME_WITH_PREFIX2}的身上！"),
-    [STRINGID_PKMNBURNHEALED]                       = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}的\n灼伤治愈了！"),
-    [STRINGID_REDCARDACTIVATE]                      = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}猛地向\n{B_ATK_NAME_WITH_PREFIX2}出示了红牌！"),
-    [STRINGID_EJECTBUTTONACTIVATE]                  = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}\n要用{B_LAST_ITEM}回去了！"),
     [STRINGID_ATKGOTOVERINFATUATION]                = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}的\n着迷状态治愈了！"),
     [STRINGID_TORMENTEDNOMORE]                      = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}的\n无理取闹的效果消失了！"),
     [STRINGID_HEALBLOCKEDNOMORE]                    = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}的\n回复封锁的效果消失了！"),
@@ -1205,7 +1205,8 @@ const u16 gGotBurnedStringIds[] =
 
 const u16 gGotFrostbiteStringIds[] =
 {
-    [B_MSG_STATUSED]            = STRINGID_PKMNGOTFROSTBITE
+    [B_MSG_STATUSED]            = STRINGID_PKMNGOTFROSTBITE,
+    [B_MSG_STATUSED_BY_ABILITY] = STRINGID_PKMNGOTFROSTBITE,
 };
 
 const u16 gFrostbiteHealedStringIds[] =
@@ -3110,14 +3111,14 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
                 else
                     toCpy = sText_Opposing2;
                 break;
-            case B_TXT_SCR_TEAM1:
-                if (IsOnPlayerSide(gBattleScripting.battler))
+            case B_TXT_EFF_TEAM1:
+                if (IsOnPlayerSide(gEffectBattler))
                     toCpy = sText_Your1;
                 else
                     toCpy = sText_Opposing1;
                 break;
-            case B_TXT_SCR_TEAM2:
-                if (IsOnPlayerSide(gBattleScripting.battler))
+            case B_TXT_EFF_TEAM2:
+                if (IsOnPlayerSide(gEffectBattler))
                     toCpy = sText_Your2;
                 else
                     toCpy = sText_Opposing2;
@@ -3184,7 +3185,7 @@ static void IllusionNickHack(u32 battler, u32 partyId, u8 *dst)
         else
             partnerMon = mon;
 
-        id = GetIllusionMonPartyId(gEnemyParty, mon, partnerMon);
+        id = GetIllusionMonPartyId(gEnemyParty, mon, partnerMon, battler);
     }
 
     if (id != PARTY_SIZE)
