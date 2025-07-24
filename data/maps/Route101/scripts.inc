@@ -257,6 +257,12 @@ Route101_Movement_BirchApproachPlayer:
 	walk_right
 	step_end
 
+Route101_Movement_GETDEXNAV::
+	setflag FLAG_DEXNAV_GET
+	msgbox Route101_Text_GET_DEXNAV, MSGBOX_DEFAULT
+	releaseall
+	end
+
 Route101_Text_HelpMe:
     .string "救、救命——！！$"
 
@@ -278,3 +284,5 @@ Route101_Text_WildPokemonInTallGrass:
 Route101_Text_RouteSign:
     .string "101号道路\n{UP_ARROW}古玫镇$"
 
+Route101_Text_GET_DEXNAV::
+    .string "你得到了\p图鉴导航。$"
