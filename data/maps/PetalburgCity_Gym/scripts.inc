@@ -88,6 +88,14 @@ PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox PetalburgCity_Gym_Text_DadGoCollectBadges, MSGBOX_DEFAULT
+	msgbox PetalburgCity_Gym_Text_GetZPowerRing, MSGBOX_DEFAULT
+	giveitem ITEM_Z_POWER_RING
+	msgbox PetalburgCity_Gym_Text_GetZCrystal, MSGBOX_DEFAULT
+	giveitem ITEM_GRASSIUM_Z
+	giveitem ITEM_FIRIUM_Z
+	giveitem ITEM_WATERIUM_Z
+	msgbox PetalburgCity_Gym_Text_TutorialZPowerRing, MSGBOX_DEFAULT
+	msgbox PetalburgCity_Gym_Text_GoodBye, MSGBOX_DEFAULT
 	setvar VAR_PETALBURG_GYM_STATE, 2
 	releaseall
 	end
@@ -1175,6 +1183,18 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
     .string "爸爸：好了……\p{PLAYER}，如果你想成为一个\n强大的训练家，我有几条建议。\p首先去距此不远的\n卡那兹市，\p挑战那里的\n道馆馆主，杜娟。\p然后再去其他宝可梦道馆，\n打败那里的馆主，\p收集他们的徽章，\n明白了吗？\p当然，我也是道馆馆主，所以我们\n总有一天会对战，{PLAYER}，\p但那之前，你得先变得\n更强大才行。$"
+
+PetalburgCity_Gym_Text_GetZPowerRing:
+	.string "爸爸：我就帮你多一次\n别丢我的脸啊\p这个给你！$"
+
+PetalburgCity_Gym_Text_GetZCrystal:
+	.string"爸爸:我身上只剩下草属性,\n火属性以及水属性Z纯晶了\p你拿去吧！$"
+
+PetalburgCity_Gym_Text_TutorialZPowerRing:
+	.string"爸爸:只需要给宝可梦携带\nZ纯晶，在对战中点击start\p就能使用Z招式了。$"
+
+PetalburgCity_Gym_Text_GoodBye:
+	.string "爸爸：加油啊{PLAYER}！\n再见....$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
     .string "爸爸：嗯？你还没去\n卡那兹市的宝可梦道馆？\p一个新手训练家\n是没法打败我的。\p{PLAYER}，等你变强了\n再向我挑战吧。\p当你收集4个道馆徽章后，\n我再接受你的挑战，{PLAYER}。$"
