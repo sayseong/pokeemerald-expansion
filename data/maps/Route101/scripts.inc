@@ -257,6 +257,14 @@ Route101_Movement_BirchApproachPlayer:
 	walk_right
 	step_end
 
+Route101_EventScript_GETDEXNAV::
+	setflag FLAG_DEXNAV_GET
+	setflag FLAG_CAN_DYNAMAX
+	msgbox Route101_Text_GetDexnav, MSGBOX_DEFAULT
+	msgbox Route101_Text_SetDynamax, MSGBOX_DEFAULT
+	releaseall
+	end
+
 Route101_Text_HelpMe:
     .string "救、救命——！！$"
 
@@ -278,3 +286,8 @@ Route101_Text_WildPokemonInTallGrass:
 Route101_Text_RouteSign:
     .string "101号道路\n{UP_ARROW}古玫镇$"
 
+Route101_Text_GetDexnav::
+	.string "{PLAYER}获得了图鉴导航$"
+
+Route101_Text_SetDynamax::
+	.string "现在可以使用极巨化了$"

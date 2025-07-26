@@ -1224,8 +1224,8 @@
 
 #define FLAG_DEXNAV_SEARCHING                                        0x493 // DEXNAV FLAG
 #define FLAG_DEXNAV_DETECTOR_MODE                                    0x494 // DEXNAV FLAG
-#define FLAG_DEXNAV_GET                                           0x495 // 获得DEXNAV FLAG
-#define FLAG_UNUSED_0x496                                           0x496 // Unused Flag
+#define FLAG_DEXNAV_GET                                              0x495 // 获得DEXNAV FLAG
+#define FLAG_CAN_DYNAMAX                                            0x496 // 极巨化Flag
 #define FLAG_UNUSED_0x497                                           0x497 // Unused Flag
 #define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
 #define FLAG_UNUSED_0x499                                           0x499 // Unused Flag

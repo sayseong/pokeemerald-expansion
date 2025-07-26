@@ -270,12 +270,6 @@ PlayersHouse_2F_EventScript_GameCube::
 	msgbox PlayersHouse_2F_Text_ItsAGameCube, MSGBOX_SIGN
 	end
 
-PlayersHouse_2F_EventScript_GETDEXNAV::
-	setflag FLAG_DEXNAV_GET
-	msgbox PlayersHouse_2F_Text_GET_DEXNAV, MSGBOX_DEFAULT
-	releaseall
-	end
-
 PlayersHouse_2F_Text_ClockIsStopped:
     .string "时钟停着……\p把时间调好吧！$"
 
@@ -290,6 +284,3 @@ Common_Text_LookCloserAtMap:
 
 PlayersHouse_2F_Text_ItsAGameCube:
     .string "这是NGC。\p上面连着个GBA\n当做手柄。$"
-
-PlayersHouse_2F_Text_GET_DEXNAV:
-    .string "你得到了\p图鉴导航。$"
