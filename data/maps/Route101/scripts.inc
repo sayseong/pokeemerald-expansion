@@ -257,9 +257,10 @@ Route101_Movement_BirchApproachPlayer:
 	walk_right
 	step_end
 
-Route101_EventScript_GETDEXNAV::
+Route101_EventScript_GetDexnav::
 	setflag FLAG_DEXNAV_GET
 	setflag FLAG_CAN_DYNAMAX
+	setflag FLAG_TERA_CHARGE
 	msgbox Route101_Text_GetDexnav, MSGBOX_DEFAULT
 	msgbox Route101_Text_SetDynamax, MSGBOX_DEFAULT
 	releaseall
