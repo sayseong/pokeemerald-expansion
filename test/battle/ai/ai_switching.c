@@ -40,7 +40,7 @@ AI_SINGLE_BATTLE_TEST("AI switches if Perish Song is about to kill")
     }
 }
 
-AI_DOUBLE_BATTLE_TEST("AI will not try to switch for the same pokemon for 2 spots in a double battle (all bad moves)")
+AI_DOUBLE_BATTLE_TEST("AI will not try to switch for the same Pokémon for 2 spots in a double battle (all bad moves)")
 {
     u32 flags;
 
@@ -98,7 +98,7 @@ AI_SINGLE_BATTLE_TEST("When AI switches out due to having no move that affects t
     }
 }
 
-AI_DOUBLE_BATTLE_TEST("AI will not try to switch for the same pokemon for 2 spots in a double battle (Wonder Guard)")
+AI_DOUBLE_BATTLE_TEST("AI will not try to switch for the same Pokémon for 2 spots in a double battle (Wonder Guard)")
 {
     PASSES_RANDOMLY(SHOULD_SWITCH_WONDER_GUARD_PERCENTAGE, 100, RNG_AI_SWITCH_WONDER_GUARD);
     GIVEN {
@@ -842,6 +842,7 @@ AI_SINGLE_BATTLE_TEST("AI_FLAG_SMART_SWITCHING: AI will switch out if it has an 
     PARAMETRIZE { aiMon = SPECIES_SHIFTRY; absorbingAbility = ABILITY_WIND_RIDER; move = MOVE_HURRICANE;}
     GIVEN {
         ASSUME(B_REDIRECT_ABILITY_IMMUNITY >= GEN_5);
+        ASSUME(P_UPDATED_ABILITIES >= GEN_9); //For the predicted ability for Shiftry
         AI_FLAGS(AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SMART_SWITCHING);
         PLAYER(SPECIES_ZIGZAGOON) { Moves(move); }
         OPPONENT(SPECIES_ZIGZAGOON) { Moves(MOVE_SCRATCH); }
@@ -1266,5 +1267,20 @@ AI_SINGLE_BATTLE_TEST("AI_FLAG_SMART_SWITCHING: AI considers 0 hits to KO as los
         OPPONENT(SPECIES_TANGELA) { Level(100); Moves(MOVE_GIGA_DRAIN); }
     } WHEN {
         TURN { MOVE(player, MOVE_TACKLE); EXPECT_SEND_OUT(opponent, 2); }
+    }
+}
+
+AI_SINGLE_BATTLE_TEST("AI_FLAG_SMART_MON_CHOICES: AI sees Echoed Voice damage correctly")
+{
+    GIVEN {
+        AI_FLAGS(AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SMART_MON_CHOICES | AI_FLAG_OMNISCIENT);
+        PLAYER(SPECIES_WOBBUFFET) { Speed(5); Moves(MOVE_SCRATCH, MOVE_ECHOED_VOICE); }
+        OPPONENT(SPECIES_ZIGZAGOON) { Speed(4); Level(55); Moves(MOVE_CELEBRATE); }
+        OPPONENT(SPECIES_DRAPION) { Speed(4); SpDefense(25); Moves(MOVE_WICKED_BLOW); Ability(ABILITY_SNIPER); }
+        OPPONENT(SPECIES_GASTLY) { Speed(4); Level(1); Moves(MOVE_TACKLE); }
+    } WHEN {
+        TURN { MOVE(player, MOVE_SCRATCH); EXPECT_MOVE(opponent, MOVE_CELEBRATE); }
+        TURN { MOVE(player, MOVE_SCRATCH); EXPECT_MOVE(opponent, MOVE_CELEBRATE); }
+        TURN { MOVE(player, MOVE_SCRATCH); EXPECT_MOVE(opponent, MOVE_CELEBRATE); EXPECT_SEND_OUT(opponent, 1); }
     }
 }
