@@ -697,12 +697,7 @@
       "height": 1
     },
     {
-      "id": "MAPSEC_DYNAMIC",
-      "name": " ",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
+      "id": "MAPSEC_DYNAMIC"
     },
     {
       "id": "MAPSEC_PALLET_TOWN",
@@ -794,19 +789,11 @@
     },
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
-      "name": "4号道路",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
+      "name": "4号道路"
     },
     {
       "id": "MAPSEC_ROUTE_10_POKECENTER",
-      "name": "10号道路",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
+      "name": "10号道路"
     },
     {
       "id": "MAPSEC_ROUTE_1",
@@ -1042,11 +1029,7 @@
     },
     {
       "id": "MAPSEC_UNDERGROUND_PATH_2",
-      "name": "地下通道",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
+      "name": "地下通道"
     },
     {
       "id": "MAPSEC_DIGLETTS_CAVE",
@@ -1058,11 +1041,7 @@
     },
     {
       "id": "MAPSEC_KANTO_VICTORY_ROAD",
-      "name": "冠军之路",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
+      "name": "冠军之路"
     },
     {
       "id": "MAPSEC_ROCKET_HIDEOUT",
@@ -1090,11 +1069,7 @@
     },
     {
       "id": "MAPSEC_KANTO_SAFARI_ZONE",
-      "name": "狩猎地带",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
+      "name": "狩猎地带"
     },
     {
       "id": "MAPSEC_POKEMON_LEAGUE",
@@ -1434,11 +1409,7 @@
     },
     {
       "id": "MAPSEC_TRAINER_TOWER_2",
-      "name": "训练家塔",
-      "x": 0,
-      "y": 0,
-      "width": 1,
-      "height": 1
+      "name": "训练家塔"
     },
     {
       "id": "MAPSEC_DOTTED_HOLE",

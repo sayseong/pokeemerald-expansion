@@ -87,6 +87,15 @@ Debug_FlagsNotSetBattleConfigMessage_Text:
 	.string "请在这里定义一个可用标志：\l"
 	.string "'include/config/battle.h'！$"
 
+Debug_VarsNotSetBattleConfigMessage::
+	message Debug_VarsNotSetBattleConfigMessage_Text
+	goto Debug_MessageEnd
+
+Debug_VarsNotSetBattleConfigMessage_Text:
+	.string "Feature unavailable!\n"
+	.string "Please define a usable var in:\l"
+	.string "'include/config/battle.h'!$"
+
 Debug_BoxFilledMessage::
 	message Debug_BoxFilledMessage_Text
 	goto Debug_MessageEnd
@@ -270,6 +279,24 @@ Debug_ShowExpansionVersion::
 Debug_ExpansionVersion:
 	.string "pokeemerald-expansion {STR_VAR_1}$"
 
+Debug_Follower_NPC_Not_Enabled::
+	msgbox Debug_Enable_To_Use_Follower_NPCs, MSGBOX_DEFAULT
+	release
+	end
+
+Debug_Enable_To_Use_Follower_NPCs:
+	.string "Feature unavailable.\nSet FNPC_ENABLE_NPC_FOLLOWERS to\lTRUE in 'include/config/follower_npc.h'.$"
+
+Debug_Follower_NPC_Event_Script::
+	lock
+	facefollowernpc
+	msgbox Debug_Follower_NPC_Test_Message, MSGBOX_DEFAULT
+	releaseall
+	end
+
+Debug_Follower_NPC_Test_Message:
+	.string "This is a Follower NPC test.$"
+
 Debug_EventScript_Steven_Multi::
 	call MossdeepCity_SpaceCenter_2F_EventScript_ChoosePartyForMultiBattle
 	release
@@ -332,6 +359,66 @@ Debug_EventScript_InflictStatus1_Single:
 	case 5, Debug_EventScript_InflictStatus1_Single_Frostbite
 	case 6, Debug_EventScript_InflictStatus1_Close
 	case MULTI_B_PRESSED, Debug_EventScript_InflictStatus1_Close
+	releaseall
+	end
+
+Debug_EventScript_SetHiddenNature::
+	special ChoosePartyMon
+	waitstate
+	goto_if_ge VAR_0x8004, PARTY_SIZE, Debug_EventScript_InflictStatus1_Close
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	goto_if_eq VAR_RESULT, SPECIES_EGG, Debug_EventScript_InflictStatus1_Close
+	dynmultipush Debug_EventScript_ChangeNature_Text_Hardy, 0
+	dynmultipush Debug_EventScript_ChangeNature_Text_Lonely, 1
+	dynmultipush Debug_EventScript_ChangeNature_Text_Brave, 2
+	dynmultipush Debug_EventScript_ChangeNature_Text_Adamant, 3
+	dynmultipush Debug_EventScript_ChangeNature_Text_Naughty, 4
+	dynmultipush Debug_EventScript_ChangeNature_Text_Bold, 5
+	dynmultipush Debug_EventScript_ChangeNature_Text_Docile, 6
+	dynmultipush Debug_EventScript_ChangeNature_Text_Relaxed, 7
+	dynmultipush Debug_EventScript_ChangeNature_Text_Impish, 8
+	dynmultipush Debug_EventScript_ChangeNature_Text_Lax, 9
+	dynmultipush Debug_EventScript_ChangeNature_Text_Timid, 10
+	dynmultipush Debug_EventScript_ChangeNature_Text_Hasty, 11
+	dynmultipush Debug_EventScript_ChangeNature_Text_Serious, 12
+	dynmultipush Debug_EventScript_ChangeNature_Text_Jolly, 13
+	dynmultipush Debug_EventScript_ChangeNature_Text_Naive, 14
+	dynmultipush Debug_EventScript_ChangeNature_Text_Modest, 15
+	dynmultipush Debug_EventScript_ChangeNature_Text_Mild, 16
+	dynmultipush Debug_EventScript_ChangeNature_Text_Quiet, 17
+	dynmultipush Debug_EventScript_ChangeNature_Text_Bashful, 18
+	dynmultipush Debug_EventScript_ChangeNature_Text_Rash, 19
+	dynmultipush Debug_EventScript_ChangeNature_Text_Calm, 20
+	dynmultipush Debug_EventScript_ChangeNature_Text_Gentle, 21
+	dynmultipush Debug_EventScript_ChangeNature_Text_Sassy, 22
+	dynmultipush Debug_EventScript_ChangeNature_Text_Careful, 23
+	dynmultipush Debug_EventScript_ChangeNature_Text_Quirky, 24
+	dynmultistack 0, 0, TRUE, 7, FALSE, 0, NULL
+	switch VAR_RESULT
+	case MULTI_B_PRESSED, Debug_EventScript_InflictStatus1_Close
+	special SetHiddenNature
+	releaseall
+	end
+
+Debug_EventScript_SetAbility::
+	special ChoosePartyMon
+	waitstate
+	callnative DebugNative_GetAbilityNames
+	dynmultipush gStringVar1, 0
+	dynmultipush gStringVar2, 1
+	dynmultipush gStringVar3, 2
+	dynmultistack 0, 0, FALSE, 3 FALSE, 0, NULL
+	switch VAR_RESULT
+	case MULTI_B_PRESSED, Debug_EventScript_SetAbilityClose
+	special SetAbility
+Debug_EventScript_SetAbilityClose:
+	releaseall
+	end
+
+Debug_EventScript_SetFriendship::
+	special ChoosePartyMon
+	waitstate
+	callnative DebugNative_Party_SetFriendship
 	releaseall
 	end
 
@@ -442,6 +529,57 @@ Debug_EventScript_InflictStatus1_Text_Freeze:
 
 Debug_EventScript_InflictStatus1_Text_Frostbite:
 	.string "冻伤$"
+
+Debug_EventScript_ChangeNature_Text_Hardy:
+	.string "勤奋$"
+Debug_EventScript_ChangeNature_Text_Lonely:
+	.string "怕寂寞$"
+Debug_EventScript_ChangeNature_Text_Brave:
+	.string "勇敢$"
+Debug_EventScript_ChangeNature_Text_Adamant:
+	.string "固执$"
+Debug_EventScript_ChangeNature_Text_Naughty:
+	.string "顽皮$"
+Debug_EventScript_ChangeNature_Text_Bold:
+	.string "大胆$"
+Debug_EventScript_ChangeNature_Text_Docile:
+	.string "坦率$"
+Debug_EventScript_ChangeNature_Text_Relaxed:
+	.string "悠闲$"
+Debug_EventScript_ChangeNature_Text_Impish:
+	.string "淘气$"
+Debug_EventScript_ChangeNature_Text_Lax:
+	.string "乐天$"
+Debug_EventScript_ChangeNature_Text_Timid:
+	.string "胆小$"
+Debug_EventScript_ChangeNature_Text_Hasty:
+	.string "急躁$"
+Debug_EventScript_ChangeNature_Text_Serious:
+	.string "认真$"
+Debug_EventScript_ChangeNature_Text_Jolly:
+	.string "爽朗$"
+Debug_EventScript_ChangeNature_Text_Naive:
+	.string "天真$"
+Debug_EventScript_ChangeNature_Text_Modest:
+	.string "内敛$"
+Debug_EventScript_ChangeNature_Text_Mild:
+	.string "慢吞吞$"
+Debug_EventScript_ChangeNature_Text_Quiet:
+	.string "冷静$"
+Debug_EventScript_ChangeNature_Text_Bashful:
+	.string "害羞$"
+Debug_EventScript_ChangeNature_Text_Rash:
+	.string "马虎$"
+Debug_EventScript_ChangeNature_Text_Calm:
+	.string "温和$"
+Debug_EventScript_ChangeNature_Text_Gentle:
+	.string "温顺$"
+Debug_EventScript_ChangeNature_Text_Sassy:
+	.string "自大$"
+Debug_EventScript_ChangeNature_Text_Careful:
+	.string "慎重$"
+Debug_EventScript_ChangeNature_Text_Quirky:
+	.string "浮躁$"
 
 Debug_EventScript_EWRAMCounters::
 	callnative CheckEWRAMCounters
