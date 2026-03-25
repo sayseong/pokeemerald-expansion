@@ -39,8 +39,7 @@ enum {
     INPUT_DPAD_RIGHT,
     INPUT_A_BUTTON,
     INPUT_B_BUTTON,
-    INPUT_L_BUTTON,
-    INPUT_R_BUTTON,
+    INPUT_LR_BUTTON,
     INPUT_SELECT,
     INPUT_START,
 };
@@ -182,16 +181,6 @@ struct NamingScreenData
     u16 monGender;
     u32 monPersonality;
     MainCallback returnCallback;
-
-    // Pinyin input (candidate selection).
-    u8 pinyinEnabled;
-    u8 pinyinSelecting;
-    u8 pinyinCandidateIndex;
-    u8 pinyinCandidateCount;
-    u8 pinyinStartIndex;
-    u8 pinyinLen;
-    u8 pinyinLettersEncoded[8]; // stored for cancel/restore
-    char pinyinString[8];        // decoded ascii for lookup
 };
 
 EWRAM_DATA static struct NamingScreenData *sNamingScreen = NULL;
@@ -402,10 +391,6 @@ static void DrawTextEntry(void);
 static void PrintKeyboardKeys(u8, u8);
 static void DrawKeyboardPageOnDeck(void);
 static void PrintControls(void);
-static bool8 StartPinyinCandidateSelection(void);
-static void UpdatePinyinCandidate(void);
-static bool8 ConfirmPinyinCandidate(void);
-static bool8 CancelPinyinCandidate(void);
 static void CB2_NamingScreen(void);
 static void ResetVHBlank(void);
 static void SetVBlank(void);
@@ -413,105 +398,7 @@ static void VBlankCB_NamingScreen(void);
 static void NamingScreen_ShowBgs(void);
 static bool8 IsWideLetter(u8);
 
-static const u8 sText_MoveOkBack[] = _("{DPAD_NONE}移动 {A_BUTTON}确认 {B_BUTTON}返回 {L_BUTTON}拼音开关 {R_BUTTON}候选");
-
-struct PinyinMapEntry
-{
-    const char *pinyin;
-    const u8 *hanzi;
-};
-
-static const struct PinyinMapEntry sPinyinMap[] =
-{
-    {"a", _("啊")},       {"ai", _("爱")},     {"an", _("安")},     {"ang", _("昂")},
-    {"ba", _("吧")},      {"bai", _("白")},    {"ban", _("班")},    {"bao", _("宝")},
-    {"bei", _("北")},     {"ben", _("本")},    {"bi", _("比")},     {"bian", _("边")},
-    {"bo", _("波")},      {"bu", _("不")},
-    {"cha", _("查")},     {"chan", _("产")},   {"chang", _("长")},  {"chen", _("陈")},
-    {"cheng", _("成")},   {"chi", _("吃")},    {"chu", _("出")},
-    {"da", _("大")},      {"de", _("的")},     {"di", _("地")},     {"dian", _("点")},
-    {"dong", _("东")},    {"du", _("读")},
-    {"e", _("额")},       {"en", _("恩")},     {"er", _("二")},
-    {"fa", _("发")},      {"fan", _("反")},    {"fang", _("方")},   {"fei", _("飞")},
-    {"fen", _("分")},     {"feng", _("风")},   {"fu", _("福")},
-    {"gao", _("高")},     {"ge", _("个")},     {"gong", _("工")},   {"guo", _("国")},
-    {"hai", _("海")},     {"hao", _("好")},    {"he", _("和")},     {"hong", _("红")},
-    {"hua", _("花")},     {"huo", _("火")},
-    {"ji", _("机")},      {"jia", _("家")},    {"jian", _("见")},   {"jiang", _("江")},
-    {"jiao", _("叫")},    {"jie", _("界")},    {"jin", _("金")},    {"jing", _("京")},
-    {"jiu", _("九")},
-    {"kai", _("开")},     {"kan", _("看")},    {"ke", _("可")},
-    {"la", _("拉")},      {"lai", _("来")},    {"lan", _("蓝")},    {"lao", _("老")},
-    {"le", _("了")},      {"li", _("里")},     {"lian", _("连")},   {"ling", _("灵")},
-    {"liu", _("六")},     {"long", _("龙")},   {"lu", _("路")},
-    {"ma", _("马")},      {"mai", _("买")},    {"man", _("满")},    {"mao", _("猫")},
-    {"me", _("么")},      {"mei", _("美")},    {"men", _("们")},    {"mi", _("米")},
-    {"min", _("民")},     {"ming", _("明")},   {"mo", _("魔")},
-    {"na", _("那")},      {"nan", _("南")},    {"ne", _("呢")},     {"neng", _("能")},
-    {"ni", _("你")},      {"nian", _("年")},   {"ning", _("宁")},   {"niu", _("牛")},
-    {"nv", _("女")},
-    {"ou", _("欧")},
-    {"pai", _("派")},     {"pan", _("盘")},    {"pao", _("跑")},    {"peng", _("朋")},
-    {"pi", _("皮")},      {"ping", _("平")},   {"po", _("破")},
-    {"qi", _("起")},      {"qian", _("前")},   {"qing", _("青")},   {"qiu", _("秋")},
-    {"qu", _("去")},
-    {"ran", _("然")},     {"rang", _("让")},   {"ren", _("人")},    {"ri", _("日")},
-    {"rong", _("荣")},
-    {"san", _("三")},     {"shan", _("山")},   {"shang", _("上")},  {"she", _("社")},
-    {"shen", _("深")},    {"sheng", _("生")},  {"shi", _("是")},    {"shou", _("手")},
-    {"shu", _("书")},     {"shui", _("水")},   {"si", _("四")},
-    {"ta", _("他")},      {"tai", _("太")},    {"tian", _("天")},   {"ting", _("听")},
-    {"tong", _("同")},    {"tu", _("土")},
-    {"wan", _("万")},     {"wang", _("王")},   {"wei", _("为")},    {"wen", _("文")},
-    {"wo", _("我")},      {"wu", _("无")},
-    {"xi", _("西")},      {"xia", _("下")},    {"xian", _("先")},   {"xiang", _("想")},
-    {"xiao", _("小")},    {"xie", _("谢")},    {"xin", _("新")},    {"xing", _("星")},
-    {"xue", _("学")},
-    {"yan", _("言")},     {"yang", _("阳")},   {"yao", _("要")},    {"ye", _("也")},
-    {"yi", _("一")},      {"yin", _("音")},    {"ying", _("英")},   {"you", _("有")},
-    {"yu", _("鱼")},      {"yue", _("月")},    {"yun", _("云")},
-    {"zai", _("在")},     {"zao", _("早")},    {"zhe", _("这")},    {"zhen", _("真")},
-    {"zhong", _("中")},   {"zhu", _("主")},    {"zi", _("字")},     {"zuo", _("做")},
-};
-
-static bool8 IsPinyinChar(u8 ch)
-{
-    return (ch >= CHAR_a && ch <= CHAR_z) || (ch >= CHAR_A && ch <= CHAR_Z);
-}
-
-static bool8 IsSamePinyin(const char *lhs, const char *rhs)
-{
-    while (*lhs != '\0' && *rhs != '\0')
-    {
-        if (*lhs != *rhs)
-            return FALSE;
-        lhs++;
-        rhs++;
-    }
-
-    return *lhs == *rhs;
-}
-
-static char DecodePinyinChar(u8 ch)
-{
-    if (ch >= CHAR_a && ch <= CHAR_z)
-        return 'a' + (ch - CHAR_a);
-    if (ch >= CHAR_A && ch <= CHAR_Z)
-        return 'a' + (ch - CHAR_A);
-    return '\0';
-}
-
-static const u8 *GetHanziForPinyin(const char *pinyin)
-{
-    u32 i;
-
-    for (i = 0; i < ARRAY_COUNT(sPinyinMap); i++)
-    {
-        if (IsSamePinyin(pinyin, sPinyinMap[i].pinyin))
-            return sPinyinMap[i].hanzi;
-    }
-    return NULL;
-}
+static const u8 sText_MoveOkBack[] = _("{DPAD_NONE}移动  {A_BUTTON}确认  {B_BUTTON}返回");
 
 void DoNamingScreen(u8 templateNum, u8 *destBuffer, u16 monSpecies, u16 monGender, u32 monPersonality, MainCallback returnCallback)
 {
@@ -601,17 +488,6 @@ static void NamingScreen_Init(void)
     memset(sNamingScreen->textBuffer, EOS, sizeof(sNamingScreen->textBuffer));
     if (sNamingScreen->template->copyExistingString)
         StringCopy(sNamingScreen->textBuffer, sNamingScreen->destBuffer);
-
-    // Default pinyin input is off; user can toggle with L.
-    sNamingScreen->pinyinEnabled = FALSE;
-    sNamingScreen->pinyinSelecting = FALSE;
-    sNamingScreen->pinyinCandidateIndex = 0;
-    sNamingScreen->pinyinCandidateCount = 2;
-    sNamingScreen->pinyinStartIndex = 0;
-    sNamingScreen->pinyinLen = 0;
-    memset(sNamingScreen->pinyinLettersEncoded, 0, sizeof(sNamingScreen->pinyinLettersEncoded));
-    memset(sNamingScreen->pinyinString, 0, sizeof(sNamingScreen->pinyinString));
-
     gKeyRepeatStartDelay = 16;
 }
 
@@ -1628,34 +1504,9 @@ static bool8 HandleKeyboardEvent(void)
     u8 input = GetInputEvent();
     u8 keyRole = GetKeyRoleAtCursorPos();
 
-    if (sNamingScreen->pinyinSelecting)
-    {
-        if (input == INPUT_A_BUTTON)
-            return ConfirmPinyinCandidate();
-        if (input == INPUT_B_BUTTON)
-            return CancelPinyinCandidate();
-        return FALSE;
-    }
-
     if (input == INPUT_SELECT)
     {
         return SwapKeyboardPage();
-    }
-    else if (input == INPUT_L_BUTTON)
-    {
-        sNamingScreen->pinyinEnabled ^= TRUE;
-
-        if (!sNamingScreen->pinyinEnabled && sNamingScreen->pinyinSelecting)
-            CancelPinyinCandidate();
-
-        return FALSE;
-    }
-    else if (input == INPUT_R_BUTTON)
-    {
-        if (!sNamingScreen->pinyinEnabled)
-            return FALSE;
-
-        return StartPinyinCandidateSelection();
     }
     else if (input == INPUT_B_BUTTON)
     {
@@ -1802,10 +1653,6 @@ static void Input_Enabled(struct Task *task)
         task->tKeyboardEvent = INPUT_A_BUTTON;
     else if (JOY_NEW(B_BUTTON))
         task->tKeyboardEvent = INPUT_B_BUTTON;
-    else if (JOY_NEW(L_BUTTON))
-        task->tKeyboardEvent = INPUT_L_BUTTON;
-    else if (JOY_NEW(R_BUTTON))
-        task->tKeyboardEvent = INPUT_R_BUTTON;
     else if (JOY_NEW(SELECT_BUTTON))
         task->tKeyboardEvent = INPUT_SELECT;
     else if (JOY_NEW(START_BUTTON))
@@ -1857,33 +1704,6 @@ static void HandleDpadMovement(struct Task *task)
         input = INPUT_DPAD_LEFT;
     if (JOY_REPEAT(DPAD_RIGHT))
         input = INPUT_DPAD_RIGHT;
-
-    if (sNamingScreen->pinyinSelecting)
-    {
-        // In pinyin selection mode, DPAD left/right cycles candidates.
-        // Other directions are ignored to prevent cursor movement.
-        if (input == INPUT_DPAD_LEFT || input == INPUT_DPAD_RIGHT)
-        {
-            if (input == INPUT_DPAD_LEFT)
-            {
-                if (sNamingScreen->pinyinCandidateIndex == 0)
-                    sNamingScreen->pinyinCandidateIndex = sNamingScreen->pinyinCandidateCount - 1;
-                else
-                    sNamingScreen->pinyinCandidateIndex--;
-            }
-            else // INPUT_DPAD_RIGHT
-            {
-                sNamingScreen->pinyinCandidateIndex++;
-                if (sNamingScreen->pinyinCandidateIndex >= sNamingScreen->pinyinCandidateCount)
-                    sNamingScreen->pinyinCandidateIndex = 0;
-            }
-
-            UpdatePinyinCandidate();
-            return;
-        }
-
-        return;
-    }
 
     // Get new cursor position
     prevCursorX = cursorX;
@@ -2246,165 +2066,6 @@ static void PrintControls(void)
     AddTextPrinterParameterized3(sNamingScreen->windows[WIN_BANNER], FONT_SMALL, 2, 1, color, 0, sText_MoveOkBack);
     PutWindowTilemap(sNamingScreen->windows[WIN_BANNER]);
     CopyWindowToVram(sNamingScreen->windows[WIN_BANNER], COPYWIN_FULL);
-}
-
-static const u8 *GetHanziByPinyinHeuristic(const char *pinyin)
-{
-    // Quick fallback candidate when the exact mapping doesn't exist.
-    // NOTE: This is not a real Pinyin IME; it's only to provide multiple candidates.
-    if (pinyin[0] == 'z' && pinyin[1] == 'h')
-        return _("中");
-    if (pinyin[0] == 'c' && pinyin[1] == 'h')
-        return _("吃");
-    if (pinyin[0] == 's' && pinyin[1] == 'h')
-        return _("是");
-
-    switch (pinyin[0])
-    {
-    case 'a': return _("啊");
-    case 'b': return _("不");
-    case 'd': return _("的");
-    case 'e': return _("额");
-    case 'f': return _("飞");
-    case 'g': return _("个");
-    case 'h': return _("和");
-    case 'j': return _("家");
-    case 'k': return _("可");
-    case 'l': return _("了");
-    case 'm': return _("吗");
-    case 'n': return _("你");
-    case 'o': return _("欧");
-    case 'p': return _("怕");
-    case 'q': return _("去");
-    case 'r': return _("人");
-    case 't': return _("他");
-    case 'w': return _("我");
-    case 'x': return _("想");
-    case 'y': return _("要");
-    case 'z': return _("在");
-    default:  return _("中");
-    }
-}
-
-static const u8 *GetPinyinCandidateHanzi(u8 candidateIndex)
-{
-    const u8 *hanzi;
-
-    if (candidateIndex == 0)
-    {
-        hanzi = GetHanziForPinyin(sNamingScreen->pinyinString);
-        if (hanzi == NULL)
-            hanzi = GetHanziByPinyinHeuristic(sNamingScreen->pinyinString);
-        return hanzi;
-    }
-
-    // candidateIndex == 1
-    hanzi = GetHanziByPinyinHeuristic(sNamingScreen->pinyinString);
-    if (hanzi == NULL)
-        hanzi = GetHanziForPinyin(sNamingScreen->pinyinString);
-    return hanzi;
-}
-
-static bool8 StartPinyinCandidateSelection(void)
-{
-    u8 end = GetTextEntryPosition();
-    u8 start;
-    u8 len;
-    u8 i;
-    const u8 *hanzi;
-
-    if (!sNamingScreen->pinyinEnabled)
-        return FALSE;
-
-    if (end == 0)
-        return FALSE;
-
-    start = end;
-    while (start > 0 && IsPinyinChar(sNamingScreen->textBuffer[start - 1]))
-        start--;
-
-    len = end - start;
-    if (len == 0 || len >= sizeof(sNamingScreen->pinyinString))
-        return FALSE;
-
-    // We replace the whole pinyin letters segment with exactly one Chinese char (2 bytes).
-    if (start + 2 >= sNamingScreen->template->maxChars)
-        return FALSE;
-
-    for (i = 0; i < len; i++)
-    {
-        sNamingScreen->pinyinLettersEncoded[i] = sNamingScreen->textBuffer[start + i];
-        sNamingScreen->pinyinString[i] = DecodePinyinChar(sNamingScreen->textBuffer[start + i]);
-    }
-    sNamingScreen->pinyinString[len] = '\0';
-
-    hanzi = GetHanziForPinyin(sNamingScreen->pinyinString);
-    if (hanzi == NULL)
-        hanzi = GetHanziByPinyinHeuristic(sNamingScreen->pinyinString);
-
-    if (hanzi == NULL)
-        return FALSE;
-
-    sNamingScreen->pinyinSelecting = TRUE;
-    sNamingScreen->pinyinCandidateIndex = 0;
-    sNamingScreen->pinyinCandidateCount = 2;
-    sNamingScreen->pinyinStartIndex = start;
-    sNamingScreen->pinyinLen = len;
-
-    // Show first candidate immediately.
-    UpdatePinyinCandidate();
-    PlaySE(SE_SELECT);
-    return FALSE;
-}
-
-static void UpdatePinyinCandidate(void)
-{
-    const u8 *hanzi = GetPinyinCandidateHanzi(sNamingScreen->pinyinCandidateIndex);
-    u8 start;
-
-    if (hanzi == NULL)
-        return;
-
-    start = sNamingScreen->pinyinStartIndex;
-
-    sNamingScreen->textBuffer[start] = hanzi[0];
-    sNamingScreen->textBuffer[start + 1] = hanzi[1];
-    sNamingScreen->textBuffer[start + 2] = EOS;
-
-    DrawTextEntry();
-    CopyBgTilemapBufferToVram(3);
-}
-
-static bool8 ConfirmPinyinCandidate(void)
-{
-    if (!sNamingScreen->pinyinSelecting)
-        return FALSE;
-
-    sNamingScreen->pinyinSelecting = FALSE;
-    PlaySE(SE_SELECT);
-    return FALSE;
-}
-
-static bool8 CancelPinyinCandidate(void)
-{
-    u8 i;
-    u8 start;
-
-    if (!sNamingScreen->pinyinSelecting)
-        return FALSE;
-
-    start = sNamingScreen->pinyinStartIndex;
-
-    for (i = 0; i < sNamingScreen->pinyinLen; i++)
-        sNamingScreen->textBuffer[start + i] = sNamingScreen->pinyinLettersEncoded[i];
-
-    sNamingScreen->textBuffer[start + sNamingScreen->pinyinLen] = EOS;
-
-    sNamingScreen->pinyinSelecting = FALSE;
-    DrawTextEntry();
-    CopyBgTilemapBufferToVram(3);
-    PlaySE(SE_BALL);
-    return FALSE;
 }
 
 static void CB2_NamingScreen(void)
