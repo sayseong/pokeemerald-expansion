@@ -216,14 +216,14 @@ static const u8 sPinyinKeysAscii[PINYIN_KEY_COUNT] =
 {
     'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p',
     'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'v',
-    0, 0,'z', 'x', 'c', 'b', 'n', 'm', 0, 0,
+    '-', '-','z', 'x', 'c', 'b', 'n', 'm', '-', '-',
 };
 
 static const u8 sPinyinKeysDisplay[PINYIN_KEY_COUNT] =
 {
     CHAR_q, CHAR_w, CHAR_e, CHAR_r, CHAR_t, CHAR_y, CHAR_u, CHAR_i, CHAR_o, CHAR_p,
     CHAR_a, CHAR_s, CHAR_d, CHAR_f, CHAR_g, CHAR_h, CHAR_j, CHAR_k, CHAR_l, CHAR_v,
-    EOS, EOS,CHAR_z, CHAR_x, CHAR_c, CHAR_b, CHAR_n, CHAR_m, EOS, EOS,
+    CHAR_SPACE, CHAR_SPACE, CHAR_z, CHAR_x, CHAR_c, CHAR_b, CHAR_n, CHAR_m, CHAR_SPACE, CHAR_SPACE,
 };
 
 static const u8 sDirectKeyChars[DIRECT_PAGE_COUNT][PINYIN_KEY_COUNT] =
@@ -231,12 +231,12 @@ static const u8 sDirectKeyChars[DIRECT_PAGE_COUNT][PINYIN_KEY_COUNT] =
     {
         CHAR_A, CHAR_B, CHAR_C, CHAR_D, CHAR_E, CHAR_F, CHAR_G, CHAR_H, CHAR_I, CHAR_J,
         CHAR_K, CHAR_L, CHAR_M, CHAR_N, CHAR_O, CHAR_P, CHAR_Q, CHAR_R, CHAR_S, CHAR_T,
-        EOS, EOS,CHAR_U, CHAR_V, CHAR_W, CHAR_X, CHAR_Y, CHAR_Z,  EOS, EOS,
+        CHAR_SPACE, CHAR_SPACE, CHAR_U, CHAR_V, CHAR_W, CHAR_X, CHAR_Y, CHAR_Z,  CHAR_SPACE, CHAR_SPACE,
     },
     {
         CHAR_a, CHAR_b, CHAR_c, CHAR_d, CHAR_e, CHAR_f, CHAR_g, CHAR_h, CHAR_i, CHAR_j,
         CHAR_k, CHAR_l, CHAR_m, CHAR_n, CHAR_o, CHAR_p, CHAR_q, CHAR_r, CHAR_s, CHAR_t,
-        EOS, EOS,CHAR_u, CHAR_v, CHAR_w, CHAR_x, CHAR_y, CHAR_z, EOS, EOS,
+        CHAR_SPACE, CHAR_SPACE, CHAR_v, CHAR_w, CHAR_x, CHAR_y, CHAR_z, CHAR_SPACE, CHAR_SPACE,
     },
     {
         CHAR_0, CHAR_1, CHAR_2, CHAR_3, CHAR_4, CHAR_5, CHAR_6, CHAR_7, CHAR_8, CHAR_9,
@@ -1665,7 +1665,7 @@ static u8 GetKeyboardRowKeyCount(u8 row)
         return PINYIN_KEYS_PER_ROW;
 
     if (row == PINYIN_KEY_ROWS - 1)
-        return 6;
+        return 10;
 
     return PINYIN_KEYS_PER_ROW;
 }
