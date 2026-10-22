@@ -21,7 +21,7 @@ FallarborTown_BattleTentLobby_Text_SelectThreeMons::
     .string "好的，请选择\n3只宝可梦。$"
 
 FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLv50::
-    .string "这位客人！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
 
 FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen::
     .string "这位客人！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
@@ -63,7 +63,7 @@ VerdanturfTown_BattleTentLobby_Text_TakeChallenge::
     .string "要挑战绿茵镇对战帐篷吗？$"
 
 VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent::
-    .string "在绿茵镇对战帐篷中，\n需要遵守一条关键规则——\p训练家只能替换\n自己的宝可梦，\p禁止对它们下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败7个训练家，\l我们将向您呈上精美奖品。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
+    .string "在绿茵镇对战帐篷中，\n需要遵守一条关键规则——\p训练家只能替换\n自己的宝可梦，\p禁止对它们下达\n任何战斗指令。\p宝可梦将完全凭借自己的\n本能战斗，\p您需要完全信赖您的宝可梦，\n在一边旁观它们对战。\p如果您能成功地连续\n打败3个训练家，\l我们将向您呈上精美奖品。\p如果您在挑战途中\n想要暂停的话，\p请确保在退出前完好地写下了记录。\n否则我们将视挑战为无效。$"
 
 VerdanturfTown_BattleTentLobby_Text_ReturnFortified::
     .string "当您的心灵与您的宝可梦都变得\n更强的时候，再回到这里来吧。$"
@@ -73,7 +73,7 @@ VerdanturfTown_BattleTentLobby_Text_WhichLevelMode::
     .string "有2个级别，\nLv. 50级和自由等级。\l您要挑战哪个？$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50::
-    .string "唉……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
+    .string "唉……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen::
     .string "唉……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}无法参加对战！\p请在准备就绪之后，\n再来参加吧！$"
@@ -164,7 +164,7 @@ SlateportCity_BattleTentLobby_Text_ReadWhichHeading::
     .string "要读哪一部分的说明？$"
 
 SlateportCity_BattleTentLobby_Text_ExplainBasicRules::
-    .string "在交换式对战中，\n您只能用3只宝可梦。\p无论是租借还是交换得到的，\n您的队伍中里不能出现2只\l或以上相同种类的宝可梦。$"
+    .string "在交换式对战中，\n您只能用3只宝可梦。\p无论是租借还是交换得到的，\n您的队伍中不能出现2只\l或以上相同种类的宝可梦。$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapPartnerRules::
     .string "您只能与刚击败过的训练家\n交换宝可梦。\p您只能交换到该训练家\n所使用的宝可梦。$"

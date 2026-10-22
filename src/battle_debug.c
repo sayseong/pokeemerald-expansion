@@ -370,7 +370,6 @@ static const struct ListMenuItem sVolatileStatusListItems[] =
     {COMPOUND_STRING("输电"),        VOLATILE_ELECTRIFIED},
     {COMPOUND_STRING("玩泥巴"),           VOLATILE_MUD_SPORT},
     {COMPOUND_STRING("玩水"),         VOLATILE_WATER_SPORT},
-    {COMPOUND_STRING("无限混乱"), VOLATILE_INFINITE_CONFUSION},
     {COMPOUND_STRING("盐腌"),          VOLATILE_SALT_CURE},
     {COMPOUND_STRING("满身糖"),         VOLATILE_SYRUP_BOMB},
     {COMPOUND_STRING("巨剑突击"),        VOLATILE_GLAIVE_RUSH},
@@ -384,14 +383,12 @@ static const struct ListMenuItem sVolatileStatusListItems[] =
     {COMPOUND_STRING("封印"),           VOLATILE_IMPRISON},
     {COMPOUND_STRING("怨念"),             VOLATILE_GRUDGE},
     {COMPOUND_STRING("胃液"),        VOLATILE_GASTRO_ACID},
-    {COMPOUND_STRING("查封"),            VOLATILE_EMBARGO},
+    {COMPOUND_STRING("查封"),            VOLATILE_EMBARGO_TIMER},
     {COMPOUND_STRING("击落"),         VOLATILE_SMACK_DOWN},
     {COMPOUND_STRING("意念移物"),        VOLATILE_TELEKINESIS},
     {COMPOUND_STRING("奇迹之眼"),        VOLATILE_MIRACLE_EYE},
-    {COMPOUND_STRING("电磁飘浮"),        VOLATILE_MAGNET_RISE},
-    {COMPOUND_STRING("回复封锁"),         VOLATILE_HEAL_BLOCK},
+    {COMPOUND_STRING("回复封锁"),         VOLATILE_HEAL_BLOCK_TIMER},
     {COMPOUND_STRING("水流环"),          VOLATILE_AQUA_RING},
-    {COMPOUND_STRING("磨砺"),        VOLATILE_LASER_FOCUS},
     {COMPOUND_STRING("力量戏法"),        VOLATILE_POWER_TRICK},
 };
 
@@ -729,42 +726,42 @@ static const u8 sTextColorTable[][3] =
 
 static void PutMovesPointsText(struct BattleDebugMenu *data)
 {
-    u32 i, j, count, battlerDef, chosenMoveIndex = gAiBattleData->chosenMoveIndex[data->aiBattlerId];
+    u32 chosenMoveIndex = gAiBattleData->chosenMoveIndex[data->aiBattlerId];
     u8 *text = Alloc(0x50);
 
     FillWindowPixelBuffer(data->aiMovesWindowId, 0x11);
     AddTextPrinterParameterized(data->aiMovesWindowId, FONT_NORMAL, COMPOUND_STRING("Score/Dmg"), 3, 0, 0, NULL);
-    for (i = 0; i < MAX_MON_MOVES; i++)
+    for (u32 moveIndex = 0; moveIndex < MAX_MON_MOVES; moveIndex++)
     {
         text[0] = CHAR_SPACE;
-        StringCopy(text + 1, GetMoveName(gBattleMons[data->aiBattlerId].moves[i]));
-        AddTextPrinterParameterized(data->aiMovesWindowId, FONT_NORMAL, text, 0, (i * 15) + 15, 0, NULL);
-        for (count = 0, j = 0; j < MAX_BATTLERS_COUNT; j++)
+        StringCopy(text + 1, GetMoveName(gBattleMons[data->aiBattlerId].moves[moveIndex]));
+        AddTextPrinterParameterized(data->aiMovesWindowId, FONT_NORMAL, text, 0, (moveIndex * 15) + 15, 0, NULL);
+        for (u32 count = 0, battler = 0; battler < MAX_BATTLERS_COUNT; battler++)
         {
-            if (data->spriteIds.aiIconSpriteIds[j] == 0xFF)
+            if (data->spriteIds.aiIconSpriteIds[battler] == 0xFF)
                 continue;
-            battlerDef = gSprites[data->spriteIds.aiIconSpriteIds[j]].data[0];
+            u32 battlerDef = gSprites[data->spriteIds.aiIconSpriteIds[battler]].data[0];
             ConvertIntToDecimalStringN(text,
-                                       gAiBattleData->finalScore[data->aiBattlerId][battlerDef][i],
+                                       gAiBattleData->finalScore[data->aiBattlerId][battlerDef][moveIndex],
                                        STR_CONV_MODE_RIGHT_ALIGN, 3);
             // If chosen move and chosen target
-            if ((chosenMoveIndex == i) && (gAiBattleData->chosenTarget[data->aiBattlerId] == j) && !(gAiLogicData->shouldSwitch & (1u << data->aiBattlerId)))
-                AddTextPrinterParameterized3(data->aiMovesWindowId, FONT_NORMAL, 84 + count * 54, (i * 15) + 15, sTextColorTable[COLORID_RED], 0, text);
+            if ((chosenMoveIndex == moveIndex) && (gAiBattleData->chosenTarget[data->aiBattlerId] == battlerDef) && !(gAiLogicData->shouldSwitch & (1u << data->aiBattlerId)))
+                AddTextPrinterParameterized3(data->aiMovesWindowId, FONT_NORMAL, 84 + count * 54, (moveIndex * 15) + 15, sTextColorTable[COLORID_RED], 0, text);
             else
-                AddTextPrinterParameterized(data->aiMovesWindowId, FONT_NORMAL, text, 84 + count * 54, (i * 15) + 15, 0, NULL);
+                AddTextPrinterParameterized(data->aiMovesWindowId, FONT_NORMAL, text, 84 + count * 54, (moveIndex * 15) + 15, 0, NULL);
 
-            if ((chosenMoveIndex == i) && (gAiBattleData->chosenTarget[data->aiBattlerId] == j) && !(gAiLogicData->shouldSwitch & (1u << data->aiBattlerId)))
-                AddTextPrinterParameterized3(data->aiMovesWindowId, FONT_NORMAL, 103 + count * 54, (i * 15) + 15, sTextColorTable[COLORID_RED], 0, COMPOUND_STRING("/"));
+            if ((chosenMoveIndex == moveIndex) && (gAiBattleData->chosenTarget[data->aiBattlerId] == battlerDef) && !(gAiLogicData->shouldSwitch & (1u << data->aiBattlerId)))
+                AddTextPrinterParameterized3(data->aiMovesWindowId, FONT_NORMAL, 103 + count * 54, (moveIndex * 15) + 15, sTextColorTable[COLORID_RED], 0, COMPOUND_STRING("/"));
             else
-                AddTextPrinterParameterized(data->aiMovesWindowId, FONT_NORMAL, COMPOUND_STRING("/"), 103 + count * 54, (i * 15) + 15, 0, NULL);
+                AddTextPrinterParameterized(data->aiMovesWindowId, FONT_NORMAL, COMPOUND_STRING("/"), 103 + count * 54, (moveIndex * 15) + 15, 0, NULL);
 
             ConvertIntToDecimalStringN(text,
-                                       AI_GetDamage(data->aiBattlerId, battlerDef, i, AI_ATTACKING, gAiLogicData),
+                                       AI_GetDamage(data->aiBattlerId, battlerDef, moveIndex, AI_ATTACKING, gAiLogicData),
                                        STR_CONV_MODE_LEADING_ZEROS, 3);
-            if ((chosenMoveIndex == i) && (gAiBattleData->chosenTarget[data->aiBattlerId] == j) && !(gAiLogicData->shouldSwitch & (1u << data->aiBattlerId)))
-                AddTextPrinterParameterized3(data->aiMovesWindowId, FONT_NORMAL, 110 + count * 54, (i * 15) + 15, sTextColorTable[COLORID_RED], 0, text);
+            if ((chosenMoveIndex == moveIndex) && (gAiBattleData->chosenTarget[data->aiBattlerId] == battlerDef) && !(gAiLogicData->shouldSwitch & (1u << data->aiBattlerId)))
+                AddTextPrinterParameterized3(data->aiMovesWindowId, FONT_NORMAL, 110 + count * 54, (moveIndex * 15) + 15, sTextColorTable[COLORID_RED], 0, text);
             else
-                AddTextPrinterParameterized(data->aiMovesWindowId, FONT_NORMAL, text, 110 + count * 54, (i * 15) + 15, 0, NULL);
+                AddTextPrinterParameterized(data->aiMovesWindowId, FONT_NORMAL, text, 110 + count * 54, (moveIndex * 15) + 15, 0, NULL);
 
             count++;
         }
@@ -773,7 +770,7 @@ static void PutMovesPointsText(struct BattleDebugMenu *data)
     if (gAiLogicData->shouldSwitch & (1u << data->aiBattlerId))
     {
         struct Pokemon *party = GetBattlerParty(data->aiBattlerId);
-        u32 switchMon = GetMonData(&party[gAiLogicData->mostSuitableMonId[data->aiBattlerId]], MON_DATA_SPECIES);
+        enum Species switchMon = GetMonData(&party[gAiLogicData->mostSuitableMonId[data->aiBattlerId]], MON_DATA_SPECIES);
         AddTextPrinterParameterized3(data->aiMovesWindowId, FONT_NORMAL, 74, 79, sTextColorTable[COLORID_RED], 0, COMPOUND_STRING("替换为"));
         AddTextPrinterParameterized3(data->aiMovesWindowId, FONT_NORMAL, 74 + 68, 79, sTextColorTable[COLORID_RED], 0, gSpeciesInfo[switchMon].speciesName);
     }
@@ -1628,10 +1625,10 @@ static void UpdateBattlerValue(struct BattleDebugMenu *data)
     case VAR_IN_LOVE:
         if (data->modifyArrows.currValue)
         {
-            if (IsBattlerAlive(BATTLE_OPPOSITE(data->battlerId)))
-                gBattleMons[data->battlerId].volatiles.infatuation = INFATUATED_WITH(BATTLE_OPPOSITE(data->battlerId));
+            if (IsBattlerAlive(GetOppositeBattler(data->battlerId)))
+                gBattleMons[data->battlerId].volatiles.infatuation = INFATUATED_WITH(GetOppositeBattler(data->battlerId));
             else
-                gBattleMons[data->battlerId].volatiles.infatuation = INFATUATED_WITH(BATTLE_PARTNER(BATTLE_OPPOSITE(data->battlerId)));
+                gBattleMons[data->battlerId].volatiles.infatuation = INFATUATED_WITH(GetPartnerBattler(GetOppositeBattler(data->battlerId)));
         }
         else
         {
@@ -2170,11 +2167,7 @@ static const u8 *const sHoldEffectNames[HOLD_EFFECT_COUNT] =
     [HOLD_EFFECT_RESTORE_PP]       = COMPOUND_STRING("回复PP"),
     [HOLD_EFFECT_CURE_CONFUSION]   = COMPOUND_STRING("混乱解除"),
     [HOLD_EFFECT_CURE_STATUS]      = COMPOUND_STRING("异常状态解除"),
-    [HOLD_EFFECT_CONFUSE_SPICY]    = COMPOUND_STRING("因树果太辣混乱"),
-    [HOLD_EFFECT_CONFUSE_DRY]      = COMPOUND_STRING("因树果太涩混乱"),
-    [HOLD_EFFECT_CONFUSE_SWEET]    = COMPOUND_STRING("因树果太甜混乱"),
-    [HOLD_EFFECT_CONFUSE_BITTER]   = COMPOUND_STRING("因树果太苦混乱"),
-    [HOLD_EFFECT_CONFUSE_SOUR]     = COMPOUND_STRING("因树果太酸混乱"),
+    [HOLD_EFFECT_CONFUSE_FLAVOR]   = COMPOUND_STRING("因树果味道混乱"),
     [HOLD_EFFECT_ATTACK_UP]        = COMPOUND_STRING("攻击提升"),
     [HOLD_EFFECT_DEFENSE_UP]       = COMPOUND_STRING("防御提升"),
     [HOLD_EFFECT_SPEED_UP]         = COMPOUND_STRING("速度提升"),

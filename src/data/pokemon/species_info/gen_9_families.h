@@ -2397,8 +2397,14 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .frontPic = gMonFrontPic_Tadbulb,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 4,
-        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(0, 6),
+            ANIMCMD_FRAME(1, 15),
+            ANIMCMD_FRAME(0, 26),
+            ANIMCMD_FRAME(1, 20),
+            ANIMCMD_FRAME(0, 1),
+        ),
+        .frontAnimId = ANIM_V_SLIDE_SLOW,
         .enemyMonElevation = 12,
         .backPic = gMonBackPic_Tadbulb,
         .backPicSize = MON_COORDS_SIZE(64, 64),
@@ -2462,8 +2468,12 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .frontPic = gMonFrontPic_Bellibolt,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 7,
-        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(0, 2),
+            ANIMCMD_FRAME(1, 30),
+            ANIMCMD_FRAME(0, 1),
+        ),
+        .frontAnimId = ANIM_V_JUMPS_H_JUMPS,
         .backPic = gMonBackPic_Bellibolt,
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 10,
@@ -5391,7 +5401,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
         .abilities = { ABILITY_STORM_DRAIN, ABILITY_NONE, ABILITY_STORM_DRAIN },
-        .bodyColor = BODY_COLOR_RED,
+        .bodyColor = BODY_COLOR_PINK,
         .speciesName = _("米立龙"),
     #if P_MODIFIED_MEGA_CRIES
         .cryId = CRY_TATSUGIRI_MEGA,
@@ -5448,7 +5458,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
         .abilities = { ABILITY_STORM_DRAIN, ABILITY_NONE, ABILITY_STORM_DRAIN },
-        .bodyColor = BODY_COLOR_RED,
+        .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("米立龙"),
     #if P_MODIFIED_MEGA_CRIES
         .cryId = CRY_TATSUGIRI_MEGA,
@@ -6490,7 +6500,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_DRAGON, EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_THERMAL_EXCHANGE, ABILITY_NONE, ABILITY_ICE_BODY },
+        .abilities = { ABILITY_THERMAL_EXCHANGE, ABILITY_THERMAL_EXCHANGE, ABILITY_THERMAL_EXCHANGE },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("戟脊龙"),
     #if P_MODIFIED_MEGA_CRIES
@@ -6587,8 +6597,8 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
             SHADOW_SIZE_S,
             TRACKS_NONE,
             sAnimTable_Following,
-            gOverworldPalette_GimmighoulChest,
-            gShinyOverworldPalette_GimmighoulChest
+            gOverworldPalette_Gimmighoul,
+            gShinyOverworldPalette_Gimmighoul
         )
         .levelUpLearnset = sGimmighoulLevelUpLearnset,
         .teachableLearnset = sGimmighoulTeachableLearnset,
@@ -6645,6 +6655,15 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .pokemonJumpType = PKMN_JUMP_TYPE_FAST,
         SHADOW(-1, -4, SHADOW_SIZE_S)
         FOOTPRINT(GimmighoulRoaming)
+        OVERWORLD(
+            sPicTable_GimmighoulRoaming,
+            SIZE_32x32,
+            SHADOW_SIZE_S,
+            TRACKS_NONE,
+            sAnimTable_Following,
+            gOverworldPalette_Gimmighoul,
+            gShinyOverworldPalette_Gimmighoul
+        )
         .levelUpLearnset = sGimmighoulLevelUpLearnset,
         .teachableLearnset = sGimmighoulTeachableLearnset,
         .formSpeciesIdTable = sGimmighoulFormSpeciesIdTable,
@@ -8293,6 +8312,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         SHADOW(-4, 8, SHADOW_SIZE_L)
         FOOTPRINT(TerapagosTerastal)
+    #if OW_BATTLE_ONLY_FORMS
         OVERWORLD(
             sPicTable_TerapagosTerastal,
             SIZE_32x32,
@@ -8302,6 +8322,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
             gOverworldPalette_TerapagosTerastal,
             gShinyOverworldPalette_TerapagosTerastal
         )
+    #endif
         .isRestrictedLegendary = TRUE,
         .isFrontierBanned = TRUE,
         .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
@@ -8361,6 +8382,17 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         SHADOW(0, 12, SHADOW_SIZE_L)
         FOOTPRINT(TerapagosStellar)
+    #if OW_BATTLE_ONLY_FORMS
+        OVERWORLD(
+            sPicTable_TerapagosStellar,
+            SIZE_64x64,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_TerapagosStellar,
+            gShinyOverworldPalette_TerapagosStellar
+        )
+    #endif //OW_BATTLE_ONLY_FORMS
         .isRestrictedLegendary = TRUE,
         .isTeraForm = TRUE,
         .isFrontierBanned = TRUE,
