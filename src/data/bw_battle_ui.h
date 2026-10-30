@@ -11,12 +11,12 @@ static const u8 *const sBWBattleUI_ActionBoxFields[][BUI_ACTION_BOX_ENTRY_COUNT]
 {
     // left-top -> right-bottom
     { // default
-        COMPOUND_STRING("FIGHT!"),  COMPOUND_STRING("BAG"),
-        COMPOUND_STRING("POKÉMON"), COMPOUND_STRING("RUN"),
+        COMPOUND_STRING("对战"),  COMPOUND_STRING("背包"),
+        COMPOUND_STRING("宝可梦"), COMPOUND_STRING("逃跑"),
     },
     { // safari
-        COMPOUND_STRING("BALL!"),    COMPOUND_STRING("{POKEBLOCK}"),
-        COMPOUND_STRING("GO NEAR"),  COMPOUND_STRING("RUN"),
+        COMPOUND_STRING("精灵球"),    COMPOUND_STRING("{POKEBLOCK}"),
+        COMPOUND_STRING("靠近"),  COMPOUND_STRING("逃跑"),
     },
 };
 
