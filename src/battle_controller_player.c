@@ -1855,7 +1855,6 @@ static void MoveSelectionDisplayMoveDescription(enum BattlerId battler)
     u8 cat_start[] = _("{CLEAR_TO 0x00}");
     u8 pwr_start[] = _("{CLEAR_TO 0x2A}");
     u8 acc_start[] = _("{CLEAR_TO 0x5C}");
-    u8 font_small[] = _("{FONT_SMALL}");
     // start bwBattleUI
     /*
     LoadMessageBoxAndBorderGfx();
@@ -2557,31 +2556,37 @@ static u32 CheckTargetTypeEffectiveness(enum BattlerId battler)
 static const u8 noIcon[] =  _("");
 static const u8 effectiveIcon[] =  _("{CIRCLE_HOLLOW}");
 static const u8 superEffectiveIcon[] =  _("{CIRCLE_DOT}");
+static const u8 extremeEffectiveIcon[] =  _("{STAR}");
 static const u8 notVeryEffectiveIcon[] =  _("{TRIANGLE}");
+static const u8 mostlyIneffectiveIcon[] =  _("{TRIANGLE_UPSIDE_DOWN}");
 static const u8 immuneIcon[] =  _("{BIG_MULT_X}");
 
 const u8 *BattleUI_GetTypeEffectivenessSymbol(enum BattlerId battler, enum Move move)
 {
     if (IsBattleMoveStatus(move)) return noIcon;
 
-    enum BattlerId battlerDef = BATTLE_OPPOSITE(battler);
+    enum BattlerId battlerDef = GetOppositeBattler(battler);
     if (GetBattlerCoordsIndex(battlerDef) == BATTLE_COORDS_DOUBLES)
         battlerDef = gMultiUsePlayerCursor;
 
-    if (battlerDef == 0xFF) return noIcon;
+    if (battlerDef >= gBattlersCount) return noIcon;
     if (!ShouldShowTypeEffectiveness(battlerDef)) return noIcon;
 
-    struct BattleContext ctx = {
-        .battlerAtk = battler,
-        .battlerDef = battlerDef,
-        .move = move,
-        .moveType = CheckDynamicMoveType(GetBattlerMon(battler), move, battler, MON_IN_BATTLE),
-        .updateFlags = FALSE,
-        .abilityAtk = GetBattlerAbility(battler),
-        .abilityDef = GetBattlerAbility(battlerDef),
-        .holdEffectAtk = GetBattlerHoldEffect(battler),
-        .holdEffectDef = GetBattlerHoldEffect(battlerDef),
-    };
+    // Use the same DamageContext layout and initialization as
+    // CheckTypeEffectiveness above. BattleContext is not defined here.
+    struct DamageContext ctx = {0};
+    ctx.battlerAtk = battler;
+    ctx.battlerDef = battlerDef;
+    ctx.move = move;
+    ctx.moveType = CheckDynamicMoveType(GetBattlerMon(battler), move, battler, MON_IN_BATTLE);
+    ctx.updateFlags = FALSE;
+    ctx.weather = GetWeather();
+    ctx.terrain = gFieldTimers.terrain;
+    ctx.abilities[ctx.battlerAtk] = GetBattlerAbility(battler);
+    ctx.abilities[ctx.battlerDef] = GetBattlerAbility(battlerDef);
+    ctx.holdEffects[ctx.battlerAtk] = GetBattlerHoldEffect(battler);
+    ctx.holdEffects[ctx.battlerDef] = GetBattlerHoldEffect(battlerDef);
+
     uq4_12_t modifier = CalcTypeEffectivenessMultiplier(&ctx);
 
     if (modifier == UQ_4_12(0.0))
@@ -2632,7 +2637,7 @@ static void MoveSelectionDisplayMoveEffectiveness(u32 foeEffectiveness, enum Bat
         switch (foeEffectiveness)
         {
         case EFFECTIVENESS_EXTREMELY_EFFECTIVE:
-            StringCopy(txtPtr, extremeleyEffectiveIcon);
+            StringCopy(txtPtr, extremeEffectiveIcon);
             break;
         case EFFECTIVENESS_SUPER_EFFECTIVE:
             StringCopy(txtPtr, superEffectiveIcon);

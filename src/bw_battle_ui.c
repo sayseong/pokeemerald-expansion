@@ -289,7 +289,6 @@ void BattleUI_SetCursorMode(enum BWBattleUICursorMode mode)
 
 enum BWBattleUICursorMode BattleUI_GetCursorMode(void)
 {
-    // filter out BUI_CURSOR_CONVERT_FLAG
     return (gSprites[BattleUI_GetCursorSpriteId()].sCursorMode & 0xFF);
 }
 
@@ -298,7 +297,7 @@ void BattleUI_DisplayMoveBox(enum BattlerId battler)
     u32 *tilemap = malloc_and_decompress(BattleUI_GetTextboxTilemap(), NULL);
     CopyRectToBgTilemapBufferRect(0, tilemap,
         0, 0,
-        32, DISPLAY_TILE_HEIGHT, // we only need top-most part
+        32, DISPLAY_TILE_HEIGHT,
         0, 40,
         DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT,
         0, 0, 0);
@@ -344,13 +343,9 @@ u32 BattleUI_LoadSpritePalette(enum BWBattleUISpritePaletteType type, u32 tag)
 
 s16 BattleUI_GetHealthboxCoords(enum BattleCoordTypes index, enum BattlerPosition position, u32 coord)
 {
-    // the base sprite size is typically 64x32 (spawned as two sprites so 128x32).
-    // for x/y coords, we divide them by 2 to get proper offset on the screen
-    // despite the player's base sprite size being 64x64 instead, it only works
-    // using 64x32 math.. and GetSpriteWidth/Height does not seem to work either
     s16 offset;
 
-    if (coord == 0) // x
+    if (coord == 0)
         offset = TILE_TO_PIXELS(4);
     else
         offset = TILE_TO_PIXELS(2);
@@ -444,7 +439,6 @@ void BattleUI_UpdateHealthboxHPText(u32 spriteId, s32 currHp, s32 maxHp)
     u32 spriteId2 = sprite->oam.affineParam;
     struct Sprite *sprite2 = &gSprites[spriteId2];
 
-    // backup data[1] for sprite printer
     s16 data1 = sprite->data[1];
     s16 data2 = sprite2->data[1];
 
@@ -470,7 +464,7 @@ void BattleUI_UpdateHealthboxHPText(u32 spriteId, s32 currHp, s32 maxHp)
         fontId = FONT_SMALL;
 
         FillSpriteRectColor(spriteId, TILE_TO_PIXELS(7), yOffset, TILE_TO_PIXELS(7), 8, 2);
-        yOffset -= 3; // text offset
+        yOffset -= 3;
     }
 
     u32 strWidth = GetStringWidth(fontId, strbuf, 0);
@@ -522,9 +516,8 @@ void BattleUI_UpdateHpBarGraphically(enum BattlerId battler, u32 currVal, u32 ma
     u32 hpboxSpriteId = gBattleSpritesDataPtr->battleBars[battler].healthboxSpriteId;
     u32 hpbarSpriteId = gSprites[hpboxSpriteId].hMain_HealthBarSpriteId;
 
-    BattleUI_CopyElementToSprite(hpbarSpriteId, sBWBattleUI_HPBarText, 0, 2); // HP |
+    BattleUI_CopyElementToSprite(hpbarSpriteId, sBWBattleUI_HPBarText, 0, 2);
 
-    // the redundant copies needs to be done manually for pixelCountArray
     for (u32 i = 0; i < 6; i++)
         BattleUI_CopyElementToSprite(hpbarSpriteId, hpBarGfx + TILE_TO_PIXELS(pixelCountArray[i]), 2 + i, 1);
 
@@ -638,7 +631,6 @@ void BattleUI_DestroyAbilityPopUp(enum BattlerId battler)
 
 u32 BattleUI_CreateGimmickTriggerSprite(enum BattlerId battler)
 {
-    // decrement to exclude GIMMICK_NONE
     enum Gimmick gimmick = gBattleStruct->gimmick.usableGimmick[battler] - 1;
 
     BattleUI_LoadSpritePalette(BUI_SPRITE_PAL_GIMMICK_TRIGGER_MEGA + gimmick, TAG_GIMMICK_TRIGGER_TILE);
@@ -717,7 +709,7 @@ void Task_BattleUIBounceLastBallIcon(u8 taskId)
         sprite = &gSprites[gBattleStruct->ballSpriteIds[0]];
         BattleUI_SetLastBallIconAttributes(sprite);
         sprite->sLBI_Y2 = tLBI_Y2;
-        sprite->y2 = tLBI_Y2 - 2; // bounced up
+        sprite->y2 = tLBI_Y2 - 2;
         sprite->callback = SpriteCallbackDummy;
         // fallthrough
     case LBI_STATE_BOUNCE_DOWN:
@@ -735,7 +727,6 @@ void Task_BattleUIBounceLastBallIcon(u8 taskId)
         break;
     }
 
-    // Check if the R button was released before the animation was complete
     if (!gLastUsedBallMenuPresent)
     {
         sprite->y2 = sprite->sLBI_Y2;
@@ -744,7 +735,6 @@ void Task_BattleUIBounceLastBallIcon(u8 taskId)
     }
 }
 
-// local
 static void SpriteCB_BattleUICursor(struct Sprite *sprite)
 {
     enum BWBattleUICursorMode mode = BattleUI_GetCursorMode();
@@ -753,11 +743,11 @@ static void SpriteCB_BattleUICursor(struct Sprite *sprite)
 
     switch (gBattle_BG0_Y)
     {
-    case 0: // textbox
+    case 0:
     default:
         mode = BUI_CURSOR_MODE_HIDDEN;
         break;
-    case DISPLAY_HEIGHT: // action menu
+    case DISPLAY_HEIGHT:
         mode = BUI_CURSOR_MODE_ACTION;
         break;
     case DISPLAY_HEIGHT * 2:
@@ -846,7 +836,6 @@ static void SpriteCB_BounceLastBallIcon(struct Sprite *sprite)
 {
     if (!sprite->sLBI_Moving) return;
 
-    // can't use BattleUI_PlayVerticalSlideAnim as the target cannot be 0
     s32 target = sprite->sLBI_Y2 - (2 * sprite->sLBI_Bounce);
     s32 speed = sprite->sLBI_Bounce ? -1 : 1;
 
@@ -908,8 +897,6 @@ static void Task_BattleUIHandleAbilityPopUp(u8 taskId)
         tAPU_State = tAPU_NewAbility ? APU_STATE_MOSAIC : APU_STATE_GLOW;
         break;
     }
-
-    // default
     case APU_STATE_GLOW:
     {
         RunTextPrinters();
@@ -920,7 +907,7 @@ static void Task_BattleUIHandleAbilityPopUp(u8 taskId)
         PlaySE(SE_M_HARDEN);
         BeginNormalPaletteFade(1 << (16 + sprite1->oam.paletteNum), 0, 0, 16, RGB_WHITE);
         tAPU_State = APU_STATE_FADE;
-        // fallthrough
+        break;
     }
     case APU_STATE_FADE:
     {
@@ -935,8 +922,6 @@ static void Task_BattleUIHandleAbilityPopUp(u8 taskId)
         tAPU_State = APU_STATE_WAIT;
         break;
     }
-
-    // ability overwrite
     case APU_STATE_MOSAIC:
     {
         RunTextPrinters();
@@ -967,7 +952,6 @@ static void Task_BattleUIHandleAbilityPopUp(u8 taskId)
         tAPU_State = APU_STATE_WAIT;
         break;
     }
-
     case APU_STATE_WAIT:
     {
         if (tAPU_NewAbility)
@@ -1070,17 +1054,14 @@ static void BattleUI_DisplayNormalMoveBox(enum BattlerId battler, struct ChooseM
         u32 windowId = B_WIN_MOVE_NAME_1 + i;
         u32 moveId = (hasDynamax) ? GetMaxMove(battler, moveInfo->moves[i]) : moveInfo->moves[i];
 
-        // template
         BattleUI_DisplayMoveBoxGraphics(battler, windowId);
 
-        // type
         enum Type type = (moveId == MOVE_NONE) ? TYPE_MYSTERY : GetMoveType(moveId);
         LoadPalette(sBWBattleUI_MoveBoxPalette, BG_PLTT_ID(10 + i), PLTT_SIZE_4BPP);
         LoadPalette(&sBWBattleUI_MoveBoxTypePalettes[type * 3], BG_PLTT_ID(10 + i) + 10, PLTT_SIZEOF(3));
 
         if (moveId != MOVE_NONE)
         {
-            // name
             StringCopy(gDisplayedStringBattle, GetMoveName(moveId));
             if (B_SHOW_EFFECTIVENESS)
             {
@@ -1092,26 +1073,31 @@ static void BattleUI_DisplayNormalMoveBox(enum BattlerId battler, struct ChooseM
 
             BattleUI_AddTextPrinter(windowId, fontId, x, 4, BUI_TXTCLR_MOVE_BOX, gDisplayedStringBattle);
 
-            // pp
             if (gBattleResources->bufferA[battler][2] != TRUE)
             {
-                u8 *txtPtr = ConvertIntToDecimalStringN(gDisplayedStringBattle, moveInfo->currentPp[i],
+                u8 *txtPtr = ConvertIntToDecimalStringN(gDisplayedStringBattle, moveInfo->currentPP[i],
                                                         STR_CONV_MODE_RIGHT_ALIGN, 2);
                 *(txtPtr)++ = CHAR_SLASH;
-                ConvertIntToDecimalStringN(txtPtr, moveInfo->maxPp[i], STR_CONV_MODE_LEFT_ALIGN, 2);
+                ConvertIntToDecimalStringN(txtPtr, moveInfo->maxPP[i], STR_CONV_MODE_LEFT_ALIGN, 2);
 
-                u32 state = GetCurrentPpToMaxPpState(moveInfo->currentPp[i], moveInfo->maxPp[i]);
+                u32 state = GetCurrentPPToMaxPPState(moveInfo->currentPP[i], moveInfo->maxPP[i]);
                 x += GetStringRightAlignXOffset(FONT_SMALL, gDisplayedStringBattle, TILE_TO_PIXELS(12));
 
                 union TextColor clr = sBWBattleUI_TextColors[BUI_TXTCLR_MOVE_BOX];
                 clr.foreground = state + 1;
 
-                // can't use BattleUI_AddTextPrinter directly
-                AddTextPrinterParameterized6(windowId, FONT_SMALL,
+                u8 colors[3] = {
+                    clr.background,
+                    clr.foreground,
+                    clr.shadow
+                };
+
+                AddTextPrinterParameterized4(windowId, FONT_SMALL,
                     x, 4,
                     0, 0,
-                    clr,
-                    TEXT_SKIP_DRAW, gDisplayedStringBattle);
+                    colors,
+                    TEXT_SKIP_DRAW,
+                    gDisplayedStringBattle);
             }
         }
 
@@ -1127,7 +1113,6 @@ static void BattleUI_DisplayNormalMoveBox(enum BattlerId battler, struct ChooseM
         }
     }
 
-    // must be copied separately, otherwise you can see this gets shown on screen before the z move box gets cleared.
     PutWindowRectTilemap(B_WIN_MOVE_NAME_1, 0, 0, 14, 3);
     CopyWindowRectToVram(B_WIN_MOVE_NAME_1, COPYWIN_GFX, 0, 0, 14, 3);
 }
@@ -1142,15 +1127,12 @@ static void BattleUI_DisplayZMoveBox(enum BattlerId battler, struct ChooseMoveSt
 
     bool32 isStatusMove = IsBattleMoveStatus(move);
 
-    // template
     BattleUI_DisplayMoveBoxGraphics(battler, windowId);
 
-    // type
     enum Type type = (zMove == MOVE_NONE) ? TYPE_MYSTERY : GetMoveType(zMove);
     LoadPalette(sBWBattleUI_MoveBoxPalette, BG_PLTT_ID(10), PLTT_SIZE_4BPP);
     LoadPalette(&sBWBattleUI_MoveBoxTypePalettes[type * 3], BG_PLTT_ID(10) + 10, PLTT_SIZEOF(3));
 
-    // name
     if (isStatusMove)
     {
         gDisplayedStringBattle[0] = CHAR_Z;
@@ -1171,7 +1153,6 @@ static void BattleUI_DisplayZMoveBox(enum BattlerId battler, struct ChooseMoveSt
 
     BattleUI_AddTextPrinter(windowId, FONT_SMALL, x, 6, BUI_TXTCLR_MOVE_BOX, gDisplayedStringBattle);
 
-    // description
     u8 *txtPtr = NULL;
 
     if (isStatusMove)
@@ -1264,7 +1245,7 @@ static void BattleUI_DisplayZMoveBox(enum BattlerId battler, struct ChooseMoveSt
             break;
         }
     }
-    else if (GetMoveEffect(zMove) == EFFECT_EXTREME_EVOBOOST) // Damaging move -> status z move
+    else if (GetMoveEffect(zMove) == EFFECT_EXTREME_EVOBOOST)
     {
         StringCopy(gDisplayedStringBattle, COMPOUND_STRING("++ All Stats"));
     }
@@ -1281,13 +1262,13 @@ static void BattleUI_DisplayZMoveBox(enum BattlerId battler, struct ChooseMoveSt
         txtPtr = ConvertIntToDecimalStringN(txtPtr, power, STR_CONV_MODE_LEFT_ALIGN, 3);
     }
 
-    bool32 showMovePp = gBattleResources->bufferA[battler][2] != TRUE || move != MOVE_NONE;
+    bool32 showMovePP = gBattleResources->bufferA[battler][2] != TRUE || move != MOVE_NONE;
 
-    u32 tile = showMovePp ? 14 : 28;
+    u32 tile = showMovePP ? 14 : 28;
     x = GetStringCenterAlignXOffset(FONT_SMALL, gDisplayedStringBattle, TILE_TO_PIXELS(tile));
     BattleUI_AddTextPrinter(windowId, FONT_SMALL, x, TILE_TO_PIXELS(3) + 2, BUI_TXTCLR_MOVE_BOX, gDisplayedStringBattle);
 
-    if (showMovePp)
+    if (showMovePP)
     {
         txtPtr = StringCopy(gDisplayedStringBattle, COMPOUND_STRING("PP: "));
         txtPtr = ConvertIntToDecimalStringN(txtPtr, 1, STR_CONV_MODE_RIGHT_ALIGN, 2);
@@ -1321,7 +1302,6 @@ static void BattleUI_UpdateHealthboxLvlText(u32 spriteId, struct Pokemon *mon)
         gender = 100;
     }
 
-    // use StringCopy to override StringGet_Nickname
     switch (gender)
     {
     case MON_MALE:
@@ -1373,7 +1353,6 @@ static void BattleUI_UpdateHealthboxNickText(u32 spriteId, struct Pokemon *mon)
     GetMonData(mon, MON_DATA_NICKNAME, gDisplayedStringBattle);
     StringGet_Nickname(gDisplayedStringBattle);
 
-    // backup data[1] for sprite printer
     s16 data1 = sprite->data[1];
     s16 data2 = sprite2->data[1];
 
@@ -1451,7 +1430,6 @@ static void BattleUI_UpdateHealthboxStatusIcon(u32 spriteId, struct Pokemon *mon
     LoadPalette(&sBWBattleUI_StatusIconPalette[statusPalIdx],
         OBJ_PLTT_ID(sprite->oam.paletteNum) + battlerPalIdx, PLTT_SIZEOF(1));
 
-    // backup data[1] for sprite printer
     s16 data1 = sprite->data[1];
     s16 data2 = sprite2->data[1];
 
@@ -1537,10 +1515,8 @@ static void BattleUI_PrintNumOfSafariBallsText(u32 spriteId)
 
 static s16 BattleUI_GetAbilityPopUpCoords(enum BattleCoordTypes index, enum BattlerPosition position, u32 coord)
 {
-    // the base sprite size is 64x32 (spawned as two sprites so 128x32).
-    // for x/y coords, we divide them by 2 to get proper offset on the screen
     u32 offset;
-    if (coord == 0) // x
+    if (coord == 0)
         offset = TILE_TO_PIXELS(4);
     else
         offset = TILE_TO_PIXELS(2);
@@ -1618,7 +1594,25 @@ static void BattleUI_CopyElementToSprite(u32 spriteId, const u32 *element, u32 t
 
 static void BattleUI_AddTextPrinter(u32 windowId, u32 fontId, u32 x, u32 y, enum BattleUITextColors color, const u8 *str)
 {
-    AddTextPrinterParameterized6(windowId, fontId, x, y, 0, 0, sBWBattleUI_TextColors[color], TEXT_SKIP_DRAW, str);
+    union TextColor clr = sBWBattleUI_TextColors[color];
+
+    u8 colors[3] = {
+        clr.background,
+        clr.foreground,
+        clr.shadow
+    };
+
+    AddTextPrinterParameterized4(
+        windowId,
+        fontId,
+        x,
+        y,
+        0,
+        0,
+        colors,
+        TEXT_SKIP_DRAW,
+        str
+    );
 }
 
 static void BattleUI_AddSpriteTextPrinter(u32 spriteId, u32 fontId, u32 x, u32 y, enum BattleUITextColors color, const u8 *str)
@@ -1639,7 +1633,6 @@ static bool32 BattleUI_PlayVerticalSlideAnim(bool32 hide, s16 *y, s32 target, s3
     else
         (*y) += speed;
 
-    // check again if we finally reached the target
     if (*y == target)
         return TRUE;
 
