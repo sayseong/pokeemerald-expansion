@@ -27,19 +27,19 @@ static const struct {
     const u8 *before;
     const u8 *after;
 } sHyphenRemovalPatterns[] = {
-    {COMPOUND_STRING("Incine"),  COMPOUND_STRING("roar")},
-    {COMPOUND_STRING("La"),      COMPOUND_STRING("riat")},
-    {COMPOUND_STRING("Marsha"),  COMPOUND_STRING("dow")},
-    {COMPOUND_STRING("Thi"),     COMPOUND_STRING("ef")},
-    {COMPOUND_STRING("Elec"),    COMPOUND_STRING("tric")},
-    {COMPOUND_STRING("Fight"),   COMPOUND_STRING("ing")},
-    {COMPOUND_STRING("pro"),     COMPOUND_STRING("motes")},
-    {COMPOUND_STRING("Decidu"),  COMPOUND_STRING("eye")},
-    {COMPOUND_STRING("Sha"),     COMPOUND_STRING("ckle")},
-    {COMPOUND_STRING("invigor"), COMPOUND_STRING("ating")},
-    {COMPOUND_STRING("Thunder"), COMPOUND_STRING("bolt")},
-    {COMPOUND_STRING("inde"),    COMPOUND_STRING("scribable")},
-    {COMPOUND_STRING("Poké"),    COMPOUND_STRING("mon")},
+    {COMPOUND_STRING("炽焰"),  COMPOUND_STRING("咆哮")},
+    {COMPOUND_STRING("臂"),    COMPOUND_STRING("锤")},
+    {COMPOUND_STRING("玛"),    COMPOUND_STRING("夏")},
+    {COMPOUND_STRING("小"),    COMPOUND_STRING("偷")},
+    {COMPOUND_STRING("电"),    COMPOUND_STRING("气")},
+    {COMPOUND_STRING("格"),    COMPOUND_STRING("斗")},
+    {COMPOUND_STRING("促"),    COMPOUND_STRING("进")},
+    {COMPOUND_STRING("狙射"),  COMPOUND_STRING("树枭")},
+    {COMPOUND_STRING("壶"),    COMPOUND_STRING("壶")},
+    {COMPOUND_STRING("振奋"),  COMPOUND_STRING("人心")},
+    {COMPOUND_STRING("十万伏"),COMPOUND_STRING("特")},
+    {COMPOUND_STRING("难以"),  COMPOUND_STRING("形容")},
+    {COMPOUND_STRING("宝可"),  COMPOUND_STRING("梦")},
 };
 
 static bool32 ShouldRemoveHyphen(const u8 *p, const u8 *start)

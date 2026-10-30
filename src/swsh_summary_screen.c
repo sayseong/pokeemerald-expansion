@@ -498,81 +498,80 @@ static const u8 sMemoMiscTextColor[]            = _("{COLOR WHITE}{SHADOW DARK_G
 static const u8 sStatsHPLayout[]                = _("{DYNAMIC 0}/{DYNAMIC 1}");
 static const u8 sStatsHPIVEVLayout[]            = _("{DYNAMIC 0}");
 static const u8 sMovesPPLayout[]                = _("{DYNAMIC 0}/{DYNAMIC 1}");
-static const u8 sEggStepsLayout[]               = _("{DYNAMIC 0} steps");
+static const u8 sEggStepsLayout[]               = _("{DYNAMIC 0}步");
 
 static const u8 sText_Empty[]                   = _("");
-static const u8 sText_Cancel[]                  = _("Cancel");
-static const u8 sText_Switch[]                  = _("Switch");
-static const u8 sText_Rename[]                  = _("Rename");
-static const u8 sText_Lv[]                      = _("Lv.");
-static const u8 sText_HP_Title[]                = _("HP");
-static const u8 sText_Attack_Title[]            = _("Attack");
-static const u8 sText_Defense_Title[]           = _("Defense");
-static const u8 sText_SpAtk_Title[]             = _("Sp. Atk");
-static const u8 sText_SpDef_Title[]             = _("Sp. Def");
-static const u8 sText_Speed_Title[]             = _("Speed");
-static const u8 sText_ViewIVs[]                 = _("View IV");
-static const u8 sText_ViewEVs[]                 = _("View EV");
-static const u8 sText_ViewStats[]               = _("View Stats");
-static const u8 sText_Exp[]                     = _("Exp.");
-static const u8 sText_NextLv[]                  = _("Next Lv.");
-static const u8 sText_RentalPkmn[]              = _("Rental Pokémon");
-static const u8 sText_None[]                    = _("None");
-static const u8 sText_Egg[]                     = _("Egg");
+static const u8 sText_Cancel[]                  = _("取消");
+static const u8 sText_Switch[]                  = _("排序");
+static const u8 sText_Rename[]                  = _("重命名");
+static const u8 sText_Lv[]                      = _("等级.");
+static const u8 sText_HP_Title[]                = _("体力");
+static const u8 sText_Attack_Title[]            = _("攻击");
+static const u8 sText_Defense_Title[]           = _("防守");
+static const u8 sText_SpAtk_Title[]             = _("特攻");
+static const u8 sText_SpDef_Title[]             = _("特防");
+static const u8 sText_Speed_Title[]             = _("速度");
+static const u8 sText_ViewIVs[]                 = _("查看个体值");
+static const u8 sText_ViewEVs[]                 = _("查看努力值");
+static const u8 sText_ViewStats[]               = _("查看状态");
+static const u8 sText_Exp[]                     = _("经验值");
+static const u8 sText_NextLv[]                  = _("距离下一级");
+static const u8 sText_RentalPkmn[]              = _("租借宝可梦");
+static const u8 sText_None[]                    = _("无");
+static const u8 sText_Egg[]                     = _("蛋");
 static const u8 sText_Nature[]                  = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}");
 static const u8 sText_MintNature[]              = _("{DYNAMIC 0}{DYNAMIC 2} {EMOJI_LEAF}{DYNAMIC 1}");
 
 // Relearn prompt texts
-static const u8 sText_Relearn[]                  = _("Relearn");
-static const u8 sText_Info[]                     = _("Info");
+static const u8 sText_Relearn[]                  = _("回忆");
+static const u8 sText_Info[]                     = _("信息");
 
 // Trainer Memo page texts
-static const u8 sText_MemoNature[]              = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} by nature");
-static const u8 sText_MemoMet[]                 = _("Met when it was {LV_2}. {DYNAMIC 1}{DYNAMIC 3}{DYNAMIC 1}\nLocation: {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}");
-static const u8 sText_MemoHatched[]             = _("Hatched from an egg\nLocation: {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}");
-static const u8 sText_MemoTraded[]              = _("Met in a trade");
-static const u8 sText_MemoFateful[]             = _("Met in a fateful encounter\nat {LV_2}. {DYNAMIC 1}{DYNAMIC 3}{DYNAMIC 1}");
-static const u8 sText_MemoProbablyMet[]         = _("Seems to have met at {LV_2}. {DYNAMIC 1}{DYNAMIC 3}{DYNAMIC 1}\nLocation: {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}");
-static const u8 sText_MemoMetSomewhere[]        = _("Met somewhere at {LV_2}. {DYNAMIC 1}{DYNAMIC 3}{DYNAMIC 1}");
-static const u8 sText_MemoHatchedSomewhere[]    = _("Hatched from an egg\nsomewhere.");
+static const u8 sText_MemoNature[]              = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}的性格");
+static const u8 sText_MemoMet[]                 = _("在{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}，\n遇见了当时{LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}的它。");
+static const u8 sText_MemoHatched[]             = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}的性格，\n在{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}孵化了。");
+static const u8 sText_MemoTraded[]              = _("通过交换遇见了它。");
+static const u8 sText_MemoFateful[]             = _("命中注定般地遇见了当时{LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}的它。");
+static const u8 sText_MemoProbablyMet[]         = _("好像在{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}，\n遇见了当时{LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}的它。");
+static const u8 sText_MemoMetSomewhere[]        = _("在某个地方，\n遇见了当时{LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}的它。");
+static const u8 sText_MemoHatchedSomewhere[]    = _("在某个地方孵化了。");
 
 // Characteristics
-static const u8 sCharacteristic_HP_0[]          = _("Loves to eat");
-static const u8 sCharacteristic_HP_1[]          = _("Takes plenty of siestas");
-static const u8 sCharacteristic_HP_2[]          = _("Nods off a lot");
-static const u8 sCharacteristic_HP_3[]          = _("Scatters things often");
-static const u8 sCharacteristic_HP_4[]          = _("Likes to relax");
+static const u8 sCharacteristic_HP_0[]          = _("喜欢吃东西");
+static const u8 sCharacteristic_HP_1[]          = _("经常睡午觉");
+static const u8 sCharacteristic_HP_2[]          = _("经常打瞌睡");
+static const u8 sCharacteristic_HP_3[]          = _("经常乱扔东西");
+static const u8 sCharacteristic_HP_4[]          = _("喜欢悠闲自在");
 
-static const u8 sCharacteristic_Atk_0[]         = _("Proud of its power");
-static const u8 sCharacteristic_Atk_1[]         = _("Likes to thrash about");
-static const u8 sCharacteristic_Atk_2[]         = _("A little quick tempered");
-static const u8 sCharacteristic_Atk_3[]         = _("Likes to fight");
-static const u8 sCharacteristic_Atk_4[]         = _("Quick tempered");
+static const u8 sCharacteristic_Atk_0[]         = _("以自己的力量为傲");
+static const u8 sCharacteristic_Atk_1[]         = _("喜欢横冲直撞");
+static const u8 sCharacteristic_Atk_2[]         = _("有点容易生气");
+static const u8 sCharacteristic_Atk_3[]         = _("喜欢战斗");
+static const u8 sCharacteristic_Atk_4[]         = _("性情急躁");
 
-static const u8 sCharacteristic_Def_0[]         = _("Sturdy body");
-static const u8 sCharacteristic_Def_1[]         = _("Capable of taking hits");
-static const u8 sCharacteristic_Def_2[]         = _("Highly persistent");
-static const u8 sCharacteristic_Def_3[]         = _("Good endurance");
-static const u8 sCharacteristic_Def_4[]         = _("Good perseverance");
+static const u8 sCharacteristic_Def_0[]         = _("身体十分结实");
+static const u8 sCharacteristic_Def_1[]         = _("擅长承受攻击");
+static const u8 sCharacteristic_Def_2[]         = _("非常有毅力");
+static const u8 sCharacteristic_Def_3[]         = _("耐力十足");
+static const u8 sCharacteristic_Def_4[]         = _("意志坚强");
 
-static const u8 sCharacteristic_Speed_0[]       = _("Likes to run");
-static const u8 sCharacteristic_Speed_1[]       = _("Alert to sounds");
-static const u8 sCharacteristic_Speed_2[]       = _("Impetuous and silly");
-static const u8 sCharacteristic_Speed_3[]       = _("Somewhat of a clown");
-static const u8 sCharacteristic_Speed_4[]       = _("Quick to flee");
+static const u8 sCharacteristic_Speed_0[]       = _("喜欢到处奔跑");
+static const u8 sCharacteristic_Speed_1[]       = _("对声音十分敏感");
+static const u8 sCharacteristic_Speed_2[]       = _("冲动又冒失");
+static const u8 sCharacteristic_Speed_3[]       = _("有点像个小丑");
+static const u8 sCharacteristic_Speed_4[]       = _("一有机会就会逃跑");
 
-static const u8 sCharacteristic_SpAtk_0[]       = _("Highly curious");
-static const u8 sCharacteristic_SpAtk_1[]       = _("Mischievous");
-static const u8 sCharacteristic_SpAtk_2[]       = _("Thoroughly cunning");
-static const u8 sCharacteristic_SpAtk_3[]       = _("Often lost in thought");
-static const u8 sCharacteristic_SpAtk_4[]       = _("Very finicky");
+static const u8 sCharacteristic_SpAtk_0[]       = _("好奇心旺盛");
+static const u8 sCharacteristic_SpAtk_1[]       = _("喜欢恶作剧");
+static const u8 sCharacteristic_SpAtk_2[]       = _("十分狡猾");
+static const u8 sCharacteristic_SpAtk_3[]       = _("经常陷入沉思");
+static const u8 sCharacteristic_SpAtk_4[]       = _("非常挑剔");
 
-static const u8 sCharacteristic_SpDef_0[]       = _("Strong willed");
-static const u8 sCharacteristic_SpDef_1[]       = _("Somewhat vain");
-static const u8 sCharacteristic_SpDef_2[]       = _("Strongly defiant");
-static const u8 sCharacteristic_SpDef_3[]       = _("Hates to lose");
-static const u8 sCharacteristic_SpDef_4[]       = _("Somewhat stubborn");
-
+static const u8 sCharacteristic_SpDef_0[]       = _("意志坚定");
+static const u8 sCharacteristic_SpDef_1[]       = _("有点爱慕虚荣");
+static const u8 sCharacteristic_SpDef_2[]       = _("不轻易屈服");
+static const u8 sCharacteristic_SpDef_3[]       = _("讨厌输掉比赛");
+static const u8 sCharacteristic_SpDef_4[]       = _("有点顽固");
 static const u8 *const sMonCharacteristicTable[MON_CHARACTERISTIC_COUNT] = {
     // HP
     sCharacteristic_HP_0,
