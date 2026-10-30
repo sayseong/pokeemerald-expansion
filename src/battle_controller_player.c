@@ -2520,12 +2520,10 @@ static u32 CheckTypeEffectiveness(enum BattlerId battlerAtk, enum BattlerId batt
     }
 
     if (modifier == UQ_4_12(0.0))
-    {
         return EFFECTIVENESS_NO_EFFECT; // No effect
     else if (modifier <= UQ_4_12(0.25))
         return EFFECTIVENESS_MOSTLY_INEFFECTIVE; // Mostly ineffective
     else if (modifier <= UQ_4_12(0.5))
-    {
         return EFFECTIVENESS_NOT_VERY_EFFECTIVE; // Not very effective
     else if (modifier >= UQ_4_12(4.0))
         return EFFECTIVENESS_EXTREMELY_EFFECTIVE; // Extremely effective
